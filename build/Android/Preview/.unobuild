@@ -1,0 +1,4 @@
+$: 283814982
+BuildCommand: "bash build.sh"
+RunCommand: "bash run.sh"
+Product: mood_calendar.apk
