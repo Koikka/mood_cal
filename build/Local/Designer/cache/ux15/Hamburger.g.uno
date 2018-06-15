@@ -47,6 +47,10 @@ public partial class Hamburger: Fuse.Controls.Rectangle
         this.HitTestMode = Fuse.Elements.HitTestMode.LocalBounds;
         this.Width = new Uno.UX.Size(56f, Uno.UX.Unit.Unspecified);
         this.Height = new Uno.UX.Size(56f, Uno.UX.Unit.Unspecified);
+        this.SourceLineNumber = 1;
+        this.SourceFileName = "Hamburger.ux";
+        temp.SourceLineNumber = 4;
+        temp.SourceFileName = "Hamburger.ux";
         temp.Animators.Add(temp3);
         temp.Animators.Add(temp4);
         temp.Animators.Add(temp5);
@@ -81,9 +85,15 @@ public partial class Hamburger: Fuse.Controls.Rectangle
         temp7.Duration = 0.5;
         temp7.Target = mid;
         temp7.Easing = Fuse.Animations.Easing.QuarticInOut;
+        temp2.SourceLineNumber = 4;
+        temp2.SourceFileName = "Hamburger.ux";
+        temp1.SourceLineNumber = 4;
+        temp1.SourceFileName = "Hamburger.ux";
         temp9.ItemSpacing = 4f;
         temp9.Width = new Uno.UX.Size(25f, Uno.UX.Unit.Unspecified);
         temp9.Alignment = Fuse.Elements.Alignment.VerticalCenter;
+        temp9.SourceLineNumber = 14;
+        temp9.SourceFileName = "Hamburger.ux";
         temp9.Children.Add(top);
         temp9.Children.Add(mid);
         temp9.Children.Add(bot);
@@ -91,14 +101,20 @@ public partial class Hamburger: Fuse.Controls.Rectangle
         top.Color = float4(0.9333333f, 0.9333333f, 0.9333333f, 1f);
         top.Height = new Uno.UX.Size(2f, Uno.UX.Unit.Unspecified);
         top.Name = __selector1;
+        top.SourceLineNumber = 15;
+        top.SourceFileName = "Hamburger.ux";
         mid.CornerRadius = float4(1f, 1f, 1f, 1f);
         mid.Color = float4(0.9333333f, 0.9333333f, 0.9333333f, 1f);
         mid.Height = new Uno.UX.Size(2f, Uno.UX.Unit.Unspecified);
         mid.Name = __selector2;
+        mid.SourceLineNumber = 16;
+        mid.SourceFileName = "Hamburger.ux";
         bot.CornerRadius = float4(1f, 1f, 1f, 1f);
         bot.Color = float4(0.9333333f, 0.9333333f, 0.9333333f, 1f);
         bot.Height = new Uno.UX.Size(2f, Uno.UX.Unit.Unspecified);
         bot.Name = __selector3;
+        bot.SourceLineNumber = 17;
+        bot.SourceFileName = "Hamburger.ux";
         this.Children.Add(temp);
         this.Children.Add(temp9);
     }

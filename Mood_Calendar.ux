@@ -1,0 +1,178 @@
+<Panel ux:Class="mood_calendar.Mood_Calendar">
+						<!-- <WhileTrue Value="{fade_me_in}">
+						   <Change Target="mood_calendar.Opacity" Value="1" Duration="0.4" Easing="CubicIn" />
+						</WhileTrue>
+						<Panel Dock="Top" Height="56">
+							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Mood content</Text>
+						</Panel>
+						<StackPanel Background="#177B98DA" Opacity="1">
+							<Text Alignment="Center" FontSize="21" Color="SpecialColor" Margin="0,30,0,10">Set calendar layout<Shadow /></Text>
+							<Panel>
+								<TextInput Value="{set_mood}" ActionTriggered="{save_mood}" FontSize="20" PlaceholderText="Write what did you do.." PlaceholderColor="#ccc" Padding="5" Margin="10,0,10,10">
+									<Rectangle Layer="Background" CornerRadius="3">
+										<Stroke Width="1" Color="#ccc" />
+										<SolidColor Color="White" />
+									</Rectangle>
+								</TextInput>
+							</Panel>
+							<Panel>
+								<Grid RowCount="3" ColumnCount="3" Columns="1*,1*,1*" Rows="1*" CellSpacing="15" Margin="15,5,15,5">
+									<Panel>
+										<Rectangle ux:Name="h_9" BoxSizing="FillAspect" Aspect="1" Color="#55bc3d" CornerRadius="150" Margin="5,5">
+											<Tapped>
+												<RaiseUserEvent EventName="MoodEvent">
+													<UserEventArg Name="mood" StringValue="h_9" />
+												</RaiseUserEvent>
+											</Tapped>
+											<WhileTrue Value="{h_9}">
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
+												<Scale Target="h_9" Factor="1.4" Duration=".1" />
+											</WhileTrue>
+											<Stroke Width="4" Brush="#55bc3d" />
+											<ImageFill File="Images/emoji/9.png" StretchMode="Fill" />
+										</Rectangle>
+									</Panel>
+									<Panel>
+										<Rectangle ux:Name="h_8" BoxSizing="FillAspect" Aspect="1" Color="#74bc63" CornerRadius="150" Margin="5,5">
+											<Tapped>
+												<RaiseUserEvent EventName="MoodEvent">
+													<UserEventArg Name="mood" StringValue="h_8" />
+												</RaiseUserEvent>
+											</Tapped>
+											<WhileTrue Value="{h_8}">
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
+												<Scale Target="h_8" Factor="1.4" Duration=".1" />
+											</WhileTrue>
+											<Stroke Width="4" Brush="#74bc63" />
+											<ImageFill File="Images/emoji/8.png" StretchMode="Fill" />
+										</Rectangle>
+									</Panel>
+									<Panel>
+										<Rectangle ux:Name="h_7" BoxSizing="FillAspect" Aspect="1" Color="#89bc7d" CornerRadius="150" Margin="5,5">
+											<Tapped>
+												<RaiseUserEvent EventName="MoodEvent">
+													<UserEventArg Name="mood" StringValue="h_7" />
+												</RaiseUserEvent>
+											</Tapped>
+											<WhileTrue Value="{h_7}">
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
+												<Scale Target="h_7" Factor="1.4" Duration=".1" />
+											</WhileTrue>
+											<Stroke Width="4" Brush="#89bc7d" />
+											<ImageFill File="Images/emoji/7.png" StretchMode="Fill" />
+										</Rectangle>
+									</Panel>
+									<Panel>
+										<Rectangle ux:Name="n_6" BoxSizing="FillAspect" Aspect="1" Color="#f6bc41" CornerRadius="150" Margin="5,5">
+											<Tapped>
+												<RaiseUserEvent EventName="MoodEvent">
+													<UserEventArg Name="mood" StringValue="n_6" />
+												</RaiseUserEvent>
+											</Tapped>
+											<WhileTrue Value="{n_6}">
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
+												<Scale Target="n_6" Factor="1.4" Duration=".1" />
+											</WhileTrue>
+											<Stroke Width="4" Brush="#f6bc41" />
+											<ImageFill File="Images/emoji/6.png" StretchMode="Fill" />
+										</Rectangle>
+									</Panel>
+									<Panel>
+										<Rectangle ux:Name="n_5" BoxSizing="FillAspect" Aspect="1" Color="#f6cd77" CornerRadius="150" Margin="5,5">
+											<Tapped>
+												<RaiseUserEvent EventName="MoodEvent">
+													<UserEventArg Name="mood" StringValue="n_5" />
+												</RaiseUserEvent>
+											</Tapped>
+											<WhileTrue Value="{n_5}">
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
+												<Scale Target="n_5" Factor="1.4" Duration=".1" />
+											</WhileTrue>
+											<Stroke Width="4" Brush="#f6cd77" />
+											<ImageFill File="Images/emoji/5.png" StretchMode="Fill" />
+										</Rectangle>
+									</Panel>
+									<Panel>
+										<Rectangle ux:Name="n_4" BoxSizing="FillAspect" Aspect="1" Color="#f6d99c" CornerRadius="150" Margin="5,5">
+											<Tapped>
+												<RaiseUserEvent EventName="MoodEvent">
+													<UserEventArg Name="mood" StringValue="n_4" />
+												</RaiseUserEvent>
+											</Tapped>
+											<WhileTrue Value="{n_4}">
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
+												<Scale Target="n_4" Factor="1.4" Duration=".1" />
+											</WhileTrue>
+											<Stroke Width="4" Brush="#f6d99c" />
+											<ImageFill File="Images/emoji/4.png" StretchMode="Fill" />
+										</Rectangle>
+									</Panel>
+									<Panel>
+										<Rectangle ux:Name="s_3" BoxSizing="FillAspect" Aspect="1" Color="#de8983" CornerRadius="150" Margin="5,5">
+											<Tapped>
+												<RaiseUserEvent EventName="MoodEvent">
+													<UserEventArg Name="mood" StringValue="s_3" />
+												</RaiseUserEvent>
+											</Tapped>
+											<WhileTrue Value="{s_3}">
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
+												<Scale Target="s_3" Factor="1.4" Duration=".1" />
+											</WhileTrue>
+											<Stroke Width="4" Brush="#de8983" />
+											<ImageFill File="Images/emoji/3.png" StretchMode="Fill" />
+										</Rectangle>
+									</Panel>
+									<Panel>
+										<Rectangle ux:Name="s_2" BoxSizing="FillAspect" Aspect="1" Color="#de665e" CornerRadius="150" Margin="5,5">
+											<Tapped>
+												<RaiseUserEvent EventName="MoodEvent">
+													<UserEventArg Name="mood" StringValue="s_2" />
+												</RaiseUserEvent>
+											</Tapped>
+											<WhileTrue Value="{s_2}">
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
+												<Scale Target="s_2" Factor="1.4" Duration=".1" />
+											</WhileTrue>
+											<Stroke Width="4" Brush="#de665e" />
+											<ImageFill File="Images/emoji/2.png" StretchMode="Fill" />
+										</Rectangle>
+									</Panel>
+									<Panel>
+										<Rectangle ux:Name="s_1" BoxSizing="FillAspect" Aspect="1" Color="#de3327" CornerRadius="150" Margin="5,5">
+											<Tapped>
+												<RaiseUserEvent EventName="MoodEvent">
+													<UserEventArg Name="mood" StringValue="s_1" />
+												</RaiseUserEvent>
+											</Tapped>
+											<WhileTrue Value="{s_1}">
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
+												<Scale Target="s_1" Factor="1.4" Duration=".1" />
+											</WhileTrue>
+											<Stroke Width="4" Brush="#de3327" />
+											<ImageFill File="Images/emoji/1.png" StretchMode="Fill" />
+										</Rectangle>
+									</Panel>
+								</Grid>
+							</Panel>
+							<Button IsEnabled="{enable_mood_send}" Text="" Margin="5, 10" Padding="20,20" Clicked="{save_mood}">
+								<WhileTrue Value="{enable_mood_send}">
+									<Text Value="Select this" Color="#fff" Alignment="Center" TextAlignment="Center" />
+									<Rectangle CornerRadius="4" Layer="Background" Color="BackgroundColor" />
+								</WhileTrue>
+								<WhileFalse Value="{enable_mood_send}">
+									<Text Value="BLAAH" Color="#fff" Alignment="Center" TextAlignment="Center" />
+									<Rectangle CornerRadius="4" Layer="Background" Color="#8ce5f4" />
+								</WhileFalse>
+								<Clicked>
+									<Set menu_is_open.Value="false" />
+									<Set home_page.Visibility="Visible" />
+									<Set web_view_content.Visibility="Collapsed" />
+									<Set extra_content.Visibility="Collapsed" />
+								</Clicked>
+							</Button>
+
+							<Text Alignment="Center" FontSize="21" Color="SpecialColor" Margin="0,30,0,60">Set calendar layout</Text>
+							<Shadow />
+							<SolidColor />
+						</StackPanel> -->
+</Panel>
