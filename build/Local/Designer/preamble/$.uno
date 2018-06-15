@@ -19,7 +19,7 @@ namespace Outracks.Simulator
 			Runtime.Bundle.Initialize("mood_calendar");
 
 			if defined(DotNet)
-				Reflection = new UnoHostReflection();
+				Reflection = new DotNetReflectionWrapper(DotNetReflection.Load("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Local/Designer"));
 			if defined(CPLUSPLUS)
 				Reflection = new NativeReflection(new SimpleTypeMap());
 		}

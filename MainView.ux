@@ -42,22 +42,22 @@
 			<WhileTrue Value="{save_confirm}">
 				<DebugAction Message="Hello World!" />
 				<Panel Color="#000000D8" X="0" Y="0" Height="100%" Width="100%">
-				    <Panel ux:Name="popup" Alignment="Center" Color="#FAFAFA" Height="260" Width="100%" Background="#f6fbff">
+				    <Panel ux:Name="popup" Alignment="Center" Color="#FAFAFA" Height="260" Width="100%" Background="#242424">
 						<StackPanel Alignment="Center">
 							<Panel Margin="5, 30">
-								<Text FontSize="30" Color="#239B56" TextAlignment="Center" Value="Information saved!"/>
+								<Text FontSize="30" Color="BackgroundColor" TextAlignment="Center" Value="Information saved!" />
 							</Panel>
 							<Panel Width="200">
 						    	<Button Alignment="Center" Text="" Margin="20,20" Clicked="{confirmed_save}" Padding="20,10,20,10" Width="100">
 						    		<Text Value="OK" Color="#fff" Alignment="Center" TextAlignment="Center" />
 						    		<float4 ux:Key="C600" ux:Value="#fff" />
 						    		<float4 ux:Key="C700" ux:Value="#fff" />
-						    		<Rectangle CornerRadius="4" Layer="Background" Color="#46aa1f" />
+						    		<Rectangle CornerRadius="4" Layer="Background" Color="BackgroundColor" />
 						    		<Clicked>
 										<Set menu_is_open.Value="false" />
-										<Set home_page.Visibility="Visible"/>
-										<Set web_view_content.Visibility="Collapsed"/>
-										<Set extra_content.Visibility="Collapsed"/>
+										<Set home_page.Visibility="Visible" />
+										<Set web_view_content.Visibility="Collapsed" />
+										<Set extra_content.Visibility="Collapsed" />
 						    		</Clicked>
 						    	</Button>
 						    </Panel>
@@ -130,25 +130,25 @@
 								<MenuButton Alignment="Left" Text="Home" Clicked="{handle_cal_visibility}">
 									<Clicked>
 										<Set menu_is_open.Value="false" />
-										<Set home_page.Visibility="Visible"/>
-										<Set web_view_content.Visibility="Collapsed"/>
-										<Set extra_content.Visibility="Collapsed"/>
+										<Set home_page.Visibility="Visible" />
+										<Set web_view_content.Visibility="Collapsed" />
+										<Set extra_content.Visibility="Collapsed" />
 									</Clicked>
 								</MenuButton>
 								<MenuButton Alignment="Left" Text="Graphs" Clicked="{handle_cal_visibility}">
 									<Clicked>
 										<Set menu_is_open.Value="false" />
-										<Set home_page.Visibility="Collapsed"/>
-										<Set web_view_content.Visibility="Visible"/>
-										<Set extra_content.Visibility="Collapsed"/>
+										<Set home_page.Visibility="Collapsed" />
+										<Set web_view_content.Visibility="Visible" />
+										<Set extra_content.Visibility="Collapsed" />
 									</Clicked>
 								</MenuButton>
 								<MenuButton Alignment="Left" Text="Extra content" Clicked="{handle_cal_visibility}">
 									<Clicked>
 										<Set menu_is_open.Value="false" />
-										<Set home_page.Visibility="Collapsed"/>
-										<Set web_view_content.Visibility="Collapsed"/>
-										<Set extra_content.Visibility="Visible"/>
+										<Set home_page.Visibility="Collapsed" />
+										<Set web_view_content.Visibility="Collapsed" />
+										<Set extra_content.Visibility="Visible" />
 									</Clicked>
 								</MenuButton>
 							</StackPanel>
@@ -167,9 +167,9 @@
 								<Rectangle CornerRadius="4" Layer="Background" Color="BackgroundColor" />
 								<Clicked>
 									<Set menu_is_open.Value="false" />
-									<Set home_page.Visibility="Collapsed"/>
-									<Set web_view_content.Visibility="Collapsed"/>
-									<Set extra_content.Visibility="Collapsed"/>
+									<Set home_page.Visibility="Collapsed" />
+									<Set web_view_content.Visibility="Collapsed" />
+									<Set extra_content.Visibility="Collapsed" />
 									<!-- <Pulse Target="GrowMe"/> -->
 									<!-- <Match Value="{calendar_type}">
 								        <Case String="Small">
@@ -198,7 +198,7 @@
 						</StackPanel>
 					</DockPanel>
 					<!-- Web view Page -->
-					<DockPanel  ux:Name="web_view_content" Visibility="Collapsed">
+					<DockPanel ux:Name="web_view_content" Visibility="Collapsed">
 						<Panel Dock="Top" Height="56">
 							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Graphs</Text>
 						</Panel>
@@ -215,7 +215,7 @@
 								<Callback Handler="{resetUrl}" />
 							</Activated>
 							<NativeViewHost>
-								<WebView ux:Name="wv" Dock="Fill" Url={chart_url}>
+								<WebView ux:Name="wv" Dock="Fill" Url="{chart_url}">
 
 								</WebView>
 							</NativeViewHost>
@@ -229,21 +229,23 @@
 						<Panel Dock="Top" Height="56">
 							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Extra content</Text>
 						</Panel>
-						<StackPanel Background="#f9f9f9">
-							<Text Alignment="Center" FontSize="21" Color="SpecialColor" Margin="0,30,0,30">Select calendar type</Text>
-							<Panel ux:Name="mood_container" Padding="0,20,0,20" Color="{mood_container_color}">
+						<StackPanel Background="#ECEFF1">
+							<Text Alignment="Center" FontSize="21" Color="BackgroundColor" Margin="0,30,0,30">Select calendar type</Text>
+							<Panel ux:Name="mood_container" Padding="0, 10, 0, 20" Background="{mood_container_color}">
 								<StackPanel>
 									<!-- What did you do and how do you feel -->
-									<Text Alignment="Center" FontSize="21" Color="SpecialColor" Margin="0,10,0,0">Mood calendar</Text>
+									<Rectangle CornerRadius="20" Alignment="Center">
+										<Text Alignment="Center" FontSize="21" Color="BackgroundColor" Margin="10, 10, 10, 10" TextAlignment="Center" TransformOrigin="VerticalBoxCenter">Mood calendar</Text>
+									</Rectangle>
 									<!-- <Button Text="" Margin="20, 20" Padding="20,20" Clicked="{set_calendar_type_to_use}"> -->
 									<Button Text="" Margin="5, 10" Padding="20,20">
 										<Text Value="Select this" Color="#fff" Alignment="Center" TextAlignment="Center" />
 										<Rectangle CornerRadius="4" Layer="Background" Color="BackgroundColor" />
 										<Tapped>
 											<Set menu_is_open.Value="false" />
-											<Set home_page.Visibility="Visible"/>
-											<Set web_view_content.Visibility="Collapsed"/>
-											<Set extra_content.Visibility="Collapsed"/>
+											<Set home_page.Visibility="Visible" />
+											<Set web_view_content.Visibility="Collapsed" />
+											<Set extra_content.Visibility="Collapsed" />
 											<RaiseUserEvent EventName="ButtonEvent">
 		                                    	<!-- <UserEventArg Name="nameJotain" StringValue="{observable_vaiks}" /> -->
 		                                    	<UserEventArg Name="calendar_type" StringValue="mood_calendar" />
@@ -252,18 +254,20 @@
 									</Button>
 								</StackPanel>
 							</Panel>
-							<Panel ux:Name="sleep_container" Padding="0,20,0,20" Color="{sleep_container_color}">
+							<Panel ux:Name="sleep_container" Padding="0,10,0,20" Color="{sleep_container_color}">
 								<StackPanel>
 									<!-- How did you sleep and how long -->
-									<Text Alignment="Center" FontSize="21" Color="SpecialColor" Margin="0,10,0,0">Sleep calendar</Text>
+									<Rectangle CornerRadius="20" Alignment="Center">
+										<Text Alignment="Center" FontSize="21" Color="BackgroundColor" Margin="10, 10, 10, 10" TextAlignment="Center" TransformOrigin="VerticalBoxCenter">Sleep calendar</Text>
+									</Rectangle>
 									<Button Text="" Margin="5, 10" Padding="20,20">
 										<Text Value="Select this" Color="#fff" Alignment="Center" TextAlignment="Center" />
 										<Rectangle CornerRadius="4" Layer="Background" Color="BackgroundColor" />
 										<Tapped>
 											<Set menu_is_open.Value="false" />
-											<Set home_page.Visibility="Visible"/>
-											<Set web_view_content.Visibility="Collapsed"/>
-											<Set extra_content.Visibility="Collapsed"/>
+											<Set home_page.Visibility="Visible" />
+											<Set web_view_content.Visibility="Collapsed" />
+											<Set extra_content.Visibility="Collapsed" />
 											<RaiseUserEvent EventName="ButtonEvent">
 		                                    	<UserEventArg Name="calendar_type" StringValue="sleep_calendar" />
 		                                   	</RaiseUserEvent>
@@ -271,18 +275,20 @@
 									</Button>
 								</StackPanel>
 							</Panel>
-							<Panel ux:Name="eat_container" Padding="0,20,0,20" Color="{eat_container_color}">
+							<Panel ux:Name="eat_container" Padding="0,10,0,20" Color="{eat_container_color}">
 								<StackPanel>
 									<!-- What did you eat and when -->
-									<Text Alignment="Center" FontSize="21" Color="SpecialColor" Margin="0,10,0,0">Eating calendar</Text>
+									<Rectangle CornerRadius="20" Alignment="Center">
+										<Text Alignment="Center" FontSize="21" Color="BackgroundColor" Margin="10, 10, 10, 10" TextAlignment="Center" TransformOrigin="VerticalBoxCenter">Eating calendar</Text>
+									</Rectangle>
 									<Button Text="" Margin="5, 10" Padding="20,20">
 										<Text Value="Select this" Color="#fff" Alignment="Center" TextAlignment="Center" />
 										<Rectangle CornerRadius="4" Layer="Background" Color="BackgroundColor" />
 										<Tapped>
 											<Set menu_is_open.Value="false" />
-											<Set home_page.Visibility="Visible"/>
-											<Set web_view_content.Visibility="Collapsed"/>
-											<Set extra_content.Visibility="Collapsed"/>
+											<Set home_page.Visibility="Visible" />
+											<Set web_view_content.Visibility="Collapsed" />
+											<Set extra_content.Visibility="Collapsed" />
 											<RaiseUserEvent EventName="ButtonEvent">
 		                                    	<UserEventArg Name="calendar_type" StringValue="eating_calendar" />
 		                                   	</RaiseUserEvent>
@@ -293,6 +299,7 @@
 							<Text Alignment="Center" FontSize="18" Color="SpecialColor" Margin="0,50,0,10" TextWrapping="Wrap">Each calendar works same way. Only content lists changes.</Text>
 						</StackPanel>
 					</DockPanel>
+					<!-- Mood cal -->
 					<DockPanel ux:Name="mood_calendar" Opacity="0" Visibility="{mood_cal_vis}">
 						<WhileTrue Value="{fade_me_in}">
 						   <Change Target="mood_calendar.Opacity" Value="1" Duration="0.4" Easing="CubicIn" />
@@ -300,8 +307,8 @@
 						<Panel Dock="Top" Height="56">
 							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Mood content</Text>
 						</Panel>
-						<StackPanel Background="#f9f9f9">
-							<Text Alignment="Center" FontSize="21" Color="SpecialColor" Margin="0,30,0,10">Set calendar layout</Text>
+						<StackPanel Background="#ECEFF1" Opacity="1">
+							<Text Alignment="Center" FontSize="21" Color="BackgroundColor" Margin="0,30,0,10">Set calendar layout<Shadow /></Text>
 							<Panel>
 								<TextInput Value="{set_mood}" ActionTriggered="{save_mood}" FontSize="20" PlaceholderText="Write what did you do.." PlaceholderColor="#ccc" Padding="5" Margin="10,0,10,10">
 									<Rectangle Layer="Background" CornerRadius="3">
@@ -320,10 +327,10 @@
 												</RaiseUserEvent>
 											</Tapped>
 											<WhileTrue Value="{h_9}">
-												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5"/>
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
 												<Scale Target="h_9" Factor="1.4" Duration=".1" />
 											</WhileTrue>
-											<Stroke Width="4" Brush="#55bc3d"/>
+											<Stroke Width="4" Brush="#55bc3d" />
 											<ImageFill File="Images/emoji/9.png" StretchMode="Fill" />
 										</Rectangle>
 									</Panel>
@@ -335,10 +342,10 @@
 												</RaiseUserEvent>
 											</Tapped>
 											<WhileTrue Value="{h_8}">
-												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5"/>
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
 												<Scale Target="h_8" Factor="1.4" Duration=".1" />
 											</WhileTrue>
-											<Stroke Width="4" Brush="#74bc63"/>
+											<Stroke Width="4" Brush="#74bc63" />
 											<ImageFill File="Images/emoji/8.png" StretchMode="Fill" />
 										</Rectangle>
 									</Panel>
@@ -350,10 +357,10 @@
 												</RaiseUserEvent>
 											</Tapped>
 											<WhileTrue Value="{h_7}">
-												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5"/>
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
 												<Scale Target="h_7" Factor="1.4" Duration=".1" />
 											</WhileTrue>
-											<Stroke Width="4" Brush="#89bc7d"/>
+											<Stroke Width="4" Brush="#89bc7d" />
 											<ImageFill File="Images/emoji/7.png" StretchMode="Fill" />
 										</Rectangle>
 									</Panel>
@@ -365,10 +372,10 @@
 												</RaiseUserEvent>
 											</Tapped>
 											<WhileTrue Value="{n_6}">
-												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5"/>
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
 												<Scale Target="n_6" Factor="1.4" Duration=".1" />
 											</WhileTrue>
-											<Stroke Width="4" Brush="#f6bc41"/>
+											<Stroke Width="4" Brush="#f6bc41" />
 											<ImageFill File="Images/emoji/6.png" StretchMode="Fill" />
 										</Rectangle>
 									</Panel>
@@ -380,10 +387,10 @@
 												</RaiseUserEvent>
 											</Tapped>
 											<WhileTrue Value="{n_5}">
-												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5"/>
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
 												<Scale Target="n_5" Factor="1.4" Duration=".1" />
 											</WhileTrue>
-											<Stroke Width="4" Brush="#f6cd77"/>
+											<Stroke Width="4" Brush="#f6cd77" />
 											<ImageFill File="Images/emoji/5.png" StretchMode="Fill" />
 										</Rectangle>
 									</Panel>
@@ -395,10 +402,10 @@
 												</RaiseUserEvent>
 											</Tapped>
 											<WhileTrue Value="{n_4}">
-												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5"/>
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
 												<Scale Target="n_4" Factor="1.4" Duration=".1" />
 											</WhileTrue>
-											<Stroke Width="4" Brush="#f6d99c"/>
+											<Stroke Width="4" Brush="#f6d99c" />
 											<ImageFill File="Images/emoji/4.png" StretchMode="Fill" />
 										</Rectangle>
 									</Panel>
@@ -410,10 +417,10 @@
 												</RaiseUserEvent>
 											</Tapped>
 											<WhileTrue Value="{s_3}">
-												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5"/>
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
 												<Scale Target="s_3" Factor="1.4" Duration=".1" />
 											</WhileTrue>
-											<Stroke Width="4" Brush="#de8983"/>
+											<Stroke Width="4" Brush="#de8983" />
 											<ImageFill File="Images/emoji/3.png" StretchMode="Fill" />
 										</Rectangle>
 									</Panel>
@@ -425,10 +432,10 @@
 												</RaiseUserEvent>
 											</Tapped>
 											<WhileTrue Value="{s_2}">
-												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5"/>
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
 												<Scale Target="s_2" Factor="1.4" Duration=".1" />
 											</WhileTrue>
-											<Stroke Width="4" Brush="#de665e"/>
+											<Stroke Width="4" Brush="#de665e" />
 											<ImageFill File="Images/emoji/2.png" StretchMode="Fill" />
 										</Rectangle>
 									</Panel>
@@ -440,10 +447,10 @@
 												</RaiseUserEvent>
 											</Tapped>
 											<WhileTrue Value="{s_1}">
-												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5"/>
+												<DropShadow Color="#D5D8DC" Angle="135" Distance="3" Size="1" Spread=".5" />
 												<Scale Target="s_1" Factor="1.4" Duration=".1" />
 											</WhileTrue>
-											<Stroke Width="4" Brush="#de3327"/>
+											<Stroke Width="4" Brush="#de3327" />
 											<ImageFill File="Images/emoji/1.png" StretchMode="Fill" />
 										</Rectangle>
 									</Panel>
@@ -490,15 +497,22 @@
 								</WhileFalse>
 								<Clicked>
 									<Set menu_is_open.Value="false" />
-									<Set home_page.Visibility="Visible"/>
-									<Set web_view_content.Visibility="Collapsed"/>
-									<Set extra_content.Visibility="Collapsed"/>
+									<Set home_page.Visibility="Visible" />
+									<Set web_view_content.Visibility="Collapsed" />
+									<Set extra_content.Visibility="Collapsed" />
 								</Clicked>
 							</Button>
 
 							<Text Alignment="Center" FontSize="21" Color="SpecialColor" Margin="0,30,0,60">Set calendar layout</Text>
+							<Shadow />
+							<SolidColor />
 						</StackPanel>
 					</DockPanel>
+					<!-- <DockPanel ux:Name="mood_calendar" Opacity="0" Visibility="{mood_cal_vis}">
+						<Mood_Calendar>
+						</Mood_Calendar>
+					</DockPanel> -->
+					<!-- Sleep cal -->
 					<DockPanel ux:Name="sleep_calendar" Opacity="0" Visibility="{sleep_cal_vis}">
 						<WhileTrue Value="{fade_me_in}">
 						   <Change Target="sleep_calendar.Opacity" Value="1" Duration="0.4" Easing="CubicIn" />
@@ -506,10 +520,11 @@
 						<Panel Dock="Top" Height="56">
 							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Sleep content</Text>
 						</Panel>
-						<StackPanel Background="#f9f9f9">
+						<StackPanel Background="#ECEFF1">
 							<Text Alignment="Center" FontSize="21" Color="SpecialColor" Margin="0,30,0,60">Set calendar layout</Text>
 						</StackPanel>
 					</DockPanel>
+					<!-- Eat cal -->
 					<DockPanel ux:Name="eating_calendar" Opacity="0" Visibility="{eat_cal_vis}">
 						<WhileTrue Value="{fade_me_in}">
 						   <Change Target="eating_calendar.Opacity" Value="1" Duration="0.4" Easing="CubicIn" />
@@ -517,7 +532,7 @@
 						<Panel Dock="Top" Height="56">
 							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Eating content</Text>
 						</Panel>
-						<StackPanel Background="#f9f9f9">
+						<StackPanel Background="#ECEFF1">
 							<Text Alignment="Center" FontSize="21" Color="SpecialColor" Margin="0,30,0,60">Set calendar layout</Text>
 						</StackPanel>
 					</DockPanel>

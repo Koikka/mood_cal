@@ -93,19 +93,19 @@ function toggle_cal_visibility() {
 function extra_content_visible() {
     console.log("----------------------"+calendar_type.value);
     if (calendar_type.value == "mood_calendar") {
-        mood_container_color.value = "#ffff99";
+        mood_container_color.value = "#242424";
     } else {
-        mood_container_color.value = "#fff";
+        mood_container_color.value = "#ECEFF1";
     }
     if (calendar_type.value == "sleep_calendar") {
-        sleep_container_color.value = "#ffff99";
+        sleep_container_color.value = "#242424";
     } else {
-        sleep_container_color.value = "#fff";
+        sleep_container_color.value = "#ECEFF1";
     }
     if (calendar_type.value == "eating_calendar") {
-        eat_container_color.value = "#ffff99";
+        eat_container_color.value = "#242424";
     } else {
-        eat_container_color.value = "#fff";
+        eat_container_color.value = "#ECEFF1";
     }
 }
 function save_mood() {
