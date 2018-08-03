@@ -1,6 +1,8 @@
 var Observable = require('FuseJS/Observable');
 var Storage = require("FuseJS/Storage");
 // var FileSystem = require("FuseJS/FileSystem");
+// fusepm install https://github.com/MaxGraey/fuse-device
+var Device     = require('Device');
 
 var SAVENAME = "calendar_type.json";
 var calendar_type = Observable("mood_calendar");
@@ -27,10 +29,11 @@ var s_1 = Observable(false);
 var enable_mood_send = Observable(false);
 var chart_url = Observable();
 var save_confirm = Observable(false);
+var bg_image = Observable("Images/bubble_bg.jpg");
 // var camera = require('FuseJS/Camera');
 // var test_images = Observable();
 // var show_help_text = Observable(true);
-chart_url.value = "http://koikka.work/fuse/data.html?id=1&v="+new Date().getTime();
+chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
 function set_calendar_type_to_use(type) {
     console.log(JSON.stringify(type));
     console.log(calendar_type);
@@ -75,7 +78,43 @@ set_mood.onValueChanged(function(val) {
     if (set_mood.value.length > 0 && emoji_selected) {
         enable_mood_send.value = true;
     }
-})
+});
+//----------------------------------------------------------------------------
+
+
+        console.log('UUID:',   Device.UUID);
+        console.log('locale:', Device.locale);
+        console.log('system:', Device.system + " " + Device.systemVersion);
+        console.log('SDK:',    Device.SDKVersion);
+        console.log('device:', Device.vendor + " " + Device.model);
+        console.log('cores:',  Device.cores);
+        console.log('retina:', Device.isRetina);
+
+        var asyncUUID = Observable("");
+        setTimeout(function() {
+            if (Device.UUID == '') {
+                Device.getUUID().then(function(uuid) {
+                    console.log('getUUID: ' + uuid);
+                    asyncUUID.value = uuid;
+                }).catch(function(error) {
+                    console.log('getUUID error: ' + error);
+                });
+            } else {
+                asyncUUID.value = Device.UUID;
+            }
+            chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
+        }, 2000);
+
+        module.exports = {
+            name:      Device.vendor + " " + Device.model,
+            UUID:      Device.UUID,
+            asyncUUID: asyncUUID,
+            locale:    Device.locale,
+            cores:     Device.cores,
+            isRetina:  Device.isRetina
+        };
+
+//----------------------------------------------------------------------------
 function handle_cal_visibility() {
     mood_cal_vis.value = "Collapsed";
     sleep_cal_vis.value = "Collapsed";
@@ -95,21 +134,21 @@ function extra_content_visible() {
     if (calendar_type.value == "mood_calendar") {
         mood_container_color.value = "#242424";
     } else {
-        mood_container_color.value = "#ECEFF1";
+        mood_container_color.value = "#ECEFF100";
     }
     if (calendar_type.value == "sleep_calendar") {
         sleep_container_color.value = "#242424";
     } else {
-        sleep_container_color.value = "#ECEFF1";
+        sleep_container_color.value = "#ECEFF100";
     }
     if (calendar_type.value == "eating_calendar") {
         eat_container_color.value = "#242424";
     } else {
-        eat_container_color.value = "#ECEFF1";
+        eat_container_color.value = "#ECEFF100";
     }
 }
 function save_mood() {
-    chart_url.value = "http://koikka.work/fuse/data.html?id=1&v="+new Date().getTime();
+    chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
     var mood = "";
     var moods = ["h_9", "h_8", "h_7", "n_6", "n_5", "n_4", "s_3", "s_2", "s_1"];
     var feels = ["h_9", "h_8", "h_7", "n_6", "n_5", "n_4", "s_3", "s_2", "s_1"];
@@ -120,7 +159,7 @@ function save_mood() {
         }
     }
 
-    var body = "action=save_mood&mood="+mood+"&value="+set_mood.value+"&id=1";
+    var body = "action=save_mood&mood="+mood+"&value="+set_mood.value+"&id="+Device.UUID;
     var url = "http://koikka.work/fuse/fuse.php";
     fetch(url, {
         method: 'POST',
@@ -286,5 +325,6 @@ module.exports = {
     enable_mood_send: enable_mood_send,
     chart_url: chart_url,
     save_confirm: save_confirm,
-    confirmed_save: confirmed_save
+    confirmed_save: confirmed_save,
+    bg_image: bg_image
 };

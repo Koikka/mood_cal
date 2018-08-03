@@ -160,6 +160,7 @@
 							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Home</Text>
 						</Panel>
 						<StackPanel Background="#f9f9f9">
+							<Image Layer="Background" File="{bg_image}" StretchMode="UniformToFill" />
 							<Text Value="Current calendar type is:" Color="#000" Alignment="Center" TextAlignment="Center" />
 							<Text Value="{calendar_type}" Color="#000" Alignment="Center" TextAlignment="Center" />
 							<Button Text="" Margin="20, 40, 20, 20" Padding="20,20" Clicked="{set_page_according}">
@@ -183,18 +184,7 @@
 									<Set main_content_3.Visibility="Collapsed"/> -->
 								</Clicked>
 							</Button>
-							<Button Text="" Margin="20, 20" Padding="20,20">
-								<Text Value="" Color="#fff" Alignment="Center" TextAlignment="Center" />
-								<Rectangle CornerRadius="4" Layer="Background" Color="BackgroundColor" />
-								<Clicked>
-									<!-- <Set menu_is_open.Value="false" />
-									<Set main_content.Visibility="Collapsed"/>
-									<Set main_content_buttons.Visibility="Collapsed"/>
-									<Set admin_content.Visibility="Collapsed"/>
-									<Set main_content_3.Visibility="Visible"/> -->
-								</Clicked>
-							</Button>
-							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Home page content goes here</Text>
+							<Text Alignment="Center" FontSize="21" Color="BackgroundColor" TextWrapping="Wrap">Mood calendar is only working in this demo. Results can be viewed also from web page.</Text>
 						</StackPanel>
 					</DockPanel>
 					<!-- Web view Page -->
@@ -203,6 +193,7 @@
 							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Graphs</Text>
 						</Panel>
 						<Panel Background="#f9f9f9">
+							<Image Layer="Background" File="{bg_image}" StretchMode="UniformToFill" />
 							<JavaScript>
 								function resetUrl() {
 									wv.goto(chart_url.value);
@@ -230,6 +221,7 @@
 							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Extra content</Text>
 						</Panel>
 						<StackPanel Background="#ECEFF1">
+							<Image Layer="Background" File="{bg_image}" StretchMode="UniformToFill" />
 							<Text Alignment="Center" FontSize="21" Color="BackgroundColor" Margin="0,30,0,30">Select calendar type</Text>
 							<Panel ux:Name="mood_container" Padding="0, 10, 0, 20" Background="{mood_container_color}">
 								<StackPanel>
@@ -308,6 +300,7 @@
 							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Mood content</Text>
 						</Panel>
 						<StackPanel Background="#ECEFF1" Opacity="1">
+							<Image Layer="Background" File="{bg_image}" StretchMode="UniformToFill" />
 							<Text Alignment="Center" FontSize="21" Color="BackgroundColor" Margin="0,30,0,10">Set calendar layout<Shadow /></Text>
 							<Panel>
 								<TextInput Value="{set_mood}" ActionTriggered="{save_mood}" FontSize="20" PlaceholderText="Write what did you do.." PlaceholderColor="#ccc" Padding="5" Margin="10,0,10,10">
@@ -521,6 +514,7 @@
 							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Sleep content</Text>
 						</Panel>
 						<StackPanel Background="#ECEFF1">
+							<Image Layer="Background" File="{bg_image}" StretchMode="UniformToFill" />
 							<Text Alignment="Center" FontSize="21" Color="SpecialColor" Margin="0,30,0,60">Set calendar layout</Text>
 						</StackPanel>
 					</DockPanel>
@@ -533,6 +527,7 @@
 							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Eating content</Text>
 						</Panel>
 						<StackPanel Background="#ECEFF1">
+							<Image Layer="Background" File="{bg_image}" StretchMode="UniformToFill" />
 							<Text Alignment="Center" FontSize="21" Color="SpecialColor" Margin="0,30,0,60">Set calendar layout</Text>
 						</StackPanel>
 					</DockPanel>
