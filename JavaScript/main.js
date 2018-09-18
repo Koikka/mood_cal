@@ -2,6 +2,8 @@ var Observable = require('FuseJS/Observable');
 var Storage = require("FuseJS/Storage");
 // var FileSystem = require("FuseJS/FileSystem");
 // fusepm install https://github.com/MaxGraey/fuse-device
+// fuse build -t=android -r mood_calendar.unoproj
+// fuse build --target=android --configuration=Release
 var Device     = require('Device');
 
 var SAVENAME = "calendar_type.json";
@@ -26,10 +28,38 @@ var n_4 = Observable(false);
 var s_3 = Observable(false);
 var s_2 = Observable(false);
 var s_1 = Observable(false);
+var sleep_9 = Observable(false);
+var sleep_6 = Observable(false);
+var sleep_3 = Observable(false);
 var enable_mood_send = Observable(false);
 var chart_url = Observable();
 var save_confirm = Observable(false);
-var bg_image = Observable("Images/bubble_bg.jpg");
+var hours = Observable();
+var minutes = Observable();
+var sleep_quality = Observable(false);
+var sleep_naps = Observable(false);
+var sleep_tired = Observable(false);
+var bed_h = Observable();
+var bed_m = Observable();
+var sleep_h = Observable();
+var sleep_m = Observable();
+var wake_h = Observable();
+var wake_m = Observable();
+var sleep_track_h = Observable("21");
+var sleep_track_m = Observable("6");
+var bed_track_h = Observable("21");
+var bed_track_m = Observable("6");
+var wake_track_h = Observable("6");
+var wake_track_m = Observable("6");
+var enable_sleep_send = Observable(false);
+// var bg_image = Observable("Images/bubble_bg.jpg");
+// var bg_image = Observable("Images/rain_bg.jpg");
+// var bg_image = Observable("Images/rain_bg_2.jpg");
+// var bg_image = Observable("Images/rain_bg_3.jpeg");
+var bg_image = Observable("Images/bg_1.jpg");
+var logo = Observable("Images/samk_logo.png");
+var logo_img_blue = Observable("Images/samk_logo_2.png");
+var logo_img_white = Observable("Images/samk_logo_3.png");
 // var camera = require('FuseJS/Camera');
 // var test_images = Observable();
 // var show_help_text = Observable(true);
@@ -193,6 +223,7 @@ function save_mood() {
 }
 function confirmed_save() {
     mood_cal_vis.value = "Collapsed";
+    sleep_cal_vis.value = "Collapsed";
     save_confirm.value = false;
     fade_me_in.value = false;
 }
@@ -237,6 +268,202 @@ function highlight_mood(args) {
     //     neutral_mood.value = false;
     //     sad_mood.value = true;
     // }
+}
+function highlight_mood_2(args) {
+    console.log(args.mood);
+    var moods = ["sleep_9", "sleep_6", "sleep_3"];
+    for (var i = 0; i < moods.length; i++) {
+        if (moods[i] == args.mood) {
+            console.log(moods[i]+" == true");
+            eval(moods[i]).value = true;
+        } else {
+            console.log(moods[i]+" == false");
+            eval(moods[i]).value = false;
+        }
+    }
+    var emoji_selected = false;
+    var moods = ["sleep_9", "sleep_6", "sleep_3"];
+    for (var i = 0; i < moods.length; i++) {
+        if (eval(moods[i]).value == true) {
+            emoji_selected = true;
+            enable_sleep_send.value = true;
+        }
+    }
+    // if (set_mood.value.length > 0 && emoji_selected) {
+    //     enable_mood_send.value = true;
+    // }
+}
+
+function formatTime(time) {
+    if (time < 10) {
+        return "0" + time;
+    }
+    return time;
+};
+
+function Minute(minute) {
+    this.caption = minute;
+    this.type = "minute";
+};
+
+function Hour(hour) {
+    this.caption = hour;
+    this.type = "hour";
+}
+
+function setupHours() {
+    var hourBucket = [];
+    for (var i = 0; i < 24; i++) {
+        hourBucket.push(new Hour(formatTime(i)));
+    }
+    hours.replaceAll(hourBucket);
+}
+
+function setupMinutes() {
+    var minuteBucket = [];
+    for (var i = -5; i < 55; i += 5) {
+        minuteBucket.push(new Minute(formatTime(i + 5)));
+    }
+    minutes.replaceAll(minuteBucket);
+}
+
+function activated(args) {
+    //args.data.type == hour or minute
+    //args.data.caption == value selected
+    console.log("start: "+JSON.stringify(args));
+    if (args.data.type == "hour") {
+        bed_h.value = args.data.caption;
+        sleep_track_h.value = args.data.caption;
+    } else if (args.data.type == "minute") {
+        bed_m.value = args.data.caption;
+        sleep_track_m.value = (args.data.caption/5);
+    }
+}
+function activated_end(args) {
+    //args.data.type == hour or minute
+    //args.data.caption == value selected
+    console.log("end: "+JSON.stringify(args));
+    if (args.data.type == "hour") {
+        sleep_h.value = args.data.caption;
+        sleep_track_h.value = args.data.caption;
+    } else if (args.data.type == "minute") {
+        sleep_m.value = args.data.caption;
+        sleep_track_m.value = (args.data.caption/5);
+    }
+}
+function activated_wake_up(args) {
+     console.log("wake_up: "+JSON.stringify(args));
+     if (args.data.type == "hour") {
+        wake_h.value = args.data.caption;
+    } else if (args.data.type == "minute") {
+        wake_m.value = args.data.caption;
+    }
+}
+
+setupHours();
+setupMinutes();
+
+function toggle_switch(args) {
+    console.log(args.toggle);
+    if (args.toggle == 'sleep_quality') {
+        if (sleep_quality.value == true) {
+            sleep_quality.value = false;
+        } else {
+            sleep_quality.value = true;
+        }
+    } else if (args.toggle == 'sleep_naps') {
+        if (sleep_naps.value == true) {
+            sleep_naps.value = false;
+        } else {
+            sleep_naps.value = true;
+        }
+    } else if (args.toggle == 'sleep_tired') {
+        if (sleep_tired.value == true) {
+            sleep_tired.value = false;
+        } else {
+            sleep_tired.value = true;
+        }
+    }
+    console.log("Sleep quality: "+sleep_quality.value);
+    console.log("Sleep naps: "+sleep_naps.value);
+    console.log("Sleep tired: "+sleep_tired.value);
+}
+function save_sleep() {
+    console.log("Sleep quality: "+sleep_quality.value);
+    console.log("Sleep naps: "+sleep_naps.value);
+    console.log("Sleep tired: "+sleep_tired.value);
+    console.log("Went to bed: "+bed_h.value+":"+bed_m.value);
+    console.log("Started sleeping: "+sleep_h.value+":"+sleep_m.value);
+    console.log("Woke up: "+wake_h.value+":"+wake_m.value);
+    var moods = ["sleep_9", "sleep_6", "sleep_3"];
+    for (var i = 0; i < moods.length; i++) {
+        if (eval(moods[i]).value == true) {
+            // console.log(moods[i]);
+            mood = moods[i];
+        }
+    }
+    mood = mood.split("_")[1];
+    console.log("sleep_mood: "+mood);
+    /*var tim1 = sleep_h.value+":"+sleep_m.value;
+    var tim2 = wake_h.value+":"+wake_m.value;
+    var ary1 = tim1.split(':'),ary2=tim2.split(':');
+    var minsdiff=parseInt(ary2[0],10)*60+parseInt(ary2[1],10)-parseInt(ary1[0],10)*60-parseInt(ary1[1],10);
+    var hours = String(100+Math.floor(minsdiff/60)).substr(1);
+    var minutes = String(100+minsdiff%60).substr(1);
+    console.log("--------- "+(hours)+':'+minutes);*/
+
+    var start = new Date("2018-09-03 "+sleep_h.value+":"+sleep_m.value+":00");
+    var end = new Date("2018-09-04 "+wake_h.value+":"+wake_m.value+":00");
+    var elapsed = end - start; // time in milliseconds
+    var difference = new Date(elapsed);
+    //If you really want the hours/minutes,
+    //Date has functions for that too:
+    var diff_hours = difference.getHours();
+    var diff_mins = difference.getMinutes();
+    if (diff_mins < 10)
+        diff_mins = "0"+diff_mins;
+    // var sleep_time = parseFloat((diff_hours-2)+'.'+diff_mins).toFixed(2);
+    var sleep_time = parseInt(diff_hours-2)+(parseInt(diff_mins)/60);
+    console.log("--------- "+sleep_time);
+    // console.log((parseInt(diff_mins)/60));
+    // http://koikka.work/fuse/fuse.php?action=save_sleep&id=1&sleep_quality=1&sleep_naps=1&sleep_tired=0&sleep_time=9.25&sleep_mood=1&to_bed=21:00&started_sleeping=22:00&woke_up=6:00
+    var body = "action=save_sleep&id="+Device.UUID+"&sleep_quality="+sleep_quality.value+"&sleep_naps="+sleep_naps.value+"&sleep_tired="+sleep_tired.value+"&sleep_time="+sleep_time+"&sleep_mood="+mood+"&to_bed="+bed_h.value+":"+bed_m.value+"&started_sleeping="+sleep_h.value+":"+sleep_m.value+"&woke_up="+wake_h.value+":"+wake_m.value+"";
+    var url = "http://koikka.work/fuse/fuse.php";
+    fetch(url, {
+        method: 'POST',
+        headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
+        body: body,
+        cache: false
+    }).then(function(response) {
+        if(response.ok) {
+            // var json = JSON.parse(response._bodyText);
+            console.log(response._bodyText);
+            // json.action = action;
+            // callback(json);
+        } else {
+            console.log("False HTTP response : "+response.status);
+        }
+    }).catch(function(err) {
+        if(err != "SyntaxError: Unexpected end of input") {
+            // An error occurred somewhere in the Promise chain
+            console.log("Server error : "+err);
+        } else{
+            console.log("SERVER SYNTAX ERROR");
+        }
+    });
+    bed_track_h.value = "21";
+    bed_track_m.value = "6";
+    wake_track_h.value = "6";
+    wake_track_m.value = "6";
+    enable_sleep_send.value = false;
+    var sleep_moods = ["sleep_9", "sleep_6", "sleep_3"];
+    for (var i = 0; i < sleep_moods.length; i++) {
+        eval(sleep_moods[i]).value = false;
+    }
+    // sleep_quality.value = false;
+    // sleep_naps.value = false;
+    // sleep_tired.value = false;
+    save_confirm.value = true;
 }
 /* Not used -> waiting for promise */
 // function get_from_memory(filePath, name) {
@@ -322,9 +549,49 @@ module.exports = {
     s_3: s_3,
     s_2: s_2,
     s_1: s_1,
+    sleep_9: sleep_9,
+    sleep_6: sleep_6,
+    sleep_3: sleep_3,
+    highlight_mood_2: highlight_mood_2,
     enable_mood_send: enable_mood_send,
     chart_url: chart_url,
     save_confirm: save_confirm,
     confirmed_save: confirmed_save,
-    bg_image: bg_image
+    bg_image: bg_image,
+    hours: hours,
+    minutes: minutes,
+    activated: activated,
+    activated_end: activated_end,
+    activated_wake_up: activated_wake_up,
+    toggle_switch: toggle_switch,
+    sleep_quality: sleep_quality,
+    sleep_naps: sleep_naps,
+    sleep_tired: sleep_tired,
+    save_sleep: save_sleep,
+    bed_h: bed_h,
+    bed_m: bed_m,
+    sleep_h: sleep_h,
+    sleep_m: sleep_m,
+    wake_h: wake_h,
+    wake_m: wake_m,
+    sleep_track_h: sleep_track_h,
+    sleep_track_m: sleep_track_m,
+    bed_track_h: bed_track_h,
+    bed_track_m: bed_track_m,
+    wake_track_h: wake_track_h,
+    wake_track_m: wake_track_m,
+    enable_sleep_send: enable_sleep_send,
+    logo: logo,
+    logo_img_blue: logo_img_blue,
+    logo_img_white: logo_img_white
 };
+
+
+
+
+
+
+
+
+
+
