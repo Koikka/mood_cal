@@ -46,7 +46,7 @@
 			<Change track.StrokeColor="#ffff" Easing="QuadraticInOut" Duration="0.25" />
 		</WhileTrue>
 	</ToggleControl>
-<!-- EVEN TRACKING -->
+<!-- EVENT TRACKING -->
 	<UserEvent Name="ButtonEvent" />
 	<OnUserEvent EventName="ButtonEvent" Handler="{execute_button_select}" Filter="Global" />
 
@@ -81,7 +81,13 @@
 				<Change eating_calendar.Opacity="0" Duration=".7" DelayBack="0" Easing="ExponentialOut" EasingBack="ExponentialIn" />
 				<Change menu.Opacity="1" Duration=".3" DelayBack="0" Easing="QuarticIn" EasingBack="QuarticIn" />
 				<Change hamburger.IsOpen="true" DelayBack="0.2" />
+				<Change Duration=".7" web_view_content.Visibility="Collapsed" />
+				<Callback Handler="{handle_empty_screen}" />
 			</WhileTrue>
+			<WhileFalse Value="{fade_me_in}">
+				<DebugAction Message="menu_is_close" />
+				<Callback Handler="{handle_empty_screen}" />
+			</WhileFalse>
 			<WhileTrue Value="{save_confirm}">
 				<DebugAction Message="Hello World!" />
 				<Panel Color="#000000D8" X="0" Y="0" Height="100%" Width="100%">
@@ -199,7 +205,7 @@
 						</StackPanel>
 					</Panel>
 					<!-- Home Page -->
-					<DockPanel ux:Name="home_page" Visibility="Visible" Color="BackgroundColor">
+					<DockPanel ux:Name="home_page" Visibility="{home_page_vis}" Color="BackgroundColor">
 						<Panel Background="#019ABF" Dock="Top" Height="56">
 							<Text Alignment="Center" FontSize="21" Color="ForegroundColor">Aloitusvalikko</Text>
 							<Shadow Color="#18596F" Angle="90" Distance="2" Size="6" />
@@ -235,7 +241,7 @@
 									<Set main_content_3.Visibility="Collapsed"/> -->
 								</Clicked>
 								<Grid RowCount="1" ColumnCount="2" Columns="2*,8*" Rows="1*" CellSpacing="0" Margin="0, 0">
-									<Panel Height="50" Padding="0, 0, 0, 0">
+									<Panel Height="50" Padding="0, 0, 0, 0" Width="50">
 										<ImageFill File="Images/mood_icon.png" StretchMode="UniformToFill" />
 									</Panel>
 									<Panel>
@@ -257,7 +263,7 @@
 									<Set extra_content.Visibility="Collapsed" />
 								</Clicked>
 								<Grid RowCount="1" ColumnCount="2" Columns="2*,8*" Rows="1*" CellSpacing="0" Margin="0, 0">
-									<Panel Height="50" Padding="0, 0, 0, 0">
+									<Panel Padding="0, 0, 0, 0" Height="50" Width="55">
 										<ImageFill File="Images/sleep_icon.png" StretchMode="UniformToFill" />
 									</Panel>
 									<Panel>
@@ -281,7 +287,7 @@
 									<Set extra_content.Visibility="Collapsed" />
 								</Clicked>
 								<Grid RowCount="1" ColumnCount="2" Columns="2*,8*" Rows="1*" DefaultRow="1" DefaultColumn="2" CellSpacing="0" Margin="0, 0">
-									<Panel Height="50" Padding="0, 0, 0, 0">
+									<Panel Height="50" Padding="0, 0, 0, 0" Width="50">
 										<ImageFill File="Images/eat_icon.png" StretchMode="UniformToFill" />
 									</Panel>
 									<Panel>
@@ -290,13 +296,21 @@
 								</Grid>
 							</Button>
 							<Text Alignment="Center" FontSize="21" Color="BackgroundColor" TextWrapping="Wrap">Ruokapäiväkirja ei ole käytössä vielä.</Text>
+							<!-- <Image Url="{emoji_status}" Margin="60, 0, 60, 0" Alignment="Default" Width="120" /> -->
 						</StackPanel>
 						<DockPanel Alignment="Bottom" Dock="Bottom" Margin="0,20" Color="BackgroundColor">
-							<Image File="{logo_img_white}" Margin="60, 20, 60, 0" Alignment="Default" Width="120" />
+							<Image Url="{emoji_status}" Margin="60, 20, 60, 30" Alignment="Default" Width="160" />
+							<!-- <Image File="{logo_img_white}" Margin="60, 20, 60, 0" Alignment="Default" Width="120" /> -->
 						</DockPanel>
+						<WhileVisible>
+							<Activated>
+			                    <Callback Handler="{get_mood_emoji}" />
+			                </Activated>
+						</WhileVisible>
+						<BottomFrameBackground DockPanel.Dock="Bottom" />
 					</DockPanel>
 					<!-- Web view Page -->
-					<DockPanel ux:Name="web_view_content" Visibility="Collapsed">
+					<DockPanel ux:Name="web_view_content" Visibility="{web_view_vis}">
 						<Panel Background="#019ABF" Dock="Top" Height="56">
 							<Text Background="#019ABF" Alignment="Center" FontSize="21" Color="ForegroundColor">Graphs</Text>
 							<Shadow Color="#18596F" Angle="90" Distance="2" Size="6" />
@@ -320,6 +334,7 @@
 								</WebView>
 							</NativeViewHost>
 				        </Panel>
+				        <BottomFrameBackground DockPanel.Dock="Bottom" />
 					</DockPanel>
 					<!-- Extra Page -->
 					<DockPanel ux:Name="extra_content" Visibility="Collapsed">
@@ -621,6 +636,7 @@
 							</Button>
 							</StackPanel>
 						</ScrollView>
+						<BottomFrameBackground DockPanel.Dock="Bottom" />
 					</DockPanel>
 					<!-- <DockPanel ux:Name="mood_calendar" Opacity="0" Visibility="{mood_cal_vis}">
 						<Mood_Calendar>
@@ -910,6 +926,7 @@
 									</Each>
 								</PageControl>
 							</StackPanel> -->
+						<BottomFrameBackground DockPanel.Dock="Bottom" />
 					</DockPanel>
 					<!-- Eat cal -->
 					<DockPanel ux:Name="eating_calendar" Opacity="0" Visibility="{eat_cal_vis}">

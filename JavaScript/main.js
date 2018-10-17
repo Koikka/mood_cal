@@ -11,6 +11,8 @@ var calendar_type = Observable("mood_calendar");
 var mood_cal_vis = Observable("Collapsed");
 var sleep_cal_vis = Observable("Collapsed");
 var eat_cal_vis = Observable("Collapsed");
+var web_view_vis = Observable("Collapsed");
+var home_page_vis = Observable("Visible");
 var mood_container_color = Observable("#fff");
 var sleep_container_color = Observable("#fff");
 var eat_container_color = Observable("#fff");
@@ -60,10 +62,41 @@ var bg_image = Observable("Images/bg_1.jpg");
 var logo = Observable("Images/samk_logo.png");
 var logo_img_blue = Observable("Images/samk_logo_2.png");
 var logo_img_white = Observable("Images/samk_logo_3.png");
+var emoji_status = Observable();
 // var camera = require('FuseJS/Camera');
 // var test_images = Observable();
 // var show_help_text = Observable(true);
 chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
+function get_mood_emoji() {
+    console.log("get_mood_emoji()");
+    var body = "action=emoji_status&id="+Device.UUID;
+    var url = "http://koikka.work/fuse/fuse.php";
+    fetch(url, {
+        method: 'POST',
+        headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
+        body: body,
+        cache: false
+    }).then(function(response) {
+        if(response.ok) {
+            var json = JSON.parse(response._bodyText);
+            console.log(response._bodyText);
+            console.log(json.data.status_emoji);
+            emoji_status.value = json.data.status_emoji;
+            // json.action = action;
+            // callback(json);
+        } else {
+            console.log("False HTTP response : "+response.status);
+            emoji_status.value = "http://koikka.work/fuse/rested/5.png";
+        }
+    }).catch(function(err) {
+        if(err != "SyntaxError: Unexpected end of input") {
+            // An error occurred somewhere in the Promise chain
+            console.log("Server error : "+err);
+        } else{
+            console.log("SERVER SYNTAX ERROR");
+        }
+    });
+}
 function set_calendar_type_to_use(type) {
     console.log(JSON.stringify(type));
     console.log(calendar_type);
@@ -94,6 +127,7 @@ function set_page_according() {
     console.log("mood_cal_vis.value: "+mood_cal_vis.value);
     console.log("sleep_cal_vis.value: "+sleep_cal_vis.value);
     console.log("eat_cal_vis.value: "+eat_cal_vis.value);
+    get_mood_emoji();
 }
 set_mood.onValueChanged(function(val) {
     // console.log("Text value changed: " + val);
@@ -133,6 +167,7 @@ set_mood.onValueChanged(function(val) {
                 asyncUUID.value = Device.UUID;
             }
             chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
+            get_mood_emoji();
         }, 2000);
 
         module.exports = {
@@ -150,6 +185,19 @@ function handle_cal_visibility() {
     sleep_cal_vis.value = "Collapsed";
     eat_cal_vis.value = "Collapsed";
     fade_me_in.value = false;
+}
+function handle_empty_screen() {
+    console.log("handle_empty_screen");
+    console.log(mood_cal_vis.value);
+    console.log(sleep_cal_vis.value);
+    console.log(eat_cal_vis.value);
+    console.log(web_view_vis.value);
+    console.log(home_page_vis.value);
+    if (mood_cal_vis.value == "Collapsed" && sleep_cal_vis.value == "Collapsed" && eat_cal_vis.value == "Collapsed" && home_page_vis.value == "Collapsed") {
+        web_view_vis.value = "Visible";
+    }
+    chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
+    console.log("Updated chart url");
 }
 function toggle_cal_visibility() {
     console.log("fade_me_in.value: "+fade_me_in.value)
@@ -202,6 +250,7 @@ function save_mood() {
             console.log(response._bodyText);
             // json.action = action;
             // callback(json);
+            get_mood_emoji();
         } else {
             console.log("False HTTP response : "+response.status);
         }
@@ -362,6 +411,7 @@ function activated_wake_up(args) {
 
 setupHours();
 setupMinutes();
+get_mood_emoji();
 
 function toggle_switch(args) {
     console.log(args.toggle);
@@ -438,6 +488,7 @@ function save_sleep() {
         if(response.ok) {
             // var json = JSON.parse(response._bodyText);
             console.log(response._bodyText);
+            get_mood_emoji();
             // json.action = action;
             // callback(json);
         } else {
@@ -465,6 +516,7 @@ function save_sleep() {
     // sleep_tired.value = false;
     save_confirm.value = true;
 }
+
 /* Not used -> waiting for promise */
 // function get_from_memory(filePath, name) {
 //    return new Promise(function (resolve, reject) {
@@ -519,6 +571,7 @@ function save_sleep() {
 function empty_memory() {
     Storage.write(SAVENAME, "");
 }
+
 module.exports = {
     calendar_type: calendar_type,
     set_calendar_type_to_use: set_calendar_type_to_use,
@@ -583,7 +636,12 @@ module.exports = {
     enable_sleep_send: enable_sleep_send,
     logo: logo,
     logo_img_blue: logo_img_blue,
-    logo_img_white: logo_img_white
+    logo_img_white: logo_img_white,
+    emoji_status: emoji_status,
+    get_mood_emoji: get_mood_emoji,
+    handle_empty_screen: handle_empty_screen,
+    web_view_vis: web_view_vis,
+    home_page_vis: home_page_vis
 };
 
 
