@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.8.1/CommonNavigationPages.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/CommonNavigationPages.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -16,6 +16,8 @@ namespace Controls{
 // internal sealed class CommonNavigationPages :9
 // {
 uType* CommonNavigationPages_typeof();
+void CommonNavigationPages__ctor__fn(CommonNavigationPages* __this);
+void CommonNavigationPages__New1_fn(CommonNavigationPages** __retval);
 void CommonNavigationPages__OnPagesChanged_fn(CommonNavigationPages* __this);
 void CommonNavigationPages__Rooted_fn(CommonNavigationPages* __this, ::g::Fuse::Controls::NavigationControl* parent);
 void CommonNavigationPages__Unrooted_fn(CommonNavigationPages* __this);
@@ -28,10 +30,12 @@ struct CommonNavigationPages : uObject
     uStrong< ::g::Fuse::Controls::NavigationControl*> _parent;
     uStrong< ::g::Uno::Collections::List*> _addedPages;
 
+    void ctor_();
     void OnPagesChanged();
     void Rooted(::g::Fuse::Controls::NavigationControl* parent);
     void Unrooted();
     void UpdatePages();
+    static CommonNavigationPages* New1();
 };
 // }
 

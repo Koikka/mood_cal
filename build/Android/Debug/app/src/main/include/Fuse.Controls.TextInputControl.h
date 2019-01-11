@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/TextControls/TextInputControl.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/TextInputControl.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,6 +8,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -36,12 +37,11 @@ namespace Controls{
 // {
 struct TextInputControl_type : ::g::Fuse::Controls::Control_type
 {
-    ::g::Fuse::Triggers::IValue interface17;
+    ::g::Fuse::Triggers::IValue interface18;
 };
 
 TextInputControl_type* TextInputControl_typeof();
 void TextInputControl__ctor_6_fn(TextInputControl* __this, ::g::Fuse::Controls::TextEdit* editor);
-void TextInputControl__get_Editor_fn(TextInputControl* __this, ::g::Fuse::Controls::TextEdit** __retval);
 void TextInputControl__FocusDelegator_fn(TextInputControl* __this, ::g::Fuse::Visual** __retval);
 void TextInputControl__get_FontSize_fn(TextInputControl* __this, float* __retval);
 void TextInputControl__set_FontSize_fn(TextInputControl* __this, float* value);
@@ -50,6 +50,8 @@ void TextInputControl__OnRooted_fn(TextInputControl* __this);
 void TextInputControl__OnTapped_fn(TextInputControl* __this, uObject* sender, ::g::Uno::EventArgs* args);
 void TextInputControl__OnUnrooted_fn(TextInputControl* __this);
 void TextInputControl__SetValue_fn(TextInputControl* __this, uString* v, uObject* origin);
+void TextInputControl__get_TextWrapping_fn(TextInputControl* __this, int32_t* __retval);
+void TextInputControl__set_TextWrapping_fn(TextInputControl* __this, int32_t* value);
 void TextInputControl__get_Value_fn(TextInputControl* __this, uString** __retval);
 void TextInputControl__set_Value_fn(TextInputControl* __this, uString* value);
 void TextInputControl__add_ValueChanged_fn(TextInputControl* __this, uDelegate* value);
@@ -61,12 +63,13 @@ struct TextInputControl : ::g::Fuse::Controls::LayoutControl
     uStrong< ::g::Fuse::Gestures::Tapped*> _tapped;
 
     void ctor_6(::g::Fuse::Controls::TextEdit* editor);
-    ::g::Fuse::Controls::TextEdit* Editor();
     ::g::Fuse::Visual* FocusDelegator();
     float FontSize();
     void FontSize(float value);
     void OnTapped(uObject* sender, ::g::Uno::EventArgs* args);
     void SetValue(uString* v, uObject* origin);
+    int32_t TextWrapping();
+    void TextWrapping(int32_t value);
     uString* Value();
     void Value(uString* value);
     void add_ValueChanged(uDelegate* value);

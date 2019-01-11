@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.8.1/Instantiator.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Instantiator.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,6 +7,7 @@
 #include <Fuse.IDeferred.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Node.ISubtreeDataProvider.h>
 #include <Fuse.Reactive.ItemsWi-e7592013.h>
 #include <Fuse.Reactive.WindowItem.h>
@@ -32,12 +33,13 @@ namespace Reactive{
 // {
 struct Instantiator_type : ::g::Fuse::Node_type
 {
-    ::g::Fuse::Node__ISubtreeDataProvider interface6;
-    ::g::Fuse::IDeferred interface7;
-    ::g::Fuse::Reactive::ItemsWindowList__IListener interface8;
+    ::g::Fuse::Node__ISubtreeDataProvider interface7;
+    ::g::Fuse::IDeferred interface8;
+    ::g::Fuse::Reactive::ItemsWindowList__IListener interface9;
 };
 
 Instantiator_type* Instantiator_typeof();
+void Instantiator__ctor_3_fn(Instantiator* __this);
 void Instantiator__AddMatchingTemplates_fn(Instantiator* __this, ::g::Fuse::Reactive::WindowItem* item, ::g::Fuse::Reactive::TemplateMatch* f, bool* __retval);
 void Instantiator__AddTemplate_fn(Instantiator* __this, ::g::Fuse::Reactive::WindowItem* item, ::g::Uno::UX::Template* f);
 void Instantiator__BroadcastDataChange1_fn(Instantiator* __this, ::g::Fuse::Reactive::WindowItem* wi, uObject* oldData);
@@ -64,6 +66,7 @@ void Instantiator__FuseReactiveItemsWindowListFuseReactiveWindowItemIListenerSet
 void Instantiator__FuseReactiveItemsWindowListFuseReactiveWindowItemIListenerSetValid_fn(Instantiator* __this);
 void Instantiator__GetAvailableNodes_fn(Instantiator* __this, ::g::Fuse::Reactive::TemplateMatch* f, uObject* id, ::g::Fuse::Reactive::WindowItem** __retval);
 void Instantiator__GetDataTemplate_fn(Instantiator* __this, uObject* data, ::g::Fuse::Reactive::TemplateMatch* __retval);
+void Instantiator__GetItems_fn(Instantiator* __this, uObject** __retval);
 void Instantiator__GetLastNodeFromIndex_fn(Instantiator* __this, int32_t* windowIndex, ::g::Fuse::Node** __retval);
 void Instantiator__GetLastNodeInGroup_fn(Instantiator* __this, ::g::Fuse::Node** __retval);
 void Instantiator__get_HasLimit_fn(Instantiator* __this, bool* __retval);
@@ -89,6 +92,7 @@ void Instantiator__RemoveFromParent_fn(Instantiator* __this, ::g::Fuse::Node* n)
 void Instantiator__get_Reuse_fn(Instantiator* __this, int32_t* __retval);
 void Instantiator__set_Reuse_fn(Instantiator* __this, int32_t* value);
 void Instantiator__ScheduleRemoveAvailableItems_fn(Instantiator* __this);
+void Instantiator__SetItems_fn(Instantiator* __this, uObject* value);
 void Instantiator__get_TemplateKey_fn(Instantiator* __this, uString** __retval);
 void Instantiator__set_TemplateKey_fn(Instantiator* __this, uString* value);
 void Instantiator__get_Templates_fn(Instantiator* __this, uObject** __retval);
@@ -119,6 +123,7 @@ struct Instantiator : ::g::Fuse::Behavior
     bool _pendingUpdateWindowItems;
     uStrong<uDelegate*> UpdatedWindowItems1;
 
+    void ctor_3();
     bool AddMatchingTemplates(::g::Fuse::Reactive::WindowItem* item, ::g::Fuse::Reactive::TemplateMatch f);
     void AddTemplate(::g::Fuse::Reactive::WindowItem* item, ::g::Uno::UX::Template* f);
     void BroadcastDataChange1(::g::Fuse::Reactive::WindowItem* wi, uObject* oldData);
@@ -138,6 +143,7 @@ struct Instantiator : ::g::Fuse::Behavior
     void DisposeWindowItem(::g::Fuse::Reactive::WindowItem* wi);
     ::g::Fuse::Reactive::WindowItem* GetAvailableNodes(::g::Fuse::Reactive::TemplateMatch f, uObject* id);
     ::g::Fuse::Reactive::TemplateMatch GetDataTemplate(uObject* data);
+    uObject* GetItems();
     ::g::Fuse::Node* GetLastNodeFromIndex(int32_t windowIndex);
     bool HasLimit();
     int32_t Limit();
@@ -160,6 +166,7 @@ struct Instantiator : ::g::Fuse::Behavior
     int32_t Reuse();
     void Reuse(int32_t value);
     void ScheduleRemoveAvailableItems();
+    void SetItems(uObject* value);
     uString* TemplateKey();
     void TemplateKey(uString* value);
     uObject* Templates();

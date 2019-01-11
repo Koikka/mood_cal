@@ -4,14 +4,14 @@
 #include <Uno.Permissions.Inter-b7b0d7de.h>
 #include <Uno.Permissions.Platf-7d72d93e.h>
 #include <Uno.String.h>
-static uString* STRINGS[3];
+static uString* STRINGS[4];
 
 namespace g{
 namespace Uno{
 namespace Permissions{
 namespace Internal{
 
-// /usr/local/share/uno/Packages/Uno.Permissions/1.8.0/AndroidPermissionsInternal.uno
+// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/AndroidPermissionsInternal.uno
 // ----------------------------------------------------------------------------------
 
 // internal sealed extern class Android :10
@@ -20,7 +20,8 @@ static void Android_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("android.permission.CAMERA");
     ::STRINGS[1] = uString::Const("android.permission.READ_EXTERNAL_STORAGE");
-    ::STRINGS[2] = uString::Const("android.permission.WRITE_EXTERNAL_STORAGE");
+    ::STRINGS[2] = uString::Const("android.permission.READ_PHONE_STATE");
+    ::STRINGS[3] = uString::Const("android.permission.WRITE_EXTERNAL_STORAGE");
 }
 
 uType* Android_typeof()
@@ -48,6 +49,12 @@ void Android___read_external_storage_fn(::g::Uno::Permissions::PlatformPermissio
     *__retval = Android::_read_external_storage();
 }
 
+// internal static extern Uno.Permissions.PlatformPermission _read_phone_state() :478
+void Android___read_phone_state_fn(::g::Uno::Permissions::PlatformPermission* __retval)
+{
+    *__retval = Android::_read_phone_state();
+}
+
 // internal static extern Uno.Permissions.PlatformPermission _write_external_storage() :713
 void Android___write_external_storage_fn(::g::Uno::Permissions::PlatformPermission* __retval)
 {
@@ -66,10 +73,16 @@ void Android___write_external_storage_fn(::g::Uno::Permissions::PlatformPermissi
     return ::g::Uno::Permissions::PlatformPermission__New1(::STRINGS[1/*"android.per...*/]);
 }
 
+// internal static extern Uno.Permissions.PlatformPermission _read_phone_state() [static] :478
+::g::Uno::Permissions::PlatformPermission Android::_read_phone_state()
+{
+    return ::g::Uno::Permissions::PlatformPermission__New1(::STRINGS[2/*"android.per...*/]);
+}
+
 // internal static extern Uno.Permissions.PlatformPermission _write_external_storage() [static] :713
 ::g::Uno::Permissions::PlatformPermission Android::_write_external_storage()
 {
-    return ::g::Uno::Permissions::PlatformPermission__New1(::STRINGS[2/*"android.per...*/]);
+    return ::g::Uno::Permissions::PlatformPermission__New1(::STRINGS[3/*"android.per...*/]);
 }
 // }
 

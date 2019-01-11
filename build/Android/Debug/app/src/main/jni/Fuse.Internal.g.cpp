@@ -112,7 +112,7 @@ namespace g{
 namespace Fuse{
 namespace Internal{
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/AndroidSystemFont.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/AndroidSystemFont.uno
 // ------------------------------------------------------------------------------
 
 // private struct AndroidSystemFont.Alias :45
@@ -167,13 +167,15 @@ AndroidSystemFont__Alias AndroidSystemFont__Alias__New1(uString* to, int32_t wei
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/AndroidSystemFont.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/AndroidSystemFont.uno
 // ------------------------------------------------------------------------------
 
 // internal static extern class AndroidSystemFont :11
 // {
 static void AndroidSystemFont_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::g::Uno::Collections::List_typeof()->MakeType(AndroidSystemFont__Family_typeof(), NULL), (uintptr_t)&AndroidSystemFont::_families_, uFieldFlagsStatic,
         ::g::Uno::Collections::Dictionary_typeof()->MakeType(::g::Uno::String_typeof(), AndroidSystemFont__Alias_typeof(), NULL), (uintptr_t)&AndroidSystemFont::_aliases_, uFieldFlagsStatic,
@@ -188,6 +190,7 @@ uClassType* AndroidSystemFont_typeof()
 
     uTypeOptions options;
     options.FieldCount = 4;
+    options.DependencyCount = 1;
     options.TypeSize = sizeof(uClassType);
     type = uClassType::New("Fuse.Internal.AndroidSystemFont", options);
     type->fp_build_ = AndroidSystemFont_build;
@@ -300,7 +303,7 @@ void AndroidSystemFont::AddFonts()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "AddFonts118", "()V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "AddFonts121", "()V");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd);
         
         ::g::Android::Base::JNI::CheckException();
@@ -446,7 +449,7 @@ int32_t AndroidSystemFont::ToWeight(int32_t w)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/Blender.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Blender.uno
 // --------------------------------------------------------------------
 
 // internal abstract class Blender<T> :62
@@ -509,7 +512,7 @@ void Blender::ctor_()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/Blender.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Blender.uno
 // --------------------------------------------------------------------
 
 // internal sealed class BlenderMap :9
@@ -635,7 +638,7 @@ uSStrong< ::g::Uno::Collections::Dictionary*> BlenderMap::_scalarBlenders_;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/Curves.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Curves.uno
 // -------------------------------------------------------------------
 
 // internal static class Curves :5
@@ -700,7 +703,7 @@ void Curves::KochanekBartelTangent(::g::Uno::Float4 pa, ::g::Uno::Float4 pb, ::g
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/Blender.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Blender.uno
 // --------------------------------------------------------------------
 
 // internal sealed class DoubleBlender :147
@@ -708,6 +711,8 @@ void Curves::KochanekBartelTangent(::g::Uno::Float4 pa, ::g::Uno::Float4 pb, ::g
 static void DoubleBlender_build(uType* type)
 {
     type->SetBase(::g::Fuse::Internal::ScalarBlender_typeof()->MakeType(::g::Uno::Double_typeof(), NULL));
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Internal::ScalarBlender_type* DoubleBlender_typeof()
@@ -717,6 +722,7 @@ static void DoubleBlender_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Internal::ScalarBlender_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(DoubleBlender);
     options.TypeSize = sizeof(::g::Fuse::Internal::ScalarBlender_type);
     type = (::g::Fuse::Internal::ScalarBlender_type*)uClassType::New("Fuse.Internal.DoubleBlender", options);
@@ -829,7 +835,7 @@ DoubleBlender* DoubleBlender::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/DrawManager.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/DrawManager.uno
 // --------------------------------------------------------------
 
 // internal static class DrawManager :5
@@ -910,7 +916,7 @@ void DrawManager::remove_Prepared(uDelegate* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/MiniList.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/MiniList.uno
 // ---------------------------------------------------------------------
 
 // public struct MiniList<T>.Enumerator :189
@@ -1119,7 +1125,7 @@ MiniList__Enumerator MiniList__Enumerator__New1(uType* __type, ::g::Fuse::Intern
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/ObjectList.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/ObjectList.uno
 // -----------------------------------------------------------------------
 
 // public struct ObjectList<T>.Enumerator :386
@@ -1326,7 +1332,7 @@ ObjectList__Enumerator ObjectList__Enumerator__New1(uType* __type, ::g::Fuse::In
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/ObjectList.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/ObjectList.uno
 // -----------------------------------------------------------------------
 
 // public sealed class ObjectList<T>.EnumeratorClass :351
@@ -1455,7 +1461,7 @@ ObjectList__EnumeratorClass* ObjectList__EnumeratorClass::New1(uType* __type, ::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/ObjectList.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/ObjectList.uno
 // -----------------------------------------------------------------------
 
 // public enum ObjectList<T>.Equality :61
@@ -1471,7 +1477,7 @@ uEnumType* ObjectList__Equality_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/AndroidSystemFont.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/AndroidSystemFont.uno
 // ------------------------------------------------------------------------------
 
 // private struct AndroidSystemFont.Family :13
@@ -1531,7 +1537,7 @@ AndroidSystemFont__Family AndroidSystemFont__Family__New1(uString* name, uString
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/Blender.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Blender.uno
 // --------------------------------------------------------------------
 
 // internal sealed class Float2Blender :165
@@ -1539,6 +1545,8 @@ AndroidSystemFont__Family AndroidSystemFont__Family__New1(uString* name, uString
 static void Float2Blender_build(uType* type)
 {
     type->SetBase(::g::Fuse::Internal::Blender_typeof()->MakeType(::g::Uno::Float2_typeof(), NULL));
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Internal::Blender_type* Float2Blender_typeof()
@@ -1548,6 +1556,7 @@ static void Float2Blender_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Internal::Blender_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Float2Blender);
     options.TypeSize = sizeof(::g::Fuse::Internal::Blender_type);
     type = (::g::Fuse::Internal::Blender_type*)uClassType::New("Fuse.Internal.Float2Blender", options);
@@ -1644,7 +1653,7 @@ Float2Blender* Float2Blender::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/Blender.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Blender.uno
 // --------------------------------------------------------------------
 
 // internal sealed class Float3Blender :181
@@ -1652,6 +1661,8 @@ Float2Blender* Float2Blender::New1()
 static void Float3Blender_build(uType* type)
 {
     type->SetBase(::g::Fuse::Internal::Blender_typeof()->MakeType(::g::Uno::Float3_typeof(), NULL));
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Internal::Blender_type* Float3Blender_typeof()
@@ -1661,6 +1672,7 @@ static void Float3Blender_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Internal::Blender_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Float3Blender);
     options.TypeSize = sizeof(::g::Fuse::Internal::Blender_type);
     type = (::g::Fuse::Internal::Blender_type*)uClassType::New("Fuse.Internal.Float3Blender", options);
@@ -1757,7 +1769,7 @@ Float3Blender* Float3Blender::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/Blender.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Blender.uno
 // --------------------------------------------------------------------
 
 // internal sealed class Float4Blender :197
@@ -1765,6 +1777,8 @@ Float3Blender* Float3Blender::New1()
 static void Float4Blender_build(uType* type)
 {
     type->SetBase(::g::Fuse::Internal::Blender_typeof()->MakeType(::g::Uno::Float4_typeof(), NULL));
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Internal::Blender_type* Float4Blender_typeof()
@@ -1774,6 +1788,7 @@ static void Float4Blender_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Internal::Blender_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Float4Blender);
     options.TypeSize = sizeof(::g::Fuse::Internal::Blender_type);
     type = (::g::Fuse::Internal::Blender_type*)uClassType::New("Fuse.Internal.Float4Blender", options);
@@ -1870,7 +1885,7 @@ Float4Blender* Float4Blender::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/Blender.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Blender.uno
 // --------------------------------------------------------------------
 
 // internal sealed class FloatBlender :129
@@ -1878,6 +1893,8 @@ Float4Blender* Float4Blender::New1()
 static void FloatBlender_build(uType* type)
 {
     type->SetBase(::g::Fuse::Internal::ScalarBlender_typeof()->MakeType(::g::Uno::Float_typeof(), NULL));
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Internal::ScalarBlender_type* FloatBlender_typeof()
@@ -1887,6 +1904,7 @@ static void FloatBlender_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Internal::ScalarBlender_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(FloatBlender);
     options.TypeSize = sizeof(::g::Fuse::Internal::ScalarBlender_type);
     type = (::g::Fuse::Internal::ScalarBlender_type*)uClassType::New("Fuse.Internal.FloatBlender", options);
@@ -1999,7 +2017,7 @@ FloatBlender* FloatBlender::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/AndroidSystemFont.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/AndroidSystemFont.uno
 // ------------------------------------------------------------------------------
 
 // private struct AndroidSystemFont.FontDescriptor :29
@@ -2058,7 +2076,7 @@ AndroidSystemFont__FontDescriptor AndroidSystemFont__FontDescriptor__New1(uStrin
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/SystemFont.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/SystemFont.uno
 // -----------------------------------------------------------------------
 
 // internal sealed class FontFaceDescriptor :8
@@ -2171,13 +2189,15 @@ FontFaceDescriptor* FontFaceDescriptor::New1(::g::Uno::UX::FileSource* fileSourc
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/FrustumMatrix.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/FrustumMatrix.uno
 // --------------------------------------------------------------------------
 
 // internal static class FrustumMatrix :5
 // {
 static void FrustumMatrix_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 uClassType* FrustumMatrix_typeof()
@@ -2186,6 +2206,7 @@ uClassType* FrustumMatrix_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.DependencyCount = 1;
     options.TypeSize = sizeof(uClassType);
     type = uClassType::New("Fuse.Internal.FrustumMatrix", options);
     type->fp_build_ = FrustumMatrix_build;
@@ -2350,7 +2371,7 @@ bool FrustumMatrix::TryPerspectiveProjectionInverse(::g::Uno::Float2 viewSize, f
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.8.1/Internal/ImageContainer.uno
+// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Internal/ImageContainer.uno
 // -----------------------------------------------------------------------------
 
 // internal abstract interface IImageContainerOwner :11
@@ -2365,7 +2386,7 @@ uInterfaceType* IImageContainerOwner_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.8.1/Internal/ImageContainer.uno
+// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Internal/ImageContainer.uno
 // -----------------------------------------------------------------------------
 
 // internal sealed class ImageContainer :18
@@ -2373,7 +2394,7 @@ uInterfaceType* IImageContainerOwner_typeof()
 static void ImageContainer_build(uType* type)
 {
     ::STRINGS[1] = uString::Const("Switching listen state on null Image");
-    ::STRINGS[2] = uString::Const("/usr/local/share/uno/Packages/Fuse.Elements/1.8.1/Internal/ImageContainer.uno");
+    ::STRINGS[2] = uString::Const("/usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Internal/ImageContainer.uno");
     ::STRINGS[3] = uString::Const("UpdateSourceListen");
     ::STRINGS[4] = uString::Const("ResampleMode.Mipmap has been deprecated. Use ResampleMode.Linear instead.");
     ::STRINGS[5] = uString::Const("set_ResampleMode");
@@ -2654,6 +2675,18 @@ void ImageContainer__set_StretchMode_fn(ImageContainer* __this, int32_t* value)
 void ImageContainer__UpdateSourceListen_fn(ImageContainer* __this, bool* forceOff)
 {
     __this->UpdateSourceListen(*forceOff);
+}
+
+// public string get_Url() :50
+void ImageContainer__get_Url_fn(ImageContainer* __this, uString** __retval)
+{
+    *__retval = __this->Url();
+}
+
+// public void set_Url(string value) :57
+void ImageContainer__set_Url_fn(ImageContainer* __this, uString* value)
+{
+    __this->Url(value);
 }
 
 // public ImageContainer([Fuse.Internal.IImageContainerOwner owner]) [instance] :23
@@ -3098,6 +3131,26 @@ void ImageContainer::UpdateSourceListen(bool forceOff)
     }
 }
 
+// public string get_Url() [instance] :50
+uString* ImageContainer::Url()
+{
+    ::g::Fuse::Resources::HttpImageSource* http = uAs< ::g::Fuse::Resources::HttpImageSource*>(Source(), ::TYPES[21/*Fuse.Resources.HttpImageSource*/]);
+
+    if (http == NULL)
+        return NULL;
+
+    return uPtr(http)->Url();
+}
+
+// public void set_Url(string value) [instance] :57
+void ImageContainer::Url(uString* value)
+{
+    ::g::Fuse::Resources::HttpImageSource* collection1;
+    float ind11;
+    ::g::Fuse::Resources::MemoryPolicy* ind12;
+    Source((collection1 = ::g::Fuse::Resources::HttpImageSource::New2(), uPtr(collection1)->Url(value), value, ind11 = Density(), uPtr(collection1)->Density(ind11), ind11, ind12 = MemoryPolicy(), uPtr(collection1)->DefaultPolicy(ind12), ind12, collection1));
+}
+
 // public ImageContainer New([Fuse.Internal.IImageContainerOwner owner]) [static] :23
 ImageContainer* ImageContainer::New1(uObject* owner)
 {
@@ -3107,7 +3160,7 @@ ImageContainer* ImageContainer::New1(uObject* owner)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/MiniList.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/MiniList.uno
 // ---------------------------------------------------------------------
 
 // internal struct MiniList<T> :25
@@ -3435,7 +3488,7 @@ void MiniList::RemoveAt(uType* __type, int32_t index)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/MiniList.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/MiniList.uno
 // ---------------------------------------------------------------------
 
 // internal enum MiniListMode :9
@@ -3452,7 +3505,7 @@ uEnumType* MiniListMode_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/ObjectList.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/ObjectList.uno
 // -----------------------------------------------------------------------
 
 // private struct ObjectList<T>.Node :15
@@ -3501,7 +3554,7 @@ void ObjectList__Node::Clear(uType* __type)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/ObjectList.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/ObjectList.uno
 // -----------------------------------------------------------------------
 
 // internal sealed class ObjectList<T> :13
@@ -4051,7 +4104,7 @@ ObjectList* ObjectList::New1(uType* __type, int32_t equality)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/RawPointer.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/RawPointer.uno
 // -----------------------------------------------------------------------
 
 // internal struct RawPointer<T> :13
@@ -4082,9 +4135,9 @@ void RawPointer__op_Explicit1_fn(uType* __type, void** weak, uObject** __retval)
 }
 
 // public static implicit operator Fuse.Internal.RawPointer<T>(T obj) :27
-void RawPointer__op_Implicit_fn(uType* __type, uObject* obj, void** __retval)
+void RawPointer__op_Implicit1_fn(uType* __type, uObject* obj, void** __retval)
 {
-    *__retval = RawPointer::op_Implicit(__type, obj);
+    *__retval = RawPointer::op_Implicit1(__type, obj);
 }
 
 // public static explicit operator T(Fuse.Internal.RawPointer<T> weak) [static] :19
@@ -4094,13 +4147,13 @@ uObject* RawPointer::op_Explicit1(uType* __type, void* weak)
 }
 
 // public static implicit operator Fuse.Internal.RawPointer<T>(T obj) [static] :27
-void* RawPointer::op_Implicit(uType* __type, uObject* obj)
+void* RawPointer::op_Implicit1(uType* __type, uObject* obj)
 {
     return (void*) obj;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/RectPacker.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/RectPacker.uno
 // -----------------------------------------------------------------------
 
 // internal sealed class RectPacker :26
@@ -4108,6 +4161,8 @@ void* RawPointer::op_Implicit(uType* __type, uObject* obj)
 static void RectPacker_build(uType* type)
 {
     ::TYPES[30] = ::g::Uno::Collections::LinkedList_typeof()->MakeType(::g::Fuse::Internal::SkylineNode_typeof(), NULL);
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::TYPES[30/*Uno.Collections.LinkedList<Fuse.Internal.SkylineNode>*/], offsetof(RectPacker, _skyline), 0,
         ::g::Uno::Int2_typeof(), offsetof(RectPacker, _Size), 0);
@@ -4120,6 +4175,7 @@ uType* RectPacker_typeof()
 
     uTypeOptions options;
     options.FieldCount = 2;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(RectPacker);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Fuse.Internal.RectPacker", options);
@@ -4336,7 +4392,7 @@ RectPacker* RectPacker::New1(::g::Uno::Int2 size)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/Blender.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Blender.uno
 // --------------------------------------------------------------------
 
 // internal abstract class ScalarBlender<T> :123
@@ -4374,7 +4430,7 @@ void ScalarBlender::ctor_1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/Blender.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Blender.uno
 // --------------------------------------------------------------------
 
 // internal sealed class Size2Blender :104
@@ -4472,7 +4528,7 @@ void Size2Blender__Weight_fn(Size2Blender* __this, ::g::Uno::UX::Size2* v, doubl
 // public override sealed Uno.UX.Size2 get_Zero() :110
 void Size2Blender__get_Zero_fn(Size2Blender* __this, ::g::Uno::UX::Size2* __retval)
 {
-    return *__retval = ::g::Uno::UX::Size2__op_Implicit1(::g::Uno::Float2__New2(0.0f, 0.0f)), void();
+    return *__retval = ::g::Uno::UX::Size2__op_Implicit2(::g::Uno::Float2__New2(0.0f, 0.0f)), void();
 }
 
 // public generated Size2Blender() [instance] :104
@@ -4490,7 +4546,7 @@ Size2Blender* Size2Blender::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/Blender.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Blender.uno
 // --------------------------------------------------------------------
 
 // internal sealed class SizeBlender :88
@@ -4498,6 +4554,8 @@ Size2Blender* Size2Blender::New1()
 static void SizeBlender_build(uType* type)
 {
     type->SetBase(::g::Fuse::Internal::Blender_typeof()->MakeType(::g::Uno::UX::Size_typeof(), NULL));
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Internal::Blender_type* SizeBlender_typeof()
@@ -4507,6 +4565,7 @@ static void SizeBlender_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Internal::Blender_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(SizeBlender);
     options.TypeSize = sizeof(::g::Fuse::Internal::Blender_type);
     type = (::g::Fuse::Internal::Blender_type*)uClassType::New("Fuse.Internal.SizeBlender", options);
@@ -4585,7 +4644,7 @@ void SizeBlender__Weight_fn(SizeBlender* __this, ::g::Uno::UX::Size* v, double* 
 // public override sealed Uno.UX.Size get_Zero() :94
 void SizeBlender__get_Zero_fn(SizeBlender* __this, ::g::Uno::UX::Size* __retval)
 {
-    return *__retval = ::g::Uno::UX::Size__op_Implicit1(0), void();
+    return *__retval = ::g::Uno::UX::Size__op_Implicit2(0), void();
 }
 
 // public generated SizeBlender() [instance] :88
@@ -4603,13 +4662,15 @@ SizeBlender* SizeBlender::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.8.1/Internal/SizingContainer.uno
+// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Internal/SizingContainer.uno
 // ------------------------------------------------------------------------------
 
 // internal sealed class SizingContainer :7
 // {
 static void SizingContainer_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::g::Fuse::Elements::StretchMode_typeof(), offsetof(SizingContainer, stretchMode), 0,
         ::g::Fuse::Elements::StretchDirection_typeof(), offsetof(SizingContainer, stretchDirection), 0,
@@ -4627,6 +4688,7 @@ uType* SizingContainer_typeof()
 
     uTypeOptions options;
     options.FieldCount = 7;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(SizingContainer);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Fuse.Internal.SizingContainer", options);
@@ -5047,7 +5109,7 @@ bool SizingContainer::SetStretchSizing(int32_t ss)
 // private float2 SnapSize(float2 sz) [instance] :100
 ::g::Uno::Float2 SizingContainer::SnapSize(::g::Uno::Float2 sz)
 {
-    return ::g::Uno::Float2__op_Division1(::g::Uno::Math::Round4(::g::Uno::Float2__op_Multiply1(sz, absoluteZoom)), absoluteZoom);
+    return ::g::Uno::Float2__op_Division1(::g::Uno::Math::Floor2(::g::Uno::Float2__op_Addition1(::g::Uno::Float2__op_Multiply1(sz, absoluteZoom), 0.5f)), absoluteZoom);
 }
 
 // public generated SizingContainer New() [static] :7
@@ -5059,7 +5121,7 @@ SizingContainer* SizingContainer::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/RectPacker.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/RectPacker.uno
 // -----------------------------------------------------------------------
 
 // internal struct SkylineNode :6
@@ -5114,13 +5176,15 @@ SkylineNode SkylineNode__New1(::g::Uno::Int2 position, int32_t width)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/Statistics.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Statistics.uno
 // -----------------------------------------------------------------------
 
 // public static class Statistics :5
 // {
 static void Statistics_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 uClassType* Statistics_typeof()
@@ -5129,6 +5193,7 @@ uClassType* Statistics_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.DependencyCount = 1;
     options.TypeSize = sizeof(uClassType);
     type = uClassType::New("Fuse.Internal.Statistics", options);
     type->fp_build_ = Statistics_build;
@@ -5148,7 +5213,7 @@ double Statistics::ContinuousFilterAlpha(double elapsed, double period)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/SystemFont.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/SystemFont.uno
 // -----------------------------------------------------------------------
 
 // internal static class SystemFont :57
@@ -5195,13 +5260,15 @@ void SystemFont__Get_fn(uString* family, int32_t* style, int32_t* weight, ::g::U
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/VectorUtil.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/VectorUtil.uno
 // -----------------------------------------------------------------------
 
 // internal static class VectorUtil :5
 // {
 static void VectorUtil_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 uClassType* VectorUtil_typeof()
@@ -5210,6 +5277,7 @@ uClassType* VectorUtil_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.DependencyCount = 1;
     options.TypeSize = sizeof(uClassType);
     type = uClassType::New("Fuse.Internal.VectorUtil", options);
     type->fp_build_ = VectorUtil_build;

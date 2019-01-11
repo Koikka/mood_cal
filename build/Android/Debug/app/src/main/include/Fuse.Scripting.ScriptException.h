@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting/1.8.1/ScriptException.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting/1.9.0/ScriptException.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once

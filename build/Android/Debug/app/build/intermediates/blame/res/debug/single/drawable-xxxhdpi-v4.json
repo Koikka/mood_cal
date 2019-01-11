@@ -60,12 +60,12 @@
         "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
         "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
@@ -92,11 +92,11 @@
         "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
         "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     }
 ]

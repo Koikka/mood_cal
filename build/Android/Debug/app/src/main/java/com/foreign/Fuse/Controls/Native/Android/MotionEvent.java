@@ -20,30 +20,30 @@ public class MotionEvent
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static boolean Compare161(final Object handle1,final Object handle2)
+    public static boolean Compare164(final Object handle1,final Object handle2)
     {
         return (((android.view.MotionEvent)handle1) == ((android.view.MotionEvent)handle2));
     }
     
-    public static int GetAction162(final UnoObject _this, final Object handle)
+    public static int GetAction165(final UnoObject _this, final Object handle)
     {
         return ((android.view.MotionEvent)handle).getAction();
     }
     
-    public static int GetActionMasked163(final UnoObject _this, final Object handle)
+    public static int GetActionMasked166(final UnoObject _this, final Object handle)
     {
         return ((android.view.MotionEvent)handle).getActionMasked();
     }
     
-    public static long GetEventTime164(final UnoObject _this, final Object handle)
+    public static long GetEventTime167(final UnoObject _this, final Object handle)
     {
         return ((android.view.MotionEvent)handle).getEventTime();
     }
     
-    public static void GetLocationOnScreen1165(final UnoObject _this, final Object viewHandle,final com.uno.IntArray result)
+    public static void GetLocationOnScreen1168(final UnoObject _this, final Object viewHandle,final com.uno.IntArray result)
     {
         int[] array = new int[2];
         ((android.view.View)viewHandle).getLocationOnScreen(array);
@@ -51,42 +51,42 @@ public class MotionEvent
         result.set(1, array[1]);
     }
     
-    public static int GetPointerCount166(final UnoObject _this, final Object handle)
+    public static int GetPointerCount169(final UnoObject _this, final Object handle)
     {
         return ((android.view.MotionEvent)handle).getPointerCount();
     }
     
-    public static int GetPointerId1167(final UnoObject _this, final Object handle,final int pointerIndex)
+    public static int GetPointerId1170(final UnoObject _this, final Object handle,final int pointerIndex)
     {
         return ((android.view.MotionEvent)handle).getPointerId(pointerIndex);
     }
     
-    public static int GetPointerIndexMask168()
+    public static int GetPointerIndexMask171()
     {
         return android.view.MotionEvent.ACTION_POINTER_INDEX_MASK;
     }
     
-    public static int GetPointerIndexShift169()
+    public static int GetPointerIndexShift172()
     {
         return android.view.MotionEvent.ACTION_POINTER_INDEX_SHIFT;
     }
     
-    public static float GetX170(final UnoObject _this, final Object handle,final int pointerIndex)
+    public static float GetX173(final UnoObject _this, final Object handle,final int pointerIndex)
     {
         return ((android.view.MotionEvent)handle).getX(pointerIndex);
     }
     
-    public static float GetXPrecision171(final UnoObject _this, final Object handle)
+    public static float GetXPrecision174(final UnoObject _this, final Object handle)
     {
         return ((android.view.MotionEvent)handle).getXPrecision();
     }
     
-    public static float GetY172(final UnoObject _this, final Object handle,final int pointerIndex)
+    public static float GetY175(final UnoObject _this, final Object handle,final int pointerIndex)
     {
         return ((android.view.MotionEvent)handle).getY(pointerIndex);
     }
     
-    public static float GetYPrecision173(final UnoObject _this, final Object handle)
+    public static float GetYPrecision176(final UnoObject _this, final Object handle)
     {
         return ((android.view.MotionEvent)handle).getYPrecision();
     }

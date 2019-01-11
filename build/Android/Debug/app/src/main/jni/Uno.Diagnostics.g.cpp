@@ -22,7 +22,7 @@ namespace g{
 namespace Uno{
 namespace Diagnostics{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Diagnostics/Debug.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Diagnostics/Debug.uno
 // ----------------------------------------------------------------------------
 
 // public delegate void AssertionHandler(bool value, string expression, string filename, int line, object[] operands) :21
@@ -41,7 +41,7 @@ uDelegateType* AssertionHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Diagnostics/Clock.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Diagnostics/Clock.uno
 // ----------------------------------------------------------------------------
 
 // public static class Clock :9
@@ -128,7 +128,7 @@ int32_t Clock::GetTimezoneOffset(int32_t year, int32_t month, int32_t day)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Diagnostics/Debug.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Diagnostics/Debug.uno
 // ----------------------------------------------------------------------------
 
 // public static class Debug :27
@@ -233,7 +233,7 @@ void Debug::Log3(uString* message, int32_t type, uString* filename, int32_t line
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Diagnostics/Debug.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Diagnostics/Debug.uno
 // ----------------------------------------------------------------------------
 
 // public enum DebugMessageType :8
@@ -253,7 +253,7 @@ uEnumType* DebugMessageType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Diagnostics/Debug.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Diagnostics/Debug.uno
 // ----------------------------------------------------------------------------
 
 // public delegate void LogHandler(string message, Uno.Diagnostics.DebugMessageType type) :24

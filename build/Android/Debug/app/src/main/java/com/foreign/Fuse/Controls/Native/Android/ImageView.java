@@ -20,16 +20,16 @@ public class ImageView
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void ClearBitmap145(final Object handle)
+    public static void ClearBitmap148(final Object handle)
     {
         ((android.widget.ImageView)handle).setImageResource(0);
         ((android.widget.ImageView)handle).invalidate();
     }
     
-    public static Object Create146(final Object container)
+    public static Object Create149(final Object container)
     {
         android.widget.FrameLayout frameLayout = (android.widget.FrameLayout)container;
         android.widget.ImageView imageView = new android.widget.ImageView(com.fuse.Activity.getRootActivity());
@@ -39,7 +39,7 @@ public class ImageView
         return imageView;
     }
     
-    public static Object CreateContainer147()
+    public static Object CreateContainer150()
     {
         android.widget.FrameLayout frameLayout = new android.widget.FrameLayout(com.fuse.Activity.getRootActivity());
         frameLayout.setFocusable(true);
@@ -50,7 +50,7 @@ public class ImageView
         return frameLayout;
     }
     
-    public static void GetImageSize148(final Object handle,final com.uno.IntArray wh)
+    public static void GetImageSize151(final Object handle,final com.uno.IntArray wh)
     {
         android.widget.ImageView imageView = (android.widget.ImageView)handle;
         imageView.measure(
@@ -60,13 +60,13 @@ public class ImageView
         wh.set(1, imageView.getMeasuredHeight());
     }
     
-    public static void SetBitmap149(final Object handle,final Object bitmapHandle)
+    public static void SetBitmap152(final Object handle,final Object bitmapHandle)
     {
         ((android.widget.ImageView)handle).setImageBitmap( (android.graphics.Bitmap)bitmapHandle );
         ((android.widget.ImageView)handle).invalidate();
     }
     
-    public static void SetTint150(final Object handle,final int rgba)
+    public static void SetTint153(final Object handle,final int rgba)
     {
         android.graphics.drawable.Drawable drawable = ((android.widget.ImageView)handle).getDrawable();
         if (drawable != null) {
@@ -74,7 +74,7 @@ public class ImageView
         }
     }
     
-    public static void UpdateImageTransform1151(final Object handle,final float x,final float y,final float scaleX,final float scaleY)
+    public static void UpdateImageTransform1154(final Object handle,final float x,final float y,final float scaleX,final float scaleY)
     {
         android.widget.ImageView imageView = (android.widget.ImageView)handle;
         float[] m = new float[]

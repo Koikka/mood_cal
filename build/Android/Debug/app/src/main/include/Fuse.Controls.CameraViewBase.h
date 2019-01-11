@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/CameraViewBase.ScriptClass.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/CameraViewBase.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,6 +9,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -38,7 +39,7 @@ namespace Controls{
 // {
 struct CameraViewBase_type : ::g::Fuse::Controls::Control_type
 {
-    ::g::Fuse::Controls::ICameraViewHost interface17;
+    ::g::Fuse::Controls::ICameraViewHost interface18;
 };
 
 CameraViewBase_type* CameraViewBase_typeof();

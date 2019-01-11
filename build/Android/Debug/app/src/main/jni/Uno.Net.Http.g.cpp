@@ -53,7 +53,7 @@ namespace Uno{
 namespace Net{
 namespace Http{
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpMessageHandlerRequest.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpMessageHandlerRequest.uno
 // ------------------------------------------------------------------------------
 
 // private sealed class HttpMessageHandlerRequest.DispatchClosure :138
@@ -126,7 +126,7 @@ HttpMessageHandlerRequest__DispatchClosure* HttpMessageHandlerRequest__DispatchC
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpMessageHandlerRequest.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpMessageHandlerRequest.uno
 // ------------------------------------------------------------------------------
 
 // private sealed class HttpMessageHandlerRequest.DispatchClosure<TArg1> :161
@@ -192,7 +192,7 @@ void HttpMessageHandlerRequest__DispatchClosure1::Run()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpDefaultDispatcher.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpDefaultDispatcher.uno
 // --------------------------------------------------------------------------
 
 // internal sealed class HttpDefaultDispatcher :6
@@ -257,7 +257,7 @@ HttpDefaultDispatcher* HttpDefaultDispatcher::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpMessageCache.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpMessageCache.uno
 // ---------------------------------------------------------------------
 
 // public static class HttpMessageCache :3
@@ -272,7 +272,7 @@ static void HttpMessageCache__cctor__fn(uType* __type)
 static void HttpMessageCache_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("Uno.Net.Http.HttpMessageCache: Changes to IsCacheEnabled are ignored after initialization.");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpMessageCache.uno");
+    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpMessageCache.uno");
     ::TYPES[0] = ::g::Uno::Platform::ApplicationStateTransitionHandler_typeof();
     type->SetDependencies(
         ::g::Uno::Platform::CoreApp_typeof(),
@@ -370,7 +370,7 @@ void HttpMessageCache::IsCacheEnabled(bool value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpMessageHandler.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpMessageHandler.uno
 // -----------------------------------------------------------------------
 
 // public sealed class HttpMessageHandler :8
@@ -522,7 +522,7 @@ HttpMessageHandler* HttpMessageHandler::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpMessageHandlerRequest.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpMessageHandlerRequest.uno
 // ------------------------------------------------------------------------------
 
 // public sealed class HttpMessageHandlerRequest :8
@@ -1265,7 +1265,7 @@ HttpMessageHandlerRequest* HttpMessageHandlerRequest::New1(::g::Uno::Net::Http::
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpRequestState.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpRequestState.uno
 // ---------------------------------------------------------------------
 
 // public enum HttpRequestState :3
@@ -1289,7 +1289,7 @@ uEnumType* HttpRequestState_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpResponseType.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpResponseType.uno
 // ---------------------------------------------------------------------
 
 // public enum HttpResponseType :3
@@ -1306,7 +1306,7 @@ uEnumType* HttpResponseType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpStatusReasonPhrase.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpStatusReasonPhrase.uno
 // ---------------------------------------------------------------------------
 
 // public static class HttpStatusReasonPhrase :5
@@ -1434,7 +1434,7 @@ uString* HttpStatusReasonPhrase::GetFromStatusCode(int32_t statusCode)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpMessageHandlerRequest.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpMessageHandlerRequest.uno
 // ------------------------------------------------------------------------------
 
 // public sealed class InvalidResponseTypeException :496
@@ -1488,7 +1488,7 @@ InvalidResponseTypeException* InvalidResponseTypeException::New4()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpMessageHandlerRequest.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpMessageHandlerRequest.uno
 // ------------------------------------------------------------------------------
 
 // public sealed class InvalidStateException :502
@@ -1542,7 +1542,7 @@ InvalidStateException* InvalidStateException::New4()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpMessageHandlerRequest.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpMessageHandlerRequest.uno
 // ------------------------------------------------------------------------------
 
 // private sealed class HttpMessageHandlerRequest.ProgressClosure :186
@@ -1620,7 +1620,7 @@ HttpMessageHandlerRequest__ProgressClosure* HttpMessageHandlerRequest__ProgressC
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/HttpMessageHandler.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpMessageHandler.uno
 // -----------------------------------------------------------------------
 
 // internal static class HttpMessageHandler.StaticData :10

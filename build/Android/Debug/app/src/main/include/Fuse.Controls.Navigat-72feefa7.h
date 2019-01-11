@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.8.1/.uno/ux14/Fuse.Controls.NavigationInternal.NavRemoveHorizontal.g.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/.uno/ux15/Fuse.Controls.NavigationInternal.NavRemoveHorizontal.g.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,6 +8,7 @@
 #include <Fuse.IBeginRemoveVisu-90c91ef5.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Removin-3934475f.h>
 #include <Uno.Collections.ICollection-1.h>

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.FileSystem/1.8.1/PathTools.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.FileSystem/1.9.0/PathTools.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once

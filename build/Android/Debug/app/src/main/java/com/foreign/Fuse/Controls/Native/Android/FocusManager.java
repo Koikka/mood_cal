@@ -20,25 +20,25 @@ public class FocusManager
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object GetContext140(final Object viewHandle)
+    public static Object GetContext143(final Object viewHandle)
     {
         return ((android.view.View)viewHandle).getContext();
     }
     
-    public static Object GetWindowToken141(final Object viewHandle)
+    public static Object GetWindowToken144(final Object viewHandle)
     {
         return ((android.view.View)viewHandle).getWindowToken();
     }
     
-    public static boolean HasFocus142(final Object viewHandle)
+    public static boolean HasFocus145(final Object viewHandle)
     {
         return ((android.view.View)viewHandle).hasFocus();
     }
     
-    public static void RequestRootViewFocus143(final Object viewHandle)
+    public static void RequestRootViewFocus146(final Object viewHandle)
     {
         ((android.view.View)viewHandle).getRootView().requestFocus();
     }

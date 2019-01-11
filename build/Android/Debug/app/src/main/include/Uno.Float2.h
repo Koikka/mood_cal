@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Float2.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Float2.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -26,7 +26,7 @@ void Float2__op_Addition2_fn(Float2* a, Float2* b, Float2* __retval);
 void Float2__op_Division1_fn(Float2* a, float* b, Float2* __retval);
 void Float2__op_Division2_fn(Float2* a, Float2* b, Float2* __retval);
 void Float2__op_Equality_fn(Float2* a, Float2* b, bool* __retval);
-void Float2__op_Implicit1_fn(::g::Uno::Int2* a, Float2* __retval);
+void Float2__op_Implicit2_fn(::g::Uno::Int2* a, Float2* __retval);
 void Float2__op_Inequality_fn(Float2* a, Float2* b, bool* __retval);
 void Float2__op_Multiply_fn(float* a, Float2* b, Float2* __retval);
 void Float2__op_Multiply1_fn(Float2* a, float* b, Float2* __retval);
@@ -58,7 +58,7 @@ Float2 Float2__op_Addition2(Float2 a, Float2 b);
 Float2 Float2__op_Division1(Float2 a, float b);
 Float2 Float2__op_Division2(Float2 a, Float2 b);
 bool Float2__op_Equality(Float2 a, Float2 b);
-Float2 Float2__op_Implicit1(::g::Uno::Int2 a);
+Float2 Float2__op_Implicit2(::g::Uno::Int2 a);
 bool Float2__op_Inequality(Float2 a, Float2 b);
 Float2 Float2__op_Multiply(float a, Float2 b);
 Float2 Float2__op_Multiply1(Float2 a, float b);

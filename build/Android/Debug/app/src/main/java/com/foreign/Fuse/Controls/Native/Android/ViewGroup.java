@@ -20,24 +20,24 @@ public class ViewGroup
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void AddView232(final Object parentHandle,final Object childHandle)
+    public static void AddView235(final Object parentHandle,final Object childHandle)
     {
         android.view.ViewGroup viewGroup = (android.view.ViewGroup)parentHandle;
         android.view.View childView = (android.view.View)childHandle;
         viewGroup.addView(childView);
     }
     
-    public static void AddView1233(final Object parentHandle,final Object childHandle,final int index)
+    public static void AddView1236(final Object parentHandle,final Object childHandle,final int index)
     {
         android.view.ViewGroup viewGroup = (android.view.ViewGroup)parentHandle;
         android.view.View childView = (android.view.View)childHandle;
         viewGroup.addView(childView, index);
     }
     
-    public static Object Create234()
+    public static Object Create237()
     {
         android.widget.FrameLayout frameLayout = new com.fuse.android.views.ViewGroup(com.fuse.Activity.getRootActivity());
         frameLayout.setFocusable(true);
@@ -46,7 +46,7 @@ public class ViewGroup
         return frameLayout;
     }
     
-    public static void RemoveView235(final Object parentHandle,final Object childHandle)
+    public static void RemoveView238(final Object parentHandle,final Object childHandle)
     {
         android.view.ViewGroup viewGroup = (android.view.ViewGroup)parentHandle;
         android.view.View childView = (android.view.View)childHandle;

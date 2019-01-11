@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.8.1/VisualNavigation.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/VisualNavigation.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,6 +7,7 @@
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IParentObserver.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Navigation.IBase-84e3f965.h>
 #include <Fuse.Navigation.INavigation.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -29,9 +30,9 @@ namespace Navigation{
 // {
 struct VisualNavigation_type : ::g::Fuse::Node_type
 {
-    ::g::Fuse::Navigation::INavigation interface6;
-    ::g::Fuse::IParentObserver interface7;
-    ::g::Fuse::Navigation::IBaseNavigation interface8;
+    ::g::Fuse::Navigation::INavigation interface7;
+    ::g::Fuse::IParentObserver interface8;
+    ::g::Fuse::Navigation::IBaseNavigation interface9;
     void(*fp_get_Active)(::g::Fuse::Navigation::VisualNavigation*, ::g::Fuse::Visual**);
     void(*fp_set_Active)(::g::Fuse::Navigation::VisualNavigation*, ::g::Fuse::Visual*);
     void(*fp_get_CanGoBack)(::g::Fuse::Navigation::VisualNavigation*, bool*);
@@ -46,6 +47,7 @@ struct VisualNavigation_type : ::g::Fuse::Node_type
 };
 
 VisualNavigation_type* VisualNavigation_typeof();
+void VisualNavigation__ctor_3_fn(VisualNavigation* __this);
 void VisualNavigation__get_ActivePage_fn(VisualNavigation* __this, ::g::Fuse::Visual** __retval);
 void VisualNavigation__add_ActivePageChanged_fn(VisualNavigation* __this, uDelegate* value);
 void VisualNavigation__remove_ActivePageChanged_fn(VisualNavigation* __this, uDelegate* value);
@@ -100,6 +102,7 @@ struct VisualNavigation : ::g::Fuse::Behavior
     uStrong<uDelegate*> PageProgressChanged1;
     uStrong<uDelegate*> StateChanged1;
 
+    void ctor_3();
     ::g::Fuse::Visual* Active() { ::g::Fuse::Visual* __retval; return (((VisualNavigation_type*)__type)->fp_get_Active)(this, &__retval), __retval; }
     void Active(::g::Fuse::Visual* value) { (((VisualNavigation_type*)__type)->fp_set_Active)(this, value); }
     ::g::Fuse::Visual* ActivePage();

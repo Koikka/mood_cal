@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Runtime/InteropServices/GCHandle.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Runtime/InteropServices/GCHandle.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once

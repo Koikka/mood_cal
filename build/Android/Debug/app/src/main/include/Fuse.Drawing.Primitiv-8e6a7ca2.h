@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Rectangle.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Rectangle.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -34,6 +34,7 @@ void Rectangle__init_DrawCalls_fn(Rectangle* __this);
 void Rectangle__InitBuffers_fn(Rectangle* __this);
 void Rectangle__neg_fn(Rectangle* __this, uArray* a, uArray** __retval);
 void Rectangle__New1_fn(Rectangle** __retval);
+void Rectangle__Shadow_fn(Rectangle* __this, ::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* visual, ::g::Uno::Float2* Size, ::g::Uno::Float4* CornerRadius, ::g::Fuse::Drawing::Brush* brush, ::g::Uno::Float2* Position, float* Smoothness);
 void Rectangle__Stroke_fn(Rectangle* __this, ::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* visual, ::g::Uno::Float2* Size, ::g::Uno::Float4* CornerRadius, ::g::Fuse::Drawing::Stroke* stroke, ::g::Uno::Float2* Position, float* Smoothness);
 void Rectangle__sub_fn(Rectangle* __this, uArray* a, uArray* b, uArray** __retval);
 
@@ -72,6 +73,7 @@ struct Rectangle : uObject
     void init_DrawCalls();
     void InitBuffers();
     uArray* neg(uArray* a);
+    void Shadow(::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* visual, ::g::Uno::Float2 Size, ::g::Uno::Float4 CornerRadius, ::g::Fuse::Drawing::Brush* brush, ::g::Uno::Float2 Position, float Smoothness);
     void Stroke(::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* visual, ::g::Uno::Float2 Size, ::g::Uno::Float4 CornerRadius, ::g::Fuse::Drawing::Stroke* stroke, ::g::Uno::Float2 Position, float Smoothness);
     uArray* sub(uArray* a, uArray* b);
     static Rectangle* New1();

@@ -28,7 +28,7 @@ namespace Android{
 namespace Base{
 namespace Types{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Types.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Types.uno
 // ------------------------------------------------------------------------------
 
 // public static extern class Arrays :129
@@ -59,16 +59,16 @@ void Arrays__JavaToUnoByteArray1_fn(jobject* arr_, int64_t* len_, uArray** __ret
 uArray* Arrays::JavaToUnoByteArray1(jobject arr_, int64_t len_)
 {
     if (!arr_) return NULL;
-    JNIEnv* jni = ::g::Android::Base::JNI::GetEnvPtr();
-    jbyteArray jarr = (jbyteArray)arr_;
-    long len = len_;
-    uArray* arr = uArray::New(::g::Uno::Byte_typeof()->Array(), len);
-    jni->GetByteArrayRegion(jarr, 0, len, (jbyte*)arr->_ptr);
-    return arr;
+                         JNIEnv* jni = ::g::Android::Base::JNI::GetEnvPtr();
+                         jbyteArray jarr = (jbyteArray)arr_;
+                         long len = len_;
+                         uArray* arr = uArray::New(::g::Uno::Byte_typeof()->Array(), len);
+                         jni->GetByteArrayRegion(jarr, 0, len, (jbyte*)arr->_ptr);
+                         return arr;
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Types.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Types.uno
 // ------------------------------------------------------------------------------
 
 // public static extern class Bridge :10
@@ -136,21 +136,21 @@ jmethodID Bridge::_unoToJavaMid_;
 void Bridge::Init()
 {
     if (Bridge::_inited_) { return; }
-    JNIEnv* jni = ::g::Android::Base::JNI::GetEnvPtr();
-    Bridge::_helperCls_ = reinterpret_cast<jclass>(jni->NewGlobalRef(::g::Android::Base::JNI::LoadClass1(::g::Android::Base::JNI::GetEnvPtr(), "com.Bindings.UnoHelper", false)));
-    if (!Bridge::_helperCls_) {
-        U_THROW(::g::Uno::Exception::New2(uString::Utf8("Could not cache class for UnoHelper",35)));
-    }
+                        JNIEnv* jni = ::g::Android::Base::JNI::GetEnvPtr();
+                        Bridge::_helperCls_ = reinterpret_cast<jclass>(jni->NewGlobalRef(::g::Android::Base::JNI::LoadClass1(::g::Android::Base::JNI::GetEnvPtr(), "com.Bindings.UnoHelper", false)));
+                        if (!Bridge::_helperCls_) {
+                            U_THROW(::g::Uno::Exception::New2(uString::Utf8("Could not cache class for UnoHelper",35)));
+                        }
     
-    Bridge::_registerTypeMid_ = jni->GetStaticMethodID(Bridge::_helperCls_, "RegisterUnoType", "(Ljava/lang/String;J)V");
-    Bridge::_registerFallbackMid_ = jni->GetStaticMethodID(Bridge::_helperCls_, "RegisterUnoFallback", "(Ljava/lang/String;J)V");
-    Bridge::_javaToUnoMid_ = jni->GetStaticMethodID(Bridge::_helperCls_, "JavaToUnoType", "(Ljava/lang/Object;JZ)J");
-    Bridge::_unoToJavaMid_ = jni->GetStaticMethodID(Bridge::_helperCls_, "UnoToJavaType", "(J)Ljava/lang/Class;");
+                        Bridge::_registerTypeMid_ = jni->GetStaticMethodID(Bridge::_helperCls_, "RegisterUnoType", "(Ljava/lang/String;J)V");
+                        Bridge::_registerFallbackMid_ = jni->GetStaticMethodID(Bridge::_helperCls_, "RegisterUnoFallback", "(Ljava/lang/String;J)V");
+                        Bridge::_javaToUnoMid_ = jni->GetStaticMethodID(Bridge::_helperCls_, "JavaToUnoType", "(Ljava/lang/Object;JZ)J");
+                        Bridge::_unoToJavaMid_ = jni->GetStaticMethodID(Bridge::_helperCls_, "UnoToJavaType", "(J)Ljava/lang/Class;");
     
-    if ((!Bridge::_registerTypeMid_) || (!Bridge::_registerFallbackMid_) || (!Bridge::_javaToUnoMid_) || (!Bridge::_unoToJavaMid_)) {
-        U_THROW(::g::Uno::Exception::New2(uString::Utf8("Could not cache methods for UnoHelper", 37)));
-    }
-    Bridge::_inited_ = true;
+                        if ((!Bridge::_registerTypeMid_) || (!Bridge::_registerFallbackMid_) || (!Bridge::_javaToUnoMid_) || (!Bridge::_unoToJavaMid_)) {
+                            U_THROW(::g::Uno::Exception::New2(uString::Utf8("Could not cache methods for UnoHelper", 37)));
+                        }
+                        Bridge::_inited_ = true;
 }
 
 // public static Uno.Type JavaToUnoType(Android.Base.Primitives.ujobject javaObj, Uno.Type fallbackType, bool typeHasFallbackClass) [static] :26
@@ -181,37 +181,37 @@ uType* Bridge::JavaToUnoType(jobject javaObj, uType* fallbackType, bool typeHasF
 void Bridge::RegisterUnoType(const char* typeName_, int32_t nameLen_, uType* typePtr_)
 {
     if (!Bridge::_inited_) { Bridge::Init(); }
-    JNIEnv* jni = ::g::Android::Base::JNI::GetEnvPtr();
+                         JNIEnv* jni = ::g::Android::Base::JNI::GetEnvPtr();
     
-    char *buf = (char*)malloc(nameLen_ + 1);
-    strcpy(buf, typeName_);
-    jstring javaTypeName = jni->NewStringUTF(buf);
+                         char *buf = (char*)malloc(nameLen_ + 1);
+                         strcpy(buf, typeName_);
+                         jstring javaTypeName = jni->NewStringUTF(buf);
     
-    jni->CallStaticVoidMethod(Bridge::_helperCls_, Bridge::_registerTypeMid_, javaTypeName, ((jlong)typePtr_));
-    ::g::Android::Base::JNI::CheckException1(jni);
-    jni->DeleteLocalRef(javaTypeName);
-    free(buf);
+                         jni->CallStaticVoidMethod(Bridge::_helperCls_, Bridge::_registerTypeMid_, javaTypeName, ((jlong)typePtr_));
+                         ::g::Android::Base::JNI::CheckException1(jni);
+                         jni->DeleteLocalRef(javaTypeName);
+                         free(buf);
 }
 
 // public static extern void SetWrapperType(Android.Base.Wrappers.JWrapper wrapper, Android.Base.Primitives.ujobject obj, Uno.Type typePtr, bool typeHasFallbackClass, bool resolveType) [static] :62
 void Bridge::SetWrapperType(::g::Android::Base::Wrappers::JWrapper* wrapper_, jobject obj_, uType* typePtr_, bool typeHasFallbackClass_, bool resolveType_)
 {
     if (!wrapper_) {
-        U_THROW(::g::Uno::Exception::New2(uString::Utf8("Trying to set type of null object",33)));
-    } else if ((!obj_) && resolveType_) {
-        U_THROW(::g::Uno::Exception::New2(uString::Utf8("Have requested to infer type from jobject but jobject is null",61)));
-    } else {
-        if (typePtr_) {
-            wrapper_->__type = typePtr_;
-        }
-        if (obj_ && resolveType_) {
-            wrapper_->__type = ((uType*)Bridge::JavaToUnoType(obj_, wrapper_->__type, typeHasFallbackClass_));
-        }
-    }
+                             U_THROW(::g::Uno::Exception::New2(uString::Utf8("Trying to set type of null object",33)));
+                         } else if ((!obj_) && resolveType_) {
+                             U_THROW(::g::Uno::Exception::New2(uString::Utf8("Have requested to infer type from jobject but jobject is null",61)));
+                         } else {
+                             if (typePtr_) {
+                                 wrapper_->__type = typePtr_;
+                             }
+                             if (obj_ && resolveType_) {
+                                 wrapper_->__type = ((uType*)Bridge::JavaToUnoType(obj_, wrapper_->__type, typeHasFallbackClass_));
+                             }
+                         }
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Types.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Types.uno
 // ------------------------------------------------------------------------------
 
 // public static extern class ByteBuffer :66
@@ -248,7 +248,7 @@ void ByteBuffer__ValidDirectByteBuffer_fn(jobject* directByteBuffer_, bool* __re
 jobject ByteBuffer::NewDirectByteBuffer(uArray* data_)
 {
     if (!data_) return NULL;
-    return ::g::Android::Base::JNI::GetEnvPtr()->NewDirectByteBuffer(data_->Ptr(), (jlong)data_->Length());
+                             return ::g::Android::Base::JNI::GetEnvPtr()->NewDirectByteBuffer(data_->Ptr(), (jlong)data_->Length());
 }
 
 // public static extern bool ValidDirectByteBuffer(Android.Base.Primitives.ujobject directByteBuffer) [static] :78
@@ -258,7 +258,7 @@ bool ByteBuffer::ValidDirectByteBuffer(jobject directByteBuffer_)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Types.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Types.uno
 // ------------------------------------------------------------------------------
 
 // public static extern class String :96
@@ -314,15 +314,15 @@ void String__UnoToJava1_fn(uString* str, jobject* __retval)
 uString* String::JavaToUno(JNIEnv* jni_, jobject jstr_)
 {
     if (!jstr_) { return NULL; }
-    jobject str = jni_->NewLocalRef(jstr_);
-    const jchar* raw =  jni_->GetStringChars((jstring)str, NULL);
-    int len = jni_->GetStringLength((jstring)str);
-    int size = len * sizeof(jchar);
-    uString* result = uString::New(len);
-    memcpy(result->_ptr, (void*)raw, size);
-    jni_->ReleaseStringChars((jstring)str, raw);
-    jni_->DeleteLocalRef(str);
-    return result;
+                             jobject str = jni_->NewLocalRef(jstr_);
+                             const jchar* raw =  jni_->GetStringChars((jstring)str, NULL);
+                             int len = jni_->GetStringLength((jstring)str);
+                             int size = len * sizeof(jchar);
+                             uString* result = uString::New(len);
+                             memcpy(result->_ptr, (void*)raw, size);
+                             jni_->ReleaseStringChars((jstring)str, raw);
+                             jni_->DeleteLocalRef(str);
+                             return result;
 }
 
 // public static string JavaToUno(Android.Base.Primitives.ujobject jstr) [static] :106

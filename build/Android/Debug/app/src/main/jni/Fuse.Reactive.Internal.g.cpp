@@ -22,7 +22,7 @@ namespace Fuse{
 namespace Reactive{
 namespace Internal{
 
-// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.8.1/Internal/PatchList.uno
+// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Internal/PatchList.uno
 // ---------------------------------------------------------------------------------
 
 // private struct SimpleAlgorithm<T>.Location :121
@@ -59,7 +59,7 @@ void SimpleAlgorithm__Location__ToString_fn(SimpleAlgorithm__Location* __this, u
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.8.1/Internal/PatchList.uno
+// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Internal/PatchList.uno
 // ---------------------------------------------------------------------------------
 
 // internal enum PatchAlgorithm :23
@@ -75,7 +75,7 @@ uEnumType* PatchAlgorithm_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.8.1/Internal/PatchList.uno
+// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Internal/PatchList.uno
 // ---------------------------------------------------------------------------------
 
 // internal struct PatchItem :16
@@ -104,7 +104,7 @@ uStructType* PatchItem_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.8.1/Internal/PatchList.uno
+// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Internal/PatchList.uno
 // ---------------------------------------------------------------------------------
 
 // internal sealed class PatchList :38
@@ -184,7 +184,7 @@ void PatchList__PatchRemoveAll_fn(uType* __type, uObject* from, uObject* to, ::g
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.8.1/Internal/PatchList.uno
+// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Internal/PatchList.uno
 // ---------------------------------------------------------------------------------
 
 // internal enum PatchOp :6
@@ -201,7 +201,7 @@ uEnumType* PatchOp_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.8.1/Internal/PatchList.uno
+// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Internal/PatchList.uno
 // ---------------------------------------------------------------------------------
 
 // internal sealed class SimpleAlgorithm<T> :98

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/TextControls/MobileTextEdit.Forwarding.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/MobileTextEdit.Forwarding.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,6 +10,7 @@
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.Input.INotifyFocus.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -34,8 +35,8 @@ namespace Controls{
 // {
 struct MobileTextEdit_type : ::g::Fuse::Controls::TextEdit_type
 {
-    ::g::Fuse::Controls::Native::ITextEditHost interface18;
-    ::g::Fuse::Input::INotifyFocus interface19;
+    ::g::Fuse::Controls::Native::ITextEditHost interface19;
+    ::g::Fuse::Input::INotifyFocus interface20;
 };
 
 MobileTextEdit_type* MobileTextEdit_typeof();

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.8.1/RemovingAnimation.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/RemovingAnimation.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,6 +8,7 @@
 #include <Fuse.IBeginRemoveVisu-90c91ef5.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Trigger.h>
 #include <Uno.Collections.ICollection-1.h>
@@ -24,7 +25,7 @@ namespace Triggers{
 // {
 struct RemovingAnimation_type : ::g::Fuse::Triggers::Trigger_type
 {
-    ::g::Fuse::IBeginRemoveVisualListener interface8;
+    ::g::Fuse::IBeginRemoveVisualListener interface9;
 };
 
 RemovingAnimation_type* RemovingAnimation_typeof();

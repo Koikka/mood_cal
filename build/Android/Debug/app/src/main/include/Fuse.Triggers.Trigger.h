@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.8.1/Trigger.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Trigger.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,6 +7,7 @@
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.NodeGroupBase.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Uno.Collections.ICollection-1.h>
@@ -28,8 +29,8 @@ namespace Triggers{
 // {
 struct Trigger_type : ::g::Fuse::Node_type
 {
-    ::g::Fuse::Animations::IUnwrappedPlayerFeedback interface6;
-    ::g::Fuse::Animations::IBasePlayerFeedback interface7;
+    ::g::Fuse::Animations::IUnwrappedPlayerFeedback interface7;
+    ::g::Fuse::Animations::IBasePlayerFeedback interface8;
     void(*fp_OnPlayStateChanged)(::g::Fuse::Triggers::Trigger*, int32_t*);
     void(*fp_OnProgressChanged)(::g::Fuse::Triggers::Trigger*);
 };

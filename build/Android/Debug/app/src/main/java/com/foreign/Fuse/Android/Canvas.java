@@ -20,15 +20,15 @@ public class Canvas
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object Create380(final Object bitmapHandle)
+    public static Object Create383(final Object bitmapHandle)
     {
         return new android.graphics.Canvas(((android.graphics.Bitmap)bitmapHandle));
     }
     
-    public static void Translate1381(final Object handle,final float dx,final float dy)
+    public static void Translate1384(final Object handle,final float dx,final float dy)
     {
         ((android.graphics.Canvas)handle).translate(dx, dy);
     }

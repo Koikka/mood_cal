@@ -20,24 +20,24 @@ public class Switch
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void AddCallback192(final UnoObject _this, final Object handle)
+    public static void AddCallback195(final UnoObject _this, final Object handle)
     {
         ((android.widget.Switch)handle).setOnCheckedChangeListener(new android.widget.CompoundButton.OnCheckedChangeListener() {
         	public void onCheckedChanged(android.widget.CompoundButton buttonView, boolean isChecked) {
-        		ExternedBlockHost.callUno_Fuse_Controls_Native_Android_Switch_OnToggleChanged193((UnoObject)_this,(boolean)isChecked);
+        		ExternedBlockHost.callUno_Fuse_Controls_Native_Android_Switch_OnToggleChanged196((UnoObject)_this,(boolean)isChecked);
         	}
         });
     }
     
-    public static Object Create194()
+    public static Object Create197()
     {
         return new android.widget.Switch(com.fuse.Activity.getRootActivity());
     }
     
-    public static void SetValue195(final Object handle,final boolean value)
+    public static void SetValue198(final Object handle,final boolean value)
     {
         ((android.widget.Switch)handle).setChecked(value);
     }

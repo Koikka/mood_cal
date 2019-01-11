@@ -39,7 +39,7 @@ namespace g{
 namespace Fuse{
 namespace WebSocket{
 
-// /usr/local/share/uno/Packages/Fuse.WebSockets/1.8.1/WebSocketModule.uno
+// /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/WebSocketModule.uno
 // -----------------------------------------------------------------------
 
 // private sealed class NativeFunctionModule.FunctionClosure :30
@@ -118,7 +118,7 @@ NativeFunctionModule__FunctionClosure* NativeFunctionModule__FunctionClosure::Ne
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.WebSockets/1.8.1/WebSocketClient.uno
+// /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/WebSocketClient.uno
 // -----------------------------------------------------------------------
 
 // internal abstract interface IWebSocketClient :81
@@ -133,7 +133,7 @@ uInterfaceType* IWebSocketClient_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.WebSockets/1.8.1/WebSocketModule.uno
+// /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/WebSocketModule.uno
 // -----------------------------------------------------------------------
 
 // public abstract class NativeFunctionModule :10
@@ -198,7 +198,7 @@ void NativeFunctionModule::ctor_2(uString* name)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.WebSockets/1.8.1/WebSocketClient.uno
+// /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/WebSocketClient.uno
 // -----------------------------------------------------------------------
 
 // public sealed class WebSocketClient :6
@@ -373,7 +373,7 @@ WebSocketClient* WebSocketClient::New1(uString* uri, uArray* protocols)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.WebSockets/1.8.1/WebSocketModule.uno
+// /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/WebSocketModule.uno
 // -----------------------------------------------------------------------
 
 // public sealed class WebSocketClientModule :54
@@ -453,7 +453,7 @@ WebSocketClientModule* WebSocketClientModule::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.WebSockets/1.8.1/WebSocketModule.uno
+// /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/WebSocketModule.uno
 // -----------------------------------------------------------------------
 
 // internal sealed class WebSocketClientWrapper :71

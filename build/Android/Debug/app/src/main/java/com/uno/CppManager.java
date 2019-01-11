@@ -8,7 +8,7 @@ public class CppManager {
     public static void LoadLibraries()
     {
         String[] libs = new String[] { "log", "gnustl_shared", "V8Simple" };
-        Log.d("mood_calendar","SDK: "+Build.VERSION.SDK_INT);
+        Log.d("Kalenteri","SDK: "+Build.VERSION.SDK_INT);
 
         if (loadLibrariesInternal(libs) != 0)
         {
@@ -23,9 +23,9 @@ public class CppManager {
                     sb.append(", ");
                 sb.append(libs[i]);
             }
-            Log.wtf("mood_calendar", sb.toString());
+            Log.wtf("Kalenteri", sb.toString());
         }
-        System.loadLibrary("mood_calendar");
+        System.loadLibrary("Kalenteri");
     }
 
     static int loadLibrariesInternal(String[] libs)

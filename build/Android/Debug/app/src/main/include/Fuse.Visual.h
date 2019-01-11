@@ -1,10 +1,11 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Visual.BeginRemove.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Visual.BeginRemove.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.LayoutParams.h>
 #include <Fuse.Node.h>
@@ -48,12 +49,12 @@ namespace Fuse{
 // {
 struct Visual_type : ::g::Fuse::Node_type
 {
-    ::g::Uno::Collections::IList interface6;
-    ::g::Uno::UX::IPropertyListener interface7;
-    ::g::Fuse::ITemplateSource interface8;
-    ::g::Uno::Collections::IEnumerable interface9;
-    ::g::Uno::Collections::ICollection interface10;
-    ::g::Uno::Collections::IEnumerable interface11;
+    ::g::Uno::Collections::IList interface7;
+    ::g::Uno::UX::IPropertyListener interface8;
+    ::g::Fuse::ITemplateSource interface9;
+    ::g::Uno::Collections::IEnumerable interface10;
+    ::g::Uno::Collections::ICollection interface11;
+    ::g::Uno::Collections::IEnumerable interface12;
     void(*fp_get_AbsoluteViewportOrigin)(::g::Fuse::Visual*, ::g::Uno::Float2*);
     void(*fp_CalcAreChildrenFlat)(::g::Fuse::Visual*, bool*);
     void(*fp_get_CanAdjustMarginBox)(::g::Fuse::Visual*, bool*);
@@ -188,6 +189,7 @@ void Visual__IncrementWTIListener_fn(Visual* __this);
 void Visual__Insert1_fn(Visual* __this, int32_t* index, ::g::Fuse::Node* item);
 void Visual__Insert2_fn(Visual* __this, uType* __type, int32_t* p, void* value);
 void Visual__Insert3_fn(Visual* __this, uType* __type, int32_t* p, void* value);
+void Visual__InsertAfter_fn(Visual* __this, ::g::Fuse::Node* sibling, ::g::Fuse::Node* node);
 void Visual__InsertCleanup_fn(Visual* __this, ::g::Fuse::Node* item);
 void Visual__InsertNodesAfter_fn(Visual* __this, ::g::Fuse::Node* preceeder, uObject* items);
 void Visual__InsertNodesAfterImpl_fn(Visual* __this, ::g::Fuse::Node* preceeder, uObject* items, bool* allowMove);
@@ -514,6 +516,7 @@ struct Visual : ::g::Fuse::Node
     void Insert2(uType* __type, int32_t p, T value) { Visual__Insert2_fn(this, __type, &p, uConstrain(__type->U(0), value)); }
     template<class T>
     void Insert3(uType* __type, int32_t p, T value) { Visual__Insert3_fn(this, __type, &p, uConstrain(__type->U(0), value)); }
+    void InsertAfter(::g::Fuse::Node* sibling, ::g::Fuse::Node* node);
     void InsertCleanup(::g::Fuse::Node* item);
     void InsertNodesAfter(::g::Fuse::Node* preceeder, uObject* items);
     void InsertNodesAfterImpl(::g::Fuse::Node* preceeder, uObject* items, bool allowMove);

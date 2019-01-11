@@ -20,7 +20,7 @@ public class ForeignDataView
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
     public static Object CreateInnerJava51(final Object directBuffer,final UnoObject unoObj)

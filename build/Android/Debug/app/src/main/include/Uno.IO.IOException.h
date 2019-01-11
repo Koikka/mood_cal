@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/IO/IOException.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/IOException.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Uno{
 namespace IO{
 
-// public sealed class IOException :6
+// public class IOException :6
 // {
 ::g::Uno::Exception_type* IOException_typeof();
 void IOException__ctor_3_fn(IOException* __this, uString* message);

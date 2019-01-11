@@ -27,7 +27,7 @@ namespace Net{
 namespace Http{
 namespace Implementation{
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/Implementation/Android/AndroidHttpRequest.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/Implementation/Android/AndroidHttpRequest.uno
 // ----------------------------------------------------------------------------------------------
 
 // internal sealed extern class AndroidHttpRequest :11
@@ -334,7 +334,7 @@ AndroidHttpRequest* AndroidHttpRequest::New3(::g::Uno::Net::Http::HttpMessageHan
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/Implementation/IHttpRequest.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/Implementation/IHttpRequest.uno
 // --------------------------------------------------------------------------------
 
 // public abstract interface IHttpRequest :7

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.8.1/EdgeNavigator.ScriptClass.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/EdgeNavigator.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,6 +9,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Navigation.IBase-84e3f965.h>
 #include <Fuse.Navigation.INavigation.h>
@@ -42,7 +43,7 @@ namespace Controls{
 // {
 struct EdgeNavigator_type : ::g::Fuse::Controls::NavigationControl_type
 {
-    ::g::Fuse::Navigation::IRouterOutlet interface22;
+    ::g::Fuse::Navigation::IRouterOutlet interface23;
 };
 
 EdgeNavigator_type* EdgeNavigator_typeof();

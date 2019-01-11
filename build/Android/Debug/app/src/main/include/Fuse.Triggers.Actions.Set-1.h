@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.8.1/Actions/Set.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Actions/Set.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Triggers.Actions-fcab7e57.h>
 namespace g{namespace Fuse{namespace Internal{struct Blender;}}}
 namespace g{namespace Fuse{namespace Triggers{namespace Actions{struct Set;}}}}
@@ -29,12 +30,12 @@ void Set__set_Value_fn(Set* __this, void* value);
 
 struct Set : ::g::Fuse::Triggers::Actions::TriggerAction
 {
-    uTField _increment() { return __type->Field(this, 8); }
+    uTField _increment() { return __type->Field(this, 10); }
     bool _hasIncrement;
     uStrong< ::g::Fuse::Internal::Blender*> _blender;
     uStrong<uDelegate*> _Expression;
     uStrong< ::g::Uno::UX::Property1*> _Target;
-    uTField _Value() { return __type->Field(this, 13); }
+    uTField _Value() { return __type->Field(this, 15); }
 
     void ctor_2(::g::Uno::UX::Property1* target);
     uDelegate* Expression();

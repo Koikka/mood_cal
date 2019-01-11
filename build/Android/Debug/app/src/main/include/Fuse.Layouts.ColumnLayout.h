@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.8.1/Layouts/ColumnLayout.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/ColumnLayout.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Layouts.Layout.h>
 namespace g{namespace Fuse{namespace Layouts{struct ColumnLayout;}}}
 namespace g{namespace Fuse{struct LayoutParams;}}

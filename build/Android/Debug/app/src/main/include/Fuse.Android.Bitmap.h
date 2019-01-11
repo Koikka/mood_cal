@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Android.TextRenderer/1.8.1/Internal/Bitmap.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Android.TextRenderer/1.9.0/Internal/Bitmap.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once

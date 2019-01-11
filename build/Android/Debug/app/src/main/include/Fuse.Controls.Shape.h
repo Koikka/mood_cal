@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/Shapes/Shape.Resources.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/Shapes/Shape.Resources.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,6 +10,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -25,6 +26,7 @@ namespace g{namespace Fuse{namespace Controls{struct Shape;}}}
 namespace g{namespace Fuse{namespace Controls{struct Shape__ResourceWatcher;}}}
 namespace g{namespace Fuse{namespace Drawing{struct Brush;}}}
 namespace g{namespace Fuse{namespace Drawing{struct DrawObjectWatcher;}}}
+namespace g{namespace Fuse{namespace Drawing{struct SolidColor;}}}
 namespace g{namespace Fuse{namespace Drawing{struct Stroke;}}}
 namespace g{namespace Fuse{namespace Drawing{struct Surface;}}}
 namespace g{namespace Fuse{namespace Drawing{struct SurfacePath;}}}
@@ -49,8 +51,8 @@ namespace Controls{
 // {
 struct Shape_type : ::g::Fuse::Controls::Control_type
 {
-    ::g::Fuse::Drawing::ISurfaceDrawable interface17;
-    ::g::Fuse::Drawing::IDrawObjectWatcherFeedback interface18;
+    ::g::Fuse::Drawing::ISurfaceDrawable interface18;
+    ::g::Fuse::Drawing::IDrawObjectWatcherFeedback interface19;
     void(*fp_CalcShapeExtents)(::g::Fuse::Controls::Shape*, ::g::Uno::Rect*);
     void(*fp_CreateSurfacePath)(::g::Fuse::Controls::Shape*, ::g::Fuse::Drawing::Surface*, ::g::Fuse::Drawing::SurfacePath**);
     void(*fp_DrawFill)(::g::Fuse::Controls::Shape*, ::g::Fuse::DrawContext*, ::g::Fuse::Drawing::Brush*);
@@ -68,6 +70,8 @@ void Shape__CalcShapeExtents_fn(Shape* __this, ::g::Uno::Rect* __retval);
 void Shape__CheckStatus_fn(Shape* __this);
 void Shape__get_Color_fn(Shape* __this, ::g::Uno::Float4* __retval);
 void Shape__set_Color_fn(Shape* __this, ::g::Uno::Float4* value);
+void Shape__get_DefaultStroke_fn(Shape* __this, ::g::Fuse::Drawing::Stroke** __retval);
+void Shape__get_DefaultStrokeBrush_fn(Shape* __this, ::g::Fuse::Drawing::SolidColor** __retval);
 void Shape__DrawFill_fn(Shape* __this, ::g::Fuse::DrawContext* dc, ::g::Fuse::Drawing::Brush* fill);
 void Shape__DrawStroke_fn(Shape* __this, ::g::Fuse::DrawContext* dc, ::g::Fuse::Drawing::Stroke* stroke);
 void Shape__DrawVisual_fn(Shape* __this, ::g::Fuse::DrawContext* dc);
@@ -111,6 +115,8 @@ void Shape__get_Smoothness_fn(Shape* __this, float* __retval);
 void Shape__set_Smoothness_fn(Shape* __this, float* value);
 void Shape__get_Stroke_fn(Shape* __this, ::g::Fuse::Drawing::Stroke** __retval);
 void Shape__set_Stroke_fn(Shape* __this, ::g::Fuse::Drawing::Stroke* value);
+void Shape__get_StrokeColor_fn(Shape* __this, ::g::Uno::Float4* __retval);
+void Shape__set_StrokeColor_fn(Shape* __this, ::g::Uno::Float4* value);
 void Shape__get_Strokes_fn(Shape* __this, uObject** __retval);
 void Shape__get_Surface_fn(Shape* __this, ::g::Fuse::Drawing::Surface** __retval);
 void Shape__UpdateNativeShape_fn(Shape* __this);
@@ -142,6 +148,8 @@ struct Shape : ::g::Fuse::Controls::LayoutControl
     ::g::Uno::Float4 Color();
     void Color(::g::Uno::Float4 value);
     ::g::Fuse::Drawing::SurfacePath* CreateSurfacePath(::g::Fuse::Drawing::Surface* surface) { ::g::Fuse::Drawing::SurfacePath* __retval; return (((Shape_type*)__type)->fp_CreateSurfacePath)(this, surface, &__retval), __retval; }
+    ::g::Fuse::Drawing::Stroke* DefaultStroke();
+    ::g::Fuse::Drawing::SolidColor* DefaultStrokeBrush();
     void DrawFill(::g::Fuse::DrawContext* dc, ::g::Fuse::Drawing::Brush* fill) { (((Shape_type*)__type)->fp_DrawFill)(this, dc, fill); }
     void DrawStroke(::g::Fuse::DrawContext* dc, ::g::Fuse::Drawing::Stroke* stroke) { (((Shape_type*)__type)->fp_DrawStroke)(this, dc, stroke); }
     ::g::Fuse::Drawing::Brush* Fill();
@@ -172,6 +180,8 @@ struct Shape : ::g::Fuse::Controls::LayoutControl
     void Smoothness(float value);
     ::g::Fuse::Drawing::Stroke* Stroke();
     void Stroke(::g::Fuse::Drawing::Stroke* value);
+    ::g::Uno::Float4 StrokeColor();
+    void StrokeColor(::g::Uno::Float4 value);
     uObject* Strokes();
     ::g::Fuse::Drawing::Surface* Surface();
     void UpdateNativeShape();

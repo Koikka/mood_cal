@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Video/1.8.1/VideoVisual.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoVisual.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,6 +8,7 @@
 #include <Fuse.Controls.VideoIm-72c895ca.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -40,10 +41,10 @@ namespace VideoImpl{
 // {
 struct VideoVisual_type : ::g::Fuse::Controls::Graphics::ControlVisual_type
 {
-    ::g::Fuse::Controls::VideoImpl::IVideoCallbacks interface12;
-    ::g::Fuse::Triggers::IMediaPlayback interface13;
-    ::g::Fuse::Triggers::IPlayback interface14;
-    ::g::Fuse::Triggers::IProgress interface15;
+    ::g::Fuse::Controls::VideoImpl::IVideoCallbacks interface13;
+    ::g::Fuse::Triggers::IMediaPlayback interface14;
+    ::g::Fuse::Triggers::IPlayback interface15;
+    ::g::Fuse::Triggers::IProgress interface16;
 };
 
 VideoVisual_type* VideoVisual_typeof();
@@ -51,7 +52,6 @@ void VideoVisual__ctor_5_fn(VideoVisual* __this);
 void VideoVisual__Attach_fn(VideoVisual* __this);
 void VideoVisual__Detach_fn(VideoVisual* __this);
 void VideoVisual__Draw_fn(VideoVisual* __this, ::g::Fuse::DrawContext* dc);
-void VideoVisual__get_FlipSize_fn(VideoVisual* __this, bool* __retval);
 void VideoVisual__FuseControlsVideoImplIVideoCallbacksOnCompleted_fn(VideoVisual* __this);
 void VideoVisual__FuseControlsVideoImplIVideoCallbacksOnError_fn(VideoVisual* __this, ::g::Uno::Exception* e);
 void VideoVisual__FuseControlsVideoImplIVideoCallbacksOnFrameAvailable_fn(VideoVisual* __this);
@@ -99,7 +99,6 @@ struct VideoVisual : ::g::Fuse::Controls::Graphics::ControlVisual
     uStrong<uDelegate*> ProgressChanged1;
 
     void ctor_5();
-    bool FlipSize();
     ::g::Uno::Float2 GetSize();
     void OnParamChanged(uObject* sender, ::g::Uno::EventArgs* args);
     void OnProgressChanged();

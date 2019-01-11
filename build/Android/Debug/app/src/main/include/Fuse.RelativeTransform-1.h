@@ -1,10 +1,11 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Transform.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Transform.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITransformRelative.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Transform.h>
@@ -21,7 +22,7 @@ namespace Fuse{
 // {
 struct RelativeTransform_type : ::g::Fuse::Transform_type
 {
-    ::g::Fuse::ITransformRelative interface6;
+    ::g::Fuse::ITransformRelative interface7;
 };
 
 RelativeTransform_type* RelativeTransform_typeof();

@@ -56,7 +56,7 @@ static uType* TYPES[15];
 
 namespace g{
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/.uno/package
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/.uno/package
 // ------------------------------------------------------------
 
 // public static generated class FuseCommon_bundle :0
@@ -139,7 +139,7 @@ uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>
 uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> FuseCommon_bundle::Blitter8f469d0c_;
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls/1.8.1/.uno/package
+// /usr/local/share/uno/Packages/Fuse.Controls/1.9.0/.uno/package
 // --------------------------------------------------------------
 
 // public static generated class FuseControls_bundle :0
@@ -275,7 +275,7 @@ uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>
 uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> FuseControls_bundle::SolidRectangled1bbfcb0_;
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.8.1/.uno/ux14/Fuse.Controls.Navigation.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/.uno/ux15/Fuse.Controls.Navigation.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsNavigation_FuseControlsPanel_IsFrozen_Property :19
@@ -326,7 +326,7 @@ void FuseControlsNavigation_FuseControlsPanel_IsFrozen_Property__Set1_fn(FuseCon
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.8.1/.uno/ux14/Fuse.Controls.Navigation.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/.uno/ux15/Fuse.Controls.Navigation.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsNavigation_FuseControlsShape_Color_Property :1
@@ -411,7 +411,7 @@ FuseControlsNavigation_FuseControlsShape_Color_Property* FuseControlsNavigation_
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.8.1/.uno/ux14/Fuse.Controls.Navigation.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/.uno/ux15/Fuse.Controls.Navigation.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsNavigation_FuseElementsElement_HitTestMode_Property :10
@@ -496,7 +496,7 @@ FuseControlsNavigation_FuseElementsElement_HitTestMode_Property* FuseControlsNav
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.8.1/.uno/ux14/Fuse.Controls.Panels.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/.uno/ux15/Fuse.Controls.Panels.unoproj.g.uno
 // -----------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsPanels_FuseElementsElement_Padding_Property :1
@@ -547,7 +547,7 @@ void FuseControlsPanels_FuseElementsElement_Padding_Property__Set1_fn(FuseContro
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/.uno/ux14/Fuse.Controls.Primitives.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/.uno/ux15/Fuse.Controls.Primitives.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsPrimitives_accessor_Fuse_Controls_ButtonBase_Text :1
@@ -556,7 +556,7 @@ void FuseControlsPanels_FuseElementsElement_Padding_Property__Set1_fn(FuseContro
 static void FuseControlsPrimitives_accessor_Fuse_Controls_ButtonBase_Text__cctor__fn(uType* __type)
 {
     FuseControlsPrimitives_accessor_Fuse_Controls_ButtonBase_Text::Singleton_ = FuseControlsPrimitives_accessor_Fuse_Controls_ButtonBase_Text::New1();
-    FuseControlsPrimitives_accessor_Fuse_Controls_ButtonBase_Text::_name_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[27/*"Text"*/]);
+    FuseControlsPrimitives_accessor_Fuse_Controls_ButtonBase_Text::_name_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[27/*"Text"*/]);
 }
 
 static void FuseControlsPrimitives_accessor_Fuse_Controls_ButtonBase_Text_build(uType* type)
@@ -652,7 +652,7 @@ FuseControlsPrimitives_accessor_Fuse_Controls_ButtonBase_Text* FuseControlsPrimi
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/.uno/ux14/Fuse.Controls.Primitives.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/.uno/ux15/Fuse.Controls.Primitives.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsPrimitives_accessor_Fuse_Controls_ToggleControl_Value :11
@@ -661,7 +661,7 @@ FuseControlsPrimitives_accessor_Fuse_Controls_ButtonBase_Text* FuseControlsPrimi
 static void FuseControlsPrimitives_accessor_Fuse_Controls_ToggleControl_Value__cctor__fn(uType* __type)
 {
     FuseControlsPrimitives_accessor_Fuse_Controls_ToggleControl_Value::Singleton_ = FuseControlsPrimitives_accessor_Fuse_Controls_ToggleControl_Value::New1();
-    FuseControlsPrimitives_accessor_Fuse_Controls_ToggleControl_Value::_name_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[28/*"Value"*/]);
+    FuseControlsPrimitives_accessor_Fuse_Controls_ToggleControl_Value::_name_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[28/*"Value"*/]);
 }
 
 static void FuseControlsPrimitives_accessor_Fuse_Controls_ToggleControl_Value_build(uType* type)
@@ -756,7 +756,7 @@ FuseControlsPrimitives_accessor_Fuse_Controls_ToggleControl_Value* FuseControlsP
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/.uno/ux14/Fuse.Controls.Primitives.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/.uno/ux15/Fuse.Controls.Primitives.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsPrimitives_FuseControlsShape_Fill_Property :47
@@ -806,7 +806,7 @@ void FuseControlsPrimitives_FuseControlsShape_Fill_Property__Set1_fn(FuseControl
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/.uno/ux14/Fuse.Controls.Primitives.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/.uno/ux15/Fuse.Controls.Primitives.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsPrimitives_FuseControlsTextControl_TextColor_Property :30
@@ -884,7 +884,7 @@ FuseControlsPrimitives_FuseControlsTextControl_TextColor_Property* FuseControlsP
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/.uno/ux14/Fuse.Controls.Primitives.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/.uno/ux15/Fuse.Controls.Primitives.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsPrimitives_FuseControlsTextControl_Value_Property :21
@@ -968,7 +968,7 @@ FuseControlsPrimitives_FuseControlsTextControl_Value_Property* FuseControlsPrimi
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/.uno/ux14/Fuse.Controls.Primitives.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/.uno/ux15/Fuse.Controls.Primitives.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsPrimitives_FuseDrawingSolidColor_Color_Property :97
@@ -1026,7 +1026,7 @@ void FuseControlsPrimitives_FuseDrawingSolidColor_Color_Property__get_SupportsOr
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/.uno/ux14/Fuse.Controls.Primitives.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/.uno/ux15/Fuse.Controls.Primitives.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsPrimitives_FuseDrawingStroke_Brush_Property :55
@@ -1076,7 +1076,7 @@ void FuseControlsPrimitives_FuseDrawingStroke_Brush_Property__Set1_fn(FuseContro
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/.uno/ux14/Fuse.Controls.Primitives.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/.uno/ux15/Fuse.Controls.Primitives.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsPrimitives_FuseDrawingStroke_Color_Property :79
@@ -1134,7 +1134,7 @@ void FuseControlsPrimitives_FuseDrawingStroke_Color_Property__get_SupportsOrigin
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/.uno/ux14/Fuse.Controls.Primitives.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/.uno/ux15/Fuse.Controls.Primitives.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsPrimitives_FuseEffectsDropShadow_Distance_Property :63
@@ -1185,7 +1185,7 @@ void FuseControlsPrimitives_FuseEffectsDropShadow_Distance_Property__Set1_fn(Fus
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/.uno/ux14/Fuse.Controls.Primitives.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/.uno/ux15/Fuse.Controls.Primitives.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsPrimitives_FuseEffectsDropShadow_Size_Property :71
@@ -1236,7 +1236,7 @@ void FuseControlsPrimitives_FuseEffectsDropShadow_Size_Property__Set1_fn(FuseCon
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/.uno/ux14/Fuse.Controls.Primitives.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/.uno/ux15/Fuse.Controls.Primitives.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsPrimitives_FuseElementsElement_Opacity_Property :38
@@ -1321,7 +1321,7 @@ FuseControlsPrimitives_FuseElementsElement_Opacity_Property* FuseControlsPrimiti
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/.uno/ux14/Fuse.Controls.Primitives.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/.uno/ux15/Fuse.Controls.Primitives.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsPrimitives_FuseGesturesSwipeGesture_IsActive_Property :88
@@ -1379,7 +1379,7 @@ void FuseControlsPrimitives_FuseGesturesSwipeGesture_IsActive_Property__get_Supp
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.8.1/.uno/ux14/Fuse.Controls.ScrollView.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/.uno/ux15/Fuse.Controls.ScrollView.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsScrollView_accessor_Fuse_Controls_ScrollViewBase_KeepFocusInView :1
@@ -1388,7 +1388,7 @@ void FuseControlsPrimitives_FuseGesturesSwipeGesture_IsActive_Property__get_Supp
 static void FuseControlsScrollView_accessor_Fuse_Controls_ScrollViewBase_KeepFocusInView__cctor__fn(uType* __type)
 {
     FuseControlsScrollView_accessor_Fuse_Controls_ScrollViewBase_KeepFocusInView::Singleton_ = FuseControlsScrollView_accessor_Fuse_Controls_ScrollViewBase_KeepFocusInView::New1();
-    FuseControlsScrollView_accessor_Fuse_Controls_ScrollViewBase_KeepFocusInView::_name_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[29/*"KeepFocusIn...*/]);
+    FuseControlsScrollView_accessor_Fuse_Controls_ScrollViewBase_KeepFocusInView::_name_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[29/*"KeepFocusIn...*/]);
 }
 
 static void FuseControlsScrollView_accessor_Fuse_Controls_ScrollViewBase_KeepFocusInView_build(uType* type)
@@ -1476,7 +1476,7 @@ FuseControlsScrollView_accessor_Fuse_Controls_ScrollViewBase_KeepFocusInView* Fu
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.8.1/.uno/ux14/Fuse.Controls.ScrollView.unoproj.g.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/.uno/ux15/Fuse.Controls.ScrollView.unoproj.g.uno
 // -------------------------------------------------------------------------------------------------------------
 
 // internal sealed class FuseControlsScrollView_FuseTriggersWhileBool_Value_Property :10
@@ -1554,7 +1554,7 @@ FuseControlsScrollView_FuseTriggersWhileBool_Value_Property* FuseControlsScrollV
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.8.1/.uno/package
+// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/.uno/package
 // --------------------------------------------------------------------
 
 // public static generated class FuseControlsVideo_bundle :0
@@ -1563,7 +1563,7 @@ FuseControlsScrollView_FuseTriggersWhileBool_Value_Property* FuseControlsScrollV
 static void FuseControlsVideo_bundle__cctor__fn(uType* __type)
 {
     FuseControlsVideo_bundle::Scale9Rectangleda875692_ = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram::Create(::STRINGS[30/*"uniform flo...*/], ::STRINGS[31/*"uniform sam...*/], 0, 2, uArray::Init<uString*>(::TYPES[0/*string[]*/], 16, ::STRINGS[2/*"a"*/], ::STRINGS[3/*"b"*/], ::STRINGS[4/*"c"*/], ::STRINGS[7/*"d"*/], ::STRINGS[11/*"e"*/], ::STRINGS[8/*"f"*/], ::STRINGS[12/*"g"*/], ::STRINGS[13/*"h"*/], ::STRINGS[14/*"i"*/], ::STRINGS[15/*"j"*/], ::STRINGS[16/*"k"*/], ::STRINGS[17/*"l"*/], ::STRINGS[18/*"m"*/], ::STRINGS[19/*"n"*/], ::STRINGS[20/*"o"*/], ::STRINGS[22/*"q"*/]));
-    FuseControlsVideo_bundle::VideoDrawElement5c829975_ = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram::Create(::STRINGS[32/*"uniform mat...*/], ::STRINGS[33/*"uniform sam...*/], 1, 1, uArray::Init<uString*>(::TYPES[0/*string[]*/], 7, ::STRINGS[3/*"b"*/], ::STRINGS[2/*"a"*/], ::STRINGS[4/*"c"*/], ::STRINGS[7/*"d"*/], ::STRINGS[11/*"e"*/], ::STRINGS[8/*"f"*/], ::STRINGS[13/*"h"*/]));
+    FuseControlsVideo_bundle::VideoDrawElement5c829975_ = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram::Create(::STRINGS[32/*"uniform mat...*/], ::STRINGS[33/*"uniform sam...*/], 0, 1, uArray::Init<uString*>(::TYPES[0/*string[]*/], 7, ::STRINGS[2/*"a"*/], ::STRINGS[3/*"b"*/], ::STRINGS[4/*"c"*/], ::STRINGS[7/*"d"*/], ::STRINGS[11/*"e"*/], ::STRINGS[8/*"f"*/], ::STRINGS[13/*"h"*/]));
 }
 
 static void FuseControlsVideo_bundle_build(uType* type)
@@ -1607,30 +1607,18 @@ static void FuseControlsVideo_bundle_build(uType* type)
     ::STRINGS[19] = uString::Const("n");
     ::STRINGS[20] = uString::Const("o");
     ::STRINGS[22] = uString::Const("q");
-    ::STRINGS[32] = uString::Const("uniform mat4 f, c;\n"
-        "uniform vec2 d, e;\n"
+    ::STRINGS[32] = uString::Const("uniform mat4 f, b;\n"
+        "uniform vec2 c, d;\n"
+        "uniform mat3 e;\n"
         "\n"
         "attribute vec2 a;\n"
         "\n"
         "varying vec2 g;\n"
         "\n"
-        "vec2 i(vec2 j){\n"
-        "    vec2 k = j.xy;\n"
-        "\n"
-        "    if (b == 1)\n"
-        "        return vec2(k.y, 1.0 - k.x);\n"
-        "    else if (b == 2)\n"
-        "        return vec2(1.0 - k.x, 1.0 - k.y);\n"
-        "    else if (b == 3)\n"
-        "        return vec2(1.0 - k.y, k.x);\n"
-        "    else\n"
-        "        return k;\n"
-        "}\n"
-        "\n"
         "void main()\n"
         "{\n"
-        "    g = i((a * d) + e);\n"
-        "    gl_Position = c * (f * vec4(vec3(a, float(0)), 1.));\n"
+        "    g = (e * vec3(((a * c) + d).xy, 1.0)).xy;\n"
+        "    gl_Position = b * (f * vec4(vec3(a, float(0)), 1.));\n"
         "}\n"
         "");
     ::STRINGS[33] = uString::Const("uniform samplerExternalOES h;\n"
@@ -1666,7 +1654,7 @@ uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>
 uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> FuseControlsVideo_bundle::VideoDrawElement5c829975_;
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.8.1/.uno/package
+// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/.uno/package
 // -------------------------------------------------------------
 
 // public static generated class FuseDrawing_bundle :0
@@ -1747,7 +1735,7 @@ uClassType* FuseDrawing_bundle_typeof()
 uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> FuseDrawing_bundle::LinearGradientDrawable479fd075_;
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/.uno/package
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/.uno/package
 // ------------------------------------------------------------------------
 
 // public static generated class FuseDrawingPrimitives_bundle :0
@@ -2900,7 +2888,7 @@ uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>
 uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> FuseDrawingPrimitives_bundle::Rectanglea858f57c_;
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Effects/1.8.1/.uno/package
+// /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/.uno/package
 // -------------------------------------------------------------
 
 // public static generated class FuseEffects_bundle :0
@@ -3234,7 +3222,7 @@ uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>
 uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> FuseEffects_bundle::Maskb04eaf92_;
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.8.1/.uno/package
+// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/.uno/package
 // --------------------------------------------------------------
 
 // public static generated class FuseElements_bundle :0
@@ -3363,7 +3351,7 @@ uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>
 uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> FuseElements_bundle::Scale9Rectangle720ad3ad_;
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/.uno/package
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/.uno/package
 // --------------------------------------------------------------------------
 
 // public static generated class FuseScriptingJavaScript_bundle :0
@@ -3372,11 +3360,11 @@ uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>
 static void FuseScriptingJavaScript_bundle__cctor__fn(uType* __type)
 {
     ::g::Uno::IO::Bundle_typeof()->Init();
-    FuseScriptingJavaScript_bundle::Diagnosticsa171d3a2_ = uPtr(::g::Uno::IO::Bundle::Get(::STRINGS[138/*"Fuse.Script...*/]))->GetFile(::STRINGS[139/*"diagnostics...*/]);
-    FuseScriptingJavaScript_bundle::es6promisemina6fd6ef5_ = uPtr(::g::Uno::IO::Bundle::Get(::STRINGS[138/*"Fuse.Script...*/]))->GetFile(::STRINGS[140/*"es6-promise...*/]);
-    FuseScriptingJavaScript_bundle::Observable981c5355_ = uPtr(::g::Uno::IO::Bundle::Get(::STRINGS[138/*"Fuse.Script...*/]))->GetFile(::STRINGS[141/*"observable-...*/]);
-    FuseScriptingJavaScript_bundle::setTimeout285c6a1d_ = uPtr(::g::Uno::IO::Bundle::Get(::STRINGS[138/*"Fuse.Script...*/]))->GetFile(::STRINGS[142/*"settimeout-...*/]);
-    FuseScriptingJavaScript_bundle::TreeObservable4f169cb3_ = uPtr(::g::Uno::IO::Bundle::Get(::STRINGS[138/*"Fuse.Script...*/]))->GetFile(::STRINGS[143/*"treeobserva...*/]);
+    FuseScriptingJavaScript_bundle::Diagnostics2e039802_ = uPtr(::g::Uno::IO::Bundle::Get(::STRINGS[138/*"Fuse.Script...*/]))->GetFile(::STRINGS[139/*"diagnostics...*/]);
+    FuseScriptingJavaScript_bundle::es6promisemined95a015_ = uPtr(::g::Uno::IO::Bundle::Get(::STRINGS[138/*"Fuse.Script...*/]))->GetFile(::STRINGS[140/*"es6-promise...*/]);
+    FuseScriptingJavaScript_bundle::Observableef1f82f5_ = uPtr(::g::Uno::IO::Bundle::Get(::STRINGS[138/*"Fuse.Script...*/]))->GetFile(::STRINGS[141/*"observable-...*/]);
+    FuseScriptingJavaScript_bundle::setTimeout8ca9b97d_ = uPtr(::g::Uno::IO::Bundle::Get(::STRINGS[138/*"Fuse.Script...*/]))->GetFile(::STRINGS[142/*"settimeout-...*/]);
+    FuseScriptingJavaScript_bundle::TreeObservable742c4c53_ = uPtr(::g::Uno::IO::Bundle::Get(::STRINGS[138/*"Fuse.Script...*/]))->GetFile(::STRINGS[143/*"treeobserva...*/]);
 }
 
 static void FuseScriptingJavaScript_bundle_build(uType* type)
@@ -3388,11 +3376,11 @@ static void FuseScriptingJavaScript_bundle_build(uType* type)
     ::STRINGS[142] = uString::Const("settimeout-2838aff1.js");
     ::STRINGS[143] = uString::Const("treeobservable-cf8dbe0b.js");
     type->SetFields(0,
-        ::g::Uno::IO::BundleFile_typeof(), (uintptr_t)&FuseScriptingJavaScript_bundle::Diagnosticsa171d3a2_, uFieldFlagsStatic,
-        ::g::Uno::IO::BundleFile_typeof(), (uintptr_t)&FuseScriptingJavaScript_bundle::es6promisemina6fd6ef5_, uFieldFlagsStatic,
-        ::g::Uno::IO::BundleFile_typeof(), (uintptr_t)&FuseScriptingJavaScript_bundle::Observable981c5355_, uFieldFlagsStatic,
-        ::g::Uno::IO::BundleFile_typeof(), (uintptr_t)&FuseScriptingJavaScript_bundle::setTimeout285c6a1d_, uFieldFlagsStatic,
-        ::g::Uno::IO::BundleFile_typeof(), (uintptr_t)&FuseScriptingJavaScript_bundle::TreeObservable4f169cb3_, uFieldFlagsStatic);
+        ::g::Uno::IO::BundleFile_typeof(), (uintptr_t)&FuseScriptingJavaScript_bundle::Diagnostics2e039802_, uFieldFlagsStatic,
+        ::g::Uno::IO::BundleFile_typeof(), (uintptr_t)&FuseScriptingJavaScript_bundle::es6promisemined95a015_, uFieldFlagsStatic,
+        ::g::Uno::IO::BundleFile_typeof(), (uintptr_t)&FuseScriptingJavaScript_bundle::Observableef1f82f5_, uFieldFlagsStatic,
+        ::g::Uno::IO::BundleFile_typeof(), (uintptr_t)&FuseScriptingJavaScript_bundle::setTimeout8ca9b97d_, uFieldFlagsStatic,
+        ::g::Uno::IO::BundleFile_typeof(), (uintptr_t)&FuseScriptingJavaScript_bundle::TreeObservable742c4c53_, uFieldFlagsStatic);
 }
 
 uClassType* FuseScriptingJavaScript_bundle_typeof()
@@ -3409,14 +3397,14 @@ uClassType* FuseScriptingJavaScript_bundle_typeof()
     return type;
 }
 
-uSStrong< ::g::Uno::IO::BundleFile*> FuseScriptingJavaScript_bundle::Diagnosticsa171d3a2_;
-uSStrong< ::g::Uno::IO::BundleFile*> FuseScriptingJavaScript_bundle::es6promisemina6fd6ef5_;
-uSStrong< ::g::Uno::IO::BundleFile*> FuseScriptingJavaScript_bundle::Observable981c5355_;
-uSStrong< ::g::Uno::IO::BundleFile*> FuseScriptingJavaScript_bundle::setTimeout285c6a1d_;
-uSStrong< ::g::Uno::IO::BundleFile*> FuseScriptingJavaScript_bundle::TreeObservable4f169cb3_;
+uSStrong< ::g::Uno::IO::BundleFile*> FuseScriptingJavaScript_bundle::Diagnostics2e039802_;
+uSStrong< ::g::Uno::IO::BundleFile*> FuseScriptingJavaScript_bundle::es6promisemined95a015_;
+uSStrong< ::g::Uno::IO::BundleFile*> FuseScriptingJavaScript_bundle::Observableef1f82f5_;
+uSStrong< ::g::Uno::IO::BundleFile*> FuseScriptingJavaScript_bundle::setTimeout8ca9b97d_;
+uSStrong< ::g::Uno::IO::BundleFile*> FuseScriptingJavaScript_bundle::TreeObservable742c4c53_;
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/.uno/package
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/.uno/package
 // --------------------------------------------------------
 
 // public static generated class UnoCore_bundle :0

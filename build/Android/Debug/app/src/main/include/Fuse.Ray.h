@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Ray.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Ray.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once

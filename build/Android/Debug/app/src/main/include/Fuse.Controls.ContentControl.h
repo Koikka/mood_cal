@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls/1.8.1/ContentControl.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls/1.9.0/ContentControl.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,6 +8,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -36,6 +37,7 @@ struct ContentControl_type : ::g::Fuse::Controls::Control_type
 };
 
 ContentControl_type* ContentControl_typeof();
+void ContentControl__ctor_5_fn(ContentControl* __this);
 void ContentControl__ArrangePaddingBox_fn(ContentControl* __this, ::g::Fuse::LayoutParams* lp);
 void ContentControl__get_Content_fn(ContentControl* __this, ::g::Fuse::Elements::Element** __retval);
 void ContentControl__set_Content_fn(ContentControl* __this, ::g::Fuse::Elements::Element* value);
@@ -46,6 +48,7 @@ void ContentControl__OnContentChanged_fn(ContentControl* __this);
 
 struct ContentControl : ::g::Fuse::Controls::Control
 {
+    void ctor_5();
     ::g::Fuse::Elements::Element* Content();
     void Content(::g::Fuse::Elements::Element* value);
     void OnContentChanged() { (((ContentControl_type*)__type)->fp_OnContentChanged)(this); }

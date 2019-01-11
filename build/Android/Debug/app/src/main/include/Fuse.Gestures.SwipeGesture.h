@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.8.1/Swipe.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Swipe.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -6,6 +6,7 @@
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -26,7 +27,7 @@ namespace Gestures{
 // {
 struct SwipeGesture_type : ::g::Fuse::Node_type
 {
-    ::g::Uno::UX::IPropertyListener interface6;
+    ::g::Uno::UX::IPropertyListener interface7;
 };
 
 SwipeGesture_type* SwipeGesture_typeof();
@@ -37,6 +38,8 @@ void SwipeGesture__get_IsActive_fn(SwipeGesture* __this, bool* __retval);
 void SwipeGesture__set_IsActive_fn(SwipeGesture* __this, bool* value);
 void SwipeGesture__get_IsEnabled_fn(SwipeGesture* __this, bool* __retval);
 void SwipeGesture__set_IsEnabled_fn(SwipeGesture* __this, bool* value);
+void SwipeGesture__get_Length_fn(SwipeGesture* __this, float* __retval);
+void SwipeGesture__set_Length_fn(SwipeGesture* __this, float* value);
 void SwipeGesture__get_LengthNode_fn(SwipeGesture* __this, ::g::Fuse::Elements::Element** __retval);
 void SwipeGesture__set_LengthNode_fn(SwipeGesture* __this, ::g::Fuse::Elements::Element* value);
 void SwipeGesture__New2_fn(SwipeGesture** __retval);
@@ -70,6 +73,8 @@ struct SwipeGesture : ::g::Fuse::Behavior
     void IsActive(bool value);
     bool IsEnabled();
     void IsEnabled(bool value);
+    float Length();
+    void Length(float value);
     ::g::Fuse::Elements::Element* LengthNode();
     void LengthNode(::g::Fuse::Elements::Element* value);
     ::g::Fuse::Gestures::Internal::SwipeRegion* Region();

@@ -34,7 +34,7 @@ namespace Fuse{
 namespace Elements{
 namespace Internal{
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.8.1/Drawing/Scale9Rectangle.uno
+// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Drawing/Scale9Rectangle.uno
 // -----------------------------------------------------------------------------
 
 // internal sealed class Scale9Rectangle :7

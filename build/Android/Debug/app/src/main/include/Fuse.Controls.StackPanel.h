@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.8.1/StackPanel.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/StackPanel.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,6 +9,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -36,6 +37,8 @@ void StackPanel__set_ContentAlignment_fn(StackPanel* __this, int32_t* value);
 void StackPanel__get_ItemSpacing_fn(StackPanel* __this, float* __retval);
 void StackPanel__set_ItemSpacing_fn(StackPanel* __this, float* value);
 void StackPanel__New4_fn(StackPanel** __retval);
+void StackPanel__get_Orientation_fn(StackPanel* __this, int32_t* __retval);
+void StackPanel__set_Orientation_fn(StackPanel* __this, int32_t* value);
 
 struct StackPanel : ::g::Fuse::Controls::Panel
 {
@@ -46,6 +49,8 @@ struct StackPanel : ::g::Fuse::Controls::Panel
     void ContentAlignment(int32_t value);
     float ItemSpacing();
     void ItemSpacing(float value);
+    int32_t Orientation();
+    void Orientation(int32_t value);
     static StackPanel* New4();
 };
 // }

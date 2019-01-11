@@ -16,7 +16,7 @@ namespace Uno{
 namespace Runtime{
 namespace Implementation{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Runtime/Implementation/BufferImpl.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Runtime/Implementation/BufferImpl.uno
 // --------------------------------------------------------------------------------------------
 
 // public static class BufferImpl :6
@@ -62,7 +62,7 @@ void BufferImpl::SetUShort(uArray* buffer, int32_t offset, uint16_t value, bool 
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Runtime/Implementation/GraphicsControllerImpl.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Runtime/Implementation/GraphicsControllerImpl.uno
 // --------------------------------------------------------------------------------------------------------
 
 // internal struct GraphicsContextHandle :12
@@ -86,7 +86,7 @@ uStructType* GraphicsContextHandle_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Runtime/Implementation/PlatformWindowImpl.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Runtime/Implementation/PlatformWindowImpl.uno
 // ----------------------------------------------------------------------------------------------------
 
 // public struct PlatformWindowHandle :11

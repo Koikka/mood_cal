@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Video/1.8.1/VideoVisual.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoVisual.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,13 +11,14 @@ namespace g{namespace Fuse{struct Visual;}}
 namespace g{namespace Uno{namespace Graphics{struct VertexBuffer;}}}
 namespace g{namespace Uno{namespace Graphics{struct VideoTexture;}}}
 namespace g{namespace Uno{struct Float2;}}
+namespace g{namespace Uno{struct Float3x3;}}
 
 namespace g{
 namespace Fuse{
 namespace Controls{
 namespace VideoImpl{
 
-// internal sealed class VideoDrawElement :373
+// internal sealed class VideoDrawElement :361
 // {
 uType* VideoDrawElement_typeof();
 void VideoDrawElement__ctor__fn(VideoDrawElement* __this);
@@ -29,6 +30,8 @@ struct VideoDrawElement : uObject
 {
     static uSStrong<VideoDrawElement*> Impl_;
     static uSStrong<VideoDrawElement*>& Impl() { return VideoDrawElement_typeof()->Init(), Impl_; }
+    static uSStrong<uArray*> Transforms_;
+    static uSStrong<uArray*>& Transforms() { return VideoDrawElement_typeof()->Init(), Transforms_; }
     uStrong< ::g::Uno::Graphics::VertexBuffer*> Draw_VertexData_46004d37_6_2_1;
     ::g::Uno::Float4x4 Draw_LocalTransform_46004d37_3_9_2;
     ::g::Uno::Float4x4 Draw_LocalTransform_46004d37_3_9_3;

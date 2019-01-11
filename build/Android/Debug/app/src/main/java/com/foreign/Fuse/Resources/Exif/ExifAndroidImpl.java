@@ -30,10 +30,10 @@ public class ExifAndroidImpl
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static int GetOrientation123(final Object stream)
+    public static int GetOrientation126(final Object stream)
     {
         InputStream s = (InputStream)stream;
         try {
@@ -50,7 +50,7 @@ public class ExifAndroidImpl
         return -1;
     }
     
-    public static Object InputStreamFromByteArray124(final Object buf)
+    public static Object InputStreamFromByteArray127(final Object buf)
     {
         return new com.fuse.android.ByteBufferInputStream((com.uno.UnoBackedByteBuffer)buf);
     }

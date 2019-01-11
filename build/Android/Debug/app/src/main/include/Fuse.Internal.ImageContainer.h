@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.8.1/Internal/ImageContainer.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Internal/ImageContainer.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -57,6 +57,8 @@ void ImageContainer__remove_SourceError_fn(ImageContainer* __this, uDelegate* va
 void ImageContainer__get_StretchMode_fn(ImageContainer* __this, int32_t* __retval);
 void ImageContainer__set_StretchMode_fn(ImageContainer* __this, int32_t* value);
 void ImageContainer__UpdateSourceListen_fn(ImageContainer* __this, bool* forceOff);
+void ImageContainer__get_Url_fn(ImageContainer* __this, uString** __retval);
+void ImageContainer__set_Url_fn(ImageContainer* __this, uString* value);
 
 struct ImageContainer : uObject
 {
@@ -112,6 +114,8 @@ struct ImageContainer : uObject
     int32_t StretchMode();
     void StretchMode(int32_t value);
     void UpdateSourceListen(bool forceOff);
+    uString* Url();
+    void Url(uString* value);
     static ImageContainer* New1(uObject* owner);
 };
 // }

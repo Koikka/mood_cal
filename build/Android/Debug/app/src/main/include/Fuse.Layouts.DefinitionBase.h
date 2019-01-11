@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.8.1/Layouts/GridLayout.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/GridLayout.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -28,6 +28,7 @@ void DefinitionBase__Parse_fn(uType* __type, uString* data, DefinitionBase** __r
 void DefinitionBase__Parse1_fn(uType* __type, uString* data, uObject* output);
 void DefinitionBase__Serialize_fn(DefinitionBase* __this, uString** __retval);
 void DefinitionBase__Serialize1_fn(uType* __type, uObject* columns, uString** __retval);
+void DefinitionBase__get_UsesDefault_fn(DefinitionBase* __this, bool* __retval);
 
 struct DefinitionBase : ::g::Uno::UX::PropertyObject
 {
@@ -52,6 +53,7 @@ struct DefinitionBase : ::g::Uno::UX::PropertyObject
     void Metric(int32_t value);
     void OnChanged();
     uString* Serialize();
+    bool UsesDefault();
     static DefinitionBase* Parse(uType* __type, uString* data);
     static void Parse1(uType* __type, uString* data, uObject* output);
     static uString* Serialize1(uType* __type, uObject* columns);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Android.ActivityUtils/1.8.1/ActivityUtils.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Android.ActivityUtils/1.9.0/ActivityUtils.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once

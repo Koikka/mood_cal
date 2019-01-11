@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/OpenAnimator.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/OpenAnimator.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once

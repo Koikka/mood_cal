@@ -20,10 +20,10 @@ public class TextEdit
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void MakeItPlain196(final Object handle)
+    public static void MakeItPlain199(final Object handle)
     {
         android.widget.TextView t = (android.widget.TextView)handle;
         t.setIncludeFontPadding(false);

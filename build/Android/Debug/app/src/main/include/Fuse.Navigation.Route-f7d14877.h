@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.8.1/Router.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// private sealed class Router.GetHistoryAt :734
+// private sealed class Router.GetHistoryAt :773
 // {
 uType* Router__GetHistoryAt_typeof();
 void Router__GetHistoryAt__ctor__fn(Router__GetHistoryAt* __this);

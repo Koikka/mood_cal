@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.8.1/Layouts/GridLayout.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/GridLayout.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Layouts.Layout.h>
 namespace g{namespace Fuse{namespace Layouts{struct Column;}}}
 namespace g{namespace Fuse{namespace Layouts{struct DefinitionBase;}}}
@@ -42,6 +43,10 @@ void GridLayout__get_Columns_fn(GridLayout* __this, uString** __retval);
 void GridLayout__set_Columns_fn(GridLayout* __this, uString* value);
 void GridLayout__get_ContentAlignment_fn(GridLayout* __this, int32_t* __retval);
 void GridLayout__set_ContentAlignment_fn(GridLayout* __this, int32_t* value);
+void GridLayout__get_DefaultColumn_fn(GridLayout* __this, uString** __retval);
+void GridLayout__set_DefaultColumn_fn(GridLayout* __this, uString* value);
+void GridLayout__get_DefaultRow_fn(GridLayout* __this, uString** __retval);
+void GridLayout__set_DefaultRow_fn(GridLayout* __this, uString* value);
 void GridLayout__DefinitionAdded_fn(GridLayout* __this, ::g::Fuse::Layouts::DefinitionBase* r);
 void GridLayout__DefinitionRemoved_fn(GridLayout* __this, ::g::Fuse::Layouts::DefinitionBase* r);
 void GridLayout__get_EffectiveCellSpacing_fn(GridLayout* __this, float* __retval);
@@ -62,6 +67,7 @@ void GridLayout__HasDefaultMetric_fn(GridLayout* __this, uType* __type, uObject*
 void GridLayout__IsMarginBoxDependent_fn(GridLayout* __this, ::g::Fuse::Visual* child, int32_t* __retval);
 void GridLayout__Measure_fn(GridLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval);
 void GridLayout__ModifyCount_fn(GridLayout* __this, uType* __type, uObject* list, int32_t* count, ::g::Fuse::Layouts::DefinitionBase* primordial);
+void GridLayout__ModifyDefault_fn(GridLayout* __this, uType* __type, ::g::Uno::Collections::RootableList* list, ::g::Fuse::Layouts::DefinitionBase* primordial);
 void GridLayout__New2_fn(GridLayout** __retval);
 void GridLayout__OnRooted_fn(GridLayout* __this);
 void GridLayout__OnUnrooted_fn(GridLayout* __this);
@@ -121,6 +127,10 @@ struct GridLayout : ::g::Fuse::Layouts::Layout
     void Columns(uString* value);
     int32_t ContentAlignment();
     void ContentAlignment(int32_t value);
+    uString* DefaultColumn();
+    void DefaultColumn(uString* value);
+    uString* DefaultRow();
+    void DefaultRow(uString* value);
     void DefinitionAdded(::g::Fuse::Layouts::DefinitionBase* r);
     void DefinitionRemoved(::g::Fuse::Layouts::DefinitionBase* r);
     float EffectiveCellSpacing();
@@ -135,6 +145,7 @@ struct GridLayout : ::g::Fuse::Layouts::Layout
     bool HasDefaultMetric(uType* __type, uObject* list);
     ::g::Uno::Float2 Measure(::g::Fuse::Visual* container, ::g::Fuse::LayoutParams lp);
     void ModifyCount(uType* __type, uObject* list, int32_t count, ::g::Fuse::Layouts::DefinitionBase* primordial);
+    void ModifyDefault(uType* __type, ::g::Uno::Collections::RootableList* list, ::g::Fuse::Layouts::DefinitionBase* primordial);
     bool RemoveListener(::g::Fuse::Layouts::DefinitionBase* item);
     int32_t RowCount();
     void RowCount(int32_t value);

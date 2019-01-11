@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.8.1/WindowList.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/WindowList.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -22,6 +22,7 @@ struct WindowList_type : uType
 };
 
 WindowList_type* WindowList_typeof();
+void WindowList__ctor__fn(WindowList* __this);
 void WindowList__CalcOffsetLimitCountOf_fn(WindowList* __this, int32_t* length, int32_t* __retval);
 void WindowList__ClearError_fn(WindowList* __this);
 void WindowList__DataToWindowIndex_fn(WindowList* __this, int32_t* dataIndex, int32_t* __retval);
@@ -50,6 +51,7 @@ struct WindowList : uObject
     uStrong< ::g::Fuse::Internal::ObjectList*> _windowItems;
     uStrong<uString*> _errorMessage;
 
+    void ctor_();
     int32_t CalcOffsetLimitCountOf(int32_t length);
     void ClearError();
     uObject* CreateWindowItem(int32_t dataIndex) { uObject* __retval; return (((WindowList_type*)__type)->fp_CreateWindowItem)(this, &dataIndex, &__retval), __retval; }

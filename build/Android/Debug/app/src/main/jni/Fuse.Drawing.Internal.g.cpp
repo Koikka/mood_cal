@@ -22,7 +22,7 @@ namespace Fuse{
 namespace Drawing{
 namespace Internal{
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.8.1/Internal/BufferCollections.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Internal/BufferCollections.uno
 // -------------------------------------------------------------------------------
 
 // public sealed class Float2Buffer :149
@@ -112,7 +112,7 @@ Float2Buffer* Float2Buffer::New3()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.8.1/Internal/BufferCollections.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Internal/BufferCollections.uno
 // -------------------------------------------------------------------------------
 
 // public sealed class FloatBuffer :131
@@ -190,7 +190,7 @@ FloatBuffer* FloatBuffer::New3()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.8.1/Internal/BufferCollections.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Internal/BufferCollections.uno
 // -------------------------------------------------------------------------------
 
 // public class TypedBuffer :20
@@ -330,7 +330,7 @@ void TypedBuffer::InitDeviceVertex(int32_t bu)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.8.1/Internal/BufferCollections.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Internal/BufferCollections.uno
 // -------------------------------------------------------------------------------
 
 // public sealed class UShortBuffer :167

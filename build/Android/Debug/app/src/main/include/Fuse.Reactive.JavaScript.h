@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/JavaScript.Dependencies.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/JavaScript.Dependencies.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -6,6 +6,7 @@
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Node.ISiblingDataProvider.h>
 #include <Fuse.Reactive.IContext.h>
 #include <Fuse.Reactive.ValueFo-a26c06f.h>
@@ -33,10 +34,10 @@ namespace Reactive{
 // {
 struct JavaScript_type : ::g::Fuse::Node_type
 {
-    ::g::Fuse::Scripting::IModuleProvider interface6;
-    ::g::Fuse::Reactive::ValueForwarder__IValueListener interface7;
-    ::g::Fuse::Node__ISiblingDataProvider interface8;
-    ::g::Fuse::Reactive::IContext interface9;
+    ::g::Fuse::Scripting::IModuleProvider interface7;
+    ::g::Fuse::Reactive::ValueForwarder__IValueListener interface8;
+    ::g::Fuse::Node__ISiblingDataProvider interface9;
+    ::g::Fuse::Reactive::IContext interface10;
 };
 
 JavaScript_type* JavaScript_typeof();

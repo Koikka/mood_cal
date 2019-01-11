@@ -20,10 +20,10 @@ public class Guid
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object NewGuid64()
+    public static Object NewGuid67()
     {
         java.util.UUID guid = java.util.UUID.randomUUID();
         java.nio.ByteBuffer buffer = java.nio.ByteBuffer.allocate(16);
@@ -35,7 +35,7 @@ public class Guid
         buffer.order(java.nio.ByteOrder.BIG_ENDIAN);
         buffer.putLong(guid.getLeastSignificantBits());
         byte[] result = buffer.array();
-        return ExternedBlockHost.callUno_Uno_Guid__ctor65((com.uno.ByteArray)new ByteArray(result));
+        return ExternedBlockHost.callUno_Uno_Guid__ctor68((com.uno.ByteArray)new ByteArray(result));
     }
     
 }

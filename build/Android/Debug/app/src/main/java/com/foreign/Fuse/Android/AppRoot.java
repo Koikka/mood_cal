@@ -20,17 +20,17 @@ public class AppRoot
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void ClearRoot1373(final Object handle)
+    public static void ClearRoot1376(final Object handle)
     {
         ((android.widget.FrameLayout)handle).removeAllViews();
     }
     
-    public static Object CreateRootView374()
+    public static Object CreateRootView377()
     {
-        android.widget.FrameLayout frameLayout = new android.widget.FrameLayout(com.apps.mood_calendar.mood_calendar.GetRootActivity()) {
+        android.widget.FrameLayout frameLayout = new android.widget.FrameLayout(fi.samk.mood_cal.Kalenteri.GetRootActivity()) {
         
         		android.view.MotionEvent _currentEvent;
         
@@ -43,7 +43,7 @@ public class AppRoot
         			if (_currentEvent != motionEvent)
         				return false;
         			boolean result = super.onTouchEvent(motionEvent);
-        			ExternedBlockHost.callUno_Fuse_Android_AppRoot_OnTouchEvent__375((Object)motionEvent,UnoHelper.GetUnoObjectRef((Object)motionEvent));
+        			ExternedBlockHost.callUno_Fuse_Android_AppRoot_OnTouchEvent__378((Object)motionEvent,UnoHelper.GetUnoObjectRef((Object)motionEvent));
         			return _currentEvent == motionEvent;
         		}
         
@@ -54,7 +54,7 @@ public class AppRoot
         return frameLayout;
     }
     
-    public static void SetRootView1376(final Object handle,final Object rootHandle)
+    public static void SetRootView1379(final Object handle,final Object rootHandle)
     {
         ((android.widget.FrameLayout)handle).addView(((android.view.View)rootHandle));
     }

@@ -20,15 +20,15 @@ public class AndroidProperties
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static int GetBuildVersion422()
+    public static int GetBuildVersion425()
     {
         return android.os.Build.VERSION.SDK_INT;
     }
     
-    public static String GetReleaseVersion423()
+    public static String GetReleaseVersion426()
     {
         return android.os.Build.VERSION.RELEASE;
     }

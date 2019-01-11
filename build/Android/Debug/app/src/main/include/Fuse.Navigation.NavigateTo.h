@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.8.1/TriggerActions.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/TriggerActions.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Navigation.Navig-7d6b9b9f.h>
 namespace g{namespace Fuse{namespace Navigation{struct NavigateTo;}}}
 namespace g{namespace Fuse{struct Node;}}
@@ -11,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// public sealed class NavigateTo :53
+// public sealed class NavigateTo :52
 // {
 ::g::Fuse::Navigation::NavigationTriggerAction_type* NavigateTo_typeof();
 void NavigateTo__get_Bypass_fn(NavigateTo* __this, bool* __retval);

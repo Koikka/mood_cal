@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/RootableList.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/RootableList.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -36,6 +36,7 @@ void RootableList__OnAdded_fn(RootableList* __this, void* item);
 void RootableList__OnRemoved_fn(RootableList* __this, void* item);
 void RootableList__Remove_fn(RootableList* __this, void* item, bool* __retval);
 void RootableList__RemoveAt_fn(RootableList* __this, int32_t* index);
+void RootableList__ReplaceAt_fn(RootableList* __this, int32_t* index, void* item);
 void RootableList__RootSubscribe_fn(RootableList* __this, uDelegate* added, uDelegate* removed);
 void RootableList__RootUnsubscribe_fn(RootableList* __this);
 void RootableList__Subscribe_fn(RootableList* __this, uDelegate* added, uDelegate* removed);
@@ -66,6 +67,8 @@ struct RootableList : uObject
     template<class T>
     bool Remove(T item) { bool __retval; return RootableList__Remove_fn(this, uConstrain(__type->T(0), item), &__retval), __retval; }
     void RemoveAt(int32_t index);
+    template<class T>
+    void ReplaceAt(int32_t index, T item) { RootableList__ReplaceAt_fn(this, &index, uConstrain(__type->T(0), item)); }
     void RootSubscribe(uDelegate* added, uDelegate* removed);
     void RootUnsubscribe();
     void Subscribe(uDelegate* added, uDelegate* removed);

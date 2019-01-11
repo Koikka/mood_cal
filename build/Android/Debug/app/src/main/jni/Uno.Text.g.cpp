@@ -27,7 +27,7 @@ namespace g{
 namespace Uno{
 namespace Text{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Text/Ascii.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Text/Ascii.uno
 // ---------------------------------------------------------------------
 
 // public static class Ascii :5
@@ -90,7 +90,7 @@ uString* Ascii::GetString(uArray* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Text/Base64.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Text/Base64.uno
 // ----------------------------------------------------------------------
 
 // public static class Base64 :8
@@ -242,7 +242,7 @@ uString* Base64::GetString(uArray* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Text/Utf8.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Text/Utf8.uno
 // --------------------------------------------------------------------
 
 // public abstract class Decoder :7
@@ -276,7 +276,7 @@ void Decoder::ctor_()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Text/Utf8.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Text/Utf8.uno
 // --------------------------------------------------------------------
 
 // public abstract class Encoding :258
@@ -330,7 +330,7 @@ Encoding* Encoding::UTF8()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Text/StringBuilder.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Text/StringBuilder.uno
 // -----------------------------------------------------------------------------
 
 // public sealed class StringBuilder :7
@@ -493,7 +493,7 @@ StringBuilder* StringBuilder::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Text/Utf8.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Text/Utf8.uno
 // --------------------------------------------------------------------
 
 // public static class Utf8 :292
@@ -541,7 +541,7 @@ uString* Utf8::GetString(uArray* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Text/Utf8.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Text/Utf8.uno
 // --------------------------------------------------------------------
 
 // internal sealed class UTF8Decoder :14
@@ -831,7 +831,7 @@ UTF8Decoder* UTF8Decoder::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Text/Utf8.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Text/Utf8.uno
 // --------------------------------------------------------------------
 
 // public sealed class UTF8Encoding :284

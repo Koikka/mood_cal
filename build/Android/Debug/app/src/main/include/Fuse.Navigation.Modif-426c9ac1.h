@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.8.1/ModifyRouteCommand.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/ModifyRouteCommand.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Navigation.Route-a9d98f4f.h>
 #include <Fuse.Reactive.IExpression.h>
 namespace g{namespace Fuse{namespace Navigation{struct ModifyRouteCommand;}}}

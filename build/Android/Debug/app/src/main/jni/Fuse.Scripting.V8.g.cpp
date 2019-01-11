@@ -62,7 +62,7 @@ namespace Fuse{
 namespace Scripting{
 namespace V8{
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/Array.uno
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Array.uno
 // --------------------------------------------------------------------------
 
 // internal sealed extern class Array :7
@@ -316,7 +316,7 @@ Array* Array::New1(::g::Fuse::Scripting::V8::Context* context, ::JSArray* array)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/Handle.uno
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Handle.uno
 // ---------------------------------------------------------------------------
 
 // internal sealed extern class ArrayHandle :14
@@ -392,7 +392,7 @@ ArrayHandle* ArrayHandle::New1(uArray* array)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/V8SimpleExtensions.uno
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/V8SimpleExtensions.uno
 // ---------------------------------------------------------------------------------------
 
 // internal extern struct AutoReleasePool :281
@@ -582,7 +582,7 @@ AutoReleasePool AutoReleasePool__New1(::JSContext* context)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/Context.uno
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Context.uno
 // ----------------------------------------------------------------------------
 
 // private sealed class Marshaller.CallbackWrapper :225
@@ -707,7 +707,7 @@ Marshaller__CallbackWrapper* Marshaller__CallbackWrapper::New1(::g::Fuse::Script
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/Context.uno
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Context.uno
 // ----------------------------------------------------------------------------
 
 // public sealed extern class Context :12
@@ -955,7 +955,7 @@ Context* Context::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/Context.uno
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Context.uno
 // ----------------------------------------------------------------------------
 
 // internal struct Context.EnterVM :53
@@ -1032,7 +1032,7 @@ Context__EnterVM Context__EnterVM__New1(::g::Fuse::Scripting::V8::Context* conte
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/V8SimpleExtensions.uno
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/V8SimpleExtensions.uno
 // ---------------------------------------------------------------------------------------
 
 // internal static extern class Error :336
@@ -1107,7 +1107,7 @@ void Error::Check1(int32_t err)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/Function.uno
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Function.uno
 // -----------------------------------------------------------------------------
 
 // internal sealed extern class Function :7
@@ -1333,7 +1333,7 @@ Function* Function::New1(::g::Fuse::Scripting::V8::Context* context, ::JSFunctio
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/Handle.uno
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Handle.uno
 // ---------------------------------------------------------------------------
 
 // internal static extern class Handle :7
@@ -1391,7 +1391,7 @@ uObject* Handle::Target(void* handle)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/Context.uno
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Context.uno
 // ----------------------------------------------------------------------------
 
 // internal static extern class Marshaller :148
@@ -1526,7 +1526,7 @@ uArray* Marshaller::TryGetArrayBufferData(::g::Fuse::Scripting::V8::Context* con
         return ::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue4(::g::Fuse::Scripting::V8::V8SimpleExtensions::NewString(cxt, uCast<uString*>(obj, ::TYPES[9/*string*/]), pool));
 
     if (uIs(obj, ::g::Uno::UX::Selector_typeof()))
-        return ::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue4(::g::Fuse::Scripting::V8::V8SimpleExtensions::NewString(cxt, ::g::Uno::UX::Selector__op_Implicit1(uUnbox< ::g::Uno::UX::Selector>(::g::Uno::UX::Selector_typeof(), obj)), pool));
+        return ::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue4(::g::Fuse::Scripting::V8::V8SimpleExtensions::NewString(cxt, ::g::Uno::UX::Selector__op_Implicit2(uUnbox< ::g::Uno::UX::Selector>(::g::Uno::UX::Selector_typeof(), obj)), pool));
 
     if (uIs(obj, ::g::Uno::Bool_typeof()))
         return ::g::Fuse::Scripting::V8::V8SimpleExtensions::NewBool(uUnbox<bool>(::g::Uno::Bool_typeof(), obj), pool);
@@ -1615,7 +1615,7 @@ uArray* Marshaller::WrapArray(::g::Fuse::Scripting::V8::Context* context, uArray
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/Object.uno
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Object.uno
 // ---------------------------------------------------------------------------
 
 // internal sealed extern class Object :8
@@ -2049,7 +2049,7 @@ Object* Object::New1(::g::Fuse::Scripting::V8::Context* context, ::JSObject* obj
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/V8SimpleExtensions.uno
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/V8SimpleExtensions.uno
 // ---------------------------------------------------------------------------------------
 
 // internal static extern class V8SimpleExtensions :13
@@ -2771,7 +2771,7 @@ void* V8SimpleExtensions::TryGetArrayBufferData(::JSObject* obj, ::JSContext* co
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/V8SimpleExtensions.uno
+// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/V8SimpleExtensions.uno
 // ---------------------------------------------------------------------------------------
 
 // public delegate Fuse.Scripting.V8.Simple.JSValue V8SimpleExtensions.WrappedCallback(Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.Simple.JSValue& error) :199

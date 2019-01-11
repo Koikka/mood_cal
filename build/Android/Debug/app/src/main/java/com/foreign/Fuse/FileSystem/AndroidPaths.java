@@ -20,25 +20,25 @@ public class AndroidPaths
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static String GetCacheDirectory405()
+    public static String GetCacheDirectory408()
     {
         return com.fuse.Activity.getRootActivity().getCacheDir().getAbsolutePath();
     }
     
-    public static String GetExternalCacheDirectory406()
+    public static String GetExternalCacheDirectory409()
     {
         return com.fuse.Activity.getRootActivity().getExternalCacheDir().getAbsolutePath();
     }
     
-    public static String GetExternalFilesDirectory407()
+    public static String GetExternalFilesDirectory410()
     {
         return com.fuse.Activity.getRootActivity().getExternalFilesDir(null).getAbsolutePath();
     }
     
-    public static String GetFilesDirectory408()
+    public static String GetFilesDirectory411()
     {
         return com.fuse.Activity.getRootActivity().getFilesDir().getAbsolutePath();
     }

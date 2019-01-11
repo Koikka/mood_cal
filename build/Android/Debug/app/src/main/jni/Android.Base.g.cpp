@@ -38,7 +38,7 @@ namespace g{
 namespace Android{
 namespace Base{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/JNI.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/JNI.uno
 // ----------------------------------------------------------------------------
 
 // public static extern class AndroidBindingMacros :11
@@ -60,7 +60,7 @@ uClassType* AndroidBindingMacros_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/JNI.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/JNI.uno
 // ----------------------------------------------------------------------------
 
 // public static extern class JNI :14
@@ -68,7 +68,8 @@ uClassType* AndroidBindingMacros_typeof()
 static void JNI_build(uType* type)
 {
     type->SetDependencies(
-        ::g::Uno::Diagnostics::Debug_typeof());
+        ::g::Uno::Diagnostics::Debug_typeof(),
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::g::Uno::Bool_typeof(), (uintptr_t)&JNI::_inited_, uFieldFlagsStatic,
         ::g::Android::Base::Primitives::jmethodID_typeof(), (uintptr_t)&JNI::Activity_getClassLoader_, uFieldFlagsStatic,
@@ -85,7 +86,7 @@ uClassType* JNI_typeof()
 
     uTypeOptions options;
     options.FieldCount = 6;
-    options.DependencyCount = 1;
+    options.DependencyCount = 2;
     options.TypeSize = sizeof(uClassType);
     type = uClassType::New("Android.Base.JNI", options);
     type->fp_build_ = JNI_build;
@@ -401,7 +402,7 @@ void JNI::DeleteWeakGlobalRef(jobject obj_)
 // public static extern Android.Base.Primitives.ujclass GetActivityClass() [static] :74
 jclass JNI::GetActivityClass()
 {
-    return ::g::Android::Base::Primitives::ujobject::op_Implicit1(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface(uPtr((uObject*)JNI::GetActivityClassInner()), ::g::Android::Base::Wrappers::IJWrapper_typeof())));
+    return ::g::Android::Base::Primitives::ujobject::op_Implicit2(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface(uPtr((uObject*)JNI::GetActivityClassInner()), ::g::Android::Base::Wrappers::IJWrapper_typeof())));
 }
 
 // private static Java.Object GetActivityClassInner() [static] :69
@@ -410,7 +411,7 @@ jclass JNI::GetActivityClass()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetActivityClassInner66", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetActivityClassInner69", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         JNI::CheckException();
@@ -431,7 +432,7 @@ jobject JNI::GetActivityObject()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetActivityObjectInner67", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetActivityObjectInner70", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         JNI::CheckException();
@@ -444,7 +445,7 @@ jobject JNI::GetActivityObject()
 int32_t JNI::GetArrayLength(jobject array_)
 {
     JNIEnv* jni = JNI::GetEnvPtr();
-    return (int)jni->GetArrayLength((jarray)array_);
+                         return (int)jni->GetArrayLength((jarray)array_);
 }
 
 // public static extern Android.Base.Primitives.ujobject GetDefaultObject() [static] :288
@@ -463,8 +464,8 @@ uType* JNI::GetDefaultType()
 JNIEnv* JNI::GetEnvPtr()
 {
     JNIEnv* jni;
-    JniHelper::GetVM()->AttachCurrentThread(&jni, NULL);
-    return jni;
+                         JniHelper::GetVM()->AttachCurrentThread(&jni, NULL);
+                         return jni;
 }
 
 // public static Android.Base.Primitives.jmethodID GetMethodID(Android.Base.Primitives.ujclass cls, string methodName, string methodSig) [static] :223
@@ -509,7 +510,7 @@ jmethodID JNI::GetStaticMethodID(jclass cls, uString* methodName, uString* metho
 // public static extern long GetUnoRef(Android.Base.Primitives.ujobject obj) [static] :294
 int64_t JNI::GetUnoRef(jobject obj)
 {
-    ::g::Uno::Diagnostics::Debug::Assert(JNI::_inited_, uString::Const("Android.Base.JNI._inited"), uString::Const("/usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/JNI.uno"), 296, uArray::New(uObject_typeof()->Array(), 0));
+    ::g::Uno::Diagnostics::Debug::Assert(JNI::_inited_, uString::Const("Android.Base.JNI._inited"), uString::Const("/usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/JNI.uno"), 296, uArray::New(uObject_typeof()->Array(), 0));
 
     if (::g::Android::Base::Primitives::ujobject::op_Inequality(obj, ::g::Android::Base::Primitives::ujobject::Null()))
         return (int64_t)JNI::GetEnvPtr()->CallStaticLongMethod(JNI::_helperCls_, JNI::_getUnoRefMid_, obj);
@@ -573,7 +574,7 @@ jclass JNI::LoadClass(JNIEnv* jni, const char* name)
 // public static Android.Base.Primitives.ujclass LoadClass(Android.Base.Primitives.JNIEnvPtr jni, Android.Base.Primitives.ConstCharPtr name, bool systemClass) [static] :107
 jclass JNI::LoadClass1(JNIEnv* jni, const char* name, bool systemClass)
 {
-    ::g::Uno::Diagnostics::Debug::Assert(JNI::_inited_, uString::Const("Android.Base.JNI._inited"), uString::Const("/usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/JNI.uno"), 109, uArray::New(uObject_typeof()->Array(), 0));
+    ::g::Uno::Diagnostics::Debug::Assert(JNI::_inited_, uString::Const("Android.Base.JNI._inited"), uString::Const("/usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/JNI.uno"), 109, uArray::New(uObject_typeof()->Array(), 0));
     jclass result;
     jstring jname = jni->NewStringUTF(name);
 
@@ -718,9 +719,9 @@ void JNI::SetShortArrayRegion(jobject javaArr, uArray* unoArr, int32_t start, in
 void JNI::ThrowNewException(uString* message_)
 {
     char* message = uAllocCStr(message_);
-    LOGD("%s", message);
-    JNI::GetEnvPtr()->ThrowNew(JNI::exceptionClass_, message);
-    free(message);
+                             LOGD("%s", message);
+                             JNI::GetEnvPtr()->ThrowNew(JNI::exceptionClass_, message);
+                             free(message);
 }
 
 // public static Uno.Exception TryGetException(Android.Base.Primitives.JNIEnvPtr jni, [string appendMessage]) [static] :186
@@ -747,7 +748,7 @@ void JNI::ThrowNewException(uString* message_)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/JNI.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/JNI.uno
 // ----------------------------------------------------------------------------
 
 // public enum JNI.RefType :95

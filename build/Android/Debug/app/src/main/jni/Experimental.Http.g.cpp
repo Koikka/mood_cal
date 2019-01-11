@@ -27,7 +27,7 @@ namespace g{
 namespace Experimental{
 namespace Http{
 
-// /usr/local/share/uno/Packages/Experimental.Http/1.8.1/BinaryLoader.uno
+// /usr/local/share/uno/Packages/Experimental.Http/1.9.0/BinaryLoader.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class BinaryLoader :14
@@ -190,7 +190,7 @@ BinaryLoader* BinaryLoader::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Experimental.Http/1.8.1/HttpLoader.uno
+// /usr/local/share/uno/Packages/Experimental.Http/1.9.0/HttpLoader.uno
 // --------------------------------------------------------------------
 
 // public static class HttpLoader :9
@@ -238,7 +238,7 @@ void HttpLoader::LoadBinary(uString* requestUri, uDelegate* callback, uDelegate*
 }
 // }
 
-// /usr/local/share/uno/Packages/Experimental.Http/1.8.1/HttpResponseHeader.uno
+// /usr/local/share/uno/Packages/Experimental.Http/1.9.0/HttpResponseHeader.uno
 // ----------------------------------------------------------------------------
 
 // public sealed class HttpResponseHeader :7
@@ -364,7 +364,7 @@ HttpResponseHeader* HttpResponseHeader::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Experimental.Http/1.8.1/BinaryLoader.uno
+// /usr/local/share/uno/Packages/Experimental.Http/1.9.0/BinaryLoader.uno
 // ----------------------------------------------------------------------
 
 // internal static class LoaderConst :9

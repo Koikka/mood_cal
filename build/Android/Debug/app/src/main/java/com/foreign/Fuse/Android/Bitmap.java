@@ -20,20 +20,20 @@ public class Bitmap
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object CreateBitmapARGB8888Impl377(final int width,final int height)
+    public static Object CreateBitmapARGB8888Impl380(final int width,final int height)
     {
         return android.graphics.Bitmap.createBitmap(width, height, android.graphics.Bitmap.Config.ARGB_8888);
     }
     
-    public static void EraseColor1378(final Object handle,final int color)
+    public static void EraseColor1381(final Object handle,final int color)
     {
         ((android.graphics.Bitmap)handle).eraseColor(color);
     }
     
-    public static void Recycle1379(final Object handle)
+    public static void Recycle1382(final Object handle)
     {
         ((android.graphics.Bitmap)handle).recycle();
     }

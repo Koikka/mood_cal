@@ -30,7 +30,7 @@ namespace Uno{
 namespace Time{
 namespace Text{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Text/FixedFormatPattern.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Text/FixedFormatPattern.uno
 // ---------------------------------------------------------------------------------------
 
 // internal sealed class FixedFormatPattern<T> :5
@@ -108,7 +108,7 @@ FixedFormatPattern* FixedFormatPattern::New1(uType* __type, uArray* parts)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Text/PatternPart.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Text/PatternPart.uno
 // --------------------------------------------------------------------------------
 
 // internal abstract interface IPatternPart<T> :3
@@ -123,7 +123,7 @@ uInterfaceType* IPatternPart_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Text/LocalDateTimePattern.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Text/LocalDateTimePattern.uno
 // -----------------------------------------------------------------------------------------
 
 // private sealed class LocalDateTimePattern.LocalDateTimeBucket :142
@@ -181,7 +181,7 @@ LocalDateTimePattern__LocalDateTimeBucket* LocalDateTimePattern__LocalDateTimeBu
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Text/LocalDateTimePattern.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Text/LocalDateTimePattern.uno
 // -----------------------------------------------------------------------------------------
 
 // public sealed class LocalDateTimePattern :3
@@ -443,7 +443,7 @@ LocalDateTimePattern* LocalDateTimePattern::GeneralIsoPattern()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Text/PatternPart.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Text/PatternPart.uno
 // --------------------------------------------------------------------------------
 
 // internal sealed class NumberPart<T> :45
@@ -454,6 +454,8 @@ static void NumberPart_build(uType* type)
     ::STRINGS[1] = uString::Const("}");
     ::TYPES[1] = uObject_typeof()->Array();
     type->SetBase(::g::Uno::Time::Text::PatternPart_typeof()->MakeType(type->T(0), ::g::Uno::Int_typeof(), NULL));
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetInterfaces(
         ::g::Uno::Time::Text::IPatternPart_typeof()->MakeType(type->T(0), NULL), offsetof(::g::Uno::Time::Text::PatternPart_type, interface0));
     type->SetFields(5);
@@ -469,6 +471,7 @@ static void NumberPart_build(uType* type)
     options.FieldCount = 5;
     options.GenericCount = 1;
     options.InterfaceCount = 1;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(NumberPart);
     options.TypeSize = sizeof(::g::Uno::Time::Text::PatternPart_type);
     type = (::g::Uno::Time::Text::PatternPart_type*)uClassType::New("Uno.Time.Text.NumberPart`1", options);
@@ -516,7 +519,7 @@ NumberPart* NumberPart::New1(uType* __type, int32_t size, bool obligatory, uDele
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Text/OffsetPattern.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Text/OffsetPattern.uno
 // ----------------------------------------------------------------------------------
 
 // private sealed class OffsetPattern.OffsetBucket :106
@@ -571,7 +574,7 @@ OffsetPattern__OffsetBucket* OffsetPattern__OffsetBucket::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Text/OffsetPattern.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Text/OffsetPattern.uno
 // ----------------------------------------------------------------------------------
 
 // public sealed class OffsetPattern :3
@@ -758,7 +761,7 @@ OffsetPattern* OffsetPattern::GeneralIsoPattern()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Text/PatternPart.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Text/PatternPart.uno
 // --------------------------------------------------------------------------------
 
 // internal abstract class PatternPart<TBucket, T> :12
@@ -943,7 +946,7 @@ void PatternPart::SkipNextPartsCountIfThisNotSpecified(int32_t value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Text/PatternPart.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Text/PatternPart.uno
 // --------------------------------------------------------------------------------
 
 // internal sealed class SeparatorPart<T> :184
@@ -1042,7 +1045,7 @@ SeparatorPart* SeparatorPart::New2(uType* __type, bool obligatory, char16_t sepa
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Text/PatternPart.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Text/PatternPart.uno
 // --------------------------------------------------------------------------------
 
 // internal sealed class SignPart<T> :139

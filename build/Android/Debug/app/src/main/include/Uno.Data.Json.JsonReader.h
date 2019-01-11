@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/JsonReader.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonReader.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -24,8 +24,8 @@ void JsonReader__get_Item1_fn(JsonReader* __this, uString* key, JsonReader** __r
 void JsonReader__get_JsonDataType_fn(JsonReader* __this, int32_t* __retval);
 void JsonReader__get_Keys_fn(JsonReader* __this, uArray** __retval);
 void JsonReader__New1_fn(::g::Uno::Data::Json::Value* value, JsonReader** __retval);
-void JsonReader__op_Explicit1_fn(JsonReader* value, bool* __retval);
-void JsonReader__op_Explicit3_fn(JsonReader* value, uString** __retval);
+void JsonReader__op_Explicit1_fn(JsonReader* value, uString** __retval);
+void JsonReader__op_Explicit3_fn(JsonReader* value, bool* __retval);
 void JsonReader__Parse_fn(uString* json, JsonReader** __retval);
 
 struct JsonReader : uObject
@@ -42,8 +42,8 @@ struct JsonReader : uObject
     int32_t JsonDataType();
     uArray* Keys();
     static JsonReader* New1(::g::Uno::Data::Json::Value* value);
-    static bool op_Explicit1(JsonReader* value);
-    static uString* op_Explicit3(JsonReader* value);
+    static uString* op_Explicit1(JsonReader* value);
+    static bool op_Explicit3(JsonReader* value);
     static JsonReader* Parse(uString* json);
 };
 // }

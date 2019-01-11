@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Backends/CPlusPlus/Uno/Memory.cpp.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Backends/CPlusPlus/Uno/Memory.cpp.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Uno/_internal.h>
@@ -722,16 +722,24 @@ uObject* uNew(uType* type, size_t size)
     return uInitObject(type, calloc(1, size), size);
 }
 
-uString* uString::New(int32_t length)
+static uString* uInitString(int32_t length)
 {
-    if (!length && ::g::Uno::String::Empty())
-        return ::g::Uno::String::Empty();
-
     size_t size = sizeof(uString) + sizeof(char16_t) * length + sizeof(char16_t);
     uString* string = (uString*)uInitObject(::g::Uno::String_typeof(), calloc(1, size), size);
     string->_ptr = (char16_t*)((uint8_t*)string + sizeof(uString));
     string->_length = length;
     return string;
+}
+
+uString* uString::New(int32_t length)
+{
+    if (length == 0)
+    {
+        static uStrong<uString*> empty = uInitString(0);
+        return empty;
+    }
+
+    return uInitString(length);
 }
 
 #ifdef DEBUG_DUMPS

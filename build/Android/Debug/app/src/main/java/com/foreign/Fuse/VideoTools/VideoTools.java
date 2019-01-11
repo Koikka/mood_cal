@@ -25,13 +25,13 @@ public class VideoTools
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
     
     public static class AndroidVideoTools
     {
-        public static boolean SaveVideo418(final String outputFileURL)
+        public static boolean SaveVideo421(final String outputFileURL)
         {
             String filename = "";
             File originalFile;

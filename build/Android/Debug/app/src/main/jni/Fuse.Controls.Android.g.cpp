@@ -70,7 +70,7 @@ namespace Fuse{
 namespace Controls{
 namespace Android{
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/Camera.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/Camera.uno
 // -------------------------------------------------------------------------------
 
 // private sealed class Camera.AndroidPhotoOptionPromise :129
@@ -146,7 +146,7 @@ Camera__AndroidPhotoOptionPromise* Camera__AndroidPhotoOptionPromise::New5(::g::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/Camera.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/Camera.uno
 // -------------------------------------------------------------------------------
 
 // internal sealed extern class AndroidRecording :14
@@ -198,7 +198,7 @@ AndroidRecording* AndroidRecording::New1(uString* outputFilePath)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/Camera.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/Camera.uno
 // -------------------------------------------------------------------------------
 
 // internal sealed extern class AndroidRecordingSession :24
@@ -307,7 +307,7 @@ void AndroidRecordingSession::Stop1(::g::Java::Object* session, uDelegate* resol
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Stop1289", "(Ljava/lang/Object;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Stop1292", "(Ljava/lang/Object;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
         ::g::Java::Object* _usession=session;
         jobject _session = (_usession==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_usession, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         uDelegate* _uresolve=resolve;
@@ -326,7 +326,7 @@ void AndroidRecordingSession::Stop1(::g::Java::Object* session, uDelegate* resol
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/Camera.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/Camera.uno
 // -------------------------------------------------------------------------------
 
 // internal sealed extern class Camera :88
@@ -610,7 +610,7 @@ void Camera::GetSupportedPictureSizes(::g::Java::Object* camera, uArray* output)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetSupportedPictureSizes292", "(Lcom/uno/UnoObject;Ljava/lang/Object;Lcom/uno/IntArray;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetSupportedPictureSizes295", "(Lcom/uno/UnoObject;Ljava/lang/Object;Lcom/uno/IntArray;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         ::g::Java::Object* _ucamera=camera;
@@ -634,7 +634,7 @@ int32_t Camera::GetSupportedPictureSizesCount(::g::Java::Object* camera)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetSupportedPictureSizesCount293", "(Lcom/uno/UnoObject;Ljava/lang/Object;)I");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetSupportedPictureSizesCount296", "(Lcom/uno/UnoObject;Ljava/lang/Object;)I");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         ::g::Java::Object* _ucamera=camera;
@@ -678,7 +678,7 @@ void Camera::RestoreParameters(uString* parameters)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "RestoreParameters295", "(Lcom/uno/UnoObject;Ljava/lang/String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "RestoreParameters298", "(Lcom/uno/UnoObject;Ljava/lang/String;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         uString* _uparameters=parameters;
@@ -699,7 +699,7 @@ uString* Camera::SaveParameters()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SaveParameters296", "(Lcom/uno/UnoObject;)Ljava/lang/String;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SaveParameters299", "(Lcom/uno/UnoObject;)Ljava/lang/String;");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd,_this_);
@@ -718,7 +718,7 @@ void Camera::SetFlashMode(::g::Java::Object* handle, uString* flashMode)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetFlashMode297", "(Lcom/uno/UnoObject;Ljava/lang/Object;Ljava/lang/String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetFlashMode300", "(Lcom/uno/UnoObject;Ljava/lang/Object;Ljava/lang/String;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         ::g::Java::Object* _uhandle=handle;
@@ -748,7 +748,7 @@ void Camera::SetPictureSize(int32_t width, int32_t height)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetPictureSize298", "(Lcom/uno/UnoObject;II)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetPictureSize301", "(Lcom/uno/UnoObject;II)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         int32_t _uwidth=width;
@@ -786,7 +786,7 @@ void Camera::StartRecording1(uDelegate* resolve, uDelegate* reject)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "StartRecording1299", "(Lcom/uno/UnoObject;Lcom/foreign/Uno/Action_Object;Lcom/foreign/Uno/Action_String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "StartRecording1302", "(Lcom/uno/UnoObject;Lcom/foreign/Uno/Action_Object;Lcom/foreign/Uno/Action_String;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         uDelegate* _uresolve=resolve;
@@ -845,7 +845,7 @@ void Camera::TakePicture(uDelegate* resolve, uDelegate* reject)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "TakePicture300", "(Lcom/uno/UnoObject;Lcom/foreign/Uno/Action_Object;Lcom/foreign/Uno/Action_String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "TakePicture303", "(Lcom/uno/UnoObject;Lcom/foreign/Uno/Action_Object;Lcom/foreign/Uno/Action_String;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         uDelegate* _uresolve=resolve;
@@ -869,7 +869,7 @@ void Camera::UpdatePreviewStretchMode(bool shouldFill)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "UpdatePreviewStretchMode301", "(Lcom/uno/UnoObject;Z)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "UpdatePreviewStretchMode304", "(Lcom/uno/UnoObject;Z)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         bool _ushouldFill=shouldFill;
@@ -890,7 +890,7 @@ void Camera::UpdatePreviewStretchMode(bool shouldFill)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Create290", "(Ljava/lang/Object;III)Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Create293", "(Ljava/lang/Object;III)Ljava/lang/Object;");
         ::g::Java::Object* _ucamera=camera;
         jobject _camera = (_ucamera==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ucamera, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         int32_t _ucameraId=cameraId;
@@ -917,7 +917,7 @@ void Camera::Dispose1(::g::Java::Object* handle)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Dispose1291", "(Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Dispose1294", "(Ljava/lang/Object;)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_handle);
@@ -943,7 +943,7 @@ void Camera::Release(::g::Java::Object* handle)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Release294", "(Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Release297", "(Ljava/lang/Object;)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_handle);
@@ -956,7 +956,7 @@ void Camera::Release(::g::Java::Object* handle)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/CameraLoader.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/CameraLoader.uno
 // -------------------------------------------------------------------------------------
 
 // internal static extern class CameraFacingExtension :68
@@ -995,7 +995,7 @@ int32_t CameraFacingExtension::GetCameraId(int32_t facing)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetCameraId302", "(I)I");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetCameraId305", "(I)I");
         int32_t _ufacing=facing;
         jint _facing = (jint)_ufacing;
         jint __jresult = U_JNIVAR->CallStaticIntMethod(__cls,__mtd,_facing);
@@ -1015,7 +1015,7 @@ bool CameraFacingExtension::TryGetCameraId(int32_t cameraFacing, int32_t* camera
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/CameraLoader.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/CameraLoader.uno
 // -------------------------------------------------------------------------------------
 
 // internal static extern class CameraLoader :7
@@ -1069,7 +1069,7 @@ void CameraLoader::Load1(int32_t cameraId, uDelegate* resolve, uDelegate* reject
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Load1303", "(ILcom/foreign/Uno/Action_Object;Lcom/foreign/Uno/Action_String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Load1306", "(ILcom/foreign/Uno/Action_Object;Lcom/foreign/Uno/Action_String;)V");
         int32_t _ucameraId=cameraId;
         jint _cameraId = (jint)_ucameraId;
         uDelegate* _uresolve=resolve;
@@ -1088,7 +1088,7 @@ void CameraLoader::Load1(int32_t cameraId, uDelegate* resolve, uDelegate* reject
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/CameraLoader.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/CameraLoader.uno
 // -------------------------------------------------------------------------------------
 
 // private sealed class CameraLoader.CameraPromise :9
@@ -1190,7 +1190,7 @@ CameraLoader__CameraPromise* CameraLoader__CameraPromise::New5(int32_t facing, i
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/CameraView.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/CameraView.uno
 // -----------------------------------------------------------------------------------
 
 // internal sealed extern class CameraView :21
@@ -1522,7 +1522,7 @@ void CameraView::ResetCaptureState()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/CameraView.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/CameraView.uno
 // -----------------------------------------------------------------------------------
 
 // private enum CameraView.CaptureState :23
@@ -1539,7 +1539,7 @@ uEnumType* CameraView__CaptureState_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/Camera.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/Camera.uno
 // -------------------------------------------------------------------------------
 
 // internal static extern class FlashModeExtensions :365
@@ -1610,7 +1610,7 @@ bool FlashModeExtensions::IsSupported1(uString* flashMode, ::g::Java::Object* ca
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "IsSupported1305", "(Ljava/lang/String;Ljava/lang/Object;)Z");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "IsSupported1308", "(Ljava/lang/String;Ljava/lang/Object;)Z");
         uString* _uflashMode=flashMode;
         jstring _flashMode = JniHelper::UnoToJavaString(_uflashMode);
         ::g::Java::Object* _ucameraHandle=cameraHandle;
@@ -1626,7 +1626,7 @@ bool FlashModeExtensions::IsSupported1(uString* flashMode, ::g::Java::Object* ca
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/CameraView.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/CameraView.uno
 // -----------------------------------------------------------------------------------
 
 // private sealed class CameraView.GetCameraInfoClosure :247
@@ -1713,7 +1713,7 @@ CameraView__GetCameraInfoClosure* CameraView__GetCameraInfoClosure::New5(::g::Fu
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/NativePhoto.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/NativePhoto.uno
 // ------------------------------------------------------------------------------------
 
 // internal sealed extern class NativePhoto :18
@@ -1791,7 +1791,7 @@ void NativePhoto::ctor_1(::g::Java::Object* byteArray)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetInputStream315", "(Ljava/lang/Object;)Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetInputStream318", "(Ljava/lang/Object;)Ljava/lang/Object;");
         ::g::Java::Object* _ubyteArray=byteArray;
         jobject _byteArray = (_ubyteArray==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ubyteArray, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd,_byteArray);
@@ -1812,7 +1812,7 @@ NativePhoto* NativePhoto::New1(::g::Java::Object* byteArray)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/Camera.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/Camera.uno
 // -------------------------------------------------------------------------------
 
 // private sealed class Camera.PicturePromise :107
@@ -1896,7 +1896,7 @@ Camera__PicturePromise* Camera__PicturePromise::New6()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/Camera.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/Camera.uno
 // -------------------------------------------------------------------------------
 
 // private sealed class AndroidRecordingSession.RecordingPromise :63
@@ -1978,7 +1978,7 @@ AndroidRecordingSession__RecordingPromise* AndroidRecordingSession__RecordingPro
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/Camera.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/Camera.uno
 // -------------------------------------------------------------------------------
 
 // private sealed class Camera.RecordingSessionPromise :158
@@ -2069,7 +2069,7 @@ Camera__RecordingSessionPromise* Camera__RecordingSessionPromise::New5(uDelegate
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/NativePhoto.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/NativePhoto.uno
 // ------------------------------------------------------------------------------------
 
 // private sealed class NativePhoto.SavePromise :235
@@ -2151,7 +2151,7 @@ void NativePhoto__SavePromise::Save(::g::Java::Object* byteArray, uDelegate* res
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Save312", "(Ljava/lang/Object;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Save315", "(Ljava/lang/Object;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
         ::g::Java::Object* _ubyteArray=byteArray;
         jobject _byteArray = (_ubyteArray==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ubyteArray, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         uDelegate* _uresolve=resolve;
@@ -2170,7 +2170,7 @@ void NativePhoto__SavePromise::Save(::g::Java::Object* byteArray, uDelegate* res
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/NativePhoto.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/NativePhoto.uno
 // ------------------------------------------------------------------------------------
 
 // private sealed class NativePhoto.SaveThumbnailPromise :277
@@ -2180,6 +2180,8 @@ static void NativePhoto__SaveThumbnailPromise_build(uType* type)
     ::TYPES[4] = ::g::Uno::Action_typeof();
     ::TYPES[1] = ::g::Uno::Action1_typeof()->MakeType(::g::Uno::String_typeof(), NULL);
     type->SetBase(::g::Fuse::Controls::CameraPromise_typeof()->MakeType(::g::Uno::String_typeof(), NULL));
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetInterfaces(
         ::g::Uno::IDisposable_typeof(), offsetof(::g::Uno::Threading::Future_type, interface0));
     type->SetFields(9,
@@ -2196,6 +2198,7 @@ static void NativePhoto__SaveThumbnailPromise_build(uType* type)
     options.BaseDefinition = ::g::Fuse::Controls::CameraPromise_typeof();
     options.FieldCount = 11;
     options.InterfaceCount = 1;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(NativePhoto__SaveThumbnailPromise);
     options.TypeSize = sizeof(::g::Uno::Threading::Future_type);
     type = (::g::Uno::Threading::Future_type*)uClassType::New("Fuse.Controls.Android.NativePhoto.SaveThumbnailPromise", options);
@@ -2327,7 +2330,7 @@ void NativePhoto__SaveThumbnailPromise::RunAsync(uDelegate* callback)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "RunAsync313", "(Lcom/foreign/Uno/Action;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "RunAsync316", "(Lcom/foreign/Uno/Action;)V");
         uDelegate* _ucallback=callback;
         jobject _callback = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::BoxDelegate((uObject*)_ucallback, "com.foreign.Uno.Action");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_callback);
@@ -2345,7 +2348,7 @@ void NativePhoto__SaveThumbnailPromise::SaveThumbnail1(::g::Java::Object* byteAr
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SaveThumbnail1314", "(Ljava/lang/Object;ILcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;ZFF)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SaveThumbnail1317", "(Ljava/lang/Object;ILcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;ZFF)V");
         ::g::Java::Object* _ubyteArray=byteArray;
         jobject _byteArray = (_ubyteArray==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ubyteArray, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         int32_t _uexifOrientation=exifOrientation;
@@ -2376,7 +2379,7 @@ void NativePhoto__SaveThumbnailPromise::SaveThumbnail1(::g::Java::Object* byteAr
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/Android/CameraView.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/CameraView.uno
 // -----------------------------------------------------------------------------------
 
 // private sealed class CameraView.SetCameraFacingClosure :196

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.8.1/PulseTrigger.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/PulseTrigger.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,12 +7,14 @@
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Trigger.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
 #include <Uno.Collections.IList-1.h>
 namespace g{namespace Fuse{namespace Triggers{struct PulseTrigger;}}}
+namespace g{namespace Fuse{struct Visual;}}
 namespace g{namespace Uno{struct EventArgs;}}
 
 namespace g{
@@ -23,6 +25,7 @@ namespace Triggers{
 // {
 ::g::Fuse::Triggers::Trigger_type* PulseTrigger_typeof();
 void PulseTrigger__ctor_5_fn(PulseTrigger* __this);
+void PulseTrigger__AddHandlerImpl_fn(uType* __type, ::g::Fuse::Visual* visual, uDelegate* handler);
 void PulseTrigger__add_Handler_fn(PulseTrigger* __this, uDelegate* value);
 void PulseTrigger__remove_Handler_fn(PulseTrigger* __this, uDelegate* value);
 void PulseTrigger__Pulse1_fn(PulseTrigger* __this, ::g::Uno::EventArgs* args);
@@ -35,6 +38,7 @@ struct PulseTrigger : ::g::Fuse::Triggers::Trigger
     void add_Handler(uDelegate* value);
     void remove_Handler(uDelegate* value);
     void Pulse1(::g::Uno::EventArgs* args);
+    static void AddHandlerImpl(uType* __type, ::g::Fuse::Visual* visual, uDelegate* handler);
 };
 // }
 

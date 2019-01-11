@@ -10,7 +10,7 @@ namespace Uno{
 namespace Runtime{
 namespace InteropServices{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Runtime/InteropServices/GCHandle.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Runtime/InteropServices/GCHandle.uno
 // -------------------------------------------------------------------------------------------
 
 // public struct GCHandle :7
@@ -173,7 +173,7 @@ void* GCHandle__ToIntPtr(GCHandle handle)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Runtime/InteropServices/GCHandleType.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Runtime/InteropServices/GCHandleType.uno
 // -----------------------------------------------------------------------------------------------
 
 // public enum GCHandleType :6

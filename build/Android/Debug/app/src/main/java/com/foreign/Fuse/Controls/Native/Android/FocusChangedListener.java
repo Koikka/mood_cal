@@ -20,25 +20,25 @@ public class FocusChangedListener
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void ClearListener136(final Object viewHandle)
+    public static void ClearListener139(final Object viewHandle)
     {
         ((android.view.View)viewHandle).setOnFocusChangeListener(null);
     }
     
-    public static Object Create137(final UnoObject _this)
+    public static Object Create140(final UnoObject _this)
     {
         android.view.View.OnFocusChangeListener listener = new android.view.View.OnFocusChangeListener() {
         	public void onFocusChange(android.view.View view, boolean hasFocus) {
-        		ExternedBlockHost.callUno_Fuse_Controls_Native_Android_FocusChangedListener_OnFocusChange138((UnoObject)_this,(boolean)hasFocus);
+        		ExternedBlockHost.callUno_Fuse_Controls_Native_Android_FocusChangedListener_OnFocusChange141((UnoObject)_this,(boolean)hasFocus);
         	}
         };
         return listener;
     }
     
-    public static void SetListener139(final Object viewHandle,final Object listenerHandle)
+    public static void SetListener142(final Object viewHandle,final Object listenerHandle)
     {
         ((android.view.View)viewHandle).setOnFocusChangeListener(((android.view.View.OnFocusChangeListener)listenerHandle));
     }

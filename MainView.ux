@@ -790,7 +790,7 @@
 								<Panel Height="70" Margin="0,5" Background="#ffffff12">
 									<Grid RowCount="1" ColumnCount="2" Columns="5*,5*" Rows="1*" CellSpacing="0" Margin="0, 0">
 										<Panel>
-											<Text Alignment="CenterLeft" TextAlignment="Left" Value="Nukuin hyvin:" Padding="0, 0, 0, 0" Margin="20, 0, 0, 0" />
+											<Text Alignment="CenterLeft" TextAlignment="Left" Value="Heräilin yöllä:" Padding="0, 0, 0, 0" Margin="20, 0, 0, 0" />
 										</Panel>
 										<Panel>
 											<MySwitch>

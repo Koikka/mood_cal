@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.8.1/PageBinding.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/PageBinding.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -6,6 +6,7 @@
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Navigation.IPage-9039a314.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Uno.Collections.ICollection-1.h>
@@ -24,7 +25,7 @@ namespace Navigation{
 // {
 struct PageResourceBinding_type : ::g::Fuse::Node_type
 {
-    ::g::Fuse::Navigation::IPageResourceBinding interface6;
+    ::g::Fuse::Navigation::IPageResourceBinding interface7;
 };
 
 PageResourceBinding_type* PageResourceBinding_typeof();
@@ -44,7 +45,7 @@ void PageResourceBinding__UpdateSource_fn(PageResourceBinding* __this);
 
 struct PageResourceBinding : ::g::Fuse::Behavior
 {
-    uTField _default() { return __type->Field(this, 15); }
+    uTField _default() { return __type->Field(this, 17); }
     bool _hasDefault;
     uStrong<uObject*> _nav;
     uStrong< ::g::Fuse::Visual*> _currentPage;

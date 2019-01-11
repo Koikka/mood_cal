@@ -52,13 +52,15 @@ namespace Fuse{
 namespace Controls{
 namespace FallbackTextRenderer{
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/TextControls/FallbackTextRenderer/DefaultTextRenderer.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/DefaultTextRenderer.uno
 // ----------------------------------------------------------------------------------------------------------------------
 
 // internal sealed class DefaultTextRenderer :9
 // {
 static void DefaultTextRenderer_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::g::Uno::Float_typeof(), offsetof(DefaultTextRenderer, _fontSize), 0,
         ::g::Uno::Float_typeof(), offsetof(DefaultTextRenderer, _absoluteZoom), 0,
@@ -77,6 +79,7 @@ uType* DefaultTextRenderer_typeof()
 
     uTypeOptions options;
     options.FieldCount = 8;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(DefaultTextRenderer);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer", options);
@@ -312,7 +315,7 @@ DefaultTextRenderer* DefaultTextRenderer::New1(::g::Uno::Content::Fonts::FontFac
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/TextControls/FallbackTextRenderer/DefaultTextRenderer.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/DefaultTextRenderer.uno
 // ----------------------------------------------------------------------------------------------------------------------
 
 // private sealed class DefaultTextRenderer.FontKey :11
@@ -386,7 +389,7 @@ DefaultTextRenderer__FontKey* DefaultTextRenderer__FontKey::New1(::g::Uno::Conte
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/TextControls/FallbackTextRenderer/DefaultTextRenderer.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/DefaultTextRenderer.uno
 // ----------------------------------------------------------------------------------------------------------------------
 
 // internal sealed class ProperTextTransform :182
@@ -472,7 +475,7 @@ ProperTextTransform* ProperTextTransform::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/TextControls/FallbackTextRenderer/TextRenderer.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/TextRenderer.uno
 // ---------------------------------------------------------------------------------------------------------------
 
 // internal sealed class TextRenderer :10
@@ -491,6 +494,8 @@ static void TextRenderer_build(uType* type)
     ::TYPES[3] = ::g::Uno::Collections::List_typeof()->MakeType(::g::Fuse::Controls::FallbackTextRenderer::WrappedLine_typeof(), NULL);
     ::TYPES[4] = ::g::Uno::Runtime::Implementation::Internal::ArrayEnumerable_typeof()->MakeType(::g::Fuse::Controls::FallbackTextRenderer::WrappedLine_typeof(), NULL);
     ::TYPES[5] = ::g::Uno::UX::BundleFileSource_typeof();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetInterfaces(
         ::g::Fuse::Controls::ITextRenderer_typeof(), offsetof(TextRenderer_type, interface0));
     type->SetFields(0,
@@ -515,6 +520,7 @@ TextRenderer_type* TextRenderer_typeof()
     uTypeOptions options;
     options.FieldCount = 11;
     options.InterfaceCount = 1;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(TextRenderer);
     options.TypeSize = sizeof(TextRenderer_type);
     type = (TextRenderer_type*)uClassType::New("Fuse.Controls.FallbackTextRenderer.TextRenderer", options);
@@ -816,7 +822,7 @@ TextRenderer* TextRenderer::New1(::g::Fuse::Controls::TextControl* text)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/TextControls/FallbackTextRenderer/WordWrapInfo.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/WordWrapInfo.uno
 // ---------------------------------------------------------------------------------------------------------------
 
 // internal sealed class WordWrapInfo :5
@@ -825,6 +831,8 @@ static void WordWrapInfo_build(uType* type)
 {
     ::TYPES[6] = ::g::Uno::Bool_typeof();
     ::TYPES[7] = ::g::Uno::Float_typeof();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::g::Fuse::Controls::FallbackTextRenderer::DefaultTextRenderer_typeof(), offsetof(WordWrapInfo, TextRenderer), 0,
         ::TYPES[6/*bool*/], offsetof(WordWrapInfo, IsEnabled), 0,
@@ -842,6 +850,7 @@ uType* WordWrapInfo_typeof()
 
     uTypeOptions options;
     options.FieldCount = 7;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(WordWrapInfo);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Fuse.Controls.FallbackTextRenderer.WordWrapInfo", options);
@@ -907,7 +916,7 @@ WordWrapInfo* WordWrapInfo::New1(::g::Fuse::Controls::FallbackTextRenderer::Defa
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/TextControls/FallbackTextRenderer/WordWrapper.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/WordWrapper.uno
 // --------------------------------------------------------------------------------------------------------------
 
 // internal static class WordWrapper :28
@@ -1047,7 +1056,7 @@ uArray* WordWrapper::WrapLine(::g::Fuse::Controls::FallbackTextRenderer::WordWra
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/TextControls/FallbackTextRenderer/WordWrapper.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/WordWrapper.uno
 // --------------------------------------------------------------------------------------------------------------
 
 // internal sealed class WordWrapperWord :6
@@ -1109,7 +1118,7 @@ WordWrapperWord* WordWrapperWord::New1(uString* contents, uString* whitespace, i
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/TextControls/FallbackTextRenderer/WrappedLine.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/WrappedLine.uno
 // --------------------------------------------------------------------------------------------------------------
 
 // internal sealed class WrappedLine :6
@@ -1118,6 +1127,8 @@ static void WrappedLine_build(uType* type)
 {
     ::STRINGS[1] = uString::Const("unsupported enum-value");
     ::STRINGS[2] = uString::Const("textAlignment");
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::g::Uno::String_typeof(), offsetof(WrappedLine, Text), 0,
         ::g::Uno::Int_typeof(), offsetof(WrappedLine, LineTextStartOffset), 0,
@@ -1132,6 +1143,7 @@ uType* WrappedLine_typeof()
 
     uTypeOptions options;
     options.FieldCount = 4;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(WrappedLine);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Fuse.Controls.FallbackTextRenderer.WrappedLine", options);
@@ -1174,7 +1186,7 @@ float WrappedLine::GetXOffset(int32_t textAlignment, float boundsWidth, float ab
         case 0:
             return 0.0f;
         case 1:
-            return ::g::Uno::Math::Round2(((boundsWidth - LineWidth) / 2.0f) * absoluteZoom) / absoluteZoom;
+            return ::g::Uno::Math::Floor1((((boundsWidth - LineWidth) / 2.0f) * absoluteZoom) + 0.5f) / absoluteZoom;
         case 2:
             return boundsWidth - LineWidth;
     }

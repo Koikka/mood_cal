@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.8.1/Tapped.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Tapped.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once

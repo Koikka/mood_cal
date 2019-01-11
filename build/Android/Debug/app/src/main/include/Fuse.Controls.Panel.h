@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.8.1/Panel.Freeze.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Panel.Freeze.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,6 +9,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -39,7 +40,7 @@ namespace Controls{
 // {
 struct Panel_type : ::g::Fuse::Controls::Control_type
 {
-    ::g::Fuse::Drawing::ISurfaceDrawable interface17;
+    ::g::Fuse::Drawing::ISurfaceDrawable interface18;
 };
 
 Panel_type* Panel_typeof();

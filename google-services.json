@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "935485284549",
+    "firebase_url": "https://mood-cal-push.firebaseio.com",
+    "project_id": "mood-cal-push",
+    "storage_bucket": "mood-cal-push.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935485284549:android:5577e10297f109ae",
+        "android_client_info": {
+          "package_name": "fi.samk.mood_cal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935485284549-o4g0t7ug5c6o58uh3m2i9qrltfnqr39p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnQptzXj1MBTFz0nC8HMl3e290ekTWDMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/ToggleControls/ToggleControl.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/ToggleControls/ToggleControl.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,6 +10,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -31,16 +32,17 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public sealed class ToggleControl :35
+// public class ToggleControl :35
 // {
 struct ToggleControl_type : ::g::Fuse::Controls::Panel_type
 {
-    ::g::Fuse::Triggers::IValue interface18;
-    ::g::Fuse::Controls::Native::IToggleViewHost interface19;
-    ::g::Fuse::Triggers::Actions::IToggleable interface20;
+    ::g::Fuse::Triggers::IValue interface19;
+    ::g::Fuse::Controls::Native::IToggleViewHost interface20;
+    ::g::Fuse::Triggers::Actions::IToggleable interface21;
 };
 
 ToggleControl_type* ToggleControl_typeof();
+void ToggleControl__ctor_7_fn(ToggleControl* __this);
 void ToggleControl__FuseControlsNativeIToggleViewHostOnValueChanged_fn(ToggleControl* __this, bool* newValue);
 void ToggleControl__OnValueChanged_fn(ToggleControl* __this, bool* value, uObject* origin);
 void ToggleControl__PushPropertiesToNativeView_fn(ToggleControl* __this);
@@ -59,6 +61,7 @@ struct ToggleControl : ::g::Fuse::Controls::Panel
     bool _value;
     uStrong<uDelegate*> ValueChanged1;
 
+    void ctor_7();
     void OnValueChanged(bool value, uObject* origin);
     void SetValue(bool value, uObject* origin);
     void Toggle();

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/IO/Bundle.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Bundle.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -6,13 +6,12 @@
 namespace g{namespace Uno{namespace IO{struct Bundle;}}}
 namespace g{namespace Uno{namespace IO{struct BundleFile;}}}
 namespace g{namespace Uno{namespace IO{struct Stream;}}}
-namespace uBase { class Stream; }
 
 namespace g{
 namespace Uno{
 namespace IO{
 
-// public sealed class BundleFile :28
+// public sealed class BundleFile :26
 // {
 uType* BundleFile_typeof();
 void BundleFile__ctor__fn(BundleFile* __this, ::g::Uno::IO::Bundle* bundle, uString* sourcePath, uString* bundlePath);
@@ -22,7 +21,6 @@ void BundleFile__get_BundlePath_fn(BundleFile* __this, uString** __retval);
 void BundleFile__set_BundlePath_fn(BundleFile* __this, uString* value);
 void BundleFile__add_Changed_fn(BundleFile* __this, uDelegate* value);
 void BundleFile__remove_Changed_fn(BundleFile* __this, uDelegate* value);
-void BundleFile__CppXliOpenRead_fn(BundleFile* __this, uBase::Stream** __retval);
 void BundleFile__get_IsFile_fn(BundleFile* __this, bool* __retval);
 void BundleFile__set_IsFile_fn(BundleFile* __this, bool* value);
 void BundleFile__New1_fn(::g::Uno::IO::Bundle* bundle, uString* sourcePath, uString* bundlePath, BundleFile** __retval);
@@ -48,7 +46,6 @@ struct BundleFile : uObject
     void BundlePath(uString* value);
     void add_Changed(uDelegate* value);
     void remove_Changed(uDelegate* value);
-    uBase::Stream* CppXliOpenRead();
     bool IsFile();
     void IsFile(bool value);
     ::g::Uno::IO::Stream* OpenRead();

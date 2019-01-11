@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Effects/1.8.1/Mask.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/Mask.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,6 +7,7 @@
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.Internal.IImageC-c450902.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -28,7 +29,7 @@ namespace Effects{
 // {
 struct Mask_type : ::g::Fuse::Effects::BasicEffect_type
 {
-    ::g::Fuse::Internal::IImageContainerOwner interface6;
+    ::g::Fuse::Internal::IImageContainerOwner interface7;
 };
 
 Mask_type* Mask_typeof();

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.8.1/AspectBoxSizing.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/AspectBoxSizing.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,6 +8,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -49,11 +50,11 @@ namespace Elements{
 // {
 struct Element_type : ::g::Fuse::Visual_type
 {
-    ::g::Fuse::Triggers::Actions::IShow interface12;
-    ::g::Fuse::Triggers::Actions::IHide interface13;
-    ::g::Fuse::Triggers::Actions::ICollapse interface14;
-    ::g::Fuse::IActualPlacement interface15;
-    ::g::Fuse::Animations::IResize interface16;
+    ::g::Fuse::Triggers::Actions::IShow interface13;
+    ::g::Fuse::Triggers::Actions::IHide interface14;
+    ::g::Fuse::Triggers::Actions::ICollapse interface15;
+    ::g::Fuse::IActualPlacement interface16;
+    ::g::Fuse::Animations::IResize interface17;
     void(*fp_ArrangePaddingBox)(::g::Fuse::Elements::Element*, ::g::Fuse::LayoutParams*);
     void(*fp_CalcRenderBounds)(::g::Fuse::Elements::Element*, ::g::Fuse::VisualBounds**);
     void(*fp_DrawWithChildren)(::g::Fuse::Elements::Element*, ::g::Fuse::DrawContext*);

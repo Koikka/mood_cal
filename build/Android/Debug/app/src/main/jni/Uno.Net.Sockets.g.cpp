@@ -28,7 +28,7 @@ namespace Uno{
 namespace Net{
 namespace Sockets{
 
-// /usr/local/share/uno/Packages/Uno.Net.Sockets/1.8.0/NetworkStream.uno
+// /usr/local/share/uno/Packages/Uno.Net.Sockets/1.9.0/NetworkStream.uno
 // ---------------------------------------------------------------------
 
 // public sealed class NetworkStream :10
@@ -94,7 +94,7 @@ void NetworkStream__Write_fn(NetworkStream* __this, uArray* src, int32_t* byteOf
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Sockets/1.8.0/Socket.uno
+// /usr/local/share/uno/Packages/Uno.Net.Sockets/1.9.0/Socket.uno
 // --------------------------------------------------------------
 
 // public sealed class Socket :263
@@ -201,7 +201,7 @@ int32_t Socket::Send1(uArray* buffer, int32_t offset, int32_t length, int32_t fl
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Sockets/1.8.0/Socket.uno
+// /usr/local/share/uno/Packages/Uno.Net.Sockets/1.9.0/Socket.uno
 // --------------------------------------------------------------
 
 // public sealed class SocketException :567
@@ -253,7 +253,7 @@ SocketException* SocketException::New4(uString* message)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Net.Sockets/1.8.0/Socket.uno
+// /usr/local/share/uno/Packages/Uno.Net.Sockets/1.9.0/Socket.uno
 // --------------------------------------------------------------
 
 // public enum SocketFlags :45
@@ -268,7 +268,7 @@ uEnumType* SocketFlags_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Uno.Net.Sockets/1.8.0/Socket.uno
+// /usr/local/share/uno/Packages/Uno.Net.Sockets/1.9.0/Socket.uno
 // --------------------------------------------------------------
 
 // internal extern struct Socket.SocketHandle :270

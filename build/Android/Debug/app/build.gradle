@@ -11,6 +11,9 @@ dependencies {
     compile 'com.android.support:design:23.4.0'
 //#if #(Gradle.Dependency.Compile:IsRequired)
     compile 'com.drewnoakes:metadata-extractor:2.10.1'
+compile 'com.google.firebase:firebase-database:12.0.1'
+compile 'com.google.firebase:firebase-messaging:12.0.1'
+compile 'com.google.firebase:firebase-core:12.0.1'
 //#endif
 //#if #(Gradle.Dependency:IsRequired)
 //    #(Gradle.Dependency:Join('\n'))
@@ -24,7 +27,7 @@ task copySharedLibraries {
         into file('src/main/jniLibs/armeabi-v7a')
     }
     copy {
-        from '/usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.8.1/V8/lib/Android/libV8Simple.so'
+        from '/usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/lib/Android/libV8Simple.so'
         into file('src/main/jniLibs/armeabi-v7a')
     }
 }
@@ -59,17 +62,17 @@ android.lintOptions {
 }
 
 android {
-    compileSdkVersion = 23
-    buildToolsVersion = "25.0.2"
+    compileSdkVersion = 27
+    buildToolsVersion = "27.0.0"
 
     defaultConfig {
 //#if !#(LIBRARY:Defined)
-        applicationId = "com.apps.mood_calendar"
+        applicationId = "fi.samk.mood_cal"
 //#endif
-        minSdkVersion = 16
-        targetSdkVersion = 23
-        versionCode = 0
-        versionName = "0.0.0"
+        minSdkVersion = 19
+        targetSdkVersion = 27
+        versionCode = 101
+        versionName = "1.0.1"
         ndk {
             abiFilters = []
             abiFilters.add("armeabi-v7a")
@@ -99,14 +102,14 @@ android {
     }
 
 //#if #(Project.Android.Key.Store:IsSet)
-//    signingConfigs {
-//        release {
-//            keyAlias "#(Project.Android.Key.Alias)"
-//            keyPassword "#(Project.Android.Key.AliasPassword)"
-//            storeFile file("#(Project.Android.Key.Store:Path)")
-//            storePassword "#(Project.Android.Key.StorePassword)"
-//        }
-//    }
+    signingConfigs {
+        release {
+            keyAlias "application"
+            keyPassword "mood_cal"
+            storeFile file("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/release.keystore")
+            storePassword "mood_cal"
+        }
+    }
 //#endif
 
     buildTypes {
@@ -126,4 +129,4 @@ android {
     }
 }
 
-
+apply plugin: 'com.google.gms.google-services'

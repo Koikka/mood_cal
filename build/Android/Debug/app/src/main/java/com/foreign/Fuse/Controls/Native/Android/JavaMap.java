@@ -24,36 +24,36 @@ public class JavaMap
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static boolean ContainsKey1156(final Object handle,final Object key)
+    public static boolean ContainsKey1159(final Object handle,final Object key)
     {
         @SuppressWarnings("unchecked")
         Map<Object, Object> map = (Map<Object, Object>)handle;
         return map.containsKey(key);
     }
     
-    public static Object Create157()
+    public static Object Create160()
     {
         return new HashMap<Object, Object>();
     }
     
-    public static Object Get1158(final Object handle,final Object key)
+    public static Object Get1161(final Object handle,final Object key)
     {
         @SuppressWarnings("unchecked")
         Map<Object, Object> map = (Map<Object, Object>)handle;
         return map.get(key);
     }
     
-    public static void Put159(final Object handle,final Object key,final UnoObject value)
+    public static void Put162(final Object handle,final Object key,final UnoObject value)
     {
         @SuppressWarnings("unchecked")
         Map<Object, Object> map = (Map<Object, Object>)handle;
         map.put(key, value);
     }
     
-    public static void Remove1160(final Object handle,final Object key)
+    public static void Remove1163(final Object handle,final Object key)
     {
         @SuppressWarnings("unchecked")
         Map<Object, Object> map = (Map<Object, Object>)handle;

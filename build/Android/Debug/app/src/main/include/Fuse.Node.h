@@ -1,10 +1,11 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Node.Bindings.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Node.Bindings.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -30,8 +31,9 @@ struct Node_type : uType
     ::g::Fuse::Scripting::IScriptObject interface1;
     ::g::Fuse::IProperties interface2;
     ::g::Fuse::INotifyUnrooted interface3;
-    ::g::Uno::Collections::ICollection interface4;
-    ::g::Uno::Collections::IEnumerable interface5;
+    ::g::Fuse::ISourceLocation interface4;
+    ::g::Uno::Collections::ICollection interface5;
+    ::g::Uno::Collections::IEnumerable interface6;
     void(*fp_GetLastNodeInGroup)(::g::Fuse::Node*, ::g::Fuse::Node**);
     void(*fp_OnRooted)(::g::Fuse::Node*);
     void(*fp_OnUnrooted)(::g::Fuse::Node*);
@@ -60,6 +62,7 @@ void Node__FindByType_fn(Node* __this, uType* __type, uObject** __retval);
 void Node__FindNodeByName_fn(Node* __this, ::g::Uno::UX::Selector* name, uDelegate* acceptor, Node** __retval);
 void Node__FuseINotifyUnrootedadd_Unrooted_fn(Node* __this, uDelegate* value);
 void Node__FuseINotifyUnrootedremove_Unrooted_fn(Node* __this, uDelegate* value);
+void Node__FuseISourceLocationget_SourceNearest_fn(Node* __this, uObject** __retval);
 void Node__FuseScriptingIScriptObjectget_ScriptContext_fn(Node* __this, ::g::Fuse::Scripting::Context** __retval);
 void Node__FuseScriptingIScriptObjectget_ScriptObject_fn(Node* __this, uObject** __retval);
 void Node__FuseScriptingIScriptObjectSetScriptObject_fn(Node* __this, uObject* obj, ::g::Fuse::Scripting::Context* context);
@@ -97,6 +100,10 @@ void Node__remove_RootingCompleted_fn(Node* __this, uDelegate* value);
 void Node__RootInternal_fn(Node* __this, ::g::Fuse::Visual* parent);
 void Node__RootInternalImpl_fn(Node* __this, ::g::Fuse::Visual* parent);
 void Node__SoftDispose_fn(Node* __this);
+void Node__get_SourceFileName_fn(Node* __this, uString** __retval);
+void Node__set_SourceFileName_fn(Node* __this, uString* value);
+void Node__get_SourceLineNumber_fn(Node* __this, int32_t* __retval);
+void Node__set_SourceLineNumber_fn(Node* __this, int32_t* value);
 void Node__SubscribeData_fn(Node* __this, uString* key, uObject* listener, Node__NodeDataSubscription** __retval);
 void Node__SubscribePrimeDataContext_fn(Node* __this, uObject* listener, Node__NodeDataSubscription** __retval);
 void Node__ToString_fn(Node* __this, uString** __retval);
@@ -140,6 +147,8 @@ struct Node : ::g::Uno::UX::PropertyObject
     uStrong<Node*> _nextSibling;
     int32_t _parentID;
     void* _previousSibling;
+    uStrong<uString*> _SourceFileName;
+    int32_t _SourceLineNumber;
     uStrong<uDelegate*> RootingCompleted1;
     uStrong<uDelegate*> Unrooted1;
 
@@ -186,6 +195,10 @@ struct Node : ::g::Uno::UX::PropertyObject
     void RootInternal(::g::Fuse::Visual* parent);
     void RootInternalImpl(::g::Fuse::Visual* parent);
     void SoftDispose() { (((Node_type*)__type)->fp_SoftDispose)(this); }
+    uString* SourceFileName();
+    void SourceFileName(uString* value);
+    int32_t SourceLineNumber();
+    void SourceLineNumber(int32_t value);
     Node__NodeDataSubscription* SubscribeData(uString* key, uObject* listener);
     Node__NodeDataSubscription* SubscribePrimeDataContext(uObject* listener);
     bool TryFindData(int32_t type, uString* key, uObject** result, uObject** provider);

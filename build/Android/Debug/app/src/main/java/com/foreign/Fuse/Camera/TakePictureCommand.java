@@ -26,10 +26,10 @@ public class TakePictureCommand
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object CreateImage420()
+    public static Object CreateImage423()
     {
         try {
         	return Image.create();
@@ -39,7 +39,7 @@ public class TakePictureCommand
         }
     }
     
-    public static Object CreateIntent421(final Object photo)
+    public static Object CreateIntent424(final Object photo)
     {
         Image p = (Image)photo;
         try {

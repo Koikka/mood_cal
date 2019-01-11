@@ -22,7 +22,7 @@ static uType* TYPES[3];
 namespace g{
 namespace Android{
 
-// /usr/local/share/uno/Packages/Android.ActivityUtils/1.8.1/ActivityUtils.uno
+// /usr/local/share/uno/Packages/Android.ActivityUtils/1.9.0/ActivityUtils.uno
 // ---------------------------------------------------------------------------
 
 // public extern delegate void ActivityResultCallback(int resultCode, Java.Object intent, object info) :9
@@ -39,7 +39,7 @@ uDelegateType* ActivityResultCallback_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Android.ActivityUtils/1.8.1/ActivityUtils.uno
+// /usr/local/share/uno/Packages/Android.ActivityUtils/1.9.0/ActivityUtils.uno
 // ---------------------------------------------------------------------------
 
 // public static extern class ActivityUtils :13
@@ -131,7 +131,7 @@ uSStrong<uDelegate*> ActivityUtils::Results1_;
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Init69", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Init72", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         ::g::Android::Base::JNI::CheckException();
@@ -184,7 +184,7 @@ void ActivityUtils::StartForResultJava(int32_t id, ::g::Java::Object* _intent)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "StartForResultJava72", "(ILjava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "StartForResultJava75", "(ILjava/lang/Object;)V");
         int32_t __uid=id;
         jint __id = (jint)__uid;
         ::g::Java::Object* __u_intent=_intent;
@@ -214,7 +214,7 @@ void ActivityUtils::remove_Results(uDelegate* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Bootstrapper.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Bootstrapper.uno
 // -------------------------------------------------------------------------------------
 
 // internal static extern class Bootstrapper :9

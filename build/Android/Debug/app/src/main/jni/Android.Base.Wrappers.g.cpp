@@ -80,7 +80,7 @@ namespace Android{
 namespace Base{
 namespace Wrappers{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Wrappers.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Wrappers.uno
 // ---------------------------------------------------------------------------------
 
 // public abstract extern interface IJWrapper :20
@@ -95,7 +95,7 @@ uInterfaceType* IJWrapper_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Wrappers.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Wrappers.uno
 // ---------------------------------------------------------------------------------
 
 // public static extern class JavaObjectHelper :139
@@ -150,7 +150,7 @@ uObject* JavaObjectHelper::JObjectToJWrapper(jobject tmpRes, bool stackArg)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Wrappers.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Wrappers.uno
 // ---------------------------------------------------------------------------------
 
 // public extern class JWrapper :27
@@ -278,8 +278,8 @@ void JWrapper::ctor_2(jobject obj, uType* typePtr, bool typeHasFallbackClass, bo
 void JWrapper::_DisposeJavaObject()
 {
     if (!this->_javaObject) return;
-    ::g::Android::Base::JNI::DeleteGlobalRef(this->_javaObject);
-    this->_javaObject = 0;
+                         ::g::Android::Base::JNI::DeleteGlobalRef(this->_javaObject);
+                         this->_javaObject = 0;
 }
 
 // public Android.Base.Primitives.ujobject _GetJavaObject() [instance] :87

@@ -11,6 +11,7 @@
 #include <Uno.Object.h>
 #include <Uno.Permissions.Inter-b7b0d7de.h>
 #include <Uno.Permissions.IPerm-63840be1.h>
+#include <Uno.Permissions.Permi-9446e9a2.h>
 #include <Uno.Permissions.Permi-d35d5681.h>
 #include <Uno.Permissions.Permi-e850e8ab.h>
 #include <Uno.Permissions.Permissions.h>
@@ -24,7 +25,7 @@ namespace g{
 namespace Uno{
 namespace Permissions{
 
-// /usr/local/share/uno/Packages/Uno.Permissions/1.8.0/Permissions.uno
+// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/Permissions.uno
 // -------------------------------------------------------------------
 
 // public static extern class Permissions.Android :120
@@ -57,6 +58,12 @@ void Permissions__Android__get_READ_EXTERNAL_STORAGE_fn(::g::Uno::Permissions::P
     *__retval = Permissions__Android::READ_EXTERNAL_STORAGE();
 }
 
+// public static Uno.Permissions.PlatformPermission get_READ_PHONE_STATE() :215
+void Permissions__Android__get_READ_PHONE_STATE_fn(::g::Uno::Permissions::PlatformPermission* __retval)
+{
+    *__retval = Permissions__Android::READ_PHONE_STATE();
+}
+
 // public static Uno.Permissions.PlatformPermission get_WRITE_EXTERNAL_STORAGE() :262
 void Permissions__Android__get_WRITE_EXTERNAL_STORAGE_fn(::g::Uno::Permissions::PlatformPermission* __retval)
 {
@@ -75,6 +82,12 @@ void Permissions__Android__get_WRITE_EXTERNAL_STORAGE_fn(::g::Uno::Permissions::
     return ::g::Uno::Permissions::Internal::Android::_read_external_storage();
 }
 
+// public static Uno.Permissions.PlatformPermission get_READ_PHONE_STATE() [static] :215
+::g::Uno::Permissions::PlatformPermission Permissions__Android::READ_PHONE_STATE()
+{
+    return ::g::Uno::Permissions::Internal::Android::_read_phone_state();
+}
+
 // public static Uno.Permissions.PlatformPermission get_WRITE_EXTERNAL_STORAGE() [static] :262
 ::g::Uno::Permissions::PlatformPermission Permissions__Android::WRITE_EXTERNAL_STORAGE()
 {
@@ -82,7 +95,7 @@ void Permissions__Android__get_WRITE_EXTERNAL_STORAGE_fn(::g::Uno::Permissions::
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Permissions/1.8.0/Permissions.uno
+// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/Permissions.uno
 // -------------------------------------------------------------------
 
 // internal abstract interface IPermissionPromise :19
@@ -97,7 +110,81 @@ uInterfaceType* IPermissionPromise_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Permissions/1.8.0/Permissions.uno
+// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/Permissions.uno
+// -------------------------------------------------------------------
+
+// internal sealed class PermissionPromise :25
+// {
+static void PermissionPromise_build(uType* type)
+{
+    type->SetBase(::g::Uno::Threading::Promise_typeof()->MakeType(::g::Uno::Permissions::PlatformPermission_typeof(), NULL));
+    type->SetInterfaces(
+        ::g::Uno::IDisposable_typeof(), offsetof(PermissionPromise_type, interface0),
+        ::g::Uno::Permissions::IPermissionPromise_typeof(), offsetof(PermissionPromise_type, interface1));
+    type->SetFields(9,
+        ::g::Uno::Permissions::PlatformPermission_typeof(), offsetof(PermissionPromise, _permission), 0);
+}
+
+PermissionPromise_type* PermissionPromise_typeof()
+{
+    static uSStrong<PermissionPromise_type*> type;
+    if (type != NULL) return type;
+
+    uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::Threading::Promise_typeof();
+    options.FieldCount = 10;
+    options.InterfaceCount = 2;
+    options.ObjectSize = sizeof(PermissionPromise);
+    options.TypeSize = sizeof(PermissionPromise_type);
+    type = (PermissionPromise_type*)uClassType::New("Uno.Permissions.PermissionPromise", options);
+    type->fp_build_ = PermissionPromise_build;
+    type->interface1.fp_Resolve = (void(*)(uObject*))PermissionPromise__Resolve1_fn;
+    type->interface1.fp_Reject = (void(*)(uObject*, ::g::Uno::Exception*))::g::Uno::Threading::Promise__Reject_fn;
+    type->interface0.fp_Dispose = (void(*)(uObject*))::g::Uno::Threading::Future1__Dispose_fn;
+    return type;
+}
+
+// public PermissionPromise(Uno.Permissions.PlatformPermission p) :28
+void PermissionPromise__ctor_7_fn(PermissionPromise* __this, ::g::Uno::Permissions::PlatformPermission* p)
+{
+    __this->ctor_7(*p);
+}
+
+// public PermissionPromise New(Uno.Permissions.PlatformPermission p) :28
+void PermissionPromise__New5_fn(::g::Uno::Permissions::PlatformPermission* p, PermissionPromise** __retval)
+{
+    *__retval = PermissionPromise::New5(*p);
+}
+
+// public void Resolve() :33
+void PermissionPromise__Resolve1_fn(PermissionPromise* __this)
+{
+    __this->Resolve1();
+}
+
+// public PermissionPromise(Uno.Permissions.PlatformPermission p) [instance] :28
+void PermissionPromise::ctor_7(::g::Uno::Permissions::PlatformPermission p)
+{
+    ctor_3();
+    _permission = p;
+}
+
+// public void Resolve() [instance] :33
+void PermissionPromise::Resolve1()
+{
+    ::g::Uno::Threading::Promise__Resolve_fn(this, uCRef(_permission));
+}
+
+// public PermissionPromise New(Uno.Permissions.PlatformPermission p) [static] :28
+PermissionPromise* PermissionPromise::New5(::g::Uno::Permissions::PlatformPermission p)
+{
+    PermissionPromise* obj1 = (PermissionPromise*)uNew(PermissionPromise_typeof());
+    obj1->ctor_7(p);
+    return obj1;
+}
+// }
+
+// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/Permissions.uno
 // -------------------------------------------------------------------
 
 // public static extern class Permissions :53
@@ -124,10 +211,22 @@ void Permissions__Failed_fn(uObject* promise)
     Permissions::Failed(promise);
 }
 
+// public static Uno.Threading.Future<Uno.Permissions.PlatformPermission> Request(Uno.Permissions.PlatformPermission x) :67
+void Permissions__Request_fn(::g::Uno::Permissions::PlatformPermission* x, ::g::Uno::Threading::Future1** __retval)
+{
+    *__retval = Permissions::Request(*x);
+}
+
 // public static Uno.Threading.Future<Uno.Permissions.PlatformPermission[]> Request(Uno.Permissions.PlatformPermission[] x) :74
 void Permissions__Request1_fn(uArray* x, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = Permissions::Request1(x);
+}
+
+// private static void requestPermission(Uno.Threading.Promise<Uno.Permissions.PlatformPermission> promise, string permissionName) :87
+void Permissions__requestPermission_fn(::g::Uno::Threading::Promise* promise, uString* permissionName)
+{
+    Permissions::requestPermission(promise, permissionName);
 }
 
 // private static void requestPermissions(Uno.Threading.Promise<Uno.Permissions.PlatformPermission[]> promise, string[] permissionNames) :93
@@ -148,6 +247,14 @@ void Permissions::Failed(uObject* promise)
     ::g::Uno::Permissions::IPermissionPromise::Reject(uInterface(uPtr((uObject*)promise), ::g::Uno::Permissions::IPermissionPromise_typeof()), ::g::Uno::Exception::New2(uString::Const("Permissions could not be requested or granted.")));
 }
 
+// public static Uno.Threading.Future<Uno.Permissions.PlatformPermission> Request(Uno.Permissions.PlatformPermission x) [static] :67
+::g::Uno::Threading::Future1* Permissions::Request(::g::Uno::Permissions::PlatformPermission x)
+{
+    ::g::Uno::Permissions::PermissionPromise* futurePermission = ::g::Uno::Permissions::PermissionPromise::New5(x);
+    Permissions::requestPermission(futurePermission, x.Name);
+    return futurePermission;
+}
+
 // public static Uno.Threading.Future<Uno.Permissions.PlatformPermission[]> Request(Uno.Permissions.PlatformPermission[] x) [static] :74
 ::g::Uno::Threading::Future1* Permissions::Request1(uArray* x)
 {
@@ -161,13 +268,34 @@ void Permissions::Failed(uObject* promise)
     return futurePermission;
 }
 
+// private static void requestPermission(Uno.Threading.Promise<Uno.Permissions.PlatformPermission> promise, string permissionName) [static] :87
+void Permissions::requestPermission(::g::Uno::Threading::Promise* promise, uString* permissionName)
+{
+    {
+        INIT_JNI;
+        jclass __cls = JniHelper::GetNativeExternClass();
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "requestPermission64", "(Lcom/uno/UnoObject;Ljava/lang/String;)V");
+        ::g::Uno::Threading::Promise* _upromise=promise;
+        jobject _promise = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_upromise);
+        uString* _upermissionName=permissionName;
+        jstring _permissionName = JniHelper::UnoToJavaString(_upermissionName);
+        U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_promise,_permissionName);
+        
+        if (_promise!=NULL) { U_JNIVAR->DeleteLocalRef(_promise); }
+        if (_permissionName!=NULL) { U_JNIVAR->DeleteLocalRef(_permissionName); }
+        ::g::Android::Base::JNI::CheckException();
+        
+    }
+    
+}
+
 // private static void requestPermissions(Uno.Threading.Promise<Uno.Permissions.PlatformPermission[]> promise, string[] permissionNames) [static] :93
 void Permissions::requestPermissions(::g::Uno::Threading::Promise* promise, uArray* permissionNames)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "requestPermissions62", "(Lcom/uno/UnoObject;Lcom/uno/StringArray;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "requestPermissions65", "(Lcom/uno/UnoObject;Lcom/uno/StringArray;)V");
         ::g::Uno::Threading::Promise* _upromise=promise;
         jobject _promise = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_upromise);
         uArray* _upermissionNames=permissionNames;
@@ -189,7 +317,7 @@ void Permissions::Succeeded(uObject* promise)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Permissions/1.8.0/Permissions.uno
+// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/Permissions.uno
 // -------------------------------------------------------------------
 
 // internal sealed class PermissionsPromise :39
@@ -263,7 +391,7 @@ PermissionsPromise* PermissionsPromise::New5(uArray* permissions)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Permissions/1.8.0/Permissions.uno
+// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/Permissions.uno
 // -------------------------------------------------------------------
 
 // public struct PlatformPermission :9

@@ -20,15 +20,15 @@ public class UnifiedPaths
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static String GetCacheDirectory409()
+    public static String GetCacheDirectory412()
     {
         return com.fuse.Activity.getRootActivity().getExternalCacheDir().getAbsolutePath();
     }
     
-    public static String GetDataDirectory410()
+    public static String GetDataDirectory413()
     {
         return com.fuse.Activity.getRootActivity().getFilesDir().getAbsolutePath();
     }

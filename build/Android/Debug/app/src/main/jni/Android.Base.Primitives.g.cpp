@@ -29,7 +29,7 @@ namespace Android{
 namespace Base{
 namespace Primitives{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct ConstCharPtr :9
@@ -53,7 +53,7 @@ uStructType* ConstCharPtr_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct JavaVMPtr :12
@@ -77,7 +77,7 @@ uStructType* JavaVMPtr_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct jfieldID :144
@@ -101,7 +101,7 @@ uStructType* jfieldID_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct jmethodID :139
@@ -125,7 +125,7 @@ uStructType* jmethodID_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct JNIEnvPtr :15
@@ -149,7 +149,7 @@ uStructType* JNIEnvPtr_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct JNINativeMethod :136
@@ -173,7 +173,7 @@ uStructType* JNINativeMethod_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct jweak :18
@@ -197,7 +197,7 @@ uStructType* jweak_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct ujboolean :24
@@ -221,7 +221,7 @@ uStructType* ujboolean_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct ujbyte :38
@@ -245,7 +245,7 @@ uStructType* ujbyte_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct ujchar :52
@@ -269,7 +269,7 @@ uStructType* ujchar_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct ujclass :147
@@ -307,7 +307,7 @@ void ujclass__op_Equality_fn(jclass* lhs, jclass* rhs, bool* __retval)
 // public static operator ==(Android.Base.Primitives.ujclass lhs, Android.Base.Primitives.ujclass rhs) [static] :154
 bool ujclass::op_Equality(jclass lhs, jclass rhs)
 {
-    return ::g::Android::Base::JNI::IsSameObject(::g::Android::Base::Primitives::ujobject::op_Implicit(lhs), ::g::Android::Base::Primitives::ujobject::op_Implicit(rhs));
+    return ::g::Android::Base::JNI::IsSameObject(::g::Android::Base::Primitives::ujobject::op_Implicit1(lhs), ::g::Android::Base::Primitives::ujobject::op_Implicit1(rhs));
 }
 
 // public static Android.Base.Primitives.ujclass get_Null() [static] :151
@@ -317,7 +317,7 @@ jclass ujclass::Null()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct ujdouble :122
@@ -341,7 +341,7 @@ uStructType* ujdouble_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct ujfloat :108
@@ -365,7 +365,7 @@ uStructType* ujfloat_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct ujint :80
@@ -389,7 +389,7 @@ uStructType* ujint_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct ujlong :94
@@ -413,7 +413,7 @@ uStructType* ujlong_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct ujobject :175
@@ -449,15 +449,15 @@ void ujobject__op_Equality_fn(jobject* lhs, jobject* rhs, bool* __retval)
 }
 
 // public static implicit operator Android.Base.Primitives.ujobject(Android.Base.Primitives.ujclass v) :182
-void ujobject__op_Implicit_fn(jclass* v, jobject* __retval)
+void ujobject__op_Implicit1_fn(jclass* v, jobject* __retval)
 {
-    *__retval = ujobject::op_Implicit(*v);
+    *__retval = ujobject::op_Implicit1(*v);
 }
 
 // public static implicit operator Android.Base.Primitives.ujclass(Android.Base.Primitives.ujobject v) :187
-void ujobject__op_Implicit1_fn(jobject* v, jclass* __retval)
+void ujobject__op_Implicit2_fn(jobject* v, jclass* __retval)
 {
-    *__retval = ujobject::op_Implicit1(*v);
+    *__retval = ujobject::op_Implicit2(*v);
 }
 
 // public static operator !=(Android.Base.Primitives.ujobject lhs, Android.Base.Primitives.ujobject rhs) :207
@@ -473,13 +473,13 @@ bool ujobject::op_Equality(jobject lhs, jobject rhs)
 }
 
 // public static implicit operator Android.Base.Primitives.ujobject(Android.Base.Primitives.ujclass v) [static] :182
-jobject ujobject::op_Implicit(jclass v)
+jobject ujobject::op_Implicit1(jclass v)
 {
     return (jobject)v;
 }
 
 // public static implicit operator Android.Base.Primitives.ujclass(Android.Base.Primitives.ujobject v) [static] :187
-jclass ujobject::op_Implicit1(jobject v)
+jclass ujobject::op_Implicit2(jobject v)
 {
     return (jclass)v;
 }
@@ -497,7 +497,7 @@ jobject ujobject::Null()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct ujshort :66
@@ -521,7 +521,7 @@ uStructType* ujshort_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct ujstring :166
@@ -545,7 +545,7 @@ uStructType* ujstring_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct ujvalue :215
@@ -569,7 +569,7 @@ uStructType* ujvalue_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Primitives.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
 // -----------------------------------------------------------------------------------
 
 // public extern struct uweakptr :21

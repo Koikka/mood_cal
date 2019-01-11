@@ -3,102 +3,246 @@
 
     <item
         is-multidex="false"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_34da3bbd57e342a7f213ac1dd2e78f1a33eb0a45.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/anttikoivisto/.gradle/caches/modules-2/files-2.1/com.adobe.xmp/xmpcore/5.1.3/57e70c3b10ff269fff9adfa7a31d61af0df30757/xmpcore-5.1.3.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
+        revision="27.0.0"
         sha1="57e70c3b10ff269fff9adfa7a31d61af0df30757">
         <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/xmpcore-5.1.3_85270ed8426fa2d2fdf15b1571e0627ec34ff65e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/anttikoivisto/.gradle/caches/modules-2/files-2.1/com.drewnoakes/metadata-extractor/2.10.1/e1852a8f519dbb0196fdb41bf2c584a8858189f8/metadata-extractor-2.10.1.jar"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/12.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="e1852a8f519dbb0196fdb41bf2c584a8858189f8">
-        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/metadata-extractor-2.10.1_9cac0441cc796cfd7c1581d7706ead7d9ee7cbb6.jar" />
+        revision="27.0.0"
+        sha1="071364c6fcb3772aef9209b9db621c61a0686197">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-12.0.1_dcc056e580a9c6d1aa348b7b8fd290fb51db8dc8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/src/main/libs/nv-websocket-client.jar"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="2e2859df4b1c217c768c1b4a23f54ef66af50140">
-        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/nv-websocket-client_1429d54af1079e6f32beff7f05e4822b2065fb61.jar" />
+        revision="27.0.0"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.1.0_eba1e26760c24d4c0744fc5607cfde5738d3adf6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_858f6e33edae0c4c99e3df06d00bb3ec0eb9135e.jar" />
+        revision="27.0.0"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.1.0_b6d1aad1233feb87c5530ca6a934b8013e080c61.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/12.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_577011fd0463a1e2161399f49d5e66025e0b58dc.jar" />
+        revision="27.0.0"
+        sha1="22569eca3029ab00583c332a2be220cdbf091b35">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-12.0.1_8084c7337a9982228904f9423d0e4ebc8159780c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/12.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="e1086213a85bf2bfc3f6448d66581198ba380f69">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-12.0.1_b1b0b605482ad4f7a52d8e1d78dfcc24105d215c.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
+        revision="27.0.0"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
         <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_4facd07a2b0f5fbaf32c7b9540237e951e51c984.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/12.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_34da3bbd57e342a7f213ac1dd2e78f1a33eb0a45.jar" />
+        revision="27.0.0"
+        sha1="b739661c7142579d33f42801cfb71882cd217727">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-12.0.1_931d54ac7513102a3dd9528beeee4e0a9a5aa0f9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/anttikoivisto/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jar="/Users/anttikoivisto/.gradle/caches/modules-2/files-2.1/com.drewnoakes/metadata-extractor/2.10.1/e1852a8f519dbb0196fdb41bf2c584a8858189f8/metadata-extractor-2.10.1.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_57a431611b95ac9aaedcb80a08ade26715d4db39.jar" />
+        revision="27.0.0"
+        sha1="e1852a8f519dbb0196fdb41bf2c584a8858189f8">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/metadata-extractor-2.10.1_9cac0441cc796cfd7c1581d7706ead7d9ee7cbb6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/12.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_7c38016f84124eb5efe264ee272e59e998196c52.jar" />
+        revision="27.0.0"
+        sha1="410ecd974ba7008f743e611ea7fe749321517231">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-12.0.1_81496dba7b74bb4c0a7d49dc3cc0fdad11627f3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_858f6e33edae0c4c99e3df06d00bb3ec0eb9135e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/12.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="43777ad2c3f87b64ced35a875ce2befa178a23da">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-12.0.1_619f075a85699f81c37ea3f330932a65de2903a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/common-1.0.0_c5563a87a843aed181c87a0ef83a6e0dcaa2a690.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/12.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="a38a8974c8d066800237d22a86df2e88cb9e065c">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-12.0.1_7b1e01430beaced8701a1716744892ba3be87d81.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
+        revision="27.0.0"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
         <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_6046ed454ad0b9963db1d8586de805114efeeb21.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/src/main/libs/nv-websocket-client.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_f178c5a6cc0623401bc8ae54144eae00158d34a2.jar" />
+        revision="27.0.0"
+        sha1="2e2859df4b1c217c768c1b4a23f54ef66af50140">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/nv-websocket-client_1429d54af1079e6f32beff7f05e4822b2065fb61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/12.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="d8ec04dc91c0c90a0ceeca77c94c8b15cb7f3892">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-12.0.1_3aefbbf23c53abaff4128b2c881dd69b7ebce3b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.1.0_6a539aeab6ffb7718d03c9385500fbde3a2ae01f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.1.0_6b1a61f5ad2a680051179fe2ba63be873a9d2e5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/12.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="4c9dde3866f60967d73035b3445bb0f703429612">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-12.0.1_90d977b84e32b306e6e0b2816b306c4b877d61a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.0.0_95da756e1afad90944d20a28fe3dc043fbed5f74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.1.0_c5888e85ee29919a4777a12165ecf112c71de4bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_7c38016f84124eb5efe264ee272e59e998196c52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.1.0_c0ad19bda4fe85b7eb1066074af53ca5cbd207e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/common-1.0.0_8fdab32f0889cc629ee54624a737130ddbeef0fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/anttikoivisto/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_af7bd189cff74151001030421628989bf0b15921.jar" />
     </item>
 
 </items>

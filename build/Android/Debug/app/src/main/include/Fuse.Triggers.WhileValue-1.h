@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.8.1/WhileValue.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileValue.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,6 +7,7 @@
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.IPulseTrigger.h>
 #include <Fuse.Triggers.WhileTrigger.h>
@@ -25,7 +26,7 @@ namespace Triggers{
 // {
 struct WhileValue_type : ::g::Fuse::Triggers::Trigger_type
 {
-    ::g::Fuse::Triggers::IPulseTrigger interface8;
+    ::g::Fuse::Triggers::IPulseTrigger interface9;
     void(*fp_get_IsOn)(::g::Fuse::Triggers::WhileValue*, bool*);
 };
 
@@ -46,7 +47,7 @@ void WhileValue__remove_ValueChanged_fn(WhileValue* __this, uDelegate* value);
 
 struct WhileValue : ::g::Fuse::Triggers::WhileTrigger
 {
-    uTField _value() { return __type->Field(this, 37); }
+    uTField _value() { return __type->Field(this, 39); }
     bool _hasValue;
     uStrong<uObject*> _source;
     uStrong<uObject*> _obj;

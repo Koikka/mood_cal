@@ -20,15 +20,15 @@ public class TimePickerView
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object Create225()
+    public static Object Create228()
     {
-        return new android.widget.TimePicker(com.apps.mood_calendar.mood_calendar.GetRootActivity());
+        return new android.widget.TimePicker(fi.samk.mood_cal.Kalenteri.GetRootActivity());
     }
     
-    public static long GetTimeInMsSince1970InUtc226(final UnoObject _this, final Object timePickerHandle)
+    public static long GetTimeInMsSince1970InUtc229(final UnoObject _this, final Object timePickerHandle)
     {
         android.widget.TimePicker timePicker = (android.widget.TimePicker)timePickerHandle;
         
@@ -58,14 +58,14 @@ public class TimePickerView
         return cal.getTimeInMillis();
     }
     
-    public static void SetIs24HourView227(final UnoObject _this, final Object timePickerHandle,final boolean value)
+    public static void SetIs24HourView230(final UnoObject _this, final Object timePickerHandle,final boolean value)
     {
         android.widget.TimePicker timePicker = (android.widget.TimePicker)timePickerHandle;
         
         timePicker.setIs24HourView(value);
     }
     
-    public static void SetTime228(final UnoObject _this, final Object timePickerHandle,final long msSince1970InUtc)
+    public static void SetTime231(final UnoObject _this, final Object timePickerHandle,final long msSince1970InUtc)
     {
         java.util.Calendar cal = java.util.Calendar.getInstance(java.util.TimeZone.getTimeZone("UTC"), java.util.Locale.getDefault());
         cal.setTimeInMillis(msSince1970InUtc);

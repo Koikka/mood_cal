@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Expressions/1.8.1/Expression.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Expressions/1.9.0/Expression.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Reactive.Expression.h>
 #include <Fuse.Reactive.IExpression.h>
 namespace g{namespace Fuse{namespace Reactive{struct Data;}}}
@@ -10,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public sealed class Data :66
+// public sealed class Data :74
 // {
 ::g::Fuse::Reactive::Expression_type* Data_typeof();
 void Data__ctor_1_fn(Data* __this, uString* key);

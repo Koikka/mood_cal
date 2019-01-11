@@ -20,30 +20,30 @@ public class Permissions
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
     public static void permissionRequestFailed(final UnoObject x)
     {
-        ExternedBlockHost.callUno_Uno_Permissions_Permissions_Failed59((UnoObject)x);
+        ExternedBlockHost.callUno_Uno_Permissions_Permissions_Failed62((UnoObject)x);
     }
     
     public static void permissionRequestSucceeded(final UnoObject x)
     {
-        ExternedBlockHost.callUno_Uno_Permissions_Permissions_Succeeded60((UnoObject)x);
+        ExternedBlockHost.callUno_Uno_Permissions_Permissions_Succeeded63((UnoObject)x);
     }
     
-    public static void requestPermission61(final UnoObject promise,final String permissionName)
+    public static void requestPermission64(final UnoObject promise,final String permissionName)
     {
         com.fuse.Permissions.startPermissionRequest((UnoObject)promise, permissionName);
     }
     
-    public static void requestPermissions62(final UnoObject promise,final com.uno.StringArray permissionNames)
+    public static void requestPermissions65(final UnoObject promise,final com.uno.StringArray permissionNames)
     {
         com.fuse.Permissions.startPermissionRequest((UnoObject)promise, permissionNames.copyArray());
     }
     
-    public static boolean shouldShowInformation63(final String x)
+    public static boolean shouldShowInformation66(final String x)
     {
         return com.fuse.Permissions.shouldShowInformation(x);
     }

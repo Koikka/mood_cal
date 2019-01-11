@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Math.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Math.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -45,6 +45,7 @@ void Math__Lerp2_fn(::g::Uno::Float2* a, ::g::Uno::Float2* b, float* t, ::g::Uno
 void Math__Lerp4_fn(::g::Uno::Float3* a, ::g::Uno::Float3* b, float* t, ::g::Uno::Float3* __retval);
 void Math__Lerp6_fn(::g::Uno::Float4* a, ::g::Uno::Float4* b, float* t, ::g::Uno::Float4* __retval);
 void Math__Log1_fn(float* x, float* __retval);
+void Math__Log10_fn(double* x, double* __retval);
 void Math__Log22_fn(float* x, float* __retval);
 void Math__Max_fn(double* a, double* b, double* __retval);
 void Math__Max1_fn(float* a, float* b, float* __retval);
@@ -66,7 +67,7 @@ void Math__Pow_fn(double* x, double* y, double* __retval);
 void Math__Pow1_fn(float* x, float* y, float* __retval);
 void Math__RadiansToDegrees1_fn(float* radians, float* __retval);
 void Math__Round_fn(double* x, double* __retval);
-void Math__Round1_fn(double* d, int32_t* decimals, double* __retval);
+void Math__Round1_fn(double* d, int32_t* digits, double* __retval);
 void Math__Round2_fn(float* x, float* __retval);
 void Math__Round4_fn(::g::Uno::Float2* x, ::g::Uno::Float2* __retval);
 void Math__Saturate1_fn(float* x, float* __retval);
@@ -76,10 +77,16 @@ void Math__Sin1_fn(float* radians, float* __retval);
 void Math__Sqrt_fn(double* x, double* __retval);
 void Math__Sqrt1_fn(float* x, float* __retval);
 void Math__Sqrt2_fn(::g::Uno::Float2* x, ::g::Uno::Float2* __retval);
+void Math__Sqrt4_fn(::g::Uno::Float4* x, ::g::Uno::Float4* __retval);
 void Math__Tan1_fn(float* radians, float* __retval);
 
 struct Math : uObject
 {
+    static uSStrong<uArray*> positivePowersOfTen_;
+    static uSStrong<uArray*>& positivePowersOfTen() { return Math_typeof()->Init(), positivePowersOfTen_; }
+    static uSStrong<uArray*> negativePowersOfTen_;
+    static uSStrong<uArray*>& negativePowersOfTen() { return Math_typeof()->Init(), negativePowersOfTen_; }
+
     static double Abs(double x);
     static float Abs1(float x);
     static ::g::Uno::Float2 Abs2(::g::Uno::Float2 a);
@@ -110,6 +117,7 @@ struct Math : uObject
     static ::g::Uno::Float3 Lerp4(::g::Uno::Float3 a, ::g::Uno::Float3 b, float t);
     static ::g::Uno::Float4 Lerp6(::g::Uno::Float4 a, ::g::Uno::Float4 b, float t);
     static float Log1(float x);
+    static double Log10(double x);
     static float Log22(float x);
     static double Max(double a, double b);
     static float Max1(float a, float b);
@@ -131,7 +139,7 @@ struct Math : uObject
     static float Pow1(float x, float y);
     static float RadiansToDegrees1(float radians);
     static double Round(double x);
-    static double Round1(double d, int32_t decimals);
+    static double Round1(double d, int32_t digits);
     static float Round2(float x);
     static ::g::Uno::Float2 Round4(::g::Uno::Float2 x);
     static float Saturate1(float x);
@@ -141,6 +149,7 @@ struct Math : uObject
     static double Sqrt(double x);
     static float Sqrt1(float x);
     static ::g::Uno::Float2 Sqrt2(::g::Uno::Float2 x);
+    static ::g::Uno::Float4 Sqrt4(::g::Uno::Float4 x);
     static float Tan1(float radians);
 };
 // }

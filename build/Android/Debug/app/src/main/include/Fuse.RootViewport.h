@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/RootViewport.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/RootViewport.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -6,6 +6,7 @@
 #include <Fuse.ICommonViewport.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.IViewport.h>
 #include <Fuse.Node.h>
@@ -30,9 +31,9 @@ namespace Fuse{
 // {
 struct RootViewport_type : ::g::Fuse::Visual_type
 {
-    ::g::Fuse::IViewport interface12;
-    ::g::Uno::IDisposable interface13;
-    ::g::Fuse::ICommonViewport interface14;
+    ::g::Fuse::IViewport interface13;
+    ::g::Uno::IDisposable interface14;
+    ::g::Fuse::ICommonViewport interface15;
 };
 
 RootViewport_type* RootViewport_typeof();

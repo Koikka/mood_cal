@@ -24,10 +24,10 @@ public class JavaLineBreaks
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void CopyLineBreaks352(final String text,final Object outByteBufferHandle)
+    public static void CopyLineBreaks355(final String text,final Object outByteBufferHandle)
     {
         ByteBuffer outByteBuffer = (ByteBuffer)outByteBufferHandle;
         BreakIterator bi = BreakIterator.getLineInstance();

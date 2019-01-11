@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.8.1/NavigationControl.BlockInput.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/NavigationControl.BlockInput.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,6 +9,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Navigation.IBase-84e3f965.h>
 #include <Fuse.Navigation.INavigation.h>
@@ -42,16 +43,17 @@ namespace Controls{
 // {
 struct NavigationControl_type : ::g::Fuse::Controls::Panel_type
 {
-    ::g::Fuse::Navigation::INavigation interface18;
-    ::g::Fuse::Reactive::IObserver interface19;
-    ::g::Fuse::Node__ISubtreeDataProvider interface20;
-    ::g::Fuse::Navigation::IBaseNavigation interface21;
+    ::g::Fuse::Navigation::INavigation interface19;
+    ::g::Fuse::Reactive::IObserver interface20;
+    ::g::Fuse::Node__ISubtreeDataProvider interface21;
+    ::g::Fuse::Navigation::IBaseNavigation interface22;
     void(*fp_CreateTriggers)(::g::Fuse::Controls::NavigationControl*, ::g::Fuse::Elements::Element*, ::g::Fuse::Controls::NavigationControl__ControlPageData*);
     void(*fp_UpdateInteraction)(::g::Fuse::Controls::NavigationControl*);
     void(*fp_UpdateProgress)(::g::Fuse::Controls::NavigationControl*, ::g::Fuse::Elements::Element*, ::g::Fuse::Navigation::NavigationPageState*, ::g::Fuse::Controls::NavigationControl__ControlPageData*);
 };
 
 NavigationControl_type* NavigationControl_typeof();
+void NavigationControl__ctor_7_fn(NavigationControl* __this);
 void NavigationControl__get_Active_fn(NavigationControl* __this, ::g::Fuse::Visual** __retval);
 void NavigationControl__set_Active_fn(NavigationControl* __this, ::g::Fuse::Visual* value);
 void NavigationControl__add_ActivePageChanged_fn(NavigationControl* __this, uDelegate* value);
@@ -110,6 +112,7 @@ void NavigationControl__PageTransition_fn(NavigationControl* __this, ::g::Fuse::
 void NavigationControl__RootActivePage_fn(NavigationControl* __this);
 void NavigationControl__get_RouterOutletType_fn(NavigationControl* __this, int32_t* __retval);
 void NavigationControl__seekToPath_fn(NavigationControl* nav, uArray* args);
+void NavigationControl__SetNavigation_fn(NavigationControl* __this, ::g::Fuse::Navigation::VisualNavigation* nav);
 void NavigationControl__add_StateChanged_fn(NavigationControl* __this, uDelegate* value);
 void NavigationControl__remove_StateChanged_fn(NavigationControl* __this, uDelegate* value);
 void NavigationControl__Toggle_fn(NavigationControl* __this, ::g::Fuse::Visual* node);
@@ -135,6 +138,7 @@ struct NavigationControl : ::g::Fuse::Controls::Panel
     uStrong< ::g::Fuse::Visual*> _AncestorPage;
     uStrong< ::g::Fuse::Navigation::RouterPage*> _AncestorRouterPage;
 
+    void ctor_7();
     ::g::Fuse::Visual* Active();
     void Active(::g::Fuse::Visual* value);
     void add_ActivePageChanged(uDelegate* value);
@@ -171,6 +175,7 @@ struct NavigationControl : ::g::Fuse::Controls::Panel
     int32_t PageTransition(::g::Fuse::Visual* elm);
     void RootActivePage();
     int32_t RouterOutletType();
+    void SetNavigation(::g::Fuse::Navigation::VisualNavigation* nav);
     void add_StateChanged(uDelegate* value);
     void remove_StateChanged(uDelegate* value);
     void Toggle(::g::Fuse::Visual* node);

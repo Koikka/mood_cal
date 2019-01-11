@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.8.1/AspectBoxSizing.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/AspectBoxSizing.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once

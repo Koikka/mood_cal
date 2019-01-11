@@ -20,10 +20,10 @@ public class SoftKeyboard
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void HideKeyboard183(final Object hideKeyboardContext,final Object hideKeyboardWindowToken)
+    public static void HideKeyboard186(final Object hideKeyboardContext,final Object hideKeyboardWindowToken)
     {
         android.content.Context ctx = (android.content.Context)hideKeyboardContext;
         android.os.IBinder binder = (android.os.IBinder)hideKeyboardWindowToken;
@@ -31,7 +31,7 @@ public class SoftKeyboard
         imm.hideSoftInputFromWindow(binder, 0);
     }
     
-    public static void ShowKeyboard184(final Object viewHandle)
+    public static void ShowKeyboard187(final Object viewHandle)
     {
         android.view.View view = (android.view.View)viewHandle;
         android.view.inputmethod.InputMethodManager imm = (android.view.inputmethod.InputMethodManager)view.getContext().getSystemService(android.content.Context.INPUT_METHOD_SERVICE);

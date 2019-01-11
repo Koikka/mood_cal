@@ -62,7 +62,7 @@ namespace g{
 namespace Uno{
 namespace Collections{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/Dictionary.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/Dictionary.uno
 // ---------------------------------------------------------------------------------
 
 // internal struct Dictionary<TKey, TValue>.Bucket :16
@@ -90,7 +90,7 @@ uStructType* Dictionary__Bucket_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/Dictionary.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/Dictionary.uno
 // ---------------------------------------------------------------------------------
 
 // internal enum Dictionary<TKey, TValue>.BucketState :8
@@ -107,13 +107,15 @@ uEnumType* Dictionary__BucketState_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/Dictionary.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/Dictionary.uno
 // ---------------------------------------------------------------------------------
 
 // public sealed class Dictionary<TKey, TValue> :6
 // {
 static void Dictionary_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetPrecalc(
         Dictionary__Bucket_typeof()->MakeType(type->T(0), type->T(1), NULL)->Array(),
         Dictionary__Enumerator_typeof()->MakeType(type->T(0), type->T(1), NULL),
@@ -141,6 +143,7 @@ Dictionary_type* Dictionary_typeof()
     options.FieldCount = 4;
     options.GenericCount = 2;
     options.InterfaceCount = 3;
+    options.DependencyCount = 1;
     options.PrecalcCount = 6;
     options.ObjectSize = sizeof(Dictionary);
     options.TypeSize = sizeof(Dictionary_type);
@@ -528,7 +531,7 @@ Dictionary* Dictionary::New1(uType* __type)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Collections/1.8.0/Extensions/EnumerableExtensions.uno
+// /usr/local/share/uno/Packages/Uno.Collections/1.9.0/Extensions/EnumerableExtensions.uno
 // ---------------------------------------------------------------------------------------
 
 // public static class EnumerableExtensions :3
@@ -861,7 +864,7 @@ uArray* EnumerableExtensions::ToArray(uType* __type, uObject* self)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/HashSet.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/HashSet.uno
 // ------------------------------------------------------------------------------
 
 // public struct HashSet<T>.Enumerator :8
@@ -988,7 +991,122 @@ void HashSet__Enumerator__UnoCollectionsIEnumeratorReset_fn(uTRef __this, uType*
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/LinkedList.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/List.uno
+// ---------------------------------------------------------------------------
+
+// public struct List<T>.Enumerator :12
+// {
+// private void Uno.Collections.IEnumerator.Reset() [adapter] :36
+static void List__Enumerator__UnoCollectionsIEnumeratorReset_ex(uObject* __this)
+{
+    List__Enumerator__UnoCollectionsIEnumeratorReset_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type);
+}
+
+// public T get_Current() [adapter] :28
+static void List__Enumerator__get_Current_ex(uObject* __this, uTRef __retval)
+{
+    List__Enumerator__get_Current_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type, __retval);
+}
+
+// public void Dispose() [adapter] :31
+static void List__Enumerator__Dispose_ex(uObject* __this)
+{
+    List__Enumerator__Dispose_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type);
+}
+
+// public bool MoveNext() [adapter] :43
+static void List__Enumerator__MoveNext_ex(uObject* __this, bool* __retval)
+{
+    List__Enumerator__MoveNext_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type, __retval);
+}
+
+static void List__Enumerator_build(uType* type)
+{
+    ::STRINGS[0] = uString::Const("Collection was modified");
+    type->SetInterfaces(
+        ::g::Uno::Collections::IEnumerator1_typeof()->MakeType(type->T(0), NULL), offsetof(List__Enumerator_type, interface0),
+        ::g::Uno::IDisposable_typeof(), offsetof(List__Enumerator_type, interface1),
+        ::g::Uno::Collections::IEnumerator_typeof(), offsetof(List__Enumerator_type, interface2));
+    type->SetFields(0,
+        ::g::Uno::Collections::List_typeof()->MakeType(type->T(0), NULL), (uintptr_t)0, uFieldFlagsConstrained,
+        ::g::Uno::Int_typeof(), (uintptr_t)0, uFieldFlagsConstrained,
+        ::g::Uno::Int_typeof(), (uintptr_t)0, uFieldFlagsConstrained,
+        type->T(0), (uintptr_t)0, uFieldFlagsConstrained);
+}
+
+List__Enumerator_type* List__Enumerator_typeof()
+{
+    static uSStrong<List__Enumerator_type*> type;
+    if (type != NULL) return type;
+
+    uTypeOptions options;
+    options.FieldCount = 4;
+    options.GenericCount = 1;
+    options.InterfaceCount = 3;
+    options.TypeSize = sizeof(List__Enumerator_type);
+    type = (List__Enumerator_type*)uStructType::New("Uno.Collections.List`1.Enumerator", options);
+    type->fp_build_ = List__Enumerator_build;
+    type->interface2.fp_Reset = List__Enumerator__UnoCollectionsIEnumeratorReset_ex;
+    type->interface0.fp_get_Current = (void(*)(uObject*, uTRef))List__Enumerator__get_Current_ex;
+    type->interface1.fp_Dispose = List__Enumerator__Dispose_ex;
+    type->interface2.fp_MoveNext = List__Enumerator__MoveNext_ex;
+    return type;
+}
+
+// internal Enumerator(Uno.Collections.List<T> source) :19
+void List__Enumerator__ctor__fn(uTRef __this, uType* __type, ::g::Uno::Collections::List* source)
+{
+    __type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::List*>() = source;
+    __type->Field(__this, 1/*_version*/).Value<int32_t>() = uPtr(source)->_version;
+    __type->Field(__this, 2/*_iterator*/).Value<int32_t>() = -1;
+}
+
+// public T get_Current() :28
+void List__Enumerator__get_Current_fn(uTRef __this, uType* __type, uTRef __retval)
+{
+    return __retval.Store(__type->Field(__this, 3/*_current*/)), void();
+}
+
+// public void Dispose() :31
+void List__Enumerator__Dispose_fn(uTRef __this, uType* __type)
+{
+}
+
+// public bool MoveNext() :43
+void List__Enumerator__MoveNext_fn(uTRef __this, uType* __type, bool* __retval)
+{
+    if (uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::List*>())->_version != __type->Field(__this, 1/*_version*/).Value<int32_t>())
+        U_THROW(::g::Uno::InvalidOperationException::New5(::STRINGS[0/*"Collection ...*/]));
+
+    __type->Field(__this, 2/*_iterator*/).Value<int32_t>()++;
+
+    if (__type->Field(__this, 2/*_iterator*/).Value<int32_t>() < uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::List*>())->_used)
+    {
+        __type->Field(__this, 3/*_current*/) = uPtr(uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::List*>())->_data)->TItem(__type->Field(__this, 2/*_iterator*/).Value<int32_t>());
+        return *__retval = true, void();
+    }
+
+    return *__retval = false, void();
+}
+
+// internal Enumerator New(Uno.Collections.List<T> source) :19
+void List__Enumerator__New1_fn(uType* __type, ::g::Uno::Collections::List* source, uTRef __retval)
+{
+    uT obj1(__type, U_ALLOCA(__type->ValueSize));
+    List__Enumerator__ctor__fn(&obj1, __type, source);
+    return __retval.Store(obj1), void();
+}
+
+// private void Uno.Collections.IEnumerator.Reset() :36
+void List__Enumerator__UnoCollectionsIEnumeratorReset_fn(uTRef __this, uType* __type)
+{
+    __type->Field(__this, 2/*_iterator*/).Value<int32_t>() = -1;
+    __type->Field(__this, 3/*_current*/).Default();
+    __type->Field(__this, 1/*_version*/).Value<int32_t>() = uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::List*>())->_version;
+}
+// }
+
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/LinkedList.uno
 // ---------------------------------------------------------------------------------
 
 // public struct LinkedList<T>.Enumerator :26
@@ -1125,249 +1243,7 @@ LinkedList__Enumerator LinkedList__Enumerator__New1(uType* __type, ::g::Uno::Col
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/List.uno
-// ---------------------------------------------------------------------------
-
-// public struct List<T>.Enumerator :12
-// {
-// private void Uno.Collections.IEnumerator.Reset() [adapter] :36
-static void List__Enumerator__UnoCollectionsIEnumeratorReset_ex(uObject* __this)
-{
-    List__Enumerator__UnoCollectionsIEnumeratorReset_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type);
-}
-
-// public T get_Current() [adapter] :28
-static void List__Enumerator__get_Current_ex(uObject* __this, uTRef __retval)
-{
-    List__Enumerator__get_Current_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type, __retval);
-}
-
-// public void Dispose() [adapter] :31
-static void List__Enumerator__Dispose_ex(uObject* __this)
-{
-    List__Enumerator__Dispose_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type);
-}
-
-// public bool MoveNext() [adapter] :43
-static void List__Enumerator__MoveNext_ex(uObject* __this, bool* __retval)
-{
-    List__Enumerator__MoveNext_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type, __retval);
-}
-
-static void List__Enumerator_build(uType* type)
-{
-    ::STRINGS[0] = uString::Const("Collection was modified");
-    type->SetInterfaces(
-        ::g::Uno::Collections::IEnumerator1_typeof()->MakeType(type->T(0), NULL), offsetof(List__Enumerator_type, interface0),
-        ::g::Uno::IDisposable_typeof(), offsetof(List__Enumerator_type, interface1),
-        ::g::Uno::Collections::IEnumerator_typeof(), offsetof(List__Enumerator_type, interface2));
-    type->SetFields(0,
-        ::g::Uno::Collections::List_typeof()->MakeType(type->T(0), NULL), (uintptr_t)0, uFieldFlagsConstrained,
-        ::g::Uno::Int_typeof(), (uintptr_t)0, uFieldFlagsConstrained,
-        ::g::Uno::Int_typeof(), (uintptr_t)0, uFieldFlagsConstrained,
-        type->T(0), (uintptr_t)0, uFieldFlagsConstrained);
-}
-
-List__Enumerator_type* List__Enumerator_typeof()
-{
-    static uSStrong<List__Enumerator_type*> type;
-    if (type != NULL) return type;
-
-    uTypeOptions options;
-    options.FieldCount = 4;
-    options.GenericCount = 1;
-    options.InterfaceCount = 3;
-    options.TypeSize = sizeof(List__Enumerator_type);
-    type = (List__Enumerator_type*)uStructType::New("Uno.Collections.List`1.Enumerator", options);
-    type->fp_build_ = List__Enumerator_build;
-    type->interface2.fp_Reset = List__Enumerator__UnoCollectionsIEnumeratorReset_ex;
-    type->interface0.fp_get_Current = (void(*)(uObject*, uTRef))List__Enumerator__get_Current_ex;
-    type->interface1.fp_Dispose = List__Enumerator__Dispose_ex;
-    type->interface2.fp_MoveNext = List__Enumerator__MoveNext_ex;
-    return type;
-}
-
-// internal Enumerator(Uno.Collections.List<T> source) :19
-void List__Enumerator__ctor__fn(uTRef __this, uType* __type, ::g::Uno::Collections::List* source)
-{
-    __type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::List*>() = source;
-    __type->Field(__this, 1/*_version*/).Value<int32_t>() = uPtr(source)->_version;
-    __type->Field(__this, 2/*_iterator*/).Value<int32_t>() = -1;
-}
-
-// public T get_Current() :28
-void List__Enumerator__get_Current_fn(uTRef __this, uType* __type, uTRef __retval)
-{
-    return __retval.Store(__type->Field(__this, 3/*_current*/)), void();
-}
-
-// public void Dispose() :31
-void List__Enumerator__Dispose_fn(uTRef __this, uType* __type)
-{
-}
-
-// public bool MoveNext() :43
-void List__Enumerator__MoveNext_fn(uTRef __this, uType* __type, bool* __retval)
-{
-    if (uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::List*>())->_version != __type->Field(__this, 1/*_version*/).Value<int32_t>())
-        U_THROW(::g::Uno::InvalidOperationException::New5(::STRINGS[0/*"Collection ...*/]));
-
-    __type->Field(__this, 2/*_iterator*/).Value<int32_t>()++;
-
-    if (__type->Field(__this, 2/*_iterator*/).Value<int32_t>() < uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::List*>())->_used)
-    {
-        __type->Field(__this, 3/*_current*/) = uPtr(uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::List*>())->_data)->TItem(__type->Field(__this, 2/*_iterator*/).Value<int32_t>());
-        return *__retval = true, void();
-    }
-
-    return *__retval = false, void();
-}
-
-// internal Enumerator New(Uno.Collections.List<T> source) :19
-void List__Enumerator__New1_fn(uType* __type, ::g::Uno::Collections::List* source, uTRef __retval)
-{
-    uT obj1(__type, U_ALLOCA(__type->ValueSize));
-    List__Enumerator__ctor__fn(&obj1, __type, source);
-    return __retval.Store(obj1), void();
-}
-
-// private void Uno.Collections.IEnumerator.Reset() :36
-void List__Enumerator__UnoCollectionsIEnumeratorReset_fn(uTRef __this, uType* __type)
-{
-    __type->Field(__this, 2/*_iterator*/).Value<int32_t>() = -1;
-    __type->Field(__this, 3/*_current*/).Default();
-    __type->Field(__this, 1/*_version*/).Value<int32_t>() = uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::List*>())->_version;
-}
-// }
-
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/Dictionary.uno
-// ---------------------------------------------------------------------------------
-
-// public struct Dictionary<TKey, TValue>.ValueCollection.Enumerator :170
-// {
-// private void Uno.Collections.IEnumerator.Reset() [adapter] :194
-static void Dictionary__ValueCollection__Enumerator__UnoCollectionsIEnumeratorReset_ex(uObject* __this)
-{
-    Dictionary__ValueCollection__Enumerator__UnoCollectionsIEnumeratorReset_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type);
-}
-
-// public TValue get_Current() [adapter] :186
-static void Dictionary__ValueCollection__Enumerator__get_Current_ex(uObject* __this, uTRef __retval)
-{
-    Dictionary__ValueCollection__Enumerator__get_Current_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type, __retval);
-}
-
-// public void Dispose() [adapter] :189
-static void Dictionary__ValueCollection__Enumerator__Dispose_ex(uObject* __this)
-{
-    Dictionary__ValueCollection__Enumerator__Dispose_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type);
-}
-
-// public bool MoveNext() [adapter] :201
-static void Dictionary__ValueCollection__Enumerator__MoveNext_ex(uObject* __this, bool* __retval)
-{
-    Dictionary__ValueCollection__Enumerator__MoveNext_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type, __retval);
-}
-
-static void Dictionary__ValueCollection__Enumerator_build(uType* type)
-{
-    ::STRINGS[0] = uString::Const("Collection was modified");
-    ::TYPES[0] = ::g::Uno::Collections::Dictionary__Bucket_typeof();
-    type->SetPrecalc(
-        ::g::Uno::Collections::Dictionary__Bucket_typeof()->MakeType(type->T(0), type->T(1), NULL));
-    type->SetInterfaces(
-        ::g::Uno::Collections::IEnumerator1_typeof()->MakeType(type->T(1), NULL), offsetof(Dictionary__ValueCollection__Enumerator_type, interface0),
-        ::g::Uno::IDisposable_typeof(), offsetof(Dictionary__ValueCollection__Enumerator_type, interface1),
-        ::g::Uno::Collections::IEnumerator_typeof(), offsetof(Dictionary__ValueCollection__Enumerator_type, interface2));
-    type->SetFields(0,
-        ::g::Uno::Collections::Dictionary_typeof()->MakeType(type->T(0), type->T(1), NULL), (uintptr_t)0, uFieldFlagsConstrained,
-        type->T(1), (uintptr_t)0, uFieldFlagsConstrained,
-        ::g::Uno::Int_typeof(), (uintptr_t)0, uFieldFlagsConstrained,
-        ::g::Uno::Int_typeof(), (uintptr_t)0, uFieldFlagsConstrained);
-}
-
-Dictionary__ValueCollection__Enumerator_type* Dictionary__ValueCollection__Enumerator_typeof()
-{
-    static uSStrong<Dictionary__ValueCollection__Enumerator_type*> type;
-    if (type != NULL) return type;
-
-    uTypeOptions options;
-    options.FieldCount = 4;
-    options.GenericCount = 2;
-    options.InterfaceCount = 3;
-    options.PrecalcCount = 1;
-    options.TypeSize = sizeof(Dictionary__ValueCollection__Enumerator_type);
-    type = (Dictionary__ValueCollection__Enumerator_type*)uStructType::New("Uno.Collections.Dictionary`2.ValueCollection.Enumerator", options);
-    type->fp_build_ = Dictionary__ValueCollection__Enumerator_build;
-    type->interface2.fp_Reset = Dictionary__ValueCollection__Enumerator__UnoCollectionsIEnumeratorReset_ex;
-    type->interface0.fp_get_Current = (void(*)(uObject*, uTRef))Dictionary__ValueCollection__Enumerator__get_Current_ex;
-    type->interface1.fp_Dispose = Dictionary__ValueCollection__Enumerator__Dispose_ex;
-    type->interface2.fp_MoveNext = Dictionary__ValueCollection__Enumerator__MoveNext_ex;
-    return type;
-}
-
-// internal Enumerator(Uno.Collections.Dictionary<TKey, TValue> source) :177
-void Dictionary__ValueCollection__Enumerator__ctor__fn(uTRef __this, uType* __type, ::g::Uno::Collections::Dictionary* source)
-{
-    __type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::Dictionary*>() = source;
-    __type->Field(__this, 3/*_version*/).Value<int32_t>() = uPtr(source)->_version;
-    __type->Field(__this, 2/*_iterator*/).Value<int32_t>() = -1;
-}
-
-// public TValue get_Current() :186
-void Dictionary__ValueCollection__Enumerator__get_Current_fn(uTRef __this, uType* __type, uTRef __retval)
-{
-    return __retval.Store(__type->Field(__this, 1/*_current*/)), void();
-}
-
-// public void Dispose() :189
-void Dictionary__ValueCollection__Enumerator__Dispose_fn(uTRef __this, uType* __type)
-{
-}
-
-// public bool MoveNext() :201
-void Dictionary__ValueCollection__Enumerator__MoveNext_fn(uTRef __this, uType* __type, bool* __retval)
-{
-    uType* __types[] = {
-        __type->Precalced(0/*Uno.Collections.Dictionary<TKey, TValue>.Bucket*/),
-    };
-    uT bucket(__types[0], U_ALLOCA(__types[0]->ValueSize));
-
-    if (__type->Field(__this, 3/*_version*/).Value<int32_t>() != uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::Dictionary*>())->_version)
-        U_THROW(::g::Uno::InvalidOperationException::New5(::STRINGS[0/*"Collection ...*/]));
-
-    do
-    {
-        __type->Field(__this, 2/*_iterator*/).Value<int32_t>()++;
-
-        if (__type->Field(__this, 2/*_iterator*/).Value<int32_t>() >= uPtr(uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::Dictionary*>())->_buckets)->Length())
-            return *__retval = false, void();
-    }
-    while (uPtr(uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::Dictionary*>())->_buckets)->TItem(__type->Field(__this, 2/*_iterator*/).Value<int32_t>())[2/*State*/].Value<int32_t>() != 1);
-
-    bucket = uPtr(uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::Dictionary*>())->_buckets)->TItem(__type->Field(__this, 2/*_iterator*/).Value<int32_t>());
-    __type->Field(__this, 1/*_current*/) = bucket[1/*Value*/];
-    return *__retval = true, void();
-}
-
-// internal Enumerator New(Uno.Collections.Dictionary<TKey, TValue> source) :177
-void Dictionary__ValueCollection__Enumerator__New1_fn(uType* __type, ::g::Uno::Collections::Dictionary* source, uTRef __retval)
-{
-    uT obj1(__type, U_ALLOCA(__type->ValueSize));
-    Dictionary__ValueCollection__Enumerator__ctor__fn(&obj1, __type, source);
-    return __retval.Store(obj1), void();
-}
-
-// private void Uno.Collections.IEnumerator.Reset() :194
-void Dictionary__ValueCollection__Enumerator__UnoCollectionsIEnumeratorReset_fn(uTRef __this, uType* __type)
-{
-    __type->Field(__this, 2/*_iterator*/).Value<int32_t>() = -1;
-    __type->Field(__this, 3/*_version*/).Value<int32_t>() = uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::Dictionary*>())->_version;
-    __type->Field(__this, 1/*_current*/).Default();
-}
-// }
-
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/Queue.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/Queue.uno
 // ----------------------------------------------------------------------------
 
 // public struct Queue<T>.Enumerator :8
@@ -1489,7 +1365,7 @@ void Queue__Enumerator__UnoCollectionsIEnumeratorReset_fn(uTRef __this, uType* _
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/Dictionary.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/Dictionary.uno
 // ---------------------------------------------------------------------------------
 
 // public struct Dictionary<TKey, TValue>.KeyCollection.Enumerator :77
@@ -1616,7 +1492,7 @@ void Dictionary__KeyCollection__Enumerator__UnoCollectionsIEnumeratorReset_fn(uT
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/Dictionary.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/Dictionary.uno
 // ---------------------------------------------------------------------------------
 
 // public struct Dictionary<TKey, TValue>.Enumerator :23
@@ -1747,7 +1623,134 @@ void Dictionary__Enumerator__UnoCollectionsIEnumeratorReset_fn(uTRef __this, uTy
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/HashSet.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/Dictionary.uno
+// ---------------------------------------------------------------------------------
+
+// public struct Dictionary<TKey, TValue>.ValueCollection.Enumerator :170
+// {
+// private void Uno.Collections.IEnumerator.Reset() [adapter] :194
+static void Dictionary__ValueCollection__Enumerator__UnoCollectionsIEnumeratorReset_ex(uObject* __this)
+{
+    Dictionary__ValueCollection__Enumerator__UnoCollectionsIEnumeratorReset_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type);
+}
+
+// public TValue get_Current() [adapter] :186
+static void Dictionary__ValueCollection__Enumerator__get_Current_ex(uObject* __this, uTRef __retval)
+{
+    Dictionary__ValueCollection__Enumerator__get_Current_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type, __retval);
+}
+
+// public void Dispose() [adapter] :189
+static void Dictionary__ValueCollection__Enumerator__Dispose_ex(uObject* __this)
+{
+    Dictionary__ValueCollection__Enumerator__Dispose_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type);
+}
+
+// public bool MoveNext() [adapter] :201
+static void Dictionary__ValueCollection__Enumerator__MoveNext_ex(uObject* __this, bool* __retval)
+{
+    Dictionary__ValueCollection__Enumerator__MoveNext_fn((void**)((uint8_t*)__this + sizeof(uObject)), __this->__type, __retval);
+}
+
+static void Dictionary__ValueCollection__Enumerator_build(uType* type)
+{
+    ::STRINGS[0] = uString::Const("Collection was modified");
+    ::TYPES[0] = ::g::Uno::Collections::Dictionary__Bucket_typeof();
+    type->SetPrecalc(
+        ::g::Uno::Collections::Dictionary__Bucket_typeof()->MakeType(type->T(0), type->T(1), NULL));
+    type->SetInterfaces(
+        ::g::Uno::Collections::IEnumerator1_typeof()->MakeType(type->T(1), NULL), offsetof(Dictionary__ValueCollection__Enumerator_type, interface0),
+        ::g::Uno::IDisposable_typeof(), offsetof(Dictionary__ValueCollection__Enumerator_type, interface1),
+        ::g::Uno::Collections::IEnumerator_typeof(), offsetof(Dictionary__ValueCollection__Enumerator_type, interface2));
+    type->SetFields(0,
+        ::g::Uno::Collections::Dictionary_typeof()->MakeType(type->T(0), type->T(1), NULL), (uintptr_t)0, uFieldFlagsConstrained,
+        type->T(1), (uintptr_t)0, uFieldFlagsConstrained,
+        ::g::Uno::Int_typeof(), (uintptr_t)0, uFieldFlagsConstrained,
+        ::g::Uno::Int_typeof(), (uintptr_t)0, uFieldFlagsConstrained);
+}
+
+Dictionary__ValueCollection__Enumerator_type* Dictionary__ValueCollection__Enumerator_typeof()
+{
+    static uSStrong<Dictionary__ValueCollection__Enumerator_type*> type;
+    if (type != NULL) return type;
+
+    uTypeOptions options;
+    options.FieldCount = 4;
+    options.GenericCount = 2;
+    options.InterfaceCount = 3;
+    options.PrecalcCount = 1;
+    options.TypeSize = sizeof(Dictionary__ValueCollection__Enumerator_type);
+    type = (Dictionary__ValueCollection__Enumerator_type*)uStructType::New("Uno.Collections.Dictionary`2.ValueCollection.Enumerator", options);
+    type->fp_build_ = Dictionary__ValueCollection__Enumerator_build;
+    type->interface2.fp_Reset = Dictionary__ValueCollection__Enumerator__UnoCollectionsIEnumeratorReset_ex;
+    type->interface0.fp_get_Current = (void(*)(uObject*, uTRef))Dictionary__ValueCollection__Enumerator__get_Current_ex;
+    type->interface1.fp_Dispose = Dictionary__ValueCollection__Enumerator__Dispose_ex;
+    type->interface2.fp_MoveNext = Dictionary__ValueCollection__Enumerator__MoveNext_ex;
+    return type;
+}
+
+// internal Enumerator(Uno.Collections.Dictionary<TKey, TValue> source) :177
+void Dictionary__ValueCollection__Enumerator__ctor__fn(uTRef __this, uType* __type, ::g::Uno::Collections::Dictionary* source)
+{
+    __type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::Dictionary*>() = source;
+    __type->Field(__this, 3/*_version*/).Value<int32_t>() = uPtr(source)->_version;
+    __type->Field(__this, 2/*_iterator*/).Value<int32_t>() = -1;
+}
+
+// public TValue get_Current() :186
+void Dictionary__ValueCollection__Enumerator__get_Current_fn(uTRef __this, uType* __type, uTRef __retval)
+{
+    return __retval.Store(__type->Field(__this, 1/*_current*/)), void();
+}
+
+// public void Dispose() :189
+void Dictionary__ValueCollection__Enumerator__Dispose_fn(uTRef __this, uType* __type)
+{
+}
+
+// public bool MoveNext() :201
+void Dictionary__ValueCollection__Enumerator__MoveNext_fn(uTRef __this, uType* __type, bool* __retval)
+{
+    uType* __types[] = {
+        __type->Precalced(0/*Uno.Collections.Dictionary<TKey, TValue>.Bucket*/),
+    };
+    uT bucket(__types[0], U_ALLOCA(__types[0]->ValueSize));
+
+    if (__type->Field(__this, 3/*_version*/).Value<int32_t>() != uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::Dictionary*>())->_version)
+        U_THROW(::g::Uno::InvalidOperationException::New5(::STRINGS[0/*"Collection ...*/]));
+
+    do
+    {
+        __type->Field(__this, 2/*_iterator*/).Value<int32_t>()++;
+
+        if (__type->Field(__this, 2/*_iterator*/).Value<int32_t>() >= uPtr(uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::Dictionary*>())->_buckets)->Length())
+            return *__retval = false, void();
+    }
+    while (uPtr(uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::Dictionary*>())->_buckets)->TItem(__type->Field(__this, 2/*_iterator*/).Value<int32_t>())[2/*State*/].Value<int32_t>() != 1);
+
+    bucket = uPtr(uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::Dictionary*>())->_buckets)->TItem(__type->Field(__this, 2/*_iterator*/).Value<int32_t>());
+    __type->Field(__this, 1/*_current*/) = bucket[1/*Value*/];
+    return *__retval = true, void();
+}
+
+// internal Enumerator New(Uno.Collections.Dictionary<TKey, TValue> source) :177
+void Dictionary__ValueCollection__Enumerator__New1_fn(uType* __type, ::g::Uno::Collections::Dictionary* source, uTRef __retval)
+{
+    uT obj1(__type, U_ALLOCA(__type->ValueSize));
+    Dictionary__ValueCollection__Enumerator__ctor__fn(&obj1, __type, source);
+    return __retval.Store(obj1), void();
+}
+
+// private void Uno.Collections.IEnumerator.Reset() :194
+void Dictionary__ValueCollection__Enumerator__UnoCollectionsIEnumeratorReset_fn(uTRef __this, uType* __type)
+{
+    __type->Field(__this, 2/*_iterator*/).Value<int32_t>() = -1;
+    __type->Field(__this, 3/*_version*/).Value<int32_t>() = uPtr(__type->Field(__this, 0/*_source*/).Strong< ::g::Uno::Collections::Dictionary*>())->_version;
+    __type->Field(__this, 1/*_current*/).Default();
+}
+// }
+
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/HashSet.uno
 // ------------------------------------------------------------------------------
 
 // public sealed class HashSet<T> :6
@@ -1861,7 +1864,7 @@ HashSet* HashSet::New1(uType* __type)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/ICollection.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/ICollection.uno
 // ----------------------------------------------------------------------------------
 
 // public abstract interface ICollection<T> :6
@@ -1876,7 +1879,7 @@ uInterfaceType* ICollection_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/IDictionary.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/IDictionary.uno
 // ----------------------------------------------------------------------------------
 
 // public abstract interface IDictionary<TKey, TValue> :6
@@ -1891,7 +1894,7 @@ uInterfaceType* IDictionary_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/IEnumerable.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/IEnumerable.uno
 // ----------------------------------------------------------------------------------
 
 // public abstract interface IEnumerable<T> :6
@@ -1906,7 +1909,7 @@ uInterfaceType* IEnumerable_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/IEnumerator.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/IEnumerator.uno
 // ----------------------------------------------------------------------------------
 
 // public abstract interface IEnumerator :6
@@ -1921,7 +1924,7 @@ uInterfaceType* IEnumerator_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/IEnumerator.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/IEnumerator.uno
 // ----------------------------------------------------------------------------------
 
 // public abstract interface IEnumerator<T> :13
@@ -1936,7 +1939,7 @@ uInterfaceType* IEnumerator1_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/IList.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/IList.uno
 // ----------------------------------------------------------------------------
 
 // public abstract interface IList<T> :6
@@ -1951,7 +1954,7 @@ uInterfaceType* IList_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Collections/1.8.0/Extensions/IListExtensions.uno
+// /usr/local/share/uno/Packages/Uno.Collections/1.9.0/Extensions/IListExtensions.uno
 // ----------------------------------------------------------------------------------
 
 // public static class IListExtensions :4
@@ -1995,7 +1998,7 @@ void IListExtensions__RemoveLast_fn(uType* __type, uObject* self, uTRef __retval
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/Dictionary.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/Dictionary.uno
 // ---------------------------------------------------------------------------------
 
 // public sealed class Dictionary<TKey, TValue>.KeyCollection :75
@@ -2123,7 +2126,7 @@ Dictionary__KeyCollection* Dictionary__KeyCollection::New1(uType* __type, ::g::U
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/KeyValuePair.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/KeyValuePair.uno
 // -----------------------------------------------------------------------------------
 
 // public struct KeyValuePair<TKey, TValue> :6
@@ -2177,7 +2180,50 @@ void KeyValuePair__get_Value_fn(uTRef __this, uType* __type, uTRef __retval)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/LinkedList.uno
+// /usr/local/share/uno/Packages/Uno.Collections/1.9.0/Extensions/EnumerableExtensions.uno
+// ---------------------------------------------------------------------------------------
+
+// private sealed class EnumerableExtensions.LinkedList<T> :56
+// {
+static void EnumerableExtensions__LinkedList_build(uType* type)
+{
+    type->SetFields(0,
+        type->T(0), (uintptr_t)0, uFieldFlagsConstrained,
+        type, offsetof(EnumerableExtensions__LinkedList, Next), 0);
+}
+
+uType* EnumerableExtensions__LinkedList_typeof()
+{
+    static uSStrong<uType*> type;
+    if (type != NULL) return type;
+
+    uTypeOptions options;
+    options.FieldCount = 2;
+    options.GenericCount = 1;
+    options.ObjectSize = sizeof(EnumerableExtensions__LinkedList);
+    options.TypeSize = sizeof(uType);
+    type = uClassType::New("Uno.Collections.EnumerableExtensions.LinkedList`1", options);
+    type->fp_build_ = EnumerableExtensions__LinkedList_build;
+    return type;
+}
+
+// public LinkedList(T item, Uno.Collections.EnumerableExtensions.LinkedList<T> next) :61
+void EnumerableExtensions__LinkedList__ctor__fn(EnumerableExtensions__LinkedList* __this, void* item, EnumerableExtensions__LinkedList* next)
+{
+    __this->Item() = item;
+    __this->Next = next;
+}
+
+// public LinkedList New(T item, Uno.Collections.EnumerableExtensions.LinkedList<T> next) :61
+void EnumerableExtensions__LinkedList__New1_fn(uType* __type, void* item, EnumerableExtensions__LinkedList* next, EnumerableExtensions__LinkedList** __retval)
+{
+    EnumerableExtensions__LinkedList* obj1 = (EnumerableExtensions__LinkedList*)uNew(__type);
+    EnumerableExtensions__LinkedList__ctor__fn(obj1, item, next);
+    return *__retval = obj1, void();
+}
+// }
+
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/LinkedList.uno
 // ---------------------------------------------------------------------------------
 
 // public sealed class LinkedList<T> :20
@@ -2639,50 +2685,7 @@ LinkedList* LinkedList::New1(uType* __type)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Collections/1.8.0/Extensions/EnumerableExtensions.uno
-// ---------------------------------------------------------------------------------------
-
-// private sealed class EnumerableExtensions.LinkedList<T> :56
-// {
-static void EnumerableExtensions__LinkedList_build(uType* type)
-{
-    type->SetFields(0,
-        type->T(0), (uintptr_t)0, uFieldFlagsConstrained,
-        type, offsetof(EnumerableExtensions__LinkedList, Next), 0);
-}
-
-uType* EnumerableExtensions__LinkedList_typeof()
-{
-    static uSStrong<uType*> type;
-    if (type != NULL) return type;
-
-    uTypeOptions options;
-    options.FieldCount = 2;
-    options.GenericCount = 1;
-    options.ObjectSize = sizeof(EnumerableExtensions__LinkedList);
-    options.TypeSize = sizeof(uType);
-    type = uClassType::New("Uno.Collections.EnumerableExtensions.LinkedList`1", options);
-    type->fp_build_ = EnumerableExtensions__LinkedList_build;
-    return type;
-}
-
-// public LinkedList(T item, Uno.Collections.EnumerableExtensions.LinkedList<T> next) :61
-void EnumerableExtensions__LinkedList__ctor__fn(EnumerableExtensions__LinkedList* __this, void* item, EnumerableExtensions__LinkedList* next)
-{
-    __this->Item() = item;
-    __this->Next = next;
-}
-
-// public LinkedList New(T item, Uno.Collections.EnumerableExtensions.LinkedList<T> next) :61
-void EnumerableExtensions__LinkedList__New1_fn(uType* __type, void* item, EnumerableExtensions__LinkedList* next, EnumerableExtensions__LinkedList** __retval)
-{
-    EnumerableExtensions__LinkedList* obj1 = (EnumerableExtensions__LinkedList*)uNew(__type);
-    EnumerableExtensions__LinkedList__ctor__fn(obj1, item, next);
-    return *__retval = obj1, void();
-}
-// }
-
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/LinkedList.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/LinkedList.uno
 // ---------------------------------------------------------------------------------
 
 // public sealed class LinkedListNode<T> :6
@@ -2810,13 +2813,15 @@ void LinkedListNode::Previous(LinkedListNode* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/List.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/List.uno
 // ---------------------------------------------------------------------------
 
 // public sealed class List<T> :6
 // {
 static void List_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetPrecalc(
         type->T(0)->Array(),
         List__Enumerator_typeof()->MakeType(type->T(0), NULL),
@@ -2843,6 +2848,7 @@ List_type* List_typeof()
     options.FieldCount = 3;
     options.GenericCount = 1;
     options.InterfaceCount = 3;
+    options.DependencyCount = 1;
     options.PrecalcCount = 6;
     options.ObjectSize = sizeof(List);
     options.TypeSize = sizeof(List_type);
@@ -3195,7 +3201,7 @@ List* List::New2(uType* __type, int32_t capacity)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Collections/1.8.0/ObservableList.uno
+// /usr/local/share/uno/Packages/Uno.Collections/1.9.0/ObservableList.uno
 // ----------------------------------------------------------------------
 
 // public sealed class ObservableList<T> :6
@@ -3451,7 +3457,7 @@ ObservableList* ObservableList::New1(uType* __type, uDelegate* added, uDelegate*
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Collections/1.8.0/Extensions/OfType.uno
+// /usr/local/share/uno/Packages/Uno.Collections/1.9.0/Extensions/OfType.uno
 // -------------------------------------------------------------------------
 
 // internal sealed class OfTypeEnumerable<T, U> :3
@@ -3530,7 +3536,7 @@ OfTypeEnumerable* OfTypeEnumerable::New1(uType* __type, uObject* source)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Collections/1.8.0/Extensions/OfType.uno
+// /usr/local/share/uno/Packages/Uno.Collections/1.9.0/Extensions/OfType.uno
 // -------------------------------------------------------------------------
 
 // internal sealed class OfTypeEnumerator<T, U> :18
@@ -3658,7 +3664,7 @@ OfTypeEnumerator* OfTypeEnumerator::New1(uType* __type, uObject* source)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/PriorityQueue.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/PriorityQueue.uno
 // --------------------------------------------------------------------------
 
 // internal sealed class PriorityQueue<T> :23
@@ -3844,7 +3850,7 @@ PriorityQueue* PriorityQueue::New1(uType* __type, int32_t type)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/PriorityQueue.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/PriorityQueue.uno
 // --------------------------------------------------------------------------
 
 // internal struct PriorityQueueItem<T> :5
@@ -3871,7 +3877,7 @@ uStructType* PriorityQueueItem_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/PriorityQueue.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/PriorityQueue.uno
 // --------------------------------------------------------------------------
 
 // internal enum PriorityQueueType :11
@@ -3887,7 +3893,7 @@ uEnumType* PriorityQueueType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/Queue.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/Queue.uno
 // ----------------------------------------------------------------------------
 
 // public sealed class Queue<T> :6
@@ -4074,7 +4080,7 @@ Queue* Queue::New1(uType* __type)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Internal/RootableList.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/RootableList.uno
 // -------------------------------------------------------------------------
 
 // public sealed class RootableList<T> :12
@@ -4244,6 +4250,22 @@ void RootableList__RemoveAt_fn(RootableList* __this, int32_t* index)
     __this->RemoveAt(*index);
 }
 
+// public void ReplaceAt(int index, T item) :109
+void RootableList__ReplaceAt_fn(RootableList* __this, int32_t* index, void* item)
+{
+    uT ret10(__this->__type->T(0), U_ALLOCA(__this->__type->T(0)->ValueSize));
+    uT old(__this->__type->T(0), U_ALLOCA(__this->__type->T(0)->ValueSize));
+    int32_t index_ = *index;
+
+    if (__this->_items == NULL)
+        U_THROW(::g::Uno::IndexOutOfRangeException::New4());
+
+    old = (::g::Uno::Collections::List__get_Item_fn(uPtr(__this->_items), uCRef<int32_t>(index_), &ret10), ret10);
+    ::g::Uno::Collections::List__set_Item_fn(uPtr(__this->_items), uCRef<int32_t>(index_), item);
+    RootableList__OnRemoved_fn(__this, old);
+    RootableList__OnAdded_fn(__this, item);
+}
+
 // public void RootSubscribe(Uno.Action<T> added, Uno.Action<T> removed) :32
 void RootableList__RootSubscribe_fn(RootableList* __this, uDelegate* added, uDelegate* removed)
 {
@@ -4411,7 +4433,7 @@ RootableList* RootableList::New1(uType* __type)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Collections/1.8.0/Extensions/Select.uno
+// /usr/local/share/uno/Packages/Uno.Collections/1.9.0/Extensions/Select.uno
 // -------------------------------------------------------------------------
 
 // internal sealed class SelectEnumerable<T, TRet> :3
@@ -4492,7 +4514,7 @@ SelectEnumerable* SelectEnumerable::New1(uType* __type, uObject* source, uDelega
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Collections/1.8.0/Extensions/Select.uno
+// /usr/local/share/uno/Packages/Uno.Collections/1.9.0/Extensions/Select.uno
 // -------------------------------------------------------------------------
 
 // internal sealed class SelectEnumerator<T, TRet> :20
@@ -4607,7 +4629,7 @@ SelectEnumerator* SelectEnumerator::New1(uType* __type, uObject* source, uDelega
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Collections/Dictionary.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/Dictionary.uno
 // ---------------------------------------------------------------------------------
 
 // public sealed class Dictionary<TKey, TValue>.ValueCollection :168

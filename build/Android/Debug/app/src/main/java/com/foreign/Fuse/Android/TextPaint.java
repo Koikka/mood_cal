@@ -20,15 +20,15 @@ public class TextPaint
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object Create399()
+    public static Object Create402()
     {
         return new android.text.TextPaint();
     }
     
-    public static void GetTextBounds400(final Object handle,final String text,final int start,final int end,final com.uno.IntArray r)
+    public static void GetTextBounds403(final Object handle,final String text,final int start,final int end,final com.uno.IntArray r)
     {
         android.graphics.Rect rect = new android.graphics.Rect();
         ((android.text.TextPaint)handle).getTextBounds(text, start, end, rect);
@@ -38,22 +38,22 @@ public class TextPaint
         r.set(3, rect.bottom);
     }
     
-    public static void SetAntiAlias401(final Object handle,final boolean value)
+    public static void SetAntiAlias404(final Object handle,final boolean value)
     {
         ((android.text.TextPaint)handle).setAntiAlias(value);
     }
     
-    public static void SetColor402(final Object handle,final int color)
+    public static void SetColor405(final Object handle,final int color)
     {
         ((android.text.TextPaint)handle).setColor(color);
     }
     
-    public static void SetTextSize403(final Object handle,final float textSize)
+    public static void SetTextSize406(final Object handle,final float textSize)
     {
         ((android.text.TextPaint)handle).setTextSize(textSize);
     }
     
-    public static void SetTypeface404(final Object paintHandle,final Object typefaceHandle)
+    public static void SetTypeface407(final Object paintHandle,final Object typefaceHandle)
     {
         ((android.text.TextPaint)paintHandle).setTypeface(((android.graphics.Typeface)typefaceHandle));
     }

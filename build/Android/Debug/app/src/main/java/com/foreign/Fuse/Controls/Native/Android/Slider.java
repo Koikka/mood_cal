@@ -20,28 +20,28 @@ public class Slider
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void AddChangedCallback179(final UnoObject _this, final Object handle)
+    public static void AddChangedCallback182(final UnoObject _this, final Object handle)
     {
         ((android.widget.SeekBar)handle).setOnSeekBarChangeListener(new android.widget.SeekBar.OnSeekBarChangeListener() {
         	public void onProgressChanged(android.widget.SeekBar seekBar, int progress, boolean fromUser) {
-        		ExternedBlockHost.callUno_Fuse_Controls_Native_Android_Slider_OnSeekBarChanged180((UnoObject)_this,(double)progress / 1000.0,(boolean)fromUser);
+        		ExternedBlockHost.callUno_Fuse_Controls_Native_Android_Slider_OnSeekBarChanged183((UnoObject)_this,(double)progress / 1000.0,(boolean)fromUser);
         	}
         	public void onStartTrackingTouch(android.widget.SeekBar seekBar) { }
         	public void onStopTrackingTouch(android.widget.SeekBar seekBar) { }
         });
     }
     
-    public static Object Create181()
+    public static Object Create184()
     {
         android.widget.SeekBar seekBar = new android.widget.SeekBar(com.fuse.Activity.getRootActivity());
         seekBar.setMax(1000);
         return seekBar;
     }
     
-    public static void SetProgress182(final Object handle,final double progress)
+    public static void SetProgress185(final Object handle,final double progress)
     {
         ((android.widget.SeekBar)handle).setProgress( (int)(progress * 1000.0) );
     }

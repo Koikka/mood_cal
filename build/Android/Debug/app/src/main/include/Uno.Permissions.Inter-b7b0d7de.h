@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Uno.Permissions/1.8.0/AndroidPermissionsInternal.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/AndroidPermissionsInternal.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -16,12 +16,14 @@ namespace Internal{
 uType* Android_typeof();
 void Android___camera_fn(::g::Uno::Permissions::PlatformPermission* __retval);
 void Android___read_external_storage_fn(::g::Uno::Permissions::PlatformPermission* __retval);
+void Android___read_phone_state_fn(::g::Uno::Permissions::PlatformPermission* __retval);
 void Android___write_external_storage_fn(::g::Uno::Permissions::PlatformPermission* __retval);
 
 struct Android : uObject
 {
     static ::g::Uno::Permissions::PlatformPermission _camera();
     static ::g::Uno::Permissions::PlatformPermission _read_external_storage();
+    static ::g::Uno::Permissions::PlatformPermission _read_phone_state();
     static ::g::Uno::Permissions::PlatformPermission _write_external_storage();
 };
 // }

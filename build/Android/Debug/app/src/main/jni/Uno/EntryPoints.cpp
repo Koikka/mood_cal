@@ -199,7 +199,7 @@ jint JNI_OnLoad(JavaVM* vm, void* reserved)
         LOGD ("&&&&&&& GetEnv failed &&&&&&");
         return -1;
     }
-    jclass activityClass = env->FindClass("com/apps/mood_calendar/mood_calendar");
+    jclass activityClass = env->FindClass("fi/samk/mood_cal/Kalenteri");
     jclass entryPointsClass = env->FindClass("com/fuse/ActivityNativeEntryPoints");
     jclass nativeExternClass = env->FindClass("com/Bindings/ExternedBlockHost");
 
@@ -220,7 +220,7 @@ jint JNI_OnLoad(JavaVM* vm, void* reserved)
     JniHelper::Init(vm, env, activityClass, nativeExternClass);
     uBase::BaseLib::Init();
     Xli::PlatformSpecific::Android::PostInit();
-    Xli::PlatformSpecific::Android::SetLogTag("mood_calendar");
+    Xli::PlatformSpecific::Android::SetLogTag("Kalenteri");
 
 
     // java callbacks

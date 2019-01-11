@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.8.1/LayoutFunctions.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/LayoutFunctions.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Reactive.Expression.h>
 #include <Fuse.Reactive.IExpression.h>
 namespace g{namespace Fuse{namespace Elements{struct Element;}}}

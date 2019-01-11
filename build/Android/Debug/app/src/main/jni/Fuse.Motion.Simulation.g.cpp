@@ -38,7 +38,7 @@ namespace Fuse{
 namespace Motion{
 namespace Simulation{
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/AngularAdapter.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/AngularAdapter.uno
 // -----------------------------------------------------------------------------
 
 // internal sealed class AdapterMultiplier<T> :92
@@ -247,7 +247,7 @@ AdapterMultiplier* AdapterMultiplier::New1(uType* __type, uObject* impl, double 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/AngularAdapter.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/AngularAdapter.uno
 // -----------------------------------------------------------------------------
 
 // internal sealed class AngularAdapter<T> :8
@@ -258,6 +258,8 @@ static void AngularAdapter_build(uType* type)
     ::TYPES[1] = ::g::Fuse::Motion::Simulation::DestinationSimulation_typeof();
     ::TYPES[2] = ::g::Fuse::Motion::Simulation::Simulation_typeof();
     ::TYPES[3] = ::g::Fuse::Motion::Simulation::MotionSimulation_typeof();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetPrecalc(
         ::g::Fuse::Motion::Simulation::DestinationSimulation_typeof()->MakeType(type->T(0), NULL),
         ::g::Fuse::Internal::BlenderMap_typeof()->MakeMethod(1/*GetScalar<T>*/, type->T(0), NULL),
@@ -280,6 +282,7 @@ AngularAdapter_type* AngularAdapter_typeof()
     options.FieldCount = 2;
     options.GenericCount = 1;
     options.InterfaceCount = 3;
+    options.DependencyCount = 1;
     options.PrecalcCount = 3;
     options.ObjectSize = sizeof(AngularAdapter);
     options.TypeSize = sizeof(AngularAdapter_type);
@@ -469,13 +472,15 @@ AngularAdapter* AngularAdapter::New1(uType* __type, uObject* impl)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/BoundedRegion2D.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/BoundedRegion2D.uno
 // ------------------------------------------------------------------------------
 
 // internal sealed class BasicBoundedRegion2D :31
 // {
 static void BasicBoundedRegion2D_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetInterfaces(
         ::g::Fuse::Motion::Simulation::BoundedRegion2D_typeof(), offsetof(BasicBoundedRegion2D_type, interface0),
         ::g::Fuse::Motion::Simulation::MotionSimulation_typeof()->MakeType(::g::Uno::Float2_typeof(), NULL), offsetof(BasicBoundedRegion2D_type, interface1),
@@ -501,6 +506,7 @@ BasicBoundedRegion2D_type* BasicBoundedRegion2D_typeof()
     uTypeOptions options;
     options.FieldCount = 10;
     options.InterfaceCount = 3;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(BasicBoundedRegion2D);
     options.TypeSize = sizeof(BasicBoundedRegion2D_type);
     type = (BasicBoundedRegion2D_type*)uClassType::New("Fuse.Motion.Simulation.BasicBoundedRegion2D", options);
@@ -1171,7 +1177,7 @@ BasicBoundedRegion2D* BasicBoundedRegion2D::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/BoundedRegion2D.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/BoundedRegion2D.uno
 // ------------------------------------------------------------------------------
 
 // internal abstract interface BoundedRegion2D :7
@@ -1186,7 +1192,7 @@ uInterfaceType* BoundedRegion2D_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/Simulation.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/Simulation.uno
 // -------------------------------------------------------------------------
 
 // internal abstract interface DestinationSimulation<T> :25
@@ -1201,7 +1207,7 @@ uInterfaceType* DestinationSimulation_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/EasingMotion.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/EasingMotion.uno
 // ---------------------------------------------------------------------------
 
 // internal sealed class EasingMotion<T> :7
@@ -1211,7 +1217,8 @@ static void EasingMotion_build(uType* type)
     ::STRINGS[0] = uString::Const("Unsupported unit type: ");
     ::TYPES[0] = ::g::Fuse::Internal::BlenderMap_typeof();
     type->SetDependencies(
-        ::g::Fuse::Animations::Easing_typeof());
+        ::g::Fuse::Animations::Easing_typeof(),
+        ::g::Uno::Math_typeof());
     type->SetPrecalc(
         ::g::Fuse::Internal::BlenderMap_typeof()->MakeMethod(0/*Get<T>*/, type->T(0), NULL));
     type->SetInterfaces(
@@ -1248,7 +1255,7 @@ EasingMotion_type* EasingMotion_typeof()
     options.FieldCount = 18;
     options.GenericCount = 1;
     options.InterfaceCount = 3;
-    options.DependencyCount = 1;
+    options.DependencyCount = 2;
     options.PrecalcCount = 1;
     options.ObjectSize = sizeof(EasingMotion);
     options.TypeSize = sizeof(EasingMotion_type);
@@ -1665,7 +1672,7 @@ EasingMotion* EasingMotion::New1(uType* __type)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/ElasticForce.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/ElasticForce.uno
 // ---------------------------------------------------------------------------
 
 // internal sealed class ElasticForce<T> :6
@@ -1674,6 +1681,8 @@ static void ElasticForce_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("Unsupported unit type: ");
     ::TYPES[0] = ::g::Fuse::Internal::BlenderMap_typeof();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetPrecalc(
         ::g::Fuse::Internal::BlenderMap_typeof()->MakeMethod(0/*Get<T>*/, type->T(0), NULL));
     type->SetInterfaces(
@@ -1707,6 +1716,7 @@ ElasticForce_type* ElasticForce_typeof()
     options.FieldCount = 15;
     options.GenericCount = 1;
     options.InterfaceCount = 3;
+    options.DependencyCount = 1;
     options.PrecalcCount = 1;
     options.ObjectSize = sizeof(ElasticForce);
     options.TypeSize = sizeof(ElasticForce_type);
@@ -2177,7 +2187,7 @@ ElasticForce* ElasticForce::New1(uType* __type, float scale)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/Friction.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/Friction.uno
 // -----------------------------------------------------------------------
 
 // internal sealed class Friction<T> :6
@@ -2505,7 +2515,7 @@ Friction* Friction::New1(uType* __type)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/Simulation.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/Simulation.uno
 // -------------------------------------------------------------------------
 
 // internal abstract interface MotionSimulation<T> :19
@@ -2520,7 +2530,7 @@ uInterfaceType* MotionSimulation_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/BoundedRegion2D.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/BoundedRegion2D.uno
 // ------------------------------------------------------------------------------
 
 // private enum BasicBoundedRegion2D.MoveMode :72
@@ -2539,7 +2549,7 @@ uEnumType* BasicBoundedRegion2D__MoveMode_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/PointerVelocity.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/PointerVelocity.uno
 // ------------------------------------------------------------------------------
 
 // public sealed class PointerVelocity<T> :17
@@ -2547,6 +2557,8 @@ uEnumType* BasicBoundedRegion2D__MoveMode_typeof()
 static void PointerVelocity_build(uType* type)
 {
     ::TYPES[0] = ::g::Fuse::Internal::BlenderMap_typeof();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetPrecalc(
         ::g::Fuse::Internal::BlenderMap_typeof()->MakeMethod(0/*Get<T>*/, type->T(0), NULL));
     type->SetFields(0,
@@ -2574,6 +2586,7 @@ uType* PointerVelocity_typeof()
     uTypeOptions options;
     options.FieldCount = 14;
     options.GenericCount = 1;
+    options.DependencyCount = 1;
     options.PrecalcCount = 1;
     options.ObjectSize = sizeof(PointerVelocity);
     options.TypeSize = sizeof(uType);
@@ -2729,7 +2742,7 @@ PointerVelocity* PointerVelocity::New1(uType* __type)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/PointerVelocity.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/PointerVelocity.uno
 // ------------------------------------------------------------------------------
 
 // public enum SampleFlags :6
@@ -2746,7 +2759,7 @@ uEnumType* SampleFlags_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/Simulation.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/Simulation.uno
 // -------------------------------------------------------------------------
 
 // internal abstract interface Simulation :5
@@ -2761,7 +2774,7 @@ uInterfaceType* Simulation_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Simulation/SmoothSnap.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Simulation/SmoothSnap.uno
 // -------------------------------------------------------------------------
 
 // internal sealed class SmoothSnap<T> :5
@@ -2770,6 +2783,8 @@ static void SmoothSnap_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("Unsupported unit type: ");
     ::TYPES[0] = ::g::Fuse::Internal::BlenderMap_typeof();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetPrecalc(
         ::g::Fuse::Internal::BlenderMap_typeof()->MakeMethod(0/*Get<T>*/, type->T(0), NULL));
     type->SetInterfaces(
@@ -2796,6 +2811,7 @@ SmoothSnap_type* SmoothSnap_typeof()
     options.FieldCount = 8;
     options.GenericCount = 1;
     options.InterfaceCount = 3;
+    options.DependencyCount = 1;
     options.PrecalcCount = 1;
     options.ObjectSize = sizeof(SmoothSnap);
     options.TypeSize = sizeof(SmoothSnap_type);

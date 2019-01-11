@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls/1.8.1/Graphics/ControlVisual.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls/1.9.0/Graphics/ControlVisual.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -6,6 +6,7 @@
 #include <Fuse.Controls.Graphics.Visual.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -40,7 +41,7 @@ void ControlVisual__OnUnrooted_fn(ControlVisual* __this);
 
 struct ControlVisual : ::g::Fuse::Controls::Graphics::Visual
 {
-    uTField _control() { return __type->Field(this, 68); }
+    uTField _control() { return __type->Field(this, 70); }
 
     void ctor_4();
     void Attach() { (((ControlVisual_type*)__type)->fp_Attach)(this); }

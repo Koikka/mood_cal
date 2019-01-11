@@ -1,10 +1,11 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Translation.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Translation.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITransformRelative.h>
 #include <Fuse.ITranslationMode.h>
 #include <Fuse.RelativeTransform-1.h>
@@ -14,6 +15,7 @@
 #include <Uno.Collections.IList-1.h>
 namespace g{namespace Fuse{struct FastMatrix;}}
 namespace g{namespace Fuse{struct Translation;}}
+namespace g{namespace Uno{struct Float2;}}
 namespace g{namespace Uno{struct Float3;}}
 
 namespace g{
@@ -31,6 +33,8 @@ void Translation__get_Vector_fn(Translation* __this, ::g::Uno::Float3* __retval)
 void Translation__set_Vector_fn(Translation* __this, ::g::Uno::Float3* value);
 void Translation__get_X_fn(Translation* __this, float* __retval);
 void Translation__set_X_fn(Translation* __this, float* value);
+void Translation__get_XY_fn(Translation* __this, ::g::Uno::Float2* __retval);
+void Translation__set_XY_fn(Translation* __this, ::g::Uno::Float2* value);
 void Translation__get_Y_fn(Translation* __this, float* __retval);
 void Translation__set_Y_fn(Translation* __this, float* value);
 void Translation__get_Z_fn(Translation* __this, float* __retval);
@@ -47,6 +51,8 @@ struct Translation : ::g::Fuse::RelativeTransform
     void Vector(::g::Uno::Float3 value);
     float X();
     void X(float value);
+    ::g::Uno::Float2 XY();
+    void XY(::g::Uno::Float2 value);
     float Y();
     void Y(float value);
     float Z();

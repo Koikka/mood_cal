@@ -1,8 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/Shapes/PathExpression.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/Shapes/PathExpression.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Controls.PathExpression.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Reactive.IExpression.h>
 namespace g{namespace Fuse{namespace Controls{struct PathPointAtTime;}}}
 namespace g{namespace Fuse{namespace Controls{struct SegmentedShape;}}}

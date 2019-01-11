@@ -45,7 +45,7 @@ namespace g{
 namespace Uno{
 namespace Platform{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/Android/AndroidDisplay.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/Android/AndroidDisplay.uno
 // ------------------------------------------------------------------------------------------
 
 // public sealed extern class AndroidDisplay :10
@@ -137,7 +137,7 @@ void AndroidDisplay::JavaEnableTicks()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "JavaEnableTicks53", "(Lcom/uno/UnoObject;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "JavaEnableTicks56", "(Lcom/uno/UnoObject;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_this_);
@@ -161,7 +161,7 @@ float AndroidDisplay::_getDensity()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "_getDensity52", "()F");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "_getDensity55", "()F");
         jfloat __jresult = U_JNIVAR->CallStaticFloatMethod(__cls,__mtd);
         float __result = (float)__jresult;
         ::g::Android::Base::JNI::CheckException();
@@ -179,7 +179,7 @@ AndroidDisplay* AndroidDisplay::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/CoreApp.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/CoreApp.uno
 // ---------------------------------------------------------------------------
 
 // public enum ApplicationState :11
@@ -198,7 +198,7 @@ uEnumType* ApplicationState_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/CoreApp.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/CoreApp.uno
 // ---------------------------------------------------------------------------
 
 // public delegate void ApplicationStateTransitionHandler(Uno.Platform.ApplicationState newState) :21
@@ -213,7 +213,7 @@ uDelegateType* ApplicationStateTransitionHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/CoreApp.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/CoreApp.uno
 // ---------------------------------------------------------------------------
 
 // public abstract class CoreApp :26
@@ -227,7 +227,7 @@ static void CoreApp__cctor__fn(uType* __type)
 static void CoreApp_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("Uno.Platform.CoreApp.State == Uno.Platform.ApplicationState.Foreground");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/CoreApp.uno");
+    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/CoreApp.uno");
     ::STRINGS[2] = uString::Const("Uno.Platform.CoreApp.State == Uno.Platform.ApplicationState.Background");
     ::STRINGS[3] = uString::Const("EnterForeground() called on terminating application");
     ::STRINGS[4] = uString::Const("EnterForeground() called on uninitialized application");
@@ -814,7 +814,7 @@ void CoreApp::remove_Terminating(uDelegate* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/Displays.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/Displays.uno
 // ----------------------------------------------------------------------------
 
 // public abstract class Display :54
@@ -991,7 +991,7 @@ void Display::TicksPerSecond(uint32_t value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/Displays.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/Displays.uno
 // ----------------------------------------------------------------------------
 
 // public static class Displays :10
@@ -1093,7 +1093,7 @@ void Displays::All(::g::Uno::Collections::List* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/Enums.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/Enums.uno
 // -------------------------------------------------------------------------
 
 // public enum EventModifiers :148
@@ -1116,7 +1116,7 @@ uEnumType* EventModifiers_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/Enums.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/Enums.uno
 // -------------------------------------------------------------------------
 
 // public enum Key :6
@@ -1212,7 +1212,7 @@ uEnumType* Key_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/KeyEventArgs.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/KeyEventArgs.uno
 // --------------------------------------------------------------------------------
 
 // public sealed class KeyEventArgs :6
@@ -1415,7 +1415,7 @@ KeyEventArgs* KeyEventArgs::New2(int32_t key, int32_t modifiers, ::g::Uno::Platf
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/OSFrame.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/OSFrame.uno
 // ---------------------------------------------------------------------------
 
 // public class OSFrame :7
@@ -1453,7 +1453,7 @@ void OSFrame::ctor_()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/Enums.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/Enums.uno
 // -------------------------------------------------------------------------
 
 // public enum PointerType :130
@@ -1469,7 +1469,7 @@ uEnumType* PointerType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/TimerEventArgs.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/TimerEventArgs.uno
 // ----------------------------------------------------------------------------------
 
 // public sealed class TimerEventArgs :6
@@ -1599,7 +1599,7 @@ TimerEventArgs* TimerEventArgs::New2(double lastTickTimestamp, double tickDurati
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Platform/Window.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/Window.uno
 // --------------------------------------------------------------------------
 
 // public sealed extern class Window :7

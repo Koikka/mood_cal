@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/String.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/String.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -57,6 +57,8 @@ void String__ToString_fn(uString* __this, uString** __retval);
 void String__ToUpper_fn(uString* __this, uString** __retval);
 void String__Trim_fn(uString* __this, uString** __retval);
 void String__Trim1_fn(uString* __this, uArray* trimChars, uString** __retval);
+void String__TrimEnd_fn(uString* __this, uArray* trimChars, uString** __retval);
+void String__TrimEndWhiteSpace_fn(uString* __this, uString** __retval);
 
 struct String
 {
@@ -95,6 +97,8 @@ struct String
     static uString* ToUpper(uString* __this);
     static uString* Trim(uString* __this);
     static uString* Trim1(uString* __this, uArray* trimChars);
+    static uString* TrimEnd(uString* __this, uArray* trimChars);
+    static uString* TrimEndWhiteSpace(uString* __this);
     static int32_t Compare(uString* a, uString* b);
     static uString* Concat(uObject* a, uObject* b);
     static uString* Concat1(uString* a, uString* b);

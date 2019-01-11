@@ -20,10 +20,10 @@ public class Resources
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static int GetID73(final String path)
+    public static int GetID76(final String path)
     {
         return com.fuse.R.get(path);
     }

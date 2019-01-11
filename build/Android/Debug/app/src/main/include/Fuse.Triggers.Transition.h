@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.8.1/Transition.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/Transition.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,6 +8,7 @@
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.Internal.MiniList-1.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Trigger.h>
 #include <Uno.Collections.ICollection-1.h>

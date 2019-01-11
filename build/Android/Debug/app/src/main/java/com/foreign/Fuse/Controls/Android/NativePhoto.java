@@ -34,10 +34,10 @@ public class NativePhoto
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object GetInputStream315(final Object byteArray)
+    public static Object GetInputStream318(final Object byteArray)
     {
         return new java.io.ByteArrayInputStream((byte[])byteArray);
     }
@@ -45,7 +45,7 @@ public class NativePhoto
     
     public static class UploadTexturePromise
     {
-        public static Object DecodeJpegBytes306(final com.foreign.Uno.Action_String onReject,final Object byteArray)
+        public static Object DecodeJpegBytes309(final com.foreign.Uno.Action_String onReject,final Object byteArray)
         {
             try {
             	byte[] jpegBytes = (byte[])byteArray;
@@ -56,17 +56,17 @@ public class NativePhoto
             }
         }
         
-        public static int GetHeight307(final Object bitmap)
+        public static int GetHeight310(final Object bitmap)
         {
             return ((android.graphics.Bitmap)bitmap).getHeight();
         }
         
-        public static int GetWidth308(final Object bitmap)
+        public static int GetWidth311(final Object bitmap)
         {
             return ((android.graphics.Bitmap)bitmap).getWidth();
         }
         
-        public static void Upload1309(final com.foreign.Uno.Action_String onReject,final Object bitmap)
+        public static void Upload1312(final com.foreign.Uno.Action_String onReject,final Object bitmap)
         {
             try {
             	android.opengl.GLUtils.texImage2D(android.opengl.GLES20.GL_TEXTURE_2D, 0, (android.graphics.Bitmap)bitmap, 0);
@@ -80,12 +80,12 @@ public class NativePhoto
     
     public static class PhotoHandlePromise
     {
-        public static Object GetInputStream310(final Object byteArray)
+        public static Object GetInputStream313(final Object byteArray)
         {
             return new java.io.ByteArrayInputStream((byte[])byteArray);
         }
         
-        public static void Load311(final UnoObject _this, final Object byteArray,final com.uno.FloatArray matrix,final com.foreign.Uno.Action_Object onResolve,final com.foreign.Uno.Action_String onReject)
+        public static void Load314(final UnoObject _this, final Object byteArray,final com.uno.FloatArray matrix,final com.foreign.Uno.Action_Object onResolve,final com.foreign.Uno.Action_String onReject)
         {
             new Thread(
             	new Runnable() {
@@ -110,7 +110,7 @@ public class NativePhoto
     
     public static class SavePromise
     {
-        public static void Save312(final Object byteArray,final com.foreign.Uno.Action_String resolve,final com.foreign.Uno.Action_String reject)
+        public static void Save315(final Object byteArray,final com.foreign.Uno.Action_String resolve,final com.foreign.Uno.Action_String reject)
         {
             new java.lang.Thread(
             	new java.lang.Runnable() {
@@ -135,12 +135,12 @@ public class NativePhoto
     
     public static class SaveThumbnailPromise
     {
-        public static void RunAsync313(final com.foreign.Uno.Action callback)
+        public static void RunAsync316(final com.foreign.Uno.Action callback)
         {
             new java.lang.Thread(callback).start();
         }
         
-        public static void SaveThumbnail1314(final Object byteArray,final int exifOrientation,final com.foreign.Uno.Action_String resolve,final com.foreign.Uno.Action_String reject,final boolean useHint,final float widthHint,final float heightHint)
+        public static void SaveThumbnail1317(final Object byteArray,final int exifOrientation,final com.foreign.Uno.Action_String resolve,final com.foreign.Uno.Action_String reject,final boolean useHint,final float widthHint,final float heightHint)
         {
             Bitmap input = null;
             Bitmap output = null;
@@ -149,7 +149,7 @@ public class NativePhoto
             	input = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
             
             	DisplayMetrics displayMetrics = new DisplayMetrics();
-            	com.apps.mood_calendar.mood_calendar
+            	fi.samk.mood_cal.Kalenteri
             		.GetRootActivity()
             		.getWindowManager()
             		.getDefaultDisplay()

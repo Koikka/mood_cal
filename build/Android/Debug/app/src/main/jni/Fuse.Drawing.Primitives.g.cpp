@@ -66,7 +66,7 @@ namespace Fuse{
 namespace Drawing{
 namespace Primitives{
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Circle.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Circle.uno
 // ----------------------------------------------------------------------
 
 // public sealed class Circle :20
@@ -89,7 +89,8 @@ static void Circle_build(uType* type)
     ::TYPES[7] = ::g::Fuse::Drawing::StaticSolidColor_typeof();
     ::TYPES[8] = ::g::Fuse::Drawing::Primitives::FillCoverage_typeof();
     type->SetDependencies(
-        ::g::FuseDrawingPrimitives_bundle_typeof());
+        ::g::FuseDrawingPrimitives_bundle_typeof(),
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::g::Fuse::Drawing::Primitives::LimitCoverage_typeof(), offsetof(Circle, _oneLimitCoverage), 0,
         ::TYPES[0/*Fuse.Drawing.Primitives.StrokeCoverage*/], offsetof(Circle, _strokeCoverage), 0,
@@ -130,7 +131,7 @@ uType* Circle_typeof()
 
     uTypeOptions options;
     options.FieldCount = 30;
-    options.DependencyCount = 1;
+    options.DependencyCount = 2;
     options.ObjectSize = sizeof(Circle);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Fuse.Drawing.Primitives.Circle", options);
@@ -1037,7 +1038,7 @@ Circle* Circle::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Wedge.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Wedge.uno
 // ---------------------------------------------------------------------
 
 // internal sealed class ConcaveWedgeCoverage :46
@@ -1090,7 +1091,7 @@ ConcaveWedgeCoverage* ConcaveWedgeCoverage::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Wedge.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Wedge.uno
 // ---------------------------------------------------------------------
 
 // internal sealed class ConvexWedgeCoverage :41
@@ -1143,7 +1144,7 @@ ConvexWedgeCoverage* ConvexWedgeCoverage::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Rectangle.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Rectangle.uno
 // -------------------------------------------------------------------------
 
 // internal abstract class Coverage :36
@@ -1177,7 +1178,7 @@ void Coverage::ctor_()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Rectangle.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Rectangle.uno
 // -------------------------------------------------------------------------
 
 // internal class Falloff :55
@@ -1226,7 +1227,7 @@ Falloff* Falloff::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Rectangle.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Rectangle.uno
 // -------------------------------------------------------------------------
 
 // internal sealed class FillCoverage :40
@@ -1277,7 +1278,7 @@ FillCoverage* FillCoverage::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Circle.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Circle.uno
 // ----------------------------------------------------------------------
 
 // internal abstract class LimitCoverage :11
@@ -1311,7 +1312,7 @@ void LimitCoverage::ctor_()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Circle.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Circle.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class OneLimitCoverage :15
@@ -1362,7 +1363,7 @@ OneLimitCoverage* OneLimitCoverage::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Rectangle.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Rectangle.uno
 // -------------------------------------------------------------------------
 
 // public sealed class Rectangle :67
@@ -1389,7 +1390,8 @@ static void Rectangle_build(uType* type)
     ::TYPES[13] = ::g::Uno::Float2_typeof()->Array();
     ::TYPES[14] = ::g::Uno::Int_typeof()->Array();
     type->SetDependencies(
-        ::g::FuseDrawingPrimitives_bundle_typeof());
+        ::g::FuseDrawingPrimitives_bundle_typeof(),
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::TYPES[0/*Fuse.Drawing.Primitives.StrokeCoverage*/], offsetof(Rectangle, _strokeCoverage), 0,
         ::TYPES[8/*Fuse.Drawing.Primitives.FillCoverage*/], offsetof(Rectangle, _fillCoverage), 0,
@@ -1424,7 +1426,7 @@ uType* Rectangle_typeof()
 
     uTypeOptions options;
     options.FieldCount = 24;
-    options.DependencyCount = 1;
+    options.DependencyCount = 2;
     options.ObjectSize = sizeof(Rectangle);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Fuse.Drawing.Primitives.Rectangle", options);
@@ -1480,6 +1482,12 @@ void Rectangle__neg_fn(Rectangle* __this, uArray* a, uArray** __retval)
 void Rectangle__New1_fn(Rectangle** __retval)
 {
     *__retval = Rectangle::New1();
+}
+
+// public void Shadow(Fuse.DrawContext dc, Fuse.Visual visual, float2 Size, float4 CornerRadius, Fuse.Drawing.Brush brush, [float2 Position], [float Smoothness]) :96
+void Rectangle__Shadow_fn(Rectangle* __this, ::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* visual, ::g::Uno::Float2* Size, ::g::Uno::Float4* CornerRadius, ::g::Fuse::Drawing::Brush* brush, ::g::Uno::Float2* Position, float* Smoothness)
+{
+    __this->Shadow(dc, visual, *Size, *CornerRadius, brush, *Position, *Smoothness);
 }
 
 // public void Stroke(Fuse.DrawContext dc, Fuse.Visual visual, float2 Size, float4 CornerRadius, Fuse.Drawing.Stroke stroke, [float2 Position], [float Smoothness]) :72
@@ -2116,7 +2124,7 @@ void Rectangle::InitBuffers()
             }
         }
 
-        uPtr(offsets)->Item< ::g::Uno::Float2>(i) = ::g::Uno::Float2__op_Implicit1(offset);
+        uPtr(offsets)->Item< ::g::Uno::Float2>(i) = ::g::Uno::Float2__op_Implicit2(offset);
     }
 
     uArray* vsr = uArray::Init<int32_t>(::TYPES[14/*int[]*/], 72, 10, 8, 11, 10, 6, 8, 10, 2, 6, 2, 3, 6, 14, 11, 8, 14, 8, 15, 8, 9, 15, 9, 12, 15, 3, 0, 6, 0, 1, 6, 6, 1, 4, 6, 4, 7, 7, 4, 5, 7, 5, 9, 9, 5, 13, 9, 13, 12, 2, 16, 3, 3, 16, 0, 1, 17, 4, 4, 17, 5, 15, 12, 19, 12, 
@@ -2159,6 +2167,12 @@ uArray* Rectangle::neg(uArray* a)
     return r;
 }
 
+// public void Shadow(Fuse.DrawContext dc, Fuse.Visual visual, float2 Size, float4 CornerRadius, Fuse.Drawing.Brush brush, [float2 Position], [float Smoothness]) [instance] :96
+void Rectangle::Shadow(::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* visual, ::g::Uno::Float2 Size, ::g::Uno::Float4 CornerRadius, ::g::Fuse::Drawing::Brush* brush, ::g::Uno::Float2 Position, float Smoothness)
+{
+    Draw(dc, visual, Size, CornerRadius, brush, _fillCoverage, ::g::Uno::Float2__New1(Smoothness), Position, Smoothness, _shadowFalloff);
+}
+
 // public void Stroke(Fuse.DrawContext dc, Fuse.Visual visual, float2 Size, float4 CornerRadius, Fuse.Drawing.Stroke stroke, [float2 Position], [float Smoothness]) [instance] :72
 void Rectangle::Stroke(::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* visual, ::g::Uno::Float2 Size, ::g::Uno::Float4 CornerRadius, ::g::Fuse::Drawing::Stroke* stroke, ::g::Uno::Float2 Position, float Smoothness)
 {
@@ -2190,7 +2204,7 @@ Rectangle* Rectangle::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Rectangle.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Rectangle.uno
 // -------------------------------------------------------------------------
 
 // internal sealed class ShadowFalloff :60
@@ -2241,7 +2255,7 @@ ShadowFalloff* ShadowFalloff::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Rectangle.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Rectangle.uno
 // -------------------------------------------------------------------------
 
 // internal sealed class StrokeCoverage :46
@@ -2298,7 +2312,7 @@ StrokeCoverage* StrokeCoverage::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Wedge.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Wedge.uno
 // ---------------------------------------------------------------------
 
 // public sealed class Wedge :51
@@ -2312,7 +2326,8 @@ static void Wedge__cctor__fn(uType* __type)
 static void Wedge_build(uType* type)
 {
     type->SetDependencies(
-        ::g::Fuse::Drawing::Primitives::Circle_typeof());
+        ::g::Fuse::Drawing::Primitives::Circle_typeof(),
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::g::Fuse::Drawing::Primitives::ConvexWedgeCoverage_typeof(), offsetof(Wedge, _convexWedgeCoverage), 0,
         ::g::Fuse::Drawing::Primitives::ConcaveWedgeCoverage_typeof(), offsetof(Wedge, _concaveWedgeCoverage), 0,
@@ -2328,7 +2343,7 @@ uType* Wedge_typeof()
 
     uTypeOptions options;
     options.FieldCount = 5;
-    options.DependencyCount = 1;
+    options.DependencyCount = 2;
     options.ObjectSize = sizeof(Wedge);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Fuse.Drawing.Primitives.Wedge", options);
@@ -2426,7 +2441,7 @@ Wedge* Wedge::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.8.1/Wedge.uno
+// /usr/local/share/uno/Packages/Fuse.Drawing.Primitives/1.9.0/Wedge.uno
 // ---------------------------------------------------------------------
 
 // internal abstract class WedgeCoverage :10

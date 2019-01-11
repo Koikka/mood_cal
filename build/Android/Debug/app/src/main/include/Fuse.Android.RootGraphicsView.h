@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Android/1.8.1/.uno/ux14/Fuse.Android.RootGraphicsView.g.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Android/1.9.0/.uno/ux15/Fuse.Android.RootGraphicsView.g.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,6 +12,7 @@
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
 #include <Fuse.IRenderViewport.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.IViewport.h>
 #include <Fuse.Node.h>

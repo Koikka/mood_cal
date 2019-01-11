@@ -4,6 +4,8 @@
 #include <windows.h>
 // Needed for UuidCreate()
 #include <Rpc.h>
+// Needed for SHGetKnownFolderPath()
+#include <ShlObj.h>
 
 // windows.h is mean, and define pre-processor symbols that cause problems :(
 
@@ -12,10 +14,12 @@
 #undef CreateDirectory
 #undef CreateMutex
 #undef DeleteFile
+#undef FindFirstFile
 #undef GetCurrentDirectory
 #undef GetEnvironmentVariable
 #undef GetMessage
 #undef GetSystemDirectory
+#undef GetTempPath
 #undef MessageBox
 #undef MoveFile
 #undef SetCurrentDirectory

@@ -61,7 +61,7 @@ namespace g{
 namespace Uno{
 namespace Graphics{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Enums.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Enums.uno
 // -------------------------------------------------------------------------
 
 // public enum BlendEquation :78
@@ -80,7 +80,7 @@ uEnumType* BlendEquation_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Enums.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Enums.uno
 // -------------------------------------------------------------------------
 
 // public enum BlendOperand :64
@@ -104,7 +104,7 @@ uEnumType* BlendOperand_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Enums.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Enums.uno
 // -------------------------------------------------------------------------
 
 // public enum BufferUsage :5
@@ -121,7 +121,7 @@ uEnumType* BufferUsage_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Enums.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Enums.uno
 // -------------------------------------------------------------------------
 
 // public enum CompareFunc :87
@@ -143,7 +143,7 @@ uEnumType* CompareFunc_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/DeviceBuffer.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/DeviceBuffer.uno
 // --------------------------------------------------------------------------------
 
 // public abstract class DeviceBuffer :7
@@ -428,7 +428,7 @@ void DeviceBuffer::Usage(int32_t value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Enums.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Enums.uno
 // -------------------------------------------------------------------------
 
 // public enum Format :123
@@ -449,7 +449,7 @@ uEnumType* Format_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/FormatHelpers.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/FormatHelpers.uno
 // ---------------------------------------------------------------------------------
 
 // public static class FormatHelpers :5
@@ -501,7 +501,7 @@ int32_t FormatHelpers::GetStrideInBytes(int32_t format)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Framebuffer.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Framebuffer.uno
 // -------------------------------------------------------------------------------
 
 // public sealed class Framebuffer :11
@@ -656,7 +656,7 @@ Framebuffer* Framebuffer::New1(::g::Uno::Int2 size, int32_t format, int32_t flag
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Framebuffer.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Framebuffer.uno
 // -------------------------------------------------------------------------------
 
 // public enum FramebufferFlags :4
@@ -673,7 +673,7 @@ uEnumType* FramebufferFlags_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/IndexBuffer.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/IndexBuffer.uno
 // -------------------------------------------------------------------------------
 
 // public sealed class IndexBuffer :6
@@ -757,7 +757,7 @@ IndexBuffer* IndexBuffer::New3(::g::Uno::Buffer* data, int32_t usage)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Enums.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Enums.uno
 // -------------------------------------------------------------------------
 
 // public enum IndexType :21
@@ -775,7 +775,7 @@ uEnumType* IndexType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Enums.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Enums.uno
 // -------------------------------------------------------------------------
 
 // public enum PolygonFace :109
@@ -793,7 +793,7 @@ uEnumType* PolygonFace_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Enums.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Enums.uno
 // -------------------------------------------------------------------------
 
 // public enum PolygonWinding :117
@@ -809,7 +809,7 @@ uEnumType* PolygonWinding_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Enums.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Enums.uno
 // -------------------------------------------------------------------------
 
 // public enum PrimitiveType :12
@@ -828,7 +828,7 @@ uEnumType* PrimitiveType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/RenderTarget.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/RenderTarget.uno
 // --------------------------------------------------------------------------------
 
 // public sealed class RenderTarget :8
@@ -1094,7 +1094,7 @@ RenderTarget* RenderTarget::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/SamplerState.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/SamplerState.uno
 // --------------------------------------------------------------------------------
 
 // public struct SamplerState :21
@@ -1225,7 +1225,7 @@ SamplerState SamplerState__TrilinearClamp()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Texture2D.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Texture2D.uno
 // -----------------------------------------------------------------------------
 
 // public intrinsic sealed class Texture2D :10
@@ -1234,7 +1234,7 @@ static void Texture2D_build(uType* type)
 {
     ::STRINGS[4] = uString::Const("OpenGL ES ");
     ::STRINGS[5] = uString::Const("**** Invalid version string: ");
-    ::STRINGS[6] = uString::Const("/usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Texture2D.uno");
+    ::STRINGS[6] = uString::Const("/usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Texture2D.uno");
     ::STRINGS[7] = uString::Const("Texture2D");
     ::STRINGS[8] = uString::Const("Texture does not support mipmap");
     ::STRINGS[9] = uString::Const("Texture is immutable and cannot be updated");
@@ -1242,7 +1242,8 @@ static void Texture2D_build(uType* type)
     ::TYPES[0] = ::g::Uno::Char_typeof()->Array();
     ::TYPES[1] = ::g::Uno::FormatException_typeof();
     type->SetDependencies(
-        ::g::Uno::Diagnostics::Debug_typeof());
+        ::g::Uno::Diagnostics::Debug_typeof(),
+        ::g::Uno::Math_typeof());
     type->SetInterfaces(
         ::g::Uno::IDisposable_typeof(), offsetof(Texture2D_type, interface0));
     type->SetFields(0,
@@ -1264,7 +1265,7 @@ Texture2D_type* Texture2D_typeof()
     uTypeOptions options;
     options.FieldCount = 8;
     options.InterfaceCount = 1;
-    options.DependencyCount = 1;
+    options.DependencyCount = 2;
     options.ObjectSize = sizeof(Texture2D);
     options.TypeSize = sizeof(Texture2D_type);
     type = (Texture2D_type*)uClassType::New("Uno.Graphics.Texture2D", options);
@@ -1273,151 +1274,151 @@ Texture2D_type* Texture2D_typeof()
     return type;
 }
 
-// public Texture2D(int2 size, Uno.Graphics.Format format, bool mipmap) :132
+// public Texture2D(int2 size, Uno.Graphics.Format format, bool mipmap) :136
 void Texture2D__ctor__fn(Texture2D* __this, ::g::Uno::Int2* size, int32_t* format, bool* mipmap)
 {
     __this->ctor_(*size, *format, *mipmap);
 }
 
-// public extern Texture2D(OpenGL.GLTextureHandle handle, int2 size, int mipCount, Uno.Graphics.Format format) :124
+// public extern Texture2D(OpenGL.GLTextureHandle handle, int2 size, int mipCount, Uno.Graphics.Format format) :128
 void Texture2D__ctor_1_fn(Texture2D* __this, uint32_t* handle, ::g::Uno::Int2* size, int32_t* mipCount, int32_t* format)
 {
     __this->ctor_1(*handle, *size, *mipCount, *format);
 }
 
-// private static extern bool CheckExtensionSupport(string extensionName) :75
+// private static extern bool CheckExtensionSupport(string extensionName) :79
 void Texture2D__CheckExtensionSupport_fn(uString* extensionName, bool* __retval)
 {
     *__retval = Texture2D::CheckExtensionSupport(extensionName);
 }
 
-// private static extern bool CheckGLES3Support() :56
+// private static extern bool CheckGLES3Support() :60
 void Texture2D__CheckGLES3Support_fn(bool* __retval)
 {
     *__retval = Texture2D::CheckGLES3Support();
 }
 
-// public void Dispose() :152
+// public void Dispose() :156
 void Texture2D__Dispose_fn(Texture2D* __this)
 {
     __this->Dispose();
 }
 
-// public generated Uno.Graphics.Format get_Format() :114
+// public generated Uno.Graphics.Format get_Format() :118
 void Texture2D__get_Format_fn(Texture2D* __this, int32_t* __retval)
 {
     *__retval = __this->Format();
 }
 
-// private generated void set_Format(Uno.Graphics.Format value) :115
+// private generated void set_Format(Uno.Graphics.Format value) :119
 void Texture2D__set_Format_fn(Texture2D* __this, int32_t* value)
 {
     __this->Format(*value);
 }
 
-// public void GenerateMipmap() :348
+// public void GenerateMipmap() :352
 void Texture2D__GenerateMipmap_fn(Texture2D* __this)
 {
     __this->GenerateMipmap();
 }
 
-// public generated extern OpenGL.GLTextureHandle get_GLTextureHandle() :120
+// public generated extern OpenGL.GLTextureHandle get_GLTextureHandle() :124
 void Texture2D__get_GLTextureHandle_fn(Texture2D* __this, uint32_t* __retval)
 {
     *__retval = __this->GLTextureHandle();
 }
 
-// private generated extern void set_GLTextureHandle(OpenGL.GLTextureHandle value) :121
+// private generated extern void set_GLTextureHandle(OpenGL.GLTextureHandle value) :125
 void Texture2D__set_GLTextureHandle_fn(Texture2D* __this, uint32_t* value)
 {
     __this->GLTextureHandle(*value);
 }
 
-// public static bool get_HaveNonPow2Support() :90
+// public static bool get_HaveNonPow2Support() :94
 void Texture2D__get_HaveNonPow2Support_fn(bool* __retval)
 {
     *__retval = Texture2D::HaveNonPow2Support();
 }
 
-// public generated bool get_IsDisposed() :148
+// public generated bool get_IsDisposed() :152
 void Texture2D__get_IsDisposed_fn(Texture2D* __this, bool* __retval)
 {
     *__retval = __this->IsDisposed();
 }
 
-// private generated void set_IsDisposed(bool value) :149
+// private generated void set_IsDisposed(bool value) :153
 void Texture2D__set_IsDisposed_fn(Texture2D* __this, bool* value)
 {
     __this->IsDisposed(*value);
 }
 
-// public bool get_IsMipmap() :339
+// public bool get_IsMipmap() :343
 void Texture2D__get_IsMipmap_fn(Texture2D* __this, bool* __retval)
 {
     *__retval = __this->IsMipmap();
 }
 
-// public bool get_IsPow2() :334
+// public bool get_IsPow2() :338
 void Texture2D__get_IsPow2_fn(Texture2D* __this, bool* __retval)
 {
     *__retval = __this->IsPow2();
 }
 
-// public static int get_MaxSize() :43
+// public static int get_MaxSize() :47
 void Texture2D__get_MaxSize_fn(int32_t* __retval)
 {
     *__retval = Texture2D::MaxSize();
 }
 
-// public generated int get_MipCount() :108
+// public generated int get_MipCount() :112
 void Texture2D__get_MipCount_fn(Texture2D* __this, int32_t* __retval)
 {
     *__retval = __this->MipCount();
 }
 
-// private generated void set_MipCount(int value) :109
+// private generated void set_MipCount(int value) :113
 void Texture2D__set_MipCount_fn(Texture2D* __this, int32_t* value)
 {
     __this->MipCount(*value);
 }
 
-// public Texture2D New(int2 size, Uno.Graphics.Format format, bool mipmap) :132
+// public Texture2D New(int2 size, Uno.Graphics.Format format, bool mipmap) :136
 void Texture2D__New1_fn(::g::Uno::Int2* size, int32_t* format, bool* mipmap, Texture2D** __retval)
 {
     *__retval = Texture2D::New1(*size, *format, *mipmap);
 }
 
-// public extern Texture2D New(OpenGL.GLTextureHandle handle, int2 size, int mipCount, Uno.Graphics.Format format) :124
+// public extern Texture2D New(OpenGL.GLTextureHandle handle, int2 size, int mipCount, Uno.Graphics.Format format) :128
 void Texture2D__New2_fn(uint32_t* handle, ::g::Uno::Int2* size, int32_t* mipCount, int32_t* format, Texture2D** __retval)
 {
     *__retval = Texture2D::New2(*handle, *size, *mipCount, *format);
 }
 
-// public generated int2 get_Size() :36
+// public generated int2 get_Size() :40
 void Texture2D__get_Size_fn(Texture2D* __this, ::g::Uno::Int2* __retval)
 {
     *__retval = __this->Size();
 }
 
-// private generated void set_Size(int2 value) :37
+// private generated void set_Size(int2 value) :41
 void Texture2D__set_Size_fn(Texture2D* __this, ::g::Uno::Int2* value)
 {
     __this->Size(*value);
 }
 
-// public bool get_SupportsMipmap() :345
+// public bool get_SupportsMipmap() :349
 void Texture2D__get_SupportsMipmap_fn(Texture2D* __this, bool* __retval)
 {
     *__retval = __this->SupportsMipmap();
 }
 
-// public void Update(byte[] mip0) :196
+// public void Update(byte[] mip0) :200
 void Texture2D__Update_fn(Texture2D* __this, uArray* mip0)
 {
     __this->Update(mip0);
 }
 
-// public void Update(Uno.Buffer mip0) :220
+// public void Update(Uno.Buffer mip0) :224
 void Texture2D__Update3_fn(Texture2D* __this, ::g::Uno::Buffer* mip0)
 {
     __this->Update3(mip0);
@@ -1427,7 +1428,7 @@ int32_t Texture2D::_maxSize_;
 bool Texture2D::_haveNonPow2SupportValid_;
 bool Texture2D::_haveNonPow2Support_;
 
-// public Texture2D(int2 size, Uno.Graphics.Format format, bool mipmap) [instance] :132
+// public Texture2D(int2 size, Uno.Graphics.Format format, bool mipmap) [instance] :136
 void Texture2D::ctor_(::g::Uno::Int2 size, int32_t format, bool mipmap)
 {
     GLTextureHandle(::g::OpenGL::GL::CreateTexture());
@@ -1437,7 +1438,7 @@ void Texture2D::ctor_(::g::Uno::Int2 size, int32_t format, bool mipmap)
     Update(NULL);
 }
 
-// public extern Texture2D(OpenGL.GLTextureHandle handle, int2 size, int mipCount, Uno.Graphics.Format format) [instance] :124
+// public extern Texture2D(OpenGL.GLTextureHandle handle, int2 size, int mipCount, Uno.Graphics.Format format) [instance] :128
 void Texture2D::ctor_1(uint32_t handle, ::g::Uno::Int2 size, int32_t mipCount, int32_t format)
 {
     GLTextureHandle(handle);
@@ -1446,7 +1447,7 @@ void Texture2D::ctor_1(uint32_t handle, ::g::Uno::Int2 size, int32_t mipCount, i
     Format(format);
 }
 
-// public void Dispose() [instance] :152
+// public void Dispose() [instance] :156
 void Texture2D::Dispose()
 {
     if (IsDisposed())
@@ -1457,19 +1458,19 @@ void Texture2D::Dispose()
     IsDisposed(true);
 }
 
-// public generated Uno.Graphics.Format get_Format() [instance] :114
+// public generated Uno.Graphics.Format get_Format() [instance] :118
 int32_t Texture2D::Format()
 {
     return _Format;
 }
 
-// private generated void set_Format(Uno.Graphics.Format value) [instance] :115
+// private generated void set_Format(Uno.Graphics.Format value) [instance] :119
 void Texture2D::Format(int32_t value)
 {
     _Format = value;
 }
 
-// public void GenerateMipmap() [instance] :348
+// public void GenerateMipmap() [instance] :352
 void Texture2D::GenerateMipmap()
 {
     if (!IsMipmap())
@@ -1482,73 +1483,73 @@ void Texture2D::GenerateMipmap()
     }
 }
 
-// public generated extern OpenGL.GLTextureHandle get_GLTextureHandle() [instance] :120
+// public generated extern OpenGL.GLTextureHandle get_GLTextureHandle() [instance] :124
 uint32_t Texture2D::GLTextureHandle()
 {
     return _GLTextureHandle;
 }
 
-// private generated extern void set_GLTextureHandle(OpenGL.GLTextureHandle value) [instance] :121
+// private generated extern void set_GLTextureHandle(OpenGL.GLTextureHandle value) [instance] :125
 void Texture2D::GLTextureHandle(uint32_t value)
 {
     _GLTextureHandle = value;
 }
 
-// public generated bool get_IsDisposed() [instance] :148
+// public generated bool get_IsDisposed() [instance] :152
 bool Texture2D::IsDisposed()
 {
     return _IsDisposed;
 }
 
-// private generated void set_IsDisposed(bool value) [instance] :149
+// private generated void set_IsDisposed(bool value) [instance] :153
 void Texture2D::IsDisposed(bool value)
 {
     _IsDisposed = value;
 }
 
-// public bool get_IsMipmap() [instance] :339
+// public bool get_IsMipmap() [instance] :343
 bool Texture2D::IsMipmap()
 {
     return (MipCount() > 1) && IsPow2();
 }
 
-// public bool get_IsPow2() [instance] :334
+// public bool get_IsPow2() [instance] :338
 bool Texture2D::IsPow2()
 {
     return ::g::Uno::Math::IsPow2(Size().X) && ::g::Uno::Math::IsPow2(Size().Y);
 }
 
-// public generated int get_MipCount() [instance] :108
+// public generated int get_MipCount() [instance] :112
 int32_t Texture2D::MipCount()
 {
     return _MipCount;
 }
 
-// private generated void set_MipCount(int value) [instance] :109
+// private generated void set_MipCount(int value) [instance] :113
 void Texture2D::MipCount(int32_t value)
 {
     _MipCount = value;
 }
 
-// public generated int2 get_Size() [instance] :36
+// public generated int2 get_Size() [instance] :40
 ::g::Uno::Int2 Texture2D::Size()
 {
     return _Size;
 }
 
-// private generated void set_Size(int2 value) [instance] :37
+// private generated void set_Size(int2 value) [instance] :41
 void Texture2D::Size(::g::Uno::Int2 value)
 {
     _Size = value;
 }
 
-// public bool get_SupportsMipmap() [instance] :345
+// public bool get_SupportsMipmap() [instance] :349
 bool Texture2D::SupportsMipmap()
 {
     return IsMipmap();
 }
 
-// public void Update(byte[] mip0) [instance] :196
+// public void Update(byte[] mip0) [instance] :200
 void Texture2D::Update(uArray* mip0)
 {
     if (Format() == 0)
@@ -1566,7 +1567,7 @@ void Texture2D::Update(uArray* mip0)
     }
 }
 
-// public void Update(Uno.Buffer mip0) [instance] :220
+// public void Update(Uno.Buffer mip0) [instance] :224
 void Texture2D::Update3(::g::Uno::Buffer* mip0)
 {
     if (Format() == 0)
@@ -1584,7 +1585,7 @@ void Texture2D::Update3(::g::Uno::Buffer* mip0)
     }
 }
 
-// private static extern bool CheckExtensionSupport(string extensionName) [static] :75
+// private static extern bool CheckExtensionSupport(string extensionName) [static] :79
 bool Texture2D::CheckExtensionSupport(uString* extensionName)
 {
     uArray* extensions = ::g::Uno::String::Split(uPtr(::g::OpenGL::GL::GetString(7939)), uArray::Init<int32_t>(::TYPES[0/*char[]*/], 1, ' '));
@@ -1600,7 +1601,7 @@ bool Texture2D::CheckExtensionSupport(uString* extensionName)
     return false;
 }
 
-// private static extern bool CheckGLES3Support() [static] :56
+// private static extern bool CheckGLES3Support() [static] :60
 bool Texture2D::CheckGLES3Support()
 {
     uString* versionString = ::g::OpenGL::GL::GetString(7938);
@@ -1621,7 +1622,7 @@ bool Texture2D::CheckGLES3Support()
             if (uIs(__t.Exception, ::TYPES[1/*Uno.FormatException*/]))
             {
                 ::g::Uno::FormatException* e = (::g::Uno::FormatException*)__t.Exception;
-                ::g::Uno::Diagnostics::Debug::Log3(::g::Uno::String::op_Addition2(::STRINGS[5/*"**** Invali...*/], versionString), 0, ::STRINGS[6/*"/usr/local/...*/], 68);
+                ::g::Uno::Diagnostics::Debug::Log3(::g::Uno::String::op_Addition2(::STRINGS[5/*"**** Invali...*/], versionString), 0, ::STRINGS[6/*"/usr/local/...*/], 72);
             }
             else             throw __t;
         }
@@ -1630,7 +1631,7 @@ bool Texture2D::CheckGLES3Support()
     return false;
 }
 
-// public Texture2D New(int2 size, Uno.Graphics.Format format, bool mipmap) [static] :132
+// public Texture2D New(int2 size, Uno.Graphics.Format format, bool mipmap) [static] :136
 Texture2D* Texture2D::New1(::g::Uno::Int2 size, int32_t format, bool mipmap)
 {
     Texture2D* obj5 = (Texture2D*)uNew(Texture2D_typeof());
@@ -1638,7 +1639,7 @@ Texture2D* Texture2D::New1(::g::Uno::Int2 size, int32_t format, bool mipmap)
     return obj5;
 }
 
-// public extern Texture2D New(OpenGL.GLTextureHandle handle, int2 size, int mipCount, Uno.Graphics.Format format) [static] :124
+// public extern Texture2D New(OpenGL.GLTextureHandle handle, int2 size, int mipCount, Uno.Graphics.Format format) [static] :128
 Texture2D* Texture2D::New2(uint32_t handle, ::g::Uno::Int2 size, int32_t mipCount, int32_t format)
 {
     Texture2D* obj4 = (Texture2D*)uNew(Texture2D_typeof());
@@ -1646,7 +1647,7 @@ Texture2D* Texture2D::New2(uint32_t handle, ::g::Uno::Int2 size, int32_t mipCoun
     return obj4;
 }
 
-// public static bool get_HaveNonPow2Support() [static] :90
+// public static bool get_HaveNonPow2Support() [static] :94
 bool Texture2D::HaveNonPow2Support()
 {
     if (!Texture2D::_haveNonPow2SupportValid_)
@@ -1658,7 +1659,7 @@ bool Texture2D::HaveNonPow2Support()
     return Texture2D::_haveNonPow2Support_;
 }
 
-// public static int get_MaxSize() [static] :43
+// public static int get_MaxSize() [static] :47
 int32_t Texture2D::MaxSize()
 {
     if (Texture2D::_maxSize_ == 0)
@@ -1668,7 +1669,7 @@ int32_t Texture2D::MaxSize()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/SamplerState.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/SamplerState.uno
 // --------------------------------------------------------------------------------
 
 // public enum TextureAddressMode :15
@@ -1684,7 +1685,7 @@ uEnumType* TextureAddressMode_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/SamplerState.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/SamplerState.uno
 // --------------------------------------------------------------------------------
 
 // public enum TextureFilter :4
@@ -1704,7 +1705,7 @@ uEnumType* TextureFilter_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/TextureHelpers.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/TextureHelpers.uno
 // ----------------------------------------------------------------------------------
 
 // public static class TextureHelpers :5
@@ -1774,7 +1775,7 @@ int32_t TextureHelpers::GetMipCount1(::g::Uno::Int2 size)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/VertexAttributeInfo.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/VertexAttributeInfo.uno
 // ---------------------------------------------------------------------------------------
 
 // public struct VertexAttributeInfo :3
@@ -1804,7 +1805,7 @@ uStructType* VertexAttributeInfo_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/Enums.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Enums.uno
 // -------------------------------------------------------------------------
 
 // public enum VertexAttributeType :29
@@ -1839,7 +1840,7 @@ uEnumType* VertexAttributeType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/VertexBuffer.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/VertexBuffer.uno
 // --------------------------------------------------------------------------------
 
 // public sealed class VertexBuffer :6
@@ -1923,7 +1924,7 @@ VertexBuffer* VertexBuffer::New4(int32_t usage)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/VideoTexture.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/VideoTexture.uno
 // --------------------------------------------------------------------------------
 
 // public intrinsic sealed class VideoTexture :9

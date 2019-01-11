@@ -28,10 +28,10 @@ public class HttpImageLoader
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void LoadAsync144(final String urlString,final com.foreign.Uno.Action_Object success,final com.foreign.Uno.Action_String error)
+    public static void LoadAsync147(final String urlString,final com.foreign.Uno.Action_Object success,final com.foreign.Uno.Action_String error)
     {
         Thread thread = new Thread() {
         	public void run() {

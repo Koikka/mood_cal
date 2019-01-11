@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Size.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Size.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -22,8 +22,8 @@ void Size__get_IsAuto_fn(Size* __this, bool* __retval);
 void Size__New1_fn(float* value, int32_t* unit, Size* __retval);
 void Size__op_Addition_fn(Size* a, Size* b, Size* __retval);
 void Size__op_Explicit1_fn(Size* s, float* __retval);
-void Size__op_Implicit_fn(float* unspecifiedUnits, Size* __retval);
-void Size__op_Implicit1_fn(int32_t* unspecifiedUnits, Size* __retval);
+void Size__op_Implicit1_fn(float* unspecifiedUnits, Size* __retval);
+void Size__op_Implicit2_fn(int32_t* unspecifiedUnits, Size* __retval);
 void Size__op_Inequality_fn(Size* a, Size* b, bool* __retval);
 void Size__op_Multiply_fn(Size* a, float* b, Size* __retval);
 void Size__op_Subtraction_fn(Size* a, Size* b, Size* __retval);
@@ -46,8 +46,8 @@ struct Size
 Size Size__New1(float value, int32_t unit);
 Size Size__op_Addition(Size a, Size b);
 float Size__op_Explicit1(Size s);
-Size Size__op_Implicit(float unspecifiedUnits);
-Size Size__op_Implicit1(int32_t unspecifiedUnits);
+Size Size__op_Implicit1(float unspecifiedUnits);
+Size Size__op_Implicit2(int32_t unspecifiedUnits);
 bool Size__op_Inequality(Size a, Size b);
 Size Size__op_Multiply(Size a, float b);
 Size Size__op_Subtraction(Size a, Size b);

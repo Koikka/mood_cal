@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.WebView/1.8.1/WebViewNavActions.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.WebView/1.9.0/WebViewNavActions.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Triggers.Actions-e0dcfc3.h>
 namespace g{namespace Fuse{namespace Controls{struct WebView;}}}
 namespace g{namespace Fuse{namespace Triggers{namespace Actions{struct StopLoading;}}}}

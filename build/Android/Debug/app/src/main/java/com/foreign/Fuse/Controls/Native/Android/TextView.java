@@ -20,30 +20,30 @@ public class TextView
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object Create216()
+    public static Object Create219()
     {
         return new android.widget.TextView(com.fuse.Activity.getRootActivity());
     }
     
-    public static void SetFont217(final Object handle,final Object fontHandle)
+    public static void SetFont220(final Object handle,final Object fontHandle)
     {
         ((android.widget.TextView)handle).setTypeface(((android.graphics.Typeface)fontHandle));
     }
     
-    public static void SetFontSize218(final Object handle,final float size)
+    public static void SetFontSize221(final Object handle,final float size)
     {
         ((android.widget.TextView)handle).setTextSize(android.util.TypedValue.COMPLEX_UNIT_DIP, size);
     }
     
-    public static void SetLineSpacing219(final Object handle,final float spacing)
+    public static void SetLineSpacing222(final Object handle,final float spacing)
     {
         ((android.widget.TextView)handle).setLineSpacing(spacing, 1.0f);
     }
     
-    public static void SetMaxLength220(final Object handle,final int maxLength)
+    public static void SetMaxLength223(final Object handle,final int maxLength)
     {
         android.widget.TextView t = (android.widget.TextView)handle;
         android.text.InputFilter[] filters = new android.text.InputFilter[1];
@@ -51,7 +51,7 @@ public class TextView
         t.setFilters(filters);
     }
     
-    public static void SetText221(final Object handle,final String text)
+    public static void SetText224(final Object handle,final String text)
     {
         ((android.widget.TextView)handle).setText(text);
         if (handle instanceof android.widget.EditText) {
@@ -59,7 +59,7 @@ public class TextView
         }
     }
     
-    public static void SetTextAlignment222(final Object handle,final int alignment)
+    public static void SetTextAlignment225(final Object handle,final int alignment)
     {
         if (android.os.Build.VERSION.SDK_INT >= 17)
         	((android.widget.TextView)handle).setTextAlignment(android.view.View.TEXT_ALIGNMENT_GRAVITY);
@@ -67,12 +67,12 @@ public class TextView
         ((android.widget.TextView)handle).setGravity(alignment);
     }
     
-    public static void SetTextColor223(final Object handle,final int color)
+    public static void SetTextColor226(final Object handle,final int color)
     {
         ((android.widget.TextView)handle).setTextColor(color);
     }
     
-    public static void SetTextWrapping224(final Object handle,final boolean wrap)
+    public static void SetTextWrapping227(final Object handle,final boolean wrap)
     {
         ((android.widget.TextView)handle).setHorizontallyScrolling( (wrap) ? false : true );
     }

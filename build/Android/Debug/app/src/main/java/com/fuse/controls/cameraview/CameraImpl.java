@@ -240,7 +240,7 @@ public class CameraImpl extends TextureView implements TextureView.SurfaceTextur
         try {
             updateRotation();
             _camera.unlock();
-            startRecordingSession.onSuccess(new RecordingSession(_camera));
+            startRecordingSession.onSuccess(new RecordingSession(_camera, _cameraRotation));
         } catch (Exception e) {
             _camera.lock();
             startRecordingSession.onException(e.getMessage());

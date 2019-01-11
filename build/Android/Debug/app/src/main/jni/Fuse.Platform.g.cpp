@@ -41,7 +41,7 @@ namespace g{
 namespace Fuse{
 namespace Platform{
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.8.1/AppAlerts.uno
+// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/AppAlerts.uno
 // ---------------------------------------------------------------
 
 // internal static class AppEvents :13
@@ -120,7 +120,7 @@ void AppEvents::remove_LowMemoryWarning(uDelegate* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.8.1/Lifecycle.uno
+// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/Lifecycle.uno
 // ---------------------------------------------------------------
 
 // public enum ApplicationState :5
@@ -139,7 +139,7 @@ uEnumType* ApplicationState_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.8.1/Lifecycle.uno
+// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/Lifecycle.uno
 // ---------------------------------------------------------------
 
 // public static class Lifecycle :22
@@ -459,7 +459,7 @@ void Lifecycle::remove_Terminating(uDelegate* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.8.1/iOS/SystemUI.uno
+// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/iOS/SystemUI.uno
 // ------------------------------------------------------------------
 
 // public enum StatusBarStyle :8
@@ -475,7 +475,7 @@ uEnumType* StatusBarStyle_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.8.1/Android/SystemUI.uno
+// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/Android/SystemUI.uno
 // ----------------------------------------------------------------------
 
 // internal static extern class SystemUI :18
@@ -922,7 +922,7 @@ void SystemUI::Attach(::g::Java::Object* _layout)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Attach74", "(Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Attach77", "(Ljava/lang/Object;)V");
         ::g::Java::Object* __u_layout=_layout;
         jobject ___layout = (__u_layout==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)__u_layout, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,___layout);
@@ -941,7 +941,7 @@ void SystemUI::CalcRealSizes()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CalcRealSizes77", "()V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CalcRealSizes80", "()V");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd);
         
         ::g::Android::Base::JNI::CheckException();
@@ -1010,7 +1010,7 @@ void SystemUI::CreateLayouts()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateLayouts81", "()V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateLayouts84", "()V");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd);
         
         ::g::Android::Base::JNI::CheckException();
@@ -1026,7 +1026,7 @@ void SystemUI::Detach()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Detach87", "()V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Detach90", "()V");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd);
         
         ::g::Android::Base::JNI::CheckException();
@@ -1042,7 +1042,7 @@ void SystemUI::EnterFullscreen()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "EnterFullscreen88", "()V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "EnterFullscreen91", "()V");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd);
         
         ::g::Android::Base::JNI::CheckException();
@@ -1058,7 +1058,7 @@ int32_t SystemUI::GetAPILevel()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetAPILevel93", "()I");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetAPILevel96", "()I");
         jint __jresult = U_JNIVAR->CallStaticIntMethod(__cls,__mtd);
         int32_t __result = (int32_t)__jresult;
         ::g::Android::Base::JNI::CheckException();
@@ -1083,7 +1083,7 @@ float SystemUI::GetDensity()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetDensity94", "()F");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetDensity97", "()F");
         jfloat __jresult = U_JNIVAR->CallStaticFloatMethod(__cls,__mtd);
         float __result = (float)__jresult;
         ::g::Android::Base::JNI::CheckException();
@@ -1099,7 +1099,7 @@ float SystemUI::GetDensity()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetDisplayMetrics95", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetDisplayMetrics98", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         ::g::Android::Base::JNI::CheckException();
@@ -1115,7 +1115,7 @@ uString* SystemUI::GetOSVersion()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetOSVersion96", "()Ljava/lang/String;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetOSVersion99", "()Ljava/lang/String;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         uString* __result = JniHelper::JavaToUnoString((jstring)__jresult);
         if (__jresult!=NULL && U_JNIVAR->GetObjectRefType(__jresult) == JNILocalRefType) U_JNIVAR->DeleteLocalRef(__jresult);
@@ -1157,7 +1157,7 @@ float SystemUI::GetStatusBarHeight()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetStatusBarHeight97", "()F");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetStatusBarHeight100", "()F");
         jfloat __jresult = U_JNIVAR->CallStaticFloatMethod(__cls,__mtd);
         float __result = (float)__jresult;
         ::g::Android::Base::JNI::CheckException();
@@ -1173,7 +1173,7 @@ int32_t SystemUI::GetSuperLayoutHeight()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetSuperLayoutHeight100", "()I");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetSuperLayoutHeight103", "()I");
         jint __jresult = U_JNIVAR->CallStaticIntMethod(__cls,__mtd);
         int32_t __result = (int32_t)__jresult;
         ::g::Android::Base::JNI::CheckException();
@@ -1189,7 +1189,7 @@ void SystemUI::HideActionBar()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "HideActionBar91", "()V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "HideActionBar94", "()V");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd);
         
         ::g::Android::Base::JNI::CheckException();
@@ -1205,7 +1205,7 @@ void SystemUI::HideStatusBar()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "HideStatusBar90", "()V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "HideStatusBar93", "()V");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd);
         
         ::g::Android::Base::JNI::CheckException();
@@ -1221,7 +1221,7 @@ void SystemUI::HookOntoRawActivityEvents()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "HookOntoRawActivityEvents101", "()V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "HookOntoRawActivityEvents104", "()V");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd);
         
         ::g::Android::Base::JNI::CheckException();
@@ -1237,7 +1237,7 @@ void SystemUI::HookOntoRawActivityEvents()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "MakePostV11LayoutChangeListener83", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "MakePostV11LayoutChangeListener86", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         ::g::Android::Base::JNI::CheckException();
@@ -1260,7 +1260,7 @@ void SystemUI::OnCreate()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "OnCreate109", "()V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "OnCreate112", "()V");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd);
         
         ::g::Android::Base::JNI::CheckException();
@@ -1307,7 +1307,7 @@ void SystemUI::OnPause()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "OnPause102", "()V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "OnPause105", "()V");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd);
         
         ::g::Android::Base::JNI::CheckException();
@@ -1323,7 +1323,7 @@ void SystemUI::OnResume()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "OnResume103", "()V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "OnResume106", "()V");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd);
         
         ::g::Android::Base::JNI::CheckException();
@@ -1384,7 +1384,7 @@ void SystemUI::SetAsRootView(::g::Java::Object* view)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetAsRootView112", "(Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetAsRootView115", "(Ljava/lang/Object;)V");
         ::g::Java::Object* _uview=view;
         jobject _view = (_uview==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uview, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_view);
@@ -1403,7 +1403,7 @@ void SystemUI::SetFrame(::g::Java::Object* view, int32_t originX, int32_t origin
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetFrame84", "(Ljava/lang/Object;III)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetFrame87", "(Ljava/lang/Object;III)V");
         ::g::Java::Object* _uview=view;
         jobject _view = (_uview==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uview, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         int32_t _uoriginX=originX;
@@ -1431,7 +1431,7 @@ void SystemUI::ShowStatusBar()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "ShowStatusBar113", "()V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "ShowStatusBar116", "()V");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd);
         
         ::g::Android::Base::JNI::CheckException();
@@ -1447,7 +1447,7 @@ void SystemUI::unoOnGlobalLayout()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "unoOnGlobalLayout110", "()V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "unoOnGlobalLayout113", "()V");
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd);
         
         ::g::Android::Base::JNI::CheckException();
@@ -1654,7 +1654,7 @@ void SystemUI::remove_MarginsChanged(uDelegate* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.8.1/SystemUI.uno
+// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/SystemUI.uno
 // --------------------------------------------------------------
 
 // internal enum SystemUIResizeReason :8
@@ -1671,7 +1671,7 @@ uEnumType* SystemUIResizeReason_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.8.1/SystemUI.uno
+// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/SystemUI.uno
 // --------------------------------------------------------------
 
 // internal enum SysUIState :15

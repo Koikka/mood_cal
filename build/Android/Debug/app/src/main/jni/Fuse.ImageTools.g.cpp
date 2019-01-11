@@ -52,7 +52,7 @@ namespace g{
 namespace Fuse{
 namespace ImageTools{
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.8.1/Android/AndroidImageUtils.uno
+// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/Android/AndroidImageUtils.uno
 // ---------------------------------------------------------------------------------
 
 // internal static extern class AndroidImageUtils :8
@@ -122,7 +122,7 @@ void AndroidImageUtils::Crop(uString* path, int32_t width, int32_t height, int32
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Crop411", "(Ljava/lang/String;IIIILcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;Z)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Crop414", "(Ljava/lang/String;IIIILcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;Z)V");
         uString* _upath=path;
         jstring _path = JniHelper::UnoToJavaString(_upath);
         int32_t _uwidth=width;
@@ -161,7 +161,7 @@ void AndroidImageUtils::GetBase64FromImage(uString* path, uDelegate* onSuccess, 
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetBase64FromImage412", "(Ljava/lang/String;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetBase64FromImage415", "(Ljava/lang/String;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
         uString* _upath=path;
         jstring _path = JniHelper::UnoToJavaString(_upath);
         uDelegate* _uonSuccess=onSuccess;
@@ -185,7 +185,7 @@ void AndroidImageUtils::GetImageFromBase64(uString* b64, uDelegate* onSuccess, u
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetImageFromBase64413", "(Ljava/lang/String;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetImageFromBase64416", "(Ljava/lang/String;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
         uString* _ub64=b64;
         jstring _b64 = JniHelper::UnoToJavaString(_ub64);
         uDelegate* _uonSuccess=onSuccess;
@@ -209,7 +209,7 @@ void AndroidImageUtils::GetImageFromBuffer(uArray* bytes, uDelegate* onSuccess, 
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetImageFromBuffer414", "(Lcom/uno/ByteArray;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetImageFromBuffer417", "(Lcom/uno/ByteArray;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
         uArray* _ubytes=bytes;
         jobject _bytes = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box8(_ubytes);
         uDelegate* _uonSuccess=onSuccess;
@@ -241,7 +241,7 @@ void AndroidImageUtils::GetSizeInternal(uString* path, uArray* values)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetSizeInternal416", "(Ljava/lang/String;Lcom/uno/IntArray;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetSizeInternal419", "(Ljava/lang/String;Lcom/uno/IntArray;)V");
         uString* _upath=path;
         jstring _path = JniHelper::UnoToJavaString(_upath);
         uArray* _uvalues=values;
@@ -262,7 +262,7 @@ void AndroidImageUtils::Resize(uString* path, int32_t width, int32_t height, int
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Resize417", "(Ljava/lang/String;IIILcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;Z)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Resize420", "(Ljava/lang/String;IIILcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;Z)V");
         uString* _upath=path;
         jstring _path = JniHelper::UnoToJavaString(_upath);
         int32_t _uwidth=width;
@@ -293,7 +293,7 @@ void AndroidImageUtils::Resize(uString* path, int32_t width, int32_t height, int
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.8.1/Android/Commands.uno
+// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/Android/Commands.uno
 // ------------------------------------------------------------------------
 
 // internal sealed extern class CropCommand :73
@@ -377,7 +377,7 @@ CropCommand* CropCommand::New1(uString* path, int32_t x, int32_t y, int32_t desi
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.8.1/ImageTools.uno
+// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/ImageTools.uno
 // ------------------------------------------------------------------
 
 // private sealed extern class ImageTools.GetBase64Command :358
@@ -451,7 +451,7 @@ ImageTools__GetBase64Command* ImageTools__GetBase64Command::New1(uString* path, 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.8.1/Image.uno
+// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/Image.uno
 // -------------------------------------------------------------
 
 // public sealed class Image :8
@@ -732,7 +732,7 @@ Image* Image::New2(uString* path)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.8.1/ImageTools.uno
+// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/ImageTools.uno
 // ------------------------------------------------------------------
 
 // private sealed extern class ImageTools.ImageFromBase64Command :394
@@ -806,7 +806,7 @@ ImageTools__ImageFromBase64Command* ImageTools__ImageFromBase64Command::New1(uSt
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.8.1/PromiseCallbacks.uno
+// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/PromiseCallbacks.uno
 // ------------------------------------------------------------------------
 
 // internal sealed class ImagePromiseCallback :8
@@ -882,7 +882,7 @@ ImagePromiseCallback* ImagePromiseCallback::New1(::g::Uno::Threading::Promise* p
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.8.1/ImageTools.uno
+// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/ImageTools.uno
 // ------------------------------------------------------------------
 
 // public sealed class ImageTools :49
@@ -1203,7 +1203,7 @@ ImageTools* ImageTools::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.8.1/Android/Commands.uno
+// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/Android/Commands.uno
 // ------------------------------------------------------------------------
 
 // internal abstract extern class PCommand :7
@@ -1271,7 +1271,7 @@ void PCommand::OnPermissions(uArray* grantedPermissions)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.8.1/PromiseCallbacks.uno
+// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/PromiseCallbacks.uno
 // ------------------------------------------------------------------------
 
 // internal sealed class PromiseCallback<T> :46
@@ -1342,7 +1342,7 @@ PromiseCallback* PromiseCallback::New1(uType* __type, ::g::Uno::Threading::Promi
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.8.1/Android/Commands.uno
+// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/Android/Commands.uno
 // ------------------------------------------------------------------------
 
 // internal sealed extern class ResizeCommand :44
@@ -1424,7 +1424,7 @@ ResizeCommand* ResizeCommand::New1(uString* path, int32_t desiredWidth, int32_t 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.8.1/ImageTools.uno
+// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/ImageTools.uno
 // ------------------------------------------------------------------
 
 // public enum ResizeMode :10

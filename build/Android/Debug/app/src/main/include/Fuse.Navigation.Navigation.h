@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.8.1/Navigation.Locators.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Navigation.Locators.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -21,7 +21,6 @@ void Navigation__IsPage_fn(::g::Fuse::Node* n, bool* __retval);
 void Navigation__TryFind_fn(::g::Fuse::Node* node, uObject** __retval);
 void Navigation__TryFindBaseNavigation_fn(::g::Fuse::Node* node, uObject** __retval);
 void Navigation__TryFindBaseNavigation1_fn(::g::Fuse::Node* node, ::g::Fuse::Visual** parent, uObject** __retval);
-void Navigation__TryFindPage_fn(::g::Fuse::Node* node, ::g::Fuse::Visual** __retval);
 void Navigation__TryFindPage1_fn(::g::Fuse::Node* node, uObject** nav, ::g::Fuse::Visual** pageBind, ::g::Fuse::Visual** __retval);
 
 struct Navigation : uObject
@@ -35,7 +34,6 @@ struct Navigation : uObject
     static uObject* TryFind(::g::Fuse::Node* node);
     static uObject* TryFindBaseNavigation(::g::Fuse::Node* node);
     static uObject* TryFindBaseNavigation1(::g::Fuse::Node* node, ::g::Fuse::Visual** parent);
-    static ::g::Fuse::Visual* TryFindPage(::g::Fuse::Node* node);
     static ::g::Fuse::Visual* TryFindPage1(::g::Fuse::Node* node, uObject** nav, ::g::Fuse::Visual** pageBind);
 };
 // }

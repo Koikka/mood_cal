@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Video/1.8.1/Video.ScriptClass.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/Video.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,6 +9,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -38,9 +39,9 @@ namespace Controls{
 // {
 struct Video_type : ::g::Fuse::Controls::Panel_type
 {
-    ::g::Fuse::Triggers::IMediaPlayback interface18;
-    ::g::Fuse::Triggers::IPlayback interface19;
-    ::g::Fuse::Triggers::IProgress interface20;
+    ::g::Fuse::Triggers::IMediaPlayback interface19;
+    ::g::Fuse::Triggers::IPlayback interface20;
+    ::g::Fuse::Triggers::IProgress interface21;
 };
 
 Video_type* Video_typeof();

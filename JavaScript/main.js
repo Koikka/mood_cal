@@ -1,10 +1,28 @@
 var Observable = require('FuseJS/Observable');
 var Storage = require("FuseJS/Storage");
+// var LocalNotify = require("FuseJS/LocalNotifications");
+//var push_notif = require("FuseJS/Push");
+
+var Push = require("Firebase/Notifications");
+
+var status = Observable("-");
+var message = Observable("-no message yet-");
+
+// var LocalNotify = require("FuseJS/LocalNotifications");
+var Payload = Observable("-->Payload here<--");
 // var FileSystem = require("FuseJS/FileSystem");
 // fusepm install https://github.com/MaxGraey/fuse-device
 // fuse build -t=android -r mood_calendar.unoproj
 // fuse build --target=android --configuration=Release
-var Device     = require('Device');
+var Device = require('Device');
+// var Environment = require('FuseJS/Environment');
+// var APNS = require("APNS");
+// var FNotify = require("Firebase/Notifications");
+// var Push = null;
+// if(Environment.ios)
+//     Push = APNS;
+// else
+//     Push = FNotify;
 
 var SAVENAME = "calendar_type.json";
 var calendar_type = Observable("mood_calendar");
@@ -67,6 +85,83 @@ var emoji_status = Observable();
 // var test_images = Observable();
 // var show_help_text = Observable(true);
 chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
+// push.on("registrationSucceeded", function(regID) {
+//     console.log("Reg Succeeded: " + regID);
+// });
+
+// push.on("error", function(reason) {
+//     console.log("Reg Failed: " + reason);
+// });
+
+// push.on("receivedMessage", function(payload) {
+//     console.log("Recieved Push Notification: " + payload);
+// });
+console.log('setting up push notifications');
+
+var registration_token = "";
+
+// push_notif.on("registrationSucceeded", function(regID) {
+//     console.log("Reg Succeeded: " + regID);
+//     registration_token = regID;
+// });
+
+// push_notif.on("error", function(reason) {
+//     console.log("Reg Failed: " + reason);
+//     fetch_result.value = {
+//         message: reason,
+//         opacity: "1"
+//     };
+// });
+
+// push_notif.on("receivedMessage", function(payload, fromNotificationBar) {
+//     console.log("Received Push Notification: " + payload);
+//     console.log ("fromNotificationBar="+fromNotificationBar);
+//     // LocalNotify.now("Boom!", "Just like that", payload, true);
+//     // LocalNotify.later(5, "Finally!", "4 seconds is a long time", "payload", true);
+//     Payload.value = payload;
+// });
+// var clearBadgeNumber = function() {
+//     Push.clearBadgeNumber();
+// }
+Push.onRegistrationSucceeded = function(regID) {
+    console.log ("Reg Succeeded: " + regID);
+    registration_token = regID;
+    //status.value = "onRegistrationSucceeded: " + regID;
+};
+
+Push.onRegistrationFailed = function(reason) {
+    console.log ("Reg Failed: " + reason);
+};
+
+Push.onReceivedMessage = function(payload, fromNotificationBar) {
+    console.log ("Recieved Push Notification: " + payload);
+    console.log ("fromNotificationBar="+fromNotificationBar);
+    //message.value = payload;
+};
+
+var clearBadgeNumber = function() {
+    Push.clearBadgeNumber();
+}
+
+var clearAllNotifications = function() {
+    Push.clearAllNotifications();
+}
+// var clearAllNotifications = function() {
+//     Push.clearAllNotifications();
+// }
+// LocalNotify.on("receivedMessage", function(payload) {
+//     console.log("Received Local Notification: " + payload);
+//     LocalNotify.clearAllNotifications();
+// });
+// LocalNotify.on("receivedMessage", function(payload) {
+//     console.log("Received Local Notification: " + payload);
+//     LocalNotify.clearAllNotifications();
+//     LocalNotify.clearBadgeNumber();
+// });
+// function sendLater() {
+//     LocalNotify.later(4, "Finally!", "4 seconds is a long time", "hmm?", true);
+// }
+// sendLater();
 function get_mood_emoji() {
     console.log("get_mood_emoji()");
     var body = "action=emoji_status&id="+Device.UUID;
@@ -167,7 +262,9 @@ set_mood.onValueChanged(function(val) {
                 asyncUUID.value = Device.UUID;
             }
             chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
+            console.log("registration_token: "+registration_token);
             get_mood_emoji();
+            save_push_id(Device.UUID, registration_token);
         }, 2000);
 
         module.exports = {
@@ -180,6 +277,33 @@ set_mood.onValueChanged(function(val) {
         };
 
 //----------------------------------------------------------------------------
+function save_push_id(uuid, token) {
+    console.log("save_push_id: "+uuid+"_"+token);
+    var body = "action=save_push_id&id="+uuid+"&token="+token;
+    var url = "http://koikka.work/fuse/fuse.php";
+    fetch(url, {
+        method: 'POST',
+        headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
+        body: body,
+        cache: false
+    }).then(function(response) {
+        if(response.ok) {
+            // var json = JSON.parse(response._bodyText);
+            console.log(response._bodyText);
+            // json.action = action;
+            // callback(json);
+        } else {
+            console.log("False HTTP response : "+response.status);
+        }
+    }).catch(function(err) {
+        if(err != "SyntaxError: Unexpected end of input") {
+            // An error occurred somewhere in the Promise chain
+            console.log("Server error : "+err);
+        } else{
+            console.log("SERVER SYNTAX ERROR");
+        }
+    });
+}
 function handle_cal_visibility() {
     mood_cal_vis.value = "Collapsed";
     sleep_cal_vis.value = "Collapsed";
@@ -440,6 +564,19 @@ function toggle_switch(args) {
 }
 function save_sleep() {
     console.log("Sleep quality: "+sleep_quality.value);
+    var sleep_quality_val = 0;
+    if (sleep_quality.value == true) {
+        sleep_quality_val = 1;
+    }
+    console.log(sleep_quality_val);
+    var sleep_naps_val = 0;
+    if (sleep_naps_val.value == true) {
+        sleep_naps_val = 1;
+    }
+    var sleep_tired_val = 0;
+    if (sleep_tired_val.value == true) {
+        sleep_tired_val = 1;
+    }
     console.log("Sleep naps: "+sleep_naps.value);
     console.log("Sleep tired: "+sleep_tired.value);
     console.log("Went to bed: "+bed_h.value+":"+bed_m.value);
@@ -477,7 +614,7 @@ function save_sleep() {
     console.log("--------- "+sleep_time);
     // console.log((parseInt(diff_mins)/60));
     // http://koikka.work/fuse/fuse.php?action=save_sleep&id=1&sleep_quality=1&sleep_naps=1&sleep_tired=0&sleep_time=9.25&sleep_mood=1&to_bed=21:00&started_sleeping=22:00&woke_up=6:00
-    var body = "action=save_sleep&id="+Device.UUID+"&sleep_quality="+sleep_quality.value+"&sleep_naps="+sleep_naps.value+"&sleep_tired="+sleep_tired.value+"&sleep_time="+sleep_time+"&sleep_mood="+mood+"&to_bed="+bed_h.value+":"+bed_m.value+"&started_sleeping="+sleep_h.value+":"+sleep_m.value+"&woke_up="+wake_h.value+":"+wake_m.value+"";
+    var body = "action=save_sleep&id="+Device.UUID+"&sleep_quality="+sleep_quality_val+"&sleep_naps="+sleep_naps_val+"&sleep_tired="+sleep_tired_val+"&sleep_time="+sleep_time+"&sleep_mood="+mood+"&to_bed="+bed_h.value+":"+bed_m.value+"&started_sleeping="+sleep_h.value+":"+sleep_m.value+"&woke_up="+wake_h.value+":"+wake_m.value+"";
     var url = "http://koikka.work/fuse/fuse.php";
     fetch(url, {
         method: 'POST',
@@ -641,7 +778,12 @@ module.exports = {
     get_mood_emoji: get_mood_emoji,
     handle_empty_screen: handle_empty_screen,
     web_view_vis: web_view_vis,
-    home_page_vis: home_page_vis
+    home_page_vis: home_page_vis,
+    Payload: Payload,
+    clearBadgeNumber: clearBadgeNumber,
+    clearAllNotifications: clearAllNotifications,
+    message: message,
+    status: status
 };
 
 

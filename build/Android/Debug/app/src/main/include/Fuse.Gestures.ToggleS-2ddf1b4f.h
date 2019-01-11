@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.8.1/Swipe.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Swipe.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Triggers.Actions-fcab7e57.h>
 namespace g{namespace Fuse{namespace Gestures{struct SwipeGesture;}}}
 namespace g{namespace Fuse{namespace Gestures{struct ToggleSwipeActive;}}}

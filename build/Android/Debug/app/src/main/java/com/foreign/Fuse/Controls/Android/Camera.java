@@ -26,22 +26,22 @@ public class Camera
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object Create290(final Object camera,final int cameraId,final int maxWidth,final int maxHeight)
+    public static Object Create293(final Object camera,final int cameraId,final int maxWidth,final int maxHeight)
     {
-        CameraImpl view = new CameraImpl(com.apps.mood_calendar.mood_calendar.GetRootActivity(), (android.hardware.Camera)camera, cameraId, maxWidth, maxHeight);
+        CameraImpl view = new CameraImpl(fi.samk.mood_cal.Kalenteri.GetRootActivity(), (android.hardware.Camera)camera, cameraId, maxWidth, maxHeight);
         view.setLayoutParams(new android.widget.FrameLayout.LayoutParams(android.view.ViewGroup.LayoutParams.MATCH_PARENT, android.view.ViewGroup.LayoutParams.MATCH_PARENT));
         return view;
     }
     
-    public static void Dispose1291(final Object handle)
+    public static void Dispose1294(final Object handle)
     {
         ((CameraImpl)handle).dispose();
     }
     
-    public static void GetSupportedPictureSizes292(final UnoObject _this, final Object camera,final com.uno.IntArray output)
+    public static void GetSupportedPictureSizes295(final UnoObject _this, final Object camera,final com.uno.IntArray output)
     {
         java.util.List<android.hardware.Camera.Size> sizes = ((android.hardware.Camera)camera).getParameters().getSupportedPictureSizes();
         for (int i = 0; i < sizes.size(); i++) {
@@ -50,39 +50,39 @@ public class Camera
         }
     }
     
-    public static int GetSupportedPictureSizesCount293(final UnoObject _this, final Object camera)
+    public static int GetSupportedPictureSizesCount296(final UnoObject _this, final Object camera)
     {
         return ((android.hardware.Camera)camera).getParameters().getSupportedPictureSizes().size();
     }
     
-    public static void Release294(final Object handle)
+    public static void Release297(final Object handle)
     {
         ((android.hardware.Camera)handle).release();
     }
     
-    public static void RestoreParameters295(final UnoObject _this, final String parameters)
+    public static void RestoreParameters298(final UnoObject _this, final String parameters)
     {
-        ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet245(_this)).restoreParameters(parameters);
+        ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this)).restoreParameters(parameters);
     }
     
-    public static String SaveParameters296(final UnoObject _this)
+    public static String SaveParameters299(final UnoObject _this)
     {
-        return ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet245(_this)).saveParameters();
+        return ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this)).saveParameters();
     }
     
-    public static void SetFlashMode297(final UnoObject _this, final Object handle,final String flashMode)
+    public static void SetFlashMode300(final UnoObject _this, final Object handle,final String flashMode)
     {
-        ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet245(_this)).setFlashMode(flashMode);
+        ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this)).setFlashMode(flashMode);
     }
     
-    public static void SetPictureSize298(final UnoObject _this, final int width,final int height)
+    public static void SetPictureSize301(final UnoObject _this, final int width,final int height)
     {
-        ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet245(_this)).setPictureSize(width, height);
+        ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this)).setPictureSize(width, height);
     }
     
-    public static void StartRecording1299(final UnoObject _this, final com.foreign.Uno.Action_Object resolve,final com.foreign.Uno.Action_String reject)
+    public static void StartRecording1302(final UnoObject _this, final com.foreign.Uno.Action_Object resolve,final com.foreign.Uno.Action_String reject)
     {
-        ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet245(_this)).startRecording(new IStartRecordingSession() {
+        ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this)).startRecording(new IStartRecordingSession() {
         	public void onSuccess(RecordingSession recordingSession) {
         		resolve.run(recordingSession);
         	}
@@ -92,9 +92,9 @@ public class Camera
         });
     }
     
-    public static void TakePicture300(final UnoObject _this, final com.foreign.Uno.Action_Object resolve,final com.foreign.Uno.Action_String reject)
+    public static void TakePicture303(final UnoObject _this, final com.foreign.Uno.Action_Object resolve,final com.foreign.Uno.Action_String reject)
     {
-        ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet245(_this)).takePicture(new IPictureCallback() {
+        ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this)).takePicture(new IPictureCallback() {
         	public void onPictureTaken(byte[] data) {
         		resolve.run(data);
         	}
@@ -104,9 +104,9 @@ public class Camera
         });
     }
     
-    public static void UpdatePreviewStretchMode301(final UnoObject _this, final boolean shouldFill)
+    public static void UpdatePreviewStretchMode304(final UnoObject _this, final boolean shouldFill)
     {
-        ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet245(_this)).updateStretchMode(shouldFill);
+        ((CameraImpl)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this)).updateStretchMode(shouldFill);
     }
     
 }

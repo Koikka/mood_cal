@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Video/1.8.1/VideoVisual.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoVisual.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -18,7 +18,7 @@ namespace Fuse{
 namespace Controls{
 namespace VideoImpl{
 
-// internal sealed class Scale9Rectangle :407
+// internal sealed class Scale9Rectangle :405
 // {
 uType* Scale9Rectangle_typeof();
 void Scale9Rectangle__ctor__fn(Scale9Rectangle* __this);

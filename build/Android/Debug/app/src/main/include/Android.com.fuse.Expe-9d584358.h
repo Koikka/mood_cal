@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/Implementation/Android/ExperimentalHttp/HttpRequest.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/Implementation/Android/ExperimentalHttp/HttpRequest.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once

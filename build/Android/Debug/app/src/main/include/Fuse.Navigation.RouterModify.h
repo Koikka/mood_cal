@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.8.1/RouterModify.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterModify.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Reactive.IListener.h>
 #include <Fuse.Triggers.Actions-fcab7e57.h>
 namespace g{namespace Fuse{namespace Navigation{struct Router;}}}
@@ -19,7 +20,7 @@ namespace Navigation{
 // {
 struct RouterModify_type : ::g::Fuse::Triggers::Actions::TriggerAction_type
 {
-    ::g::Fuse::Reactive::IListener interface0;
+    ::g::Fuse::Reactive::IListener interface1;
 };
 
 RouterModify_type* RouterModify_typeof();

@@ -20,12 +20,12 @@ public class CameraView
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object Create304()
+    public static Object Create307()
     {
-        android.widget.FrameLayout frameLayout = new android.widget.FrameLayout(com.apps.mood_calendar.mood_calendar.GetRootActivity());
+        android.widget.FrameLayout frameLayout = new android.widget.FrameLayout(fi.samk.mood_cal.Kalenteri.GetRootActivity());
         frameLayout.setLayoutParams(new android.widget.FrameLayout.LayoutParams(android.view.ViewGroup.LayoutParams.MATCH_PARENT, android.view.ViewGroup.LayoutParams.MATCH_PARENT));
         return frameLayout;
     }

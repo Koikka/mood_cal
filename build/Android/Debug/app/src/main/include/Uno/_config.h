@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Backends/CPlusPlus/Uno/_config.h.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Backends/CPlusPlus/Uno/_config.h.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -69,7 +69,7 @@ T uAssertPtr(T ptr, const char* src, const char* msg) {
 // C++11 compatibility
 #ifdef _MSC_VER
 #define alignof __alignof
-#define snprintf sprintf_s
+#define snprintf _snprintf
 #endif
 
 // Deprecation

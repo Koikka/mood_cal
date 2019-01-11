@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.8.1/WhileKeyboardVisible.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/WhileKeyboardVisible.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,6 +7,7 @@
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.WhileTrigger.h>
 #include <Uno.Collections.ICollection-1.h>
@@ -26,7 +27,7 @@ namespace Triggers{
 // {
 struct WhileKeyboardVisible_type : ::g::Fuse::Triggers::Trigger_type
 {
-    ::g::Uno::UX::IPropertyListener interface8;
+    ::g::Uno::UX::IPropertyListener interface9;
 };
 
 WhileKeyboardVisible_type* WhileKeyboardVisible_typeof();

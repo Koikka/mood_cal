@@ -24,10 +24,10 @@ public class Dns
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static boolean JavaGetLocalAddresses57(final UnoObject addresses)
+    public static boolean JavaGetLocalAddresses60(final UnoObject addresses)
     {
         try
         {
@@ -51,7 +51,7 @@ public class Dns
                             hostAddress += inet6Address.getScopeId();
                         }
                     }
-                    ExternedBlockHost.callUno_Uno_Collections_List_lt_string_gt__Add58((UnoObject)addresses,(String)hostAddress);
+                    ExternedBlockHost.callUno_Uno_Collections_List_lt_string_gt__Add61((UnoObject)addresses,(String)hostAddress);
                 }
             }
         }

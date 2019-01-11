@@ -20,7 +20,7 @@ public class JavaToUnoArrayEntrypoints
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
     public static long boolArrayToUnoArrayPtr(final Object arr)

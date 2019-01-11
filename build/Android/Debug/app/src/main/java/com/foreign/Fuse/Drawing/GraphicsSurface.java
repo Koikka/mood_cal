@@ -45,10 +45,10 @@ public class GraphicsSurface
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void BeginImpl340(final Object _context,final int width,final int height,final int glTextureId)
+    public static void BeginImpl343(final Object _context,final int width,final int height,final int glTextureId)
     {
         GraphicsSurfaceContext context = (GraphicsSurfaceContext) _context;
         context.width = width;
@@ -56,7 +56,7 @@ public class GraphicsSurface
         context.glTextureId = glTextureId;
     }
     
-    public static void EndImpl341(final Object context)
+    public static void EndImpl344(final Object context)
     {
         GraphicsSurfaceContext realContext = (GraphicsSurfaceContext) context;
         
@@ -69,7 +69,7 @@ public class GraphicsSurface
         realContext.bitmap.recycle();
     }
     
-    public static void LoadBitmap342(final Object context,final int width,final int height)
+    public static void LoadBitmap345(final Object context,final int width,final int height)
     {
         GraphicsSurfaceContext impl = (GraphicsSurfaceContext) context;
         Bitmap b = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
@@ -85,7 +85,7 @@ public class GraphicsSurface
         canvas.scale(1, -1);
     }
     
-    public static Object LoadImage343(final int glTextureId,final int width,final int height)
+    public static Object LoadImage346(final int glTextureId,final int width,final int height)
     {
         int size = width * height * 4;
         int[] pixels = new int[size];

@@ -23,35 +23,35 @@ public class JavaRuns
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object Create346(final String text)
+    public static Object Create349(final String text)
     {
         return new Bidi(text, Bidi.DIRECTION_DEFAULT_LEFT_TO_RIGHT);
     }
     
-    public static int GetBaseLevel347(final Object handle)
+    public static int GetBaseLevel350(final Object handle)
     {
         return ((Bidi)handle).getBaseLevel();
     }
     
-    public static int GetRunCount348(final Object handle)
+    public static int GetRunCount351(final Object handle)
     {
         return ((Bidi)handle).getRunCount();
     }
     
-    public static int GetRunLevel349(final Object handle,final int run)
+    public static int GetRunLevel352(final Object handle,final int run)
     {
         return ((Bidi)handle).getRunLevel(run);
     }
     
-    public static int GetRunLimit350(final Object handle,final int run)
+    public static int GetRunLimit353(final Object handle,final int run)
     {
         return ((Bidi)handle).getRunLimit(run);
     }
     
-    public static int GetRunStart351(final Object handle,final int run)
+    public static int GetRunStart354(final Object handle,final int run)
     {
         return ((Bidi)handle).getRunStart(run);
     }

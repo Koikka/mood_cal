@@ -15,7 +15,7 @@ public class RecordingSession {
     MediaRecorder _mediaRecorder;
     String _outputFilePath;
 
-    public RecordingSession(Camera camera) throws Exception {
+    public RecordingSession(Camera camera, int orientationHintDegrees) throws Exception {
         _camera = camera;
         _outputFilePath = makeOutputFilePath();
         _mediaRecorder = new MediaRecorder();
@@ -24,6 +24,7 @@ public class RecordingSession {
         _mediaRecorder.setVideoSource(MediaRecorder.VideoSource.DEFAULT);
         _mediaRecorder.setProfile(CamcorderProfile.get(CamcorderProfile.QUALITY_HIGH));
         _mediaRecorder.setOutputFile(_outputFilePath);
+        _mediaRecorder.setOrientationHint(orientationHintDegrees);
         _mediaRecorder.prepare();
         _mediaRecorder.start();
     }

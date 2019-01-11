@@ -20,55 +20,55 @@ public class MediaPlayer
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object CreateMediaPlayer266(final UnoObject _this, final Object surfaceHandle)
+    public static Object CreateMediaPlayer269(final UnoObject _this, final Object surfaceHandle)
     {
         android.media.MediaPlayer player = new android.media.MediaPlayer();
         player.setAudioStreamType(android.media.AudioManager.STREAM_MUSIC);
         player.setOnPreparedListener(new android.media.MediaPlayer.OnPreparedListener() {
         	public void onPrepared(android.media.MediaPlayer mp) {
-        		ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared267((UnoObject)_this);
+        		ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared270((UnoObject)_this);
         	}
         });
         player.setOnCompletionListener(new android.media.MediaPlayer.OnCompletionListener() {
         	public void onCompletion(android.media.MediaPlayer mp) {
-        		ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion268((UnoObject)_this);
+        		ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion271((UnoObject)_this);
         	}
         });
         player.setOnErrorListener(new android.media.MediaPlayer.OnErrorListener() {
         	public boolean onError(android.media.MediaPlayer mp, int what, int extra) {
-        		ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError269((UnoObject)_this,(int)what,(int)extra);
+        		ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError272((UnoObject)_this,(int)what,(int)extra);
         		return false;
         	}
         });
         player.setOnBufferingUpdateListener(new android.media.MediaPlayer.OnBufferingUpdateListener() {
         	public void onBufferingUpdate(android.media.MediaPlayer mp, int percent) {
-        		ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer270((UnoObject)_this,(int)percent);
+        		ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer273((UnoObject)_this,(int)percent);
         	}
         });
         player.setSurface(((android.view.Surface)surfaceHandle));
         return player;
     }
     
-    public static Object CreateSurface271(final UnoObject _this, final Object surfaceTexture)
+    public static Object CreateSurface274(final UnoObject _this, final Object surfaceTexture)
     {
         return new android.view.Surface(((android.graphics.SurfaceTexture)surfaceTexture));
     }
     
-    public static Object CreateSurfaceTexture272(final UnoObject _this, final int glHandle)
+    public static Object CreateSurfaceTexture275(final UnoObject _this, final int glHandle)
     {
         android.graphics.SurfaceTexture surfaceTexture = new android.graphics.SurfaceTexture(glHandle);
         surfaceTexture.setOnFrameAvailableListener(new android.graphics.SurfaceTexture.OnFrameAvailableListener() {
         	public void onFrameAvailable(android.graphics.SurfaceTexture surfaceTexture) {
-        		ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable273((UnoObject)_this);
+        		ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable276((UnoObject)_this);
         	}
         });
         return surfaceTexture;
     }
     
-    public static void Dispose1274(final Object mediaplayerHandle,final Object surfaceHandle,final Object surfaceTextureHandle)
+    public static void Dispose1277(final Object mediaplayerHandle,final Object surfaceHandle,final Object surfaceTextureHandle)
     {
         android.media.MediaPlayer player = (android.media.MediaPlayer)mediaplayerHandle;
         player.reset();
@@ -81,28 +81,61 @@ public class MediaPlayer
         surfaceTexture.release();
     }
     
-    public static int GetCurrentPosition275(final Object handle)
+    public static int GetCurrentPosition278(final Object handle)
     {
         return ((android.media.MediaPlayer)handle).getCurrentPosition();
     }
     
-    public static int GetDuration276(final Object handle)
+    public static int GetDuration279(final Object handle)
     {
         return ((android.media.MediaPlayer)handle).getDuration();
     }
     
-    public static int GetHeight277(final Object handle)
+    public static int GetHeight280(final Object handle)
     {
         return ((android.media.MediaPlayer)handle).getVideoHeight();
     }
     
-    public static int GetOrientation278(final Object handle)
+    public static int GetOrientation281(final Object handle,final String dataSorucePath)
     {
+        /*
+        	Nasty code to check for rotation metadata on a video
+        
+        	This code probes for orientation as the soruce might not have it.
+        */
+        if (dataSorucePath != null)
+        {
+        	try
+        	{
+        		android.media.MediaMetadataRetriever mmr = new android.media.MediaMetadataRetriever();
+        		mmr.setDataSource(dataSorucePath);
+        		String rotation = mmr.extractMetadata(android.media.MediaMetadataRetriever.METADATA_KEY_VIDEO_ROTATION);
+        		if (rotation != null) {
+        			return java.lang.Integer.parseInt(rotation);
+        		}
+        	}
+        	catch(Exception e) { /* We do not care if this fails */ }
+        
+        	try
+        	{
+        		android.content.res.AssetFileDescriptor afd = com.fuse.Activity.getRootActivity()
+        			.getAssets()
+        			.openFd(dataSorucePath);
+        
+        		android.media.MediaMetadataRetriever mmr = new android.media.MediaMetadataRetriever();
+        		mmr.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
+        		String rotation = mmr.extractMetadata(android.media.MediaMetadataRetriever.METADATA_KEY_VIDEO_ROTATION);
+        		if (rotation != null) {
+        			return java.lang.Integer.parseInt(rotation);
+        		}
+        	}
+        	catch (Exception e) { /* We do not care if this fails */ }
+        }
+        
         if (android.os.Build.VERSION.SDK_INT < 19) // we need API level 19 to call MediaPlayer.TrackInfo.getFormat()
         	return 0;
         
         android.media.MediaPlayer player = (android.media.MediaPlayer)handle;
-        int degrees = 0;
         android.media.MediaPlayer.TrackInfo[] tracks = player.getTrackInfo();
         for (int i = 0; i < tracks.length; i++)
         {
@@ -114,21 +147,20 @@ public class MediaPlayer
         		{
         			if (format.getFeatureEnabled(android.media.MediaFormat.KEY_ROTATION))
         			{
-        				degrees = format.getInteger(android.media.MediaFormat.KEY_ROTATION);
-        				break;
+        				return format.getInteger(android.media.MediaFormat.KEY_ROTATION);
         			}
         		}
         	}
         }
-        return degrees;
+        return 0;
     }
     
-    public static int GetWidth279(final Object handle)
+    public static int GetWidth282(final Object handle)
     {
         return ((android.media.MediaPlayer)handle).getVideoWidth();
     }
     
-    public static boolean IsHardwareAccelerated280()
+    public static boolean IsHardwareAccelerated283()
     {
         android.view.Window window = com.fuse.Activity.getRootActivity().getWindow();
         
@@ -153,7 +185,7 @@ public class MediaPlayer
         return false;
     }
     
-    public static void LoadAsyncAsset281(final UnoObject _this, final Object handle,final String assetName)
+    public static void LoadAsyncAsset284(final UnoObject _this, final Object handle,final String assetName)
     {
         android.media.MediaPlayer player = (android.media.MediaPlayer)handle;
         android.content.res.AssetFileDescriptor afd = null;
@@ -167,7 +199,7 @@ public class MediaPlayer
         {
         	// checked exceptions suck (ﾉಥДಥ)ﾉ︵┻━┻･/
         	android.util.Log.e("Fuse.Video", e.getMessage());
-        	ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred282((UnoObject)_this,(String)e.getMessage());
+        	ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred285((UnoObject)_this,(String)e.getMessage());
         }
         
         /// AAAAAAAAAA JAVA
@@ -188,13 +220,13 @@ public class MediaPlayer
         {
         	// (ﾉಥДಥ)ﾉ︵┻━┻･/
         	android.util.Log.e("Fuse.Video", e.getMessage());
-        	ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred282((UnoObject)_this,(String)e.getMessage());
+        	ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred285((UnoObject)_this,(String)e.getMessage());
         }
         
         player.prepareAsync();
     }
     
-    public static void LoadAsyncUrl283(final UnoObject _this, final Object handle,final String url)
+    public static void LoadAsyncUrl286(final UnoObject _this, final Object handle,final String url)
     {
         android.media.MediaPlayer player = (android.media.MediaPlayer)handle;
         player.reset();
@@ -205,12 +237,12 @@ public class MediaPlayer
         catch(Exception e)
         {
         	android.util.Log.e("Fuse.Video", e.getMessage());
-        	ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred282((UnoObject)_this,(String)e.getMessage());
+        	ExternedBlockHost.callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred285((UnoObject)_this,(String)e.getMessage());
         }
         player.prepareAsync();
     }
     
-    public static void Pause1284(final Object handle)
+    public static void Pause1287(final Object handle)
     {
         android.media.MediaPlayer player = (android.media.MediaPlayer)handle;
         if (player.isPlaying())
@@ -221,7 +253,7 @@ public class MediaPlayer
         }
     }
     
-    public static void Play1285(final Object handle)
+    public static void Play1288(final Object handle)
     {
         android.media.MediaPlayer player = (android.media.MediaPlayer)handle;
         if (!player.isPlaying())
@@ -232,17 +264,17 @@ public class MediaPlayer
         }
     }
     
-    public static void SeekTo286(final Object handle,final int position)
+    public static void SeekTo289(final Object handle,final int position)
     {
         ((android.media.MediaPlayer)handle).seekTo(position);
     }
     
-    public static void SetVolume287(final Object handle,final float left,final float right)
+    public static void SetVolume290(final Object handle,final float left,final float right)
     {
         ((android.media.MediaPlayer)handle).setVolume(left, right);
     }
     
-    public static void UpdateTexture1288(final Object surfaceTextureHandle)
+    public static void UpdateTexture1291(final Object surfaceTextureHandle)
     {
         ((android.graphics.SurfaceTexture)surfaceTextureHandle).updateTexImage();
     }

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.WebSockets/1.8.1/Android/Neovisionaries/WebSocketClient.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/Android/Neovisionaries/WebSocketClient.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once

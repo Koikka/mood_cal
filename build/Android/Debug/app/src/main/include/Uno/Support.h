@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Backends/CPlusPlus/Uno/Support.h.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Backends/CPlusPlus/Uno/Support.h.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -51,7 +51,7 @@ struct uGLTextureInfo
     int MipCount;
 };
 
-uImage::Texture* uLoadXliTexture(const uBase::String& filename, uBase::Stream* stream);
+uImage::Texture* uLoadXliTexture(const uBase::String& filename, uArray* data);
 unsigned int uCreateGLTexture(uImage::Texture* texData, bool generateMipmap = true, uGLTextureInfo* outInfo = 0);
 /** @} */
 

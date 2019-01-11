@@ -38,7 +38,7 @@ namespace Uno{
 namespace Data{
 namespace Json{
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/JsonValue.uno
+// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class Array :90
@@ -131,7 +131,7 @@ Array* Array::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/JsonValue.uno
+// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
 // ----------------------------------------------------------------------
 
 // internal abstract class AtomicValue<T> :17
@@ -179,7 +179,7 @@ void AtomicValue__get_Value_fn(AtomicValue* __this, uTRef __retval)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/JsonValue.uno
+// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class Boolean :33
@@ -245,7 +245,7 @@ Boolean* Boolean::New1(bool b)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/JsonDataType.uno
+// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonDataType.uno
 // -------------------------------------------------------------------------
 
 // public enum JsonDataType :3
@@ -266,7 +266,7 @@ uEnumType* JsonDataType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/JsonException.uno
+// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonException.uno
 // --------------------------------------------------------------------------
 
 // public sealed class JsonException :3
@@ -318,7 +318,7 @@ JsonException* JsonException::New4(uString* message)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/JsonReader.uno
+// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonReader.uno
 // -----------------------------------------------------------------------
 
 // public sealed class JsonReader :8
@@ -411,14 +411,14 @@ void JsonReader__New1_fn(::g::Uno::Data::Json::Value* value, JsonReader** __retv
     *__retval = JsonReader::New1(value);
 }
 
-// public static explicit operator bool(Uno.Data.Json.JsonReader value) :124
-void JsonReader__op_Explicit1_fn(JsonReader* value, bool* __retval)
+// public static explicit operator string(Uno.Data.Json.JsonReader value) :114
+void JsonReader__op_Explicit1_fn(JsonReader* value, uString** __retval)
 {
     *__retval = JsonReader::op_Explicit1(value);
 }
 
-// public static explicit operator string(Uno.Data.Json.JsonReader value) :114
-void JsonReader__op_Explicit3_fn(JsonReader* value, uString** __retval)
+// public static explicit operator bool(Uno.Data.Json.JsonReader value) :124
+void JsonReader__op_Explicit3_fn(JsonReader* value, bool* __retval)
 {
     *__retval = JsonReader::op_Explicit3(value);
 }
@@ -537,16 +537,16 @@ JsonReader* JsonReader::New1(::g::Uno::Data::Json::Value* value)
     return obj1;
 }
 
-// public static explicit operator bool(Uno.Data.Json.JsonReader value) [static] :124
-bool JsonReader::op_Explicit1(JsonReader* value)
-{
-    return uPtr(value)->AsBool();
-}
-
 // public static explicit operator string(Uno.Data.Json.JsonReader value) [static] :114
-uString* JsonReader::op_Explicit3(JsonReader* value)
+uString* JsonReader::op_Explicit1(JsonReader* value)
 {
     return uPtr(value)->AsString();
+}
+
+// public static explicit operator bool(Uno.Data.Json.JsonReader value) [static] :124
+bool JsonReader::op_Explicit3(JsonReader* value)
+{
+    return uPtr(value)->AsBool();
 }
 
 // public static Uno.Data.Json.JsonReader Parse(string json) [static] :54
@@ -556,7 +556,7 @@ JsonReader* JsonReader::Parse(uString* json)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/JsonWriter.uno
+// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonWriter.uno
 // -----------------------------------------------------------------------
 
 // public static class JsonWriter :5
@@ -667,7 +667,7 @@ uString* JsonWriter::QuoteString(uString* str)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/JsonValue.uno
+// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class Null :10
@@ -730,7 +730,7 @@ Null* Null::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/JsonValue.uno
+// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class Number :41
@@ -783,7 +783,7 @@ Number* Number::New1(double d)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/JsonValue.uno
+// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class Object :51
@@ -907,7 +907,7 @@ Object* Object::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/Parser.uno
+// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/Parser.uno
 // -------------------------------------------------------------------
 
 // internal sealed class Parser :8
@@ -1499,7 +1499,7 @@ Parser* Parser::New1(::g::Uno::IO::TextReader* json)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/JsonValue.uno
+// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class String :46
@@ -1552,7 +1552,7 @@ String* String::New1(uString* d)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.8.0/Source/JsonValue.uno
+// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
 // ----------------------------------------------------------------------
 
 // internal abstract class Value :6

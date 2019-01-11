@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.8.1/TriggerActions.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/TriggerActions.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Triggers.Actions-fcab7e57.h>
 namespace g{namespace Fuse{namespace Navigation{struct BackForwardNavigationTriggerAction;}}}
 namespace g{namespace Fuse{struct Node;}}
@@ -10,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// public abstract class BackForwardNavigationTriggerAction :123
+// public abstract class BackForwardNavigationTriggerAction :137
 // {
 struct BackForwardNavigationTriggerAction_type : ::g::Fuse::Triggers::Actions::TriggerAction_type
 {

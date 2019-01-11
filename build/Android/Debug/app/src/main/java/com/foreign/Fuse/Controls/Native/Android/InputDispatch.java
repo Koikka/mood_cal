@@ -20,24 +20,24 @@ public class InputDispatch
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void ClearOnTouchListener152(final Object viewHandle)
+    public static void ClearOnTouchListener155(final Object viewHandle)
     {
         ((android.view.View)viewHandle).setOnTouchListener(null);
     }
     
-    public static Object CreateTouchListener153()
+    public static Object CreateTouchListener156()
     {
         return new android.view.View.OnTouchListener() {
         		public boolean onTouch(android.view.View view, android.view.MotionEvent e) {
-        			return ExternedBlockHost.callUno_Fuse_Controls_Native_Android_InputDispatch_OnTouch154((Object)view,(Object)e,UnoHelper.GetUnoObjectRef((Object)view),UnoHelper.GetUnoObjectRef((Object)e));
+        			return ExternedBlockHost.callUno_Fuse_Controls_Native_Android_InputDispatch_OnTouch157((Object)view,(Object)e,UnoHelper.GetUnoObjectRef((Object)view),UnoHelper.GetUnoObjectRef((Object)e));
         		}
         	};
     }
     
-    public static void SetOnTouchListener155(final Object viewHandle,final Object listenerHandle)
+    public static void SetOnTouchListener158(final Object viewHandle,final Object listenerHandle)
     {
         ((android.view.View)viewHandle).setOnTouchListener(((android.view.View.OnTouchListener)listenerHandle));
     }

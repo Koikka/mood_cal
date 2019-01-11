@@ -42,7 +42,7 @@ namespace g{
 namespace Fuse{
 namespace Camera{
 
-// /usr/local/share/uno/Packages/Fuse.Camera/1.8.1/Android/AndroidCamera.uno
+// /usr/local/share/uno/Packages/Fuse.Camera/1.9.0/Android/AndroidCamera.uno
 // -------------------------------------------------------------------------
 
 // internal static extern class AndroidCamera :10
@@ -85,7 +85,7 @@ void AndroidCamera::TakePicture(::g::Uno::Threading::Promise* p)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Camera/1.8.1/Camera.uno
+// /usr/local/share/uno/Packages/Fuse.Camera/1.9.0/Camera.uno
 // ----------------------------------------------------------
 
 // public sealed class Camera :32
@@ -219,7 +219,7 @@ Camera* Camera::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Camera/1.8.1/Camera.uno
+// /usr/local/share/uno/Packages/Fuse.Camera/1.9.0/Camera.uno
 // ----------------------------------------------------------
 
 // internal sealed class ResizeImageCallback :92
@@ -330,7 +330,7 @@ ResizeImageCallback* ResizeImageCallback::New1(::g::Uno::Threading::Promise* p, 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Camera/1.8.1/Android/AndroidCamera.uno
+// /usr/local/share/uno/Packages/Fuse.Camera/1.9.0/Android/AndroidCamera.uno
 // -------------------------------------------------------------------------
 
 // internal sealed extern class TakePictureCallback :79
@@ -405,7 +405,7 @@ void TakePictureCallback::HandleIntent(int32_t resultCode, ::g::Java::Object* in
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "HandleIntent419", "(Lcom/uno/UnoObject;ILjava/lang/Object;Ljava/lang/Object;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "HandleIntent422", "(Lcom/uno/UnoObject;ILjava/lang/Object;Ljava/lang/Object;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         int32_t _uresultCode=resultCode;
@@ -459,7 +459,7 @@ TakePictureCallback* TakePictureCallback::New1(::g::Uno::Threading::Promise* p)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Camera/1.8.1/Android/AndroidCamera.uno
+// /usr/local/share/uno/Packages/Fuse.Camera/1.9.0/Android/AndroidCamera.uno
 // -------------------------------------------------------------------------
 
 // internal sealed extern class TakePictureCommand :26
@@ -555,7 +555,7 @@ void TakePictureCommand::Execute(uArray* grantedPermissions)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateImage420", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateImage423", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         ::g::Android::Base::JNI::CheckException();
@@ -570,7 +570,7 @@ void TakePictureCommand::Execute(uArray* grantedPermissions)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateIntent421", "(Ljava/lang/Object;)Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateIntent424", "(Ljava/lang/Object;)Ljava/lang/Object;");
         ::g::Java::Object* _uphoto=photo;
         jobject _photo = (_uphoto==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uphoto, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd,_photo);

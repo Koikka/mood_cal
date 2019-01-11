@@ -186,7 +186,7 @@ namespace g{
 namespace Fuse{
 namespace Animations{
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TriggerAnimation.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TriggerAnimation.uno
 // ------------------------------------------------------------------------
 
 // public enum AnimationVariant :8
@@ -202,7 +202,7 @@ uEnumType* AnimationVariant_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Animator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Animator.uno
 // ----------------------------------------------------------------
 
 // public abstract class Animator :68
@@ -309,7 +309,7 @@ void Animator::MixOp(int32_t value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Animator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Animator.uno
 // ----------------------------------------------------------------
 
 // internal abstract class AnimatorState :122
@@ -357,7 +357,7 @@ void AnimatorState::ctor_(::g::Fuse::Animations::CreateStateParams* p, ::g::Fuse
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Animator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Animator.uno
 // ----------------------------------------------------------------
 
 // internal enum AnimatorVariant :6
@@ -374,7 +374,7 @@ uEnumType* AnimatorVariant_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Attract.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Attract.uno
 // ---------------------------------------------------------------
 
 // public sealed class Attract :41
@@ -382,8 +382,9 @@ uEnumType* AnimatorVariant_typeof()
 static void Attract_build(uType* type)
 {
     type->SetInterfaces(
-        ::g::Fuse::Reactive::IExpression_typeof(), offsetof(::g::Fuse::Reactive::Expression_type, interface0));
-    type->SetFields(0,
+        ::g::Fuse::Reactive::IExpression_typeof(), offsetof(::g::Fuse::Reactive::Expression_type, interface0),
+        ::g::Fuse::ISourceLocation_typeof(), offsetof(::g::Fuse::Reactive::Expression_type, interface1));
+    type->SetFields(2,
         ::g::Fuse::Reactive::Expression_typeof(), offsetof(Attract, _sourceValue), 0,
         ::g::Fuse::Animations::AttractorConfig_typeof(), offsetof(Attract, _config), 0);
 }
@@ -395,14 +396,17 @@ static void Attract_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Reactive::Expression_typeof();
-    options.FieldCount = 2;
-    options.InterfaceCount = 1;
+    options.FieldCount = 4;
+    options.InterfaceCount = 2;
     options.ObjectSize = sizeof(Attract);
     options.TypeSize = sizeof(::g::Fuse::Reactive::Expression_type);
     type = (::g::Fuse::Reactive::Expression_type*)uClassType::New("Fuse.Animations.Attract", options);
     type->fp_build_ = Attract_build;
     type->fp_Subscribe = (void(*)(::g::Fuse::Reactive::Expression*, uObject*, uObject*, uObject**))Attract__Subscribe_fn;
+    type->interface1.fp_get_SourceNearest = (void(*)(uObject*, uObject**))::g::Fuse::Reactive::Expression__FuseISourceLocationget_SourceNearest_fn;
     type->interface0.fp_Subscribe = (void(*)(uObject*, uObject*, uObject*, uObject**))Attract__Subscribe_fn;
+    type->interface1.fp_get_SourceLineNumber = (void(*)(uObject*, int32_t*))::g::Fuse::Reactive::Expression__get_SourceLineNumber_fn;
+    type->interface1.fp_get_SourceFileName = (void(*)(uObject*, uString**))::g::Fuse::Reactive::Expression__get_SourceFileName_fn;
     return type;
 }
 
@@ -415,7 +419,7 @@ void Attract__Subscribe_fn(Attract* __this, uObject* context, uObject* listener,
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Attractor.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Attractor.uno
 // -----------------------------------------------------------------
 
 // public sealed class Attractor<T> :26
@@ -423,7 +427,7 @@ void Attract__Subscribe_fn(Attract* __this, uObject* context, uObject* listener,
 static void Attractor_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("Motion should not be changed post-rooting");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Attractor.uno");
+    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Attractor.uno");
     ::STRINGS[2] = uString::Const("set_Motion");
     ::TYPES[0] = ::g::Fuse::Motion::Simulation::Simulation_typeof();
     ::TYPES[1] = ::g::Uno::Action_typeof();
@@ -439,10 +443,11 @@ static void Attractor_build(uType* type)
         ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(Attractor_type, interface1),
         ::g::Fuse::IProperties_typeof(), offsetof(Attractor_type, interface2),
         ::g::Fuse::INotifyUnrooted_typeof(), offsetof(Attractor_type, interface3),
-        ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(Attractor_type, interface4),
-        ::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(Attractor_type, interface5),
-        ::g::Uno::UX::IPropertyListener_typeof(), offsetof(Attractor_type, interface6));
-    type->SetFields(15,
+        ::g::Fuse::ISourceLocation_typeof(), offsetof(Attractor_type, interface4),
+        ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(Attractor_type, interface5),
+        ::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(Attractor_type, interface6),
+        ::g::Uno::UX::IPropertyListener_typeof(), offsetof(Attractor_type, interface7));
+    type->SetFields(17,
         ::g::Fuse::Motion::DestinationMotion_typeof()->MakeType(type->T(0), NULL), offsetof(Attractor, _motion), 0,
         ::TYPES[2/*Fuse.Motion.Simulation.DestinationSimulation`1*/]->MakeType(type->T(0), NULL), offsetof(Attractor, _sim), 0,
         ::g::Uno::Bool_typeof(), offsetof(Attractor, _isEnabled), 0,
@@ -458,9 +463,9 @@ Attractor_type* Attractor_typeof()
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Behavior_typeof();
-    options.FieldCount = 21;
+    options.FieldCount = 23;
     options.GenericCount = 1;
-    options.InterfaceCount = 7;
+    options.InterfaceCount = 8;
     options.DependencyCount = 1;
     options.PrecalcCount = 2;
     options.ObjectSize = sizeof(Attractor);
@@ -469,22 +474,25 @@ Attractor_type* Attractor_typeof()
     type->fp_build_ = Attractor_build;
     type->fp_OnRooted = (void(*)(::g::Fuse::Node*))Attractor__OnRooted_fn;
     type->fp_OnUnrooted = (void(*)(::g::Fuse::Node*))Attractor__OnUnrooted_fn;
-    type->interface6.fp_OnPropertyChanged = (void(*)(uObject*, ::g::Uno::UX::PropertyObject*, ::g::Uno::UX::Selector*))Attractor__UnoUXIPropertyListenerOnPropertyChanged_fn;
-    type->interface4.fp_Clear = (void(*)(uObject*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingClear_fn;
-    type->interface4.fp_Contains = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingContains_fn;
+    type->interface7.fp_OnPropertyChanged = (void(*)(uObject*, ::g::Uno::UX::PropertyObject*, ::g::Uno::UX::Selector*))Attractor__UnoUXIPropertyListenerOnPropertyChanged_fn;
+    type->interface5.fp_Clear = (void(*)(uObject*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingClear_fn;
+    type->interface5.fp_Contains = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingContains_fn;
     type->interface0.fp_RemoveAt = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsIListFuseBindingRemoveAt_fn;
-    type->interface5.fp_GetEnumerator = (void(*)(uObject*, uObject**))::g::Fuse::Node__UnoCollectionsIEnumerableFuseBindingGetEnumerator_fn;
+    type->interface6.fp_GetEnumerator = (void(*)(uObject*, uObject**))::g::Fuse::Node__UnoCollectionsIEnumerableFuseBindingGetEnumerator_fn;
     type->interface1.fp_SetScriptObject = (void(*)(uObject*, uObject*, ::g::Fuse::Scripting::Context*))::g::Fuse::Node__FuseScriptingIScriptObjectSetScriptObject_fn;
-    type->interface4.fp_get_Count = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingget_Count_fn;
+    type->interface5.fp_get_Count = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingget_Count_fn;
     type->interface0.fp_get_Item = (void(*)(uObject*, int32_t*, uTRef))::g::Fuse::Node__UnoCollectionsIListFuseBindingget_Item_fn;
     type->interface1.fp_get_ScriptObject = (void(*)(uObject*, uObject**))::g::Fuse::Node__FuseScriptingIScriptObjectget_ScriptObject_fn;
     type->interface1.fp_get_ScriptContext = (void(*)(uObject*, ::g::Fuse::Scripting::Context**))::g::Fuse::Node__FuseScriptingIScriptObjectget_ScriptContext_fn;
+    type->interface4.fp_get_SourceNearest = (void(*)(uObject*, uObject**))::g::Fuse::Node__FuseISourceLocationget_SourceNearest_fn;
     type->interface3.fp_add_Unrooted = (void(*)(uObject*, uDelegate*))::g::Fuse::Node__FuseINotifyUnrootedadd_Unrooted_fn;
     type->interface3.fp_remove_Unrooted = (void(*)(uObject*, uDelegate*))::g::Fuse::Node__FuseINotifyUnrootedremove_Unrooted_fn;
     type->interface0.fp_Insert = (void(*)(uObject*, int32_t*, void*))::g::Fuse::Node__Insert_fn;
     type->interface2.fp_get_Properties = (void(*)(uObject*, ::g::Fuse::Properties**))::g::Fuse::Node__get_Properties_fn;
-    type->interface4.fp_Add = (void(*)(uObject*, void*))::g::Fuse::Node__Add_fn;
-    type->interface4.fp_Remove = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__Remove_fn;
+    type->interface4.fp_get_SourceLineNumber = (void(*)(uObject*, int32_t*))::g::Fuse::Node__get_SourceLineNumber_fn;
+    type->interface4.fp_get_SourceFileName = (void(*)(uObject*, uString**))::g::Fuse::Node__get_SourceFileName_fn;
+    type->interface5.fp_Add = (void(*)(uObject*, void*))::g::Fuse::Node__Add_fn;
+    type->interface5.fp_Remove = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__Remove_fn;
     return type;
 }
 
@@ -667,7 +675,7 @@ void Attractor::Update()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Attract.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Attract.uno
 // ---------------------------------------------------------------
 
 // public sealed class AttractorConfig :19
@@ -693,7 +701,7 @@ uType* AttractorConfig_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/AverageMixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/AverageMixer.uno
 // --------------------------------------------------------------------
 
 // internal sealed class AverageMasterProperty<T> :17
@@ -702,6 +710,8 @@ static void AverageMasterProperty_build(uType* type)
 {
     ::TYPES[4] = ::g::Fuse::Internal::BlenderMap_typeof();
     type->SetBase(::g::Fuse::Animations::MasterProperty_typeof()->MakeType(type->T(0), NULL));
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetPrecalc(
         ::g::Fuse::Internal::BlenderMap_typeof()->MakeMethod(0/*Get<T>*/, type->T(0), NULL));
     type->SetInterfaces(
@@ -722,6 +732,7 @@ static void AverageMasterProperty_build(uType* type)
     options.FieldCount = 11;
     options.GenericCount = 1;
     options.InterfaceCount = 3;
+    options.DependencyCount = 1;
     options.PrecalcCount = 1;
     options.ObjectSize = sizeof(AverageMasterProperty);
     options.TypeSize = sizeof(::g::Fuse::Animations::MasterProperty_type);
@@ -811,7 +822,7 @@ AverageMasterProperty* AverageMasterProperty::New1(uType* __type, ::g::Uno::UX::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/AverageMixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/AverageMixer.uno
 // --------------------------------------------------------------------
 
 // internal sealed class AverageMasterTransform :57
@@ -896,7 +907,7 @@ AverageMasterTransform* AverageMasterTransform::New1(::g::Fuse::Visual* node, ::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/AverageMixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/AverageMixer.uno
 // --------------------------------------------------------------------
 
 // internal sealed class AverageMixer :7
@@ -977,7 +988,7 @@ AverageMixer* AverageMixer::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.BackInImpl :320
@@ -1037,7 +1048,7 @@ Easing__BackInImpl* Easing__BackInImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.BackInOutImpl :339
@@ -1103,7 +1114,7 @@ Easing__BackInOutImpl* Easing__BackInOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.BackOutImpl :329
@@ -1164,7 +1175,7 @@ Easing__BackOutImpl* Easing__BackOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.BounceInImpl :354
@@ -1226,7 +1237,7 @@ Easing__BounceInImpl* Easing__BounceInImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.BounceInOutImpl :388
@@ -1292,7 +1303,7 @@ Easing__BounceInOutImpl* Easing__BounceInOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.BounceOutImpl :362
@@ -1368,7 +1379,7 @@ Easing__BounceOutImpl* Easing__BounceOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Change.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno
 // --------------------------------------------------------------
 
 // public sealed class Change<T> :35
@@ -1551,13 +1562,15 @@ Change* Change::New2(uType* __type, ::g::Uno::UX::Property1* target)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.CircularInImpl :246
 // {
 static void Easing__CircularInImpl_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Animations::Easing_type* Easing__CircularInImpl_typeof()
@@ -1567,6 +1580,7 @@ static void Easing__CircularInImpl_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::Easing_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Easing__CircularInImpl);
     options.TypeSize = sizeof(::g::Fuse::Animations::Easing_type);
     type = (::g::Fuse::Animations::Easing_type*)uClassType::New("Fuse.Animations.Easing.CircularInImpl", options);
@@ -1610,13 +1624,15 @@ Easing__CircularInImpl* Easing__CircularInImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.CircularInOutImpl :263
 // {
 static void Easing__CircularInOutImpl_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Animations::Easing_type* Easing__CircularInOutImpl_typeof()
@@ -1626,6 +1642,7 @@ static void Easing__CircularInOutImpl_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::Easing_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Easing__CircularInOutImpl);
     options.TypeSize = sizeof(::g::Fuse::Animations::Easing_type);
     type = (::g::Fuse::Animations::Easing_type*)uClassType::New("Fuse.Animations.Easing.CircularInOutImpl", options);
@@ -1675,13 +1692,15 @@ Easing__CircularInOutImpl* Easing__CircularInOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.CircularOutImpl :254
 // {
 static void Easing__CircularOutImpl_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Animations::Easing_type* Easing__CircularOutImpl_typeof()
@@ -1691,6 +1710,7 @@ static void Easing__CircularOutImpl_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::Easing_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Easing__CircularOutImpl);
     options.TypeSize = sizeof(::g::Fuse::Animations::Easing_type);
     type = (::g::Fuse::Animations::Easing_type*)uClassType::New("Fuse.Animations.Easing.CircularOutImpl", options);
@@ -1735,7 +1755,7 @@ Easing__CircularOutImpl* Easing__CircularOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Change.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno
 // --------------------------------------------------------------
 
 // internal sealed class ContinuousTrackChangeState<T> :210
@@ -1743,7 +1763,7 @@ Easing__CircularOutImpl* Easing__CircularOutImpl::New1()
 static void ContinuousTrackChangeState_build(uType* type)
 {
     ::STRINGS[5] = uString::Const("Invalid Seek");
-    ::STRINGS[6] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Change.uno");
+    ::STRINGS[6] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno");
     ::TYPES[11] = ::g::Fuse::Animations::IMixer_typeof();
     ::TYPES[12] = ::g::Fuse::Animations::IMixerHandle_typeof();
     type->SetDependencies(
@@ -1841,7 +1861,7 @@ ContinuousTrackChangeState* ContinuousTrackChangeState::New1(uType* __type, ::g:
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TrackAnimator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TrackAnimator.uno
 // ---------------------------------------------------------------------
 
 // internal abstract interface ContinuousTrackProvider :16
@@ -1856,7 +1876,7 @@ uInterfaceType* ContinuousTrackProvider_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Change.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno
 // --------------------------------------------------------------
 
 // internal abstract class Converter<T> :242
@@ -1891,7 +1911,7 @@ void Converter::ctor_()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Change.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno
 // --------------------------------------------------------------
 
 // internal sealed class ConverterDouble :291
@@ -1971,7 +1991,7 @@ ConverterDouble* ConverterDouble::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Change.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno
 // --------------------------------------------------------------
 
 // internal sealed class ConverterFloat :248
@@ -2051,7 +2071,7 @@ ConverterFloat* ConverterFloat::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Change.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno
 // --------------------------------------------------------------
 
 // internal sealed class ConverterFloat2 :270
@@ -2131,7 +2151,7 @@ ConverterFloat2* ConverterFloat2::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Change.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno
 // --------------------------------------------------------------
 
 // internal sealed class ConverterFloat3 :277
@@ -2211,7 +2231,7 @@ ConverterFloat3* ConverterFloat3::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Change.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno
 // --------------------------------------------------------------
 
 // internal sealed class ConverterFloat4 :284
@@ -2291,7 +2311,7 @@ ConverterFloat4* ConverterFloat4::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Change.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno
 // --------------------------------------------------------------
 
 // internal sealed class ConverterSize :255
@@ -2351,7 +2371,7 @@ void ConverterSize__New1_fn(ConverterSize** __retval)
 void ConverterSize__Out_fn(ConverterSize* __this, ::g::Uno::Float4* value, ::g::Uno::UX::Size* __retval)
 {
     ::g::Uno::Float4 value_ = *value;
-    return *__retval = ::g::Uno::UX::Size__op_Implicit(value_.X), void();
+    return *__retval = ::g::Uno::UX::Size__op_Implicit1(value_.X), void();
 }
 
 uSStrong<ConverterSize*> ConverterSize::Singleton_;
@@ -2371,7 +2391,7 @@ ConverterSize* ConverterSize::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Change.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno
 // --------------------------------------------------------------
 
 // internal sealed class ConverterSize2 :262
@@ -2431,7 +2451,7 @@ void ConverterSize2__New1_fn(ConverterSize2** __retval)
 void ConverterSize2__Out_fn(ConverterSize2* __this, ::g::Uno::Float4* value, ::g::Uno::UX::Size2* __retval)
 {
     ::g::Uno::Float4 value_ = *value;
-    return *__retval = ::g::Uno::UX::Size2__op_Implicit1(::g::Uno::Float2__New2(value_.X, value_.Y)), void();
+    return *__retval = ::g::Uno::UX::Size2__op_Implicit2(::g::Uno::Float2__New2(value_.X, value_.Y)), void();
 }
 
 uSStrong<ConverterSize2*> ConverterSize2::Singleton_;
@@ -2451,7 +2471,7 @@ ConverterSize2* ConverterSize2::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Animator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Animator.uno
 // ----------------------------------------------------------------
 
 // internal sealed class CreateStateParams :101
@@ -2505,13 +2525,15 @@ CreateStateParams* CreateStateParams::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // public sealed class CubicBezierEasing :449
 // {
 static void CubicBezierEasing_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::g::Uno::Double_typeof(), offsetof(CubicBezierEasing, _C1X), 0,
         ::g::Uno::Double_typeof(), offsetof(CubicBezierEasing, _C1Y), 0,
@@ -2527,6 +2549,7 @@ static void CubicBezierEasing_build(uType* type)
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::Easing_typeof();
     options.FieldCount = 4;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(CubicBezierEasing);
     options.TypeSize = sizeof(::g::Fuse::Animations::Easing_type);
     type = (::g::Fuse::Animations::Easing_type*)uClassType::New("Fuse.Animations.CubicBezierEasing", options);
@@ -2662,7 +2685,7 @@ void CubicBezierEasing::C2Y(double value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.CubicInImpl :99
@@ -2721,7 +2744,7 @@ Easing__CubicInImpl* Easing__CubicInImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.CubicInOutImpl :116
@@ -2786,7 +2809,7 @@ Easing__CubicInOutImpl* Easing__CubicInOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.CubicOutImpl :107
@@ -2846,7 +2869,7 @@ Easing__CubicOutImpl* Easing__CubicOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Cycle.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Cycle.uno
 // -------------------------------------------------------------
 
 // public sealed class Cycle<T> :60
@@ -2854,6 +2877,8 @@ Easing__CubicOutImpl* Easing__CubicOutImpl::New1()
 static void Cycle_build(uType* type)
 {
     ::TYPES[13] = ::g::Fuse::Animations::CycleState_typeof();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetPrecalc(
         ::g::Fuse::Animations::CycleState_typeof()->MakeType(type->T(0), NULL));
     type->SetFields(6,
@@ -2881,6 +2906,7 @@ static void Cycle_build(uType* type)
     options.BaseDefinition = ::g::Fuse::Animations::OpenAnimator_typeof();
     options.FieldCount = 19;
     options.GenericCount = 1;
+    options.DependencyCount = 1;
     options.PrecalcCount = 1;
     options.ObjectSize = sizeof(Cycle);
     options.TypeSize = sizeof(::g::Fuse::Animations::Animator_type);
@@ -3234,7 +3260,7 @@ double Cycle::WaveformFunc(double i, double offset)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Cycle.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Cycle.uno
 // -------------------------------------------------------------
 
 // public enum CycleRestore :20
@@ -3250,7 +3276,7 @@ uEnumType* CycleRestore_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Cycle.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Cycle.uno
 // -------------------------------------------------------------
 
 // internal sealed class CycleState<T> :241
@@ -3258,11 +3284,13 @@ uEnumType* CycleRestore_typeof()
 static void CycleState_build(uType* type)
 {
     ::STRINGS[7] = uString::Const("invalid seek");
-    ::STRINGS[8] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Cycle.uno");
+    ::STRINGS[8] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Cycle.uno");
     ::STRINGS[9] = uString::Const("Seek");
     ::TYPES[11] = ::g::Fuse::Animations::IMixer_typeof();
     ::TYPES[4] = ::g::Fuse::Internal::BlenderMap_typeof();
     ::TYPES[12] = ::g::Fuse::Animations::IMixerHandle_typeof();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetPrecalc(
         ::g::Fuse::Internal::BlenderMap_typeof()->MakeMethod(0/*Get<T>*/, type->T(0), NULL),
         ::g::Fuse::Animations::IMixerHandle_typeof()->MakeType(type->T(0), NULL),
@@ -3283,6 +3311,7 @@ static void CycleState_build(uType* type)
     options.BaseDefinition = ::g::Fuse::Animations::OpenAnimatorState_typeof();
     options.FieldCount = 9;
     options.GenericCount = 1;
+    options.DependencyCount = 1;
     options.PrecalcCount = 3;
     options.ObjectSize = sizeof(CycleState);
     options.TypeSize = sizeof(::g::Fuse::Animations::OpenAnimatorState_type);
@@ -3391,7 +3420,7 @@ CycleState* CycleState::New1(uType* __type, ::g::Fuse::Animations::Cycle* animat
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Cycle.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Cycle.uno
 // -------------------------------------------------------------
 
 // public enum CycleWaveform :7
@@ -3409,7 +3438,7 @@ uEnumType* CycleWaveform_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/DestinationBehavior.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/DestinationBehavior.uno
 // -----------------------------------------------------------------------
 
 // internal sealed class DestinationBehavior<T> :13
@@ -3571,7 +3600,7 @@ DestinationBehavior* DestinationBehavior::New1(uType* __type)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/DiscreteMixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/DiscreteMixer.uno
 // ---------------------------------------------------------------------
 
 // internal sealed class DiscreteMasterProperty<T> :18
@@ -3656,7 +3685,7 @@ DiscreteMasterProperty* DiscreteMasterProperty::New1(uType* __type, ::g::Uno::UX
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/DiscreteMixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/DiscreteMixer.uno
 // ---------------------------------------------------------------------
 
 // internal sealed class DiscreteMasterTransform :41
@@ -3737,7 +3766,7 @@ DiscreteMasterTransform* DiscreteMasterTransform::New1(::g::Fuse::Visual* node, 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/DiscreteMixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/DiscreteMixer.uno
 // ---------------------------------------------------------------------
 
 // internal sealed class DiscreteMixer :8
@@ -3818,7 +3847,7 @@ DiscreteMixer* DiscreteMixer::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/DiscreteSingleTrack.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/DiscreteSingleTrack.uno
 // ---------------------------------------------------------------------------
 
 // internal sealed class DiscreteSingleTrack :5
@@ -3831,6 +3860,8 @@ static void DiscreteSingleTrack__cctor__fn(uType* __type)
 
 static void DiscreteSingleTrack_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetInterfaces(
         ::g::Fuse::Animations::DiscreteTrackProvider_typeof(), offsetof(DiscreteSingleTrack_type, interface0),
         ::g::Fuse::Animations::TrackProvider_typeof(), offsetof(DiscreteSingleTrack_type, interface1));
@@ -3846,6 +3877,7 @@ DiscreteSingleTrack_type* DiscreteSingleTrack_typeof()
     uTypeOptions options;
     options.FieldCount = 1;
     options.InterfaceCount = 2;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(DiscreteSingleTrack);
     options.TypeSize = sizeof(DiscreteSingleTrack_type);
     type = (DiscreteSingleTrack_type*)uClassType::New("Fuse.Animations.DiscreteSingleTrack", options);
@@ -3929,7 +3961,7 @@ DiscreteSingleTrack* DiscreteSingleTrack::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Change.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno
 // --------------------------------------------------------------
 
 // internal sealed class DiscreteTrackChangeState<T> :177
@@ -3937,7 +3969,7 @@ DiscreteSingleTrack* DiscreteSingleTrack::New1()
 static void DiscreteTrackChangeState_build(uType* type)
 {
     ::STRINGS[5] = uString::Const("Invalid Seek");
-    ::STRINGS[6] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Change.uno");
+    ::STRINGS[6] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno");
     ::TYPES[11] = ::g::Fuse::Animations::IMixer_typeof();
     ::TYPES[12] = ::g::Fuse::Animations::IMixerHandle_typeof();
     type->SetDependencies(
@@ -4034,7 +4066,7 @@ DiscreteTrackChangeState* DiscreteTrackChangeState::New1(uType* __type, ::g::Fus
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TrackAnimator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TrackAnimator.uno
 // ---------------------------------------------------------------------
 
 // internal abstract interface DiscreteTrackProvider :24
@@ -4049,7 +4081,7 @@ uInterfaceType* DiscreteTrackProvider_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // public abstract class Easing :13
@@ -4185,7 +4217,7 @@ void Easing::ctor_()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/EasingTrack.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/EasingTrack.uno
 // -------------------------------------------------------------------
 
 // internal sealed class EasingTrack :5
@@ -4199,6 +4231,8 @@ static void EasingTrack__cctor__fn(uType* __type)
 static void EasingTrack_build(uType* type)
 {
     ::TYPES[15] = ::g::Fuse::Animations::ContinuousTrackProvider_typeof();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetInterfaces(
         ::TYPES[15/*Fuse.Animations.ContinuousTrackProvider*/], offsetof(EasingTrack_type, interface0),
         ::g::Fuse::Animations::TrackProvider_typeof(), offsetof(EasingTrack_type, interface1));
@@ -4214,6 +4248,7 @@ EasingTrack_type* EasingTrack_typeof()
     uTypeOptions options;
     options.FieldCount = 1;
     options.InterfaceCount = 2;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(EasingTrack);
     options.TypeSize = sizeof(EasingTrack_type);
     type = (EasingTrack_type*)uClassType::New("Fuse.Animations.EasingTrack", options);
@@ -4298,13 +4333,15 @@ EasingTrack* EasingTrack::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.ElasticInImpl :275
 // {
 static void Easing__ElasticInImpl_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Animations::Easing_type* Easing__ElasticInImpl_typeof()
@@ -4314,6 +4351,7 @@ static void Easing__ElasticInImpl_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::Easing_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Easing__ElasticInImpl);
     options.TypeSize = sizeof(::g::Fuse::Animations::Easing_type);
     type = (::g::Fuse::Animations::Easing_type*)uClassType::New("Fuse.Animations.Easing.ElasticInImpl", options);
@@ -4365,13 +4403,15 @@ Easing__ElasticInImpl* Easing__ElasticInImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.ElasticInOutImpl :303
 // {
 static void Easing__ElasticInOutImpl_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Animations::Easing_type* Easing__ElasticInOutImpl_typeof()
@@ -4381,6 +4421,7 @@ static void Easing__ElasticInOutImpl_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::Easing_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Easing__ElasticInOutImpl);
     options.TypeSize = sizeof(::g::Fuse::Animations::Easing_type);
     type = (::g::Fuse::Animations::Easing_type*)uClassType::New("Fuse.Animations.Easing.ElasticInOutImpl", options);
@@ -4436,13 +4477,15 @@ Easing__ElasticInOutImpl* Easing__ElasticInOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.ElasticOutImpl :289
 // {
 static void Easing__ElasticOutImpl_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Animations::Easing_type* Easing__ElasticOutImpl_typeof()
@@ -4452,6 +4495,7 @@ static void Easing__ElasticOutImpl_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::Easing_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Easing__ElasticOutImpl);
     options.TypeSize = sizeof(::g::Fuse::Animations::Easing_type);
     type = (::g::Fuse::Animations::Easing_type*)uClassType::New("Fuse.Animations.Easing.ElasticOutImpl", options);
@@ -4502,13 +4546,15 @@ Easing__ElasticOutImpl* Easing__ElasticOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.ExponentialInImpl :212
 // {
 static void Easing__ExponentialInImpl_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Animations::Easing_type* Easing__ExponentialInImpl_typeof()
@@ -4518,6 +4564,7 @@ static void Easing__ExponentialInImpl_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::Easing_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Easing__ExponentialInImpl);
     options.TypeSize = sizeof(::g::Fuse::Animations::Easing_type);
     type = (::g::Fuse::Animations::Easing_type*)uClassType::New("Fuse.Animations.Easing.ExponentialInImpl", options);
@@ -4561,13 +4608,15 @@ Easing__ExponentialInImpl* Easing__ExponentialInImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.ExponentialInOutImpl :228
 // {
 static void Easing__ExponentialInOutImpl_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Animations::Easing_type* Easing__ExponentialInOutImpl_typeof()
@@ -4577,6 +4626,7 @@ static void Easing__ExponentialInOutImpl_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::Easing_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Easing__ExponentialInOutImpl);
     options.TypeSize = sizeof(::g::Fuse::Animations::Easing_type);
     type = (::g::Fuse::Animations::Easing_type*)uClassType::New("Fuse.Animations.Easing.ExponentialInOutImpl", options);
@@ -4632,13 +4682,15 @@ Easing__ExponentialInOutImpl* Easing__ExponentialInOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.ExponentialOutImpl :220
 // {
 static void Easing__ExponentialOutImpl_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Animations::Easing_type* Easing__ExponentialOutImpl_typeof()
@@ -4648,6 +4700,7 @@ static void Easing__ExponentialOutImpl_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::Easing_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Easing__ExponentialOutImpl);
     options.TypeSize = sizeof(::g::Fuse::Animations::Easing_type);
     type = (::g::Fuse::Animations::Easing_type*)uClassType::New("Fuse.Animations.Easing.ExponentialOutImpl", options);
@@ -4691,21 +4744,24 @@ Easing__ExponentialOutImpl* Easing__ExponentialOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno
 // -------------------------------------------------------------
 
 // internal sealed class FastMatrixTransform :292
 // {
 static void FastMatrixTransform_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetInterfaces(
         ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Transform_type, interface0),
         ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(::g::Fuse::Transform_type, interface1),
         ::g::Fuse::IProperties_typeof(), offsetof(::g::Fuse::Transform_type, interface2),
         ::g::Fuse::INotifyUnrooted_typeof(), offsetof(::g::Fuse::Transform_type, interface3),
-        ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Transform_type, interface4),
-        ::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Transform_type, interface5));
-    type->SetFields(16,
+        ::g::Fuse::ISourceLocation_typeof(), offsetof(::g::Fuse::Transform_type, interface4),
+        ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Transform_type, interface5),
+        ::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Transform_type, interface6));
+    type->SetFields(18,
         ::g::Fuse::FastMatrix_typeof(), offsetof(FastMatrixTransform, Matrix), 0);
 }
 
@@ -4716,8 +4772,9 @@ static void FastMatrixTransform_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Transform_typeof();
-    options.FieldCount = 17;
-    options.InterfaceCount = 6;
+    options.FieldCount = 19;
+    options.InterfaceCount = 7;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(FastMatrixTransform);
     options.TypeSize = sizeof(::g::Fuse::Transform_type);
     type = (::g::Fuse::Transform_type*)uClassType::New("Fuse.Animations.FastMatrixTransform", options);
@@ -4726,21 +4783,24 @@ static void FastMatrixTransform_build(uType* type)
     type->fp_AppendTo = (void(*)(::g::Fuse::Transform*, ::g::Fuse::FastMatrix*, float*))FastMatrixTransform__AppendTo_fn;
     type->fp_get_IsFlat = (void(*)(::g::Fuse::Transform*, bool*))FastMatrixTransform__get_IsFlat_fn;
     type->fp_PrependTo = (void(*)(::g::Fuse::Transform*, ::g::Fuse::FastMatrix*))FastMatrixTransform__PrependTo_fn;
-    type->interface4.fp_Clear = (void(*)(uObject*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingClear_fn;
-    type->interface4.fp_Contains = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingContains_fn;
+    type->interface5.fp_Clear = (void(*)(uObject*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingClear_fn;
+    type->interface5.fp_Contains = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingContains_fn;
     type->interface0.fp_RemoveAt = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsIListFuseBindingRemoveAt_fn;
-    type->interface5.fp_GetEnumerator = (void(*)(uObject*, uObject**))::g::Fuse::Node__UnoCollectionsIEnumerableFuseBindingGetEnumerator_fn;
+    type->interface6.fp_GetEnumerator = (void(*)(uObject*, uObject**))::g::Fuse::Node__UnoCollectionsIEnumerableFuseBindingGetEnumerator_fn;
     type->interface1.fp_SetScriptObject = (void(*)(uObject*, uObject*, ::g::Fuse::Scripting::Context*))::g::Fuse::Node__FuseScriptingIScriptObjectSetScriptObject_fn;
-    type->interface4.fp_get_Count = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingget_Count_fn;
+    type->interface5.fp_get_Count = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingget_Count_fn;
     type->interface0.fp_get_Item = (void(*)(uObject*, int32_t*, uTRef))::g::Fuse::Node__UnoCollectionsIListFuseBindingget_Item_fn;
     type->interface1.fp_get_ScriptObject = (void(*)(uObject*, uObject**))::g::Fuse::Node__FuseScriptingIScriptObjectget_ScriptObject_fn;
     type->interface1.fp_get_ScriptContext = (void(*)(uObject*, ::g::Fuse::Scripting::Context**))::g::Fuse::Node__FuseScriptingIScriptObjectget_ScriptContext_fn;
+    type->interface4.fp_get_SourceNearest = (void(*)(uObject*, uObject**))::g::Fuse::Node__FuseISourceLocationget_SourceNearest_fn;
     type->interface3.fp_add_Unrooted = (void(*)(uObject*, uDelegate*))::g::Fuse::Node__FuseINotifyUnrootedadd_Unrooted_fn;
     type->interface3.fp_remove_Unrooted = (void(*)(uObject*, uDelegate*))::g::Fuse::Node__FuseINotifyUnrootedremove_Unrooted_fn;
     type->interface0.fp_Insert = (void(*)(uObject*, int32_t*, void*))::g::Fuse::Node__Insert_fn;
     type->interface2.fp_get_Properties = (void(*)(uObject*, ::g::Fuse::Properties**))::g::Fuse::Node__get_Properties_fn;
-    type->interface4.fp_Add = (void(*)(uObject*, void*))::g::Fuse::Node__Add_fn;
-    type->interface4.fp_Remove = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__Remove_fn;
+    type->interface4.fp_get_SourceLineNumber = (void(*)(uObject*, int32_t*))::g::Fuse::Node__get_SourceLineNumber_fn;
+    type->interface4.fp_get_SourceFileName = (void(*)(uObject*, uString**))::g::Fuse::Node__get_SourceFileName_fn;
+    type->interface5.fp_Add = (void(*)(uObject*, void*))::g::Fuse::Node__Add_fn;
+    type->interface5.fp_Remove = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__Remove_fn;
     return type;
 }
 
@@ -4805,7 +4865,7 @@ FastMatrixTransform* FastMatrixTransform::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno
 // -------------------------------------------------------------
 
 // protected struct MasterBase<T>.GFWResult :178
@@ -4834,7 +4894,7 @@ uStructType* MasterBase__GFWResult_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TriggerAnimation.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TriggerAnimation.uno
 // ------------------------------------------------------------------------
 
 // internal abstract interface IBasePlayerFeedback :219
@@ -4849,7 +4909,7 @@ uInterfaceType* IBasePlayerFeedback_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno
 // -------------------------------------------------------------
 
 // public abstract interface IMixer :22
@@ -4865,7 +4925,7 @@ uInterfaceType* IMixer_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno
 // -------------------------------------------------------------
 
 // public abstract interface IMixerHandle<T> :28
@@ -4880,7 +4940,7 @@ uInterfaceType* IMixerHandle_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno
 // -------------------------------------------------------------
 
 // internal abstract interface IMixerMaster :43
@@ -4895,7 +4955,7 @@ uInterfaceType* IMixerMaster_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TriggerAnimation.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TriggerAnimation.uno
 // ------------------------------------------------------------------------
 
 // internal abstract interface IPlayerFeedback :225
@@ -4910,7 +4970,7 @@ uInterfaceType* IPlayerFeedback_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Resize.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Resize.uno
 // --------------------------------------------------------------
 
 // public abstract interface IResize :5
@@ -4925,7 +4985,7 @@ uInterfaceType* IResize_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Resize.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Resize.uno
 // --------------------------------------------------------------
 
 // public abstract interface IResizeMode :10
@@ -4940,7 +5000,7 @@ uInterfaceType* IResizeMode_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TriggerAnimation.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TriggerAnimation.uno
 // ------------------------------------------------------------------------
 
 // internal abstract interface IUnwrappedPlayerFeedback :230
@@ -4955,7 +5015,7 @@ uInterfaceType* IUnwrappedPlayerFeedback_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.LinearImpl :60
@@ -5014,7 +5074,7 @@ Easing__LinearImpl* Easing__LinearImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno
 // -------------------------------------------------------------
 
 // internal abstract class MasterBase<T> :95
@@ -5027,6 +5087,7 @@ static void MasterBase__Finalize_fn(MasterBase* __this)
 static void MasterBase_build(uType* type)
 {
     type->SetDependencies(
+        ::g::Uno::Math_typeof(),
         ::g::Fuse::UpdateManager_typeof());
     type->SetPrecalc(
         ::g::Uno::Collections::List_typeof()->MakeType(::g::Fuse::Animations::MixerHandle_typeof()->MakeType(type->T(0), NULL), NULL));
@@ -5048,7 +5109,7 @@ MasterBase_type* MasterBase_typeof()
     options.FieldCount = 4;
     options.GenericCount = 1;
     options.InterfaceCount = 1;
-    options.DependencyCount = 1;
+    options.DependencyCount = 2;
     options.PrecalcCount = 1;
     options.ObjectSize = sizeof(MasterBase);
     options.TypeSize = sizeof(MasterBase_type);
@@ -5205,7 +5266,7 @@ void MasterBase::Unregister(::g::Fuse::Animations::MixerHandle* handle)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno
 // -------------------------------------------------------------
 
 // internal abstract class MasterProperty<T> :211
@@ -5215,7 +5276,7 @@ static void MasterProperty_build(uType* type)
     ::STRINGS[10] = uString::Const("The property ");
     ::STRINGS[11] = uString::Const(" of ");
     ::STRINGS[12] = uString::Const(" cannot be reliably animated because it does not provide an origin-setter. Animating this property may lead to visual glitches or inconsistencies.");
-    ::STRINGS[13] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno");
+    ::STRINGS[13] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno");
     ::STRINGS[14] = uString::Const("GiveOriginSetterWarning");
     type->SetBase(::g::Fuse::Animations::MasterBase_typeof()->MakeType(type->T(0), NULL));
     type->SetInterfaces(
@@ -5353,12 +5414,12 @@ void MasterProperty::GiveOriginSetterWarning()
     if (!_warningGiven)
     {
         _warningGiven = true;
-        ::g::Fuse::Diagnostics::UserWarning(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition1(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::STRINGS[10/*"The property "*/], ::g::Uno::UX::Selector__op_Implicit1(uPtr(Property)->Name())), ::STRINGS[11/*" of "*/]), uPtr(Property)->Object()), ::STRINGS[12/*" cannot be ...*/]), this, ::STRINGS[13/*"/usr/local/...*/], 275, ::STRINGS[14/*"GiveOriginS...*/]);
+        ::g::Fuse::Diagnostics::UserWarning(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition1(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::STRINGS[10/*"The property "*/], ::g::Uno::UX::Selector__op_Implicit2(uPtr(Property)->Name())), ::STRINGS[11/*" of "*/]), uPtr(Property)->Object()), ::STRINGS[12/*" cannot be ...*/]), this, ::STRINGS[13/*"/usr/local/...*/], 275, ::STRINGS[14/*"GiveOriginS...*/]);
     }
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno
 // -------------------------------------------------------------
 
 // internal abstract interface MasterPropertyGet :207
@@ -5373,7 +5434,7 @@ uInterfaceType* MasterPropertyGet_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno
 // -------------------------------------------------------------
 
 // internal abstract class MasterTransform :329
@@ -5446,7 +5507,7 @@ void MasterTransform::ctor_1(::g::Fuse::Visual* node, ::g::Fuse::Animations::Mix
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno
 // -------------------------------------------------------------
 
 // internal sealed class Mixer :35
@@ -5510,7 +5571,7 @@ uObject* Mixer::DefaultDiscrete()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno
 // -------------------------------------------------------------
 
 // internal abstract class MixerBase :45
@@ -5642,7 +5703,7 @@ void MixerBase::Unused(uObject* mb)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno
 // -------------------------------------------------------------
 
 // internal sealed class MixerHandle<T> :360
@@ -5650,7 +5711,7 @@ void MixerBase::Unused(uObject* mb)
 static void MixerHandle_build(uType* type)
 {
     ::STRINGS[15] = uString::Const("invalid MixerHandle.Set post-Unregister");
-    ::STRINGS[13] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno");
+    ::STRINGS[13] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno");
     type->SetDependencies(
         ::g::Uno::Diagnostics::Debug_typeof());
     type->SetInterfaces(
@@ -5804,7 +5865,7 @@ MixerHandle* MixerHandle::New1(uType* __type, ::g::Fuse::Animations::MasterBase*
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Mixer.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Mixer.uno
 // -------------------------------------------------------------
 
 // public enum MixOp :12
@@ -5821,7 +5882,7 @@ uEnumType* MixOp_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TransformAnimator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TransformAnimator.uno
 // -------------------------------------------------------------------------
 
 // public sealed class Move :214
@@ -5916,7 +5977,7 @@ Move* Move::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Nothing.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Nothing.uno
 // ---------------------------------------------------------------
 
 // public sealed class Nothing :10
@@ -5976,7 +6037,7 @@ Nothing* Nothing::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Nothing.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Nothing.uno
 // ---------------------------------------------------------------
 
 // internal sealed class NothingAnimatorState :18
@@ -6028,7 +6089,7 @@ NothingAnimatorState* NothingAnimatorState::New1(::g::Fuse::Animations::Nothing*
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/OpenAnimator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/OpenAnimator.uno
 // --------------------------------------------------------------------
 
 // public abstract class OpenAnimator :14
@@ -6119,7 +6180,7 @@ bool OpenAnimator::HasDuration()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/OpenAnimator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/OpenAnimator.uno
 // --------------------------------------------------------------------
 
 // internal abstract class OpenAnimatorState :57
@@ -6195,7 +6256,7 @@ void OpenAnimatorState::ctor_1(::g::Fuse::Animations::OpenAnimator* animator, ::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Player.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Player.uno
 // --------------------------------------------------------------
 
 // internal sealed class Player :174
@@ -6736,7 +6797,7 @@ Player* Player::New1(::g::Fuse::Visual* elm, ::g::Fuse::Animations::TriggerAnima
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TriggerAnimation.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TriggerAnimation.uno
 // ------------------------------------------------------------------------
 
 // internal enum PlayerFeedbackFlags :212
@@ -6753,13 +6814,15 @@ uEnumType* PlayerFeedbackFlags_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Player.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Player.uno
 // --------------------------------------------------------------
 
 // internal sealed class PlayerPart :14
 // {
 static void PlayerPart_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::g::Uno::Bool_typeof(), offsetof(PlayerPart, IsProgress), 0,
         ::g::Uno::Double_typeof(), offsetof(PlayerPart, Duration), 0,
@@ -6779,6 +6842,7 @@ uType* PlayerPart_typeof()
 
     uTypeOptions options;
     options.FieldCount = 9;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(PlayerPart);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Fuse.Animations.PlayerPart", options);
@@ -7013,7 +7077,7 @@ PlayerPart* PlayerPart::New1(double currentProgress)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TriggerAnimation.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TriggerAnimation.uno
 // ------------------------------------------------------------------------
 
 // public enum PlayMode :14
@@ -7029,7 +7093,7 @@ uEnumType* PlayMode_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.QuadraticInImpl :68
@@ -7088,7 +7152,7 @@ Easing__QuadraticInImpl* Easing__QuadraticInImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.QuadraticInOutImpl :84
@@ -7153,7 +7217,7 @@ Easing__QuadraticInOutImpl* Easing__QuadraticInOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.QuadraticOutImpl :76
@@ -7212,7 +7276,7 @@ Easing__QuadraticOutImpl* Easing__QuadraticOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.QuarticInImpl :129
@@ -7271,7 +7335,7 @@ Easing__QuarticInImpl* Easing__QuarticInImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.QuarticInOutImpl :146
@@ -7336,7 +7400,7 @@ Easing__QuarticInOutImpl* Easing__QuarticInOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.QuarticOutImpl :137
@@ -7396,7 +7460,7 @@ Easing__QuarticOutImpl* Easing__QuarticOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.QuinticInImpl :158
@@ -7455,7 +7519,7 @@ Easing__QuinticInImpl* Easing__QuinticInImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.QuinticInOutImpl :175
@@ -7520,7 +7584,7 @@ Easing__QuinticInOutImpl* Easing__QuinticInOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.QuinticOutImpl :166
@@ -7580,7 +7644,7 @@ Easing__QuinticOutImpl* Easing__QuinticOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/RangeAdapter.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/RangeAdapter.uno
 // --------------------------------------------------------------------
 
 // public sealed class RangeAdapter<T> :36
@@ -7594,10 +7658,11 @@ static void RangeAdapter_build(uType* type)
         ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(RangeAdapter_type, interface1),
         ::g::Fuse::IProperties_typeof(), offsetof(RangeAdapter_type, interface2),
         ::g::Fuse::INotifyUnrooted_typeof(), offsetof(RangeAdapter_type, interface3),
-        ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(RangeAdapter_type, interface4),
-        ::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(RangeAdapter_type, interface5),
-        ::g::Uno::UX::IPropertyListener_typeof(), offsetof(RangeAdapter_type, interface6));
-    type->SetFields(15,
+        ::g::Fuse::ISourceLocation_typeof(), offsetof(RangeAdapter_type, interface4),
+        ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(RangeAdapter_type, interface5),
+        ::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(RangeAdapter_type, interface6),
+        ::g::Uno::UX::IPropertyListener_typeof(), offsetof(RangeAdapter_type, interface7));
+    type->SetFields(17,
         ::g::Uno::UX::Property1_typeof()->MakeType(type->T(0), NULL), offsetof(RangeAdapter, _Source), 0);
 }
 
@@ -7608,9 +7673,9 @@ RangeAdapter_type* RangeAdapter_typeof()
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Behavior_typeof();
-    options.FieldCount = 16;
+    options.FieldCount = 18;
     options.GenericCount = 1;
-    options.InterfaceCount = 7;
+    options.InterfaceCount = 8;
     options.DependencyCount = 1;
     options.ObjectSize = sizeof(RangeAdapter);
     options.TypeSize = sizeof(RangeAdapter_type);
@@ -7618,22 +7683,25 @@ RangeAdapter_type* RangeAdapter_typeof()
     type->fp_build_ = RangeAdapter_build;
     type->fp_OnRooted = (void(*)(::g::Fuse::Node*))RangeAdapter__OnRooted_fn;
     type->fp_OnUnrooted = (void(*)(::g::Fuse::Node*))RangeAdapter__OnUnrooted_fn;
-    type->interface6.fp_OnPropertyChanged = (void(*)(uObject*, ::g::Uno::UX::PropertyObject*, ::g::Uno::UX::Selector*))RangeAdapter__UnoUXIPropertyListenerOnPropertyChanged_fn;
-    type->interface4.fp_Clear = (void(*)(uObject*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingClear_fn;
-    type->interface4.fp_Contains = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingContains_fn;
+    type->interface7.fp_OnPropertyChanged = (void(*)(uObject*, ::g::Uno::UX::PropertyObject*, ::g::Uno::UX::Selector*))RangeAdapter__UnoUXIPropertyListenerOnPropertyChanged_fn;
+    type->interface5.fp_Clear = (void(*)(uObject*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingClear_fn;
+    type->interface5.fp_Contains = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingContains_fn;
     type->interface0.fp_RemoveAt = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsIListFuseBindingRemoveAt_fn;
-    type->interface5.fp_GetEnumerator = (void(*)(uObject*, uObject**))::g::Fuse::Node__UnoCollectionsIEnumerableFuseBindingGetEnumerator_fn;
+    type->interface6.fp_GetEnumerator = (void(*)(uObject*, uObject**))::g::Fuse::Node__UnoCollectionsIEnumerableFuseBindingGetEnumerator_fn;
     type->interface1.fp_SetScriptObject = (void(*)(uObject*, uObject*, ::g::Fuse::Scripting::Context*))::g::Fuse::Node__FuseScriptingIScriptObjectSetScriptObject_fn;
-    type->interface4.fp_get_Count = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingget_Count_fn;
+    type->interface5.fp_get_Count = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingget_Count_fn;
     type->interface0.fp_get_Item = (void(*)(uObject*, int32_t*, uTRef))::g::Fuse::Node__UnoCollectionsIListFuseBindingget_Item_fn;
     type->interface1.fp_get_ScriptObject = (void(*)(uObject*, uObject**))::g::Fuse::Node__FuseScriptingIScriptObjectget_ScriptObject_fn;
     type->interface1.fp_get_ScriptContext = (void(*)(uObject*, ::g::Fuse::Scripting::Context**))::g::Fuse::Node__FuseScriptingIScriptObjectget_ScriptContext_fn;
+    type->interface4.fp_get_SourceNearest = (void(*)(uObject*, uObject**))::g::Fuse::Node__FuseISourceLocationget_SourceNearest_fn;
     type->interface3.fp_add_Unrooted = (void(*)(uObject*, uDelegate*))::g::Fuse::Node__FuseINotifyUnrootedadd_Unrooted_fn;
     type->interface3.fp_remove_Unrooted = (void(*)(uObject*, uDelegate*))::g::Fuse::Node__FuseINotifyUnrootedremove_Unrooted_fn;
     type->interface0.fp_Insert = (void(*)(uObject*, int32_t*, void*))::g::Fuse::Node__Insert_fn;
     type->interface2.fp_get_Properties = (void(*)(uObject*, ::g::Fuse::Properties**))::g::Fuse::Node__get_Properties_fn;
-    type->interface4.fp_Add = (void(*)(uObject*, void*))::g::Fuse::Node__Add_fn;
-    type->interface4.fp_Remove = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__Remove_fn;
+    type->interface4.fp_get_SourceLineNumber = (void(*)(uObject*, int32_t*))::g::Fuse::Node__get_SourceLineNumber_fn;
+    type->interface4.fp_get_SourceFileName = (void(*)(uObject*, uString**))::g::Fuse::Node__get_SourceFileName_fn;
+    type->interface5.fp_Add = (void(*)(uObject*, void*))::g::Fuse::Node__Add_fn;
+    type->interface5.fp_Remove = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__Remove_fn;
     return type;
 }
 
@@ -7682,7 +7750,7 @@ void RangeAdapter::Source(::g::Uno::UX::Property1* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/RangeAdapter.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/RangeAdapter.uno
 // --------------------------------------------------------------------
 
 // internal static class RangeAdapterHelpers :6
@@ -7690,7 +7758,7 @@ void RangeAdapter::Source(::g::Uno::UX::Property1* value)
 // static generated RangeAdapterHelpers() :6
 static void RangeAdapterHelpers__cctor__fn(uType* __type)
 {
-    RangeAdapterHelpers::_valueName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[16/*"Value"*/]);
+    RangeAdapterHelpers::_valueName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[16/*"Value"*/]);
 }
 
 static void RangeAdapterHelpers_build(uType* type)
@@ -7717,7 +7785,7 @@ uClassType* RangeAdapterHelpers_typeof()
 ::g::Uno::UX::Selector RangeAdapterHelpers::_valueName_;
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Resize.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Resize.uno
 // --------------------------------------------------------------
 
 // public sealed class Resize :32
@@ -7825,7 +7893,7 @@ void Resize::Target(::g::Fuse::Visual* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Resize.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Resize.uno
 // --------------------------------------------------------------
 
 // internal sealed class ResizeAnimatorState :84
@@ -7833,7 +7901,7 @@ void Resize::Target(::g::Fuse::Visual* value)
 static void ResizeAnimatorState_build(uType* type)
 {
     ::STRINGS[17] = uString::Const("Resize started without a Target node");
-    ::STRINGS[18] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Resize.uno");
+    ::STRINGS[18] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Resize.uno");
     ::STRINGS[19] = uString::Const(".ctor");
     ::STRINGS[20] = uString::Const("Resize started without as RelativeTo");
     ::TYPES[26] = ::g::Fuse::Animations::IResize_typeof();
@@ -7988,7 +8056,7 @@ ResizeAnimatorState* ResizeAnimatorState::New1(::g::Fuse::Animations::Resize* r,
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TransformAnimator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TransformAnimator.uno
 // -------------------------------------------------------------------------
 
 // public sealed class Rotate :269
@@ -7996,6 +8064,8 @@ ResizeAnimatorState* ResizeAnimatorState::New1(::g::Fuse::Animations::Resize* r,
 static void Rotate_build(uType* type)
 {
     type->SetBase(::g::Fuse::Animations::TransformAnimator_typeof()->MakeType(::g::Fuse::Rotation_typeof(), NULL));
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(21);
 }
 
@@ -8007,6 +8077,7 @@ static void Rotate_build(uType* type)
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::TransformAnimator_typeof();
     options.FieldCount = 21;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Rotate);
     options.TypeSize = sizeof(::g::Fuse::Animations::TransformAnimator_type);
     type = (::g::Fuse::Animations::TransformAnimator_type*)uClassType::New("Fuse.Animations.Rotate", options);
@@ -8123,7 +8194,7 @@ Rotate* Rotate::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TransformAnimator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TransformAnimator.uno
 // -------------------------------------------------------------------------
 
 // public sealed class Scale :331
@@ -8243,7 +8314,7 @@ Scale* Scale::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Animator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Animator.uno
 // ----------------------------------------------------------------
 
 // internal enum SeekDirection :108
@@ -8259,7 +8330,7 @@ uEnumType* SeekDirection_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TriggerAnimation.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TriggerAnimation.uno
 // ------------------------------------------------------------------------
 
 // public enum TriggerAnimationState.SeekFlags :482
@@ -8275,7 +8346,7 @@ uEnumType* TriggerAnimationState__SeekFlags_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Animator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Animator.uno
 // ----------------------------------------------------------------
 
 // internal enum SeekResult :115
@@ -8292,13 +8363,15 @@ uEnumType* SeekResult_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.SinusoidalInImpl :188
 // {
 static void Easing__SinusoidalInImpl_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Animations::Easing_type* Easing__SinusoidalInImpl_typeof()
@@ -8308,6 +8381,7 @@ static void Easing__SinusoidalInImpl_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::Easing_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Easing__SinusoidalInImpl);
     options.TypeSize = sizeof(::g::Fuse::Animations::Easing_type);
     type = (::g::Fuse::Animations::Easing_type*)uClassType::New("Fuse.Animations.Easing.SinusoidalInImpl", options);
@@ -8351,13 +8425,15 @@ Easing__SinusoidalInImpl* Easing__SinusoidalInImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.SinusoidalInOutImpl :204
 // {
 static void Easing__SinusoidalInOutImpl_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Animations::Easing_type* Easing__SinusoidalInOutImpl_typeof()
@@ -8367,6 +8443,7 @@ static void Easing__SinusoidalInOutImpl_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::Easing_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Easing__SinusoidalInOutImpl);
     options.TypeSize = sizeof(::g::Fuse::Animations::Easing_type);
     type = (::g::Fuse::Animations::Easing_type*)uClassType::New("Fuse.Animations.Easing.SinusoidalInOutImpl", options);
@@ -8410,13 +8487,15 @@ Easing__SinusoidalInOutImpl* Easing__SinusoidalInOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Easing.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Easing.uno
 // ----------------------------------------------------------
 
 // internal sealed class Easing.SinusoidalOutImpl :196
 // {
 static void Easing__SinusoidalOutImpl_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 ::g::Fuse::Animations::Easing_type* Easing__SinusoidalOutImpl_typeof()
@@ -8426,6 +8505,7 @@ static void Easing__SinusoidalOutImpl_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::Easing_typeof();
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(Easing__SinusoidalOutImpl);
     options.TypeSize = sizeof(::g::Fuse::Animations::Easing_type);
     type = (::g::Fuse::Animations::Easing_type*)uClassType::New("Fuse.Animations.Easing.SinusoidalOutImpl", options);
@@ -8469,7 +8549,7 @@ Easing__SinusoidalOutImpl* Easing__SinusoidalOutImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TransformAnimator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TransformAnimator.uno
 // -------------------------------------------------------------------------
 
 // public sealed class Skew :376
@@ -8504,7 +8584,7 @@ void Skew__Update_fn(Skew* __this, ::g::Fuse::Visual* elm, ::g::Fuse::Shear* t, 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Spin.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Spin.uno
 // ------------------------------------------------------------
 
 // public sealed class Spin :18
@@ -8587,7 +8667,7 @@ void Spin::Target(::g::Fuse::Visual* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Spin.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Spin.uno
 // ------------------------------------------------------------
 
 // internal sealed class SpinState :47
@@ -8595,11 +8675,12 @@ void Spin::Target(::g::Fuse::Visual* value)
 static void SpinState_build(uType* type)
 {
     ::STRINGS[21] = uString::Const("Invalid seek");
-    ::STRINGS[22] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Spin.uno");
+    ::STRINGS[22] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Spin.uno");
     ::TYPES[11] = ::g::Fuse::Animations::IMixer_typeof();
     ::TYPES[30] = ::g::Fuse::Animations::IMixerHandle_typeof()->MakeType(::g::Fuse::Transform_typeof(), NULL);
     type->SetDependencies(
-        ::g::Uno::Diagnostics::Debug_typeof());
+        ::g::Uno::Diagnostics::Debug_typeof(),
+        ::g::Uno::Math_typeof());
     type->SetFields(5,
         ::g::Fuse::Animations::Spin_typeof(), offsetof(SpinState, Animator1), 0,
         ::TYPES[30/*Fuse.Animations.IMixerHandle<Fuse.Transform>*/], offsetof(SpinState, mixHandle), 0,
@@ -8615,7 +8696,7 @@ static void SpinState_build(uType* type)
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Animations::OpenAnimatorState_typeof();
     options.FieldCount = 9;
-    options.DependencyCount = 1;
+    options.DependencyCount = 2;
     options.ObjectSize = sizeof(SpinState);
     options.TypeSize = sizeof(::g::Fuse::Animations::OpenAnimatorState_type);
     type = (::g::Fuse::Animations::OpenAnimatorState_type*)uClassType::New("Fuse.Animations.SpinState", options);
@@ -8697,7 +8778,7 @@ SpinState* SpinState::New1(::g::Fuse::Animations::Spin* animator, ::g::Fuse::Ani
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Attract.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Attract.uno
 // ---------------------------------------------------------------
 
 // private sealed class Attract.Subscription :61
@@ -8705,7 +8786,7 @@ SpinState* SpinState::New1(::g::Fuse::Animations::Spin* animator, ::g::Fuse::Ani
 static void Attract__Subscription_build(uType* type)
 {
     ::STRINGS[23] = uString::Const("Unexpected size for attract: ");
-    ::STRINGS[24] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.8.1/Attract.uno");
+    ::STRINGS[24] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Attract.uno");
     ::STRINGS[25] = uString::Const("NeedSim");
     ::TYPES[31] = ::g::Fuse::Animations::DestinationBehavior_typeof()->MakeType(::g::Uno::Float4_typeof(), NULL);
     ::TYPES[32] = ::g::Uno::IDisposable_typeof();
@@ -9008,7 +9089,7 @@ Attract__Subscription* Attract__Subscription::New1(::g::Fuse::Animations::Attrac
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TrackAnimator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TrackAnimator.uno
 // ---------------------------------------------------------------------
 
 // public abstract class TrackAnimator :48
@@ -9283,7 +9364,7 @@ void TrackAnimator::Weight(double value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TrackAnimator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TrackAnimator.uno
 // ---------------------------------------------------------------------
 
 // internal abstract class TrackAnimatorState :266
@@ -9444,7 +9525,7 @@ bool TrackAnimatorState::IsBackward()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TrackAnimator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TrackAnimator.uno
 // ---------------------------------------------------------------------
 
 // internal abstract interface TrackProvider :10
@@ -9459,7 +9540,7 @@ uInterfaceType* TrackProvider_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TransformAnimator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TransformAnimator.uno
 // -------------------------------------------------------------------------
 
 // public abstract class TransformAnimator<TransformType> :25
@@ -9660,7 +9741,7 @@ void TransformAnimator::Z(float value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TransformAnimator.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TransformAnimator.uno
 // -------------------------------------------------------------------------
 
 // internal sealed class TransformAnimatorState<TransformType> :132
@@ -9668,7 +9749,7 @@ void TransformAnimator::Z(float value)
 static void TransformAnimatorState_build(uType* type)
 {
     ::STRINGS[21] = uString::Const("Invalid seek");
-    ::STRINGS[26] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TransformAnimator.uno");
+    ::STRINGS[26] = uString::Const("/usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TransformAnimator.uno");
     ::TYPES[11] = ::g::Fuse::Animations::IMixer_typeof();
     ::TYPES[48] = ::g::Uno::Action1_typeof()->MakeType(::g::Fuse::Transform_typeof(), NULL);
     ::TYPES[49] = ::g::Fuse::Transform_typeof();
@@ -9783,7 +9864,7 @@ TransformAnimatorState* TransformAnimatorState::New1(uType* __type, ::g::Fuse::A
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TriggerAnimation.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TriggerAnimation.uno
 // ------------------------------------------------------------------------
 
 // public sealed class TriggerAnimation :25
@@ -9793,6 +9874,8 @@ static void TriggerAnimation_build(uType* type)
     ::TYPES[50] = ::g::Fuse::Animations::AnimatorState_typeof()->Array();
     ::TYPES[51] = ::g::Uno::Collections::List_typeof()->MakeType(::g::Fuse::Animations::Animator_typeof(), NULL);
     ::TYPES[1] = ::g::Uno::Action_typeof();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::TYPES[51/*Uno.Collections.List<Fuse.Animations.Animator>*/], offsetof(TriggerAnimation, _animators), 0,
         type, offsetof(TriggerAnimation, _backward), 0,
@@ -9811,6 +9894,7 @@ uType* TriggerAnimation_typeof()
 
     uTypeOptions options;
     options.FieldCount = 8;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(TriggerAnimation);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Fuse.Animations.TriggerAnimation", options);
@@ -10173,13 +10257,15 @@ TriggerAnimation* TriggerAnimation::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Animations/1.8.1/TriggerAnimation.uno
+// /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TriggerAnimation.uno
 // ------------------------------------------------------------------------
 
 // internal sealed class TriggerAnimationState :241
 // {
 static void TriggerAnimationState_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetInterfaces(
         ::g::Fuse::Animations::IPlayerFeedback_typeof(), offsetof(TriggerAnimationState_type, interface0),
         ::g::Fuse::Animations::IBasePlayerFeedback_typeof(), offsetof(TriggerAnimationState_type, interface1));
@@ -10202,6 +10288,7 @@ TriggerAnimationState_type* TriggerAnimationState_typeof()
     uTypeOptions options;
     options.FieldCount = 8;
     options.InterfaceCount = 2;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(TriggerAnimationState);
     options.TypeSize = sizeof(TriggerAnimationState_type);
     type = (TriggerAnimationState_type*)uClassType::New("Fuse.Animations.TriggerAnimationState", options);
@@ -10605,7 +10692,7 @@ TriggerAnimationState* TriggerAnimationState::New1(::g::Fuse::Animations::Trigge
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/DestinationBehavior.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/DestinationBehavior.uno
 // -----------------------------------------------------------------------
 
 // public delegate void DestinationBehavior<T>.ValueHandler(T value) :17

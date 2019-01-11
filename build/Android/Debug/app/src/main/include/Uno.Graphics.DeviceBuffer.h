@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Graphics/DeviceBuffer.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/DeviceBuffer.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once

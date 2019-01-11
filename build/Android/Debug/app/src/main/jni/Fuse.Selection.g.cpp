@@ -52,7 +52,7 @@ namespace g{
 namespace Fuse{
 namespace Selection{
 
-// /usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.uno
+// /usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.uno
 // ----------------------------------------------------------------
 
 // private enum Selection.How :333
@@ -68,7 +68,7 @@ uEnumType* Selection__How_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Selection/1.8.1/IsSelected.uno
+// /usr/local/share/uno/Packages/Fuse.Selection/1.9.0/IsSelected.uno
 // -----------------------------------------------------------------
 
 // public sealed class IsSelectedFunction :14
@@ -76,8 +76,9 @@ uEnumType* Selection__How_typeof()
 static void IsSelectedFunction_build(uType* type)
 {
     type->SetInterfaces(
-        ::g::Fuse::Reactive::IExpression_typeof(), offsetof(::g::Fuse::Reactive::Expression_type, interface0));
-    type->SetFields(1);
+        ::g::Fuse::Reactive::IExpression_typeof(), offsetof(::g::Fuse::Reactive::Expression_type, interface0),
+        ::g::Fuse::ISourceLocation_typeof(), offsetof(::g::Fuse::Reactive::Expression_type, interface1));
+    type->SetFields(3);
 }
 
 ::g::Fuse::Reactive::Expression_type* IsSelectedFunction_typeof()
@@ -87,15 +88,18 @@ static void IsSelectedFunction_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Reactive::VarArgFunction_typeof();
-    options.FieldCount = 1;
-    options.InterfaceCount = 1;
+    options.FieldCount = 3;
+    options.InterfaceCount = 2;
     options.ObjectSize = sizeof(IsSelectedFunction);
     options.TypeSize = sizeof(::g::Fuse::Reactive::Expression_type);
     type = (::g::Fuse::Reactive::Expression_type*)uClassType::New("Fuse.Selection.IsSelectedFunction", options);
     type->fp_build_ = IsSelectedFunction_build;
     type->fp_Subscribe = (void(*)(::g::Fuse::Reactive::Expression*, uObject*, uObject*, uObject**))IsSelectedFunction__Subscribe_fn;
     type->fp_ToString = (void(*)(uObject*, uString**))IsSelectedFunction__ToString_fn;
+    type->interface1.fp_get_SourceNearest = (void(*)(uObject*, uObject**))::g::Fuse::Reactive::Expression__FuseISourceLocationget_SourceNearest_fn;
     type->interface0.fp_Subscribe = (void(*)(uObject*, uObject*, uObject*, uObject**))IsSelectedFunction__Subscribe_fn;
+    type->interface1.fp_get_SourceLineNumber = (void(*)(uObject*, int32_t*))::g::Fuse::Reactive::Expression__get_SourceLineNumber_fn;
+    type->interface1.fp_get_SourceFileName = (void(*)(uObject*, uString**))::g::Fuse::Reactive::Expression__get_SourceFileName_fn;
     return type;
 }
 
@@ -120,7 +124,7 @@ void IsSelectedFunction__ToString_fn(IsSelectedFunction* __this, uString** __ret
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.uno
+// /usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.uno
 // ----------------------------------------------------------------
 
 // private sealed class Selection.ListWrapper :339
@@ -202,7 +206,7 @@ Selection__ListWrapper* Selection__ListWrapper::New1(::g::Uno::Collections::List
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Selection/1.8.1/IsSelected.uno
+// /usr/local/share/uno/Packages/Fuse.Selection/1.9.0/IsSelected.uno
 // -----------------------------------------------------------------
 
 // private sealed class IsSelectedFunction.OuterSubscription :38
@@ -210,7 +214,7 @@ Selection__ListWrapper* Selection__ListWrapper::New1(::g::Uno::Collections::List
 static void IsSelectedFunction__OuterSubscription_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("Unable to locate a `Selectable` and `Selection`");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/IsSelected.uno");
+    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/IsSelected.uno");
     ::STRINGS[2] = uString::Const("NewNode");
     ::STRINGS[3] = uString::Const("Argument does not resolve to a Node");
     ::STRINGS[4] = uString::Const("OnNewArguments");
@@ -434,7 +438,7 @@ IsSelectedFunction__OuterSubscription* IsSelectedFunction__OuterSubscription::Ne
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selectable.ScriptClass.uno
+// /usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selectable.ScriptClass.uno
 // -----------------------------------------------------------------------------
 
 // public partial sealed class Selectable :9
@@ -454,7 +458,7 @@ static void Selectable_build(uType* type)
     ::STRINGS[7] = uString::Const("remove");
     ::STRINGS[8] = uString::Const("toggle");
     ::STRINGS[9] = uString::Const("No selection, perhaps not rooted");
-    ::STRINGS[10] = uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selectable.uno");
+    ::STRINGS[10] = uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selectable.uno");
     ::STRINGS[11] = uString::Const("Add");
     ::STRINGS[12] = uString::Const("Unable to locate `Selection`");
     ::STRINGS[13] = uString::Const("OnRooted");
@@ -471,9 +475,10 @@ static void Selectable_build(uType* type)
         ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(::g::Fuse::Node_type, interface1),
         ::g::Fuse::IProperties_typeof(), offsetof(::g::Fuse::Node_type, interface2),
         ::g::Fuse::INotifyUnrooted_typeof(), offsetof(::g::Fuse::Node_type, interface3),
-        ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Node_type, interface4),
-        ::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Node_type, interface5));
-    type->SetFields(15,
+        ::g::Fuse::ISourceLocation_typeof(), offsetof(::g::Fuse::Node_type, interface4),
+        ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Node_type, interface5),
+        ::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Node_type, interface6));
+    type->SetFields(17,
         ::g::Fuse::Selection::Selection_typeof(), offsetof(Selectable, _selection), 0,
         ::g::Uno::String_typeof(), offsetof(Selectable, _value), 0,
         ::g::Uno::UX::Selector_typeof(), (uintptr_t)&Selectable::ValueName_, uFieldFlagsStatic);
@@ -486,8 +491,8 @@ static void Selectable_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Behavior_typeof();
-    options.FieldCount = 18;
-    options.InterfaceCount = 6;
+    options.FieldCount = 20;
+    options.InterfaceCount = 7;
     options.DependencyCount = 1;
     options.ObjectSize = sizeof(Selectable);
     options.TypeSize = sizeof(::g::Fuse::Node_type);
@@ -496,21 +501,24 @@ static void Selectable_build(uType* type)
     type->fp_cctor_ = Selectable__cctor_1_fn;
     type->fp_OnRooted = (void(*)(::g::Fuse::Node*))Selectable__OnRooted_fn;
     type->fp_OnUnrooted = (void(*)(::g::Fuse::Node*))Selectable__OnUnrooted_fn;
-    type->interface4.fp_Clear = (void(*)(uObject*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingClear_fn;
-    type->interface4.fp_Contains = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingContains_fn;
+    type->interface5.fp_Clear = (void(*)(uObject*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingClear_fn;
+    type->interface5.fp_Contains = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingContains_fn;
     type->interface0.fp_RemoveAt = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsIListFuseBindingRemoveAt_fn;
-    type->interface5.fp_GetEnumerator = (void(*)(uObject*, uObject**))::g::Fuse::Node__UnoCollectionsIEnumerableFuseBindingGetEnumerator_fn;
+    type->interface6.fp_GetEnumerator = (void(*)(uObject*, uObject**))::g::Fuse::Node__UnoCollectionsIEnumerableFuseBindingGetEnumerator_fn;
     type->interface1.fp_SetScriptObject = (void(*)(uObject*, uObject*, ::g::Fuse::Scripting::Context*))::g::Fuse::Node__FuseScriptingIScriptObjectSetScriptObject_fn;
-    type->interface4.fp_get_Count = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingget_Count_fn;
+    type->interface5.fp_get_Count = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingget_Count_fn;
     type->interface0.fp_get_Item = (void(*)(uObject*, int32_t*, uTRef))::g::Fuse::Node__UnoCollectionsIListFuseBindingget_Item_fn;
     type->interface1.fp_get_ScriptObject = (void(*)(uObject*, uObject**))::g::Fuse::Node__FuseScriptingIScriptObjectget_ScriptObject_fn;
     type->interface1.fp_get_ScriptContext = (void(*)(uObject*, ::g::Fuse::Scripting::Context**))::g::Fuse::Node__FuseScriptingIScriptObjectget_ScriptContext_fn;
+    type->interface4.fp_get_SourceNearest = (void(*)(uObject*, uObject**))::g::Fuse::Node__FuseISourceLocationget_SourceNearest_fn;
     type->interface3.fp_add_Unrooted = (void(*)(uObject*, uDelegate*))::g::Fuse::Node__FuseINotifyUnrootedadd_Unrooted_fn;
     type->interface3.fp_remove_Unrooted = (void(*)(uObject*, uDelegate*))::g::Fuse::Node__FuseINotifyUnrootedremove_Unrooted_fn;
     type->interface0.fp_Insert = (void(*)(uObject*, int32_t*, void*))::g::Fuse::Node__Insert_fn;
     type->interface2.fp_get_Properties = (void(*)(uObject*, ::g::Fuse::Properties**))::g::Fuse::Node__get_Properties_fn;
-    type->interface4.fp_Add = (void(*)(uObject*, void*))::g::Fuse::Node__Add_fn;
-    type->interface4.fp_Remove = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__Remove_fn;
+    type->interface4.fp_get_SourceLineNumber = (void(*)(uObject*, int32_t*))::g::Fuse::Node__get_SourceLineNumber_fn;
+    type->interface4.fp_get_SourceFileName = (void(*)(uObject*, uString**))::g::Fuse::Node__get_SourceFileName_fn;
+    type->interface5.fp_Add = (void(*)(uObject*, void*))::g::Fuse::Node__Add_fn;
+    type->interface5.fp_Remove = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__Remove_fn;
     return type;
 }
 
@@ -660,7 +668,7 @@ void Selectable::toggle(Selectable* s)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.ScriptClass.uno
+// /usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.ScriptClass.uno
 // ----------------------------------------------------------------------------
 
 // public partial sealed class Selection :9
@@ -682,10 +690,11 @@ static void Selection_build(uType* type)
         ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(Selection_type, interface1),
         ::g::Fuse::IProperties_typeof(), offsetof(Selection_type, interface2),
         ::g::Fuse::INotifyUnrooted_typeof(), offsetof(Selection_type, interface3),
-        ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(Selection_type, interface4),
-        ::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(Selection_type, interface5),
-        ::g::Fuse::Reactive::IObserver_typeof(), offsetof(Selection_type, interface6));
-    type->SetFields(15,
+        ::g::Fuse::ISourceLocation_typeof(), offsetof(Selection_type, interface4),
+        ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(Selection_type, interface5),
+        ::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(Selection_type, interface6),
+        ::g::Fuse::Reactive::IObserver_typeof(), offsetof(Selection_type, interface7));
+    type->SetFields(17,
         ::g::Fuse::Selection::SelectionReplace_typeof(), offsetof(Selection, _replace), 0,
         ::g::Uno::Int_typeof(), offsetof(Selection, _minCount), 0,
         ::g::Uno::Bool_typeof(), offsetof(Selection, _hasMaxCount), 0,
@@ -704,8 +713,8 @@ Selection_type* Selection_typeof()
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Behavior_typeof();
-    options.FieldCount = 24;
-    options.InterfaceCount = 7;
+    options.FieldCount = 26;
+    options.InterfaceCount = 8;
     options.DependencyCount = 1;
     options.ObjectSize = sizeof(Selection);
     options.TypeSize = sizeof(Selection_type);
@@ -714,29 +723,32 @@ Selection_type* Selection_typeof()
     type->fp_cctor_ = Selection__cctor_1_fn;
     type->fp_OnRooted = (void(*)(::g::Fuse::Node*))Selection__OnRooted_fn;
     type->fp_OnUnrooted = (void(*)(::g::Fuse::Node*))Selection__OnUnrooted_fn;
-    type->interface6.fp_OnClear = (void(*)(uObject*))Selection__FuseReactiveIObserverOnClear_fn;
-    type->interface6.fp_OnNewAll = (void(*)(uObject*, uObject*))Selection__FuseReactiveIObserverOnNewAll_fn;
-    type->interface6.fp_OnNewAt = (void(*)(uObject*, int32_t*, uObject*))Selection__FuseReactiveIObserverOnNewAt_fn;
-    type->interface6.fp_OnSet = (void(*)(uObject*, uObject*))Selection__FuseReactiveIObserverOnSet_fn;
-    type->interface6.fp_OnAdd = (void(*)(uObject*, uObject*))Selection__FuseReactiveIObserverOnAdd_fn;
-    type->interface6.fp_OnRemoveAt = (void(*)(uObject*, int32_t*))Selection__FuseReactiveIObserverOnRemoveAt_fn;
-    type->interface6.fp_OnInsertAt = (void(*)(uObject*, int32_t*, uObject*))Selection__FuseReactiveIObserverOnInsertAt_fn;
-    type->interface6.fp_OnFailed = (void(*)(uObject*, uString*))Selection__FuseReactiveIObserverOnFailed_fn;
-    type->interface4.fp_Clear = (void(*)(uObject*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingClear_fn;
-    type->interface4.fp_Contains = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingContains_fn;
+    type->interface7.fp_OnClear = (void(*)(uObject*))Selection__FuseReactiveIObserverOnClear_fn;
+    type->interface7.fp_OnNewAll = (void(*)(uObject*, uObject*))Selection__FuseReactiveIObserverOnNewAll_fn;
+    type->interface7.fp_OnNewAt = (void(*)(uObject*, int32_t*, uObject*))Selection__FuseReactiveIObserverOnNewAt_fn;
+    type->interface7.fp_OnSet = (void(*)(uObject*, uObject*))Selection__FuseReactiveIObserverOnSet_fn;
+    type->interface7.fp_OnAdd = (void(*)(uObject*, uObject*))Selection__FuseReactiveIObserverOnAdd_fn;
+    type->interface7.fp_OnRemoveAt = (void(*)(uObject*, int32_t*))Selection__FuseReactiveIObserverOnRemoveAt_fn;
+    type->interface7.fp_OnInsertAt = (void(*)(uObject*, int32_t*, uObject*))Selection__FuseReactiveIObserverOnInsertAt_fn;
+    type->interface7.fp_OnFailed = (void(*)(uObject*, uString*))Selection__FuseReactiveIObserverOnFailed_fn;
+    type->interface5.fp_Clear = (void(*)(uObject*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingClear_fn;
+    type->interface5.fp_Contains = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingContains_fn;
     type->interface0.fp_RemoveAt = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsIListFuseBindingRemoveAt_fn;
-    type->interface5.fp_GetEnumerator = (void(*)(uObject*, uObject**))::g::Fuse::Node__UnoCollectionsIEnumerableFuseBindingGetEnumerator_fn;
+    type->interface6.fp_GetEnumerator = (void(*)(uObject*, uObject**))::g::Fuse::Node__UnoCollectionsIEnumerableFuseBindingGetEnumerator_fn;
     type->interface1.fp_SetScriptObject = (void(*)(uObject*, uObject*, ::g::Fuse::Scripting::Context*))::g::Fuse::Node__FuseScriptingIScriptObjectSetScriptObject_fn;
-    type->interface4.fp_get_Count = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingget_Count_fn;
+    type->interface5.fp_get_Count = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingget_Count_fn;
     type->interface0.fp_get_Item = (void(*)(uObject*, int32_t*, uTRef))::g::Fuse::Node__UnoCollectionsIListFuseBindingget_Item_fn;
     type->interface1.fp_get_ScriptObject = (void(*)(uObject*, uObject**))::g::Fuse::Node__FuseScriptingIScriptObjectget_ScriptObject_fn;
     type->interface1.fp_get_ScriptContext = (void(*)(uObject*, ::g::Fuse::Scripting::Context**))::g::Fuse::Node__FuseScriptingIScriptObjectget_ScriptContext_fn;
+    type->interface4.fp_get_SourceNearest = (void(*)(uObject*, uObject**))::g::Fuse::Node__FuseISourceLocationget_SourceNearest_fn;
     type->interface3.fp_add_Unrooted = (void(*)(uObject*, uDelegate*))::g::Fuse::Node__FuseINotifyUnrootedadd_Unrooted_fn;
     type->interface3.fp_remove_Unrooted = (void(*)(uObject*, uDelegate*))::g::Fuse::Node__FuseINotifyUnrootedremove_Unrooted_fn;
     type->interface0.fp_Insert = (void(*)(uObject*, int32_t*, void*))::g::Fuse::Node__Insert_fn;
     type->interface2.fp_get_Properties = (void(*)(uObject*, ::g::Fuse::Properties**))::g::Fuse::Node__get_Properties_fn;
-    type->interface4.fp_Add = (void(*)(uObject*, void*))::g::Fuse::Node__Add_fn;
-    type->interface4.fp_Remove = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__Remove_fn;
+    type->interface4.fp_get_SourceLineNumber = (void(*)(uObject*, int32_t*))::g::Fuse::Node__get_SourceLineNumber_fn;
+    type->interface4.fp_get_SourceFileName = (void(*)(uObject*, uString**))::g::Fuse::Node__get_SourceFileName_fn;
+    type->interface5.fp_Add = (void(*)(uObject*, void*))::g::Fuse::Node__Add_fn;
+    type->interface5.fp_Remove = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__Remove_fn;
     return type;
 }
 
@@ -819,7 +831,7 @@ void Selection__FuseReactiveIObserverOnClear_fn(Selection* __this)
 void Selection__FuseReactiveIObserverOnFailed_fn(Selection* __this, uString* message)
 {
     ::g::Fuse::Reactive::IObserver::OnClear(uInterface(uPtr(uAs<uObject*>(__this, ::g::Fuse::Reactive::IObserver_typeof())), ::g::Fuse::Reactive::IObserver_typeof()));
-    ::g::Fuse::Diagnostics::InternalError(message, __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.uno"), 495, uString::Const("Fuse.Reactive.IObserver.OnFailed"));
+    ::g::Fuse::Diagnostics::InternalError(message, __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.uno"), 495, uString::Const("Fuse.Reactive.IObserver.OnFailed"));
 }
 
 // private void Fuse.Reactive.IObserver.OnInsertAt(int index, object value) :481
@@ -830,7 +842,7 @@ void Selection__FuseReactiveIObserverOnInsertAt_fn(Selection* __this, int32_t* i
 
     if ((index_ < 0) || (index_ > uPtr(__this->_values)->Count()))
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("removing invalid observable item"), __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.uno"), 485, uString::Const("Fuse.Reactive.IObserver.OnInsertAt"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("removing invalid observable item"), __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.uno"), 485, uString::Const("Fuse.Reactive.IObserver.OnInsertAt"));
         return;
     }
 
@@ -852,7 +864,7 @@ void Selection__FuseReactiveIObserverOnNewAt_fn(Selection* __this, int32_t* inde
 
     if ((index_ < 0) || (index_ >= uPtr(__this->_values)->Count()))
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("removing invalid observable item"), __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.uno"), 450, uString::Const("Fuse.Reactive.IObserver.OnNewAt"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("removing invalid observable item"), __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.uno"), 450, uString::Const("Fuse.Reactive.IObserver.OnNewAt"));
         return;
     }
 
@@ -867,7 +879,7 @@ void Selection__FuseReactiveIObserverOnRemoveAt_fn(Selection* __this, int32_t* i
 
     if ((index_ < 0) || (index_ >= uPtr(__this->_values)->Count()))
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("removing invalid observable item"), __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.uno"), 474, uString::Const("Fuse.Reactive.IObserver.OnRemoveAt"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("removing invalid observable item"), __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.uno"), 474, uString::Const("Fuse.Reactive.IObserver.OnRemoveAt"));
         return;
     }
 
@@ -1134,7 +1146,7 @@ void Selection::MaxCount(int32_t value)
 
     if (value < 1)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("MaxCount must >= 1"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.uno"), 138, uString::Const("set_MaxCount"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("MaxCount must >= 1"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.uno"), 138, uString::Const("set_MaxCount"), NULL);
         return;
     }
 
@@ -1208,7 +1220,7 @@ void Selection::OnSelectionChanged(int32_t how)
         if (sub != NULL)
             ::g::Fuse::Reactive::ISubscription::ReplaceAllExclusive(uInterface(uPtr(sub), ::g::Fuse::Reactive::ISubscription_typeof()), (uObject*)Selection__ListWrapper::New1(_values));
         else
-            ::g::Fuse::Diagnostics::UserWarning(uString::Const("Selection changed, but the bound collection is not writeable."), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.uno"), 356, uString::Const("OnSelectionChanged"));
+            ::g::Fuse::Diagnostics::UserWarning(uString::Const("Selection changed, but the bound collection is not writeable."), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.uno"), 356, uString::Const("OnSelectionChanged"));
     }
 
     OnPropertyChanged(Selection::ValueName_);
@@ -1288,7 +1300,7 @@ void Selection::add(Selection* s, uArray* args)
 
     if (uPtr(args)->Length() != 1)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("add requires 1 argument, the value of the item"), s, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.ScriptClass.uno"), 43, ::STRINGS[6/*"add"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("add requires 1 argument, the value of the item"), s, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.ScriptClass.uno"), 43, ::STRINGS[6/*"add"*/], NULL);
         return;
     }
 
@@ -1310,7 +1322,7 @@ void Selection::forceAdd(Selection* s, uArray* args)
 
     if (uPtr(args)->Length() != 1)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("forceAdd requires 1 argument, the value of the item"), s, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.ScriptClass.uno"), 75, uString::Const("forceAdd"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("forceAdd requires 1 argument, the value of the item"), s, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.ScriptClass.uno"), 75, uString::Const("forceAdd"), NULL);
         return;
     }
 
@@ -1325,7 +1337,7 @@ void Selection::forceRemove(Selection* s, uArray* args)
 
     if (uPtr(args)->Length() != 1)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("forceRemove requires 1 argument, the value of the item"), s, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.ScriptClass.uno"), 89, uString::Const("forceRemove"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("forceRemove requires 1 argument, the value of the item"), s, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.ScriptClass.uno"), 89, uString::Const("forceRemove"), NULL);
         return;
     }
 
@@ -1340,7 +1352,7 @@ void Selection::remove(Selection* s, uArray* args)
 
     if (uPtr(args)->Length() != 1)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("remove requires 1 argument, the value of the item"), s, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.ScriptClass.uno"), 61, ::STRINGS[7/*"remove"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("remove requires 1 argument, the value of the item"), s, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.ScriptClass.uno"), 61, ::STRINGS[7/*"remove"*/], NULL);
         return;
     }
 
@@ -1355,7 +1367,7 @@ void Selection::toggle(Selection* s, uArray* args)
 
     if (uPtr(args)->Length() != 1)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("toggle requires 1 argument, the value of them item"), s, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.ScriptClass.uno"), 105, ::STRINGS[8/*"toggle"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("toggle requires 1 argument, the value of them item"), s, uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.ScriptClass.uno"), 105, ::STRINGS[8/*"toggle"*/], NULL);
         return;
     }
 
@@ -1416,7 +1428,7 @@ Selection* Selection::TryFindSelection(::g::Fuse::Node* v)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Selection/1.8.1/Selection.uno
+// /usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.uno
 // ----------------------------------------------------------------
 
 // public enum SelectionReplace :9
@@ -1433,7 +1445,7 @@ uEnumType* SelectionReplace_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Selection/1.8.1/ToggleSelection.uno
+// /usr/local/share/uno/Packages/Fuse.Selection/1.9.0/ToggleSelection.uno
 // ----------------------------------------------------------------------
 
 // public enum SelectMode :8
@@ -1450,7 +1462,7 @@ uEnumType* SelectMode_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Selection/1.8.1/ToggleSelection.uno
+// /usr/local/share/uno/Packages/Fuse.Selection/1.9.0/ToggleSelection.uno
 // ----------------------------------------------------------------------
 
 // public sealed class ToggleSelection :26
@@ -1458,11 +1470,13 @@ uEnumType* SelectMode_typeof()
 static void ToggleSelection_build(uType* type)
 {
     ::STRINGS[16] = uString::Const("Unable to locate Selectable");
-    ::STRINGS[17] = uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.8.1/ToggleSelection.uno");
+    ::STRINGS[17] = uString::Const("/usr/local/share/uno/Packages/Fuse.Selection/1.9.0/ToggleSelection.uno");
     ::STRINGS[18] = uString::Const("Perform");
     type->SetDependencies(
         ::g::Fuse::Selection::Selection_typeof());
-    type->SetFields(8,
+    type->SetInterfaces(
+        ::g::Fuse::ISourceLocation_typeof(), offsetof(::g::Fuse::Triggers::Actions::TriggerAction_type, interface0));
+    type->SetFields(10,
         ::g::Fuse::Selection::SelectMode_typeof(), offsetof(ToggleSelection, _mode), 0);
 }
 
@@ -1473,13 +1487,17 @@ static void ToggleSelection_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Triggers::Actions::TriggerAction_typeof();
-    options.FieldCount = 9;
+    options.FieldCount = 11;
+    options.InterfaceCount = 1;
     options.DependencyCount = 1;
     options.ObjectSize = sizeof(ToggleSelection);
     options.TypeSize = sizeof(::g::Fuse::Triggers::Actions::TriggerAction_type);
     type = (::g::Fuse::Triggers::Actions::TriggerAction_type*)uClassType::New("Fuse.Selection.ToggleSelection", options);
     type->fp_build_ = ToggleSelection_build;
     type->fp_Perform = (void(*)(::g::Fuse::Triggers::Actions::TriggerAction*, ::g::Fuse::Node*))ToggleSelection__Perform_fn;
+    type->interface0.fp_get_SourceNearest = (void(*)(uObject*, uObject**))::g::Fuse::Triggers::Actions::TriggerAction__FuseISourceLocationget_SourceNearest_fn;
+    type->interface0.fp_get_SourceLineNumber = (void(*)(uObject*, int32_t*))::g::Fuse::Triggers::Actions::TriggerAction__get_SourceLineNumber_fn;
+    type->interface0.fp_get_SourceFileName = (void(*)(uObject*, uString**))::g::Fuse::Triggers::Actions::TriggerAction__get_SourceFileName_fn;
     return type;
 }
 

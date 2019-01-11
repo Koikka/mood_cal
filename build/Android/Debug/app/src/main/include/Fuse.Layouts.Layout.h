@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.8.1/Layouts/Layout.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/Layout.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Uno.UX.PropertyObject.h>
 namespace g{namespace Fuse{namespace Controls{struct LayoutControl;}}}
 namespace g{namespace Fuse{namespace Layouts{struct Layout;}}}
@@ -20,6 +21,7 @@ namespace Layouts{
 // {
 struct Layout_type : uType
 {
+    ::g::Fuse::ISourceLocation interface0;
     void(*fp_ArrangePaddingBox)(::g::Fuse::Layouts::Layout*, ::g::Fuse::Visual*, ::g::Uno::Float4*, ::g::Fuse::LayoutParams*);
     void(*fp_GetContentSize)(::g::Fuse::Layouts::Layout*, ::g::Fuse::Visual*, ::g::Fuse::LayoutParams*, ::g::Uno::Float2*);
     void(*fp_IsMarginBoxDependent)(::g::Fuse::Layouts::Layout*, ::g::Fuse::Visual*, int32_t*);
@@ -32,6 +34,7 @@ void Layout__ctor_1_fn(Layout* __this);
 void Layout__AdjustAlignBox_fn(::g::Fuse::Visual* node, ::g::Uno::Float2* sz, ::g::Uno::Float4* box, int32_t* align);
 void Layout__AffectsLayout_fn(Layout* __this, ::g::Fuse::Node* n, bool* __retval);
 void Layout__ArrangeMarginBoxSpecial_fn(Layout* __this, ::g::Fuse::Node* n, ::g::Uno::Float4* padding, ::g::Fuse::LayoutParams* lp, bool* __retval);
+void Layout__FuseISourceLocationget_SourceNearest_fn(Layout* __this, uObject** __retval);
 void Layout__GetFillPadding_fn(::g::Fuse::Visual* n, bool* __retval);
 void Layout__InvalidateLayout_fn(Layout* __this);
 void Layout__IsMarginBoxDependent_fn(Layout* __this, ::g::Fuse::Visual* child, int32_t* __retval);
@@ -44,6 +47,10 @@ void Layout__Snap1_fn(Layout* __this, ::g::Uno::Float2* p, ::g::Uno::Float2* __r
 void Layout__get_SnapToPixels_fn(Layout* __this, bool* __retval);
 void Layout__SnapUp_fn(Layout* __this, float* p, float* __retval);
 void Layout__SnapUp1_fn(Layout* __this, ::g::Uno::Float2* p, ::g::Uno::Float2* __retval);
+void Layout__get_SourceFileName_fn(Layout* __this, uString** __retval);
+void Layout__set_SourceFileName_fn(Layout* __this, uString* value);
+void Layout__get_SourceLineNumber_fn(Layout* __this, int32_t* __retval);
+void Layout__set_SourceLineNumber_fn(Layout* __this, int32_t* value);
 void Layout__Unrooted_fn(Layout* __this, ::g::Fuse::Controls::LayoutControl* element);
 
 struct Layout : ::g::Uno::UX::PropertyObject
@@ -51,6 +58,8 @@ struct Layout : ::g::Uno::UX::PropertyObject
     static uSStrong< ::g::Fuse::PropertyHandle*> _fillPaddingProperty_;
     static uSStrong< ::g::Fuse::PropertyHandle*>& _fillPaddingProperty() { return Layout_typeof()->Init(), _fillPaddingProperty_; }
     uStrong< ::g::Fuse::Controls::LayoutControl*> Container;
+    uStrong<uString*> _SourceFileName;
+    int32_t _SourceLineNumber;
 
     void ctor_1();
     bool AffectsLayout(::g::Fuse::Node* n);
@@ -67,6 +76,10 @@ struct Layout : ::g::Uno::UX::PropertyObject
     bool SnapToPixels();
     float SnapUp(float p);
     ::g::Uno::Float2 SnapUp1(::g::Uno::Float2 p);
+    uString* SourceFileName();
+    void SourceFileName(uString* value);
+    int32_t SourceLineNumber();
+    void SourceLineNumber(int32_t value);
     void Unrooted(::g::Fuse::Controls::LayoutControl* element);
     static void AdjustAlignBox(::g::Fuse::Visual* node, ::g::Uno::Float2 sz, ::g::Uno::Float4 box, int32_t align);
     static bool GetFillPadding(::g::Fuse::Visual* n);

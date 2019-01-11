@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Char.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Char.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,6 +13,7 @@ uStructType* Char_typeof();
 void Char__Equals_fn(char16_t* __this, uType* __type, uObject* o, bool* __retval);
 void Char__GetHashCode_fn(char16_t* __this, uType* __type, int32_t* __retval);
 void Char__IsDigit_fn(char16_t* c, bool* __retval);
+void Char__IsUpper_fn(char16_t* c, bool* __retval);
 void Char__IsWhiteSpace_fn(char16_t* c, bool* __retval);
 void Char__ToLower_fn(char16_t* c, char16_t* __retval);
 void Char__ToString_fn(char16_t* __this, uType* __type, uString** __retval);
@@ -45,6 +46,7 @@ struct Char
     static int32_t GetHashCode(char16_t __this, uType* __type) { int32_t __retval; return Char__GetHashCode_fn(&__this, __type, &__retval), __retval; }
     static uString* ToString(char16_t __this, uType* __type) { uString* __retval; return Char__ToString_fn(&__this, __type, &__retval), __retval; }
     static bool IsDigit(char16_t c);
+    static bool IsUpper(char16_t c);
     static bool IsWhiteSpace(char16_t c);
     static char16_t ToLower(char16_t c);
     static char16_t ToUpper(char16_t c);

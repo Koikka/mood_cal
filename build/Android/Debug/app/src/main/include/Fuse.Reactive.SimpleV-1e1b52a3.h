@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Expressions/1.8.1/VarArgFunction.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Expressions/1.9.0/VarArgFunction.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Reactive.IExpression.h>
 #include <Fuse.Reactive.VarArgFunction.h>
 namespace g{namespace Fuse{namespace Reactive{struct Expression__Argument;}}}

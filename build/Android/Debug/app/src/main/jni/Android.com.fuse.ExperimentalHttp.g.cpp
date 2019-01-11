@@ -89,7 +89,7 @@ namespace com{
 namespace fuse{
 namespace ExperimentalHttp{
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.8.0/Implementation/Android/ExperimentalHttp/HttpRequest.uno
+// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/Implementation/Android/ExperimentalHttp/HttpRequest.uno
 // --------------------------------------------------------------------------------------------------------
 
 // public abstract extern class HttpRequest :7

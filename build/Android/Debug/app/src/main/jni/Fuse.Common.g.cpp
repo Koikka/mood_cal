@@ -29,7 +29,7 @@ namespace g{
 namespace Fuse{
 namespace Common{
 
-// /usr/local/share/uno/Packages/Fuse.Common/1.8.1/Blitter.uno
+// /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Blitter.uno
 // -----------------------------------------------------------
 
 // internal sealed class Blitter :6

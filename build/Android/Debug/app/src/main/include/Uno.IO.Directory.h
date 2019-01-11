@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/IO/Directory.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Directory.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Uno{
 namespace IO{
 
-// public static class Directory :12
+// public static class Directory :29
 // {
 uClassType* Directory_typeof();
 void Directory__CreateDirectory_fn(uString* dirName);
@@ -19,6 +19,8 @@ void Directory__EnumerateFiles_fn(uString* dirName, uObject** __retval);
 void Directory__EnumerateFileSystemEntries_fn(uString* dirName, uObject** __retval);
 void Directory__Exists_fn(uString* dirName, bool* __retval);
 void Directory__GetCurrentDirectory_fn(uString** __retval);
+void Directory__GetUserConfigDirectory_fn(uString** __retval);
+void Directory__GetUserDataDirectory_fn(uString** __retval);
 void Directory__GetUserDirectory_fn(int32_t* dir, uString** __retval);
 void Directory__Move_fn(uString* oldName, uString* newName);
 
@@ -31,6 +33,8 @@ struct Directory : uObject
     static uObject* EnumerateFileSystemEntries(uString* dirName);
     static bool Exists(uString* dirName);
     static uString* GetCurrentDirectory();
+    static uString* GetUserConfigDirectory();
+    static uString* GetUserDataDirectory();
     static uString* GetUserDirectory(int32_t dir);
     static void Move(uString* oldName, uString* newName);
 };

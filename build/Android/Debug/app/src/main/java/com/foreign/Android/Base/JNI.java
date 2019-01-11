@@ -20,15 +20,15 @@ public class JNI
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object GetActivityClassInner66()
+    public static Object GetActivityClassInner69()
     {
-        return com.apps.mood_calendar.mood_calendar.class;
+        return fi.samk.mood_cal.Kalenteri.class;
     }
     
-    public static Object GetActivityObjectInner67()
+    public static Object GetActivityObjectInner70()
     {
         return com.fuse.Activity.getRootActivity();
     }

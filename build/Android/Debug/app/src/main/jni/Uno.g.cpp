@@ -106,13 +106,13 @@
 #include <Uno.WeakReference-1.h>
 #include <Uno/JNIHelper.h>
 extern uSStrong<uArray*> _CommandLineArgs;
-static uString* STRINGS[58];
-static uType* TYPES[18];
+static uString* STRINGS[60];
+static uType* TYPES[19];
 
 namespace g{
 namespace Uno{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Action.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Action.uno
 // -----------------------------------------------------------------
 
 // public delegate void Action() :6
@@ -126,7 +126,7 @@ uDelegateType* Action_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Action.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Action.uno
 // -----------------------------------------------------------------
 
 // public delegate void Action<T>(T arg) :9
@@ -141,7 +141,7 @@ uDelegateType* Action1_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Action.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Action.uno
 // -----------------------------------------------------------------
 
 // public delegate void Action<T1, T2>(T1 arg1, T2 arg2) :12
@@ -157,7 +157,7 @@ uDelegateType* Action2_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Action.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Action.uno
 // -----------------------------------------------------------------
 
 // public delegate void Action<T1, T2, T3>(T1 arg1, T2 arg2, T3 arg3) :15
@@ -174,7 +174,7 @@ uDelegateType* Action3_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Action.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Action.uno
 // -----------------------------------------------------------------
 
 // public delegate void Action<T1, T2, T3, T4>(T1 arg1, T2 arg2, T3 arg3, T4 arg4) :18
@@ -192,7 +192,7 @@ uDelegateType* Action4_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/AggregateException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/AggregateException.uno
 // ----------------------------------------------------------------------------------------
 
 // public sealed class AggregateException :8
@@ -285,7 +285,7 @@ AggregateException* AggregateException::New7(uArray* innerExceptions)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Application.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Application.uno
 // ----------------------------------------------------------------------
 
 // public abstract extern class Application :11
@@ -364,7 +364,7 @@ Application* Application::Current1()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/ArgumentException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/ArgumentException.uno
 // ---------------------------------------------------------------------------------------
 
 // public class ArgumentException :6
@@ -443,7 +443,7 @@ ArgumentException* ArgumentException::New5(uString* message, uString* paramName)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/ArgumentNullException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/ArgumentNullException.uno
 // -------------------------------------------------------------------------------------------
 
 // public sealed class ArgumentNullException :6
@@ -496,7 +496,7 @@ ArgumentNullException* ArgumentNullException::New6(uString* paramName)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/ArgumentOutOfRangeException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/ArgumentOutOfRangeException.uno
 // -------------------------------------------------------------------------------------------------
 
 // public sealed class ArgumentOutOfRangeException :6
@@ -575,7 +575,7 @@ ArgumentOutOfRangeException* ArgumentOutOfRangeException::New7(uString* message,
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Array.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Array.uno
 // ----------------------------------------------------------------
 
 // public sealed class Array :9
@@ -864,7 +864,7 @@ void Array::Swap(uType* __type, uArray* data, int32_t a, int32_t b)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Bool.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Bool.uno
 // ---------------------------------------------------------------
 
 // public intrinsic struct Bool :11
@@ -911,7 +911,7 @@ void Bool__ToString_fn(bool* __this, uType* __type, uString** __retval)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Buffer.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Buffer.uno
 // -----------------------------------------------------------------
 
 // public sealed class Buffer :8
@@ -1197,7 +1197,7 @@ Buffer* Buffer::New4(int32_t sizeInBytes)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Byte.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Byte.uno
 // ---------------------------------------------------------------
 
 // public intrinsic struct Byte :12
@@ -1246,7 +1246,7 @@ void Byte__ToString_fn(uint8_t* __this, uType* __type, uString** __retval)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Byte4.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Byte4.uno
 // ----------------------------------------------------------------
 
 // public intrinsic struct Byte4 :6
@@ -1331,7 +1331,7 @@ Byte4 Byte4__New2(uint8_t x, uint8_t y, uint8_t z, uint8_t w)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Char.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Char.uno
 // ---------------------------------------------------------------
 
 // public intrinsic struct Char :11
@@ -1507,6 +1507,12 @@ void Char__IsDigit_fn(char16_t* c, bool* __retval)
     *__retval = Char::IsDigit(*c);
 }
 
+// public static bool IsUpper(char c) :137
+void Char__IsUpper_fn(char16_t* c, bool* __retval)
+{
+    *__retval = Char::IsUpper(*c);
+}
+
 // public static bool IsWhiteSpace(char c) :109
 void Char__IsWhiteSpace_fn(char16_t* c, bool* __retval)
 {
@@ -1549,6 +1555,13 @@ bool Char::IsDigit(char16_t c)
 {
     Char_typeof()->Init();
     return (c >= '0') && (c <= '9');
+}
+
+// public static bool IsUpper(char c) [static] :137
+bool Char::IsUpper(char16_t c)
+{
+    Char_typeof()->Init();
+    return ((c >= 'A') && (c <= 'Z')) || ((c >= 1024) && (c <= 1071));
 }
 
 // public static bool IsWhiteSpace(char c) [static] :109
@@ -1636,7 +1649,7 @@ char16_t Char::ToUpper(char16_t c)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Color.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Color.uno
 // ----------------------------------------------------------------
 
 // public static class Color :9
@@ -1652,6 +1665,8 @@ static void Color_build(uType* type)
 {
     ::STRINGS[24] = uString::Const("failed to parse hex-string");
     ::STRINGS[25] = uString::Const("Unrecognized format");
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::g::Uno::Float3x3_typeof(), (uintptr_t)&Color::ToYCbCrMat_, uFieldFlagsStatic,
         ::g::Uno::Float3x3_typeof(), (uintptr_t)&Color::ToYCbCrMatInv_, uFieldFlagsStatic);
@@ -1664,6 +1679,7 @@ uClassType* Color_typeof()
 
     uTypeOptions options;
     options.FieldCount = 2;
+    options.DependencyCount = 1;
     options.TypeSize = sizeof(uClassType);
     type = uClassType::New("Uno.Color", options);
     type->fp_build_ = Color_build;
@@ -1744,7 +1760,7 @@ void Color__TryParseHexString_fn(uString* hex, ::g::Uno::Int4* result, bool* __r
 ::g::Uno::Float4 Color::FromInt4(::g::Uno::Int4 rgba)
 {
     Color_typeof()->Init();
-    return ::g::Uno::Float4__op_Division1(::g::Uno::Float4__op_Implicit1(rgba), 255.0f);
+    return ::g::Uno::Float4__op_Division1(::g::Uno::Float4__op_Implicit2(rgba), 255.0f);
 }
 
 // public static float4 FromRgba(uint rgba) [static] :44
@@ -1938,7 +1954,7 @@ bool Color::TryParseHexString(uString* hex, ::g::Uno::Int4* result)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Comparison.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Comparison.uno
 // ---------------------------------------------------------------------
 
 // public delegate int Comparison<T>(T a, T b) :6
@@ -1954,7 +1970,7 @@ uDelegateType* Comparison_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/DateTime.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/DateTime.uno
 // -------------------------------------------------------------------
 
 // public struct DateTime :13
@@ -2179,7 +2195,7 @@ bool DateTime__op_Equality(DateTime x, DateTime y)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/DateTime.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/DateTime.uno
 // -------------------------------------------------------------------
 
 // public enum DateTimeKind :7
@@ -2194,7 +2210,7 @@ uEnumType* DateTimeKind_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Delegate.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Delegate.uno
 // -------------------------------------------------------------------
 
 // public class Delegate :8
@@ -2345,7 +2361,7 @@ uDelegate* Delegate::Remove(uDelegate* source, uDelegate* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Double.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Double.uno
 // -----------------------------------------------------------------
 
 // public intrinsic struct Double :11
@@ -2392,7 +2408,7 @@ void Double__GetHashCode_fn(double* __this, uType* __type, int32_t* __retval)
     return *__retval = hash, void();
 }
 
-// public static double Parse(string str) :75
+// public static double Parse(string str) :84
 void Double__Parse_fn(uString* str, double* __retval)
 {
     *__retval = Double::Parse(str);
@@ -2403,6 +2419,14 @@ void Double__ToString_fn(double* __this, uType* __type, uString** __retval)
 {
     char buf[64];
     int len = snprintf(buf, sizeof(buf), "%f", *__this);
+    if (len < 0 && errno == ERANGE)
+    {
+        // Some snprintf implementations return *__retval = -1 and sets errno to
+        // ERANGE instead of returning the desired length, so let's
+        // reconstruct the value we want here.
+        len = snprintf(NULL, 0, "%f", *__this), void();
+        U_ASSERT(len > sizeof(buf));
+    }
     
     char* ptr = buf;
     if (len > sizeof(buf))
@@ -2418,16 +2442,17 @@ void Double__ToString_fn(double* __this, uType* __type, uString** __retval)
     if (len > 1 && ptr[len - 1] == '.')
         len--;
     
+    U_ASSERT(len >= 0);
     return *__retval = uString::Ansi(ptr, len), void();
 }
 
-// public static bool TryParse(string str, double& result) :110
+// public static bool TryParse(string str, double& result) :119
 void Double__TryParse_fn(uString* str, double* result, bool* __retval)
 {
     *__retval = Double::TryParse(str, result);
 }
 
-// public static double Parse(string str) [static] :75
+// public static double Parse(string str) [static] :84
 double Double::Parse(uString* str)
 {
     if (::g::Uno::String::op_Equality(str, NULL))
@@ -2452,7 +2477,7 @@ double Double::Parse(uString* str)
     return retval;
 }
 
-// public static bool TryParse(string str, double& result) [static] :110
+// public static bool TryParse(string str, double& result) [static] :119
 bool Double::TryParse(uString* str, double* result)
 {
     if (::g::Uno::String::op_Equality(str, NULL))
@@ -2481,7 +2506,7 @@ bool Double::TryParse(uString* str, double* result)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Enum.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Enum.uno
 // ---------------------------------------------------------------
 
 // public static class Enum :6
@@ -2543,7 +2568,7 @@ uObject* Enum::Parse1(uType* type, uString* str, bool ignoreCase)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Environment.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Environment.uno
 // ----------------------------------------------------------------------
 
 // public static class Environment :8
@@ -2579,7 +2604,7 @@ uString* Environment::NewLine()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/EventArgs.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/EventArgs.uno
 // --------------------------------------------------------------------
 
 // public class EventArgs :6
@@ -2640,7 +2665,7 @@ EventArgs* EventArgs::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/EventHandler.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/EventHandler.uno
 // -----------------------------------------------------------------------
 
 // public delegate void EventHandler(object sender, Uno.EventArgs args) :6
@@ -2656,7 +2681,7 @@ uDelegateType* EventHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/EventHandler.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/EventHandler.uno
 // -----------------------------------------------------------------------
 
 // public delegate void EventHandler<TEventArgs>(object sender, TEventArgs args) :9
@@ -2672,7 +2697,7 @@ uDelegateType* EventHandler1_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/Exception.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/Exception.uno
 // -------------------------------------------------------------------------------
 
 // public class Exception :6
@@ -2824,7 +2849,7 @@ Exception* Exception::New3(uString* message, Exception* inner)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Float.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Float.uno
 // ----------------------------------------------------------------
 
 // public intrinsic struct Float :11
@@ -2993,7 +3018,7 @@ bool Float::TryParse(uString* str, float* result)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Float2.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Float2.uno
 // -----------------------------------------------------------------
 
 // public intrinsic struct Float2 :7
@@ -3113,9 +3138,9 @@ void Float2__op_Equality_fn(Float2* a, Float2* b, bool* __retval)
 }
 
 // public static implicit operator float2(int2 a) :57
-void Float2__op_Implicit1_fn(::g::Uno::Int2* a, Float2* __retval)
+void Float2__op_Implicit2_fn(::g::Uno::Int2* a, Float2* __retval)
 {
-    *__retval = Float2__op_Implicit1(*a);
+    *__retval = Float2__op_Implicit2(*a);
 }
 
 // public static operator !=(float2 a, float2 b) :49
@@ -3254,7 +3279,7 @@ bool Float2__op_Equality(Float2 a, Float2 b)
 }
 
 // public static implicit operator float2(int2 a) [static] :57
-Float2 Float2__op_Implicit1(::g::Uno::Int2 a)
+Float2 Float2__op_Implicit2(::g::Uno::Int2 a)
 {
     return Float2__New2((float)a.X, (float)a.Y);
 }
@@ -3302,7 +3327,7 @@ Float2 Float2__op_UnaryNegation(Float2 a)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Float2x2.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Float2x2.uno
 // -------------------------------------------------------------------
 
 // public intrinsic struct Float2x2 :7
@@ -3387,7 +3412,7 @@ Float2x2 Float2x2__New1(float m11, float m12, float m21, float m22)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Float3.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Float3.uno
 // -----------------------------------------------------------------
 
 // public intrinsic struct Float3 :7
@@ -3620,7 +3645,7 @@ Float3 Float3__op_UnaryNegation(Float3 a)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Float3x3.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Float3x3.uno
 // -------------------------------------------------------------------
 
 // public intrinsic struct Float3x3 :7
@@ -3727,7 +3752,7 @@ Float3x3 Float3x3__Identity()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Float4.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Float4.uno
 // -----------------------------------------------------------------
 
 // public intrinsic struct Float4 :7
@@ -3866,6 +3891,12 @@ void Float4__New8_fn(::g::Uno::Float3* xyz, float* w, Float4* __retval)
     *__retval = Float4__New8(*xyz, *w);
 }
 
+// public static operator +(float a, float4 b) :57
+void Float4__op_Addition_fn(float* a, Float4* b, Float4* __retval)
+{
+    *__retval = Float4__op_Addition(*a, *b);
+}
+
 // public static operator +(float4 a, float b) :52
 void Float4__op_Addition1_fn(Float4* a, float* b, Float4* __retval)
 {
@@ -3891,9 +3922,9 @@ void Float4__op_Equality_fn(Float4* a, Float4* b, bool* __retval)
 }
 
 // public static implicit operator float4(int4 a) :69
-void Float4__op_Implicit1_fn(::g::Uno::Int4* a, Float4* __retval)
+void Float4__op_Implicit2_fn(::g::Uno::Int4* a, Float4* __retval)
 {
-    *__retval = Float4__op_Implicit1(*a);
+    *__retval = Float4__op_Implicit2(*a);
 }
 
 // public static operator !=(float4 a, float4 b) :63
@@ -4061,6 +4092,12 @@ Float4 Float4__New8(::g::Uno::Float3 xyz, float w)
     return obj7;
 }
 
+// public static operator +(float a, float4 b) [static] :57
+Float4 Float4__op_Addition(float a, Float4 b)
+{
+    return Float4__New2(a + b.X, a + b.Y, a + b.Z, a + b.W);
+}
+
 // public static operator +(float4 a, float b) [static] :52
 Float4 Float4__op_Addition1(Float4 a, float b)
 {
@@ -4086,7 +4123,7 @@ bool Float4__op_Equality(Float4 a, Float4 b)
 }
 
 // public static implicit operator float4(int4 a) [static] :69
-Float4 Float4__op_Implicit1(::g::Uno::Int4 a)
+Float4 Float4__op_Implicit2(::g::Uno::Int4 a)
 {
     return Float4__New2((float)a.X, (float)a.Y, (float)a.Z, (float)a.W);
 }
@@ -4128,7 +4165,7 @@ Float4 Float4__Identity()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Float4x4.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Float4x4.uno
 // -------------------------------------------------------------------
 
 // public intrinsic struct Float4x4 :8
@@ -4311,7 +4348,7 @@ Float4x4 Float4x4__Identity()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/FormatException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/FormatException.uno
 // -------------------------------------------------------------------------------------
 
 // public sealed class FormatException :6
@@ -4363,7 +4400,7 @@ FormatException* FormatException::New4(uString* message)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Func.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Func.uno
 // ---------------------------------------------------------------
 
 // public delegate TResult Func<TResult>() :6
@@ -4377,7 +4414,7 @@ uDelegateType* Func_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Func.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Func.uno
 // ---------------------------------------------------------------
 
 // public delegate TResult Func<T, TResult>(T arg) :9
@@ -4392,7 +4429,7 @@ uDelegateType* Func1_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Func.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Func.uno
 // ---------------------------------------------------------------
 
 // public delegate TResult Func<T1, T2, TResult>(T1 arg1, T2 arg2) :12
@@ -4408,7 +4445,7 @@ uDelegateType* Func2_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Func.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Func.uno
 // ---------------------------------------------------------------
 
 // public delegate TResult Func<T1, T2, T3, TResult>(T1 arg1, T2 arg2, T3 arg3) :15
@@ -4425,7 +4462,7 @@ uDelegateType* Func3_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/GC.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/GC.uno
 // -------------------------------------------------------------
 
 // public static class GC :6
@@ -4458,7 +4495,7 @@ void GC::SuppressFinalize(uObject* obj)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Generic.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Generic.uno
 // ------------------------------------------------------------------
 
 // public static class Generic :7
@@ -4494,7 +4531,7 @@ void Generic__Equals_fn(uType* __type, void* left, void* right, bool* __retval)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Guid.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Guid.uno
 // ---------------------------------------------------------------
 
 // public struct Guid :10
@@ -4581,9 +4618,9 @@ void Guid__ToString_fn(Guid* __this, uType* __type, uString** __retval)
     ::g::Uno::Text::StringBuilder* sb = ::g::Uno::Text::StringBuilder::New1();
     sb->Append2(::g::Uno::String::Format(::STRINGS[39/*"{0:X8}"*/], uArray::Init<uObject*>(::TYPES[0/*object[]*/], 1, uBox<uint32_t>(::g::Uno::UInt_typeof(), __this->Data1))));
     sb->Append2(::STRINGS[40/*"-"*/]);
-    sb->Append2(::g::Uno::String::Format(::STRINGS[41/*"{0:X4}"*/], uArray::Init<uObject*>(::TYPES[0/*object[]*/], 1, uBox<uint16_t>(::TYPES[17/*ushort*/], __this->Data2))));
+    sb->Append2(::g::Uno::String::Format(::STRINGS[41/*"{0:X4}"*/], uArray::Init<uObject*>(::TYPES[0/*object[]*/], 1, uBox<uint16_t>(::TYPES[18/*ushort*/], __this->Data2))));
     sb->Append2(::STRINGS[40/*"-"*/]);
-    sb->Append2(::g::Uno::String::Format(::STRINGS[41/*"{0:X4}"*/], uArray::Init<uObject*>(::TYPES[0/*object[]*/], 1, uBox<uint16_t>(::TYPES[17/*ushort*/], __this->Data3))));
+    sb->Append2(::g::Uno::String::Format(::STRINGS[41/*"{0:X4}"*/], uArray::Init<uObject*>(::TYPES[0/*object[]*/], 1, uBox<uint16_t>(::TYPES[18/*ushort*/], __this->Data3))));
     sb->Append2(::STRINGS[40/*"-"*/]);
     sb->Append2(::g::Uno::String::Format(::STRINGS[42/*"{0:X2}"*/], uArray::Init<uObject*>(::TYPES[0/*object[]*/], 1, uBox<uint8_t>(::TYPES[4/*byte*/], __this->Data4_1))));
     sb->Append2(::g::Uno::String::Format(::STRINGS[42/*"{0:X2}"*/], uArray::Init<uObject*>(::TYPES[0/*object[]*/], 1, uBox<uint8_t>(::TYPES[4/*byte*/], __this->Data4_2))));
@@ -4636,7 +4673,7 @@ Guid Guid__New1(uArray* bytes)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/IDisposable.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IDisposable.uno
 // ----------------------------------------------------------------------
 
 // public abstract interface IDisposable :6
@@ -4651,7 +4688,7 @@ uInterfaceType* IDisposable_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/IndexOutOfRangeException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/IndexOutOfRangeException.uno
 // ----------------------------------------------------------------------------------------------
 
 // public sealed class IndexOutOfRangeException :6
@@ -4705,7 +4742,7 @@ IndexOutOfRangeException* IndexOutOfRangeException::New4()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Int.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Int.uno
 // --------------------------------------------------------------
 
 // public intrinsic struct Int :11
@@ -4822,7 +4859,7 @@ bool Int::TryParse(uString* str, int32_t* result)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Int2.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Int2.uno
 // ---------------------------------------------------------------
 
 // public intrinsic struct Int2 :7
@@ -4989,7 +5026,7 @@ Int2 Int2__op_Subtraction1(Int2 a, Int2 b)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Int3.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Int3.uno
 // ---------------------------------------------------------------
 
 // public intrinsic struct Int3 :7
@@ -5072,7 +5109,7 @@ Int3 Int3__New2(int32_t x, int32_t y, int32_t z)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Int4.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Int4.uno
 // ---------------------------------------------------------------
 
 // public intrinsic struct Int4 :7
@@ -5240,7 +5277,7 @@ Int4 Int4__op_Explicit1(::g::Uno::Float4 v)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/IntPtr.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IntPtr.uno
 // -----------------------------------------------------------------
 
 // public intrinsic struct IntPtr :11
@@ -5326,7 +5363,7 @@ bool IntPtr::op_Inequality(void* left, void* right)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/InvalidCastException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/InvalidCastException.uno
 // ------------------------------------------------------------------------------------------
 
 // public sealed class InvalidCastException :6
@@ -5406,7 +5443,7 @@ InvalidCastException* InvalidCastException::New5(uString* message)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/InvalidOperationException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/InvalidOperationException.uno
 // -----------------------------------------------------------------------------------------------
 
 // public sealed class InvalidOperationException :6
@@ -5486,7 +5523,7 @@ InvalidOperationException* InvalidOperationException::New5(uString* message)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Tuple.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Tuple.uno
 // ----------------------------------------------------------------
 
 // internal abstract interface ITuple :6
@@ -5501,7 +5538,7 @@ uInterfaceType* ITuple_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Long.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Long.uno
 // ---------------------------------------------------------------
 
 // public intrinsic struct Long :11
@@ -5553,13 +5590,26 @@ void Long__ToString_fn(int64_t* __this, uType* __type, uString** __retval)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Math.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Math.uno
 // ---------------------------------------------------------------
 
 // public static class Math :8
 // {
+// static generated Math() :8
+static void Math__cctor__fn(uType* __type)
+{
+    Math::positivePowersOfTen_ = uArray::Init<double>(::TYPES[9/*double[]*/], 16, 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0, 1000000.0, 10000000.0, 100000000.0, 1000000000.0, 10000000000.0, 100000000000.0, 1000000000000.0, 10000000000000.0, 100000000000000.0, 1e+15);
+    Math::negativePowersOfTen_ = uArray::Init<double>(::TYPES[9/*double[]*/], 16, 1.0, 0.1, 0.01, 0.001, 0.0001, 1e-05, 1e-06, 1e-07, 1e-08, 1e-09, 1e-10, 1e-11, 1e-12, 1e-13, 1e-14, 1e-15);
+}
+
 static void Math_build(uType* type)
 {
+    ::STRINGS[46] = uString::Const("Negating the minimum value of a twos complement number is invalid.");
+    ::STRINGS[47] = uString::Const("digits");
+    ::TYPES[9] = ::g::Uno::Double_typeof()->Array();
+    type->SetFields(0,
+        ::TYPES[9/*double[]*/], (uintptr_t)&Math::positivePowersOfTen_, uFieldFlagsStatic,
+        ::TYPES[9/*double[]*/], (uintptr_t)&Math::negativePowersOfTen_, uFieldFlagsStatic);
 }
 
 uClassType* Math_typeof()
@@ -5568,115 +5618,117 @@ uClassType* Math_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.FieldCount = 2;
     options.TypeSize = sizeof(uClassType);
     type = uClassType::New("Uno.Math", options);
     type->fp_build_ = Math_build;
+    type->fp_cctor_ = Math__cctor__fn;
     return type;
 }
 
-// public static double Abs(double x) :241
+// public static double Abs(double x) :240
 void Math__Abs_fn(double* x, double* __retval)
 {
     *__retval = Math::Abs(*x);
 }
 
-// public static float Abs(float x) :242
+// public static float Abs(float x) :241
 void Math__Abs1_fn(float* x, float* __retval)
 {
     *__retval = Math::Abs1(*x);
 }
 
-// public static float2 Abs(float2 a) :243
+// public static float2 Abs(float2 a) :242
 void Math__Abs2_fn(::g::Uno::Float2* a, ::g::Uno::Float2* __retval)
 {
     *__retval = Math::Abs2(*a);
 }
 
-// public static int Abs(int x) :246
+// public static int Abs(int x) :270
 void Math__Abs5_fn(int32_t* x, int32_t* __retval)
 {
     *__retval = Math::Abs5(*x);
 }
 
-// public static float Acos(float radians) :111
+// public static float Acos(float radians) :106
 void Math__Acos1_fn(float* radians, float* __retval)
 {
     *__retval = Math::Acos1(*radians);
 }
 
-// public static double Asin(double radians) :86
+// public static double Asin(double radians) :82
 void Math__Asin_fn(double* radians, double* __retval)
 {
     *__retval = Math::Asin(*radians);
 }
 
-// public static float Asin(float radians) :93
+// public static float Asin(float radians) :89
 void Math__Asin1_fn(float* radians, float* __retval)
 {
     *__retval = Math::Asin1(*radians);
 }
 
-// public static float Atan2(float y, float x) :147
+// public static float Atan2(float y, float x) :140
 void Math__Atan22_fn(float* y, float* x, float* __retval)
 {
     *__retval = Math::Atan22(*y, *x);
 }
 
-// public static double Ceil(double x) :280
+// public static double Ceil(double x) :324
 void Math__Ceil_fn(double* x, double* __retval)
 {
     *__retval = Math::Ceil(*x);
 }
 
-// public static float Ceil(float x) :287
+// public static float Ceil(float x) :331
 void Math__Ceil1_fn(float* x, float* __retval)
 {
     *__retval = Math::Ceil1(*x);
 }
 
-// public static float2 Ceil(float2 v) :293
+// public static float2 Ceil(float2 v) :337
 void Math__Ceil2_fn(::g::Uno::Float2* v, ::g::Uno::Float2* __retval)
 {
     *__retval = Math::Ceil2(*v);
 }
 
-// public static double Clamp(double x, double minimum, double maximum) :344
+// public static double Clamp(double x, double minimum, double maximum) :388
 void Math__Clamp_fn(double* x, double* minimum, double* maximum, double* __retval)
 {
     *__retval = Math::Clamp(*x, *minimum, *maximum);
 }
 
-// public static float Clamp(float x, float minimum, float maximum) :345
+// public static float Clamp(float x, float minimum, float maximum) :389
 void Math__Clamp1_fn(float* x, float* minimum, float* maximum, float* __retval)
 {
     *__retval = Math::Clamp1(*x, *minimum, *maximum);
 }
 
-// public static float2 Clamp(float2 x, float2 minimum, float2 maximum) :347
+// public static float2 Clamp(float2 x, float2 minimum, float2 maximum) :391
 void Math__Clamp3_fn(::g::Uno::Float2* x, ::g::Uno::Float2* minimum, ::g::Uno::Float2* maximum, ::g::Uno::Float2* __retval)
 {
     *__retval = Math::Clamp3(*x, *minimum, *maximum);
 }
 
-// public static int Clamp(int x, int minimum, int maximum) :352
+// public static int Clamp(int x, int minimum, int maximum) :396
 void Math__Clamp8_fn(int32_t* x, int32_t* minimum, int32_t* maximum, int32_t* __retval)
 {
     *__retval = Math::Clamp8(*x, *minimum, *maximum);
 }
 
-// public static int4 Clamp(int4 x, int minimum, int maximum) :357
+// public static int4 Clamp(int4 x, int minimum, int maximum) :401
 void Math__Clamp13_fn(::g::Uno::Int4* x, int32_t* minimum, int32_t* maximum, ::g::Uno::Int4* __retval)
 {
     *__retval = Math::Clamp13(*x, *minimum, *maximum);
 }
 
-// public static double Cos(double radians) :50
+// public static double Cos(double radians) :48
 void Math__Cos_fn(double* radians, double* __retval)
 {
     *__retval = Math::Cos(*radians);
 }
 
-// public static float Cos(float radians) :57
+// public static float Cos(float radians) :55
 void Math__Cos1_fn(float* radians, float* __retval)
 {
     *__retval = Math::Cos1(*radians);
@@ -5688,7 +5740,7 @@ void Math__DegreesToRadians1_fn(float* degrees, float* __retval)
     *__retval = Math::DegreesToRadians1(*degrees);
 }
 
-// public static float Exp(float x) :179
+// public static float Exp(float x) :171
 void Math__Exp1_fn(float* x, float* __retval)
 {
     *__retval = Math::Exp1(*x);
@@ -5700,58 +5752,64 @@ void Math__Exp22_fn(float* x, float* __retval)
     *__retval = Math::Exp22(*x);
 }
 
-// public static double Floor(double x) :262
+// public static double Floor(double x) :307
 void Math__Floor_fn(double* x, double* __retval)
 {
     *__retval = Math::Floor(*x);
 }
 
-// public static float Floor(float x) :269
+// public static float Floor(float x) :314
 void Math__Floor1_fn(float* x, float* __retval)
 {
     *__retval = Math::Floor1(*x);
 }
 
-// public static float2 Floor(float2 v) :275
+// public static float2 Floor(float2 v) :320
 void Math__Floor2_fn(::g::Uno::Float2* v, ::g::Uno::Float2* __retval)
 {
     *__retval = Math::Floor2(*v);
 }
 
-// public static bool IsPow2(int x) :498
+// public static bool IsPow2(int x) :568
 void Math__IsPow2_fn(int32_t* x, bool* __retval)
 {
     *__retval = Math::IsPow2(*x);
 }
 
-// public static float Lerp(float a, float b, float t) :361
+// public static float Lerp(float a, float b, float t) :405
 void Math__Lerp1_fn(float* a, float* b, float* t, float* __retval)
 {
     *__retval = Math::Lerp1(*a, *b, *t);
 }
 
-// public static float2 Lerp(float2 a, float2 b, float t) :362
+// public static float2 Lerp(float2 a, float2 b, float t) :406
 void Math__Lerp2_fn(::g::Uno::Float2* a, ::g::Uno::Float2* b, float* t, ::g::Uno::Float2* __retval)
 {
     *__retval = Math::Lerp2(*a, *b, *t);
 }
 
-// public static float3 Lerp(float3 a, float3 b, float t) :364
+// public static float3 Lerp(float3 a, float3 b, float t) :408
 void Math__Lerp4_fn(::g::Uno::Float3* a, ::g::Uno::Float3* b, float* t, ::g::Uno::Float3* __retval)
 {
     *__retval = Math::Lerp4(*a, *b, *t);
 }
 
-// public static float4 Lerp(float4 a, float4 b, float t) :366
+// public static float4 Lerp(float4 a, float4 b, float t) :410
 void Math__Lerp6_fn(::g::Uno::Float4* a, ::g::Uno::Float4* b, float* t, ::g::Uno::Float4* __retval)
 {
     *__retval = Math::Lerp6(*a, *b, *t);
 }
 
-// public static float Log(float x) :192
+// public static float Log(float x) :183
 void Math__Log1_fn(float* x, float* __retval)
 {
     *__retval = Math::Log1(*x);
+}
+
+// public static double Log10(double x) :193
+void Math__Log10_fn(double* x, double* __retval)
+{
+    *__retval = Math::Log10(*x);
 }
 
 // public static float Log2(float x) :209
@@ -5760,109 +5818,109 @@ void Math__Log22_fn(float* x, float* __retval)
     *__retval = Math::Log22(*x);
 }
 
-// public static double Max(double a, double b) :312
+// public static double Max(double a, double b) :356
 void Math__Max_fn(double* a, double* b, double* __retval)
 {
     *__retval = Math::Max(*a, *b);
 }
 
-// public static float Max(float a, float b) :313
+// public static float Max(float a, float b) :357
 void Math__Max1_fn(float* a, float* b, float* __retval)
 {
     *__retval = Math::Max1(*a, *b);
 }
 
-// public static float2 Max(float2 a, float b) :314
+// public static float2 Max(float2 a, float b) :358
 void Math__Max2_fn(::g::Uno::Float2* a, float* b, ::g::Uno::Float2* __retval)
 {
     *__retval = Math::Max2(*a, *b);
 }
 
-// public static float2 Max(float2 a, float2 b) :315
+// public static float2 Max(float2 a, float2 b) :359
 void Math__Max3_fn(::g::Uno::Float2* a, ::g::Uno::Float2* b, ::g::Uno::Float2* __retval)
 {
     *__retval = Math::Max3(*a, *b);
 }
 
-// public static float3 Max(float3 a, float3 b) :317
+// public static float3 Max(float3 a, float3 b) :361
 void Math__Max5_fn(::g::Uno::Float3* a, ::g::Uno::Float3* b, ::g::Uno::Float3* __retval)
 {
     *__retval = Math::Max5(*a, *b);
 }
 
-// public static int Max(int a, int b) :320
+// public static int Max(int a, int b) :364
 void Math__Max8_fn(int32_t* a, int32_t* b, int32_t* __retval)
 {
     *__retval = Math::Max8(*a, *b);
 }
 
-// public static int4 Max(int4 a, int b) :325
+// public static int4 Max(int4 a, int b) :369
 void Math__Max13_fn(::g::Uno::Int4* a, int32_t* b, ::g::Uno::Int4* __retval)
 {
     *__retval = Math::Max13(*a, *b);
 }
 
-// public static double Min(double a, double b) :328
+// public static double Min(double a, double b) :372
 void Math__Min_fn(double* a, double* b, double* __retval)
 {
     *__retval = Math::Min(*a, *b);
 }
 
-// public static float Min(float a, float b) :329
+// public static float Min(float a, float b) :373
 void Math__Min1_fn(float* a, float* b, float* __retval)
 {
     *__retval = Math::Min1(*a, *b);
 }
 
-// public static float2 Min(float2 a, float2 b) :331
+// public static float2 Min(float2 a, float2 b) :375
 void Math__Min3_fn(::g::Uno::Float2* a, ::g::Uno::Float2* b, ::g::Uno::Float2* __retval)
 {
     *__retval = Math::Min3(*a, *b);
 }
 
-// public static float3 Min(float3 a, float3 b) :333
+// public static float3 Min(float3 a, float3 b) :377
 void Math__Min5_fn(::g::Uno::Float3* a, ::g::Uno::Float3* b, ::g::Uno::Float3* __retval)
 {
     *__retval = Math::Min5(*a, *b);
 }
 
-// public static int Min(int a, int b) :336
+// public static int Min(int a, int b) :380
 void Math__Min8_fn(int32_t* a, int32_t* b, int32_t* __retval)
 {
     *__retval = Math::Min8(*a, *b);
 }
 
-// public static int4 Min(int4 a, int b) :341
+// public static int4 Min(int4 a, int b) :385
 void Math__Min13_fn(::g::Uno::Int4* a, int32_t* b, ::g::Uno::Int4* __retval)
 {
     *__retval = Math::Min13(*a, *b);
 }
 
-// public static double Mod(double x, double y) :303
+// public static double Mod(double x, double y) :347
 void Math__Mod_fn(double* x, double* y, double* __retval)
 {
     *__retval = Math::Mod(*x, *y);
 }
 
-// public static float Mod(float x, float y) :304
+// public static float Mod(float x, float y) :348
 void Math__Mod1_fn(float* x, float* y, float* __retval)
 {
     *__retval = Math::Mod1(*x, *y);
 }
 
-// public static int NextPow2(int x) :487
+// public static int NextPow2(int x) :557
 void Math__NextPow2_fn(int32_t* x, int32_t* __retval)
 {
     *__retval = Math::NextPow2(*x);
 }
 
-// public static double Pow(double x, double y) :161
+// public static double Pow(double x, double y) :153
 void Math__Pow_fn(double* x, double* y, double* __retval)
 {
     *__retval = Math::Pow(*x, *y);
 }
 
-// public static float Pow(float x, float y) :168
+// public static float Pow(float x, float y) :160
 void Math__Pow1_fn(float* x, float* y, float* __retval)
 {
     *__retval = Math::Pow1(*x, *y);
@@ -5874,357 +5932,429 @@ void Math__RadiansToDegrees1_fn(float* radians, float* __retval)
     *__retval = Math::RadiansToDegrees1(*radians);
 }
 
-// public static double Round(double x) :426
+// public static double Round(double x) :469
 void Math__Round_fn(double* x, double* __retval)
 {
     *__retval = Math::Round(*x);
 }
 
-// public static double Round(double d, int decimals) :437
-void Math__Round1_fn(double* d, int32_t* decimals, double* __retval)
+// public static double Round(double d, int digits) :501
+void Math__Round1_fn(double* d, int32_t* digits, double* __retval)
 {
-    *__retval = Math::Round1(*d, *decimals);
+    *__retval = Math::Round1(*d, *digits);
 }
 
-// public static float Round(float x) :427
+// public static float Round(float x) :472
 void Math__Round2_fn(float* x, float* __retval)
 {
     *__retval = Math::Round2(*x);
 }
 
-// public static float2 Round(float2 x) :428
+// public static float2 Round(float2 x) :475
 void Math__Round4_fn(::g::Uno::Float2* x, ::g::Uno::Float2* __retval)
 {
     *__retval = Math::Round4(*x);
 }
 
-// public static float Saturate(float x) :421
+// public static float Saturate(float x) :464
 void Math__Saturate1_fn(float* x, float* __retval)
 {
     *__retval = Math::Saturate1(*x);
 }
 
-// public static float Sign(float x) :252
+// public static float Sign(float x) :298
 void Math__Sign1_fn(float* x, float* __retval)
 {
     *__retval = Math::Sign1(*x);
 }
 
-// public static double Sin(double radians) :32
+// public static double Sin(double radians) :31
 void Math__Sin_fn(double* radians, double* __retval)
 {
     *__retval = Math::Sin(*radians);
 }
 
-// public static float Sin(float radians) :39
+// public static float Sin(float radians) :38
 void Math__Sin1_fn(float* radians, float* __retval)
 {
     *__retval = Math::Sin1(*radians);
 }
 
-// public static double Sqrt(double x) :215
+// public static double Sqrt(double x) :214
 void Math__Sqrt_fn(double* x, double* __retval)
 {
     *__retval = Math::Sqrt(*x);
 }
 
-// public static float Sqrt(float x) :222
+// public static float Sqrt(float x) :221
 void Math__Sqrt1_fn(float* x, float* __retval)
 {
     *__retval = Math::Sqrt1(*x);
 }
 
-// public static float2 Sqrt(float2 x) :228
+// public static float2 Sqrt(float2 x) :227
 void Math__Sqrt2_fn(::g::Uno::Float2* x, ::g::Uno::Float2* __retval)
 {
     *__retval = Math::Sqrt2(*x);
 }
 
-// public static float Tan(float radians) :75
+// public static float4 Sqrt(float4 x) :229
+void Math__Sqrt4_fn(::g::Uno::Float4* x, ::g::Uno::Float4* __retval)
+{
+    *__retval = Math::Sqrt4(*x);
+}
+
+// public static float Tan(float radians) :72
 void Math__Tan1_fn(float* radians, float* __retval)
 {
     *__retval = Math::Tan1(*radians);
 }
 
-// public static double Abs(double x) [static] :241
+uSStrong<uArray*> Math::positivePowersOfTen_;
+uSStrong<uArray*> Math::negativePowersOfTen_;
+
+// public static double Abs(double x) [static] :240
 double Math::Abs(double x)
 {
+    Math_typeof()->Init();
     return (x >= 0.0) ? x : -x;
 }
 
-// public static float Abs(float x) [static] :242
+// public static float Abs(float x) [static] :241
 float Math::Abs1(float x)
 {
+    Math_typeof()->Init();
     return (x >= 0.0f) ? x : -x;
 }
 
-// public static float2 Abs(float2 a) [static] :243
+// public static float2 Abs(float2 a) [static] :242
 ::g::Uno::Float2 Math::Abs2(::g::Uno::Float2 a)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Float2__New2(Math::Abs1(a.X), Math::Abs1(a.Y));
 }
 
-// public static int Abs(int x) [static] :246
+// public static int Abs(int x) [static] :270
 int32_t Math::Abs5(int32_t x)
 {
-    return (x >= 0) ? x : -x;
+    Math_typeof()->Init();
+
+    if (x < 0)
+    {
+        if (x == (-2147483647 - 1))
+            U_THROW(::g::Uno::OverflowException::New4(::STRINGS[46/*"Negating th...*/]));
+
+        return -x;
+    }
+    else
+        return x;
 }
 
-// public static float Acos(float radians) [static] :111
+// public static float Acos(float radians) [static] :106
 float Math::Acos1(float radians)
 {
+    Math_typeof()->Init();
     return acosf(radians);
 }
 
-// public static double Asin(double radians) [static] :86
+// public static double Asin(double radians) [static] :82
 double Math::Asin(double radians)
 {
+    Math_typeof()->Init();
     return asin(radians);
 }
 
-// public static float Asin(float radians) [static] :93
+// public static float Asin(float radians) [static] :89
 float Math::Asin1(float radians)
 {
+    Math_typeof()->Init();
     return asinf(radians);
 }
 
-// public static float Atan2(float y, float x) [static] :147
+// public static float Atan2(float y, float x) [static] :140
 float Math::Atan22(float y, float x)
 {
+    Math_typeof()->Init();
     return atan2f(y, x);
 }
 
-// public static double Ceil(double x) [static] :280
+// public static double Ceil(double x) [static] :324
 double Math::Ceil(double x)
 {
+    Math_typeof()->Init();
     return ceil(x);
 }
 
-// public static float Ceil(float x) [static] :287
+// public static float Ceil(float x) [static] :331
 float Math::Ceil1(float x)
 {
+    Math_typeof()->Init();
     return ceilf(x);
 }
 
-// public static float2 Ceil(float2 v) [static] :293
+// public static float2 Ceil(float2 v) [static] :337
 ::g::Uno::Float2 Math::Ceil2(::g::Uno::Float2 v)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Float2__New2(Math::Ceil1(v.X), Math::Ceil1(v.Y));
 }
 
-// public static double Clamp(double x, double minimum, double maximum) [static] :344
+// public static double Clamp(double x, double minimum, double maximum) [static] :388
 double Math::Clamp(double x, double minimum, double maximum)
 {
+    Math_typeof()->Init();
     return Math::Max(Math::Min(x, maximum), minimum);
 }
 
-// public static float Clamp(float x, float minimum, float maximum) [static] :345
+// public static float Clamp(float x, float minimum, float maximum) [static] :389
 float Math::Clamp1(float x, float minimum, float maximum)
 {
+    Math_typeof()->Init();
     return Math::Max1(Math::Min1(x, maximum), minimum);
 }
 
-// public static float2 Clamp(float2 x, float2 minimum, float2 maximum) [static] :347
+// public static float2 Clamp(float2 x, float2 minimum, float2 maximum) [static] :391
 ::g::Uno::Float2 Math::Clamp3(::g::Uno::Float2 x, ::g::Uno::Float2 minimum, ::g::Uno::Float2 maximum)
 {
+    Math_typeof()->Init();
     return Math::Max3(Math::Min3(x, maximum), minimum);
 }
 
-// public static int Clamp(int x, int minimum, int maximum) [static] :352
+// public static int Clamp(int x, int minimum, int maximum) [static] :396
 int32_t Math::Clamp8(int32_t x, int32_t minimum, int32_t maximum)
 {
+    Math_typeof()->Init();
     return Math::Max8(Math::Min8(x, maximum), minimum);
 }
 
-// public static int4 Clamp(int4 x, int minimum, int maximum) [static] :357
+// public static int4 Clamp(int4 x, int minimum, int maximum) [static] :401
 ::g::Uno::Int4 Math::Clamp13(::g::Uno::Int4 x, int32_t minimum, int32_t maximum)
 {
+    Math_typeof()->Init();
     return Math::Max13(Math::Min13(x, maximum), minimum);
 }
 
-// public static double Cos(double radians) [static] :50
+// public static double Cos(double radians) [static] :48
 double Math::Cos(double radians)
 {
+    Math_typeof()->Init();
     return cos(radians);
 }
 
-// public static float Cos(float radians) [static] :57
+// public static float Cos(float radians) [static] :55
 float Math::Cos1(float radians)
 {
+    Math_typeof()->Init();
     return cosf(radians);
 }
 
 // public static float DegreesToRadians(float degrees) [static] :20
 float Math::DegreesToRadians1(float degrees)
 {
+    Math_typeof()->Init();
     return degrees * 0.0174532924f;
 }
 
-// public static float Exp(float x) [static] :179
+// public static float Exp(float x) [static] :171
 float Math::Exp1(float x)
 {
+    Math_typeof()->Init();
     return Math::Pow1(2.71828175f, x);
 }
 
 // public static float Exp2(float x) [static] :203
 float Math::Exp22(float x)
 {
+    Math_typeof()->Init();
     return Math::Pow1(2.0f, x);
 }
 
-// public static double Floor(double x) [static] :262
+// public static double Floor(double x) [static] :307
 double Math::Floor(double x)
 {
+    Math_typeof()->Init();
     return floor(x);
 }
 
-// public static float Floor(float x) [static] :269
+// public static float Floor(float x) [static] :314
 float Math::Floor1(float x)
 {
+    Math_typeof()->Init();
     return floorf(x);
 }
 
-// public static float2 Floor(float2 v) [static] :275
+// public static float2 Floor(float2 v) [static] :320
 ::g::Uno::Float2 Math::Floor2(::g::Uno::Float2 v)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Float2__New2(Math::Floor1(v.X), Math::Floor1(v.Y));
 }
 
-// public static bool IsPow2(int x) [static] :498
+// public static bool IsPow2(int x) [static] :568
 bool Math::IsPow2(int32_t x)
 {
+    Math_typeof()->Init();
     return x == (x & -x);
 }
 
-// public static float Lerp(float a, float b, float t) [static] :361
+// public static float Lerp(float a, float b, float t) [static] :405
 float Math::Lerp1(float a, float b, float t)
 {
+    Math_typeof()->Init();
     return a + ((b - a) * t);
 }
 
-// public static float2 Lerp(float2 a, float2 b, float t) [static] :362
+// public static float2 Lerp(float2 a, float2 b, float t) [static] :406
 ::g::Uno::Float2 Math::Lerp2(::g::Uno::Float2 a, ::g::Uno::Float2 b, float t)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Float2__op_Addition2(a, ::g::Uno::Float2__op_Multiply1(::g::Uno::Float2__op_Subtraction2(b, a), t));
 }
 
-// public static float3 Lerp(float3 a, float3 b, float t) [static] :364
+// public static float3 Lerp(float3 a, float3 b, float t) [static] :408
 ::g::Uno::Float3 Math::Lerp4(::g::Uno::Float3 a, ::g::Uno::Float3 b, float t)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Float3__op_Addition2(a, ::g::Uno::Float3__op_Multiply1(::g::Uno::Float3__op_Subtraction2(b, a), t));
 }
 
-// public static float4 Lerp(float4 a, float4 b, float t) [static] :366
+// public static float4 Lerp(float4 a, float4 b, float t) [static] :410
 ::g::Uno::Float4 Math::Lerp6(::g::Uno::Float4 a, ::g::Uno::Float4 b, float t)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Float4__op_Addition2(a, ::g::Uno::Float4__op_Multiply1(::g::Uno::Float4__op_Subtraction2(b, a), t));
 }
 
-// public static float Log(float x) [static] :192
+// public static float Log(float x) [static] :183
 float Math::Log1(float x)
 {
+    Math_typeof()->Init();
     return logf(x);
+}
+
+// public static double Log10(double x) [static] :193
+double Math::Log10(double x)
+{
+    Math_typeof()->Init();
+    return log10(x);
 }
 
 // public static float Log2(float x) [static] :209
 float Math::Log22(float x)
 {
+    Math_typeof()->Init();
     return Math::Log1(x) / Math::Log1(2.0f);
 }
 
-// public static double Max(double a, double b) [static] :312
+// public static double Max(double a, double b) [static] :356
 double Math::Max(double a, double b)
 {
+    Math_typeof()->Init();
     return (a > b) ? a : b;
 }
 
-// public static float Max(float a, float b) [static] :313
+// public static float Max(float a, float b) [static] :357
 float Math::Max1(float a, float b)
 {
+    Math_typeof()->Init();
     return (a > b) ? a : b;
 }
 
-// public static float2 Max(float2 a, float b) [static] :314
+// public static float2 Max(float2 a, float b) [static] :358
 ::g::Uno::Float2 Math::Max2(::g::Uno::Float2 a, float b)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Float2__New2(Math::Max1(a.X, b), Math::Max1(a.Y, b));
 }
 
-// public static float2 Max(float2 a, float2 b) [static] :315
+// public static float2 Max(float2 a, float2 b) [static] :359
 ::g::Uno::Float2 Math::Max3(::g::Uno::Float2 a, ::g::Uno::Float2 b)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Float2__New2(Math::Max1(a.X, b.X), Math::Max1(a.Y, b.Y));
 }
 
-// public static float3 Max(float3 a, float3 b) [static] :317
+// public static float3 Max(float3 a, float3 b) [static] :361
 ::g::Uno::Float3 Math::Max5(::g::Uno::Float3 a, ::g::Uno::Float3 b)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Float3__New2(Math::Max1(a.X, b.X), Math::Max1(a.Y, b.Y), Math::Max1(a.Z, b.Z));
 }
 
-// public static int Max(int a, int b) [static] :320
+// public static int Max(int a, int b) [static] :364
 int32_t Math::Max8(int32_t a, int32_t b)
 {
+    Math_typeof()->Init();
     return (a > b) ? a : b;
 }
 
-// public static int4 Max(int4 a, int b) [static] :325
+// public static int4 Max(int4 a, int b) [static] :369
 ::g::Uno::Int4 Math::Max13(::g::Uno::Int4 a, int32_t b)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Int4__New2(Math::Max8(a.X, b), Math::Max8(a.Y, b), Math::Max8(a.Z, b), Math::Max8(a.W, b));
 }
 
-// public static double Min(double a, double b) [static] :328
+// public static double Min(double a, double b) [static] :372
 double Math::Min(double a, double b)
 {
+    Math_typeof()->Init();
     return (a < b) ? a : b;
 }
 
-// public static float Min(float a, float b) [static] :329
+// public static float Min(float a, float b) [static] :373
 float Math::Min1(float a, float b)
 {
+    Math_typeof()->Init();
     return (a < b) ? a : b;
 }
 
-// public static float2 Min(float2 a, float2 b) [static] :331
+// public static float2 Min(float2 a, float2 b) [static] :375
 ::g::Uno::Float2 Math::Min3(::g::Uno::Float2 a, ::g::Uno::Float2 b)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Float2__New2(Math::Min1(a.X, b.X), Math::Min1(a.Y, b.Y));
 }
 
-// public static float3 Min(float3 a, float3 b) [static] :333
+// public static float3 Min(float3 a, float3 b) [static] :377
 ::g::Uno::Float3 Math::Min5(::g::Uno::Float3 a, ::g::Uno::Float3 b)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Float3__New2(Math::Min1(a.X, b.X), Math::Min1(a.Y, b.Y), Math::Min1(a.Z, b.Z));
 }
 
-// public static int Min(int a, int b) [static] :336
+// public static int Min(int a, int b) [static] :380
 int32_t Math::Min8(int32_t a, int32_t b)
 {
+    Math_typeof()->Init();
     return (a < b) ? a : b;
 }
 
-// public static int4 Min(int4 a, int b) [static] :341
+// public static int4 Min(int4 a, int b) [static] :385
 ::g::Uno::Int4 Math::Min13(::g::Uno::Int4 a, int32_t b)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Int4__New2(Math::Min8(a.X, b), Math::Min8(a.Y, b), Math::Min8(a.Z, b), Math::Min8(a.W, b));
 }
 
-// public static double Mod(double x, double y) [static] :303
+// public static double Mod(double x, double y) [static] :347
 double Math::Mod(double x, double y)
 {
+    Math_typeof()->Init();
     return x - (y * Math::Floor(x / y));
 }
 
-// public static float Mod(float x, float y) [static] :304
+// public static float Mod(float x, float y) [static] :348
 float Math::Mod1(float x, float y)
 {
+    Math_typeof()->Init();
     return x - (y * Math::Floor1(x / y));
 }
 
-// public static int NextPow2(int x) [static] :487
+// public static int NextPow2(int x) [static] :557
 int32_t Math::NextPow2(int32_t x)
 {
+    Math_typeof()->Init();
     int32_t y = x - 1;
     y = y | (y >> 1);
     y = y | (y >> 2);
@@ -6234,107 +6364,135 @@ int32_t Math::NextPow2(int32_t x)
     return y + 1;
 }
 
-// public static double Pow(double x, double y) [static] :161
+// public static double Pow(double x, double y) [static] :153
 double Math::Pow(double x, double y)
 {
+    Math_typeof()->Init();
     return pow(x, y);
 }
 
-// public static float Pow(float x, float y) [static] :168
+// public static float Pow(float x, float y) [static] :160
 float Math::Pow1(float x, float y)
 {
+    Math_typeof()->Init();
     return powf(x, y);
 }
 
 // public static float RadiansToDegrees(float radians) [static] :26
 float Math::RadiansToDegrees1(float radians)
 {
+    Math_typeof()->Init();
     return radians * 57.2957764f;
 }
 
-// public static double Round(double x) [static] :426
+// public static double Round(double x) [static] :469
 double Math::Round(double x)
 {
+    Math_typeof()->Init();
     return Math::Floor(x + 0.5);
 }
 
-// public static double Round(double d, int decimals) [static] :437
-double Math::Round1(double d, int32_t decimals)
+// public static double Round(double d, int digits) [static] :501
+double Math::Round1(double d, int32_t digits)
 {
-    int64_t multiplier = (int64_t)Math::Pow1(10.0f, (float)decimals);
-    int64_t intPart = (int64_t)d;
-    double decimalPart = Math::Round((d - (double)intPart) * (double)multiplier) / (double)multiplier;
-    return (double)intPart + decimalPart;
+    Math_typeof()->Init();
+
+    if ((digits < 0) || (digits > 15))
+        U_THROW(::g::Uno::ArgumentOutOfRangeException::New6(::STRINGS[47/*"digits"*/]));
+
+    if (Math::Abs(d) < 1e+16)
+        return Math::Round(d * uPtr(Math::positivePowersOfTen_)->Item<double>(digits)) * uPtr(Math::negativePowersOfTen_)->Item<double>(digits);
+    else
+        return d;
 }
 
-// public static float Round(float x) [static] :427
+// public static float Round(float x) [static] :472
 float Math::Round2(float x)
 {
+    Math_typeof()->Init();
     return Math::Floor1(x + 0.5f);
 }
 
-// public static float2 Round(float2 x) [static] :428
+// public static float2 Round(float2 x) [static] :475
 ::g::Uno::Float2 Math::Round4(::g::Uno::Float2 x)
 {
+    Math_typeof()->Init();
     return Math::Floor2(::g::Uno::Float2__op_Addition1(x, 0.5f));
 }
 
-// public static float Saturate(float x) [static] :421
+// public static float Saturate(float x) [static] :464
 float Math::Saturate1(float x)
 {
+    Math_typeof()->Init();
     return Math::Clamp1(x, 0.0f, 1.0f);
 }
 
-// public static float Sign(float x) [static] :252
+// public static float Sign(float x) [static] :298
 float Math::Sign1(float x)
 {
+    Math_typeof()->Init();
     return (x < 0.0f) ? -1.0f : (x > 0.0f) ? 1.0f : 0.0f;
 }
 
-// public static double Sin(double radians) [static] :32
+// public static double Sin(double radians) [static] :31
 double Math::Sin(double radians)
 {
+    Math_typeof()->Init();
     return sin(radians);
 }
 
-// public static float Sin(float radians) [static] :39
+// public static float Sin(float radians) [static] :38
 float Math::Sin1(float radians)
 {
+    Math_typeof()->Init();
     return sinf(radians);
 }
 
-// public static double Sqrt(double x) [static] :215
+// public static double Sqrt(double x) [static] :214
 double Math::Sqrt(double x)
 {
+    Math_typeof()->Init();
     return sqrt(x);
 }
 
-// public static float Sqrt(float x) [static] :222
+// public static float Sqrt(float x) [static] :221
 float Math::Sqrt1(float x)
 {
+    Math_typeof()->Init();
     return sqrtf(x);
 }
 
-// public static float2 Sqrt(float2 x) [static] :228
+// public static float2 Sqrt(float2 x) [static] :227
 ::g::Uno::Float2 Math::Sqrt2(::g::Uno::Float2 x)
 {
+    Math_typeof()->Init();
     return ::g::Uno::Float2__New2(Math::Sqrt1(x.X), Math::Sqrt1(x.Y));
 }
 
-// public static float Tan(float radians) [static] :75
+// public static float4 Sqrt(float4 x) [static] :229
+::g::Uno::Float4 Math::Sqrt4(::g::Uno::Float4 x)
+{
+    Math_typeof()->Init();
+    return ::g::Uno::Float4__New2(Math::Sqrt1(x.X), Math::Sqrt1(x.Y), Math::Sqrt1(x.Z), Math::Sqrt1(x.W));
+}
+
+// public static float Tan(float radians) [static] :72
 float Math::Tan1(float radians)
 {
+    Math_typeof()->Init();
     return tanf(radians);
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Matrix.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Matrix.uno
 // -----------------------------------------------------------------
 
 // public static class Matrix :8
 // {
 static void Matrix_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 uClassType* Matrix_typeof()
@@ -6343,6 +6501,7 @@ uClassType* Matrix_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.DependencyCount = 1;
     options.TypeSize = sizeof(uClassType);
     type = uClassType::New("Uno.Matrix", options);
     type->fp_build_ = Matrix_build;
@@ -6699,14 +6858,14 @@ bool Matrix::TryInvert2(::g::Uno::Float4x4 value, ::g::Uno::Float4x4* result)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/NotImplementedException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/NotImplementedException.uno
 // ---------------------------------------------------------------------------------------------
 
 // public sealed class NotImplementedException :6
 // {
 static void NotImplementedException_build(uType* type)
 {
-    ::STRINGS[46] = uString::Const("Not implemented");
+    ::STRINGS[48] = uString::Const("Not implemented");
     type->SetFields(4);
 }
 
@@ -6741,7 +6900,7 @@ void NotImplementedException__New4_fn(NotImplementedException** __retval)
 // public NotImplementedException() [instance] :8
 void NotImplementedException::ctor_3()
 {
-    ctor_1(::STRINGS[46/*"Not impleme...*/]);
+    ctor_1(::STRINGS[48/*"Not impleme...*/]);
 }
 
 // public NotImplementedException New() [static] :8
@@ -6753,14 +6912,14 @@ NotImplementedException* NotImplementedException::New4()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/NotSupportedException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/NotSupportedException.uno
 // -------------------------------------------------------------------------------------------
 
 // public sealed class NotSupportedException :6
 // {
 static void NotSupportedException_build(uType* type)
 {
-    ::STRINGS[47] = uString::Const("Method not supported");
+    ::STRINGS[49] = uString::Const("Method not supported");
     type->SetFields(4);
 }
 
@@ -6807,7 +6966,7 @@ void NotSupportedException__New5_fn(uString* message, NotSupportedException** __
 // public NotSupportedException() [instance] :8
 void NotSupportedException::ctor_3()
 {
-    ctor_1(::STRINGS[47/*"Method not ...*/]);
+    ctor_1(::STRINGS[49/*"Method not ...*/]);
 }
 
 // public NotSupportedException(string message) [instance] :13
@@ -6833,14 +6992,14 @@ NotSupportedException* NotSupportedException::New5(uString* message)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/NullReferenceException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/NullReferenceException.uno
 // --------------------------------------------------------------------------------------------
 
 // public sealed class NullReferenceException :6
 // {
 static void NullReferenceException_build(uType* type)
 {
-    ::STRINGS[48] = uString::Const("Object reference was null");
+    ::STRINGS[50] = uString::Const("Object reference was null");
     type->SetFields(4);
 }
 
@@ -6875,7 +7034,7 @@ void NullReferenceException__New4_fn(NullReferenceException** __retval)
 // public NullReferenceException() [instance] :8
 void NullReferenceException::ctor_3()
 {
-    ctor_1(::STRINGS[48/*"Object refe...*/]);
+    ctor_1(::STRINGS[50/*"Object refe...*/]);
 }
 
 // public NullReferenceException New() [static] :8
@@ -6887,7 +7046,7 @@ NullReferenceException* NullReferenceException::New4()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Object.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Object.uno
 // -----------------------------------------------------------------
 
 // public intrinsic class Object :11
@@ -7006,14 +7165,14 @@ bool Object::ReferenceEquals(uObject* left, uObject* right)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/ObjectDisposedException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/ObjectDisposedException.uno
 // ---------------------------------------------------------------------------------------------
 
 // public sealed class ObjectDisposedException :6
 // {
 static void ObjectDisposedException_build(uType* type)
 {
-    ::STRINGS[49] = uString::Const("Attempt to access disposed object: ");
+    ::STRINGS[51] = uString::Const("Attempt to access disposed object: ");
     type->SetFields(4);
 }
 
@@ -7047,7 +7206,7 @@ void ObjectDisposedException__New4_fn(uString* objectName, ObjectDisposedExcepti
 // public ObjectDisposedException(string objectName) [instance] :8
 void ObjectDisposedException::ctor_3(uString* objectName)
 {
-    ctor_1(::g::Uno::String::op_Addition2(::STRINGS[49/*"Attempt to ...*/], objectName));
+    ctor_1(::g::Uno::String::op_Addition2(::STRINGS[51/*"Attempt to ...*/], objectName));
 }
 
 // public ObjectDisposedException New(string objectName) [static] :8
@@ -7059,7 +7218,7 @@ ObjectDisposedException* ObjectDisposedException::New4(uString* objectName)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/OverflowException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/OverflowException.uno
 // ---------------------------------------------------------------------------------------
 
 // public sealed class OverflowException :6
@@ -7111,7 +7270,7 @@ OverflowException* OverflowException::New4(uString* message)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Predicate.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Predicate.uno
 // --------------------------------------------------------------------
 
 // public delegate bool Predicate<T>(T arg) :6
@@ -7126,13 +7285,15 @@ uDelegateType* Predicate_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Quaternion.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Quaternion.uno
 // ---------------------------------------------------------------------
 
 // public static class Quaternion :7
 // {
 static void Quaternion_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 uClassType* Quaternion_typeof()
@@ -7141,6 +7302,7 @@ uClassType* Quaternion_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.DependencyCount = 1;
     options.TypeSize = sizeof(uClassType);
     type = uClassType::New("Uno.Quaternion", options);
     type->fp_build_ = Quaternion_build;
@@ -7329,7 +7491,7 @@ float Quaternion::NormalizeAngleDegrees(float angle)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Rect.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Rect.uno
 // ---------------------------------------------------------------
 
 // public struct Rect :6
@@ -7338,6 +7500,8 @@ static void Rect_build(uType* type)
 {
     ::STRINGS[14] = uString::Const(", ");
     ::TYPES[8] = ::g::Uno::Float_typeof();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::TYPES[8/*float*/], offsetof(Rect, Left), 0,
         ::TYPES[8/*float*/], offsetof(Rect, Top), 0,
@@ -7352,6 +7516,7 @@ uStructType* Rect_typeof()
 
     uTypeOptions options;
     options.FieldCount = 4;
+    options.DependencyCount = 1;
     options.Alignment = alignof(Rect);
     options.ValueSize = sizeof(Rect);
     options.TypeSize = sizeof(uStructType);
@@ -7476,9 +7641,9 @@ void Rect__New2_fn(::g::Uno::Float2* pos, ::g::Uno::Float2* size, Rect* __retval
 }
 
 // public static implicit operator Uno.Rect(Uno.Recti r) :136
-void Rect__op_Implicit_fn(::g::Uno::Recti* r, Rect* __retval)
+void Rect__op_Implicit1_fn(::g::Uno::Recti* r, Rect* __retval)
 {
-    *__retval = Rect__op_Implicit(*r);
+    *__retval = Rect__op_Implicit1(*r);
 }
 
 // public float2 get_RightBottom() :74
@@ -7741,7 +7906,7 @@ Rect Rect__New2(::g::Uno::Float2 pos, ::g::Uno::Float2 size)
 }
 
 // public static implicit operator Uno.Rect(Uno.Recti r) [static] :136
-Rect Rect__op_Implicit(::g::Uno::Recti r)
+Rect Rect__op_Implicit1(::g::Uno::Recti r)
 {
     return Rect__New1((float)r.Left, (float)r.Top, (float)r.Right, (float)r.Bottom);
 }
@@ -7777,7 +7942,7 @@ Rect Rect__Union(Rect a, Rect b)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Rect.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Rect.uno
 // ---------------------------------------------------------------
 
 // public struct Recti :269
@@ -7786,6 +7951,8 @@ static void Recti_build(uType* type)
 {
     ::STRINGS[14] = uString::Const(", ");
     ::TYPES[6] = ::g::Uno::Int_typeof();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::TYPES[6/*int*/], offsetof(Recti, Left), 0,
         ::TYPES[6/*int*/], offsetof(Recti, Top), 0,
@@ -7800,6 +7967,7 @@ uStructType* Recti_typeof()
 
     uTypeOptions options;
     options.FieldCount = 4;
+    options.DependencyCount = 1;
     options.Alignment = alignof(Recti);
     options.ValueSize = sizeof(Recti);
     options.TypeSize = sizeof(uStructType);
@@ -8037,7 +8205,7 @@ Recti Recti__New2(::g::Uno::Int2 pos, ::g::Uno::Int2 size)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/SByte.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/SByte.uno
 // ----------------------------------------------------------------
 
 // public intrinsic struct SByte :11
@@ -8086,7 +8254,7 @@ void SByte__ToString_fn(int8_t* __this, uType* __type, uString** __retval)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Short.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Short.uno
 // ----------------------------------------------------------------
 
 // public intrinsic struct Short :11
@@ -8135,7 +8303,7 @@ void Short__ToString_fn(int16_t* __this, uType* __type, uString** __retval)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/String.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/String.uno
 // -----------------------------------------------------------------
 
 // public intrinsic sealed class String :12
@@ -8149,18 +8317,20 @@ static void String__cctor__fn(uType* __type)
 static void String_build(uType* type)
 {
     ::STRINGS[32] = uString::Const("");
-    ::STRINGS[50] = uString::Const("value");
-    ::STRINGS[51] = uString::Const("startIndex");
+    ::STRINGS[52] = uString::Const("value");
+    ::STRINGS[53] = uString::Const("startIndex");
     ::STRINGS[29] = uString::Const("str");
-    ::STRINGS[52] = uString::Const("pos");
-    ::STRINGS[53] = uString::Const("anyOf");
-    ::STRINGS[54] = uString::Const("oldValue");
+    ::STRINGS[54] = uString::Const("pos");
+    ::STRINGS[55] = uString::Const("anyOf");
+    ::STRINGS[56] = uString::Const("oldValue");
     ::STRINGS[12] = uString::Const("length");
-    ::TYPES[9] = ::g::Uno::Char_typeof()->Array();
-    ::TYPES[10] = ::g::Uno::Collections::List__Enumerator_typeof()->MakeType(::g::Uno::Runtime::Implementation::Internal::FormatStringToken_typeof(), NULL);
-    ::TYPES[11] = ::g::Uno::Array_typeof()->MakeMethod(2/*IndexOf<char>*/, ::g::Uno::Char_typeof(), NULL);
-    ::TYPES[12] = type->Array();
-    ::TYPES[13] = ::TYPES[9/*char[]*/]->Array();
+    ::TYPES[10] = ::g::Uno::Char_typeof()->Array();
+    ::TYPES[11] = ::g::Uno::Collections::List__Enumerator_typeof()->MakeType(::g::Uno::Runtime::Implementation::Internal::FormatStringToken_typeof(), NULL);
+    ::TYPES[12] = ::g::Uno::Array_typeof()->MakeMethod(2/*IndexOf<char>*/, ::g::Uno::Char_typeof(), NULL);
+    ::TYPES[13] = type->Array();
+    ::TYPES[14] = ::TYPES[10/*char[]*/]->Array();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         type, (uintptr_t)&String::Empty_, uFieldFlagsStatic);
 }
@@ -8172,6 +8342,7 @@ uType* String_typeof()
 
     uTypeOptions options;
     options.FieldCount = 1;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(String);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Uno.String", options);
@@ -8183,37 +8354,37 @@ uType* String_typeof()
     return type;
 }
 
-// public static int Compare(string a, string b) :772
+// public static int Compare(string a, string b) :776
 void String__Compare_fn(uString* a, uString* b, int32_t* __retval)
 {
     *__retval = String::Compare(a, b);
 }
 
-// public static string Concat(object a, object b) :221
+// public static string Concat(object a, object b) :225
 void String__Concat_fn(uObject* a, uObject* b, uString** __retval)
 {
     *__retval = String::Concat(a, b);
 }
 
-// public static string Concat(string a, string b) :178
+// public static string Concat(string a, string b) :182
 void String__Concat1_fn(uString* a, uString* b, uString** __retval)
 {
     *__retval = String::Concat1(a, b);
 }
 
-// public bool Contains(string str) :796
+// public bool Contains(string str) :800
 void String__Contains_fn(uString* __this, uString* str, bool* __retval)
 {
     *__retval = String::Contains(__this, str);
 }
 
-// public bool EndsWith(string value) :444
+// public bool EndsWith(string value) :448
 void String__EndsWith_fn(uString* __this, uString* value, bool* __retval)
 {
     *__retval = String::EndsWith(__this, value);
 }
 
-// public override sealed bool Equals(object other) :128
+// public override sealed bool Equals(object other) :132
 void String__Equals_fn(uString* __this, uObject* other, bool* __retval)
 {
     if (other != NULL && __this->__type == other->__type)
@@ -8225,25 +8396,25 @@ void String__Equals_fn(uString* __this, uObject* other, bool* __retval)
     return *__retval = false, void();
 }
 
-// public bool Equals(string other) :144
+// public bool Equals(string other) :148
 void String__Equals2_fn(uString* __this, uString* other, bool* __retval)
 {
     *__retval = String::Equals2(__this, other);
 }
 
-// public static bool Equals(string left, string right) :149
+// public static bool Equals(string left, string right) :153
 void String__Equals3_fn(uString* left, uString* right, bool* __retval)
 {
     *__retval = String::Equals3(left, right);
 }
 
-// public static string Format(string str, object[] objs) :785
+// public static string Format(string str, object[] objs) :789
 void String__Format_fn(uString* str, uArray* objs, uString** __retval)
 {
     *__retval = String::Format(str, objs);
 }
 
-// public override sealed int GetHashCode() :29
+// public override sealed int GetHashCode() :33
 void String__GetHashCode_fn(uString* __this, int32_t* __retval)
 {
     int32_t hash = 5381;
@@ -8254,241 +8425,253 @@ void String__GetHashCode_fn(uString* __this, int32_t* __retval)
     return *__retval = hash, void();
 }
 
-// public int IndexOf(char c) :272
+// public int IndexOf(char c) :276
 void String__IndexOf_fn(uString* __this, char16_t* c, int32_t* __retval)
 {
     *__retval = String::IndexOf(__this, *c);
 }
 
-// public int IndexOf(char c, int startIndex) :277
+// public int IndexOf(char c, int startIndex) :281
 void String__IndexOf1_fn(uString* __this, char16_t* c, int32_t* startIndex, int32_t* __retval)
 {
     *__retval = String::IndexOf1(__this, *c, *startIndex);
 }
 
-// public int IndexOf(string str, [int startIndex]) :743
+// public int IndexOf(string str, [int startIndex]) :747
 void String__IndexOf3_fn(uString* __this, uString* str, int32_t* startIndex, int32_t* __retval)
 {
     *__retval = String::IndexOf3(__this, str, *startIndex);
 }
 
-// private int IndexOfFirstNotInSet(char[] charSet) :682
+// private int IndexOfFirstNotInSet(char[] charSet) :686
 void String__IndexOfFirstNotInSet_fn(uString* __this, uArray* charSet, int32_t* __retval)
 {
     *__retval = String::IndexOfFirstNotInSet(__this, charSet);
 }
 
-// private int IndexOfFirstNotWhiteSpace() :704
+// private int IndexOfFirstNotWhiteSpace() :708
 void String__IndexOfFirstNotWhiteSpace_fn(uString* __this, int32_t* __retval)
 {
     *__retval = String::IndexOfFirstNotWhiteSpace(__this);
 }
 
-// private int IndexOfLastNotInSet(char[] charSet) :690
+// private int IndexOfLastNotInSet(char[] charSet) :694
 void String__IndexOfLastNotInSet_fn(uString* __this, uArray* charSet, int32_t* __retval)
 {
     *__retval = String::IndexOfLastNotInSet(__this, charSet);
 }
 
-// private int IndexOfLastNotWhiteSpace() :712
+// private int IndexOfLastNotWhiteSpace() :716
 void String__IndexOfLastNotWhiteSpace_fn(uString* __this, int32_t* __retval)
 {
     *__retval = String::IndexOfLastNotWhiteSpace(__this);
 }
 
-// private int IndexOfUnchecked(char c, int startIndex, int count) :296
+// private int IndexOfUnchecked(char c, int startIndex, int count) :300
 void String__IndexOfUnchecked_fn(uString* __this, char16_t* c, int32_t* startIndex, int32_t* count, int32_t* __retval)
 {
     *__retval = String::IndexOfUnchecked(__this, *c, *startIndex, *count);
 }
 
-// public string Insert(int pos, string str) :720
+// public string Insert(int pos, string str) :724
 void String__Insert_fn(uString* __this, int32_t* pos, uString* str, uString** __retval)
 {
     *__retval = String::Insert(__this, *pos, str);
 }
 
-// private bool InSet(char c, char[] charSet) :698
+// private bool InSet(char c, char[] charSet) :702
 void String__InSet_fn(uString* __this, char16_t* c, uArray* charSet, bool* __retval)
 {
     *__retval = String::InSet(__this, *c, charSet);
 }
 
-// public static bool IsNullOrEmpty(string s) :544
+// public static bool IsNullOrEmpty(string s) :548
 void String__IsNullOrEmpty_fn(uString* s, bool* __retval)
 {
     *__retval = String::IsNullOrEmpty(s);
 }
 
-// public static string Join(string separator, string[] value) :529
+// public static string Join(string separator, string[] value) :533
 void String__Join_fn(uString* separator, uArray* value, uString** __retval)
 {
     *__retval = String::Join(separator, value);
 }
 
-// public int LastIndexOf(char c) :349
+// public int LastIndexOf(char c) :353
 void String__LastIndexOf_fn(uString* __this, char16_t* c, int32_t* __retval)
 {
     *__retval = String::LastIndexOf(__this, *c);
 }
 
-// public int LastIndexOfAny(char[] anyOf) :388
+// public int LastIndexOfAny(char[] anyOf) :392
 void String__LastIndexOfAny_fn(uString* __this, uArray* anyOf, int32_t* __retval)
 {
     *__retval = String::LastIndexOfAny(__this, anyOf);
 }
 
-// private int LastIndexOfAnyUnchecked(char[] anyOf, int startIndex, int count) :421
+// private int LastIndexOfAnyUnchecked(char[] anyOf, int startIndex, int count) :425
 void String__LastIndexOfAnyUnchecked_fn(uString* __this, uArray* anyOf, int32_t* startIndex, int32_t* count, int32_t* __retval)
 {
     *__retval = String::LastIndexOfAnyUnchecked(__this, anyOf, *startIndex, *count);
 }
 
-// private int LastIndexOfUnchecked(char c, int startIndex, int count) :379
+// private int LastIndexOfUnchecked(char c, int startIndex, int count) :383
 void String__LastIndexOfUnchecked_fn(uString* __this, char16_t* c, int32_t* startIndex, int32_t* count, int32_t* __retval)
 {
     *__retval = String::LastIndexOfUnchecked(__this, *c, *startIndex, *count);
 }
 
-// private bool MatchesAt(string str, int pos) :764
+// private bool MatchesAt(string str, int pos) :768
 void String__MatchesAt_fn(uString* __this, uString* str, int32_t* pos, bool* __retval)
 {
     *__retval = String::MatchesAt(__this, str, *pos);
 }
 
-// public static operator +(object a, string b) :236
+// public static operator +(object a, string b) :240
 void String__op_Addition_fn(uObject* a, uString* b, uString** __retval)
 {
     *__retval = String::op_Addition(a, b);
 }
 
-// public static operator +(string a, object b) :231
+// public static operator +(string a, object b) :235
 void String__op_Addition1_fn(uString* a, uObject* b, uString** __retval)
 {
     *__retval = String::op_Addition1(a, b);
 }
 
-// public static operator +(string a, string b) :226
+// public static operator +(string a, string b) :230
 void String__op_Addition2_fn(uString* a, uString* b, uString** __retval)
 {
     *__retval = String::op_Addition2(a, b);
 }
 
-// public static operator ==(string left, string right) :168
+// public static operator ==(string left, string right) :172
 void String__op_Equality_fn(uString* left, uString* right, bool* __retval)
 {
     *__retval = String::op_Equality(left, right);
 }
 
-// public static operator !=(string left, string right) :173
+// public static operator !=(string left, string right) :177
 void String__op_Inequality_fn(uString* left, uString* right, bool* __retval)
 {
     *__retval = String::op_Inequality(left, right);
 }
 
-// public string PadLeft(int totalLength, char paddingSymbol) :566
+// public string PadLeft(int totalLength, char paddingSymbol) :570
 void String__PadLeft1_fn(uString* __this, int32_t* totalLength, char16_t* paddingSymbol, uString** __retval)
 {
     *__retval = String::PadLeft1(__this, *totalLength, *paddingSymbol);
 }
 
-// public string Replace(char oldChar, char newChar) :44
+// public string Replace(char oldChar, char newChar) :48
 void String__Replace_fn(uString* __this, char16_t* oldChar, char16_t* newChar, uString** __retval)
 {
     *__retval = String::Replace(__this, *oldChar, *newChar);
 }
 
-// public string Replace(string oldValue, string newValue) :55
+// public string Replace(string oldValue, string newValue) :59
 void String__Replace1_fn(uString* __this, uString* oldValue, uString* newValue, uString** __retval)
 {
     *__retval = String::Replace1(__this, oldValue, newValue);
 }
 
-// public string[] Split(char[] splitChars) :474
+// public string[] Split(char[] splitChars) :478
 void String__Split_fn(uString* __this, uArray* splitChars, uArray** __retval)
 {
     *__retval = String::Split(__this, splitChars);
 }
 
-// public bool StartsWith(string value) :430
+// public bool StartsWith(string value) :434
 void String__StartsWith_fn(uString* __this, uString* value, bool* __retval)
 {
     *__retval = String::StartsWith(__this, value);
 }
 
-// private char[] SubCharArray(int start, int len) :84
+// private char[] SubCharArray(int start, int len) :88
 void String__SubCharArray_fn(uString* __this, int32_t* start, int32_t* len, uArray** __retval)
 {
     *__retval = String::SubCharArray(__this, *start, *len);
 }
 
-// public string Substring(int start) :267
+// public string Substring(int start) :271
 void String__Substring_fn(uString* __this, int32_t* start, uString** __retval)
 {
     *__retval = String::Substring(__this, *start);
 }
 
-// public string Substring(int startIndex, int length) :241
+// public string Substring(int startIndex, int length) :245
 void String__Substring1_fn(uString* __this, int32_t* startIndex, int32_t* length, uString** __retval)
 {
     *__retval = String::Substring1(__this, *startIndex, *length);
 }
 
-// public char[] ToCharArray() :469
+// public char[] ToCharArray() :473
 void String__ToCharArray_fn(uString* __this, uArray** __retval)
 {
     *__retval = String::ToCharArray(__this);
 }
 
-// public char[] ToCharArray(int start, int length) :459
+// public char[] ToCharArray(int start, int length) :463
 void String__ToCharArray1_fn(uString* __this, int32_t* start, int32_t* length, uArray** __retval)
 {
     *__retval = String::ToCharArray1(__this, *start, *length);
 }
 
-// public string ToLower() :94
+// public string ToLower() :98
 void String__ToLower_fn(uString* __this, uString** __retval)
 {
     *__retval = String::ToLower(__this);
 }
 
-// public override sealed string ToString() :39
+// public override sealed string ToString() :43
 void String__ToString_fn(uString* __this, uString** __retval)
 {
     return *__retval = __this, void();
 }
 
-// public string ToUpper() :111
+// public string ToUpper() :115
 void String__ToUpper_fn(uString* __this, uString** __retval)
 {
     *__retval = String::ToUpper(__this);
 }
 
-// public string Trim() :606
+// public string Trim() :610
 void String__Trim_fn(uString* __this, uString** __retval)
 {
     *__retval = String::Trim(__this);
 }
 
-// public string Trim(char[] trimChars) :620
+// public string Trim(char[] trimChars) :624
 void String__Trim1_fn(uString* __this, uArray* trimChars, uString** __retval)
 {
     *__retval = String::Trim1(__this, trimChars);
 }
 
+// public string TrimEnd(char[] trimChars) :665
+void String__TrimEnd_fn(uString* __this, uArray* trimChars, uString** __retval)
+{
+    *__retval = String::TrimEnd(__this, trimChars);
+}
+
+// private string TrimEndWhiteSpace() :677
+void String__TrimEndWhiteSpace_fn(uString* __this, uString** __retval)
+{
+    *__retval = String::TrimEndWhiteSpace(__this);
+}
+
 uSStrong<uString*> String::Empty_;
 
-// public bool Contains(string str) [instance] :796
+// public bool Contains(string str) [instance] :800
 bool String::Contains(uString* __this, uString* str)
 {
     return String::IndexOf3(__this, str, 0) >= 0;
 }
 
-// public bool EndsWith(string value) [instance] :444
+// public bool EndsWith(string value) [instance] :448
 bool String::EndsWith(uString* __this, uString* value)
 {
     if (String::op_Equality(value, NULL))
-        U_THROW(::g::Uno::ArgumentNullException::New6(::STRINGS[50/*"value"*/]));
+        U_THROW(::g::Uno::ArgumentNullException::New6(::STRINGS[52/*"value"*/]));
 
     if (__this->Length() < uPtr(value)->Length())
         return false;
@@ -8502,28 +8685,28 @@ bool String::EndsWith(uString* __this, uString* value)
     return true;
 }
 
-// public bool Equals(string other) [instance] :144
+// public bool Equals(string other) [instance] :148
 bool String::Equals2(uString* __this, uString* other)
 {
     return String::Equals3(__this, other);
 }
 
-// public int IndexOf(char c) [instance] :272
+// public int IndexOf(char c) [instance] :276
 int32_t String::IndexOf(uString* __this, char16_t c)
 {
     return String::IndexOfUnchecked(__this, c, 0, __this->Length());
 }
 
-// public int IndexOf(char c, int startIndex) [instance] :277
+// public int IndexOf(char c, int startIndex) [instance] :281
 int32_t String::IndexOf1(uString* __this, char16_t c, int32_t startIndex)
 {
     if ((startIndex < 0) || (startIndex > __this->Length()))
-        U_THROW(::g::Uno::ArgumentOutOfRangeException::New6(::STRINGS[51/*"startIndex"*/]));
+        U_THROW(::g::Uno::ArgumentOutOfRangeException::New6(::STRINGS[53/*"startIndex"*/]));
 
     return String::IndexOfUnchecked(__this, c, startIndex, __this->Length() - startIndex);
 }
 
-// public int IndexOf(string str, [int startIndex]) [instance] :743
+// public int IndexOf(string str, [int startIndex]) [instance] :747
 int32_t String::IndexOf3(uString* __this, uString* str, int32_t startIndex)
 {
     if (String::op_Equality(str, NULL))
@@ -8533,7 +8716,7 @@ int32_t String::IndexOf3(uString* __this, uString* str, int32_t startIndex)
         return 0;
 
     if (startIndex > __this->Length())
-        U_THROW(::g::Uno::ArgumentOutOfRangeException::New6(::STRINGS[51/*"startIndex"*/]));
+        U_THROW(::g::Uno::ArgumentOutOfRangeException::New6(::STRINGS[53/*"startIndex"*/]));
 
     for (int32_t hay = startIndex; hay < __this->Length(); hay++)
     {
@@ -8547,7 +8730,7 @@ int32_t String::IndexOf3(uString* __this, uString* str, int32_t startIndex)
     return -1;
 }
 
-// private int IndexOfFirstNotInSet(char[] charSet) [instance] :682
+// private int IndexOfFirstNotInSet(char[] charSet) [instance] :686
 int32_t String::IndexOfFirstNotInSet(uString* __this, uArray* charSet)
 {
     for (int32_t i = 0; i < __this->Length(); i++)
@@ -8557,7 +8740,7 @@ int32_t String::IndexOfFirstNotInSet(uString* __this, uArray* charSet)
     return -1;
 }
 
-// private int IndexOfFirstNotWhiteSpace() [instance] :704
+// private int IndexOfFirstNotWhiteSpace() [instance] :708
 int32_t String::IndexOfFirstNotWhiteSpace(uString* __this)
 {
     for (int32_t i = 0; i < __this->Length(); i++)
@@ -8567,7 +8750,7 @@ int32_t String::IndexOfFirstNotWhiteSpace(uString* __this)
     return -1;
 }
 
-// private int IndexOfLastNotInSet(char[] charSet) [instance] :690
+// private int IndexOfLastNotInSet(char[] charSet) [instance] :694
 int32_t String::IndexOfLastNotInSet(uString* __this, uArray* charSet)
 {
     for (int32_t i = __this->Length() - 1; i >= 0; i--)
@@ -8577,7 +8760,7 @@ int32_t String::IndexOfLastNotInSet(uString* __this, uArray* charSet)
     return -1;
 }
 
-// private int IndexOfLastNotWhiteSpace() [instance] :712
+// private int IndexOfLastNotWhiteSpace() [instance] :716
 int32_t String::IndexOfLastNotWhiteSpace(uString* __this)
 {
     for (int32_t i = __this->Length() - 1; i >= 0; i--)
@@ -8587,7 +8770,7 @@ int32_t String::IndexOfLastNotWhiteSpace(uString* __this)
     return -1;
 }
 
-// private int IndexOfUnchecked(char c, int startIndex, int count) [instance] :296
+// private int IndexOfUnchecked(char c, int startIndex, int count) [instance] :300
 int32_t String::IndexOfUnchecked(uString* __this, char16_t c, int32_t startIndex, int32_t count)
 {
     int32_t length = startIndex + count;
@@ -8599,14 +8782,14 @@ int32_t String::IndexOfUnchecked(uString* __this, char16_t c, int32_t startIndex
     return -1;
 }
 
-// public string Insert(int pos, string str) [instance] :720
+// public string Insert(int pos, string str) [instance] :724
 uString* String::Insert(uString* __this, int32_t pos, uString* str)
 {
     if (String::op_Equality(str, NULL))
         U_THROW(::g::Uno::ArgumentNullException::New6(::STRINGS[29/*"str"*/]));
 
     if ((pos < 0) || (pos > __this->Length()))
-        U_THROW(::g::Uno::ArgumentOutOfRangeException::New6(::STRINGS[52/*"pos"*/]));
+        U_THROW(::g::Uno::ArgumentOutOfRangeException::New6(::STRINGS[54/*"pos"*/]));
 
     if (uPtr(str)->Length() == 0)
         return __this;
@@ -8614,7 +8797,7 @@ uString* String::Insert(uString* __this, int32_t pos, uString* str)
     if (__this->Length() == 0)
         return str;
 
-    uArray* s = uArray::New(::TYPES[9/*char[]*/], __this->Length() + uPtr(str)->Length());
+    uArray* s = uArray::New(::TYPES[10/*char[]*/], __this->Length() + uPtr(str)->Length());
 
     for (int32_t i = 0; i < pos; i++)
         uPtr(s)->Item<char16_t>(i) = __this->Item(i);
@@ -8628,7 +8811,7 @@ uString* String::Insert(uString* __this, int32_t pos, uString* str)
     return uString::CharArray(s);
 }
 
-// private bool InSet(char c, char[] charSet) [instance] :698
+// private bool InSet(char c, char[] charSet) [instance] :702
 bool String::InSet(uString* __this, char16_t c, uArray* charSet)
 {
     for (int32_t i = 0; i < uPtr(charSet)->Length(); i++)
@@ -8638,34 +8821,34 @@ bool String::InSet(uString* __this, char16_t c, uArray* charSet)
     return false;
 }
 
-// public int LastIndexOf(char c) [instance] :349
+// public int LastIndexOf(char c) [instance] :353
 int32_t String::LastIndexOf(uString* __this, char16_t c)
 {
     return String::LastIndexOfUnchecked(__this, c, __this->Length() - 1, __this->Length());
 }
 
-// public int LastIndexOfAny(char[] anyOf) [instance] :388
+// public int LastIndexOfAny(char[] anyOf) [instance] :392
 int32_t String::LastIndexOfAny(uString* __this, uArray* anyOf)
 {
     if (anyOf == NULL)
-        U_THROW(::g::Uno::ArgumentNullException::New6(::STRINGS[53/*"anyOf"*/]));
+        U_THROW(::g::Uno::ArgumentNullException::New6(::STRINGS[55/*"anyOf"*/]));
 
     return String::LastIndexOfAnyUnchecked(__this, anyOf, __this->Length() - 1, __this->Length());
 }
 
-// private int LastIndexOfAnyUnchecked(char[] anyOf, int startIndex, int count) [instance] :421
+// private int LastIndexOfAnyUnchecked(char[] anyOf, int startIndex, int count) [instance] :425
 int32_t String::LastIndexOfAnyUnchecked(uString* __this, uArray* anyOf, int32_t startIndex, int32_t count)
 {
-    int32_t ret5;
+    int32_t ret6;
 
     for (int32_t i = 0; i < count; ++i)
-        if ((::g::Uno::Array__IndexOf_fn(::TYPES[11/*Uno.Array.IndexOf<char>*/], anyOf, uCRef<char16_t>(__this->Item(startIndex - i)), &ret5), ret5) >= 0)
+        if ((::g::Uno::Array__IndexOf_fn(::TYPES[12/*Uno.Array.IndexOf<char>*/], anyOf, uCRef<char16_t>(__this->Item(startIndex - i)), &ret6), ret6) >= 0)
             return startIndex - i;
 
     return -1;
 }
 
-// private int LastIndexOfUnchecked(char c, int startIndex, int count) [instance] :379
+// private int LastIndexOfUnchecked(char c, int startIndex, int count) [instance] :383
 int32_t String::LastIndexOfUnchecked(uString* __this, char16_t c, int32_t startIndex, int32_t count)
 {
     for (int32_t i = 0; i < count; ++i)
@@ -8675,7 +8858,7 @@ int32_t String::LastIndexOfUnchecked(uString* __this, char16_t c, int32_t startI
     return -1;
 }
 
-// private bool MatchesAt(string str, int pos) [instance] :764
+// private bool MatchesAt(string str, int pos) [instance] :768
 bool String::MatchesAt(uString* __this, uString* str, int32_t pos)
 {
     for (int32_t i = 0; i < uPtr(str)->Length(); i++)
@@ -8685,7 +8868,7 @@ bool String::MatchesAt(uString* __this, uString* str, int32_t pos)
     return true;
 }
 
-// public string PadLeft(int totalLength, char paddingSymbol) [instance] :566
+// public string PadLeft(int totalLength, char paddingSymbol) [instance] :570
 uString* String::PadLeft1(uString* __this, int32_t totalLength, char16_t paddingSymbol)
 {
     int32_t padLength = totalLength - __this->Length();
@@ -8693,7 +8876,7 @@ uString* String::PadLeft1(uString* __this, int32_t totalLength, char16_t padding
     if (padLength <= 0)
         return __this;
 
-    uArray* result = uArray::New(::TYPES[9/*char[]*/], totalLength);
+    uArray* result = uArray::New(::TYPES[10/*char[]*/], totalLength);
     int32_t index;
 
     for (index = 0; index < padLength; index++)
@@ -8705,10 +8888,10 @@ uString* String::PadLeft1(uString* __this, int32_t totalLength, char16_t padding
     return uString::CharArray(result);
 }
 
-// public string Replace(char oldChar, char newChar) [instance] :44
+// public string Replace(char oldChar, char newChar) [instance] :48
 uString* String::Replace(uString* __this, char16_t oldChar, char16_t newChar)
 {
-    uArray* s = uArray::New(::TYPES[9/*char[]*/], __this->Length());
+    uArray* s = uArray::New(::TYPES[10/*char[]*/], __this->Length());
 
     for (int32_t i = 0; i < __this->Length(); i++)
     {
@@ -8721,14 +8904,14 @@ uString* String::Replace(uString* __this, char16_t oldChar, char16_t newChar)
     return uString::CharArray(s);
 }
 
-// public string Replace(string oldValue, string newValue) [instance] :55
+// public string Replace(string oldValue, string newValue) [instance] :59
 uString* String::Replace1(uString* __this, uString* oldValue, uString* newValue)
 {
     if (String::op_Equality(oldValue, NULL))
-        U_THROW(::g::Uno::ArgumentNullException::New6(::STRINGS[54/*"oldValue"*/]));
+        U_THROW(::g::Uno::ArgumentNullException::New6(::STRINGS[56/*"oldValue"*/]));
 
     if (String::op_Equality(oldValue, String::Empty_))
-        U_THROW(::g::Uno::ArgumentException::New5(::STRINGS[32/*""*/], ::STRINGS[54/*"oldValue"*/]));
+        U_THROW(::g::Uno::ArgumentException::New5(::STRINGS[32/*""*/], ::STRINGS[56/*"oldValue"*/]));
 
     int32_t index = String::IndexOf3(__this, oldValue, 0);
 
@@ -8750,11 +8933,11 @@ uString* String::Replace1(uString* __this, uString* oldValue, uString* newValue)
     return sb->ToString();
 }
 
-// public string[] Split(char[] splitChars) [instance] :474
+// public string[] Split(char[] splitChars) [instance] :478
 uArray* String::Split(uString* __this, uArray* splitChars)
 {
     if ((splitChars == NULL) || (uPtr(splitChars)->Length() == 0))
-        splitChars = uArray::Init<int32_t>(::TYPES[9/*char[]*/], 4, ' ', 9, 10, 13);
+        splitChars = uArray::Init<int32_t>(::TYPES[10/*char[]*/], 4, ' ', 9, 10, 13);
 
     int32_t splitCount = 0;
     int32_t charCount = 0;
@@ -8765,8 +8948,8 @@ uArray* String::Split(uString* __this, uArray* splitChars)
             if (__this->Item(i) == uPtr(splitChars)->Item<char16_t>(k))
                 splitCount++;
 
-    uArray* r = uArray::New(::TYPES[12/*string[]*/], splitCount + 1);
-    uArray* ch = uArray::New(::TYPES[13/*char[][]*/], splitCount + 1);
+    uArray* r = uArray::New(::TYPES[13/*string[]*/], splitCount + 1);
+    uArray* ch = uArray::New(::TYPES[14/*char[][]*/], splitCount + 1);
     splitCount = 0;
     int32_t start = 0;
 
@@ -8777,7 +8960,7 @@ uArray* String::Split(uString* __this, uArray* splitChars)
         for (int32_t k1 = 0; k1 < uPtr(splitChars)->Length(); k1++)
             if (__this->Item(i1) == uPtr(splitChars)->Item<char16_t>(k1))
             {
-                uPtr(ch)->Strong<uArray*>(splitCount) = uArray::New(::TYPES[9/*char[]*/], charCount);
+                uPtr(ch)->Strong<uArray*>(splitCount) = uArray::New(::TYPES[10/*char[]*/], charCount);
 
                 for (int32_t n = 0; n < charCount; n++)
                     uPtr(uPtr(ch)->Strong<uArray*>(splitCount))->Item<char16_t>(n) = __this->Item(start + n);
@@ -8793,7 +8976,7 @@ uArray* String::Split(uString* __this, uArray* splitChars)
             charCount++;
     }
 
-    ch->Strong<uArray*>(splitCount) = uArray::New(::TYPES[9/*char[]*/], charCount);
+    ch->Strong<uArray*>(splitCount) = uArray::New(::TYPES[10/*char[]*/], charCount);
 
     for (int32_t n1 = 0; n1 < charCount; n1++)
         uPtr(uPtr(ch)->Strong<uArray*>(splitCount))->Item<char16_t>(n1) = __this->Item(start + n1);
@@ -8804,11 +8987,11 @@ uArray* String::Split(uString* __this, uArray* splitChars)
     return r;
 }
 
-// public bool StartsWith(string value) [instance] :430
+// public bool StartsWith(string value) [instance] :434
 bool String::StartsWith(uString* __this, uString* value)
 {
     if (String::op_Equality(value, NULL))
-        U_THROW(::g::Uno::ArgumentNullException::New6(::STRINGS[50/*"value"*/]));
+        U_THROW(::g::Uno::ArgumentNullException::New6(::STRINGS[52/*"value"*/]));
 
     if (__this->Length() < uPtr(value)->Length())
         return false;
@@ -8820,10 +9003,10 @@ bool String::StartsWith(uString* __this, uString* value)
     return true;
 }
 
-// private char[] SubCharArray(int start, int len) [instance] :84
+// private char[] SubCharArray(int start, int len) [instance] :88
 uArray* String::SubCharArray(uString* __this, int32_t start, int32_t len)
 {
-    uArray* chars = uArray::New(::TYPES[9/*char[]*/], len);
+    uArray* chars = uArray::New(::TYPES[10/*char[]*/], len);
 
     for (int32_t i = 0; i < len; i++)
         uPtr(chars)->Item<char16_t>(i) = __this->Item(start + i);
@@ -8831,17 +9014,17 @@ uArray* String::SubCharArray(uString* __this, int32_t start, int32_t len)
     return chars;
 }
 
-// public string Substring(int start) [instance] :267
+// public string Substring(int start) [instance] :271
 uString* String::Substring(uString* __this, int32_t start)
 {
     return String::Substring1(__this, start, __this->Length() - start);
 }
 
-// public string Substring(int startIndex, int length) [instance] :241
+// public string Substring(int startIndex, int length) [instance] :245
 uString* String::Substring1(uString* __this, int32_t startIndex, int32_t length)
 {
     if ((startIndex > __this->Length()) || (startIndex < 0))
-        U_THROW(::g::Uno::ArgumentOutOfRangeException::New6(::STRINGS[51/*"startIndex"*/]));
+        U_THROW(::g::Uno::ArgumentOutOfRangeException::New6(::STRINGS[53/*"startIndex"*/]));
 
     if ((startIndex > (__this->Length() - length)) || (length < 0))
         U_THROW(::g::Uno::ArgumentOutOfRangeException::New6(::STRINGS[12/*"length"*/]));
@@ -8849,7 +9032,7 @@ uString* String::Substring1(uString* __this, int32_t startIndex, int32_t length)
     if ((startIndex == __this->Length()) && (length == 0))
         return String::Empty_;
 
-    uArray* s = uArray::New(::TYPES[9/*char[]*/], length);
+    uArray* s = uArray::New(::TYPES[10/*char[]*/], length);
 
     for (int32_t i = 0; i < length; i++)
         uPtr(s)->Item<char16_t>(i) = __this->Item(startIndex + i);
@@ -8857,16 +9040,16 @@ uString* String::Substring1(uString* __this, int32_t startIndex, int32_t length)
     return uString::CharArray(s);
 }
 
-// public char[] ToCharArray() [instance] :469
+// public char[] ToCharArray() [instance] :473
 uArray* String::ToCharArray(uString* __this)
 {
     return String::ToCharArray1(__this, 0, __this->Length());
 }
 
-// public char[] ToCharArray(int start, int length) [instance] :459
+// public char[] ToCharArray(int start, int length) [instance] :463
 uArray* String::ToCharArray1(uString* __this, int32_t start, int32_t length)
 {
-    uArray* result = uArray::New(::TYPES[9/*char[]*/], length);
+    uArray* result = uArray::New(::TYPES[10/*char[]*/], length);
 
     for (int32_t i = 0; i < length; i++)
         uPtr(result)->Item<char16_t>(i) = __this->Item(start + i);
@@ -8874,10 +9057,10 @@ uArray* String::ToCharArray1(uString* __this, int32_t start, int32_t length)
     return result;
 }
 
-// public string ToLower() [instance] :94
+// public string ToLower() [instance] :98
 uString* String::ToLower(uString* __this)
 {
-    uArray* chars = uArray::New(::TYPES[9/*char[]*/], __this->Length());
+    uArray* chars = uArray::New(::TYPES[10/*char[]*/], __this->Length());
 
     for (int32_t i = 0; i < __this->Length(); i++)
         uPtr(chars)->Item<char16_t>(i) = ::g::Uno::Char::ToLower(__this->Item(i));
@@ -8885,10 +9068,10 @@ uString* String::ToLower(uString* __this)
     return uString::CharArray(chars);
 }
 
-// public string ToUpper() [instance] :111
+// public string ToUpper() [instance] :115
 uString* String::ToUpper(uString* __this)
 {
-    uArray* chars = uArray::New(::TYPES[9/*char[]*/], __this->Length());
+    uArray* chars = uArray::New(::TYPES[10/*char[]*/], __this->Length());
 
     for (int32_t i = 0; i < __this->Length(); i++)
         uPtr(chars)->Item<char16_t>(i) = ::g::Uno::Char::ToUpper(__this->Item(i));
@@ -8896,7 +9079,7 @@ uString* String::ToUpper(uString* __this)
     return uString::CharArray(chars);
 }
 
-// public string Trim() [instance] :606
+// public string Trim() [instance] :610
 uString* String::Trim(uString* __this)
 {
     if (String::op_Equality(__this, String::Empty_))
@@ -8912,7 +9095,7 @@ uString* String::Trim(uString* __this)
     return String::Substring1(__this, first, length);
 }
 
-// public string Trim(char[] trimChars) [instance] :620
+// public string Trim(char[] trimChars) [instance] :624
 uString* String::Trim1(uString* __this, uArray* trimChars)
 {
     if (String::op_Equality(__this, String::Empty_))
@@ -8928,7 +9111,30 @@ uString* String::Trim1(uString* __this, uArray* trimChars)
     return String::Substring1(__this, first, length);
 }
 
-// public static int Compare(string a, string b) [static] :772
+// public string TrimEnd(char[] trimChars) [instance] :665
+uString* String::TrimEnd(uString* __this, uArray* trimChars)
+{
+    if (String::op_Equality(__this, String::Empty_))
+        return String::Empty_;
+
+    if (uPtr(trimChars)->Length() == 0)
+        return String::TrimEndWhiteSpace(__this);
+
+    int32_t last = String::IndexOfLastNotInSet(__this, trimChars);
+    return String::Substring1(__this, 0, last + 1);
+}
+
+// private string TrimEndWhiteSpace() [instance] :677
+uString* String::TrimEndWhiteSpace(uString* __this)
+{
+    if (String::op_Equality(__this, String::Empty_))
+        return String::Empty_;
+
+    int32_t last = String::IndexOfLastNotWhiteSpace(__this);
+    return String::Substring1(__this, 0, last + 1);
+}
+
+// public static int Compare(string a, string b) [static] :776
 int32_t String::Compare(uString* a, uString* b)
 {
     String_typeof()->Init();
@@ -8951,14 +9157,14 @@ int32_t String::Compare(uString* a, uString* b)
     return 0;
 }
 
-// public static string Concat(object a, object b) [static] :221
+// public static string Concat(object a, object b) [static] :225
 uString* String::Concat(uObject* a, uObject* b)
 {
     String_typeof()->Init();
     return String::Concat1((a == NULL) ? uCast<uString*>(NULL, String_typeof()) : (uString*)::g::Uno::Object::ToString(uPtr(a)), (b == NULL) ? uCast<uString*>(NULL, String_typeof()) : (uString*)::g::Uno::Object::ToString(uPtr(b)));
 }
 
-// public static string Concat(string a, string b) [static] :178
+// public static string Concat(string a, string b) [static] :182
 uString* String::Concat1(uString* a, uString* b)
 {
     String_typeof()->Init();
@@ -8972,7 +9178,7 @@ uString* String::Concat1(uString* a, uString* b)
     if (::g::Uno::Object::ReferenceEquals(b, NULL))
         return a;
 
-    uArray* s = uArray::New(::TYPES[9/*char[]*/], uPtr(a)->Length() + uPtr(b)->Length());
+    uArray* s = uArray::New(::TYPES[10/*char[]*/], uPtr(a)->Length() + uPtr(b)->Length());
 
     for (int32_t i = 0; i < a->Length(); i++)
         uPtr(s)->Item<char16_t>(i) = uPtr(a)->Item(i);
@@ -8983,7 +9189,7 @@ uString* String::Concat1(uString* a, uString* b)
     return uString::CharArray(s);
 }
 
-// public static bool Equals(string left, string right) [static] :149
+// public static bool Equals(string left, string right) [static] :153
 bool String::Equals3(uString* left, uString* right)
 {
     String_typeof()->Init();
@@ -9004,22 +9210,22 @@ bool String::Equals3(uString* left, uString* right)
     return true;
 }
 
-// public static string Format(string str, object[] objs) [static] :785
+// public static string Format(string str, object[] objs) [static] :789
 uString* String::Format(uString* str, uArray* objs)
 {
     String_typeof()->Init();
-    ::g::Uno::Collections::List__Enumerator<uStrong< ::g::Uno::Runtime::Implementation::Internal::FormatStringToken*> > ret3;
+    ::g::Uno::Collections::List__Enumerator<uStrong< ::g::Uno::Runtime::Implementation::Internal::FormatStringToken*> > ret4;
     ::g::Uno::Text::StringBuilder* builder = ::g::Uno::Text::StringBuilder::New1();
     ::g::Uno::Collections::List* tokens = ::g::Uno::Runtime::Implementation::Internal::FormatStringTokenizer::TokenizeFormatString(str);
-    ::g::Uno::Collections::List__Enumerator<uStrong< ::g::Uno::Runtime::Implementation::Internal::FormatStringToken*> > enum1 = (::g::Uno::Collections::List__GetEnumerator_fn(uPtr(tokens), &ret3), ret3);
+    ::g::Uno::Collections::List__Enumerator<uStrong< ::g::Uno::Runtime::Implementation::Internal::FormatStringToken*> > enum1 = (::g::Uno::Collections::List__GetEnumerator_fn(uPtr(tokens), &ret4), ret4);
 
     {
         try
         {
             {
-                while (enum1.MoveNext(::TYPES[10/*Uno.Collections.List<Uno.Runtime.Implementation.Internal.FormatStringToken>.Enumerator*/]))
+                while (enum1.MoveNext(::TYPES[11/*Uno.Collections.List<Uno.Runtime.Implementation.Internal.FormatStringToken>.Enumerator*/]))
                 {
-                    ::g::Uno::Runtime::Implementation::Internal::FormatStringToken* token = enum1.Current(::TYPES[10/*Uno.Collections.List<Uno.Runtime.Implementation.Internal.FormatStringToken>.Enumerator*/]);
+                    ::g::Uno::Runtime::Implementation::Internal::FormatStringToken* token = enum1.Current(::TYPES[11/*Uno.Collections.List<Uno.Runtime.Implementation.Internal.FormatStringToken>.Enumerator*/]);
                     uPtr(builder)->Append2(uPtr(token)->ToString1(objs));
                 }
             }
@@ -9028,14 +9234,14 @@ uString* String::Format(uString* str, uArray* objs)
         catch (const uThrowable& __t)
         {
             {
-                enum1.Dispose(::TYPES[10/*Uno.Collections.List<Uno.Runtime.Implementation.Internal.FormatStringToken>.Enumerator*/]);
+                enum1.Dispose(::TYPES[11/*Uno.Collections.List<Uno.Runtime.Implementation.Internal.FormatStringToken>.Enumerator*/]);
             }
                         throw __t;
             goto __after_finally_0;
         }
 
         {
-            enum1.Dispose(::TYPES[10/*Uno.Collections.List<Uno.Runtime.Implementation.Internal.FormatStringToken>.Enumerator*/]);
+            enum1.Dispose(::TYPES[11/*Uno.Collections.List<Uno.Runtime.Implementation.Internal.FormatStringToken>.Enumerator*/]);
         }
         __after_finally_0:;
     }
@@ -9043,14 +9249,14 @@ uString* String::Format(uString* str, uArray* objs)
     return builder->ToString();
 }
 
-// public static bool IsNullOrEmpty(string s) [static] :544
+// public static bool IsNullOrEmpty(string s) [static] :548
 bool String::IsNullOrEmpty(uString* s)
 {
     String_typeof()->Init();
     return String::op_Equality(s, NULL) || String::op_Equality(s, String::Empty_);
 }
 
-// public static string Join(string separator, string[] value) [static] :529
+// public static string Join(string separator, string[] value) [static] :533
 uString* String::Join(uString* separator, uArray* value)
 {
     String_typeof()->Init();
@@ -9067,35 +9273,35 @@ uString* String::Join(uString* separator, uArray* value)
     return result;
 }
 
-// public static operator +(object a, string b) [static] :236
+// public static operator +(object a, string b) [static] :240
 uString* String::op_Addition(uObject* a, uString* b)
 {
     String_typeof()->Init();
     return String::Concat(a, b);
 }
 
-// public static operator +(string a, object b) [static] :231
+// public static operator +(string a, object b) [static] :235
 uString* String::op_Addition1(uString* a, uObject* b)
 {
     String_typeof()->Init();
     return String::Concat(a, b);
 }
 
-// public static operator +(string a, string b) [static] :226
+// public static operator +(string a, string b) [static] :230
 uString* String::op_Addition2(uString* a, uString* b)
 {
     String_typeof()->Init();
     return String::Concat1(a, b);
 }
 
-// public static operator ==(string left, string right) [static] :168
+// public static operator ==(string left, string right) [static] :172
 bool String::op_Equality(uString* left, uString* right)
 {
     String_typeof()->Init();
     return String::Equals3(left, right);
 }
 
-// public static operator !=(string left, string right) [static] :173
+// public static operator !=(string left, string right) [static] :177
 bool String::op_Inequality(uString* left, uString* right)
 {
     String_typeof()->Init();
@@ -9103,16 +9309,16 @@ bool String::op_Inequality(uString* left, uString* right)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Tuple.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Tuple.uno
 // ----------------------------------------------------------------
 
 // public static class Tuple :12
 // {
 static void Tuple_build(uType* type)
 {
-    ::TYPES[14] = ::g::Uno::Tuple2_typeof();
+    ::TYPES[15] = ::g::Uno::Tuple2_typeof();
     type->MethodTypes[0]->SetPrecalc(
-        ::TYPES[14/*Uno.Tuple`2*/]->MakeType(type->MethodTypes[0]->U(0), type->MethodTypes[0]->U(1), NULL));
+        ::TYPES[15/*Uno.Tuple`2*/]->MakeType(type->MethodTypes[0]->U(0), type->MethodTypes[0]->U(1), NULL));
 }
 
 uClassType* Tuple_typeof()
@@ -9140,19 +9346,19 @@ void Tuple__Create1_fn(uType* __type, void* item1, void* item2, ::g::Uno::Tuple2
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Tuple.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Tuple.uno
 // ----------------------------------------------------------------
 
 // public sealed class Tuple<T1, T2> :63
 // {
 static void Tuple2_build(uType* type)
 {
-    ::STRINGS[55] = uString::Const("(");
-    ::STRINGS[56] = uString::Const(")");
+    ::STRINGS[57] = uString::Const("(");
+    ::STRINGS[58] = uString::Const(")");
     ::STRINGS[14] = uString::Const(", ");
-    ::TYPES[15] = ::g::Uno::ITuple_typeof();
+    ::TYPES[16] = ::g::Uno::ITuple_typeof();
     type->SetInterfaces(
-        ::TYPES[15/*Uno.ITuple*/], offsetof(Tuple2_type, interface0));
+        ::TYPES[16/*Uno.ITuple*/], offsetof(Tuple2_type, interface0));
     type->SetFields(0,
         type->T(0), (uintptr_t)0, uFieldFlagsConstrained,
         type->T(1), (uintptr_t)0, uFieldFlagsConstrained);
@@ -9240,9 +9446,9 @@ void Tuple2__New1_fn(uType* __type, void* item1, void* item2, Tuple2** __retval)
 void Tuple2__ToString_fn(Tuple2* __this, uString** __retval)
 {
     ::g::Uno::Text::StringBuilder* sb = ::g::Uno::Text::StringBuilder::New1();
-    sb->Append2(::STRINGS[55/*"("*/]);
-    ::g::Uno::ITuple::AppendItems(uInterface((uObject*)__this, ::TYPES[15/*Uno.ITuple*/]), sb);
-    sb->Append2(::STRINGS[56/*")"*/]);
+    sb->Append2(::STRINGS[57/*"("*/]);
+    ::g::Uno::ITuple::AppendItems(uInterface((uObject*)__this, ::TYPES[16/*Uno.ITuple*/]), sb);
+    sb->Append2(::STRINGS[58/*")"*/]);
     return *__retval = sb->ToString(), void();
 }
 
@@ -9257,7 +9463,7 @@ void Tuple2__UnoITupleAppendItems_fn(Tuple2* __this, ::g::Uno::Text::StringBuild
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Type.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Type.uno
 // ---------------------------------------------------------------
 
 // public sealed class Type :23
@@ -9265,14 +9471,14 @@ void Tuple2__UnoITupleAppendItems_fn(Tuple2* __this, ::g::Uno::Text::StringBuild
 // static generated Type() :23
 static void Type__cctor__fn(uType* __type)
 {
-    Type::EmptyTypes_ = uArray::New(::TYPES[16/*Uno.Type[]*/], 0);
+    Type::EmptyTypes_ = uArray::New(::TYPES[17/*Uno.Type[]*/], 0);
 }
 
 static void Type_build(uType* type)
 {
-    ::TYPES[16] = type->Array();
+    ::TYPES[17] = type->Array();
     type->SetFields(0,
-        ::TYPES[16/*Uno.Type[]*/], (uintptr_t)&Type::EmptyTypes_, uFieldFlagsStatic);
+        ::TYPES[17/*Uno.Type[]*/], (uintptr_t)&Type::EmptyTypes_, uFieldFlagsStatic);
 }
 
 uType* Type_typeof()
@@ -9390,7 +9596,7 @@ uString* Type::FullName(uType* __this)
 // public Uno.Type[] GetInterfaces() [instance] :243
 uArray* Type::GetInterfaces(uType* __this)
 {
-    uArray* array = uArray::New(::TYPES[16/*Uno.Type[]*/], (int32_t) __this->InterfaceCount);
+    uArray* array = uArray::New(::TYPES[17/*Uno.Type[]*/], (int32_t) __this->InterfaceCount);
 
     for (int32_t i = 0; i < array->Length(); i++)
         uPtr(array)->Strong<uType*>(i) = __this->Interfaces[i].Type;
@@ -9443,14 +9649,14 @@ bool Type::op_Inequality(uType* a, uType* b)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Exceptions/TypeInitializationException.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/TypeInitializationException.uno
 // -------------------------------------------------------------------------------------------------
 
 // public sealed class TypeInitializationException :6
 // {
 static void TypeInitializationException_build(uType* type)
 {
-    ::STRINGS[57] = uString::Const("The type initializer for '{0}' threw an exception.");
+    ::STRINGS[59] = uString::Const("The type initializer for '{0}' threw an exception.");
     ::TYPES[0] = uObject_typeof()->Array();
     type->SetFields(4,
         ::g::Uno::String_typeof(), offsetof(TypeInitializationException, _typeName), 0);
@@ -9486,7 +9692,7 @@ void TypeInitializationException__New4_fn(uString* fullTypeName, ::g::Uno::Excep
 // public TypeInitializationException(string fullTypeName, Uno.Exception innerException) [instance] :8
 void TypeInitializationException::ctor_3(uString* fullTypeName, ::g::Uno::Exception* innerException)
 {
-    ctor_2(::g::Uno::String::Format(::STRINGS[57/*"The type in...*/], uArray::Init<uObject*>(::TYPES[0/*object[]*/], 1, fullTypeName)), innerException);
+    ctor_2(::g::Uno::String::Format(::STRINGS[59/*"The type in...*/], uArray::Init<uObject*>(::TYPES[0/*object[]*/], 1, fullTypeName)), innerException);
     _typeName = fullTypeName;
 }
 
@@ -9499,7 +9705,7 @@ TypeInitializationException* TypeInitializationException::New4(uString* fullType
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UInt.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UInt.uno
 // ---------------------------------------------------------------
 
 // public intrinsic struct UInt :10
@@ -9548,7 +9754,7 @@ void UInt__ToString_fn(uint32_t* __this, uType* __type, uString** __retval)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/ULong.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/ULong.uno
 // ----------------------------------------------------------------
 
 // public intrinsic struct ULong :10
@@ -9600,7 +9806,7 @@ void ULong__ToString_fn(uint64_t* __this, uType* __type, uString** __retval)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UShort.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UShort.uno
 // -----------------------------------------------------------------
 
 // public intrinsic struct UShort :10
@@ -9649,7 +9855,7 @@ void UShort__ToString_fn(uint16_t* __this, uType* __type, uString** __retval)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UShort2.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UShort2.uno
 // ------------------------------------------------------------------
 
 // public intrinsic struct UShort2 :6
@@ -9658,10 +9864,10 @@ static void UShort2_build(uType* type)
 {
     ::STRINGS[14] = uString::Const(", ");
     ::TYPES[2] = uObject_typeof();
-    ::TYPES[17] = ::g::Uno::UShort_typeof();
+    ::TYPES[18] = ::g::Uno::UShort_typeof();
     type->SetFields(0,
-        ::TYPES[17/*ushort*/], offsetof(UShort2, X), 0,
-        ::TYPES[17/*ushort*/], offsetof(UShort2, Y), 0);
+        ::TYPES[18/*ushort*/], offsetof(UShort2, X), 0,
+        ::TYPES[18/*ushort*/], offsetof(UShort2, Y), 0);
 }
 
 uStructType* UShort2_typeof()
@@ -9699,17 +9905,19 @@ void UShort2__GetHashCode_fn(UShort2* __this, uType* __type, int32_t* __retval)
 // public override sealed string ToString() :50
 void UShort2__ToString_fn(UShort2* __this, uType* __type, uString** __retval)
 {
-    return *__retval = ::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::UShort::ToString(__this->X, ::TYPES[17/*ushort*/]), ::STRINGS[14/*", "*/]), ::g::Uno::UShort::ToString(__this->Y, ::TYPES[17/*ushort*/])), void();
+    return *__retval = ::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::UShort::ToString(__this->X, ::TYPES[18/*ushort*/]), ::STRINGS[14/*", "*/]), ::g::Uno::UShort::ToString(__this->Y, ::TYPES[18/*ushort*/])), void();
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Vector.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Vector.uno
 // -----------------------------------------------------------------
 
 // public static class Vector :8
 // {
 static void Vector_build(uType* type)
 {
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 uClassType* Vector_typeof()
@@ -9718,6 +9926,7 @@ uClassType* Vector_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.DependencyCount = 1;
     options.TypeSize = sizeof(uClassType);
     type = uClassType::New("Uno.Vector", options);
     type->fp_build_ = Vector_build;
@@ -9907,7 +10116,7 @@ float Vector::LengthSquared2(::g::Uno::Float4 v)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/WeakReference.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/WeakReference.uno
 // ------------------------------------------------------------------------
 
 // public sealed class WeakReference<T> :6

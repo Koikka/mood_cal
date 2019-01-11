@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.8.1/Router.ScriptClass.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -6,6 +6,7 @@
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IPreviewStateSaver.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Navigation.IBase-84e3f965.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -30,13 +31,15 @@ namespace Navigation{
 // {
 struct Router_type : ::g::Fuse::Node_type
 {
-    ::g::Fuse::Navigation::IBaseNavigation interface6;
-    ::g::Fuse::IPreviewStateSaver interface7;
+    ::g::Fuse::Navigation::IBaseNavigation interface7;
+    ::g::Fuse::IPreviewStateSaver interface8;
 };
 
 Router_type* Router_typeof();
 void Router__ctor_2_fn(Router* __this);
 void Router__AsRouterOutlet_fn(::g::Fuse::Node* n, uObject** __retval);
+void Router__add_BackAtRootPressed_fn(Router* __this, uDelegate* value);
+void Router__remove_BackAtRootPressed_fn(Router* __this, uDelegate* value);
 void Router__get_BackButtonAction_fn(Router* __this, int32_t* __retval);
 void Router__set_BackButtonAction_fn(Router* __this, int32_t* value);
 void Router__Bookmark_fn(Router* r, uArray* args);
@@ -50,6 +53,7 @@ void Router__FindOutletUp1_fn(Router* __this, ::g::Fuse::Node* active, ::g::Fuse
 void Router__FindRouterOutletPage_fn(::g::Fuse::Node* from, ::g::Fuse::Visual** __retval);
 void Router__FinishPrepared_fn(Router* __this);
 void Router__FuseNavigationIBaseNavigationget_CanGoForward_fn(Router* __this, bool* __retval);
+void Router__FuseNavigationIBaseNavigationGoBack_fn(Router* __this);
 void Router__FuseNavigationIBaseNavigationGoForward_fn(Router* __this);
 void Router__GetCurrent_fn(Router* __this, ::g::Fuse::Visual* from, uObject* to, ::g::Fuse::Navigation::RouterPageRoute** __retval);
 void Router__GetCurrentRoute_fn(Router* __this, ::g::Fuse::Navigation::Route** __retval);
@@ -60,11 +64,13 @@ void Router__GetRelative_fn(Router* r, uArray* args, ::g::Fuse::Navigation::Rout
 void Router__GetRelativeRoute1_fn(Router* __this, ::g::Fuse::Node* from, ::g::Fuse::Navigation::RouterPageRoute* rel, ::g::Fuse::Navigation::RouterPageRoute** __retval);
 void Router__GetRoute_fn(::g::Fuse::Scripting::Context* c, Router* r, uArray* args, uObject** __retval);
 void Router__GetRouteUpToRouter_fn(Router* __this, ::g::Fuse::Node* from, ::g::Fuse::Navigation::RouterPageRoute** __retval);
-void Router__GoBack_fn(Router* __this);
+void Router__GoBack_fn(Router* __this, bool* __retval);
 void Router__GoBack1_fn(Router* r);
+void Router__get_GoBackBehavior_fn(Router* __this, int32_t* __retval);
+void Router__set_GoBackBehavior_fn(Router* __this, int32_t* value);
 void Router__Goto1_fn(Router* r, uArray* args);
 void Router__GotoRelative_fn(Router* r, uArray* args);
-void Router__GoUp_fn(Router* __this);
+void Router__GoUp_fn(Router* __this, bool* __retval);
 void Router__HasOtherRouter_fn(Router* __this, ::g::Fuse::Visual* n, bool* __retval);
 void Router__HasRouter_fn(::g::Fuse::Node* n, bool* __retval);
 void Router__add_HistoryChanged_fn(Router* __this, uDelegate* value);
@@ -78,7 +84,6 @@ void Router__OnHistoryChanged_fn(Router* __this);
 void Router__OnKeyPressed_fn(Router* __this, uObject* sender, ::g::Fuse::Input::KeyEventArgs* args);
 void Router__OnRooted_fn(Router* __this);
 void Router__OnUnrooted_fn(Router* __this);
-void Router__OnUpFromRoot_fn(Router* __this);
 void Router__Pop_fn(Router* __this);
 void Router__get_PrepareProgress_fn(Router* __this, double* __retval);
 void Router__set_PrepareProgress_fn(Router* __this, double* value);
@@ -96,6 +101,7 @@ struct Router : ::g::Fuse::Node
     bool _isMasterRouter;
     int32_t _backButtonAction;
     uStrong< ::g::Uno::Collections::Dictionary*> Bookmarks;
+    int32_t _goBackBehavior;
     uStrong< ::g::Fuse::Navigation::RouterPageRoute*> _prepareCurrent;
     uStrong< ::g::Fuse::Navigation::RouterPageRoute*> _prepareNext;
     int32_t _prepareOperation;
@@ -103,9 +109,12 @@ struct Router : ::g::Fuse::Node
     double _prepareProgress;
     uStrong<uObject*> _prepareOutlet;
     uStrong< ::g::Fuse::Navigation::RouterPage*> _rootPage;
+    uStrong<uDelegate*> BackAtRootPressed1;
     uStrong<uDelegate*> HistoryChanged1;
 
     void ctor_2();
+    void add_BackAtRootPressed(uDelegate* value);
+    void remove_BackAtRootPressed(uDelegate* value);
     int32_t BackButtonAction();
     void BackButtonAction(int32_t value);
     void CancelNavigation();
@@ -123,8 +132,10 @@ struct Router : ::g::Fuse::Node
     int32_t GetOutletDepth(uObject* outlet);
     ::g::Fuse::Navigation::RouterPageRoute* GetRelativeRoute1(::g::Fuse::Node* from, ::g::Fuse::Navigation::RouterPageRoute* rel);
     ::g::Fuse::Navigation::RouterPageRoute* GetRouteUpToRouter(::g::Fuse::Node* from);
-    void GoBack();
-    void GoUp();
+    bool GoBack();
+    int32_t GoBackBehavior();
+    void GoBackBehavior(int32_t value);
+    bool GoUp();
     bool HasOtherRouter(::g::Fuse::Visual* n);
     void add_HistoryChanged(uDelegate* value);
     void remove_HistoryChanged(uDelegate* value);
@@ -133,7 +144,6 @@ struct Router : ::g::Fuse::Node
     void Modify1(int32_t how, ::g::Fuse::Navigation::RouterPageRoute* route, int32_t mode, uString* operationStyle);
     void OnHistoryChanged();
     void OnKeyPressed(uObject* sender, ::g::Fuse::Input::KeyEventArgs* args);
-    void OnUpFromRoot();
     void Pop();
     double PrepareProgress();
     void PrepareProgress(double value);

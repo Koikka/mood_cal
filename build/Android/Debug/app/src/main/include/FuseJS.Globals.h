@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/FuseJS/1.8.1/Globals.uno.
+// This file was generated based on /usr/local/share/uno/Packages/FuseJS/1.9.0/Globals.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once

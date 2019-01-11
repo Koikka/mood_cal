@@ -66,7 +66,7 @@ namespace g{
 namespace Fuse{
 namespace FileSystem{
 
-// /usr/local/share/uno/Packages/Fuse.FileSystem/1.8.1/AndroidPaths.uno
+// /usr/local/share/uno/Packages/Fuse.FileSystem/1.9.0/AndroidPaths.uno
 // --------------------------------------------------------------------
 
 // internal sealed extern class AndroidPaths :9
@@ -129,7 +129,7 @@ uString* AndroidPaths::GetCacheDirectory()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetCacheDirectory405", "()Ljava/lang/String;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetCacheDirectory408", "()Ljava/lang/String;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         uString* __result = JniHelper::JavaToUnoString((jstring)__jresult);
         if (__jresult!=NULL && U_JNIVAR->GetObjectRefType(__jresult) == JNILocalRefType) U_JNIVAR->DeleteLocalRef(__jresult);
@@ -145,7 +145,7 @@ uString* AndroidPaths::GetExternalCacheDirectory()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetExternalCacheDirectory406", "()Ljava/lang/String;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetExternalCacheDirectory409", "()Ljava/lang/String;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         uString* __result = JniHelper::JavaToUnoString((jstring)__jresult);
         if (__jresult!=NULL && U_JNIVAR->GetObjectRefType(__jresult) == JNILocalRefType) U_JNIVAR->DeleteLocalRef(__jresult);
@@ -161,7 +161,7 @@ uString* AndroidPaths::GetExternalFilesDirectory()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetExternalFilesDirectory407", "()Ljava/lang/String;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetExternalFilesDirectory410", "()Ljava/lang/String;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         uString* __result = JniHelper::JavaToUnoString((jstring)__jresult);
         if (__jresult!=NULL && U_JNIVAR->GetObjectRefType(__jresult) == JNILocalRefType) U_JNIVAR->DeleteLocalRef(__jresult);
@@ -177,7 +177,7 @@ uString* AndroidPaths::GetFilesDirectory()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetFilesDirectory408", "()Ljava/lang/String;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetFilesDirectory411", "()Ljava/lang/String;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         uString* __result = JniHelper::JavaToUnoString((jstring)__jresult);
         if (__jresult!=NULL && U_JNIVAR->GetObjectRefType(__jresult) == JNILocalRefType) U_JNIVAR->DeleteLocalRef(__jresult);
@@ -199,7 +199,7 @@ uString* AndroidPaths::GetFilesDirectory()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.FileSystem/1.8.1/FileSystemOperations.uno
+// /usr/local/share/uno/Packages/Fuse.FileSystem/1.9.0/FileSystemOperations.uno
 // ----------------------------------------------------------------------------
 
 // private sealed class FileSystemOperations.Closure<T1, TResult> :262
@@ -249,7 +249,7 @@ void FileSystemOperations__Closure__New1_fn(uType* __type, uDelegate* del, void*
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.FileSystem/1.8.1/FileSystemOperations.uno
+// /usr/local/share/uno/Packages/Fuse.FileSystem/1.9.0/FileSystemOperations.uno
 // ----------------------------------------------------------------------------
 
 // private sealed class FileSystemOperations.Closure<T1, T2, TResult> :280
@@ -301,7 +301,7 @@ void FileSystemOperations__Closure1__New1_fn(uType* __type, uDelegate* del, void
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.FileSystem/1.8.1/FileSystemModule.uno
+// /usr/local/share/uno/Packages/Fuse.FileSystem/1.9.0/FileSystemModule.uno
 // ------------------------------------------------------------------------
 
 // public sealed class FileSystemModule :43
@@ -1066,7 +1066,7 @@ uObject* FileSystemModule::ToScriptingDate(::g::Fuse::Scripting::Context* contex
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.FileSystem/1.8.1/FileSystemOperations.uno
+// /usr/local/share/uno/Packages/Fuse.FileSystem/1.9.0/FileSystemOperations.uno
 // ----------------------------------------------------------------------------
 
 // internal sealed class FileSystemOperations :8
@@ -1611,7 +1611,7 @@ FileSystemOperations* FileSystemOperations::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.FileSystem/1.8.1/Nothing.uno
+// /usr/local/share/uno/Packages/Fuse.FileSystem/1.9.0/Nothing.uno
 // ---------------------------------------------------------------
 
 // internal sealed class Nothing :4
@@ -1634,7 +1634,7 @@ uType* Nothing_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.FileSystem/1.8.1/PathTools.uno
+// /usr/local/share/uno/Packages/Fuse.FileSystem/1.9.0/PathTools.uno
 // -----------------------------------------------------------------
 
 // internal static class PathTools :6
@@ -1674,7 +1674,7 @@ uString* PathTools::NormalizePath(uString* path)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.FileSystem/1.8.1/UnifiedPaths.Android.uno
+// /usr/local/share/uno/Packages/Fuse.FileSystem/1.9.0/UnifiedPaths.Android.uno
 // ----------------------------------------------------------------------------
 
 // internal static extern class UnifiedPaths :7
@@ -1713,7 +1713,7 @@ uString* UnifiedPaths::GetCacheDirectory()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetCacheDirectory409", "()Ljava/lang/String;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetCacheDirectory412", "()Ljava/lang/String;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         uString* __result = JniHelper::JavaToUnoString((jstring)__jresult);
         if (__jresult!=NULL && U_JNIVAR->GetObjectRefType(__jresult) == JNILocalRefType) U_JNIVAR->DeleteLocalRef(__jresult);
@@ -1729,7 +1729,7 @@ uString* UnifiedPaths::GetDataDirectory()
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetDataDirectory410", "()Ljava/lang/String;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetDataDirectory413", "()Ljava/lang/String;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         uString* __result = JniHelper::JavaToUnoString((jstring)__jresult);
         if (__jresult!=NULL && U_JNIVAR->GetObjectRefType(__jresult) == JNILocalRefType) U_JNIVAR->DeleteLocalRef(__jresult);

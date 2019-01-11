@@ -20,10 +20,10 @@ public class ImageLoader
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object LoadFile237(final String filePath)
+    public static Object LoadFile240(final String filePath)
     {
         android.graphics.Bitmap bitmap = null;
         try
@@ -38,7 +38,7 @@ public class ImageLoader
         return null;
     }
     
-    public static Object LoadUri238(final String uri)
+    public static Object LoadUri241(final String uri)
     {
         android.graphics.Bitmap bitmap = null;
         try
@@ -57,7 +57,7 @@ public class ImageLoader
         return null;
     }
     
-    public static void Release239(final Object bitmap)
+    public static void Release242(final Object bitmap)
     {
         ((android.graphics.Bitmap)bitmap).recycle();
     }
@@ -65,7 +65,7 @@ public class ImageLoader
     
     public static class ImageHandlePromise
     {
-        public static Object Download1236(final String url)
+        public static Object Download1239(final String url)
         {
             try
             {

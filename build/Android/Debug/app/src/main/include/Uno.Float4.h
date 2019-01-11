@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Float4.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Float4.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -31,11 +31,12 @@ void Float4__New5_fn(float* x, ::g::Uno::Float3* yzw, Float4* __retval);
 void Float4__New6_fn(::g::Uno::Float2* xy, float* z, float* w, Float4* __retval);
 void Float4__New7_fn(::g::Uno::Float2* xy, ::g::Uno::Float2* zw, Float4* __retval);
 void Float4__New8_fn(::g::Uno::Float3* xyz, float* w, Float4* __retval);
+void Float4__op_Addition_fn(float* a, Float4* b, Float4* __retval);
 void Float4__op_Addition1_fn(Float4* a, float* b, Float4* __retval);
 void Float4__op_Addition2_fn(Float4* a, Float4* b, Float4* __retval);
 void Float4__op_Division1_fn(Float4* a, float* b, Float4* __retval);
 void Float4__op_Equality_fn(Float4* a, Float4* b, bool* __retval);
-void Float4__op_Implicit1_fn(::g::Uno::Int4* a, Float4* __retval);
+void Float4__op_Implicit2_fn(::g::Uno::Int4* a, Float4* __retval);
 void Float4__op_Inequality_fn(Float4* a, Float4* b, bool* __retval);
 void Float4__op_Multiply_fn(float* a, Float4* b, Float4* __retval);
 void Float4__op_Multiply1_fn(Float4* a, float* b, Float4* __retval);
@@ -69,11 +70,12 @@ Float4 Float4__New5(float x, ::g::Uno::Float3 yzw);
 Float4 Float4__New6(::g::Uno::Float2 xy, float z, float w);
 Float4 Float4__New7(::g::Uno::Float2 xy, ::g::Uno::Float2 zw);
 Float4 Float4__New8(::g::Uno::Float3 xyz, float w);
+Float4 Float4__op_Addition(float a, Float4 b);
 Float4 Float4__op_Addition1(Float4 a, float b);
 Float4 Float4__op_Addition2(Float4 a, Float4 b);
 Float4 Float4__op_Division1(Float4 a, float b);
 bool Float4__op_Equality(Float4 a, Float4 b);
-Float4 Float4__op_Implicit1(::g::Uno::Int4 a);
+Float4 Float4__op_Implicit2(::g::Uno::Int4 a);
 bool Float4__op_Inequality(Float4 a, Float4 b);
 Float4 Float4__op_Multiply(float a, Float4 b);
 Float4 Float4__op_Multiply1(Float4 a, float b);

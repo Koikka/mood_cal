@@ -12,11 +12,14 @@
 #include <Android.Base.Types.String.h>
 #include <Android.Base.Wrappers.JWrapper.h>
 #include <Android.Base.Wrappers-88f7a41f.h>
+#include <Firebase.Database.Dat-778af4d4.h>
+#include <Firebase.Database.Rea-b0f7610f.h>
+#include <Firebase.Database.Read.h>
+#include <Firebase.Notification-e042be8e.h>
 #include <Fuse.Android.AppRoot.h>
 #include <Fuse.Android.StatusBarConfig.h>
 #include <Fuse.Controls.Native.-3a814c3c.h>
 #include <Fuse.Controls.Native.-43e7fbf.h>
-#include <Fuse.Controls.Native.-454aa827.h>
 #include <Fuse.Controls.Native.-51b6e8e5.h>
 #include <Fuse.Controls.Native.-c67cabe.h>
 #include <Fuse.Controls.Native.-ca2427b3.h>
@@ -31,6 +34,8 @@
 #include <Neovisionaries.WebSocketClient.h>
 #include <Uno.Action.h>
 #include <Uno.Action1-1.h>
+#include <Uno.Action2-2.h>
+#include <Uno.Action4-4.h>
 #include <Uno.Bool.h>
 #include <Uno.Byte.h>
 #include <Uno.Char.h>
@@ -52,6 +57,7 @@
 #include <Uno.SByte.h>
 #include <Uno.Short.h>
 #include <Uno.String.h>
+#include <Uno.Threading.Promise-1.h>
 #include <Uno/JNIHelper.h>
 //~
 void __JavaUnoObject_Finalizer(JNIEnv *env , jclass clazz, jlong ptr)
@@ -59,7 +65,7 @@ void __JavaUnoObject_Finalizer(JNIEnv *env , jclass clazz, jlong ptr)
     uAutoReleasePool pool;
     uRelease((::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject*)ptr);
 }
-jboolean JNICALL callUno_Android_ActivityUtils_OnReceived70(JNIEnv *env,jclass clazz,jint requestCode,jint resultCode,jobject data,jlong dataPtr)
+jboolean JNICALL callUno_Android_ActivityUtils_OnReceived73(JNIEnv *env,jclass clazz,jint requestCode,jint resultCode,jobject data,jlong dataPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -85,7 +91,7 @@ jboolean JNICALL callUno_Func(JNIEnv *env,jclass clazz,jobject theDelegate)
     JCATCH
     return __jresult;
 }
-jboolean JNICALL callUno_Fuse_Controls_Native_Android_InputDispatch_OnTouch154(JNIEnv *env,jclass clazz,jobject view,jobject motionEvent,jlong viewPtr,jlong motionEventPtr)
+jboolean JNICALL callUno_Fuse_Controls_Native_Android_InputDispatch_OnTouch157(JNIEnv *env,jclass clazz,jobject view,jobject motionEvent,jlong viewPtr,jlong motionEventPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -98,7 +104,7 @@ jboolean JNICALL callUno_Fuse_Controls_Native_Android_InputDispatch_OnTouch154(J
     JCATCH
     return __jresult;
 }
-jboolean JNICALL callUno_Fuse_Controls_Native_Android_TextInput_OnEditorAction198(JNIEnv *env,jclass clazz,jobject jthis,jint actionCode)
+jboolean JNICALL callUno_Fuse_Controls_Native_Android_TextInput_OnEditorAction201(JNIEnv *env,jclass clazz,jobject jthis,jint actionCode)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -111,7 +117,7 @@ jboolean JNICALL callUno_Fuse_Controls_Native_Android_TextInput_OnEditorAction19
     JCATCH
     return __jresult;
 }
-jboolean JNICALL callUno_Fuse_Platform_SystemUI_firstSizingGet115(JNIEnv *env,jclass clazz)
+jboolean JNICALL callUno_Fuse_Platform_SystemUI_firstSizingGet118(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -122,7 +128,7 @@ jboolean JNICALL callUno_Fuse_Platform_SystemUI_firstSizingGet115(JNIEnv *env,jc
     JCATCH
     return __jresult;
 }
-jboolean JNICALL callUno_Fuse_Platform_SystemUI_hasCachedStatusBarSizeGet98(JNIEnv *env,jclass clazz)
+jboolean JNICALL callUno_Fuse_Platform_SystemUI_hasCachedStatusBarSizeGet101(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -160,7 +166,7 @@ jboolean JNICALL callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaTo
     JCATCH
     return __jresult;
 }
-jboolean JNICALL callUno_Uno_Platform_AndroidDisplay__initializedGet54(JNIEnv *env,jclass clazz)
+jboolean JNICALL callUno_Uno_Platform_AndroidDisplay__initializedGet57(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -306,7 +312,7 @@ jfloat JNICALL callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUn
     JCATCH
     return __jresult;
 }
-jint JNICALL callUno_Fuse_Platform_SystemUI__systemUIStateGet89(JNIEnv *env,jclass clazz)
+jint JNICALL callUno_Fuse_Platform_SystemUI__systemUIStateGet92(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -317,7 +323,7 @@ jint JNICALL callUno_Fuse_Platform_SystemUI__systemUIStateGet89(JNIEnv *env,jcla
     JCATCH
     return __jresult;
 }
-jint JNICALL callUno_Fuse_Platform_SystemUI_cachedOpenSizeGet99(JNIEnv *env,jclass clazz)
+jint JNICALL callUno_Fuse_Platform_SystemUI_cachedOpenSizeGet102(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -328,7 +334,7 @@ jint JNICALL callUno_Fuse_Platform_SystemUI_cachedOpenSizeGet99(JNIEnv *env,jcla
     JCATCH
     return __jresult;
 }
-jint JNICALL callUno_Fuse_Platform_SystemUI_GetRealDisplayHeight85(JNIEnv *env,jclass clazz)
+jint JNICALL callUno_Fuse_Platform_SystemUI_GetRealDisplayHeight88(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -339,7 +345,7 @@ jint JNICALL callUno_Fuse_Platform_SystemUI_GetRealDisplayHeight85(JNIEnv *env,j
     JCATCH
     return __jresult;
 }
-jint JNICALL callUno_Fuse_Platform_SystemUI_GetRealDisplayWidth106(JNIEnv *env,jclass clazz)
+jint JNICALL callUno_Fuse_Platform_SystemUI_GetRealDisplayWidth109(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -350,7 +356,7 @@ jint JNICALL callUno_Fuse_Platform_SystemUI_GetRealDisplayWidth106(JNIEnv *env,j
     JCATCH
     return __jresult;
 }
-jint JNICALL callUno_Fuse_Platform_SystemUI_lastKeyboardHeightGet114(JNIEnv *env,jclass clazz)
+jint JNICALL callUno_Fuse_Platform_SystemUI_lastKeyboardHeightGet117(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -361,7 +367,7 @@ jint JNICALL callUno_Fuse_Platform_SystemUI_lastKeyboardHeightGet114(JNIEnv *env
     JCATCH
     return __jresult;
 }
-jint JNICALL callUno_Fuse_Platform_SystemUI_realHeightGet79(JNIEnv *env,jclass clazz)
+jint JNICALL callUno_Fuse_Platform_SystemUI_realHeightGet82(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -372,7 +378,7 @@ jint JNICALL callUno_Fuse_Platform_SystemUI_realHeightGet79(JNIEnv *env,jclass c
     JCATCH
     return __jresult;
 }
-jint JNICALL callUno_Fuse_Platform_SystemUI_realWidthGet78(JNIEnv *env,jclass clazz)
+jint JNICALL callUno_Fuse_Platform_SystemUI_realWidthGet81(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -654,7 +660,18 @@ jlong JNICALL callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUno
     JCATCH
     return __jresult;
 }
-jobject JNICALL callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet245(JNIEnv *env,jclass clazz,jobject jthis)
+jobject JNICALL callUno_Firebase_Database_DatabaseService__handleGet435(JNIEnv *env,jclass clazz)
+{
+    uAutoReleasePool pool;
+    INIT_JNI;
+    jobject __jresult;
+    JTRY
+        ::g::Java::Object* __result=::g::Firebase::Database::DatabaseService::_handle_;
+        __jresult = (__result==NULL ? NULL : U_JNIVAR->NewLocalRef(((__result==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)__result, ::g::Android::Base::Wrappers::IJWrapper_typeof())))))));
+    JCATCH
+    return __jresult;
+}
+jobject JNICALL callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -666,7 +683,7 @@ jobject JNICALL callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet245(JNIEn
     JCATCH
     return __jresult;
 }
-jobject JNICALL callUno_Fuse_Platform_SystemUI__keyboardListenerGet76(JNIEnv *env,jclass clazz)
+jobject JNICALL callUno_Fuse_Platform_SystemUI__keyboardListenerGet79(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -677,7 +694,7 @@ jobject JNICALL callUno_Fuse_Platform_SystemUI__keyboardListenerGet76(JNIEnv *en
     JCATCH
     return __jresult;
 }
-jobject JNICALL callUno_Fuse_Platform_SystemUI_layoutAttachedToGet75(JNIEnv *env,jclass clazz)
+jobject JNICALL callUno_Fuse_Platform_SystemUI_layoutAttachedToGet78(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -688,7 +705,7 @@ jobject JNICALL callUno_Fuse_Platform_SystemUI_layoutAttachedToGet75(JNIEnv *env
     JCATCH
     return __jresult;
 }
-jobject JNICALL callUno_Fuse_Platform_SystemUI_RootLayoutGet82(JNIEnv *env,jclass clazz)
+jobject JNICALL callUno_Fuse_Platform_SystemUI_RootLayoutGet85(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -699,7 +716,7 @@ jobject JNICALL callUno_Fuse_Platform_SystemUI_RootLayoutGet82(JNIEnv *env,jclas
     JCATCH
     return __jresult;
 }
-jobject JNICALL callUno_Fuse_Platform_SystemUI_SuperLayoutGet80(JNIEnv *env,jclass clazz)
+jobject JNICALL callUno_Fuse_Platform_SystemUI_SuperLayoutGet83(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -710,7 +727,7 @@ jobject JNICALL callUno_Fuse_Platform_SystemUI_SuperLayoutGet80(JNIEnv *env,jcla
     JCATCH
     return __jresult;
 }
-jobject JNICALL callUno_Neovisionaries_WebSocketClient__webSocketGet425(JNIEnv *env,jclass clazz,jobject jthis)
+jobject JNICALL callUno_Neovisionaries_WebSocketClient__webSocketGet428(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -908,7 +925,7 @@ jobject JNICALL callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToU
     JCATCH
     return __jresult;
 }
-jobject JNICALL callUno_Uno_Guid__ctor65(JNIEnv *env,jclass clazz,jobject bytes)
+jobject JNICALL callUno_Uno_Guid__ctor68(JNIEnv *env,jclass clazz,jobject bytes)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -920,7 +937,7 @@ jobject JNICALL callUno_Uno_Guid__ctor65(JNIEnv *env,jclass clazz,jobject bytes)
     JCATCH
     return __jresult;
 }
-jobject JNICALL callUno_Uno_IO_BundleFile_BundlePathGet357(JNIEnv *env,jclass clazz,jobject jthis)
+jobject JNICALL callUno_Uno_IO_BundleFile_BundlePathGet360(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -988,6 +1005,19 @@ void JNICALL callUno_Action_int(JNIEnv *env,jclass clazz,jobject theDelegate,jin
         uno_theDelegate->InvokeVoid(uCRef<int32_t>(uno_arg));
     JCATCH
 }
+void JNICALL callUno_Action_int_int_int_int(JNIEnv *env,jclass clazz,jobject theDelegate,jint arg1,jint arg2,jint arg3,jint arg4)
+{
+    uAutoReleasePool pool;
+    INIT_JNI;
+    uDelegate* uno_theDelegate = uCast<uDelegate*>(::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::UnBox(theDelegate), ::g::Uno::Action4_typeof()->MakeType(::g::Uno::Int_typeof(), ::g::Uno::Int_typeof(), ::g::Uno::Int_typeof(), ::g::Uno::Int_typeof(), NULL));
+    int32_t uno_arg1 = (int32_t)arg1;
+    int32_t uno_arg2 = (int32_t)arg2;
+    int32_t uno_arg3 = (int32_t)arg3;
+    int32_t uno_arg4 = (int32_t)arg4;
+    JTRY
+        uno_theDelegate->Invoke(4, uCRef<int32_t>(uno_arg1), uCRef<int32_t>(uno_arg2), uCRef<int32_t>(uno_arg3), uCRef<int32_t>(uno_arg4));
+    JCATCH
+}
 void JNICALL callUno_Action_Object(JNIEnv *env,jclass clazz,jobject theDelegate,jobject arg,jlong argPtr)
 {
     uAutoReleasePool pool;
@@ -1008,7 +1038,66 @@ void JNICALL callUno_Action_String(JNIEnv *env,jclass clazz,jobject theDelegate,
         uno_theDelegate->InvokeVoid(uCast<uString*>(uno_arg, ::g::Uno::String_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Android_AppRoot_OnTouchEvent__375(JNIEnv *env,jclass clazz,jobject motionEvent,jlong motionEventPtr)
+void JNICALL callUno_Action_String_String(JNIEnv *env,jclass clazz,jobject theDelegate,jobject arg1,jobject arg2)
+{
+    uAutoReleasePool pool;
+    INIT_JNI;
+    uDelegate* uno_theDelegate = uCast<uDelegate*>(::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::UnBox(theDelegate), ::g::Uno::Action2_typeof()->MakeType(::g::Uno::String_typeof(), ::g::Uno::String_typeof(), NULL));
+    uString* uno_arg1 = JniHelper::JavaToUnoString((jstring)arg1);
+    uString* uno_arg2 = JniHelper::JavaToUnoString((jstring)arg2);
+    JTRY
+        uno_theDelegate->Invoke(2, uCast<uString*>(uno_arg1, ::g::Uno::String_typeof()), uCast<uString*>(uno_arg2, ::g::Uno::String_typeof()));
+    JCATCH
+}
+void JNICALL callUno_Firebase_Database_DatabaseService__handleSet435(JNIEnv *env,jclass clazz,jobject setVal,jlong setValPtr)
+{
+    uAutoReleasePool pool;
+    INIT_JNI;
+    ::g::Java::Object* uno_setVal = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(setVal, true);
+    JTRY
+        ::g::Firebase::Database::DatabaseService::_handle_ = uCast<::g::Java::Object*>(uno_setVal, ::g::Java::Object_typeof());
+    JCATCH
+}
+void JNICALL callUno_Firebase_Database_Read_Reject1453(JNIEnv *env,jclass clazz,jobject jthis,jobject reason)
+{
+    uAutoReleasePool pool;
+    INIT_JNI;
+    ::g::Firebase::Database::Read* uno_jthis = uCast<::g::Firebase::Database::Read*>(::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::UnBox(jthis), ::g::Firebase::Database::Read_typeof());
+    uString* uno_reason = JniHelper::JavaToUnoString((jstring)reason);
+    JTRY
+        uno_jthis->Reject1(uCast<uString*>(uno_reason, ::g::Uno::String_typeof()));
+    JCATCH
+}
+void JNICALL callUno_Firebase_Database_ReadByQueryEqualToValue_Reject1455(JNIEnv *env,jclass clazz,jobject jthis,jobject reason)
+{
+    uAutoReleasePool pool;
+    INIT_JNI;
+    ::g::Firebase::Database::ReadByQueryEqualToValue* uno_jthis = uCast<::g::Firebase::Database::ReadByQueryEqualToValue*>(::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::UnBox(jthis), ::g::Firebase::Database::ReadByQueryEqualToValue_typeof());
+    uString* uno_reason = JniHelper::JavaToUnoString((jstring)reason);
+    JTRY
+        uno_jthis->Reject1(uCast<uString*>(uno_reason, ::g::Uno::String_typeof()));
+    JCATCH
+}
+void JNICALL callUno_Firebase_Notifications_AndroidImpl_getRegistrationIdSuccess458(JNIEnv *env,jclass clazz,jobject regid)
+{
+    uAutoReleasePool pool;
+    INIT_JNI;
+    uString* uno_regid = JniHelper::JavaToUnoString((jstring)regid);
+    JTRY
+        ::g::Firebase::Notifications::AndroidImpl::getRegistrationIdSuccess(uCast<uString*>(uno_regid, ::g::Uno::String_typeof()));
+    JCATCH
+}
+void JNICALL callUno_Firebase_Notifications_AndroidImpl_OnRecieve457(JNIEnv *env,jclass clazz,jobject message,jboolean fromNotificationBar)
+{
+    uAutoReleasePool pool;
+    INIT_JNI;
+    uString* uno_message = JniHelper::JavaToUnoString((jstring)message);
+    bool uno_fromNotificationBar = (bool)fromNotificationBar;
+    JTRY
+        ::g::Firebase::Notifications::AndroidImpl::OnRecieve(uCast<uString*>(uno_message, ::g::Uno::String_typeof()), uno_fromNotificationBar);
+    JCATCH
+}
+void JNICALL callUno_Fuse_Android_AppRoot_OnTouchEvent__378(JNIEnv *env,jclass clazz,jobject motionEvent,jlong motionEventPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1017,7 +1106,7 @@ void JNICALL callUno_Fuse_Android_AppRoot_OnTouchEvent__375(JNIEnv *env,jclass c
         ::g::Fuse::Android::AppRoot::OnTouchEvent__(uCast<::g::Java::Object*>(uno_motionEvent, ::g::Java::Object_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar397(JNIEnv *env,jclass clazz)
+void JNICALL callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar400(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1025,7 +1114,7 @@ void JNICALL callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar397(JNIEnv *env
         ::g::Fuse::Android::StatusBarConfig::UpdateStatusBar();
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_Native_Android_FocusChangedListener_OnFocusChange138(JNIEnv *env,jclass clazz,jobject jthis,jboolean hasFocus)
+void JNICALL callUno_Fuse_Controls_Native_Android_FocusChangedListener_OnFocusChange141(JNIEnv *env,jclass clazz,jobject jthis,jboolean hasFocus)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1035,20 +1124,7 @@ void JNICALL callUno_Fuse_Controls_Native_Android_FocusChangedListener_OnFocusCh
         uno_jthis->OnFocusChange(uno_hasFocus);
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_Native_Android_ScrollView_OnScrollChanged175(JNIEnv *env,jclass clazz,jobject jthis,jint x,jint y,jint oldx,jint oldy)
-{
-    uAutoReleasePool pool;
-    INIT_JNI;
-    ::g::Fuse::Controls::Native::Android::ScrollView* uno_jthis = uCast<::g::Fuse::Controls::Native::Android::ScrollView*>(::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::UnBox(jthis), ::g::Fuse::Controls::Native::Android::ScrollView_typeof());
-    int32_t uno_x = (int32_t)x;
-    int32_t uno_y = (int32_t)y;
-    int32_t uno_oldx = (int32_t)oldx;
-    int32_t uno_oldy = (int32_t)oldy;
-    JTRY
-        uno_jthis->OnScrollChanged(uno_x, uno_y, uno_oldx, uno_oldy);
-    JCATCH
-}
-void JNICALL callUno_Fuse_Controls_Native_Android_Slider_OnSeekBarChanged180(JNIEnv *env,jclass clazz,jobject jthis,jdouble rel,jboolean fromUser)
+void JNICALL callUno_Fuse_Controls_Native_Android_Slider_OnSeekBarChanged183(JNIEnv *env,jclass clazz,jobject jthis,jdouble rel,jboolean fromUser)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1059,7 +1135,7 @@ void JNICALL callUno_Fuse_Controls_Native_Android_Slider_OnSeekBarChanged180(JNI
         uno_jthis->OnSeekBarChanged(uno_rel, uno_fromUser);
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceChanged187(JNIEnv *env,jclass clazz,jobject jthis,jobject holder,jint f,jint w,jint h,jlong holderPtr)
+void JNICALL callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceChanged190(JNIEnv *env,jclass clazz,jobject jthis,jobject holder,jint f,jint w,jint h,jlong holderPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1072,7 +1148,7 @@ void JNICALL callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceChanged18
         uno_jthis->OnSurfaceChanged(uCast<::g::Java::Object*>(uno_holder, ::g::Java::Object_typeof()), uno_f, uno_w, uno_h);
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceCreated188(JNIEnv *env,jclass clazz,jobject jthis,jobject holder,jlong holderPtr)
+void JNICALL callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceCreated191(JNIEnv *env,jclass clazz,jobject jthis,jobject holder,jlong holderPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1082,7 +1158,7 @@ void JNICALL callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceCreated18
         uno_jthis->OnSurfaceCreated(uCast<::g::Java::Object*>(uno_holder, ::g::Java::Object_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceDestroyed189(JNIEnv *env,jclass clazz,jobject jthis,jobject holder,jlong holderPtr)
+void JNICALL callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceDestroyed192(JNIEnv *env,jclass clazz,jobject jthis,jobject holder,jlong holderPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1092,7 +1168,7 @@ void JNICALL callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceDestroyed
         uno_jthis->OnSurfaceDestroyed(uCast<::g::Java::Object*>(uno_holder, ::g::Java::Object_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceRedrawNeeded186(JNIEnv *env,jclass clazz,jobject jthis,jobject holder,jlong holderPtr)
+void JNICALL callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceRedrawNeeded189(JNIEnv *env,jclass clazz,jobject jthis,jobject holder,jlong holderPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1102,7 +1178,7 @@ void JNICALL callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceRedrawNee
         uno_jthis->OnSurfaceRedrawNeeded(uCast<::g::Java::Object*>(uno_holder, ::g::Java::Object_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_Native_Android_Switch_OnToggleChanged193(JNIEnv *env,jclass clazz,jobject jthis,jboolean value)
+void JNICALL callUno_Fuse_Controls_Native_Android_Switch_OnToggleChanged196(JNIEnv *env,jclass clazz,jobject jthis,jboolean value)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1112,7 +1188,7 @@ void JNICALL callUno_Fuse_Controls_Native_Android_Switch_OnToggleChanged193(JNIE
         uno_jthis->OnToggleChanged(uno_value);
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_Native_Android_TextInput_OnTextChanged200(JNIEnv *env,jclass clazz,jobject jthis,jobject value)
+void JNICALL callUno_Fuse_Controls_Native_Android_TextInput_OnTextChanged203(JNIEnv *env,jclass clazz,jobject jthis,jobject value)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1122,7 +1198,7 @@ void JNICALL callUno_Fuse_Controls_Native_Android_TextInput_OnTextChanged200(JNI
         uno_jthis->OnTextChanged(uCast<uString*>(uno_value, ::g::Uno::String_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable214(JNIEnv *env,jclass clazz,jobject jthis,jobject surface,jlong surfacePtr)
+void JNICALL callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable217(JNIEnv *env,jclass clazz,jobject jthis,jobject surface,jlong surfacePtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1132,7 +1208,7 @@ void JNICALL callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAv
         uno_jthis->OnSurfaceTextureAvailable(uCast<::g::Java::Object*>(uno_surface, ::g::Java::Object_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed215(JNIEnv *env,jclass clazz,jobject jthis)
+void JNICALL callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed218(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1141,7 +1217,7 @@ void JNICALL callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDe
         uno_jthis->OnSurfaceTextureDestroyed();
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer270(JNIEnv *env,jclass clazz,jobject jthis,jint percent)
+void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer273(JNIEnv *env,jclass clazz,jobject jthis,jint percent)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1151,7 +1227,7 @@ void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer270(JNI
         uno_jthis->OnBuffer(uno_percent);
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion268(JNIEnv *env,jclass clazz,jobject jthis)
+void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion271(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1160,7 +1236,7 @@ void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion268
         uno_jthis->OnCompletion();
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError269(JNIEnv *env,jclass clazz,jobject jthis,jint what,jint extra)
+void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError272(JNIEnv *env,jclass clazz,jobject jthis,jint what,jint extra)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1171,7 +1247,7 @@ void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError269(JNIE
         uno_jthis->OnError(uno_what, uno_extra);
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred282(JNIEnv *env,jclass clazz,jobject jthis,jobject msg)
+void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred285(JNIEnv *env,jclass clazz,jobject jthis,jobject msg)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1181,7 +1257,7 @@ void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred
         uno_jthis->OnErrorOccurred(uCast<uString*>(uno_msg, ::g::Uno::String_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable273(JNIEnv *env,jclass clazz,jobject jthis)
+void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable276(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1190,7 +1266,7 @@ void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailabl
         uno_jthis->OnFrameAvailable();
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared267(JNIEnv *env,jclass clazz,jobject jthis)
+void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared270(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1199,7 +1275,7 @@ void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared267(J
         uno_jthis->OnPrepared();
     JCATCH
 }
-void JNICALL callUno_Fuse_Internal_AndroidSystemFont_AddAlias121(JNIEnv *env,jclass clazz,jobject name,jobject to,jint weight)
+void JNICALL callUno_Fuse_Internal_AndroidSystemFont_AddAlias124(JNIEnv *env,jclass clazz,jobject name,jobject to,jint weight)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1210,7 +1286,7 @@ void JNICALL callUno_Fuse_Internal_AndroidSystemFont_AddAlias121(JNIEnv *env,jcl
         ::g::Fuse::Internal::AndroidSystemFont::AddAlias(uCast<uString*>(uno_name, ::g::Uno::String_typeof()), uCast<uString*>(uno_to, ::g::Uno::String_typeof()), uno_weight);
     JCATCH
 }
-void JNICALL callUno_Fuse_Internal_AndroidSystemFont_AddFamily119(JNIEnv *env,jclass clazz,jobject name,jobject language,jobject variant)
+void JNICALL callUno_Fuse_Internal_AndroidSystemFont_AddFamily122(JNIEnv *env,jclass clazz,jobject name,jobject language,jobject variant)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1221,7 +1297,7 @@ void JNICALL callUno_Fuse_Internal_AndroidSystemFont_AddFamily119(JNIEnv *env,jc
         ::g::Fuse::Internal::AndroidSystemFont::AddFamily(uCast<uString*>(uno_name, ::g::Uno::String_typeof()), uCast<uString*>(uno_language, ::g::Uno::String_typeof()), uCast<uString*>(uno_variant, ::g::Uno::String_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Internal_AndroidSystemFont_AddFont120(JNIEnv *env,jclass clazz,jobject path,jint index,jint weight,jboolean isItalic)
+void JNICALL callUno_Fuse_Internal_AndroidSystemFont_AddFont123(JNIEnv *env,jclass clazz,jobject path,jint index,jint weight,jboolean isItalic)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1233,7 +1309,7 @@ void JNICALL callUno_Fuse_Internal_AndroidSystemFont_AddFont120(JNIEnv *env,jcla
         ::g::Fuse::Internal::AndroidSystemFont::AddFont(uCast<uString*>(uno_path, ::g::Uno::String_typeof()), uno_index, uno_weight, uno_isItalic);
     JCATCH
 }
-void JNICALL callUno_Fuse_Internal_AndroidSystemFont_ThrowUno122(JNIEnv *env,jclass clazz,jobject message)
+void JNICALL callUno_Fuse_Internal_AndroidSystemFont_ThrowUno125(JNIEnv *env,jclass clazz,jobject message)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1242,7 +1318,7 @@ void JNICALL callUno_Fuse_Internal_AndroidSystemFont_ThrowUno122(JNIEnv *env,jcl
         ::g::Fuse::Internal::AndroidSystemFont::ThrowUno(uCast<uString*>(uno_message, ::g::Uno::String_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI__keyboardListenerSet76(JNIEnv *env,jclass clazz,jobject setVal,jlong setValPtr)
+void JNICALL callUno_Fuse_Platform_SystemUI__keyboardListenerSet79(JNIEnv *env,jclass clazz,jobject setVal,jlong setValPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1251,7 +1327,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI__keyboardListenerSet76(JNIEnv *env,j
         ::g::Fuse::Platform::SystemUI::_keyboardListener() = uCast<::g::Java::Object*>(uno_setVal, ::g::Java::Object_typeof());
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI__systemUIStateSet89(JNIEnv *env,jclass clazz,jint setVal)
+void JNICALL callUno_Fuse_Platform_SystemUI__systemUIStateSet92(JNIEnv *env,jclass clazz,jint setVal)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1260,7 +1336,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI__systemUIStateSet89(JNIEnv *env,jcla
         ::g::Fuse::Platform::SystemUI::_systemUIState() = uno_setVal;
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_cachedOpenSizeSet99(JNIEnv *env,jclass clazz,jint setVal)
+void JNICALL callUno_Fuse_Platform_SystemUI_cachedOpenSizeSet102(JNIEnv *env,jclass clazz,jint setVal)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1269,7 +1345,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_cachedOpenSizeSet99(JNIEnv *env,jcla
         ::g::Fuse::Platform::SystemUI::cachedOpenSize() = uno_setVal;
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_CompensateRootLayoutForSystemUI86(JNIEnv *env,jclass clazz)
+void JNICALL callUno_Fuse_Platform_SystemUI_CompensateRootLayoutForSystemUI89(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1277,7 +1353,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_CompensateRootLayoutForSystemUI86(JN
         ::g::Fuse::Platform::SystemUI::CompensateRootLayoutForSystemUI();
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_cppOnConfigChanged107(JNIEnv *env,jclass clazz)
+void JNICALL callUno_Fuse_Platform_SystemUI_cppOnConfigChanged110(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1285,7 +1361,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_cppOnConfigChanged107(JNIEnv *env,jc
         ::g::Fuse::Platform::SystemUI::cppOnConfigChanged();
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_cppOnTopFrameChanged92(JNIEnv *env,jclass clazz,jint height)
+void JNICALL callUno_Fuse_Platform_SystemUI_cppOnTopFrameChanged95(JNIEnv *env,jclass clazz,jint height)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1294,7 +1370,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_cppOnTopFrameChanged92(JNIEnv *env,j
         ::g::Fuse::Platform::SystemUI::cppOnTopFrameChanged(uno_height);
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_firstSizingSet115(JNIEnv *env,jclass clazz,jboolean setVal)
+void JNICALL callUno_Fuse_Platform_SystemUI_firstSizingSet118(JNIEnv *env,jclass clazz,jboolean setVal)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1303,7 +1379,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_firstSizingSet115(JNIEnv *env,jclass
         ::g::Fuse::Platform::SystemUI::firstSizing() = uno_setVal;
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_hasCachedStatusBarSizeSet98(JNIEnv *env,jclass clazz,jboolean setVal)
+void JNICALL callUno_Fuse_Platform_SystemUI_hasCachedStatusBarSizeSet101(JNIEnv *env,jclass clazz,jboolean setVal)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1312,7 +1388,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_hasCachedStatusBarSizeSet98(JNIEnv *
         ::g::Fuse::Platform::SystemUI::hasCachedStatusBarSize() = uno_setVal;
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_layoutAttachedToSet75(JNIEnv *env,jclass clazz,jobject setVal,jlong setValPtr)
+void JNICALL callUno_Fuse_Platform_SystemUI_layoutAttachedToSet78(JNIEnv *env,jclass clazz,jobject setVal,jlong setValPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1321,7 +1397,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_layoutAttachedToSet75(JNIEnv *env,jc
         ::g::Fuse::Platform::SystemUI::layoutAttachedTo() = uCast<::g::Java::Object*>(uno_setVal, ::g::Java::Object_typeof());
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_OnConfigChanged105(JNIEnv *env,jclass clazz)
+void JNICALL callUno_Fuse_Platform_SystemUI_OnConfigChanged108(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1329,7 +1405,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_OnConfigChanged105(JNIEnv *env,jclas
         ::g::Fuse::Platform::SystemUI::OnConfigChanged();
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_OnDestroy104(JNIEnv *env,jclass clazz)
+void JNICALL callUno_Fuse_Platform_SystemUI_OnDestroy107(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1337,7 +1413,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_OnDestroy104(JNIEnv *env,jclass claz
         ::g::Fuse::Platform::SystemUI::OnDestroy();
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_onHideKeyboard116(JNIEnv *env,jclass clazz,jint keyboardHeight,jboolean force)
+void JNICALL callUno_Fuse_Platform_SystemUI_onHideKeyboard119(JNIEnv *env,jclass clazz,jint keyboardHeight,jboolean force)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1347,7 +1423,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_onHideKeyboard116(JNIEnv *env,jclass
         ::g::Fuse::Platform::SystemUI::onHideKeyboard(uno_keyboardHeight, uno_force);
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_onShowKeyboard117(JNIEnv *env,jclass clazz,jint keyboardHeight,jboolean force)
+void JNICALL callUno_Fuse_Platform_SystemUI_onShowKeyboard120(JNIEnv *env,jclass clazz,jint keyboardHeight,jboolean force)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1357,7 +1433,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_onShowKeyboard117(JNIEnv *env,jclass
         ::g::Fuse::Platform::SystemUI::onShowKeyboard(uno_keyboardHeight, uno_force);
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_realHeightSet79(JNIEnv *env,jclass clazz,jint setVal)
+void JNICALL callUno_Fuse_Platform_SystemUI_realHeightSet82(JNIEnv *env,jclass clazz,jint setVal)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1366,7 +1442,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_realHeightSet79(JNIEnv *env,jclass c
         ::g::Fuse::Platform::SystemUI::realHeight() = uno_setVal;
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_realWidthSet78(JNIEnv *env,jclass clazz,jint setVal)
+void JNICALL callUno_Fuse_Platform_SystemUI_realWidthSet81(JNIEnv *env,jclass clazz,jint setVal)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1375,7 +1451,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_realWidthSet78(JNIEnv *env,jclass cl
         ::g::Fuse::Platform::SystemUI::realWidth() = uno_setVal;
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_ResendFrameSizes108(JNIEnv *env,jclass clazz)
+void JNICALL callUno_Fuse_Platform_SystemUI_ResendFrameSizes111(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1383,7 +1459,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_ResendFrameSizes108(JNIEnv *env,jcla
         ::g::Fuse::Platform::SystemUI::ResendFrameSizes();
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_RootLayoutSet82(JNIEnv *env,jclass clazz,jobject setVal,jlong setValPtr)
+void JNICALL callUno_Fuse_Platform_SystemUI_RootLayoutSet85(JNIEnv *env,jclass clazz,jobject setVal,jlong setValPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1392,7 +1468,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_RootLayoutSet82(JNIEnv *env,jclass c
         ::g::Fuse::Platform::SystemUI::RootLayout() = uCast<::g::Java::Object*>(uno_setVal, ::g::Java::Object_typeof());
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_SuperLayoutSet80(JNIEnv *env,jclass clazz,jobject setVal,jlong setValPtr)
+void JNICALL callUno_Fuse_Platform_SystemUI_SuperLayoutSet83(JNIEnv *env,jclass clazz,jobject setVal,jlong setValPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1401,7 +1477,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_SuperLayoutSet80(JNIEnv *env,jclass 
         ::g::Fuse::Platform::SystemUI::SuperLayout() = uCast<::g::Java::Object*>(uno_setVal, ::g::Java::Object_typeof());
     JCATCH
 }
-void JNICALL callUno_Fuse_Platform_SystemUI_UpdateStatusBar111(JNIEnv *env,jclass clazz)
+void JNICALL callUno_Fuse_Platform_SystemUI_UpdateStatusBar114(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1409,7 +1485,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_UpdateStatusBar111(JNIEnv *env,jclas
         ::g::Fuse::Platform::SystemUI::UpdateStatusBar();
     JCATCH
 }
-void JNICALL callUno_Neovisionaries_WebSocketClient__webSocketSet425(JNIEnv *env,jclass clazz,jobject jthis,jobject setVal,jlong setValPtr)
+void JNICALL callUno_Neovisionaries_WebSocketClient__webSocketSet428(JNIEnv *env,jclass clazz,jobject jthis,jobject setVal,jlong setValPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1419,7 +1495,7 @@ void JNICALL callUno_Neovisionaries_WebSocketClient__webSocketSet425(JNIEnv *env
         uno_jthis->_webSocket = uCast<::g::Java::Object*>(uno_setVal, ::g::Java::Object_typeof());
     JCATCH
 }
-void JNICALL callUno_Uno_Collections_List_lt_string_gt__Add58(JNIEnv *env,jclass clazz,jobject jthis,jobject item)
+void JNICALL callUno_Uno_Collections_List_lt_string_gt__Add61(JNIEnv *env,jclass clazz,jobject jthis,jobject item)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1429,7 +1505,7 @@ void JNICALL callUno_Uno_Collections_List_lt_string_gt__Add58(JNIEnv *env,jclass
         ::g::Uno::Collections::List__Add_fn(uno_jthis, uCast<uString*>(uno_item, ::g::Uno::String_typeof()));
     JCATCH
 }
-void JNICALL callUno_Uno_Permissions_Permissions_Failed59(JNIEnv *env,jclass clazz,jobject promise)
+void JNICALL callUno_Uno_Permissions_Permissions_Failed62(JNIEnv *env,jclass clazz,jobject promise)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1438,7 +1514,7 @@ void JNICALL callUno_Uno_Permissions_Permissions_Failed59(JNIEnv *env,jclass cla
         ::g::Uno::Permissions::Permissions::Failed(uno_promise);
     JCATCH
 }
-void JNICALL callUno_Uno_Permissions_Permissions_Succeeded60(JNIEnv *env,jclass clazz,jobject promise)
+void JNICALL callUno_Uno_Permissions_Permissions_Succeeded63(JNIEnv *env,jclass clazz,jobject promise)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1447,7 +1523,7 @@ void JNICALL callUno_Uno_Permissions_Permissions_Succeeded60(JNIEnv *env,jclass 
         ::g::Uno::Permissions::Permissions::Succeeded(uno_promise);
     JCATCH
 }
-void JNICALL callUno_Uno_Platform_AndroidDisplay__initializedSet54(JNIEnv *env,jclass clazz,jboolean setVal)
+void JNICALL callUno_Uno_Platform_AndroidDisplay__initializedSet57(JNIEnv *env,jclass clazz,jboolean setVal)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1456,7 +1532,7 @@ void JNICALL callUno_Uno_Platform_AndroidDisplay__initializedSet54(JNIEnv *env,j
         ::g::Uno::Platform::AndroidDisplay::_initialized_ = uno_setVal;
     JCATCH
 }
-void JNICALL callUno_Uno_Platform_AndroidDisplay_OnFrameCallback55(JNIEnv *env,jclass clazz,jobject jthis,jdouble currentTime,jdouble deltaTime)
+void JNICALL callUno_Uno_Platform_AndroidDisplay_OnFrameCallback58(JNIEnv *env,jclass clazz,jobject jthis,jdouble currentTime,jdouble deltaTime)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1465,6 +1541,16 @@ void JNICALL callUno_Uno_Platform_AndroidDisplay_OnFrameCallback55(JNIEnv *env,j
     double uno_deltaTime = (double)deltaTime;
     JTRY
         uno_jthis->OnFrameCallback(uno_currentTime, uno_deltaTime);
+    JCATCH
+}
+void JNICALL callUno_Uno_Threading_Promise_lt_string_gt__Resolve452(JNIEnv *env,jclass clazz,jobject jthis,jobject result)
+{
+    uAutoReleasePool pool;
+    INIT_JNI;
+    ::g::Uno::Threading::Promise* uno_jthis = uCast<::g::Uno::Threading::Promise*>(::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::UnBox(jthis), ::g::Uno::Threading::Promise_typeof()->MakeType(::g::Uno::String_typeof(), NULL));
+    uString* uno_result = JniHelper::JavaToUnoString((jstring)result);
+    JTRY
+        ::g::Uno::Threading::Promise__Resolve_fn(uno_jthis, uCast<uString*>(uno_result, ::g::Uno::String_typeof()));
     JCATCH
 }
 static uString* STRINGS[27];
@@ -1477,7 +1563,7 @@ namespace ExportTargetInterop{
 namespace Foreign{
 namespace Android{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/ExternBlockHost.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/ExternBlockHost.uno
 // -----------------------------------------------------------------------------------------------------------------------
 
 // internal static extern class ExternBlockHost :10
@@ -1508,7 +1594,7 @@ void ExternBlockHost__RegisterFunctions_fn()
 void ExternBlockHost::RegisterFunctions()
 {
     JniHelper jni;
-    static JNINativeMethod native_activity_funcs[] = {
+                    static JNINativeMethod native_activity_funcs[] = {
     {(char* const)"callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_BoolArrayToUnoArrayPtr0", (char* const)"(Ljava/lang/Object;J)J", (void *)&callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_BoolArrayToUnoArrayPtr0},
     {(char* const)"callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_ByteArrayToUnoArrayPtr1", (char* const)"(Ljava/lang/Object;J)J", (void *)&callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_ByteArrayToUnoArrayPtr1},
     {(char* const)"callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_CharArrayToUnoArrayPtr2", (char* const)"(Ljava/lang/Object;J)J", (void *)&callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_CharArrayToUnoArrayPtr2},
@@ -1560,83 +1646,91 @@ void ExternBlockHost::RegisterFunctions()
     {(char* const)"callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_SetString48", (char* const)"(Lcom/uno/UnoObject;ILjava/lang/String;)Ljava/lang/String;", (void *)&callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_SetString48},
     {(char* const)"callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_SetUByte49", (char* const)"(Lcom/uno/UnoObject;IB)B", (void *)&callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_SetUByte49},
     {(char* const)"callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_ShortArrayToUnoArrayPtr50", (char* const)"(Ljava/lang/Object;J)J", (void *)&callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_ShortArrayToUnoArrayPtr50},
-    {(char* const)"callUno_Uno_Platform_AndroidDisplay__initializedGet54", (char* const)"()Z", (void *)&callUno_Uno_Platform_AndroidDisplay__initializedGet54},
-    {(char* const)"callUno_Uno_Platform_AndroidDisplay__initializedSet54", (char* const)"(Z)V", (void *)&callUno_Uno_Platform_AndroidDisplay__initializedSet54},
-    {(char* const)"callUno_Uno_Platform_AndroidDisplay_OnFrameCallback55", (char* const)"(Lcom/uno/UnoObject;DD)V", (void *)&callUno_Uno_Platform_AndroidDisplay_OnFrameCallback55},
-    {(char* const)"callUno_Uno_Collections_List_lt_string_gt__Add58", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Uno_Collections_List_lt_string_gt__Add58},
-    {(char* const)"callUno_Uno_Permissions_Permissions_Failed59", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Uno_Permissions_Permissions_Failed59},
-    {(char* const)"callUno_Uno_Permissions_Permissions_Succeeded60", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Uno_Permissions_Permissions_Succeeded60},
-    {(char* const)"callUno_Uno_Guid__ctor65", (char* const)"(Lcom/uno/ByteArray;)Lcom/uno/UnoObject;", (void *)&callUno_Uno_Guid__ctor65},
-    {(char* const)"callUno_Android_ActivityUtils_OnReceived70", (char* const)"(IILjava/lang/Object;J)Z", (void *)&callUno_Android_ActivityUtils_OnReceived70},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_layoutAttachedToGet75", (char* const)"()Ljava/lang/Object;", (void *)&callUno_Fuse_Platform_SystemUI_layoutAttachedToGet75},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_layoutAttachedToSet75", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Platform_SystemUI_layoutAttachedToSet75},
-    {(char* const)"callUno_Fuse_Platform_SystemUI__keyboardListenerGet76", (char* const)"()Ljava/lang/Object;", (void *)&callUno_Fuse_Platform_SystemUI__keyboardListenerGet76},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_realWidthSet78", (char* const)"(I)V", (void *)&callUno_Fuse_Platform_SystemUI_realWidthSet78},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_realHeightSet79", (char* const)"(I)V", (void *)&callUno_Fuse_Platform_SystemUI_realHeightSet79},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_SuperLayoutGet80", (char* const)"()Ljava/lang/Object;", (void *)&callUno_Fuse_Platform_SystemUI_SuperLayoutGet80},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_realHeightGet79", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI_realHeightGet79},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_realWidthGet78", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI_realWidthGet78},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_SuperLayoutSet80", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Platform_SystemUI_SuperLayoutSet80},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_RootLayoutSet82", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Platform_SystemUI_RootLayoutSet82},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_RootLayoutGet82", (char* const)"()Ljava/lang/Object;", (void *)&callUno_Fuse_Platform_SystemUI_RootLayoutGet82},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_GetRealDisplayHeight85", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI_GetRealDisplayHeight85},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_CompensateRootLayoutForSystemUI86", (char* const)"()V", (void *)&callUno_Fuse_Platform_SystemUI_CompensateRootLayoutForSystemUI86},
-    {(char* const)"callUno_Fuse_Platform_SystemUI__systemUIStateSet89", (char* const)"(I)V", (void *)&callUno_Fuse_Platform_SystemUI__systemUIStateSet89},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_cppOnTopFrameChanged92", (char* const)"(I)V", (void *)&callUno_Fuse_Platform_SystemUI_cppOnTopFrameChanged92},
-    {(char* const)"callUno_Fuse_Platform_SystemUI__systemUIStateGet89", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI__systemUIStateGet89},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_hasCachedStatusBarSizeGet98", (char* const)"()Z", (void *)&callUno_Fuse_Platform_SystemUI_hasCachedStatusBarSizeGet98},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_cachedOpenSizeGet99", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI_cachedOpenSizeGet99},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_hasCachedStatusBarSizeSet98", (char* const)"(Z)V", (void *)&callUno_Fuse_Platform_SystemUI_hasCachedStatusBarSizeSet98},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_cachedOpenSizeSet99", (char* const)"(I)V", (void *)&callUno_Fuse_Platform_SystemUI_cachedOpenSizeSet99},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_OnDestroy104", (char* const)"()V", (void *)&callUno_Fuse_Platform_SystemUI_OnDestroy104},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_OnConfigChanged105", (char* const)"()V", (void *)&callUno_Fuse_Platform_SystemUI_OnConfigChanged105},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_GetRealDisplayWidth106", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI_GetRealDisplayWidth106},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_cppOnConfigChanged107", (char* const)"()V", (void *)&callUno_Fuse_Platform_SystemUI_cppOnConfigChanged107},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_ResendFrameSizes108", (char* const)"()V", (void *)&callUno_Fuse_Platform_SystemUI_ResendFrameSizes108},
-    {(char* const)"callUno_Fuse_Platform_SystemUI__keyboardListenerSet76", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Platform_SystemUI__keyboardListenerSet76},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_UpdateStatusBar111", (char* const)"()V", (void *)&callUno_Fuse_Platform_SystemUI_UpdateStatusBar111},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_lastKeyboardHeightGet114", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI_lastKeyboardHeightGet114},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_firstSizingGet115", (char* const)"()Z", (void *)&callUno_Fuse_Platform_SystemUI_firstSizingGet115},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_onHideKeyboard116", (char* const)"(IZ)V", (void *)&callUno_Fuse_Platform_SystemUI_onHideKeyboard116},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_onShowKeyboard117", (char* const)"(IZ)V", (void *)&callUno_Fuse_Platform_SystemUI_onShowKeyboard117},
-    {(char* const)"callUno_Fuse_Platform_SystemUI_firstSizingSet115", (char* const)"(Z)V", (void *)&callUno_Fuse_Platform_SystemUI_firstSizingSet115},
-    {(char* const)"callUno_Fuse_Internal_AndroidSystemFont_AddFamily119", (char* const)"(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V", (void *)&callUno_Fuse_Internal_AndroidSystemFont_AddFamily119},
-    {(char* const)"callUno_Fuse_Internal_AndroidSystemFont_AddFont120", (char* const)"(Ljava/lang/String;IIZ)V", (void *)&callUno_Fuse_Internal_AndroidSystemFont_AddFont120},
-    {(char* const)"callUno_Fuse_Internal_AndroidSystemFont_AddAlias121", (char* const)"(Ljava/lang/String;Ljava/lang/String;I)V", (void *)&callUno_Fuse_Internal_AndroidSystemFont_AddAlias121},
-    {(char* const)"callUno_Fuse_Internal_AndroidSystemFont_ThrowUno122", (char* const)"(Ljava/lang/String;)V", (void *)&callUno_Fuse_Internal_AndroidSystemFont_ThrowUno122},
+    {(char* const)"callUno_Uno_Platform_AndroidDisplay__initializedGet57", (char* const)"()Z", (void *)&callUno_Uno_Platform_AndroidDisplay__initializedGet57},
+    {(char* const)"callUno_Uno_Platform_AndroidDisplay__initializedSet57", (char* const)"(Z)V", (void *)&callUno_Uno_Platform_AndroidDisplay__initializedSet57},
+    {(char* const)"callUno_Uno_Platform_AndroidDisplay_OnFrameCallback58", (char* const)"(Lcom/uno/UnoObject;DD)V", (void *)&callUno_Uno_Platform_AndroidDisplay_OnFrameCallback58},
+    {(char* const)"callUno_Uno_Collections_List_lt_string_gt__Add61", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Uno_Collections_List_lt_string_gt__Add61},
+    {(char* const)"callUno_Uno_Permissions_Permissions_Failed62", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Uno_Permissions_Permissions_Failed62},
+    {(char* const)"callUno_Uno_Permissions_Permissions_Succeeded63", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Uno_Permissions_Permissions_Succeeded63},
+    {(char* const)"callUno_Uno_Guid__ctor68", (char* const)"(Lcom/uno/ByteArray;)Lcom/uno/UnoObject;", (void *)&callUno_Uno_Guid__ctor68},
+    {(char* const)"callUno_Android_ActivityUtils_OnReceived73", (char* const)"(IILjava/lang/Object;J)Z", (void *)&callUno_Android_ActivityUtils_OnReceived73},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_layoutAttachedToGet78", (char* const)"()Ljava/lang/Object;", (void *)&callUno_Fuse_Platform_SystemUI_layoutAttachedToGet78},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_layoutAttachedToSet78", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Platform_SystemUI_layoutAttachedToSet78},
+    {(char* const)"callUno_Fuse_Platform_SystemUI__keyboardListenerGet79", (char* const)"()Ljava/lang/Object;", (void *)&callUno_Fuse_Platform_SystemUI__keyboardListenerGet79},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_realWidthSet81", (char* const)"(I)V", (void *)&callUno_Fuse_Platform_SystemUI_realWidthSet81},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_realHeightSet82", (char* const)"(I)V", (void *)&callUno_Fuse_Platform_SystemUI_realHeightSet82},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_SuperLayoutGet83", (char* const)"()Ljava/lang/Object;", (void *)&callUno_Fuse_Platform_SystemUI_SuperLayoutGet83},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_realHeightGet82", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI_realHeightGet82},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_realWidthGet81", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI_realWidthGet81},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_SuperLayoutSet83", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Platform_SystemUI_SuperLayoutSet83},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_RootLayoutSet85", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Platform_SystemUI_RootLayoutSet85},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_RootLayoutGet85", (char* const)"()Ljava/lang/Object;", (void *)&callUno_Fuse_Platform_SystemUI_RootLayoutGet85},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_GetRealDisplayHeight88", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI_GetRealDisplayHeight88},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_CompensateRootLayoutForSystemUI89", (char* const)"()V", (void *)&callUno_Fuse_Platform_SystemUI_CompensateRootLayoutForSystemUI89},
+    {(char* const)"callUno_Fuse_Platform_SystemUI__systemUIStateSet92", (char* const)"(I)V", (void *)&callUno_Fuse_Platform_SystemUI__systemUIStateSet92},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_cppOnTopFrameChanged95", (char* const)"(I)V", (void *)&callUno_Fuse_Platform_SystemUI_cppOnTopFrameChanged95},
+    {(char* const)"callUno_Fuse_Platform_SystemUI__systemUIStateGet92", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI__systemUIStateGet92},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_hasCachedStatusBarSizeGet101", (char* const)"()Z", (void *)&callUno_Fuse_Platform_SystemUI_hasCachedStatusBarSizeGet101},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_cachedOpenSizeGet102", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI_cachedOpenSizeGet102},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_hasCachedStatusBarSizeSet101", (char* const)"(Z)V", (void *)&callUno_Fuse_Platform_SystemUI_hasCachedStatusBarSizeSet101},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_cachedOpenSizeSet102", (char* const)"(I)V", (void *)&callUno_Fuse_Platform_SystemUI_cachedOpenSizeSet102},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_OnDestroy107", (char* const)"()V", (void *)&callUno_Fuse_Platform_SystemUI_OnDestroy107},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_OnConfigChanged108", (char* const)"()V", (void *)&callUno_Fuse_Platform_SystemUI_OnConfigChanged108},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_GetRealDisplayWidth109", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI_GetRealDisplayWidth109},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_cppOnConfigChanged110", (char* const)"()V", (void *)&callUno_Fuse_Platform_SystemUI_cppOnConfigChanged110},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_ResendFrameSizes111", (char* const)"()V", (void *)&callUno_Fuse_Platform_SystemUI_ResendFrameSizes111},
+    {(char* const)"callUno_Fuse_Platform_SystemUI__keyboardListenerSet79", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Platform_SystemUI__keyboardListenerSet79},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_UpdateStatusBar114", (char* const)"()V", (void *)&callUno_Fuse_Platform_SystemUI_UpdateStatusBar114},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_lastKeyboardHeightGet117", (char* const)"()I", (void *)&callUno_Fuse_Platform_SystemUI_lastKeyboardHeightGet117},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_firstSizingGet118", (char* const)"()Z", (void *)&callUno_Fuse_Platform_SystemUI_firstSizingGet118},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_onHideKeyboard119", (char* const)"(IZ)V", (void *)&callUno_Fuse_Platform_SystemUI_onHideKeyboard119},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_onShowKeyboard120", (char* const)"(IZ)V", (void *)&callUno_Fuse_Platform_SystemUI_onShowKeyboard120},
+    {(char* const)"callUno_Fuse_Platform_SystemUI_firstSizingSet118", (char* const)"(Z)V", (void *)&callUno_Fuse_Platform_SystemUI_firstSizingSet118},
+    {(char* const)"callUno_Fuse_Internal_AndroidSystemFont_AddFamily122", (char* const)"(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V", (void *)&callUno_Fuse_Internal_AndroidSystemFont_AddFamily122},
+    {(char* const)"callUno_Fuse_Internal_AndroidSystemFont_AddFont123", (char* const)"(Ljava/lang/String;IIZ)V", (void *)&callUno_Fuse_Internal_AndroidSystemFont_AddFont123},
+    {(char* const)"callUno_Fuse_Internal_AndroidSystemFont_AddAlias124", (char* const)"(Ljava/lang/String;Ljava/lang/String;I)V", (void *)&callUno_Fuse_Internal_AndroidSystemFont_AddAlias124},
+    {(char* const)"callUno_Fuse_Internal_AndroidSystemFont_ThrowUno125", (char* const)"(Ljava/lang/String;)V", (void *)&callUno_Fuse_Internal_AndroidSystemFont_ThrowUno125},
     {(char* const)"callUno_Action_Object", (char* const)"(Lcom/foreign/Uno/Action_Object;Ljava/lang/Object;J)V", (void *)&callUno_Action_Object},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_FocusChangedListener_OnFocusChange138", (char* const)"(Lcom/uno/UnoObject;Z)V", (void *)&callUno_Fuse_Controls_Native_Android_FocusChangedListener_OnFocusChange138},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_FocusChangedListener_OnFocusChange141", (char* const)"(Lcom/uno/UnoObject;Z)V", (void *)&callUno_Fuse_Controls_Native_Android_FocusChangedListener_OnFocusChange141},
     {(char* const)"callUno_Action_String", (char* const)"(Lcom/foreign/Uno/Action_String;Ljava/lang/String;)V", (void *)&callUno_Action_String},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_InputDispatch_OnTouch154", (char* const)"(Ljava/lang/Object;Ljava/lang/Object;JJ)Z", (void *)&callUno_Fuse_Controls_Native_Android_InputDispatch_OnTouch154},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_ScrollView_OnScrollChanged175", (char* const)"(Lcom/uno/UnoObject;IIII)V", (void *)&callUno_Fuse_Controls_Native_Android_ScrollView_OnScrollChanged175},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_Slider_OnSeekBarChanged180", (char* const)"(Lcom/uno/UnoObject;DZ)V", (void *)&callUno_Fuse_Controls_Native_Android_Slider_OnSeekBarChanged180},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceRedrawNeeded186", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceRedrawNeeded186},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceChanged187", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;IIIJ)V", (void *)&callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceChanged187},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceCreated188", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceCreated188},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceDestroyed189", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceDestroyed189},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_Switch_OnToggleChanged193", (char* const)"(Lcom/uno/UnoObject;Z)V", (void *)&callUno_Fuse_Controls_Native_Android_Switch_OnToggleChanged193},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_TextInput_OnEditorAction198", (char* const)"(Lcom/uno/UnoObject;I)Z", (void *)&callUno_Fuse_Controls_Native_Android_TextInput_OnEditorAction198},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_TextInput_OnTextChanged200", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Fuse_Controls_Native_Android_TextInput_OnTextChanged200},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable214", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable214},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed215", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed215},
-    {(char* const)"callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet245", (char* const)"(Lcom/uno/UnoObject;)Ljava/lang/Object;", (void *)&callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet245},
-    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared267", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared267},
-    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion268", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion268},
-    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError269", (char* const)"(Lcom/uno/UnoObject;II)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError269},
-    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer270", (char* const)"(Lcom/uno/UnoObject;I)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer270},
-    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable273", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable273},
-    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred282", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred282},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_InputDispatch_OnTouch157", (char* const)"(Ljava/lang/Object;Ljava/lang/Object;JJ)Z", (void *)&callUno_Fuse_Controls_Native_Android_InputDispatch_OnTouch157},
+    {(char* const)"callUno_Action_int_int_int_int", (char* const)"(Lcom/foreign/Uno/Action_int_int_int_int;IIII)V", (void *)&callUno_Action_int_int_int_int},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_Slider_OnSeekBarChanged183", (char* const)"(Lcom/uno/UnoObject;DZ)V", (void *)&callUno_Fuse_Controls_Native_Android_Slider_OnSeekBarChanged183},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceRedrawNeeded189", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceRedrawNeeded189},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceChanged190", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;IIIJ)V", (void *)&callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceChanged190},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceCreated191", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceCreated191},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceDestroyed192", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Controls_Native_Android_SurfaceView_OnSurfaceDestroyed192},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_Switch_OnToggleChanged196", (char* const)"(Lcom/uno/UnoObject;Z)V", (void *)&callUno_Fuse_Controls_Native_Android_Switch_OnToggleChanged196},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_TextInput_OnEditorAction201", (char* const)"(Lcom/uno/UnoObject;I)Z", (void *)&callUno_Fuse_Controls_Native_Android_TextInput_OnEditorAction201},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_TextInput_OnTextChanged203", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Fuse_Controls_Native_Android_TextInput_OnTextChanged203},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable217", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable217},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed218", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed218},
+    {(char* const)"callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248", (char* const)"(Lcom/uno/UnoObject;)Ljava/lang/Object;", (void *)&callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248},
+    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared270", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared270},
+    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion271", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion271},
+    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError272", (char* const)"(Lcom/uno/UnoObject;II)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError272},
+    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer273", (char* const)"(Lcom/uno/UnoObject;I)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer273},
+    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable276", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable276},
+    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred285", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred285},
     {(char* const)"callUno_Action", (char* const)"(Lcom/foreign/Uno/Action;)V", (void *)&callUno_Action},
-    {(char* const)"callUno_Uno_IO_BundleFile_BundlePathGet357", (char* const)"(Lcom/uno/UnoObject;)Ljava/lang/String;", (void *)&callUno_Uno_IO_BundleFile_BundlePathGet357},
+    {(char* const)"callUno_Uno_IO_BundleFile_BundlePathGet360", (char* const)"(Lcom/uno/UnoObject;)Ljava/lang/String;", (void *)&callUno_Uno_IO_BundleFile_BundlePathGet360},
     {(char* const)"callUno_Action_int", (char* const)"(Lcom/foreign/Uno/Action_int;I)V", (void *)&callUno_Action_int},
     {(char* const)"callUno_Func", (char* const)"(Lcom/foreign/Uno/Func;)Z", (void *)&callUno_Func},
-    {(char* const)"callUno_Fuse_Android_AppRoot_OnTouchEvent__375", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Android_AppRoot_OnTouchEvent__375},
-    {(char* const)"callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar397", (char* const)"()V", (void *)&callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar397},
-    {(char* const)"callUno_Neovisionaries_WebSocketClient__webSocketGet425", (char* const)"(Lcom/uno/UnoObject;)Ljava/lang/Object;", (void *)&callUno_Neovisionaries_WebSocketClient__webSocketGet425},
+    {(char* const)"callUno_Fuse_Android_AppRoot_OnTouchEvent__378", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Android_AppRoot_OnTouchEvent__378},
+    {(char* const)"callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar400", (char* const)"()V", (void *)&callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar400},
+    {(char* const)"callUno_Neovisionaries_WebSocketClient__webSocketGet428", (char* const)"(Lcom/uno/UnoObject;)Ljava/lang/Object;", (void *)&callUno_Neovisionaries_WebSocketClient__webSocketGet428},
     {(char* const)"callUno_Action_ByteArray", (char* const)"(Lcom/foreign/Uno/Action_ByteArray;Lcom/uno/ByteArray;)V", (void *)&callUno_Action_ByteArray},
-    {(char* const)"callUno_Neovisionaries_WebSocketClient__webSocketSet425", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Neovisionaries_WebSocketClient__webSocketSet425},
+    {(char* const)"callUno_Neovisionaries_WebSocketClient__webSocketSet428", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Neovisionaries_WebSocketClient__webSocketSet428},
+    {(char* const)"callUno_Firebase_Database_DatabaseService__handleSet435", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Firebase_Database_DatabaseService__handleSet435},
+    {(char* const)"callUno_Action_String_String", (char* const)"(Lcom/foreign/Uno/Action_String_String;Ljava/lang/String;Ljava/lang/String;)V", (void *)&callUno_Action_String_String},
+    {(char* const)"callUno_Firebase_Database_DatabaseService__handleGet435", (char* const)"()Ljava/lang/Object;", (void *)&callUno_Firebase_Database_DatabaseService__handleGet435},
+    {(char* const)"callUno_Uno_Threading_Promise_lt_string_gt__Resolve452", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Uno_Threading_Promise_lt_string_gt__Resolve452},
+    {(char* const)"callUno_Firebase_Database_Read_Reject1453", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Firebase_Database_Read_Reject1453},
+    {(char* const)"callUno_Firebase_Database_ReadByQueryEqualToValue_Reject1455", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Firebase_Database_ReadByQueryEqualToValue_Reject1455},
+    {(char* const)"callUno_Firebase_Notifications_AndroidImpl_OnRecieve457", (char* const)"(Ljava/lang/String;Z)V", (void *)&callUno_Firebase_Notifications_AndroidImpl_OnRecieve457},
+    {(char* const)"callUno_Firebase_Notifications_AndroidImpl_getRegistrationIdSuccess458", (char* const)"(Ljava/lang/String;)V", (void *)&callUno_Firebase_Notifications_AndroidImpl_getRegistrationIdSuccess458},
     };
-    int funcCount = 126;
+    int funcCount = 134;
     if ((int)jni->RegisterNatives(JniHelper::GetNativeExternClass(), native_activity_funcs, funcCount)<0) {
     LOGD("COULD NOT REGISTER NATIVE EXTERN FUNCTIONS");
     throw uBase::Exception("COULD NOT REGISTER NATIVE EXTERN FUNCTIONS");
@@ -1644,7 +1738,7 @@ void ExternBlockHost::RegisterFunctions()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/UnoArrayEntrypoints.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/UnoArrayEntrypoints.uno
 // ---------------------------------------------------------------------------------------------------------------------------
 
 // public static extern class JavaToUnoArrayEntrypoints :10
@@ -2955,7 +3049,7 @@ int64_t JavaToUnoArrayEntrypoints::ShortArrayToUnoArrayPtr(::g::Java::Object* ja
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/JavaUnoObject.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/JavaUnoObject.uno
 // ---------------------------------------------------------------------------------------------------------------------
 
 // public static extern class JavaUnoObject :12

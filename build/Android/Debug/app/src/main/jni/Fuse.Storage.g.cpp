@@ -21,8 +21,8 @@
 #include <Uno.IO.Directory.h>
 #include <Uno.IO.File.h>
 #include <Uno.IO.FileMode.h>
+#include <Uno.IO.FileStream.h>
 #include <Uno.IO.Path.h>
-#include <Uno.IO.Stream.h>
 #include <Uno.IO.UserDirectory.h>
 #include <Uno.Object.h>
 #include <Uno.String.h>
@@ -36,7 +36,7 @@ namespace g{
 namespace Fuse{
 namespace Storage{
 
-// /usr/local/share/uno/Packages/Fuse.Storage/1.8.1/ApplicationDir.uno
+// /usr/local/share/uno/Packages/Fuse.Storage/1.9.0/ApplicationDir.uno
 // -------------------------------------------------------------------
 
 // internal static class ApplicationDir :7
@@ -105,7 +105,7 @@ void ApplicationDir__WriteAsync_fn(uString* filename, uString* value, ::g::Uno::
 // private static void CreateFile(string filepath) [static] :24
 void ApplicationDir::CreateFile(uString* filepath)
 {
-    ::g::Uno::IO::Stream* stream = ::g::Uno::IO::File::Open(filepath, 2);
+    ::g::Uno::IO::FileStream* stream = ::g::Uno::IO::File::Open(filepath, 2);
 
     {
         try
@@ -136,7 +136,7 @@ bool ApplicationDir::Delete(uString* filename)
     if (::g::Uno::String::op_Equality(filename, NULL))
         U_THROW(::g::Uno::ArgumentNullException::New6(uString::Const("filename")));
 
-    uString* filepath = ::g::Uno::IO::Path::Combine(::g::Uno::IO::Directory::GetUserDirectory(1), filename);
+    uString* filepath = ::g::Uno::IO::Path::Combine(::g::Uno::IO::Directory::GetUserDirectory(2), filename);
 
     if (!::g::Uno::IO::File::Exists(filepath))
         return false;
@@ -180,7 +180,7 @@ bool ApplicationDir::TryRead(uString* filename, uString** content)
     if (::g::Uno::String::op_Equality(filename, NULL))
         U_THROW(::g::Uno::ArgumentNullException::New6(uString::Const("filename")));
 
-    uString* filepath = ::g::Uno::IO::Path::Combine(::g::Uno::IO::Directory::GetUserDirectory(1), filename);
+    uString* filepath = ::g::Uno::IO::Path::Combine(::g::Uno::IO::Directory::GetUserDirectory(2), filename);
 
     if (!::g::Uno::IO::File::Exists(filepath))
     {
@@ -201,7 +201,7 @@ bool ApplicationDir::Write(uString* filename, uString* value)
     if (::g::Uno::String::op_Equality(value, NULL))
         U_THROW(::g::Uno::ArgumentNullException::New6(uString::Const("value")));
 
-    uString* filepath = ::g::Uno::IO::Path::Combine(::g::Uno::IO::Directory::GetUserDirectory(1), filename);
+    uString* filepath = ::g::Uno::IO::Path::Combine(::g::Uno::IO::Directory::GetUserDirectory(2), filename);
     ApplicationDir::CreateFile(filepath);
     ::g::Uno::IO::File::WriteAllText(filepath, value);
     return true;
@@ -214,7 +214,7 @@ bool ApplicationDir::Write(uString* filename, uString* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Storage/1.8.1/ApplicationDir.uno
+// /usr/local/share/uno/Packages/Fuse.Storage/1.9.0/ApplicationDir.uno
 // -------------------------------------------------------------------
 
 // private sealed class ApplicationDir.ReadClosure :108
@@ -278,7 +278,7 @@ ApplicationDir__ReadClosure* ApplicationDir__ReadClosure::New1(uString* filename
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Storage/1.8.1/StorageModule.uno
+// /usr/local/share/uno/Packages/Fuse.Storage/1.9.0/StorageModule.uno
 // ------------------------------------------------------------------
 
 // public sealed class StorageModule :18
@@ -462,7 +462,7 @@ uObject* StorageModule::Write(::g::Fuse::Scripting::Context* c, uArray* args)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Storage/1.8.1/ApplicationDir.uno
+// /usr/local/share/uno/Packages/Fuse.Storage/1.9.0/ApplicationDir.uno
 // -------------------------------------------------------------------
 
 // private sealed class ApplicationDir.WriteClosure :91

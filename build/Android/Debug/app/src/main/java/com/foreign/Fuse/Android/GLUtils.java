@@ -20,10 +20,10 @@ public class GLUtils
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void TexImage2D382(final int target,final int level,final Object bitmap,final int border)
+    public static void TexImage2D385(final int target,final int level,final Object bitmap,final int border)
     {
         android.opengl.GLUtils.texImage2D(target, level, ((android.graphics.Bitmap)bitmap), border);
     }

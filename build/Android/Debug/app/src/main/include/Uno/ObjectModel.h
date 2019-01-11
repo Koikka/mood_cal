@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Backends/CPlusPlus/Uno/ObjectModel.h.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Backends/CPlusPlus/Uno/ObjectModel.h.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -565,6 +565,7 @@ struct uString : uObject
     static uString* Utf16(const char16_t* utf16, size_t length);
     static uString* Const(const char* mutf8);
     static uString* CharArray(const uArray* chars);
+    static uString* CharArrayRange(const uArray* chars, int32_t startIndex, int32_t length);
     static bool Equals(const uString* left, const uString* right, bool ignoreCase = false);
 };
 
@@ -578,8 +579,11 @@ struct uCString
     char* Ptr;
     size_t Length;
 
-    uCString(uString* string) {
+    uCString(const uString* string) {
         Ptr = uAllocCStr(string, &Length);
+    }
+    uCString(const uSStrong<uString*>& string){
+        Ptr = uAllocCStr(string._object, &Length);
     }
     ~uCString() {
         free(Ptr);

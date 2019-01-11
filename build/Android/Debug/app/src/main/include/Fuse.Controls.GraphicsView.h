@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.8.1/GraphicsView.ux.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/GraphicsView.ux.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,6 +12,7 @@
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
 #include <Fuse.IRenderViewport.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.IViewport.h>
 #include <Fuse.Node.h>
@@ -47,11 +48,11 @@ namespace Controls{
 // {
 struct GraphicsView_type : ::g::Fuse::Controls::Control_type
 {
-    ::g::Fuse::IViewport interface17;
-    ::g::Fuse::IRenderViewport interface18;
-    ::g::Fuse::Elements::ITreeRenderer interface19;
-    ::g::Fuse::Controls::IProxyHost interface20;
-    ::g::Fuse::ICommonViewport interface21;
+    ::g::Fuse::IViewport interface18;
+    ::g::Fuse::IRenderViewport interface19;
+    ::g::Fuse::Elements::ITreeRenderer interface20;
+    ::g::Fuse::Controls::IProxyHost interface21;
+    ::g::Fuse::ICommonViewport interface22;
 };
 
 GraphicsView_type* GraphicsView_typeof();

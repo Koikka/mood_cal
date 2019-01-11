@@ -20,15 +20,15 @@ public class Button
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object Create125()
+    public static Object Create128()
     {
         return new android.widget.Button(com.fuse.Activity.getRootActivity());
     }
     
-    public static void SetText126(final Object handle,final String text)
+    public static void SetText129(final Object handle,final String text)
     {
         ((android.widget.Button)handle).setText(text);
     }

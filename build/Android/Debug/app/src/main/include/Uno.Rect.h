@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Rect.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Rect.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -33,7 +33,7 @@ void Rect__get_Minimum_fn(Rect* __this, ::g::Uno::Float2* __retval);
 void Rect__set_Minimum_fn(Rect* __this, ::g::Uno::Float2* value);
 void Rect__New1_fn(float* left, float* top, float* right, float* bottom, Rect* __retval);
 void Rect__New2_fn(::g::Uno::Float2* pos, ::g::Uno::Float2* size, Rect* __retval);
-void Rect__op_Implicit_fn(::g::Uno::Recti* r, Rect* __retval);
+void Rect__op_Implicit1_fn(::g::Uno::Recti* r, Rect* __retval);
 void Rect__get_RightBottom_fn(Rect* __this, ::g::Uno::Float2* __retval);
 void Rect__get_RightTop_fn(Rect* __this, ::g::Uno::Float2* __retval);
 void Rect__Scale_fn(Rect* r, float* scale, Rect* __retval);
@@ -82,7 +82,7 @@ Rect Rect__Inflate1(Rect r, ::g::Uno::Float2 size);
 Rect Rect__Intersect(Rect a, Rect b);
 Rect Rect__New1(float left, float top, float right, float bottom);
 Rect Rect__New2(::g::Uno::Float2 pos, ::g::Uno::Float2 size);
-Rect Rect__op_Implicit(::g::Uno::Recti r);
+Rect Rect__op_Implicit1(::g::Uno::Recti r);
 Rect Rect__Scale(Rect r, float scale);
 Rect Rect__Scale1(Rect r, ::g::Uno::Float2 scale);
 Rect Rect__Transform(Rect r, ::g::Uno::Float4x4 matrix);

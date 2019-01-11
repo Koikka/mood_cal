@@ -127,7 +127,7 @@ namespace g{
 namespace Fuse{
 namespace Input{
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Gesture.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Gesture.uno
 // ----------------------------------------------------------------
 
 // private sealed class Gestures.ActiveGesture :387
@@ -185,7 +185,7 @@ Gestures__ActiveGesture* Gestures__ActiveGesture::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Pointer.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Pointer.uno
 // ----------------------------------------------------------------
 
 // internal sealed class Capture :49
@@ -350,7 +350,7 @@ Capture* Capture::New1(::g::Fuse::Visual* n, uObject* identity)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Pointer.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Pointer.uno
 // ----------------------------------------------------------------
 
 // private sealed class Pointer.CaptureLockImpl :225
@@ -358,7 +358,7 @@ Capture* Capture::New1(::g::Fuse::Visual* n, uObject* identity)
 static void Pointer__CaptureLockImpl_build(uType* type)
 {
     ::STRINGS[1] = uString::Const("Inconsistent Count");
-    ::STRINGS[2] = uString::Const("/usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Pointer.uno");
+    ::STRINGS[2] = uString::Const("/usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Pointer.uno");
     ::STRINGS[3] = uString::Const("Dispose");
     type->SetDependencies(
         ::g::Fuse::Input::Pointer_typeof());
@@ -456,7 +456,7 @@ Pointer__CaptureLockImpl* Pointer__CaptureLockImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Pointer.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Pointer.uno
 // ----------------------------------------------------------------
 
 // public enum CaptureType :10
@@ -475,7 +475,7 @@ uEnumType* CaptureType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // public abstract class CustomPointerEventArgs :4
@@ -517,7 +517,7 @@ void CustomPointerEventArgs::ctor_3(::g::Fuse::Input::PointerEventArgs* args, ::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Pointer.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Pointer.uno
 // ----------------------------------------------------------------
 
 // private sealed class Pointer.DefaultPointerEventResponder :722
@@ -659,7 +659,7 @@ Pointer__DefaultPointerEventResponder* Pointer__DefaultPointerEventResponder::Ne
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Focus.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Focus.uno
 // --------------------------------------------------------------
 
 // public partial static class Focus :24
@@ -1090,7 +1090,7 @@ void Focus::SetIsFocusable(::g::Fuse::Visual* n, bool focusable)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Focus.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Focus.uno
 // --------------------------------------------------------------
 
 // public delegate Fuse.Visual FocusDelegator() :16
@@ -1104,7 +1104,7 @@ uDelegateType* FocusDelegator_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/FocusEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/FocusEvents.uno
 // --------------------------------------------------------------------
 
 // internal sealed class FocusGained :14
@@ -1165,7 +1165,7 @@ FocusGained* FocusGained::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/FocusEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/FocusEvents.uno
 // --------------------------------------------------------------------
 
 // public sealed class FocusGainedArgs :7
@@ -1221,7 +1221,7 @@ FocusGainedArgs* FocusGainedArgs::New3(::g::Fuse::Visual* visual)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/FocusEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/FocusEvents.uno
 // --------------------------------------------------------------------
 
 // public delegate void FocusGainedHandler(object sender, Fuse.Input.FocusGainedArgs args) :12
@@ -1237,7 +1237,7 @@ uDelegateType* FocusGainedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/FocusEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/FocusEvents.uno
 // --------------------------------------------------------------------
 
 // internal sealed class FocusLost :32
@@ -1298,7 +1298,7 @@ FocusLost* FocusLost::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/FocusEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/FocusEvents.uno
 // --------------------------------------------------------------------
 
 // public sealed class FocusLostArgs :25
@@ -1354,7 +1354,7 @@ FocusLostArgs* FocusLostArgs::New3(::g::Fuse::Visual* visual)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/FocusEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/FocusEvents.uno
 // --------------------------------------------------------------------
 
 // public delegate void FocusLostHandler(object sender, Fuse.Input.FocusLostArgs args) :30
@@ -1370,7 +1370,7 @@ uDelegateType* FocusLostHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Focus.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Focus.uno
 // --------------------------------------------------------------
 
 // public enum FocusNavigationDirection :8
@@ -1388,7 +1388,7 @@ uEnumType* FocusNavigationDirection_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Focus.Prediction.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Focus.Prediction.uno
 // -------------------------------------------------------------------------
 
 // internal static class FocusPrediction :24
@@ -1562,7 +1562,7 @@ void FocusPrediction__PreviousSibling1_fn(::g::Fuse::Visual* parent, ::g::Fuse::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Focus.Prediction.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Focus.Prediction.uno
 // -------------------------------------------------------------------------
 
 // internal static class FocusPredictStrategy :7
@@ -1605,7 +1605,7 @@ void FocusPredictStrategy__Predict_fn(::g::Fuse::Visual* n, int32_t* direction, 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Gesture.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Gesture.uno
 // ----------------------------------------------------------------
 
 // public sealed class Gesture :139
@@ -1615,13 +1615,14 @@ static void Gesture_build(uType* type)
     ::STRINGS[8] = uString::Const("handler");
     ::STRINGS[9] = uString::Const("target");
     ::STRINGS[10] = uString::Const("Missing LostCapture on ");
-    ::STRINGS[11] = uString::Const("/usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Gesture.uno");
+    ::STRINGS[11] = uString::Const("/usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Gesture.uno");
     ::STRINGS[12] = uString::Const("OnPointerMoved");
     ::TYPES[0] = ::g::Uno::Collections::List_typeof()->MakeType(::g::Uno::Int_typeof(), NULL);
     ::TYPES[10] = ::g::Fuse::Input::IGesture_typeof();
     ::TYPES[11] = ::g::Uno::Action_typeof();
     type->SetDependencies(
         ::g::Fuse::Input::Gestures_typeof(),
+        ::g::Uno::Math_typeof(),
         ::g::Fuse::Input::Pointer_typeof());
     type->SetInterfaces(
         ::g::Uno::UX::IPropertyListener_typeof(), offsetof(Gesture_type, interface0));
@@ -1641,7 +1642,7 @@ Gesture_type* Gesture_typeof()
     uTypeOptions options;
     options.FieldCount = 5;
     options.InterfaceCount = 1;
-    options.DependencyCount = 2;
+    options.DependencyCount = 3;
     options.ObjectSize = sizeof(Gesture);
     options.TypeSize = sizeof(Gesture_type);
     type = (Gesture_type*)uClassType::New("Fuse.Input.Gesture", options);
@@ -1950,7 +1951,7 @@ float Gesture::HardCaptureSignificanceThreshold()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Gesture.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Gesture.uno
 // ----------------------------------------------------------------
 
 // public enum GesturePriority :15
@@ -1969,7 +1970,7 @@ uEnumType* GesturePriority_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Gesture.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Gesture.uno
 // ----------------------------------------------------------------
 
 // public struct GesturePriorityConfig :28
@@ -2026,7 +2027,7 @@ GesturePriorityConfig GesturePriorityConfig__New1(int32_t priority, float signif
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Gesture.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Gesture.uno
 // ----------------------------------------------------------------
 
 // public enum GestureRequest :120
@@ -2043,7 +2044,7 @@ uEnumType* GestureRequest_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Gesture.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Gesture.uno
 // ----------------------------------------------------------------
 
 // public static class Gestures :344
@@ -2327,7 +2328,7 @@ void Gestures::UpdateSignificance()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Gesture.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Gesture.uno
 // ----------------------------------------------------------------
 
 // public enum GestureType :103
@@ -2346,7 +2347,7 @@ uEnumType* GestureType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/HitTestHelpers.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/HitTestHelpers.uno
 // -----------------------------------------------------------------------
 
 // public static class HitTestHelpers :29
@@ -2381,7 +2382,7 @@ void HitTestHelpers__HitTestNearest_fn(::g::Fuse::Visual* root, ::g::Uno::Float2
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Gesture.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Gesture.uno
 // ----------------------------------------------------------------
 
 // public abstract interface IGesture :50
@@ -2396,7 +2397,7 @@ uInterfaceType* IGesture_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Focus.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Focus.uno
 // --------------------------------------------------------------
 
 // public abstract interface INotifyFocus :18
@@ -2411,7 +2412,7 @@ uInterfaceType* INotifyFocus_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Pointer.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Pointer.uno
 // ----------------------------------------------------------------
 
 // public abstract interface IPointerEventResponder :104
@@ -2426,7 +2427,7 @@ uInterfaceType* IPointerEventResponder_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/FocusEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/FocusEvents.uno
 // --------------------------------------------------------------------
 
 // public sealed class IsFocusableChangedArgs :41
@@ -2456,7 +2457,7 @@ static void IsFocusableChangedArgs_build(uType* type)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/FocusEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/FocusEvents.uno
 // --------------------------------------------------------------------
 
 // internal sealed class IsFocusableChangedEvent :48
@@ -2517,7 +2518,7 @@ IsFocusableChangedEvent* IsFocusableChangedEvent::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/FocusEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/FocusEvents.uno
 // --------------------------------------------------------------------
 
 // public delegate void IsFocusableChangedHandler(object sender, Fuse.Input.IsFocusableChangedArgs args) :46
@@ -2533,7 +2534,7 @@ uDelegateType* IsFocusableChangedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Keyboard.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Keyboard.uno
 // -----------------------------------------------------------------
 
 // public static class Keyboard :88
@@ -2659,7 +2660,7 @@ bool Keyboard::RaiseKeyReleased(int32_t key, bool isMetaKeyPressed, bool isContr
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Keyboard.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Keyboard.uno
 // -----------------------------------------------------------------
 
 // public abstract class KeyEventArgs :8
@@ -2827,7 +2828,7 @@ void KeyEventArgs::Key(int32_t value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Keyboard.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Keyboard.uno
 // -----------------------------------------------------------------
 
 // internal sealed class KeyPressed :59
@@ -2888,7 +2889,7 @@ KeyPressed* KeyPressed::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Keyboard.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Keyboard.uno
 // -----------------------------------------------------------------
 
 // public sealed class KeyPressedArgs :46
@@ -2948,7 +2949,7 @@ KeyPressedArgs* KeyPressedArgs::New3(int32_t key, bool isMetaKeyPressed, bool is
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Keyboard.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Keyboard.uno
 // -----------------------------------------------------------------
 
 // public delegate void KeyPressedHandler(object sender, Fuse.Input.KeyPressedArgs args) :57
@@ -2964,7 +2965,7 @@ uDelegateType* KeyPressedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Keyboard.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Keyboard.uno
 // -----------------------------------------------------------------
 
 // internal sealed class KeyReleased :80
@@ -3025,7 +3026,7 @@ KeyReleased* KeyReleased::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Keyboard.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Keyboard.uno
 // -----------------------------------------------------------------
 
 // public sealed class KeyReleasedArgs :67
@@ -3085,7 +3086,7 @@ KeyReleasedArgs* KeyReleasedArgs::New3(int32_t key, bool isMetaKeyPressed, bool 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Keyboard.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Keyboard.uno
 // -----------------------------------------------------------------
 
 // public delegate void KeyReleasedHandler(object sender, Fuse.Input.KeyReleasedArgs args) :78
@@ -3101,7 +3102,7 @@ uDelegateType* KeyReleasedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Pointer.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Pointer.uno
 // ----------------------------------------------------------------
 
 // private sealed class Pointer.PELHolder :676
@@ -3154,7 +3155,7 @@ Pointer__PELHolder* Pointer__PELHolder::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Pointer.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Pointer.uno
 // ----------------------------------------------------------------
 
 // private enum Pointer.PELStatus :670
@@ -3171,7 +3172,7 @@ uEnumType* Pointer__PELStatus_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Pointer.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Pointer.uno
 // ----------------------------------------------------------------
 
 // public partial static class Pointer :125
@@ -4020,7 +4021,7 @@ void Pointer::EventResponder(uObject* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class PointerEntered :83
@@ -4081,7 +4082,7 @@ PointerEntered* PointerEntered::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // public sealed class PointerEnteredArgs :75
@@ -4137,7 +4138,7 @@ PointerEnteredArgs* PointerEnteredArgs::New3(::g::Fuse::Input::PointerEventData*
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // public delegate void PointerEnteredHandler(object sender, Fuse.Input.PointerEnteredArgs args) :81
@@ -4153,7 +4154,7 @@ uDelegateType* PointerEnteredHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEventArgs.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEventArgs.uno
 // -------------------------------------------------------------------------
 
 // public abstract class PointerEventArgs :17
@@ -4314,7 +4315,7 @@ bool PointerEventArgs::TrySoftCapture(uObject* identity, uDelegate* lostCallback
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEventArgs.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEventArgs.uno
 // -------------------------------------------------------------------------
 
 // public sealed class PointerEventData :6
@@ -4370,7 +4371,7 @@ PointerEventData* PointerEventData::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class PointerLeft :103
@@ -4431,7 +4432,7 @@ PointerLeft* PointerLeft::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // public sealed class PointerLeftArgs :94
@@ -4487,7 +4488,7 @@ PointerLeftArgs* PointerLeftArgs::New3(::g::Fuse::Input::PointerEventData* data,
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // public delegate void PointerLeftHandler(object sender, Fuse.Input.PointerLeftArgs args) :101
@@ -4503,7 +4504,7 @@ uDelegateType* PointerLeftHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class PointerMoved :44
@@ -4564,7 +4565,7 @@ PointerMoved* PointerMoved::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // public sealed class PointerMovedArgs :35
@@ -4620,7 +4621,7 @@ PointerMovedArgs* PointerMovedArgs::New3(::g::Fuse::Input::PointerEventData* dat
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // public delegate void PointerMovedHandler(object sender, Fuse.Input.PointerMovedArgs args) :42
@@ -4636,7 +4637,7 @@ uDelegateType* PointerMovedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class PointerPressed :24
@@ -4697,7 +4698,7 @@ PointerPressed* PointerPressed::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // public sealed class PointerPressedArgs :15
@@ -4753,7 +4754,7 @@ PointerPressedArgs* PointerPressedArgs::New3(::g::Fuse::Input::PointerEventData*
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // public delegate void PointerPressedHandler(object sender, Fuse.Input.PointerPressedArgs args) :22
@@ -4769,7 +4770,7 @@ uDelegateType* PointerPressedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Pointer.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Pointer.uno
 // ----------------------------------------------------------------
 
 // private sealed class Pointer.PointerRecord :193
@@ -4825,7 +4826,7 @@ Pointer__PointerRecord* Pointer__PointerRecord::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class PointerReleased :64
@@ -4886,7 +4887,7 @@ PointerReleased* PointerReleased::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // public sealed class PointerReleasedArgs :55
@@ -4942,7 +4943,7 @@ PointerReleasedArgs* PointerReleasedArgs::New3(::g::Fuse::Input::PointerEventDat
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // public delegate void PointerReleasedHandler(object sender, Fuse.Input.PointerReleasedArgs args) :62
@@ -4958,7 +4959,7 @@ uDelegateType* PointerReleasedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // internal sealed class PointerWheelMoved :123
@@ -5019,7 +5020,7 @@ PointerWheelMoved* PointerWheelMoved::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // public sealed class PointerWheelMovedArgs :114
@@ -5049,7 +5050,7 @@ static void PointerWheelMovedArgs_build(uType* type)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/PointerEvents.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno
 // ----------------------------------------------------------------------
 
 // public delegate void PointerWheelMovedHandler(object sender, Fuse.Input.PointerWheelMovedArgs args) :121
@@ -5065,7 +5066,7 @@ uDelegateType* PointerWheelMovedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/Focus.Prediction.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Focus.Prediction.uno
 // -------------------------------------------------------------------------
 
 // private sealed class FocusPrediction.PredictFilter :26
@@ -5132,7 +5133,7 @@ FocusPrediction__PredictFilter* FocusPrediction__PredictFilter::New1(::g::Fuse::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/HitTestHelpers.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/HitTestHelpers.uno
 // -----------------------------------------------------------------------
 
 // internal sealed class SelectionQuery :6
@@ -5216,7 +5217,7 @@ SelectionQuery* SelectionQuery::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/TextService.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/TextService.uno
 // --------------------------------------------------------------------
 
 // internal sealed class TextEntered :44
@@ -5250,7 +5251,7 @@ void TextEntered__Invoke_fn(TextEntered* __this, uDelegate* handler, uObject* se
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/TextService.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/TextService.uno
 // --------------------------------------------------------------------
 
 // public sealed class TextEnteredArgs :27
@@ -5314,7 +5315,7 @@ void TextEnteredArgs::Text(uString* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Nodes/1.8.1/Input/TextService.uno
+// /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/TextService.uno
 // --------------------------------------------------------------------
 
 // public delegate void TextEnteredHandler(object sender, Fuse.Input.TextEnteredArgs args) :42

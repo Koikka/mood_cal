@@ -4,6 +4,6 @@ public final class Debug
 {
     void debug_log(String message)
     {
-        android.util.Log.d("mood_calendar",message);
+        android.util.Log.d("Kalenteri",message);
     }
 }

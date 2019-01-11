@@ -23,7 +23,7 @@ namespace Uno{
 namespace Compiler{
 namespace ExportTargetInterop{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/ForeignDataView.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/ForeignDataView.uno
 // ---------------------------------------------------------------------------------------------------------------
 
 // public static extern class ForeignDataView :69

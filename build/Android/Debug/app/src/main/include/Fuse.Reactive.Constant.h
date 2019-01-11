@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Expressions/1.8.1/Expression.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Expressions/1.9.0/Expression.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Reactive.Constan-264ec80.h>
 #include <Fuse.Reactive.IExpression.h>
 namespace g{namespace Fuse{namespace Reactive{struct Constant;}}}
@@ -10,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public sealed class Constant :53
+// public sealed class Constant :61
 // {
 ::g::Fuse::Reactive::ConstantExpression_type* Constant_typeof();
 void Constant__ctor_2_fn(Constant* __this, uObject* value);

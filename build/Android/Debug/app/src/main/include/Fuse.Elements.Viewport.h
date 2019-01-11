@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls/1.8.1/Viewport.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls/1.9.0/Viewport.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,6 +10,7 @@
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
 #include <Fuse.IRenderViewport.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.IViewport.h>
 #include <Fuse.Node.h>
@@ -40,9 +41,9 @@ namespace Elements{
 // {
 struct Viewport_type : ::g::Fuse::Elements::Element_type
 {
-    ::g::Fuse::IViewport interface17;
-    ::g::Fuse::IRenderViewport interface18;
-    ::g::Fuse::ICommonViewport interface19;
+    ::g::Fuse::IViewport interface18;
+    ::g::Fuse::IRenderViewport interface19;
+    ::g::Fuse::ICommonViewport interface20;
 };
 
 Viewport_type* Viewport_typeof();

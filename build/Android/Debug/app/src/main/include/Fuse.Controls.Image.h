@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/Image.ScriptClass.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/Image.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,6 +8,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -30,6 +31,7 @@ namespace g{namespace Fuse{struct DrawContext;}}
 namespace g{namespace Fuse{struct HitTestContext;}}
 namespace g{namespace Fuse{struct LayoutParams;}}
 namespace g{namespace Fuse{struct VisualBounds;}}
+namespace g{namespace Uno{namespace UX{struct FileSource;}}}
 namespace g{namespace Uno{struct Float3x3;}}
 
 namespace g{
@@ -39,6 +41,7 @@ namespace Controls{
 // public partial sealed class Image :8
 // {
 ::g::Fuse::Controls::Control_type* Image_typeof();
+void Image__ctor_6_fn(Image* __this);
 void Image__ArrangePaddingBox_fn(Image* __this, ::g::Fuse::LayoutParams* lp);
 void Image__CalcRenderBounds_fn(Image* __this, ::g::Fuse::VisualBounds** __retval);
 void Image__get_Color_fn(Image* __this, ::g::Uno::Float4* __retval);
@@ -48,10 +51,13 @@ void Image__CreateNativeView_fn(Image* __this, uObject** __retval);
 void Image__DrawVisual_fn(Image* __this, ::g::Fuse::DrawContext* dc);
 void Image__DrawVisualColor_fn(Image* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Float4* color);
 void Image__FastTrackDrawWithOpacity_fn(Image* __this, ::g::Fuse::DrawContext* dc, bool* __retval);
+void Image__get_File_fn(Image* __this, ::g::Uno::UX::FileSource** __retval);
+void Image__set_File_fn(Image* __this, ::g::Uno::UX::FileSource* value);
 void Image__GetContentSize_fn(Image* __this, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval);
 void Image__GetSize_fn(Image* __this, ::g::Uno::Float2* __retval);
 void Image__get_HitTestLocalVisualBounds_fn(Image* __this, ::g::Fuse::VisualBounds** __retval);
 void Image__get_ImageView_fn(Image* __this, uObject** __retval);
+void Image__New3_fn(Image** __retval);
 void Image__OnContainerParamChanged_fn(Image* __this, uObject* s, uObject* a);
 void Image__OnContainerSourceChanged_fn(Image* __this, uObject* s, uObject* a);
 void Image__OnContainerSourceError_fn(Image* __this, uObject* s, ::g::Fuse::Resources::ImageSourceErrorArgs* args);
@@ -73,9 +79,13 @@ void Image__get_Source_fn(Image* __this, ::g::Fuse::Resources::ImageSource** __r
 void Image__set_Source_fn(Image* __this, ::g::Fuse::Resources::ImageSource* value);
 void Image__add_SourceChanged_fn(Image* __this, uDelegate* value);
 void Image__remove_SourceChanged_fn(Image* __this, uDelegate* value);
+void Image__get_StretchMode_fn(Image* __this, int32_t* __retval);
+void Image__set_StretchMode_fn(Image* __this, int32_t* value);
 void Image__TransformFromImageOrientation_fn(int32_t* orientation, ::g::Uno::Float3x3* __retval);
 void Image__UpdateNativeImageSource_fn(Image* __this);
 void Image__UpdateNativeImageTransform_fn(Image* __this);
+void Image__get_Url_fn(Image* __this, uString** __retval);
+void Image__set_Url_fn(Image* __this, uString* value);
 
 struct Image : ::g::Fuse::Controls::LayoutControl
 {
@@ -96,10 +106,13 @@ struct Image : ::g::Fuse::Controls::LayoutControl
     uStrong<uDelegate*> ParamChanged1;
     uStrong<uDelegate*> SourceChanged1;
 
+    void ctor_6();
     ::g::Uno::Float4 Color();
     void Color(::g::Uno::Float4 value);
     ::g::Fuse::Internal::ImageContainer* Container();
     void DrawVisualColor(::g::Fuse::DrawContext* dc, ::g::Uno::Float4 color);
+    ::g::Uno::UX::FileSource* File();
+    void File(::g::Uno::UX::FileSource* value);
     ::g::Uno::Float2 GetSize();
     uObject* ImageView();
     void OnContainerParamChanged(uObject* s, uObject* a);
@@ -117,8 +130,13 @@ struct Image : ::g::Fuse::Controls::LayoutControl
     void Source(::g::Fuse::Resources::ImageSource* value);
     void add_SourceChanged(uDelegate* value);
     void remove_SourceChanged(uDelegate* value);
+    int32_t StretchMode();
+    void StretchMode(int32_t value);
     void UpdateNativeImageSource();
     void UpdateNativeImageTransform();
+    uString* Url();
+    void Url(uString* value);
+    static Image* New3();
     static void reload(Image* img);
     static void retry(Image* img);
     static ::g::Uno::Float3x3 TransformFromImageOrientation(int32_t orientation);

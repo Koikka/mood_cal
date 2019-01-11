@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.8.1/ScrollView.ux.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/ScrollView.ux.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,6 +9,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -30,6 +31,9 @@ namespace Controls{
 // public partial sealed class ScrollView :58
 // {
 ::g::Fuse::Controls::ScrollViewBase_type* ScrollView_typeof();
+void ScrollView__ctor_7_fn(ScrollView* __this);
+void ScrollView__InitializeUX_fn(ScrollView* __this);
+void ScrollView__New4_fn(ScrollView** __retval);
 void ScrollView__OnRooted_fn(ScrollView* __this);
 void ScrollView__OnUnrooted_fn(ScrollView* __this);
 
@@ -37,6 +41,10 @@ struct ScrollView : ::g::Fuse::Controls::ScrollViewBase
 {
     static ::g::Uno::UX::Selector __selector0_;
     static ::g::Uno::UX::Selector& __selector0() { return ScrollView_typeof()->Init(), __selector0_; }
+
+    void ctor_7();
+    void InitializeUX();
+    static ScrollView* New4();
 };
 // }
 

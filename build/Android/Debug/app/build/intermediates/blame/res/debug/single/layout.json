@@ -36,8 +36,16 @@
         "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_action.xml"
     },
     {
+        "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
         "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/layout/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
@@ -72,12 +80,12 @@
         "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
         "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
@@ -86,6 +94,10 @@
     {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
         "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/layout/notification_template_lines_media.xml"
     },
     {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
@@ -98,6 +110,10 @@
     {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
         "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/layout/notification_template_media_custom.xml"
     },
     {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
@@ -114,6 +130,14 @@
     {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/layout/notification_action.xml"
     },
     {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
@@ -154,6 +178,10 @@
     {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",

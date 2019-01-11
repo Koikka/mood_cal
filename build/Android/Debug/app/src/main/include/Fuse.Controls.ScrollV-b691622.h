@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.8.1/.uno/ux14/Fuse.Controls.ScrollView.g.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/.uno/ux15/Fuse.Controls.ScrollView.g.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,6 +7,7 @@
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions-b5190bae.h>
 #include <Fuse.Triggers.IPulseTrigger.h>

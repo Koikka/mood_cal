@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.8.1/Scroller.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Scroller.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,6 +7,7 @@
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.Input.IGesture.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -37,8 +38,8 @@ namespace Gestures{
 // {
 struct Scroller_type : ::g::Fuse::Node_type
 {
-    ::g::Uno::UX::IPropertyListener interface6;
-    ::g::Fuse::Input::IGesture interface7;
+    ::g::Uno::UX::IPropertyListener interface7;
+    ::g::Fuse::Input::IGesture interface8;
 };
 
 Scroller_type* Scroller_typeof();

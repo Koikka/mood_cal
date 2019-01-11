@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Selector.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Selector.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -19,8 +19,8 @@ void Selector__get_Handle_fn(Selector* __this, int32_t* __retval);
 void Selector__get_IsNull_fn(Selector* __this, bool* __retval);
 void Selector__New1_fn(uString* value, Selector* __retval);
 void Selector__op_Equality_fn(Selector* a, Selector* b, bool* __retval);
-void Selector__op_Implicit_fn(uString* s, Selector* __retval);
-void Selector__op_Implicit1_fn(Selector* s, uString** __retval);
+void Selector__op_Implicit1_fn(uString* s, Selector* __retval);
+void Selector__op_Implicit2_fn(Selector* s, uString** __retval);
 void Selector__op_Inequality_fn(Selector* a, Selector* b, bool* __retval);
 void Selector__ToString_fn(Selector* __this, uType* __type, uString** __retval);
 
@@ -38,8 +38,8 @@ struct Selector
 
 Selector Selector__New1(uString* value);
 bool Selector__op_Equality(Selector a, Selector b);
-Selector Selector__op_Implicit(uString* s);
-uString* Selector__op_Implicit1(Selector s);
+Selector Selector__op_Implicit1(uString* s);
+uString* Selector__op_Implicit2(Selector s);
 bool Selector__op_Inequality(Selector a, Selector b);
 // }
 

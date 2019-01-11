@@ -1,7 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Selection/1.8.1/IsSelected.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Selection/1.9.0/IsSelected.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Reactive.IExpression.h>
 #include <Fuse.Reactive.VarArgFunction.h>
 namespace g{namespace Fuse{namespace Selection{struct IsSelectedFunction;}}}

@@ -66,7 +66,7 @@ namespace Uno{
 namespace Content{
 namespace Fonts{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/BitmapFont.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/BitmapFont.uno
 // -----------------------------------------------------------------------------------
 
 // public sealed class BitmapFont :7
@@ -142,7 +142,7 @@ BitmapFont* BitmapFont::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/BitmapFont.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/BitmapFont.uno
 // -----------------------------------------------------------------------------------
 
 // public struct BitmapFont.CharPair :18
@@ -207,7 +207,7 @@ BitmapFont__CharPair BitmapFont__CharPair__New1(char16_t left, char16_t right)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/CppFontFace.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/CppFontFace.uno
 // ------------------------------------------------------------------------------------
 
 // internal sealed extern class CppFontFace :19
@@ -407,7 +407,7 @@ CppFontFace* CppFontFace::New2(::g::Uno::IO::BundleFile* file)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/CppFontFace.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/CppFontFace.uno
 // ------------------------------------------------------------------------------------
 
 // internal extern struct CppFontFaceHandle :11
@@ -431,7 +431,7 @@ uStructType* CppFontFaceHandle_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/DefaultTextTransform.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/DefaultTextTransform.uno
 // ---------------------------------------------------------------------------------------------
 
 // public sealed class DefaultTextTransform :6
@@ -439,7 +439,7 @@ uStructType* CppFontFaceHandle_typeof()
 static void DefaultTextTransform_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("DefaultTextTransform: Not implemented on mobile");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/DefaultTextTransform.uno");
+    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/DefaultTextTransform.uno");
     type->SetDependencies(
         ::g::Uno::Diagnostics::Debug_typeof());
     type->SetFields(0,
@@ -514,7 +514,7 @@ DefaultTextTransform* DefaultTextTransform::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/FontFace.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/FontFace.uno
 // ---------------------------------------------------------------------------------
 
 // public abstract class FontFace :8
@@ -575,7 +575,7 @@ FontFace* FontFace::Load1(::g::Uno::IO::BundleFile* file)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/FontFaceHelpers.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/FontFaceHelpers.uno
 // ----------------------------------------------------------------------------------------
 
 // public static class FontFaceHelpers :15
@@ -586,6 +586,8 @@ static void FontFaceHelpers_build(uType* type)
     ::TYPES[0] = ::g::Uno::Collections::Dictionary_typeof()->MakeType(::g::Uno::Char_typeof(), ::g::Uno::Content::Fonts::RenderedGlyph_typeof(), NULL);
     ::TYPES[1] = ::g::Uno::Collections::Dictionary__Enumerator_typeof()->MakeType(::g::Uno::Char_typeof(), ::g::Uno::Content::Fonts::RenderedGlyph_typeof(), NULL);
     ::TYPES[2] = ::g::Uno::Collections::KeyValuePair_typeof()->MakeType(::g::Uno::Char_typeof(), ::g::Uno::Content::Fonts::RenderedGlyph_typeof(), NULL);
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
 }
 
 uClassType* FontFaceHelpers_typeof()
@@ -594,6 +596,7 @@ uClassType* FontFaceHelpers_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.DependencyCount = 1;
     options.TypeSize = sizeof(uClassType);
     type = uClassType::New("Uno.Content.Fonts.FontFaceHelpers", options);
     type->fp_build_ = FontFaceHelpers_build;
@@ -669,7 +672,7 @@ void FontFaceHelpers__RenderSpriteFont_fn(::g::Uno::Content::Fonts::FontFace* fo
 
                     if (src != NULL)
                     {
-                        srcSize = ::g::Uno::Float2__op_Implicit1(uPtr(src)->Size());
+                        srcSize = ::g::Uno::Float2__op_Implicit2(uPtr(src)->Size());
                         int32_t bpp = ::g::Uno::Graphics::FormatHelpers::GetStrideInBytes(src->Format());
 
                         for (int32_t srcY = 0; srcY < src->Size().Y; srcY++)
@@ -730,7 +733,7 @@ void FontFaceHelpers__RenderSpriteFont_fn(::g::Uno::Content::Fonts::FontFace* fo
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/BitmapFont.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/BitmapFont.uno
 // -----------------------------------------------------------------------------------
 
 // public struct BitmapFont.GlyphInfo :9
@@ -761,7 +764,7 @@ uStructType* BitmapFont__GlyphInfo_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/RenderedGlyph.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/RenderedGlyph.uno
 // --------------------------------------------------------------------------------------
 
 // public struct RenderedGlyph :6
@@ -818,7 +821,7 @@ RenderedGlyph RenderedGlyph__New1(::g::Uno::Float2 advance, ::g::Uno::Float2 bea
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/SpriteFontShader.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/SpriteFontShader.uno
 // -----------------------------------------------------------------------------------------
 
 // public sealed class SpriteFontShader :22
@@ -907,7 +910,7 @@ SpriteFontShader* SpriteFontShader::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/TextRenderer.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/TextRenderer.uno
 // -------------------------------------------------------------------------------------
 
 // public sealed class TextRenderer :10
@@ -917,6 +920,8 @@ static void TextRenderer_build(uType* type)
     ::STRINGS[3] = uString::Const("font");
     ::TYPES[3] = ::g::Uno::Char_typeof();
     ::TYPES[4] = ::g::Uno::IDisposable_typeof();
+    type->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->SetFields(0,
         ::g::Uno::Int_typeof(), offsetof(TextRenderer, _maxCharCount), 0,
         ::g::Uno::Float_typeof(), offsetof(TextRenderer, _tracking), 0,
@@ -938,6 +943,7 @@ uType* TextRenderer_typeof()
 
     uTypeOptions options;
     options.FieldCount = 11;
+    options.DependencyCount = 1;
     options.ObjectSize = sizeof(TextRenderer);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Uno.Content.Fonts.TextRenderer", options);
@@ -1317,7 +1323,7 @@ TextRenderer* TextRenderer::New1(int32_t maxCharCount, ::g::Uno::Content::Fonts:
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/TextShader.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/TextShader.uno
 // -----------------------------------------------------------------------------------
 
 // public abstract class TextShader :52
@@ -1351,7 +1357,7 @@ void TextShader::ctor_()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/TextShader.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/TextShader.uno
 // -----------------------------------------------------------------------------------
 
 // public sealed class TextShaderData :8
@@ -1429,7 +1435,7 @@ TextShaderData* TextShaderData::New1(::g::Uno::Graphics::IndexBuffer* ibo, ::g::
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Content/Fonts/TextTransform.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/TextTransform.uno
 // --------------------------------------------------------------------------------------
 
 // public abstract class TextTransform :6

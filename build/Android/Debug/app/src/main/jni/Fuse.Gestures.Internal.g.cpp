@@ -65,7 +65,7 @@ namespace Fuse{
 namespace Gestures{
 namespace Internal{
 
-// /usr/local/share/uno/Packages/Fuse.Gestures/1.8.1/Internal/Swiper.uno
+// /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Internal/Swiper.uno
 // ---------------------------------------------------------------------
 
 // private sealed class SwipeRegion.DoSwiped :156
@@ -132,7 +132,7 @@ SwipeRegion__DoSwiped* SwipeRegion__DoSwiped::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Gestures/1.8.1/Internal/EdgeSwiper.uno
+// /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Internal/EdgeSwiper.uno
 // -------------------------------------------------------------------------
 
 // internal sealed class EdgeSwiper :10
@@ -158,6 +158,7 @@ static void EdgeSwiper_build(uType* type)
     ::TYPES[9] = ::g::Fuse::Input::PointerReleasedHandler_typeof();
     ::TYPES[10] = ::g::Uno::Action2_typeof()->MakeType(uObject_typeof(), ::g::Uno::Double_typeof(), NULL);
     type->SetDependencies(
+        ::g::Uno::Math_typeof(),
         ::g::Fuse::Input::Pointer_typeof(),
         ::g::Fuse::UpdateManager_typeof());
     type->SetFields(0,
@@ -189,7 +190,7 @@ uType* EdgeSwiper_typeof()
 
     uTypeOptions options;
     options.FieldCount = 19;
-    options.DependencyCount = 2;
+    options.DependencyCount = 3;
     options.ObjectSize = sizeof(EdgeSwiper);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Fuse.Gestures.Internal.EdgeSwiper", options);
@@ -687,7 +688,7 @@ EdgeSwiper* EdgeSwiper::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Gestures/1.8.1/Internal/Swiper.uno
+// /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Internal/Swiper.uno
 // ---------------------------------------------------------------------
 
 // public enum SwipeRegion.ProgressFlags :51
@@ -704,7 +705,7 @@ uEnumType* SwipeRegion__ProgressFlags_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Gestures/1.8.1/Internal/Swiper.uno
+// /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Internal/Swiper.uno
 // ---------------------------------------------------------------------
 
 // internal sealed class Swiper :287
@@ -719,7 +720,7 @@ static void Swiper__cctor__fn(uType* __type)
 static void Swiper_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("incomplete swipe detected");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Gestures/1.8.1/Internal/Swiper.uno");
+    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Internal/Swiper.uno");
     ::STRINGS[2] = uString::Const("CheckNeedUpdated");
     ::STRINGS[3] = uString::Const("invalid OnCapture");
     ::STRINGS[4] = uString::Const("Fuse.Input.IGesture.OnCaptureChanged");
@@ -731,6 +732,7 @@ static void Swiper_build(uType* type)
     ::TYPES[5] = ::g::Fuse::Motion::Simulation::DestinationSimulation_typeof()->MakeType(::g::Uno::Float_typeof(), NULL);
     type->SetDependencies(
         ::g::Fuse::Input::Gestures_typeof(),
+        ::g::Uno::Math_typeof(),
         ::g::Fuse::UpdateManager_typeof());
     type->SetInterfaces(
         ::g::Fuse::Input::IGesture_typeof(), offsetof(Swiper_type, interface0));
@@ -761,7 +763,7 @@ Swiper_type* Swiper_typeof()
     uTypeOptions options;
     options.FieldCount = 16;
     options.InterfaceCount = 1;
-    options.DependencyCount = 2;
+    options.DependencyCount = 3;
     options.ObjectSize = sizeof(Swiper);
     options.TypeSize = sizeof(Swiper_type);
     type = (Swiper_type*)uClassType::New("Fuse.Gestures.Internal.Swiper", options);
@@ -1232,7 +1234,7 @@ Swiper* Swiper::New1(::g::Fuse::Elements::Element* elm)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Gestures/1.8.1/Internal/Swiper.uno
+// /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Internal/Swiper.uno
 // ---------------------------------------------------------------------
 
 // internal sealed class SwipeRegion :19
@@ -1240,14 +1242,15 @@ Swiper* Swiper::New1(::g::Fuse::Elements::Element* elm)
 // static generated SwipeRegion() :19
 static void SwipeRegion__cctor__fn(uType* __type)
 {
-    SwipeRegion::InProgressName_ = ::g::Uno::UX::Selector__op_Implicit(uString::Const("InProgress"));
-    SwipeRegion::ProgressName_ = ::g::Uno::UX::Selector__op_Implicit(uString::Const("Progress"));
-    SwipeRegion::_isActiveName_ = ::g::Uno::UX::Selector__op_Implicit(uString::Const("IsActive"));
+    SwipeRegion::InProgressName_ = ::g::Uno::UX::Selector__op_Implicit1(uString::Const("InProgress"));
+    SwipeRegion::ProgressName_ = ::g::Uno::UX::Selector__op_Implicit1(uString::Const("Progress"));
+    SwipeRegion::_isActiveName_ = ::g::Uno::UX::Selector__op_Implicit1(uString::Const("IsActive"));
 }
 
 static void SwipeRegion_build(uType* type)
 {
     type->SetDependencies(
+        ::g::Uno::Math_typeof(),
         ::g::Fuse::UpdateManager_typeof());
     type->SetInterfaces(
         ::g::Uno::UX::IPropertyListener_typeof(), offsetof(SwipeRegion_type, interface0));
@@ -1289,7 +1292,7 @@ SwipeRegion_type* SwipeRegion_typeof()
     options.BaseDefinition = ::g::Uno::UX::PropertyObject_typeof();
     options.FieldCount = 27;
     options.InterfaceCount = 1;
-    options.DependencyCount = 1;
+    options.DependencyCount = 2;
     options.ObjectSize = sizeof(SwipeRegion);
     options.TypeSize = sizeof(SwipeRegion_type);
     type = (SwipeRegion_type*)uClassType::New("Fuse.Gestures.Internal.SwipeRegion", options);
@@ -1718,7 +1721,7 @@ SwipeRegion* SwipeRegion::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Gestures/1.8.1/Internal/Swiper.uno
+// /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Internal/Swiper.uno
 // ---------------------------------------------------------------------
 
 // internal enum SwipeRegionArea :13

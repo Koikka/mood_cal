@@ -45,15 +45,15 @@ public class NativeSurface
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object DummyBitmap344()
+    public static Object DummyBitmap347()
     {
         return Bitmap.createBitmap(10,10,Bitmap.Config.ARGB_8888);
     }
     
-    public static void SetCanvas345(final Object context,final Object canvas)
+    public static void SetCanvas348(final Object context,final Object canvas)
     {
         GraphicsSurfaceContext impl = (GraphicsSurfaceContext) context;
         impl.canvas = (Canvas)canvas;

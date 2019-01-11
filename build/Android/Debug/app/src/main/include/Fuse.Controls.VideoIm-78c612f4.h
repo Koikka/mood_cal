@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Video/1.8.1/Android/VideoPlayer.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/Android/VideoPlayer.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -47,7 +47,7 @@ void MediaPlayer__remove_FrameAvailable_fn(MediaPlayer* __this, uDelegate* value
 void MediaPlayer__GetCurrentPosition_fn(::g::Java::Object* handle, int32_t* __retval);
 void MediaPlayer__GetDuration_fn(::g::Java::Object* handle, int32_t* __retval);
 void MediaPlayer__GetHeight_fn(::g::Java::Object* handle, int32_t* __retval);
-void MediaPlayer__GetOrientation_fn(::g::Java::Object* handle, int32_t* __retval);
+void MediaPlayer__GetOrientation_fn(::g::Java::Object* handle, uString* dataSorucePath, int32_t* __retval);
 void MediaPlayer__GetWidth_fn(::g::Java::Object* handle, int32_t* __retval);
 void MediaPlayer__IsHardwareAccelerated_fn(bool* __retval);
 void MediaPlayer__LoadAsync_fn(MediaPlayer* __this, uString* url);
@@ -83,11 +83,13 @@ void MediaPlayer__set_Volume_fn(MediaPlayer* __this, float* value);
 
 struct MediaPlayer : uObject
 {
+    int32_t _rotationDegrees;
     float _volume;
     uStrong< ::g::Java::Object*> _handle;
     uStrong< ::g::Java::Object*> _surfaceTexture;
     uStrong< ::g::Java::Object*> _surface;
     uStrong< ::g::Uno::Graphics::VideoTexture*> _videoTexture;
+    uStrong<uString*> _dataSourcePath;
     bool _frameAvailable;
     bool _isDisposed;
     uStrong<uDelegate*> Buffering1;
@@ -141,7 +143,7 @@ struct MediaPlayer : uObject
     static int32_t GetCurrentPosition(::g::Java::Object* handle);
     static int32_t GetDuration(::g::Java::Object* handle);
     static int32_t GetHeight(::g::Java::Object* handle);
-    static int32_t GetOrientation(::g::Java::Object* handle);
+    static int32_t GetOrientation(::g::Java::Object* handle, uString* dataSorucePath);
     static int32_t GetWidth(::g::Java::Object* handle);
     static bool IsHardwareAccelerated();
     static MediaPlayer* New1();

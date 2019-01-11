@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Backends/CPlusPlus/Uno/ObjectModel.cpp.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Backends/CPlusPlus/Uno/ObjectModel.cpp.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Uno/_internal.h>
@@ -18,6 +18,8 @@
 #include <Uno.String.h>
 #include <Uno.UShort.h>
 #include <Uno.Array.h>
+#include <Uno.ArgumentNullException.h>
+#include <Uno.ArgumentOutOfRang-6803b39e.h>
 #include <Uno.Delegate.h>
 #include <Uno.IndexOutOfRangeException.h>
 #include <Uno.InvalidCastException.h>
@@ -1056,12 +1058,30 @@ uString* uString::Utf16(const char16_t* nullTerminatedUtf16)
 uString* uString::CharArray(const uArray* array)
 {
     if (!array)
-        U_THROW_NRE();
-    if (array->GetType() != ::g::Uno::Char_typeof()->Array())
-        U_THROW_ICE();
+        return New(0);
+
+    U_ASSERT(array->GetType() == ::g::Uno::Char_typeof()->Array());
 
     uString* string = New(array->Length());
     memcpy(string->_ptr, array->Ptr(), sizeof(char16_t) * array->Length());
+    return string;
+}
+
+uString* uString::CharArrayRange(const uArray* array, int32_t startIndex, int32_t length)
+{
+    if (!array)
+        throw uThrowable(::g::Uno::ArgumentNullException::New6(uString::Utf8("array")), __FILE__, __LINE__);
+
+    if (startIndex < 0 || startIndex > array->Length())
+        throw uThrowable(::g::Uno::ArgumentOutOfRangeException::New6(uString::Utf8("startIndex")), __FILE__, __LINE__);
+
+    if (length < 0 || startIndex + length > array->Length())
+        throw uThrowable(::g::Uno::ArgumentOutOfRangeException::New6(uString::Utf8("length")), __FILE__, __LINE__);
+
+    U_ASSERT(array->GetType() == ::g::Uno::Char_typeof()->Array());
+
+    uString* string = New(length);
+    memcpy(string->_ptr, (char16_t*)array->Ptr() + startIndex, sizeof(char16_t) * length);
     return string;
 }
 

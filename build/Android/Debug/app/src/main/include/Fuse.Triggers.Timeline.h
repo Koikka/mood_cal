@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.8.1/Timeline.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Timeline.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,6 +7,7 @@
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.IPlayback.h>
 #include <Fuse.Triggers.IProgress.h>
@@ -26,9 +27,9 @@ namespace Triggers{
 // {
 struct Timeline_type : ::g::Fuse::Triggers::Trigger_type
 {
-    ::g::Fuse::Triggers::IPlayback interface8;
-    ::g::Fuse::Triggers::IPulseTrigger interface9;
-    ::g::Fuse::Triggers::IProgress interface10;
+    ::g::Fuse::Triggers::IPlayback interface9;
+    ::g::Fuse::Triggers::IPulseTrigger interface10;
+    ::g::Fuse::Triggers::IProgress interface11;
 };
 
 Timeline_type* Timeline_typeof();

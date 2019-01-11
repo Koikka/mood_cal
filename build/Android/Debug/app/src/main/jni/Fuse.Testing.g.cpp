@@ -20,7 +20,7 @@ namespace g{
 namespace Fuse{
 namespace Testing{
 
-// /usr/local/share/uno/Packages/Fuse.Testing/1.8.1/JavaScriptTest.uno
+// /usr/local/share/uno/Packages/Fuse.Testing/1.9.0/JavaScriptTest.uno
 // -------------------------------------------------------------------
 
 // internal sealed class TestFailedException :9
@@ -72,7 +72,7 @@ TestFailedException* TestFailedException::New4(uString* message)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Testing/1.8.1/JavaScriptTest.uno
+// /usr/local/share/uno/Packages/Fuse.Testing/1.9.0/JavaScriptTest.uno
 // -------------------------------------------------------------------
 
 // private sealed class UnoTestingHelper.TestFailure :29
@@ -136,7 +136,7 @@ UnoTestingHelper__TestFailure* UnoTestingHelper__TestFailure::New1(uString* mess
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Testing/1.8.1/JavaScriptTest.uno
+// /usr/local/share/uno/Packages/Fuse.Testing/1.9.0/JavaScriptTest.uno
 // -------------------------------------------------------------------
 
 // public sealed class UnoTestingHelper :17

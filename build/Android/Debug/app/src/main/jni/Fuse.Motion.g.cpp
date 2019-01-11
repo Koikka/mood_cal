@@ -56,7 +56,7 @@ namespace g{
 namespace Fuse{
 namespace Motion{
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/DelayFunction.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/DelayFunction.uno
 // -----------------------------------------------------------------
 
 // public sealed class DelayFunction :9
@@ -64,8 +64,9 @@ namespace Motion{
 static void DelayFunction_build(uType* type)
 {
     type->SetInterfaces(
-        ::g::Fuse::Reactive::IExpression_typeof(), offsetof(::g::Fuse::Reactive::Expression_type, interface0));
-    type->SetFields(0,
+        ::g::Fuse::Reactive::IExpression_typeof(), offsetof(::g::Fuse::Reactive::Expression_type, interface0),
+        ::g::Fuse::ISourceLocation_typeof(), offsetof(::g::Fuse::Reactive::Expression_type, interface1));
+    type->SetFields(2,
         ::g::Fuse::Reactive::Expression_typeof(), offsetof(DelayFunction, _value), 0,
         ::g::Fuse::Reactive::Expression_typeof(), offsetof(DelayFunction, _delay), 0);
 }
@@ -77,14 +78,17 @@ static void DelayFunction_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Reactive::Expression_typeof();
-    options.FieldCount = 2;
-    options.InterfaceCount = 1;
+    options.FieldCount = 4;
+    options.InterfaceCount = 2;
     options.ObjectSize = sizeof(DelayFunction);
     options.TypeSize = sizeof(::g::Fuse::Reactive::Expression_type);
     type = (::g::Fuse::Reactive::Expression_type*)uClassType::New("Fuse.Motion.DelayFunction", options);
     type->fp_build_ = DelayFunction_build;
     type->fp_Subscribe = (void(*)(::g::Fuse::Reactive::Expression*, uObject*, uObject*, uObject**))DelayFunction__Subscribe_fn;
+    type->interface1.fp_get_SourceNearest = (void(*)(uObject*, uObject**))::g::Fuse::Reactive::Expression__FuseISourceLocationget_SourceNearest_fn;
     type->interface0.fp_Subscribe = (void(*)(uObject*, uObject*, uObject*, uObject**))DelayFunction__Subscribe_fn;
+    type->interface1.fp_get_SourceLineNumber = (void(*)(uObject*, int32_t*))::g::Fuse::Reactive::Expression__get_SourceLineNumber_fn;
+    type->interface1.fp_get_SourceFileName = (void(*)(uObject*, uString**))::g::Fuse::Reactive::Expression__get_SourceFileName_fn;
     return type;
 }
 
@@ -97,7 +101,7 @@ void DelayFunction__Subscribe_fn(DelayFunction* __this, uObject* context, uObjec
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/DestinationMotion.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/DestinationMotion.uno
 // ---------------------------------------------------------------------
 
 // public sealed class DestinationMotion<T> :186
@@ -170,7 +174,7 @@ DestinationMotion* DestinationMotion::New2(uType* __type)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/DestinationMotion.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/DestinationMotion.uno
 // ---------------------------------------------------------------------
 
 // public class DestinationMotionConfig :15
@@ -178,7 +182,7 @@ DestinationMotion* DestinationMotion::New2(uType* __type)
 static void DestinationMotionConfig_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("Invalidate simulation type: ");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Motion/1.8.1/DestinationMotion.uno");
+    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Motion/1.9.0/DestinationMotion.uno");
     ::STRINGS[2] = uString::Const("Create");
     ::TYPES[1] = ::g::Fuse::Motion::Simulation::EasingMotion_typeof();
     ::TYPES[2] = ::g::Fuse::Motion::Simulation::ElasticForce_typeof();
@@ -187,6 +191,8 @@ static void DestinationMotionConfig_build(uType* type)
     ::TYPES[5] = ::g::Fuse::Motion::Simulation::AdapterMultiplier_typeof();
     type->SetDependencies(
         ::g::Fuse::Animations::Easing_typeof());
+    type->MethodTypes[0]->SetDependencies(
+        ::g::Uno::Math_typeof());
     type->MethodTypes[0]->SetPrecalc(
         ::TYPES[1/*Fuse.Motion.Simulation.EasingMotion`1*/]->MakeType(type->MethodTypes[0]->U(0), NULL),
         ::TYPES[2/*Fuse.Motion.Simulation.ElasticForce`1*/]->MakeType(type->MethodTypes[0]->U(0), NULL),
@@ -217,7 +223,7 @@ uType* DestinationMotionConfig_typeof()
     options.ObjectSize = sizeof(DestinationMotionConfig);
     options.TypeSize = sizeof(uType);
     type = uClassType::New("Fuse.Motion.DestinationMotionConfig", options);
-    type->MethodTypes[0] = type->NewMethodType(1, 5,0);
+    type->MethodTypes[0] = type->NewMethodType(1, 5,1);
     type->fp_build_ = DestinationMotionConfig_build;
     return type;
 }
@@ -472,7 +478,7 @@ void DestinationMotionConfig::Unit(int32_t value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/MotionConfig.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/MotionConfig.uno
 // ----------------------------------------------------------------
 
 // public class MotionConfig :16
@@ -663,7 +669,7 @@ void MotionConfig::Unit(int32_t value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Enums.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Enums.uno
 // ---------------------------------------------------------
 
 // public enum MotionDestinationType :23
@@ -680,7 +686,7 @@ uEnumType* MotionDestinationType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Enums.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Enums.uno
 // ---------------------------------------------------------
 
 // public enum MotionUnit :36
@@ -698,7 +704,7 @@ uEnumType* MotionUnit_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/MotionConfig.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/MotionConfig.uno
 // ----------------------------------------------------------------
 
 // public sealed class NavigationMotion :192
@@ -759,7 +765,7 @@ NavigationMotion* NavigationMotion::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/Enums.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Enums.uno
 // ---------------------------------------------------------
 
 // public enum OverflowType :10
@@ -776,7 +782,7 @@ uEnumType* OverflowType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/MotionConfig.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/MotionConfig.uno
 // ----------------------------------------------------------------
 
 // public sealed class ScrollViewMotion :211
@@ -834,7 +840,7 @@ ScrollViewMotion* ScrollViewMotion::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/DelayFunction.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/DelayFunction.uno
 // -----------------------------------------------------------------
 
 // private sealed class DelayFunction.SetClosure :46
@@ -900,7 +906,7 @@ DelayFunction__SetClosure* DelayFunction__SetClosure::New1(::g::Fuse::Motion::De
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/SpringFunction.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/SpringFunction.uno
 // ------------------------------------------------------------------
 
 // public sealed class SpringFunction :8
@@ -908,8 +914,9 @@ DelayFunction__SetClosure* DelayFunction__SetClosure::New1(::g::Fuse::Motion::De
 static void SpringFunction_build(uType* type)
 {
     type->SetInterfaces(
-        ::g::Fuse::Reactive::IExpression_typeof(), offsetof(::g::Fuse::Reactive::Expression_type, interface0));
-    type->SetFields(0,
+        ::g::Fuse::Reactive::IExpression_typeof(), offsetof(::g::Fuse::Reactive::Expression_type, interface0),
+        ::g::Fuse::ISourceLocation_typeof(), offsetof(::g::Fuse::Reactive::Expression_type, interface1));
+    type->SetFields(2,
         ::g::Fuse::Reactive::Expression_typeof(), offsetof(SpringFunction, _Value), 0);
 }
 
@@ -920,14 +927,17 @@ static void SpringFunction_build(uType* type)
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Reactive::Expression_typeof();
-    options.FieldCount = 1;
-    options.InterfaceCount = 1;
+    options.FieldCount = 3;
+    options.InterfaceCount = 2;
     options.ObjectSize = sizeof(SpringFunction);
     options.TypeSize = sizeof(::g::Fuse::Reactive::Expression_type);
     type = (::g::Fuse::Reactive::Expression_type*)uClassType::New("Fuse.Motion.SpringFunction", options);
     type->fp_build_ = SpringFunction_build;
     type->fp_Subscribe = (void(*)(::g::Fuse::Reactive::Expression*, uObject*, uObject*, uObject**))SpringFunction__Subscribe_fn;
+    type->interface1.fp_get_SourceNearest = (void(*)(uObject*, uObject**))::g::Fuse::Reactive::Expression__FuseISourceLocationget_SourceNearest_fn;
     type->interface0.fp_Subscribe = (void(*)(uObject*, uObject*, uObject*, uObject**))SpringFunction__Subscribe_fn;
+    type->interface1.fp_get_SourceLineNumber = (void(*)(uObject*, int32_t*))::g::Fuse::Reactive::Expression__get_SourceLineNumber_fn;
+    type->interface1.fp_get_SourceFileName = (void(*)(uObject*, uString**))::g::Fuse::Reactive::Expression__get_SourceFileName_fn;
     return type;
 }
 
@@ -962,184 +972,15 @@ void SpringFunction::Value(::g::Fuse::Reactive::Expression* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/SpringFunction.uno
-// ------------------------------------------------------------------
-
-// private sealed class SpringFunction.Subscription :24
-// {
-static void SpringFunction__Subscription_build(uType* type)
-{
-    ::TYPES[8] = ::g::Fuse::Motion::Simulation::ElasticForce_typeof()->MakeType(::g::Uno::Float4_typeof(), NULL);
-    ::TYPES[9] = ::g::Uno::IDisposable_typeof();
-    ::TYPES[10] = ::g::Fuse::Reactive::IListener_typeof();
-    ::TYPES[11] = ::g::Uno::Action_typeof();
-    type->SetDependencies(
-        ::g::Fuse::Marshal_typeof(),
-        ::g::Fuse::UpdateManager_typeof());
-    type->SetInterfaces(
-        ::TYPES[9/*Uno.IDisposable*/], offsetof(SpringFunction__Subscription_type, interface0),
-        ::TYPES[10/*Fuse.Reactive.IListener*/], offsetof(SpringFunction__Subscription_type, interface1));
-    type->SetFields(0,
-        ::g::Fuse::Motion::SpringFunction_typeof(), offsetof(SpringFunction__Subscription, _sf), 0,
-        ::g::Uno::Bool_typeof(), offsetof(SpringFunction__Subscription, _isSimulating), 0,
-        ::g::Uno::Bool_typeof(), offsetof(SpringFunction__Subscription, _hasStartValue), 0,
-        ::TYPES[8/*Fuse.Motion.Simulation.ElasticForce<float4>*/], offsetof(SpringFunction__Subscription, _sim), 0,
-        ::TYPES[9/*Uno.IDisposable*/], offsetof(SpringFunction__Subscription, _valueSub), 0,
-        ::TYPES[10/*Fuse.Reactive.IListener*/], offsetof(SpringFunction__Subscription, _listener), 0);
-}
-
-SpringFunction__Subscription_type* SpringFunction__Subscription_typeof()
-{
-    static uSStrong<SpringFunction__Subscription_type*> type;
-    if (type != NULL) return type;
-
-    uTypeOptions options;
-    options.FieldCount = 6;
-    options.InterfaceCount = 2;
-    options.DependencyCount = 2;
-    options.ObjectSize = sizeof(SpringFunction__Subscription);
-    options.TypeSize = sizeof(SpringFunction__Subscription_type);
-    type = (SpringFunction__Subscription_type*)uClassType::New("Fuse.Motion.SpringFunction.Subscription", options);
-    type->fp_build_ = SpringFunction__Subscription_build;
-    type->interface1.fp_OnNewData = (void(*)(uObject*, uObject*, uObject*))SpringFunction__Subscription__FuseReactiveIListenerOnNewData_fn;
-    type->interface1.fp_OnLostData = (void(*)(uObject*, uObject*))SpringFunction__Subscription__FuseReactiveIListenerOnLostData_fn;
-    type->interface0.fp_Dispose = (void(*)(uObject*))SpringFunction__Subscription__Dispose_fn;
-    return type;
-}
-
-// public Subscription(Fuse.Motion.SpringFunction sf, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) :33
-void SpringFunction__Subscription__ctor__fn(SpringFunction__Subscription* __this, ::g::Fuse::Motion::SpringFunction* sf, uObject* context, uObject* listener)
-{
-    __this->ctor_(sf, context, listener);
-}
-
-// public void Dispose() :40
-void SpringFunction__Subscription__Dispose_fn(SpringFunction__Subscription* __this)
-{
-    __this->Dispose();
-}
-
-// private void Fuse.Reactive.IListener.OnLostData(Fuse.Reactive.IExpression source) :67
-void SpringFunction__Subscription__FuseReactiveIListenerOnLostData_fn(SpringFunction__Subscription* __this, uObject* source)
-{
-    __this->StopSimulation();
-
-    if (__this->_listener != NULL)
-        ::g::Fuse::Reactive::IListener::OnLostData(uInterface(uPtr(__this->_listener), ::TYPES[10/*Fuse.Reactive.IListener*/]), source);
-}
-
-// private void Fuse.Reactive.IListener.OnNewData(Fuse.Reactive.IExpression source, object value) :50
-void SpringFunction__Subscription__FuseReactiveIListenerOnNewData_fn(SpringFunction__Subscription* __this, uObject* source, uObject* value)
-{
-    ::g::Uno::Float4 ret2;
-    ::g::Uno::Float4 v = ::g::Fuse::Marshal::ToFloat43(value);
-
-    if (!__this->_hasStartValue)
-    {
-        ::g::Fuse::Motion::Simulation::ElasticForce__Reset_fn(uPtr(__this->_sim), uCRef(v));
-        __this->_hasStartValue = true;
-        ::g::Fuse::Reactive::IListener::OnNewData(uInterface(uPtr(__this->_listener), ::TYPES[10/*Fuse.Reactive.IListener*/]), (uObject*)__this->_sf, uBox(::g::Uno::Float4_typeof(), v));
-    }
-    else if (::g::Uno::Float4__op_Inequality((::g::Fuse::Motion::Simulation::ElasticForce__get_Destination_fn(uPtr(__this->_sim), &ret2), ret2), v))
-    {
-        ::g::Fuse::Motion::Simulation::ElasticForce__set_Destination_fn(uPtr(__this->_sim), uCRef(v));
-        __this->StartSimulation();
-    }
-}
-
-// public Subscription New(Fuse.Motion.SpringFunction sf, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) :33
-void SpringFunction__Subscription__New1_fn(::g::Fuse::Motion::SpringFunction* sf, uObject* context, uObject* listener, SpringFunction__Subscription** __retval)
-{
-    *__retval = SpringFunction__Subscription::New1(sf, context, listener);
-}
-
-// private void Simulate() :88
-void SpringFunction__Subscription__Simulate_fn(SpringFunction__Subscription* __this)
-{
-    __this->Simulate();
-}
-
-// private void StartSimulation() :74
-void SpringFunction__Subscription__StartSimulation_fn(SpringFunction__Subscription* __this)
-{
-    __this->StartSimulation();
-}
-
-// private void StopSimulation() :81
-void SpringFunction__Subscription__StopSimulation_fn(SpringFunction__Subscription* __this)
-{
-    __this->StopSimulation();
-}
-
-// public Subscription(Fuse.Motion.SpringFunction sf, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) [instance] :33
-void SpringFunction__Subscription::ctor_(::g::Fuse::Motion::SpringFunction* sf, uObject* context, uObject* listener)
-{
-    _sim = ((::g::Fuse::Motion::Simulation::ElasticForce*)::g::Fuse::Motion::Simulation::ElasticForce::CreatePoints(::TYPES[8/*Fuse.Motion.Simulation.ElasticForce<float4>*/]));
-    _sf = sf;
-    _listener = listener;
-    _valueSub = uPtr(uPtr(sf)->Value())->Subscribe(context, (uObject*)this);
-}
-
-// public void Dispose() [instance] :40
-void SpringFunction__Subscription::Dispose()
-{
-    if (_valueSub != NULL)
-        ::g::Uno::IDisposable::Dispose(uInterface(uPtr(_valueSub), ::TYPES[9/*Uno.IDisposable*/]));
-
-    _valueSub = NULL;
-    _listener = NULL;
-    StopSimulation();
-}
-
-// private void Simulate() [instance] :88
-void SpringFunction__Subscription::Simulate()
-{
-    ::g::Uno::Float4 ret3;
-    uPtr(_sim)->Update(::g::Fuse::Time::FrameInterval());
-    ::g::Fuse::Reactive::IListener::OnNewData(uInterface(uPtr(_listener), ::TYPES[10/*Fuse.Reactive.IListener*/]), (uObject*)_sf, uBox(::g::Uno::Float4_typeof(), (::g::Fuse::Motion::Simulation::ElasticForce__get_Position_fn(uPtr(_sim), &ret3), ret3)));
-
-    if (uPtr(_sim)->IsStatic())
-        StopSimulation();
-}
-
-// private void StartSimulation() [instance] :74
-void SpringFunction__Subscription::StartSimulation()
-{
-    if (_isSimulating)
-        return;
-
-    ::g::Fuse::UpdateManager::AddAction1(uDelegate::New(::TYPES[11/*Uno.Action*/], (void*)SpringFunction__Subscription__Simulate_fn, this), 0);
-    _isSimulating = true;
-}
-
-// private void StopSimulation() [instance] :81
-void SpringFunction__Subscription::StopSimulation()
-{
-    if (!_isSimulating)
-        return;
-
-    ::g::Fuse::UpdateManager::RemoveAction1(uDelegate::New(::TYPES[11/*Uno.Action*/], (void*)SpringFunction__Subscription__Simulate_fn, this), 0);
-    _isSimulating = false;
-}
-
-// public Subscription New(Fuse.Motion.SpringFunction sf, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) [static] :33
-SpringFunction__Subscription* SpringFunction__Subscription::New1(::g::Fuse::Motion::SpringFunction* sf, uObject* context, uObject* listener)
-{
-    SpringFunction__Subscription* obj1 = (SpringFunction__Subscription*)uNew(SpringFunction__Subscription_typeof());
-    obj1->ctor_(sf, context, listener);
-    return obj1;
-}
-// }
-
-// /usr/local/share/uno/Packages/Fuse.Motion/1.8.1/DelayFunction.uno
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/DelayFunction.uno
 // -----------------------------------------------------------------
 
 // private sealed class DelayFunction.Subscription :27
 // {
 static void DelayFunction__Subscription_build(uType* type)
 {
-    ::TYPES[12] = ::g::Fuse::Reactive::Expression_typeof()->Array();
-    ::TYPES[11] = ::g::Uno::Action_typeof();
+    ::TYPES[8] = ::g::Fuse::Reactive::Expression_typeof()->Array();
+    ::TYPES[9] = ::g::Uno::Action_typeof();
     type->SetDependencies(
         ::g::Fuse::Marshal_typeof());
     type->SetInterfaces(
@@ -1184,7 +1025,7 @@ void DelayFunction__Subscription__New1_fn(::g::Fuse::Motion::DelayFunction* sour
 // protected override sealed void OnArguments(Fuse.Reactive.Expression.Argument[] args) :33
 void DelayFunction__Subscription__OnArguments_fn(DelayFunction__Subscription* __this, uArray* args)
 {
-    ::g::Fuse::Timer::Wait(::g::Fuse::Marshal::ToDouble(uPtr(uPtr(args)->Strong< ::g::Fuse::Reactive::Expression__Argument*>(1))->Value()), uDelegate::New(::TYPES[11/*Uno.Action*/], (void*)::g::Fuse::Motion::DelayFunction__SetClosure__Run_fn, ::g::Fuse::Motion::DelayFunction__SetClosure::New1(__this, uPtr(uPtr(args)->Strong< ::g::Fuse::Reactive::Expression__Argument*>(0))->Value())));
+    ::g::Fuse::Timer::Wait(::g::Fuse::Marshal::ToDouble(uPtr(uPtr(args)->Strong< ::g::Fuse::Reactive::Expression__Argument*>(1))->Value()), uDelegate::New(::TYPES[9/*Uno.Action*/], (void*)::g::Fuse::Motion::DelayFunction__SetClosure__Run_fn, ::g::Fuse::Motion::DelayFunction__SetClosure::New1(__this, uPtr(uPtr(args)->Strong< ::g::Fuse::Reactive::Expression__Argument*>(0))->Value())));
 }
 
 // public new void SetData(object value) :40
@@ -1196,7 +1037,7 @@ void DelayFunction__Subscription__SetData1_fn(DelayFunction__Subscription* __thi
 // public Subscription(Fuse.Motion.DelayFunction source, Fuse.Reactive.IListener listener) [instance] :29
 void DelayFunction__Subscription::ctor_3(::g::Fuse::Motion::DelayFunction* source, uObject* listener)
 {
-    ctor_2(source, listener, uArray::Init< ::g::Fuse::Reactive::Expression*>(::TYPES[12/*Fuse.Reactive.Expression[]*/], 2, (::g::Fuse::Reactive::Expression*)uPtr(source)->_value, (::g::Fuse::Reactive::Expression*)uPtr(source)->_delay), 0);
+    ctor_2(source, listener, uArray::Init< ::g::Fuse::Reactive::Expression*>(::TYPES[8/*Fuse.Reactive.Expression[]*/], 2, (::g::Fuse::Reactive::Expression*)uPtr(source)->_value, (::g::Fuse::Reactive::Expression*)uPtr(source)->_delay), 0);
 }
 
 // public new void SetData(object value) [instance] :40
@@ -1210,6 +1051,175 @@ DelayFunction__Subscription* DelayFunction__Subscription::New1(::g::Fuse::Motion
 {
     DelayFunction__Subscription* obj1 = (DelayFunction__Subscription*)uNew(DelayFunction__Subscription_typeof());
     obj1->ctor_3(source, listener);
+    return obj1;
+}
+// }
+
+// /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/SpringFunction.uno
+// ------------------------------------------------------------------
+
+// private sealed class SpringFunction.Subscription :24
+// {
+static void SpringFunction__Subscription_build(uType* type)
+{
+    ::TYPES[10] = ::g::Fuse::Motion::Simulation::ElasticForce_typeof()->MakeType(::g::Uno::Float4_typeof(), NULL);
+    ::TYPES[11] = ::g::Uno::IDisposable_typeof();
+    ::TYPES[12] = ::g::Fuse::Reactive::IListener_typeof();
+    ::TYPES[9] = ::g::Uno::Action_typeof();
+    type->SetDependencies(
+        ::g::Fuse::Marshal_typeof(),
+        ::g::Fuse::UpdateManager_typeof());
+    type->SetInterfaces(
+        ::TYPES[11/*Uno.IDisposable*/], offsetof(SpringFunction__Subscription_type, interface0),
+        ::TYPES[12/*Fuse.Reactive.IListener*/], offsetof(SpringFunction__Subscription_type, interface1));
+    type->SetFields(0,
+        ::g::Fuse::Motion::SpringFunction_typeof(), offsetof(SpringFunction__Subscription, _sf), 0,
+        ::g::Uno::Bool_typeof(), offsetof(SpringFunction__Subscription, _isSimulating), 0,
+        ::g::Uno::Bool_typeof(), offsetof(SpringFunction__Subscription, _hasStartValue), 0,
+        ::TYPES[10/*Fuse.Motion.Simulation.ElasticForce<float4>*/], offsetof(SpringFunction__Subscription, _sim), 0,
+        ::TYPES[11/*Uno.IDisposable*/], offsetof(SpringFunction__Subscription, _valueSub), 0,
+        ::TYPES[12/*Fuse.Reactive.IListener*/], offsetof(SpringFunction__Subscription, _listener), 0);
+}
+
+SpringFunction__Subscription_type* SpringFunction__Subscription_typeof()
+{
+    static uSStrong<SpringFunction__Subscription_type*> type;
+    if (type != NULL) return type;
+
+    uTypeOptions options;
+    options.FieldCount = 6;
+    options.InterfaceCount = 2;
+    options.DependencyCount = 2;
+    options.ObjectSize = sizeof(SpringFunction__Subscription);
+    options.TypeSize = sizeof(SpringFunction__Subscription_type);
+    type = (SpringFunction__Subscription_type*)uClassType::New("Fuse.Motion.SpringFunction.Subscription", options);
+    type->fp_build_ = SpringFunction__Subscription_build;
+    type->interface1.fp_OnNewData = (void(*)(uObject*, uObject*, uObject*))SpringFunction__Subscription__FuseReactiveIListenerOnNewData_fn;
+    type->interface1.fp_OnLostData = (void(*)(uObject*, uObject*))SpringFunction__Subscription__FuseReactiveIListenerOnLostData_fn;
+    type->interface0.fp_Dispose = (void(*)(uObject*))SpringFunction__Subscription__Dispose_fn;
+    return type;
+}
+
+// public Subscription(Fuse.Motion.SpringFunction sf, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) :33
+void SpringFunction__Subscription__ctor__fn(SpringFunction__Subscription* __this, ::g::Fuse::Motion::SpringFunction* sf, uObject* context, uObject* listener)
+{
+    __this->ctor_(sf, context, listener);
+}
+
+// public void Dispose() :40
+void SpringFunction__Subscription__Dispose_fn(SpringFunction__Subscription* __this)
+{
+    __this->Dispose();
+}
+
+// private void Fuse.Reactive.IListener.OnLostData(Fuse.Reactive.IExpression source) :67
+void SpringFunction__Subscription__FuseReactiveIListenerOnLostData_fn(SpringFunction__Subscription* __this, uObject* source)
+{
+    __this->StopSimulation();
+
+    if (__this->_listener != NULL)
+        ::g::Fuse::Reactive::IListener::OnLostData(uInterface(uPtr(__this->_listener), ::TYPES[12/*Fuse.Reactive.IListener*/]), source);
+}
+
+// private void Fuse.Reactive.IListener.OnNewData(Fuse.Reactive.IExpression source, object value) :50
+void SpringFunction__Subscription__FuseReactiveIListenerOnNewData_fn(SpringFunction__Subscription* __this, uObject* source, uObject* value)
+{
+    ::g::Uno::Float4 ret2;
+    ::g::Uno::Float4 v = ::g::Fuse::Marshal::ToFloat43(value);
+
+    if (!__this->_hasStartValue)
+    {
+        ::g::Fuse::Motion::Simulation::ElasticForce__Reset_fn(uPtr(__this->_sim), uCRef(v));
+        __this->_hasStartValue = true;
+        ::g::Fuse::Reactive::IListener::OnNewData(uInterface(uPtr(__this->_listener), ::TYPES[12/*Fuse.Reactive.IListener*/]), (uObject*)__this->_sf, uBox(::g::Uno::Float4_typeof(), v));
+    }
+    else if (::g::Uno::Float4__op_Inequality((::g::Fuse::Motion::Simulation::ElasticForce__get_Destination_fn(uPtr(__this->_sim), &ret2), ret2), v))
+    {
+        ::g::Fuse::Motion::Simulation::ElasticForce__set_Destination_fn(uPtr(__this->_sim), uCRef(v));
+        __this->StartSimulation();
+    }
+}
+
+// public Subscription New(Fuse.Motion.SpringFunction sf, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) :33
+void SpringFunction__Subscription__New1_fn(::g::Fuse::Motion::SpringFunction* sf, uObject* context, uObject* listener, SpringFunction__Subscription** __retval)
+{
+    *__retval = SpringFunction__Subscription::New1(sf, context, listener);
+}
+
+// private void Simulate() :88
+void SpringFunction__Subscription__Simulate_fn(SpringFunction__Subscription* __this)
+{
+    __this->Simulate();
+}
+
+// private void StartSimulation() :74
+void SpringFunction__Subscription__StartSimulation_fn(SpringFunction__Subscription* __this)
+{
+    __this->StartSimulation();
+}
+
+// private void StopSimulation() :81
+void SpringFunction__Subscription__StopSimulation_fn(SpringFunction__Subscription* __this)
+{
+    __this->StopSimulation();
+}
+
+// public Subscription(Fuse.Motion.SpringFunction sf, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) [instance] :33
+void SpringFunction__Subscription::ctor_(::g::Fuse::Motion::SpringFunction* sf, uObject* context, uObject* listener)
+{
+    _sim = ((::g::Fuse::Motion::Simulation::ElasticForce*)::g::Fuse::Motion::Simulation::ElasticForce::CreatePoints(::TYPES[10/*Fuse.Motion.Simulation.ElasticForce<float4>*/]));
+    _sf = sf;
+    _listener = listener;
+    _valueSub = uPtr(uPtr(sf)->Value())->Subscribe(context, (uObject*)this);
+}
+
+// public void Dispose() [instance] :40
+void SpringFunction__Subscription::Dispose()
+{
+    if (_valueSub != NULL)
+        ::g::Uno::IDisposable::Dispose(uInterface(uPtr(_valueSub), ::TYPES[11/*Uno.IDisposable*/]));
+
+    _valueSub = NULL;
+    _listener = NULL;
+    StopSimulation();
+}
+
+// private void Simulate() [instance] :88
+void SpringFunction__Subscription::Simulate()
+{
+    ::g::Uno::Float4 ret3;
+    uPtr(_sim)->Update(::g::Fuse::Time::FrameInterval());
+    ::g::Fuse::Reactive::IListener::OnNewData(uInterface(uPtr(_listener), ::TYPES[12/*Fuse.Reactive.IListener*/]), (uObject*)_sf, uBox(::g::Uno::Float4_typeof(), (::g::Fuse::Motion::Simulation::ElasticForce__get_Position_fn(uPtr(_sim), &ret3), ret3)));
+
+    if (uPtr(_sim)->IsStatic())
+        StopSimulation();
+}
+
+// private void StartSimulation() [instance] :74
+void SpringFunction__Subscription::StartSimulation()
+{
+    if (_isSimulating)
+        return;
+
+    ::g::Fuse::UpdateManager::AddAction1(uDelegate::New(::TYPES[9/*Uno.Action*/], (void*)SpringFunction__Subscription__Simulate_fn, this), 0);
+    _isSimulating = true;
+}
+
+// private void StopSimulation() [instance] :81
+void SpringFunction__Subscription::StopSimulation()
+{
+    if (!_isSimulating)
+        return;
+
+    ::g::Fuse::UpdateManager::RemoveAction1(uDelegate::New(::TYPES[9/*Uno.Action*/], (void*)SpringFunction__Subscription__Simulate_fn, this), 0);
+    _isSimulating = false;
+}
+
+// public Subscription New(Fuse.Motion.SpringFunction sf, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) [static] :33
+SpringFunction__Subscription* SpringFunction__Subscription::New1(::g::Fuse::Motion::SpringFunction* sf, uObject* context, uObject* listener)
+{
+    SpringFunction__Subscription* obj1 = (SpringFunction__Subscription*)uNew(SpringFunction__Subscription_typeof());
+    obj1->ctor_(sf, context, listener);
     return obj1;
 }
 // }

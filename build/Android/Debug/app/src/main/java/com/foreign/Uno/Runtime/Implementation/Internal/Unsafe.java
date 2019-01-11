@@ -20,10 +20,10 @@ public class Unsafe
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void Quit56()
+    public static void Quit59()
     {
         com.fuse.App.TerminateNow();
     }

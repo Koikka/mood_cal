@@ -1,8 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Backends/CPlusPlus/Uno/Support.cpp.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Backends/CPlusPlus/Uno/Support.cpp.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Uno/Support.h>
 #include <uBase/Buffer.h>
+#include <uBase/BufferStream.h>
 #include <uBase/Path.h>
 #include <uImage/Bitmap.h>
 #include <uImage/Jpeg.h>
@@ -49,7 +50,7 @@ void uLogv(int level, const char* format, va_list args)
         ANDROID_LOG_ERROR,  // uLogLevelError
         ANDROID_LOG_FATAL   // uLogLevelFatal
     };
-    __android_log_vprint(logs[level], "mood_calendar", format, args);
+    __android_log_vprint(logs[level], "Kalenteri", format, args);
 #else
     static const char* strings[] = {
         "",             // uLogLevelDebug
@@ -157,15 +158,17 @@ uBase::Vector2 uFloat2ToXliVector2(const ::g::Uno::Float2& vec)
     return ::g::Uno::Buffer::New3(arr, 0, arr->Length());
 }
 
-uImage::Texture* uLoadXliTexture(const uBase::String& filename, uBase::Stream* stream)
+uImage::Texture* uLoadXliTexture(const uBase::String& filename, uArray* data)
 {
     uBase::String fnUpper = filename.ToUpper();
     uBase::Auto<uImage::ImageReader> ir;
+    uBase::BufferPtr buffer(data->Ptr(), data->Length(), false);
+    uBase::BufferStream stream(&buffer, true, false);
 
     if (fnUpper.EndsWith(".PNG"))
-        ir = uImage::Png::CreateReader(stream);
+        ir = uImage::Png::CreateReader(&stream);
     else if (fnUpper.EndsWith(".JPG") || fnUpper.EndsWith(".JPEG"))
-        ir = uImage::Jpeg::CreateReader(stream);
+        ir = uImage::Jpeg::CreateReader(&stream);
     else
         throw uBase::Exception("Unsupported texture extension '" + uBase::Path::GetExtension(filename) + "'");
 

@@ -24,32 +24,32 @@ public class ActivityUtils
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object GetRootActivity68()
+    public static Object GetRootActivity71()
     {
         return com.fuse.Activity.getRootActivity();
     }
     
-    public static Object Init69()
+    public static Object Init72()
     {
         com.fuse.Activity.ResultListener l = new com.fuse.Activity.ResultListener() {
             @Override public boolean onResult(int requestCode, int resultCode, android.content.Intent data) {
-                return ExternedBlockHost.callUno_Android_ActivityUtils_OnReceived70((int)requestCode,(int)resultCode,(Object)data,UnoHelper.GetUnoObjectRef((Object)data));
+                return ExternedBlockHost.callUno_Android_ActivityUtils_OnReceived73((int)requestCode,(int)resultCode,(Object)data,UnoHelper.GetUnoObjectRef((Object)data));
             }
         };
         com.fuse.Activity.subscribeToResults(l);
         return l;
     }
     
-    public static void StartActivity71(final Object _intent)
+    public static void StartActivity74(final Object _intent)
     {
         Activity a = com.fuse.Activity.getRootActivity();
         a.startActivity((Intent)_intent);
     }
     
-    public static void StartForResultJava72(final int id,final Object _intent)
+    public static void StartForResultJava75(final int id,final Object _intent)
     {
         Activity a = com.fuse.Activity.getRootActivity();
         a.startActivityForResult((Intent)_intent, id);

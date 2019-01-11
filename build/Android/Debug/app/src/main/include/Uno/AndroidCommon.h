@@ -4,4 +4,4 @@
 #include <cstdio>
 #include <cstdlib>
 
-#define LOGD(...) (__android_log_print(ANDROID_LOG_DEBUG, "mood_calendar", __VA_ARGS__))
+#define LOGD(...) (__android_log_print(ANDROID_LOG_DEBUG, "Kalenteri", __VA_ARGS__))

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.8.1/ScrollView.Layout.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/ScrollView.Layout.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,6 +9,7 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -38,10 +39,11 @@ namespace Controls{
 // {
 struct ScrollViewBase_type : ::g::Fuse::Controls::ContentControl_type
 {
-    ::g::Fuse::Controls::Native::IScrollViewHost interface17;
+    ::g::Fuse::Controls::Native::IScrollViewHost interface18;
 };
 
 ScrollViewBase_type* ScrollViewBase_typeof();
+void ScrollViewBase__ctor_6_fn(ScrollViewBase* __this);
 void ScrollViewBase__get_AllowedScrollDirections_fn(ScrollViewBase* __this, int32_t* __retval);
 void ScrollViewBase__set_AllowedScrollDirections_fn(ScrollViewBase* __this, int32_t* value);
 void ScrollViewBase__ArrangeContent_fn(ScrollViewBase* __this, ::g::Fuse::LayoutParams* lp);
@@ -81,6 +83,7 @@ void ScrollViewBase__OnRooted_fn(ScrollViewBase* __this);
 void ScrollViewBase__OnScrollPositionChanged_fn(ScrollViewBase* __this, ::g::Uno::Float2* arrangeOffset, bool* adjustment, uObject* origin);
 void ScrollViewBase__OnScrollPropertyChanged_fn(ScrollViewBase* __this, ::g::Uno::UX::Selector* name, uObject* origin);
 void ScrollViewBase__OnUnrooted_fn(ScrollViewBase* __this);
+void ScrollViewBase__PushPropertiesToNativeView_fn(ScrollViewBase* __this);
 void ScrollViewBase__get_RelativeScrollPosition_fn(ScrollViewBase* __this, ::g::Uno::Float2* __retval);
 void ScrollViewBase__set_RelativeScrollPosition_fn(ScrollViewBase* __this, ::g::Uno::Float2* value);
 void ScrollViewBase__RelativeToAbsolutePosition_fn(ScrollViewBase* __this, ::g::Uno::Float2* pos, ::g::Uno::Float2* __retval);
@@ -140,6 +143,7 @@ struct ScrollViewBase : ::g::Fuse::Controls::ContentControl
     static ::g::Uno::UX::Selector& ScrollPositionName() { return ScrollViewBase_typeof()->Init(), ScrollPositionName_; }
     uStrong<uDelegate*> ScrollPositionChanged1;
 
+    void ctor_6();
     int32_t AllowedScrollDirections();
     void AllowedScrollDirections(int32_t value);
     void ArrangeContent(::g::Fuse::LayoutParams lp);

@@ -37,7 +37,7 @@ namespace g{
 namespace Uno{
 namespace Time{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/CalendarSystem.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/CalendarSystem.uno
 // ------------------------------------------------------------------------------
 
 // public sealed class CalendarSystem :6
@@ -217,7 +217,7 @@ CalendarSystem* CalendarSystem::Iso()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Utilities/Constants.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Utilities/Constants.uno
 // -----------------------------------------------------------------------------------
 
 // public static class Constants :3
@@ -254,7 +254,7 @@ uClassType* Constants_typeof()
 ::g::Uno::Time::Instant Constants::BclEpoch_;
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Utilities/Converter.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Utilities/Converter.uno
 // -----------------------------------------------------------------------------------
 
 // internal static class Converter :3
@@ -291,7 +291,7 @@ int32_t Converter::TicksToDays(int64_t ticks)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/DateTimeZone.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/DateTimeZone.uno
 // ----------------------------------------------------------------------------
 
 // public abstract class DateTimeZone :3
@@ -411,7 +411,7 @@ DateTimeZone* DateTimeZone::Utc()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Timezones/DeviceTimeZone.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Timezones/DeviceTimeZone.uno
 // ----------------------------------------------------------------------------------------
 
 // public sealed class DeviceTimeZone :5
@@ -474,7 +474,7 @@ void DeviceTimeZone__ToString_fn(DeviceTimeZone* __this, uString** __retval)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Duration.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Duration.uno
 // ------------------------------------------------------------------------
 
 // public struct Duration :3
@@ -600,7 +600,7 @@ Duration Duration__New1(int64_t ticks1)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Timezones/FixedDateTimeZone.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Timezones/FixedDateTimeZone.uno
 // -------------------------------------------------------------------------------------------
 
 // internal sealed class FixedDateTimeZone :3
@@ -706,7 +706,7 @@ FixedDateTimeZone* FixedDateTimeZone::New2(::g::Uno::Time::Offset offset1)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Utilities/HashcodeHelper.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Utilities/HashcodeHelper.uno
 // ----------------------------------------------------------------------------------------
 
 // internal static class HashCodeHelper :3
@@ -766,7 +766,7 @@ int32_t HashCodeHelper::MakeHash(int32_t code, int32_t value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Instant.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Instant.uno
 // -----------------------------------------------------------------------
 
 // public struct Instant :5
@@ -964,7 +964,7 @@ Instant Instant__op_Subtraction(Instant left, ::g::Uno::Time::Duration right)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/LocalDateTime.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/LocalDateTime.uno
 // -----------------------------------------------------------------------------
 
 // public struct LocalDateTime :6
@@ -1201,7 +1201,7 @@ bool LocalDateTime__op_Equality(LocalDateTime left, LocalDateTime right)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Offset.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Offset.uno
 // ----------------------------------------------------------------------
 
 // public struct Offset :5
@@ -1372,7 +1372,7 @@ bool Offset__op_Equality(Offset left, Offset right)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/Utilities/Preconditions.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Utilities/Preconditions.uno
 // ---------------------------------------------------------------------------------------
 
 // internal static class Preconditions :3
@@ -1427,7 +1427,7 @@ uObject* Preconditions::CheckNotNull(uType* __type, uObject* argument, uString* 
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Time/ZonedDateTime.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/ZonedDateTime.uno
 // -----------------------------------------------------------------------------
 
 // public sealed class ZonedDateTime :6

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.8.1/Navigator.Interaction.uno.
+// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/Navigator.Interaction.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,6 +10,7 @@
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.Internal.MiniList-1.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Navigation.IBase-84e3f965.h>
 #include <Fuse.Navigation.INavigation.h>
@@ -51,7 +52,7 @@ namespace Controls{
 // {
 struct Navigator_type : ::g::Fuse::Controls::NavigationControl_type
 {
-    ::g::Fuse::Navigation::IRouterOutlet interface22;
+    ::g::Fuse::Navigation::IRouterOutlet interface23;
 };
 
 Navigator_type* Navigator_typeof();

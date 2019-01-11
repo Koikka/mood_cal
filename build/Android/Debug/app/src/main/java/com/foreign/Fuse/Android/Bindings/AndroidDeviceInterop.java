@@ -27,10 +27,10 @@ public class AndroidDeviceInterop
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object LaunchIntent353(final String action,final String uri,final String packageName,final String className)
+    public static Object LaunchIntent356(final String action,final String uri,final String packageName,final String className)
     {
         Intent pendingIntent = new Intent(action);
         pendingIntent.setData(Uri.parse(uri));
@@ -43,21 +43,21 @@ public class AndroidDeviceInterop
         return pendingIntent;
     }
     
-    public static Object MakeBufferInputStream1354(final Object buf)
+    public static Object MakeBufferInputStream1357(final Object buf)
     {
         return new com.fuse.android.ByteBufferInputStream((com.uno.UnoBackedByteBuffer)buf);
     }
     
-    public static Object MakeMediaDataSource1355(final Object buf)
+    public static Object MakeMediaDataSource1358(final Object buf)
     {
         return new com.fuse.android.ByteBufferMediaDataSource((com.uno.UnoBackedByteBuffer)buf);
     }
     
-    public static Object OpenAssetFileDescriptor356(final UnoObject bundle)
+    public static Object OpenAssetFileDescriptor359(final UnoObject bundle)
     {
         try
         {
-        	String uri = ExternedBlockHost.callUno_Uno_IO_BundleFile_BundlePathGet357(bundle);
+        	String uri = ExternedBlockHost.callUno_Uno_IO_BundleFile_BundlePathGet360(bundle);
         	AssetManager am = com.fuse.Activity.getRootActivity().getAssets();
         	AssetFileDescriptor afd = am.openFd(uri);
         	return afd;

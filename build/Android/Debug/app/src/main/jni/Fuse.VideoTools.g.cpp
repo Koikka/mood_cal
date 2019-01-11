@@ -22,7 +22,7 @@ namespace g{
 namespace Fuse{
 namespace VideoTools{
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/VideoTools.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/VideoTools.uno
 // ---------------------------------------------------------------------------
 
 // internal sealed extern class VideoTools.AndroidVideoTools :97
@@ -56,7 +56,7 @@ bool VideoTools__AndroidVideoTools::SaveVideo(uString* outputFileURL)
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SaveVideo418", "(Ljava/lang/String;)Z");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SaveVideo421", "(Ljava/lang/String;)Z");
         uString* _uoutputFileURL=outputFileURL;
         jstring _outputFileURL = JniHelper::UnoToJavaString(_uoutputFileURL);
         jboolean __jresult = U_JNIVAR->CallStaticBooleanMethod(__cls,__mtd,_outputFileURL);
@@ -69,7 +69,7 @@ bool VideoTools__AndroidVideoTools::SaveVideo(uString* outputFileURL)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/0.9.1/VideoTools.uno
+// /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/VideoTools.uno
 // ---------------------------------------------------------------------------
 
 // public sealed class VideoTools :27

@@ -20,10 +20,10 @@ public class CanvasViewGroup
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void InstallDrawlistener127(final UnoObject _this, final Object handle,final com.foreign.Uno.Action_Object callback)
+    public static void InstallDrawlistener130(final UnoObject _this, final Object handle,final com.foreign.Uno.Action_Object callback)
     {
         com.fuse.android.views.CanvasViewGroup viewGroup = (com.fuse.android.views.CanvasViewGroup)handle;
         viewGroup.setWillNotDraw(false);
@@ -35,9 +35,9 @@ public class CanvasViewGroup
         });
     }
     
-    public static Object Instantiate128()
+    public static Object Instantiate131()
     {
-        android.widget.FrameLayout frameLayout = new com.fuse.android.views.CanvasViewGroup(com.apps.mood_calendar.mood_calendar.GetRootActivity());
+        android.widget.FrameLayout frameLayout = new com.fuse.android.views.CanvasViewGroup(fi.samk.mood_cal.Kalenteri.GetRootActivity());
         frameLayout.setFocusable(true);
         frameLayout.setFocusableInTouchMode(true);
         frameLayout.setClipChildren(false);

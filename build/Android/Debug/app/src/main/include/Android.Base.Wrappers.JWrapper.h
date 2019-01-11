@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.8.0/Targets/Android/Uno/Base/Wrappers.uno.
+// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Wrappers.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,13 +10,13 @@
 #include <Uno.Exception.h>
 #include <Uno.IDisposable.h>
 //~
-#define MAYBEPROXIFYARG(NUM,ID,NEW) bool subclassed ## NUM = (!ID) ? false : (::g::Android::Base::Wrappers::IJWrapper::_IsSubclassed(uInterface(ID, ::g::Android::Base::Wrappers::IJWrapper_typeof()))); jobject _iProx ## NUM = (!ID) ? NULL : (subclassed ## NUM ? NEW : ::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface(ID, ::g::Android::Base::Wrappers::IJWrapper_typeof())));
+        #define MAYBEPROXIFYARG(NUM,ID,NEW) bool subclassed ## NUM = (!ID) ? false : (::g::Android::Base::Wrappers::IJWrapper::_IsSubclassed(uInterface(ID, ::g::Android::Base::Wrappers::IJWrapper_typeof()))); jobject _iProx ## NUM = (!ID) ? NULL : (subclassed ## NUM ? NEW : ::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface(ID, ::g::Android::Base::Wrappers::IJWrapper_typeof())));
 
-#define FREEPROXIED(NUM)if (subclassed ## NUM) { U_JNIVAR->DeleteLocalRef(_iProx ## NUM); }
+        #define FREEPROXIED(NUM)if (subclassed ## NUM) { U_JNIVAR->DeleteLocalRef(_iProx ## NUM); }
 
-#define UNOCALLANDRETURN(CALL) JNIEnv* _cb_jni = ::g::Android::Base::JNI::GetEnvPtr();::g::Android::Base::Wrappers::JWrapper* _res = (::g::Android::Base::Wrappers::JWrapper*)CALL;if (_res) { return _cb_jni->NewLocalRef(_res->_javaObject); } else { return NULL; }
+        #define UNOCALLANDRETURN(CALL) JNIEnv* _cb_jni = ::g::Android::Base::JNI::GetEnvPtr();::g::Android::Base::Wrappers::JWrapper* _res = (::g::Android::Base::Wrappers::JWrapper*)CALL;if (_res) { return _cb_jni->NewLocalRef(_res->_javaObject); } else { return NULL; }
 
-#define NEW_UNO(LINE,RETURNVAR,TYPEOF,UNOTYPE,FALLBACK,RESOLVE) U_JOBJECT tmpRes = LINE; ::g::Android::Base::JNI::CheckException(); int64_t unoRef = ::g::Android::Base::JNI::GetUnoRef(tmpRes); if (unoRef==0) { RETURNVAR = NULL; } else if (unoRef>0) { RETURNVAR = (UNOTYPE)uLoadWeak((uWeakObject*)unoRef); JNIEnv* __cb_jni = ::g::Android::Base::JNI::GetEnvPtr(); if (__cb_jni->GetObjectRefType(tmpRes)==JNILocalRefType) { __cb_jni->DeleteLocalRef(tmpRes); }} else { RETURNVAR = ((UNOTYPE)::g::Android::Base::Wrappers::JWrapper::New1(tmpRes, (uType*)TYPEOF, FALLBACK, RESOLVE)); }
+        #define NEW_UNO(LINE,RETURNVAR,TYPEOF,UNOTYPE,FALLBACK,RESOLVE) U_JOBJECT tmpRes = LINE; ::g::Android::Base::JNI::CheckException(); int64_t unoRef = ::g::Android::Base::JNI::GetUnoRef(tmpRes); if (unoRef==0) { RETURNVAR = NULL; } else if (unoRef>0) { RETURNVAR = (UNOTYPE)uLoadWeak((uWeakObject*)unoRef); JNIEnv* __cb_jni = ::g::Android::Base::JNI::GetEnvPtr(); if (__cb_jni->GetObjectRefType(tmpRes)==JNILocalRefType) { __cb_jni->DeleteLocalRef(tmpRes); }} else { RETURNVAR = ((UNOTYPE)::g::Android::Base::Wrappers::JWrapper::New1(tmpRes, (uType*)TYPEOF, FALLBACK, RESOLVE)); }
 namespace g{namespace Android{namespace Base{namespace Wrappers{struct JWrapper;}}}}
 
 namespace g{

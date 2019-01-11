@@ -20,35 +20,39 @@ public class ScrollView
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object AddCallback174(final UnoObject _this, final Object handle)
+    public static Object Create177()
     {
-        com.fuse.android.views.IScroll iscroll = new com.fuse.android.views.IScroll() {
-        	public void OnScrollChanged(int x, int y, int oldX, int oldY) {
-        		ExternedBlockHost.callUno_Fuse_Controls_Native_Android_ScrollView_OnScrollChanged175((UnoObject)_this,(int)x,(int)y,(int)oldX,(int)oldY);
-        	}
-        };
-        ((com.fuse.android.views.VerticalScrollView)handle).SetIScroll(iscroll);
-        return iscroll;
+        return new com.fuse.android.views.FuseScrollView(com.fuse.Activity.getRootActivity());
     }
     
-    public static Object Create176()
+    public static void InstallCallback178(final UnoObject _this, final Object handle,final com.foreign.Uno.Action_int_int_int_int callback)
     {
-        return new com.fuse.android.views.VerticalScrollView(com.fuse.Activity.getRootActivity());
+        ((com.fuse.android.views.FuseScrollView)handle).setScrollEventHandler(
+        	new com.fuse.android.views.ScrollEventHandler() {
+        		public void onScrollChanged(int x, int y, int oldX, int oldY) {
+        			callback.run(x, y, oldX, oldY);
+        		}
+        	});
     }
     
-    public static void SetClipToBounds1177(final Object handle,final boolean clipToBounds)
+    public static void SetClipToBounds1179(final Object handle,final boolean clipToBounds)
     {
         android.view.ViewGroup viewGroup = (android.view.ViewGroup)handle;
         viewGroup.setClipChildren(clipToBounds);
         viewGroup.setClipToPadding(clipToBounds);
     }
     
-    public static void SetScrollPosition178(final Object handle,final int x,final int y)
+    public static void SetIsHorizontal180(final UnoObject _this, final Object handle,final boolean isHorizontal)
     {
-        android.widget.ScrollView sv = (android.widget.ScrollView)handle;
+        ((com.fuse.android.views.FuseScrollView)handle).setIsHorizontal(isHorizontal);
+    }
+    
+    public static void SetScrollPosition181(final Object handle,final int x,final int y)
+    {
+        android.view.View sv = (android.view.View)handle;
         sv.setScrollX(x);
         sv.setScrollY(y);
     }

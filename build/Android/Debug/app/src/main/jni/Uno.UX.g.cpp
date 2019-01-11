@@ -57,7 +57,7 @@ namespace g{
 namespace Uno{
 namespace UX{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/BundleFileSource.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/BundleFileSource.uno
 // ------------------------------------------------------------------------------
 
 // public sealed class BundleFileSource :6
@@ -165,7 +165,7 @@ BundleFileSource* BundleFileSource::New1(::g::Uno::IO::BundleFile* bundleFile)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.8.1/Actions/Set.uno
+// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Actions/Set.uno
 // -----------------------------------------------------------------
 
 // public delegate T Expression<T>() :6
@@ -179,7 +179,7 @@ uDelegateType* Expression_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/FileSource.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/FileSource.uno
 // ------------------------------------------------------------------------
 
 // public abstract class FileSource :6
@@ -238,9 +238,9 @@ void FileSource__OnDataChanged_fn(FileSource* __this)
 }
 
 // public static implicit operator Uno.UX.FileSource(Uno.IO.BundleFile bundleFile) :27
-void FileSource__op_Implicit_fn(::g::Uno::IO::BundleFile* bundleFile, FileSource** __retval)
+void FileSource__op_Implicit1_fn(::g::Uno::IO::BundleFile* bundleFile, FileSource** __retval)
 {
-    *__retval = FileSource::op_Implicit(bundleFile);
+    *__retval = FileSource::op_Implicit1(bundleFile);
 }
 
 // public virtual byte[] ReadAllBytes() :34
@@ -286,13 +286,13 @@ void FileSource::OnDataChanged()
 }
 
 // public static implicit operator Uno.UX.FileSource(Uno.IO.BundleFile bundleFile) [static] :27
-FileSource* FileSource::op_Implicit(::g::Uno::IO::BundleFile* bundleFile)
+FileSource* FileSource::op_Implicit1(::g::Uno::IO::BundleFile* bundleFile)
 {
     return ::g::Uno::UX::BundleFileSource::New1(bundleFile);
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/PropertyObject.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/PropertyObject.uno
 // ----------------------------------------------------------------------------
 
 // public abstract interface IPropertyListener :6
@@ -307,7 +307,7 @@ uInterfaceType* IPropertyListener_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/NameTable.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/NameTable.uno
 // -----------------------------------------------------------------------
 
 // public sealed class NameTable :5
@@ -443,7 +443,7 @@ NameTable* NameTable::New1(NameTable* parentTable, uArray* entries)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Property.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Property.uno
 // ----------------------------------------------------------------------
 
 // public abstract class Property :24
@@ -560,7 +560,7 @@ void Property::SetAsObject1(uObject* value, uObject* origin)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Property.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Property.uno
 // ----------------------------------------------------------------------
 
 // public abstract class Property<T> :66
@@ -652,7 +652,7 @@ void Property1::ctor_2(::g::Uno::UX::Selector name)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Property.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Property.uno
 // ----------------------------------------------------------------------
 
 // public abstract class PropertyAccessor :15
@@ -689,13 +689,13 @@ void PropertyAccessor__ctor__fn(PropertyAccessor* __this)
 // public virtual object GetAsObject(Uno.UX.PropertyObject obj) :21
 void PropertyAccessor__GetAsObject_fn(PropertyAccessor* __this, ::g::Uno::UX::PropertyObject* obj, uObject** __retval)
 {
-    U_THROW(::g::Uno::NotSupportedException::New5(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::STRINGS[2/*"Property '"*/], ::g::Uno::UX::Selector__op_Implicit1(__this->Name())), ::STRINGS[3/*"' cannot be...*/])));
+    U_THROW(::g::Uno::NotSupportedException::New5(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::STRINGS[2/*"Property '"*/], ::g::Uno::UX::Selector__op_Implicit2(__this->Name())), ::STRINGS[3/*"' cannot be...*/])));
 }
 
 // public virtual void SetAsObject(Uno.UX.PropertyObject obj, object value, Uno.UX.IPropertyListener origin) :20
 void PropertyAccessor__SetAsObject_fn(PropertyAccessor* __this, ::g::Uno::UX::PropertyObject* obj, uObject* value, uObject* origin)
 {
-    U_THROW(::g::Uno::NotSupportedException::New5(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::STRINGS[2/*"Property '"*/], ::g::Uno::UX::Selector__op_Implicit1(__this->Name())), ::STRINGS[4/*"' cannot be...*/])));
+    U_THROW(::g::Uno::NotSupportedException::New5(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::STRINGS[2/*"Property '"*/], ::g::Uno::UX::Selector__op_Implicit2(__this->Name())), ::STRINGS[4/*"' cannot be...*/])));
 }
 
 // public virtual bool get_SupportsOriginSetter() :19
@@ -710,7 +710,7 @@ void PropertyAccessor::ctor_()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/PropertyObject.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/PropertyObject.uno
 // ----------------------------------------------------------------------------
 
 // public class PropertyObject :11
@@ -815,7 +815,7 @@ void PropertyObject::RemovePropertyListener(uObject* listener)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Resource.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Resource.uno
 // ----------------------------------------------------------------------
 
 // public sealed class Resource :68
@@ -1301,7 +1301,7 @@ bool Resource::TryFindGlobal(uString* key, uDelegate* acceptor, uObject** res)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Selector.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Selector.uno
 // ----------------------------------------------------------------------
 
 // public struct Selector :38
@@ -1388,15 +1388,15 @@ void Selector__op_Equality_fn(Selector* a, Selector* b, bool* __retval)
 }
 
 // public static implicit operator Uno.UX.Selector(string s) :78
-void Selector__op_Implicit_fn(uString* s, Selector* __retval)
+void Selector__op_Implicit1_fn(uString* s, Selector* __retval)
 {
-    *__retval = Selector__op_Implicit(s);
+    *__retval = Selector__op_Implicit1(s);
 }
 
 // public static implicit operator string(Uno.UX.Selector s) :83
-void Selector__op_Implicit1_fn(Selector* s, uString** __retval)
+void Selector__op_Implicit2_fn(Selector* s, uString** __retval)
 {
-    *__retval = Selector__op_Implicit1(*s);
+    *__retval = Selector__op_Implicit2(*s);
 }
 
 // public static operator !=(Uno.UX.Selector a, Uno.UX.Selector b) :93
@@ -1447,13 +1447,13 @@ bool Selector__op_Equality(Selector a, Selector b)
 }
 
 // public static implicit operator Uno.UX.Selector(string s) [static] :78
-Selector Selector__op_Implicit(uString* s)
+Selector Selector__op_Implicit1(uString* s)
 {
     return Selector__New1(s);
 }
 
 // public static implicit operator string(Uno.UX.Selector s) [static] :83
-uString* Selector__op_Implicit1(Selector s)
+uString* Selector__op_Implicit2(Selector s)
 {
     return s.ToString(Selector_typeof());
 }
@@ -1465,7 +1465,7 @@ bool Selector__op_Inequality(Selector a, Selector b)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Selector.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Selector.uno
 // ----------------------------------------------------------------------
 
 // internal static class SelectorRegistry :7
@@ -1597,7 +1597,7 @@ uString* SelectorRegistry::GetValue(int32_t handle)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Size.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Size.uno
 // ------------------------------------------------------------------
 
 // public struct Size :29
@@ -1723,15 +1723,15 @@ void Size__op_Explicit1_fn(Size* s, float* __retval)
 }
 
 // public static implicit operator Uno.UX.Size(float unspecifiedUnits) :40
-void Size__op_Implicit_fn(float* unspecifiedUnits, Size* __retval)
+void Size__op_Implicit1_fn(float* unspecifiedUnits, Size* __retval)
 {
-    *__retval = Size__op_Implicit(*unspecifiedUnits);
+    *__retval = Size__op_Implicit1(*unspecifiedUnits);
 }
 
 // public static implicit operator Uno.UX.Size(int unspecifiedUnits) :45
-void Size__op_Implicit1_fn(int32_t* unspecifiedUnits, Size* __retval)
+void Size__op_Implicit2_fn(int32_t* unspecifiedUnits, Size* __retval)
 {
-    *__retval = Size__op_Implicit1(*unspecifiedUnits);
+    *__retval = Size__op_Implicit2(*unspecifiedUnits);
 }
 
 // public static operator !=(Uno.UX.Size a, Uno.UX.Size b) :104
@@ -1837,13 +1837,13 @@ float Size__op_Explicit1(Size s)
 }
 
 // public static implicit operator Uno.UX.Size(float unspecifiedUnits) [static] :40
-Size Size__op_Implicit(float unspecifiedUnits)
+Size Size__op_Implicit1(float unspecifiedUnits)
 {
     return Size__New1(unspecifiedUnits, 1);
 }
 
 // public static implicit operator Uno.UX.Size(int unspecifiedUnits) [static] :45
-Size Size__op_Implicit1(int32_t unspecifiedUnits)
+Size Size__op_Implicit2(int32_t unspecifiedUnits)
 {
     return Size__New1((float)unspecifiedUnits, 1);
 }
@@ -1873,7 +1873,7 @@ Size Size__Auto()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Size.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Size.uno
 // ------------------------------------------------------------------
 
 // public struct Size2 :178
@@ -1963,9 +1963,9 @@ void Size2__op_Explicit1_fn(Size2* v, ::g::Uno::Float2* __retval)
 }
 
 // public static implicit operator Uno.UX.Size2(float2 unspecifiedUnitsVector) :189
-void Size2__op_Implicit1_fn(::g::Uno::Float2* unspecifiedUnitsVector, Size2* __retval)
+void Size2__op_Implicit2_fn(::g::Uno::Float2* unspecifiedUnitsVector, Size2* __retval)
 {
-    *__retval = Size2__op_Implicit1(*unspecifiedUnitsVector);
+    *__retval = Size2__op_Implicit2(*unspecifiedUnitsVector);
 }
 
 // public static operator !=(Uno.UX.Size2 a, Uno.UX.Size2 b) :241
@@ -2024,9 +2024,9 @@ Size2 Size2__op_Addition(Size2 a, Size2 b)
 }
 
 // public static implicit operator Uno.UX.Size2(float2 unspecifiedUnitsVector) [static] :189
-Size2 Size2__op_Implicit1(::g::Uno::Float2 unspecifiedUnitsVector)
+Size2 Size2__op_Implicit2(::g::Uno::Float2 unspecifiedUnitsVector)
 {
-    return Size2__New1(::g::Uno::UX::Size__op_Implicit(unspecifiedUnitsVector.X), ::g::Uno::UX::Size__op_Implicit(unspecifiedUnitsVector.Y));
+    return Size2__New1(::g::Uno::UX::Size__op_Implicit1(unspecifiedUnitsVector.X), ::g::Uno::UX::Size__op_Implicit1(unspecifiedUnitsVector.Y));
 }
 
 // public static operator !=(Uno.UX.Size2 a, Uno.UX.Size2 b) [static] :241
@@ -2054,7 +2054,7 @@ Size2 Size2__Auto()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/FileSource.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/FileSource.uno
 // ------------------------------------------------------------------------
 
 // internal static class StreamExtensions :45
@@ -2146,7 +2146,7 @@ uArray* StreamExtensions::ToArray(::g::Uno::IO::MemoryStream* memoryStream)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Template.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Template.uno
 // ----------------------------------------------------------------------
 
 // public abstract class Template :12
@@ -2210,7 +2210,7 @@ uString* Template::Key()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Size.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Size.uno
 // ------------------------------------------------------------------
 
 // public enum Unit :6
@@ -2229,7 +2229,7 @@ uEnumType* Unit_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Property.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Property.uno
 // ----------------------------------------------------------------------
 
 // public class ValueChangedArgs<T> :3
@@ -2284,7 +2284,7 @@ void ValueChangedArgs__set_Value_fn(ValueChangedArgs* __this, void* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/UX/Property.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Property.uno
 // ----------------------------------------------------------------------
 
 // public delegate void ValueChangedHandler<T>(object sender, Uno.UX.ValueChangedArgs<T> args) :13

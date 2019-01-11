@@ -20,10 +20,10 @@ public class AndroidDisplay
 {
     static void debug_log(Object message)
     {
-        android.util.Log.d("mood_calendar", (message==null ? "null" : message.toString()));
+        android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static float _getDensity52()
+    public static float _getDensity55()
     {
         android.util.DisplayMetrics metrics = new android.util.DisplayMetrics();
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN_MR1) {
@@ -34,11 +34,11 @@ public class AndroidDisplay
         return metrics.density;
     }
     
-    public static void JavaEnableTicks53(final UnoObject _this)
+    public static void JavaEnableTicks56(final UnoObject _this)
     {
         final UnoObject display = _this;
-        if (ExternedBlockHost.callUno_Uno_Platform_AndroidDisplay__initializedGet54()) return;
-        ExternedBlockHost.callUno_Uno_Platform_AndroidDisplay__initializedSet54(true);
+        if (ExternedBlockHost.callUno_Uno_Platform_AndroidDisplay__initializedGet57()) return;
+        ExternedBlockHost.callUno_Uno_Platform_AndroidDisplay__initializedSet57(true);
         
         if (android.os.Build.VERSION.SDK_INT >= 16)
         {
@@ -48,11 +48,11 @@ public class AndroidDisplay
                 long _previousTimeNanos = 0;
                 public void doFrame(long frameTimeNanos)
                 {
-                    if (ExternedBlockHost.callUno_Uno_Platform_AndroidDisplay__initializedGet54())
+                    if (ExternedBlockHost.callUno_Uno_Platform_AndroidDisplay__initializedGet57())
                         _choreographer.postFrameCallback(this);
                     double currentTime = frameTimeNanos * 1e-9;
                     double deltaTime = (frameTimeNanos - _previousTimeNanos) * 1e-9;
-                    ExternedBlockHost.callUno_Uno_Platform_AndroidDisplay_OnFrameCallback55((UnoObject)display,(double)currentTime,(double)deltaTime);
+                    ExternedBlockHost.callUno_Uno_Platform_AndroidDisplay_OnFrameCallback58((UnoObject)display,(double)currentTime,(double)deltaTime);
                     _previousTimeNanos = frameTimeNanos;
                 }
             });
@@ -65,7 +65,7 @@ public class AndroidDisplay
             {
                 public void onTimeUpdate(android.animation.TimeAnimator animation, long totalTime, long deltaTime)
                 {
-                    ExternedBlockHost.callUno_Uno_Platform_AndroidDisplay_OnFrameCallback55((UnoObject)display,(double)totalTime / 1000.0,(double)deltaTime / 1000.0);
+                    ExternedBlockHost.callUno_Uno_Platform_AndroidDisplay_OnFrameCallback58((UnoObject)display,(double)totalTime / 1000.0,(double)deltaTime / 1000.0);
                 }
             });
             timeAnimator.start();

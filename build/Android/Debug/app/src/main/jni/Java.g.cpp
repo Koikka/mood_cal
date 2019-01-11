@@ -6,7 +6,7 @@
 namespace g{
 namespace Java{
 
-// /usr/local/share/uno/Packages/UnoCore/1.8.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/Object.uno
+// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/Object.uno
 // --------------------------------------------------------------------------------------------------------------
 
 // public abstract extern class Object :5
