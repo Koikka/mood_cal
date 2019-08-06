@@ -1,3 +1,6 @@
+.uno
+build
+
 # Logs
 logs
 *.log
@@ -39,3 +42,4 @@ jspm_packages
 # Antti added
 .uno
 build
+# Antti added
