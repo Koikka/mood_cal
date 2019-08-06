@@ -6,6 +6,7 @@
     "Fuse.Controls.CameraView",
     "Fuse.ImageTools",
     "Fuse.Camera",
+    "Fuse.Share",
     "Uno.Permissions"
   ],
   "Projects": [
@@ -55,8 +56,8 @@
     },
     /* https://forums.fusetools.com/t/signing-android-apps/5515 */
     "Package": "fi.samk.mood_cal",
-    "VersionCode": 101,
-    "VersionName": "1.0.1",
+    "VersionCode": 104,
+    "VersionName": "1.0.4",
     "Key": {
       "Alias": "application",
       "AliasPassword": "mood_cal",
@@ -64,10 +65,10 @@
       "StorePassword": "mood_cal"
     },
     "SDK": {
-      "BuildToolsVersion": "27.0.0",
-      "CompileVersion": 27,
+      "BuildToolsVersion": "26.0.0",
+      "CompileVersion": 26,
       "MinVersion": 19,
-      "TargetVersion": 27
+      "TargetVersion": 26
     }
   },
   /*"Firebase": {

@@ -1,5 +1,6 @@
 var Observable = require('FuseJS/Observable');
 var Storage = require("FuseJS/Storage");
+var Share = require("FuseJS/Share");
 // var LocalNotify = require("FuseJS/LocalNotifications");
 //var push_notif = require("FuseJS/Push");
 
@@ -30,6 +31,7 @@ var mood_cal_vis = Observable("Collapsed");
 var sleep_cal_vis = Observable("Collapsed");
 var eat_cal_vis = Observable("Collapsed");
 var web_view_vis = Observable("Collapsed");
+var set_notification_vis = Observable("Collapsed");
 var home_page_vis = Observable("Visible");
 var mood_container_color = Observable("#fff");
 var sleep_container_color = Observable("#fff");
@@ -81,6 +83,11 @@ var logo = Observable("Images/samk_logo.png");
 var logo_img_blue = Observable("Images/samk_logo_2.png");
 var logo_img_white = Observable("Images/samk_logo_3.png");
 var emoji_status = Observable();
+var notif_toggle = Observable(false);
+
+
+
+
 // var camera = require('FuseJS/Camera');
 // var test_images = Observable();
 // var show_help_text = Observable(true);
@@ -99,6 +106,7 @@ chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new 
 console.log('setting up push notifications');
 
 var registration_token = "";
+var device_uuid = "";
 
 // push_notif.on("registrationSucceeded", function(regID) {
 //     console.log("Reg Succeeded: " + regID);
@@ -265,6 +273,7 @@ set_mood.onValueChanged(function(val) {
             console.log("registration_token: "+registration_token);
             get_mood_emoji();
             save_push_id(Device.UUID, registration_token);
+            device_uuid = Device.UUID;
         }, 2000);
 
         module.exports = {
@@ -317,7 +326,7 @@ function handle_empty_screen() {
     console.log(eat_cal_vis.value);
     console.log(web_view_vis.value);
     console.log(home_page_vis.value);
-    if (mood_cal_vis.value == "Collapsed" && sleep_cal_vis.value == "Collapsed" && eat_cal_vis.value == "Collapsed" && home_page_vis.value == "Collapsed") {
+    if (mood_cal_vis.value == "Collapsed" && sleep_cal_vis.value == "Collapsed" && eat_cal_vis.value == "Collapsed" && home_page_vis.value == "Collapsed" && set_notification_vis.value == "Collapsed") {
         web_view_vis.value = "Visible";
     }
     chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
@@ -467,100 +476,121 @@ function highlight_mood_2(args) {
     // }
 }
 
-function formatTime(time) {
-    if (time < 10) {
-        return "0" + time;
-    }
-    return time;
-};
+// function formatTime(time) {
+//     if (time < 10) {
+//         return "0" + time;
+//     }
+//     return time;
+// };
 
-function Minute(minute) {
-    this.caption = minute;
-    this.type = "minute";
-};
+// function Minute(minute) {
+//     this.caption = minute;
+//     this.type = "minute";
+// };
 
-function Hour(hour) {
-    this.caption = hour;
-    this.type = "hour";
-}
+// function Hour(hour) {
+//     this.caption = hour;
+//     this.type = "hour";
+// }
 
-function setupHours() {
-    var hourBucket = [];
-    for (var i = 0; i < 24; i++) {
-        hourBucket.push(new Hour(formatTime(i)));
-    }
-    hours.replaceAll(hourBucket);
-}
+// function setupHours() {
+//     var hourBucket = [];
+//     for (var i = 0; i < 24; i++) {
+//         hourBucket.push(new Hour(formatTime(i)));
+//     }
+//     hours.replaceAll(hourBucket);
+// }
 
-function setupMinutes() {
-    var minuteBucket = [];
-    for (var i = -5; i < 55; i += 5) {
-        minuteBucket.push(new Minute(formatTime(i + 5)));
-    }
-    minutes.replaceAll(minuteBucket);
-}
+// function setupMinutes() {
+//     var minuteBucket = [];
+//     for (var i = -5; i < 55; i += 5) {
+//         minuteBucket.push(new Minute(formatTime(i + 5)));
+//     }
+//     minutes.replaceAll(minuteBucket);
+// }
 
-function activated(args) {
-    //args.data.type == hour or minute
-    //args.data.caption == value selected
-    console.log("start: "+JSON.stringify(args));
-    if (args.data.type == "hour") {
-        bed_h.value = args.data.caption;
-        sleep_track_h.value = args.data.caption;
-    } else if (args.data.type == "minute") {
-        bed_m.value = args.data.caption;
-        sleep_track_m.value = (args.data.caption/5);
-    }
-}
-function activated_end(args) {
-    //args.data.type == hour or minute
-    //args.data.caption == value selected
-    console.log("end: "+JSON.stringify(args));
-    if (args.data.type == "hour") {
-        sleep_h.value = args.data.caption;
-        sleep_track_h.value = args.data.caption;
-    } else if (args.data.type == "minute") {
-        sleep_m.value = args.data.caption;
-        sleep_track_m.value = (args.data.caption/5);
-    }
-}
-function activated_wake_up(args) {
-     console.log("wake_up: "+JSON.stringify(args));
-     if (args.data.type == "hour") {
-        wake_h.value = args.data.caption;
-    } else if (args.data.type == "minute") {
-        wake_m.value = args.data.caption;
-    }
-}
+// function activated(args) {
+//     //args.data.type == hour or minute
+//     //args.data.caption == value selected
+//     console.log("start: "+JSON.stringify(args));
+//     if (args.data.type == "hour") {
+//         bed_h.value = args.data.caption;
+//         sleep_track_h.value = args.data.caption;
+//     } else if (args.data.type == "minute") {
+//         bed_m.value = args.data.caption;
+//         sleep_track_m.value = (args.data.caption/5);
+//     }
+// }
+// function activated_end(args) {
+//     //args.data.type == hour or minute
+//     //args.data.caption == value selected
+//     console.log("end: "+JSON.stringify(args));
+//     if (args.data.type == "hour") {
+//         sleep_h.value = args.data.caption;
+//         sleep_track_h.value = args.data.caption;
+//     } else if (args.data.type == "minute") {
+//         sleep_m.value = args.data.caption;
+//         sleep_track_m.value = (args.data.caption/5);
+//     }
+// }
+// function activated_wake_up(args) {
+//      console.log("wake_up: "+JSON.stringify(args));
+//      if (args.data.type == "hour") {
+//         wake_h.value = args.data.caption;
+//     } else if (args.data.type == "minute") {
+//         wake_m.value = args.data.caption;
+//     }
+// }
 
-setupHours();
-setupMinutes();
+// setupHours();
+// setupMinutes();
 get_mood_emoji();
 
 function toggle_switch(args) {
     console.log(args.toggle);
-    if (args.toggle == 'sleep_quality') {
-        if (sleep_quality.value == true) {
-            sleep_quality.value = false;
-        } else {
-            sleep_quality.value = true;
-        }
-    } else if (args.toggle == 'sleep_naps') {
-        if (sleep_naps.value == true) {
-            sleep_naps.value = false;
-        } else {
-            sleep_naps.value = true;
-        }
-    } else if (args.toggle == 'sleep_tired') {
-        if (sleep_tired.value == true) {
-            sleep_tired.value = false;
-        } else {
-            sleep_tired.value = true;
-        }
-    }
+    // if (args.toggle == 'sleep_quality') {
+    //     if (sleep_quality.value == true) {
+    //         sleep_quality.value = false;
+    //     } else {
+    //         sleep_quality.value = true;
+    //     }
+    // } else if (args.toggle == 'sleep_naps') {
+    //     if (sleep_naps.value == true) {
+    //         sleep_naps.value = false;
+    //     } else {
+    //         sleep_naps.value = true;
+    //     }
+    // } else if (args.toggle == 'sleep_tired') {
+    //     if (sleep_tired.value == true) {
+    //         sleep_tired.value = false;
+    //     } else {
+    //         sleep_tired.value = true;
+    //     }
+    // }
     console.log("Sleep quality: "+sleep_quality.value);
     console.log("Sleep naps: "+sleep_naps.value);
     console.log("Sleep tired: "+sleep_tired.value);
+}
+function toggle_sleep_quality() {
+    if (sleep_quality.value == true) {
+        sleep_quality.value = false;
+    } else {
+        sleep_quality.value = true;
+    }
+}
+function toggle_sleep_naps() {
+    if (sleep_naps.value == true) {
+        sleep_naps.value = false;
+    } else {
+        sleep_naps.value = true;
+    }
+}
+function toggle_sleep_tired() {
+    if (sleep_tired.value == true) {
+        sleep_tired.value = false;
+    } else {
+        sleep_tired.value = true;
+    }
 }
 function save_sleep() {
     console.log("Sleep quality: "+sleep_quality.value);
@@ -639,18 +669,27 @@ function save_sleep() {
             console.log("SERVER SYNTAX ERROR");
         }
     });
-    bed_track_h.value = "21";
-    bed_track_m.value = "6";
-    wake_track_h.value = "6";
-    wake_track_m.value = "6";
+    time_to_bed.value = new Date(Date.parse("2019-01-16T21:00:00.000Z"));
+    time_to_sleep.value = new Date(Date.parse("2019-01-16T21:00:00.000Z"));
+    time_to_wake.value = new Date(Date.parse("2019-01-17T07:00:00.000Z"));
+    time_to_sleep_value.value = "21:00";
+    time_to_bed_value.value = "21:00";
+    time_to_wake_value.value = "07:00";
+    // sleep_quality.value = false;
+    // sleep_naps_val.value = false;
+    // sleep_tired_val.value = false;
+    // bed_track_h.value = "21";
+    // bed_track_m.value = "6";
+    // wake_track_h.value = "6";
+    // wake_track_m.value = "6";
     enable_sleep_send.value = false;
     var sleep_moods = ["sleep_9", "sleep_6", "sleep_3"];
     for (var i = 0; i < sleep_moods.length; i++) {
         eval(sleep_moods[i]).value = false;
     }
-    // sleep_quality.value = false;
-    // sleep_naps.value = false;
-    // sleep_tired.value = false;
+    sleep_quality.value = false;
+    sleep_naps.value = false;
+    sleep_tired.value = false;
     save_confirm.value = true;
 }
 
@@ -705,6 +744,171 @@ function save_sleep() {
 //     console.log(SAVENAME);
 //     console.log("some error while reading data: "+error);
 // });
+var time_to_bed_visibility = Observable("Collapsed");
+var time_to_sleep_visibility = Observable("Collapsed");
+var time_to_wake_visibility = Observable("Collapsed");
+var time_to_bed = Observable(new Date(Date.parse("2019-01-16T21:00:00.000Z")));
+var time_to_sleep = Observable(new Date(Date.parse("2019-01-16T21:00:00.000Z")));
+var time_to_wake = Observable(new Date(Date.parse("2019-01-17T07:00:00.000Z")));
+var time_to_bed_value = Observable("21:00");
+var time_to_sleep_value = Observable("21:00");
+var time_to_wake_value = Observable("07:00");
+var time_to_notify = Observable(new Date(Date.parse("2019-01-16T09:00:00.000Z")));
+var notification_time = "09:00";
+
+
+time_to_sleep.onValueChanged(module, function(date) {
+    // console.log("time_to_sleep changed: " + JSON.stringify(date));
+    let time_string = JSON.stringify(date);
+    time_string = time_string.split("T")[1];
+    time_string = time_string.split(":00.000Z")[0];
+    console.log(time_string);
+    time_to_sleep_value.value = time_string;
+    sleep_h.value = time_string.split(":")[0];
+    sleep_m.value = time_string.split(":")[1];
+});
+time_to_bed.onValueChanged(module, function(date) {
+    // console.log("time_to_bed changed: " + JSON.stringify(date));
+    let time_string = JSON.stringify(date);
+    time_string = time_string.split("T")[1];
+    time_string = time_string.split(":00.000Z")[0];
+    console.log(time_string);
+    time_to_bed_value.value = time_string;
+    time_to_sleep.value = time_to_bed.value;
+    bed_h.value = time_string.split(":")[0];
+    bed_m.value = time_string.split(":")[1];
+    // time_to_sleep.value = new Date(Date.parse("2019-01-16T"+time_string+":00.000Z"));
+});
+time_to_wake.onValueChanged(module, function(date) {
+    // console.log("time_to_sleep changed: " + JSON.stringify(date));
+    let time_string = JSON.stringify(date);
+    time_string = time_string.split("T")[1];
+    time_string = time_string.split(":00.000Z")[0];
+    console.log(time_string);
+    time_to_wake_value.value = time_string;
+    wake_h.value = time_string.split(":")[0];
+    wake_m.value = time_string.split(":")[1];
+});
+time_to_notify.onValueChanged(module, function(date) {
+    // console.log("time_to_sleep changed: " + JSON.stringify(date));
+    let time_string = JSON.stringify(date);
+    time_string = time_string.split("T")[1];
+    time_string = time_string.split(":00.000Z")[0];
+    console.log(time_string);
+    notification_time = time_string;
+});
+function time_to_bed_visibility_func() {
+    console.log("time_to_bed_visibility: "+time_to_bed_visibility.value);
+    if (time_to_bed_visibility.value == "Visible") {
+        time_to_bed_visibility.value = "Collapsed";
+    } else {
+        time_to_bed_visibility.value = "Visible";
+    }
+}
+function time_to_sleep_visibility_func() {
+    console.log("time_to_sleep_visibility: "+time_to_sleep_visibility.value);
+    if (time_to_sleep_visibility.value == "Visible") {
+        time_to_sleep_visibility.value = "Collapsed";
+    } else {
+        time_to_sleep_visibility.value = "Visible";
+    }
+}
+function time_to_wake_visibility_func() {
+    console.log("time_to_wake_visibility: "+time_to_wake_visibility.value);
+    if (time_to_wake_visibility.value == "Visible") {
+        time_to_wake_visibility.value = "Collapsed";
+    } else {
+        time_to_wake_visibility.value = "Visible";
+    }
+}
+function notification_page() {
+    console.log("----");
+}
+function time_to_notify_func() {
+    console.log("--");
+    console.log(Device.UUID);
+    console.log(notification_time+" - "+registration_token+" - "+device_uuid);
+    if (notif_toggle.value == false) {
+        notification_time = "";
+    }
+    console.log("http://koikka.work/fuse/fuse.php?action=set_notification&id="+Device.UUID+"&push_id="+registration_token+"&time="+notification_time);
+    var body = "action=set_notification&id="+Device.UUID+"&push_id="+registration_token+"&time="+notification_time;
+    var url = "http://koikka.work/fuse/fuse.php";
+    fetch(url, {
+        method: 'POST',
+        headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
+        body: body,
+        cache: false
+    }).then(function(response) {
+        if(response.ok) {
+            // var json = JSON.parse(response._bodyText);
+            console.log(response._bodyText);
+            // json.action = action;
+            // callback(json);
+        } else {
+            console.log("False HTTP response : "+response.status);
+        }
+    }).catch(function(err) {
+        if(err != "SyntaxError: Unexpected end of input") {
+            // An error occurred somewhere in the Promise chain
+            console.log("Server error : "+err);
+        } else{
+            console.log("SERVER SYNTAX ERROR");
+        }
+    });
+    save_confirm.value = true;
+}
+function get_time_to_notify_func() {
+    console.log("-------------------");
+    // console.log(Device.UUID);
+    // console.log(notification_time+" - "+registration_token+" - "+device_uuid);
+    // console.log("http://koikka.work/fuse/fuse.php?action=get_notification&id="+Device.UUID+"&push_id="+registration_token);
+    var body = "action=get_notification&id="+Device.UUID+"&push_id="+registration_token;
+    var url = "http://koikka.work/fuse/fuse.php";
+    fetch(url, {
+        method: 'POST',
+        headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
+        body: body,
+        cache: false
+    }).then(function(response) {
+        if(response.ok) {
+            // var json = JSON.parse(response._bodyText);
+            console.log(response._bodyText);
+            var json = JSON.parse(response._bodyText);
+            console.log(json.time_to_notify);
+            if (json.time_to_notify.length > 0)
+                time_to_notify.value = new Date(Date.parse("2019-01-16T"+json.time_to_notify+":00.000Z"));
+            notif_toggle.value = json.notifications;
+            // if (notif_toggle.value == true) {
+            //     notif_toggle.value = false;
+            // } else {
+            //     notif_toggle.value = true;
+            // }
+            console.log("set notif toggle to: "+notif_toggle.value);
+            // json.action = action;
+            // callback(json);
+        } else {
+            console.log("False HTTP response : "+response.status);
+        }
+    }).catch(function(err) {
+        if(err != "SyntaxError: Unexpected end of input") {
+            // An error occurred somewhere in the Promise chain
+            console.log("Server error : "+err);
+        } else{
+            console.log("SERVER SYNTAX ERROR");
+        }
+    });
+    // save_confirm.value = true;
+}
+function notif_toggle_handler() {
+    console.log("notif_toggle_in: "+notif_toggle.value);
+    if (notif_toggle.value == true || notif_toggle.value == "true") {
+        notif_toggle.value = false;
+    } else {
+        notif_toggle.value = true;
+    }
+    console.log("notif_toggle_out: "+notif_toggle.value);
+}
 function empty_memory() {
     Storage.write(SAVENAME, "");
 }
@@ -750,9 +954,9 @@ module.exports = {
     bg_image: bg_image,
     hours: hours,
     minutes: minutes,
-    activated: activated,
+    /*activated: activated,
     activated_end: activated_end,
-    activated_wake_up: activated_wake_up,
+    activated_wake_up: activated_wake_up,*/
     toggle_switch: toggle_switch,
     sleep_quality: sleep_quality,
     sleep_naps: sleep_naps,
@@ -778,14 +982,46 @@ module.exports = {
     get_mood_emoji: get_mood_emoji,
     handle_empty_screen: handle_empty_screen,
     web_view_vis: web_view_vis,
+    set_notification_vis: set_notification_vis,
     home_page_vis: home_page_vis,
     Payload: Payload,
     clearBadgeNumber: clearBadgeNumber,
     clearAllNotifications: clearAllNotifications,
     message: message,
-    status: status
+    status: status,
+    time_to_bed: time_to_bed,
+    time_to_bed_value: time_to_bed_value,
+    time_to_bed_visibility: time_to_bed_visibility,
+    time_to_bed_visibility_func: time_to_bed_visibility_func,
+    time_to_sleep: time_to_sleep,
+    time_to_sleep_value: time_to_sleep_value,
+    time_to_sleep_visibility: time_to_sleep_visibility,
+    time_to_sleep_visibility_func: time_to_sleep_visibility_func,
+    time_to_wake: time_to_wake,
+    time_to_wake_value: time_to_wake_value,
+    time_to_wake_visibility: time_to_wake_visibility,
+    time_to_wake_visibility_func: time_to_wake_visibility_func,
+    notification_page: notification_page,
+    time_to_notify: time_to_notify,
+    time_to_notify_func: time_to_notify_func,
+    get_time_to_notify_func: get_time_to_notify_func,
+    notif_toggle: notif_toggle,
+    notif_toggle_handler: notif_toggle_handler,
+    toggle_sleep_quality: toggle_sleep_quality,
+    toggle_sleep_naps: toggle_sleep_naps,
+    toggle_sleep_tired: toggle_sleep_tired,
+    shareText : function() {
+        Share.shareText(chart_url.value, "Linkki minun historiaan");
+    }
 };
 
+/*
+,
+    time_to_bed: time_to_bed,
+    time_to_sleep: time_to_sleep,
+    time_to_bed_visibility: time_to_bed_visibility,
+    time_to_bed_visibility_func: time_to_bed_visibility_func
+ */
 
 
 
