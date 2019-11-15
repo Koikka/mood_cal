@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/WrapException.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/WrapException.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Fuse{struct WrapException;}}
 namespace g{
 namespace Fuse{
 
-// internal sealed class WrapException :12
+// internal sealed class WrapException
 // {
 ::g::Uno::Exception_type* WrapException_typeof();
 void WrapException__ctor_3_fn(WrapException* __this, ::g::Uno::Exception* inner);

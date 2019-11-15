@@ -5,8 +5,8 @@
 #include <Fuse.Scripting.NativeCallback.h>
 #include <Fuse.Scripting.NativeFunction.h>
 #include <Fuse.Scripting.NativeMember.h>
-#include <Fuse.Testing.TestFail-c87eb991.h>
-#include <Fuse.Testing.UnoTesti-f868a38f.h>
+#include <Fuse.Testing.TestFail-c28caa43.h>
+#include <Fuse.Testing.UnoTesti-cbca720d.h>
 #include <Fuse.Testing.UnoTestingHelper.h>
 #include <Fuse.UpdateManager.h>
 #include <Uno.Action.h>
@@ -20,10 +20,10 @@ namespace g{
 namespace Fuse{
 namespace Testing{
 
-// /usr/local/share/uno/Packages/Fuse.Testing/1.9.0/JavaScriptTest.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Testing/1.12.0/JavaScriptTest.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class TestFailedException :9
+// internal sealed class TestFailedException
 // {
 static void TestFailedException_build(uType* type)
 {
@@ -45,25 +45,25 @@ static void TestFailedException_build(uType* type)
     return type;
 }
 
-// public TestFailedException(string message) :11
+// public TestFailedException(string message)
 void TestFailedException__ctor_3_fn(TestFailedException* __this, uString* message)
 {
     __this->ctor_3(message);
 }
 
-// public TestFailedException New(string message) :11
+// public TestFailedException New(string message)
 void TestFailedException__New4_fn(uString* message, TestFailedException** __retval)
 {
     *__retval = TestFailedException::New4(message);
 }
 
-// public TestFailedException(string message) [instance] :11
+// public TestFailedException(string message) [instance]
 void TestFailedException::ctor_3(uString* message)
 {
     ctor_1(message);
 }
 
-// public TestFailedException New(string message) [static] :11
+// public TestFailedException New(string message) [static]
 TestFailedException* TestFailedException::New4(uString* message)
 {
     TestFailedException* obj1 = (TestFailedException*)uNew(TestFailedException_typeof());
@@ -72,10 +72,10 @@ TestFailedException* TestFailedException::New4(uString* message)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Testing/1.9.0/JavaScriptTest.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Testing/1.12.0/JavaScriptTest.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class UnoTestingHelper.TestFailure :29
+// private sealed class UnoTestingHelper.TestFailure
 // {
 static void UnoTestingHelper__TestFailure_build(uType* type)
 {
@@ -97,37 +97,37 @@ uType* UnoTestingHelper__TestFailure_typeof()
     return type;
 }
 
-// public TestFailure(string message) :32
+// public TestFailure(string message)
 void UnoTestingHelper__TestFailure__ctor__fn(UnoTestingHelper__TestFailure* __this, uString* message)
 {
     __this->ctor_(message);
 }
 
-// public void Fail() :37
+// public void Fail()
 void UnoTestingHelper__TestFailure__Fail_fn(UnoTestingHelper__TestFailure* __this)
 {
     __this->Fail();
 }
 
-// public TestFailure New(string message) :32
+// public TestFailure New(string message)
 void UnoTestingHelper__TestFailure__New1_fn(uString* message, UnoTestingHelper__TestFailure** __retval)
 {
     *__retval = UnoTestingHelper__TestFailure::New1(message);
 }
 
-// public TestFailure(string message) [instance] :32
+// public TestFailure(string message) [instance]
 void UnoTestingHelper__TestFailure::ctor_(uString* message)
 {
     _message = message;
 }
 
-// public void Fail() [instance] :37
+// public void Fail() [instance]
 void UnoTestingHelper__TestFailure::Fail()
 {
     U_THROW(::g::Fuse::Testing::TestFailedException::New4(_message));
 }
 
-// public TestFailure New(string message) [static] :32
+// public TestFailure New(string message) [static]
 UnoTestingHelper__TestFailure* UnoTestingHelper__TestFailure::New1(uString* message)
 {
     UnoTestingHelper__TestFailure* obj1 = (UnoTestingHelper__TestFailure*)uNew(UnoTestingHelper__TestFailure_typeof());
@@ -136,10 +136,10 @@ UnoTestingHelper__TestFailure* UnoTestingHelper__TestFailure::New1(uString* mess
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Testing/1.9.0/JavaScriptTest.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Testing/1.12.0/JavaScriptTest.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class UnoTestingHelper :17
+// public sealed class UnoTestingHelper
 // {
 static void UnoTestingHelper_build(uType* type)
 {
@@ -173,19 +173,19 @@ static void UnoTestingHelper_build(uType* type)
     return type;
 }
 
-// public UnoTestingHelper() :20
+// public UnoTestingHelper()
 void UnoTestingHelper__ctor_2_fn(UnoTestingHelper* __this)
 {
     __this->ctor_2();
 }
 
-// public UnoTestingHelper New() :20
+// public UnoTestingHelper New()
 void UnoTestingHelper__New2_fn(UnoTestingHelper** __retval)
 {
     *__retval = UnoTestingHelper::New2();
 }
 
-// private static object TestFailed(Fuse.Scripting.Context c, object[] args) :43
+// private static object TestFailed(Fuse.Scripting.Context c, object[] args)
 void UnoTestingHelper__TestFailed_fn(::g::Fuse::Scripting::Context* c, uArray* args, uObject** __retval)
 {
     *__retval = UnoTestingHelper::TestFailed(c, args);
@@ -193,7 +193,7 @@ void UnoTestingHelper__TestFailed_fn(::g::Fuse::Scripting::Context* c, uArray* a
 
 uSStrong<UnoTestingHelper*> UnoTestingHelper::_instance_;
 
-// public UnoTestingHelper() [instance] :20
+// public UnoTestingHelper() [instance]
 void UnoTestingHelper::ctor_2()
 {
     ctor_1();
@@ -205,7 +205,7 @@ void UnoTestingHelper::ctor_2()
     AddMember(::g::Fuse::Scripting::NativeFunction::New1(uString::Const("testFailed"), uDelegate::New(::g::Fuse::Scripting::NativeCallback_typeof(), (void*)UnoTestingHelper__TestFailed_fn)));
 }
 
-// public UnoTestingHelper New() [static] :20
+// public UnoTestingHelper New() [static]
 UnoTestingHelper* UnoTestingHelper::New2()
 {
     UnoTestingHelper* obj1 = (UnoTestingHelper*)uNew(UnoTestingHelper_typeof());
@@ -213,7 +213,7 @@ UnoTestingHelper* UnoTestingHelper::New2()
     return obj1;
 }
 
-// private static object TestFailed(Fuse.Scripting.Context c, object[] args) [static] :43
+// private static object TestFailed(Fuse.Scripting.Context c, object[] args) [static]
 uObject* UnoTestingHelper::TestFailed(::g::Fuse::Scripting::Context* c, uArray* args)
 {
     uString* message = ::g::Uno::Object::ToString(uPtr(uPtr(args)->Strong<uObject*>(0)));

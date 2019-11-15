@@ -1,8 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.WebView/1.9.0/WebView.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.WebView/1.12.0/WebView.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Controls.Buffere-2ce2abf.h>
+#include <Fuse.Controls.Buffere-b16fed02.h>
 #include <Uno.Object.h>
 namespace g{namespace Fuse{namespace Controls{struct JavaScriptCall;}}}
 
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// internal sealed class JavaScriptCall :476
+// internal sealed class JavaScriptCall
 // {
 struct JavaScriptCall_type : uType
 {

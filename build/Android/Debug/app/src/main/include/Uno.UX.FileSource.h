@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/FileSource.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/UX/FileSource.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Uno{
 namespace UX{
 
-// public abstract class FileSource :6
+// public abstract class FileSource
 // {
 struct FileSource_type : uType
 {
@@ -26,7 +26,7 @@ void FileSource__ctor__fn(FileSource* __this, uString* name);
 void FileSource__add_DataChanged_fn(FileSource* __this, uDelegate* value);
 void FileSource__remove_DataChanged_fn(FileSource* __this, uDelegate* value);
 void FileSource__OnDataChanged_fn(FileSource* __this);
-void FileSource__op_Implicit1_fn(::g::Uno::IO::BundleFile* bundleFile, FileSource** __retval);
+void FileSource__op_Implicit_fn(::g::Uno::IO::BundleFile* bundleFile, FileSource** __retval);
 void FileSource__ReadAllBytes_fn(FileSource* __this, uArray** __retval);
 void FileSource__ReadAllText_fn(FileSource* __this, uString** __retval);
 
@@ -42,7 +42,7 @@ struct FileSource : uObject
     ::g::Uno::IO::Stream* OpenRead() { ::g::Uno::IO::Stream* __retval; return (((FileSource_type*)__type)->fp_OpenRead)(this, &__retval), __retval; }
     uArray* ReadAllBytes() { uArray* __retval; return (((FileSource_type*)__type)->fp_ReadAllBytes)(this, &__retval), __retval; }
     uString* ReadAllText() { uString* __retval; return (((FileSource_type*)__type)->fp_ReadAllText)(this, &__retval), __retval; }
-    static FileSource* op_Implicit1(::g::Uno::IO::BundleFile* bundleFile);
+    static FileSource* op_Implicit(::g::Uno::IO::BundleFile* bundleFile);
     static uArray* ReadAllBytes(FileSource* __this) { uArray* __retval; return FileSource__ReadAllBytes_fn(__this, &__retval), __retval; }
     static uString* ReadAllText(FileSource* __this) { uString* __retval; return FileSource__ReadAllText_fn(__this, &__retval), __retval; }
 };

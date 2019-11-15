@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.8.1/TextControls/TextInput.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/TextControls/TextInput.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,12 +8,13 @@
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
+#include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Triggers.IValue-1.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
@@ -29,13 +30,13 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public sealed class TextInput :98
+// public sealed class TextInput
 // {
 ::g::Fuse::Controls::TextInputControl_type* TextInput_typeof();
 void TextInput__ctor_7_fn(TextInput* __this);
-void TextInput__add_ActionTriggered_fn(TextInput* __this, uDelegate* value);
-void TextInput__remove_ActionTriggered_fn(TextInput* __this, uDelegate* value);
 void TextInput__Create_fn(::g::Fuse::Controls::TextEdit** __retval);
+void TextInput__get_IsPassword_fn(TextInput* __this, bool* __retval);
+void TextInput__set_IsPassword_fn(TextInput* __this, bool* value);
 void TextInput__New3_fn(TextInput** __retval);
 void TextInput__get_PlaceholderColor_fn(TextInput* __this, ::g::Uno::Float4* __retval);
 void TextInput__set_PlaceholderColor_fn(TextInput* __this, ::g::Uno::Float4* value);
@@ -45,8 +46,8 @@ void TextInput__set_PlaceholderText_fn(TextInput* __this, uString* value);
 struct TextInput : ::g::Fuse::Controls::TextInputControl
 {
     void ctor_7();
-    void add_ActionTriggered(uDelegate* value);
-    void remove_ActionTriggered(uDelegate* value);
+    bool IsPassword();
+    void IsPassword(bool value);
     ::g::Uno::Float4 PlaceholderColor();
     void PlaceholderColor(::g::Uno::Float4 value);
     uString* PlaceholderText();

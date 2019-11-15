@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/Android/Commands.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/Android/Commands.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace ImageTools{
 
-// internal sealed extern class CropCommand :73
+// internal sealed extern class CropCommand
 // {
 ::g::Fuse::ImageTools::PCommand_type* CropCommand_typeof();
 void CropCommand__ctor_1_fn(CropCommand* __this, uString* path, int32_t* x, int32_t* y, int32_t* desiredWidth, int32_t* desiredHeight, uDelegate* Resolve, uDelegate* Reject, bool* inPlace);

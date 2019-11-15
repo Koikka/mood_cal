@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/IValue.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/IValue.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Triggers{
 
-// public abstract interface IValue<T> :5
+// public abstract interface IValue<T>
 // {
 uInterfaceType* IValue_typeof();
 

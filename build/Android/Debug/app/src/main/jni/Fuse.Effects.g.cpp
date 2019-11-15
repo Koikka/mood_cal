@@ -7,7 +7,7 @@
 #include <Fuse.Effects.BasicEffect.h>
 #include <Fuse.Effects.Blur.h>
 #include <Fuse.Effects.Desaturate.h>
-#include <Fuse.Effects.DropShad-41b5d682.h>
+#include <Fuse.Effects.DropShad-c530ad41.h>
 #include <Fuse.Effects.DropShadow.h>
 #include <Fuse.Effects.Duotone.h>
 #include <Fuse.Effects.Effect.h>
@@ -25,8 +25,6 @@
 #include <Fuse.VisualBounds.h>
 #include <Uno.Action1-1.h>
 #include <Uno.Bool.h>
-#include <Uno.Buffer.h>
-#include <Uno.Byte.h>
 #include <Uno.Delegate.h>
 #include <Uno.Double.h>
 #include <Uno.Exception.h>
@@ -45,15 +43,14 @@
 #include <Uno.Graphics.PolygonFace.h>
 #include <Uno.Graphics.SamplerState.h>
 #include <Uno.Graphics.Texture2D.h>
-#include <Uno.Graphics.VertexAt-4a875e1d.h>
+#include <Uno.Graphics.VertexAt-13489a6d.h>
 #include <Uno.Graphics.VertexBuffer.h>
 #include <Uno.Int.h>
 #include <Uno.Int2.h>
 #include <Uno.Math.h>
 #include <Uno.Matrix.h>
 #include <Uno.Rect.h>
-#include <Uno.Runtime.Implement-6e9df330.h>
-#include <Uno.Runtime.Implement-81e7ab4c.h>
+#include <Uno.Runtime.Implement-e843a30a.h>
 #include <Uno.String.h>
 #include <Uno.UShort.h>
 static uString* STRINGS[1];
@@ -63,10 +60,10 @@ namespace g{
 namespace Fuse{
 namespace Effects{
 
-// /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/BasicEffect.uno
-// ----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/BasicEffect.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class BasicEffect :7
+// public abstract class BasicEffect
 // {
 static void BasicEffect_build(uType* type)
 {
@@ -119,45 +116,45 @@ BasicEffect_type* BasicEffect_typeof()
     return type;
 }
 
-// protected BasicEffect(Fuse.Effects.EffectType effectType) :9
+// protected BasicEffect(Fuse.Effects.EffectType effectType)
 void BasicEffect__ctor_3_fn(BasicEffect* __this, int32_t* effectType)
 {
     __this->ctor_3(*effectType);
 }
 
-// internal static Uno.Recti ConservativelySnapToCoveringIntegers(Uno.Rect r) :22
+// internal static Uno.Recti ConservativelySnapToCoveringIntegers(Uno.Rect r)
 void BasicEffect__ConservativelySnapToCoveringIntegers_fn(::g::Uno::Rect* r, ::g::Uno::Recti* __retval)
 {
     *__retval = BasicEffect::ConservativelySnapToCoveringIntegers(*r);
 }
 
-// protected Uno.Rect GetLocalElementRect() :34
+// protected Uno.Rect GetLocalElementRect()
 void BasicEffect__GetLocalElementRect_fn(BasicEffect* __this, ::g::Uno::Rect* __retval)
 {
     *__retval = __this->GetLocalElementRect();
 }
 
-// public override sealed void Render(Fuse.DrawContext dc) :14
+// public override sealed void Render(Fuse.DrawContext dc)
 void BasicEffect__Render_fn(BasicEffect* __this, ::g::Fuse::DrawContext* dc)
 {
     ::g::Uno::Rect rect = __this->GetLocalElementRect();
     __this->OnRender(dc, rect);
 }
 
-// protected BasicEffect(Fuse.Effects.EffectType effectType) [instance] :9
+// protected BasicEffect(Fuse.Effects.EffectType effectType) [instance]
 void BasicEffect::ctor_3(int32_t effectType)
 {
     ctor_2(effectType);
 }
 
-// protected Uno.Rect GetLocalElementRect() [instance] :34
+// protected Uno.Rect GetLocalElementRect() [instance]
 ::g::Uno::Rect BasicEffect::GetLocalElementRect()
 {
     ::g::Uno::Recti ir = BasicEffect::ConservativelySnapToCoveringIntegers(::g::Uno::Rect__Scale(uPtr(uPtr(Element())->RenderBoundsWithoutEffects())->FlatRect(), uPtr(Element())->AbsoluteZoom()));
     return ::g::Uno::Rect__New1((float)ir.Minimum().X / uPtr(Element())->AbsoluteZoom(), (float)ir.Minimum().Y / uPtr(Element())->AbsoluteZoom(), (float)ir.Maximum().X / uPtr(Element())->AbsoluteZoom(), (float)ir.Maximum().Y / uPtr(Element())->AbsoluteZoom());
 }
 
-// internal static Uno.Recti ConservativelySnapToCoveringIntegers(Uno.Rect r) [static] :22
+// internal static Uno.Recti ConservativelySnapToCoveringIntegers(Uno.Rect r) [static]
 ::g::Uno::Recti BasicEffect::ConservativelySnapToCoveringIntegers(::g::Uno::Rect r)
 {
     ::g::Uno::Int2 origin = ::g::Uno::Int2__op_Explicit1(::g::Uno::Math::Floor2(r.LeftTop()));
@@ -166,10 +163,10 @@ void BasicEffect::ctor_3(int32_t effectType)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/DropShadow.uno
-// ---------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/DropShadow.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class DropShadow.Blitter :172
+// private sealed class DropShadow.Blitter
 // {
 static void DropShadow__Blitter_build(uType* type)
 {
@@ -178,10 +175,10 @@ static void DropShadow__Blitter_build(uType* type)
     type->SetDependencies(
         ::g::FuseEffects_bundle_typeof());
     type->SetFields(0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(DropShadow__Blitter, Blit_VertexData_969193be_7_2_1), 0,
-        ::g::Uno::Float4x4_typeof(), offsetof(DropShadow__Blitter, Blit_LocalTransform_969193be_4_9_2), 0,
-        ::g::Uno::Float4x4_typeof(), offsetof(DropShadow__Blitter, Blit_LocalTransform_969193be_4_9_3), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(DropShadow__Blitter, _draw_969193be), 0,
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(DropShadow__Blitter, Blit_VertexData_c0030eee_7_2_1), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(DropShadow__Blitter, Blit_LocalTransform_c0030eee_4_9_2), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(DropShadow__Blitter, Blit_LocalTransform_c0030eee_4_9_3), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(DropShadow__Blitter, _draw_c0030eee), 0,
         type, (uintptr_t)&DropShadow__Blitter::_instance_, uFieldFlagsStatic);
 }
 
@@ -201,31 +198,31 @@ uType* DropShadow__Blitter_typeof()
     return type;
 }
 
-// public generated Blitter() :172
+// public generated Blitter()
 void DropShadow__Blitter__ctor__fn(DropShadow__Blitter* __this)
 {
     __this->ctor_();
 }
 
-// public void Blit(Fuse.DrawContext dc, Fuse.Elements.Element element, Uno.Rect elementRect, float padding, int2 tempSize, texture2D blurTexture, float spreadScale, float2 offset, float4 color) :180
+// public void Blit(Fuse.DrawContext dc, Fuse.Elements.Element element, Uno.Rect elementRect, float padding, int2 tempSize, texture2D blurTexture, float spreadScale, float2 offset, float4 color)
 void DropShadow__Blitter__Blit_fn(DropShadow__Blitter* __this, ::g::Fuse::DrawContext* dc, ::g::Fuse::Elements::Element* element, ::g::Uno::Rect* elementRect, float* padding, ::g::Uno::Int2* tempSize, ::g::Uno::Graphics::Texture2D* blurTexture, float* spreadScale, ::g::Uno::Float2* offset, ::g::Uno::Float4* color)
 {
     __this->Blit(dc, element, *elementRect, *padding, *tempSize, blurTexture, *spreadScale, *offset, *color);
 }
 
-// private generated void init_DrawCalls() :172
+// private generated void init_DrawCalls()
 void DropShadow__Blitter__init_DrawCalls_fn(DropShadow__Blitter* __this)
 {
     __this->init_DrawCalls();
 }
 
-// public static Fuse.Effects.DropShadow.Blitter get_Instance() :177
+// public static Fuse.Effects.DropShadow.Blitter get_Instance()
 void DropShadow__Blitter__get_Instance_fn(DropShadow__Blitter** __retval)
 {
     *__retval = DropShadow__Blitter::Instance();
 }
 
-// public generated Blitter New() :172
+// public generated Blitter New()
 void DropShadow__Blitter__New1_fn(DropShadow__Blitter** __retval)
 {
     *__retval = DropShadow__Blitter::New1();
@@ -233,43 +230,43 @@ void DropShadow__Blitter__New1_fn(DropShadow__Blitter** __retval)
 
 uSStrong<DropShadow__Blitter*> DropShadow__Blitter::_instance_;
 
-// public generated Blitter() [instance] :172
+// public generated Blitter() [instance]
 void DropShadow__Blitter::ctor_()
 {
     init_DrawCalls();
 }
 
-// public void Blit(Fuse.DrawContext dc, Fuse.Elements.Element element, Uno.Rect elementRect, float padding, int2 tempSize, texture2D blurTexture, float spreadScale, float2 offset, float4 color) [instance] :180
+// public void Blit(Fuse.DrawContext dc, Fuse.Elements.Element element, Uno.Rect elementRect, float padding, int2 tempSize, texture2D blurTexture, float spreadScale, float2 offset, float4 color) [instance]
 void DropShadow__Blitter::Blit(::g::Fuse::DrawContext* dc, ::g::Fuse::Elements::Element* element, ::g::Uno::Rect elementRect, float padding, ::g::Uno::Int2 tempSize, ::g::Uno::Graphics::Texture2D* blurTexture, float spreadScale, ::g::Uno::Float2 offset, ::g::Uno::Float4 color)
 {
-    ::g::Uno::Float4x4 LocalTransform_969193be_4_9_4 = ::g::Uno::Matrix::Mul10(Blit_LocalTransform_969193be_4_9_2, ::g::Uno::Matrix::Scaling1(::g::Uno::Float2__op_Division1(::g::Uno::Float2__New2((float)tempSize.X, (float)tempSize.Y), uPtr(element)->AbsoluteZoom()).X, ::g::Uno::Float2__op_Division1(::g::Uno::Float2__New2((float)tempSize.X, (float)tempSize.Y), uPtr(element)->AbsoluteZoom()).Y, 1.0f), Blit_LocalTransform_969193be_4_9_3, ::g::Uno::Matrix::Translation(::g::Uno::Float2__op_Subtraction1(::g::Uno::Float2__op_Addition2(elementRect.Minimum(), offset), padding).X, ::g::Uno::Float2__op_Subtraction1(::g::Uno::Float2__op_Addition2(elementRect.Minimum(), offset), padding).Y, 0.0f));
-    _draw_969193be.BlendEnabled(true);
-    _draw_969193be.DepthTestEnabled(false);
-    _draw_969193be.CullFace(uPtr(dc)->CullFace());
-    _draw_969193be.BlendSrcRgb(2);
-    _draw_969193be.BlendDstRgb(3);
-    _draw_969193be.BlendDstAlpha(3);
-    _draw_969193be.Use();
-    _draw_969193be.Attrib1(0, 2, Blit_VertexData_969193be_7_2_1, 8, 0);
-    _draw_969193be.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
-    _draw_969193be.Uniform(2, spreadScale);
-    _draw_969193be.Uniform(3, color.W);
-    _draw_969193be.Uniform6(4, ::g::Uno::Float3__New2(color.X, color.Y, color.Z));
-    _draw_969193be.Uniform12(5, (element != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_969193be_4_9_4, uPtr(element)->WorldTransform()) : LocalTransform_969193be_4_9_4);
-    _draw_969193be.Sampler3(6, blurTexture, ::g::Uno::Graphics::SamplerState__LinearClamp());
-    _draw_969193be.DrawArrays(6);
+    ::g::Uno::Float4x4 LocalTransform_c0030eee_4_9_4 = ::g::Uno::Matrix::Mul10(Blit_LocalTransform_c0030eee_4_9_2, ::g::Uno::Matrix::Scaling1(::g::Uno::Float2__op_Division1(::g::Uno::Float2__New2((float)tempSize.X, (float)tempSize.Y), uPtr(element)->AbsoluteZoom()).X, ::g::Uno::Float2__op_Division1(::g::Uno::Float2__New2((float)tempSize.X, (float)tempSize.Y), uPtr(element)->AbsoluteZoom()).Y, 1.0f), Blit_LocalTransform_c0030eee_4_9_3, ::g::Uno::Matrix::Translation(::g::Uno::Float2__op_Subtraction1(::g::Uno::Float2__op_Addition2(elementRect.Minimum(), offset), padding).X, ::g::Uno::Float2__op_Subtraction1(::g::Uno::Float2__op_Addition2(elementRect.Minimum(), offset), padding).Y, 0.0f));
+    _draw_c0030eee.BlendEnabled(true);
+    _draw_c0030eee.DepthTestEnabled(false);
+    _draw_c0030eee.CullFace(uPtr(dc)->CullFace());
+    _draw_c0030eee.BlendSrcRgb(2);
+    _draw_c0030eee.BlendDstRgb(3);
+    _draw_c0030eee.BlendDstAlpha(3);
+    _draw_c0030eee.Use();
+    _draw_c0030eee.Attrib1(0, 2, Blit_VertexData_c0030eee_7_2_1, 8, 0);
+    _draw_c0030eee.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
+    _draw_c0030eee.Uniform(2, spreadScale);
+    _draw_c0030eee.Uniform(3, color.W);
+    _draw_c0030eee.Uniform6(4, ::g::Uno::Float3__New2(color.X, color.Y, color.Z));
+    _draw_c0030eee.Uniform12(5, (element != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_c0030eee_4_9_4, uPtr(element)->WorldTransform()) : LocalTransform_c0030eee_4_9_4);
+    _draw_c0030eee.Sampler3(6, blurTexture, ::g::Uno::Graphics::SamplerState__LinearClamp());
+    _draw_c0030eee.DrawArrays(6);
 }
 
-// private generated void init_DrawCalls() [instance] :172
+// private generated void init_DrawCalls() [instance]
 void DropShadow__Blitter::init_DrawCalls()
 {
-    Blit_VertexData_969193be_7_2_1 = ::g::Uno::Graphics::VertexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer3(uArray::Init< ::g::Uno::Float2>(::TYPES[1/*float2[]*/], 6, ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(0.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 0.0f))))->GetBytes(), 0);
-    Blit_LocalTransform_969193be_4_9_2 = ::g::Uno::Matrix::Translation(-::g::Uno::Float2__New1(0.0f).X, -::g::Uno::Float2__New1(0.0f).Y, 0.0f);
-    Blit_LocalTransform_969193be_4_9_3 = ::g::Uno::Matrix::RotationZ(0.0f);
-    _draw_969193be = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseEffects_bundle::Blitter6e650d31());
+    Blit_VertexData_c0030eee_7_2_1 = ::g::Uno::Graphics::VertexBuffer::New3(uArray::Init< ::g::Uno::Float2>(::TYPES[1/*float2[]*/], 6, ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(0.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 0.0f)), 0);
+    Blit_LocalTransform_c0030eee_4_9_2 = ::g::Uno::Matrix::Translation(-::g::Uno::Float2__New1(0.0f).X, -::g::Uno::Float2__New1(0.0f).Y, 0.0f);
+    Blit_LocalTransform_c0030eee_4_9_3 = ::g::Uno::Matrix::RotationZ(0.0f);
+    _draw_c0030eee = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseEffects_bundle::Blitter1d578c84());
 }
 
-// public generated Blitter New() [static] :172
+// public generated Blitter New() [static]
 DropShadow__Blitter* DropShadow__Blitter::New1()
 {
     DropShadow__Blitter* obj2 = (DropShadow__Blitter*)uNew(DropShadow__Blitter_typeof());
@@ -277,7 +274,7 @@ DropShadow__Blitter* DropShadow__Blitter::New1()
     return obj2;
 }
 
-// public static Fuse.Effects.DropShadow.Blitter get_Instance() [static] :177
+// public static Fuse.Effects.DropShadow.Blitter get_Instance() [static]
 DropShadow__Blitter* DropShadow__Blitter::Instance()
 {
     DropShadow__Blitter* ind1;
@@ -286,10 +283,10 @@ DropShadow__Blitter* DropShadow__Blitter::Instance()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/Blur.uno
-// ---------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/Blur.uno
+// ---------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Blur :14
+// public sealed class Blur
 // {
 static void Blur_build(uType* type)
 {
@@ -346,24 +343,24 @@ static void Blur_build(uType* type)
     return type;
 }
 
-// public override sealed bool get_Active() :39
+// public override sealed bool get_Active()
 void Blur__get_Active_fn(Blur* __this, bool* __retval)
 {
     return *__retval = __this->Radius() > 0.0f, void();
 }
 
-// public override sealed Fuse.VisualBounds ModifyRenderBounds(Fuse.VisualBounds inBounds) :41
+// public override sealed Fuse.VisualBounds ModifyRenderBounds(Fuse.VisualBounds inBounds)
 void Blur__ModifyRenderBounds_fn(Blur* __this, ::g::Fuse::VisualBounds* inBounds, ::g::Fuse::VisualBounds** __retval)
 {
     return *__retval = uPtr(inBounds)->InflateXY(__this->Padding()), void();
 }
 
-// protected override sealed void OnRender(Fuse.DrawContext dc, Uno.Rect elementRect) :49
+// protected override sealed void OnRender(Fuse.DrawContext dc, Uno.Rect elementRect)
 void Blur__OnRender_fn(Blur* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Rect* elementRect)
 {
     ::g::Uno::Rect elementRect_ = *elementRect;
     ::g::Uno::Rect paddedRect = ::g::Uno::Rect__Inflate(elementRect_, __this->Padding());
-    ::g::Uno::Graphics::Framebuffer* original = uPtr(__this->Element())->CaptureRegion(dc, paddedRect, ::g::Uno::Float2__op_Implicit2(::g::Uno::Int2__New1(0)));
+    ::g::Uno::Graphics::Framebuffer* original = uPtr(__this->Element())->CaptureRegion(dc, paddedRect, ::g::Uno::Float2__op_Implicit1(::g::Uno::Int2__New1(0)));
 
     if (original == NULL)
         return;
@@ -374,43 +371,43 @@ void Blur__OnRender_fn(Blur* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Rect*
     ::g::Fuse::FramebufferPool::Release(blur);
 }
 
-// internal float get_Padding() :47
+// internal float get_Padding()
 void Blur__get_Padding_fn(Blur* __this, float* __retval)
 {
     *__retval = __this->Padding();
 }
 
-// public float get_Radius() :26
+// public float get_Radius()
 void Blur__get_Radius_fn(Blur* __this, float* __retval)
 {
     *__retval = __this->Radius();
 }
 
-// public void set_Radius(float value) :27
+// public void set_Radius(float value)
 void Blur__set_Radius_fn(Blur* __this, float* value)
 {
     __this->Radius(*value);
 }
 
-// internal float get_Sigma() :46
+// internal float get_Sigma()
 void Blur__get_Sigma_fn(Blur* __this, float* __retval)
 {
     *__retval = __this->Sigma();
 }
 
-// internal float get_Padding() [instance] :47
+// internal float get_Padding() [instance]
 float Blur::Padding()
 {
     return ::g::Uno::Math::Ceil1((Sigma() * 3.0f) * uPtr(Element())->AbsoluteZoom()) / uPtr(Element())->AbsoluteZoom();
 }
 
-// public float get_Radius() [instance] :26
+// public float get_Radius() [instance]
 float Blur::Radius()
 {
     return _radius;
 }
 
-// public void set_Radius(float value) [instance] :27
+// public void set_Radius(float value) [instance]
 void Blur::Radius(float value)
 {
     if (_radius != value)
@@ -421,17 +418,17 @@ void Blur::Radius(float value)
     }
 }
 
-// internal float get_Sigma() [instance] :46
+// internal float get_Sigma() [instance]
 float Blur::Sigma()
 {
     return ::g::Uno::Math::Max1(Radius(), 1e-05f);
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/Desaturate.uno
-// ---------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/Desaturate.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Desaturate :11
+// public sealed class Desaturate
 // {
 static void Desaturate_build(uType* type)
 {
@@ -446,10 +443,10 @@ static void Desaturate_build(uType* type)
         ::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Effects::BasicEffect_type, interface6));
     type->SetFields(21,
         ::g::Uno::Float_typeof(), offsetof(Desaturate, _amount), 0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Desaturate, OnRender_VertexData_bd5b5311_7_2_1), 0,
-        ::g::Uno::Float4x4_typeof(), offsetof(Desaturate, OnRender_LocalTransform_bd5b5311_4_9_2), 0,
-        ::g::Uno::Float4x4_typeof(), offsetof(Desaturate, OnRender_LocalTransform_bd5b5311_4_9_3), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Desaturate, _draw_bd5b5311), 0);
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Desaturate, OnRender_VertexData_b556a599_7_2_1), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(Desaturate, OnRender_LocalTransform_b556a599_4_9_2), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(Desaturate, OnRender_LocalTransform_b556a599_4_9_3), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Desaturate, _draw_b556a599), 0);
 }
 
 ::g::Fuse::Effects::BasicEffect_type* Desaturate_typeof()
@@ -487,51 +484,51 @@ static void Desaturate_build(uType* type)
     return type;
 }
 
-// public float get_Amount() :24
+// public float get_Amount()
 void Desaturate__get_Amount_fn(Desaturate* __this, float* __retval)
 {
     *__retval = __this->Amount();
 }
 
-// public void set_Amount(float value) :25
+// public void set_Amount(float value)
 void Desaturate__set_Amount_fn(Desaturate* __this, float* value)
 {
     __this->Amount(*value);
 }
 
-// protected override sealed void OnRender(Fuse.DrawContext dc, Uno.Rect elementRect) :35
+// protected override sealed void OnRender(Fuse.DrawContext dc, Uno.Rect elementRect)
 void Desaturate__OnRender_fn(Desaturate* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Rect* elementRect)
 {
     ::g::Uno::Rect elementRect_ = *elementRect;
-    ::g::Uno::Graphics::Framebuffer* original = uPtr(__this->Element())->CaptureRegion(dc, elementRect_, ::g::Uno::Float2__op_Implicit2(::g::Uno::Int2__New1(0)));
+    ::g::Uno::Graphics::Framebuffer* original = uPtr(__this->Element())->CaptureRegion(dc, elementRect_, ::g::Uno::Float2__op_Implicit1(::g::Uno::Int2__New1(0)));
 
     if (original == NULL)
         return;
 
-    ::g::Uno::Float4x4 LocalTransform_bd5b5311_4_9_4 = ::g::Uno::Matrix::Mul10(__this->OnRender_LocalTransform_bd5b5311_4_9_2, ::g::Uno::Matrix::Scaling1(elementRect_.Size().X, elementRect_.Size().Y, 1.0f), __this->OnRender_LocalTransform_bd5b5311_4_9_3, ::g::Uno::Matrix::Translation(elementRect_.Minimum().X, elementRect_.Minimum().Y, 0.0f));
-    __this->_draw_bd5b5311.BlendEnabled(true);
-    __this->_draw_bd5b5311.DepthTestEnabled(false);
-    __this->_draw_bd5b5311.CullFace(uPtr(dc)->CullFace());
-    __this->_draw_bd5b5311.BlendSrcRgb(2);
-    __this->_draw_bd5b5311.BlendDstRgb(3);
-    __this->_draw_bd5b5311.BlendDstAlpha(3);
-    __this->_draw_bd5b5311.Use();
-    __this->_draw_bd5b5311.Attrib1(0, 2, __this->OnRender_VertexData_bd5b5311_7_2_1, 8, 0);
-    __this->_draw_bd5b5311.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
-    __this->_draw_bd5b5311.Uniform(2, __this->Amount());
-    __this->_draw_bd5b5311.Uniform12(3, (__this->Element() != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_bd5b5311_4_9_4, uPtr(__this->Element())->WorldTransform()) : LocalTransform_bd5b5311_4_9_4);
-    __this->_draw_bd5b5311.Sampler3(4, uPtr(original)->ColorBuffer(), ::g::Uno::Graphics::SamplerState__LinearClamp());
-    __this->_draw_bd5b5311.DrawArrays(6);
+    ::g::Uno::Float4x4 LocalTransform_b556a599_4_9_4 = ::g::Uno::Matrix::Mul10(__this->OnRender_LocalTransform_b556a599_4_9_2, ::g::Uno::Matrix::Scaling1(elementRect_.Size().X, elementRect_.Size().Y, 1.0f), __this->OnRender_LocalTransform_b556a599_4_9_3, ::g::Uno::Matrix::Translation(elementRect_.Minimum().X, elementRect_.Minimum().Y, 0.0f));
+    __this->_draw_b556a599.BlendEnabled(true);
+    __this->_draw_b556a599.DepthTestEnabled(false);
+    __this->_draw_b556a599.CullFace(uPtr(dc)->CullFace());
+    __this->_draw_b556a599.BlendSrcRgb(2);
+    __this->_draw_b556a599.BlendDstRgb(3);
+    __this->_draw_b556a599.BlendDstAlpha(3);
+    __this->_draw_b556a599.Use();
+    __this->_draw_b556a599.Attrib1(0, 2, __this->OnRender_VertexData_b556a599_7_2_1, 8, 0);
+    __this->_draw_b556a599.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
+    __this->_draw_b556a599.Uniform(2, __this->Amount());
+    __this->_draw_b556a599.Uniform12(3, (__this->Element() != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_b556a599_4_9_4, uPtr(__this->Element())->WorldTransform()) : LocalTransform_b556a599_4_9_4);
+    __this->_draw_b556a599.Sampler3(4, uPtr(original)->ColorBuffer(), ::g::Uno::Graphics::SamplerState__LinearClamp());
+    __this->_draw_b556a599.DrawArrays(6);
     ::g::Fuse::FramebufferPool::Release(original);
 }
 
-// public float get_Amount() [instance] :24
+// public float get_Amount() [instance]
 float Desaturate::Amount()
 {
     return _amount;
 }
 
-// public void set_Amount(float value) [instance] :25
+// public void set_Amount(float value) [instance]
 void Desaturate::Amount(float value)
 {
     if (_amount != value)
@@ -542,10 +539,10 @@ void Desaturate::Amount(float value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/DropShadow.uno
-// ---------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/DropShadow.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class DropShadow :11
+// public sealed class DropShadow
 // {
 static void DropShadow_build(uType* type)
 {
@@ -606,74 +603,74 @@ static void DropShadow_build(uType* type)
     return type;
 }
 
-// public DropShadow() :164
+// public DropShadow()
 void DropShadow__ctor_4_fn(DropShadow* __this)
 {
     __this->ctor_4();
 }
 
-// public override sealed bool get_Active() :142
+// public override sealed bool get_Active()
 void DropShadow__get_Active_fn(DropShadow* __this, bool* __retval)
 {
     return *__retval = __this->Color().W > 0.0f, void();
 }
 
-// public float get_Angle() :39
+// public float get_Angle()
 void DropShadow__get_Angle_fn(DropShadow* __this, float* __retval)
 {
     *__retval = __this->Angle();
 }
 
-// public void set_Angle(float value) :40
+// public void set_Angle(float value)
 void DropShadow__set_Angle_fn(DropShadow* __this, float* value)
 {
     __this->Angle(*value);
 }
 
-// public float4 get_Color() :113
+// public float4 get_Color()
 void DropShadow__get_Color_fn(DropShadow* __this, ::g::Uno::Float4* __retval)
 {
     *__retval = __this->Color();
 }
 
-// public void set_Color(float4 value) :117
+// public void set_Color(float4 value)
 void DropShadow__set_Color_fn(DropShadow* __this, ::g::Uno::Float4* value)
 {
     __this->Color(*value);
 }
 
-// public float get_Distance() :59
+// public float get_Distance()
 void DropShadow__get_Distance_fn(DropShadow* __this, float* __retval)
 {
     *__retval = __this->Distance();
 }
 
-// public void set_Distance(float value) :60
+// public void set_Distance(float value)
 void DropShadow__set_Distance_fn(DropShadow* __this, float* value)
 {
     __this->Distance(*value);
 }
 
-// public override sealed Fuse.VisualBounds ModifyRenderBounds(Fuse.VisualBounds inBounds) :134
+// public override sealed Fuse.VisualBounds ModifyRenderBounds(Fuse.VisualBounds inBounds)
 void DropShadow__ModifyRenderBounds_fn(DropShadow* __this, ::g::Fuse::VisualBounds* inBounds, ::g::Fuse::VisualBounds** __retval)
 {
     ::g::Fuse::VisualBounds* r = uPtr(uPtr(inBounds)->InflateXY(__this->Padding()))->Translate(::g::Uno::Float3__New4(__this->Offset(), 0.0f));
     return *__retval = inBounds->Merge(r, NULL), void();
 }
 
-// public DropShadow New() :164
+// public DropShadow New()
 void DropShadow__New2_fn(DropShadow** __retval)
 {
     *__retval = DropShadow::New2();
 }
 
-// private float2 get_Offset() :77
+// private float2 get_Offset()
 void DropShadow__get_Offset_fn(DropShadow* __this, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->Offset();
 }
 
-// protected override sealed void OnRender(Fuse.DrawContext dc, Uno.Rect elementRect) :148
+// protected override sealed void OnRender(Fuse.DrawContext dc, Uno.Rect elementRect)
 void DropShadow__OnRender_fn(DropShadow* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Rect* elementRect)
 {
     ::g::Uno::Rect elementRect_ = *elementRect;
@@ -689,49 +686,49 @@ void DropShadow__OnRender_fn(DropShadow* __this, ::g::Fuse::DrawContext* dc, ::g
     ::g::Fuse::FramebufferPool::Release(temp);
 }
 
-// internal float get_Padding() :132
+// internal float get_Padding()
 void DropShadow__get_Padding_fn(DropShadow* __this, float* __retval)
 {
     *__retval = __this->Padding();
 }
 
-// private float get_Radius() :33
+// private float get_Radius()
 void DropShadow__get_Radius_fn(DropShadow* __this, float* __retval)
 {
     *__retval = __this->Radius();
 }
 
-// internal float get_Sigma() :131
+// internal float get_Sigma()
 void DropShadow__get_Sigma_fn(DropShadow* __this, float* __retval)
 {
     *__retval = __this->Sigma();
 }
 
-// public float get_Size() :17
+// public float get_Size()
 void DropShadow__get_Size_fn(DropShadow* __this, float* __retval)
 {
     *__retval = __this->Size();
 }
 
-// public void set_Size(float value) :18
+// public void set_Size(float value)
 void DropShadow__set_Size_fn(DropShadow* __this, float* value)
 {
     __this->Size(*value);
 }
 
-// public float get_Spread() :88
+// public float get_Spread()
 void DropShadow__get_Spread_fn(DropShadow* __this, float* __retval)
 {
     *__retval = __this->Spread();
 }
 
-// public void set_Spread(float value) :89
+// public void set_Spread(float value)
 void DropShadow__set_Spread_fn(DropShadow* __this, float* value)
 {
     __this->Spread(*value);
 }
 
-// public DropShadow() [instance] :164
+// public DropShadow() [instance]
 void DropShadow::ctor_4()
 {
     ctor_3(0);
@@ -741,13 +738,13 @@ void DropShadow::ctor_4()
     Distance(3.0f);
 }
 
-// public float get_Angle() [instance] :39
+// public float get_Angle() [instance]
 float DropShadow::Angle()
 {
     return _angle;
 }
 
-// public void set_Angle(float value) [instance] :40
+// public void set_Angle(float value) [instance]
 void DropShadow::Angle(float value)
 {
     if (_angle != value)
@@ -762,13 +759,13 @@ void DropShadow::Angle(float value)
     }
 }
 
-// public float4 get_Color() [instance] :113
+// public float4 get_Color() [instance]
 ::g::Uno::Float4 DropShadow::Color()
 {
     return _color;
 }
 
-// public void set_Color(float4 value) [instance] :117
+// public void set_Color(float4 value) [instance]
 void DropShadow::Color(::g::Uno::Float4 value)
 {
     if (::g::Uno::Float4__op_Inequality(_color, value))
@@ -781,13 +778,13 @@ void DropShadow::Color(::g::Uno::Float4 value)
     }
 }
 
-// public float get_Distance() [instance] :59
+// public float get_Distance() [instance]
 float DropShadow::Distance()
 {
     return _distance;
 }
 
-// public void set_Distance(float value) [instance] :60
+// public void set_Distance(float value) [instance]
 void DropShadow::Distance(float value)
 {
     if (_distance != value)
@@ -802,38 +799,38 @@ void DropShadow::Distance(float value)
     }
 }
 
-// private float2 get_Offset() [instance] :77
+// private float2 get_Offset() [instance]
 ::g::Uno::Float2 DropShadow::Offset()
 {
     float th = Angle() * 0.0174532924f;
     return ::g::Uno::Float2__op_Multiply1(::g::Uno::Float2__New2(-::g::Uno::Math::Cos1(th), ::g::Uno::Math::Sin1(th)), Distance());
 }
 
-// internal float get_Padding() [instance] :132
+// internal float get_Padding() [instance]
 float DropShadow::Padding()
 {
     return ::g::Uno::Math::Ceil1((Sigma() * 3.0f) * uPtr(Element())->AbsoluteZoom()) / uPtr(Element())->AbsoluteZoom();
 }
 
-// private float get_Radius() [instance] :33
+// private float get_Radius() [instance]
 float DropShadow::Radius()
 {
     return Size() / 2.0f;
 }
 
-// internal float get_Sigma() [instance] :131
+// internal float get_Sigma() [instance]
 float DropShadow::Sigma()
 {
     return ::g::Uno::Math::Max1(Radius(), 1e-05f);
 }
 
-// public float get_Size() [instance] :17
+// public float get_Size() [instance]
 float DropShadow::Size()
 {
     return _size;
 }
 
-// public void set_Size(float value) [instance] :18
+// public void set_Size(float value) [instance]
 void DropShadow::Size(float value)
 {
     if (_size != value)
@@ -848,13 +845,13 @@ void DropShadow::Size(float value)
     }
 }
 
-// public float get_Spread() [instance] :88
+// public float get_Spread() [instance]
 float DropShadow::Spread()
 {
     return _spread;
 }
 
-// public void set_Spread(float value) [instance] :89
+// public void set_Spread(float value) [instance]
 void DropShadow::Spread(float value)
 {
     value = ::g::Uno::Math::Clamp1(value, 0.0f, 1.0f);
@@ -869,7 +866,7 @@ void DropShadow::Spread(float value)
     }
 }
 
-// public DropShadow New() [static] :164
+// public DropShadow New() [static]
 DropShadow* DropShadow::New2()
 {
     DropShadow* obj1 = (DropShadow*)uNew(DropShadow_typeof());
@@ -878,10 +875,10 @@ DropShadow* DropShadow::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/Duotone.uno
-// ------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/Duotone.uno
+// ------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Duotone :13
+// public sealed class Duotone
 // {
 static void Duotone_build(uType* type)
 {
@@ -898,10 +895,10 @@ static void Duotone_build(uType* type)
         ::g::Uno::Float_typeof(), offsetof(Duotone, _amount), 0,
         ::g::Uno::Float3_typeof(), offsetof(Duotone, _light), 0,
         ::g::Uno::Float3_typeof(), offsetof(Duotone, _shadow), 0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Duotone, OnRender_VertexData_80b7f54b_7_2_1), 0,
-        ::g::Uno::Float4x4_typeof(), offsetof(Duotone, OnRender_LocalTransform_80b7f54b_4_9_2), 0,
-        ::g::Uno::Float4x4_typeof(), offsetof(Duotone, OnRender_LocalTransform_80b7f54b_4_9_3), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Duotone, _draw_80b7f54b), 0);
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Duotone, OnRender_VertexData_3c61d4eb_7_2_1), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(Duotone, OnRender_LocalTransform_3c61d4eb_4_9_2), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(Duotone, OnRender_LocalTransform_3c61d4eb_4_9_3), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Duotone, _draw_3c61d4eb), 0);
 }
 
 ::g::Fuse::Effects::BasicEffect_type* Duotone_typeof()
@@ -939,53 +936,53 @@ static void Duotone_build(uType* type)
     return type;
 }
 
-// public float get_Amount() :27
+// public float get_Amount()
 void Duotone__get_Amount_fn(Duotone* __this, float* __retval)
 {
     *__retval = __this->Amount();
 }
 
-// public void set_Amount(float value) :28
+// public void set_Amount(float value)
 void Duotone__set_Amount_fn(Duotone* __this, float* value)
 {
     __this->Amount(*value);
 }
 
-// protected override sealed void OnRender(Fuse.DrawContext dc, Uno.Rect elementRect) :74
+// protected override sealed void OnRender(Fuse.DrawContext dc, Uno.Rect elementRect)
 void Duotone__OnRender_fn(Duotone* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Rect* elementRect)
 {
     ::g::Uno::Rect elementRect_ = *elementRect;
-    ::g::Uno::Graphics::Framebuffer* original = uPtr(__this->Element())->CaptureRegion(dc, elementRect_, ::g::Uno::Float2__op_Implicit2(::g::Uno::Int2__New1(0)));
+    ::g::Uno::Graphics::Framebuffer* original = uPtr(__this->Element())->CaptureRegion(dc, elementRect_, ::g::Uno::Float2__op_Implicit1(::g::Uno::Int2__New1(0)));
 
     if (original == NULL)
         return;
 
-    ::g::Uno::Float4x4 LocalTransform_80b7f54b_4_9_4 = ::g::Uno::Matrix::Mul10(__this->OnRender_LocalTransform_80b7f54b_4_9_2, ::g::Uno::Matrix::Scaling1(elementRect_.Size().X, elementRect_.Size().Y, 1.0f), __this->OnRender_LocalTransform_80b7f54b_4_9_3, ::g::Uno::Matrix::Translation(elementRect_.Minimum().X, elementRect_.Minimum().Y, 0.0f));
-    __this->_draw_80b7f54b.BlendEnabled(true);
-    __this->_draw_80b7f54b.DepthTestEnabled(false);
-    __this->_draw_80b7f54b.CullFace(uPtr(dc)->CullFace());
-    __this->_draw_80b7f54b.BlendSrcRgb(2);
-    __this->_draw_80b7f54b.BlendDstRgb(3);
-    __this->_draw_80b7f54b.BlendDstAlpha(3);
-    __this->_draw_80b7f54b.Use();
-    __this->_draw_80b7f54b.Attrib1(0, 2, __this->OnRender_VertexData_80b7f54b_7_2_1, 8, 0);
-    __this->_draw_80b7f54b.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
-    __this->_draw_80b7f54b.Uniform6(2, __this->_shadow);
-    __this->_draw_80b7f54b.Uniform6(3, __this->_light);
-    __this->_draw_80b7f54b.Uniform(4, __this->Amount());
-    __this->_draw_80b7f54b.Uniform12(5, (__this->Element() != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_80b7f54b_4_9_4, uPtr(__this->Element())->WorldTransform()) : LocalTransform_80b7f54b_4_9_4);
-    __this->_draw_80b7f54b.Sampler3(6, uPtr(original)->ColorBuffer(), ::g::Uno::Graphics::SamplerState__LinearClamp());
-    __this->_draw_80b7f54b.DrawArrays(6);
+    ::g::Uno::Float4x4 LocalTransform_3c61d4eb_4_9_4 = ::g::Uno::Matrix::Mul10(__this->OnRender_LocalTransform_3c61d4eb_4_9_2, ::g::Uno::Matrix::Scaling1(elementRect_.Size().X, elementRect_.Size().Y, 1.0f), __this->OnRender_LocalTransform_3c61d4eb_4_9_3, ::g::Uno::Matrix::Translation(elementRect_.Minimum().X, elementRect_.Minimum().Y, 0.0f));
+    __this->_draw_3c61d4eb.BlendEnabled(true);
+    __this->_draw_3c61d4eb.DepthTestEnabled(false);
+    __this->_draw_3c61d4eb.CullFace(uPtr(dc)->CullFace());
+    __this->_draw_3c61d4eb.BlendSrcRgb(2);
+    __this->_draw_3c61d4eb.BlendDstRgb(3);
+    __this->_draw_3c61d4eb.BlendDstAlpha(3);
+    __this->_draw_3c61d4eb.Use();
+    __this->_draw_3c61d4eb.Attrib1(0, 2, __this->OnRender_VertexData_3c61d4eb_7_2_1, 8, 0);
+    __this->_draw_3c61d4eb.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
+    __this->_draw_3c61d4eb.Uniform6(2, __this->_shadow);
+    __this->_draw_3c61d4eb.Uniform6(3, __this->_light);
+    __this->_draw_3c61d4eb.Uniform(4, __this->Amount());
+    __this->_draw_3c61d4eb.Uniform12(5, (__this->Element() != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_3c61d4eb_4_9_4, uPtr(__this->Element())->WorldTransform()) : LocalTransform_3c61d4eb_4_9_4);
+    __this->_draw_3c61d4eb.Sampler3(6, uPtr(original)->ColorBuffer(), ::g::Uno::Graphics::SamplerState__LinearClamp());
+    __this->_draw_3c61d4eb.DrawArrays(6);
     ::g::Fuse::FramebufferPool::Release(original);
 }
 
-// public float get_Amount() [instance] :27
+// public float get_Amount() [instance]
 float Duotone::Amount()
 {
     return _amount;
 }
 
-// public void set_Amount(float value) [instance] :28
+// public void set_Amount(float value) [instance]
 void Duotone::Amount(float value)
 {
     if (_amount != value)
@@ -996,10 +993,10 @@ void Duotone::Amount(float value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Effects/Effect.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Effects/Effect.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class Effect :15
+// public abstract class Effect
 // {
 static void Effect_build(uType* type)
 {
@@ -1059,49 +1056,49 @@ Effect_type* Effect_typeof()
     return type;
 }
 
-// protected Effect(Fuse.Effects.EffectType effectType) :20
+// protected Effect(Fuse.Effects.EffectType effectType)
 void Effect__ctor_2_fn(Effect* __this, int32_t* effectType)
 {
     __this->ctor_2(*effectType);
 }
 
-// public virtual bool get_Active() :65
+// public virtual bool get_Active()
 void Effect__get_Active_fn(Effect* __this, bool* __retval)
 {
     return *__retval = true, void();
 }
 
-// public generated Fuse.Elements.Element get_Element() :45
+// public generated Fuse.Elements.Element get_Element()
 void Effect__get_Element_fn(Effect* __this, ::g::Fuse::Elements::Element** __retval)
 {
     *__retval = __this->Element();
 }
 
-// private generated void set_Element(Fuse.Elements.Element value) :45
+// private generated void set_Element(Fuse.Elements.Element value)
 void Effect__set_Element_fn(Effect* __this, ::g::Fuse::Elements::Element* value)
 {
     __this->Element(value);
 }
 
-// public virtual Fuse.VisualBounds ModifyRenderBounds(Fuse.VisualBounds inBounds) :68
+// public virtual Fuse.VisualBounds ModifyRenderBounds(Fuse.VisualBounds inBounds)
 void Effect__ModifyRenderBounds_fn(Effect* __this, ::g::Fuse::VisualBounds* inBounds, ::g::Fuse::VisualBounds** __retval)
 {
     return *__retval = inBounds, void();
 }
 
-// protected void OnRenderBoundsChanged() :58
+// protected void OnRenderBoundsChanged()
 void Effect__OnRenderBoundsChanged_fn(Effect* __this)
 {
     __this->OnRenderBoundsChanged();
 }
 
-// protected void OnRenderingChanged() :50
+// protected void OnRenderingChanged()
 void Effect__OnRenderingChanged_fn(Effect* __this)
 {
     __this->OnRenderingChanged();
 }
 
-// protected override void OnRooted() :25
+// protected override void OnRooted()
 void Effect__OnRooted_fn(Effect* __this)
 {
     ::g::Fuse::Node__OnRooted_fn(__this);
@@ -1114,7 +1111,7 @@ void Effect__OnRooted_fn(Effect* __this)
     uPtr(__this->Element())->AddDrawCost(3.0);
 }
 
-// protected override void OnUnrooted() :37
+// protected override void OnUnrooted()
 void Effect__OnUnrooted_fn(Effect* __this)
 {
     ::g::Fuse::Node__OnUnrooted_fn(__this);
@@ -1122,104 +1119,104 @@ void Effect__OnUnrooted_fn(Effect* __this)
     __this->Element(NULL);
 }
 
-// public generated void add_RenderBoundsChanged(Uno.Action<Fuse.Effects.Effect> value) :56
+// public generated void add_RenderBoundsChanged(Uno.Action<Fuse.Effects.Effect> value)
 void Effect__add_RenderBoundsChanged_fn(Effect* __this, uDelegate* value)
 {
     __this->add_RenderBoundsChanged(value);
 }
 
-// public generated void remove_RenderBoundsChanged(Uno.Action<Fuse.Effects.Effect> value) :56
+// public generated void remove_RenderBoundsChanged(Uno.Action<Fuse.Effects.Effect> value)
 void Effect__remove_RenderBoundsChanged_fn(Effect* __this, uDelegate* value)
 {
     __this->remove_RenderBoundsChanged(value);
 }
 
-// public generated void add_RenderingChanged(Uno.Action<Fuse.Effects.Effect> value) :48
+// public generated void add_RenderingChanged(Uno.Action<Fuse.Effects.Effect> value)
 void Effect__add_RenderingChanged_fn(Effect* __this, uDelegate* value)
 {
     __this->add_RenderingChanged(value);
 }
 
-// public generated void remove_RenderingChanged(Uno.Action<Fuse.Effects.Effect> value) :48
+// public generated void remove_RenderingChanged(Uno.Action<Fuse.Effects.Effect> value)
 void Effect__remove_RenderingChanged_fn(Effect* __this, uDelegate* value)
 {
     __this->remove_RenderingChanged(value);
 }
 
-// public Fuse.Effects.EffectType get_Type() :18
+// public Fuse.Effects.EffectType get_Type()
 void Effect__get_Type_fn(Effect* __this, int32_t* __retval)
 {
     *__retval = __this->Type();
 }
 
-// protected Effect(Fuse.Effects.EffectType effectType) [instance] :20
+// protected Effect(Fuse.Effects.EffectType effectType) [instance]
 void Effect::ctor_2(int32_t effectType)
 {
     ctor_1();
     _effectType = effectType;
 }
 
-// public generated Fuse.Elements.Element get_Element() [instance] :45
+// public generated Fuse.Elements.Element get_Element() [instance]
 ::g::Fuse::Elements::Element* Effect::Element()
 {
     return _Element;
 }
 
-// private generated void set_Element(Fuse.Elements.Element value) [instance] :45
+// private generated void set_Element(Fuse.Elements.Element value) [instance]
 void Effect::Element(::g::Fuse::Elements::Element* value)
 {
     _Element = value;
 }
 
-// protected void OnRenderBoundsChanged() [instance] :58
+// protected void OnRenderBoundsChanged() [instance]
 void Effect::OnRenderBoundsChanged()
 {
     if (::g::Uno::Delegate::op_Inequality(RenderBoundsChanged1, NULL))
         uPtr(RenderBoundsChanged1)->InvokeVoid(this);
 }
 
-// protected void OnRenderingChanged() [instance] :50
+// protected void OnRenderingChanged() [instance]
 void Effect::OnRenderingChanged()
 {
     if (::g::Uno::Delegate::op_Inequality(RenderingChanged1, NULL))
         uPtr(RenderingChanged1)->InvokeVoid(this);
 }
 
-// public generated void add_RenderBoundsChanged(Uno.Action<Fuse.Effects.Effect> value) [instance] :56
+// public generated void add_RenderBoundsChanged(Uno.Action<Fuse.Effects.Effect> value) [instance]
 void Effect::add_RenderBoundsChanged(uDelegate* value)
 {
     RenderBoundsChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(RenderBoundsChanged1, value), ::TYPES[3/*Uno.Action<Fuse.Effects.Effect>*/]);
 }
 
-// public generated void remove_RenderBoundsChanged(Uno.Action<Fuse.Effects.Effect> value) [instance] :56
+// public generated void remove_RenderBoundsChanged(Uno.Action<Fuse.Effects.Effect> value) [instance]
 void Effect::remove_RenderBoundsChanged(uDelegate* value)
 {
     RenderBoundsChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(RenderBoundsChanged1, value), ::TYPES[3/*Uno.Action<Fuse.Effects.Effect>*/]);
 }
 
-// public generated void add_RenderingChanged(Uno.Action<Fuse.Effects.Effect> value) [instance] :48
+// public generated void add_RenderingChanged(Uno.Action<Fuse.Effects.Effect> value) [instance]
 void Effect::add_RenderingChanged(uDelegate* value)
 {
     RenderingChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(RenderingChanged1, value), ::TYPES[3/*Uno.Action<Fuse.Effects.Effect>*/]);
 }
 
-// public generated void remove_RenderingChanged(Uno.Action<Fuse.Effects.Effect> value) [instance] :48
+// public generated void remove_RenderingChanged(Uno.Action<Fuse.Effects.Effect> value) [instance]
 void Effect::remove_RenderingChanged(uDelegate* value)
 {
     RenderingChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(RenderingChanged1, value), ::TYPES[3/*Uno.Action<Fuse.Effects.Effect>*/]);
 }
 
-// public Fuse.Effects.EffectType get_Type() [instance] :18
+// public Fuse.Effects.EffectType get_Type() [instance]
 int32_t Effect::Type()
 {
     return _effectType;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/EffectHelpers.Blur.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/EffectHelpers.Blur.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal partial sealed class EffectHelpers :9
+// internal partial sealed class EffectHelpers
 // {
 static void EffectHelpers_build(uType* type)
 {
@@ -1230,18 +1227,18 @@ static void EffectHelpers_build(uType* type)
         ::g::FuseEffects_bundle_typeof(),
         ::g::Uno::Math_typeof());
     type->SetFields(0,
-        ::g::Uno::Graphics::IndexBuffer_typeof(), offsetof(EffectHelpers, ResampleBilinear_VertexData_44444bad_2_5_2), 0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(EffectHelpers, ResampleBilinear_VertexData_44444bad_2_5_3), 0,
-        ::g::Uno::Graphics::IndexBuffer_typeof(), offsetof(EffectHelpers, ResampleGaussian5tap_VertexData_8e4c5d82_2_5_2), 0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(EffectHelpers, ResampleGaussian5tap_VertexData_8e4c5d82_2_5_3), 0,
-        ::g::Uno::Graphics::IndexBuffer_typeof(), offsetof(EffectHelpers, ResampleGaussian9tap_VertexData_6379debe_2_5_2), 0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(EffectHelpers, ResampleGaussian9tap_VertexData_6379debe_2_5_3), 0,
-        ::g::Uno::Graphics::IndexBuffer_typeof(), offsetof(EffectHelpers, GaussianBlurSeparable_VertexData_2aabda0d_2_5_2), 0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(EffectHelpers, GaussianBlurSeparable_VertexData_2aabda0d_2_5_3), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(EffectHelpers, _draw_44444bad), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(EffectHelpers, _draw_8e4c5d82), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(EffectHelpers, _draw_6379debe), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(EffectHelpers, _draw_2aabda0d), 0,
+        ::g::Uno::Graphics::IndexBuffer_typeof(), offsetof(EffectHelpers, ResampleBilinear_VertexData_92c4812c_2_5_2), 0,
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(EffectHelpers, ResampleBilinear_VertexData_92c4812c_2_5_3), 0,
+        ::g::Uno::Graphics::IndexBuffer_typeof(), offsetof(EffectHelpers, ResampleGaussian5tap_VertexData_29a0fd93_2_5_2), 0,
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(EffectHelpers, ResampleGaussian5tap_VertexData_29a0fd93_2_5_3), 0,
+        ::g::Uno::Graphics::IndexBuffer_typeof(), offsetof(EffectHelpers, ResampleGaussian9tap_VertexData_a023b028_2_5_2), 0,
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(EffectHelpers, ResampleGaussian9tap_VertexData_a023b028_2_5_3), 0,
+        ::g::Uno::Graphics::IndexBuffer_typeof(), offsetof(EffectHelpers, GaussianBlurSeparable_VertexData_b5e3eac2_2_5_2), 0,
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(EffectHelpers, GaussianBlurSeparable_VertexData_b5e3eac2_2_5_3), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(EffectHelpers, _draw_92c4812c), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(EffectHelpers, _draw_29a0fd93), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(EffectHelpers, _draw_a023b028), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(EffectHelpers, _draw_b5e3eac2), 0,
         type, (uintptr_t)&EffectHelpers::_instance_, uFieldFlagsStatic);
 }
 
@@ -1261,55 +1258,55 @@ uType* EffectHelpers_typeof()
     return type;
 }
 
-// public generated EffectHelpers() :9
+// public generated EffectHelpers()
 void EffectHelpers__ctor__fn(EffectHelpers* __this)
 {
     __this->ctor_();
 }
 
-// public framebuffer Blur(texture2D original, Fuse.DrawContext dc, float sigma) :17
+// public framebuffer Blur(texture2D original, Fuse.DrawContext dc, float sigma)
 void EffectHelpers__Blur_fn(EffectHelpers* __this, ::g::Uno::Graphics::Texture2D* original, ::g::Fuse::DrawContext* dc, float* sigma, ::g::Uno::Graphics::Framebuffer** __retval)
 {
     *__retval = __this->Blur(original, dc, *sigma);
 }
 
-// private framebuffer BlurHorizontal(Fuse.DrawContext dc, int2 size, texture2D tex, float sigma, int samples) :156
+// private framebuffer BlurHorizontal(Fuse.DrawContext dc, int2 size, texture2D tex, float sigma, int samples)
 void EffectHelpers__BlurHorizontal_fn(EffectHelpers* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Int2* size, ::g::Uno::Graphics::Texture2D* tex, float* sigma, int32_t* samples, ::g::Uno::Graphics::Framebuffer** __retval)
 {
     *__retval = __this->BlurHorizontal(dc, *size, tex, *sigma, *samples);
 }
 
-// private framebuffer BlurVertical(Fuse.DrawContext dc, int2 size, texture2D tex, float sigma, int samples) :168
+// private framebuffer BlurVertical(Fuse.DrawContext dc, int2 size, texture2D tex, float sigma, int samples)
 void EffectHelpers__BlurVertical_fn(EffectHelpers* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Int2* size, ::g::Uno::Graphics::Texture2D* tex, float* sigma, int32_t* samples, ::g::Uno::Graphics::Framebuffer** __retval)
 {
     *__retval = __this->BlurVertical(dc, *size, tex, *sigma, *samples);
 }
 
-// private void GaussianBlurSeparable(texture2D tex, float2 dir, float sigma, int samples) :180
+// private void GaussianBlurSeparable(texture2D tex, float2 dir, float sigma, int samples)
 void EffectHelpers__GaussianBlurSeparable_fn(EffectHelpers* __this, ::g::Uno::Graphics::Texture2D* tex, ::g::Uno::Float2* dir, float* sigma, int32_t* samples)
 {
     __this->GaussianBlurSeparable(tex, *dir, *sigma, *samples);
 }
 
-// private generated void init_DrawCalls() :9
+// private generated void init_DrawCalls()
 void EffectHelpers__init_DrawCalls_fn(EffectHelpers* __this)
 {
     __this->init_DrawCalls();
 }
 
-// public static Fuse.Effects.EffectHelpers get_Instance() :14
+// public static Fuse.Effects.EffectHelpers get_Instance()
 void EffectHelpers__get_Instance_fn(EffectHelpers** __retval)
 {
     *__retval = EffectHelpers::Instance();
 }
 
-// public generated EffectHelpers New() :9
+// public generated EffectHelpers New()
 void EffectHelpers__New1_fn(EffectHelpers** __retval)
 {
     *__retval = EffectHelpers::New1();
 }
 
-// private framebuffer ResampleGaussian5tap(Fuse.DrawContext dc, texture2D tex, int2 size) :67
+// private framebuffer ResampleGaussian5tap(Fuse.DrawContext dc, texture2D tex, int2 size)
 void EffectHelpers__ResampleGaussian5tap_fn(EffectHelpers* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Graphics::Texture2D* tex, ::g::Uno::Int2* size, ::g::Uno::Graphics::Framebuffer** __retval)
 {
     *__retval = __this->ResampleGaussian5tap(dc, tex, *size);
@@ -1317,13 +1314,13 @@ void EffectHelpers__ResampleGaussian5tap_fn(EffectHelpers* __this, ::g::Fuse::Dr
 
 uSStrong<EffectHelpers*> EffectHelpers::_instance_;
 
-// public generated EffectHelpers() [instance] :9
+// public generated EffectHelpers() [instance]
 void EffectHelpers::ctor_()
 {
     init_DrawCalls();
 }
 
-// public framebuffer Blur(texture2D original, Fuse.DrawContext dc, float sigma) [instance] :17
+// public framebuffer Blur(texture2D original, Fuse.DrawContext dc, float sigma) [instance]
 ::g::Uno::Graphics::Framebuffer* EffectHelpers::Blur(::g::Uno::Graphics::Texture2D* original, ::g::Fuse::DrawContext* dc, float sigma)
 {
     int32_t maxSamples = 3;
@@ -1340,7 +1337,7 @@ void EffectHelpers::ctor_()
             ::g::Fuse::FramebufferPool::Release(fb);
 
         sigmas = ::g::Uno::Math::Sqrt2(::g::Uno::Float2__op_Subtraction1(::g::Uno::Float2__op_Multiply2(sigmas, sigmas), 1.0f));
-        sigmas = ::g::Uno::Float2__op_Multiply2(sigmas, ::g::Uno::Float2__op_Division2(::g::Uno::Float2__New2((float)newSize.X, (float)newSize.Y), ::g::Uno::Float2__op_Implicit2(src->Size())));
+        sigmas = ::g::Uno::Float2__op_Multiply2(sigmas, ::g::Uno::Float2__op_Division2(::g::Uno::Float2__New2((float)newSize.X, (float)newSize.Y), ::g::Uno::Float2__op_Implicit1(src->Size())));
         fb = newFb;
         src = uPtr(newFb)->ColorBuffer();
         maxSamples = maxSamples * 2;
@@ -1357,7 +1354,7 @@ void EffectHelpers::ctor_()
     return blur;
 }
 
-// private framebuffer BlurHorizontal(Fuse.DrawContext dc, int2 size, texture2D tex, float sigma, int samples) [instance] :156
+// private framebuffer BlurHorizontal(Fuse.DrawContext dc, int2 size, texture2D tex, float sigma, int samples) [instance]
 ::g::Uno::Graphics::Framebuffer* EffectHelpers::BlurHorizontal(::g::Fuse::DrawContext* dc, ::g::Uno::Int2 size, ::g::Uno::Graphics::Texture2D* tex, float sigma, int32_t samples)
 {
     ::g::Uno::Graphics::Framebuffer* fb = ::g::Fuse::FramebufferPool::Lock1(size, 3, false);
@@ -1368,7 +1365,7 @@ void EffectHelpers::ctor_()
     return fb;
 }
 
-// private framebuffer BlurVertical(Fuse.DrawContext dc, int2 size, texture2D tex, float sigma, int samples) [instance] :168
+// private framebuffer BlurVertical(Fuse.DrawContext dc, int2 size, texture2D tex, float sigma, int samples) [instance]
 ::g::Uno::Graphics::Framebuffer* EffectHelpers::BlurVertical(::g::Fuse::DrawContext* dc, ::g::Uno::Int2 size, ::g::Uno::Graphics::Texture2D* tex, float sigma, int32_t samples)
 {
     ::g::Uno::Graphics::Framebuffer* fb = ::g::Fuse::FramebufferPool::Lock1(size, 3, false);
@@ -1379,7 +1376,7 @@ void EffectHelpers::ctor_()
     return fb;
 }
 
-// private void GaussianBlurSeparable(texture2D tex, float2 dir, float sigma, int samples) [instance] :180
+// private void GaussianBlurSeparable(texture2D tex, float2 dir, float sigma, int samples) [instance]
 void EffectHelpers::GaussianBlurSeparable(::g::Uno::Graphics::Texture2D* tex, ::g::Uno::Float2 dir, float sigma, int32_t samples)
 {
     float sigmaSquared = sigma * sigma;
@@ -1404,38 +1401,38 @@ void EffectHelpers::GaussianBlurSeparable(::g::Uno::Graphics::Texture2D* tex, ::
     for (int32_t i1 = 0; i1 < (samples + 1); ++i1)
         uPtr(weights)->Item<float>(i1) = uPtr(weights)->Item<float>(i1) / total;
 
-    _draw_2aabda0d.DepthTestEnabled(false);
-    _draw_2aabda0d.Const1(0, uPtr(weights)->Length());
-    _draw_2aabda0d.Const1(1, samples);
-    _draw_2aabda0d.Const1(2, uPtr(offsets)->Length());
-    _draw_2aabda0d.Use();
-    _draw_2aabda0d.Attrib1(3, 2, GaussianBlurSeparable_VertexData_2aabda0d_2_5_3, 8, 0);
-    _draw_2aabda0d.Uniform1(4, weights);
-    _draw_2aabda0d.Uniform3(5, offsets);
-    _draw_2aabda0d.Sampler3(6, tex, ::g::Uno::Graphics::SamplerState__LinearClamp());
-    _draw_2aabda0d.Draw(6, 2, GaussianBlurSeparable_VertexData_2aabda0d_2_5_2);
+    _draw_b5e3eac2.DepthTestEnabled(false);
+    _draw_b5e3eac2.Const1(0, uPtr(weights)->Length());
+    _draw_b5e3eac2.Const1(1, samples);
+    _draw_b5e3eac2.Const1(2, uPtr(offsets)->Length());
+    _draw_b5e3eac2.Use();
+    _draw_b5e3eac2.Attrib1(3, 2, GaussianBlurSeparable_VertexData_b5e3eac2_2_5_3, 8, 0);
+    _draw_b5e3eac2.Uniform1(4, weights);
+    _draw_b5e3eac2.Uniform3(5, offsets);
+    _draw_b5e3eac2.Sampler3(6, tex, ::g::Uno::Graphics::SamplerState__LinearClamp());
+    _draw_b5e3eac2.Draw(6, 2, GaussianBlurSeparable_VertexData_b5e3eac2_2_5_2);
 }
 
-// private generated void init_DrawCalls() [instance] :9
+// private generated void init_DrawCalls() [instance]
 void EffectHelpers::init_DrawCalls()
 {
-    uArray* Vertices_44444bad_2_2_0 = uArray::Init< ::g::Uno::Float2>(::TYPES[1/*float2[]*/], 4, ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(1.0f, 0.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(0.0f, 1.0f));
-    uArray* Indices_44444bad_2_3_1 = uArray::Init<int32_t>(::TYPES[5/*ushort[]*/], 6, 0, 1, 2, 2, 3, 0);
-    ResampleBilinear_VertexData_44444bad_2_5_2 = ::g::Uno::Graphics::IndexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer9(Indices_44444bad_2_3_1))->GetBytes(), 0);
-    ResampleBilinear_VertexData_44444bad_2_5_3 = ::g::Uno::Graphics::VertexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer3(Vertices_44444bad_2_2_0))->GetBytes(), 0);
-    ResampleGaussian5tap_VertexData_8e4c5d82_2_5_2 = ::g::Uno::Graphics::IndexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer9(Indices_44444bad_2_3_1))->GetBytes(), 0);
-    ResampleGaussian5tap_VertexData_8e4c5d82_2_5_3 = ::g::Uno::Graphics::VertexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer3(Vertices_44444bad_2_2_0))->GetBytes(), 0);
-    ResampleGaussian9tap_VertexData_6379debe_2_5_2 = ::g::Uno::Graphics::IndexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer9(Indices_44444bad_2_3_1))->GetBytes(), 0);
-    ResampleGaussian9tap_VertexData_6379debe_2_5_3 = ::g::Uno::Graphics::VertexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer3(Vertices_44444bad_2_2_0))->GetBytes(), 0);
-    GaussianBlurSeparable_VertexData_2aabda0d_2_5_2 = ::g::Uno::Graphics::IndexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer9(Indices_44444bad_2_3_1))->GetBytes(), 0);
-    GaussianBlurSeparable_VertexData_2aabda0d_2_5_3 = ::g::Uno::Graphics::VertexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer3(Vertices_44444bad_2_2_0))->GetBytes(), 0);
-    _draw_44444bad = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseEffects_bundle::EffectHelpers9b892494());
-    _draw_8e4c5d82 = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseEffects_bundle::EffectHelperse7e608d1());
-    _draw_6379debe = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseEffects_bundle::EffectHelpersd8c2e3e5());
-    _draw_2aabda0d = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseEffects_bundle::EffectHelpers52052d40());
+    uArray* Vertices_92c4812c_2_2_0 = uArray::Init< ::g::Uno::Float2>(::TYPES[1/*float2[]*/], 4, ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(1.0f, 0.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(0.0f, 1.0f));
+    uArray* Indices_92c4812c_2_3_1 = uArray::Init<int32_t>(::TYPES[5/*ushort[]*/], 6, 0, 1, 2, 2, 3, 0);
+    ResampleBilinear_VertexData_92c4812c_2_5_2 = ::g::Uno::Graphics::IndexBuffer::New5(Indices_92c4812c_2_3_1, 0);
+    ResampleBilinear_VertexData_92c4812c_2_5_3 = ::g::Uno::Graphics::VertexBuffer::New3(Vertices_92c4812c_2_2_0, 0);
+    ResampleGaussian5tap_VertexData_29a0fd93_2_5_2 = ::g::Uno::Graphics::IndexBuffer::New5(Indices_92c4812c_2_3_1, 0);
+    ResampleGaussian5tap_VertexData_29a0fd93_2_5_3 = ::g::Uno::Graphics::VertexBuffer::New3(Vertices_92c4812c_2_2_0, 0);
+    ResampleGaussian9tap_VertexData_a023b028_2_5_2 = ::g::Uno::Graphics::IndexBuffer::New5(Indices_92c4812c_2_3_1, 0);
+    ResampleGaussian9tap_VertexData_a023b028_2_5_3 = ::g::Uno::Graphics::VertexBuffer::New3(Vertices_92c4812c_2_2_0, 0);
+    GaussianBlurSeparable_VertexData_b5e3eac2_2_5_2 = ::g::Uno::Graphics::IndexBuffer::New5(Indices_92c4812c_2_3_1, 0);
+    GaussianBlurSeparable_VertexData_b5e3eac2_2_5_3 = ::g::Uno::Graphics::VertexBuffer::New3(Vertices_92c4812c_2_2_0, 0);
+    _draw_92c4812c = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseEffects_bundle::EffectHelpers074a19b5());
+    _draw_29a0fd93 = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseEffects_bundle::EffectHelpers153da7bd());
+    _draw_a023b028 = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseEffects_bundle::EffectHelpers1a4b9670());
+    _draw_b5e3eac2 = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseEffects_bundle::EffectHelpers97b71f66());
 }
 
-// private framebuffer ResampleGaussian5tap(Fuse.DrawContext dc, texture2D tex, int2 size) [instance] :67
+// private framebuffer ResampleGaussian5tap(Fuse.DrawContext dc, texture2D tex, int2 size) [instance]
 ::g::Uno::Graphics::Framebuffer* EffectHelpers::ResampleGaussian5tap(::g::Fuse::DrawContext* dc, ::g::Uno::Graphics::Texture2D* tex, ::g::Uno::Int2 size)
 {
     ::g::Uno::Float4 ind1;
@@ -1449,22 +1446,22 @@ void EffectHelpers::init_DrawCalls()
     ::g::Uno::Int2 texSize = uPtr(tex)->Size();
     float centerWeight = 0.162102818f;
     float diagonalWeight = 0.20850347f;
-    _draw_8e4c5d82.DepthTestEnabled(false);
-    _draw_8e4c5d82.Use();
-    _draw_8e4c5d82.Attrib1(0, 2, ResampleGaussian5tap_VertexData_8e4c5d82_2_5_3, 8, 0);
-    _draw_8e4c5d82.Uniform(1, centerWeight);
-    _draw_8e4c5d82.Uniform2(2, ::g::Uno::Float2__op_Division2((ind1 = ::g::Uno::Float4__New7(::g::Uno::Float2__op_UnaryNegation(diagonalOffsets), diagonalOffsets), ::g::Uno::Float2__New2(ind1.X, ind1.Y)), ::g::Uno::Float2__op_Implicit2(texSize)));
-    _draw_8e4c5d82.Uniform(3, diagonalWeight);
-    _draw_8e4c5d82.Uniform2(4, ::g::Uno::Float2__op_Division2((ind2 = ::g::Uno::Float4__New7(::g::Uno::Float2__op_UnaryNegation(diagonalOffsets), diagonalOffsets), ::g::Uno::Float2__New2(ind2.W, ind2.X)), ::g::Uno::Float2__op_Implicit2(texSize)));
-    _draw_8e4c5d82.Uniform2(5, ::g::Uno::Float2__op_Division2((ind3 = ::g::Uno::Float4__New7(::g::Uno::Float2__op_UnaryNegation(diagonalOffsets), diagonalOffsets), ::g::Uno::Float2__New2(ind3.Z, ind3.W)), ::g::Uno::Float2__op_Implicit2(texSize)));
-    _draw_8e4c5d82.Uniform2(6, ::g::Uno::Float2__op_Division2((ind4 = ::g::Uno::Float4__New7(::g::Uno::Float2__op_UnaryNegation(diagonalOffsets), diagonalOffsets), ::g::Uno::Float2__New2(ind4.Y, ind4.Z)), ::g::Uno::Float2__op_Implicit2(texSize)));
-    _draw_8e4c5d82.Sampler3(7, tex, ::g::Uno::Graphics::SamplerState__LinearClamp());
-    _draw_8e4c5d82.Draw(6, 2, ResampleGaussian5tap_VertexData_8e4c5d82_2_5_2);
+    _draw_29a0fd93.DepthTestEnabled(false);
+    _draw_29a0fd93.Use();
+    _draw_29a0fd93.Attrib1(0, 2, ResampleGaussian5tap_VertexData_29a0fd93_2_5_3, 8, 0);
+    _draw_29a0fd93.Uniform(1, centerWeight);
+    _draw_29a0fd93.Uniform2(2, ::g::Uno::Float2__op_Division2((ind1 = ::g::Uno::Float4__New7(::g::Uno::Float2__op_UnaryNegation(diagonalOffsets), diagonalOffsets), ::g::Uno::Float2__New2(ind1.X, ind1.Y)), ::g::Uno::Float2__op_Implicit1(texSize)));
+    _draw_29a0fd93.Uniform(3, diagonalWeight);
+    _draw_29a0fd93.Uniform2(4, ::g::Uno::Float2__op_Division2((ind2 = ::g::Uno::Float4__New7(::g::Uno::Float2__op_UnaryNegation(diagonalOffsets), diagonalOffsets), ::g::Uno::Float2__New2(ind2.W, ind2.X)), ::g::Uno::Float2__op_Implicit1(texSize)));
+    _draw_29a0fd93.Uniform2(5, ::g::Uno::Float2__op_Division2((ind3 = ::g::Uno::Float4__New7(::g::Uno::Float2__op_UnaryNegation(diagonalOffsets), diagonalOffsets), ::g::Uno::Float2__New2(ind3.Z, ind3.W)), ::g::Uno::Float2__op_Implicit1(texSize)));
+    _draw_29a0fd93.Uniform2(6, ::g::Uno::Float2__op_Division2((ind4 = ::g::Uno::Float4__New7(::g::Uno::Float2__op_UnaryNegation(diagonalOffsets), diagonalOffsets), ::g::Uno::Float2__New2(ind4.Y, ind4.Z)), ::g::Uno::Float2__op_Implicit1(texSize)));
+    _draw_29a0fd93.Sampler3(7, tex, ::g::Uno::Graphics::SamplerState__LinearClamp());
+    _draw_29a0fd93.Draw(6, 2, ResampleGaussian5tap_VertexData_29a0fd93_2_5_2);
     dc->PopRenderTarget();
     return fb;
 }
 
-// public generated EffectHelpers New() [static] :9
+// public generated EffectHelpers New() [static]
 EffectHelpers* EffectHelpers::New1()
 {
     EffectHelpers* obj12 = (EffectHelpers*)uNew(EffectHelpers_typeof());
@@ -1472,7 +1469,7 @@ EffectHelpers* EffectHelpers::New1()
     return obj12;
 }
 
-// public static Fuse.Effects.EffectHelpers get_Instance() [static] :14
+// public static Fuse.Effects.EffectHelpers get_Instance() [static]
 EffectHelpers* EffectHelpers::Instance()
 {
     EffectHelpers* ind11;
@@ -1481,10 +1478,10 @@ EffectHelpers* EffectHelpers::Instance()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Effects/Effect.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Effects/Effect.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum EffectType :8
+// public enum EffectType
 uEnumType* EffectType_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -1498,10 +1495,10 @@ uEnumType* EffectType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/Halftone.uno
-// -------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/Halftone.uno
+// -------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Halftone :12
+// public sealed class Halftone
 // {
 static void Halftone_build(uType* type)
 {
@@ -1522,10 +1519,10 @@ static void Halftone_build(uType* type)
         ::g::Uno::Float_typeof(), offsetof(Halftone, _smoothness), 0,
         ::g::Uno::Float_typeof(), offsetof(Halftone, _dotTint), 0,
         ::g::Uno::Float_typeof(), offsetof(Halftone, _paperTint), 0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Halftone, OnRender_VertexData_4b464452_7_2_1), 0,
-        ::g::Uno::Float4x4_typeof(), offsetof(Halftone, OnRender_LocalTransform_4b464452_4_9_2), 0,
-        ::g::Uno::Float4x4_typeof(), offsetof(Halftone, OnRender_LocalTransform_4b464452_4_9_3), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Halftone, _draw_4b464452), 0);
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Halftone, OnRender_VertexData_5200158f_7_2_1), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(Halftone, OnRender_LocalTransform_5200158f_4_9_2), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(Halftone, OnRender_LocalTransform_5200158f_4_9_3), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Halftone, _draw_5200158f), 0);
 }
 
 ::g::Fuse::Effects::BasicEffect_type* Halftone_typeof()
@@ -1564,35 +1561,35 @@ static void Halftone_build(uType* type)
     return type;
 }
 
-// public float get_DotTint() :67
+// public float get_DotTint()
 void Halftone__get_DotTint_fn(Halftone* __this, float* __retval)
 {
     *__retval = __this->DotTint();
 }
 
-// public void set_DotTint(float value) :68
+// public void set_DotTint(float value)
 void Halftone__set_DotTint_fn(Halftone* __this, float* value)
 {
     __this->DotTint(*value);
 }
 
-// public float get_Intensity() :37
+// public float get_Intensity()
 void Halftone__get_Intensity_fn(Halftone* __this, float* __retval)
 {
     *__retval = __this->Intensity();
 }
 
-// public void set_Intensity(float value) :38
+// public void set_Intensity(float value)
 void Halftone__set_Intensity_fn(Halftone* __this, float* value)
 {
     __this->Intensity(*value);
 }
 
-// protected override sealed void OnRender(Fuse.DrawContext dc, Uno.Rect elementRect) :93
+// protected override sealed void OnRender(Fuse.DrawContext dc, Uno.Rect elementRect)
 void Halftone__OnRender_fn(Halftone* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Rect* elementRect)
 {
     ::g::Uno::Rect elementRect_ = *elementRect;
-    ::g::Uno::Graphics::Framebuffer* original = uPtr(__this->Element())->CaptureRegion(dc, elementRect_, ::g::Uno::Float2__op_Implicit2(::g::Uno::Int2__New1(0)));
+    ::g::Uno::Graphics::Framebuffer* original = uPtr(__this->Element())->CaptureRegion(dc, elementRect_, ::g::Uno::Float2__op_Implicit1(::g::Uno::Int2__New1(0)));
 
     if (original == NULL)
         return;
@@ -1601,75 +1598,75 @@ void Halftone__OnRender_fn(Halftone* __this, ::g::Fuse::DrawContext* dc, ::g::Un
     float angle = 0.7853982f;
     ::g::Uno::Float2x2 rot = ::g::Uno::Float2x2__New1(::g::Uno::Math::Cos1(angle), ::g::Uno::Math::Sin1(angle), -::g::Uno::Math::Sin1(angle), ::g::Uno::Math::Cos1(angle));
     ::g::Uno::Float2x2 rotI = ::g::Uno::Float2x2__New1(::g::Uno::Math::Cos1(-angle), ::g::Uno::Math::Sin1(-angle), -::g::Uno::Math::Sin1(-angle), ::g::Uno::Math::Cos1(-angle));
-    ::g::Uno::Float4x4 LocalTransform_4b464452_4_9_4 = ::g::Uno::Matrix::Mul10(__this->OnRender_LocalTransform_4b464452_4_9_2, ::g::Uno::Matrix::Scaling1(elementRect_.Size().X, elementRect_.Size().Y, 1.0f), __this->OnRender_LocalTransform_4b464452_4_9_3, ::g::Uno::Matrix::Translation(elementRect_.Minimum().X, elementRect_.Minimum().Y, 0.0f));
-    __this->_draw_4b464452.BlendEnabled(true);
-    __this->_draw_4b464452.DepthTestEnabled(false);
-    __this->_draw_4b464452.CullFace(uPtr(dc)->CullFace());
-    __this->_draw_4b464452.BlendSrcRgb(2);
-    __this->_draw_4b464452.BlendDstRgb(3);
-    __this->_draw_4b464452.BlendDstAlpha(3);
-    __this->_draw_4b464452.Use();
-    __this->_draw_4b464452.Attrib1(0, 2, __this->OnRender_VertexData_4b464452_7_2_1, 8, 0);
-    __this->_draw_4b464452.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
-    __this->_draw_4b464452.Uniform(2, __this->PaperTint());
-    __this->_draw_4b464452.Uniform(3, __this->DotTint());
-    __this->_draw_4b464452.Uniform(4, tSpacing);
-    __this->_draw_4b464452.Uniform(5, __this->Intensity());
-    __this->_draw_4b464452.Uniform2(6, elementRect_.Size());
-    __this->_draw_4b464452.Uniform2(7, elementRect_.Minimum());
-    __this->_draw_4b464452.Uniform4(8, rot);
-    __this->_draw_4b464452.Uniform4(9, rotI);
-    __this->_draw_4b464452.Uniform(10, dc->ViewportPixelsPerPoint());
-    __this->_draw_4b464452.Uniform(11, 1.0f / __this->Smoothness());
-    __this->_draw_4b464452.Uniform12(12, (__this->Element() != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_4b464452_4_9_4, uPtr(__this->Element())->WorldTransform()) : LocalTransform_4b464452_4_9_4);
-    __this->_draw_4b464452.Sampler3(13, uPtr(original)->ColorBuffer(), ::g::Uno::Graphics::SamplerState__LinearClamp());
-    __this->_draw_4b464452.DrawArrays(6);
+    ::g::Uno::Float4x4 LocalTransform_5200158f_4_9_4 = ::g::Uno::Matrix::Mul10(__this->OnRender_LocalTransform_5200158f_4_9_2, ::g::Uno::Matrix::Scaling1(elementRect_.Size().X, elementRect_.Size().Y, 1.0f), __this->OnRender_LocalTransform_5200158f_4_9_3, ::g::Uno::Matrix::Translation(elementRect_.Minimum().X, elementRect_.Minimum().Y, 0.0f));
+    __this->_draw_5200158f.BlendEnabled(true);
+    __this->_draw_5200158f.DepthTestEnabled(false);
+    __this->_draw_5200158f.CullFace(uPtr(dc)->CullFace());
+    __this->_draw_5200158f.BlendSrcRgb(2);
+    __this->_draw_5200158f.BlendDstRgb(3);
+    __this->_draw_5200158f.BlendDstAlpha(3);
+    __this->_draw_5200158f.Use();
+    __this->_draw_5200158f.Attrib1(0, 2, __this->OnRender_VertexData_5200158f_7_2_1, 8, 0);
+    __this->_draw_5200158f.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
+    __this->_draw_5200158f.Uniform(2, __this->PaperTint());
+    __this->_draw_5200158f.Uniform(3, __this->DotTint());
+    __this->_draw_5200158f.Uniform(4, tSpacing);
+    __this->_draw_5200158f.Uniform(5, __this->Intensity());
+    __this->_draw_5200158f.Uniform2(6, elementRect_.Size());
+    __this->_draw_5200158f.Uniform2(7, elementRect_.Minimum());
+    __this->_draw_5200158f.Uniform4(8, rot);
+    __this->_draw_5200158f.Uniform4(9, rotI);
+    __this->_draw_5200158f.Uniform(10, dc->ViewportPixelsPerPoint());
+    __this->_draw_5200158f.Uniform(11, 1.0f / __this->Smoothness());
+    __this->_draw_5200158f.Uniform12(12, (__this->Element() != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_5200158f_4_9_4, uPtr(__this->Element())->WorldTransform()) : LocalTransform_5200158f_4_9_4);
+    __this->_draw_5200158f.Sampler3(13, uPtr(original)->ColorBuffer(), ::g::Uno::Graphics::SamplerState__LinearClamp());
+    __this->_draw_5200158f.DrawArrays(6);
     ::g::Fuse::FramebufferPool::Release(original);
 }
 
-// public float get_PaperTint() :82
+// public float get_PaperTint()
 void Halftone__get_PaperTint_fn(Halftone* __this, float* __retval)
 {
     *__retval = __this->PaperTint();
 }
 
-// public void set_PaperTint(float value) :83
+// public void set_PaperTint(float value)
 void Halftone__set_PaperTint_fn(Halftone* __this, float* value)
 {
     __this->PaperTint(*value);
 }
 
-// public float get_Smoothness() :52
+// public float get_Smoothness()
 void Halftone__get_Smoothness_fn(Halftone* __this, float* __retval)
 {
     *__retval = __this->Smoothness();
 }
 
-// public void set_Smoothness(float value) :53
+// public void set_Smoothness(float value)
 void Halftone__set_Smoothness_fn(Halftone* __this, float* value)
 {
     __this->Smoothness(*value);
 }
 
-// public float get_Spacing() :22
+// public float get_Spacing()
 void Halftone__get_Spacing_fn(Halftone* __this, float* __retval)
 {
     *__retval = __this->Spacing();
 }
 
-// public void set_Spacing(float value) :23
+// public void set_Spacing(float value)
 void Halftone__set_Spacing_fn(Halftone* __this, float* value)
 {
     __this->Spacing(*value);
 }
 
-// public float get_DotTint() [instance] :67
+// public float get_DotTint() [instance]
 float Halftone::DotTint()
 {
     return _dotTint;
 }
 
-// public void set_DotTint(float value) [instance] :68
+// public void set_DotTint(float value) [instance]
 void Halftone::DotTint(float value)
 {
     if (_dotTint != value)
@@ -1679,13 +1676,13 @@ void Halftone::DotTint(float value)
     }
 }
 
-// public float get_Intensity() [instance] :37
+// public float get_Intensity() [instance]
 float Halftone::Intensity()
 {
     return _intensity;
 }
 
-// public void set_Intensity(float value) [instance] :38
+// public void set_Intensity(float value) [instance]
 void Halftone::Intensity(float value)
 {
     if (_intensity != value)
@@ -1695,13 +1692,13 @@ void Halftone::Intensity(float value)
     }
 }
 
-// public float get_PaperTint() [instance] :82
+// public float get_PaperTint() [instance]
 float Halftone::PaperTint()
 {
     return _paperTint;
 }
 
-// public void set_PaperTint(float value) [instance] :83
+// public void set_PaperTint(float value) [instance]
 void Halftone::PaperTint(float value)
 {
     if (_paperTint != value)
@@ -1711,13 +1708,13 @@ void Halftone::PaperTint(float value)
     }
 }
 
-// public float get_Smoothness() [instance] :52
+// public float get_Smoothness() [instance]
 float Halftone::Smoothness()
 {
     return _smoothness;
 }
 
-// public void set_Smoothness(float value) [instance] :53
+// public void set_Smoothness(float value) [instance]
 void Halftone::Smoothness(float value)
 {
     if (_smoothness != value)
@@ -1727,13 +1724,13 @@ void Halftone::Smoothness(float value)
     }
 }
 
-// public float get_Spacing() [instance] :22
+// public float get_Spacing() [instance]
 float Halftone::Spacing()
 {
     return _spacing;
 }
 
-// public void set_Spacing(float value) [instance] :23
+// public void set_Spacing(float value) [instance]
 void Halftone::Spacing(float value)
 {
     if (_spacing != value)
@@ -1744,10 +1741,10 @@ void Halftone::Spacing(float value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/Mask.uno
-// ---------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/Mask.uno
+// ---------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Mask :13
+// public sealed class Mask
 // {
 static void Mask_build(uType* type)
 {
@@ -1765,14 +1762,14 @@ static void Mask_build(uType* type)
     type->SetFields(21,
         ::g::Fuse::Internal::ImageContainer_typeof(), offsetof(Mask, _container), 0,
         Mask__MaskMode_typeof(), offsetof(Mask, _mode), 0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Mask, OnRender_VertexData_e56a2f35_7_2_1), 0,
-        ::g::Uno::Float4x4_typeof(), offsetof(Mask, OnRender_LocalTransform_e56a2f35_4_9_2), 0,
-        ::g::Uno::Float4x4_typeof(), offsetof(Mask, OnRender_LocalTransform_e56a2f35_4_9_3), 0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Mask, OnRender_VertexData_97b14dfa_7_2_1), 0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Mask, OnRender_VertexData_f63e1f3f_7_2_1), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Mask, _draw_e56a2f35), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Mask, _draw_97b14dfa), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Mask, _draw_f63e1f3f), 0);
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Mask, OnRender_VertexData_c63fd577_7_2_1), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(Mask, OnRender_LocalTransform_c63fd577_4_9_2), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(Mask, OnRender_LocalTransform_c63fd577_4_9_3), 0,
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Mask, OnRender_VertexData_a7f41733_7_2_1), 0,
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Mask, OnRender_VertexData_dd716216_7_2_1), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Mask, _draw_c63fd577), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Mask, _draw_a7f41733), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Mask, _draw_dd716216), 0);
 }
 
 Mask_type* Mask_typeof()
@@ -1817,31 +1814,31 @@ Mask_type* Mask_typeof()
     return type;
 }
 
-// private void Fuse.Internal.IImageContainerOwner.OnParamChanged() :41
+// private void Fuse.Internal.IImageContainerOwner.OnParamChanged()
 void Mask__FuseInternalIImageContainerOwnerOnParamChanged_fn(Mask* __this)
 {
     __this->OnRenderingChanged();
 }
 
-// private void Fuse.Internal.IImageContainerOwner.OnSizingChanged() :46
+// private void Fuse.Internal.IImageContainerOwner.OnSizingChanged()
 void Mask__FuseInternalIImageContainerOwnerOnSizingChanged_fn(Mask* __this)
 {
     __this->OnRenderingChanged();
 }
 
-// private void Fuse.Internal.IImageContainerOwner.OnSourceChanged() :36
+// private void Fuse.Internal.IImageContainerOwner.OnSourceChanged()
 void Mask__FuseInternalIImageContainerOwnerOnSourceChanged_fn(Mask* __this)
 {
     __this->OnRenderingChanged();
 }
 
-// public override sealed Fuse.VisualBounds ModifyRenderBounds(Fuse.VisualBounds inBounds) :77
+// public override sealed Fuse.VisualBounds ModifyRenderBounds(Fuse.VisualBounds inBounds)
 void Mask__ModifyRenderBounds_fn(Mask* __this, ::g::Fuse::VisualBounds* inBounds, ::g::Fuse::VisualBounds** __retval)
 {
     return *__retval = ::g::Fuse::VisualBounds::Rect(::g::Uno::Float2__New1(0.0f), uPtr(__this->Element())->ActualSize()), void();
 }
 
-// protected override sealed void OnRender(Fuse.DrawContext dc, Uno.Rect elementRect) :83
+// protected override sealed void OnRender(Fuse.DrawContext dc, Uno.Rect elementRect)
 void Mask__OnRender_fn(Mask* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Rect* elementRect)
 {
     ::g::Uno::Rect elementRect_ = *elementRect;
@@ -1863,59 +1860,59 @@ void Mask__OnRender_fn(Mask* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Rect*
     {
         case 0:
         {
-            ::g::Uno::Float4x4 LocalTransform_e56a2f35_4_9_4 = ::g::Uno::Matrix::Mul10(__this->OnRender_LocalTransform_e56a2f35_4_9_2, ::g::Uno::Matrix::Scaling1(elementRect_.Size().X, elementRect_.Size().Y, 1.0f), __this->OnRender_LocalTransform_e56a2f35_4_9_3, ::g::Uno::Matrix::Translation(elementRect_.Minimum().X, elementRect_.Minimum().Y, 0.0f));
-            __this->_draw_e56a2f35.BlendEnabled(true);
-            __this->_draw_e56a2f35.DepthTestEnabled(false);
-            __this->_draw_e56a2f35.CullFace(uPtr(dc)->CullFace());
-            __this->_draw_e56a2f35.BlendSrcAlpha(7);
-            __this->_draw_e56a2f35.BlendDstRgb(3);
-            __this->_draw_e56a2f35.Use();
-            __this->_draw_e56a2f35.Attrib1(0, 2, __this->OnRender_VertexData_e56a2f35_7_2_1, 8, 0);
-            __this->_draw_e56a2f35.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
-            __this->_draw_e56a2f35.Uniform2(2, scale);
-            __this->_draw_e56a2f35.Uniform2(3, bias);
-            __this->_draw_e56a2f35.Uniform12(4, (__this->Element() != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_e56a2f35_4_9_4, uPtr(__this->Element())->WorldTransform()) : LocalTransform_e56a2f35_4_9_4);
-            __this->_draw_e56a2f35.Sampler3(5, uPtr(original)->ColorBuffer(), ::g::Uno::Graphics::SamplerState__LinearClamp());
-            __this->_draw_e56a2f35.Sampler3(6, texture, ::g::Uno::Graphics::SamplerState__LinearClamp());
-            __this->_draw_e56a2f35.DrawArrays(6);
+            ::g::Uno::Float4x4 LocalTransform_c63fd577_4_9_4 = ::g::Uno::Matrix::Mul10(__this->OnRender_LocalTransform_c63fd577_4_9_2, ::g::Uno::Matrix::Scaling1(elementRect_.Size().X, elementRect_.Size().Y, 1.0f), __this->OnRender_LocalTransform_c63fd577_4_9_3, ::g::Uno::Matrix::Translation(elementRect_.Minimum().X, elementRect_.Minimum().Y, 0.0f));
+            __this->_draw_c63fd577.BlendEnabled(true);
+            __this->_draw_c63fd577.DepthTestEnabled(false);
+            __this->_draw_c63fd577.CullFace(uPtr(dc)->CullFace());
+            __this->_draw_c63fd577.BlendSrcAlpha(7);
+            __this->_draw_c63fd577.BlendDstRgb(3);
+            __this->_draw_c63fd577.Use();
+            __this->_draw_c63fd577.Attrib1(0, 2, __this->OnRender_VertexData_c63fd577_7_2_1, 8, 0);
+            __this->_draw_c63fd577.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
+            __this->_draw_c63fd577.Uniform2(2, scale);
+            __this->_draw_c63fd577.Uniform2(3, bias);
+            __this->_draw_c63fd577.Uniform12(4, (__this->Element() != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_c63fd577_4_9_4, uPtr(__this->Element())->WorldTransform()) : LocalTransform_c63fd577_4_9_4);
+            __this->_draw_c63fd577.Sampler3(5, uPtr(original)->ColorBuffer(), ::g::Uno::Graphics::SamplerState__LinearClamp());
+            __this->_draw_c63fd577.Sampler3(6, texture, ::g::Uno::Graphics::SamplerState__LinearClamp());
+            __this->_draw_c63fd577.DrawArrays(6);
             break;
         }
         case 1:
         {
-            ::g::Uno::Float4x4 LocalTransform_97b14dfa_4_9_2 = ::g::Uno::Matrix::Mul10(__this->OnRender_LocalTransform_e56a2f35_4_9_2, ::g::Uno::Matrix::Scaling1(elementRect_.Size().X, elementRect_.Size().Y, 1.0f), __this->OnRender_LocalTransform_e56a2f35_4_9_3, ::g::Uno::Matrix::Translation(elementRect_.Minimum().X, elementRect_.Minimum().Y, 0.0f));
-            __this->_draw_97b14dfa.BlendEnabled(true);
-            __this->_draw_97b14dfa.DepthTestEnabled(false);
-            __this->_draw_97b14dfa.CullFace(uPtr(dc)->CullFace());
-            __this->_draw_97b14dfa.BlendSrcAlpha(7);
-            __this->_draw_97b14dfa.BlendDstRgb(3);
-            __this->_draw_97b14dfa.Use();
-            __this->_draw_97b14dfa.Attrib1(0, 2, __this->OnRender_VertexData_97b14dfa_7_2_1, 8, 0);
-            __this->_draw_97b14dfa.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
-            __this->_draw_97b14dfa.Uniform2(2, scale);
-            __this->_draw_97b14dfa.Uniform2(3, bias);
-            __this->_draw_97b14dfa.Uniform12(4, (__this->Element() != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_97b14dfa_4_9_2, uPtr(__this->Element())->WorldTransform()) : LocalTransform_97b14dfa_4_9_2);
-            __this->_draw_97b14dfa.Sampler3(5, uPtr(original)->ColorBuffer(), ::g::Uno::Graphics::SamplerState__LinearClamp());
-            __this->_draw_97b14dfa.Sampler3(6, texture, ::g::Uno::Graphics::SamplerState__LinearClamp());
-            __this->_draw_97b14dfa.DrawArrays(6);
+            ::g::Uno::Float4x4 LocalTransform_a7f41733_4_9_2 = ::g::Uno::Matrix::Mul10(__this->OnRender_LocalTransform_c63fd577_4_9_2, ::g::Uno::Matrix::Scaling1(elementRect_.Size().X, elementRect_.Size().Y, 1.0f), __this->OnRender_LocalTransform_c63fd577_4_9_3, ::g::Uno::Matrix::Translation(elementRect_.Minimum().X, elementRect_.Minimum().Y, 0.0f));
+            __this->_draw_a7f41733.BlendEnabled(true);
+            __this->_draw_a7f41733.DepthTestEnabled(false);
+            __this->_draw_a7f41733.CullFace(uPtr(dc)->CullFace());
+            __this->_draw_a7f41733.BlendSrcAlpha(7);
+            __this->_draw_a7f41733.BlendDstRgb(3);
+            __this->_draw_a7f41733.Use();
+            __this->_draw_a7f41733.Attrib1(0, 2, __this->OnRender_VertexData_a7f41733_7_2_1, 8, 0);
+            __this->_draw_a7f41733.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
+            __this->_draw_a7f41733.Uniform2(2, scale);
+            __this->_draw_a7f41733.Uniform2(3, bias);
+            __this->_draw_a7f41733.Uniform12(4, (__this->Element() != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_a7f41733_4_9_2, uPtr(__this->Element())->WorldTransform()) : LocalTransform_a7f41733_4_9_2);
+            __this->_draw_a7f41733.Sampler3(5, uPtr(original)->ColorBuffer(), ::g::Uno::Graphics::SamplerState__LinearClamp());
+            __this->_draw_a7f41733.Sampler3(6, texture, ::g::Uno::Graphics::SamplerState__LinearClamp());
+            __this->_draw_a7f41733.DrawArrays(6);
             break;
         }
         case 2:
         {
-            ::g::Uno::Float4x4 LocalTransform_f63e1f3f_4_9_2 = ::g::Uno::Matrix::Mul10(__this->OnRender_LocalTransform_e56a2f35_4_9_2, ::g::Uno::Matrix::Scaling1(elementRect_.Size().X, elementRect_.Size().Y, 1.0f), __this->OnRender_LocalTransform_e56a2f35_4_9_3, ::g::Uno::Matrix::Translation(elementRect_.Minimum().X, elementRect_.Minimum().Y, 0.0f));
-            __this->_draw_f63e1f3f.BlendEnabled(true);
-            __this->_draw_f63e1f3f.DepthTestEnabled(false);
-            __this->_draw_f63e1f3f.CullFace(uPtr(dc)->CullFace());
-            __this->_draw_f63e1f3f.BlendSrcAlpha(7);
-            __this->_draw_f63e1f3f.BlendDstRgb(3);
-            __this->_draw_f63e1f3f.Use();
-            __this->_draw_f63e1f3f.Attrib1(0, 2, __this->OnRender_VertexData_f63e1f3f_7_2_1, 8, 0);
-            __this->_draw_f63e1f3f.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
-            __this->_draw_f63e1f3f.Uniform2(2, scale);
-            __this->_draw_f63e1f3f.Uniform2(3, bias);
-            __this->_draw_f63e1f3f.Uniform12(4, (__this->Element() != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_f63e1f3f_4_9_2, uPtr(__this->Element())->WorldTransform()) : LocalTransform_f63e1f3f_4_9_2);
-            __this->_draw_f63e1f3f.Sampler3(5, uPtr(original)->ColorBuffer(), ::g::Uno::Graphics::SamplerState__LinearClamp());
-            __this->_draw_f63e1f3f.Sampler3(6, texture, ::g::Uno::Graphics::SamplerState__LinearClamp());
-            __this->_draw_f63e1f3f.DrawArrays(6);
+            ::g::Uno::Float4x4 LocalTransform_dd716216_4_9_2 = ::g::Uno::Matrix::Mul10(__this->OnRender_LocalTransform_c63fd577_4_9_2, ::g::Uno::Matrix::Scaling1(elementRect_.Size().X, elementRect_.Size().Y, 1.0f), __this->OnRender_LocalTransform_c63fd577_4_9_3, ::g::Uno::Matrix::Translation(elementRect_.Minimum().X, elementRect_.Minimum().Y, 0.0f));
+            __this->_draw_dd716216.BlendEnabled(true);
+            __this->_draw_dd716216.DepthTestEnabled(false);
+            __this->_draw_dd716216.CullFace(uPtr(dc)->CullFace());
+            __this->_draw_dd716216.BlendSrcAlpha(7);
+            __this->_draw_dd716216.BlendDstRgb(3);
+            __this->_draw_dd716216.Use();
+            __this->_draw_dd716216.Attrib1(0, 2, __this->OnRender_VertexData_dd716216_7_2_1, 8, 0);
+            __this->_draw_dd716216.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/])));
+            __this->_draw_dd716216.Uniform2(2, scale);
+            __this->_draw_dd716216.Uniform2(3, bias);
+            __this->_draw_dd716216.Uniform12(4, (__this->Element() != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_dd716216_4_9_2, uPtr(__this->Element())->WorldTransform()) : LocalTransform_dd716216_4_9_2);
+            __this->_draw_dd716216.Sampler3(5, uPtr(original)->ColorBuffer(), ::g::Uno::Graphics::SamplerState__LinearClamp());
+            __this->_draw_dd716216.Sampler3(6, texture, ::g::Uno::Graphics::SamplerState__LinearClamp());
+            __this->_draw_dd716216.DrawArrays(6);
             break;
         }
     }
@@ -1923,14 +1920,14 @@ void Mask__OnRender_fn(Mask* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Rect*
     ::g::Fuse::FramebufferPool::Release(original);
 }
 
-// protected override sealed void OnRooted() :24
+// protected override sealed void OnRooted()
 void Mask__OnRooted_fn(Mask* __this)
 {
     ::g::Fuse::Effects::Effect__OnRooted_fn(__this);
     uPtr(__this->_container)->IsRooted(true);
 }
 
-// protected override sealed void OnUnrooted() :30
+// protected override sealed void OnUnrooted()
 void Mask__OnUnrooted_fn(Mask* __this)
 {
     uPtr(__this->_container)->IsRooted(false);
@@ -1938,10 +1935,10 @@ void Mask__OnUnrooted_fn(Mask* __this)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/Mask.uno
-// ---------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/Mask.uno
+// ---------------------------------------------------------------------------------------------------------------------------------
 
-// public enum Mask.MaskMode :52
+// public enum Mask.MaskMode
 uEnumType* Mask__MaskMode_typeof()
 {
     static uSStrong<uEnumType*> type;

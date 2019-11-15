@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Expressions/1.9.0/Device.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Expressions/1.12.0/Device.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.IObject.h>
-#include <Fuse.Reactive.IObserv-45c40f03.h>
+#include <Fuse.Reactive.IObserv-e1955a6b.h>
 #include <Uno.UX.IPropertyListener.h>
 #include <Uno.UX.PropertyObject.h>
 namespace g{namespace Fuse{namespace Reactive{struct CapsObject;}}}
@@ -14,7 +14,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public class CapsObject :7
+// public class CapsObject
 // {
 struct CapsObject_type : uType
 {

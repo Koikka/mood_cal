@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Deferred.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Deferred.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{namespace Uno{struct Float2;}}
 namespace g{
 namespace Fuse{
 
-// internal static class DeferredManager :20
+// internal static class DeferredManager
 // {
 uClassType* DeferredManager_typeof();
 void DeferredManager__AddPending_fn(uObject* d, ::g::Uno::Float2* priority);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/CacheFramebuffer.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/CacheFramebuffer.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{namespace Uno{namespace Graphics{struct Framebuffer;}}}
 namespace g{
 namespace Fuse{
 
-// internal sealed class CacheFramebuffer :8
+// internal sealed class CacheFramebuffer
 // {
 uType* CacheFramebuffer_typeof();
 void CacheFramebuffer__ctor__fn(CacheFramebuffer* __this, int32_t* width, int32_t* height, int32_t* format, int32_t* flags);

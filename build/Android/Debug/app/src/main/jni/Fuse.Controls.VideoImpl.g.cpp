@@ -3,19 +3,19 @@
 
 #include <_root.FuseControlsVideo_bundle.h>
 #include <Fuse.Controls.Graphics.Visual.h>
-#include <Fuse.Controls.VideoIm-28d4de69.h>
-#include <Fuse.Controls.VideoIm-43cf59f3.h>
-#include <Fuse.Controls.VideoIm-4d990014.h>
-#include <Fuse.Controls.VideoIm-6db665eb.h>
-#include <Fuse.Controls.VideoIm-72c895ca.h>
-#include <Fuse.Controls.VideoIm-7b2eaac1.h>
-#include <Fuse.Controls.VideoIm-7c15c6f7.h>
-#include <Fuse.Controls.VideoIm-aeb6ffae.h>
-#include <Fuse.Controls.VideoIm-aee99c23.h>
-#include <Fuse.Controls.VideoIm-b5ceac8f.h>
-#include <Fuse.Controls.VideoIm-bfe06558.h>
-#include <Fuse.Controls.VideoIm-c1aafe14.h>
-#include <Fuse.Controls.VideoIm-f0b495bd.h>
+#include <Fuse.Controls.VideoIm-119506e2.h>
+#include <Fuse.Controls.VideoIm-136ae022.h>
+#include <Fuse.Controls.VideoIm-55d144ab.h>
+#include <Fuse.Controls.VideoIm-5b214bbd.h>
+#include <Fuse.Controls.VideoIm-6b67cd7e.h>
+#include <Fuse.Controls.VideoIm-9b1ee94.h>
+#include <Fuse.Controls.VideoIm-aca277d5.h>
+#include <Fuse.Controls.VideoIm-b271cf7d.h>
+#include <Fuse.Controls.VideoIm-c18d2323.h>
+#include <Fuse.Controls.VideoIm-c4b7a5d0.h>
+#include <Fuse.Controls.VideoIm-c6e44674.h>
+#include <Fuse.Controls.VideoIm-c7c76e91.h>
+#include <Fuse.Controls.VideoIm-ecf89c4c.h>
 #include <Fuse.Diagnostics.h>
 #include <Fuse.DrawContext.h>
 #include <Fuse.Elements.Alignment.h>
@@ -40,15 +40,14 @@
 #include <Uno.Action.h>
 #include <Uno.Action1-1.h>
 #include <Uno.Bool.h>
-#include <Uno.Buffer.h>
 #include <Uno.Byte.h>
 #include <Uno.Char.h>
-#include <Uno.Collections.Dicti-d1699346.h>
+#include <Uno.Collections.Dicti-5d5b73f.h>
 #include <Uno.Collections.Dictionary-2.h>
 #include <Uno.Collections.KeyValuePair-2.h>
 #include <Uno.Delegate.h>
 #include <Uno.Diagnostics.Debug.h>
-#include <Uno.Diagnostics.Debug-5d778620.h>
+#include <Uno.Diagnostics.Debug-20ee58c0.h>
 #include <Uno.Double.h>
 #include <Uno.EventArgs.h>
 #include <Uno.EventHandler.h>
@@ -66,7 +65,7 @@
 #include <Uno.Graphics.IndexType.h>
 #include <Uno.Graphics.PolygonFace.h>
 #include <Uno.Graphics.SamplerState.h>
-#include <Uno.Graphics.VertexAt-4a875e1d.h>
+#include <Uno.Graphics.VertexAt-13489a6d.h>
 #include <Uno.Graphics.VertexBuffer.h>
 #include <Uno.Graphics.VideoTexture.h>
 #include <Uno.Int.h>
@@ -77,8 +76,7 @@
 #include <Uno.Math.h>
 #include <Uno.Matrix.h>
 #include <Uno.Object.h>
-#include <Uno.Runtime.Implement-6e9df330.h>
-#include <Uno.Runtime.Implement-81e7ab4c.h>
+#include <Uno.Runtime.Implement-e843a30a.h>
 #include <Uno.String.h>
 #include <Uno.Threading.Future.h>
 #include <Uno.Threading.Future1-1.h>
@@ -94,10 +92,10 @@ namespace Fuse{
 namespace Controls{
 namespace VideoImpl{
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/IVideoPlayer.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/IVideoPlayer.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class EmptyVideo :30
+// internal sealed class EmptyVideo
 // {
 static void EmptyVideo_build(uType* type)
 {
@@ -137,110 +135,110 @@ EmptyVideo_type* EmptyVideo_typeof()
     return type;
 }
 
-// public generated EmptyVideo() :30
+// public generated EmptyVideo()
 void EmptyVideo__ctor__fn(EmptyVideo* __this)
 {
     __this->ctor_();
 }
 
-// private double Fuse.Controls.VideoImpl.IVideoPlayer.get_Duration() :32
+// private double Fuse.Controls.VideoImpl.IVideoPlayer.get_Duration()
 void EmptyVideo__FuseControlsVideoImplIVideoPlayerget_Duration_fn(EmptyVideo* __this, double* __retval)
 {
     return *__retval = 0.0, void();
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoPlayer.add_ErrorOccurred(Uno.EventHandler<Uno.Exception> value) :35
+// private void Fuse.Controls.VideoImpl.IVideoPlayer.add_ErrorOccurred(Uno.EventHandler<Uno.Exception> value)
 void EmptyVideo__FuseControlsVideoImplIVideoPlayeradd_ErrorOccurred_fn(EmptyVideo* __this, uDelegate* value)
 {
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoPlayer.remove_ErrorOccurred(Uno.EventHandler<Uno.Exception> value) :35
+// private void Fuse.Controls.VideoImpl.IVideoPlayer.remove_ErrorOccurred(Uno.EventHandler<Uno.Exception> value)
 void EmptyVideo__FuseControlsVideoImplIVideoPlayerremove_ErrorOccurred_fn(EmptyVideo* __this, uDelegate* value)
 {
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoPlayer.add_FrameAvailable(Uno.EventHandler value) :34
+// private void Fuse.Controls.VideoImpl.IVideoPlayer.add_FrameAvailable(Uno.EventHandler value)
 void EmptyVideo__FuseControlsVideoImplIVideoPlayeradd_FrameAvailable_fn(EmptyVideo* __this, uDelegate* value)
 {
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoPlayer.remove_FrameAvailable(Uno.EventHandler value) :34
+// private void Fuse.Controls.VideoImpl.IVideoPlayer.remove_FrameAvailable(Uno.EventHandler value)
 void EmptyVideo__FuseControlsVideoImplIVideoPlayerremove_FrameAvailable_fn(EmptyVideo* __this, uDelegate* value)
 {
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoPlayer.Pause() :41
+// private void Fuse.Controls.VideoImpl.IVideoPlayer.Pause()
 void EmptyVideo__FuseControlsVideoImplIVideoPlayerPause_fn(EmptyVideo* __this)
 {
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoPlayer.Play() :42
+// private void Fuse.Controls.VideoImpl.IVideoPlayer.Play()
 void EmptyVideo__FuseControlsVideoImplIVideoPlayerPlay_fn(EmptyVideo* __this)
 {
 }
 
-// private double Fuse.Controls.VideoImpl.IVideoPlayer.get_Position() :33
+// private double Fuse.Controls.VideoImpl.IVideoPlayer.get_Position()
 void EmptyVideo__FuseControlsVideoImplIVideoPlayerget_Position_fn(EmptyVideo* __this, double* __retval)
 {
     return *__retval = 0.0, void();
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoPlayer.set_Position(double value) :33
+// private void Fuse.Controls.VideoImpl.IVideoPlayer.set_Position(double value)
 void EmptyVideo__FuseControlsVideoImplIVideoPlayerset_Position_fn(EmptyVideo* __this, double* value)
 {
 }
 
-// private int Fuse.Controls.VideoImpl.IVideoPlayer.get_RotationDegrees() :38
+// private int Fuse.Controls.VideoImpl.IVideoPlayer.get_RotationDegrees()
 void EmptyVideo__FuseControlsVideoImplIVideoPlayerget_RotationDegrees_fn(EmptyVideo* __this, int32_t* __retval)
 {
     return *__retval = 0, void();
 }
 
-// private int2 Fuse.Controls.VideoImpl.IVideoPlayer.get_Size() :37
+// private int2 Fuse.Controls.VideoImpl.IVideoPlayer.get_Size()
 void EmptyVideo__FuseControlsVideoImplIVideoPlayerget_Size_fn(EmptyVideo* __this, ::g::Uno::Int2* __retval)
 {
     return *__retval = ::g::Uno::Int2__New1(0), void();
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoPlayer.Update() :43
+// private void Fuse.Controls.VideoImpl.IVideoPlayer.Update()
 void EmptyVideo__FuseControlsVideoImplIVideoPlayerUpdate_fn(EmptyVideo* __this)
 {
 }
 
-// private Uno.Graphics.VideoTexture Fuse.Controls.VideoImpl.IVideoPlayer.get_VideoTexture() :39
+// private Uno.Graphics.VideoTexture Fuse.Controls.VideoImpl.IVideoPlayer.get_VideoTexture()
 void EmptyVideo__FuseControlsVideoImplIVideoPlayerget_VideoTexture_fn(EmptyVideo* __this, ::g::Uno::Graphics::VideoTexture** __retval)
 {
     return *__retval = NULL, void();
 }
 
-// private float Fuse.Controls.VideoImpl.IVideoPlayer.get_Volume() :36
+// private float Fuse.Controls.VideoImpl.IVideoPlayer.get_Volume()
 void EmptyVideo__FuseControlsVideoImplIVideoPlayerget_Volume_fn(EmptyVideo* __this, float* __retval)
 {
     return *__retval = 0.0f, void();
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoPlayer.set_Volume(float value) :36
+// private void Fuse.Controls.VideoImpl.IVideoPlayer.set_Volume(float value)
 void EmptyVideo__FuseControlsVideoImplIVideoPlayerset_Volume_fn(EmptyVideo* __this, float* value)
 {
 }
 
-// public generated EmptyVideo New() :30
+// public generated EmptyVideo New()
 void EmptyVideo__New1_fn(EmptyVideo** __retval)
 {
     *__retval = EmptyVideo::New1();
 }
 
-// private void Uno.IDisposable.Dispose() :40
+// private void Uno.IDisposable.Dispose()
 void EmptyVideo__UnoIDisposableDispose_fn(EmptyVideo* __this)
 {
 }
 
-// public generated EmptyVideo() [instance] :30
+// public generated EmptyVideo() [instance]
 void EmptyVideo::ctor_()
 {
 }
 
-// public generated EmptyVideo New() [static] :30
+// public generated EmptyVideo New() [static]
 EmptyVideo* EmptyVideo::New1()
 {
     EmptyVideo* obj1 = (EmptyVideo*)uNew(EmptyVideo_typeof());
@@ -249,12 +247,12 @@ EmptyVideo* EmptyVideo::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoContainer.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoContainer.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class GraphicsVideoService :93
+// internal sealed class GraphicsVideoService
 // {
-// static generated GraphicsVideoService() :93
+// static generated GraphicsVideoService()
 static void GraphicsVideoService__cctor__fn(uType* __type)
 {
     GraphicsVideoService::CompletionTimeThreshold_ = 0.05f;
@@ -323,39 +321,39 @@ GraphicsVideoService_type* GraphicsVideoService_typeof()
     return type;
 }
 
-// public GraphicsVideoService(Fuse.Controls.VideoImpl.IVideoCallbacks callbacks) :107
+// public GraphicsVideoService(Fuse.Controls.VideoImpl.IVideoCallbacks callbacks)
 void GraphicsVideoService__ctor__fn(GraphicsVideoService* __this, uObject* callbacks)
 {
     __this->ctor_(callbacks);
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoService.set_AutoPlay(bool value) :160
+// private void Fuse.Controls.VideoImpl.IVideoService.set_AutoPlay(bool value)
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceset_AutoPlay_fn(GraphicsVideoService* __this, bool* value)
 {
     bool value_ = *value;
     __this->_autoPlay = value_;
 }
 
-// private double Fuse.Controls.VideoImpl.IVideoService.get_Duration() :130
+// private double Fuse.Controls.VideoImpl.IVideoService.get_Duration()
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceget_Duration_fn(GraphicsVideoService* __this, double* __retval)
 {
     return *__retval = __this->_durationCache, void();
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoService.set_IsLooping(bool value) :157
+// private void Fuse.Controls.VideoImpl.IVideoService.set_IsLooping(bool value)
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceset_IsLooping_fn(GraphicsVideoService* __this, bool* value)
 {
     bool value_ = *value;
     __this->_isLooping = value_;
 }
 
-// private bool Fuse.Controls.VideoImpl.IVideoService.get_IsValid() :162
+// private bool Fuse.Controls.VideoImpl.IVideoService.get_IsValid()
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceget_IsValid_fn(GraphicsVideoService* __this, bool* __retval)
 {
     return *__retval = __this->_player != NULL, void();
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoService.Load(string url) :167
+// private void Fuse.Controls.VideoImpl.IVideoService.Load(string url)
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceLoad_fn(GraphicsVideoService* __this, uString* url)
 {
     try
@@ -376,7 +374,7 @@ void GraphicsVideoService__FuseControlsVideoImplIVideoServiceLoad_fn(GraphicsVid
     ::g::Fuse::Controls::VideoImpl::IVideoCallbacks::OnLoading(uInterface(uPtr(__this->_callbacks), ::TYPES[3/*Fuse.Controls.VideoImpl.IVideoCallbacks*/]));
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoService.Load(Uno.UX.FileSource file) :182
+// private void Fuse.Controls.VideoImpl.IVideoService.Load(Uno.UX.FileSource file)
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceLoad1_fn(GraphicsVideoService* __this, ::g::Uno::UX::FileSource* file)
 {
     try
@@ -397,13 +395,13 @@ void GraphicsVideoService__FuseControlsVideoImplIVideoServiceLoad1_fn(GraphicsVi
     ::g::Fuse::Controls::VideoImpl::IVideoCallbacks::OnLoading(uInterface(uPtr(__this->_callbacks), ::TYPES[3/*Fuse.Controls.VideoImpl.IVideoCallbacks*/]));
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoService.Pause() :122
+// private void Fuse.Controls.VideoImpl.IVideoService.Pause()
 void GraphicsVideoService__FuseControlsVideoImplIVideoServicePause_fn(GraphicsVideoService* __this)
 {
     ::g::Fuse::Controls::VideoImpl::IVideoPlayer::Pause(uInterface(uPtr(__this->Player()), ::TYPES[4/*Fuse.Controls.VideoImpl.IVideoPlayer*/]));
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoService.Play() :112
+// private void Fuse.Controls.VideoImpl.IVideoService.Play()
 void GraphicsVideoService__FuseControlsVideoImplIVideoServicePlay_fn(GraphicsVideoService* __this)
 {
     if (__this->IsCompleted())
@@ -412,38 +410,38 @@ void GraphicsVideoService__FuseControlsVideoImplIVideoServicePlay_fn(GraphicsVid
     ::g::Fuse::Controls::VideoImpl::IVideoPlayer::Play(uInterface(uPtr(__this->Player()), ::TYPES[4/*Fuse.Controls.VideoImpl.IVideoPlayer*/]));
 }
 
-// private double Fuse.Controls.VideoImpl.IVideoService.get_Position() :152
+// private double Fuse.Controls.VideoImpl.IVideoService.get_Position()
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceget_Position_fn(GraphicsVideoService* __this, double* __retval)
 {
     return *__retval = ::g::Fuse::Controls::VideoImpl::IVideoPlayer::Position(uInterface(uPtr(__this->Player()), ::TYPES[4/*Fuse.Controls.VideoImpl.IVideoPlayer*/])), void();
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoService.set_Position(double value) :153
+// private void Fuse.Controls.VideoImpl.IVideoService.set_Position(double value)
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceset_Position_fn(GraphicsVideoService* __this, double* value)
 {
     double value_ = *value;
     ::g::Fuse::Controls::VideoImpl::IVideoPlayer::Position(uInterface(uPtr(__this->Player()), ::TYPES[4/*Fuse.Controls.VideoImpl.IVideoPlayer*/]), value_);
 }
 
-// private int Fuse.Controls.VideoImpl.IVideoService.get_RotationDegrees() :165
+// private int Fuse.Controls.VideoImpl.IVideoService.get_RotationDegrees()
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceget_RotationDegrees_fn(GraphicsVideoService* __this, int32_t* __retval)
 {
     return *__retval = __this->_rotationCache, void();
 }
 
-// private int2 Fuse.Controls.VideoImpl.IVideoService.get_Size() :136
+// private int2 Fuse.Controls.VideoImpl.IVideoService.get_Size()
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceget_Size_fn(GraphicsVideoService* __this, ::g::Uno::Int2* __retval)
 {
     return *__retval = __this->_sizeCache, void();
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoService.Unload() :228
+// private void Fuse.Controls.VideoImpl.IVideoService.Unload()
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceUnload_fn(GraphicsVideoService* __this)
 {
     __this->Reset();
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoService.Update() :206
+// private void Fuse.Controls.VideoImpl.IVideoService.Update()
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceUpdate_fn(GraphicsVideoService* __this)
 {
     if (__this->_player != NULL)
@@ -467,74 +465,74 @@ void GraphicsVideoService__FuseControlsVideoImplIVideoServiceUpdate_fn(GraphicsV
     }
 }
 
-// private Uno.Graphics.VideoTexture Fuse.Controls.VideoImpl.IVideoService.get_VideoTexture() :141
+// private Uno.Graphics.VideoTexture Fuse.Controls.VideoImpl.IVideoService.get_VideoTexture()
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceget_VideoTexture_fn(GraphicsVideoService* __this, ::g::Uno::Graphics::VideoTexture** __retval)
 {
     return *__retval = ::g::Fuse::Controls::VideoImpl::IVideoPlayer::VideoTexture(uInterface(uPtr(__this->Player()), ::TYPES[4/*Fuse.Controls.VideoImpl.IVideoPlayer*/])), void();
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoService.set_Volume(float value) :147
+// private void Fuse.Controls.VideoImpl.IVideoService.set_Volume(float value)
 void GraphicsVideoService__FuseControlsVideoImplIVideoServiceset_Volume_fn(GraphicsVideoService* __this, float* value)
 {
     float value_ = *value;
     ::g::Fuse::Controls::VideoImpl::IVideoPlayer::Volume(uInterface(uPtr(__this->Player()), ::TYPES[4/*Fuse.Controls.VideoImpl.IVideoPlayer*/]), __this->_volume = value_);
 }
 
-// private bool get_IsCompleted() :199
+// private bool get_IsCompleted()
 void GraphicsVideoService__get_IsCompleted_fn(GraphicsVideoService* __this, bool* __retval)
 {
     *__retval = __this->IsCompleted();
 }
 
-// public GraphicsVideoService New(Fuse.Controls.VideoImpl.IVideoCallbacks callbacks) :107
+// public GraphicsVideoService New(Fuse.Controls.VideoImpl.IVideoCallbacks callbacks)
 void GraphicsVideoService__New1_fn(uObject* callbacks, GraphicsVideoService** __retval)
 {
     *__retval = GraphicsVideoService::New1(callbacks);
 }
 
-// private void OnLoaded(Fuse.Controls.VideoImpl.IVideoPlayer player) :263
+// private void OnLoaded(Fuse.Controls.VideoImpl.IVideoPlayer player)
 void GraphicsVideoService__OnLoaded_fn(GraphicsVideoService* __this, uObject* player)
 {
     __this->OnLoaded(player);
 }
 
-// private void OnLoadingError(Uno.Exception e) :275
+// private void OnLoadingError(Uno.Exception e)
 void GraphicsVideoService__OnLoadingError_fn(GraphicsVideoService* __this, ::g::Uno::Exception* e)
 {
     __this->OnLoadingError(e);
 }
 
-// private void OnPlayerError(object sender, Uno.Exception e) :280
+// private void OnPlayerError(object sender, Uno.Exception e)
 void GraphicsVideoService__OnPlayerError_fn(GraphicsVideoService* __this, uObject* sender, ::g::Uno::Exception* e)
 {
     __this->OnPlayerError(sender, e);
 }
 
-// private void OnPlayerFrameAvailable(object sender, Uno.EventArgs args) :286
+// private void OnPlayerFrameAvailable(object sender, Uno.EventArgs args)
 void GraphicsVideoService__OnPlayerFrameAvailable_fn(GraphicsVideoService* __this, uObject* sender, ::g::Uno::EventArgs* args)
 {
     __this->OnPlayerFrameAvailable(sender, args);
 }
 
-// private Fuse.Controls.VideoImpl.IVideoPlayer get_Player() :99
+// private Fuse.Controls.VideoImpl.IVideoPlayer get_Player()
 void GraphicsVideoService__get_Player_fn(GraphicsVideoService* __this, uObject** __retval)
 {
     *__retval = __this->Player();
 }
 
-// private void Reset() :239
+// private void Reset()
 void GraphicsVideoService__Reset_fn(GraphicsVideoService* __this)
 {
     __this->Reset();
 }
 
-// private void SetPlayer(Fuse.Controls.VideoImpl.IVideoPlayer player) :255
+// private void SetPlayer(Fuse.Controls.VideoImpl.IVideoPlayer player)
 void GraphicsVideoService__SetPlayer_fn(GraphicsVideoService* __this, uObject* player)
 {
     __this->SetPlayer(player);
 }
 
-// private void Uno.IDisposable.Dispose() :233
+// private void Uno.IDisposable.Dispose()
 void GraphicsVideoService__UnoIDisposableDispose_fn(GraphicsVideoService* __this)
 {
     __this->Reset();
@@ -543,7 +541,7 @@ void GraphicsVideoService__UnoIDisposableDispose_fn(GraphicsVideoService* __this
 
 float GraphicsVideoService::CompletionTimeThreshold_;
 
-// public GraphicsVideoService(Fuse.Controls.VideoImpl.IVideoCallbacks callbacks) [instance] :107
+// public GraphicsVideoService(Fuse.Controls.VideoImpl.IVideoCallbacks callbacks) [instance]
 void GraphicsVideoService::ctor_(uObject* callbacks)
 {
     _empty = (uObject*)::g::Fuse::Controls::VideoImpl::EmptyVideo::New1();
@@ -551,13 +549,13 @@ void GraphicsVideoService::ctor_(uObject* callbacks)
     _callbacks = callbacks;
 }
 
-// private bool get_IsCompleted() [instance] :199
+// private bool get_IsCompleted() [instance]
 bool GraphicsVideoService::IsCompleted()
 {
     return ::g::Uno::Math::Abs(_durationCache - ::g::Fuse::Controls::VideoImpl::IVideoPlayer::Position(uInterface(uPtr(Player()), ::TYPES[4/*Fuse.Controls.VideoImpl.IVideoPlayer*/]))) < (double)GraphicsVideoService::CompletionTimeThreshold_;
 }
 
-// private void OnLoaded(Fuse.Controls.VideoImpl.IVideoPlayer player) [instance] :263
+// private void OnLoaded(Fuse.Controls.VideoImpl.IVideoPlayer player) [instance]
 void GraphicsVideoService::OnLoaded(uObject* player)
 {
     _durationCache = ::g::Fuse::Controls::VideoImpl::IVideoPlayer::Duration(uInterface(uPtr(player), ::TYPES[4/*Fuse.Controls.VideoImpl.IVideoPlayer*/]));
@@ -570,26 +568,26 @@ void GraphicsVideoService::OnLoaded(uObject* player)
         ::g::Fuse::Controls::VideoImpl::IVideoPlayer::Play(uInterface(uPtr(Player()), ::TYPES[4/*Fuse.Controls.VideoImpl.IVideoPlayer*/]));
 }
 
-// private void OnLoadingError(Uno.Exception e) [instance] :275
+// private void OnLoadingError(Uno.Exception e) [instance]
 void GraphicsVideoService::OnLoadingError(::g::Uno::Exception* e)
 {
     ::g::Fuse::Controls::VideoImpl::IVideoCallbacks::OnError(uInterface(uPtr(_callbacks), ::TYPES[3/*Fuse.Controls.VideoImpl.IVideoCallbacks*/]), e);
 }
 
-// private void OnPlayerError(object sender, Uno.Exception e) [instance] :280
+// private void OnPlayerError(object sender, Uno.Exception e) [instance]
 void GraphicsVideoService::OnPlayerError(uObject* sender, ::g::Uno::Exception* e)
 {
     Reset();
     ::g::Fuse::Controls::VideoImpl::IVideoCallbacks::OnError(uInterface(uPtr(_callbacks), ::TYPES[3/*Fuse.Controls.VideoImpl.IVideoCallbacks*/]), e);
 }
 
-// private void OnPlayerFrameAvailable(object sender, Uno.EventArgs args) [instance] :286
+// private void OnPlayerFrameAvailable(object sender, Uno.EventArgs args) [instance]
 void GraphicsVideoService::OnPlayerFrameAvailable(uObject* sender, ::g::Uno::EventArgs* args)
 {
     ::g::Fuse::Controls::VideoImpl::IVideoCallbacks::OnFrameAvailable(uInterface(uPtr(_callbacks), ::TYPES[3/*Fuse.Controls.VideoImpl.IVideoCallbacks*/]));
 }
 
-// private Fuse.Controls.VideoImpl.IVideoPlayer get_Player() [instance] :99
+// private Fuse.Controls.VideoImpl.IVideoPlayer get_Player() [instance]
 uObject* GraphicsVideoService::Player()
 {
     uObject* ind1;
@@ -597,7 +595,7 @@ uObject* GraphicsVideoService::Player()
     return (ind1 != NULL) ? ind1 : (uObject*)_empty;
 }
 
-// private void Reset() [instance] :239
+// private void Reset() [instance]
 void GraphicsVideoService::Reset()
 {
     if (_player != NULL)
@@ -615,7 +613,7 @@ void GraphicsVideoService::Reset()
     }
 }
 
-// private void SetPlayer(Fuse.Controls.VideoImpl.IVideoPlayer player) [instance] :255
+// private void SetPlayer(Fuse.Controls.VideoImpl.IVideoPlayer player) [instance]
 void GraphicsVideoService::SetPlayer(uObject* player)
 {
     _player = player;
@@ -624,7 +622,7 @@ void GraphicsVideoService::SetPlayer(uObject* player)
     ::g::Fuse::Controls::VideoImpl::IVideoPlayer::Volume(uInterface(uPtr(_player), ::TYPES[4/*Fuse.Controls.VideoImpl.IVideoPlayer*/]), _volume);
 }
 
-// public GraphicsVideoService New(Fuse.Controls.VideoImpl.IVideoCallbacks callbacks) [static] :107
+// public GraphicsVideoService New(Fuse.Controls.VideoImpl.IVideoCallbacks callbacks) [static]
 GraphicsVideoService* GraphicsVideoService::New1(uObject* callbacks)
 {
     GraphicsVideoService* obj2 = (GraphicsVideoService*)uNew(GraphicsVideoService_typeof());
@@ -633,10 +631,10 @@ GraphicsVideoService* GraphicsVideoService::New1(uObject* callbacks)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoContainer.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoContainer.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract interface IVideoCallbacks :42
+// internal abstract interface IVideoCallbacks
 // {
 uInterfaceType* IVideoCallbacks_typeof()
 {
@@ -648,10 +646,10 @@ uInterfaceType* IVideoCallbacks_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/IVideoPlayer.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/IVideoPlayer.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract interface IVideoPlayer :11
+// internal abstract interface IVideoPlayer
 // {
 uInterfaceType* IVideoPlayer_typeof()
 {
@@ -663,10 +661,10 @@ uInterfaceType* IVideoPlayer_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoContainer.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoContainer.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract interface IVideoService :16
+// internal abstract interface IVideoService
 // {
 uInterfaceType* IVideoService_typeof()
 {
@@ -678,10 +676,10 @@ uInterfaceType* IVideoService_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoContainer.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoContainer.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class LoadingClosure :51
+// internal sealed class LoadingClosure
 // {
 static void LoadingClosure_build(uType* type)
 {
@@ -711,31 +709,31 @@ LoadingClosure_type* LoadingClosure_typeof()
     return type;
 }
 
-// private LoadingClosure(Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> loadedFuture, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error) :69
+// private LoadingClosure(Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> loadedFuture, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error)
 void LoadingClosure__ctor__fn(LoadingClosure* __this, ::g::Uno::Threading::Future1* loadedFuture, uDelegate* loaded, uDelegate* error)
 {
     __this->ctor_(loadedFuture, loaded, error);
 }
 
-// public static Uno.IDisposable Load(string url, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error) :53
+// public static Uno.IDisposable Load(string url, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error)
 void LoadingClosure__Load_fn(uString* url, uDelegate* loaded, uDelegate* error, uObject** __retval)
 {
     *__retval = LoadingClosure::Load(url, loaded, error);
 }
 
-// public static Uno.IDisposable Load(Uno.UX.FileSource file, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error) :58
+// public static Uno.IDisposable Load(Uno.UX.FileSource file, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error)
 void LoadingClosure__Load1_fn(::g::Uno::UX::FileSource* file, uDelegate* loaded, uDelegate* error, uObject** __retval)
 {
     *__retval = LoadingClosure::Load1(file, loaded, error);
 }
 
-// private LoadingClosure New(Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> loadedFuture, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error) :69
+// private LoadingClosure New(Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> loadedFuture, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error)
 void LoadingClosure__New1_fn(::g::Uno::Threading::Future1* loadedFuture, uDelegate* loaded, uDelegate* error, LoadingClosure** __retval)
 {
     *__retval = LoadingClosure::New1(loadedFuture, loaded, error);
 }
 
-// private void Uno.IDisposable.Dispose() :81
+// private void Uno.IDisposable.Dispose()
 void LoadingClosure__UnoIDisposableDispose_fn(LoadingClosure* __this)
 {
     if (!__this->_isDisposed)
@@ -747,7 +745,7 @@ void LoadingClosure__UnoIDisposableDispose_fn(LoadingClosure* __this)
     }
 }
 
-// private LoadingClosure(Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> loadedFuture, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error) [instance] :69
+// private LoadingClosure(Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> loadedFuture, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error) [instance]
 void LoadingClosure::ctor_(::g::Uno::Threading::Future1* loadedFuture, uDelegate* loaded, uDelegate* error)
 {
     _loaded = loaded;
@@ -756,19 +754,19 @@ void LoadingClosure::ctor_(::g::Uno::Threading::Future1* loadedFuture, uDelegate
     _thenFuture = ((::g::Uno::Threading::Future1*)uPtr(_loaderFuture)->Then1(_loaded, _error));
 }
 
-// public static Uno.IDisposable Load(string url, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error) [static] :53
+// public static Uno.IDisposable Load(string url, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error) [static]
 uObject* LoadingClosure::Load(uString* url, uDelegate* loaded, uDelegate* error)
 {
     return (uObject*)LoadingClosure::New1(::g::Fuse::Controls::VideoImpl::VideoLoader::Load(url), loaded, error);
 }
 
-// public static Uno.IDisposable Load(Uno.UX.FileSource file, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error) [static] :58
+// public static Uno.IDisposable Load(Uno.UX.FileSource file, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error) [static]
 uObject* LoadingClosure::Load1(::g::Uno::UX::FileSource* file, uDelegate* loaded, uDelegate* error)
 {
     return (uObject*)LoadingClosure::New1(::g::Fuse::Controls::VideoImpl::VideoLoader::Load1(file), loaded, error);
 }
 
-// private LoadingClosure New(Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> loadedFuture, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error) [static] :69
+// private LoadingClosure New(Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> loadedFuture, Uno.Action<Fuse.Controls.VideoImpl.IVideoPlayer> loaded, Uno.Action<Uno.Exception> error) [static]
 LoadingClosure* LoadingClosure::New1(::g::Uno::Threading::Future1* loadedFuture, uDelegate* loaded, uDelegate* error)
 {
     LoadingClosure* obj1 = (LoadingClosure*)uNew(LoadingClosure_typeof());
@@ -777,10 +775,10 @@ LoadingClosure* LoadingClosure::New1(::g::Uno::Threading::Future1* loadedFuture,
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoVisual.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoVisual.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// private enum VideoVisual.PlaybackTarget :58
+// private enum VideoVisual.PlaybackTarget
 uEnumType* VideoVisual__PlaybackTarget_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -795,12 +793,12 @@ uEnumType* VideoVisual__PlaybackTarget_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoVisual.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoVisual.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class Scale9Rectangle :405
+// internal sealed class Scale9Rectangle
 // {
-// static generated Scale9Rectangle() :405
+// static generated Scale9Rectangle()
 static void Scale9Rectangle__cctor__fn(uType* __type)
 {
     Scale9Rectangle::Impl_ = Scale9Rectangle::New1();
@@ -814,11 +812,11 @@ static void Scale9Rectangle_build(uType* type)
     type->SetDependencies(
         ::g::FuseControlsVideo_bundle_typeof());
     type->SetFields(0,
-        ::g::Uno::Graphics::IndexBuffer_typeof(), offsetof(Scale9Rectangle, Draw_xv_e60caa7b_1_3_2), 0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Scale9Rectangle, Draw_xv_e60caa7b_1_3_3), 0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Scale9Rectangle, Draw_yv_e60caa7b_1_4_6), 0,
-        ::TYPES[9/*ushort[]*/], offsetof(Scale9Rectangle, Draw_indices_e60caa7b_1_2_12), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Scale9Rectangle, _draw_e60caa7b), 0,
+        ::g::Uno::Graphics::IndexBuffer_typeof(), offsetof(Scale9Rectangle, Draw_xv_4cdb7bf6_1_3_2), 0,
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Scale9Rectangle, Draw_xv_4cdb7bf6_1_3_3), 0,
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(Scale9Rectangle, Draw_yv_4cdb7bf6_1_4_6), 0,
+        ::TYPES[9/*ushort[]*/], offsetof(Scale9Rectangle, Draw_indices_4cdb7bf6_1_2_12), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(Scale9Rectangle, _draw_4cdb7bf6), 0,
         type, (uintptr_t)&Scale9Rectangle::Impl_, uFieldFlagsStatic);
 }
 
@@ -839,25 +837,25 @@ uType* Scale9Rectangle_typeof()
     return type;
 }
 
-// public generated Scale9Rectangle() :405
+// public generated Scale9Rectangle()
 void Scale9Rectangle__ctor__fn(Scale9Rectangle* __this)
 {
     __this->ctor_();
 }
 
-// public void Draw(Fuse.DrawContext dc, Fuse.Visual element, float2 size, float2 scaleTextureSize, Uno.Graphics.VideoTexture tex, float4 margin) :409
+// public void Draw(Fuse.DrawContext dc, Fuse.Visual element, float2 size, float2 scaleTextureSize, Uno.Graphics.VideoTexture tex, float4 margin)
 void Scale9Rectangle__Draw_fn(Scale9Rectangle* __this, ::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* element, ::g::Uno::Float2* size, ::g::Uno::Float2* scaleTextureSize, ::g::Uno::Graphics::VideoTexture* tex, ::g::Uno::Float4* margin)
 {
     __this->Draw(dc, element, *size, *scaleTextureSize, tex, *margin);
 }
 
-// private generated void init_DrawCalls() :405
+// private generated void init_DrawCalls()
 void Scale9Rectangle__init_DrawCalls_fn(Scale9Rectangle* __this)
 {
     __this->init_DrawCalls();
 }
 
-// public generated Scale9Rectangle New() :405
+// public generated Scale9Rectangle New()
 void Scale9Rectangle__New1_fn(Scale9Rectangle** __retval)
 {
     *__retval = Scale9Rectangle::New1();
@@ -865,53 +863,53 @@ void Scale9Rectangle__New1_fn(Scale9Rectangle** __retval)
 
 uSStrong<Scale9Rectangle*> Scale9Rectangle::Impl_;
 
-// public generated Scale9Rectangle() [instance] :405
+// public generated Scale9Rectangle() [instance]
 void Scale9Rectangle::ctor_()
 {
     init_DrawCalls();
 }
 
-// public void Draw(Fuse.DrawContext dc, Fuse.Visual element, float2 size, float2 scaleTextureSize, Uno.Graphics.VideoTexture tex, float4 margin) [instance] :409
+// public void Draw(Fuse.DrawContext dc, Fuse.Visual element, float2 size, float2 scaleTextureSize, Uno.Graphics.VideoTexture tex, float4 margin) [instance]
 void Scale9Rectangle::Draw(::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* element, ::g::Uno::Float2 size, ::g::Uno::Float2 scaleTextureSize, ::g::Uno::Graphics::VideoTexture* tex, ::g::Uno::Float4 margin)
 {
-    _draw_e60caa7b.BlendEnabled(true);
-    _draw_e60caa7b.DepthTestEnabled(false);
-    _draw_e60caa7b.CullFace(0);
-    _draw_e60caa7b.BlendSrcRgb(2);
-    _draw_e60caa7b.BlendDstRgb(3);
-    _draw_e60caa7b.BlendDstAlpha(3);
-    _draw_e60caa7b.Use();
-    _draw_e60caa7b.Attrib1(0, 3, Draw_xv_e60caa7b_1_3_3, 12, 0);
-    _draw_e60caa7b.Attrib1(1, 3, Draw_yv_e60caa7b_1_4_6, 12, 0);
-    _draw_e60caa7b.Uniform(2, margin.X);
-    _draw_e60caa7b.Uniform(3, size.X - margin.Z);
-    _draw_e60caa7b.Uniform(4, size.X);
-    _draw_e60caa7b.Uniform(5, margin.Y);
-    _draw_e60caa7b.Uniform(6, size.Y - margin.W);
-    _draw_e60caa7b.Uniform(7, size.Y);
-    _draw_e60caa7b.Uniform12(8, uPtr(element)->WorldTransform());
-    _draw_e60caa7b.Uniform12(9, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(uPtr(dc)->Viewport()), ::TYPES[8/*Fuse.IRenderViewport*/])));
-    _draw_e60caa7b.Uniform(10, scaleTextureSize.X - margin.Z);
-    _draw_e60caa7b.Uniform(11, scaleTextureSize.X);
-    _draw_e60caa7b.Uniform(12, scaleTextureSize.Y - margin.W);
-    _draw_e60caa7b.Uniform(13, scaleTextureSize.Y);
-    _draw_e60caa7b.Uniform2(14, scaleTextureSize);
-    _draw_e60caa7b.Sampler7(15, tex, ::g::Uno::Graphics::SamplerState__LinearClamp());
-    _draw_e60caa7b.Draw(uPtr(Draw_indices_e60caa7b_1_2_12)->Length(), 2, Draw_xv_e60caa7b_1_3_2);
+    _draw_4cdb7bf6.BlendEnabled(true);
+    _draw_4cdb7bf6.DepthTestEnabled(false);
+    _draw_4cdb7bf6.CullFace(0);
+    _draw_4cdb7bf6.BlendSrcRgb(2);
+    _draw_4cdb7bf6.BlendDstRgb(3);
+    _draw_4cdb7bf6.BlendDstAlpha(3);
+    _draw_4cdb7bf6.Use();
+    _draw_4cdb7bf6.Attrib1(0, 3, Draw_xv_4cdb7bf6_1_3_3, 12, 0);
+    _draw_4cdb7bf6.Attrib1(1, 3, Draw_yv_4cdb7bf6_1_4_6, 12, 0);
+    _draw_4cdb7bf6.Uniform(2, margin.X);
+    _draw_4cdb7bf6.Uniform(3, size.X - margin.Z);
+    _draw_4cdb7bf6.Uniform(4, size.X);
+    _draw_4cdb7bf6.Uniform(5, margin.Y);
+    _draw_4cdb7bf6.Uniform(6, size.Y - margin.W);
+    _draw_4cdb7bf6.Uniform(7, size.Y);
+    _draw_4cdb7bf6.Uniform12(8, uPtr(element)->WorldTransform());
+    _draw_4cdb7bf6.Uniform12(9, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(uPtr(dc)->Viewport()), ::TYPES[8/*Fuse.IRenderViewport*/])));
+    _draw_4cdb7bf6.Uniform(10, scaleTextureSize.X - margin.Z);
+    _draw_4cdb7bf6.Uniform(11, scaleTextureSize.X);
+    _draw_4cdb7bf6.Uniform(12, scaleTextureSize.Y - margin.W);
+    _draw_4cdb7bf6.Uniform(13, scaleTextureSize.Y);
+    _draw_4cdb7bf6.Uniform2(14, scaleTextureSize);
+    _draw_4cdb7bf6.Sampler7(15, tex, ::g::Uno::Graphics::SamplerState__LinearClamp());
+    _draw_4cdb7bf6.Draw(uPtr(Draw_indices_4cdb7bf6_1_2_12)->Length(), 2, Draw_xv_4cdb7bf6_1_3_2);
 }
 
-// private generated void init_DrawCalls() [instance] :405
+// private generated void init_DrawCalls() [instance]
 void Scale9Rectangle::init_DrawCalls()
 {
-    uArray* indices_e60caa7b_1_2_1 = uArray::Init<int32_t>(::TYPES[9/*ushort[]*/], 54, 0, 4, 5, 0, 5, 1, 1, 5, 6, 1, 6, 2, 2, 6, 7, 2, 7, 3, 4, 8, 9, 4, 9, 5, 5, 9, 10, 5, 10, 6, 6, 10, 11, 6, 11, 7, 8, 12, 13, 8, 13, 9, 9, 13, 14, 9, 14, 10, 10, 14, 15, 10, 15, 11);
-    Draw_xv_e60caa7b_1_3_2 = ::g::Uno::Graphics::IndexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer9(indices_e60caa7b_1_2_1))->GetBytes(), 0);
-    Draw_xv_e60caa7b_1_3_3 = ::g::Uno::Graphics::VertexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer4(uArray::Init< ::g::Uno::Float3>(::TYPES[10/*float3[]*/], 16, ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f))))->GetBytes(), 0);
-    Draw_yv_e60caa7b_1_4_6 = ::g::Uno::Graphics::VertexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer4(uArray::Init< ::g::Uno::Float3>(::TYPES[10/*float3[]*/], 16, ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f))))->GetBytes(), 0);
-    Draw_indices_e60caa7b_1_2_12 = indices_e60caa7b_1_2_1;
-    _draw_e60caa7b = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseControlsVideo_bundle::Scale9Rectangleda875692());
+    uArray* indices_4cdb7bf6_1_2_1 = uArray::Init<int32_t>(::TYPES[9/*ushort[]*/], 54, 0, 4, 5, 0, 5, 1, 1, 5, 6, 1, 6, 2, 2, 6, 7, 2, 7, 3, 4, 8, 9, 4, 9, 5, 5, 9, 10, 5, 10, 6, 6, 10, 11, 6, 11, 7, 8, 12, 13, 8, 13, 9, 9, 13, 14, 9, 14, 10, 10, 14, 15, 10, 15, 11);
+    Draw_xv_4cdb7bf6_1_3_2 = ::g::Uno::Graphics::IndexBuffer::New5(indices_4cdb7bf6_1_2_1, 0);
+    Draw_xv_4cdb7bf6_1_3_3 = ::g::Uno::Graphics::VertexBuffer::New4(uArray::Init< ::g::Uno::Float3>(::TYPES[10/*float3[]*/], 16, ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f)), 0);
+    Draw_yv_4cdb7bf6_1_4_6 = ::g::Uno::Graphics::VertexBuffer::New4(uArray::Init< ::g::Uno::Float3>(::TYPES[10/*float3[]*/], 16, ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(1.0f, 0.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 1.0f, 0.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f), ::g::Uno::Float3__New2(0.0f, 0.0f, 1.0f)), 0);
+    Draw_indices_4cdb7bf6_1_2_12 = indices_4cdb7bf6_1_2_1;
+    _draw_4cdb7bf6 = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseControlsVideo_bundle::Scale9Rectangle68b84ee5());
 }
 
-// public generated Scale9Rectangle New() [static] :405
+// public generated Scale9Rectangle New() [static]
 Scale9Rectangle* Scale9Rectangle::New1()
 {
     Scale9Rectangle* obj1 = (Scale9Rectangle*)uNew(Scale9Rectangle_typeof());
@@ -920,12 +918,12 @@ Scale9Rectangle* Scale9Rectangle::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoDiskCache.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoDiskCache.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static class VideoDiskCache :11
+// internal static class VideoDiskCache
 // {
-// static VideoDiskCache() :17
+// static VideoDiskCache()
 static void VideoDiskCache__cctor__fn(uType* __type)
 {
     ::g::Fuse::Platform::Lifecycle_typeof()->Init();
@@ -938,7 +936,7 @@ static void VideoDiskCache_build(uType* type)
     ::STRINGS[0] = uString::Const("/tempVideo");
     ::STRINGS[1] = uString::Const(".");
     ::STRINGS[2] = uString::Const("Deleting temporary file: ");
-    ::STRINGS[3] = uString::Const("/usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoDiskCache.uno");
+    ::STRINGS[3] = uString::Const("node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoDiskCache.uno");
     ::TYPES[11] = ::g::Uno::Collections::Dictionary_typeof()->MakeType(::g::Uno::String_typeof(), ::g::Uno::String_typeof(), NULL);
     ::TYPES[12] = ::g::Uno::Action1_typeof()->MakeType(::g::Fuse::Platform::ApplicationState_typeof(), NULL);
     ::TYPES[13] = ::g::Uno::Char_typeof()->Array();
@@ -968,19 +966,19 @@ uClassType* VideoDiskCache_typeof()
     return type;
 }
 
-// public static string GetFileExtension(string fileName) :48
+// public static string GetFileExtension(string fileName)
 void VideoDiskCache__GetFileExtension_fn(uString* fileName, uString** __retval)
 {
     *__retval = VideoDiskCache::GetFileExtension(fileName);
 }
 
-// public static string GetFilePath(Uno.UX.FileSource fileSource) :35
+// public static string GetFilePath(Uno.UX.FileSource fileSource)
 void VideoDiskCache__GetFilePath_fn(::g::Uno::UX::FileSource* fileSource, uString** __retval)
 {
     *__retval = VideoDiskCache::GetFilePath(fileSource);
 }
 
-// private static void OnTerminating(Fuse.Platform.ApplicationState newState) :22
+// private static void OnTerminating(Fuse.Platform.ApplicationState newState)
 void VideoDiskCache__OnTerminating_fn(int32_t* newState)
 {
     VideoDiskCache::OnTerminating(*newState);
@@ -989,7 +987,7 @@ void VideoDiskCache__OnTerminating_fn(int32_t* newState)
 int32_t VideoDiskCache::_fileCount_;
 uSStrong< ::g::Uno::Collections::Dictionary*> VideoDiskCache::_files_;
 
-// public static string GetFileExtension(string fileName) [static] :48
+// public static string GetFileExtension(string fileName) [static]
 uString* VideoDiskCache::GetFileExtension(uString* fileName)
 {
     VideoDiskCache_typeof()->Init();
@@ -997,7 +995,7 @@ uString* VideoDiskCache::GetFileExtension(uString* fileName)
     return uPtr(strings)->Strong<uString*>(uPtr(strings)->Length() - 1);
 }
 
-// public static string GetFilePath(Uno.UX.FileSource fileSource) [static] :35
+// public static string GetFilePath(Uno.UX.FileSource fileSource) [static]
 uString* VideoDiskCache::GetFilePath(::g::Uno::UX::FileSource* fileSource)
 {
     VideoDiskCache_typeof()->Init();
@@ -1016,7 +1014,7 @@ uString* VideoDiskCache::GetFilePath(::g::Uno::UX::FileSource* fileSource)
     return (::g::Uno::Collections::Dictionary__get_Item_fn(uPtr(VideoDiskCache::_files_), uPtr(fileSource)->Name, &ret3), ret3);
 }
 
-// private static void OnTerminating(Fuse.Platform.ApplicationState newState) [static] :22
+// private static void OnTerminating(Fuse.Platform.ApplicationState newState) [static]
 void VideoDiskCache::OnTerminating(int32_t newState)
 {
     VideoDiskCache_typeof()->Init();
@@ -1034,7 +1032,7 @@ void VideoDiskCache::OnTerminating(int32_t newState)
 
                     if (::g::Uno::IO::File::Exists(pair.Value(::TYPES[16/*Uno.Collections.KeyValuePair<string, string>*/])))
                     {
-                        ::g::Uno::Diagnostics::Debug::Log3(::g::Uno::String::op_Addition2(::STRINGS[2/*"Deleting te...*/], pair.Value(::TYPES[16/*Uno.Collections.KeyValuePair<string, string>*/])), 0, ::STRINGS[3/*"/usr/local/...*/], 29);
+                        ::g::Uno::Diagnostics::Debug::Log3(::g::Uno::String::op_Addition2(::STRINGS[2/*"Deleting te...*/], pair.Value(::TYPES[16/*Uno.Collections.KeyValuePair<string, string>*/])), 0, ::STRINGS[3/*"node_module...*/], 29);
                         ::g::Uno::IO::File::Delete(pair.Value(::TYPES[16/*Uno.Collections.KeyValuePair<string, string>*/]));
                     }
                 }
@@ -1058,12 +1056,12 @@ void VideoDiskCache::OnTerminating(int32_t newState)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoVisual.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoVisual.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class VideoDrawElement :361
+// internal sealed class VideoDrawElement
 // {
-// static VideoDrawElement() :367
+// static VideoDrawElement()
 static void VideoDrawElement__cctor__fn(uType* __type)
 {
     ::g::Uno::Math_typeof()->Init();
@@ -1088,10 +1086,10 @@ static void VideoDrawElement_build(uType* type)
     type->SetDependencies(
         ::g::FuseControlsVideo_bundle_typeof());
     type->SetFields(0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(VideoDrawElement, Draw_VertexData_46004d37_6_2_1), 0,
-        ::g::Uno::Float4x4_typeof(), offsetof(VideoDrawElement, Draw_LocalTransform_46004d37_3_9_2), 0,
-        ::g::Uno::Float4x4_typeof(), offsetof(VideoDrawElement, Draw_LocalTransform_46004d37_3_9_3), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(VideoDrawElement, _draw_46004d37), 0,
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(VideoDrawElement, Draw_VertexData_44e1596c_6_2_1), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(VideoDrawElement, Draw_LocalTransform_44e1596c_3_9_2), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(VideoDrawElement, Draw_LocalTransform_44e1596c_3_9_3), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(VideoDrawElement, _draw_44e1596c), 0,
         type, (uintptr_t)&VideoDrawElement::Impl_, uFieldFlagsStatic,
         ::TYPES[17/*float3x3[]*/], (uintptr_t)&VideoDrawElement::Transforms_, uFieldFlagsStatic);
 }
@@ -1113,25 +1111,25 @@ uType* VideoDrawElement_typeof()
     return type;
 }
 
-// public generated VideoDrawElement() :361
+// public generated VideoDrawElement()
 void VideoDrawElement__ctor__fn(VideoDrawElement* __this)
 {
     __this->ctor_();
 }
 
-// public void Draw(Fuse.DrawContext dc, Fuse.Visual element, float2 offset, float2 size, float2 uvPosition, float2 uvSize, Uno.Graphics.VideoTexture tex, int rotation) :381
+// public void Draw(Fuse.DrawContext dc, Fuse.Visual element, float2 offset, float2 size, float2 uvPosition, float2 uvSize, Uno.Graphics.VideoTexture tex, int rotation)
 void VideoDrawElement__Draw_fn(VideoDrawElement* __this, ::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* element, ::g::Uno::Float2* offset, ::g::Uno::Float2* size, ::g::Uno::Float2* uvPosition, ::g::Uno::Float2* uvSize, ::g::Uno::Graphics::VideoTexture* tex, int32_t* rotation)
 {
     __this->Draw(dc, element, *offset, *size, *uvPosition, *uvSize, tex, *rotation);
 }
 
-// private generated void init_DrawCalls() :361
+// private generated void init_DrawCalls()
 void VideoDrawElement__init_DrawCalls_fn(VideoDrawElement* __this)
 {
     __this->init_DrawCalls();
 }
 
-// public generated VideoDrawElement New() :361
+// public generated VideoDrawElement New()
 void VideoDrawElement__New1_fn(VideoDrawElement** __retval)
 {
     *__retval = VideoDrawElement::New1();
@@ -1140,44 +1138,44 @@ void VideoDrawElement__New1_fn(VideoDrawElement** __retval)
 uSStrong<VideoDrawElement*> VideoDrawElement::Impl_;
 uSStrong<uArray*> VideoDrawElement::Transforms_;
 
-// public generated VideoDrawElement() [instance] :361
+// public generated VideoDrawElement() [instance]
 void VideoDrawElement::ctor_()
 {
     init_DrawCalls();
 }
 
-// public void Draw(Fuse.DrawContext dc, Fuse.Visual element, float2 offset, float2 size, float2 uvPosition, float2 uvSize, Uno.Graphics.VideoTexture tex, int rotation) [instance] :381
+// public void Draw(Fuse.DrawContext dc, Fuse.Visual element, float2 offset, float2 size, float2 uvPosition, float2 uvSize, Uno.Graphics.VideoTexture tex, int rotation) [instance]
 void VideoDrawElement::Draw(::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* element, ::g::Uno::Float2 offset, ::g::Uno::Float2 size, ::g::Uno::Float2 uvPosition, ::g::Uno::Float2 uvSize, ::g::Uno::Graphics::VideoTexture* tex, int32_t rotation)
 {
     ::g::Uno::Float3x3 transform = uPtr(VideoDrawElement::Transforms_)->Item< ::g::Uno::Float3x3>(rotation);
-    ::g::Uno::Float4x4 LocalTransform_46004d37_3_9_4 = ::g::Uno::Matrix::Mul10(Draw_LocalTransform_46004d37_3_9_2, ::g::Uno::Matrix::Scaling1(size.X, size.Y, 1.0f), Draw_LocalTransform_46004d37_3_9_3, ::g::Uno::Matrix::Translation(offset.X, offset.Y, 0.0f));
-    _draw_46004d37.BlendEnabled(true);
-    _draw_46004d37.DepthTestEnabled(false);
-    _draw_46004d37.CullFace(uPtr(dc)->CullFace());
-    _draw_46004d37.BlendSrcRgb(2);
-    _draw_46004d37.BlendDstRgb(3);
-    _draw_46004d37.BlendDstAlpha(3);
-    _draw_46004d37.Use();
-    _draw_46004d37.Attrib1(0, 2, Draw_VertexData_46004d37_6_2_1, 8, 0);
-    _draw_46004d37.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[8/*Fuse.IRenderViewport*/])));
-    _draw_46004d37.Uniform2(2, uvSize);
-    _draw_46004d37.Uniform2(3, uvPosition);
-    _draw_46004d37.Uniform8(4, transform);
-    _draw_46004d37.Uniform12(5, (element != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_46004d37_3_9_4, uPtr(element)->WorldTransform()) : LocalTransform_46004d37_3_9_4);
-    _draw_46004d37.Sampler7(6, tex, ::g::Uno::Graphics::SamplerState__LinearClamp());
-    _draw_46004d37.DrawArrays(6);
+    ::g::Uno::Float4x4 LocalTransform_44e1596c_3_9_4 = ::g::Uno::Matrix::Mul10(Draw_LocalTransform_44e1596c_3_9_2, ::g::Uno::Matrix::Scaling1(size.X, size.Y, 1.0f), Draw_LocalTransform_44e1596c_3_9_3, ::g::Uno::Matrix::Translation(offset.X, offset.Y, 0.0f));
+    _draw_44e1596c.BlendEnabled(true);
+    _draw_44e1596c.DepthTestEnabled(false);
+    _draw_44e1596c.CullFace(uPtr(dc)->CullFace());
+    _draw_44e1596c.BlendSrcRgb(2);
+    _draw_44e1596c.BlendDstRgb(3);
+    _draw_44e1596c.BlendDstAlpha(3);
+    _draw_44e1596c.Use();
+    _draw_44e1596c.Attrib1(0, 2, Draw_VertexData_44e1596c_6_2_1, 8, 0);
+    _draw_44e1596c.Uniform12(1, ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(dc->Viewport()), ::TYPES[8/*Fuse.IRenderViewport*/])));
+    _draw_44e1596c.Uniform2(2, uvSize);
+    _draw_44e1596c.Uniform2(3, uvPosition);
+    _draw_44e1596c.Uniform8(4, transform);
+    _draw_44e1596c.Uniform12(5, (element != NULL) ? ::g::Uno::Matrix::Mul8(LocalTransform_44e1596c_3_9_4, uPtr(element)->WorldTransform()) : LocalTransform_44e1596c_3_9_4);
+    _draw_44e1596c.Sampler7(6, tex, ::g::Uno::Graphics::SamplerState__LinearClamp());
+    _draw_44e1596c.DrawArrays(6);
 }
 
-// private generated void init_DrawCalls() [instance] :361
+// private generated void init_DrawCalls() [instance]
 void VideoDrawElement::init_DrawCalls()
 {
-    Draw_VertexData_46004d37_6_2_1 = ::g::Uno::Graphics::VertexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer3(uArray::Init< ::g::Uno::Float2>(::TYPES[18/*float2[]*/], 6, ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(0.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 0.0f))))->GetBytes(), 0);
-    Draw_LocalTransform_46004d37_3_9_2 = ::g::Uno::Matrix::Translation(-::g::Uno::Float2__New1(0.0f).X, -::g::Uno::Float2__New1(0.0f).Y, 0.0f);
-    Draw_LocalTransform_46004d37_3_9_3 = ::g::Uno::Matrix::RotationZ(0.0f);
-    _draw_46004d37 = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseControlsVideo_bundle::VideoDrawElement5c829975());
+    Draw_VertexData_44e1596c_6_2_1 = ::g::Uno::Graphics::VertexBuffer::New3(uArray::Init< ::g::Uno::Float2>(::TYPES[18/*float2[]*/], 6, ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(0.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 0.0f)), 0);
+    Draw_LocalTransform_44e1596c_3_9_2 = ::g::Uno::Matrix::Translation(-::g::Uno::Float2__New1(0.0f).X, -::g::Uno::Float2__New1(0.0f).Y, 0.0f);
+    Draw_LocalTransform_44e1596c_3_9_3 = ::g::Uno::Matrix::RotationZ(0.0f);
+    _draw_44e1596c = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseControlsVideo_bundle::VideoDrawElement1290f672());
 }
 
-// public generated VideoDrawElement New() [static] :361
+// public generated VideoDrawElement New() [static]
 VideoDrawElement* VideoDrawElement::New1()
 {
     VideoDrawElement* obj1 = (VideoDrawElement*)uNew(VideoDrawElement_typeof());
@@ -1186,10 +1184,10 @@ VideoDrawElement* VideoDrawElement::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoLoader.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoLoader.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static class VideoLoader :12
+// internal static class VideoLoader
 // {
 static void VideoLoader_build(uType* type)
 {
@@ -1208,26 +1206,26 @@ uClassType* VideoLoader_typeof()
     return type;
 }
 
-// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(string url) :14
+// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(string url)
 void VideoLoader__Load_fn(uString* url, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = VideoLoader::Load(url);
 }
 
-// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(Uno.UX.FileSource file) :23
+// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(Uno.UX.FileSource file)
 void VideoLoader__Load1_fn(::g::Uno::UX::FileSource* file, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = VideoLoader::Load1(file);
 }
 
-// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(string url) [static] :14
+// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(string url) [static]
 ::g::Uno::Threading::Future1* VideoLoader::Load(uString* url)
 {
     return ::g::Fuse::Controls::VideoImpl::Android::VideoLoader::Load(url);
     U_THROW(::g::Uno::Exception::New2(::STRINGS[4/*"Video not s...*/]));
 }
 
-// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(Uno.UX.FileSource file) [static] :23
+// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(Uno.UX.FileSource file) [static]
 ::g::Uno::Threading::Future1* VideoLoader::Load1(::g::Uno::UX::FileSource* file)
 {
     return ::g::Fuse::Controls::VideoImpl::Android::VideoLoader::Load2(file);
@@ -1235,10 +1233,10 @@ void VideoLoader__Load1_fn(::g::Uno::UX::FileSource* file, ::g::Uno::Threading::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoVisual.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoVisual.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class VideoVisual :52
+// internal sealed extern class VideoVisual
 // {
 static void VideoVisual_build(uType* type)
 {
@@ -1355,13 +1353,13 @@ VideoVisual_type* VideoVisual_typeof()
     return type;
 }
 
-// public VideoVisual() :95
+// public VideoVisual()
 void VideoVisual__ctor_5_fn(VideoVisual* __this)
 {
     __this->ctor_5();
 }
 
-// protected override sealed void Attach() :68
+// protected override sealed void Attach()
 void VideoVisual__Attach_fn(VideoVisual* __this)
 {
     ::g::Fuse::Controls::Video* ret5;
@@ -1378,7 +1376,7 @@ void VideoVisual__Attach_fn(VideoVisual* __this)
     __this->OnSourceChanged(NULL, NULL);
 }
 
-// protected override sealed void Detach() :82
+// protected override sealed void Detach()
 void VideoVisual__Detach_fn(VideoVisual* __this)
 {
     ::g::Fuse::Controls::Video* ret9;
@@ -1393,7 +1391,7 @@ void VideoVisual__Detach_fn(VideoVisual* __this)
     ::g::Fuse::UpdateManager::RemoveAction1(uDelegate::New(::g::Uno::Action_typeof(), (void*)VideoVisual__OnUpdate_fn, __this), 0);
 }
 
-// public override sealed void Draw(Fuse.DrawContext dc) :328
+// public override sealed void Draw(Fuse.DrawContext dc)
 void VideoVisual__Draw_fn(VideoVisual* __this, ::g::Fuse::DrawContext* dc)
 {
     ::g::Uno::Float4 ind1;
@@ -1408,7 +1406,7 @@ void VideoVisual__Draw_fn(VideoVisual* __this, ::g::Fuse::DrawContext* dc)
 
     if (uPtr((::g::Fuse::Controls::Graphics::ControlVisual__get_Control_fn(__this, &ret13), ret13))->StretchMode() == 4)
     {
-        ::g::Fuse::Diagnostics::Deprecated(uString::Const("StretchMode.Scale9 is deprecated for video-visual"), __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoVisual.uno"), 336, uString::Const("Draw"));
+        ::g::Fuse::Diagnostics::Deprecated(uString::Const("StretchMode.Scale9 is deprecated for video-visual"), __this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoVisual.uno"), 336, uString::Const("Draw"));
         uPtr(::g::Fuse::Controls::VideoImpl::Scale9Rectangle::Impl())->Draw(dc, __this, __this->ActualSize(), __this->GetSize(), texture, uPtr((::g::Fuse::Controls::Graphics::ControlVisual__get_Control_fn(__this, &ret14), ret14))->Scale9Margin());
     }
     else
@@ -1418,7 +1416,7 @@ void VideoVisual__Draw_fn(VideoVisual* __this, ::g::Fuse::DrawContext* dc)
     }
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoCallbacks.OnCompleted() :152
+// private void Fuse.Controls.VideoImpl.IVideoCallbacks.OnCompleted()
 void VideoVisual__FuseControlsVideoImplIVideoCallbacksOnCompleted_fn(VideoVisual* __this)
 {
     ::g::Fuse::Controls::Video* ret15;
@@ -1426,16 +1424,16 @@ void VideoVisual__FuseControlsVideoImplIVideoCallbacksOnCompleted_fn(VideoVisual
     ::g::Fuse::Triggers::WhileCompleted::SetState((::g::Fuse::Controls::Graphics::ControlVisual__get_Control_fn(__this, &ret15), ret15), true);
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoCallbacks.OnError(Uno.Exception e) :112
+// private void Fuse.Controls.VideoImpl.IVideoCallbacks.OnError(Uno.Exception e)
 void VideoVisual__FuseControlsVideoImplIVideoCallbacksOnError_fn(VideoVisual* __this, ::g::Uno::Exception* e)
 {
     ::g::Fuse::Controls::Video* ret16;
     __this->ResetTriggers();
     ::g::Fuse::Triggers::BusyTask::SetBusy((::g::Fuse::Controls::Graphics::ControlVisual__get_Control_fn(__this, &ret16), ret16), &__this->_busyTask, 16, uPtr(e)->Message());
-    ::g::Fuse::Diagnostics::UnknownException(uString::Const("Video error"), e, __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoVisual.uno"), 116, uString::Const("Fuse.Controls.VideoImpl.IVideoCallbacks.OnError"));
+    ::g::Fuse::Diagnostics::UnknownException(uString::Const("Video error"), e, __this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoVisual.uno"), 116, uString::Const("Fuse.Controls.VideoImpl.IVideoCallbacks.OnError"));
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoCallbacks.OnFrameAvailable() :102
+// private void Fuse.Controls.VideoImpl.IVideoCallbacks.OnFrameAvailable()
 void VideoVisual__FuseControlsVideoImplIVideoCallbacksOnFrameAvailable_fn(VideoVisual* __this)
 {
     if (::g::Uno::Int2__op_Inequality(::g::Fuse::Controls::VideoImpl::IVideoService::Size(uInterface(uPtr(__this->_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof())), __this->_sizeCache))
@@ -1447,7 +1445,7 @@ void VideoVisual__FuseControlsVideoImplIVideoCallbacksOnFrameAvailable_fn(VideoV
     __this->InvalidateVisual();
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoCallbacks.OnLoading() :120
+// private void Fuse.Controls.VideoImpl.IVideoCallbacks.OnLoading()
 void VideoVisual__FuseControlsVideoImplIVideoCallbacksOnLoading_fn(VideoVisual* __this)
 {
     ::g::Fuse::Controls::Video* ret17;
@@ -1455,7 +1453,7 @@ void VideoVisual__FuseControlsVideoImplIVideoCallbacksOnLoading_fn(VideoVisual* 
     ::g::Fuse::Triggers::BusyTask::SetBusy((::g::Fuse::Controls::Graphics::ControlVisual__get_Control_fn(__this, &ret17), ret17), &__this->_busyTask, 1, uString::Const(""));
 }
 
-// private void Fuse.Controls.VideoImpl.IVideoCallbacks.OnReady() :126
+// private void Fuse.Controls.VideoImpl.IVideoCallbacks.OnReady()
 void VideoVisual__FuseControlsVideoImplIVideoCallbacksOnReady_fn(VideoVisual* __this)
 {
     ::g::Fuse::Controls::Video* ret18;
@@ -1487,26 +1485,26 @@ void VideoVisual__FuseControlsVideoImplIVideoCallbacksOnReady_fn(VideoVisual* __
     __this->_playbackTarget = 0;
 }
 
-// private double Fuse.Triggers.IMediaPlayback.get_Duration() :173
+// private double Fuse.Triggers.IMediaPlayback.get_Duration()
 void VideoVisual__FuseTriggersIMediaPlaybackget_Duration_fn(VideoVisual* __this, double* __retval)
 {
     return *__retval = ::g::Fuse::Controls::VideoImpl::IVideoService::Duration(uInterface(uPtr(__this->_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof())), void();
 }
 
-// private double Fuse.Triggers.IMediaPlayback.get_Position() :167
+// private double Fuse.Triggers.IMediaPlayback.get_Position()
 void VideoVisual__FuseTriggersIMediaPlaybackget_Position_fn(VideoVisual* __this, double* __retval)
 {
     return *__retval = ::g::Fuse::Controls::VideoImpl::IVideoService::Position(uInterface(uPtr(__this->_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof())), void();
 }
 
-// private void Fuse.Triggers.IMediaPlayback.set_Position(double value) :168
+// private void Fuse.Triggers.IMediaPlayback.set_Position(double value)
 void VideoVisual__FuseTriggersIMediaPlaybackset_Position_fn(VideoVisual* __this, double* value)
 {
     double value_ = *value;
     ::g::Fuse::Controls::VideoImpl::IVideoService::Position(uInterface(uPtr(__this->_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof()), value_);
 }
 
-// private void Fuse.Triggers.IPlayback.Pause() :192
+// private void Fuse.Triggers.IPlayback.Pause()
 void VideoVisual__FuseTriggersIPlaybackPause_fn(VideoVisual* __this)
 {
     ::g::Fuse::Controls::Video* ret20;
@@ -1520,26 +1518,26 @@ void VideoVisual__FuseTriggersIPlaybackPause_fn(VideoVisual* __this)
     }
 }
 
-// private void Fuse.Triggers.IPlayback.PlayTo(double progress) :184
+// private void Fuse.Triggers.IPlayback.PlayTo(double progress)
 void VideoVisual__FuseTriggersIPlaybackPlayTo_fn(VideoVisual* __this, double* progress)
 {
-    ::g::Fuse::Diagnostics::Unsupported(uString::Const("IPlayback.PlayTo(double) not supported in Fuse.Controls.Video"), __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/VideoVisual.uno"), 186, uString::Const("Fuse.Triggers.IPlayback.PlayTo"));
+    ::g::Fuse::Diagnostics::Unsupported(uString::Const("IPlayback.PlayTo(double) not supported in Fuse.Controls.Video"), __this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/VideoVisual.uno"), 186, uString::Const("Fuse.Triggers.IPlayback.PlayTo"));
 }
 
-// private double Fuse.Triggers.IPlayback.get_Progress() :221
+// private double Fuse.Triggers.IPlayback.get_Progress()
 void VideoVisual__FuseTriggersIPlaybackget_Progress_fn(VideoVisual* __this, double* __retval)
 {
     return *__retval = (::g::Fuse::Controls::VideoImpl::IVideoService::Duration(uInterface(uPtr(__this->_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof())) > 1e-05) ? ::g::Fuse::Controls::VideoImpl::IVideoService::Position(uInterface(uPtr(__this->_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof())) / ::g::Fuse::Controls::VideoImpl::IVideoService::Duration(uInterface(uPtr(__this->_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof())) : 0.0, void();
 }
 
-// private void Fuse.Triggers.IPlayback.set_Progress(double value) :222
+// private void Fuse.Triggers.IPlayback.set_Progress(double value)
 void VideoVisual__FuseTriggersIPlaybackset_Progress_fn(VideoVisual* __this, double* value)
 {
     double value_ = *value;
     ::g::Fuse::Controls::VideoImpl::IVideoService::Position(uInterface(uPtr(__this->_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof()), ::g::Fuse::Controls::VideoImpl::IVideoService::Duration(uInterface(uPtr(__this->_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof())) * value_);
 }
 
-// private void Fuse.Triggers.IPlayback.Resume() :203
+// private void Fuse.Triggers.IPlayback.Resume()
 void VideoVisual__FuseTriggersIPlaybackResume_fn(VideoVisual* __this)
 {
     ::g::Fuse::Controls::Video* ret21;
@@ -1553,7 +1551,7 @@ void VideoVisual__FuseTriggersIPlaybackResume_fn(VideoVisual* __this)
     }
 }
 
-// private void Fuse.Triggers.IPlayback.Stop() :176
+// private void Fuse.Triggers.IPlayback.Stop()
 void VideoVisual__FuseTriggersIPlaybackStop_fn(VideoVisual* __this)
 {
     __this->_playbackTarget = 3;
@@ -1561,25 +1559,25 @@ void VideoVisual__FuseTriggersIPlaybackStop_fn(VideoVisual* __this)
     ::g::Fuse::Triggers::IMediaPlayback::Position(uInterface((uObject*)__this, ::g::Fuse::Triggers::IMediaPlayback_typeof()), 0.0);
 }
 
-// private double Fuse.Triggers.IProgress.get_Progress() :216
+// private double Fuse.Triggers.IProgress.get_Progress()
 void VideoVisual__FuseTriggersIProgressget_Progress_fn(VideoVisual* __this, double* __retval)
 {
     return *__retval = (::g::Fuse::Controls::VideoImpl::IVideoService::Duration(uInterface(uPtr(__this->_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof())) > 1e-05) ? ::g::Fuse::Controls::VideoImpl::IVideoService::Position(uInterface(uPtr(__this->_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof())) / ::g::Fuse::Controls::VideoImpl::IVideoService::Duration(uInterface(uPtr(__this->_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof())) : 0.0, void();
 }
 
-// private void Fuse.Triggers.IProgress.add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) :231
+// private void Fuse.Triggers.IProgress.add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value)
 void VideoVisual__FuseTriggersIProgressadd_ProgressChanged_fn(VideoVisual* __this, uDelegate* value)
 {
     __this->add_ProgressChanged(value);
 }
 
-// private void Fuse.Triggers.IProgress.remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) :232
+// private void Fuse.Triggers.IProgress.remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value)
 void VideoVisual__FuseTriggersIProgressremove_ProgressChanged_fn(VideoVisual* __this, uDelegate* value)
 {
     __this->remove_ProgressChanged(value);
 }
 
-// public override sealed float2 GetMarginSize(Fuse.LayoutParams lp) :291
+// public override sealed float2 GetMarginSize(Fuse.LayoutParams lp)
 void VideoVisual__GetMarginSize_fn(VideoVisual* __this, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     ::g::Fuse::Controls::Video* ret22;
@@ -1590,19 +1588,19 @@ void VideoVisual__GetMarginSize_fn(VideoVisual* __this, ::g::Fuse::LayoutParams*
     return *__retval = uPtr(__this->_sizing)->ExpandFillSize(__this->GetSize(), lp_), void();
 }
 
-// private float2 GetSize() :299
+// private float2 GetSize()
 void VideoVisual__GetSize_fn(VideoVisual* __this, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->GetSize();
 }
 
-// public VideoVisual New() :95
+// public VideoVisual New()
 void VideoVisual__New2_fn(VideoVisual** __retval)
 {
     *__retval = VideoVisual::New2();
 }
 
-// protected override sealed float2 OnArrangeMarginBox(float2 position, Fuse.LayoutParams lp) :309
+// protected override sealed float2 OnArrangeMarginBox(float2 position, Fuse.LayoutParams lp)
 void VideoVisual__OnArrangeMarginBox_fn(VideoVisual* __this, ::g::Uno::Float2* position, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     ::g::Uno::Float2 ret24;
@@ -1622,7 +1620,7 @@ void VideoVisual__OnArrangeMarginBox_fn(VideoVisual* __this, ::g::Uno::Float2* p
     return *__retval = size, void();
 }
 
-// protected override sealed void OnHitTest(Fuse.HitTestContext htc) :348
+// protected override sealed void OnHitTest(Fuse.HitTestContext htc)
 void VideoVisual__OnHitTest_fn(VideoVisual* __this, ::g::Fuse::HitTestContext* htc)
 {
     ::g::Uno::Float2 lp = uPtr(htc)->LocalPoint();
@@ -1633,55 +1631,55 @@ void VideoVisual__OnHitTest_fn(VideoVisual* __this, ::g::Fuse::HitTestContext* h
     ::g::Fuse::Visual__OnHitTest_fn(__this, htc);
 }
 
-// private void OnParamChanged(object sender, Uno.EventArgs args) :261
+// private void OnParamChanged(object sender, Uno.EventArgs args)
 void VideoVisual__OnParamChanged_fn(VideoVisual* __this, uObject* sender, ::g::Uno::EventArgs* args)
 {
     __this->OnParamChanged(sender, args);
 }
 
-// private void OnProgressChanged() :236
+// private void OnProgressChanged()
 void VideoVisual__OnProgressChanged_fn(VideoVisual* __this)
 {
     __this->OnProgressChanged();
 }
 
-// private void OnRenderParamChanged(object sender, Uno.EventArgs args) :252
+// private void OnRenderParamChanged(object sender, Uno.EventArgs args)
 void VideoVisual__OnRenderParamChanged_fn(VideoVisual* __this, uObject* sender, ::g::Uno::EventArgs* args)
 {
     __this->OnRenderParamChanged(sender, args);
 }
 
-// private void OnSourceChanged(object sender, Uno.EventArgs args) :268
+// private void OnSourceChanged(object sender, Uno.EventArgs args)
 void VideoVisual__OnSourceChanged_fn(VideoVisual* __this, uObject* sender, ::g::Uno::EventArgs* args)
 {
     __this->OnSourceChanged(sender, args);
 }
 
-// private void OnUpdate() :245
+// private void OnUpdate()
 void VideoVisual__OnUpdate_fn(VideoVisual* __this)
 {
     __this->OnUpdate();
 }
 
-// private generated void add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) :235
+// private generated void add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value)
 void VideoVisual__add_ProgressChanged_fn(VideoVisual* __this, uDelegate* value)
 {
     __this->add_ProgressChanged(value);
 }
 
-// private generated void remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) :235
+// private generated void remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value)
 void VideoVisual__remove_ProgressChanged_fn(VideoVisual* __this, uDelegate* value)
 {
     __this->remove_ProgressChanged(value);
 }
 
-// private void ResetTriggers() :283
+// private void ResetTriggers()
 void VideoVisual__ResetTriggers_fn(VideoVisual* __this)
 {
     __this->ResetTriggers();
 }
 
-// public VideoVisual() [instance] :95
+// public VideoVisual() [instance]
 void VideoVisual::ctor_5()
 {
     _sizeCache = ::g::Uno::Int2__New2(0, 0);
@@ -1691,13 +1689,13 @@ void VideoVisual::ctor_5()
     _videoService = (uObject*)::g::Fuse::Controls::VideoImpl::GraphicsVideoService::New1((uObject*)this);
 }
 
-// private float2 GetSize() [instance] :299
+// private float2 GetSize() [instance]
 ::g::Uno::Float2 VideoVisual::GetSize()
 {
-    return ::g::Uno::Float2__op_Implicit2(::g::Fuse::Controls::VideoImpl::IVideoService::Size(uInterface(uPtr(_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof())));
+    return ::g::Uno::Float2__op_Implicit1(::g::Fuse::Controls::VideoImpl::IVideoService::Size(uInterface(uPtr(_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof())));
 }
 
-// private void OnParamChanged(object sender, Uno.EventArgs args) [instance] :261
+// private void OnParamChanged(object sender, Uno.EventArgs args) [instance]
 void VideoVisual::OnParamChanged(uObject* sender, ::g::Uno::EventArgs* args)
 {
     ::g::Fuse::Controls::Video* ret27;
@@ -1708,7 +1706,7 @@ void VideoVisual::OnParamChanged(uObject* sender, ::g::Uno::EventArgs* args)
     ::g::Fuse::Controls::VideoImpl::IVideoService::Volume(uInterface(uPtr(_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof()), uPtr((::g::Fuse::Controls::Graphics::ControlVisual__get_Control_fn(this, &ret29), ret29))->Volume());
 }
 
-// private void OnProgressChanged() [instance] :236
+// private void OnProgressChanged() [instance]
 void VideoVisual::OnProgressChanged()
 {
     ::g::Uno::UX::ValueChangedArgs* ret30;
@@ -1720,7 +1718,7 @@ void VideoVisual::OnProgressChanged()
     }
 }
 
-// private void OnRenderParamChanged(object sender, Uno.EventArgs args) [instance] :252
+// private void OnRenderParamChanged(object sender, Uno.EventArgs args) [instance]
 void VideoVisual::OnRenderParamChanged(uObject* sender, ::g::Uno::EventArgs* args)
 {
     ::g::Fuse::Controls::Video* ret31;
@@ -1734,7 +1732,7 @@ void VideoVisual::OnRenderParamChanged(uObject* sender, ::g::Uno::EventArgs* arg
     InvalidateVisual();
 }
 
-// private void OnSourceChanged(object sender, Uno.EventArgs args) [instance] :268
+// private void OnSourceChanged(object sender, Uno.EventArgs args) [instance]
 void VideoVisual::OnSourceChanged(uObject* sender, ::g::Uno::EventArgs* args)
 {
     ::g::Fuse::Controls::Video* ret35;
@@ -1755,7 +1753,7 @@ void VideoVisual::OnSourceChanged(uObject* sender, ::g::Uno::EventArgs* args)
     }
 }
 
-// private void OnUpdate() [instance] :245
+// private void OnUpdate() [instance]
 void VideoVisual::OnUpdate()
 {
     ::g::Fuse::Controls::VideoImpl::IVideoService::Update(uInterface(uPtr(_videoService), ::g::Fuse::Controls::VideoImpl::IVideoService_typeof()));
@@ -1764,19 +1762,19 @@ void VideoVisual::OnUpdate()
         OnProgressChanged();
 }
 
-// private generated void add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) [instance] :235
+// private generated void add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) [instance]
 void VideoVisual::add_ProgressChanged(uDelegate* value)
 {
     ProgressChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(ProgressChanged1, value), ::g::Uno::UX::ValueChangedHandler_typeof()->MakeType(::g::Uno::Double_typeof(), NULL));
 }
 
-// private generated void remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) [instance] :235
+// private generated void remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) [instance]
 void VideoVisual::remove_ProgressChanged(uDelegate* value)
 {
     ProgressChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(ProgressChanged1, value), ::g::Uno::UX::ValueChangedHandler_typeof()->MakeType(::g::Uno::Double_typeof(), NULL));
 }
 
-// private void ResetTriggers() [instance] :283
+// private void ResetTriggers() [instance]
 void VideoVisual::ResetTriggers()
 {
     ::g::Fuse::Controls::Video* ret39;
@@ -1789,7 +1787,7 @@ void VideoVisual::ResetTriggers()
     ::g::Fuse::Triggers::WhilePaused::SetState((::g::Fuse::Controls::Graphics::ControlVisual__get_Control_fn(this, &ret42), ret42), false);
 }
 
-// public VideoVisual New() [static] :95
+// public VideoVisual New() [static]
 VideoVisual* VideoVisual::New2()
 {
     VideoVisual* obj4 = (VideoVisual*)uNew(VideoVisual_typeof());

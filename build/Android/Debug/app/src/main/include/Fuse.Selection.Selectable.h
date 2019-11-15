@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selectable.ScriptClass.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Selection/1.12.0/Selectable.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -19,7 +19,7 @@ namespace g{
 namespace Fuse{
 namespace Selection{
 
-// public partial sealed class Selectable :9
+// public partial sealed class Selectable
 // {
 ::g::Fuse::Node_type* Selectable_typeof();
 void Selectable__add_fn(Selectable* s);

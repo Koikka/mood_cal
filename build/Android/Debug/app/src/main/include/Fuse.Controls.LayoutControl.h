@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/LayoutControl.Canvas.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/LayoutControl.Canvas.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -14,7 +14,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -32,7 +32,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public partial class LayoutControl :62
+// public partial class LayoutControl
 // {
 ::g::Fuse::Controls::Control_type* LayoutControl_typeof();
 void LayoutControl__ctor_5_fn(LayoutControl* __this);

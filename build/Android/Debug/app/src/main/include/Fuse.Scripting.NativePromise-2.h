@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting/1.9.0/NativePromise.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting/1.12.0/NativePromise.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Scripting{
 
-// public sealed class NativePromise<T, TJSResult> :40
+// public sealed class NativePromise<T, TJSResult>
 // {
 ::g::Fuse::Scripting::NativeMember_type* NativePromise_typeof();
 void NativePromise__ctor_1_fn(NativePromise* __this, uString* name, uDelegate* futureFactory, uDelegate* resultConverter);

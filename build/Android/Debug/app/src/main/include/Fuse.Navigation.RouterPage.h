@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterPage.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterPage.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// internal sealed class RouterPage :22
+// internal sealed class RouterPage
 // {
 uType* RouterPage_typeof();
 void RouterPage__ctor__fn(RouterPage* __this, uString* path, uString* parameter, uObject* context);

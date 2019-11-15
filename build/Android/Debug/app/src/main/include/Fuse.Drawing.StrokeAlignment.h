@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Stroke.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Stroke.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Drawing{
 
-// public enum StrokeAlignment :14
+// public enum StrokeAlignment
 uEnumType* StrokeAlignment_typeof();
 
 }}} // ::g::Fuse::Drawing

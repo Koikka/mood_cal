@@ -4,30 +4,30 @@
 #include <Android.ActivityUtils.h>
 #include <Android.Base.JNI.h>
 #include <Android.Base.JNI.RefType.h>
-#include <Android.Base.Primitiv-2b9696be.h>
-#include <Android.Base.Primitiv-45253430.h>
-#include <Android.Base.Primitiv-ae5fb0f1.h>
-#include <Android.Base.Primitiv-b7b09a.h>
-#include <Android.Base.Primitiv-e437692f.h>
+#include <Android.Base.Primitiv-22a842e.h>
+#include <Android.Base.Primitiv-2f94ad06.h>
+#include <Android.Base.Primitiv-a9a90c2a.h>
+#include <Android.Base.Primitiv-eed27b63.h>
+#include <Android.Base.Primitiv-efc9ca76.h>
 #include <Android.Base.Types.String.h>
 #include <Android.Base.Wrappers.JWrapper.h>
-#include <Android.Base.Wrappers-88f7a41f.h>
-#include <Firebase.Database.Dat-778af4d4.h>
-#include <Firebase.Database.Rea-b0f7610f.h>
+#include <Android.Base.Wrappers-4c0b8613.h>
+#include <Firebase.Database.Dat-63bf7451.h>
+#include <Firebase.Database.Rea-6a7e306c.h>
 #include <Firebase.Database.Read.h>
-#include <Firebase.Notification-e042be8e.h>
+#include <Firebase.Notification-d71b06d0.h>
 #include <Fuse.Android.AppRoot.h>
 #include <Fuse.Android.StatusBarConfig.h>
-#include <Fuse.Controls.Native.-3a814c3c.h>
-#include <Fuse.Controls.Native.-43e7fbf.h>
-#include <Fuse.Controls.Native.-51b6e8e5.h>
-#include <Fuse.Controls.Native.-c67cabe.h>
-#include <Fuse.Controls.Native.-ca2427b3.h>
-#include <Fuse.Controls.Native.-dd7dd49d.h>
-#include <Fuse.Controls.Native.-e502cdf1.h>
-#include <Fuse.Controls.Native.-f43d469d.h>
-#include <Fuse.Controls.VideoIm-78c612f4.h>
-#include <Fuse.Internal.Android-336f3d43.h>
+#include <Fuse.Controls.Native.-15292773.h>
+#include <Fuse.Controls.Native.-3448df41.h>
+#include <Fuse.Controls.Native.-3f798d5e.h>
+#include <Fuse.Controls.Native.-5a94fe05.h>
+#include <Fuse.Controls.Native.-5b245eeb.h>
+#include <Fuse.Controls.Native.-c75d08c0.h>
+#include <Fuse.Controls.Native.-dbc19b4a.h>
+#include <Fuse.Controls.Native.-dc7eb731.h>
+#include <Fuse.Controls.VideoIm-93dd870a.h>
+#include <Fuse.Internal.Android-1c9a2e2b.h>
 #include <Fuse.Platform.SystemUI.h>
 #include <Java.Object.h>
 #include <jni.h>
@@ -40,9 +40,9 @@
 #include <Uno.Byte.h>
 #include <Uno.Char.h>
 #include <Uno.Collections.List-1.h>
-#include <Uno.Compiler.ExportTa-39be7c2b.h>
-#include <Uno.Compiler.ExportTa-7a61a803.h>
-#include <Uno.Compiler.ExportTa-d4b8b207.h>
+#include <Uno.Compiler.ExportTa-1cc9f030.h>
+#include <Uno.Compiler.ExportTa-2429dd1f.h>
+#include <Uno.Compiler.ExportTa-58905047.h>
 #include <Uno.Double.h>
 #include <Uno.Exception.h>
 #include <Uno.Float.h>
@@ -660,7 +660,7 @@ jlong JNICALL callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUno
     JCATCH
     return __jresult;
 }
-jobject JNICALL callUno_Firebase_Database_DatabaseService__handleGet435(JNIEnv *env,jclass clazz)
+jobject JNICALL callUno_Firebase_Database_DatabaseService__handleGet445(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -671,7 +671,7 @@ jobject JNICALL callUno_Firebase_Database_DatabaseService__handleGet435(JNIEnv *
     JCATCH
     return __jresult;
 }
-jobject JNICALL callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(JNIEnv *env,jclass clazz,jobject jthis)
+jobject JNICALL callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -727,7 +727,7 @@ jobject JNICALL callUno_Fuse_Platform_SystemUI_SuperLayoutGet83(JNIEnv *env,jcla
     JCATCH
     return __jresult;
 }
-jobject JNICALL callUno_Neovisionaries_WebSocketClient__webSocketGet428(JNIEnv *env,jclass clazz,jobject jthis)
+jobject JNICALL callUno_Neovisionaries_WebSocketClient__webSocketGet438(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -937,7 +937,7 @@ jobject JNICALL callUno_Uno_Guid__ctor68(JNIEnv *env,jclass clazz,jobject bytes)
     JCATCH
     return __jresult;
 }
-jobject JNICALL callUno_Uno_IO_BundleFile_BundlePathGet360(JNIEnv *env,jclass clazz,jobject jthis)
+jobject JNICALL callUno_Uno_IO_BundleFile_BundlePathGet363(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1049,7 +1049,7 @@ void JNICALL callUno_Action_String_String(JNIEnv *env,jclass clazz,jobject theDe
         uno_theDelegate->Invoke(2, uCast<uString*>(uno_arg1, ::g::Uno::String_typeof()), uCast<uString*>(uno_arg2, ::g::Uno::String_typeof()));
     JCATCH
 }
-void JNICALL callUno_Firebase_Database_DatabaseService__handleSet435(JNIEnv *env,jclass clazz,jobject setVal,jlong setValPtr)
+void JNICALL callUno_Firebase_Database_DatabaseService__handleSet445(JNIEnv *env,jclass clazz,jobject setVal,jlong setValPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1058,7 +1058,7 @@ void JNICALL callUno_Firebase_Database_DatabaseService__handleSet435(JNIEnv *env
         ::g::Firebase::Database::DatabaseService::_handle_ = uCast<::g::Java::Object*>(uno_setVal, ::g::Java::Object_typeof());
     JCATCH
 }
-void JNICALL callUno_Firebase_Database_Read_Reject1453(JNIEnv *env,jclass clazz,jobject jthis,jobject reason)
+void JNICALL callUno_Firebase_Database_Read_Reject1463(JNIEnv *env,jclass clazz,jobject jthis,jobject reason)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1068,7 +1068,7 @@ void JNICALL callUno_Firebase_Database_Read_Reject1453(JNIEnv *env,jclass clazz,
         uno_jthis->Reject1(uCast<uString*>(uno_reason, ::g::Uno::String_typeof()));
     JCATCH
 }
-void JNICALL callUno_Firebase_Database_ReadByQueryEqualToValue_Reject1455(JNIEnv *env,jclass clazz,jobject jthis,jobject reason)
+void JNICALL callUno_Firebase_Database_ReadByQueryEqualToValue_Reject1465(JNIEnv *env,jclass clazz,jobject jthis,jobject reason)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1078,7 +1078,7 @@ void JNICALL callUno_Firebase_Database_ReadByQueryEqualToValue_Reject1455(JNIEnv
         uno_jthis->Reject1(uCast<uString*>(uno_reason, ::g::Uno::String_typeof()));
     JCATCH
 }
-void JNICALL callUno_Firebase_Notifications_AndroidImpl_getRegistrationIdSuccess458(JNIEnv *env,jclass clazz,jobject regid)
+void JNICALL callUno_Firebase_Notifications_AndroidImpl_getRegistrationIdSuccess468(JNIEnv *env,jclass clazz,jobject regid)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1087,7 +1087,7 @@ void JNICALL callUno_Firebase_Notifications_AndroidImpl_getRegistrationIdSuccess
         ::g::Firebase::Notifications::AndroidImpl::getRegistrationIdSuccess(uCast<uString*>(uno_regid, ::g::Uno::String_typeof()));
     JCATCH
 }
-void JNICALL callUno_Firebase_Notifications_AndroidImpl_OnRecieve457(JNIEnv *env,jclass clazz,jobject message,jboolean fromNotificationBar)
+void JNICALL callUno_Firebase_Notifications_AndroidImpl_OnRecieve467(JNIEnv *env,jclass clazz,jobject message,jboolean fromNotificationBar)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1097,7 +1097,7 @@ void JNICALL callUno_Firebase_Notifications_AndroidImpl_OnRecieve457(JNIEnv *env
         ::g::Firebase::Notifications::AndroidImpl::OnRecieve(uCast<uString*>(uno_message, ::g::Uno::String_typeof()), uno_fromNotificationBar);
     JCATCH
 }
-void JNICALL callUno_Fuse_Android_AppRoot_OnTouchEvent__378(JNIEnv *env,jclass clazz,jobject motionEvent,jlong motionEventPtr)
+void JNICALL callUno_Fuse_Android_AppRoot_OnTouchEvent__381(JNIEnv *env,jclass clazz,jobject motionEvent,jlong motionEventPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1106,7 +1106,7 @@ void JNICALL callUno_Fuse_Android_AppRoot_OnTouchEvent__378(JNIEnv *env,jclass c
         ::g::Fuse::Android::AppRoot::OnTouchEvent__(uCast<::g::Java::Object*>(uno_motionEvent, ::g::Java::Object_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar400(JNIEnv *env,jclass clazz)
+void JNICALL callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar403(JNIEnv *env,jclass clazz)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1198,7 +1198,7 @@ void JNICALL callUno_Fuse_Controls_Native_Android_TextInput_OnTextChanged203(JNI
         uno_jthis->OnTextChanged(uCast<uString*>(uno_value, ::g::Uno::String_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable217(JNIEnv *env,jclass clazz,jobject jthis,jobject surface,jlong surfacePtr)
+void JNICALL callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable219(JNIEnv *env,jclass clazz,jobject jthis,jobject surface,jlong surfacePtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1208,7 +1208,7 @@ void JNICALL callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAv
         uno_jthis->OnSurfaceTextureAvailable(uCast<::g::Java::Object*>(uno_surface, ::g::Java::Object_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed218(JNIEnv *env,jclass clazz,jobject jthis)
+void JNICALL callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed220(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1217,7 +1217,7 @@ void JNICALL callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDe
         uno_jthis->OnSurfaceTextureDestroyed();
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer273(JNIEnv *env,jclass clazz,jobject jthis,jint percent)
+void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer275(JNIEnv *env,jclass clazz,jobject jthis,jint percent)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1227,7 +1227,7 @@ void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer273(JNI
         uno_jthis->OnBuffer(uno_percent);
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion271(JNIEnv *env,jclass clazz,jobject jthis)
+void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion273(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1236,7 +1236,7 @@ void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion271
         uno_jthis->OnCompletion();
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError272(JNIEnv *env,jclass clazz,jobject jthis,jint what,jint extra)
+void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError274(JNIEnv *env,jclass clazz,jobject jthis,jint what,jint extra)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1247,7 +1247,7 @@ void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError272(JNIE
         uno_jthis->OnError(uno_what, uno_extra);
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred285(JNIEnv *env,jclass clazz,jobject jthis,jobject msg)
+void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred287(JNIEnv *env,jclass clazz,jobject jthis,jobject msg)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1257,7 +1257,7 @@ void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred
         uno_jthis->OnErrorOccurred(uCast<uString*>(uno_msg, ::g::Uno::String_typeof()));
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable276(JNIEnv *env,jclass clazz,jobject jthis)
+void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable278(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1266,7 +1266,7 @@ void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailabl
         uno_jthis->OnFrameAvailable();
     JCATCH
 }
-void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared270(JNIEnv *env,jclass clazz,jobject jthis)
+void JNICALL callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared272(JNIEnv *env,jclass clazz,jobject jthis)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1485,7 +1485,7 @@ void JNICALL callUno_Fuse_Platform_SystemUI_UpdateStatusBar114(JNIEnv *env,jclas
         ::g::Fuse::Platform::SystemUI::UpdateStatusBar();
     JCATCH
 }
-void JNICALL callUno_Neovisionaries_WebSocketClient__webSocketSet428(JNIEnv *env,jclass clazz,jobject jthis,jobject setVal,jlong setValPtr)
+void JNICALL callUno_Neovisionaries_WebSocketClient__webSocketSet438(JNIEnv *env,jclass clazz,jobject jthis,jobject setVal,jlong setValPtr)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1543,7 +1543,7 @@ void JNICALL callUno_Uno_Platform_AndroidDisplay_OnFrameCallback58(JNIEnv *env,j
         uno_jthis->OnFrameCallback(uno_currentTime, uno_deltaTime);
     JCATCH
 }
-void JNICALL callUno_Uno_Threading_Promise_lt_string_gt__Resolve452(JNIEnv *env,jclass clazz,jobject jthis,jobject result)
+void JNICALL callUno_Uno_Threading_Promise_lt_string_gt__Resolve462(JNIEnv *env,jclass clazz,jobject jthis,jobject result)
 {
     uAutoReleasePool pool;
     INIT_JNI;
@@ -1563,10 +1563,10 @@ namespace ExportTargetInterop{
 namespace Foreign{
 namespace Android{
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/ExternBlockHost.uno
-// -----------------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/ExternBlockHost.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static extern class ExternBlockHost :10
+// internal static extern class ExternBlockHost
 // {
 static void ExternBlockHost_build(uType* type)
 {
@@ -1584,17 +1584,17 @@ uClassType* ExternBlockHost_typeof()
     return type;
 }
 
-// private static extern void RegisterFunctions() :13
+// private static extern void RegisterFunctions()
 void ExternBlockHost__RegisterFunctions_fn()
 {
     ExternBlockHost::RegisterFunctions();
 }
 
-// private static extern void RegisterFunctions() [static] :13
+// private static extern void RegisterFunctions() [static]
 void ExternBlockHost::RegisterFunctions()
 {
     JniHelper jni;
-                    static JNINativeMethod native_activity_funcs[] = {
+    static JNINativeMethod native_activity_funcs[] = {
     {(char* const)"callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_BoolArrayToUnoArrayPtr0", (char* const)"(Ljava/lang/Object;J)J", (void *)&callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_BoolArrayToUnoArrayPtr0},
     {(char* const)"callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_ByteArrayToUnoArrayPtr1", (char* const)"(Ljava/lang/Object;J)J", (void *)&callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_ByteArrayToUnoArrayPtr1},
     {(char* const)"callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_CharArrayToUnoArrayPtr2", (char* const)"(Ljava/lang/Object;J)J", (void *)&callUno_Uno_Compiler_ExportTargetInterop_Foreign_Android_JavaToUnoArrayEntrypoints_CharArrayToUnoArrayPtr2},
@@ -1703,45 +1703,44 @@ void ExternBlockHost::RegisterFunctions()
     {(char* const)"callUno_Fuse_Controls_Native_Android_Switch_OnToggleChanged196", (char* const)"(Lcom/uno/UnoObject;Z)V", (void *)&callUno_Fuse_Controls_Native_Android_Switch_OnToggleChanged196},
     {(char* const)"callUno_Fuse_Controls_Native_Android_TextInput_OnEditorAction201", (char* const)"(Lcom/uno/UnoObject;I)Z", (void *)&callUno_Fuse_Controls_Native_Android_TextInput_OnEditorAction201},
     {(char* const)"callUno_Fuse_Controls_Native_Android_TextInput_OnTextChanged203", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Fuse_Controls_Native_Android_TextInput_OnTextChanged203},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable217", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable217},
-    {(char* const)"callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed218", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed218},
-    {(char* const)"callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248", (char* const)"(Lcom/uno/UnoObject;)Ljava/lang/Object;", (void *)&callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248},
-    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared270", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared270},
-    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion271", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion271},
-    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError272", (char* const)"(Lcom/uno/UnoObject;II)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError272},
-    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer273", (char* const)"(Lcom/uno/UnoObject;I)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer273},
-    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable276", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable276},
-    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred285", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred285},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable219", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable219},
+    {(char* const)"callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed220", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed220},
+    {(char* const)"callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250", (char* const)"(Lcom/uno/UnoObject;)Ljava/lang/Object;", (void *)&callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250},
+    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared272", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared272},
+    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion273", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion273},
+    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError274", (char* const)"(Lcom/uno/UnoObject;II)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError274},
+    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer275", (char* const)"(Lcom/uno/UnoObject;I)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer275},
+    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable278", (char* const)"(Lcom/uno/UnoObject;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable278},
+    {(char* const)"callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred287", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred287},
     {(char* const)"callUno_Action", (char* const)"(Lcom/foreign/Uno/Action;)V", (void *)&callUno_Action},
-    {(char* const)"callUno_Uno_IO_BundleFile_BundlePathGet360", (char* const)"(Lcom/uno/UnoObject;)Ljava/lang/String;", (void *)&callUno_Uno_IO_BundleFile_BundlePathGet360},
+    {(char* const)"callUno_Uno_IO_BundleFile_BundlePathGet363", (char* const)"(Lcom/uno/UnoObject;)Ljava/lang/String;", (void *)&callUno_Uno_IO_BundleFile_BundlePathGet363},
     {(char* const)"callUno_Action_int", (char* const)"(Lcom/foreign/Uno/Action_int;I)V", (void *)&callUno_Action_int},
     {(char* const)"callUno_Func", (char* const)"(Lcom/foreign/Uno/Func;)Z", (void *)&callUno_Func},
-    {(char* const)"callUno_Fuse_Android_AppRoot_OnTouchEvent__378", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Android_AppRoot_OnTouchEvent__378},
-    {(char* const)"callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar400", (char* const)"()V", (void *)&callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar400},
-    {(char* const)"callUno_Neovisionaries_WebSocketClient__webSocketGet428", (char* const)"(Lcom/uno/UnoObject;)Ljava/lang/Object;", (void *)&callUno_Neovisionaries_WebSocketClient__webSocketGet428},
+    {(char* const)"callUno_Fuse_Android_AppRoot_OnTouchEvent__381", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Fuse_Android_AppRoot_OnTouchEvent__381},
+    {(char* const)"callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar403", (char* const)"()V", (void *)&callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar403},
+    {(char* const)"callUno_Neovisionaries_WebSocketClient__webSocketGet438", (char* const)"(Lcom/uno/UnoObject;)Ljava/lang/Object;", (void *)&callUno_Neovisionaries_WebSocketClient__webSocketGet438},
     {(char* const)"callUno_Action_ByteArray", (char* const)"(Lcom/foreign/Uno/Action_ByteArray;Lcom/uno/ByteArray;)V", (void *)&callUno_Action_ByteArray},
-    {(char* const)"callUno_Neovisionaries_WebSocketClient__webSocketSet428", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Neovisionaries_WebSocketClient__webSocketSet428},
-    {(char* const)"callUno_Firebase_Database_DatabaseService__handleSet435", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Firebase_Database_DatabaseService__handleSet435},
+    {(char* const)"callUno_Neovisionaries_WebSocketClient__webSocketSet438", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/Object;J)V", (void *)&callUno_Neovisionaries_WebSocketClient__webSocketSet438},
+    {(char* const)"callUno_Firebase_Database_DatabaseService__handleSet445", (char* const)"(Ljava/lang/Object;J)V", (void *)&callUno_Firebase_Database_DatabaseService__handleSet445},
     {(char* const)"callUno_Action_String_String", (char* const)"(Lcom/foreign/Uno/Action_String_String;Ljava/lang/String;Ljava/lang/String;)V", (void *)&callUno_Action_String_String},
-    {(char* const)"callUno_Firebase_Database_DatabaseService__handleGet435", (char* const)"()Ljava/lang/Object;", (void *)&callUno_Firebase_Database_DatabaseService__handleGet435},
-    {(char* const)"callUno_Uno_Threading_Promise_lt_string_gt__Resolve452", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Uno_Threading_Promise_lt_string_gt__Resolve452},
-    {(char* const)"callUno_Firebase_Database_Read_Reject1453", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Firebase_Database_Read_Reject1453},
-    {(char* const)"callUno_Firebase_Database_ReadByQueryEqualToValue_Reject1455", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Firebase_Database_ReadByQueryEqualToValue_Reject1455},
-    {(char* const)"callUno_Firebase_Notifications_AndroidImpl_OnRecieve457", (char* const)"(Ljava/lang/String;Z)V", (void *)&callUno_Firebase_Notifications_AndroidImpl_OnRecieve457},
-    {(char* const)"callUno_Firebase_Notifications_AndroidImpl_getRegistrationIdSuccess458", (char* const)"(Ljava/lang/String;)V", (void *)&callUno_Firebase_Notifications_AndroidImpl_getRegistrationIdSuccess458},
+    {(char* const)"callUno_Firebase_Database_DatabaseService__handleGet445", (char* const)"()Ljava/lang/Object;", (void *)&callUno_Firebase_Database_DatabaseService__handleGet445},
+    {(char* const)"callUno_Uno_Threading_Promise_lt_string_gt__Resolve462", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Uno_Threading_Promise_lt_string_gt__Resolve462},
+    {(char* const)"callUno_Firebase_Database_Read_Reject1463", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Firebase_Database_Read_Reject1463},
+    {(char* const)"callUno_Firebase_Database_ReadByQueryEqualToValue_Reject1465", (char* const)"(Lcom/uno/UnoObject;Ljava/lang/String;)V", (void *)&callUno_Firebase_Database_ReadByQueryEqualToValue_Reject1465},
+    {(char* const)"callUno_Firebase_Notifications_AndroidImpl_OnRecieve467", (char* const)"(Ljava/lang/String;Z)V", (void *)&callUno_Firebase_Notifications_AndroidImpl_OnRecieve467},
+    {(char* const)"callUno_Firebase_Notifications_AndroidImpl_getRegistrationIdSuccess468", (char* const)"(Ljava/lang/String;)V", (void *)&callUno_Firebase_Notifications_AndroidImpl_getRegistrationIdSuccess468},
     };
     int funcCount = 134;
     if ((int)jni->RegisterNatives(JniHelper::GetNativeExternClass(), native_activity_funcs, funcCount)<0) {
-    LOGD("COULD NOT REGISTER NATIVE EXTERN FUNCTIONS");
-    throw uBase::Exception("COULD NOT REGISTER NATIVE EXTERN FUNCTIONS");
+    U_FATAL("COULD NOT REGISTER NATIVE EXTERN FUNCTIONS");
     }
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/UnoArrayEntrypoints.uno
-// ---------------------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/UnoArrayEntrypoints.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static extern class JavaToUnoArrayEntrypoints :10
+// public static extern class JavaToUnoArrayEntrypoints
 // {
 static void JavaToUnoArrayEntrypoints_build(uType* type)
 {
@@ -1777,415 +1776,415 @@ uClassType* JavaToUnoArrayEntrypoints_typeof()
     return type;
 }
 
-// public static long BoolArrayToUnoArrayPtr(Java.Object jarr) :611
+// public static long BoolArrayToUnoArrayPtr(Java.Object jarr)
 void JavaToUnoArrayEntrypoints__BoolArrayToUnoArrayPtr_fn(::g::Java::Object* jarr, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::BoolArrayToUnoArrayPtr(jarr);
 }
 
-// public static long ByteArrayToUnoArrayPtr(Java.Object jarr) :639
+// public static long ByteArrayToUnoArrayPtr(Java.Object jarr)
 void JavaToUnoArrayEntrypoints__ByteArrayToUnoArrayPtr_fn(::g::Java::Object* jarr, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::ByteArrayToUnoArrayPtr(jarr);
 }
 
-// public static long CharArrayToUnoArrayPtr(Java.Object jarr) :625
+// public static long CharArrayToUnoArrayPtr(Java.Object jarr)
 void JavaToUnoArrayEntrypoints__CharArrayToUnoArrayPtr_fn(::g::Java::Object* jarr, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(jarr);
 }
 
-// public static Java.Object CopyBoolArray(object array) :103
+// public static Java.Object CopyBoolArray(object array)
 void JavaToUnoArrayEntrypoints__CopyBoolArray_fn(uObject* array, ::g::Java::Object** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::CopyBoolArray(array);
 }
 
-// public static Java.Object CopyByteArray(object array) :112
+// public static Java.Object CopyByteArray(object array)
 void JavaToUnoArrayEntrypoints__CopyByteArray_fn(uObject* array, ::g::Java::Object** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::CopyByteArray(array);
 }
 
-// public static Java.Object CopyCharArray(object array) :130
+// public static Java.Object CopyCharArray(object array)
 void JavaToUnoArrayEntrypoints__CopyCharArray_fn(uObject* array, ::g::Java::Object** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::CopyCharArray(array);
 }
 
-// public static Java.Object CopyDoubleArray(object array) :175
+// public static Java.Object CopyDoubleArray(object array)
 void JavaToUnoArrayEntrypoints__CopyDoubleArray_fn(uObject* array, ::g::Java::Object** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::CopyDoubleArray(array);
 }
 
-// public static Java.Object CopyFloatArray(object array) :166
+// public static Java.Object CopyFloatArray(object array)
 void JavaToUnoArrayEntrypoints__CopyFloatArray_fn(uObject* array, ::g::Java::Object** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::CopyFloatArray(array);
 }
 
-// public static Java.Object CopyIntArray(object array) :148
+// public static Java.Object CopyIntArray(object array)
 void JavaToUnoArrayEntrypoints__CopyIntArray_fn(uObject* array, ::g::Java::Object** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::CopyIntArray(array);
 }
 
-// public static Java.Object CopyLongArray(object array) :157
+// public static Java.Object CopyLongArray(object array)
 void JavaToUnoArrayEntrypoints__CopyLongArray_fn(uObject* array, ::g::Java::Object** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::CopyLongArray(array);
 }
 
-// public static Java.Object CopyObjectArray(object array) :206
+// public static Java.Object CopyObjectArray(object array)
 void JavaToUnoArrayEntrypoints__CopyObjectArray_fn(uObject* array, ::g::Java::Object** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::CopyObjectArray(array);
 }
 
-// public static Java.Object CopyShortArray(object array) :139
+// public static Java.Object CopyShortArray(object array)
 void JavaToUnoArrayEntrypoints__CopyShortArray_fn(uObject* array, ::g::Java::Object** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::CopyShortArray(array);
 }
 
-// public static Java.Object CopyStringArray(object array) :186
+// public static Java.Object CopyStringArray(object array)
 void JavaToUnoArrayEntrypoints__CopyStringArray_fn(uObject* array, ::g::Java::Object** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::CopyStringArray(array);
 }
 
-// public static Java.Object CopyUByteArray(object array) :121
+// public static Java.Object CopyUByteArray(object array)
 void JavaToUnoArrayEntrypoints__CopyUByteArray_fn(uObject* array, ::g::Java::Object** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::CopyUByteArray(array);
 }
 
-// public static long DoubleArrayToUnoArrayPtr(Java.Object jarr) :709
+// public static long DoubleArrayToUnoArrayPtr(Java.Object jarr)
 void JavaToUnoArrayEntrypoints__DoubleArrayToUnoArrayPtr_fn(::g::Java::Object* jarr, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::DoubleArrayToUnoArrayPtr(jarr);
 }
 
-// public static long FloatArrayToUnoArrayPtr(Java.Object jarr) :695
+// public static long FloatArrayToUnoArrayPtr(Java.Object jarr)
 void JavaToUnoArrayEntrypoints__FloatArrayToUnoArrayPtr_fn(::g::Java::Object* jarr, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::FloatArrayToUnoArrayPtr(jarr);
 }
 
-// public static bool getBool(object array, int index) :225
+// public static bool getBool(object array, int index)
 void JavaToUnoArrayEntrypoints__getBool_fn(uObject* array, int32_t* index, bool* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::getBool(array, *index);
 }
 
-// public static bool GetBool(object array, int index) :12
+// public static bool GetBool(object array, int index)
 void JavaToUnoArrayEntrypoints__GetBool_fn(uObject* array, int32_t* index, bool* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::GetBool(array, *index);
 }
 
-// public static sbyte getByte(object array, int index) :231
+// public static sbyte getByte(object array, int index)
 void JavaToUnoArrayEntrypoints__getByte_fn(uObject* array, int32_t* index, int8_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::getByte(array, *index);
 }
 
-// public static sbyte GetByte(object array, int index) :16
+// public static sbyte GetByte(object array, int index)
 void JavaToUnoArrayEntrypoints__GetByte_fn(uObject* array, int32_t* index, int8_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::GetByte(array, *index);
 }
 
-// public static char GetChar(object array, int index) :24
+// public static char GetChar(object array, int index)
 void JavaToUnoArrayEntrypoints__GetChar_fn(uObject* array, int32_t* index, char16_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::GetChar(array, *index);
 }
 
-// public static double getDouble(object array, int index) :273
+// public static double getDouble(object array, int index)
 void JavaToUnoArrayEntrypoints__getDouble_fn(uObject* array, int32_t* index, double* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::getDouble(array, *index);
 }
 
-// public static double GetDouble(object array, int index) :44
+// public static double GetDouble(object array, int index)
 void JavaToUnoArrayEntrypoints__GetDouble_fn(uObject* array, int32_t* index, double* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::GetDouble(array, *index);
 }
 
-// public static float getFloat(object array, int index) :267
+// public static float getFloat(object array, int index)
 void JavaToUnoArrayEntrypoints__getFloat_fn(uObject* array, int32_t* index, float* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::getFloat(array, *index);
 }
 
-// public static float GetFloat(object array, int index) :40
+// public static float GetFloat(object array, int index)
 void JavaToUnoArrayEntrypoints__GetFloat_fn(uObject* array, int32_t* index, float* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::GetFloat(array, *index);
 }
 
-// public static int getInt(object array, int index) :255
+// public static int getInt(object array, int index)
 void JavaToUnoArrayEntrypoints__getInt_fn(uObject* array, int32_t* index, int32_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::getInt(array, *index);
 }
 
-// public static int GetInt(object array, int index) :32
+// public static int GetInt(object array, int index)
 void JavaToUnoArrayEntrypoints__GetInt_fn(uObject* array, int32_t* index, int32_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::GetInt(array, *index);
 }
 
-// public static long getLong(object array, int index) :261
+// public static long getLong(object array, int index)
 void JavaToUnoArrayEntrypoints__getLong_fn(uObject* array, int32_t* index, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::getLong(array, *index);
 }
 
-// public static long GetLong(object array, int index) :36
+// public static long GetLong(object array, int index)
 void JavaToUnoArrayEntrypoints__GetLong_fn(uObject* array, int32_t* index, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::GetLong(array, *index);
 }
 
-// public static object getObject(object array, int index) :285
+// public static object getObject(object array, int index)
 void JavaToUnoArrayEntrypoints__getObject_fn(uObject* array, int32_t* index, uObject** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::getObject(array, *index);
 }
 
-// public static object GetObject(object array, int index) :52
+// public static object GetObject(object array, int index)
 void JavaToUnoArrayEntrypoints__GetObject_fn(uObject* array, int32_t* index, uObject** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::GetObject(array, *index);
 }
 
-// public static short getShort(object array, int index) :249
+// public static short getShort(object array, int index)
 void JavaToUnoArrayEntrypoints__getShort_fn(uObject* array, int32_t* index, int16_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::getShort(array, *index);
 }
 
-// public static short GetShort(object array, int index) :28
+// public static short GetShort(object array, int index)
 void JavaToUnoArrayEntrypoints__GetShort_fn(uObject* array, int32_t* index, int16_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::GetShort(array, *index);
 }
 
-// public static string getString(object array, int index) :279
+// public static string getString(object array, int index)
 void JavaToUnoArrayEntrypoints__getString_fn(uObject* array, int32_t* index, uString** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::getString(array, *index);
 }
 
-// public static string GetString(object array, int index) :48
+// public static string GetString(object array, int index)
 void JavaToUnoArrayEntrypoints__GetString_fn(uObject* array, int32_t* index, uString** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::GetString(array, *index);
 }
 
-// public static sbyte GetUByte(object array, int index) :20
+// public static sbyte GetUByte(object array, int index)
 void JavaToUnoArrayEntrypoints__GetUByte_fn(uObject* array, int32_t* index, int8_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::GetUByte(array, *index);
 }
 
-// public static long IntArrayToUnoArrayPtr(Java.Object jarr) :667
+// public static long IntArrayToUnoArrayPtr(Java.Object jarr)
 void JavaToUnoArrayEntrypoints__IntArrayToUnoArrayPtr_fn(::g::Java::Object* jarr, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::IntArrayToUnoArrayPtr(jarr);
 }
 
-// public static long LongArrayToUnoArrayPtr(Java.Object jarr) :681
+// public static long LongArrayToUnoArrayPtr(Java.Object jarr)
 void JavaToUnoArrayEntrypoints__LongArrayToUnoArrayPtr_fn(::g::Java::Object* jarr, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::LongArrayToUnoArrayPtr(jarr);
 }
 
-// public static long NewBoolArrayPtr(int length) :487
+// public static long NewBoolArrayPtr(int length)
 void JavaToUnoArrayEntrypoints__NewBoolArrayPtr_fn(int32_t* length, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::NewBoolArrayPtr(*length);
 }
 
-// public static long NewByteArrayPtr(int length, bool unoIsUnsigned) :494
+// public static long NewByteArrayPtr(int length, bool unoIsUnsigned)
 void JavaToUnoArrayEntrypoints__NewByteArrayPtr_fn(int32_t* length, bool* unoIsUnsigned, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::NewByteArrayPtr(*length, *unoIsUnsigned);
 }
 
-// public static long NewCharArrayPtr(int length) :505
+// public static long NewCharArrayPtr(int length)
 void JavaToUnoArrayEntrypoints__NewCharArrayPtr_fn(int32_t* length, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::NewCharArrayPtr(*length);
 }
 
-// public static long NewDoubleArrayPtr(int length) :540
+// public static long NewDoubleArrayPtr(int length)
 void JavaToUnoArrayEntrypoints__NewDoubleArrayPtr_fn(int32_t* length, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::NewDoubleArrayPtr(*length);
 }
 
-// public static long NewFloatArrayPtr(int length) :533
+// public static long NewFloatArrayPtr(int length)
 void JavaToUnoArrayEntrypoints__NewFloatArrayPtr_fn(int32_t* length, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::NewFloatArrayPtr(*length);
 }
 
-// public static long NewIntArrayPtr(int length) :519
+// public static long NewIntArrayPtr(int length)
 void JavaToUnoArrayEntrypoints__NewIntArrayPtr_fn(int32_t* length, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::NewIntArrayPtr(*length);
 }
 
-// public static long NewLongArrayPtr(int length) :526
+// public static long NewLongArrayPtr(int length)
 void JavaToUnoArrayEntrypoints__NewLongArrayPtr_fn(int32_t* length, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::NewLongArrayPtr(*length);
 }
 
-// public static long NewObjectArrayPtr(int length) :554
+// public static long NewObjectArrayPtr(int length)
 void JavaToUnoArrayEntrypoints__NewObjectArrayPtr_fn(int32_t* length, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::NewObjectArrayPtr(*length);
 }
 
-// public static long NewShortArrayPtr(int length) :512
+// public static long NewShortArrayPtr(int length)
 void JavaToUnoArrayEntrypoints__NewShortArrayPtr_fn(int32_t* length, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::NewShortArrayPtr(*length);
 }
 
-// public static long NewStringArrayPtr(int length) :547
+// public static long NewStringArrayPtr(int length)
 void JavaToUnoArrayEntrypoints__NewStringArrayPtr_fn(int32_t* length, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::NewStringArrayPtr(*length);
 }
 
-// public static bool setBool(object array, int index, bool val) :293
+// public static bool setBool(object array, int index, bool val)
 void JavaToUnoArrayEntrypoints__setBool_fn(uObject* array, int32_t* index, bool* val, bool* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::setBool(array, *index, *val);
 }
 
-// public static bool SetBool(object array, int index, bool val) :57
+// public static bool SetBool(object array, int index, bool val)
 void JavaToUnoArrayEntrypoints__SetBool_fn(uObject* array, int32_t* index, bool* val, bool* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::SetBool(array, *index, *val);
 }
 
-// public static sbyte setByte(object array, int index, sbyte val) :299
+// public static sbyte setByte(object array, int index, sbyte val)
 void JavaToUnoArrayEntrypoints__setByte_fn(uObject* array, int32_t* index, int8_t* val, int8_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::setByte(array, *index, *val);
 }
 
-// public static sbyte SetByte(object array, int index, sbyte val) :61
+// public static sbyte SetByte(object array, int index, sbyte val)
 void JavaToUnoArrayEntrypoints__SetByte_fn(uObject* array, int32_t* index, int8_t* val, int8_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::SetByte(array, *index, *val);
 }
 
-// public static char SetChar(object array, int index, char val) :70
+// public static char SetChar(object array, int index, char val)
 void JavaToUnoArrayEntrypoints__SetChar_fn(uObject* array, int32_t* index, char16_t* val, char16_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::SetChar(array, *index, *val);
 }
 
-// public static double setDouble(object array, int index, double val) :341
+// public static double setDouble(object array, int index, double val)
 void JavaToUnoArrayEntrypoints__setDouble_fn(uObject* array, int32_t* index, double* val, double* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::setDouble(array, *index, *val);
 }
 
-// public static double SetDouble(object array, int index, double val) :90
+// public static double SetDouble(object array, int index, double val)
 void JavaToUnoArrayEntrypoints__SetDouble_fn(uObject* array, int32_t* index, double* val, double* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::SetDouble(array, *index, *val);
 }
 
-// public static float setFloat(object array, int index, float val) :335
+// public static float setFloat(object array, int index, float val)
 void JavaToUnoArrayEntrypoints__setFloat_fn(uObject* array, int32_t* index, float* val, float* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::setFloat(array, *index, *val);
 }
 
-// public static float SetFloat(object array, int index, float val) :86
+// public static float SetFloat(object array, int index, float val)
 void JavaToUnoArrayEntrypoints__SetFloat_fn(uObject* array, int32_t* index, float* val, float* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::SetFloat(array, *index, *val);
 }
 
-// public static int setInt(object array, int index, int val) :323
+// public static int setInt(object array, int index, int val)
 void JavaToUnoArrayEntrypoints__setInt_fn(uObject* array, int32_t* index, int32_t* val, int32_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::setInt(array, *index, *val);
 }
 
-// public static int SetInt(object array, int index, int val) :78
+// public static int SetInt(object array, int index, int val)
 void JavaToUnoArrayEntrypoints__SetInt_fn(uObject* array, int32_t* index, int32_t* val, int32_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::SetInt(array, *index, *val);
 }
 
-// public static long setLong(object array, int index, long val) :329
+// public static long setLong(object array, int index, long val)
 void JavaToUnoArrayEntrypoints__setLong_fn(uObject* array, int32_t* index, int64_t* val, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::setLong(array, *index, *val);
 }
 
-// public static long SetLong(object array, int index, long val) :82
+// public static long SetLong(object array, int index, long val)
 void JavaToUnoArrayEntrypoints__SetLong_fn(uObject* array, int32_t* index, int64_t* val, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::SetLong(array, *index, *val);
 }
 
-// public static object setObject(object array, int index, object val) :353
+// public static object setObject(object array, int index, object val)
 void JavaToUnoArrayEntrypoints__setObject_fn(uObject* array, int32_t* index, uObject* val, uObject** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::setObject(array, *index, val);
 }
 
-// public static object SetObject(object array, int index, object val) :98
+// public static object SetObject(object array, int index, object val)
 void JavaToUnoArrayEntrypoints__SetObject_fn(uObject* array, int32_t* index, uObject* val, uObject** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::SetObject(array, *index, val);
 }
 
-// public static short setShort(object array, int index, short val) :317
+// public static short setShort(object array, int index, short val)
 void JavaToUnoArrayEntrypoints__setShort_fn(uObject* array, int32_t* index, int16_t* val, int16_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::setShort(array, *index, *val);
 }
 
-// public static short SetShort(object array, int index, short val) :74
+// public static short SetShort(object array, int index, short val)
 void JavaToUnoArrayEntrypoints__SetShort_fn(uObject* array, int32_t* index, int16_t* val, int16_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::SetShort(array, *index, *val);
 }
 
-// public static string setString(object array, int index, string val) :347
+// public static string setString(object array, int index, string val)
 void JavaToUnoArrayEntrypoints__setString_fn(uObject* array, int32_t* index, uString* val, uString** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::setString(array, *index, val);
 }
 
-// public static string SetString(object array, int index, string val) :94
+// public static string SetString(object array, int index, string val)
 void JavaToUnoArrayEntrypoints__SetString_fn(uObject* array, int32_t* index, uString* val, uString** __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::SetString(array, *index, val);
 }
 
-// public static sbyte SetUByte(object array, int index, sbyte val) :65
+// public static sbyte SetUByte(object array, int index, sbyte val)
 void JavaToUnoArrayEntrypoints__SetUByte_fn(uObject* array, int32_t* index, int8_t* val, int8_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::SetUByte(array, *index, *val);
 }
 
-// public static long ShortArrayToUnoArrayPtr(Java.Object jarr) :653
+// public static long ShortArrayToUnoArrayPtr(Java.Object jarr)
 void JavaToUnoArrayEntrypoints__ShortArrayToUnoArrayPtr_fn(::g::Java::Object* jarr, int64_t* __retval)
 {
     *__retval = JavaToUnoArrayEntrypoints::ShortArrayToUnoArrayPtr(jarr);
@@ -2194,7 +2193,7 @@ void JavaToUnoArrayEntrypoints__ShortArrayToUnoArrayPtr_fn(::g::Java::Object* ja
 jclass JavaToUnoArrayEntrypoints::_stringClass_;
 jclass JavaToUnoArrayEntrypoints::_objectClass_;
 
-// public static long BoolArrayToUnoArrayPtr(Java.Object jarr) [static] :611
+// public static long BoolArrayToUnoArrayPtr(Java.Object jarr) [static]
 int64_t JavaToUnoArrayEntrypoints::BoolArrayToUnoArrayPtr(::g::Java::Object* jarr)
 {
     jbooleanArray obj = static_cast<jbooleanArray>(uPtr(uCast< ::g::Android::Base::Wrappers::JWrapper*>(jarr, ::TYPES[0/*Android.Base.Wrappers.JWrapper*/]))->_GetJavaObject());
@@ -2206,7 +2205,7 @@ int64_t JavaToUnoArrayEntrypoints::BoolArrayToUnoArrayPtr(::g::Java::Object* jar
     return (int64_t)arr;
 }
 
-// public static long ByteArrayToUnoArrayPtr(Java.Object jarr) [static] :639
+// public static long ByteArrayToUnoArrayPtr(Java.Object jarr) [static]
 int64_t JavaToUnoArrayEntrypoints::ByteArrayToUnoArrayPtr(::g::Java::Object* jarr)
 {
     jbyteArray obj = static_cast<jbyteArray>(uPtr(uCast< ::g::Android::Base::Wrappers::JWrapper*>(jarr, ::TYPES[0/*Android.Base.Wrappers.JWrapper*/]))->_GetJavaObject());
@@ -2218,7 +2217,7 @@ int64_t JavaToUnoArrayEntrypoints::ByteArrayToUnoArrayPtr(::g::Java::Object* jar
     return (int64_t)arr;
 }
 
-// public static long CharArrayToUnoArrayPtr(Java.Object jarr) [static] :625
+// public static long CharArrayToUnoArrayPtr(Java.Object jarr) [static]
 int64_t JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(::g::Java::Object* jarr)
 {
     jcharArray obj = static_cast<jcharArray>(uPtr(uCast< ::g::Android::Base::Wrappers::JWrapper*>(jarr, ::TYPES[0/*Android.Base.Wrappers.JWrapper*/]))->_GetJavaObject());
@@ -2230,7 +2229,7 @@ int64_t JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(::g::Java::Object* jar
     return (int64_t)arr;
 }
 
-// public static Java.Object CopyBoolArray(object array) [static] :103
+// public static Java.Object CopyBoolArray(object array) [static]
 ::g::Java::Object* JavaToUnoArrayEntrypoints::CopyBoolArray(uObject* array)
 {
     JNIEnv* env = ::g::Android::Base::JNI::GetEnvPtr();
@@ -2240,7 +2239,7 @@ int64_t JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(::g::Java::Object* jar
     return ::g::Android::Base::Wrappers::JWrapper::Wrap(jarr, false, false);
 }
 
-// public static Java.Object CopyByteArray(object array) [static] :112
+// public static Java.Object CopyByteArray(object array) [static]
 ::g::Java::Object* JavaToUnoArrayEntrypoints::CopyByteArray(uObject* array)
 {
     JNIEnv* env = ::g::Android::Base::JNI::GetEnvPtr();
@@ -2250,7 +2249,7 @@ int64_t JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(::g::Java::Object* jar
     return ::g::Android::Base::Wrappers::JWrapper::Wrap(jarr, false, false);
 }
 
-// public static Java.Object CopyCharArray(object array) [static] :130
+// public static Java.Object CopyCharArray(object array) [static]
 ::g::Java::Object* JavaToUnoArrayEntrypoints::CopyCharArray(uObject* array)
 {
     JNIEnv* env = ::g::Android::Base::JNI::GetEnvPtr();
@@ -2260,7 +2259,7 @@ int64_t JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(::g::Java::Object* jar
     return ::g::Android::Base::Wrappers::JWrapper::Wrap(jarr, false, false);
 }
 
-// public static Java.Object CopyDoubleArray(object array) [static] :175
+// public static Java.Object CopyDoubleArray(object array) [static]
 ::g::Java::Object* JavaToUnoArrayEntrypoints::CopyDoubleArray(uObject* array)
 {
     JNIEnv* env = ::g::Android::Base::JNI::GetEnvPtr();
@@ -2270,7 +2269,7 @@ int64_t JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(::g::Java::Object* jar
     return ::g::Android::Base::Wrappers::JWrapper::Wrap(jarr, false, false);
 }
 
-// public static Java.Object CopyFloatArray(object array) [static] :166
+// public static Java.Object CopyFloatArray(object array) [static]
 ::g::Java::Object* JavaToUnoArrayEntrypoints::CopyFloatArray(uObject* array)
 {
     JNIEnv* env = ::g::Android::Base::JNI::GetEnvPtr();
@@ -2280,7 +2279,7 @@ int64_t JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(::g::Java::Object* jar
     return ::g::Android::Base::Wrappers::JWrapper::Wrap(jarr, false, false);
 }
 
-// public static Java.Object CopyIntArray(object array) [static] :148
+// public static Java.Object CopyIntArray(object array) [static]
 ::g::Java::Object* JavaToUnoArrayEntrypoints::CopyIntArray(uObject* array)
 {
     JNIEnv* env = ::g::Android::Base::JNI::GetEnvPtr();
@@ -2290,7 +2289,7 @@ int64_t JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(::g::Java::Object* jar
     return ::g::Android::Base::Wrappers::JWrapper::Wrap(jarr, false, false);
 }
 
-// public static Java.Object CopyLongArray(object array) [static] :157
+// public static Java.Object CopyLongArray(object array) [static]
 ::g::Java::Object* JavaToUnoArrayEntrypoints::CopyLongArray(uObject* array)
 {
     JNIEnv* env = ::g::Android::Base::JNI::GetEnvPtr();
@@ -2300,7 +2299,7 @@ int64_t JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(::g::Java::Object* jar
     return ::g::Android::Base::Wrappers::JWrapper::Wrap(jarr, false, false);
 }
 
-// public static Java.Object CopyObjectArray(object array) [static] :206
+// public static Java.Object CopyObjectArray(object array) [static]
 ::g::Java::Object* JavaToUnoArrayEntrypoints::CopyObjectArray(uObject* array)
 {
     JNIEnv* env = ::g::Android::Base::JNI::GetEnvPtr();
@@ -2321,7 +2320,7 @@ int64_t JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(::g::Java::Object* jar
     return ::g::Android::Base::Wrappers::JWrapper::Wrap(jarr, false, false);
 }
 
-// public static Java.Object CopyShortArray(object array) [static] :139
+// public static Java.Object CopyShortArray(object array) [static]
 ::g::Java::Object* JavaToUnoArrayEntrypoints::CopyShortArray(uObject* array)
 {
     JNIEnv* env = ::g::Android::Base::JNI::GetEnvPtr();
@@ -2331,7 +2330,7 @@ int64_t JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(::g::Java::Object* jar
     return ::g::Android::Base::Wrappers::JWrapper::Wrap(jarr, false, false);
 }
 
-// public static Java.Object CopyStringArray(object array) [static] :186
+// public static Java.Object CopyStringArray(object array) [static]
 ::g::Java::Object* JavaToUnoArrayEntrypoints::CopyStringArray(uObject* array)
 {
     JNIEnv* env = ::g::Android::Base::JNI::GetEnvPtr();
@@ -2352,7 +2351,7 @@ int64_t JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(::g::Java::Object* jar
     return ::g::Android::Base::Wrappers::JWrapper::Wrap(jarr, false, false);
 }
 
-// public static Java.Object CopyUByteArray(object array) [static] :121
+// public static Java.Object CopyUByteArray(object array) [static]
 ::g::Java::Object* JavaToUnoArrayEntrypoints::CopyUByteArray(uObject* array)
 {
     JNIEnv* env = ::g::Android::Base::JNI::GetEnvPtr();
@@ -2362,7 +2361,7 @@ int64_t JavaToUnoArrayEntrypoints::CharArrayToUnoArrayPtr(::g::Java::Object* jar
     return ::g::Android::Base::Wrappers::JWrapper::Wrap(jarr, false, false);
 }
 
-// public static long DoubleArrayToUnoArrayPtr(Java.Object jarr) [static] :709
+// public static long DoubleArrayToUnoArrayPtr(Java.Object jarr) [static]
 int64_t JavaToUnoArrayEntrypoints::DoubleArrayToUnoArrayPtr(::g::Java::Object* jarr)
 {
     jdoubleArray obj = static_cast<jdoubleArray>(uPtr(uCast< ::g::Android::Base::Wrappers::JWrapper*>(jarr, ::TYPES[0/*Android.Base.Wrappers.JWrapper*/]))->_GetJavaObject());
@@ -2374,7 +2373,7 @@ int64_t JavaToUnoArrayEntrypoints::DoubleArrayToUnoArrayPtr(::g::Java::Object* j
     return (int64_t)arr;
 }
 
-// public static long FloatArrayToUnoArrayPtr(Java.Object jarr) [static] :695
+// public static long FloatArrayToUnoArrayPtr(Java.Object jarr) [static]
 int64_t JavaToUnoArrayEntrypoints::FloatArrayToUnoArrayPtr(::g::Java::Object* jarr)
 {
     jfloatArray obj = static_cast<jfloatArray>(uPtr(uCast< ::g::Android::Base::Wrappers::JWrapper*>(jarr, ::TYPES[0/*Android.Base.Wrappers.JWrapper*/]))->_GetJavaObject());
@@ -2386,7 +2385,7 @@ int64_t JavaToUnoArrayEntrypoints::FloatArrayToUnoArrayPtr(::g::Java::Object* ja
     return (int64_t)arr;
 }
 
-// public static bool getBool(object array, int index) [static] :225
+// public static bool getBool(object array, int index) [static]
 bool JavaToUnoArrayEntrypoints::getBool(uObject* array, int32_t index)
 {
     {
@@ -2407,13 +2406,13 @@ bool JavaToUnoArrayEntrypoints::getBool(uObject* array, int32_t index)
     
 }
 
-// public static bool GetBool(object array, int index) [static] :12
+// public static bool GetBool(object array, int index) [static]
 bool JavaToUnoArrayEntrypoints::GetBool(uObject* array, int32_t index)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[1/*bool[]*/]))->Item<bool>(index);
 }
 
-// public static sbyte getByte(object array, int index) [static] :231
+// public static sbyte getByte(object array, int index) [static]
 int8_t JavaToUnoArrayEntrypoints::getByte(uObject* array, int32_t index)
 {
     {
@@ -2434,19 +2433,19 @@ int8_t JavaToUnoArrayEntrypoints::getByte(uObject* array, int32_t index)
     
 }
 
-// public static sbyte GetByte(object array, int index) [static] :16
+// public static sbyte GetByte(object array, int index) [static]
 int8_t JavaToUnoArrayEntrypoints::GetByte(uObject* array, int32_t index)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[4/*sbyte[]*/]))->Item<int8_t>(index);
 }
 
-// public static char GetChar(object array, int index) [static] :24
+// public static char GetChar(object array, int index) [static]
 char16_t JavaToUnoArrayEntrypoints::GetChar(uObject* array, int32_t index)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[3/*char[]*/]))->Item<char16_t>(index);
 }
 
-// public static double getDouble(object array, int index) [static] :273
+// public static double getDouble(object array, int index) [static]
 double JavaToUnoArrayEntrypoints::getDouble(uObject* array, int32_t index)
 {
     {
@@ -2467,13 +2466,13 @@ double JavaToUnoArrayEntrypoints::getDouble(uObject* array, int32_t index)
     
 }
 
-// public static double GetDouble(object array, int index) [static] :44
+// public static double GetDouble(object array, int index) [static]
 double JavaToUnoArrayEntrypoints::GetDouble(uObject* array, int32_t index)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[5/*double[]*/]))->Item<double>(index);
 }
 
-// public static float getFloat(object array, int index) [static] :267
+// public static float getFloat(object array, int index) [static]
 float JavaToUnoArrayEntrypoints::getFloat(uObject* array, int32_t index)
 {
     {
@@ -2494,13 +2493,13 @@ float JavaToUnoArrayEntrypoints::getFloat(uObject* array, int32_t index)
     
 }
 
-// public static float GetFloat(object array, int index) [static] :40
+// public static float GetFloat(object array, int index) [static]
 float JavaToUnoArrayEntrypoints::GetFloat(uObject* array, int32_t index)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[6/*float[]*/]))->Item<float>(index);
 }
 
-// public static int getInt(object array, int index) [static] :255
+// public static int getInt(object array, int index) [static]
 int32_t JavaToUnoArrayEntrypoints::getInt(uObject* array, int32_t index)
 {
     {
@@ -2521,13 +2520,13 @@ int32_t JavaToUnoArrayEntrypoints::getInt(uObject* array, int32_t index)
     
 }
 
-// public static int GetInt(object array, int index) [static] :32
+// public static int GetInt(object array, int index) [static]
 int32_t JavaToUnoArrayEntrypoints::GetInt(uObject* array, int32_t index)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[7/*int[]*/]))->Item<int32_t>(index);
 }
 
-// public static long getLong(object array, int index) [static] :261
+// public static long getLong(object array, int index) [static]
 int64_t JavaToUnoArrayEntrypoints::getLong(uObject* array, int32_t index)
 {
     {
@@ -2548,13 +2547,13 @@ int64_t JavaToUnoArrayEntrypoints::getLong(uObject* array, int32_t index)
     
 }
 
-// public static long GetLong(object array, int index) [static] :36
+// public static long GetLong(object array, int index) [static]
 int64_t JavaToUnoArrayEntrypoints::GetLong(uObject* array, int32_t index)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[8/*long[]*/]))->Item<int64_t>(index);
 }
 
-// public static object getObject(object array, int index) [static] :285
+// public static object getObject(object array, int index) [static]
 uObject* JavaToUnoArrayEntrypoints::getObject(uObject* array, int32_t index)
 {
     {
@@ -2575,13 +2574,13 @@ uObject* JavaToUnoArrayEntrypoints::getObject(uObject* array, int32_t index)
     
 }
 
-// public static object GetObject(object array, int index) [static] :52
+// public static object GetObject(object array, int index) [static]
 uObject* JavaToUnoArrayEntrypoints::GetObject(uObject* array, int32_t index)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[9/*object[]*/]))->Strong<uObject*>(index);
 }
 
-// public static short getShort(object array, int index) [static] :249
+// public static short getShort(object array, int index) [static]
 int16_t JavaToUnoArrayEntrypoints::getShort(uObject* array, int32_t index)
 {
     {
@@ -2602,13 +2601,13 @@ int16_t JavaToUnoArrayEntrypoints::getShort(uObject* array, int32_t index)
     
 }
 
-// public static short GetShort(object array, int index) [static] :28
+// public static short GetShort(object array, int index) [static]
 int16_t JavaToUnoArrayEntrypoints::GetShort(uObject* array, int32_t index)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[10/*short[]*/]))->Item<int16_t>(index);
 }
 
-// public static string getString(object array, int index) [static] :279
+// public static string getString(object array, int index) [static]
 uString* JavaToUnoArrayEntrypoints::getString(uObject* array, int32_t index)
 {
     {
@@ -2630,19 +2629,19 @@ uString* JavaToUnoArrayEntrypoints::getString(uObject* array, int32_t index)
     
 }
 
-// public static string GetString(object array, int index) [static] :48
+// public static string GetString(object array, int index) [static]
 uString* JavaToUnoArrayEntrypoints::GetString(uObject* array, int32_t index)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[11/*string[]*/]))->Strong<uString*>(index);
 }
 
-// public static sbyte GetUByte(object array, int index) [static] :20
+// public static sbyte GetUByte(object array, int index) [static]
 int8_t JavaToUnoArrayEntrypoints::GetUByte(uObject* array, int32_t index)
 {
     return (int8_t)uPtr(uCast<uArray*>(array, ::TYPES[2/*byte[]*/]))->Item<uint8_t>(index);
 }
 
-// public static long IntArrayToUnoArrayPtr(Java.Object jarr) [static] :667
+// public static long IntArrayToUnoArrayPtr(Java.Object jarr) [static]
 int64_t JavaToUnoArrayEntrypoints::IntArrayToUnoArrayPtr(::g::Java::Object* jarr)
 {
     jintArray obj = static_cast<jintArray>(uPtr(uCast< ::g::Android::Base::Wrappers::JWrapper*>(jarr, ::TYPES[0/*Android.Base.Wrappers.JWrapper*/]))->_GetJavaObject());
@@ -2654,7 +2653,7 @@ int64_t JavaToUnoArrayEntrypoints::IntArrayToUnoArrayPtr(::g::Java::Object* jarr
     return (int64_t)arr;
 }
 
-// public static long LongArrayToUnoArrayPtr(Java.Object jarr) [static] :681
+// public static long LongArrayToUnoArrayPtr(Java.Object jarr) [static]
 int64_t JavaToUnoArrayEntrypoints::LongArrayToUnoArrayPtr(::g::Java::Object* jarr)
 {
     jlongArray obj = static_cast<jlongArray>(uPtr(uCast< ::g::Android::Base::Wrappers::JWrapper*>(jarr, ::TYPES[0/*Android.Base.Wrappers.JWrapper*/]))->_GetJavaObject());
@@ -2666,7 +2665,7 @@ int64_t JavaToUnoArrayEntrypoints::LongArrayToUnoArrayPtr(::g::Java::Object* jar
     return (int64_t)arr;
 }
 
-// public static long NewBoolArrayPtr(int length) [static] :487
+// public static long NewBoolArrayPtr(int length) [static]
 int64_t JavaToUnoArrayEntrypoints::NewBoolArrayPtr(int32_t length)
 {
     uArray* arr = uArray::New(::TYPES[1/*bool[]*/], length);
@@ -2674,7 +2673,7 @@ int64_t JavaToUnoArrayEntrypoints::NewBoolArrayPtr(int32_t length)
     return (int64_t)arr;
 }
 
-// public static long NewByteArrayPtr(int length, bool unoIsUnsigned) [static] :494
+// public static long NewByteArrayPtr(int length, bool unoIsUnsigned) [static]
 int64_t JavaToUnoArrayEntrypoints::NewByteArrayPtr(int32_t length, bool unoIsUnsigned)
 {
     uObject* arr;
@@ -2688,7 +2687,7 @@ int64_t JavaToUnoArrayEntrypoints::NewByteArrayPtr(int32_t length, bool unoIsUns
     return (int64_t)arr;
 }
 
-// public static long NewCharArrayPtr(int length) [static] :505
+// public static long NewCharArrayPtr(int length) [static]
 int64_t JavaToUnoArrayEntrypoints::NewCharArrayPtr(int32_t length)
 {
     uArray* arr = uArray::New(::TYPES[3/*char[]*/], length);
@@ -2696,7 +2695,7 @@ int64_t JavaToUnoArrayEntrypoints::NewCharArrayPtr(int32_t length)
     return (int64_t)arr;
 }
 
-// public static long NewDoubleArrayPtr(int length) [static] :540
+// public static long NewDoubleArrayPtr(int length) [static]
 int64_t JavaToUnoArrayEntrypoints::NewDoubleArrayPtr(int32_t length)
 {
     uArray* arr = uArray::New(::TYPES[5/*double[]*/], length);
@@ -2704,7 +2703,7 @@ int64_t JavaToUnoArrayEntrypoints::NewDoubleArrayPtr(int32_t length)
     return (int64_t)arr;
 }
 
-// public static long NewFloatArrayPtr(int length) [static] :533
+// public static long NewFloatArrayPtr(int length) [static]
 int64_t JavaToUnoArrayEntrypoints::NewFloatArrayPtr(int32_t length)
 {
     uArray* arr = uArray::New(::TYPES[6/*float[]*/], length);
@@ -2712,7 +2711,7 @@ int64_t JavaToUnoArrayEntrypoints::NewFloatArrayPtr(int32_t length)
     return (int64_t)arr;
 }
 
-// public static long NewIntArrayPtr(int length) [static] :519
+// public static long NewIntArrayPtr(int length) [static]
 int64_t JavaToUnoArrayEntrypoints::NewIntArrayPtr(int32_t length)
 {
     uArray* arr = uArray::New(::TYPES[7/*int[]*/], length);
@@ -2720,7 +2719,7 @@ int64_t JavaToUnoArrayEntrypoints::NewIntArrayPtr(int32_t length)
     return (int64_t)arr;
 }
 
-// public static long NewLongArrayPtr(int length) [static] :526
+// public static long NewLongArrayPtr(int length) [static]
 int64_t JavaToUnoArrayEntrypoints::NewLongArrayPtr(int32_t length)
 {
     uArray* arr = uArray::New(::TYPES[8/*long[]*/], length);
@@ -2728,7 +2727,7 @@ int64_t JavaToUnoArrayEntrypoints::NewLongArrayPtr(int32_t length)
     return (int64_t)arr;
 }
 
-// public static long NewObjectArrayPtr(int length) [static] :554
+// public static long NewObjectArrayPtr(int length) [static]
 int64_t JavaToUnoArrayEntrypoints::NewObjectArrayPtr(int32_t length)
 {
     uArray* arr = uArray::New(::TYPES[9/*object[]*/], length);
@@ -2736,7 +2735,7 @@ int64_t JavaToUnoArrayEntrypoints::NewObjectArrayPtr(int32_t length)
     return (int64_t)arr;
 }
 
-// public static long NewShortArrayPtr(int length) [static] :512
+// public static long NewShortArrayPtr(int length) [static]
 int64_t JavaToUnoArrayEntrypoints::NewShortArrayPtr(int32_t length)
 {
     uArray* arr = uArray::New(::TYPES[10/*short[]*/], length);
@@ -2744,7 +2743,7 @@ int64_t JavaToUnoArrayEntrypoints::NewShortArrayPtr(int32_t length)
     return (int64_t)arr;
 }
 
-// public static long NewStringArrayPtr(int length) [static] :547
+// public static long NewStringArrayPtr(int length) [static]
 int64_t JavaToUnoArrayEntrypoints::NewStringArrayPtr(int32_t length)
 {
     uArray* arr = uArray::New(::TYPES[11/*string[]*/], length);
@@ -2752,7 +2751,7 @@ int64_t JavaToUnoArrayEntrypoints::NewStringArrayPtr(int32_t length)
     return (int64_t)arr;
 }
 
-// public static bool setBool(object array, int index, bool val) [static] :293
+// public static bool setBool(object array, int index, bool val) [static]
 bool JavaToUnoArrayEntrypoints::setBool(uObject* array, int32_t index, bool val)
 {
     {
@@ -2776,13 +2775,13 @@ bool JavaToUnoArrayEntrypoints::setBool(uObject* array, int32_t index, bool val)
     
 }
 
-// public static bool SetBool(object array, int index, bool val) [static] :57
+// public static bool SetBool(object array, int index, bool val) [static]
 bool JavaToUnoArrayEntrypoints::SetBool(uObject* array, int32_t index, bool val)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[1/*bool[]*/]))->Item<bool>(index) = val;
 }
 
-// public static sbyte setByte(object array, int index, sbyte val) [static] :299
+// public static sbyte setByte(object array, int index, sbyte val) [static]
 int8_t JavaToUnoArrayEntrypoints::setByte(uObject* array, int32_t index, int8_t val)
 {
     {
@@ -2806,19 +2805,19 @@ int8_t JavaToUnoArrayEntrypoints::setByte(uObject* array, int32_t index, int8_t 
     
 }
 
-// public static sbyte SetByte(object array, int index, sbyte val) [static] :61
+// public static sbyte SetByte(object array, int index, sbyte val) [static]
 int8_t JavaToUnoArrayEntrypoints::SetByte(uObject* array, int32_t index, int8_t val)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[4/*sbyte[]*/]))->Item<int8_t>(index) = val;
 }
 
-// public static char SetChar(object array, int index, char val) [static] :70
+// public static char SetChar(object array, int index, char val) [static]
 char16_t JavaToUnoArrayEntrypoints::SetChar(uObject* array, int32_t index, char16_t val)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[3/*char[]*/]))->Item<char16_t>(index) = val;
 }
 
-// public static double setDouble(object array, int index, double val) [static] :341
+// public static double setDouble(object array, int index, double val) [static]
 double JavaToUnoArrayEntrypoints::setDouble(uObject* array, int32_t index, double val)
 {
     {
@@ -2842,13 +2841,13 @@ double JavaToUnoArrayEntrypoints::setDouble(uObject* array, int32_t index, doubl
     
 }
 
-// public static double SetDouble(object array, int index, double val) [static] :90
+// public static double SetDouble(object array, int index, double val) [static]
 double JavaToUnoArrayEntrypoints::SetDouble(uObject* array, int32_t index, double val)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[5/*double[]*/]))->Item<double>(index) = val;
 }
 
-// public static float setFloat(object array, int index, float val) [static] :335
+// public static float setFloat(object array, int index, float val) [static]
 float JavaToUnoArrayEntrypoints::setFloat(uObject* array, int32_t index, float val)
 {
     {
@@ -2872,13 +2871,13 @@ float JavaToUnoArrayEntrypoints::setFloat(uObject* array, int32_t index, float v
     
 }
 
-// public static float SetFloat(object array, int index, float val) [static] :86
+// public static float SetFloat(object array, int index, float val) [static]
 float JavaToUnoArrayEntrypoints::SetFloat(uObject* array, int32_t index, float val)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[6/*float[]*/]))->Item<float>(index) = val;
 }
 
-// public static int setInt(object array, int index, int val) [static] :323
+// public static int setInt(object array, int index, int val) [static]
 int32_t JavaToUnoArrayEntrypoints::setInt(uObject* array, int32_t index, int32_t val)
 {
     {
@@ -2902,13 +2901,13 @@ int32_t JavaToUnoArrayEntrypoints::setInt(uObject* array, int32_t index, int32_t
     
 }
 
-// public static int SetInt(object array, int index, int val) [static] :78
+// public static int SetInt(object array, int index, int val) [static]
 int32_t JavaToUnoArrayEntrypoints::SetInt(uObject* array, int32_t index, int32_t val)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[7/*int[]*/]))->Item<int32_t>(index) = val;
 }
 
-// public static long setLong(object array, int index, long val) [static] :329
+// public static long setLong(object array, int index, long val) [static]
 int64_t JavaToUnoArrayEntrypoints::setLong(uObject* array, int32_t index, int64_t val)
 {
     {
@@ -2932,13 +2931,13 @@ int64_t JavaToUnoArrayEntrypoints::setLong(uObject* array, int32_t index, int64_
     
 }
 
-// public static long SetLong(object array, int index, long val) [static] :82
+// public static long SetLong(object array, int index, long val) [static]
 int64_t JavaToUnoArrayEntrypoints::SetLong(uObject* array, int32_t index, int64_t val)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[8/*long[]*/]))->Item<int64_t>(index) = val;
 }
 
-// public static object setObject(object array, int index, object val) [static] :353
+// public static object setObject(object array, int index, object val) [static]
 uObject* JavaToUnoArrayEntrypoints::setObject(uObject* array, int32_t index, uObject* val)
 {
     {
@@ -2962,13 +2961,13 @@ uObject* JavaToUnoArrayEntrypoints::setObject(uObject* array, int32_t index, uOb
     
 }
 
-// public static object SetObject(object array, int index, object val) [static] :98
+// public static object SetObject(object array, int index, object val) [static]
 uObject* JavaToUnoArrayEntrypoints::SetObject(uObject* array, int32_t index, uObject* val)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[9/*object[]*/]))->Strong<uObject*>(index) = val;
 }
 
-// public static short setShort(object array, int index, short val) [static] :317
+// public static short setShort(object array, int index, short val) [static]
 int16_t JavaToUnoArrayEntrypoints::setShort(uObject* array, int32_t index, int16_t val)
 {
     {
@@ -2992,13 +2991,13 @@ int16_t JavaToUnoArrayEntrypoints::setShort(uObject* array, int32_t index, int16
     
 }
 
-// public static short SetShort(object array, int index, short val) [static] :74
+// public static short SetShort(object array, int index, short val) [static]
 int16_t JavaToUnoArrayEntrypoints::SetShort(uObject* array, int32_t index, int16_t val)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[10/*short[]*/]))->Item<int16_t>(index) = val;
 }
 
-// public static string setString(object array, int index, string val) [static] :347
+// public static string setString(object array, int index, string val) [static]
 uString* JavaToUnoArrayEntrypoints::setString(uObject* array, int32_t index, uString* val)
 {
     {
@@ -3023,20 +3022,20 @@ uString* JavaToUnoArrayEntrypoints::setString(uObject* array, int32_t index, uSt
     
 }
 
-// public static string SetString(object array, int index, string val) [static] :94
+// public static string SetString(object array, int index, string val) [static]
 uString* JavaToUnoArrayEntrypoints::SetString(uObject* array, int32_t index, uString* val)
 {
     return uPtr(uCast<uArray*>(array, ::TYPES[11/*string[]*/]))->Strong<uString*>(index) = val;
 }
 
-// public static sbyte SetUByte(object array, int index, sbyte val) [static] :65
+// public static sbyte SetUByte(object array, int index, sbyte val) [static]
 int8_t JavaToUnoArrayEntrypoints::SetUByte(uObject* array, int32_t index, int8_t val)
 {
     uPtr(uCast<uArray*>(array, ::TYPES[2/*byte[]*/]))->Item<uint8_t>(index) = (uint8_t)val;
     return val;
 }
 
-// public static long ShortArrayToUnoArrayPtr(Java.Object jarr) [static] :653
+// public static long ShortArrayToUnoArrayPtr(Java.Object jarr) [static]
 int64_t JavaToUnoArrayEntrypoints::ShortArrayToUnoArrayPtr(::g::Java::Object* jarr)
 {
     jshortArray obj = static_cast<jshortArray>(uPtr(uCast< ::g::Android::Base::Wrappers::JWrapper*>(jarr, ::TYPES[0/*Android.Base.Wrappers.JWrapper*/]))->_GetJavaObject());
@@ -3049,10 +3048,10 @@ int64_t JavaToUnoArrayEntrypoints::ShortArrayToUnoArrayPtr(::g::Java::Object* ja
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/JavaUnoObject.uno
-// ---------------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/JavaUnoObject.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static extern class JavaUnoObject :12
+// public static extern class JavaUnoObject
 // {
 static void JavaUnoObject_build(uType* type)
 {
@@ -3118,91 +3117,91 @@ uClassType* JavaUnoObject_typeof()
     return type;
 }
 
-// public static Android.Base.Primitives.ujobject Box(bool[] unoArray) :123
+// public static Android.Base.Primitives.ujobject Box(bool[] unoArray)
 void JavaUnoObject__Box_fn(uArray* unoArray, jobject* __retval)
 {
     *__retval = JavaUnoObject::Box(unoArray);
 }
 
-// public static Android.Base.Primitives.ujobject Box(byte[] unoArray) :112
+// public static Android.Base.Primitives.ujobject Box(byte[] unoArray)
 void JavaUnoObject__Box1_fn(uArray* unoArray, jobject* __retval)
 {
     *__retval = JavaUnoObject::Box1(unoArray);
 }
 
-// public static Android.Base.Primitives.ujobject Box(double[] unoArray) :178
+// public static Android.Base.Primitives.ujobject Box(double[] unoArray)
 void JavaUnoObject__Box2_fn(uArray* unoArray, jobject* __retval)
 {
     *__retval = JavaUnoObject::Box2(unoArray);
 }
 
-// public static Android.Base.Primitives.ujobject Box(float[] unoArray) :167
+// public static Android.Base.Primitives.ujobject Box(float[] unoArray)
 void JavaUnoObject__Box3_fn(uArray* unoArray, jobject* __retval)
 {
     *__retval = JavaUnoObject::Box3(unoArray);
 }
 
-// public static Android.Base.Primitives.ujobject Box(int[] unoArray) :145
+// public static Android.Base.Primitives.ujobject Box(int[] unoArray)
 void JavaUnoObject__Box4_fn(uArray* unoArray, jobject* __retval)
 {
     *__retval = JavaUnoObject::Box4(unoArray);
 }
 
-// public static Android.Base.Primitives.ujobject Box(long[] unoArray) :156
+// public static Android.Base.Primitives.ujobject Box(long[] unoArray)
 void JavaUnoObject__Box5_fn(uArray* unoArray, jobject* __retval)
 {
     *__retval = JavaUnoObject::Box5(unoArray);
 }
 
-// public static Android.Base.Primitives.ujobject Box(object unoObject) :90
+// public static Android.Base.Primitives.ujobject Box(object unoObject)
 void JavaUnoObject__Box6_fn(uObject* unoObject, jobject* __retval)
 {
     *__retval = JavaUnoObject::Box6(unoObject);
 }
 
-// public static Android.Base.Primitives.ujobject Box(object[] unoArray) :200
+// public static Android.Base.Primitives.ujobject Box(object[] unoArray)
 void JavaUnoObject__Box7_fn(uArray* unoArray, jobject* __retval)
 {
     *__retval = JavaUnoObject::Box7(unoArray);
 }
 
-// public static Android.Base.Primitives.ujobject Box(sbyte[] unoArray) :101
+// public static Android.Base.Primitives.ujobject Box(sbyte[] unoArray)
 void JavaUnoObject__Box8_fn(uArray* unoArray, jobject* __retval)
 {
     *__retval = JavaUnoObject::Box8(unoArray);
 }
 
-// public static Android.Base.Primitives.ujobject Box(short[] unoArray) :134
+// public static Android.Base.Primitives.ujobject Box(short[] unoArray)
 void JavaUnoObject__Box9_fn(uArray* unoArray, jobject* __retval)
 {
     *__retval = JavaUnoObject::Box9(unoArray);
 }
 
-// public static Android.Base.Primitives.ujobject Box(string[] unoArray) :189
+// public static Android.Base.Primitives.ujobject Box(string[] unoArray)
 void JavaUnoObject__Box10_fn(uArray* unoArray, jobject* __retval)
 {
     *__retval = JavaUnoObject::Box10(unoArray);
 }
 
-// public static Android.Base.Primitives.ujobject BoxDelegate(object delegateObj, Android.Base.Primitives.ConstCharPtr javaClassName) :211
+// public static Android.Base.Primitives.ujobject BoxDelegate(object delegateObj, Android.Base.Primitives.ConstCharPtr javaClassName)
 void JavaUnoObject__BoxDelegate_fn(uObject* delegateObj, const char** javaClassName, jobject* __retval)
 {
     *__retval = JavaUnoObject::BoxDelegate(delegateObj, *javaClassName);
 }
 
-// private static void EnsureInitialized() :45
+// private static void EnsureInitialized()
 void JavaUnoObject__EnsureInitialized_fn()
 {
     JavaUnoObject::EnsureInitialized();
 }
 
-// public static object UnBox(Android.Base.Primitives.ujobject javaObject) :228
+// public static object UnBox(Android.Base.Primitives.ujobject javaObject)
 void JavaUnoObject__UnBox_fn(jobject* javaObject, uObject** __retval)
 {
     *__retval = JavaUnoObject::UnBox(*javaObject);
 }
 
-// public static object UnBoxFreeingLocalRef(Android.Base.Primitives.ujobject javaObject) :236
+// public static object UnBoxFreeingLocalRef(Android.Base.Primitives.ujobject javaObject)
 void JavaUnoObject__UnBoxFreeingLocalRef_fn(jobject* javaObject, uObject** __retval)
 {
     *__retval = JavaUnoObject::UnBoxFreeingLocalRef(*javaObject);
@@ -3230,7 +3229,7 @@ jmethodID JavaUnoObject::_unoStringArrayFactoryMethod_;
 jclass JavaUnoObject::_unoObjectArrayClass_;
 jmethodID JavaUnoObject::_unoObjectArrayFactoryMethod_;
 
-// public static Android.Base.Primitives.ujobject Box(bool[] unoArray) [static] :123
+// public static Android.Base.Primitives.ujobject Box(bool[] unoArray) [static]
 jobject JavaUnoObject::Box(uArray* unoArray)
 {
     if (unoArray == NULL)
@@ -3244,7 +3243,7 @@ jobject JavaUnoObject::Box(uArray* unoArray)
     return boxed;
 }
 
-// public static Android.Base.Primitives.ujobject Box(byte[] unoArray) [static] :112
+// public static Android.Base.Primitives.ujobject Box(byte[] unoArray) [static]
 jobject JavaUnoObject::Box1(uArray* unoArray)
 {
     if (unoArray == NULL)
@@ -3258,7 +3257,7 @@ jobject JavaUnoObject::Box1(uArray* unoArray)
     return boxed;
 }
 
-// public static Android.Base.Primitives.ujobject Box(double[] unoArray) [static] :178
+// public static Android.Base.Primitives.ujobject Box(double[] unoArray) [static]
 jobject JavaUnoObject::Box2(uArray* unoArray)
 {
     if (unoArray == NULL)
@@ -3272,7 +3271,7 @@ jobject JavaUnoObject::Box2(uArray* unoArray)
     return boxed;
 }
 
-// public static Android.Base.Primitives.ujobject Box(float[] unoArray) [static] :167
+// public static Android.Base.Primitives.ujobject Box(float[] unoArray) [static]
 jobject JavaUnoObject::Box3(uArray* unoArray)
 {
     if (unoArray == NULL)
@@ -3286,7 +3285,7 @@ jobject JavaUnoObject::Box3(uArray* unoArray)
     return boxed;
 }
 
-// public static Android.Base.Primitives.ujobject Box(int[] unoArray) [static] :145
+// public static Android.Base.Primitives.ujobject Box(int[] unoArray) [static]
 jobject JavaUnoObject::Box4(uArray* unoArray)
 {
     if (unoArray == NULL)
@@ -3300,7 +3299,7 @@ jobject JavaUnoObject::Box4(uArray* unoArray)
     return boxed;
 }
 
-// public static Android.Base.Primitives.ujobject Box(long[] unoArray) [static] :156
+// public static Android.Base.Primitives.ujobject Box(long[] unoArray) [static]
 jobject JavaUnoObject::Box5(uArray* unoArray)
 {
     if (unoArray == NULL)
@@ -3314,7 +3313,7 @@ jobject JavaUnoObject::Box5(uArray* unoArray)
     return boxed;
 }
 
-// public static Android.Base.Primitives.ujobject Box(object unoObject) [static] :90
+// public static Android.Base.Primitives.ujobject Box(object unoObject) [static]
 jobject JavaUnoObject::Box6(uObject* unoObject)
 {
     if (unoObject == NULL)
@@ -3328,7 +3327,7 @@ jobject JavaUnoObject::Box6(uObject* unoObject)
     return boxed;
 }
 
-// public static Android.Base.Primitives.ujobject Box(object[] unoArray) [static] :200
+// public static Android.Base.Primitives.ujobject Box(object[] unoArray) [static]
 jobject JavaUnoObject::Box7(uArray* unoArray)
 {
     if (unoArray == NULL)
@@ -3342,7 +3341,7 @@ jobject JavaUnoObject::Box7(uArray* unoArray)
     return boxed;
 }
 
-// public static Android.Base.Primitives.ujobject Box(sbyte[] unoArray) [static] :101
+// public static Android.Base.Primitives.ujobject Box(sbyte[] unoArray) [static]
 jobject JavaUnoObject::Box8(uArray* unoArray)
 {
     if (unoArray == NULL)
@@ -3356,7 +3355,7 @@ jobject JavaUnoObject::Box8(uArray* unoArray)
     return boxed;
 }
 
-// public static Android.Base.Primitives.ujobject Box(short[] unoArray) [static] :134
+// public static Android.Base.Primitives.ujobject Box(short[] unoArray) [static]
 jobject JavaUnoObject::Box9(uArray* unoArray)
 {
     if (unoArray == NULL)
@@ -3370,7 +3369,7 @@ jobject JavaUnoObject::Box9(uArray* unoArray)
     return boxed;
 }
 
-// public static Android.Base.Primitives.ujobject Box(string[] unoArray) [static] :189
+// public static Android.Base.Primitives.ujobject Box(string[] unoArray) [static]
 jobject JavaUnoObject::Box10(uArray* unoArray)
 {
     if (unoArray == NULL)
@@ -3384,7 +3383,7 @@ jobject JavaUnoObject::Box10(uArray* unoArray)
     return boxed;
 }
 
-// public static Android.Base.Primitives.ujobject BoxDelegate(object delegateObj, Android.Base.Primitives.ConstCharPtr javaClassName) [static] :211
+// public static Android.Base.Primitives.ujobject BoxDelegate(object delegateObj, Android.Base.Primitives.ConstCharPtr javaClassName) [static]
 jobject JavaUnoObject::BoxDelegate(uObject* delegateObj, const char* javaClassName)
 {
     if (delegateObj == NULL)
@@ -3401,7 +3400,7 @@ jobject JavaUnoObject::BoxDelegate(uObject* delegateObj, const char* javaClassNa
     return boxed;
 }
 
-// private static void EnsureInitialized() [static] :45
+// private static void EnsureInitialized() [static]
 void JavaUnoObject::EnsureInitialized()
 {
     if (uEnterCriticalIfNull(&JavaUnoObject::_unoObjectClass_))
@@ -3437,7 +3436,7 @@ void JavaUnoObject::EnsureInitialized()
     }
 }
 
-// public static object UnBox(Android.Base.Primitives.ujobject javaObject) [static] :228
+// public static object UnBox(Android.Base.Primitives.ujobject javaObject) [static]
 uObject* JavaUnoObject::UnBox(jobject javaObject)
 {
     if (::g::Android::Base::JNI::IsSameObject(javaObject, ::g::Android::Base::Primitives::ujobject::Null()))
@@ -3448,7 +3447,7 @@ uObject* JavaUnoObject::UnBox(jobject javaObject)
     return (uObject*)longPtr;
 }
 
-// public static object UnBoxFreeingLocalRef(Android.Base.Primitives.ujobject javaObject) [static] :236
+// public static object UnBoxFreeingLocalRef(Android.Base.Primitives.ujobject javaObject) [static]
 uObject* JavaUnoObject::UnBoxFreeingLocalRef(jobject javaObject)
 {
     if (::g::Android::Base::JNI::IsSameObject(javaObject, ::g::Android::Base::Primitives::ujobject::Null()))

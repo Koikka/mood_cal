@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Event.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Event.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{namespace Fuse{struct VisualEventArgs;}}
 namespace g{
 namespace Fuse{
 
-// public class VisualEventArgs :161
+// public class VisualEventArgs
 // {
 struct VisualEventArgs_type : uType
 {

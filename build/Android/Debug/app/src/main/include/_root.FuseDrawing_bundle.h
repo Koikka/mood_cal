@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/.uno/package.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/.uno/package.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,14 +8,14 @@ namespace g{struct FuseDrawing_bundle;}
 
 namespace g{
 
-// public static generated class FuseDrawing_bundle :0
+// public static generated class FuseDrawing_bundle
 // {
 uClassType* FuseDrawing_bundle_typeof();
 
 struct FuseDrawing_bundle : uObject
 {
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> LinearGradientDrawable479fd075_;
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& LinearGradientDrawable479fd075() { return FuseDrawing_bundle_typeof()->Init(), LinearGradientDrawable479fd075_; }
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> LinearGradientDrawablee64f68c7_;
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& LinearGradientDrawablee64f68c7() { return FuseDrawing_bundle_typeof()->Init(), LinearGradientDrawablee64f68c7_; }
 };
 // }
 

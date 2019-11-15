@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Internal/Helpers.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Gestures/1.12.0/Internal/Helpers.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace Gestures{
 
-// internal sealed class DegreeSpan :6
+// internal sealed class DegreeSpan
 // {
 uType* DegreeSpan_typeof();
 void DegreeSpan__ctor__fn(DegreeSpan* __this, float* a, float* b);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Node.Rooting.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Node.Rooting.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,7 +7,7 @@
 namespace g{
 namespace Fuse{
 
-// internal abstract interface INotifyUnrooted :15
+// internal abstract interface INotifyUnrooted
 // {
 uInterfaceType* INotifyUnrooted_typeof();
 

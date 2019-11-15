@@ -15,7 +15,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -28,7 +28,7 @@ namespace g{struct MenuButton;}
 
 namespace g{
 
-// public partial sealed class MenuButton :2
+// public partial sealed class MenuButton
 // {
 ::g::Fuse::Controls::Panel_type* MenuButton_typeof();
 void MenuButton__ctor_8_fn(MenuButton* __this);

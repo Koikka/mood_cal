@@ -1,13 +1,12 @@
 // This file was generated based on '(multiple files)'.
 // WARNING: Changes might be lost if you edit this file directly.
 
-#include <Android.Base.AndroidB-e9b6d531.h>
+#include <Android.Base.AndroidB-60154a31.h>
 #include <Android.Base.JNI.h>
-#include <Android.Base.Primitiv-2b9696be.h>
-#include <Android.Base.Primitiv-45253430.h>
-#include <Android.Base.Primitiv-e437692f.h>
-#include <Android.Base.Wrappers.JWrapper.h>
-#include <Android.com.fuse.Expe-9d584358.h>
+#include <Android.Base.Primitiv-2f94ad06.h>
+#include <Android.Base.Primitiv-a9a90c2a.h>
+#include <Android.Base.Primitiv-efc9ca76.h>
+#include <Android.com.fuse.Expe-ca43fdcb.h>
 #include <Uno.Bool.h>
 #include <Uno.Exception.h>
 #include <Uno.Int.h>
@@ -89,10 +88,10 @@ namespace com{
 namespace fuse{
 namespace ExperimentalHttp{
 
-// /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/Implementation/Android/ExperimentalHttp/HttpRequest.uno
-// --------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Net.Http/1.12.3/Implementation/Android/ExperimentalHttp/HttpRequest.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract extern class HttpRequest :7
+// public abstract extern class HttpRequest
 // {
 static void HttpRequest_build(uType* type)
 {
@@ -138,187 +137,187 @@ HttpRequest_type* HttpRequest_typeof()
     return type;
 }
 
-// protected HttpRequest(Android.Base.Wrappers.IJWrapper arg0, Android.Base.Wrappers.IJWrapper arg1, Android.Base.Wrappers.IJWrapper arg2) :59
+// protected HttpRequest(Android.Base.Wrappers.IJWrapper arg0, Android.Base.Wrappers.IJWrapper arg1, Android.Base.Wrappers.IJWrapper arg2)
 void HttpRequest__ctor_4_fn(HttpRequest* __this, uObject* arg0, uObject* arg1, uObject* arg2)
 {
     __this->ctor_4(arg0, arg1, arg2);
 }
 
-// public static extern new void _Init() :17
+// public static extern new void _Init()
 void HttpRequest___Init1_fn()
 {
     HttpRequest::_Init1();
 }
 
-// public static extern new void _InitProxy() :13
+// public static extern new void _InitProxy()
 void HttpRequest___InitProxy1_fn()
 {
     HttpRequest::_InitProxy1();
 }
 
-// public static extern new bool _IsThisType(Android.Base.Wrappers.IJWrapper obj) :15
+// public static extern new bool _IsThisType(Android.Base.Wrappers.IJWrapper obj)
 void HttpRequest___IsThisType1_fn(uObject* obj_, bool* __retval)
 {
     *__retval = HttpRequest::_IsThisType1(obj_);
 }
 
-// public void Abort() :141
+// public void Abort()
 void HttpRequest__Abort_fn(HttpRequest* __this)
 {
     __this->Abort();
 }
 
-// public static extern void Abort_IMPL_44305(bool arg0, Android.Base.Primitives.ujobject arg1) :230
+// public static extern void Abort_IMPL_44305(bool arg0, Android.Base.Primitives.ujobject arg1)
 void HttpRequest__Abort_IMPL_44305_fn(bool* arg0_, jobject* arg1_)
 {
     HttpRequest::Abort_IMPL_44305(*arg0_, *arg1_);
 }
 
-// public Android.Base.Wrappers.IJWrapper GetResponseHeader(Android.Base.Wrappers.IJWrapper arg0) :151
+// public Android.Base.Wrappers.IJWrapper GetResponseHeader(Android.Base.Wrappers.IJWrapper arg0)
 void HttpRequest__GetResponseHeader_fn(HttpRequest* __this, uObject* arg0, uObject** __retval)
 {
     *__retval = __this->GetResponseHeader(arg0);
 }
 
-// public static extern Android.Base.Wrappers.IJWrapper GetResponseHeader_IMPL_44307(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2) :236
+// public static extern Android.Base.Wrappers.IJWrapper GetResponseHeader_IMPL_44307(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2)
 void HttpRequest__GetResponseHeader_IMPL_44307_fn(bool* arg0_, jobject* arg1_, uObject* arg2_, uObject** __retval)
 {
     *__retval = HttpRequest::GetResponseHeader_IMPL_44307(*arg0_, *arg1_, arg2_);
 }
 
-// public Android.Base.Wrappers.IJWrapper GetResponseHeaders() :156
+// public Android.Base.Wrappers.IJWrapper GetResponseHeaders()
 void HttpRequest__GetResponseHeaders_fn(HttpRequest* __this, uObject** __retval)
 {
     *__retval = __this->GetResponseHeaders();
 }
 
-// public static extern Android.Base.Wrappers.IJWrapper GetResponseHeaders_IMPL_44308(bool arg0, Android.Base.Primitives.ujobject arg1) :239
+// public static extern Android.Base.Wrappers.IJWrapper GetResponseHeaders_IMPL_44308(bool arg0, Android.Base.Primitives.ujobject arg1)
 void HttpRequest__GetResponseHeaders_IMPL_44308_fn(bool* arg0_, jobject* arg1_, uObject** __retval)
 {
     *__retval = HttpRequest::GetResponseHeaders_IMPL_44308(*arg0_, *arg1_);
 }
 
-// public int GetResponseStatus() :146
+// public int GetResponseStatus()
 void HttpRequest__GetResponseStatus_fn(HttpRequest* __this, int32_t* __retval)
 {
     *__retval = __this->GetResponseStatus();
 }
 
-// public static extern int GetResponseStatus_IMPL_44306(bool arg0, Android.Base.Primitives.ujobject arg1) :233
+// public static extern int GetResponseStatus_IMPL_44306(bool arg0, Android.Base.Primitives.ujobject arg1)
 void HttpRequest__GetResponseStatus_IMPL_44306_fn(bool* arg0_, jobject* arg1_, int32_t* __retval)
 {
     *__retval = HttpRequest::GetResponseStatus_IMPL_44306(*arg0_, *arg1_);
 }
 
-// public Android.Base.Wrappers.IJWrapper GetResponseString() :106
+// public Android.Base.Wrappers.IJWrapper GetResponseString()
 void HttpRequest__GetResponseString_fn(HttpRequest* __this, uObject** __retval)
 {
     *__retval = __this->GetResponseString();
 }
 
-// public static extern Android.Base.Wrappers.IJWrapper GetResponseString_IMPL_44297(bool arg0, Android.Base.Primitives.ujobject arg1) :209
+// public static extern Android.Base.Wrappers.IJWrapper GetResponseString_IMPL_44297(bool arg0, Android.Base.Primitives.ujobject arg1)
 void HttpRequest__GetResponseString_IMPL_44297_fn(bool* arg0_, jobject* arg1_, uObject** __retval)
 {
     *__retval = HttpRequest::GetResponseString_IMPL_44297(*arg0_, *arg1_);
 }
 
-// public static extern Android.Base.Primitives.ujobject HttpRequest_IMPL_44284(Android.Base.Wrappers.IJWrapper arg0, Android.Base.Wrappers.IJWrapper arg1, Android.Base.Wrappers.IJWrapper arg2, Android.Base.Wrappers.IJWrapper arg3) :191
+// public static extern Android.Base.Primitives.ujobject HttpRequest_IMPL_44284(Android.Base.Wrappers.IJWrapper arg0, Android.Base.Wrappers.IJWrapper arg1, Android.Base.Wrappers.IJWrapper arg2, Android.Base.Wrappers.IJWrapper arg3)
 void HttpRequest__HttpRequest_IMPL_44284_fn(uObject* arg0_, uObject* arg1_, uObject* arg2_, uObject* arg3_, jobject* __retval)
 {
     *__retval = HttpRequest::HttpRequest_IMPL_44284(arg0_, arg1_, arg2_, arg3_);
 }
 
-// public static bool InstallCache(Android.Base.Wrappers.IJWrapper arg0, long arg1) :34
+// public static bool InstallCache(Android.Base.Wrappers.IJWrapper arg0, long arg1)
 void HttpRequest__InstallCache_fn(uObject* arg0, int64_t* arg1, bool* __retval)
 {
     *__retval = HttpRequest::InstallCache(arg0, *arg1);
 }
 
-// public static extern bool InstallCache_IMPL_44279(Android.Base.Wrappers.IJWrapper arg0, long arg1) :175
+// public static extern bool InstallCache_IMPL_44279(Android.Base.Wrappers.IJWrapper arg0, long arg1)
 void HttpRequest__InstallCache_IMPL_44279_fn(uObject* arg0_, int64_t* arg1_, bool* __retval)
 {
     *__retval = HttpRequest::InstallCache_IMPL_44279(arg0_, *arg1_);
 }
 
-// public void SendAsync() :111
+// public void SendAsync()
 void HttpRequest__SendAsync_fn(HttpRequest* __this)
 {
     __this->SendAsync();
 }
 
-// public static extern void SendAsync_IMPL_44299(bool arg0, Android.Base.Primitives.ujobject arg1) :212
+// public static extern void SendAsync_IMPL_44299(bool arg0, Android.Base.Primitives.ujobject arg1)
 void HttpRequest__SendAsync_IMPL_44299_fn(bool* arg0_, jobject* arg1_)
 {
     HttpRequest::SendAsync_IMPL_44299(*arg0_, *arg1_);
 }
 
-// public void SendAsyncBuf(Android.Base.Wrappers.IJWrapper arg0) :116
+// public void SendAsyncBuf(Android.Base.Wrappers.IJWrapper arg0)
 void HttpRequest__SendAsyncBuf_fn(HttpRequest* __this, uObject* arg0)
 {
     __this->SendAsyncBuf(arg0);
 }
 
-// public static extern void SendAsyncBuf_IMPL_44300(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2) :215
+// public static extern void SendAsyncBuf_IMPL_44300(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2)
 void HttpRequest__SendAsyncBuf_IMPL_44300_fn(bool* arg0_, jobject* arg1_, uObject* arg2_)
 {
     HttpRequest::SendAsyncBuf_IMPL_44300(*arg0_, *arg1_, arg2_);
 }
 
-// public void SendAsyncStr(Android.Base.Wrappers.IJWrapper arg0) :121
+// public void SendAsyncStr(Android.Base.Wrappers.IJWrapper arg0)
 void HttpRequest__SendAsyncStr_fn(HttpRequest* __this, uObject* arg0)
 {
     __this->SendAsyncStr(arg0);
 }
 
-// public static extern void SendAsyncStr_IMPL_44301(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2) :218
+// public static extern void SendAsyncStr_IMPL_44301(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2)
 void HttpRequest__SendAsyncStr_IMPL_44301_fn(bool* arg0_, jobject* arg1_, uObject* arg2_)
 {
     HttpRequest::SendAsyncStr_IMPL_44301(*arg0_, *arg1_, arg2_);
 }
 
-// public void SetCaching(bool arg0) :96
+// public void SetCaching(bool arg0)
 void HttpRequest__SetCaching_fn(HttpRequest* __this, bool* arg0)
 {
     __this->SetCaching(*arg0);
 }
 
-// public static extern void SetCaching_IMPL_44295(bool arg0, Android.Base.Primitives.ujobject arg1, bool arg2) :203
+// public static extern void SetCaching_IMPL_44295(bool arg0, Android.Base.Primitives.ujobject arg1, bool arg2)
 void HttpRequest__SetCaching_IMPL_44295_fn(bool* arg0_, jobject* arg1_, bool* arg2_)
 {
     HttpRequest::SetCaching_IMPL_44295(*arg0_, *arg1_, *arg2_);
 }
 
-// public void SetHeader(Android.Base.Wrappers.IJWrapper arg0, Android.Base.Wrappers.IJWrapper arg1) :86
+// public void SetHeader(Android.Base.Wrappers.IJWrapper arg0, Android.Base.Wrappers.IJWrapper arg1)
 void HttpRequest__SetHeader_fn(HttpRequest* __this, uObject* arg0, uObject* arg1)
 {
     __this->SetHeader(arg0, arg1);
 }
 
-// public static extern void SetHeader_IMPL_44293(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2, Android.Base.Wrappers.IJWrapper arg3) :197
+// public static extern void SetHeader_IMPL_44293(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2, Android.Base.Wrappers.IJWrapper arg3)
 void HttpRequest__SetHeader_IMPL_44293_fn(bool* arg0_, jobject* arg1_, uObject* arg2_, uObject* arg3_)
 {
     HttpRequest::SetHeader_IMPL_44293(*arg0_, *arg1_, arg2_, arg3_);
 }
 
-// public void SetResponseType(int arg0) :81
+// public void SetResponseType(int arg0)
 void HttpRequest__SetResponseType_fn(HttpRequest* __this, int32_t* arg0)
 {
     __this->SetResponseType(*arg0);
 }
 
-// public static extern void SetResponseType_IMPL_44292(bool arg0, Android.Base.Primitives.ujobject arg1, int arg2) :194
+// public static extern void SetResponseType_IMPL_44292(bool arg0, Android.Base.Primitives.ujobject arg1, int arg2)
 void HttpRequest__SetResponseType_IMPL_44292_fn(bool* arg0_, jobject* arg1_, int32_t* arg2_)
 {
     HttpRequest::SetResponseType_IMPL_44292(*arg0_, *arg1_, *arg2_);
 }
 
-// public void SetTimeout(int arg0) :91
+// public void SetTimeout(int arg0)
 void HttpRequest__SetTimeout_fn(HttpRequest* __this, int32_t* arg0)
 {
     __this->SetTimeout(*arg0);
 }
 
-// public static extern void SetTimeout_IMPL_44294(bool arg0, Android.Base.Primitives.ujobject arg1, int arg2) :200
+// public static extern void SetTimeout_IMPL_44294(bool arg0, Android.Base.Primitives.ujobject arg1, int arg2)
 void HttpRequest__SetTimeout_IMPL_44294_fn(bool* arg0_, jobject* arg1_, int32_t* arg2_)
 {
     HttpRequest::SetTimeout_IMPL_44294(*arg0_, *arg1_, *arg2_);
@@ -342,7 +341,7 @@ jmethodID HttpRequest::GetResponseStatus_44306_ID_;
 jmethodID HttpRequest::GetResponseHeader_44307_ID_;
 jmethodID HttpRequest::GetResponseHeaders_44308_ID_;
 
-// protected HttpRequest(Android.Base.Wrappers.IJWrapper arg0, Android.Base.Wrappers.IJWrapper arg1, Android.Base.Wrappers.IJWrapper arg2) [instance] :59
+// protected HttpRequest(Android.Base.Wrappers.IJWrapper arg0, Android.Base.Wrappers.IJWrapper arg1, Android.Base.Wrappers.IJWrapper arg2) [instance]
 void HttpRequest::ctor_4(uObject* arg0, uObject* arg1, uObject* arg2)
 {
     ctor_1(::g::Android::Base::JNI::GetDefaultObject(), ::g::Android::Base::JNI::GetDefaultType(), false, false);
@@ -351,82 +350,82 @@ void HttpRequest::ctor_4(uObject* arg0, uObject* arg1, uObject* arg2)
     _javaObject = HttpRequest::HttpRequest_IMPL_44284((uObject*)wrapper, arg0, arg1, arg2);
 }
 
-// public void Abort() [instance] :141
+// public void Abort() [instance]
 void HttpRequest::Abort()
 {
     HttpRequest::Abort_IMPL_44305(_subclassed, _javaObject);
 }
 
-// public Android.Base.Wrappers.IJWrapper GetResponseHeader(Android.Base.Wrappers.IJWrapper arg0) [instance] :151
+// public Android.Base.Wrappers.IJWrapper GetResponseHeader(Android.Base.Wrappers.IJWrapper arg0) [instance]
 uObject* HttpRequest::GetResponseHeader(uObject* arg0)
 {
     return HttpRequest::GetResponseHeader_IMPL_44307(_subclassed, _javaObject, arg0);
 }
 
-// public Android.Base.Wrappers.IJWrapper GetResponseHeaders() [instance] :156
+// public Android.Base.Wrappers.IJWrapper GetResponseHeaders() [instance]
 uObject* HttpRequest::GetResponseHeaders()
 {
     return HttpRequest::GetResponseHeaders_IMPL_44308(_subclassed, _javaObject);
 }
 
-// public int GetResponseStatus() [instance] :146
+// public int GetResponseStatus() [instance]
 int32_t HttpRequest::GetResponseStatus()
 {
     return HttpRequest::GetResponseStatus_IMPL_44306(_subclassed, _javaObject);
 }
 
-// public Android.Base.Wrappers.IJWrapper GetResponseString() [instance] :106
+// public Android.Base.Wrappers.IJWrapper GetResponseString() [instance]
 uObject* HttpRequest::GetResponseString()
 {
     return HttpRequest::GetResponseString_IMPL_44297(_subclassed, _javaObject);
 }
 
-// public void SendAsync() [instance] :111
+// public void SendAsync() [instance]
 void HttpRequest::SendAsync()
 {
     HttpRequest::SendAsync_IMPL_44299(_subclassed, _javaObject);
 }
 
-// public void SendAsyncBuf(Android.Base.Wrappers.IJWrapper arg0) [instance] :116
+// public void SendAsyncBuf(Android.Base.Wrappers.IJWrapper arg0) [instance]
 void HttpRequest::SendAsyncBuf(uObject* arg0)
 {
     HttpRequest::SendAsyncBuf_IMPL_44300(_subclassed, _javaObject, arg0);
 }
 
-// public void SendAsyncStr(Android.Base.Wrappers.IJWrapper arg0) [instance] :121
+// public void SendAsyncStr(Android.Base.Wrappers.IJWrapper arg0) [instance]
 void HttpRequest::SendAsyncStr(uObject* arg0)
 {
     HttpRequest::SendAsyncStr_IMPL_44301(_subclassed, _javaObject, arg0);
 }
 
-// public void SetCaching(bool arg0) [instance] :96
+// public void SetCaching(bool arg0) [instance]
 void HttpRequest::SetCaching(bool arg0)
 {
     bool arg0_ = arg0;
     HttpRequest::SetCaching_IMPL_44295(_subclassed, _javaObject, arg0_);
 }
 
-// public void SetHeader(Android.Base.Wrappers.IJWrapper arg0, Android.Base.Wrappers.IJWrapper arg1) [instance] :86
+// public void SetHeader(Android.Base.Wrappers.IJWrapper arg0, Android.Base.Wrappers.IJWrapper arg1) [instance]
 void HttpRequest::SetHeader(uObject* arg0, uObject* arg1)
 {
     HttpRequest::SetHeader_IMPL_44293(_subclassed, _javaObject, arg0, arg1);
 }
 
-// public void SetResponseType(int arg0) [instance] :81
+// public void SetResponseType(int arg0) [instance]
 void HttpRequest::SetResponseType(int32_t arg0)
 {
     int32_t arg0_ = arg0;
     HttpRequest::SetResponseType_IMPL_44292(_subclassed, _javaObject, arg0_);
 }
 
-// public void SetTimeout(int arg0) [instance] :91
+// public void SetTimeout(int arg0) [instance]
 void HttpRequest::SetTimeout(int32_t arg0)
 {
     int32_t arg0_ = arg0;
     HttpRequest::SetTimeout_IMPL_44294(_subclassed, _javaObject, arg0_);
 }
 
-// public static extern new void _Init() [static] :17
+// public static extern new void _Init() [static]
 void HttpRequest::_Init1()
 {
     if (HttpRequest::_javaClass1_) { return; }
@@ -436,7 +435,7 @@ void HttpRequest::_Init1()
     if (!HttpRequest::_javaClass1_) { THROW_UNO_EXCEPTION("Unable to cache class 'com.fuse.ExperimentalHttp.HttpRequest'", 61);; }
 }
 
-// public static extern new void _InitProxy() [static] :13
+// public static extern new void _InitProxy() [static]
 void HttpRequest::_InitProxy1()
 {
     if (HttpRequest::_javaProxyClass1_) { return; }
@@ -470,7 +469,7 @@ void HttpRequest::_InitProxy1()
     COMMIT_REG_MTD(HttpRequest::_javaProxyClass1_);
 }
 
-// public static extern new bool _IsThisType(Android.Base.Wrappers.IJWrapper obj) [static] :15
+// public static extern new bool _IsThisType(Android.Base.Wrappers.IJWrapper obj) [static]
 bool HttpRequest::_IsThisType1(uObject* obj_)
 {
     int N = 44;
@@ -485,7 +484,7 @@ bool HttpRequest::_IsThisType1(uObject* obj_)
     return false;
 }
 
-// public static extern void Abort_IMPL_44305(bool arg0, Android.Base.Primitives.ujobject arg1) [static] :230
+// public static extern void Abort_IMPL_44305(bool arg0, Android.Base.Primitives.ujobject arg1) [static]
 void HttpRequest::Abort_IMPL_44305(bool arg0_, jobject arg1_)
 {
     INIT_JNI;
@@ -502,7 +501,7 @@ void HttpRequest::Abort_IMPL_44305(bool arg0_, jobject arg1_)
     ::g::Android::Base::JNI::CheckException1(U_JNIVAR);
 }
 
-// public static extern Android.Base.Wrappers.IJWrapper GetResponseHeader_IMPL_44307(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2) [static] :236
+// public static extern Android.Base.Wrappers.IJWrapper GetResponseHeader_IMPL_44307(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2) [static]
 uObject* HttpRequest::GetResponseHeader_IMPL_44307(bool arg0_, jobject arg1_, uObject* arg2_)
 {
     INIT_JNI;
@@ -522,7 +521,7 @@ uObject* HttpRequest::GetResponseHeader_IMPL_44307(bool arg0_, jobject arg1_, uO
     return result;
 }
 
-// public static extern Android.Base.Wrappers.IJWrapper GetResponseHeaders_IMPL_44308(bool arg0, Android.Base.Primitives.ujobject arg1) [static] :239
+// public static extern Android.Base.Wrappers.IJWrapper GetResponseHeaders_IMPL_44308(bool arg0, Android.Base.Primitives.ujobject arg1) [static]
 uObject* HttpRequest::GetResponseHeaders_IMPL_44308(bool arg0_, jobject arg1_)
 {
     INIT_JNI;
@@ -542,7 +541,7 @@ uObject* HttpRequest::GetResponseHeaders_IMPL_44308(bool arg0_, jobject arg1_)
     return result;
 }
 
-// public static extern int GetResponseStatus_IMPL_44306(bool arg0, Android.Base.Primitives.ujobject arg1) [static] :233
+// public static extern int GetResponseStatus_IMPL_44306(bool arg0, Android.Base.Primitives.ujobject arg1) [static]
 int32_t HttpRequest::GetResponseStatus_IMPL_44306(bool arg0_, jobject arg1_)
 {
     INIT_JNI;
@@ -562,7 +561,7 @@ int32_t HttpRequest::GetResponseStatus_IMPL_44306(bool arg0_, jobject arg1_)
     return result;
 }
 
-// public static extern Android.Base.Wrappers.IJWrapper GetResponseString_IMPL_44297(bool arg0, Android.Base.Primitives.ujobject arg1) [static] :209
+// public static extern Android.Base.Wrappers.IJWrapper GetResponseString_IMPL_44297(bool arg0, Android.Base.Primitives.ujobject arg1) [static]
 uObject* HttpRequest::GetResponseString_IMPL_44297(bool arg0_, jobject arg1_)
 {
     INIT_JNI;
@@ -582,7 +581,7 @@ uObject* HttpRequest::GetResponseString_IMPL_44297(bool arg0_, jobject arg1_)
     return result;
 }
 
-// public static extern Android.Base.Primitives.ujobject HttpRequest_IMPL_44284(Android.Base.Wrappers.IJWrapper arg0, Android.Base.Wrappers.IJWrapper arg1, Android.Base.Wrappers.IJWrapper arg2, Android.Base.Wrappers.IJWrapper arg3) [static] :191
+// public static extern Android.Base.Primitives.ujobject HttpRequest_IMPL_44284(Android.Base.Wrappers.IJWrapper arg0, Android.Base.Wrappers.IJWrapper arg1, Android.Base.Wrappers.IJWrapper arg2, Android.Base.Wrappers.IJWrapper arg3) [static]
 jobject HttpRequest::HttpRequest_IMPL_44284(uObject* arg0_, uObject* arg1_, uObject* arg2_, uObject* arg3_)
 {
     INIT_JNI;
@@ -611,13 +610,13 @@ jobject HttpRequest::HttpRequest_IMPL_44284(uObject* arg0_, uObject* arg1_, uObj
     return result;
 }
 
-// public static bool InstallCache(Android.Base.Wrappers.IJWrapper arg0, long arg1) [static] :34
+// public static bool InstallCache(Android.Base.Wrappers.IJWrapper arg0, long arg1) [static]
 bool HttpRequest::InstallCache(uObject* arg0, int64_t arg1)
 {
     return HttpRequest::InstallCache_IMPL_44279(arg0, arg1);
 }
 
-// public static extern bool InstallCache_IMPL_44279(Android.Base.Wrappers.IJWrapper arg0, long arg1) [static] :175
+// public static extern bool InstallCache_IMPL_44279(Android.Base.Wrappers.IJWrapper arg0, long arg1) [static]
 bool HttpRequest::InstallCache_IMPL_44279(uObject* arg0_, int64_t arg1_)
 {
     INIT_JNI;
@@ -631,7 +630,7 @@ bool HttpRequest::InstallCache_IMPL_44279(uObject* arg0_, int64_t arg1_)
     return result;
 }
 
-// public static extern void SendAsync_IMPL_44299(bool arg0, Android.Base.Primitives.ujobject arg1) [static] :212
+// public static extern void SendAsync_IMPL_44299(bool arg0, Android.Base.Primitives.ujobject arg1) [static]
 void HttpRequest::SendAsync_IMPL_44299(bool arg0_, jobject arg1_)
 {
     INIT_JNI;
@@ -648,7 +647,7 @@ void HttpRequest::SendAsync_IMPL_44299(bool arg0_, jobject arg1_)
     ::g::Android::Base::JNI::CheckException1(U_JNIVAR);
 }
 
-// public static extern void SendAsyncBuf_IMPL_44300(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2) [static] :215
+// public static extern void SendAsyncBuf_IMPL_44300(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2) [static]
 void HttpRequest::SendAsyncBuf_IMPL_44300(bool arg0_, jobject arg1_, uObject* arg2_)
 {
     INIT_JNI;
@@ -665,7 +664,7 @@ void HttpRequest::SendAsyncBuf_IMPL_44300(bool arg0_, jobject arg1_, uObject* ar
     ::g::Android::Base::JNI::CheckException1(U_JNIVAR);
 }
 
-// public static extern void SendAsyncStr_IMPL_44301(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2) [static] :218
+// public static extern void SendAsyncStr_IMPL_44301(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2) [static]
 void HttpRequest::SendAsyncStr_IMPL_44301(bool arg0_, jobject arg1_, uObject* arg2_)
 {
     INIT_JNI;
@@ -682,7 +681,7 @@ void HttpRequest::SendAsyncStr_IMPL_44301(bool arg0_, jobject arg1_, uObject* ar
     ::g::Android::Base::JNI::CheckException1(U_JNIVAR);
 }
 
-// public static extern void SetCaching_IMPL_44295(bool arg0, Android.Base.Primitives.ujobject arg1, bool arg2) [static] :203
+// public static extern void SetCaching_IMPL_44295(bool arg0, Android.Base.Primitives.ujobject arg1, bool arg2) [static]
 void HttpRequest::SetCaching_IMPL_44295(bool arg0_, jobject arg1_, bool arg2_)
 {
     INIT_JNI;
@@ -699,7 +698,7 @@ void HttpRequest::SetCaching_IMPL_44295(bool arg0_, jobject arg1_, bool arg2_)
     ::g::Android::Base::JNI::CheckException1(U_JNIVAR);
 }
 
-// public static extern void SetHeader_IMPL_44293(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2, Android.Base.Wrappers.IJWrapper arg3) [static] :197
+// public static extern void SetHeader_IMPL_44293(bool arg0, Android.Base.Primitives.ujobject arg1, Android.Base.Wrappers.IJWrapper arg2, Android.Base.Wrappers.IJWrapper arg3) [static]
 void HttpRequest::SetHeader_IMPL_44293(bool arg0_, jobject arg1_, uObject* arg2_, uObject* arg3_)
 {
     INIT_JNI;
@@ -717,7 +716,7 @@ void HttpRequest::SetHeader_IMPL_44293(bool arg0_, jobject arg1_, uObject* arg2_
     ::g::Android::Base::JNI::CheckException1(U_JNIVAR);
 }
 
-// public static extern void SetResponseType_IMPL_44292(bool arg0, Android.Base.Primitives.ujobject arg1, int arg2) [static] :194
+// public static extern void SetResponseType_IMPL_44292(bool arg0, Android.Base.Primitives.ujobject arg1, int arg2) [static]
 void HttpRequest::SetResponseType_IMPL_44292(bool arg0_, jobject arg1_, int32_t arg2_)
 {
     INIT_JNI;
@@ -734,7 +733,7 @@ void HttpRequest::SetResponseType_IMPL_44292(bool arg0_, jobject arg1_, int32_t 
     ::g::Android::Base::JNI::CheckException1(U_JNIVAR);
 }
 
-// public static extern void SetTimeout_IMPL_44294(bool arg0, Android.Base.Primitives.ujobject arg1, int arg2) [static] :200
+// public static extern void SetTimeout_IMPL_44294(bool arg0, Android.Base.Primitives.ujobject arg1, int arg2) [static]
 void HttpRequest::SetTimeout_IMPL_44294(bool arg0_, jobject arg1_, int32_t arg2_)
 {
     INIT_JNI;

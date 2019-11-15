@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.WebView/1.9.0/WebView.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.WebView/1.12.0/WebView.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Controls.ISourceReceiver.h>
-#include <Fuse.Navigation.IBase-84e3f965.h>
+#include <Fuse.Navigation.IBase-516f1dcd.h>
 #include <Fuse.Triggers.IProgress.h>
 #include <Uno.Object.h>
 namespace g{namespace Uno{namespace UX{struct FileSource;}}}
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public abstract interface IWebView :20
+// public abstract interface IWebView
 // {
 uInterfaceType* IWebView_typeof();
 

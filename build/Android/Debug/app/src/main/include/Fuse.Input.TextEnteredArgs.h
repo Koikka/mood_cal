@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/TextService.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Input/TextService.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Input{
 
-// public sealed class TextEnteredArgs :27
+// public sealed class TextEnteredArgs
 // {
 ::g::Fuse::VisualEventArgs_type* TextEnteredArgs_typeof();
 void TextEnteredArgs__Serialize_fn(TextEnteredArgs* __this, uObject* s);

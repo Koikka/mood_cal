@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Android.TextRenderer/1.9.0/Internal/Bitmap.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Android.TextRenderer/1.12.0/Internal/Bitmap.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Android{
 
-// internal sealed extern class Bitmap :12
+// internal sealed extern class Bitmap
 // {
 struct Bitmap_type : uType
 {

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/FuseJS/1.9.0/FileReader.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/FileReader.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{namespace Uno{namespace Threading{struct Future1;}}}
 namespace g{
 namespace FuseJS{
 
-// public sealed class FileReaderImpl :12
+// public sealed class FileReaderImpl
 // {
 ::g::Fuse::Scripting::NativeModule_type* FileReaderImpl_typeof();
 void FileReaderImpl__ctor_2_fn(FileReaderImpl* __this);

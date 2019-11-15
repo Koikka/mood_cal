@@ -970,1185 +970,1235 @@ public class ExternedBlockHost
         com.foreign.Fuse.Controls.Native.Android.TextInput.SetCursorDrawableColor209(_this, handle,color);
     }
     
-    public static void SetImeOptions210(final Object handle,final int value)
+    public static void SetFocusable210(final Object handle,final boolean value)
     {
-        com.foreign.Fuse.Controls.Native.Android.TextInput.SetImeOptions210(handle,value);
+        com.foreign.Fuse.Controls.Native.Android.TextInput.SetFocusable210(handle,value);
     }
     
-    public static void SetInputType211(final Object handle,final int value)
+    public static void SetFocusableInTouchMode211(final Object handle,final boolean value)
     {
-        com.foreign.Fuse.Controls.Native.Android.TextInput.SetInputType211(handle,value);
+        com.foreign.Fuse.Controls.Native.Android.TextInput.SetFocusableInTouchMode211(handle,value);
     }
     
-    public static void SetPlaceholderColor212(final Object handle,final int value)
+    public static void SetImeOptions212(final Object handle,final int value)
     {
-        com.foreign.Fuse.Controls.Native.Android.TextInput.SetPlaceholderColor212(handle,value);
+        com.foreign.Fuse.Controls.Native.Android.TextInput.SetImeOptions212(handle,value);
     }
     
-    public static void SetPlaceholderText213(final Object handle,final String value)
+    public static void SetInputType213(final Object handle,final int value)
     {
-        com.foreign.Fuse.Controls.Native.Android.TextInput.SetPlaceholderText213(handle,value);
+        com.foreign.Fuse.Controls.Native.Android.TextInput.SetInputType213(handle,value);
     }
     
-    public static void SetSelectionColor214(final Object handle,final int color)
+    public static void SetPlaceholderColor214(final Object handle,final int value)
     {
-        com.foreign.Fuse.Controls.Native.Android.TextInput.SetSelectionColor214(handle,color);
+        com.foreign.Fuse.Controls.Native.Android.TextInput.SetPlaceholderColor214(handle,value);
     }
     
-    public static Object Create215()
+    public static void SetPlaceholderText215(final Object handle,final String value)
     {
-        return (Object) com.foreign.Fuse.Controls.Native.Android.TextureView.Create215();
+        com.foreign.Fuse.Controls.Native.Android.TextInput.SetPlaceholderText215(handle,value);
     }
     
-    public static native void callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable217(final UnoObject jthis,final Object surface,long surfacePtr);
-    public static native void callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed218(final UnoObject jthis);
-    public static void InstallSurfaceListener216(final UnoObject _this, final Object handle)
+    public static void SetSelectionColor216(final Object handle,final int color)
     {
-        com.foreign.Fuse.Controls.Native.Android.TextureView.InstallSurfaceListener216(_this, handle);
+        com.foreign.Fuse.Controls.Native.Android.TextInput.SetSelectionColor216(handle,color);
     }
     
-    public static Object Create219()
+    public static Object Create217()
     {
-        return (Object) com.foreign.Fuse.Controls.Native.Android.TextView.Create219();
+        return (Object) com.foreign.Fuse.Controls.Native.Android.TextureView.Create217();
     }
     
-    public static void SetFont220(final Object handle,final Object fontHandle)
+    public static native void callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable219(final UnoObject jthis,final Object surface,long surfacePtr);
+    public static native void callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed220(final UnoObject jthis);
+    public static void InstallSurfaceListener218(final UnoObject _this, final Object handle)
     {
-        com.foreign.Fuse.Controls.Native.Android.TextView.SetFont220(handle,fontHandle);
+        com.foreign.Fuse.Controls.Native.Android.TextureView.InstallSurfaceListener218(_this, handle);
     }
     
-    public static void SetFontSize221(final Object handle,final float size)
+    public static Object Create221()
     {
-        com.foreign.Fuse.Controls.Native.Android.TextView.SetFontSize221(handle,size);
+        return (Object) com.foreign.Fuse.Controls.Native.Android.TextView.Create221();
     }
     
-    public static void SetLineSpacing222(final Object handle,final float spacing)
+    public static void SetFont222(final Object handle,final Object fontHandle)
     {
-        com.foreign.Fuse.Controls.Native.Android.TextView.SetLineSpacing222(handle,spacing);
+        com.foreign.Fuse.Controls.Native.Android.TextView.SetFont222(handle,fontHandle);
     }
     
-    public static void SetMaxLength223(final Object handle,final int maxLength)
+    public static void SetFontSize223(final Object handle,final float size)
     {
-        com.foreign.Fuse.Controls.Native.Android.TextView.SetMaxLength223(handle,maxLength);
+        com.foreign.Fuse.Controls.Native.Android.TextView.SetFontSize223(handle,size);
     }
     
-    public static void SetText224(final Object handle,final String text)
+    public static void SetLineSpacing224(final Object handle,final float spacing)
     {
-        com.foreign.Fuse.Controls.Native.Android.TextView.SetText224(handle,text);
+        com.foreign.Fuse.Controls.Native.Android.TextView.SetLineSpacing224(handle,spacing);
     }
     
-    public static void SetTextAlignment225(final Object handle,final int alignment)
+    public static void SetMaxLength225(final Object handle,final int maxLength)
     {
-        com.foreign.Fuse.Controls.Native.Android.TextView.SetTextAlignment225(handle,alignment);
+        com.foreign.Fuse.Controls.Native.Android.TextView.SetMaxLength225(handle,maxLength);
     }
     
-    public static void SetTextColor226(final Object handle,final int color)
+    public static void SetText226(final Object handle,final String text)
     {
-        com.foreign.Fuse.Controls.Native.Android.TextView.SetTextColor226(handle,color);
+        com.foreign.Fuse.Controls.Native.Android.TextView.SetText226(handle,text);
     }
     
-    public static void SetTextWrapping227(final Object handle,final boolean wrap)
+    public static void SetTextAlignment227(final Object handle,final int alignment)
     {
-        com.foreign.Fuse.Controls.Native.Android.TextView.SetTextWrapping227(handle,wrap);
+        com.foreign.Fuse.Controls.Native.Android.TextView.SetTextAlignment227(handle,alignment);
     }
     
-    public static Object Create228()
+    public static void SetTextColor228(final Object handle,final int color)
     {
-        return (Object) com.foreign.Fuse.Controls.Native.Android.TimePickerView.Create228();
+        com.foreign.Fuse.Controls.Native.Android.TextView.SetTextColor228(handle,color);
     }
     
-    public static long GetTimeInMsSince1970InUtc229(final UnoObject _this, final Object timePickerHandle)
+    public static void SetTextWrapping229(final Object handle,final boolean wrap)
     {
-        return (long) com.foreign.Fuse.Controls.Native.Android.TimePickerView.GetTimeInMsSince1970InUtc229(_this, timePickerHandle);
+        com.foreign.Fuse.Controls.Native.Android.TextView.SetTextWrapping229(handle,wrap);
     }
     
-    public static void SetIs24HourView230(final UnoObject _this, final Object timePickerHandle,final boolean value)
+    public static Object Create230()
     {
-        com.foreign.Fuse.Controls.Native.Android.TimePickerView.SetIs24HourView230(_this, timePickerHandle,value);
+        return (Object) com.foreign.Fuse.Controls.Native.Android.TimePickerView.Create230();
     }
     
-    public static void SetTime231(final UnoObject _this, final Object timePickerHandle,final long msSince1970InUtc)
+    public static long GetTimeInMsSince1970InUtc231(final UnoObject _this, final Object timePickerHandle)
     {
-        com.foreign.Fuse.Controls.Native.Android.TimePickerView.SetTime231(_this, timePickerHandle,msSince1970InUtc);
+        return (long) com.foreign.Fuse.Controls.Native.Android.TimePickerView.GetTimeInMsSince1970InUtc231(_this, timePickerHandle);
     }
     
-    public static Object CreateFromBundleFile232(final String bundlePath)
+    public static void SetIs24HourView232(final UnoObject _this, final Object timePickerHandle,final boolean value)
     {
-        return (Object) com.foreign.Fuse.Controls.Native.Android.Typeface.CreateFromBundleFile232(bundlePath);
+        com.foreign.Fuse.Controls.Native.Android.TimePickerView.SetIs24HourView232(_this, timePickerHandle,value);
     }
     
-    public static Object CreateFromFileImpl233(final String path)
+    public static void SetTime233(final UnoObject _this, final Object timePickerHandle,final long msSince1970InUtc)
     {
-        return (Object) com.foreign.Fuse.Controls.Native.Android.Typeface.CreateFromFileImpl233(path);
+        com.foreign.Fuse.Controls.Native.Android.TimePickerView.SetTime233(_this, timePickerHandle,msSince1970InUtc);
     }
     
-    public static Object GetDefault234()
+    public static Object CreateFromBundleFile234(final String bundlePath)
     {
-        return (Object) com.foreign.Fuse.Controls.Native.Android.Typeface.GetDefault234();
+        return (Object) com.foreign.Fuse.Controls.Native.Android.Typeface.CreateFromBundleFile234(bundlePath);
     }
     
-    public static void AddView235(final Object parentHandle,final Object childHandle)
+    public static Object CreateFromFileImpl235(final String path)
     {
-        com.foreign.Fuse.Controls.Native.Android.ViewGroup.AddView235(parentHandle,childHandle);
+        return (Object) com.foreign.Fuse.Controls.Native.Android.Typeface.CreateFromFileImpl235(path);
     }
     
-    public static void AddView1236(final Object parentHandle,final Object childHandle,final int index)
+    public static Object GetDefault236()
     {
-        com.foreign.Fuse.Controls.Native.Android.ViewGroup.AddView1236(parentHandle,childHandle,index);
+        return (Object) com.foreign.Fuse.Controls.Native.Android.Typeface.GetDefault236();
     }
     
-    public static Object Create237()
+    public static void AddView237(final Object parentHandle,final Object childHandle)
     {
-        return (Object) com.foreign.Fuse.Controls.Native.Android.ViewGroup.Create237();
+        com.foreign.Fuse.Controls.Native.Android.ViewGroup.AddView237(parentHandle,childHandle);
     }
     
-    public static void RemoveView238(final Object parentHandle,final Object childHandle)
+    public static void AddView1238(final Object parentHandle,final Object childHandle,final int index)
     {
-        com.foreign.Fuse.Controls.Native.Android.ViewGroup.RemoveView238(parentHandle,childHandle);
+        com.foreign.Fuse.Controls.Native.Android.ViewGroup.AddView1238(parentHandle,childHandle,index);
     }
     
-    public static Object Download1239(final String url)
+    public static Object Create239()
     {
-        return (Object) com.foreign.Fuse.Controls.Native.ImageLoader.ImageHandlePromise.Download1239(url);
+        return (Object) com.foreign.Fuse.Controls.Native.Android.ViewGroup.Create239();
     }
     
-    public static Object LoadFile240(final String filePath)
+    public static void RemoveView240(final Object parentHandle,final Object childHandle)
     {
-        return (Object) com.foreign.Fuse.Controls.Native.ImageLoader.LoadFile240(filePath);
+        com.foreign.Fuse.Controls.Native.Android.ViewGroup.RemoveView240(parentHandle,childHandle);
     }
     
-    public static Object LoadUri241(final String uri)
+    public static Object Download1241(final String url)
     {
-        return (Object) com.foreign.Fuse.Controls.Native.ImageLoader.LoadUri241(uri);
+        return (Object) com.foreign.Fuse.Controls.Native.ImageLoader.ImageHandlePromise.Download1241(url);
     }
     
-    public static void Release242(final Object bitmap)
+    public static Object LoadFile242(final String filePath)
     {
-        com.foreign.Fuse.Controls.Native.ImageLoader.Release242(bitmap);
+        return (Object) com.foreign.Fuse.Controls.Native.ImageLoader.LoadFile242(filePath);
     }
     
-    public static Object AllocPixelBuffer243(final int w,final int h)
+    public static Object LoadUri243(final String uri)
     {
-        return (Object) com.foreign.Fuse.Controls.Native.NativeViewRenderer.AllocPixelBuffer243(w,h);
+        return (Object) com.foreign.Fuse.Controls.Native.ImageLoader.LoadUri243(uri);
     }
     
-    public static void FreePixelBuffer244(final Object bitmap)
+    public static void Release244(final Object bitmap)
     {
-        com.foreign.Fuse.Controls.Native.NativeViewRenderer.FreePixelBuffer244(bitmap);
+        com.foreign.Fuse.Controls.Native.ImageLoader.Release244(bitmap);
     }
     
-    public static void Upload245(final Object viewHandle,final Object pixelBuffer,final boolean reuse,final int w,final int h)
+    public static Object AllocPixelBuffer245(final int w,final int h)
     {
-        com.foreign.Fuse.Controls.Native.NativeViewRenderer.Upload245(viewHandle,pixelBuffer,reuse,w,h);
+        return (Object) com.foreign.Fuse.Controls.Native.NativeViewRenderer.AllocPixelBuffer245(w,h);
     }
     
-    public static Object InstantiateViewGroupImpl246()
+    public static void FreePixelBuffer246(final Object bitmap)
     {
-        return (Object) com.foreign.Fuse.Controls.Native.ViewFactory.InstantiateViewGroupImpl246();
+        com.foreign.Fuse.Controls.Native.NativeViewRenderer.FreePixelBuffer246(bitmap);
     }
     
-    public static native Object callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(final UnoObject jthis);
-    public static void BringToFront247(final UnoObject _this)
+    public static void Upload247(final Object viewHandle,final Object pixelBuffer,final boolean reuse,final int w,final int h)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.BringToFront247(_this);
+        com.foreign.Fuse.Controls.Native.NativeViewRenderer.Upload247(viewHandle,pixelBuffer,reuse,w,h);
     }
     
-    public static void CopyState249(final UnoObject sourceHandle,final UnoObject destHandle)
+    public static Object InstantiateViewGroupImpl248()
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.CopyState249(sourceHandle,destHandle);
+        return (Object) com.foreign.Fuse.Controls.Native.ViewFactory.InstantiateViewGroupImpl248();
     }
     
-    public static String Format250(final UnoObject _this)
+    public static native Object callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(final UnoObject jthis);
+    public static void BringToFront249(final UnoObject _this)
     {
-        return (String) com.foreign.Fuse.Controls.Native.ViewHandle.Format250(_this);
+        com.foreign.Fuse.Controls.Native.ViewHandle.BringToFront249(_this);
     }
     
-    public static int GetMeasuredHeight251(final Object handle)
+    public static void CopyState251(final UnoObject sourceHandle,final UnoObject destHandle)
     {
-        return (int) com.foreign.Fuse.Controls.Native.ViewHandle.GetMeasuredHeight251(handle);
+        com.foreign.Fuse.Controls.Native.ViewHandle.CopyState251(sourceHandle,destHandle);
     }
     
-    public static int GetMeasuredWidth252(final Object handle)
+    public static String Format252(final UnoObject _this)
     {
-        return (int) com.foreign.Fuse.Controls.Native.ViewHandle.GetMeasuredWidth252(handle);
+        return (String) com.foreign.Fuse.Controls.Native.ViewHandle.Format252(_this);
     }
     
-    public static int IndexOfChild253(final UnoObject _this, final UnoObject childHandle)
+    public static int GetMeasuredHeight253(final Object handle)
     {
-        return (int) com.foreign.Fuse.Controls.Native.ViewHandle.IndexOfChild253(_this, childHandle);
+        return (int) com.foreign.Fuse.Controls.Native.ViewHandle.GetMeasuredHeight253(handle);
     }
     
-    public static void InsertChild254(final UnoObject _this, final UnoObject childHandle)
+    public static int GetMeasuredWidth254(final Object handle)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.InsertChild254(_this, childHandle);
+        return (int) com.foreign.Fuse.Controls.Native.ViewHandle.GetMeasuredWidth254(handle);
     }
     
-    public static void InsertChild1255(final UnoObject _this, final UnoObject childHandle,final int index)
+    public static int IndexOfChild255(final UnoObject _this, final UnoObject childHandle)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.InsertChild1255(_this, childHandle,index);
+        return (int) com.foreign.Fuse.Controls.Native.ViewHandle.IndexOfChild255(_this, childHandle);
     }
     
-    public static void InvalidateImpl256(final UnoObject _this)
+    public static void InsertChild256(final UnoObject _this, final UnoObject childHandle)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.InvalidateImpl256(_this);
+        com.foreign.Fuse.Controls.Native.ViewHandle.InsertChild256(_this, childHandle);
     }
     
-    public static boolean IsViewGroup257(final UnoObject _this)
+    public static void InsertChild1257(final UnoObject _this, final UnoObject childHandle,final int index)
     {
-        return (boolean) com.foreign.Fuse.Controls.Native.ViewHandle.IsViewGroup257(_this);
+        com.foreign.Fuse.Controls.Native.ViewHandle.InsertChild1257(_this, childHandle,index);
     }
     
-    public static void Measure1258(final Object handle,final int w,final int h,final boolean hasX,final boolean hasY)
+    public static void InvalidateImpl258(final UnoObject _this)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.Measure1258(handle,w,h,hasX,hasY);
+        com.foreign.Fuse.Controls.Native.ViewHandle.InvalidateImpl258(_this);
     }
     
-    public static void RemoveChild259(final UnoObject _this, final UnoObject childHandle)
+    public static boolean IsViewGroup259(final UnoObject _this)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.RemoveChild259(_this, childHandle);
+        return (boolean) com.foreign.Fuse.Controls.Native.ViewHandle.IsViewGroup259(_this);
     }
     
-    public static void ResetLayoutParams260(final UnoObject _this)
+    public static void Measure1260(final Object handle,final int w,final int h,final boolean hasX,final boolean hasY)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.ResetLayoutParams260(_this);
+        com.foreign.Fuse.Controls.Native.ViewHandle.Measure1260(handle,w,h,hasX,hasY);
     }
     
-    public static void SetBackgroundColor261(final UnoObject _this, final int color)
+    public static void RemoveChild261(final UnoObject _this, final UnoObject childHandle)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.SetBackgroundColor261(_this, color);
+        com.foreign.Fuse.Controls.Native.ViewHandle.RemoveChild261(_this, childHandle);
     }
     
-    public static void SetClipToBounds262(final UnoObject _this, final boolean clipToBounds)
+    public static void ResetLayoutParams262(final UnoObject _this)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.SetClipToBounds262(_this, clipToBounds);
+        com.foreign.Fuse.Controls.Native.ViewHandle.ResetLayoutParams262(_this);
     }
     
-    public static void SetEnabled263(final UnoObject _this, final boolean value)
+    public static void SetBackgroundColor263(final UnoObject _this, final int color)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.SetEnabled263(_this, value);
+        com.foreign.Fuse.Controls.Native.ViewHandle.SetBackgroundColor263(_this, color);
     }
     
-    public static void SetHitTestEnabled264(final UnoObject _this, final boolean enabled)
+    public static void SetClipToBounds264(final UnoObject _this, final boolean clipToBounds)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.SetHitTestEnabled264(_this, enabled);
+        com.foreign.Fuse.Controls.Native.ViewHandle.SetClipToBounds264(_this, clipToBounds);
     }
     
-    public static void SetIsVisible265(final UnoObject _this, final boolean isVisible)
+    public static void SetEnabled265(final UnoObject _this, final boolean value)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.SetIsVisible265(_this, isVisible);
+        com.foreign.Fuse.Controls.Native.ViewHandle.SetEnabled265(_this, value);
     }
     
-    public static void SetOpacity266(final UnoObject _this, final float value)
+    public static void SetHitTestEnabled266(final UnoObject _this, final boolean enabled)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.SetOpacity266(_this, value);
+        com.foreign.Fuse.Controls.Native.ViewHandle.SetHitTestEnabled266(_this, enabled);
     }
     
-    public static void UpdateTransform267(final UnoObject _this, final float scaleX,final float scaleY,final float rotation,final float rotationX,final float rotationY)
+    public static void SetIsVisible267(final UnoObject _this, final boolean isVisible)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.UpdateTransform267(_this, scaleX,scaleY,rotation,rotationX,rotationY);
+        com.foreign.Fuse.Controls.Native.ViewHandle.SetIsVisible267(_this, isVisible);
     }
     
-    public static void UpdateViewRectImpl268(final UnoObject _this, final int x,final int y,final int w,final int h)
+    public static void SetOpacity268(final UnoObject _this, final float value)
     {
-        com.foreign.Fuse.Controls.Native.ViewHandle.UpdateViewRectImpl268(_this, x,y,w,h);
+        com.foreign.Fuse.Controls.Native.ViewHandle.SetOpacity268(_this, value);
     }
     
-    public static native void callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared270(final UnoObject jthis);
-    public static native void callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion271(final UnoObject jthis);
-    public static native void callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError272(final UnoObject jthis,final int what,final int extra);
-    public static native void callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer273(final UnoObject jthis,final int percent);
-    public static Object CreateMediaPlayer269(final UnoObject _this, final Object surfaceHandle)
+    public static void UpdateTransform269(final UnoObject _this, final float scaleX,final float scaleY,final float rotation,final float rotationX,final float rotationY)
     {
-        return (Object) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.CreateMediaPlayer269(_this, surfaceHandle);
+        com.foreign.Fuse.Controls.Native.ViewHandle.UpdateTransform269(_this, scaleX,scaleY,rotation,rotationX,rotationY);
     }
     
-    public static Object CreateSurface274(final UnoObject _this, final Object surfaceTexture)
+    public static void UpdateViewRectImpl270(final UnoObject _this, final int x,final int y,final int w,final int h)
     {
-        return (Object) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.CreateSurface274(_this, surfaceTexture);
+        com.foreign.Fuse.Controls.Native.ViewHandle.UpdateViewRectImpl270(_this, x,y,w,h);
     }
     
-    public static native void callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable276(final UnoObject jthis);
-    public static Object CreateSurfaceTexture275(final UnoObject _this, final int glHandle)
+    public static native void callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnPrepared272(final UnoObject jthis);
+    public static native void callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnCompletion273(final UnoObject jthis);
+    public static native void callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnError274(final UnoObject jthis,final int what,final int extra);
+    public static native void callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnBuffer275(final UnoObject jthis,final int percent);
+    public static Object CreateMediaPlayer271(final UnoObject _this, final Object surfaceHandle)
     {
-        return (Object) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.CreateSurfaceTexture275(_this, glHandle);
+        return (Object) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.CreateMediaPlayer271(_this, surfaceHandle);
     }
     
-    public static void Dispose1277(final Object mediaplayerHandle,final Object surfaceHandle,final Object surfaceTextureHandle)
+    public static Object CreateSurface276(final UnoObject _this, final Object surfaceTexture)
     {
-        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.Dispose1277(mediaplayerHandle,surfaceHandle,surfaceTextureHandle);
+        return (Object) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.CreateSurface276(_this, surfaceTexture);
     }
     
-    public static int GetCurrentPosition278(final Object handle)
+    public static native void callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnFrameAvailable278(final UnoObject jthis);
+    public static Object CreateSurfaceTexture277(final UnoObject _this, final int glHandle)
     {
-        return (int) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.GetCurrentPosition278(handle);
+        return (Object) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.CreateSurfaceTexture277(_this, glHandle);
     }
     
-    public static int GetDuration279(final Object handle)
+    public static void Dispose1279(final Object mediaplayerHandle,final Object surfaceHandle,final Object surfaceTextureHandle)
     {
-        return (int) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.GetDuration279(handle);
+        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.Dispose1279(mediaplayerHandle,surfaceHandle,surfaceTextureHandle);
     }
     
-    public static int GetHeight280(final Object handle)
+    public static int GetCurrentPosition280(final Object handle)
     {
-        return (int) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.GetHeight280(handle);
+        return (int) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.GetCurrentPosition280(handle);
     }
     
-    public static int GetOrientation281(final Object handle,final String dataSorucePath)
+    public static int GetDuration281(final Object handle)
     {
-        return (int) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.GetOrientation281(handle,dataSorucePath);
+        return (int) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.GetDuration281(handle);
     }
     
-    public static int GetWidth282(final Object handle)
+    public static int GetHeight282(final Object handle)
     {
-        return (int) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.GetWidth282(handle);
+        return (int) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.GetHeight282(handle);
     }
     
-    public static boolean IsHardwareAccelerated283()
+    public static int GetOrientation283(final Object handle,final String dataSorucePath)
     {
-        return (boolean) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.IsHardwareAccelerated283();
+        return (int) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.GetOrientation283(handle,dataSorucePath);
     }
     
-    public static native void callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred285(final UnoObject jthis,final String msg);
-    public static void LoadAsyncAsset284(final UnoObject _this, final Object handle,final String assetName)
+    public static int GetWidth284(final Object handle)
     {
-        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.LoadAsyncAsset284(_this, handle,assetName);
+        return (int) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.GetWidth284(handle);
     }
     
-    public static void LoadAsyncUrl286(final UnoObject _this, final Object handle,final String url)
+    public static boolean IsHardwareAccelerated285()
     {
-        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.LoadAsyncUrl286(_this, handle,url);
+        return (boolean) com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.IsHardwareAccelerated285();
     }
     
-    public static void Pause1287(final Object handle)
+    public static native void callUno_Fuse_Controls_VideoImpl_Android_MediaPlayer_OnErrorOccurred287(final UnoObject jthis,final String msg);
+    public static void LoadAsyncAsset286(final UnoObject _this, final Object handle,final String assetName)
     {
-        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.Pause1287(handle);
+        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.LoadAsyncAsset286(_this, handle,assetName);
     }
     
-    public static void Play1288(final Object handle)
+    public static void LoadAsyncUrl288(final UnoObject _this, final Object handle,final String url)
     {
-        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.Play1288(handle);
+        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.LoadAsyncUrl288(_this, handle,url);
     }
     
-    public static void SeekTo289(final Object handle,final int position)
+    public static void Pause1289(final Object handle)
     {
-        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.SeekTo289(handle,position);
+        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.Pause1289(handle);
     }
     
-    public static void SetVolume290(final Object handle,final float left,final float right)
+    public static void Play1290(final Object handle)
     {
-        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.SetVolume290(handle,left,right);
+        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.Play1290(handle);
     }
     
-    public static void UpdateTexture1291(final Object surfaceTextureHandle)
+    public static void SeekTo291(final Object handle,final int position)
     {
-        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.UpdateTexture1291(surfaceTextureHandle);
+        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.SeekTo291(handle,position);
     }
     
-    public static void Stop1292(final Object session,final com.foreign.Uno.Action_String resolve,final com.foreign.Uno.Action_String reject)
+    public static void SetVolume292(final Object handle,final float left,final float right)
     {
-        com.foreign.Fuse.Controls.Android.AndroidRecordingSession.Stop1292(session,resolve,reject);
+        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.SetVolume292(handle,left,right);
     }
     
-    public static Object Create293(final Object camera,final int cameraId,final int maxWidth,final int maxHeight)
+    public static void UpdateTexture1293(final Object surfaceTextureHandle)
     {
-        return (Object) com.foreign.Fuse.Controls.Android.Camera.Create293(camera,cameraId,maxWidth,maxHeight);
+        com.foreign.Fuse.Controls.VideoImpl.Android.MediaPlayer.UpdateTexture1293(surfaceTextureHandle);
     }
     
-    public static void Dispose1294(final Object handle)
+    public static void Stop1294(final Object session,final com.foreign.Uno.Action_String resolve,final com.foreign.Uno.Action_String reject)
     {
-        com.foreign.Fuse.Controls.Android.Camera.Dispose1294(handle);
+        com.foreign.Fuse.Controls.Android.AndroidRecordingSession.Stop1294(session,resolve,reject);
     }
     
-    public static void GetSupportedPictureSizes295(final UnoObject _this, final Object camera,final com.uno.IntArray output)
+    public static Object Create295(final Object camera,final int cameraId,final int maxWidth,final int maxHeight)
     {
-        com.foreign.Fuse.Controls.Android.Camera.GetSupportedPictureSizes295(_this, camera,output);
+        return (Object) com.foreign.Fuse.Controls.Android.Camera.Create295(camera,cameraId,maxWidth,maxHeight);
     }
     
-    public static int GetSupportedPictureSizesCount296(final UnoObject _this, final Object camera)
+    public static void Dispose1296(final Object handle)
     {
-        return (int) com.foreign.Fuse.Controls.Android.Camera.GetSupportedPictureSizesCount296(_this, camera);
+        com.foreign.Fuse.Controls.Android.Camera.Dispose1296(handle);
     }
     
-    public static void Release297(final Object handle)
+    public static void GetSupportedPictureSizes297(final UnoObject _this, final Object camera,final com.uno.IntArray output)
     {
-        com.foreign.Fuse.Controls.Android.Camera.Release297(handle);
+        com.foreign.Fuse.Controls.Android.Camera.GetSupportedPictureSizes297(_this, camera,output);
     }
     
-    public static void RestoreParameters298(final UnoObject _this, final String parameters)
+    public static int GetSupportedPictureSizesCount298(final UnoObject _this, final Object camera)
     {
-        com.foreign.Fuse.Controls.Android.Camera.RestoreParameters298(_this, parameters);
+        return (int) com.foreign.Fuse.Controls.Android.Camera.GetSupportedPictureSizesCount298(_this, camera);
     }
     
-    public static String SaveParameters299(final UnoObject _this)
+    public static void Release299(final Object handle)
     {
-        return (String) com.foreign.Fuse.Controls.Android.Camera.SaveParameters299(_this);
+        com.foreign.Fuse.Controls.Android.Camera.Release299(handle);
     }
     
-    public static void SetFlashMode300(final UnoObject _this, final Object handle,final String flashMode)
+    public static void RestoreParameters300(final UnoObject _this, final String parameters)
     {
-        com.foreign.Fuse.Controls.Android.Camera.SetFlashMode300(_this, handle,flashMode);
+        com.foreign.Fuse.Controls.Android.Camera.RestoreParameters300(_this, parameters);
     }
     
-    public static void SetPictureSize301(final UnoObject _this, final int width,final int height)
+    public static String SaveParameters301(final UnoObject _this)
     {
-        com.foreign.Fuse.Controls.Android.Camera.SetPictureSize301(_this, width,height);
+        return (String) com.foreign.Fuse.Controls.Android.Camera.SaveParameters301(_this);
     }
     
-    public static void StartRecording1302(final UnoObject _this, final com.foreign.Uno.Action_Object resolve,final com.foreign.Uno.Action_String reject)
+    public static void SetCameraFocusPointNow302(final UnoObject _this, final double x,final double y,final int cameraWidth,final int cameraHeight,final int isFocusLocked)
     {
-        com.foreign.Fuse.Controls.Android.Camera.StartRecording1302(_this, resolve,reject);
+        com.foreign.Fuse.Controls.Android.Camera.SetCameraFocusPointNow302(_this, x,y,cameraWidth,cameraHeight,isFocusLocked);
     }
     
-    public static void TakePicture303(final UnoObject _this, final com.foreign.Uno.Action_Object resolve,final com.foreign.Uno.Action_String reject)
+    public static void SetFlashMode303(final UnoObject _this, final Object handle,final String flashMode)
     {
-        com.foreign.Fuse.Controls.Android.Camera.TakePicture303(_this, resolve,reject);
+        com.foreign.Fuse.Controls.Android.Camera.SetFlashMode303(_this, handle,flashMode);
     }
     
-    public static void UpdatePreviewStretchMode304(final UnoObject _this, final boolean shouldFill)
+    public static void SetPictureSize304(final UnoObject _this, final int width,final int height)
     {
-        com.foreign.Fuse.Controls.Android.Camera.UpdatePreviewStretchMode304(_this, shouldFill);
+        com.foreign.Fuse.Controls.Android.Camera.SetPictureSize304(_this, width,height);
     }
     
-    public static int GetCameraId305(final int facing)
+    public static void StartRecording1305(final UnoObject _this, final com.foreign.Uno.Action_Object resolve,final com.foreign.Uno.Action_String reject)
     {
-        return (int) com.foreign.Fuse.Controls.Android.CameraFacingExtension.GetCameraId305(facing);
+        com.foreign.Fuse.Controls.Android.Camera.StartRecording1305(_this, resolve,reject);
     }
     
-    public static void Load1306(final int cameraId,final com.foreign.Uno.Action_Object resolve,final com.foreign.Uno.Action_String reject)
+    public static void TakePicture306(final UnoObject _this, final com.foreign.Uno.Action_Object resolve,final com.foreign.Uno.Action_String reject)
     {
-        com.foreign.Fuse.Controls.Android.CameraLoader.Load1306(cameraId,resolve,reject);
+        com.foreign.Fuse.Controls.Android.Camera.TakePicture306(_this, resolve,reject);
     }
     
-    public static Object Create307()
+    public static void UpdatePreviewStretchMode307(final UnoObject _this, final boolean shouldFill)
     {
-        return (Object) com.foreign.Fuse.Controls.Android.CameraView.Create307();
+        com.foreign.Fuse.Controls.Android.Camera.UpdatePreviewStretchMode307(_this, shouldFill);
     }
     
-    public static boolean IsSupported1308(final String flashMode,final Object cameraHandle)
+    public static int GetCameraId308(final int facing)
     {
-        return (boolean) com.foreign.Fuse.Controls.Android.FlashModeExtensions.IsSupported1308(flashMode,cameraHandle);
+        return (int) com.foreign.Fuse.Controls.Android.CameraFacingExtension.GetCameraId308(facing);
     }
     
-    public static Object DecodeJpegBytes309(final com.foreign.Uno.Action_String onReject,final Object byteArray)
+    public static void Load1309(final int cameraId,final com.foreign.Uno.Action_Object resolve,final com.foreign.Uno.Action_String reject)
     {
-        return (Object) com.foreign.Fuse.Controls.Android.NativePhoto.UploadTexturePromise.DecodeJpegBytes309(onReject,byteArray);
+        com.foreign.Fuse.Controls.Android.CameraLoader.Load1309(cameraId,resolve,reject);
     }
     
-    public static int GetHeight310(final Object bitmap)
+    public static Object Create310()
     {
-        return (int) com.foreign.Fuse.Controls.Android.NativePhoto.UploadTexturePromise.GetHeight310(bitmap);
+        return (Object) com.foreign.Fuse.Controls.Android.CameraView.Create310();
     }
     
-    public static int GetWidth311(final Object bitmap)
+    public static boolean IsSupported1311(final String flashMode,final Object cameraHandle)
     {
-        return (int) com.foreign.Fuse.Controls.Android.NativePhoto.UploadTexturePromise.GetWidth311(bitmap);
+        return (boolean) com.foreign.Fuse.Controls.Android.FlashModeExtensions.IsSupported1311(flashMode,cameraHandle);
     }
     
-    public static void Upload1312(final com.foreign.Uno.Action_String onReject,final Object bitmap)
+    public static Object DecodeJpegBytes312(final com.foreign.Uno.Action_String onReject,final Object byteArray)
     {
-        com.foreign.Fuse.Controls.Android.NativePhoto.UploadTexturePromise.Upload1312(onReject,bitmap);
+        return (Object) com.foreign.Fuse.Controls.Android.NativePhoto.UploadTexturePromise.DecodeJpegBytes312(onReject,byteArray);
     }
     
-    public static Object GetInputStream313(final Object byteArray)
+    public static int GetHeight313(final Object bitmap)
     {
-        return (Object) com.foreign.Fuse.Controls.Android.NativePhoto.PhotoHandlePromise.GetInputStream313(byteArray);
+        return (int) com.foreign.Fuse.Controls.Android.NativePhoto.UploadTexturePromise.GetHeight313(bitmap);
     }
     
-    public static void Load314(final UnoObject _this, final Object byteArray,final com.uno.FloatArray matrix,final com.foreign.Uno.Action_Object onResolve,final com.foreign.Uno.Action_String onReject)
+    public static int GetWidth314(final Object bitmap)
     {
-        com.foreign.Fuse.Controls.Android.NativePhoto.PhotoHandlePromise.Load314(_this, byteArray,matrix,onResolve,onReject);
+        return (int) com.foreign.Fuse.Controls.Android.NativePhoto.UploadTexturePromise.GetWidth314(bitmap);
     }
     
-    public static void Save315(final Object byteArray,final com.foreign.Uno.Action_String resolve,final com.foreign.Uno.Action_String reject)
+    public static void Upload1315(final com.foreign.Uno.Action_String onReject,final Object bitmap)
     {
-        com.foreign.Fuse.Controls.Android.NativePhoto.SavePromise.Save315(byteArray,resolve,reject);
+        com.foreign.Fuse.Controls.Android.NativePhoto.UploadTexturePromise.Upload1315(onReject,bitmap);
+    }
+    
+    public static Object GetInputStream316(final Object byteArray)
+    {
+        return (Object) com.foreign.Fuse.Controls.Android.NativePhoto.PhotoHandlePromise.GetInputStream316(byteArray);
+    }
+    
+    public static void Load317(final UnoObject _this, final Object byteArray,final com.uno.FloatArray matrix,final com.foreign.Uno.Action_Object onResolve,final com.foreign.Uno.Action_String onReject)
+    {
+        com.foreign.Fuse.Controls.Android.NativePhoto.PhotoHandlePromise.Load317(_this, byteArray,matrix,onResolve,onReject);
+    }
+    
+    public static void Save318(final Object byteArray,final com.foreign.Uno.Action_String resolve,final com.foreign.Uno.Action_String reject)
+    {
+        com.foreign.Fuse.Controls.Android.NativePhoto.SavePromise.Save318(byteArray,resolve,reject);
     }
     
     public static native void callUno_Action(final com.foreign.Uno.Action theDelegate);
-    public static void RunAsync316(final com.foreign.Uno.Action callback)
+    public static void RunAsync319(final com.foreign.Uno.Action callback)
     {
-        com.foreign.Fuse.Controls.Android.NativePhoto.SaveThumbnailPromise.RunAsync316(callback);
+        com.foreign.Fuse.Controls.Android.NativePhoto.SaveThumbnailPromise.RunAsync319(callback);
     }
     
-    public static void SaveThumbnail1317(final Object byteArray,final int exifOrientation,final com.foreign.Uno.Action_String resolve,final com.foreign.Uno.Action_String reject,final boolean useHint,final float widthHint,final float heightHint)
+    public static void SaveThumbnail1320(final Object byteArray,final int exifOrientation,final com.foreign.Uno.Action_String resolve,final com.foreign.Uno.Action_String reject,final boolean useHint,final float widthHint,final float heightHint)
     {
-        com.foreign.Fuse.Controls.Android.NativePhoto.SaveThumbnailPromise.SaveThumbnail1317(byteArray,exifOrientation,resolve,reject,useHint,widthHint,heightHint);
+        com.foreign.Fuse.Controls.Android.NativePhoto.SaveThumbnailPromise.SaveThumbnail1320(byteArray,exifOrientation,resolve,reject,useHint,widthHint,heightHint);
     }
     
-    public static Object GetInputStream318(final Object byteArray)
+    public static Object GetInputStream321(final Object byteArray)
     {
-        return (Object) com.foreign.Fuse.Controls.Android.NativePhoto.GetInputStream318(byteArray);
+        return (Object) com.foreign.Fuse.Controls.Android.NativePhoto.GetInputStream321(byteArray);
     }
     
-    public static void Recycle319(final Object bitmap)
+    public static void Recycle322(final Object bitmap)
     {
-        com.foreign.Fuse.Controls.Android.NativePhotoHandle.Recycle319(bitmap);
+        com.foreign.Fuse.Controls.Android.NativePhotoHandle.Recycle322(bitmap);
     }
     
-    public static Object NewImageView320()
+    public static Object NewImageView323()
     {
-        return (Object) com.foreign.Fuse.Controls.Android.PhotoPreview.NewImageView320();
+        return (Object) com.foreign.Fuse.Controls.Android.PhotoPreview.NewImageView323();
     }
     
-    public static void SetCenterCrop321(final Object imageView)
+    public static void SetCenterCrop324(final Object imageView)
     {
-        com.foreign.Fuse.Controls.Android.PhotoPreview.SetCenterCrop321(imageView);
+        com.foreign.Fuse.Controls.Android.PhotoPreview.SetCenterCrop324(imageView);
     }
     
-    public static void SetCenterInside322(final Object imageView)
+    public static void SetCenterInside325(final Object imageView)
     {
-        com.foreign.Fuse.Controls.Android.PhotoPreview.SetCenterInside322(imageView);
+        com.foreign.Fuse.Controls.Android.PhotoPreview.SetCenterInside325(imageView);
     }
     
-    public static void SetImageBitmap323(final Object imageView,final Object bitmap)
+    public static void SetImageBitmap326(final Object imageView,final Object bitmap)
     {
-        com.foreign.Fuse.Controls.Android.PhotoPreview.SetImageBitmap323(imageView,bitmap);
+        com.foreign.Fuse.Controls.Android.PhotoPreview.SetImageBitmap326(imageView,bitmap);
     }
     
-    public static void CopyState324(final Object sourceHandle,final Object targetHandle,final boolean updateTextAlignment,final boolean isMultiline,final int width,final int height)
+    public static void CopyState327(final Object sourceHandle,final Object targetHandle,final boolean updateTextAlignment,final boolean isMultiline,final int width,final int height)
     {
-        com.foreign.Fuse.Controls.TextEditRenderer.CopyState324(sourceHandle,targetHandle,updateTextAlignment,isMultiline,width,height);
+        com.foreign.Fuse.Controls.TextEditRenderer.CopyState327(sourceHandle,targetHandle,updateTextAlignment,isMultiline,width,height);
     }
     
-    public static Object CreateTextEdit325()
+    public static Object CreateTextEdit328()
     {
-        return (Object) com.foreign.Fuse.Controls.TextEditRenderer.CreateTextEdit325();
+        return (Object) com.foreign.Fuse.Controls.TextEditRenderer.CreateTextEdit328();
     }
     
-    public static void ConcatTransform326(final Object cp,final Object m)
+    public static void ConcatTransform329(final Object cp,final Object m)
     {
-        com.foreign.Fuse.Drawing.AndroidSurface.ConcatTransform326(cp,m);
+        com.foreign.Fuse.Drawing.AndroidSurface.ConcatTransform329(cp,m);
     }
     
-    public static Object CreateFillPaint327()
+    public static Object CreateFillPaint330()
     {
-        return (Object) com.foreign.Fuse.Drawing.AndroidSurface.CreateFillPaint327();
+        return (Object) com.foreign.Fuse.Drawing.AndroidSurface.CreateFillPaint330();
     }
     
-    public static Object CreateLinearGradient328(final com.uno.IntArray colors,final com.uno.FloatArray stops)
+    public static Object CreateLinearGradient331(final com.uno.IntArray colors,final com.uno.FloatArray stops)
     {
-        return (Object) com.foreign.Fuse.Drawing.AndroidSurface.CreateLinearGradient328(colors,stops);
+        return (Object) com.foreign.Fuse.Drawing.AndroidSurface.CreateLinearGradient331(colors,stops);
     }
     
-    public static Object CreateStrokedPaint329(final float width,final int fjoin,final int fcap,final float miterLimit)
+    public static Object CreateStrokedPaint332(final float width,final int fjoin,final int fcap,final float miterLimit)
     {
-        return (Object) com.foreign.Fuse.Drawing.AndroidSurface.CreateStrokedPaint329(width,fjoin,fcap,miterLimit);
+        return (Object) com.foreign.Fuse.Drawing.AndroidSurface.CreateStrokedPaint332(width,fjoin,fcap,miterLimit);
     }
     
-    public static void FillPathImage330(final Object cp,final Object pathAsObject,final Object imageAsObject,final float originX,final float originY,final float tileSizeX,final float tileSizeY,final float width,final float height,final boolean eoFill,final Object paintAsObject)
+    public static void FillPathImage333(final Object cp,final Object pathAsObject,final Object imageAsObject,final float originX,final float originY,final float tileSizeX,final float tileSizeY,final float width,final float height,final boolean eoFill,final Object paintAsObject)
     {
-        com.foreign.Fuse.Drawing.AndroidSurface.FillPathImage330(cp,pathAsObject,imageAsObject,originX,originY,tileSizeX,tileSizeY,width,height,eoFill,paintAsObject);
+        com.foreign.Fuse.Drawing.AndroidSurface.FillPathImage333(cp,pathAsObject,imageAsObject,originX,originY,tileSizeX,tileSizeY,width,height,eoFill,paintAsObject);
     }
     
-    public static void FillPathLinearGradient331(final Object cp,final Object path,final Object gradientStore,final float startX,final float startY,final float endX,final float endY,final boolean eoFill,final Object pretendPaint)
+    public static void FillPathLinearGradient334(final Object cp,final Object path,final Object gradientStore,final float startX,final float startY,final float endX,final float endY,final boolean eoFill,final Object pretendPaint)
     {
-        com.foreign.Fuse.Drawing.AndroidSurface.FillPathLinearGradient331(cp,path,gradientStore,startX,startY,endX,endY,eoFill,pretendPaint);
+        com.foreign.Fuse.Drawing.AndroidSurface.FillPathLinearGradient334(cp,path,gradientStore,startX,startY,endX,endY,eoFill,pretendPaint);
     }
     
-    public static void FillPathSolidColor332(final Object cp,final Object pathAsObject,final int color,final boolean eoFill,final Object pretendPaint)
+    public static void FillPathSolidColor335(final Object cp,final Object pathAsObject,final int color,final boolean eoFill,final Object pretendPaint)
     {
-        com.foreign.Fuse.Drawing.AndroidSurface.FillPathSolidColor332(cp,pathAsObject,color,eoFill,pretendPaint);
+        com.foreign.Fuse.Drawing.AndroidSurface.FillPathSolidColor335(cp,pathAsObject,color,eoFill,pretendPaint);
     }
     
-    public static Object NewContext333()
+    public static Object NewContext336()
     {
-        return (Object) com.foreign.Fuse.Drawing.AndroidSurface.NewContext333();
+        return (Object) com.foreign.Fuse.Drawing.AndroidSurface.NewContext336();
     }
     
-    public static void PathClose334(final Object pathAsObject)
+    public static void PathClose337(final Object pathAsObject)
     {
-        com.foreign.Fuse.Drawing.AndroidSurface.PathClose334(pathAsObject);
+        com.foreign.Fuse.Drawing.AndroidSurface.PathClose337(pathAsObject);
     }
     
-    public static Object PathCreateMutable335()
+    public static Object PathCreateMutable338()
     {
-        return (Object) com.foreign.Fuse.Drawing.AndroidSurface.PathCreateMutable335();
+        return (Object) com.foreign.Fuse.Drawing.AndroidSurface.PathCreateMutable338();
     }
     
-    public static void PathCurveTo336(final Object pathAsObject,final float x,final float y,final float ax,final float ay,final float bx,final float by)
+    public static void PathCurveTo339(final Object pathAsObject,final float x,final float y,final float ax,final float ay,final float bx,final float by)
     {
-        com.foreign.Fuse.Drawing.AndroidSurface.PathCurveTo336(pathAsObject,x,y,ax,ay,bx,by);
+        com.foreign.Fuse.Drawing.AndroidSurface.PathCurveTo339(pathAsObject,x,y,ax,ay,bx,by);
     }
     
-    public static void PathLineTo337(final Object pathAsObject,final float x,final float y)
+    public static void PathLineTo340(final Object pathAsObject,final float x,final float y)
     {
-        com.foreign.Fuse.Drawing.AndroidSurface.PathLineTo337(pathAsObject,x,y);
+        com.foreign.Fuse.Drawing.AndroidSurface.PathLineTo340(pathAsObject,x,y);
     }
     
-    public static void PathMoveTo338(final Object pathAsObject,final float x,final float y)
+    public static void PathMoveTo341(final Object pathAsObject,final float x,final float y)
     {
-        com.foreign.Fuse.Drawing.AndroidSurface.PathMoveTo338(pathAsObject,x,y);
+        com.foreign.Fuse.Drawing.AndroidSurface.PathMoveTo341(pathAsObject,x,y);
     }
     
-    public static void recycleBitmap339(final Object bit)
+    public static void recycleBitmap342(final Object bit)
     {
-        com.foreign.Fuse.Drawing.AndroidSurface.recycleBitmap339(bit);
+        com.foreign.Fuse.Drawing.AndroidSurface.recycleBitmap342(bit);
     }
     
-    public static void RestoreContextState340(final Object cp)
+    public static void RestoreContextState343(final Object cp)
     {
-        com.foreign.Fuse.Drawing.AndroidSurface.RestoreContextState340(cp);
+        com.foreign.Fuse.Drawing.AndroidSurface.RestoreContextState343(cp);
     }
     
-    public static int SaveContextState341(final Object cp)
+    public static int SaveContextState344(final Object cp)
     {
-        return (int) com.foreign.Fuse.Drawing.AndroidSurface.SaveContextState341(cp);
+        return (int) com.foreign.Fuse.Drawing.AndroidSurface.SaveContextState344(cp);
     }
     
-    public static Object ToMatrix342(final UnoObject _this, final com.uno.FloatArray matrix)
+    public static Object ToMatrix345(final UnoObject _this, final com.uno.FloatArray matrix)
     {
-        return (Object) com.foreign.Fuse.Drawing.AndroidSurface.ToMatrix342(_this, matrix);
+        return (Object) com.foreign.Fuse.Drawing.AndroidSurface.ToMatrix345(_this, matrix);
     }
     
-    public static void BeginImpl343(final Object _context,final int width,final int height,final int glTextureId)
+    public static void BeginImpl346(final Object _context,final int width,final int height,final int glTextureId)
     {
-        com.foreign.Fuse.Drawing.GraphicsSurface.BeginImpl343(_context,width,height,glTextureId);
+        com.foreign.Fuse.Drawing.GraphicsSurface.BeginImpl346(_context,width,height,glTextureId);
     }
     
-    public static void EndImpl344(final Object context)
+    public static void EndImpl347(final Object context)
     {
-        com.foreign.Fuse.Drawing.GraphicsSurface.EndImpl344(context);
+        com.foreign.Fuse.Drawing.GraphicsSurface.EndImpl347(context);
     }
     
-    public static void LoadBitmap345(final Object context,final int width,final int height)
+    public static void LoadBitmap348(final Object context,final int width,final int height)
     {
-        com.foreign.Fuse.Drawing.GraphicsSurface.LoadBitmap345(context,width,height);
+        com.foreign.Fuse.Drawing.GraphicsSurface.LoadBitmap348(context,width,height);
     }
     
-    public static Object LoadImage346(final int glTextureId,final int width,final int height)
+    public static Object LoadImage349(final int glTextureId,final int width,final int height)
     {
-        return (Object) com.foreign.Fuse.Drawing.GraphicsSurface.LoadImage346(glTextureId,width,height);
+        return (Object) com.foreign.Fuse.Drawing.GraphicsSurface.LoadImage349(glTextureId,width,height);
     }
     
-    public static Object DummyBitmap347()
+    public static Object DummyBitmap350()
     {
-        return (Object) com.foreign.Fuse.Drawing.NativeSurface.DummyBitmap347();
+        return (Object) com.foreign.Fuse.Drawing.NativeSurface.DummyBitmap350();
     }
     
-    public static void SetCanvas348(final Object context,final Object canvas)
+    public static void SetCanvas351(final Object context,final Object canvas)
     {
-        com.foreign.Fuse.Drawing.NativeSurface.SetCanvas348(context,canvas);
+        com.foreign.Fuse.Drawing.NativeSurface.SetCanvas351(context,canvas);
     }
     
-    public static Object Create349(final String text)
+    public static Object Create352(final String text)
     {
-        return (Object) com.foreign.Fuse.Text.Bidirectional.Implementation.JavaRuns.Create349(text);
+        return (Object) com.foreign.Fuse.Text.Bidirectional.Implementation.JavaRuns.Create352(text);
     }
     
-    public static int GetBaseLevel350(final Object handle)
+    public static int GetBaseLevel353(final Object handle)
     {
-        return (int) com.foreign.Fuse.Text.Bidirectional.Implementation.JavaRuns.GetBaseLevel350(handle);
+        return (int) com.foreign.Fuse.Text.Bidirectional.Implementation.JavaRuns.GetBaseLevel353(handle);
     }
     
-    public static int GetRunCount351(final Object handle)
+    public static int GetRunCount354(final Object handle)
     {
-        return (int) com.foreign.Fuse.Text.Bidirectional.Implementation.JavaRuns.GetRunCount351(handle);
+        return (int) com.foreign.Fuse.Text.Bidirectional.Implementation.JavaRuns.GetRunCount354(handle);
     }
     
-    public static int GetRunLevel352(final Object handle,final int run)
+    public static int GetRunLevel355(final Object handle,final int run)
     {
-        return (int) com.foreign.Fuse.Text.Bidirectional.Implementation.JavaRuns.GetRunLevel352(handle,run);
+        return (int) com.foreign.Fuse.Text.Bidirectional.Implementation.JavaRuns.GetRunLevel355(handle,run);
     }
     
-    public static int GetRunLimit353(final Object handle,final int run)
+    public static int GetRunLimit356(final Object handle,final int run)
     {
-        return (int) com.foreign.Fuse.Text.Bidirectional.Implementation.JavaRuns.GetRunLimit353(handle,run);
+        return (int) com.foreign.Fuse.Text.Bidirectional.Implementation.JavaRuns.GetRunLimit356(handle,run);
     }
     
-    public static int GetRunStart354(final Object handle,final int run)
+    public static int GetRunStart357(final Object handle,final int run)
     {
-        return (int) com.foreign.Fuse.Text.Bidirectional.Implementation.JavaRuns.GetRunStart354(handle,run);
+        return (int) com.foreign.Fuse.Text.Bidirectional.Implementation.JavaRuns.GetRunStart357(handle,run);
     }
     
-    public static void CopyLineBreaks355(final String text,final Object outByteBufferHandle)
+    public static void CopyLineBreaks358(final String text,final Object outByteBufferHandle)
     {
-        com.foreign.Fuse.Text.Implementation.JavaLineBreaks.CopyLineBreaks355(text,outByteBufferHandle);
+        com.foreign.Fuse.Text.Implementation.JavaLineBreaks.CopyLineBreaks358(text,outByteBufferHandle);
     }
     
-    public static Object LaunchIntent356(final String action,final String uri,final String packageName,final String className)
+    public static Object LaunchIntent359(final String action,final String uri,final String packageName,final String className)
     {
-        return (Object) com.foreign.Fuse.Android.Bindings.AndroidDeviceInterop.LaunchIntent356(action,uri,packageName,className);
+        return (Object) com.foreign.Fuse.Android.Bindings.AndroidDeviceInterop.LaunchIntent359(action,uri,packageName,className);
     }
     
-    public static Object MakeBufferInputStream1357(final Object buf)
+    public static Object MakeBufferInputStream1360(final Object buf)
     {
-        return (Object) com.foreign.Fuse.Android.Bindings.AndroidDeviceInterop.MakeBufferInputStream1357(buf);
+        return (Object) com.foreign.Fuse.Android.Bindings.AndroidDeviceInterop.MakeBufferInputStream1360(buf);
     }
     
-    public static Object MakeMediaDataSource1358(final Object buf)
+    public static Object MakeMediaDataSource1361(final Object buf)
     {
-        return (Object) com.foreign.Fuse.Android.Bindings.AndroidDeviceInterop.MakeMediaDataSource1358(buf);
+        return (Object) com.foreign.Fuse.Android.Bindings.AndroidDeviceInterop.MakeMediaDataSource1361(buf);
     }
     
-    public static native String callUno_Uno_IO_BundleFile_BundlePathGet360(final UnoObject jthis);
-    public static Object OpenAssetFileDescriptor359(final UnoObject bundle)
+    public static native String callUno_Uno_IO_BundleFile_BundlePathGet363(final UnoObject jthis);
+    public static Object OpenAssetFileDescriptor362(final UnoObject bundle)
     {
-        return (Object) com.foreign.Fuse.Android.Bindings.AndroidDeviceInterop.OpenAssetFileDescriptor359(bundle);
+        return (Object) com.foreign.Fuse.Android.Bindings.AndroidDeviceInterop.OpenAssetFileDescriptor362(bundle);
     }
     
-    public static void AddJavascriptInterface361(final Object handle,final String name,final com.foreign.Uno.Action_String resultHandler)
+    public static void AddJavascriptInterface364(final Object handle,final String name,final com.foreign.Uno.Action_String resultHandler)
     {
-        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.AddJavascriptInterface361(handle,name,resultHandler);
+        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.AddJavascriptInterface364(handle,name,resultHandler);
     }
     
-    public static boolean CanGoBack362(final Object handle)
+    public static boolean CanGoBack365(final Object handle)
     {
-        return (boolean) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.CanGoBack362(handle);
+        return (boolean) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.CanGoBack365(handle);
     }
     
-    public static boolean CanGoForward363(final Object handle)
+    public static boolean CanGoForward366(final Object handle)
     {
-        return (boolean) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.CanGoForward363(handle);
+        return (boolean) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.CanGoForward366(handle);
     }
     
     public static native void callUno_Action_int(final com.foreign.Uno.Action_int theDelegate,final int arg);
-    public static Object CreateAndSetWebChromeClient364(final Object webViewHandle,final com.foreign.Uno.Action_int onProgress)
+    public static Object CreateAndSetWebChromeClient367(final Object webViewHandle,final com.foreign.Uno.Action_int onProgress)
     {
-        return (Object) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.CreateAndSetWebChromeClient364(webViewHandle,onProgress);
+        return (Object) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.CreateAndSetWebChromeClient367(webViewHandle,onProgress);
     }
     
     public static native boolean callUno_Func(final com.foreign.Uno.Func theDelegate);
-    public static Object CreateAndSetWebViewClient365(final Object webViewHandle,final com.foreign.Uno.Action loaded,final com.foreign.Uno.Action started,final com.foreign.Uno.Action changed,final com.foreign.Uno.Action_String onCustomURI,final com.uno.StringArray customURIs,final com.foreign.Uno.Func hasUriSchemeHandler)
+    public static Object CreateAndSetWebViewClient368(final Object webViewHandle,final com.foreign.Uno.Action loaded,final com.foreign.Uno.Action started,final com.foreign.Uno.Action changed,final com.foreign.Uno.Action_String onCustomURI,final com.uno.StringArray customURIs,final com.foreign.Uno.Func hasUriSchemeHandler)
     {
-        return (Object) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.CreateAndSetWebViewClient365(webViewHandle,loaded,started,changed,onCustomURI,customURIs,hasUriSchemeHandler);
+        return (Object) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.CreateAndSetWebViewClient368(webViewHandle,loaded,started,changed,onCustomURI,customURIs,hasUriSchemeHandler);
     }
     
-    public static Object CreateWebView366(final boolean zoomEnabled,final boolean scrollEnabled)
+    public static Object CreateWebView369(final boolean zoomEnabled,final boolean scrollEnabled)
     {
-        return (Object) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.CreateWebView366(zoomEnabled,scrollEnabled);
+        return (Object) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.CreateWebView369(zoomEnabled,scrollEnabled);
     }
     
-    public static double GetProgress367(final Object handle)
+    public static double GetProgress370(final Object handle)
     {
-        return (double) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.GetProgress367(handle);
+        return (double) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.GetProgress370(handle);
     }
     
-    public static String GetTitle368(final Object handle)
+    public static String GetTitle371(final Object handle)
     {
-        return (String) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.GetTitle368(handle);
+        return (String) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.GetTitle371(handle);
     }
     
-    public static String GetUrl369(final Object handle)
+    public static String GetUrl372(final Object handle)
     {
-        return (String) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.GetUrl369(handle);
+        return (String) com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.GetUrl372(handle);
     }
     
-    public static void GoBack370(final Object handle)
+    public static void GoBack373(final Object handle)
     {
-        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.GoBack370(handle);
+        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.GoBack373(handle);
     }
     
-    public static void GoForward371(final Object handle)
+    public static void GoForward374(final Object handle)
     {
-        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.GoForward371(handle);
+        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.GoForward374(handle);
     }
     
-    public static void LoadHtml372(final Object handle,final String html,final String baseUrl)
+    public static void LoadHtml375(final Object handle,final String html,final String baseUrl)
     {
-        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.LoadHtml372(handle,html,baseUrl);
+        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.LoadHtml375(handle,html,baseUrl);
     }
     
-    public static void LoadUrl373(final Object handle,final String url)
+    public static void LoadUrl376(final Object handle,final String url)
     {
-        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.LoadUrl373(handle,url);
+        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.LoadUrl376(handle,url);
     }
     
-    public static void Reload374(final Object handle)
+    public static void Reload377(final Object handle)
     {
-        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.Reload374(handle);
+        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.Reload377(handle);
     }
     
-    public static void StopLoading375(final Object handle)
+    public static void StopLoading378(final Object handle)
     {
-        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.StopLoading375(handle);
+        com.foreign.Fuse.Android.Controls.WebViewUtils.WebViewForeign.StopLoading378(handle);
     }
     
-    public static void ClearRoot1376(final Object handle)
+    public static void ClearRoot1379(final Object handle)
     {
-        com.foreign.Fuse.Android.AppRoot.ClearRoot1376(handle);
+        com.foreign.Fuse.Android.AppRoot.ClearRoot1379(handle);
     }
     
-    public static native void callUno_Fuse_Android_AppRoot_OnTouchEvent__378(final Object motionEvent,long motionEventPtr);
-    public static Object CreateRootView377()
+    public static native void callUno_Fuse_Android_AppRoot_OnTouchEvent__381(final Object motionEvent,long motionEventPtr);
+    public static Object CreateRootView380()
     {
-        return (Object) com.foreign.Fuse.Android.AppRoot.CreateRootView377();
+        return (Object) com.foreign.Fuse.Android.AppRoot.CreateRootView380();
     }
     
-    public static void SetRootView1379(final Object handle,final Object rootHandle)
+    public static void SetRootView1382(final Object handle,final Object rootHandle)
     {
-        com.foreign.Fuse.Android.AppRoot.SetRootView1379(handle,rootHandle);
+        com.foreign.Fuse.Android.AppRoot.SetRootView1382(handle,rootHandle);
     }
     
-    public static Object CreateBitmapARGB8888Impl380(final int width,final int height)
+    public static Object CreateBitmapARGB8888Impl383(final int width,final int height)
     {
-        return (Object) com.foreign.Fuse.Android.Bitmap.CreateBitmapARGB8888Impl380(width,height);
+        return (Object) com.foreign.Fuse.Android.Bitmap.CreateBitmapARGB8888Impl383(width,height);
     }
     
-    public static void EraseColor1381(final Object handle,final int color)
+    public static void EraseColor1384(final Object handle,final int color)
     {
-        com.foreign.Fuse.Android.Bitmap.EraseColor1381(handle,color);
+        com.foreign.Fuse.Android.Bitmap.EraseColor1384(handle,color);
     }
     
-    public static void Recycle1382(final Object handle)
+    public static void Recycle1385(final Object handle)
     {
-        com.foreign.Fuse.Android.Bitmap.Recycle1382(handle);
+        com.foreign.Fuse.Android.Bitmap.Recycle1385(handle);
     }
     
-    public static Object Create383(final Object bitmapHandle)
+    public static Object Create386(final Object bitmapHandle)
     {
-        return (Object) com.foreign.Fuse.Android.Canvas.Create383(bitmapHandle);
+        return (Object) com.foreign.Fuse.Android.Canvas.Create386(bitmapHandle);
     }
     
-    public static void Translate1384(final Object handle,final float dx,final float dy)
+    public static void Translate1387(final Object handle,final float dx,final float dy)
     {
-        com.foreign.Fuse.Android.Canvas.Translate1384(handle,dx,dy);
+        com.foreign.Fuse.Android.Canvas.Translate1387(handle,dx,dy);
     }
     
-    public static void TexImage2D385(final int target,final int level,final Object bitmap,final int border)
+    public static void TexImage2D388(final int target,final int level,final Object bitmap,final int border)
     {
-        com.foreign.Fuse.Android.GLUtils.TexImage2D385(target,level,bitmap,border);
+        com.foreign.Fuse.Android.GLUtils.TexImage2D388(target,level,bitmap,border);
     }
     
-    public static Object Create386(final String text,final int bufStart,final int bufEnd,final Object paintHandle,final int outerWidth,final int align,final float spacingMult,final float spacingAdd,final boolean includePad,final int truncateAt,final int ellipsizedWith)
+    public static Object Create389(final String text,final int bufStart,final int bufEnd,final Object paintHandle,final int outerWidth,final int align,final float spacingMult,final float spacingAdd,final boolean includePad,final int truncateAt,final int ellipsizedWith)
     {
-        return (Object) com.foreign.Fuse.Android.StaticLayout.Create386(text,bufStart,bufEnd,paintHandle,outerWidth,align,spacingMult,spacingAdd,includePad,truncateAt,ellipsizedWith);
+        return (Object) com.foreign.Fuse.Android.StaticLayout.Create389(text,bufStart,bufEnd,paintHandle,outerWidth,align,spacingMult,spacingAdd,includePad,truncateAt,ellipsizedWith);
     }
     
-    public static Object Create1387(final String text,final Object paintHandle,final int width,final int align,final float spacingMult,final float spacingAdd,final boolean includePad)
+    public static Object Create1390(final String text,final Object paintHandle,final int width,final int align,final float spacingMult,final float spacingAdd,final boolean includePad)
     {
-        return (Object) com.foreign.Fuse.Android.StaticLayout.Create1387(text,paintHandle,width,align,spacingMult,spacingAdd,includePad);
+        return (Object) com.foreign.Fuse.Android.StaticLayout.Create1390(text,paintHandle,width,align,spacingMult,spacingAdd,includePad);
     }
     
-    public static void Draw1388(final Object layoutHandle,final Object canvasHandle)
+    public static void Draw1391(final Object layoutHandle,final Object canvasHandle)
     {
-        com.foreign.Fuse.Android.StaticLayout.Draw1388(layoutHandle,canvasHandle);
+        com.foreign.Fuse.Android.StaticLayout.Draw1391(layoutHandle,canvasHandle);
     }
     
-    public static float GetDesiredWidthImpl389(final String text,final Object paintHandle)
+    public static float GetDesiredWidthImpl392(final String text,final Object paintHandle)
     {
-        return (float) com.foreign.Fuse.Android.StaticLayout.GetDesiredWidthImpl389(text,paintHandle);
+        return (float) com.foreign.Fuse.Android.StaticLayout.GetDesiredWidthImpl392(text,paintHandle);
     }
     
-    public static int GetEllipsizedWidth390(final Object handle)
+    public static int GetEllipsizedWidth393(final Object handle)
     {
-        return (int) com.foreign.Fuse.Android.StaticLayout.GetEllipsizedWidth390(handle);
+        return (int) com.foreign.Fuse.Android.StaticLayout.GetEllipsizedWidth393(handle);
     }
     
-    public static int GetHeight391(final Object handle)
+    public static int GetHeight394(final Object handle)
     {
-        return (int) com.foreign.Fuse.Android.StaticLayout.GetHeight391(handle);
+        return (int) com.foreign.Fuse.Android.StaticLayout.GetHeight394(handle);
     }
     
-    public static int GetLineBaseline1392(final Object handle,final int line)
+    public static int GetLineBaseline1395(final Object handle,final int line)
     {
-        return (int) com.foreign.Fuse.Android.StaticLayout.GetLineBaseline1392(handle,line);
+        return (int) com.foreign.Fuse.Android.StaticLayout.GetLineBaseline1395(handle,line);
     }
     
-    public static int GetLineCount393(final Object handle)
+    public static int GetLineCount396(final Object handle)
     {
-        return (int) com.foreign.Fuse.Android.StaticLayout.GetLineCount393(handle);
+        return (int) com.foreign.Fuse.Android.StaticLayout.GetLineCount396(handle);
     }
     
-    public static int GetLineEnd1394(final Object handle,final int line)
+    public static int GetLineEnd1397(final Object handle,final int line)
     {
-        return (int) com.foreign.Fuse.Android.StaticLayout.GetLineEnd1394(handle,line);
+        return (int) com.foreign.Fuse.Android.StaticLayout.GetLineEnd1397(handle,line);
     }
     
-    public static float GetLineLeft1395(final Object handle,final int line)
+    public static float GetLineLeft1398(final Object handle,final int line)
     {
-        return (float) com.foreign.Fuse.Android.StaticLayout.GetLineLeft1395(handle,line);
+        return (float) com.foreign.Fuse.Android.StaticLayout.GetLineLeft1398(handle,line);
     }
     
-    public static int GetLineStart1396(final Object handle,final int line)
+    public static int GetLineStart1399(final Object handle,final int line)
     {
-        return (int) com.foreign.Fuse.Android.StaticLayout.GetLineStart1396(handle,line);
+        return (int) com.foreign.Fuse.Android.StaticLayout.GetLineStart1399(handle,line);
     }
     
-    public static int GetWidth397(final Object handle)
+    public static int GetWidth400(final Object handle)
     {
-        return (int) com.foreign.Fuse.Android.StaticLayout.GetWidth397(handle);
+        return (int) com.foreign.Fuse.Android.StaticLayout.GetWidth400(handle);
     }
     
-    public static int GetStatusBarColor398()
+    public static int GetStatusBarColor401()
     {
-        return (int) com.foreign.Fuse.Android.StatusBarHelper.GetStatusBarColor398();
+        return (int) com.foreign.Fuse.Android.StatusBarHelper.GetStatusBarColor401();
     }
     
-    public static native void callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar400();
-    public static void InstallGlobalListener399()
+    public static native void callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar403();
+    public static void InstallGlobalListener402()
     {
-        com.foreign.Fuse.Android.StatusBarHelper.InstallGlobalListener399();
+        com.foreign.Fuse.Android.StatusBarHelper.InstallGlobalListener402();
     }
     
-    public static boolean SetStatusBarColor401(final int color)
+    public static boolean SetStatusBarColor404(final int color)
     {
-        return (boolean) com.foreign.Fuse.Android.StatusBarHelper.SetStatusBarColor401(color);
+        return (boolean) com.foreign.Fuse.Android.StatusBarHelper.SetStatusBarColor404(color);
     }
     
-    public static Object Create402()
+    public static Object Create405()
     {
-        return (Object) com.foreign.Fuse.Android.TextPaint.Create402();
+        return (Object) com.foreign.Fuse.Android.TextPaint.Create405();
     }
     
-    public static void GetTextBounds403(final Object handle,final String text,final int start,final int end,final com.uno.IntArray r)
+    public static void GetTextBounds406(final Object handle,final String text,final int start,final int end,final com.uno.IntArray r)
     {
-        com.foreign.Fuse.Android.TextPaint.GetTextBounds403(handle,text,start,end,r);
+        com.foreign.Fuse.Android.TextPaint.GetTextBounds406(handle,text,start,end,r);
     }
     
-    public static void SetAntiAlias404(final Object handle,final boolean value)
+    public static void SetAntiAlias407(final Object handle,final boolean value)
     {
-        com.foreign.Fuse.Android.TextPaint.SetAntiAlias404(handle,value);
+        com.foreign.Fuse.Android.TextPaint.SetAntiAlias407(handle,value);
     }
     
-    public static void SetColor405(final Object handle,final int color)
+    public static void SetColor408(final Object handle,final int color)
     {
-        com.foreign.Fuse.Android.TextPaint.SetColor405(handle,color);
+        com.foreign.Fuse.Android.TextPaint.SetColor408(handle,color);
     }
     
-    public static void SetTextSize406(final Object handle,final float textSize)
+    public static void SetTextSize409(final Object handle,final float textSize)
     {
-        com.foreign.Fuse.Android.TextPaint.SetTextSize406(handle,textSize);
+        com.foreign.Fuse.Android.TextPaint.SetTextSize409(handle,textSize);
     }
     
-    public static void SetTypeface407(final Object paintHandle,final Object typefaceHandle)
+    public static void SetTypeface410(final Object paintHandle,final Object typefaceHandle)
     {
-        com.foreign.Fuse.Android.TextPaint.SetTypeface407(paintHandle,typefaceHandle);
+        com.foreign.Fuse.Android.TextPaint.SetTypeface410(paintHandle,typefaceHandle);
     }
     
-    public static String GetCacheDirectory408()
+    public static String GetCacheDirectory411()
     {
-        return (String) com.foreign.Fuse.FileSystem.AndroidPaths.GetCacheDirectory408();
+        return (String) com.foreign.Fuse.FileSystem.AndroidPaths.GetCacheDirectory411();
     }
     
-    public static String GetExternalCacheDirectory409()
+    public static String GetExternalCacheDirectory412()
     {
-        return (String) com.foreign.Fuse.FileSystem.AndroidPaths.GetExternalCacheDirectory409();
+        return (String) com.foreign.Fuse.FileSystem.AndroidPaths.GetExternalCacheDirectory412();
     }
     
-    public static String GetExternalFilesDirectory410()
+    public static String GetExternalFilesDirectory413()
     {
-        return (String) com.foreign.Fuse.FileSystem.AndroidPaths.GetExternalFilesDirectory410();
+        return (String) com.foreign.Fuse.FileSystem.AndroidPaths.GetExternalFilesDirectory413();
     }
     
-    public static String GetFilesDirectory411()
+    public static String GetFilesDirectory414()
     {
-        return (String) com.foreign.Fuse.FileSystem.AndroidPaths.GetFilesDirectory411();
+        return (String) com.foreign.Fuse.FileSystem.AndroidPaths.GetFilesDirectory414();
     }
     
-    public static String GetCacheDirectory412()
+    public static String GetCacheDirectory415()
     {
-        return (String) com.foreign.Fuse.FileSystem.UnifiedPaths.GetCacheDirectory412();
+        return (String) com.foreign.Fuse.FileSystem.UnifiedPaths.GetCacheDirectory415();
     }
     
-    public static String GetDataDirectory413()
+    public static String GetDataDirectory416()
     {
-        return (String) com.foreign.Fuse.FileSystem.UnifiedPaths.GetDataDirectory413();
+        return (String) com.foreign.Fuse.FileSystem.UnifiedPaths.GetDataDirectory416();
     }
     
-    public static void Crop414(final String path,final int width,final int height,final int x,final int y,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail,final boolean performInPlace)
+    public static void Crop417(final String path,final int width,final int height,final int x,final int y,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail,final boolean performInPlace)
     {
-        com.foreign.Fuse.ImageTools.AndroidImageUtils.Crop414(path,width,height,x,y,onSuccess,onFail,performInPlace);
+        com.foreign.Fuse.ImageTools.AndroidImageUtils.Crop417(path,width,height,x,y,onSuccess,onFail,performInPlace);
     }
     
-    public static void GetBase64FromImage415(final String path,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail)
+    public static void GetBase64FromImage418(final String path,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail)
     {
-        com.foreign.Fuse.ImageTools.AndroidImageUtils.GetBase64FromImage415(path,onSuccess,onFail);
+        com.foreign.Fuse.ImageTools.AndroidImageUtils.GetBase64FromImage418(path,onSuccess,onFail);
     }
     
-    public static void GetImageFromBase64416(final String b64,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail)
+    public static void GetImageFromBase64419(final String b64,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail)
     {
-        com.foreign.Fuse.ImageTools.AndroidImageUtils.GetImageFromBase64416(b64,onSuccess,onFail);
+        com.foreign.Fuse.ImageTools.AndroidImageUtils.GetImageFromBase64419(b64,onSuccess,onFail);
     }
     
-    public static void GetImageFromBuffer417(final com.uno.ByteArray bytes,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail)
+    public static void GetImageFromBuffer420(final com.uno.ByteArray bytes,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail)
     {
-        com.foreign.Fuse.ImageTools.AndroidImageUtils.GetImageFromBuffer417(bytes,onSuccess,onFail);
+        com.foreign.Fuse.ImageTools.AndroidImageUtils.GetImageFromBuffer420(bytes,onSuccess,onFail);
     }
     
-    public static String GetImageFromBufferSync418(final com.uno.ByteArray bytes)
+    public static String GetImageFromBufferSync421(final com.uno.ByteArray bytes)
     {
-        return (String) com.foreign.Fuse.ImageTools.AndroidImageUtils.GetImageFromBufferSync418(bytes);
+        return (String) com.foreign.Fuse.ImageTools.AndroidImageUtils.GetImageFromBufferSync421(bytes);
     }
     
-    public static void GetSizeInternal419(final String path,final com.uno.IntArray values)
+    public static void GetSizeInternal422(final String path,final com.uno.IntArray values)
     {
-        com.foreign.Fuse.ImageTools.AndroidImageUtils.GetSizeInternal419(path,values);
+        com.foreign.Fuse.ImageTools.AndroidImageUtils.GetSizeInternal422(path,values);
     }
     
-    public static void Resize420(final String path,final int width,final int height,final int mode,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail,final boolean performInPlace)
+    public static void Resize423(final String path,final int width,final int height,final int mode,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail,final boolean performInPlace)
     {
-        com.foreign.Fuse.ImageTools.AndroidImageUtils.Resize420(path,width,height,mode,onSuccess,onFail,performInPlace);
+        com.foreign.Fuse.ImageTools.AndroidImageUtils.Resize423(path,width,height,mode,onSuccess,onFail,performInPlace);
     }
     
-    public static boolean SaveVideo421(final String outputFileURL)
+    public static boolean SaveVideo424(final String outputFileURL)
     {
-        return (boolean) com.foreign.Fuse.VideoTools.VideoTools.AndroidVideoTools.SaveVideo421(outputFileURL);
+        return (boolean) com.foreign.Fuse.VideoTools.VideoTools.AndroidVideoTools.SaveVideo424(outputFileURL);
     }
     
-    public static void HandleIntent422(final UnoObject _this, final int resultCode,final Object intent,final Object photo,final com.foreign.Uno.Action_String onComplete,final com.foreign.Uno.Action_String onFail)
+    public static void CheckPermissionsInternal425(final com.foreign.Uno.Action_String onComplete,final com.foreign.Uno.Action_String onFail)
     {
-        com.foreign.Fuse.Camera.TakePictureCallback.HandleIntent422(_this, resultCode,intent,photo,onComplete,onFail);
+        com.foreign.Fuse.Camera.CheckPermissionsCommand.CheckPermissionsInternal425(onComplete,onFail);
     }
     
-    public static Object CreateImage423()
+    public static void HandleIntent426(final UnoObject _this, final int resultCode,final Object intent,final Object photo,final com.foreign.Uno.Action_String onComplete,final com.foreign.Uno.Action_String onFail)
     {
-        return (Object) com.foreign.Fuse.Camera.TakePictureCommand.CreateImage423();
+        com.foreign.Fuse.Camera.TakePictureCallback.HandleIntent426(_this, resultCode,intent,photo,onComplete,onFail);
     }
     
-    public static Object CreateIntent424(final Object photo)
+    public static Object CreateImage427()
     {
-        return (Object) com.foreign.Fuse.Camera.TakePictureCommand.CreateIntent424(photo);
+        return (Object) com.foreign.Fuse.Camera.TakePictureCommand.CreateImage427();
     }
     
-    public static int GetBuildVersion425()
+    public static Object CreateIntent428(final Object photo)
     {
-        return (int) com.foreign.Fuse.AndroidProperties.GetBuildVersion425();
+        return (Object) com.foreign.Fuse.Camera.TakePictureCommand.CreateIntent428(photo);
     }
     
-    public static String GetReleaseVersion426()
+    public static void AddToCameraRollInternal429(final String path,final com.foreign.Uno.Action success,final com.foreign.Uno.Action_String reject)
     {
-        return (String) com.foreign.Fuse.AndroidProperties.GetReleaseVersion426();
+        com.foreign.Fuse.CameraRoll.AddPicturePermissionCheckCommand.AddToCameraRollInternal429(path,success,reject);
     }
     
-    public static native Object callUno_Neovisionaries_WebSocketClient__webSocketGet428(final UnoObject jthis);
-    public static void Close427(final UnoObject _this)
+    public static void CheckPermissionsInternal430(final com.foreign.Uno.Action_String onComplete,final com.foreign.Uno.Action_String onFail)
     {
-        com.foreign.Neovisionaries.WebSocketClient.Close427(_this);
+        com.foreign.Fuse.CameraRoll.CheckPermissionsCommand.CheckPermissionsInternal430(onComplete,onFail);
     }
     
-    public static void Connect429(final UnoObject _this)
+    public static void HandleIntent431(final UnoObject _this, final int resultCode,final Object intent,final com.foreign.Uno.Action_String onComplete,final com.foreign.Uno.Action_String onFail)
     {
-        com.foreign.Neovisionaries.WebSocketClient.Connect429(_this);
+        com.foreign.Fuse.CameraRoll.SelectPictureClosure.HandleIntent431(_this, resultCode,intent,onComplete,onFail);
+    }
+    
+    public static Object CreateIntent432()
+    {
+        return (Object) com.foreign.Fuse.CameraRoll.SelectPicturePermissionCheckCommand.CreateIntent432();
+    }
+    
+    public static void ShareFile433(final String path,final String mimeType,final String description)
+    {
+        com.foreign.Fuse.Share.AndroidShareImpl.ShareFile433(path,mimeType,description);
+    }
+    
+    public static void ShareText434(final String text,final String description)
+    {
+        com.foreign.Fuse.Share.AndroidShareImpl.ShareText434(text,description);
+    }
+    
+    public static int GetBuildVersion435()
+    {
+        return (int) com.foreign.Fuse.AndroidProperties.GetBuildVersion435();
+    }
+    
+    public static String GetReleaseVersion436()
+    {
+        return (String) com.foreign.Fuse.AndroidProperties.GetReleaseVersion436();
+    }
+    
+    public static native Object callUno_Neovisionaries_WebSocketClient__webSocketGet438(final UnoObject jthis);
+    public static void Close437(final UnoObject _this)
+    {
+        com.foreign.Neovisionaries.WebSocketClient.Close437(_this);
+    }
+    
+    public static void Connect439(final UnoObject _this)
+    {
+        com.foreign.Neovisionaries.WebSocketClient.Connect439(_this);
     }
     
     public static native void callUno_Action_ByteArray(final com.foreign.Uno.Action_ByteArray theDelegate,final com.uno.ByteArray arg);
-    public static native void callUno_Neovisionaries_WebSocketClient__webSocketSet428(final UnoObject jthis,final Object setVal,long setValPtr);
-    public static void Create430(final UnoObject _this, final String url,final com.uno.StringArray protocols,final com.foreign.Uno.Action open,final com.foreign.Uno.Action close,final com.foreign.Uno.Action_String error,final com.foreign.Uno.Action_String receiveMessageHandler,final com.foreign.Uno.Action_ByteArray receiveDataHandler)
+    public static native void callUno_Neovisionaries_WebSocketClient__webSocketSet438(final UnoObject jthis,final Object setVal,long setValPtr);
+    public static void Create440(final UnoObject _this, final String url,final com.uno.StringArray protocols,final com.foreign.Uno.Action open,final com.foreign.Uno.Action close,final com.foreign.Uno.Action_String error,final com.foreign.Uno.Action_String receiveMessageHandler,final com.foreign.Uno.Action_ByteArray receiveDataHandler)
     {
-        com.foreign.Neovisionaries.WebSocketClient.Create430(_this, url,protocols,open,close,error,receiveMessageHandler,receiveDataHandler);
+        com.foreign.Neovisionaries.WebSocketClient.Create440(_this, url,protocols,open,close,error,receiveMessageHandler,receiveDataHandler);
     }
     
-    public static void Send431(final UnoObject _this, final com.uno.ByteArray data)
+    public static void Send441(final UnoObject _this, final com.uno.ByteArray data)
     {
-        com.foreign.Neovisionaries.WebSocketClient.Send431(_this, data);
+        com.foreign.Neovisionaries.WebSocketClient.Send441(_this, data);
     }
     
-    public static void Send1432(final UnoObject _this, final String data)
+    public static void Send1442(final UnoObject _this, final String data)
     {
-        com.foreign.Neovisionaries.WebSocketClient.Send1432(_this, data);
+        com.foreign.Neovisionaries.WebSocketClient.Send1442(_this, data);
     }
     
-    public static void SetHeader433(final UnoObject _this, final String key,final String value)
+    public static void SetHeader443(final UnoObject _this, final String key,final String value)
     {
-        com.foreign.Neovisionaries.WebSocketClient.SetHeader433(_this, key,value);
+        com.foreign.Neovisionaries.WebSocketClient.SetHeader443(_this, key,value);
     }
     
-    public static native void callUno_Firebase_Database_DatabaseService__handleSet435(final Object setVal,long setValPtr);
-    public static void AndroidInit434()
+    public static native void callUno_Firebase_Database_DatabaseService__handleSet445(final Object setVal,long setValPtr);
+    public static void AndroidInit444()
     {
-        com.foreign.Firebase.Database.DatabaseService.AndroidInit434();
+        com.foreign.Firebase.Database.DatabaseService.AndroidInit444();
     }
     
-    public static void DetachListeners436(final String path)
+    public static void DetachListeners446(final String path)
     {
-        com.foreign.Firebase.Database.DatabaseService.DetachListeners436(path);
+        com.foreign.Firebase.Database.DatabaseService.DetachListeners446(path);
     }
     
     public static native void callUno_Action_String_String(final com.foreign.Uno.Action_String_String theDelegate,final String arg1,final String arg2);
-    public static native Object callUno_Firebase_Database_DatabaseService__handleGet435();
-    public static void Listen437(final String path,final com.foreign.Uno.Action_String_String f)
+    public static native Object callUno_Firebase_Database_DatabaseService__handleGet445();
+    public static void Listen447(final String path,final com.foreign.Uno.Action_String_String f)
     {
-        com.foreign.Firebase.Database.DatabaseService.Listen437(path,f);
+        com.foreign.Firebase.Database.DatabaseService.Listen447(path,f);
     }
     
-    public static void ListenForChildAdded438(final String path,final int count,final com.foreign.Uno.Action_String_String f)
+    public static void ListenForChildAdded448(final String path,final int count,final com.foreign.Uno.Action_String_String f)
     {
-        com.foreign.Firebase.Database.DatabaseService.ListenForChildAdded438(path,count,f);
+        com.foreign.Firebase.Database.DatabaseService.ListenForChildAdded448(path,count,f);
     }
     
-    public static void ListenForChildChanged439(final String path,final com.foreign.Uno.Action_String_String f)
+    public static void ListenForChildChanged449(final String path,final com.foreign.Uno.Action_String_String f)
     {
-        com.foreign.Firebase.Database.DatabaseService.ListenForChildChanged439(path,f);
+        com.foreign.Firebase.Database.DatabaseService.ListenForChildChanged449(path,f);
     }
     
-    public static void ListenForChildMoved440(final String path,final com.foreign.Uno.Action_String_String f)
+    public static void ListenForChildMoved450(final String path,final com.foreign.Uno.Action_String_String f)
     {
-        com.foreign.Firebase.Database.DatabaseService.ListenForChildMoved440(path,f);
+        com.foreign.Firebase.Database.DatabaseService.ListenForChildMoved450(path,f);
     }
     
-    public static void ListenForChildRemoved441(final String path,final com.foreign.Uno.Action_String_String f)
+    public static void ListenForChildRemoved451(final String path,final com.foreign.Uno.Action_String_String f)
     {
-        com.foreign.Firebase.Database.DatabaseService.ListenForChildRemoved441(path,f);
+        com.foreign.Firebase.Database.DatabaseService.ListenForChildRemoved451(path,f);
     }
     
-    public static String NewChildId442(final String path)
+    public static String NewChildId452(final String path)
     {
-        return (String) com.foreign.Firebase.Database.DatabaseService.NewChildId442(path);
+        return (String) com.foreign.Firebase.Database.DatabaseService.NewChildId452(path);
     }
     
-    public static void ReadByQueryEndingAtValue443(final String path,final String keyName,final String lastValue,final int count,final com.foreign.Uno.Action_String_String f)
+    public static void ReadByQueryEndingAtValue453(final String path,final String keyName,final String lastValue,final int count,final com.foreign.Uno.Action_String_String f)
     {
-        com.foreign.Firebase.Database.DatabaseService.ReadByQueryEndingAtValue443(path,keyName,lastValue,count,f);
+        com.foreign.Firebase.Database.DatabaseService.ReadByQueryEndingAtValue453(path,keyName,lastValue,count,f);
     }
     
-    public static void Save444(final String path,final double val)
+    public static void Save454(final String path,final double val)
     {
-        com.foreign.Firebase.Database.DatabaseService.Save444(path,val);
+        com.foreign.Firebase.Database.DatabaseService.Save454(path,val);
     }
     
-    public static void Save1445(final String path,final Object value)
+    public static void Save1455(final String path,final Object value)
     {
-        com.foreign.Firebase.Database.DatabaseService.Save1445(path,value);
+        com.foreign.Firebase.Database.DatabaseService.Save1455(path,value);
     }
     
-    public static void Save2446(final String path,final String val)
+    public static void Save2456(final String path,final String val)
     {
-        com.foreign.Firebase.Database.DatabaseService.Save2446(path,val);
+        com.foreign.Firebase.Database.DatabaseService.Save2456(path,val);
     }
     
-    public static void Save3447(final String path,final com.uno.StringArray array)
+    public static void Save3457(final String path,final com.uno.StringArray array)
     {
-        com.foreign.Firebase.Database.DatabaseService.Save3447(path,array);
+        com.foreign.Firebase.Database.DatabaseService.Save3457(path,array);
     }
     
-    public static void Save4448(final String path,final com.uno.StringArray keys,final com.uno.StringArray vals,final int len)
+    public static void Save4458(final String path,final com.uno.StringArray keys,final com.uno.StringArray vals,final int len)
     {
-        com.foreign.Firebase.Database.DatabaseService.Save4448(path,keys,vals,len);
+        com.foreign.Firebase.Database.DatabaseService.Save4458(path,keys,vals,len);
     }
     
-    public static void SaveNull449(final String path)
+    public static void SaveNull459(final String path)
     {
-        com.foreign.Firebase.Database.DatabaseService.SaveNull449(path);
+        com.foreign.Firebase.Database.DatabaseService.SaveNull459(path);
     }
     
-    public static void SaveWithTimestamp450(final String path,final Object value)
+    public static void SaveWithTimestamp460(final String path,final Object value)
     {
-        com.foreign.Firebase.Database.DatabaseService.SaveWithTimestamp450(path,value);
+        com.foreign.Firebase.Database.DatabaseService.SaveWithTimestamp460(path,value);
     }
     
-    public static native void callUno_Uno_Threading_Promise_lt_string_gt__Resolve452(final UnoObject jthis,final String result);
-    public static native void callUno_Firebase_Database_Read_Reject1453(final UnoObject jthis,final String reason);
-    public static void ctor_7451(final UnoObject _this, final String path)
+    public static native void callUno_Uno_Threading_Promise_lt_string_gt__Resolve462(final UnoObject jthis,final String result);
+    public static native void callUno_Firebase_Database_Read_Reject1463(final UnoObject jthis,final String reason);
+    public static void ctor_7461(final UnoObject _this, final String path)
     {
-        com.foreign.Firebase.Database.Read.ctor_7451(_this, path);
+        com.foreign.Firebase.Database.Read.ctor_7461(_this, path);
     }
     
-    public static native void callUno_Firebase_Database_ReadByQueryEqualToValue_Reject1455(final UnoObject jthis,final String reason);
-    public static void ctor_7454(final UnoObject _this, final String path,final String key,final Object val)
+    public static native void callUno_Firebase_Database_ReadByQueryEqualToValue_Reject1465(final UnoObject jthis,final String reason);
+    public static void ctor_7464(final UnoObject _this, final String path,final String key,final Object val)
     {
-        com.foreign.Firebase.Database.ReadByQueryEqualToValue.ctor_7454(_this, path,key,val);
+        com.foreign.Firebase.Database.ReadByQueryEqualToValue.ctor_7464(_this, path,key,val);
     }
     
-    public static native void callUno_Firebase_Notifications_AndroidImpl_OnRecieve457(final String message,final boolean fromNotificationBar);
-    public static native void callUno_Firebase_Notifications_AndroidImpl_getRegistrationIdSuccess458(final String regid);
-    public static void JInit456()
+    public static native void callUno_Firebase_Notifications_AndroidImpl_OnRecieve467(final String message,final boolean fromNotificationBar);
+    public static native void callUno_Firebase_Notifications_AndroidImpl_getRegistrationIdSuccess468(final String regid);
+    public static void JInit466()
     {
-        com.foreign.Firebase.Notifications.AndroidImpl.JInit456();
+        com.foreign.Firebase.Notifications.AndroidImpl.JInit466();
     }
     
-    public static void NoteInteractivity459(final boolean isItInteractive)
+    public static void NoteInteractivity469(final boolean isItInteractive)
     {
-        com.foreign.Firebase.Notifications.AndroidImpl.NoteInteractivity459(isItInteractive);
+        com.foreign.Firebase.Notifications.AndroidImpl.NoteInteractivity469(isItInteractive);
     }
     
     public static void OnRecieve2(final String message,final boolean fromNotificationBar)
@@ -2161,99 +2211,99 @@ public class ExternedBlockHost
         com.foreign.Firebase.Notifications.AndroidImpl.RegistrationIDUpdated(regid);
     }
     
-    public static void ClearAllNotifications460()
+    public static void ClearAllNotifications470()
     {
-        com.foreign.Firebase.Notifications.NotificationService.ClearAllNotifications460();
+        com.foreign.Firebase.Notifications.NotificationService.ClearAllNotifications470();
     }
     
-    public static String GetFCMToken461()
+    public static String GetFCMToken471()
     {
-        return (String) com.foreign.Firebase.Notifications.NotificationService.GetFCMToken461();
+        return (String) com.foreign.Firebase.Notifications.NotificationService.GetFCMToken471();
     }
     
-    public static void Init462()
+    public static void Init472()
     {
-        com.foreign.Firebase.Core.Init462();
+        com.foreign.Firebase.Core.Init472();
     }
     
-    public static void AddArrayValue463(final UnoObject _this, final Object arrayHandle,final Object value)
+    public static void AddArrayValue473(final UnoObject _this, final Object arrayHandle,final Object value)
     {
-        com.foreign.JSON.ToJavaObject.AddArrayValue463(_this, arrayHandle,value);
+        com.foreign.JSON.ToJavaObject.AddArrayValue473(_this, arrayHandle,value);
     }
     
-    public static Object Case464(final UnoObject _this)
+    public static Object Case474(final UnoObject _this)
     {
-        return (Object) com.foreign.JSON.ToJavaObject.Case464(_this);
+        return (Object) com.foreign.JSON.ToJavaObject.Case474(_this);
     }
     
-    public static Object Case1465(final UnoObject _this, final boolean b)
+    public static Object Case1475(final UnoObject _this, final boolean b)
     {
-        return (Object) com.foreign.JSON.ToJavaObject.Case1465(_this, b);
+        return (Object) com.foreign.JSON.ToJavaObject.Case1475(_this, b);
     }
     
-    public static Object Case2466(final UnoObject _this, final double num)
+    public static Object Case2476(final UnoObject _this, final double num)
     {
-        return (Object) com.foreign.JSON.ToJavaObject.Case2466(_this, num);
+        return (Object) com.foreign.JSON.ToJavaObject.Case2476(_this, num);
     }
     
-    public static Object Case3467(final UnoObject _this, final String str)
+    public static Object Case3477(final UnoObject _this, final String str)
     {
-        return (Object) com.foreign.JSON.ToJavaObject.Case3467(_this, str);
+        return (Object) com.foreign.JSON.ToJavaObject.Case3477(_this, str);
     }
     
-    public static Object NewArrayList468(final UnoObject _this)
+    public static Object NewArrayList478(final UnoObject _this)
     {
-        return (Object) com.foreign.JSON.ToJavaObject.NewArrayList468(_this);
+        return (Object) com.foreign.JSON.ToJavaObject.NewArrayList478(_this);
     }
     
-    public static Object NewHashMap469(final UnoObject _this)
+    public static Object NewHashMap479(final UnoObject _this)
     {
-        return (Object) com.foreign.JSON.ToJavaObject.NewHashMap469(_this);
+        return (Object) com.foreign.JSON.ToJavaObject.NewHashMap479(_this);
     }
     
-    public static void SetMapValue470(final UnoObject _this, final Object dictHandle,final String key,final Object value)
+    public static void SetMapValue480(final UnoObject _this, final Object dictHandle,final String key,final Object value)
     {
-        com.foreign.JSON.ToJavaObject.SetMapValue470(_this, dictHandle,key,value);
+        com.foreign.JSON.ToJavaObject.SetMapValue480(_this, dictHandle,key,value);
     }
     
-    public static String GetCurrentLocale471()
+    public static String GetCurrentLocale481()
     {
-        return (String) com.foreign.Device.GetCurrentLocale471();
+        return (String) com.foreign.Device.GetCurrentLocale481();
     }
     
-    public static String GetModel472()
+    public static String GetModel482()
     {
-        return (String) com.foreign.Device.GetModel472();
+        return (String) com.foreign.Device.GetModel482();
     }
     
-    public static int GetNumProcessorCores473()
+    public static int GetNumProcessorCores483()
     {
-        return (int) com.foreign.Device.GetNumProcessorCores473();
+        return (int) com.foreign.Device.GetNumProcessorCores483();
     }
     
-    public static String GetSDKVersion474()
+    public static String GetSDKVersion484()
     {
-        return (String) com.foreign.Device.GetSDKVersion474();
+        return (String) com.foreign.Device.GetSDKVersion484();
     }
     
-    public static String GetSystem475()
+    public static String GetSystem485()
     {
-        return (String) com.foreign.Device.GetSystem475();
+        return (String) com.foreign.Device.GetSystem485();
     }
     
-    public static String GetSystemVersion476()
+    public static String GetSystemVersion486()
     {
-        return (String) com.foreign.Device.GetSystemVersion476();
+        return (String) com.foreign.Device.GetSystemVersion486();
     }
     
-    public static String GetUUID477()
+    public static String GetUUID487()
     {
-        return (String) com.foreign.Device.GetUUID477();
+        return (String) com.foreign.Device.GetUUID487();
     }
     
-    public static String GetVendor478()
+    public static String GetVendor488()
     {
-        return (String) com.foreign.Device.GetVendor478();
+        return (String) com.foreign.Device.GetVendor488();
     }
     
 }

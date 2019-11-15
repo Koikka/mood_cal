@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/Android/Commands.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/Android/Commands.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Uno.Object.h>
-#include <Uno.Permissions.Platf-7d72d93e.h>
+#include <Uno.Permissions.Platf-c2400e03.h>
 namespace g{namespace Fuse{namespace ImageTools{struct PCommand;}}}
 namespace g{namespace Uno{struct Exception;}}
 
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace ImageTools{
 
-// internal abstract extern class PCommand :7
+// internal abstract extern class PCommand
 // {
 struct PCommand_type : uType
 {

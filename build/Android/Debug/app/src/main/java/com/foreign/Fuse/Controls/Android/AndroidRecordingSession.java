@@ -27,7 +27,7 @@ public class AndroidRecordingSession
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void Stop1292(final Object session,final com.foreign.Uno.Action_String resolve,final com.foreign.Uno.Action_String reject)
+    public static void Stop1294(final Object session,final com.foreign.Uno.Action_String resolve,final com.foreign.Uno.Action_String reject)
     {
         ((RecordingSession)session).stop(new IStopRecordingSession() {
         	public void onSuccess(String outputFilePath) {

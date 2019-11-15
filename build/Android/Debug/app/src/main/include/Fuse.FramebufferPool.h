@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/FramebufferPool.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/FramebufferPool.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{namespace Uno{struct Int2;}}
 namespace g{
 namespace Fuse{
 
-// public static class FramebufferPool :9
+// public static class FramebufferPool
 // {
 uClassType* FramebufferPool_typeof();
 void FramebufferPool__EnsurePool_fn();

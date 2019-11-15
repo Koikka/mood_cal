@@ -26,32 +26,32 @@ public class JavaRuns
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object Create349(final String text)
+    public static Object Create352(final String text)
     {
         return new Bidi(text, Bidi.DIRECTION_DEFAULT_LEFT_TO_RIGHT);
     }
     
-    public static int GetBaseLevel350(final Object handle)
+    public static int GetBaseLevel353(final Object handle)
     {
         return ((Bidi)handle).getBaseLevel();
     }
     
-    public static int GetRunCount351(final Object handle)
+    public static int GetRunCount354(final Object handle)
     {
         return ((Bidi)handle).getRunCount();
     }
     
-    public static int GetRunLevel352(final Object handle,final int run)
+    public static int GetRunLevel355(final Object handle,final int run)
     {
         return ((Bidi)handle).getRunLevel(run);
     }
     
-    public static int GetRunLimit353(final Object handle,final int run)
+    public static int GetRunLimit356(final Object handle,final int run)
     {
         return ((Bidi)handle).getRunLimit(run);
     }
     
-    public static int GetRunStart354(final Object handle,final int run)
+    public static int GetRunStart357(final Object handle,final int run)
     {
         return ((Bidi)handle).getRunStart(run);
     }

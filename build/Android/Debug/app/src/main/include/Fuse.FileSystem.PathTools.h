@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.FileSystem/1.9.0/PathTools.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.FileSystem/1.12.0/PathTools.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace FileSystem{
 
-// internal static class PathTools :6
+// internal static class PathTools
 // {
 uClassType* PathTools_typeof();
 void PathTools__NormalizePath_fn(uString* path, uString** __retval);

@@ -37,7 +37,7 @@ public class CanvasViewGroup
     
     public static Object Instantiate131()
     {
-        android.widget.FrameLayout frameLayout = new com.fuse.android.views.CanvasViewGroup(fi.samk.mood_cal.Kalenteri.GetRootActivity());
+        android.widget.FrameLayout frameLayout = new com.fuse.android.views.CanvasViewGroup(com.fuse.Activity.getRootActivity());
         frameLayout.setFocusable(true);
         frameLayout.setFocusableInTouchMode(true);
         frameLayout.setClipChildren(false);

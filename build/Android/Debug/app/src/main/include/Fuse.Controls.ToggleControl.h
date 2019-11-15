@@ -1,10 +1,10 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/ToggleControls/ToggleControl.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/ToggleControls/ToggleControl.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Animations.IResize.h>
 #include <Fuse.Binding.h>
-#include <Fuse.Controls.Native.-ba5282a0.h>
+#include <Fuse.Controls.Native.-92521383.h>
 #include <Fuse.Controls.Panel.h>
 #include <Fuse.Drawing.ISurfaceDrawable.h>
 #include <Fuse.IActualPlacement.h>
@@ -16,8 +16,8 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-b5190bae.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-56de3533.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Triggers.IValue-1.h>
 #include <Fuse.Visual.h>
 #include <Uno.Bool.h>
@@ -32,7 +32,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public class ToggleControl :35
+// public class ToggleControl
 // {
 struct ToggleControl_type : ::g::Fuse::Controls::Panel_type
 {

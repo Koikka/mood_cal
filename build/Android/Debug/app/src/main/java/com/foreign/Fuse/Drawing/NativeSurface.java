@@ -48,12 +48,12 @@ public class NativeSurface
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object DummyBitmap347()
+    public static Object DummyBitmap350()
     {
         return Bitmap.createBitmap(10,10,Bitmap.Config.ARGB_8888);
     }
     
-    public static void SetCanvas348(final Object context,final Object canvas)
+    public static void SetCanvas351(final Object context,final Object canvas)
     {
         GraphicsSurfaceContext impl = (GraphicsSurfaceContext) context;
         impl.canvas = (Canvas)canvas;

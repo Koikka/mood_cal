@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Curves.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Internal/Curves.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Internal{
 
-// internal static class Curves :5
+// internal static class Curves
 // {
 uClassType* Curves_typeof();
 void Curves__CalcBezierAt_fn(::g::Uno::Float2* p0, ::g::Uno::Float2* p1, ::g::Uno::Float2* p2, ::g::Uno::Float2* p3, float* t, ::g::Uno::Float2* __retval);

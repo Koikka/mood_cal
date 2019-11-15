@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Text/OffsetPattern.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Time/Text/OffsetPattern.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace Uno{
 namespace Time{
 namespace Text{
 
-// public sealed class OffsetPattern :3
+// public sealed class OffsetPattern
 // {
 uType* OffsetPattern_typeof();
 void OffsetPattern__ctor__fn(OffsetPattern* __this);

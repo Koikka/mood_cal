@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Utilities/HashcodeHelper.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Time/Utilities/HashcodeHelper.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Uno{
 namespace Time{
 
-// internal static class HashCodeHelper :3
+// internal static class HashCodeHelper
 // {
 uClassType* HashCodeHelper_typeof();
 void HashCodeHelper__Hash_fn(uType* __type, int32_t* code, void* value, int32_t* __retval);

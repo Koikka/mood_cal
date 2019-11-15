@@ -1,7 +1,7 @@
 // This file was generated based on '(multiple files)'.
 // WARNING: Changes might be lost if you edit this file directly.
 
-#include <Fuse.Controls.Graphic-2a754d11.h>
+#include <Fuse.Controls.Graphic-81e92b4e.h>
 #include <Fuse.Controls.Graphics.Visual.h>
 #include <Fuse.FastMatrix.h>
 #include <Fuse.LayoutParams.h>
@@ -22,10 +22,10 @@ namespace Fuse{
 namespace Controls{
 namespace Graphics{
 
-// /usr/local/share/uno/Packages/Fuse.Controls/1.9.0/Graphics/ControlVisual.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls/1.12.0/Graphics/ControlVisual.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class ControlVisual<T> :4
+// public abstract class ControlVisual<T>
 // {
 static void ControlVisual_build(uType* type)
 {
@@ -102,19 +102,19 @@ ControlVisual_type* ControlVisual_typeof()
     return type;
 }
 
-// protected generated ControlVisual() :4
+// protected generated ControlVisual()
 void ControlVisual__ctor_4_fn(ControlVisual* __this)
 {
     __this->ctor_4();
 }
 
-// protected T get_Control() :18
+// protected T get_Control()
 void ControlVisual__get_Control_fn(ControlVisual* __this, uTRef __retval)
 {
     return __retval.Store(__this->_control()), void();
 }
 
-// private T FindControl() :6
+// private T FindControl()
 void ControlVisual__FindControl_fn(ControlVisual* __this, uTRef __retval)
 {
     ::g::Fuse::Node* p = __this;
@@ -130,13 +130,13 @@ void ControlVisual__FindControl_fn(ControlVisual* __this, uTRef __retval)
     return __retval.Store(__this->__type->GetBase(ControlVisual_typeof())->T(0), uT(__this->__type->GetBase(ControlVisual_typeof())->T(0), U_ALLOCA(__this->__type->GetBase(ControlVisual_typeof())->T(0)->ValueSize))), void();
 }
 
-// protected override sealed Fuse.VisualBounds get_HitTestLocalBounds() :44
+// protected override sealed Fuse.VisualBounds get_HitTestLocalBounds()
 void ControlVisual__get_HitTestLocalBounds_fn(ControlVisual* __this, ::g::Fuse::VisualBounds** __retval)
 {
     return *__retval = ::g::Fuse::VisualBounds::Rect(::g::Uno::Float2__New1(0.0f), __this->ActualSize()), void();
 }
 
-// protected override sealed void OnRooted() :20
+// protected override sealed void OnRooted()
 void ControlVisual__OnRooted_fn(ControlVisual* __this)
 {
     uT ret1(__this->__type->GetBase(ControlVisual_typeof())->T(0), U_ALLOCA(__this->__type->GetBase(ControlVisual_typeof())->T(0)->ValueSize));
@@ -149,7 +149,7 @@ void ControlVisual__OnRooted_fn(ControlVisual* __this)
     __this->Attach();
 }
 
-// protected override sealed void OnUnrooted() :31
+// protected override sealed void OnUnrooted()
 void ControlVisual__OnUnrooted_fn(ControlVisual* __this)
 {
     __this->Detach();
@@ -157,17 +157,17 @@ void ControlVisual__OnUnrooted_fn(ControlVisual* __this)
     ::g::Fuse::Visual__OnUnrooted_fn(__this);
 }
 
-// protected generated ControlVisual() [instance] :4
+// protected generated ControlVisual() [instance]
 void ControlVisual::ctor_4()
 {
     ctor_3();
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls/1.9.0/Graphics/Visual.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls/1.12.0/Graphics/Visual.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class Visual :5
+// public abstract class Visual
 // {
 static void Visual_build(uType* type)
 {
@@ -242,31 +242,31 @@ static void Visual_build(uType* type)
     return type;
 }
 
-// protected generated Visual() :5
+// protected generated Visual()
 void Visual__ctor_3_fn(Visual* __this)
 {
     __this->ctor_3();
 }
 
-// protected generated float2 get_ActualSize() :7
+// protected generated float2 get_ActualSize()
 void Visual__get_ActualSize_fn(Visual* __this, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->ActualSize();
 }
 
-// protected generated void set_ActualSize(float2 value) :7
+// protected generated void set_ActualSize(float2 value)
 void Visual__set_ActualSize_fn(Visual* __this, ::g::Uno::Float2* value)
 {
     __this->ActualSize(*value);
 }
 
-// public override sealed Fuse.VisualBounds get_LocalRenderBounds() :42
+// public override sealed Fuse.VisualBounds get_LocalRenderBounds()
 void Visual__get_LocalRenderBounds_fn(Visual* __this, ::g::Fuse::VisualBounds** __retval)
 {
     return *__retval = ::g::Fuse::VisualBounds::Rect(::g::Uno::Float2__New1(0.0f), __this->ActualSize()), void();
 }
 
-// protected override float2 OnArrangeMarginBox(float2 position, Fuse.LayoutParams lp) :11
+// protected override float2 OnArrangeMarginBox(float2 position, Fuse.LayoutParams lp)
 void Visual__OnArrangeMarginBox_fn(Visual* __this, ::g::Uno::Float2* position, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     ::g::Fuse::LayoutParams lp_ = *lp;
@@ -290,25 +290,25 @@ void Visual__OnArrangeMarginBox_fn(Visual* __this, ::g::Uno::Float2* position, :
     return *__retval = __this->ActualSize(), void();
 }
 
-// protected override sealed void PrependImplicitTransform(Fuse.FastMatrix m) :30
+// protected override sealed void PrependImplicitTransform(Fuse.FastMatrix m)
 void Visual__PrependImplicitTransform_fn(Visual* __this, ::g::Fuse::FastMatrix* m)
 {
     uPtr(m)->PrependTranslation1(::g::Uno::Float3__New4(__this->_position, 0.0f));
 }
 
-// protected generated Visual() [instance] :5
+// protected generated Visual() [instance]
 void Visual::ctor_3()
 {
     ctor_2();
 }
 
-// protected generated float2 get_ActualSize() [instance] :7
+// protected generated float2 get_ActualSize() [instance]
 ::g::Uno::Float2 Visual::ActualSize()
 {
     return _ActualSize;
 }
 
-// protected generated void set_ActualSize(float2 value) [instance] :7
+// protected generated void set_ActualSize(float2 value) [instance]
 void Visual::ActualSize(::g::Uno::Float2 value)
 {
     _ActualSize = value;

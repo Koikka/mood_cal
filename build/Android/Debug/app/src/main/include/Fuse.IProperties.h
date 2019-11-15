@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Properties.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Properties.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Fuse{struct Properties;}}
 namespace g{
 namespace Fuse{
 
-// public abstract interface IProperties :10
+// public abstract interface IProperties
 // {
 uInterfaceType* IProperties_typeof();
 

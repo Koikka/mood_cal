@@ -1,15 +1,15 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting/1.9.0/ScriptModule.Evaluate.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting/1.12.0/ScriptModule.Evaluate.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Uno.Object.h>
+#include <Uno.ValueType.h>
 namespace g{namespace Fuse{namespace Scripting{struct Dependency;}}}
 
 namespace g{
 namespace Fuse{
 namespace Scripting{
 
-// internal struct Dependency :16
+// internal struct Dependency
 // {
 uStructType* Dependency_typeof();
 

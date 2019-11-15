@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/DrawContext.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/DrawContext.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{namespace Uno{namespace Graphics{struct RenderTarget;}}}
 namespace g{
 namespace Fuse{
 
-// internal sealed class RenderTargetEntry :11
+// internal sealed class RenderTargetEntry
 // {
 uType* RenderTargetEntry_typeof();
 void RenderTargetEntry__ctor__fn(RenderTargetEntry* __this, ::g::Uno::Graphics::RenderTarget* rt, ::g::Uno::Int2* viewportPixelSize, ::g::Uno::Int4* glScissor, uint32_t* handle);

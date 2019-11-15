@@ -1,8 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/TransformAnimator.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Animations/1.12.0/TransformAnimator.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Animations.Trans-997c8373.h>
+#include <Fuse.Animations.Trans-d75ee66a.h>
 #include <Fuse.Scaling.h>
 namespace g{namespace Fuse{namespace Animations{struct Scale;}}}
 namespace g{namespace Fuse{struct Visual;}}
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Animations{
 
-// public sealed class Scale :331
+// public sealed class Scale
 // {
 ::g::Fuse::Animations::TransformAnimator_type* Scale_typeof();
 void Scale__ctor_4_fn(Scale* __this);

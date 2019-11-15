@@ -1,10 +1,10 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/MobileTextEdit.Forwarding.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/TextControls/MobileTextEdit.Forwarding.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Animations.IResize.h>
 #include <Fuse.Binding.h>
-#include <Fuse.Controls.Native.-ae84b26e.h>
+#include <Fuse.Controls.Native.-9b460fed.h>
 #include <Fuse.Controls.TextEdit.h>
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
@@ -16,7 +16,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Triggers.IValue-1.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
@@ -31,7 +31,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// internal partial sealed class MobileTextEdit :7
+// internal partial sealed class MobileTextEdit
 // {
 struct MobileTextEdit_type : ::g::Fuse::Controls::TextEdit_type
 {

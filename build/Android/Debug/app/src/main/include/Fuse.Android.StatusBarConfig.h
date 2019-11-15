@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Android/1.9.0/StatusBarConfig.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Android/1.12.0/StatusBarConfig.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -18,7 +18,7 @@ namespace g{
 namespace Fuse{
 namespace Android{
 
-// public sealed class StatusBarConfig :82
+// public sealed class StatusBarConfig
 // {
 ::g::Fuse::Node_type* StatusBarConfig_typeof();
 void StatusBarConfig__SetStatusBarColor_fn(::g::Uno::Float4* color, bool* __retval);

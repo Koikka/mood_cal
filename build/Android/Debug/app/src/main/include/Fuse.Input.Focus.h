@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Focus.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Input/Focus.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -18,7 +18,7 @@ namespace g{
 namespace Fuse{
 namespace Input{
 
-// public partial static class Focus :24
+// public partial static class Focus
 // {
 uClassType* Focus_typeof();
 void Focus__CanSetFocus_fn(::g::Fuse::Node* node, bool* __retval);

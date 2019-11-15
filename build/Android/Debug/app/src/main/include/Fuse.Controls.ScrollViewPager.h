@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/ScrollViewPager.ScriptClass.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/ScrollViewPager.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -23,7 +23,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public partial sealed class ScrollViewPager :7
+// public partial sealed class ScrollViewPager
 // {
 struct ScrollViewPager_type : ::g::Fuse::Node_type
 {

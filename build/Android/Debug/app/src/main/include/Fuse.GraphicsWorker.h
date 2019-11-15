@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/GraphicsWorker.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/GraphicsWorker.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{namespace Uno{struct Exception;}}
 namespace g{
 namespace Fuse{
 
-// public static class GraphicsWorker :14
+// public static class GraphicsWorker
 // {
 uClassType* GraphicsWorker_typeof();
 void GraphicsWorker__Dispatch_fn(uDelegate* a);

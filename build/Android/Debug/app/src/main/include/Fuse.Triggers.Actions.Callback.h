@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Actions/Callback.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Actions/Callback.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.ISourceLocation.h>
-#include <Fuse.Triggers.Actions-fcab7e57.h>
+#include <Fuse.Triggers.Actions-16700ed8.h>
 namespace g{namespace Fuse{namespace Triggers{namespace Actions{struct Callback;}}}}
 namespace g{namespace Fuse{struct Node;}}
 
@@ -12,7 +12,7 @@ namespace Fuse{
 namespace Triggers{
 namespace Actions{
 
-// public sealed class Callback :25
+// public sealed class Callback
 // {
 ::g::Fuse::Triggers::Actions::TriggerAction_type* Callback_typeof();
 void Callback__ctor_2_fn(Callback* __this);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/FuseJS/1.9.0/Bundle.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Bundle.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -14,7 +14,7 @@ namespace g{namespace Uno{namespace Threading{struct Future1;}}}
 namespace g{
 namespace FuseJS{
 
-// public sealed class Bundle :22
+// public sealed class Bundle
 // {
 ::g::Fuse::Scripting::NativeModule_type* Bundle_typeof();
 void Bundle__ctor_2_fn(Bundle* __this);

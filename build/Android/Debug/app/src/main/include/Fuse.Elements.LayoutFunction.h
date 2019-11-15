@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/LayoutFunctions.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/LayoutFunctions.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace g{
 namespace Fuse{
 namespace Elements{
 
-// public abstract class LayoutFunction :15
+// public abstract class LayoutFunction
 // {
 struct LayoutFunction_type : ::g::Fuse::Reactive::Expression_type
 {
@@ -22,6 +22,7 @@ struct LayoutFunction_type : ::g::Fuse::Reactive::Expression_type
 };
 
 LayoutFunction_type* LayoutFunction_typeof();
+void LayoutFunction__ctor_1_fn(LayoutFunction* __this, ::g::Fuse::Reactive::Expression* element);
 void LayoutFunction__Subscribe_fn(LayoutFunction* __this, uObject* dc, uObject* listener, uObject** __retval);
 void LayoutFunction__TryComputeAlternate_fn(LayoutFunction* __this, uObject* value, uObject** result, bool* __retval);
 
@@ -29,6 +30,7 @@ struct LayoutFunction : ::g::Fuse::Reactive::Expression
 {
     uStrong< ::g::Fuse::Reactive::Expression*> Element;
 
+    void ctor_1(::g::Fuse::Reactive::Expression* element);
     uObject* GetCurrentValue(::g::Fuse::Elements::Element* elm) { uObject* __retval; return (((LayoutFunction_type*)__type)->fp_GetCurrentValue)(this, elm, &__retval), __retval; }
     uObject* GetValue(::g::Fuse::PlacedArgs* args) { uObject* __retval; return (((LayoutFunction_type*)__type)->fp_GetValue)(this, args, &__retval), __retval; }
     bool TryComputeAlternate(uObject* value, uObject** result);

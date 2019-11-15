@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Triggers/ScrollRegion.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Triggers/ScrollRegion.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Triggers{
 
-// internal sealed class ScrollRegion :76
+// internal sealed class ScrollRegion
 // {
 uType* ScrollRegion_typeof();
 void ScrollRegion__CalcWithin_fn(ScrollRegion* __this, ::g::Fuse::Controls::ScrollViewBase* scrollable, ::g::Uno::Float2* __retval);

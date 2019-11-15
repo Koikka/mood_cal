@@ -6,7 +6,7 @@
 #include <Fuse.Elements.Alignment.h>
 #include <Fuse.Elements.AlignmentHelpers.h>
 #include <Fuse.Elements.Element.h>
-#include <Fuse.Elements.Optiona-b611048b.h>
+#include <Fuse.Elements.Optiona-911492a3.h>
 #include <Fuse.Elements.SimpleAlignment.h>
 #include <Fuse.InvalidateLayoutReason.h>
 #include <Fuse.Layer.h>
@@ -15,10 +15,10 @@
 #include <Fuse.LayoutRole.h>
 #include <Fuse.Layouts.CircleLayout.h>
 #include <Fuse.Layouts.Column.h>
-#include <Fuse.Layouts.ColumnLa-8bb1ac12.h>
+#include <Fuse.Layouts.ColumnLa-5b19dba.h>
 #include <Fuse.Layouts.ColumnLayout.h>
 #include <Fuse.Layouts.DefaultLayout.h>
-#include <Fuse.Layouts.Definiti-98edc253.h>
+#include <Fuse.Layouts.Definiti-53aefe9c.h>
 #include <Fuse.Layouts.DefinitionBase.h>
 #include <Fuse.Layouts.Dock.h>
 #include <Fuse.Layouts.DockLayout.h>
@@ -43,7 +43,7 @@
 #include <Uno.Char.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IList-1.h>
-#include <Uno.Collections.IList-b56be992.h>
+#include <Uno.Collections.IList-c6cd9d1d.h>
 #include <Uno.Collections.List-1.h>
 #include <Uno.Collections.RootableList-1.h>
 #include <Uno.Delegate.h>
@@ -64,10 +64,10 @@ namespace g{
 namespace Fuse{
 namespace Layouts{
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/CircleLayout.uno
-// ---------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/CircleLayout.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class CircleLayout :32
+// public sealed class CircleLayout
 // {
 static void CircleLayout_build(uType* type)
 {
@@ -106,7 +106,7 @@ static void CircleLayout_build(uType* type)
     return type;
 }
 
-// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp) :112
+// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp)
 void CircleLayout__ArrangePaddingBox_fn(CircleLayout* __this, ::g::Fuse::Visual* container, ::g::Uno::Float4* padding, ::g::Fuse::LayoutParams* lp)
 {
     ::g::Fuse::LayoutParams lp_ = *lp;
@@ -145,31 +145,31 @@ void CircleLayout__ArrangePaddingBox_fn(CircleLayout* __this, ::g::Fuse::Visual*
     }
 }
 
-// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp) :100
+// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp)
 void CircleLayout__GetContentSize_fn(CircleLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     return *__retval = ::g::Uno::Float2__New1(0.0f), void();
 }
 
-// public float get_Radius() :39
+// public float get_Radius()
 void CircleLayout__get_Radius_fn(CircleLayout* __this, float* __retval)
 {
     *__retval = __this->Radius();
 }
 
-// public void set_Radius(float value) :40
+// public void set_Radius(float value)
 void CircleLayout__set_Radius_fn(CircleLayout* __this, float* value)
 {
     __this->Radius(*value);
 }
 
-// public float get_Radius() [instance] :39
+// public float get_Radius() [instance]
 float CircleLayout::Radius()
 {
     return _radius;
 }
 
-// public void set_Radius(float value) [instance] :40
+// public void set_Radius(float value) [instance]
 void CircleLayout::Radius(float value)
 {
     _radius = value;
@@ -177,10 +177,10 @@ void CircleLayout::Radius(float value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/GridLayout.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/GridLayout.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Column :213
+// public sealed class Column
 // {
 static void Column_build(uType* type)
 {
@@ -203,25 +203,25 @@ uType* Column_typeof()
     return type;
 }
 
-// public Column() :215
+// public Column()
 void Column__ctor_4_fn(Column* __this)
 {
     __this->ctor_4();
 }
 
-// public Column New() :215
+// public Column New()
 void Column__New2_fn(Column** __retval)
 {
     *__retval = Column::New2();
 }
 
-// public Column() [instance] :215
+// public Column() [instance]
 void Column::ctor_4()
 {
     ctor_1();
 }
 
-// public Column New() [static] :215
+// public Column New() [static]
 Column* Column::New2()
 {
     Column* obj1 = (Column*)uNew(Column_typeof());
@@ -230,10 +230,10 @@ Column* Column::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/ColumnLayout.uno
-// ---------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/ColumnLayout.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class ColumnLayout :28
+// public sealed class ColumnLayout
 // {
 static void ColumnLayout_build(uType* type)
 {
@@ -277,13 +277,13 @@ static void ColumnLayout_build(uType* type)
     return type;
 }
 
-// private float2 Arrange(Fuse.Visual container, Fuse.LayoutParams lp, [bool doArrange], [float4 padding]) :231
+// private float2 Arrange(Fuse.Visual container, Fuse.LayoutParams lp, [bool doArrange], [float4 padding])
 void ColumnLayout__Arrange_fn(ColumnLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, bool* doArrange, ::g::Uno::Float4* padding, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->Arrange(container, *lp, *doArrange, *padding);
 }
 
-// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp) :226
+// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp)
 void ColumnLayout__ArrangePaddingBox_fn(ColumnLayout* __this, ::g::Fuse::Visual* container, ::g::Uno::Float4* padding, ::g::Fuse::LayoutParams* lp)
 {
     ::g::Fuse::LayoutParams lp_ = *lp;
@@ -291,98 +291,98 @@ void ColumnLayout__ArrangePaddingBox_fn(ColumnLayout* __this, ::g::Fuse::Visual*
     __this->Arrange(container, lp_, true, padding_);
 }
 
-// public int get_ColumnCount() :76
+// public int get_ColumnCount()
 void ColumnLayout__get_ColumnCount_fn(ColumnLayout* __this, int32_t* __retval)
 {
     *__retval = __this->ColumnCount();
 }
 
-// public void set_ColumnCount(int value) :77
+// public void set_ColumnCount(int value)
 void ColumnLayout__set_ColumnCount_fn(ColumnLayout* __this, int32_t* value)
 {
     __this->ColumnCount(*value);
 }
 
-// public float get_ColumnSize() :112
+// public float get_ColumnSize()
 void ColumnLayout__get_ColumnSize_fn(ColumnLayout* __this, float* __retval)
 {
     *__retval = __this->ColumnSize();
 }
 
-// public void set_ColumnSize(float value) :113
+// public void set_ColumnSize(float value)
 void ColumnLayout__set_ColumnSize_fn(ColumnLayout* __this, float* value)
 {
     __this->ColumnSize(*value);
 }
 
-// public float get_ColumnSpacing() :131
+// public float get_ColumnSpacing()
 void ColumnLayout__get_ColumnSpacing_fn(ColumnLayout* __this, float* __retval)
 {
     *__retval = __this->ColumnSpacing();
 }
 
-// public void set_ColumnSpacing(float value) :132
+// public void set_ColumnSpacing(float value)
 void ColumnLayout__set_ColumnSpacing_fn(ColumnLayout* __this, float* value)
 {
     __this->ColumnSpacing(*value);
 }
 
-// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp) :221
+// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp)
 void ColumnLayout__GetContentSize_fn(ColumnLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     ::g::Fuse::LayoutParams lp_ = *lp;
     return *__retval = __this->Arrange(container, lp_, false, ::g::Uno::Float4__New1(0.0f)), void();
 }
 
-// public float get_ItemSpacing() :149
+// public float get_ItemSpacing()
 void ColumnLayout__get_ItemSpacing_fn(ColumnLayout* __this, float* __retval)
 {
     *__retval = __this->ItemSpacing();
 }
 
-// public void set_ItemSpacing(float value) :150
+// public void set_ItemSpacing(float value)
 void ColumnLayout__set_ItemSpacing_fn(ColumnLayout* __this, float* value)
 {
     __this->ItemSpacing(*value);
 }
 
-// private int LeastAt(float[] c) :196
+// private int LeastAt(float[] c)
 void ColumnLayout__LeastAt_fn(ColumnLayout* __this, uArray* c, int32_t* __retval)
 {
     *__retval = __this->LeastAt(c);
 }
 
-// private float Max(float[] c) :213
+// private float Max(float[] c)
 void ColumnLayout__Max_fn(ColumnLayout* __this, uArray* c, float* __retval)
 {
     *__retval = __this->Max(c);
 }
 
-// public Fuse.Layouts.Orientation get_Orientation() :47
+// public Fuse.Layouts.Orientation get_Orientation()
 void ColumnLayout__get_Orientation_fn(ColumnLayout* __this, int32_t* __retval)
 {
     *__retval = __this->Orientation();
 }
 
-// public void set_Orientation(Fuse.Layouts.Orientation value) :48
+// public void set_Orientation(Fuse.Layouts.Orientation value)
 void ColumnLayout__set_Orientation_fn(ColumnLayout* __this, int32_t* value)
 {
     __this->Orientation(*value);
 }
 
-// public Fuse.Layouts.ColumnLayoutSizing get_Sizing() :185
+// public Fuse.Layouts.ColumnLayoutSizing get_Sizing()
 void ColumnLayout__get_Sizing_fn(ColumnLayout* __this, int32_t* __retval)
 {
     *__retval = __this->Sizing();
 }
 
-// public void set_Sizing(Fuse.Layouts.ColumnLayoutSizing value) :186
+// public void set_Sizing(Fuse.Layouts.ColumnLayoutSizing value)
 void ColumnLayout__set_Sizing_fn(ColumnLayout* __this, int32_t* value)
 {
     __this->Sizing(*value);
 }
 
-// private float2 Arrange(Fuse.Visual container, Fuse.LayoutParams lp, [bool doArrange], [float4 padding]) [instance] :231
+// private float2 Arrange(Fuse.Visual container, Fuse.LayoutParams lp, [bool doArrange], [float4 padding]) [instance]
 ::g::Uno::Float2 ColumnLayout::Arrange(::g::Fuse::Visual* container, ::g::Fuse::LayoutParams lp, bool doArrange, ::g::Uno::Float4 padding)
 {
     bool vert = Orientation() == 1;
@@ -476,13 +476,13 @@ void ColumnLayout__set_Sizing_fn(ColumnLayout* __this, int32_t* value)
     return q;
 }
 
-// public int get_ColumnCount() [instance] :76
+// public int get_ColumnCount() [instance]
 int32_t ColumnLayout::ColumnCount()
 {
     return _columnCount;
 }
 
-// public void set_ColumnCount(int value) [instance] :77
+// public void set_ColumnCount(int value) [instance]
 void ColumnLayout::ColumnCount(int32_t value)
 {
     if (!_hasColumnCount || (_columnCount != value))
@@ -493,13 +493,13 @@ void ColumnLayout::ColumnCount(int32_t value)
     }
 }
 
-// public float get_ColumnSize() [instance] :112
+// public float get_ColumnSize() [instance]
 float ColumnLayout::ColumnSize()
 {
     return _columnSize;
 }
 
-// public void set_ColumnSize(float value) [instance] :113
+// public void set_ColumnSize(float value) [instance]
 void ColumnLayout::ColumnSize(float value)
 {
     if (!_hasColumnSize || (_columnSize != value))
@@ -510,13 +510,13 @@ void ColumnLayout::ColumnSize(float value)
     }
 }
 
-// public float get_ColumnSpacing() [instance] :131
+// public float get_ColumnSpacing() [instance]
 float ColumnLayout::ColumnSpacing()
 {
     return _columnSpacing;
 }
 
-// public void set_ColumnSpacing(float value) [instance] :132
+// public void set_ColumnSpacing(float value) [instance]
 void ColumnLayout::ColumnSpacing(float value)
 {
     if (_columnSpacing != value)
@@ -526,13 +526,13 @@ void ColumnLayout::ColumnSpacing(float value)
     }
 }
 
-// public float get_ItemSpacing() [instance] :149
+// public float get_ItemSpacing() [instance]
 float ColumnLayout::ItemSpacing()
 {
     return _itemSpacing;
 }
 
-// public void set_ItemSpacing(float value) [instance] :150
+// public void set_ItemSpacing(float value) [instance]
 void ColumnLayout::ItemSpacing(float value)
 {
     if (_itemSpacing != value)
@@ -542,7 +542,7 @@ void ColumnLayout::ItemSpacing(float value)
     }
 }
 
-// private int LeastAt(float[] c) [instance] :196
+// private int LeastAt(float[] c) [instance]
 int32_t ColumnLayout::LeastAt(uArray* c)
 {
     float sz = uPtr(c)->Item<float>(0);
@@ -558,7 +558,7 @@ int32_t ColumnLayout::LeastAt(uArray* c)
     return i;
 }
 
-// private float Max(float[] c) [instance] :213
+// private float Max(float[] c) [instance]
 float ColumnLayout::Max(uArray* c)
 {
     float mx = uPtr(c)->Item<float>(0);
@@ -569,13 +569,13 @@ float ColumnLayout::Max(uArray* c)
     return mx;
 }
 
-// public Fuse.Layouts.Orientation get_Orientation() [instance] :47
+// public Fuse.Layouts.Orientation get_Orientation() [instance]
 int32_t ColumnLayout::Orientation()
 {
     return _orientation;
 }
 
-// public void set_Orientation(Fuse.Layouts.Orientation value) [instance] :48
+// public void set_Orientation(Fuse.Layouts.Orientation value) [instance]
 void ColumnLayout::Orientation(int32_t value)
 {
     if (_orientation != value)
@@ -585,13 +585,13 @@ void ColumnLayout::Orientation(int32_t value)
     }
 }
 
-// public Fuse.Layouts.ColumnLayoutSizing get_Sizing() [instance] :185
+// public Fuse.Layouts.ColumnLayoutSizing get_Sizing() [instance]
 int32_t ColumnLayout::Sizing()
 {
     return _sizing;
 }
 
-// public void set_Sizing(Fuse.Layouts.ColumnLayoutSizing value) [instance] :186
+// public void set_Sizing(Fuse.Layouts.ColumnLayoutSizing value) [instance]
 void ColumnLayout::Sizing(int32_t value)
 {
     if (_sizing != value)
@@ -602,10 +602,10 @@ void ColumnLayout::Sizing(int32_t value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/ColumnLayout.uno
-// ---------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/ColumnLayout.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum ColumnLayoutSizing :8
+// public enum ColumnLayoutSizing
 uEnumType* ColumnLayoutSizing_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -618,10 +618,10 @@ uEnumType* ColumnLayoutSizing_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/GridLayout.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/GridLayout.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal enum DefinitionBase.CreationType :57
+// internal enum DefinitionBase.CreationType
 uEnumType* DefinitionBase__CreationType_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -636,10 +636,10 @@ uEnumType* DefinitionBase__CreationType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/DefaultLayout.uno
-// ----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/DefaultLayout.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class DefaultLayout :12
+// public sealed class DefaultLayout
 // {
 static void DefaultLayout_build(uType* type)
 {
@@ -676,13 +676,13 @@ static void DefaultLayout_build(uType* type)
     return type;
 }
 
-// public generated DefaultLayout() :12
+// public generated DefaultLayout()
 void DefaultLayout__ctor_2_fn(DefaultLayout* __this)
 {
     __this->ctor_2();
 }
 
-// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp) :52
+// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp)
 void DefaultLayout__ArrangePaddingBox_fn(DefaultLayout* __this, ::g::Fuse::Visual* container, ::g::Uno::Float4* padding, ::g::Fuse::LayoutParams* lp)
 {
     ::g::Fuse::LayoutParams lp_ = *lp;
@@ -695,7 +695,7 @@ void DefaultLayout__ArrangePaddingBox_fn(DefaultLayout* __this, ::g::Fuse::Visua
             uPtr(e)->ArrangeMarginBox(::g::Uno::Float2__New2(padding_.X, padding_.Y), av);
 }
 
-// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp) :14
+// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp)
 void DefaultLayout__GetContentSize_fn(DefaultLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     ::g::Fuse::LayoutParams lp_ = *lp;
@@ -703,31 +703,31 @@ void DefaultLayout__GetContentSize_fn(DefaultLayout* __this, ::g::Fuse::Visual* 
     return *__retval = size, void();
 }
 
-// private float2 GetElementsSize(Fuse.Visual container, Fuse.LayoutParams lp) :40
+// private float2 GetElementsSize(Fuse.Visual container, Fuse.LayoutParams lp)
 void DefaultLayout__GetElementsSize_fn(DefaultLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->GetElementsSize(container, *lp);
 }
 
-// internal override sealed Fuse.LayoutDependent IsMarginBoxDependent(Fuse.Visual child) :65
+// internal override sealed Fuse.LayoutDependent IsMarginBoxDependent(Fuse.Visual child)
 void DefaultLayout__IsMarginBoxDependent_fn(DefaultLayout* __this, ::g::Fuse::Visual* child, int32_t* __retval)
 {
     return *__retval = 2, void();
 }
 
-// public generated DefaultLayout New() :12
+// public generated DefaultLayout New()
 void DefaultLayout__New2_fn(DefaultLayout** __retval)
 {
     *__retval = DefaultLayout::New2();
 }
 
-// public generated DefaultLayout() [instance] :12
+// public generated DefaultLayout() [instance]
 void DefaultLayout::ctor_2()
 {
     ctor_1();
 }
 
-// private float2 GetElementsSize(Fuse.Visual container, Fuse.LayoutParams lp) [instance] :40
+// private float2 GetElementsSize(Fuse.Visual container, Fuse.LayoutParams lp) [instance]
 ::g::Uno::Float2 DefaultLayout::GetElementsSize(::g::Fuse::Visual* container, ::g::Fuse::LayoutParams lp)
 {
     ::g::Uno::Float2 ds = ::g::Uno::Float2__New1(0.0f);
@@ -743,7 +743,7 @@ void DefaultLayout::ctor_2()
     return ds;
 }
 
-// public generated DefaultLayout New() [static] :12
+// public generated DefaultLayout New() [static]
 DefaultLayout* DefaultLayout::New2()
 {
     DefaultLayout* obj1 = (DefaultLayout*)uNew(DefaultLayout_typeof());
@@ -752,10 +752,10 @@ DefaultLayout* DefaultLayout::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/GridLayout.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/GridLayout.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class DefinitionBase :21
+// public abstract class DefinitionBase
 // {
 static void DefinitionBase_build(uType* type)
 {
@@ -798,109 +798,109 @@ uType* DefinitionBase_typeof()
     return type;
 }
 
-// protected DefinitionBase() :26
+// protected DefinitionBase()
 void DefinitionBase__ctor_1_fn(DefinitionBase* __this)
 {
     __this->ctor_1();
 }
 
-// public float get_ActualOffset() :50
+// public float get_ActualOffset()
 void DefinitionBase__get_ActualOffset_fn(DefinitionBase* __this, float* __retval)
 {
     *__retval = __this->ActualOffset();
 }
 
-// internal void set_ActualOffset(float value) :51
+// internal void set_ActualOffset(float value)
 void DefinitionBase__set_ActualOffset_fn(DefinitionBase* __this, float* value)
 {
     __this->ActualOffset(*value);
 }
 
-// internal generated void add_Changed(Uno.Action value) :23
+// internal generated void add_Changed(Uno.Action value)
 void DefinitionBase__add_Changed_fn(DefinitionBase* __this, uDelegate* value)
 {
     __this->add_Changed(value);
 }
 
-// internal generated void remove_Changed(Uno.Action value) :23
+// internal generated void remove_Changed(Uno.Action value)
 void DefinitionBase__remove_Changed_fn(DefinitionBase* __this, uDelegate* value)
 {
     __this->remove_Changed(value);
 }
 
-// internal void Copy<T>(T copy, Fuse.Layouts.DefinitionBase.CreationType creation) :39
+// internal void Copy<T>(T copy, Fuse.Layouts.DefinitionBase.CreationType creation)
 void DefinitionBase__Copy_fn(DefinitionBase* __this, uType* __type, DefinitionBase* copy, int32_t* creation)
 {
     __this->Copy(__type, copy, *creation);
 }
 
-// public float get_Extent() :97
+// public float get_Extent()
 void DefinitionBase__get_Extent_fn(DefinitionBase* __this, float* __retval)
 {
     *__retval = __this->Extent();
 }
 
-// public void set_Extent(float value) :98
+// public void set_Extent(float value)
 void DefinitionBase__set_Extent_fn(DefinitionBase* __this, float* value)
 {
     __this->Extent(*value);
 }
 
-// internal bool get_IsImplied() :77
+// internal bool get_IsImplied()
 void DefinitionBase__get_IsImplied_fn(DefinitionBase* __this, bool* __retval)
 {
     *__retval = __this->IsImplied();
 }
 
-// public Fuse.Layouts.Metric get_Metric() :83
+// public Fuse.Layouts.Metric get_Metric()
 void DefinitionBase__get_Metric_fn(DefinitionBase* __this, int32_t* __retval)
 {
     *__retval = __this->Metric();
 }
 
-// public void set_Metric(Fuse.Layouts.Metric value) :84
+// public void set_Metric(Fuse.Layouts.Metric value)
 void DefinitionBase__set_Metric_fn(DefinitionBase* __this, int32_t* value)
 {
     __this->Metric(*value);
 }
 
-// protected internal void OnChanged() :24
+// protected internal void OnChanged()
 void DefinitionBase__OnChanged_fn(DefinitionBase* __this)
 {
     __this->OnChanged();
 }
 
-// protected internal static T Parse<T>(string data) :121
+// protected internal static T Parse<T>(string data)
 void DefinitionBase__Parse_fn(uType* __type, uString* data, DefinitionBase** __retval)
 {
     *__retval = DefinitionBase::Parse(__type, data);
 }
 
-// protected internal static void Parse<T>(string data, Uno.Collections.IList<T> output) :111
+// protected internal static void Parse<T>(string data, Uno.Collections.IList<T> output)
 void DefinitionBase__Parse1_fn(uType* __type, uString* data, uObject* output)
 {
     DefinitionBase::Parse1(__type, data, output);
 }
 
-// internal string Serialize() :163
+// internal string Serialize()
 void DefinitionBase__Serialize_fn(DefinitionBase* __this, uString** __retval)
 {
     *__retval = __this->Serialize();
 }
 
-// internal static string Serialize<T>(Uno.Collections.IList<T> columns) :174
+// internal static string Serialize<T>(Uno.Collections.IList<T> columns)
 void DefinitionBase__Serialize1_fn(uType* __type, uObject* columns, uString** __retval)
 {
     *__retval = DefinitionBase::Serialize1(__type, columns);
 }
 
-// internal bool get_UsesDefault() :73
+// internal bool get_UsesDefault()
 void DefinitionBase__get_UsesDefault_fn(DefinitionBase* __this, bool* __retval)
 {
     *__retval = __this->UsesDefault();
 }
 
-// protected DefinitionBase() [instance] :26
+// protected DefinitionBase() [instance]
 void DefinitionBase::ctor_1()
 {
     _metric = 1;
@@ -908,31 +908,31 @@ void DefinitionBase::ctor_1()
     ctor_();
 }
 
-// public float get_ActualOffset() [instance] :50
+// public float get_ActualOffset() [instance]
 float DefinitionBase::ActualOffset()
 {
     return _actualOffset;
 }
 
-// internal void set_ActualOffset(float value) [instance] :51
+// internal void set_ActualOffset(float value) [instance]
 void DefinitionBase::ActualOffset(float value)
 {
     _actualOffset = value;
 }
 
-// internal generated void add_Changed(Uno.Action value) [instance] :23
+// internal generated void add_Changed(Uno.Action value) [instance]
 void DefinitionBase::add_Changed(uDelegate* value)
 {
     Changed1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Changed1, value), ::TYPES[8/*Uno.Action*/]);
 }
 
-// internal generated void remove_Changed(Uno.Action value) [instance] :23
+// internal generated void remove_Changed(Uno.Action value) [instance]
 void DefinitionBase::remove_Changed(uDelegate* value)
 {
     Changed1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Changed1, value), ::TYPES[8/*Uno.Action*/]);
 }
 
-// internal void Copy<T>(T copy, Fuse.Layouts.DefinitionBase.CreationType creation) [instance] :39
+// internal void Copy<T>(T copy, Fuse.Layouts.DefinitionBase.CreationType creation) [instance]
 void DefinitionBase::Copy(uType* __type, DefinitionBase* copy, int32_t creation)
 {
     Metric(uPtr(copy)->Metric());
@@ -940,13 +940,13 @@ void DefinitionBase::Copy(uType* __type, DefinitionBase* copy, int32_t creation)
     Creation = creation;
 }
 
-// public float get_Extent() [instance] :97
+// public float get_Extent() [instance]
 float DefinitionBase::Extent()
 {
     return _extent;
 }
 
-// public void set_Extent(float value) [instance] :98
+// public void set_Extent(float value) [instance]
 void DefinitionBase::Extent(float value)
 {
     if (_extent != value)
@@ -956,19 +956,19 @@ void DefinitionBase::Extent(float value)
     }
 }
 
-// internal bool get_IsImplied() [instance] :77
+// internal bool get_IsImplied() [instance]
 bool DefinitionBase::IsImplied()
 {
     return Creation == 3;
 }
 
-// public Fuse.Layouts.Metric get_Metric() [instance] :83
+// public Fuse.Layouts.Metric get_Metric() [instance]
 int32_t DefinitionBase::Metric()
 {
     return _metric;
 }
 
-// public void set_Metric(Fuse.Layouts.Metric value) [instance] :84
+// public void set_Metric(Fuse.Layouts.Metric value) [instance]
 void DefinitionBase::Metric(int32_t value)
 {
     if (_metric != value)
@@ -978,14 +978,14 @@ void DefinitionBase::Metric(int32_t value)
     }
 }
 
-// protected internal void OnChanged() [instance] :24
+// protected internal void OnChanged() [instance]
 void DefinitionBase::OnChanged()
 {
     if (::g::Uno::Delegate::op_Inequality(Changed1, NULL))
         uPtr(Changed1)->InvokeVoid();
 }
 
-// internal string Serialize() [instance] :163
+// internal string Serialize() [instance]
 uString* DefinitionBase::Serialize()
 {
     switch (Metric())
@@ -1001,13 +1001,13 @@ uString* DefinitionBase::Serialize()
     }
 }
 
-// internal bool get_UsesDefault() [instance] :73
+// internal bool get_UsesDefault() [instance]
 bool DefinitionBase::UsesDefault()
 {
     return (Creation == 2) || (Creation == 3);
 }
 
-// protected internal static T Parse<T>(string data) [static] :121
+// protected internal static T Parse<T>(string data) [static]
 DefinitionBase* DefinitionBase::Parse(uType* __type, uString* data)
 {
     try
@@ -1054,7 +1054,7 @@ DefinitionBase* DefinitionBase::Parse(uType* __type, uString* data)
     }
 }
 
-// protected internal static void Parse<T>(string data, Uno.Collections.IList<T> output) [static] :111
+// protected internal static void Parse<T>(string data, Uno.Collections.IList<T> output) [static]
 void DefinitionBase::Parse1(uType* __type, uString* data, uObject* output)
 {
     uType* __types[] = {
@@ -1072,7 +1072,7 @@ void DefinitionBase::Parse1(uType* __type, uString* data, uObject* output)
         ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(output), __types[0]), (DefinitionBase*)DefinitionBase::Parse(__types[1], uPtr(s)->Strong<uString*>(i)));
 }
 
-// internal static string Serialize<T>(Uno.Collections.IList<T> columns) [static] :174
+// internal static string Serialize<T>(Uno.Collections.IList<T> columns) [static]
 uString* DefinitionBase::Serialize1(uType* __type, uObject* columns)
 {
     uType* __types[] = {
@@ -1094,10 +1094,10 @@ uString* DefinitionBase::Serialize1(uType* __type, uObject* columns)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/DockLayout.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/DockLayout.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum Dock :12
+// public enum Dock
 uEnumType* Dock_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -1113,12 +1113,12 @@ uEnumType* Dock_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/DockLayout.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/DockLayout.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class DockLayout :17
+// public sealed class DockLayout
 // {
-// static generated DockLayout() :17
+// static generated DockLayout()
 static void DockLayout__cctor_1_fn(uType* __type)
 {
     ::g::Fuse::Properties_typeof()->Init();
@@ -1164,13 +1164,13 @@ static void DockLayout_build(uType* type)
     return type;
 }
 
-// public generated DockLayout() :17
+// public generated DockLayout()
 void DockLayout__ctor_2_fn(DockLayout* __this)
 {
     __this->ctor_2();
 }
 
-// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp) :109
+// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp)
 void DockLayout__ArrangePaddingBox_fn(DockLayout* __this, ::g::Fuse::Visual* container, ::g::Uno::Float4* padding, ::g::Fuse::LayoutParams* lp)
 {
     ::g::Uno::Float4 padding_ = *padding;
@@ -1247,7 +1247,7 @@ void DockLayout__ArrangePaddingBox_fn(DockLayout* __this, ::g::Fuse::Visual* con
     }
 }
 
-// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp) :44
+// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp)
 void DockLayout__GetContentSize_fn(DockLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     ::g::Fuse::LayoutParams lp_ = *lp;
@@ -1256,25 +1256,25 @@ void DockLayout__GetContentSize_fn(DockLayout* __this, ::g::Fuse::Visual* contai
     return *__retval = __this->MeasureSubtree(container, (::g::Fuse::Node*)uPtr(container)->FirstChild(::TYPES[3/*Fuse.Visual.FirstChild<Fuse.Node>*/]), nlp), void();
 }
 
-// public static Fuse.Layouts.Dock GetDock(Fuse.Visual elm) :28
+// public static Fuse.Layouts.Dock GetDock(Fuse.Visual elm)
 void DockLayout__GetDock_fn(::g::Fuse::Visual* elm, int32_t* __retval)
 {
     *__retval = DockLayout::GetDock(elm);
 }
 
-// private float2 MeasureSubtree(Fuse.Visual container, Fuse.Node child, Fuse.LayoutParams lp) :52
+// private float2 MeasureSubtree(Fuse.Visual container, Fuse.Node child, Fuse.LayoutParams lp)
 void DockLayout__MeasureSubtree_fn(DockLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::Node* child, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->MeasureSubtree(container, child, *lp);
 }
 
-// public generated DockLayout New() :17
+// public generated DockLayout New()
 void DockLayout__New2_fn(DockLayout** __retval)
 {
     *__retval = DockLayout::New2();
 }
 
-// public static void SetDock(Fuse.Visual elm, Fuse.Layouts.Dock dock) :22
+// public static void SetDock(Fuse.Visual elm, Fuse.Layouts.Dock dock)
 void DockLayout__SetDock_fn(::g::Fuse::Visual* elm, int32_t* dock)
 {
     DockLayout::SetDock(elm, *dock);
@@ -1282,13 +1282,13 @@ void DockLayout__SetDock_fn(::g::Fuse::Visual* elm, int32_t* dock)
 
 uSStrong< ::g::Fuse::PropertyHandle*> DockLayout::_dockProperty_;
 
-// public generated DockLayout() [instance] :17
+// public generated DockLayout() [instance]
 void DockLayout::ctor_2()
 {
     ctor_1();
 }
 
-// private float2 MeasureSubtree(Fuse.Visual container, Fuse.Node child, Fuse.LayoutParams lp) [instance] :52
+// private float2 MeasureSubtree(Fuse.Visual container, Fuse.Node child, Fuse.LayoutParams lp) [instance]
 ::g::Uno::Float2 DockLayout::MeasureSubtree(::g::Fuse::Visual* container, ::g::Fuse::Node* child, ::g::Fuse::LayoutParams lp)
 {
     ::g::Fuse::Visual* c = uAs< ::g::Fuse::Visual*>(child, ::TYPES[4/*Fuse.Visual*/]);
@@ -1344,7 +1344,7 @@ void DockLayout::ctor_2()
     return ::g::Uno::Float2__New1(0.0f);
 }
 
-// public static Fuse.Layouts.Dock GetDock(Fuse.Visual elm) [static] :28
+// public static Fuse.Layouts.Dock GetDock(Fuse.Visual elm) [static]
 int32_t DockLayout::GetDock(::g::Fuse::Visual* elm)
 {
     DockLayout_typeof()->Init();
@@ -1356,7 +1356,7 @@ int32_t DockLayout::GetDock(::g::Fuse::Visual* elm)
     return 4;
 }
 
-// public generated DockLayout New() [static] :17
+// public generated DockLayout New() [static]
 DockLayout* DockLayout::New2()
 {
     DockLayout* obj1 = (DockLayout*)uNew(DockLayout_typeof());
@@ -1364,7 +1364,7 @@ DockLayout* DockLayout::New2()
     return obj1;
 }
 
-// public static void SetDock(Fuse.Visual elm, Fuse.Layouts.Dock dock) [static] :22
+// public static void SetDock(Fuse.Visual elm, Fuse.Layouts.Dock dock) [static]
 void DockLayout::SetDock(::g::Fuse::Visual* elm, int32_t dock)
 {
     DockLayout_typeof()->Init();
@@ -1373,10 +1373,10 @@ void DockLayout::SetDock(::g::Fuse::Visual* elm, int32_t dock)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/WrapLayout.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/WrapLayout.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum FlowDirection :12
+// public enum FlowDirection
 uEnumType* FlowDirection_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -1389,10 +1389,10 @@ uEnumType* FlowDirection_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/GridLayout.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/GridLayout.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum GridChildOrder :263
+// public enum GridChildOrder
 uEnumType* GridChildOrder_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -1405,12 +1405,12 @@ uEnumType* GridChildOrder_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/GridLayout.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/GridLayout.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class GridLayout :269
+// public sealed class GridLayout
 // {
-// static generated GridLayout() :269
+// static generated GridLayout()
 static void GridLayout__cctor_1_fn(uType* __type)
 {
     ::g::Fuse::Properties_typeof()->Init();
@@ -1429,7 +1429,7 @@ static void GridLayout__cctor_1_fn(uType* __type)
 static void GridLayout_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("A grid is using incompatible layout parameters which may result in incorrect layout. A grid using `Default` row or column sizing must have only one row or column, or have a known size. Add a `DefaultRow` or `DefaultColumn` to get the desired sizing.");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/GridLayout.uno");
+    ::STRINGS[1] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/GridLayout.uno");
     ::STRINGS[2] = uString::Const("CheckMeasureSettings");
     ::STRINGS[3] = uString::Const("RowCount and ColumnCount must be >= 1");
     ::STRINGS[4] = uString::Const("ModifyCount");
@@ -1560,19 +1560,19 @@ static void GridLayout_build(uType* type)
     return type;
 }
 
-// public generated GridLayout() :269
+// public generated GridLayout()
 void GridLayout__ctor_2_fn(GridLayout* __this)
 {
     __this->ctor_2();
 }
 
-// private bool AddListener(Fuse.Layouts.DefinitionBase item) :697
+// private bool AddListener(Fuse.Layouts.DefinitionBase item)
 void GridLayout__AddListener_fn(GridLayout* __this, ::g::Fuse::Layouts::DefinitionBase* item, bool* __retval)
 {
     *__retval = __this->AddListener(item);
 }
 
-// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp) :1043
+// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp)
 void GridLayout__ArrangePaddingBox_fn(GridLayout* __this, ::g::Fuse::Visual* container, ::g::Uno::Float4* padding, ::g::Fuse::LayoutParams* lp)
 {
     ::g::Fuse::LayoutParams lp_ = *lp;
@@ -1666,242 +1666,242 @@ void GridLayout__ArrangePaddingBox_fn(GridLayout* __this, ::g::Fuse::Visual* con
     }
 }
 
-// private void CalcActualPositions(Fuse.Visual container) :513
+// private void CalcActualPositions(Fuse.Visual container)
 void GridLayout__CalcActualPositions_fn(GridLayout* __this, ::g::Fuse::Visual* container)
 {
     __this->CalcActualPositions(container);
 }
 
-// private void CalcAuto(Fuse.Visual container, float& availableWidth, float& availableHeight, bool secondPass, bool hasFirstHorzSize, bool hasFirstVertSize, bool expandWidth, bool expandHeight) :871
+// private void CalcAuto(Fuse.Visual container, float& availableWidth, float& availableHeight, bool secondPass, bool hasFirstHorzSize, bool hasFirstVertSize, bool expandWidth, bool expandHeight)
 void GridLayout__CalcAuto_fn(GridLayout* __this, ::g::Fuse::Visual* container, float* availableWidth, float* availableHeight, bool* secondPass, bool* hasFirstHorzSize, bool* hasFirstVertSize, bool* expandWidth, bool* expandHeight)
 {
     __this->CalcAuto(container, availableWidth, availableHeight, *secondPass, *hasFirstHorzSize, *hasFirstVertSize, *expandWidth, *expandHeight);
 }
 
-// private void CalcFill<T>(Uno.Collections.IList<T> list, float available, float proportion, bool expand) :762
+// private void CalcFill<T>(Uno.Collections.IList<T> list, float available, float proportion, bool expand)
 void GridLayout__CalcFill_fn(GridLayout* __this, uType* __type, uObject* list, float* available, float* proportion, bool* expand)
 {
     __this->CalcFill(__type, list, *available, *proportion, *expand);
 }
 
-// private void CalcInitialExtents<T>(Uno.Collections.IList<T> list, bool expand, float& used, bool& hasAuto) :782
+// private void CalcInitialExtents<T>(Uno.Collections.IList<T> list, bool expand, float& used, bool& hasAuto)
 void GridLayout__CalcInitialExtents_fn(GridLayout* __this, uType* __type, uObject* list, bool* expand, float* used, bool* hasAuto)
 {
     __this->CalcInitialExtents(__type, list, *expand, used, hasAuto);
 }
 
-// private float CalcTotalExtentAndOffset<T>(Uno.Collections.IList<T> list, float effectiveCellSpacing) :805
+// private float CalcTotalExtentAndOffset<T>(Uno.Collections.IList<T> list, float effectiveCellSpacing)
 void GridLayout__CalcTotalExtentAndOffset_fn(GridLayout* __this, uType* __type, uObject* list, float* effectiveCellSpacing, float* __retval)
 {
     *__retval = __this->CalcTotalExtentAndOffset(__type, list, *effectiveCellSpacing);
 }
 
-// public float get_CellSpacing() :421
+// public float get_CellSpacing()
 void GridLayout__get_CellSpacing_fn(GridLayout* __this, float* __retval)
 {
     *__retval = __this->CellSpacing();
 }
 
-// public void set_CellSpacing(float value) :422
+// public void set_CellSpacing(float value)
 void GridLayout__set_CellSpacing_fn(GridLayout* __this, float* value)
 {
     __this->CellSpacing(*value);
 }
 
-// private void Changed() :680
+// private void Changed()
 void GridLayout__Changed_fn(GridLayout* __this)
 {
     __this->Changed();
 }
 
-// private void CheckMeasureSettings(bool hasX, bool hasY) :1003
+// private void CheckMeasureSettings(bool hasX, bool hasY)
 void GridLayout__CheckMeasureSettings_fn(GridLayout* __this, bool* hasX, bool* hasY)
 {
     __this->CheckMeasureSettings(*hasX, *hasY);
 }
 
-// public Fuse.Layouts.GridChildOrder get_ChildOrder() :287
+// public Fuse.Layouts.GridChildOrder get_ChildOrder()
 void GridLayout__get_ChildOrder_fn(GridLayout* __this, int32_t* __retval)
 {
     *__retval = __this->ChildOrder();
 }
 
-// public void set_ChildOrder(Fuse.Layouts.GridChildOrder value) :288
+// public void set_ChildOrder(Fuse.Layouts.GridChildOrder value)
 void GridLayout__set_ChildOrder_fn(GridLayout* __this, int32_t* value)
 {
     __this->ChildOrder(*value);
 }
 
-// public int get_ColumnCount() :400
+// public int get_ColumnCount()
 void GridLayout__get_ColumnCount_fn(GridLayout* __this, int32_t* __retval)
 {
     *__retval = __this->ColumnCount();
 }
 
-// public void set_ColumnCount(int value) :401
+// public void set_ColumnCount(int value)
 void GridLayout__set_ColumnCount_fn(GridLayout* __this, int32_t* value)
 {
     __this->ColumnCount(*value);
 }
 
-// public Uno.Collections.IList<Fuse.Layouts.Column> get_ColumnList() :374
+// public Uno.Collections.IList<Fuse.Layouts.Column> get_ColumnList()
 void GridLayout__get_ColumnList_fn(GridLayout* __this, uObject** __retval)
 {
     *__retval = __this->ColumnList();
 }
 
-// public string get_Columns() :378
+// public string get_Columns()
 void GridLayout__get_Columns_fn(GridLayout* __this, uString** __retval)
 {
     *__retval = __this->Columns();
 }
 
-// public void set_Columns(string value) :379
+// public void set_Columns(string value)
 void GridLayout__set_Columns_fn(GridLayout* __this, uString* value)
 {
     __this->Columns(value);
 }
 
-// public Fuse.Elements.Alignment get_ContentAlignment() :435
+// public Fuse.Elements.Alignment get_ContentAlignment()
 void GridLayout__get_ContentAlignment_fn(GridLayout* __this, int32_t* __retval)
 {
     *__retval = __this->ContentAlignment();
 }
 
-// public void set_ContentAlignment(Fuse.Elements.Alignment value) :436
+// public void set_ContentAlignment(Fuse.Elements.Alignment value)
 void GridLayout__set_ContentAlignment_fn(GridLayout* __this, int32_t* value)
 {
     __this->ContentAlignment(*value);
 }
 
-// public string get_DefaultColumn() :390
+// public string get_DefaultColumn()
 void GridLayout__get_DefaultColumn_fn(GridLayout* __this, uString** __retval)
 {
     *__retval = __this->DefaultColumn();
 }
 
-// public void set_DefaultColumn(string value) :391
+// public void set_DefaultColumn(string value)
 void GridLayout__set_DefaultColumn_fn(GridLayout* __this, uString* value)
 {
     __this->DefaultColumn(value);
 }
 
-// public string get_DefaultRow() :302
+// public string get_DefaultRow()
 void GridLayout__get_DefaultRow_fn(GridLayout* __this, uString** __retval)
 {
     *__retval = __this->DefaultRow();
 }
 
-// public void set_DefaultRow(string value) :303
+// public void set_DefaultRow(string value)
 void GridLayout__set_DefaultRow_fn(GridLayout* __this, uString* value)
 {
     __this->DefaultRow(value);
 }
 
-// private void DefinitionAdded(Fuse.Layouts.DefinitionBase r) :685
+// private void DefinitionAdded(Fuse.Layouts.DefinitionBase r)
 void GridLayout__DefinitionAdded_fn(GridLayout* __this, ::g::Fuse::Layouts::DefinitionBase* r)
 {
     __this->DefinitionAdded(r);
 }
 
-// private void DefinitionRemoved(Fuse.Layouts.DefinitionBase r) :691
+// private void DefinitionRemoved(Fuse.Layouts.DefinitionBase r)
 void GridLayout__DefinitionRemoved_fn(GridLayout* __this, ::g::Fuse::Layouts::DefinitionBase* r)
 {
     __this->DefinitionRemoved(r);
 }
 
-// private float get_EffectiveCellSpacing() :736
+// private float get_EffectiveCellSpacing()
 void GridLayout__get_EffectiveCellSpacing_fn(GridLayout* __this, float* __retval)
 {
     *__retval = __this->EffectiveCellSpacing();
 }
 
-// private Fuse.Elements.Alignment get_EffectiveContentAlignment() :1029
+// private Fuse.Elements.Alignment get_EffectiveContentAlignment()
 void GridLayout__get_EffectiveContentAlignment_fn(GridLayout* __this, int32_t* __retval)
 {
     *__retval = __this->EffectiveContentAlignment();
 }
 
-// private Fuse.Layouts.Metric EffectiveMetric(Fuse.Layouts.Metric src, bool expand) :743
+// private Fuse.Layouts.Metric EffectiveMetric(Fuse.Layouts.Metric src, bool expand)
 void GridLayout__EffectiveMetric_fn(GridLayout* __this, int32_t* src, bool* expand, int32_t* __retval)
 {
     *__retval = __this->EffectiveMetric(*src, *expand);
 }
 
-// private int GetActualColumn(Fuse.Visual elm) :640
+// private int GetActualColumn(Fuse.Visual elm)
 void GridLayout__GetActualColumn_fn(GridLayout* __this, ::g::Fuse::Visual* elm, int32_t* __retval)
 {
     *__retval = __this->GetActualColumn(elm);
 }
 
-// private int GetActualRow(Fuse.Visual elm) :466
+// private int GetActualRow(Fuse.Visual elm)
 void GridLayout__GetActualRow_fn(GridLayout* __this, ::g::Fuse::Visual* elm, int32_t* __retval)
 {
     *__retval = __this->GetActualRow(elm);
 }
 
-// private float2 GetAutoSize(Fuse.Visual child, int x0, int y0, bool expandX, bool expandY, bool& knowX, bool& knowY, bool& autoX, bool& autoY) :821
+// private float2 GetAutoSize(Fuse.Visual child, int x0, int y0, bool expandX, bool expandY, bool& knowX, bool& knowY, bool& autoX, bool& autoY)
 void GridLayout__GetAutoSize_fn(GridLayout* __this, ::g::Fuse::Visual* child, int32_t* x0, int32_t* y0, bool* expandX, bool* expandY, bool* knowX, bool* knowY, bool* autoX, bool* autoY, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->GetAutoSize(child, *x0, *y0, *expandX, *expandY, knowX, knowY, autoX, autoY);
 }
 
-// public static int GetColumn(Fuse.Visual elm) :506
+// public static int GetColumn(Fuse.Visual elm)
 void GridLayout__GetColumn_fn(::g::Fuse::Visual* elm, int32_t* __retval)
 {
     *__retval = GridLayout::GetColumn(elm);
 }
 
-// private Fuse.Layouts.Column GetColumnData(int column) :404
+// private Fuse.Layouts.Column GetColumnData(int column)
 void GridLayout__GetColumnData_fn(GridLayout* __this, int32_t* column, ::g::Fuse::Layouts::Column** __retval)
 {
     *__retval = __this->GetColumnData(*column);
 }
 
-// public static int GetColumnSpan(Fuse.Visual elm) :661
+// public static int GetColumnSpan(Fuse.Visual elm)
 void GridLayout__GetColumnSpan_fn(::g::Fuse::Visual* elm, int32_t* __retval)
 {
     *__retval = GridLayout::GetColumnSpan(elm);
 }
 
-// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp) :729
+// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp)
 void GridLayout__GetContentSize_fn(GridLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     ::g::Fuse::LayoutParams lp_ = *lp;
     return *__retval = __this->Measure(container, lp_), void();
 }
 
-// public static int GetRow(Fuse.Visual elm) :459
+// public static int GetRow(Fuse.Visual elm)
 void GridLayout__GetRow_fn(::g::Fuse::Visual* elm, int32_t* __retval)
 {
     *__retval = GridLayout::GetRow(elm);
 }
 
-// private Fuse.Layouts.Row GetRowData(int row) :411
+// private Fuse.Layouts.Row GetRowData(int row)
 void GridLayout__GetRowData_fn(GridLayout* __this, int32_t* row, ::g::Fuse::Layouts::Row** __retval)
 {
     *__retval = __this->GetRowData(*row);
 }
 
-// public static int GetRowSpan(Fuse.Visual elm) :487
+// public static int GetRowSpan(Fuse.Visual elm)
 void GridLayout__GetRowSpan_fn(::g::Fuse::Visual* elm, int32_t* __retval)
 {
     *__retval = GridLayout::GetRowSpan(elm);
 }
 
-// private float GetTotalProportion<T>(Uno.Collections.IList<T> list, bool expand) :750
+// private float GetTotalProportion<T>(Uno.Collections.IList<T> list, bool expand)
 void GridLayout__GetTotalProportion_fn(GridLayout* __this, uType* __type, uObject* list, bool* expand, float* __retval)
 {
     *__retval = __this->GetTotalProportion(__type, list, *expand);
 }
 
-// private bool HasDefaultMetric<T>(Uno.Collections.IList<T> list) :1018
+// private bool HasDefaultMetric<T>(Uno.Collections.IList<T> list)
 void GridLayout__HasDefaultMetric_fn(GridLayout* __this, uType* __type, uObject* list, bool* __retval)
 {
     *__retval = __this->HasDefaultMetric(__type, list);
 }
 
-// internal override sealed Fuse.LayoutDependent IsMarginBoxDependent(Fuse.Visual child) :1122
+// internal override sealed Fuse.LayoutDependent IsMarginBoxDependent(Fuse.Visual child)
 void GridLayout__IsMarginBoxDependent_fn(GridLayout* __this, ::g::Fuse::Visual* child, int32_t* __retval)
 {
     ::g::Fuse::Layouts::Column* c = __this->GetColumnData(__this->GetActualColumn(child));
@@ -1913,31 +1913,31 @@ void GridLayout__IsMarginBoxDependent_fn(GridLayout* __this, ::g::Fuse::Visual* 
     return *__retval = ((__this->EffectiveMetric(uPtr(c)->Metric(), false) != 2) && (__this->EffectiveMetric(uPtr(r)->Metric(), false) != 2)) ? 0 : 4, void();
 }
 
-// private float2 Measure(Fuse.Visual container, Fuse.LayoutParams lp) :928
+// private float2 Measure(Fuse.Visual container, Fuse.LayoutParams lp)
 void GridLayout__Measure_fn(GridLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->Measure(container, *lp);
 }
 
-// private void ModifyCount<T>(Uno.Collections.IList<T> list, int count, T primordial) :340
+// private void ModifyCount<T>(Uno.Collections.IList<T> list, int count, T primordial)
 void GridLayout__ModifyCount_fn(GridLayout* __this, uType* __type, uObject* list, int32_t* count, ::g::Fuse::Layouts::DefinitionBase* primordial)
 {
     __this->ModifyCount(__type, list, *count, primordial);
 }
 
-// private void ModifyDefault<T>(Uno.Collections.RootableList<T> list, T primordial) :310
+// private void ModifyDefault<T>(Uno.Collections.RootableList<T> list, T primordial)
 void GridLayout__ModifyDefault_fn(GridLayout* __this, uType* __type, ::g::Uno::Collections::RootableList* list, ::g::Fuse::Layouts::DefinitionBase* primordial)
 {
     __this->ModifyDefault(__type, list, primordial);
 }
 
-// public generated GridLayout New() :269
+// public generated GridLayout New()
 void GridLayout__New2_fn(GridLayout** __retval)
 {
     *__retval = GridLayout::New2();
 }
 
-// protected override sealed void OnRooted() :715
+// protected override sealed void OnRooted()
 void GridLayout__OnRooted_fn(GridLayout* __this)
 {
     ::g::Fuse::Layouts::Layout__OnRooted_fn(__this);
@@ -1945,7 +1945,7 @@ void GridLayout__OnRooted_fn(GridLayout* __this)
     uPtr(__this->_columns)->RootSubscribe(uDelegate::New(::TYPES[29/*Uno.Action<Fuse.Layouts.Column>*/], (void*)GridLayout__DefinitionAdded_fn, __this), uDelegate::New(::TYPES[29/*Uno.Action<Fuse.Layouts.Column>*/], (void*)GridLayout__DefinitionRemoved_fn, __this));
 }
 
-// protected override sealed void OnUnrooted() :722
+// protected override sealed void OnUnrooted()
 void GridLayout__OnUnrooted_fn(GridLayout* __this)
 {
     ::g::Fuse::Layouts::Layout__OnUnrooted_fn(__this);
@@ -1953,49 +1953,49 @@ void GridLayout__OnUnrooted_fn(GridLayout* __this)
     uPtr(__this->_rows)->RootUnsubscribe();
 }
 
-// private bool RemoveListener(Fuse.Layouts.DefinitionBase item) :705
+// private bool RemoveListener(Fuse.Layouts.DefinitionBase item)
 void GridLayout__RemoveListener_fn(GridLayout* __this, ::g::Fuse::Layouts::DefinitionBase* item, bool* __retval)
 {
     *__retval = __this->RemoveListener(item);
 }
 
-// public int get_RowCount() :326
+// public int get_RowCount()
 void GridLayout__get_RowCount_fn(GridLayout* __this, int32_t* __retval)
 {
     *__retval = __this->RowCount();
 }
 
-// public void set_RowCount(int value) :327
+// public void set_RowCount(int value)
 void GridLayout__set_RowCount_fn(GridLayout* __this, int32_t* value)
 {
     __this->RowCount(*value);
 }
 
-// public Uno.Collections.IList<Fuse.Layouts.Row> get_RowList() :272
+// public Uno.Collections.IList<Fuse.Layouts.Row> get_RowList()
 void GridLayout__get_RowList_fn(GridLayout* __this, uObject** __retval)
 {
     *__retval = __this->RowList();
 }
 
-// public string get_Rows() :276
+// public string get_Rows()
 void GridLayout__get_Rows_fn(GridLayout* __this, uString** __retval)
 {
     *__retval = __this->Rows();
 }
 
-// public void set_Rows(string value) :277
+// public void set_Rows(string value)
 void GridLayout__set_Rows_fn(GridLayout* __this, uString* value)
 {
     __this->Rows(value);
 }
 
-// private void TrimPad<T>(Uno.Collections.IList<T> list, int count, T primordial) :622
+// private void TrimPad<T>(Uno.Collections.IList<T> list, int count, T primordial)
 void GridLayout__TrimPad_fn(GridLayout* __this, uType* __type, uObject* list, int32_t* count, ::g::Fuse::Layouts::DefinitionBase* primordial)
 {
     __this->TrimPad(__type, list, *count, primordial);
 }
 
-// private int UserCount<T>(Uno.Collections.IList<T> list) :331
+// private int UserCount<T>(Uno.Collections.IList<T> list)
 void GridLayout__UserCount_fn(GridLayout* __this, uType* __type, uObject* list, int32_t* __retval)
 {
     *__retval = __this->UserCount(__type, list);
@@ -2010,7 +2010,7 @@ uSStrong< ::g::Fuse::PropertyHandle*> GridLayout::_columnProperty_;
 uSStrong< ::g::Fuse::PropertyHandle*> GridLayout::_actualColumnProperty_;
 uSStrong< ::g::Fuse::PropertyHandle*> GridLayout::_columnSpanProperty_;
 
-// public generated GridLayout() [instance] :269
+// public generated GridLayout() [instance]
 void GridLayout::ctor_2()
 {
     _defaultRow = GridLayout::_staticDefaultRow_;
@@ -2021,7 +2021,7 @@ void GridLayout::ctor_2()
     ctor_1();
 }
 
-// private bool AddListener(Fuse.Layouts.DefinitionBase item) [instance] :697
+// private bool AddListener(Fuse.Layouts.DefinitionBase item) [instance]
 bool GridLayout::AddListener(::g::Fuse::Layouts::DefinitionBase* item)
 {
     if (uPtr(item)->Creation != 0)
@@ -2031,7 +2031,7 @@ bool GridLayout::AddListener(::g::Fuse::Layouts::DefinitionBase* item)
     return true;
 }
 
-// private void CalcActualPositions(Fuse.Visual container) [instance] :513
+// private void CalcActualPositions(Fuse.Visual container) [instance]
 void GridLayout::CalcActualPositions(::g::Fuse::Visual* container)
 {
     int32_t ret8;
@@ -2135,7 +2135,7 @@ void GridLayout::CalcActualPositions(::g::Fuse::Visual* container)
     TrimPad(::TYPES[13/*Fuse.Layouts.GridLayout.TrimPad<Fuse.Layouts.Column>*/], (uObject*)_columns, maxCol, _defaultColumn);
 }
 
-// private void CalcAuto(Fuse.Visual container, float& availableWidth, float& availableHeight, bool secondPass, bool hasFirstHorzSize, bool hasFirstVertSize, bool expandWidth, bool expandHeight) [instance] :871
+// private void CalcAuto(Fuse.Visual container, float& availableWidth, float& availableHeight, bool secondPass, bool hasFirstHorzSize, bool hasFirstVertSize, bool expandWidth, bool expandHeight) [instance]
 void GridLayout::CalcAuto(::g::Fuse::Visual* container, float* availableWidth, float* availableHeight, bool secondPass, bool hasFirstHorzSize, bool hasFirstVertSize, bool expandWidth, bool expandHeight)
 {
     for (::g::Fuse::Visual* child = (::g::Fuse::Visual*)uPtr(container)->FirstChild(::TYPES[0/*Fuse.Visual.FirstChild<Fuse.Visual>*/]); child != NULL; child = (::g::Fuse::Visual*)uPtr(child)->NextSibling(::TYPES[1/*Fuse.Node.NextSibling<Fuse.Visual>*/]))
@@ -2193,7 +2193,7 @@ void GridLayout::CalcAuto(::g::Fuse::Visual* container, float* availableWidth, f
     *availableHeight = ::g::Uno::Math::Max1(*availableHeight, 0.0f);
 }
 
-// private void CalcFill<T>(Uno.Collections.IList<T> list, float available, float proportion, bool expand) [instance] :762
+// private void CalcFill<T>(Uno.Collections.IList<T> list, float available, float proportion, bool expand) [instance]
 void GridLayout::CalcFill(uType* __type, uObject* list, float available, float proportion, bool expand)
 {
     uType* __types[] = {
@@ -2218,7 +2218,7 @@ void GridLayout::CalcFill(uType* __type, uObject* list, float available, float p
     }
 }
 
-// private void CalcInitialExtents<T>(Uno.Collections.IList<T> list, bool expand, float& used, bool& hasAuto) [instance] :782
+// private void CalcInitialExtents<T>(Uno.Collections.IList<T> list, bool expand, float& used, bool& hasAuto) [instance]
 void GridLayout::CalcInitialExtents(uType* __type, uObject* list, bool expand, float* used, bool* hasAuto)
 {
     uType* __types[] = {
@@ -2247,7 +2247,7 @@ void GridLayout::CalcInitialExtents(uType* __type, uObject* list, bool expand, f
     }
 }
 
-// private float CalcTotalExtentAndOffset<T>(Uno.Collections.IList<T> list, float effectiveCellSpacing) [instance] :805
+// private float CalcTotalExtentAndOffset<T>(Uno.Collections.IList<T> list, float effectiveCellSpacing) [instance]
 float GridLayout::CalcTotalExtentAndOffset(uType* __type, uObject* list, float effectiveCellSpacing)
 {
     uType* __types[] = {
@@ -2270,13 +2270,13 @@ float GridLayout::CalcTotalExtentAndOffset(uType* __type, uObject* list, float e
     return total;
 }
 
-// public float get_CellSpacing() [instance] :421
+// public float get_CellSpacing() [instance]
 float GridLayout::CellSpacing()
 {
     return _cellSpacing;
 }
 
-// public void set_CellSpacing(float value) [instance] :422
+// public void set_CellSpacing(float value) [instance]
 void GridLayout::CellSpacing(float value)
 {
     if (_cellSpacing != value)
@@ -2286,13 +2286,13 @@ void GridLayout::CellSpacing(float value)
     }
 }
 
-// private void Changed() [instance] :680
+// private void Changed() [instance]
 void GridLayout::Changed()
 {
     InvalidateLayout();
 }
 
-// private void CheckMeasureSettings(bool hasX, bool hasY) [instance] :1003
+// private void CheckMeasureSettings(bool hasX, bool hasY) [instance]
 void GridLayout::CheckMeasureSettings(bool hasX, bool hasY)
 {
     bool bad = false;
@@ -2306,17 +2306,17 @@ void GridLayout::CheckMeasureSettings(bool hasX, bool hasY)
     if (bad && !_checkMeasureWarning)
     {
         _checkMeasureWarning = true;
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[0/*"A grid is u...*/], this, ::STRINGS[1/*"/usr/local/...*/], 1014, ::STRINGS[2/*"CheckMeasur...*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[0/*"A grid is u...*/], this, ::STRINGS[1/*"/Users/antt...*/], 1014, ::STRINGS[2/*"CheckMeasur...*/], NULL);
     }
 }
 
-// public Fuse.Layouts.GridChildOrder get_ChildOrder() [instance] :287
+// public Fuse.Layouts.GridChildOrder get_ChildOrder() [instance]
 int32_t GridLayout::ChildOrder()
 {
     return _childOrder;
 }
 
-// public void set_ChildOrder(Fuse.Layouts.GridChildOrder value) [instance] :288
+// public void set_ChildOrder(Fuse.Layouts.GridChildOrder value) [instance]
 void GridLayout::ChildOrder(int32_t value)
 {
     if (_childOrder != value)
@@ -2326,44 +2326,44 @@ void GridLayout::ChildOrder(int32_t value)
     }
 }
 
-// public int get_ColumnCount() [instance] :400
+// public int get_ColumnCount() [instance]
 int32_t GridLayout::ColumnCount()
 {
     return ::g::Uno::Collections::ICollection::Count(uInterface(uPtr(ColumnList()), ::TYPES[30/*Uno.Collections.ICollection<Fuse.Layouts.Column>*/]));
 }
 
-// public void set_ColumnCount(int value) [instance] :401
+// public void set_ColumnCount(int value) [instance]
 void GridLayout::ColumnCount(int32_t value)
 {
     ModifyCount(::TYPES[31/*Fuse.Layouts.GridLayout.ModifyCount<Fuse.Layouts.Column>*/], (uObject*)_columns, value, _defaultColumn);
 }
 
-// public Uno.Collections.IList<Fuse.Layouts.Column> get_ColumnList() [instance] :374
+// public Uno.Collections.IList<Fuse.Layouts.Column> get_ColumnList() [instance]
 uObject* GridLayout::ColumnList()
 {
     return (uObject*)_columns;
 }
 
-// public string get_Columns() [instance] :378
+// public string get_Columns() [instance]
 uString* GridLayout::Columns()
 {
     return ::g::Fuse::Layouts::DefinitionBase::Serialize1(::TYPES[32/*Fuse.Layouts.DefinitionBase.Serialize<Fuse.Layouts.Column>*/], ColumnList());
 }
 
-// public void set_Columns(string value) [instance] :379
+// public void set_Columns(string value) [instance]
 void GridLayout::Columns(uString* value)
 {
     ::g::Fuse::Layouts::DefinitionBase::Parse1(::TYPES[33/*Fuse.Layouts.DefinitionBase.Parse<Fuse.Layouts.Column>*/], value, ColumnList());
     Changed();
 }
 
-// public Fuse.Elements.Alignment get_ContentAlignment() [instance] :435
+// public Fuse.Elements.Alignment get_ContentAlignment() [instance]
 int32_t GridLayout::ContentAlignment()
 {
     return _contentAlignment;
 }
 
-// public void set_ContentAlignment(Fuse.Elements.Alignment value) [instance] :436
+// public void set_ContentAlignment(Fuse.Elements.Alignment value) [instance]
 void GridLayout::ContentAlignment(int32_t value)
 {
     if (_contentAlignment != value)
@@ -2373,53 +2373,53 @@ void GridLayout::ContentAlignment(int32_t value)
     }
 }
 
-// public string get_DefaultColumn() [instance] :390
+// public string get_DefaultColumn() [instance]
 uString* GridLayout::DefaultColumn()
 {
     return uPtr(_defaultColumn)->Serialize();
 }
 
-// public void set_DefaultColumn(string value) [instance] :391
+// public void set_DefaultColumn(string value) [instance]
 void GridLayout::DefaultColumn(uString* value)
 {
     _defaultColumn = ((::g::Fuse::Layouts::Column*)::g::Fuse::Layouts::DefinitionBase::Parse(::TYPES[34/*Fuse.Layouts.DefinitionBase.Parse<Fuse.Layouts.Column>*/], value));
     ModifyDefault(::TYPES[35/*Fuse.Layouts.GridLayout.ModifyDefault<Fuse.Layouts.Column>*/], _columns, _defaultColumn);
 }
 
-// public string get_DefaultRow() [instance] :302
+// public string get_DefaultRow() [instance]
 uString* GridLayout::DefaultRow()
 {
     return uPtr(_defaultRow)->Serialize();
 }
 
-// public void set_DefaultRow(string value) [instance] :303
+// public void set_DefaultRow(string value) [instance]
 void GridLayout::DefaultRow(uString* value)
 {
     _defaultRow = ((::g::Fuse::Layouts::Row*)::g::Fuse::Layouts::DefinitionBase::Parse(::TYPES[36/*Fuse.Layouts.DefinitionBase.Parse<Fuse.Layouts.Row>*/], value));
     ModifyDefault(::TYPES[37/*Fuse.Layouts.GridLayout.ModifyDefault<Fuse.Layouts.Row>*/], _rows, _defaultRow);
 }
 
-// private void DefinitionAdded(Fuse.Layouts.DefinitionBase r) [instance] :685
+// private void DefinitionAdded(Fuse.Layouts.DefinitionBase r) [instance]
 void GridLayout::DefinitionAdded(::g::Fuse::Layouts::DefinitionBase* r)
 {
     if (AddListener(r))
         Changed();
 }
 
-// private void DefinitionRemoved(Fuse.Layouts.DefinitionBase r) [instance] :691
+// private void DefinitionRemoved(Fuse.Layouts.DefinitionBase r) [instance]
 void GridLayout::DefinitionRemoved(::g::Fuse::Layouts::DefinitionBase* r)
 {
     if (RemoveListener(r))
         Changed();
 }
 
-// private float get_EffectiveCellSpacing() [instance] :736
+// private float get_EffectiveCellSpacing() [instance]
 float GridLayout::EffectiveCellSpacing()
 {
     return SnapUp(CellSpacing());
 }
 
-// private Fuse.Elements.Alignment get_EffectiveContentAlignment() [instance] :1029
+// private Fuse.Elements.Alignment get_EffectiveContentAlignment() [instance]
 int32_t GridLayout::EffectiveContentAlignment()
 {
     int32_t ca = ContentAlignment();
@@ -2435,7 +2435,7 @@ int32_t GridLayout::EffectiveContentAlignment()
     return ca;
 }
 
-// private Fuse.Layouts.Metric EffectiveMetric(Fuse.Layouts.Metric src, bool expand) [instance] :743
+// private Fuse.Layouts.Metric EffectiveMetric(Fuse.Layouts.Metric src, bool expand) [instance]
 int32_t GridLayout::EffectiveMetric(int32_t src, bool expand)
 {
     if (src == 3)
@@ -2444,7 +2444,7 @@ int32_t GridLayout::EffectiveMetric(int32_t src, bool expand)
     return src;
 }
 
-// private int GetActualColumn(Fuse.Visual elm) [instance] :640
+// private int GetActualColumn(Fuse.Visual elm) [instance]
 int32_t GridLayout::GetActualColumn(::g::Fuse::Visual* elm)
 {
     uObject* v;
@@ -2455,7 +2455,7 @@ int32_t GridLayout::GetActualColumn(::g::Fuse::Visual* elm)
     return -1;
 }
 
-// private int GetActualRow(Fuse.Visual elm) [instance] :466
+// private int GetActualRow(Fuse.Visual elm) [instance]
 int32_t GridLayout::GetActualRow(::g::Fuse::Visual* elm)
 {
     uObject* v;
@@ -2466,7 +2466,7 @@ int32_t GridLayout::GetActualRow(::g::Fuse::Visual* elm)
     return -1;
 }
 
-// private float2 GetAutoSize(Fuse.Visual child, int x0, int y0, bool expandX, bool expandY, bool& knowX, bool& knowY, bool& autoX, bool& autoY) [instance] :821
+// private float2 GetAutoSize(Fuse.Visual child, int x0, int y0, bool expandX, bool expandY, bool& knowX, bool& knowY, bool& autoX, bool& autoY) [instance]
 ::g::Uno::Float2 GridLayout::GetAutoSize(::g::Fuse::Visual* child, int32_t x0, int32_t y0, bool expandX, bool expandY, bool* knowX, bool* knowY, bool* autoX, bool* autoY)
 {
     int32_t xs = GridLayout::GetColumnSpan(child);
@@ -2514,7 +2514,7 @@ int32_t GridLayout::GetActualRow(::g::Fuse::Visual* elm)
     return sz;
 }
 
-// private Fuse.Layouts.Column GetColumnData(int column) [instance] :404
+// private Fuse.Layouts.Column GetColumnData(int column) [instance]
 ::g::Fuse::Layouts::Column* GridLayout::GetColumnData(int32_t column)
 {
     ::g::Fuse::Layouts::Column* ret13;
@@ -2525,7 +2525,7 @@ int32_t GridLayout::GetActualRow(::g::Fuse::Visual* elm)
     return NULL;
 }
 
-// private Fuse.Layouts.Row GetRowData(int row) [instance] :411
+// private Fuse.Layouts.Row GetRowData(int row) [instance]
 ::g::Fuse::Layouts::Row* GridLayout::GetRowData(int32_t row)
 {
     ::g::Fuse::Layouts::Row* ret14;
@@ -2536,7 +2536,7 @@ int32_t GridLayout::GetActualRow(::g::Fuse::Visual* elm)
     return NULL;
 }
 
-// private float GetTotalProportion<T>(Uno.Collections.IList<T> list, bool expand) [instance] :750
+// private float GetTotalProportion<T>(Uno.Collections.IList<T> list, bool expand) [instance]
 float GridLayout::GetTotalProportion(uType* __type, uObject* list, bool expand)
 {
     uType* __types[] = {
@@ -2557,7 +2557,7 @@ float GridLayout::GetTotalProportion(uType* __type, uObject* list, bool expand)
     return total;
 }
 
-// private bool HasDefaultMetric<T>(Uno.Collections.IList<T> list) [instance] :1018
+// private bool HasDefaultMetric<T>(Uno.Collections.IList<T> list) [instance]
 bool GridLayout::HasDefaultMetric(uType* __type, uObject* list)
 {
     uType* __types[] = {
@@ -2573,7 +2573,7 @@ bool GridLayout::HasDefaultMetric(uType* __type, uObject* list)
     return false;
 }
 
-// private float2 Measure(Fuse.Visual container, Fuse.LayoutParams lp) [instance] :928
+// private float2 Measure(Fuse.Visual container, Fuse.LayoutParams lp) [instance]
 ::g::Uno::Float2 GridLayout::Measure(::g::Fuse::Visual* container, ::g::Fuse::LayoutParams lp)
 {
     float effectiveCellSpacing = EffectiveCellSpacing();
@@ -2626,7 +2626,7 @@ bool GridLayout::HasDefaultMetric(uType* __type, uObject* list)
     return ::g::Uno::Float2__New2(totalWidth, totalHeight);
 }
 
-// private void ModifyCount<T>(Uno.Collections.IList<T> list, int count, T primordial) [instance] :340
+// private void ModifyCount<T>(Uno.Collections.IList<T> list, int count, T primordial) [instance]
 void GridLayout::ModifyCount(uType* __type, uObject* list, int32_t count, ::g::Fuse::Layouts::DefinitionBase* primordial)
 {
     uType* __types[] = {
@@ -2644,7 +2644,7 @@ void GridLayout::ModifyCount(uType* __type, uObject* list, int32_t count, ::g::F
 
     if (count < 0)
     {
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[3/*"RowCount an...*/], this, ::STRINGS[1/*"/usr/local/...*/], 350, ::STRINGS[4/*"ModifyCount"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[3/*"RowCount an...*/], this, ::STRINGS[1/*"/Users/antt...*/], 350, ::STRINGS[4/*"ModifyCount"*/], NULL);
         return;
     }
 
@@ -2665,7 +2665,7 @@ void GridLayout::ModifyCount(uType* __type, uObject* list, int32_t count, ::g::F
     Changed();
 }
 
-// private void ModifyDefault<T>(Uno.Collections.RootableList<T> list, T primordial) [instance] :310
+// private void ModifyDefault<T>(Uno.Collections.RootableList<T> list, T primordial) [instance]
 void GridLayout::ModifyDefault(uType* __type, ::g::Uno::Collections::RootableList* list, ::g::Fuse::Layouts::DefinitionBase* primordial)
 {
     uType* __types[] = {
@@ -2685,7 +2685,7 @@ void GridLayout::ModifyDefault(uType* __type, ::g::Uno::Collections::RootableLis
     Changed();
 }
 
-// private bool RemoveListener(Fuse.Layouts.DefinitionBase item) [instance] :705
+// private bool RemoveListener(Fuse.Layouts.DefinitionBase item) [instance]
 bool GridLayout::RemoveListener(::g::Fuse::Layouts::DefinitionBase* item)
 {
     if (uPtr(item)->Creation != 0)
@@ -2695,38 +2695,38 @@ bool GridLayout::RemoveListener(::g::Fuse::Layouts::DefinitionBase* item)
     return true;
 }
 
-// public int get_RowCount() [instance] :326
+// public int get_RowCount() [instance]
 int32_t GridLayout::RowCount()
 {
     return ::g::Uno::Collections::ICollection::Count(uInterface(uPtr(RowList()), ::TYPES[38/*Uno.Collections.ICollection<Fuse.Layouts.Row>*/]));
 }
 
-// public void set_RowCount(int value) [instance] :327
+// public void set_RowCount(int value) [instance]
 void GridLayout::RowCount(int32_t value)
 {
     ModifyCount(::TYPES[39/*Fuse.Layouts.GridLayout.ModifyCount<Fuse.Layouts.Row>*/], (uObject*)_rows, value, _defaultRow);
 }
 
-// public Uno.Collections.IList<Fuse.Layouts.Row> get_RowList() [instance] :272
+// public Uno.Collections.IList<Fuse.Layouts.Row> get_RowList() [instance]
 uObject* GridLayout::RowList()
 {
     return (uObject*)_rows;
 }
 
-// public string get_Rows() [instance] :276
+// public string get_Rows() [instance]
 uString* GridLayout::Rows()
 {
     return ::g::Fuse::Layouts::DefinitionBase::Serialize1(::TYPES[40/*Fuse.Layouts.DefinitionBase.Serialize<Fuse.Layouts.Row>*/], RowList());
 }
 
-// public void set_Rows(string value) [instance] :277
+// public void set_Rows(string value) [instance]
 void GridLayout::Rows(uString* value)
 {
     ::g::Fuse::Layouts::DefinitionBase::Parse1(::TYPES[41/*Fuse.Layouts.DefinitionBase.Parse<Fuse.Layouts.Row>*/], value, RowList());
     Changed();
 }
 
-// private void TrimPad<T>(Uno.Collections.IList<T> list, int count, T primordial) [instance] :622
+// private void TrimPad<T>(Uno.Collections.IList<T> list, int count, T primordial) [instance]
 void GridLayout::TrimPad(uType* __type, uObject* list, int32_t count, ::g::Fuse::Layouts::DefinitionBase* primordial)
 {
     uType* __types[] = {
@@ -2752,7 +2752,7 @@ void GridLayout::TrimPad(uType* __type, uObject* list, int32_t count, ::g::Fuse:
     }
 }
 
-// private int UserCount<T>(Uno.Collections.IList<T> list) [instance] :331
+// private int UserCount<T>(Uno.Collections.IList<T> list) [instance]
 int32_t GridLayout::UserCount(uType* __type, uObject* list)
 {
     uType* __types[] = {
@@ -2768,7 +2768,7 @@ int32_t GridLayout::UserCount(uType* __type, uObject* list)
     return c;
 }
 
-// public static int GetColumn(Fuse.Visual elm) [static] :506
+// public static int GetColumn(Fuse.Visual elm) [static]
 int32_t GridLayout::GetColumn(::g::Fuse::Visual* elm)
 {
     GridLayout_typeof()->Init();
@@ -2780,7 +2780,7 @@ int32_t GridLayout::GetColumn(::g::Fuse::Visual* elm)
         return 0;
 }
 
-// public static int GetColumnSpan(Fuse.Visual elm) [static] :661
+// public static int GetColumnSpan(Fuse.Visual elm) [static]
 int32_t GridLayout::GetColumnSpan(::g::Fuse::Visual* elm)
 {
     GridLayout_typeof()->Init();
@@ -2792,7 +2792,7 @@ int32_t GridLayout::GetColumnSpan(::g::Fuse::Visual* elm)
     return 1;
 }
 
-// public static int GetRow(Fuse.Visual elm) [static] :459
+// public static int GetRow(Fuse.Visual elm) [static]
 int32_t GridLayout::GetRow(::g::Fuse::Visual* elm)
 {
     GridLayout_typeof()->Init();
@@ -2804,7 +2804,7 @@ int32_t GridLayout::GetRow(::g::Fuse::Visual* elm)
         return 0;
 }
 
-// public static int GetRowSpan(Fuse.Visual elm) [static] :487
+// public static int GetRowSpan(Fuse.Visual elm) [static]
 int32_t GridLayout::GetRowSpan(::g::Fuse::Visual* elm)
 {
     GridLayout_typeof()->Init();
@@ -2816,7 +2816,7 @@ int32_t GridLayout::GetRowSpan(::g::Fuse::Visual* elm)
         return 1;
 }
 
-// public generated GridLayout New() [static] :269
+// public generated GridLayout New() [static]
 GridLayout* GridLayout::New2()
 {
     GridLayout* obj3 = (GridLayout*)uNew(GridLayout_typeof());
@@ -2825,12 +2825,12 @@ GridLayout* GridLayout::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/Layout.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/Layout.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class Layout :11
+// public abstract class Layout
 // {
-// static generated Layout() :11
+// static generated Layout()
 static void Layout__cctor__fn(uType* __type)
 {
     ::g::Fuse::Properties_typeof()->Init();
@@ -2876,31 +2876,31 @@ Layout_type* Layout_typeof()
     return type;
 }
 
-// internal Layout() :16
+// internal Layout()
 void Layout__ctor_1_fn(Layout* __this)
 {
     __this->ctor_1();
 }
 
-// internal static void AdjustAlignBox(Fuse.Visual node, float2 sz, float4 box, Fuse.Elements.Alignment align) :202
+// internal static void AdjustAlignBox(Fuse.Visual node, float2 sz, float4 box, Fuse.Elements.Alignment align)
 void Layout__AdjustAlignBox_fn(::g::Fuse::Visual* node, ::g::Uno::Float2* sz, ::g::Uno::Float4* box, int32_t* align)
 {
     Layout::AdjustAlignBox(node, *sz, *box, *align);
 }
 
-// protected bool AffectsLayout(Fuse.Node n) :77
+// protected bool AffectsLayout(Fuse.Node n)
 void Layout__AffectsLayout_fn(Layout* __this, ::g::Fuse::Node* n, bool* __retval)
 {
     *__retval = __this->AffectsLayout(n);
 }
 
-// protected bool ArrangeMarginBoxSpecial(Fuse.Node n, float4 padding, Fuse.LayoutParams lp) :90
+// protected bool ArrangeMarginBoxSpecial(Fuse.Node n, float4 padding, Fuse.LayoutParams lp)
 void Layout__ArrangeMarginBoxSpecial_fn(Layout* __this, ::g::Fuse::Node* n, ::g::Uno::Float4* padding, ::g::Fuse::LayoutParams* lp, bool* __retval)
 {
     *__retval = __this->ArrangeMarginBoxSpecial(n, *padding, *lp);
 }
 
-// private Fuse.ISourceLocation Fuse.ISourceLocation.get_SourceNearest() :234
+// private Fuse.ISourceLocation Fuse.ISourceLocation.get_SourceNearest()
 void Layout__FuseISourceLocationget_SourceNearest_fn(Layout* __this, uObject** __retval)
 {
     if (::g::Uno::String::op_Inequality(__this->SourceFileName(), NULL))
@@ -2912,101 +2912,101 @@ void Layout__FuseISourceLocationget_SourceNearest_fn(Layout* __this, uObject** _
     return *__retval = NULL, void();
 }
 
-// public static bool GetFillPadding(Fuse.Visual n) :28
+// public static bool GetFillPadding(Fuse.Visual n)
 void Layout__GetFillPadding_fn(::g::Fuse::Visual* n, bool* __retval)
 {
     *__retval = Layout::GetFillPadding(n);
 }
 
-// protected void InvalidateLayout() :137
+// protected void InvalidateLayout()
 void Layout__InvalidateLayout_fn(Layout* __this)
 {
     __this->InvalidateLayout();
 }
 
-// internal virtual Fuse.LayoutDependent IsMarginBoxDependent(Fuse.Visual child) :131
+// internal virtual Fuse.LayoutDependent IsMarginBoxDependent(Fuse.Visual child)
 void Layout__IsMarginBoxDependent_fn(Layout* __this, ::g::Fuse::Visual* child, int32_t* __retval)
 {
     return *__retval = 4, void();
 }
 
-// protected virtual void OnRooted() :55
+// protected virtual void OnRooted()
 void Layout__OnRooted_fn(Layout* __this)
 {
 }
 
-// protected virtual void OnUnrooted() :67
+// protected virtual void OnUnrooted()
 void Layout__OnUnrooted_fn(Layout* __this)
 {
 }
 
-// internal void Rooted(Fuse.Controls.LayoutControl element) :47
+// internal void Rooted(Fuse.Controls.LayoutControl element)
 void Layout__Rooted_fn(Layout* __this, ::g::Fuse::Controls::LayoutControl* element)
 {
     __this->Rooted(element);
 }
 
-// private static float SimpleOff(float sz, float2 range, Fuse.Elements.SimpleAlignment align) :215
+// private static float SimpleOff(float sz, float2 range, Fuse.Elements.SimpleAlignment align)
 void Layout__SimpleOff_fn(float* sz, ::g::Uno::Float2* range, int32_t* align, float* __retval)
 {
     *__retval = Layout::SimpleOff(*sz, *range, *align);
 }
 
-// protected float Snap(float p) :170
+// protected float Snap(float p)
 void Layout__Snap_fn(Layout* __this, float* p, float* __retval)
 {
     *__retval = __this->Snap(*p);
 }
 
-// protected float2 Snap(float2 p) :163
+// protected float2 Snap(float2 p)
 void Layout__Snap1_fn(Layout* __this, ::g::Uno::Float2* p, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->Snap1(*p);
 }
 
-// protected bool get_SnapToPixels() :145
+// protected bool get_SnapToPixels()
 void Layout__get_SnapToPixels_fn(Layout* __this, bool* __retval)
 {
     *__retval = __this->SnapToPixels();
 }
 
-// protected float SnapUp(float p) :158
+// protected float SnapUp(float p)
 void Layout__SnapUp_fn(Layout* __this, float* p, float* __retval)
 {
     *__retval = __this->SnapUp(*p);
 }
 
-// protected float2 SnapUp(float2 p) :151
+// protected float2 SnapUp(float2 p)
 void Layout__SnapUp1_fn(Layout* __this, ::g::Uno::Float2* p, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->SnapUp1(*p);
 }
 
-// public generated string get_SourceFileName() :230
+// public generated string get_SourceFileName()
 void Layout__get_SourceFileName_fn(Layout* __this, uString** __retval)
 {
     *__retval = __this->SourceFileName();
 }
 
-// public generated void set_SourceFileName(string value) :230
+// public generated void set_SourceFileName(string value)
 void Layout__set_SourceFileName_fn(Layout* __this, uString* value)
 {
     __this->SourceFileName(value);
 }
 
-// public generated int get_SourceLineNumber() :227
+// public generated int get_SourceLineNumber()
 void Layout__get_SourceLineNumber_fn(Layout* __this, int32_t* __retval)
 {
     *__retval = __this->SourceLineNumber();
 }
 
-// public generated void set_SourceLineNumber(int value) :227
+// public generated void set_SourceLineNumber(int value)
 void Layout__set_SourceLineNumber_fn(Layout* __this, int32_t* value)
 {
     __this->SourceLineNumber(*value);
 }
 
-// internal void Unrooted(Fuse.Controls.LayoutControl element) :59
+// internal void Unrooted(Fuse.Controls.LayoutControl element)
 void Layout__Unrooted_fn(Layout* __this, ::g::Fuse::Controls::LayoutControl* element)
 {
     __this->Unrooted(element);
@@ -3014,20 +3014,20 @@ void Layout__Unrooted_fn(Layout* __this, ::g::Fuse::Controls::LayoutControl* ele
 
 uSStrong< ::g::Fuse::PropertyHandle*> Layout::_fillPaddingProperty_;
 
-// internal Layout() [instance] :16
+// internal Layout() [instance]
 void Layout::ctor_1()
 {
     ctor_();
 }
 
-// protected bool AffectsLayout(Fuse.Node n) [instance] :77
+// protected bool AffectsLayout(Fuse.Node n) [instance]
 bool Layout::AffectsLayout(::g::Fuse::Node* n)
 {
     ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(n, ::TYPES[4/*Fuse.Visual*/]);
     return (v != NULL) && ((uPtr(v)->LayoutRole() == 0) || (uPtr(v)->LayoutRole() == 1));
 }
 
-// protected bool ArrangeMarginBoxSpecial(Fuse.Node n, float4 padding, Fuse.LayoutParams lp) [instance] :90
+// protected bool ArrangeMarginBoxSpecial(Fuse.Node n, float4 padding, Fuse.LayoutParams lp) [instance]
 bool Layout::ArrangeMarginBoxSpecial(::g::Fuse::Node* n, ::g::Uno::Float4 padding, ::g::Fuse::LayoutParams lp)
 {
     ::g::Fuse::Visual* e = uAs< ::g::Fuse::Visual*>(n, ::TYPES[4/*Fuse.Visual*/]);
@@ -3061,14 +3061,14 @@ bool Layout::ArrangeMarginBoxSpecial(::g::Fuse::Node* n, ::g::Uno::Float4 paddin
     return false;
 }
 
-// protected void InvalidateLayout() [instance] :137
+// protected void InvalidateLayout() [instance]
 void Layout::InvalidateLayout()
 {
     if (Container != NULL)
         uPtr(Container)->InvalidateLayout(2);
 }
 
-// internal void Rooted(Fuse.Controls.LayoutControl element) [instance] :47
+// internal void Rooted(Fuse.Controls.LayoutControl element) [instance]
 void Layout::Rooted(::g::Fuse::Controls::LayoutControl* element)
 {
     if (Container != NULL)
@@ -3078,13 +3078,13 @@ void Layout::Rooted(::g::Fuse::Controls::LayoutControl* element)
     OnRooted();
 }
 
-// protected float Snap(float p) [instance] :170
+// protected float Snap(float p) [instance]
 float Layout::Snap(float p)
 {
     return Snap1(::g::Uno::Float2__New1(p)).X;
 }
 
-// protected float2 Snap(float2 p) [instance] :163
+// protected float2 Snap(float2 p) [instance]
 ::g::Uno::Float2 Layout::Snap1(::g::Uno::Float2 p)
 {
     if (SnapToPixels())
@@ -3093,19 +3093,19 @@ float Layout::Snap(float p)
     return p;
 }
 
-// protected bool get_SnapToPixels() [instance] :145
+// protected bool get_SnapToPixels() [instance]
 bool Layout::SnapToPixels()
 {
     return (Container != NULL) && uPtr(Container)->SnapToPixels();
 }
 
-// protected float SnapUp(float p) [instance] :158
+// protected float SnapUp(float p) [instance]
 float Layout::SnapUp(float p)
 {
     return SnapUp1(::g::Uno::Float2__New1(p)).X;
 }
 
-// protected float2 SnapUp(float2 p) [instance] :151
+// protected float2 SnapUp(float2 p) [instance]
 ::g::Uno::Float2 Layout::SnapUp1(::g::Uno::Float2 p)
 {
     if (SnapToPixels())
@@ -3114,31 +3114,31 @@ float Layout::SnapUp(float p)
     return p;
 }
 
-// public generated string get_SourceFileName() [instance] :230
+// public generated string get_SourceFileName() [instance]
 uString* Layout::SourceFileName()
 {
     return _SourceFileName;
 }
 
-// public generated void set_SourceFileName(string value) [instance] :230
+// public generated void set_SourceFileName(string value) [instance]
 void Layout::SourceFileName(uString* value)
 {
     _SourceFileName = value;
 }
 
-// public generated int get_SourceLineNumber() [instance] :227
+// public generated int get_SourceLineNumber() [instance]
 int32_t Layout::SourceLineNumber()
 {
     return _SourceLineNumber;
 }
 
-// public generated void set_SourceLineNumber(int value) [instance] :227
+// public generated void set_SourceLineNumber(int value) [instance]
 void Layout::SourceLineNumber(int32_t value)
 {
     _SourceLineNumber = value;
 }
 
-// internal void Unrooted(Fuse.Controls.LayoutControl element) [instance] :59
+// internal void Unrooted(Fuse.Controls.LayoutControl element) [instance]
 void Layout::Unrooted(::g::Fuse::Controls::LayoutControl* element)
 {
     if (element != Container)
@@ -3148,7 +3148,7 @@ void Layout::Unrooted(::g::Fuse::Controls::LayoutControl* element)
     Container = NULL;
 }
 
-// internal static void AdjustAlignBox(Fuse.Visual node, float2 sz, float4 box, Fuse.Elements.Alignment align) [static] :202
+// internal static void AdjustAlignBox(Fuse.Visual node, float2 sz, float4 box, Fuse.Elements.Alignment align) [static]
 void Layout::AdjustAlignBox(::g::Fuse::Visual* node, ::g::Uno::Float2 sz, ::g::Uno::Float4 box, int32_t align)
 {
     Layout_typeof()->Init();
@@ -3166,7 +3166,7 @@ void Layout::AdjustAlignBox(::g::Fuse::Visual* node, ::g::Uno::Float2 sz, ::g::U
     node->AdjustMarginBoxPosition(pos);
 }
 
-// public static bool GetFillPadding(Fuse.Visual n) [static] :28
+// public static bool GetFillPadding(Fuse.Visual n) [static]
 bool Layout::GetFillPadding(::g::Fuse::Visual* n)
 {
     Layout_typeof()->Init();
@@ -3178,7 +3178,7 @@ bool Layout::GetFillPadding(::g::Fuse::Visual* n)
     return (uPtr(n)->Layer() == 1) || (uPtr(n)->Layer() == 0);
 }
 
-// private static float SimpleOff(float sz, float2 range, Fuse.Elements.SimpleAlignment align) [static] :215
+// private static float SimpleOff(float sz, float2 range, Fuse.Elements.SimpleAlignment align) [static]
 float Layout::SimpleOff(float sz, ::g::Uno::Float2 range, int32_t align)
 {
     Layout_typeof()->Init();
@@ -3192,12 +3192,12 @@ float Layout::SimpleOff(float sz, ::g::Uno::Float2 range, int32_t align)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/Layout.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/Layout.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class Layouts :245
+// public static class Layouts
 // {
-// static generated Layouts() :245
+// static generated Layouts()
 static void Layouts__cctor__fn(uType* __type)
 {
     Layouts::Default_ = ::g::Fuse::Layouts::DefaultLayout::New2();
@@ -3226,10 +3226,10 @@ uClassType* Layouts_typeof()
 uSStrong< ::g::Fuse::Layouts::Layout*> Layouts::Default_;
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/GridLayout.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/GridLayout.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum Metric :189
+// public enum Metric
 uEnumType* Metric_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3244,10 +3244,10 @@ uEnumType* Metric_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/StackLayout.uno
-// --------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/StackLayout.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum Orientation :12
+// public enum Orientation
 uEnumType* Orientation_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3260,10 +3260,10 @@ uEnumType* Orientation_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/GridLayout.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/GridLayout.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Row :238
+// public sealed class Row
 // {
 static void Row_build(uType* type)
 {
@@ -3286,25 +3286,25 @@ uType* Row_typeof()
     return type;
 }
 
-// public Row() :240
+// public Row()
 void Row__ctor_4_fn(Row* __this)
 {
     __this->ctor_4();
 }
 
-// public Row New() :240
+// public Row New()
 void Row__New2_fn(Row** __retval)
 {
     *__retval = Row::New2();
 }
 
-// public Row() [instance] :240
+// public Row() [instance]
 void Row::ctor_4()
 {
     ctor_1();
 }
 
-// public Row New() [static] :240
+// public Row New() [static]
 Row* Row::New2()
 {
     Row* obj1 = (Row*)uNew(Row_typeof());
@@ -3313,10 +3313,10 @@ Row* Row::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/StackLayout.uno
-// --------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/StackLayout.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class StackLayout :24
+// public sealed class StackLayout
 // {
 static void StackLayout_build(uType* type)
 {
@@ -3356,13 +3356,13 @@ static void StackLayout_build(uType* type)
     return type;
 }
 
-// public generated StackLayout() :24
+// public generated StackLayout()
 void StackLayout__ctor_2_fn(StackLayout* __this)
 {
     __this->ctor_2();
 }
 
-// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp) :185
+// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp)
 void StackLayout__ArrangePaddingBox_fn(StackLayout* __this, ::g::Fuse::Visual* container, ::g::Uno::Float4* padding, ::g::Fuse::LayoutParams* lp)
 {
     ::g::Uno::Float4 padding_ = *padding;
@@ -3422,31 +3422,31 @@ void StackLayout__ArrangePaddingBox_fn(StackLayout* __this, ::g::Fuse::Visual* c
     }
 }
 
-// public Fuse.Elements.Alignment get_ContentAlignment() :64
+// public Fuse.Elements.Alignment get_ContentAlignment()
 void StackLayout__get_ContentAlignment_fn(StackLayout* __this, int32_t* __retval)
 {
     *__retval = __this->ContentAlignment();
 }
 
-// public void set_ContentAlignment(Fuse.Elements.Alignment value) :65
+// public void set_ContentAlignment(Fuse.Elements.Alignment value)
 void StackLayout__set_ContentAlignment_fn(StackLayout* __this, int32_t* value)
 {
     __this->ContentAlignment(*value);
 }
 
-// private Fuse.Elements.SimpleAlignment get_EffectiveContentAlignment() :172
+// private Fuse.Elements.SimpleAlignment get_EffectiveContentAlignment()
 void StackLayout__get_EffectiveContentAlignment_fn(StackLayout* __this, int32_t* __retval)
 {
     *__retval = __this->EffectiveContentAlignment();
 }
 
-// private float get_EffectiveItemSpacing() :129
+// private float get_EffectiveItemSpacing()
 void StackLayout__get_EffectiveItemSpacing_fn(StackLayout* __this, float* __retval)
 {
     *__retval = __this->EffectiveItemSpacing();
 }
 
-// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp) :90
+// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp)
 void StackLayout__GetContentSize_fn(StackLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     ::g::Fuse::LayoutParams lp_ = *lp;
@@ -3484,55 +3484,55 @@ void StackLayout__GetContentSize_fn(StackLayout* __this, ::g::Fuse::Visual* cont
     return *__retval = size, void();
 }
 
-// private float2 GetElementsSize(Fuse.Visual container, Fuse.LayoutParams lp) :136
+// private float2 GetElementsSize(Fuse.Visual container, Fuse.LayoutParams lp)
 void StackLayout__GetElementsSize_fn(StackLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->GetElementsSize(container, *lp);
 }
 
-// public float get_ItemSpacing() :50
+// public float get_ItemSpacing()
 void StackLayout__get_ItemSpacing_fn(StackLayout* __this, float* __retval)
 {
     *__retval = __this->ItemSpacing();
 }
 
-// public void set_ItemSpacing(float value) :51
+// public void set_ItemSpacing(float value)
 void StackLayout__set_ItemSpacing_fn(StackLayout* __this, float* value)
 {
     __this->ItemSpacing(*value);
 }
 
-// public Fuse.Layouts.StackLayoutMode get_Mode() :78
+// public Fuse.Layouts.StackLayoutMode get_Mode()
 void StackLayout__get_Mode_fn(StackLayout* __this, int32_t* __retval)
 {
     *__retval = __this->Mode();
 }
 
-// public void set_Mode(Fuse.Layouts.StackLayoutMode value) :79
+// public void set_Mode(Fuse.Layouts.StackLayoutMode value)
 void StackLayout__set_Mode_fn(StackLayout* __this, int32_t* value)
 {
     __this->Mode(*value);
 }
 
-// public generated StackLayout New() :24
+// public generated StackLayout New()
 void StackLayout__New2_fn(StackLayout** __retval)
 {
     *__retval = StackLayout::New2();
 }
 
-// public Fuse.Layouts.Orientation get_Orientation() :30
+// public Fuse.Layouts.Orientation get_Orientation()
 void StackLayout__get_Orientation_fn(StackLayout* __this, int32_t* __retval)
 {
     *__retval = __this->Orientation();
 }
 
-// public void set_Orientation(Fuse.Layouts.Orientation value) :31
+// public void set_Orientation(Fuse.Layouts.Orientation value)
 void StackLayout__set_Orientation_fn(StackLayout* __this, int32_t* value)
 {
     __this->Orientation(*value);
 }
 
-// public generated StackLayout() [instance] :24
+// public generated StackLayout() [instance]
 void StackLayout::ctor_2()
 {
     _orientation = 1;
@@ -3540,13 +3540,13 @@ void StackLayout::ctor_2()
     ctor_1();
 }
 
-// public Fuse.Elements.Alignment get_ContentAlignment() [instance] :64
+// public Fuse.Elements.Alignment get_ContentAlignment() [instance]
 int32_t StackLayout::ContentAlignment()
 {
     return _contentAlignment;
 }
 
-// public void set_ContentAlignment(Fuse.Elements.Alignment value) [instance] :65
+// public void set_ContentAlignment(Fuse.Elements.Alignment value) [instance]
 void StackLayout::ContentAlignment(int32_t value)
 {
     if (_contentAlignment != value)
@@ -3556,7 +3556,7 @@ void StackLayout::ContentAlignment(int32_t value)
     }
 }
 
-// private Fuse.Elements.SimpleAlignment get_EffectiveContentAlignment() [instance] :172
+// private Fuse.Elements.SimpleAlignment get_EffectiveContentAlignment() [instance]
 int32_t StackLayout::EffectiveContentAlignment()
 {
     int32_t ca = ContentAlignment();
@@ -3570,13 +3570,13 @@ int32_t StackLayout::EffectiveContentAlignment()
         return ::g::Fuse::Elements::AlignmentHelpers::GetHorizontalSimpleAlign(ca);
 }
 
-// private float get_EffectiveItemSpacing() [instance] :129
+// private float get_EffectiveItemSpacing() [instance]
 float StackLayout::EffectiveItemSpacing()
 {
     return SnapUp(ItemSpacing());
 }
 
-// private float2 GetElementsSize(Fuse.Visual container, Fuse.LayoutParams lp) [instance] :136
+// private float2 GetElementsSize(Fuse.Visual container, Fuse.LayoutParams lp) [instance]
 ::g::Uno::Float2 StackLayout::GetElementsSize(::g::Fuse::Visual* container, ::g::Fuse::LayoutParams lp)
 {
     int32_t orientation = Orientation();
@@ -3614,13 +3614,13 @@ float StackLayout::EffectiveItemSpacing()
     return desiredSize;
 }
 
-// public float get_ItemSpacing() [instance] :50
+// public float get_ItemSpacing() [instance]
 float StackLayout::ItemSpacing()
 {
     return _itemSpacing;
 }
 
-// public void set_ItemSpacing(float value) [instance] :51
+// public void set_ItemSpacing(float value) [instance]
 void StackLayout::ItemSpacing(float value)
 {
     if (_itemSpacing != value)
@@ -3630,13 +3630,13 @@ void StackLayout::ItemSpacing(float value)
     }
 }
 
-// public Fuse.Layouts.StackLayoutMode get_Mode() [instance] :78
+// public Fuse.Layouts.StackLayoutMode get_Mode() [instance]
 int32_t StackLayout::Mode()
 {
     return _mode;
 }
 
-// public void set_Mode(Fuse.Layouts.StackLayoutMode value) [instance] :79
+// public void set_Mode(Fuse.Layouts.StackLayoutMode value) [instance]
 void StackLayout::Mode(int32_t value)
 {
     if (_mode != value)
@@ -3646,13 +3646,13 @@ void StackLayout::Mode(int32_t value)
     }
 }
 
-// public Fuse.Layouts.Orientation get_Orientation() [instance] :30
+// public Fuse.Layouts.Orientation get_Orientation() [instance]
 int32_t StackLayout::Orientation()
 {
     return _orientation;
 }
 
-// public void set_Orientation(Fuse.Layouts.Orientation value) [instance] :31
+// public void set_Orientation(Fuse.Layouts.Orientation value) [instance]
 void StackLayout::Orientation(int32_t value)
 {
     if (_orientation != value)
@@ -3662,7 +3662,7 @@ void StackLayout::Orientation(int32_t value)
     }
 }
 
-// public generated StackLayout New() [static] :24
+// public generated StackLayout New() [static]
 StackLayout* StackLayout::New2()
 {
     StackLayout* obj1 = (StackLayout*)uNew(StackLayout_typeof());
@@ -3671,10 +3671,10 @@ StackLayout* StackLayout::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/StackLayout.uno
-// --------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/StackLayout.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum StackLayoutMode :18
+// public enum StackLayoutMode
 uEnumType* StackLayoutMode_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3687,10 +3687,10 @@ uEnumType* StackLayoutMode_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/WrapLayout.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/WrapLayout.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WrapLayout :17
+// public sealed class WrapLayout
 // {
 static void WrapLayout_build(uType* type)
 {
@@ -3737,13 +3737,13 @@ static void WrapLayout_build(uType* type)
     return type;
 }
 
-// private float2 Arrange(Fuse.Visual container, Fuse.LayoutParams lp, bool doArrange, [float4 padding]) :115
+// private float2 Arrange(Fuse.Visual container, Fuse.LayoutParams lp, bool doArrange, [float4 padding])
 void WrapLayout__Arrange_fn(WrapLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, bool* doArrange, ::g::Uno::Float4* padding, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->Arrange(container, *lp, *doArrange, *padding);
 }
 
-// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp) :107
+// internal override sealed void ArrangePaddingBox(Fuse.Visual container, float4 padding, Fuse.LayoutParams lp)
 void WrapLayout__ArrangePaddingBox_fn(WrapLayout* __this, ::g::Fuse::Visual* container, ::g::Uno::Float4* padding, ::g::Fuse::LayoutParams* lp)
 {
     ::g::Fuse::LayoutParams lp_ = *lp;
@@ -3751,80 +3751,80 @@ void WrapLayout__ArrangePaddingBox_fn(WrapLayout* __this, ::g::Fuse::Visual* con
     __this->Arrange(container, lp_, true, padding_);
 }
 
-// public Fuse.Layouts.FlowDirection get_FlowDirection() :73
+// public Fuse.Layouts.FlowDirection get_FlowDirection()
 void WrapLayout__get_FlowDirection_fn(WrapLayout* __this, int32_t* __retval)
 {
     *__retval = __this->FlowDirection();
 }
 
-// public void set_FlowDirection(Fuse.Layouts.FlowDirection value) :74
+// public void set_FlowDirection(Fuse.Layouts.FlowDirection value)
 void WrapLayout__set_FlowDirection_fn(WrapLayout* __this, int32_t* value)
 {
     __this->FlowDirection(*value);
 }
 
-// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp) :100
+// internal override sealed float2 GetContentSize(Fuse.Visual container, Fuse.LayoutParams lp)
 void WrapLayout__GetContentSize_fn(WrapLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     ::g::Fuse::LayoutParams lp_ = *lp;
     return *__retval = __this->Arrange(container, lp_, false, ::g::Uno::Float4__New1(0.0f)), void();
 }
 
-// private bool get_IsVert() :67
+// private bool get_IsVert()
 void WrapLayout__get_IsVert_fn(WrapLayout* __this, bool* __retval)
 {
     *__retval = __this->IsVert();
 }
 
-// public float get_ItemHeight() :23
+// public float get_ItemHeight()
 void WrapLayout__get_ItemHeight_fn(WrapLayout* __this, float* __retval)
 {
     *__retval = __this->ItemHeight();
 }
 
-// public void set_ItemHeight(float value) :24
+// public void set_ItemHeight(float value)
 void WrapLayout__set_ItemHeight_fn(WrapLayout* __this, float* value)
 {
     __this->ItemHeight(*value);
 }
 
-// public float get_ItemWidth() :39
+// public float get_ItemWidth()
 void WrapLayout__get_ItemWidth_fn(WrapLayout* __this, float* __retval)
 {
     *__retval = __this->ItemWidth();
 }
 
-// public void set_ItemWidth(float value) :40
+// public void set_ItemWidth(float value)
 void WrapLayout__set_ItemWidth_fn(WrapLayout* __this, float* value)
 {
     __this->ItemWidth(*value);
 }
 
-// public Fuse.Layouts.Orientation get_Orientation() :54
+// public Fuse.Layouts.Orientation get_Orientation()
 void WrapLayout__get_Orientation_fn(WrapLayout* __this, int32_t* __retval)
 {
     *__retval = __this->Orientation();
 }
 
-// public void set_Orientation(Fuse.Layouts.Orientation value) :55
+// public void set_Orientation(Fuse.Layouts.Orientation value)
 void WrapLayout__set_Orientation_fn(WrapLayout* __this, int32_t* value)
 {
     __this->Orientation(*value);
 }
 
-// public Fuse.Elements.Alignment get_RowAlignment() :87
+// public Fuse.Elements.Alignment get_RowAlignment()
 void WrapLayout__get_RowAlignment_fn(WrapLayout* __this, int32_t* __retval)
 {
     *__retval = __this->RowAlignment();
 }
 
-// public void set_RowAlignment(Fuse.Elements.Alignment value) :88
+// public void set_RowAlignment(Fuse.Elements.Alignment value)
 void WrapLayout__set_RowAlignment_fn(WrapLayout* __this, int32_t* value)
 {
     __this->RowAlignment(*value);
 }
 
-// private float2 Arrange(Fuse.Visual container, Fuse.LayoutParams lp, bool doArrange, [float4 padding]) [instance] :115
+// private float2 Arrange(Fuse.Visual container, Fuse.LayoutParams lp, bool doArrange, [float4 padding]) [instance]
 ::g::Uno::Float2 WrapLayout::Arrange(::g::Fuse::Visual* container, ::g::Fuse::LayoutParams lp, bool doArrange, ::g::Uno::Float4 padding)
 {
     ::g::Fuse::LayoutParams nlp = lp.CloneAndDerive();
@@ -3968,13 +3968,13 @@ void WrapLayout__set_RowAlignment_fn(WrapLayout* __this, int32_t* value)
     return sz;
 }
 
-// public Fuse.Layouts.FlowDirection get_FlowDirection() [instance] :73
+// public Fuse.Layouts.FlowDirection get_FlowDirection() [instance]
 int32_t WrapLayout::FlowDirection()
 {
     return _flowDirection;
 }
 
-// public void set_FlowDirection(Fuse.Layouts.FlowDirection value) [instance] :74
+// public void set_FlowDirection(Fuse.Layouts.FlowDirection value) [instance]
 void WrapLayout::FlowDirection(int32_t value)
 {
     if (_flowDirection != value)
@@ -3984,19 +3984,19 @@ void WrapLayout::FlowDirection(int32_t value)
     }
 }
 
-// private bool get_IsVert() [instance] :67
+// private bool get_IsVert() [instance]
 bool WrapLayout::IsVert()
 {
     return Orientation() == 1;
 }
 
-// public float get_ItemHeight() [instance] :23
+// public float get_ItemHeight() [instance]
 float WrapLayout::ItemHeight()
 {
     return _itemHeight;
 }
 
-// public void set_ItemHeight(float value) [instance] :24
+// public void set_ItemHeight(float value) [instance]
 void WrapLayout::ItemHeight(float value)
 {
     if (!_hasItemHeight || (_itemHeight != value))
@@ -4007,13 +4007,13 @@ void WrapLayout::ItemHeight(float value)
     }
 }
 
-// public float get_ItemWidth() [instance] :39
+// public float get_ItemWidth() [instance]
 float WrapLayout::ItemWidth()
 {
     return _itemWidth;
 }
 
-// public void set_ItemWidth(float value) [instance] :40
+// public void set_ItemWidth(float value) [instance]
 void WrapLayout::ItemWidth(float value)
 {
     if (!_hasItemWidth || (_itemWidth != value))
@@ -4024,13 +4024,13 @@ void WrapLayout::ItemWidth(float value)
     }
 }
 
-// public Fuse.Layouts.Orientation get_Orientation() [instance] :54
+// public Fuse.Layouts.Orientation get_Orientation() [instance]
 int32_t WrapLayout::Orientation()
 {
     return _orientation;
 }
 
-// public void set_Orientation(Fuse.Layouts.Orientation value) [instance] :55
+// public void set_Orientation(Fuse.Layouts.Orientation value) [instance]
 void WrapLayout::Orientation(int32_t value)
 {
     if (_orientation != value)
@@ -4040,13 +4040,13 @@ void WrapLayout::Orientation(int32_t value)
     }
 }
 
-// public Fuse.Elements.Alignment get_RowAlignment() [instance] :87
+// public Fuse.Elements.Alignment get_RowAlignment() [instance]
 int32_t WrapLayout::RowAlignment()
 {
     return _rowAlignment;
 }
 
-// public void set_RowAlignment(Fuse.Elements.Alignment value) [instance] :88
+// public void set_RowAlignment(Fuse.Elements.Alignment value) [instance]
 void WrapLayout::RowAlignment(int32_t value)
 {
     if (_rowAlignment != value)

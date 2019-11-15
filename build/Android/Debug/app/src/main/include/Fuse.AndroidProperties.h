@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Android/1.9.0/AndroidProperties.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Android/1.12.0/AndroidProperties.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Fuse{struct AndroidProperties;}}
 namespace g{
 namespace Fuse{
 
-// public static extern class AndroidProperties :9
+// public static extern class AndroidProperties
 // {
 uClassType* AndroidProperties_typeof();
 void AndroidProperties__GetReleaseVersion_fn(uString** __retval);

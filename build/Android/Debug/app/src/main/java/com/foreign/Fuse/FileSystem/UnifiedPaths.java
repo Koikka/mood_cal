@@ -23,12 +23,12 @@ public class UnifiedPaths
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static String GetCacheDirectory412()
+    public static String GetCacheDirectory415()
     {
         return com.fuse.Activity.getRootActivity().getExternalCacheDir().getAbsolutePath();
     }
     
-    public static String GetDataDirectory413()
+    public static String GetDataDirectory416()
     {
         return com.fuse.Activity.getRootActivity().getFilesDir().getAbsolutePath();
     }

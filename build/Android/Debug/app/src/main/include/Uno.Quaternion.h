@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Quaternion.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Quaternion.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{namespace Uno{struct Quaternion;}}
 namespace g{
 namespace Uno{
 
-// public static class Quaternion :7
+// public static class Quaternion
 // {
 uClassType* Quaternion_typeof();
 void Quaternion__FromEulerAngle_fn(float* pitch, float* yaw, float* roll, ::g::Uno::Float4* __retval);

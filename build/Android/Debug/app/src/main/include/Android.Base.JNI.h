@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/JNI.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/JNI.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -16,7 +16,7 @@ namespace g{
 namespace Android{
 namespace Base{
 
-// public static extern class JNI :14
+// public static extern class JNI
 // {
 uClassType* JNI_typeof();
 void JNI__CheckException_fn();

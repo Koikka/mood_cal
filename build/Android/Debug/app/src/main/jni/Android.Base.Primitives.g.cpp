@@ -2,26 +2,26 @@
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Android.Base.JNI.h>
-#include <Android.Base.Primitiv-2924c081.h>
-#include <Android.Base.Primitiv-2b9696be.h>
-#include <Android.Base.Primitiv-30a77109.h>
-#include <Android.Base.Primitiv-45253430.h>
-#include <Android.Base.Primitiv-65373fdf.h>
-#include <Android.Base.Primitiv-712df2f8.h>
-#include <Android.Base.Primitiv-75a2ab27.h>
-#include <Android.Base.Primitiv-7eef1e73.h>
-#include <Android.Base.Primitiv-a6e942de.h>
-#include <Android.Base.Primitiv-ae5fb0f1.h>
-#include <Android.Base.Primitiv-b7b09a.h>
-#include <Android.Base.Primitiv-c95fb41d.h>
-#include <Android.Base.Primitiv-e437692f.h>
-#include <Android.Base.Primitiv-e52e9f29.h>
+#include <Android.Base.Primitiv-1a5f0013.h>
+#include <Android.Base.Primitiv-22a842e.h>
+#include <Android.Base.Primitiv-263ddec5.h>
+#include <Android.Base.Primitiv-2f94ad06.h>
+#include <Android.Base.Primitiv-7b6c607b.h>
+#include <Android.Base.Primitiv-9f7bd552.h>
+#include <Android.Base.Primitiv-a9a90c2a.h>
+#include <Android.Base.Primitiv-b9feb1b7.h>
+#include <Android.Base.Primitiv-ca68cc99.h>
+#include <Android.Base.Primitiv-d2947ae4.h>
+#include <Android.Base.Primitiv-de7b329a.h>
+#include <Android.Base.Primitiv-dfa40e56.h>
+#include <Android.Base.Primitiv-eed27b63.h>
+#include <Android.Base.Primitiv-efc9ca76.h>
 #include <Android.Base.Primitives.jweak.h>
 #include <Android.Base.Primitives.ujbyte.h>
 #include <Android.Base.Primitives.ujchar.h>
 #include <Android.Base.Primitives.ujint.h>
 #include <Android.Base.Primitives.ujlong.h>
-#include <Android.Base.Primitiv-f2634ec4.h>
+#include <Android.Base.Primitiv-f1a87bd0.h>
 #include <Uno.Bool.h>
 
 namespace g{
@@ -29,10 +29,10 @@ namespace Android{
 namespace Base{
 namespace Primitives{
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct ConstCharPtr :9
+// public extern struct ConstCharPtr
 // {
 static void ConstCharPtr_build(uType* type)
 {
@@ -44,6 +44,7 @@ uStructType* ConstCharPtr_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(const char*);
     options.ValueSize = sizeof(const char*);
     options.TypeSize = sizeof(uStructType);
@@ -53,10 +54,10 @@ uStructType* ConstCharPtr_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct JavaVMPtr :12
+// public extern struct JavaVMPtr
 // {
 static void JavaVMPtr_build(uType* type)
 {
@@ -68,6 +69,7 @@ uStructType* JavaVMPtr_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(JavaVM*);
     options.ValueSize = sizeof(JavaVM*);
     options.TypeSize = sizeof(uStructType);
@@ -77,10 +79,10 @@ uStructType* JavaVMPtr_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct jfieldID :144
+// public extern struct jfieldID
 // {
 static void jfieldID_build(uType* type)
 {
@@ -92,6 +94,7 @@ uStructType* jfieldID_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jfieldID);
     options.ValueSize = sizeof(jfieldID);
     options.TypeSize = sizeof(uStructType);
@@ -101,10 +104,10 @@ uStructType* jfieldID_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct jmethodID :139
+// public extern struct jmethodID
 // {
 static void jmethodID_build(uType* type)
 {
@@ -116,6 +119,7 @@ uStructType* jmethodID_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jmethodID);
     options.ValueSize = sizeof(jmethodID);
     options.TypeSize = sizeof(uStructType);
@@ -125,10 +129,10 @@ uStructType* jmethodID_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct JNIEnvPtr :15
+// public extern struct JNIEnvPtr
 // {
 static void JNIEnvPtr_build(uType* type)
 {
@@ -140,6 +144,7 @@ uStructType* JNIEnvPtr_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(JNIEnv*);
     options.ValueSize = sizeof(JNIEnv*);
     options.TypeSize = sizeof(uStructType);
@@ -149,10 +154,10 @@ uStructType* JNIEnvPtr_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct JNINativeMethod :136
+// public extern struct JNINativeMethod
 // {
 static void JNINativeMethod_build(uType* type)
 {
@@ -164,6 +169,7 @@ uStructType* JNINativeMethod_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(JNINativeMethod);
     options.ValueSize = sizeof(JNINativeMethod);
     options.TypeSize = sizeof(uStructType);
@@ -173,10 +179,10 @@ uStructType* JNINativeMethod_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct jweak :18
+// public extern struct jweak
 // {
 static void jweak_build(uType* type)
 {
@@ -188,6 +194,7 @@ uStructType* jweak_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jweak);
     options.ValueSize = sizeof(jweak);
     options.TypeSize = sizeof(uStructType);
@@ -197,10 +204,10 @@ uStructType* jweak_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct ujboolean :24
+// public extern struct ujboolean
 // {
 static void ujboolean_build(uType* type)
 {
@@ -212,6 +219,7 @@ uStructType* ujboolean_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jboolean);
     options.ValueSize = sizeof(jboolean);
     options.TypeSize = sizeof(uStructType);
@@ -221,10 +229,10 @@ uStructType* ujboolean_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct ujbyte :38
+// public extern struct ujbyte
 // {
 static void ujbyte_build(uType* type)
 {
@@ -236,6 +244,7 @@ uStructType* ujbyte_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jbyte);
     options.ValueSize = sizeof(jbyte);
     options.TypeSize = sizeof(uStructType);
@@ -245,10 +254,10 @@ uStructType* ujbyte_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct ujchar :52
+// public extern struct ujchar
 // {
 static void ujchar_build(uType* type)
 {
@@ -260,6 +269,7 @@ uStructType* ujchar_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jchar);
     options.ValueSize = sizeof(jchar);
     options.TypeSize = sizeof(uStructType);
@@ -269,10 +279,10 @@ uStructType* ujchar_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct ujclass :147
+// public extern struct ujclass
 // {
 static void ujclass_build(uType* type)
 {
@@ -284,6 +294,7 @@ uStructType* ujclass_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jclass);
     options.ValueSize = sizeof(jclass);
     options.TypeSize = sizeof(uStructType);
@@ -292,35 +303,35 @@ uStructType* ujclass_typeof()
     return type;
 }
 
-// public static Android.Base.Primitives.ujclass get_Null() :151
+// public static Android.Base.Primitives.ujclass get_Null()
 void ujclass__get_Null_fn(jclass* __retval)
 {
     *__retval = ujclass::Null();
 }
 
-// public static operator ==(Android.Base.Primitives.ujclass lhs, Android.Base.Primitives.ujclass rhs) :154
+// public static operator ==(Android.Base.Primitives.ujclass lhs, Android.Base.Primitives.ujclass rhs)
 void ujclass__op_Equality_fn(jclass* lhs, jclass* rhs, bool* __retval)
 {
     *__retval = ujclass::op_Equality(*lhs, *rhs);
 }
 
-// public static operator ==(Android.Base.Primitives.ujclass lhs, Android.Base.Primitives.ujclass rhs) [static] :154
+// public static operator ==(Android.Base.Primitives.ujclass lhs, Android.Base.Primitives.ujclass rhs) [static]
 bool ujclass::op_Equality(jclass lhs, jclass rhs)
 {
-    return ::g::Android::Base::JNI::IsSameObject(::g::Android::Base::Primitives::ujobject::op_Implicit1(lhs), ::g::Android::Base::Primitives::ujobject::op_Implicit1(rhs));
+    return ::g::Android::Base::JNI::IsSameObject(::g::Android::Base::Primitives::ujobject::op_Implicit(lhs), ::g::Android::Base::Primitives::ujobject::op_Implicit(rhs));
 }
 
-// public static Android.Base.Primitives.ujclass get_Null() [static] :151
+// public static Android.Base.Primitives.ujclass get_Null() [static]
 jclass ujclass::Null()
 {
     return NULL;
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct ujdouble :122
+// public extern struct ujdouble
 // {
 static void ujdouble_build(uType* type)
 {
@@ -332,6 +343,7 @@ uStructType* ujdouble_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jdouble);
     options.ValueSize = sizeof(jdouble);
     options.TypeSize = sizeof(uStructType);
@@ -341,10 +353,10 @@ uStructType* ujdouble_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct ujfloat :108
+// public extern struct ujfloat
 // {
 static void ujfloat_build(uType* type)
 {
@@ -356,6 +368,7 @@ uStructType* ujfloat_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jfloat);
     options.ValueSize = sizeof(jfloat);
     options.TypeSize = sizeof(uStructType);
@@ -365,10 +378,10 @@ uStructType* ujfloat_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct ujint :80
+// public extern struct ujint
 // {
 static void ujint_build(uType* type)
 {
@@ -380,6 +393,7 @@ uStructType* ujint_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jint);
     options.ValueSize = sizeof(jint);
     options.TypeSize = sizeof(uStructType);
@@ -389,10 +403,10 @@ uStructType* ujint_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct ujlong :94
+// public extern struct ujlong
 // {
 static void ujlong_build(uType* type)
 {
@@ -404,6 +418,7 @@ uStructType* ujlong_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jlong);
     options.ValueSize = sizeof(jlong);
     options.TypeSize = sizeof(uStructType);
@@ -413,10 +428,10 @@ uStructType* ujlong_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct ujobject :175
+// public extern struct ujobject
 // {
 static void ujobject_build(uType* type)
 {
@@ -428,6 +443,7 @@ uStructType* ujobject_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jobject);
     options.ValueSize = sizeof(jobject);
     options.TypeSize = sizeof(uStructType);
@@ -436,71 +452,71 @@ uStructType* ujobject_typeof()
     return type;
 }
 
-// public static Android.Base.Primitives.ujobject get_Null() :179
+// public static Android.Base.Primitives.ujobject get_Null()
 void ujobject__get_Null_fn(jobject* __retval)
 {
     *__retval = ujobject::Null();
 }
 
-// public static operator ==(Android.Base.Primitives.ujobject lhs, Android.Base.Primitives.ujobject rhs) :202
+// public static operator ==(Android.Base.Primitives.ujobject lhs, Android.Base.Primitives.ujobject rhs)
 void ujobject__op_Equality_fn(jobject* lhs, jobject* rhs, bool* __retval)
 {
     *__retval = ujobject::op_Equality(*lhs, *rhs);
 }
 
-// public static implicit operator Android.Base.Primitives.ujobject(Android.Base.Primitives.ujclass v) :182
-void ujobject__op_Implicit1_fn(jclass* v, jobject* __retval)
+// public static implicit operator Android.Base.Primitives.ujobject(Android.Base.Primitives.ujclass v)
+void ujobject__op_Implicit_fn(jclass* v, jobject* __retval)
+{
+    *__retval = ujobject::op_Implicit(*v);
+}
+
+// public static implicit operator Android.Base.Primitives.ujclass(Android.Base.Primitives.ujobject v)
+void ujobject__op_Implicit1_fn(jobject* v, jclass* __retval)
 {
     *__retval = ujobject::op_Implicit1(*v);
 }
 
-// public static implicit operator Android.Base.Primitives.ujclass(Android.Base.Primitives.ujobject v) :187
-void ujobject__op_Implicit2_fn(jobject* v, jclass* __retval)
-{
-    *__retval = ujobject::op_Implicit2(*v);
-}
-
-// public static operator !=(Android.Base.Primitives.ujobject lhs, Android.Base.Primitives.ujobject rhs) :207
+// public static operator !=(Android.Base.Primitives.ujobject lhs, Android.Base.Primitives.ujobject rhs)
 void ujobject__op_Inequality_fn(jobject* lhs, jobject* rhs, bool* __retval)
 {
     *__retval = ujobject::op_Inequality(*lhs, *rhs);
 }
 
-// public static operator ==(Android.Base.Primitives.ujobject lhs, Android.Base.Primitives.ujobject rhs) [static] :202
+// public static operator ==(Android.Base.Primitives.ujobject lhs, Android.Base.Primitives.ujobject rhs) [static]
 bool ujobject::op_Equality(jobject lhs, jobject rhs)
 {
     return ::g::Android::Base::JNI::IsSameObject(lhs, rhs);
 }
 
-// public static implicit operator Android.Base.Primitives.ujobject(Android.Base.Primitives.ujclass v) [static] :182
-jobject ujobject::op_Implicit1(jclass v)
+// public static implicit operator Android.Base.Primitives.ujobject(Android.Base.Primitives.ujclass v) [static]
+jobject ujobject::op_Implicit(jclass v)
 {
     return (jobject)v;
 }
 
-// public static implicit operator Android.Base.Primitives.ujclass(Android.Base.Primitives.ujobject v) [static] :187
-jclass ujobject::op_Implicit2(jobject v)
+// public static implicit operator Android.Base.Primitives.ujclass(Android.Base.Primitives.ujobject v) [static]
+jclass ujobject::op_Implicit1(jobject v)
 {
     return (jclass)v;
 }
 
-// public static operator !=(Android.Base.Primitives.ujobject lhs, Android.Base.Primitives.ujobject rhs) [static] :207
+// public static operator !=(Android.Base.Primitives.ujobject lhs, Android.Base.Primitives.ujobject rhs) [static]
 bool ujobject::op_Inequality(jobject lhs, jobject rhs)
 {
     return !ujobject::op_Equality(lhs, rhs);
 }
 
-// public static Android.Base.Primitives.ujobject get_Null() [static] :179
+// public static Android.Base.Primitives.ujobject get_Null() [static]
 jobject ujobject::Null()
 {
     return NULL;
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct ujshort :66
+// public extern struct ujshort
 // {
 static void ujshort_build(uType* type)
 {
@@ -512,6 +528,7 @@ uStructType* ujshort_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jshort);
     options.ValueSize = sizeof(jshort);
     options.TypeSize = sizeof(uStructType);
@@ -521,10 +538,10 @@ uStructType* ujshort_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct ujstring :166
+// public extern struct ujstring
 // {
 static void ujstring_build(uType* type)
 {
@@ -536,6 +553,7 @@ uStructType* ujstring_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jstring);
     options.ValueSize = sizeof(jstring);
     options.TypeSize = sizeof(uStructType);
@@ -545,10 +563,10 @@ uStructType* ujstring_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct ujvalue :215
+// public extern struct ujvalue
 // {
 static void ujvalue_build(uType* type)
 {
@@ -560,6 +578,7 @@ uStructType* ujvalue_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(jvalue);
     options.ValueSize = sizeof(jvalue);
     options.TypeSize = sizeof(uStructType);
@@ -569,10 +588,10 @@ uStructType* ujvalue_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Primitives.uno
-// -----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Primitives.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern struct uweakptr :21
+// public extern struct uweakptr
 // {
 static void uweakptr_build(uType* type)
 {
@@ -584,6 +603,7 @@ uStructType* uweakptr_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(uWeakObject*);
     options.ValueSize = sizeof(uWeakObject*);
     options.TypeSize = sizeof(uStructType);

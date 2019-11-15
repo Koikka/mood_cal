@@ -114,12 +114,22 @@ public class TextInput
         }
     }
     
-    public static void SetImeOptions210(final Object handle,final int value)
+    public static void SetFocusable210(final Object handle,final boolean value)
+    {
+        ((android.widget.EditText)handle).setFocusable(value);
+    }
+    
+    public static void SetFocusableInTouchMode211(final Object handle,final boolean value)
+    {
+        ((android.widget.EditText)handle).setFocusableInTouchMode(value);
+    }
+    
+    public static void SetImeOptions212(final Object handle,final int value)
     {
         ((android.widget.TextView)handle).setImeOptions(value);
     }
     
-    public static void SetInputType211(final Object handle,final int value)
+    public static void SetInputType213(final Object handle,final int value)
     {
         android.widget.EditText et = (android.widget.EditText)handle;
         
@@ -140,17 +150,17 @@ public class TextInput
         et.setSelection(start, end);
     }
     
-    public static void SetPlaceholderColor212(final Object handle,final int value)
+    public static void SetPlaceholderColor214(final Object handle,final int value)
     {
         ((android.widget.TextView)handle).setHintTextColor(value);
     }
     
-    public static void SetPlaceholderText213(final Object handle,final String value)
+    public static void SetPlaceholderText215(final Object handle,final String value)
     {
         ((android.widget.TextView)handle).setHint(value);
     }
     
-    public static void SetSelectionColor214(final Object handle,final int color)
+    public static void SetSelectionColor216(final Object handle,final int color)
     {
         ((android.widget.TextView)handle).setHighlightColor(color);
     }

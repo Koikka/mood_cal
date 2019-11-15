@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/String.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/String.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,7 +7,7 @@
 namespace g{
 namespace Uno{
 
-// public intrinsic sealed class String :12
+// public intrinsic sealed class String
 // {
 uType* String_typeof();
 void String__Compare_fn(uString* a, uString* b, int32_t* __retval);
@@ -31,7 +31,7 @@ void String__IndexOfUnchecked_fn(uString* __this, char16_t* c, int32_t* startInd
 void String__Insert_fn(uString* __this, int32_t* pos, uString* str, uString** __retval);
 void String__InSet_fn(uString* __this, char16_t* c, uArray* charSet, bool* __retval);
 void String__IsNullOrEmpty_fn(uString* s, bool* __retval);
-void String__Join_fn(uString* separator, uArray* value, uString** __retval);
+void String__Join1_fn(uString* separator, uArray* value, uString** __retval);
 void String__LastIndexOf_fn(uString* __this, char16_t* c, int32_t* __retval);
 void String__LastIndexOfAny_fn(uString* __this, uArray* anyOf, int32_t* __retval);
 void String__LastIndexOfAnyUnchecked_fn(uString* __this, uArray* anyOf, int32_t* startIndex, int32_t* count, int32_t* __retval);
@@ -105,7 +105,7 @@ struct String
     static bool Equals3(uString* left, uString* right);
     static uString* Format(uString* str, uArray* objs);
     static bool IsNullOrEmpty(uString* s);
-    static uString* Join(uString* separator, uArray* value);
+    static uString* Join1(uString* separator, uArray* value);
     static uString* op_Addition(uObject* a, uString* b);
     static uString* op_Addition1(uString* a, uObject* b);
     static uString* op_Addition2(uString* a, uString* b);

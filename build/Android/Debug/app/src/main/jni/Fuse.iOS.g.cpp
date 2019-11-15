@@ -13,12 +13,12 @@ namespace g{
 namespace Fuse{
 namespace iOS{
 
-// /usr/local/share/uno/Packages/Fuse.iOS/1.9.0/StatusBarConfig.uno
-// ----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.iOS/1.12.0/StatusBarConfig.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class StatusBarConfig :28
+// public sealed class StatusBarConfig
 // {
-// static generated StatusBarConfig() :28
+// static generated StatusBarConfig()
 static void StatusBarConfig__cctor_1_fn(uType* __type)
 {
     StatusBarConfig::_stack_ = ((::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[0/*Uno.Collections.List<Fuse.iOS.StatusBarConfig>*/]));
@@ -79,25 +79,25 @@ static void StatusBarConfig_build(uType* type)
     return type;
 }
 
-// public generated StatusBarConfig() :28
+// public generated StatusBarConfig()
 void StatusBarConfig__ctor_3_fn(StatusBarConfig* __this)
 {
     __this->ctor_3();
 }
 
-// private static void Apply() :136
+// private static void Apply()
 void StatusBarConfig__Apply_fn()
 {
     StatusBarConfig::Apply();
 }
 
-// public generated StatusBarConfig New() :28
+// public generated StatusBarConfig New()
 void StatusBarConfig__New2_fn(StatusBarConfig** __retval)
 {
     *__retval = StatusBarConfig::New2();
 }
 
-// protected override sealed void OnRooted() :90
+// protected override sealed void OnRooted()
 void StatusBarConfig__OnRooted_fn(StatusBarConfig* __this)
 {
     ::g::Fuse::Node__OnRooted_fn(__this);
@@ -105,7 +105,7 @@ void StatusBarConfig__OnRooted_fn(StatusBarConfig* __this)
     StatusBarConfig::Apply();
 }
 
-// protected override sealed void OnUnrooted() :98
+// protected override sealed void OnUnrooted()
 void StatusBarConfig__OnUnrooted_fn(StatusBarConfig* __this)
 {
     bool ret8;
@@ -114,13 +114,13 @@ void StatusBarConfig__OnUnrooted_fn(StatusBarConfig* __this)
     ::g::Fuse::Node__OnUnrooted_fn(__this);
 }
 
-// public Fuse.Platform.StatusBarStyle get_Style() :57
+// public Fuse.Platform.StatusBarStyle get_Style()
 void StatusBarConfig__get_Style_fn(StatusBarConfig* __this, int32_t* __retval)
 {
     *__retval = __this->Style();
 }
 
-// public void set_Style(Fuse.Platform.StatusBarStyle value) :58
+// public void set_Style(Fuse.Platform.StatusBarStyle value)
 void StatusBarConfig__set_Style_fn(StatusBarConfig* __this, int32_t* value)
 {
     __this->Style(*value);
@@ -128,19 +128,19 @@ void StatusBarConfig__set_Style_fn(StatusBarConfig* __this, int32_t* value)
 
 uSStrong< ::g::Uno::Collections::List*> StatusBarConfig::_stack_;
 
-// public generated StatusBarConfig() [instance] :28
+// public generated StatusBarConfig() [instance]
 void StatusBarConfig::ctor_3()
 {
     ctor_2();
 }
 
-// public Fuse.Platform.StatusBarStyle get_Style() [instance] :57
+// public Fuse.Platform.StatusBarStyle get_Style() [instance]
 int32_t StatusBarConfig::Style()
 {
     return _style;
 }
 
-// public void set_Style(Fuse.Platform.StatusBarStyle value) [instance] :58
+// public void set_Style(Fuse.Platform.StatusBarStyle value) [instance]
 void StatusBarConfig::Style(int32_t value)
 {
     if (!_hasStyle || (_style != value))
@@ -151,13 +151,13 @@ void StatusBarConfig::Style(int32_t value)
     }
 }
 
-// private static void Apply() [static] :136
+// private static void Apply() [static]
 void StatusBarConfig::Apply()
 {
     StatusBarConfig_typeof()->Init();
 }
 
-// public generated StatusBarConfig New() [static] :28
+// public generated StatusBarConfig New() [static]
 StatusBarConfig* StatusBarConfig::New2()
 {
     StatusBarConfig* obj1 = (StatusBarConfig*)uNew(StatusBarConfig_typeof());

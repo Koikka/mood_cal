@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/GridLayout.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/GridLayout.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -19,7 +19,7 @@ namespace g{
 namespace Fuse{
 namespace Layouts{
 
-// public sealed class GridLayout :269
+// public sealed class GridLayout
 // {
 ::g::Fuse::Layouts::Layout_type* GridLayout_typeof();
 void GridLayout__ctor_2_fn(GridLayout* __this);

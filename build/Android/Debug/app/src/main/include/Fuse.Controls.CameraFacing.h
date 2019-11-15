@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/CameraViewBase.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.CameraView/1.12.0/CameraViewBase.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public enum CameraFacing :30
+// public enum CameraFacing
 uEnumType* CameraFacing_typeof();
 
 }}} // ::g::Fuse::Controls

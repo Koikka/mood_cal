@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/BitmapFont.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Content/Fonts/BitmapFont.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Uno.Content.Fonts.Bit-56c783db.h>
-#include <Uno.Content.Fonts.Bit-e08d0819.h>
+#include <Uno.Content.Fonts.Bit-82dc4f96.h>
+#include <Uno.Content.Fonts.Bit-cb006cb1.h>
 #include <Uno.IDisposable.h>
 #include <Uno.Object.h>
 namespace g{namespace Uno{namespace Collections{struct Dictionary;}}}
@@ -16,7 +16,7 @@ namespace Uno{
 namespace Content{
 namespace Fonts{
 
-// public sealed class BitmapFont :7
+// public sealed class BitmapFont
 // {
 struct BitmapFont_type : uType
 {

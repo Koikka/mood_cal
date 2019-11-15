@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Triggers/Scrolled.ScriptClass.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Triggers/Scrolled.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Animations.IBase-d3bd6f2e.h>
-#include <Fuse.Animations.IUnwr-594abe9.h>
+#include <Fuse.Animations.IBase-3168404.h>
+#include <Fuse.Animations.IUnwr-29908c99.h>
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
@@ -22,7 +22,7 @@ namespace g{
 namespace Fuse{
 namespace Triggers{
 
-// public partial sealed class Scrolled :8
+// public partial sealed class Scrolled
 // {
 ::g::Fuse::Triggers::Trigger_type* Scrolled_typeof();
 void Scrolled__check_fn(Scrolled* s);

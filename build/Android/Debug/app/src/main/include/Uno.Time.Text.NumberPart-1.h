@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Text/PatternPart.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Time/Text/PatternPart.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace Uno{
 namespace Time{
 namespace Text{
 
-// internal sealed class NumberPart<T> :45
+// internal sealed class NumberPart<T>
 // {
 ::g::Uno::Time::Text::PatternPart_type* NumberPart_typeof();
 void NumberPart__ctor_1_fn(NumberPart* __this, int32_t* size, bool* obligatory, uDelegate* setter, uDelegate* getter);

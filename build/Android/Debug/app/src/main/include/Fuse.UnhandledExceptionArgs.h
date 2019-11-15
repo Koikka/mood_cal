@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/AppBase.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/AppBase.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{namespace Uno{struct Exception;}}
 namespace g{
 namespace Fuse{
 
-// public sealed class UnhandledExceptionArgs :20
+// public sealed class UnhandledExceptionArgs
 // {
 uType* UnhandledExceptionArgs_typeof();
 void UnhandledExceptionArgs__ctor_1_fn(UnhandledExceptionArgs* __this, ::g::Uno::Exception* e);

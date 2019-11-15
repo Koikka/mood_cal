@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Marshal/1.9.0/Marshal.Cast.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Marshal/1.12.0/Marshal.Cast.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -16,11 +16,12 @@ namespace g{namespace Uno{struct Float4;}}
 namespace g{
 namespace Fuse{
 
-// public partial static class Marshal :12
+// public partial static class Marshal
 // {
 uClassType* Marshal_typeof();
 void Marshal__AddConverter_fn(uObject* conv);
 void Marshal__CanConvertClass_fn(uType* t, bool* __retval);
+void Marshal__DominantType_fn(uType* a, uType* b, uType** __retval);
 void Marshal__Is_fn(uObject* obj, uType* t, bool* __retval);
 void Marshal__ToBool_fn(uObject* v, bool* __retval);
 void Marshal__ToDouble_fn(uObject* v, double* __retval);
@@ -35,7 +36,11 @@ void Marshal__ToInt_fn(uObject* o, int32_t* __retval);
 void Marshal__ToSize_fn(uObject* o, ::g::Uno::UX::Size* __retval);
 void Marshal__ToSize2_fn(uObject* o, ::g::Uno::UX::Size2* __retval);
 void Marshal__ToType_fn(uType* __type, uObject* o, uTRef __retval);
+void Marshal__ToVector_fn(uObject* arr, uObject** __retval);
+void Marshal__TryConvertArrayToVector_fn(uObject* arg, uObject** __retval);
 void Marshal__TryConvertTo_fn(uType* t, uObject* o, uObject** res, uObject* diagnosticSource, bool* __retval);
+void Marshal__TryMultiply_fn(uObject* a, uObject* b, uObject** result, bool* __retval);
+void Marshal__TryOp1_fn(int32_t* op, uObject* a, uObject* b, uObject** result, bool* __retval);
 void Marshal__TryStringToSize_fn(uString* o, ::g::Uno::UX::Size* result, bool* __retval);
 void Marshal__TryStringToSize2_fn(uString* o, ::g::Uno::UX::Size2* result, int32_t* count, bool* __retval);
 void Marshal__TryToDouble_fn(uObject* v, double* res, bool* __retval);
@@ -56,6 +61,7 @@ struct Marshal : uObject
 
     static void AddConverter(uObject* conv);
     static bool CanConvertClass(uType* t);
+    static uType* DominantType(uType* a, uType* b);
     static bool Is(uObject* obj, uType* t);
     static bool ToBool(uObject* v);
     static double ToDouble(uObject* v);
@@ -71,7 +77,11 @@ struct Marshal : uObject
     static ::g::Uno::UX::Size2 ToSize2(uObject* o);
     template<class T>
     static T ToType(uType* __type, uObject* o) { T __retval; return Marshal__ToType_fn(__type, o, &__retval), __retval; }
+    static uObject* ToVector(uObject* arr);
+    static uObject* TryConvertArrayToVector(uObject* arg);
     static bool TryConvertTo(uType* t, uObject* o, uObject** res, uObject* diagnosticSource);
+    static bool TryMultiply(uObject* a, uObject* b, uObject** result);
+    static bool TryOp1(int32_t op, uObject* a, uObject* b, uObject** result);
     static bool TryStringToSize(uString* o, ::g::Uno::UX::Size* result);
     static bool TryStringToSize2(uString* o, ::g::Uno::UX::Size2* result, int32_t* count);
     static bool TryToDouble(uObject* v, double* res);

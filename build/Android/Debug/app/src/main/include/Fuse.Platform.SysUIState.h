@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/SystemUI.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Platform/1.12.0/SystemUI.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Platform{
 
-// internal enum SysUIState :15
+// internal enum SysUIState
 uEnumType* SysUIState_typeof();
 
 }}} // ::g::Fuse::Platform

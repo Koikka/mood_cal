@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/Mask.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/Mask.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Effects{
 
-// public enum Mask.MaskMode :52
+// public enum Mask.MaskMode
 uEnumType* Mask__MaskMode_typeof();
 
 }}} // ::g::Fuse::Effects

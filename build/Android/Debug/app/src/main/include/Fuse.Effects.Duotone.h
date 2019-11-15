@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/Duotone.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/Duotone.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@
 #include <Uno.Collections.IList-1.h>
 #include <Uno.Float3.h>
 #include <Uno.Float4x4.h>
-#include <Uno.Runtime.Implement-476e2792.h>
+#include <Uno.Runtime.Implement-3bc148a8.h>
 namespace g{namespace Fuse{namespace Effects{struct Duotone;}}}
 namespace g{namespace Fuse{struct DrawContext;}}
 namespace g{namespace Uno{namespace Graphics{struct VertexBuffer;}}}
@@ -23,7 +23,7 @@ namespace g{
 namespace Fuse{
 namespace Effects{
 
-// public sealed class Duotone :13
+// public sealed class Duotone
 // {
 ::g::Fuse::Effects::BasicEffect_type* Duotone_typeof();
 void Duotone__get_Amount_fn(Duotone* __this, float* __retval);
@@ -35,10 +35,10 @@ struct Duotone : ::g::Fuse::Effects::BasicEffect
     float _amount;
     ::g::Uno::Float3 _light;
     ::g::Uno::Float3 _shadow;
-    uStrong< ::g::Uno::Graphics::VertexBuffer*> OnRender_VertexData_80b7f54b_7_2_1;
-    ::g::Uno::Float4x4 OnRender_LocalTransform_80b7f54b_4_9_2;
-    ::g::Uno::Float4x4 OnRender_LocalTransform_80b7f54b_4_9_3;
-    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_80b7f54b;
+    uStrong< ::g::Uno::Graphics::VertexBuffer*> OnRender_VertexData_3c61d4eb_7_2_1;
+    ::g::Uno::Float4x4 OnRender_LocalTransform_3c61d4eb_4_9_2;
+    ::g::Uno::Float4x4 OnRender_LocalTransform_3c61d4eb_4_9_3;
+    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_3c61d4eb;
 
     float Amount();
     void Amount(float value);

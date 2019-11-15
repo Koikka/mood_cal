@@ -1,81 +1,64 @@
-//#if #(LIBRARY:Defined)
-//apply plugin: 'com.android.library'
-//#else
 apply plugin: 'com.android.application'
-//#endif
+
+configurations { native_implementation }
 
 dependencies {
-    compile fileTree(dir: 'src/main/libs', include: ['*.jar'])
-    compile 'com.android.support:support-v4:23.4.0'
-    compile 'com.android.support:appcompat-v7:23.4.0'
-    compile 'com.android.support:design:23.4.0'
-//#if #(Gradle.Dependency.Compile:IsRequired)
-    compile 'com.drewnoakes:metadata-extractor:2.10.1'
-compile 'com.google.firebase:firebase-database:12.0.1'
-compile 'com.google.firebase:firebase-messaging:12.0.1'
-compile 'com.google.firebase:firebase-core:12.0.1'
-//#endif
-//#if #(Gradle.Dependency:IsRequired)
-//    #(Gradle.Dependency:Join('\n'))
-//#endif
+    implementation fileTree(dir: 'src/main/libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.drewnoakes:metadata-extractor:2.10.1'
+    implementation 'com.google.firebase:firebase-database:12.0.1'
+    implementation 'com.google.firebase:firebase-messaging:12.0.1'
+    implementation 'com.google.firebase:firebase-core:12.0.1'
+    
+    
 }
 
-
-task copySharedLibraries {
-    copy {
-        from '/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_shared.so'
-        into file('src/main/jniLibs/armeabi-v7a')
-    }
-    copy {
-        from '/usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/lib/Android/libV8Simple.so'
-        into file('src/main/jniLibs/armeabi-v7a')
+// Extracts native libraries from AARs in the native_implementation configuration.
+// This is done so that the NDK can access these libraries.
+task extractNativeLibraries() {
+    doFirst {
+        configurations.native_implementation.files.each { f ->
+            copy {
+                from zipTree(f)
+                into 'build/native'
+                include 'jni/**/*'
+            }
+        }
     }
 }
 
-build.dependsOn copySharedLibraries
-
-//#if #(Gradle.Repository:IsRequired)
-//repositories {
-//    #(Gradle.Repository:Join('\n'))
-//}
+tasks.whenTaskAdded {
+    task-> if (task.name.contains('external') && !task.name.contains('Clean')) {
+//#if #(Gradle.Dependency.NativeImplementation:IsRequired)
+//        task.dependsOn(extractNativeLibraries)
 //#endif
-
+    }
+}
 
 repositories {
-//#if #(JNI.SystemLibrary:IsSet || JNI.SharedLibrary:IsSet)
-//    libs(PrebuiltLibraries) {
-//        prebuilt {
-//            binaries.withType(SharedLibraryBinary) {
-//                #(JNI.SystemLibrary:Join('\n                    ', 'sharedLibraryFile = file(\'', '\')'))
-//                #(JNI.SharedLibrary:Join('\n                    ', 'sharedLibraryFile = file(\'', '\')'))
-//            }
-//        }
-//    }
-//#endif
-//#if #(Gradle.Model.Repository:IsRequired)
-//    #(Gradle.Model.Repository:Join('\n'))
-//#endif
-}
-
-android.lintOptions {
-    checkReleaseBuilds = false
+    maven { url 'https://maven.google.com' }
 }
 
 android {
-    compileSdkVersion = 27
-    buildToolsVersion = "27.0.0"
+    compileSdkVersion = 29
+    buildToolsVersion = '29.0.0'
 
     defaultConfig {
 //#if !#(LIBRARY:Defined)
-        applicationId = "fi.samk.mood_cal"
+        applicationId = 'fi.samk.mood_cal'
 //#endif
-        minSdkVersion = 19
-        targetSdkVersion = 27
-        versionCode = 101
-        versionName = "1.0.1"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode = 105
+        versionName = '1.0.5'
         ndk {
-            abiFilters = []
-            abiFilters.add("armeabi-v7a")
+//#if #(DEBUG:Defined)
+            abiFilters = ['armeabi-v7a']
+//#else
+//            abiFilters = [#(Project.Android.Architectures.Release:Join(', ', '\'', '\''))]
+//#endif
         }
 
         externalNativeBuild {
@@ -86,28 +69,28 @@ android {
                 // default means we are giving users a bad experience by default. Native debug
                 // binaries are only really useful when actually debugging generated C++ code.
                 // Running 'uno build android --debug' will produce debuggable C++ code.
-                arguments "-DCMAKE_BUILD_TYPE=Release",
-                    "-DANDROID_STL=gnustl_shared",
-                    "-DANDROID_PLATFORM=android-9",
-                    "-DANDROID_TOOLCHAIN=clang",
-                    "-DANDROID_NDK=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle"
+                arguments '-DCMAKE_BUILD_TYPE=Release',
+                    '-DANDROID_STL=c++_static',
+                    '-DANDROID_PLATFORM=android-16',
+                    '-DANDROID_TOOLCHAIN=clang',
+                    '-DANDROID_NDK=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle'
             }
         }
     }
 
     externalNativeBuild {
         cmake {
-            path "src/main/CMakeLists.txt"
+            path 'src/main/CMakeLists.txt'
         }
     }
 
 //#if #(Project.Android.Key.Store:IsSet)
     signingConfigs {
         release {
-            keyAlias "application"
-            keyPassword "mood_cal"
-            storeFile file("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/release.keystore")
-            storePassword "mood_cal"
+            keyAlias 'application'
+            keyPassword 'mood_cal'
+            storeFile file('/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/release.keystore')
+            storePassword 'mood_cal'
         }
     }
 //#endif
@@ -126,6 +109,10 @@ android {
 
     aaptOptions {
         cruncherEnabled = false
+    }
+
+    lintOptions {
+        checkReleaseBuilds = false
     }
 }
 

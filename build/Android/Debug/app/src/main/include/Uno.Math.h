@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Math.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Math.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{namespace Uno{struct Math;}}
 namespace g{
 namespace Uno{
 
-// public static class Math :8
+// public static class Math
 // {
 uClassType* Math_typeof();
 void Math__Abs_fn(double* x, double* __retval);

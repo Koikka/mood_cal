@@ -23,17 +23,17 @@ public class Bitmap
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object CreateBitmapARGB8888Impl380(final int width,final int height)
+    public static Object CreateBitmapARGB8888Impl383(final int width,final int height)
     {
         return android.graphics.Bitmap.createBitmap(width, height, android.graphics.Bitmap.Config.ARGB_8888);
     }
     
-    public static void EraseColor1381(final Object handle,final int color)
+    public static void EraseColor1384(final Object handle,final int color)
     {
         ((android.graphics.Bitmap)handle).eraseColor(color);
     }
     
-    public static void Recycle1382(final Object handle)
+    public static void Recycle1385(final Object handle)
     {
         ((android.graphics.Bitmap)handle).recycle();
     }

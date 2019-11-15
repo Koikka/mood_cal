@@ -30,19 +30,19 @@ public class WebSocketClient
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void Close427(final UnoObject _this)
+    public static void Close437(final UnoObject _this)
     {
-        WebSocket webSocket = (WebSocket) ExternedBlockHost.callUno_Neovisionaries_WebSocketClient__webSocketGet428(_this);
+        WebSocket webSocket = (WebSocket) ExternedBlockHost.callUno_Neovisionaries_WebSocketClient__webSocketGet438(_this);
         webSocket.sendClose();
     }
     
-    public static void Connect429(final UnoObject _this)
+    public static void Connect439(final UnoObject _this)
     {
-        WebSocket webSocket = (WebSocket) ExternedBlockHost.callUno_Neovisionaries_WebSocketClient__webSocketGet428(_this);
+        WebSocket webSocket = (WebSocket) ExternedBlockHost.callUno_Neovisionaries_WebSocketClient__webSocketGet438(_this);
         webSocket.connectAsynchronously();
     }
     
-    public static void Create430(final UnoObject _this, final String url,final com.uno.StringArray protocols,final com.foreign.Uno.Action open,final com.foreign.Uno.Action close,final com.foreign.Uno.Action_String error,final com.foreign.Uno.Action_String receiveMessageHandler,final com.foreign.Uno.Action_ByteArray receiveDataHandler)
+    public static void Create440(final UnoObject _this, final String url,final com.uno.StringArray protocols,final com.foreign.Uno.Action open,final com.foreign.Uno.Action close,final com.foreign.Uno.Action_String error,final com.foreign.Uno.Action_String receiveMessageHandler,final com.foreign.Uno.Action_ByteArray receiveDataHandler)
     {
         try {
         	WebSocket webSocket = new WebSocketFactory().createSocket(url);
@@ -80,27 +80,27 @@ public class WebSocketClient
         			receiveDataHandler.run(new com.uno.ByteArray(binary));
         		}
         	});
-        	ExternedBlockHost.callUno_Neovisionaries_WebSocketClient__webSocketSet428(_this,webSocket,UnoHelper.GetUnoObjectRef(webSocket));
+        	ExternedBlockHost.callUno_Neovisionaries_WebSocketClient__webSocketSet438(_this,webSocket,UnoHelper.GetUnoObjectRef(webSocket));
         } catch(java.io.IOException e) {
         	error.run(e.getMessage());
         }
     }
     
-    public static void Send431(final UnoObject _this, final com.uno.ByteArray data)
+    public static void Send441(final UnoObject _this, final com.uno.ByteArray data)
     {
-        WebSocket webSocket = (WebSocket) ExternedBlockHost.callUno_Neovisionaries_WebSocketClient__webSocketGet428(_this);
+        WebSocket webSocket = (WebSocket) ExternedBlockHost.callUno_Neovisionaries_WebSocketClient__webSocketGet438(_this);
         webSocket.sendBinary(data.copyArray());
     }
     
-    public static void Send1432(final UnoObject _this, final String data)
+    public static void Send1442(final UnoObject _this, final String data)
     {
-        WebSocket webSocket = (WebSocket) ExternedBlockHost.callUno_Neovisionaries_WebSocketClient__webSocketGet428(_this);
+        WebSocket webSocket = (WebSocket) ExternedBlockHost.callUno_Neovisionaries_WebSocketClient__webSocketGet438(_this);
         webSocket.sendText(data);
     }
     
-    public static void SetHeader433(final UnoObject _this, final String key,final String value)
+    public static void SetHeader443(final UnoObject _this, final String key,final String value)
     {
-        //WebSocketJava webSocket = (WebSocketJava) ExternedBlockHost.callUno_Neovisionaries_WebSocketClient__webSocketGet428(_this);
+        //WebSocketJava webSocket = (WebSocketJava) ExternedBlockHost.callUno_Neovisionaries_WebSocketClient__webSocketGet438(_this);
         // TODO: webSocket.SetHeader(key, value);
     }
     

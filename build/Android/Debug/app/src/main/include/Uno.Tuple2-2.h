@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Tuple.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Tuple.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{namespace Uno{struct Tuple2;}}
 namespace g{
 namespace Uno{
 
-// public sealed class Tuple<T1, T2> :63
+// public sealed class Tuple<T1, T2>
 // {
 struct Tuple2_type : uType
 {

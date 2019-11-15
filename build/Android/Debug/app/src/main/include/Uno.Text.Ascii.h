@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Text/Ascii.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Text/Ascii.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Uno{
 namespace Text{
 
-// public static class Ascii :5
+// public static class Ascii
 // {
 uClassType* Ascii_typeof();
 void Ascii__GetBytes_fn(uString* value, uArray** __retval);

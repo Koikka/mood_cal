@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/SystemFont.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/SystemFont.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Fuse{struct SystemFont;}}
 namespace g{
 namespace Fuse{
 
-// public sealed class SystemFont :36
+// public sealed class SystemFont
 // {
 uType* SystemFont_typeof();
 void SystemFont__ctor_2_fn(SystemFont* __this, uString* family, int32_t* style, int32_t* weight);

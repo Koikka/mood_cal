@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Images/Bitmap.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Content/Images/Bitmap.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace Uno{
 namespace Content{
 namespace Images{
 
-// public sealed class Bitmap :6
+// public sealed class Bitmap
 // {
 uType* Bitmap_typeof();
 void Bitmap__ctor__fn(Bitmap* __this, ::g::Uno::Int2* size, int32_t* format, ::g::Uno::Buffer* optionalBuffer);

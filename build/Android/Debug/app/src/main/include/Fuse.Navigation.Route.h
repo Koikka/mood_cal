@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Route.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Route.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// public sealed class Route :13
+// public sealed class Route
 // {
 uType* Route_typeof();
 void Route__ctor__fn(Route* __this, uString* path, uString* parameter, Route* subRoute);

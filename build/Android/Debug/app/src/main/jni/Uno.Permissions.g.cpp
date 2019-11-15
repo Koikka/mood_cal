@@ -2,20 +2,20 @@
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Android.Base.Wrappers.JWrapper.h>
-#include <Android.Base.Wrappers-88f7a41f.h>
+#include <Android.Base.Wrappers-4c0b8613.h>
 #include <jni.h>
 #include <Uno.Bool.h>
-#include <Uno.Compiler.ExportTa-39be7c2b.h>
+#include <Uno.Compiler.ExportTa-2429dd1f.h>
 #include <Uno.Exception.h>
 #include <Uno.Int.h>
 #include <Uno.Object.h>
-#include <Uno.Permissions.Inter-b7b0d7de.h>
-#include <Uno.Permissions.IPerm-63840be1.h>
-#include <Uno.Permissions.Permi-9446e9a2.h>
-#include <Uno.Permissions.Permi-d35d5681.h>
-#include <Uno.Permissions.Permi-e850e8ab.h>
+#include <Uno.Permissions.Inter-dfc90df9.h>
+#include <Uno.Permissions.IPerm-97d39e8b.h>
+#include <Uno.Permissions.Permi-735ab533.h>
+#include <Uno.Permissions.Permi-8ad8f941.h>
+#include <Uno.Permissions.Permi-8d130d1.h>
 #include <Uno.Permissions.Permissions.h>
-#include <Uno.Permissions.Platf-7d72d93e.h>
+#include <Uno.Permissions.Platf-c2400e03.h>
 #include <Uno.String.h>
 #include <Uno.Threading.Future1-1.h>
 #include <Uno.Threading.Promise-1.h>
@@ -25,10 +25,10 @@ namespace g{
 namespace Uno{
 namespace Permissions{
 
-// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/Permissions.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Permissions/1.12.3/Permissions.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static extern class Permissions.Android :120
+// public static extern class Permissions.Android
 // {
 static void Permissions__Android_build(uType* type)
 {
@@ -46,59 +46,59 @@ uClassType* Permissions__Android_typeof()
     return type;
 }
 
-// public static Uno.Permissions.PlatformPermission get_CAMERA() :159
+// public static Uno.Permissions.PlatformPermission get_CAMERA()
 void Permissions__Android__get_CAMERA_fn(::g::Uno::Permissions::PlatformPermission* __retval)
 {
     *__retval = Permissions__Android::CAMERA();
 }
 
-// public static Uno.Permissions.PlatformPermission get_READ_EXTERNAL_STORAGE() :210
+// public static Uno.Permissions.PlatformPermission get_READ_EXTERNAL_STORAGE()
 void Permissions__Android__get_READ_EXTERNAL_STORAGE_fn(::g::Uno::Permissions::PlatformPermission* __retval)
 {
     *__retval = Permissions__Android::READ_EXTERNAL_STORAGE();
 }
 
-// public static Uno.Permissions.PlatformPermission get_READ_PHONE_STATE() :215
+// public static Uno.Permissions.PlatformPermission get_READ_PHONE_STATE()
 void Permissions__Android__get_READ_PHONE_STATE_fn(::g::Uno::Permissions::PlatformPermission* __retval)
 {
     *__retval = Permissions__Android::READ_PHONE_STATE();
 }
 
-// public static Uno.Permissions.PlatformPermission get_WRITE_EXTERNAL_STORAGE() :262
+// public static Uno.Permissions.PlatformPermission get_WRITE_EXTERNAL_STORAGE()
 void Permissions__Android__get_WRITE_EXTERNAL_STORAGE_fn(::g::Uno::Permissions::PlatformPermission* __retval)
 {
     *__retval = Permissions__Android::WRITE_EXTERNAL_STORAGE();
 }
 
-// public static Uno.Permissions.PlatformPermission get_CAMERA() [static] :159
+// public static Uno.Permissions.PlatformPermission get_CAMERA() [static]
 ::g::Uno::Permissions::PlatformPermission Permissions__Android::CAMERA()
 {
     return ::g::Uno::Permissions::Internal::Android::_camera();
 }
 
-// public static Uno.Permissions.PlatformPermission get_READ_EXTERNAL_STORAGE() [static] :210
+// public static Uno.Permissions.PlatformPermission get_READ_EXTERNAL_STORAGE() [static]
 ::g::Uno::Permissions::PlatformPermission Permissions__Android::READ_EXTERNAL_STORAGE()
 {
     return ::g::Uno::Permissions::Internal::Android::_read_external_storage();
 }
 
-// public static Uno.Permissions.PlatformPermission get_READ_PHONE_STATE() [static] :215
+// public static Uno.Permissions.PlatformPermission get_READ_PHONE_STATE() [static]
 ::g::Uno::Permissions::PlatformPermission Permissions__Android::READ_PHONE_STATE()
 {
     return ::g::Uno::Permissions::Internal::Android::_read_phone_state();
 }
 
-// public static Uno.Permissions.PlatformPermission get_WRITE_EXTERNAL_STORAGE() [static] :262
+// public static Uno.Permissions.PlatformPermission get_WRITE_EXTERNAL_STORAGE() [static]
 ::g::Uno::Permissions::PlatformPermission Permissions__Android::WRITE_EXTERNAL_STORAGE()
 {
     return ::g::Uno::Permissions::Internal::Android::_write_external_storage();
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/Permissions.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Permissions/1.12.3/Permissions.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract interface IPermissionPromise :19
+// internal abstract interface IPermissionPromise
 // {
 uInterfaceType* IPermissionPromise_typeof()
 {
@@ -110,10 +110,10 @@ uInterfaceType* IPermissionPromise_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/Permissions.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Permissions/1.12.3/Permissions.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class PermissionPromise :25
+// internal sealed class PermissionPromise
 // {
 static void PermissionPromise_build(uType* type)
 {
@@ -144,38 +144,38 @@ PermissionPromise_type* PermissionPromise_typeof()
     return type;
 }
 
-// public PermissionPromise(Uno.Permissions.PlatformPermission p) :28
+// public PermissionPromise(Uno.Permissions.PlatformPermission p)
 void PermissionPromise__ctor_7_fn(PermissionPromise* __this, ::g::Uno::Permissions::PlatformPermission* p)
 {
     __this->ctor_7(*p);
 }
 
-// public PermissionPromise New(Uno.Permissions.PlatformPermission p) :28
+// public PermissionPromise New(Uno.Permissions.PlatformPermission p)
 void PermissionPromise__New5_fn(::g::Uno::Permissions::PlatformPermission* p, PermissionPromise** __retval)
 {
     *__retval = PermissionPromise::New5(*p);
 }
 
-// public void Resolve() :33
+// public void Resolve()
 void PermissionPromise__Resolve1_fn(PermissionPromise* __this)
 {
     __this->Resolve1();
 }
 
-// public PermissionPromise(Uno.Permissions.PlatformPermission p) [instance] :28
+// public PermissionPromise(Uno.Permissions.PlatformPermission p) [instance]
 void PermissionPromise::ctor_7(::g::Uno::Permissions::PlatformPermission p)
 {
     ctor_3();
     _permission = p;
 }
 
-// public void Resolve() [instance] :33
+// public void Resolve() [instance]
 void PermissionPromise::Resolve1()
 {
     ::g::Uno::Threading::Promise__Resolve_fn(this, uCRef(_permission));
 }
 
-// public PermissionPromise New(Uno.Permissions.PlatformPermission p) [static] :28
+// public PermissionPromise New(Uno.Permissions.PlatformPermission p) [static]
 PermissionPromise* PermissionPromise::New5(::g::Uno::Permissions::PlatformPermission p)
 {
     PermissionPromise* obj1 = (PermissionPromise*)uNew(PermissionPromise_typeof());
@@ -184,10 +184,10 @@ PermissionPromise* PermissionPromise::New5(::g::Uno::Permissions::PlatformPermis
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/Permissions.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Permissions/1.12.3/Permissions.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static extern class Permissions :53
+// public static extern class Permissions
 // {
 static void Permissions_build(uType* type)
 {
@@ -205,49 +205,49 @@ uClassType* Permissions_typeof()
     return type;
 }
 
-// private static void Failed(object promise) :103
+// private static void Failed(object promise)
 void Permissions__Failed_fn(uObject* promise)
 {
     Permissions::Failed(promise);
 }
 
-// public static Uno.Threading.Future<Uno.Permissions.PlatformPermission> Request(Uno.Permissions.PlatformPermission x) :67
+// public static Uno.Threading.Future<Uno.Permissions.PlatformPermission> Request(Uno.Permissions.PlatformPermission x)
 void Permissions__Request_fn(::g::Uno::Permissions::PlatformPermission* x, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = Permissions::Request(*x);
 }
 
-// public static Uno.Threading.Future<Uno.Permissions.PlatformPermission[]> Request(Uno.Permissions.PlatformPermission[] x) :74
+// public static Uno.Threading.Future<Uno.Permissions.PlatformPermission[]> Request(Uno.Permissions.PlatformPermission[] x)
 void Permissions__Request1_fn(uArray* x, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = Permissions::Request1(x);
 }
 
-// private static void requestPermission(Uno.Threading.Promise<Uno.Permissions.PlatformPermission> promise, string permissionName) :87
+// private static void requestPermission(Uno.Threading.Promise<Uno.Permissions.PlatformPermission> promise, string permissionName)
 void Permissions__requestPermission_fn(::g::Uno::Threading::Promise* promise, uString* permissionName)
 {
     Permissions::requestPermission(promise, permissionName);
 }
 
-// private static void requestPermissions(Uno.Threading.Promise<Uno.Permissions.PlatformPermission[]> promise, string[] permissionNames) :93
+// private static void requestPermissions(Uno.Threading.Promise<Uno.Permissions.PlatformPermission[]> promise, string[] permissionNames)
 void Permissions__requestPermissions_fn(::g::Uno::Threading::Promise* promise, uArray* permissionNames)
 {
     Permissions::requestPermissions(promise, permissionNames);
 }
 
-// private static void Succeeded(object promise) :98
+// private static void Succeeded(object promise)
 void Permissions__Succeeded_fn(uObject* promise)
 {
     Permissions::Succeeded(promise);
 }
 
-// private static void Failed(object promise) [static] :103
+// private static void Failed(object promise) [static]
 void Permissions::Failed(uObject* promise)
 {
     ::g::Uno::Permissions::IPermissionPromise::Reject(uInterface(uPtr((uObject*)promise), ::g::Uno::Permissions::IPermissionPromise_typeof()), ::g::Uno::Exception::New2(uString::Const("Permissions could not be requested or granted.")));
 }
 
-// public static Uno.Threading.Future<Uno.Permissions.PlatformPermission> Request(Uno.Permissions.PlatformPermission x) [static] :67
+// public static Uno.Threading.Future<Uno.Permissions.PlatformPermission> Request(Uno.Permissions.PlatformPermission x) [static]
 ::g::Uno::Threading::Future1* Permissions::Request(::g::Uno::Permissions::PlatformPermission x)
 {
     ::g::Uno::Permissions::PermissionPromise* futurePermission = ::g::Uno::Permissions::PermissionPromise::New5(x);
@@ -255,7 +255,7 @@ void Permissions::Failed(uObject* promise)
     return futurePermission;
 }
 
-// public static Uno.Threading.Future<Uno.Permissions.PlatformPermission[]> Request(Uno.Permissions.PlatformPermission[] x) [static] :74
+// public static Uno.Threading.Future<Uno.Permissions.PlatformPermission[]> Request(Uno.Permissions.PlatformPermission[] x) [static]
 ::g::Uno::Threading::Future1* Permissions::Request1(uArray* x)
 {
     ::g::Uno::Permissions::PermissionsPromise* futurePermission = ::g::Uno::Permissions::PermissionsPromise::New5(x);
@@ -268,7 +268,7 @@ void Permissions::Failed(uObject* promise)
     return futurePermission;
 }
 
-// private static void requestPermission(Uno.Threading.Promise<Uno.Permissions.PlatformPermission> promise, string permissionName) [static] :87
+// private static void requestPermission(Uno.Threading.Promise<Uno.Permissions.PlatformPermission> promise, string permissionName) [static]
 void Permissions::requestPermission(::g::Uno::Threading::Promise* promise, uString* permissionName)
 {
     {
@@ -289,7 +289,7 @@ void Permissions::requestPermission(::g::Uno::Threading::Promise* promise, uStri
     
 }
 
-// private static void requestPermissions(Uno.Threading.Promise<Uno.Permissions.PlatformPermission[]> promise, string[] permissionNames) [static] :93
+// private static void requestPermissions(Uno.Threading.Promise<Uno.Permissions.PlatformPermission[]> promise, string[] permissionNames) [static]
 void Permissions::requestPermissions(::g::Uno::Threading::Promise* promise, uArray* permissionNames)
 {
     {
@@ -310,17 +310,17 @@ void Permissions::requestPermissions(::g::Uno::Threading::Promise* promise, uArr
     
 }
 
-// private static void Succeeded(object promise) [static] :98
+// private static void Succeeded(object promise) [static]
 void Permissions::Succeeded(uObject* promise)
 {
     ::g::Uno::Permissions::IPermissionPromise::Resolve(uInterface(uPtr((uObject*)promise), ::g::Uno::Permissions::IPermissionPromise_typeof()));
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/Permissions.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Permissions/1.12.3/Permissions.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class PermissionsPromise :39
+// internal sealed class PermissionsPromise
 // {
 static void PermissionsPromise_build(uType* type)
 {
@@ -351,38 +351,38 @@ PermissionsPromise_type* PermissionsPromise_typeof()
     return type;
 }
 
-// public PermissionsPromise(Uno.Permissions.PlatformPermission[] permissions) :42
+// public PermissionsPromise(Uno.Permissions.PlatformPermission[] permissions)
 void PermissionsPromise__ctor_7_fn(PermissionsPromise* __this, uArray* permissions)
 {
     __this->ctor_7(permissions);
 }
 
-// public PermissionsPromise New(Uno.Permissions.PlatformPermission[] permissions) :42
+// public PermissionsPromise New(Uno.Permissions.PlatformPermission[] permissions)
 void PermissionsPromise__New5_fn(uArray* permissions, PermissionsPromise** __retval)
 {
     *__retval = PermissionsPromise::New5(permissions);
 }
 
-// public void Resolve() :47
+// public void Resolve()
 void PermissionsPromise__Resolve1_fn(PermissionsPromise* __this)
 {
     __this->Resolve1();
 }
 
-// public PermissionsPromise(Uno.Permissions.PlatformPermission[] permissions) [instance] :42
+// public PermissionsPromise(Uno.Permissions.PlatformPermission[] permissions) [instance]
 void PermissionsPromise::ctor_7(uArray* permissions)
 {
     ctor_3();
     _permissions = permissions;
 }
 
-// public void Resolve() [instance] :47
+// public void Resolve() [instance]
 void PermissionsPromise::Resolve1()
 {
     ::g::Uno::Threading::Promise__Resolve_fn(this, _permissions);
 }
 
-// public PermissionsPromise New(Uno.Permissions.PlatformPermission[] permissions) [static] :42
+// public PermissionsPromise New(Uno.Permissions.PlatformPermission[] permissions) [static]
 PermissionsPromise* PermissionsPromise::New5(uArray* permissions)
 {
     PermissionsPromise* obj1 = (PermissionsPromise*)uNew(PermissionsPromise_typeof());
@@ -391,10 +391,10 @@ PermissionsPromise* PermissionsPromise::New5(uArray* permissions)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/Permissions.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Permissions/1.12.3/Permissions.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public struct PlatformPermission :9
+// public struct PlatformPermission
 // {
 static void PlatformPermission_build(uType* type)
 {
@@ -408,6 +408,7 @@ uStructType* PlatformPermission_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.FieldCount = 1;
     options.Alignment = alignof(PlatformPermission);
     options.ValueSize = sizeof(PlatformPermission);
@@ -417,29 +418,29 @@ uStructType* PlatformPermission_typeof()
     return type;
 }
 
-// internal PlatformPermission(string name) :13
-void PlatformPermission__ctor__fn(PlatformPermission* __this, uString* name)
+// internal PlatformPermission(string name)
+void PlatformPermission__ctor_1_fn(PlatformPermission* __this, uString* name)
 {
-    __this->ctor_(name);
+    __this->ctor_1(name);
 }
 
-// internal PlatformPermission New(string name) :13
+// internal PlatformPermission New(string name)
 void PlatformPermission__New1_fn(uString* name, PlatformPermission* __retval)
 {
     *__retval = PlatformPermission__New1(name);
 }
 
-// internal PlatformPermission(string name) [instance] :13
-void PlatformPermission::ctor_(uString* name)
+// internal PlatformPermission(string name) [instance]
+void PlatformPermission::ctor_1(uString* name)
 {
     Name = name;
 }
 
-// internal PlatformPermission New(string name) [static] :13
+// internal PlatformPermission New(string name) [static]
 PlatformPermission PlatformPermission__New1(uString* name)
 {
     PlatformPermission obj1;
-    obj1.ctor_(name);
+    obj1.ctor_1(name);
     return obj1;
 }
 // }

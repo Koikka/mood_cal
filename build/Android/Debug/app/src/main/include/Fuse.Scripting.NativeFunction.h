@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting/1.9.0/NativeFunction.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting/1.12.0/NativeFunction.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Scripting{
 
-// public sealed class NativeFunction :8
+// public sealed class NativeFunction
 // {
 ::g::Fuse::Scripting::NativeMember_type* NativeFunction_typeof();
 void NativeFunction__ctor_1_fn(NativeFunction* __this, uString* name, uDelegate* callback);

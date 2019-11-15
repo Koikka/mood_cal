@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Text/Base64.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Text/Base64.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Uno{
 namespace Text{
 
-// public static class Base64 :8
+// public static class Base64
 // {
 uClassType* Base64_typeof();
 void Base64__GetBytes_fn(uString* value, uArray** __retval);

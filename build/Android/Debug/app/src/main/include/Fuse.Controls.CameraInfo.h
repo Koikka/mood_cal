@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/CameraInfo.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.CameraView/1.12.0/CameraInfo.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public sealed class CameraInfo :5
+// public sealed class CameraInfo
 // {
 uType* CameraInfo_typeof();
 void CameraInfo__ctor__fn(CameraInfo* __this, int32_t* flashMode, int32_t* cameraFacing, int32_t* captureMode, uArray* photoResolutions, uArray* supportedFlashModes);

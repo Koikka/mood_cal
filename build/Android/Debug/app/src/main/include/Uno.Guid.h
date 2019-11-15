@@ -1,17 +1,17 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Guid.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Guid.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Uno.Object.h>
+#include <Uno.ValueType.h>
 namespace g{namespace Uno{struct Guid;}}
 
 namespace g{
 namespace Uno{
 
-// public struct Guid :10
+// public struct Guid
 // {
 uStructType* Guid_typeof();
-void Guid__ctor__fn(Guid* __this, uArray* bytes);
+void Guid__ctor_1_fn(Guid* __this, uArray* bytes);
 void Guid__Equals_fn(Guid* __this, uType* __type, uObject* other, bool* __retval);
 void Guid__Equals2_fn(Guid* __this, Guid* other, bool* __retval);
 void Guid__GetHashCode_fn(Guid* __this, uType* __type, int32_t* __retval);
@@ -34,7 +34,7 @@ struct Guid
     static Guid Empty_;
     static Guid& Empty() { return Empty_; }
 
-    void ctor_(uArray* bytes);
+    void ctor_1(uArray* bytes);
     bool Equals(uType* __type, uObject* other) { bool __retval; return Guid__Equals_fn(this, __type, other, &__retval), __retval; }
     bool Equals2(Guid other);
     int32_t GetHashCode(uType* __type) { int32_t __retval; return Guid__GetHashCode_fn(this, __type, &__retval), __retval; }

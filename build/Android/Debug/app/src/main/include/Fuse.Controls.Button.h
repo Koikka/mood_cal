@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/Button.ux.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/Button.ux.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -15,7 +15,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -27,7 +27,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public partial sealed class Button :67
+// public partial sealed class Button
 // {
 ::g::Fuse::Controls::Panel_type* Button_typeof();
 void Button__ctor_8_fn(Button* __this);

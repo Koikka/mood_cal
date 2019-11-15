@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting/1.9.0/JSCallback.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting/1.12.0/JSCallback.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace Scripting{
 
-// public static class JSCallback :5
+// public static class JSCallback
 // {
 uClassType* JSCallback_typeof();
 void JSCallback__FromAction_fn(uDelegate* action, uDelegate** __retval);

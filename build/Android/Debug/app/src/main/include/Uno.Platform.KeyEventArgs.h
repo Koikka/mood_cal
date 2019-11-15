@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/KeyEventArgs.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Platform/KeyEventArgs.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Uno{
 namespace Platform{
 
-// public sealed class KeyEventArgs :6
+// public sealed class KeyEventArgs
 // {
 uType* KeyEventArgs_typeof();
 void KeyEventArgs__ctor_1_fn(KeyEventArgs* __this, int32_t* key, int32_t* modifiers, ::g::Uno::Platform::OSFrame* origin);

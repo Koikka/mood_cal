@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Input/PointerEvents.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Input{
 
-// public sealed class PointerEnteredArgs :75
+// public sealed class PointerEnteredArgs
 // {
 ::g::Fuse::VisualEventArgs_type* PointerEnteredArgs_typeof();
 void PointerEnteredArgs__ctor_3_fn(PointerEnteredArgs* __this, ::g::Fuse::Input::PointerEventData* data, ::g::Fuse::Visual* visual);

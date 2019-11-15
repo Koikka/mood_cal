@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/FontFace.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Content/Fonts/FontFace.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -14,7 +14,7 @@ namespace Uno{
 namespace Content{
 namespace Fonts{
 
-// public abstract class FontFace :8
+// public abstract class FontFace
 // {
 struct FontFace_type : uType
 {
@@ -53,7 +53,7 @@ struct FontFace : uObject
 
 }}}} // ::g::Uno::Content::Fonts
 
-#include <Uno.Content.Fonts.Ren-59fed012.h>
+#include <Uno.Content.Fonts.Ren-8a1d94e6.h>
 
 namespace g{
 namespace Uno{

@@ -6,10 +6,10 @@
 namespace g{
 namespace Java{
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/Object.uno
-// --------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Compiler/ExportTargetInterop/Foreign/Android/Object.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract extern class Object :5
+// public abstract extern class Object
 // {
 static void Object_build(uType* type)
 {
@@ -28,13 +28,13 @@ uType* Object_typeof()
     return type;
 }
 
-// protected generated Object() :5
+// protected generated Object()
 void Object__ctor__fn(Object* __this)
 {
     __this->ctor_();
 }
 
-// protected generated Object() [instance] :5
+// protected generated Object() [instance]
 void Object::ctor_()
 {
 }

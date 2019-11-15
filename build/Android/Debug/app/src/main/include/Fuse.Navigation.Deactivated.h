@@ -1,14 +1,14 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Activated.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Activated.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Animations.IBase-d3bd6f2e.h>
-#include <Fuse.Animations.IUnwr-594abe9.h>
+#include <Fuse.Animations.IBase-3168404.h>
+#include <Fuse.Animations.IUnwr-29908c99.h>
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
 #include <Fuse.ISourceLocation.h>
-#include <Fuse.Navigation.Navig-5566e4c1.h>
+#include <Fuse.Navigation.Navig-fa7420aa.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -19,7 +19,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// public sealed class Deactivated :146
+// public sealed class Deactivated
 // {
 ::g::Fuse::Navigation::NavigationTrigger_type* Deactivated_typeof();
 void Deactivated__ctor_7_fn(Deactivated* __this);

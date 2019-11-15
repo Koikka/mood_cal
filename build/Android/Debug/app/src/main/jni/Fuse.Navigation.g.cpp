@@ -1,15 +1,15 @@
 // This file was generated based on '(multiple files)'.
 // WARNING: Changes might be lost if you edit this file directly.
 
-#include <Fuse.Animations.Anima-9f6f3909.h>
+#include <Fuse.Animations.Anima-c53c24b4.h>
 #include <Fuse.Diagnostics.h>
 #include <Fuse.Elements.Element.h>
 #include <Fuse.Gestures.Edge.h>
-#include <Fuse.Gestures.Interna-4c26ec11.h>
+#include <Fuse.Gestures.Interna-9aad946e.h>
 #include <Fuse.IArray.h>
 #include <Fuse.Input.CaptureType.h>
 #include <Fuse.Input.Gesture.h>
-#include <Fuse.Input.GesturePri-ad5d864e.h>
+#include <Fuse.Input.GesturePri-c96394d3.h>
 #include <Fuse.Input.GesturePriority.h>
 #include <Fuse.Input.GestureRequest.h>
 #include <Fuse.Input.Gestures.h>
@@ -29,53 +29,54 @@
 #include <Fuse.Marshal.h>
 #include <Fuse.Motion.MotionConfig.h>
 #include <Fuse.Motion.NavigationMotion.h>
-#include <Fuse.Motion.Simulatio-2e0ddcfb.h>
-#include <Fuse.Motion.Simulatio-7cce7e04.h>
-#include <Fuse.Motion.Simulatio-8063728b.h>
-#include <Fuse.Motion.Simulatio-a4ba96c1.h>
-#include <Fuse.Motion.Simulatio-edb97e3.h>
+#include <Fuse.Motion.Simulatio-5b73d93d.h>
+#include <Fuse.Motion.Simulatio-8633ea10.h>
+#include <Fuse.Motion.Simulatio-babbef3d.h>
+#include <Fuse.Motion.Simulatio-c99a618b.h>
+#include <Fuse.Motion.Simulatio-dc75e704.h>
 #include <Fuse.NameValuePair.h>
-#include <Fuse.Navigation.Activ-5bc1c951.h>
-#include <Fuse.Navigation.Activ-7d976650.h>
+#include <Fuse.Navigation.Activ-7c0a6444.h>
 #include <Fuse.Navigation.Activated.h>
-#include <Fuse.Navigation.Allow-1def7c6f.h>
-#include <Fuse.Navigation.BackB-3a3fc868.h>
-#include <Fuse.Navigation.BackF-9e5acfb7.h>
-#include <Fuse.Navigation.Child-aa7f773f.h>
-#include <Fuse.Navigation.Deact-3ef1eb06.h>
+#include <Fuse.Navigation.Activ-cd0f45fd.h>
+#include <Fuse.Navigation.Allow-2879e74f.h>
+#include <Fuse.Navigation.BackB-e3e7ac3.h>
+#include <Fuse.Navigation.BackF-97a629c5.h>
+#include <Fuse.Navigation.Child-c205418f.h>
+#include <Fuse.Navigation.Deact-fab4cdd6.h>
 #include <Fuse.Navigation.Deactivated.h>
-#include <Fuse.Navigation.Direc-58a4052e.h>
-#include <Fuse.Navigation.Dynam-93b87f4b.h>
-#include <Fuse.Navigation.Dynam-e172a191.h>
+#include <Fuse.Navigation.Direc-1a01a63c.h>
+#include <Fuse.Navigation.Dynam-43a70feb.h>
+#include <Fuse.Navigation.Dynam-f5e16ef8.h>
 #include <Fuse.Navigation.EdgeNavigation.h>
 #include <Fuse.Navigation.EndSeekArgs.h>
-#include <Fuse.Navigation.Enter-2bf42e15.h>
-#include <Fuse.Navigation.Enter-a69250fd.h>
-#include <Fuse.Navigation.Exiti-99f47629.h>
-#include <Fuse.Navigation.Expli-27e79c7b.h>
-#include <Fuse.Navigation.FindR-a7f8c89e.h>
+#include <Fuse.Navigation.Enter-b5ef3daa.h>
+#include <Fuse.Navigation.Enter-d8677b97.h>
+#include <Fuse.Navigation.Exiti-cabef430.h>
+#include <Fuse.Navigation.Expli-824d245d.h>
+#include <Fuse.Navigation.FindR-d6d6c992.h>
 #include <Fuse.Navigation.FindRouter.h>
 #include <Fuse.Navigation.GoBack.h>
 #include <Fuse.Navigation.GoForward.h>
-#include <Fuse.Navigation.GotoR-f78f0b18.h>
-#include <Fuse.Navigation.Histo-b65f239b.h>
-#include <Fuse.Navigation.IBase-84e3f965.h>
+#include <Fuse.Navigation.GotoR-dba61e0d.h>
+#include <Fuse.Navigation.Histo-7effafc8.h>
+#include <Fuse.Navigation.IBase-516f1dcd.h>
 #include <Fuse.Navigation.INavigation.h>
-#include <Fuse.Navigation.IPage-2d3977f2.h>
-#include <Fuse.Navigation.IPage-9039a314.h>
+#include <Fuse.Navigation.IPage-49afa691.h>
+#include <Fuse.Navigation.IPage-63aa65db.h>
 #include <Fuse.Navigation.IRouterOutlet.h>
-#include <Fuse.Navigation.ISeek-75d60b5e.h>
-#include <Fuse.Navigation.Modif-426c9ac1.h>
+#include <Fuse.Navigation.ISeek-6ddd9a40.h>
+#include <Fuse.Navigation.Modif-cbc79411.h>
 #include <Fuse.Navigation.ModifyRouteHow.h>
-#include <Fuse.Navigation.Navig-11678f15.h>
-#include <Fuse.Navigation.Navig-1cc6d860.h>
-#include <Fuse.Navigation.Navig-32ba495d.h>
-#include <Fuse.Navigation.Navig-3e3f6fb9.h>
-#include <Fuse.Navigation.Navig-4be788bd.h>
-#include <Fuse.Navigation.Navig-5566e4c1.h>
-#include <Fuse.Navigation.Navig-7d6b9b9f.h>
-#include <Fuse.Navigation.Navig-a00b4ee0.h>
-#include <Fuse.Navigation.Navig-ae9e86c7.h>
+#include <Fuse.Navigation.Navig-285c943d.h>
+#include <Fuse.Navigation.Navig-4e890de6.h>
+#include <Fuse.Navigation.Navig-5723550c.h>
+#include <Fuse.Navigation.Navig-6012ddf4.h>
+#include <Fuse.Navigation.Navig-616e8c3d.h>
+#include <Fuse.Navigation.Navig-671c9a8e.h>
+#include <Fuse.Navigation.Navig-7080e658.h>
+#include <Fuse.Navigation.Navig-7a05202f.h>
+#include <Fuse.Navigation.Navig-9b35ba09.h>
+#include <Fuse.Navigation.Navig-9f35522e.h>
 #include <Fuse.Navigation.NavigatedArgs.h>
 #include <Fuse.Navigation.NavigateTo.h>
 #include <Fuse.Navigation.NavigateToggle.h>
@@ -83,79 +84,77 @@
 #include <Fuse.Navigation.NavigationArgs.h>
 #include <Fuse.Navigation.NavigationEdge.h>
 #include <Fuse.Navigation.NavigationMode.h>
-#include <Fuse.Navigation.Navig-b94564f6.h>
-#include <Fuse.Navigation.Navig-c3ed68c1.h>
-#include <Fuse.Navigation.Navig-f3bd6778.h>
+#include <Fuse.Navigation.Navig-db4b1d1d.h>
+#include <Fuse.Navigation.Navig-fa7420aa.h>
 #include <Fuse.Navigation.OutletType.h>
 #include <Fuse.Navigation.PageData.h>
-#include <Fuse.Navigation.PageE-5cf97a9f.h>
+#include <Fuse.Navigation.PageE-7714f91.h>
 #include <Fuse.Navigation.PageExpression.h>
-#include <Fuse.Navigation.PageR-76b3a82b.h>
+#include <Fuse.Navigation.PageR-e4b54c2c.h>
 #include <Fuse.Navigation.PagesMap.h>
-#include <Fuse.Navigation.PushR-7cf01ab7.h>
+#include <Fuse.Navigation.PushR-3121ca1a.h>
 #include <Fuse.Navigation.Route.h>
-#include <Fuse.Navigation.Route-107fa104.h>
-#include <Fuse.Navigation.Route-2abd492c.h>
-#include <Fuse.Navigation.Route-3cacf632.h>
-#include <Fuse.Navigation.Route-5015d583.h>
-#include <Fuse.Navigation.Route-5749b2f4.h>
-#include <Fuse.Navigation.Route-651e6a3.h>
-#include <Fuse.Navigation.Route-659908f1.h>
-#include <Fuse.Navigation.Route-6a447718.h>
-#include <Fuse.Navigation.Route-6d1e2248.h>
-#include <Fuse.Navigation.Route-7a58dae5.h>
-#include <Fuse.Navigation.Route-8eb7c589.h>
-#include <Fuse.Navigation.Route-95c34204.h>
-#include <Fuse.Navigation.Route-a67afb78.h>
-#include <Fuse.Navigation.Route-a9d98f4f.h>
-#include <Fuse.Navigation.Route-b874a1d7.h>
-#include <Fuse.Navigation.Route-ea6aa4c1.h>
-#include <Fuse.Navigation.Route-ee33f311.h>
-#include <Fuse.Navigation.Route-f7d14877.h>
-#include <Fuse.Navigation.Route-fd65700c.h>
+#include <Fuse.Navigation.Route-1cda4fcc.h>
+#include <Fuse.Navigation.Route-4d42f85.h>
+#include <Fuse.Navigation.Route-560ed.h>
+#include <Fuse.Navigation.Route-612df565.h>
+#include <Fuse.Navigation.Route-63a9aa00.h>
+#include <Fuse.Navigation.Route-671d2637.h>
+#include <Fuse.Navigation.Route-74290955.h>
+#include <Fuse.Navigation.Route-79a418e2.h>
+#include <Fuse.Navigation.Route-874696b8.h>
+#include <Fuse.Navigation.Route-90abe2d9.h>
+#include <Fuse.Navigation.Route-9fe52eae.h>
+#include <Fuse.Navigation.Route-a2f27fd1.h>
+#include <Fuse.Navigation.Route-ac37ae71.h>
+#include <Fuse.Navigation.Route-b2fbe97b.h>
+#include <Fuse.Navigation.Route-c174b567.h>
+#include <Fuse.Navigation.Route-c28fe8e2.h>
+#include <Fuse.Navigation.Route-d522277a.h>
+#include <Fuse.Navigation.Route-eda3b343.h>
+#include <Fuse.Navigation.Route-fab2579e.h>
 #include <Fuse.Navigation.RoutePagePath.h>
 #include <Fuse.Navigation.RoutePageProxy.h>
 #include <Fuse.Navigation.Router.h>
 #include <Fuse.Navigation.RouterModify.h>
 #include <Fuse.Navigation.RouterPage.h>
 #include <Fuse.Navigation.RouterRequest.h>
-#include <Fuse.Navigation.Routi-30764b7e.h>
+#include <Fuse.Navigation.Routi-617abe1f.h>
 #include <Fuse.Navigation.RoutingResult.h>
 #include <Fuse.Navigation.SnapTo.h>
-#include <Fuse.Navigation.Struc-153e70a0.h>
-#include <Fuse.Navigation.Struc-5fccc835.h>
+#include <Fuse.Navigation.Struc-9ca73777.h>
+#include <Fuse.Navigation.Struc-ba37ef5.h>
 #include <Fuse.Navigation.SwipeDirection.h>
 #include <Fuse.Navigation.SwipeNavigate.h>
 #include <Fuse.Navigation.UpdateSeekArgs.h>
-#include <Fuse.Navigation.Visua-f5708ad5.h>
-#include <Fuse.Navigation.While-4de49602.h>
+#include <Fuse.Navigation.Visua-546531c3.h>
+#include <Fuse.Navigation.While-5badbae.h>
 #include <Fuse.Node.h>
 #include <Fuse.PreviewState.h>
 #include <Fuse.PreviewStateData.h>
 #include <Fuse.Properties.h>
 #include <Fuse.PropertyHandle.h>
-#include <Fuse.Reactive.Express-2cf41af6.h>
-#include <Fuse.Reactive.Express-bdb0a595.h>
+#include <Fuse.Reactive.Express-14809e1.h>
+#include <Fuse.Reactive.Express-2299a878.h>
 #include <Fuse.Reactive.IContext.h>
 #include <Fuse.Reactive.IEventHandler.h>
 #include <Fuse.Reactive.IEventRecord.h>
 #include <Fuse.Reactive.IExpression.h>
 #include <Fuse.Reactive.IListener.h>
 #include <Fuse.Reactive.IObservable.h>
-#include <Fuse.Reactive.NodeExp-869eb6a1.h>
+#include <Fuse.Reactive.NodeExp-8d161b8e.h>
 #include <Fuse.Reactive.ObserverMap-1.h>
 #include <Fuse.Reactive.VarArgFunction.h>
-#include <Fuse.Resources.Resour-fabdcc8b.h>
+#include <Fuse.Resources.Resour-29438687.h>
 #include <Fuse.Scripting.Array.h>
 #include <Fuse.Scripting.Context.h>
 #include <Fuse.Scripting.Function.h>
-#include <Fuse.Scripting.IEvent-434826af.h>
+#include <Fuse.Scripting.IEvent-1effd56d.h>
 #include <Fuse.Scripting.IThreadWorker.h>
 #include <Fuse.Scripting.ScriptClass.h>
 #include <Fuse.Scripting.ScriptMember.h>
 #include <Fuse.Scripting.ScriptMethod1-1.h>
 #include <Fuse.Time.h>
-#include <Fuse.Triggers.PulseTr-e6f97a32.h>
 #include <Fuse.Triggers.PulseTrigger-1.h>
 #include <Fuse.Triggers.Trigger.h>
 #include <Fuse.UpdateManager.h>
@@ -166,7 +165,7 @@
 #include <Uno.Action1-1.h>
 #include <Uno.Action2-2.h>
 #include <Uno.Bool.h>
-#include <Uno.Collections.Dicti-d1699346.h>
+#include <Uno.Collections.Dicti-5d5b73f.h>
 #include <Uno.Collections.Dictionary-2.h>
 #include <Uno.Collections.KeyValuePair-2.h>
 #include <Uno.Collections.List-1.h>
@@ -192,20 +191,19 @@
 #include <Uno.UX.ValueChangedArgs-1.h>
 #include <Uno.UX.ValueChangedHandler-1.h>
 static uString* STRINGS[60];
-static uType* TYPES[51];
+static uType* TYPES[49];
 
 namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Activated.uno
-// -----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Activated.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Activated :98
+// public sealed class Activated
 // {
 static void Activated_build(uType* type)
 {
-    ::TYPES[0] = ::g::Fuse::Triggers::PulseTrigger_typeof()->MakeType(::g::Uno::EventArgs_typeof(), NULL)->MakeMethod(0/*AddHandlerImpl<Fuse.Navigation.Activated>*/, type, NULL);
     type->SetInterfaces(
         ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Navigation::NavigationTrigger_type, interface0),
         ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(::g::Fuse::Navigation::NavigationTrigger_type, interface1),
@@ -258,13 +256,13 @@ static void Activated_build(uType* type)
     return type;
 }
 
-// public generated Activated() :98
+// public generated Activated()
 void Activated__ctor_7_fn(Activated* __this)
 {
     __this->ctor_7();
 }
 
-// protected override sealed void ActiveChanged(bool isActive, bool isRoot) :113
+// protected override sealed void ActiveChanged(bool isActive, bool isRoot)
 void Activated__ActiveChanged_fn(Activated* __this, bool* isActive, bool* isRoot)
 {
     bool isActive_ = *isActive;
@@ -273,31 +271,19 @@ void Activated__ActiveChanged_fn(Activated* __this, bool* isActive, bool* isRoot
         __this->Pulse1(::g::Uno::EventArgs::New1());
 }
 
-// public static void AddHandler(Fuse.Visual visual, Fuse.Triggers.PulseTrigger<Uno.EventArgs>.PulseHandler handler) :102
-void Activated__AddHandler_fn(::g::Fuse::Visual* visual, uDelegate* handler)
-{
-    Activated::AddHandler(visual, handler);
-}
-
-// public generated Activated New() :98
+// public generated Activated New()
 void Activated__New2_fn(Activated** __retval)
 {
     *__retval = Activated::New2();
 }
 
-// public generated Activated() [instance] :98
+// public generated Activated() [instance]
 void Activated::ctor_7()
 {
     ctor_6();
 }
 
-// public static void AddHandler(Fuse.Visual visual, Fuse.Triggers.PulseTrigger<Uno.EventArgs>.PulseHandler handler) [static] :102
-void Activated::AddHandler(::g::Fuse::Visual* visual, uDelegate* handler)
-{
-    ::g::Fuse::Triggers::PulseTrigger::AddHandlerImpl(::TYPES[0/*Fuse.Triggers.PulseTrigger<Uno.EventArgs>.AddHandlerImpl<Fuse.Navigation.Activated>*/], visual, handler);
-}
-
-// public generated Activated New() [static] :98
+// public generated Activated New() [static]
 Activated* Activated::New2()
 {
     Activated* obj1 = (Activated*)uNew(Activated_typeof());
@@ -306,14 +292,14 @@ Activated* Activated::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/NavigationAnimations.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/NavigationAnimations.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class ActivatingAnimation :254
+// public sealed class ActivatingAnimation
 // {
 static void ActivatingAnimation_build(uType* type)
 {
-    ::TYPES[1] = ::g::Fuse::Navigation::INavigation_typeof();
+    ::TYPES[0] = ::g::Fuse::Navigation::INavigation_typeof();
     type->SetDependencies(
         ::g::Uno::Math_typeof());
     type->SetInterfaces(
@@ -370,51 +356,51 @@ static void ActivatingAnimation_build(uType* type)
     return type;
 }
 
-// public generated ActivatingAnimation() :254
+// public generated ActivatingAnimation()
 void ActivatingAnimation__ctor_6_fn(ActivatingAnimation* __this)
 {
     __this->ctor_6();
 }
 
-// protected override sealed void ForceUpdate() :256
+// protected override sealed void ForceUpdate()
 void ActivatingAnimation__ForceUpdate_fn(ActivatingAnimation* __this)
 {
-    __this->Seek(__this->InvertProgress((double)(__this->Scale() * ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(__this->NavContext()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), __this->PageContext()).Progress)), 0);
+    __this->Seek(__this->InvertProgress((double)(__this->Scale() * ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(__this->NavContext()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), __this->PageContext()).Progress)), 0);
 }
 
-// private double InvertProgress(double p) :261
+// private double InvertProgress(double p)
 void ActivatingAnimation__InvertProgress_fn(ActivatingAnimation* __this, double* p, double* __retval)
 {
     *__retval = __this->InvertProgress(*p);
 }
 
-// public generated ActivatingAnimation New() :254
+// public generated ActivatingAnimation New()
 void ActivatingAnimation__New2_fn(ActivatingAnimation** __retval)
 {
     *__retval = ActivatingAnimation::New2();
 }
 
-// internal override sealed void OnNavigationStateChanged(object sender, Fuse.Navigation.NavigationArgs state) :266
+// internal override sealed void OnNavigationStateChanged(object sender, Fuse.Navigation.NavigationArgs state)
 void ActivatingAnimation__OnNavigationStateChanged_fn(ActivatingAnimation* __this, uObject* sender, ::g::Fuse::Navigation::NavigationArgs* state)
 {
-    ::g::Fuse::Navigation::NavigationPageState ps = ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(__this->NavContext()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), __this->PageContext());
+    ::g::Fuse::Navigation::NavigationPageState ps = ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(__this->NavContext()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), __this->PageContext());
     int32_t d = (::g::Uno::Math::Abs1(ps.Progress) < ::g::Uno::Math::Abs1(ps.PreviousProgress)) ? 0 : 1;
     __this->GoProgress(__this->InvertProgress((double)(__this->Scale() * ps.Progress)), d, state);
 }
 
-// public generated ActivatingAnimation() [instance] :254
+// public generated ActivatingAnimation() [instance]
 void ActivatingAnimation::ctor_6()
 {
     ctor_5();
 }
 
-// private double InvertProgress(double p) [instance] :261
+// private double InvertProgress(double p) [instance]
 double ActivatingAnimation::InvertProgress(double p)
 {
     return 1.0 - ::g::Uno::Math::Min(1.0, ::g::Uno::Math::Abs(p));
 }
 
-// public generated ActivatingAnimation New() [static] :254
+// public generated ActivatingAnimation New() [static]
 ActivatingAnimation* ActivatingAnimation::New2()
 {
     ActivatingAnimation* obj1 = (ActivatingAnimation*)uNew(ActivatingAnimation_typeof());
@@ -423,10 +409,10 @@ ActivatingAnimation* ActivatingAnimation::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RoutePageProxy.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RoutePageProxy.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public delegate void RoutePageProxy.ActiveChanged(bool isActive, bool isRoot) :35
+// public delegate void RoutePageProxy.ActiveChanged(bool isActive, bool isRoot)
 uDelegateType* RoutePageProxy__ActiveChanged_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -439,10 +425,10 @@ uDelegateType* RoutePageProxy__ActiveChanged_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/INavigation.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/INavigation.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public delegate void ActivePageChangedHandler(object sender, Fuse.Visual active) :50
+// public delegate void ActivePageChangedHandler(object sender, Fuse.Visual active)
 uDelegateType* ActivePageChangedHandler_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -455,10 +441,10 @@ uDelegateType* ActivePageChangedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/SwipeNavigate.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/SwipeNavigate.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum AllowedNavigationDirections :76
+// public enum AllowedNavigationDirections
 uEnumType* AllowedNavigationDirections_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -472,10 +458,10 @@ uEnumType* AllowedNavigationDirections_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/ModifyRouteCommand.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/ModifyRouteCommand.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// protected sealed class RouteModificationCommand.ArgumentArrayAdapter :120
+// protected sealed class RouteModificationCommand.ArgumentArrayAdapter
 // {
 static void RouteModificationCommand__ArgumentArrayAdapter_build(uType* type)
 {
@@ -502,49 +488,49 @@ RouteModificationCommand__ArgumentArrayAdapter_type* RouteModificationCommand__A
     return type;
 }
 
-// public ArgumentArrayAdapter(Fuse.Reactive.Expression.Argument[] args) :124
+// public ArgumentArrayAdapter(Fuse.Reactive.Expression.Argument[] args)
 void RouteModificationCommand__ArgumentArrayAdapter__ctor__fn(RouteModificationCommand__ArgumentArrayAdapter* __this, uArray* args)
 {
     __this->ctor_(args);
 }
 
-// public object get_Item(int index) :130
+// public object get_Item(int index)
 void RouteModificationCommand__ArgumentArrayAdapter__get_Item_fn(RouteModificationCommand__ArgumentArrayAdapter* __this, int32_t* index, uObject** __retval)
 {
     *__retval = __this->Item(*index);
 }
 
-// public int get_Length() :129
+// public int get_Length()
 void RouteModificationCommand__ArgumentArrayAdapter__get_Length_fn(RouteModificationCommand__ArgumentArrayAdapter* __this, int32_t* __retval)
 {
     *__retval = __this->Length();
 }
 
-// public ArgumentArrayAdapter New(Fuse.Reactive.Expression.Argument[] args) :124
+// public ArgumentArrayAdapter New(Fuse.Reactive.Expression.Argument[] args)
 void RouteModificationCommand__ArgumentArrayAdapter__New1_fn(uArray* args, RouteModificationCommand__ArgumentArrayAdapter** __retval)
 {
     *__retval = RouteModificationCommand__ArgumentArrayAdapter::New1(args);
 }
 
-// public ArgumentArrayAdapter(Fuse.Reactive.Expression.Argument[] args) [instance] :124
+// public ArgumentArrayAdapter(Fuse.Reactive.Expression.Argument[] args) [instance]
 void RouteModificationCommand__ArgumentArrayAdapter::ctor_(uArray* args)
 {
     _args = args;
 }
 
-// public object get_Item(int index) [instance] :130
+// public object get_Item(int index) [instance]
 uObject* RouteModificationCommand__ArgumentArrayAdapter::Item(int32_t index)
 {
     return uPtr(uPtr(_args)->Strong< ::g::Fuse::Reactive::Expression__Argument*>(index))->Value();
 }
 
-// public int get_Length() [instance] :129
+// public int get_Length() [instance]
 int32_t RouteModificationCommand__ArgumentArrayAdapter::Length()
 {
     return uPtr(_args)->Length();
 }
 
-// public ArgumentArrayAdapter New(Fuse.Reactive.Expression.Argument[] args) [static] :124
+// public ArgumentArrayAdapter New(Fuse.Reactive.Expression.Argument[] args) [static]
 RouteModificationCommand__ArgumentArrayAdapter* RouteModificationCommand__ArgumentArrayAdapter::New1(uArray* args)
 {
     RouteModificationCommand__ArgumentArrayAdapter* obj1 = (RouteModificationCommand__ArgumentArrayAdapter*)uNew(RouteModificationCommand__ArgumentArrayAdapter_typeof());
@@ -553,10 +539,10 @@ RouteModificationCommand__ArgumentArrayAdapter* RouteModificationCommand__Argume
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// public delegate void Router.BackAtRootPressedHandler(object sender, Uno.EventArgs args) :160
+// public delegate void Router.BackAtRootPressedHandler(object sender, Uno.EventArgs args)
 uDelegateType* Router__BackAtRootPressedHandler_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -569,10 +555,10 @@ uDelegateType* Router__BackAtRootPressedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum BackButtonAction :8
+// public enum BackButtonAction
 uEnumType* BackButtonAction_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -585,15 +571,15 @@ uEnumType* BackButtonAction_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/TriggerActions.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/TriggerActions.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class BackForwardNavigationTriggerAction :137
+// public abstract class BackForwardNavigationTriggerAction
 // {
 static void BackForwardNavigationTriggerAction_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("No Navigation context was found");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/TriggerActions.uno");
+    ::STRINGS[1] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/TriggerActions.uno");
     ::STRINGS[2] = uString::Const("Perform");
     type->SetDependencies(
         ::g::Fuse::Navigation::Navigation_typeof());
@@ -624,19 +610,19 @@ BackForwardNavigationTriggerAction_type* BackForwardNavigationTriggerAction_type
     return type;
 }
 
-// public generated Fuse.Navigation.IBaseNavigation get_NavigationContext() :140
+// public generated Fuse.Navigation.IBaseNavigation get_NavigationContext()
 void BackForwardNavigationTriggerAction__get_NavigationContext_fn(BackForwardNavigationTriggerAction* __this, uObject** __retval)
 {
     *__retval = __this->NavigationContext();
 }
 
-// public generated void set_NavigationContext(Fuse.Navigation.IBaseNavigation value) :140
+// public generated void set_NavigationContext(Fuse.Navigation.IBaseNavigation value)
 void BackForwardNavigationTriggerAction__set_NavigationContext_fn(BackForwardNavigationTriggerAction* __this, uObject* value)
 {
     __this->NavigationContext(value);
 }
 
-// protected override sealed void Perform(Fuse.Node n) :142
+// protected override sealed void Perform(Fuse.Node n)
 void BackForwardNavigationTriggerAction__Perform_fn(BackForwardNavigationTriggerAction* __this, ::g::Fuse::Node* n)
 {
     uObject* ind1;
@@ -646,26 +632,26 @@ void BackForwardNavigationTriggerAction__Perform_fn(BackForwardNavigationTrigger
     if (nav != NULL)
         __this->Perform1(nav, n);
     else
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[0/*"No Navigati...*/], __this, ::STRINGS[1/*"/usr/local/...*/], 149, ::STRINGS[2/*"Perform"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[0/*"No Navigati...*/], __this, ::STRINGS[1/*"/Users/antt...*/], 149, ::STRINGS[2/*"Perform"*/], NULL);
 }
 
-// public generated Fuse.Navigation.IBaseNavigation get_NavigationContext() [instance] :140
+// public generated Fuse.Navigation.IBaseNavigation get_NavigationContext() [instance]
 uObject* BackForwardNavigationTriggerAction::NavigationContext()
 {
     return _NavigationContext;
 }
 
-// public generated void set_NavigationContext(Fuse.Navigation.IBaseNavigation value) [instance] :140
+// public generated void set_NavigationContext(Fuse.Navigation.IBaseNavigation value) [instance]
 void BackForwardNavigationTriggerAction::NavigationContext(uObject* value)
 {
     _NavigationContext = value;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterPage.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterPage.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal delegate void ChildRouterPagesUpdated() :8
+// internal delegate void ChildRouterPagesUpdated()
 uDelegateType* ChildRouterPagesUpdated_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -676,10 +662,10 @@ uDelegateType* ChildRouterPagesUpdated_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Activated.uno
-// -----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Activated.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Deactivated :146
+// public sealed class Deactivated
 // {
 static void Deactivated_build(uType* type)
 {
@@ -735,13 +721,13 @@ static void Deactivated_build(uType* type)
     return type;
 }
 
-// public generated Deactivated() :146
+// public generated Deactivated()
 void Deactivated__ctor_7_fn(Deactivated* __this)
 {
     __this->ctor_7();
 }
 
-// protected override sealed void ActiveChanged(bool isActive, bool isRoot) :161
+// protected override sealed void ActiveChanged(bool isActive, bool isRoot)
 void Deactivated__ActiveChanged_fn(Deactivated* __this, bool* isActive, bool* isRoot)
 {
     bool isRoot_ = *isRoot;
@@ -751,19 +737,19 @@ void Deactivated__ActiveChanged_fn(Deactivated* __this, bool* isActive, bool* is
         __this->Pulse1(::g::Uno::EventArgs::New1());
 }
 
-// public generated Deactivated New() :146
+// public generated Deactivated New()
 void Deactivated__New2_fn(Deactivated** __retval)
 {
     *__retval = Deactivated::New2();
 }
 
-// public generated Deactivated() [instance] :146
+// public generated Deactivated() [instance]
 void Deactivated::ctor_7()
 {
     ctor_6();
 }
 
-// public generated Deactivated New() [static] :146
+// public generated Deactivated New() [static]
 Deactivated* Deactivated::New2()
 {
     Deactivated* obj1 = (Deactivated*)uNew(Deactivated_typeof());
@@ -772,14 +758,14 @@ Deactivated* Deactivated::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/NavigationAnimations.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/NavigationAnimations.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class DeactivatingAnimation :301
+// public sealed class DeactivatingAnimation
 // {
 static void DeactivatingAnimation_build(uType* type)
 {
-    ::TYPES[1] = ::g::Fuse::Navigation::INavigation_typeof();
+    ::TYPES[0] = ::g::Fuse::Navigation::INavigation_typeof();
     type->SetDependencies(
         ::g::Uno::Math_typeof());
     type->SetInterfaces(
@@ -835,25 +821,25 @@ static void DeactivatingAnimation_build(uType* type)
     return type;
 }
 
-// protected override sealed void ForceUpdate() :303
+// protected override sealed void ForceUpdate()
 void DeactivatingAnimation__ForceUpdate_fn(DeactivatingAnimation* __this)
 {
-    __this->Seek((double)::g::Uno::Math::Abs1(__this->Scale() * ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(__this->NavContext()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), __this->PageContext()).Progress), 0);
+    __this->Seek((double)::g::Uno::Math::Abs1(__this->Scale() * ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(__this->NavContext()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), __this->PageContext()).Progress), 0);
 }
 
-// internal override sealed void OnNavigationStateChanged(object sender, Fuse.Navigation.NavigationArgs state) :308
+// internal override sealed void OnNavigationStateChanged(object sender, Fuse.Navigation.NavigationArgs state)
 void DeactivatingAnimation__OnNavigationStateChanged_fn(DeactivatingAnimation* __this, uObject* sender, ::g::Fuse::Navigation::NavigationArgs* state)
 {
-    ::g::Fuse::Navigation::NavigationPageState ps = ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(__this->NavContext()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), __this->PageContext());
+    ::g::Fuse::Navigation::NavigationPageState ps = ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(__this->NavContext()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), __this->PageContext());
     int32_t d = (::g::Uno::Math::Abs1(ps.Progress) > ::g::Uno::Math::Abs1(ps.PreviousProgress)) ? 0 : 1;
     __this->GoProgress((double)(__this->Scale() * ::g::Uno::Math::Abs1(ps.Progress)), d, state);
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/DynamicLinearNavigation.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/DynamicLinearNavigation.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private enum DynamicLinearNavigation.Desired :37
+// private enum DynamicLinearNavigation.Desired
 uEnumType* DynamicLinearNavigation__Desired_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -867,18 +853,18 @@ uEnumType* DynamicLinearNavigation__Desired_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/DirectNavigation.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/DirectNavigation.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class DirectNavigation :16
+// public sealed class DirectNavigation
 // {
 static void DirectNavigation_build(uType* type)
 {
     ::STRINGS[3] = uString::Const("Unexpected null page");
-    ::STRINGS[4] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/DirectNavigation.uno");
+    ::STRINGS[4] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/DirectNavigation.uno");
     ::STRINGS[5] = uString::Const("SetProgressState");
-    ::TYPES[2] = ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Navigation::PageData_typeof(), NULL);
-    ::TYPES[3] = ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Navigation::PageData_typeof(), NULL);
+    ::TYPES[1] = ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Navigation::PageData_typeof(), NULL);
+    ::TYPES[2] = ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Navigation::PageData_typeof(), NULL);
     type->SetInterfaces(
         ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Navigation::VisualNavigation_type, interface0),
         ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(::g::Fuse::Navigation::VisualNavigation_type, interface1),
@@ -954,19 +940,19 @@ static void DirectNavigation_build(uType* type)
     return type;
 }
 
-// public override sealed Fuse.Visual get_Active() :73
+// public override sealed Fuse.Visual get_Active()
 void DirectNavigation__get_Active_fn(DirectNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     return *__retval = __this->_active, void();
 }
 
-// public override sealed void set_Active(Fuse.Visual value) :74
+// public override sealed void set_Active(Fuse.Visual value)
 void DirectNavigation__set_Active_fn(DirectNavigation* __this, ::g::Fuse::Visual* value)
 {
     __this->TransitionTo(value, false);
 }
 
-// public override sealed void Goto(Fuse.Visual visual, Fuse.Navigation.NavigationGotoMode mode) :37
+// public override sealed void Goto(Fuse.Visual visual, Fuse.Navigation.NavigationGotoMode mode)
 void DirectNavigation__Goto_fn(DirectNavigation* __this, ::g::Fuse::Visual* visual, int32_t* mode)
 {
     int32_t mode_ = *mode;
@@ -975,14 +961,14 @@ void DirectNavigation__Goto_fn(DirectNavigation* __this, ::g::Fuse::Visual* visu
         __this->TransitionTo(visual, mode_ == 1);
 }
 
-// public override sealed void OnChildAddedWhileRooted(Fuse.Node child) :24
+// public override sealed void OnChildAddedWhileRooted(Fuse.Node child)
 void DirectNavigation__OnChildAddedWhileRooted_fn(DirectNavigation* __this, ::g::Fuse::Node* child)
 {
     ::g::Fuse::Navigation::VisualNavigation__OnChildAddedWhileRooted_fn(__this, child);
     __this->UpdateState(true);
 }
 
-// public override sealed void OnChildRemovedWhileRooted(Fuse.Node child) :30
+// public override sealed void OnChildRemovedWhileRooted(Fuse.Node child)
 void DirectNavigation__OnChildRemovedWhileRooted_fn(DirectNavigation* __this, ::g::Fuse::Node* child)
 {
     ::g::Fuse::Navigation::VisualNavigation__OnChildRemovedWhileRooted_fn(__this, child);
@@ -991,39 +977,39 @@ void DirectNavigation__OnChildRemovedWhileRooted_fn(DirectNavigation* __this, ::
         __this->Goto(NULL, 0);
 }
 
-// protected override sealed void OnRooted() :18
+// protected override sealed void OnRooted()
 void DirectNavigation__OnRooted_fn(DirectNavigation* __this)
 {
     ::g::Fuse::Navigation::VisualNavigation__OnRooted_fn(__this);
     __this->UpdateState(true);
 }
 
-// private void SetProgressState(Fuse.Visual elm, int progress) :80
+// private void SetProgressState(Fuse.Visual elm, int progress)
 void DirectNavigation__SetProgressState_fn(DirectNavigation* __this, ::g::Fuse::Visual* elm, int32_t* progress)
 {
     __this->SetProgressState(elm, *progress);
 }
 
-// private void TransitionTo(Fuse.Visual visual, bool bypass) :44
+// private void TransitionTo(Fuse.Visual visual, bool bypass)
 void DirectNavigation__TransitionTo_fn(DirectNavigation* __this, ::g::Fuse::Visual* visual, bool* bypass)
 {
     __this->TransitionTo(visual, *bypass);
 }
 
-// private void UpdateState(bool bypass) :57
+// private void UpdateState(bool bypass)
 void DirectNavigation__UpdateState_fn(DirectNavigation* __this, bool* bypass)
 {
     __this->UpdateState(*bypass);
 }
 
-// private void SetProgressState(Fuse.Visual elm, int progress) [instance] :80
+// private void SetProgressState(Fuse.Visual elm, int progress) [instance]
 void DirectNavigation::SetProgressState(::g::Fuse::Visual* elm, int32_t progress)
 {
     ::g::Fuse::Navigation::PageData* pd = GetPageData(elm);
 
     if (pd == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(::STRINGS[3/*"Unexpected ...*/], elm, ::STRINGS[4/*"/usr/local/...*/], 85, ::STRINGS[5/*"SetProgress...*/]);
+        ::g::Fuse::Diagnostics::InternalError(::STRINGS[3/*"Unexpected ...*/], elm, ::STRINGS[4/*"/Users/antt...*/], 85, ::STRINGS[5/*"SetProgress...*/]);
         return;
     }
 
@@ -1031,7 +1017,7 @@ void DirectNavigation::SetProgressState(::g::Fuse::Visual* elm, int32_t progress
     pd->Progress = (float)progress;
 }
 
-// private void TransitionTo(Fuse.Visual visual, bool bypass) [instance] :44
+// private void TransitionTo(Fuse.Visual visual, bool bypass) [instance]
 void DirectNavigation::TransitionTo(::g::Fuse::Visual* visual, bool bypass)
 {
     ::g::Fuse::Visual* oldActive = _active;
@@ -1045,14 +1031,14 @@ void DirectNavigation::TransitionTo(::g::Fuse::Visual* visual, bool bypass)
     }
 }
 
-// private void UpdateState(bool bypass) [instance] :57
+// private void UpdateState(bool bypass) [instance]
 void DirectNavigation::UpdateState(bool bypass)
 {
     ::g::Fuse::Navigation::PageData* ret2;
 
-    for (int32_t t = 0; t < ::g::Uno::Collections::ICollection::Count(uInterface(uPtr(Pages()), ::TYPES[2/*Uno.Collections.ICollection<Fuse.Navigation.PageData>*/])); t++)
+    for (int32_t t = 0; t < ::g::Uno::Collections::ICollection::Count(uInterface(uPtr(Pages()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Navigation.PageData>*/])); t++)
     {
-        ::g::Fuse::Visual* c = uPtr((::g::Uno::Collections::IList::get_Item_ex(uInterface(uPtr(Pages()), ::TYPES[3/*Uno.Collections.IList<Fuse.Navigation.PageData>*/]), uCRef<int32_t>(t), &ret2), ret2))->Visual();
+        ::g::Fuse::Visual* c = uPtr((::g::Uno::Collections::IList::get_Item_ex(uInterface(uPtr(Pages()), ::TYPES[2/*Uno.Collections.IList<Fuse.Navigation.PageData>*/]), uCRef<int32_t>(t), &ret2), ret2))->Visual();
         bool active = _active == c;
         int32_t newProgress = active ? 0 : -1;
         SetProgressState(c, newProgress);
@@ -1062,16 +1048,16 @@ void DirectNavigation::UpdateState(bool bypass)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/DynamicLinearNavigation.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/DynamicLinearNavigation.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class DynamicLinearNavigation :13
+// public sealed class DynamicLinearNavigation
 // {
-// static generated DynamicLinearNavigation() :13
+// static generated DynamicLinearNavigation()
 static void DynamicLinearNavigation__cctor_2_fn(uType* __type)
 {
-    DynamicLinearNavigation::DesiredActiveName_ = ::g::Uno::UX::Selector__op_Implicit1(uString::Const("DesiredActive"));
-    DynamicLinearNavigation::DesiredActiveIndexName_ = ::g::Uno::UX::Selector__op_Implicit1(uString::Const("DesiredActiveIndex"));
+    DynamicLinearNavigation::DesiredActiveName_ = ::g::Uno::UX::Selector__op_Implicit(uString::Const("DesiredActive"));
+    DynamicLinearNavigation::DesiredActiveIndexName_ = ::g::Uno::UX::Selector__op_Implicit(uString::Const("DesiredActiveIndex"));
 }
 
 static void DynamicLinearNavigation_build(uType* type)
@@ -1092,7 +1078,6 @@ static void DynamicLinearNavigation_build(uType* type)
         ::g::Fuse::Navigation::IBaseNavigation_typeof(), offsetof(DynamicLinearNavigation_type, interface9),
         ::g::Fuse::Navigation::ISeekableNavigation_typeof(), offsetof(DynamicLinearNavigation_type, interface10));
     type->SetFields(25,
-        ::g::Uno::Bool_typeof(), offsetof(DynamicLinearNavigation, _reuseExistingVisual), 0,
         ::g::Fuse::Motion::MotionConfig_typeof(), offsetof(DynamicLinearNavigation, _motion), 0,
         ::g::Fuse::Motion::Simulation::BoundedRegion2D_typeof(), offsetof(DynamicLinearNavigation, _region), 0,
         DynamicLinearNavigation__Desired_typeof(), offsetof(DynamicLinearNavigation, _desired), 0,
@@ -1116,14 +1101,13 @@ DynamicLinearNavigation_type* DynamicLinearNavigation_typeof()
 
     uTypeOptions options;
     options.BaseDefinition = ::g::Fuse::Navigation::VisualNavigation_typeof();
-    options.FieldCount = 40;
+    options.FieldCount = 39;
     options.InterfaceCount = 11;
     options.DependencyCount = 2;
     options.ObjectSize = sizeof(DynamicLinearNavigation);
     options.TypeSize = sizeof(DynamicLinearNavigation_type);
     type = (DynamicLinearNavigation_type*)uClassType::New("Fuse.Navigation.DynamicLinearNavigation", options);
     type->fp_build_ = DynamicLinearNavigation_build;
-    type->fp_ctor_ = (void*)DynamicLinearNavigation__New2_fn;
     type->fp_cctor_ = DynamicLinearNavigation__cctor_2_fn;
     type->fp_get_Active = (void(*)(::g::Fuse::Navigation::VisualNavigation*, ::g::Fuse::Visual**))DynamicLinearNavigation__get_Active_fn;
     type->fp_set_Active = (void(*)(::g::Fuse::Navigation::VisualNavigation*, ::g::Fuse::Visual*))DynamicLinearNavigation__set_Active_fn;
@@ -1181,109 +1165,91 @@ DynamicLinearNavigation_type* DynamicLinearNavigation_typeof()
     return type;
 }
 
-// public generated DynamicLinearNavigation() :13
-void DynamicLinearNavigation__ctor_4_fn(DynamicLinearNavigation* __this)
-{
-    __this->ctor_4();
-}
-
-// public override sealed Fuse.Visual get_Active() :401
+// public override sealed Fuse.Visual get_Active()
 void DynamicLinearNavigation__get_Active_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     return *__retval = __this->_active, void();
 }
 
-// public override sealed void set_Active(Fuse.Visual value) :402
+// public override sealed void set_Active(Fuse.Visual value)
 void DynamicLinearNavigation__set_Active_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual* value)
 {
     __this->SetDesiredActive(value);
 }
 
-// private void AnimationDone() :385
+// private void AnimationDone()
 void DynamicLinearNavigation__AnimationDone_fn(DynamicLinearNavigation* __this)
 {
     __this->AnimationDone();
 }
 
-// private Fuse.Visual get_Back() :540
+// private Fuse.Visual get_Back()
 void DynamicLinearNavigation__get_Back_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->Back();
 }
 
-// public override sealed bool get_CanGoBack() :298
+// public override sealed bool get_CanGoBack()
 void DynamicLinearNavigation__get_CanGoBack_fn(DynamicLinearNavigation* __this, bool* __retval)
 {
     return *__retval = __this->HasPages() && (__this->_active != __this->Back()), void();
 }
 
-// public override sealed bool get_CanGoForward() :290
+// public override sealed bool get_CanGoForward()
 void DynamicLinearNavigation__get_CanGoForward_fn(DynamicLinearNavigation* __this, bool* __retval)
 {
     return *__retval = __this->HasPages() && (__this->_active != __this->Front()), void();
 }
 
-// private void ChangeProgress(float prev, float next, Fuse.Navigation.NavigationMode mode) :272
+// private void ChangeProgress(float prev, float next, Fuse.Navigation.NavigationMode mode)
 void DynamicLinearNavigation__ChangeProgress_fn(DynamicLinearNavigation* __this, float* prev, float* next, int32_t* mode)
 {
     __this->ChangeProgress(*prev, *next, *mode);
 }
 
-// private void CheckNeedUpdate([bool off]) :208
+// private void CheckNeedUpdate([bool off])
 void DynamicLinearNavigation__CheckNeedUpdate_fn(DynamicLinearNavigation* __this, bool* off)
 {
     __this->CheckNeedUpdate(*off);
 }
 
-// private int ClampProgress(int progress) :528
+// private int ClampProgress(int progress)
 void DynamicLinearNavigation__ClampProgress1_fn(DynamicLinearNavigation* __this, int32_t* progress, int32_t* __retval)
 {
     *__retval = __this->ClampProgress1(*progress);
 }
 
-// private void CleanupListenComplete() :64
+// private void CleanupListenComplete()
 void DynamicLinearNavigation__CleanupListenComplete_fn(DynamicLinearNavigation* __this)
 {
     __this->CleanupListenComplete();
 }
 
-// private void ClearForwardHistory() :510
+// private void ClearForwardHistory()
 void DynamicLinearNavigation__ClearForwardHistory_fn(DynamicLinearNavigation* __this)
 {
     __this->ClearForwardHistory();
 }
 
-// public int get_DesiredActiveIndex() :413
-void DynamicLinearNavigation__get_DesiredActiveIndex_fn(DynamicLinearNavigation* __this, int32_t* __retval)
-{
-    *__retval = __this->DesiredActiveIndex();
-}
-
-// public void set_DesiredActiveIndex(int value) :414
-void DynamicLinearNavigation__set_DesiredActiveIndex_fn(DynamicLinearNavigation* __this, int32_t* value)
-{
-    __this->DesiredActiveIndex(*value);
-}
-
-// private void DesiredTransition(Fuse.Visual target) :317
+// private void DesiredTransition(Fuse.Visual target)
 void DynamicLinearNavigation__DesiredTransition_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual* target)
 {
     __this->DesiredTransition(target);
 }
 
-// private void DirectSetActive(Fuse.Visual page) :431
+// private void DirectSetActive(Fuse.Visual page)
 void DynamicLinearNavigation__DirectSetActive_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual* page)
 {
     __this->DirectSetActive(page);
 }
 
-// private Fuse.Visual get_Front() :545
+// private Fuse.Visual get_Front()
 void DynamicLinearNavigation__get_Front_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->Front();
 }
 
-// private void Fuse.Navigation.ISeekableNavigation.BeginSeek() :442
+// private void Fuse.Navigation.ISeekableNavigation.BeginSeek()
 void DynamicLinearNavigation__FuseNavigationISeekableNavigationBeginSeek_fn(DynamicLinearNavigation* __this)
 {
     __this->_seekBase = __this->Progress();
@@ -1297,7 +1263,7 @@ void DynamicLinearNavigation__FuseNavigationISeekableNavigationBeginSeek_fn(Dyna
     __this->OnStateChanged(1);
 }
 
-// private void Fuse.Navigation.ISeekableNavigation.EndSeek(Fuse.Navigation.EndSeekArgs args) :476
+// private void Fuse.Navigation.ISeekableNavigation.EndSeek(Fuse.Navigation.EndSeekArgs args)
 void DynamicLinearNavigation__FuseNavigationISeekableNavigationEndSeek_fn(DynamicLinearNavigation* __this, ::g::Fuse::Navigation::EndSeekArgs* args)
 {
     ::g::Uno::Float2 ret6;
@@ -1336,14 +1302,14 @@ void DynamicLinearNavigation__FuseNavigationISeekableNavigationEndSeek_fn(Dynami
         ::g::Fuse::Motion::Simulation::BoundedRegion2D::Reset(uInterface(uPtr(__this->_region), ::g::Fuse::Motion::Simulation::BoundedRegion2D_typeof()), (::g::Fuse::Motion::Simulation::MotionSimulation::get_Position_ex(uInterface(uPtr(__this->_region), ::g::Fuse::Motion::Simulation::MotionSimulation_typeof()->MakeType(::g::Uno::Float2_typeof(), NULL)), &ret6), ret6));
 }
 
-// private void Fuse.Navigation.ISeekableNavigation.Seek(Fuse.Navigation.UpdateSeekArgs args) :462
+// private void Fuse.Navigation.ISeekableNavigation.Seek(Fuse.Navigation.UpdateSeekArgs args)
 void DynamicLinearNavigation__FuseNavigationISeekableNavigationSeek_fn(DynamicLinearNavigation* __this, ::g::Fuse::Navigation::UpdateSeekArgs* args)
 {
     ::g::Uno::Float2 ret7;
 
     if (__this->_region == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("Seek being called on an unrooted navigation"), __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/DynamicLinearNavigation.uno"), 466, uString::Const("Fuse.Navigation.ISeekableNavigation.Seek"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("Seek being called on an unrooted navigation"), __this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/DynamicLinearNavigation.uno"), 466, uString::Const("Fuse.Navigation.ISeekableNavigation.Seek"));
         return;
     }
 
@@ -1353,7 +1319,7 @@ void DynamicLinearNavigation__FuseNavigationISeekableNavigationSeek_fn(DynamicLi
     __this->CheckNeedUpdate(false);
 }
 
-// public override sealed Fuse.Navigation.NavigationPageState GetPageState(Fuse.Visual page) :278
+// public override sealed Fuse.Navigation.NavigationPageState GetPageState(Fuse.Visual page)
 void DynamicLinearNavigation__GetPageState_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual* page, ::g::Fuse::Navigation::NavigationPageState* __retval)
 {
     ::g::Fuse::Navigation::NavigationPageState collection1;
@@ -1374,21 +1340,21 @@ void DynamicLinearNavigation__GetPageState_fn(DynamicLinearNavigation* __this, :
     return *__retval = collection2, void();
 }
 
-// public override sealed void GoBack() :310
+// public override sealed void GoBack()
 void DynamicLinearNavigation__GoBack_fn(DynamicLinearNavigation* __this)
 {
     if (__this->CanGoBack())
         __this->DesiredTransition(__this->Previous());
 }
 
-// public override sealed void GoForward() :304
+// public override sealed void GoForward()
 void DynamicLinearNavigation__GoForward_fn(DynamicLinearNavigation* __this)
 {
     if (__this->CanGoForward())
         __this->DesiredTransition(__this->Next());
 }
 
-// public override sealed void Goto(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode) :136
+// public override sealed void Goto(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode)
 void DynamicLinearNavigation__Goto_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual* element, int32_t* mode)
 {
     int32_t mode_ = *mode;
@@ -1400,65 +1366,59 @@ void DynamicLinearNavigation__Goto_fn(DynamicLinearNavigation* __this, ::g::Fuse
     __this->GotoInternal(element, mode_);
 }
 
-// private bool GotoDesiredActive() :78
+// private bool GotoDesiredActive()
 void DynamicLinearNavigation__GotoDesiredActive_fn(DynamicLinearNavigation* __this, bool* __retval)
 {
     *__retval = __this->GotoDesiredActive();
 }
 
-// private void GotoDesiredActiveAction() :73
+// private void GotoDesiredActiveAction()
 void DynamicLinearNavigation__GotoDesiredActiveAction_fn(DynamicLinearNavigation* __this)
 {
     __this->GotoDesiredActiveAction();
 }
 
-// public void GotoImpl(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode) :167
+// public void GotoImpl(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode)
 void DynamicLinearNavigation__GotoImpl_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual* element, int32_t* mode)
 {
     __this->GotoImpl(element, *mode);
 }
 
-// private void GotoInternal(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode) :149
+// private void GotoInternal(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode)
 void DynamicLinearNavigation__GotoInternal_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual* element, int32_t* mode)
 {
     __this->GotoInternal(element, *mode);
 }
 
-// private int get_MaxIndex() :535
+// private int get_MaxIndex()
 void DynamicLinearNavigation__get_MaxIndex_fn(DynamicLinearNavigation* __this, int32_t* __retval)
 {
     *__retval = __this->MaxIndex();
 }
 
-// public Fuse.Motion.MotionConfig get_Motion() :21
+// public Fuse.Motion.MotionConfig get_Motion()
 void DynamicLinearNavigation__get_Motion_fn(DynamicLinearNavigation* __this, ::g::Fuse::Motion::MotionConfig** __retval)
 {
     *__retval = __this->Motion();
 }
 
-// public void set_Motion(Fuse.Motion.MotionConfig value) :27
+// public void set_Motion(Fuse.Motion.MotionConfig value)
 void DynamicLinearNavigation__set_Motion_fn(DynamicLinearNavigation* __this, ::g::Fuse::Motion::MotionConfig* value)
 {
     __this->Motion(value);
 }
 
-// public generated DynamicLinearNavigation New() :13
-void DynamicLinearNavigation__New2_fn(DynamicLinearNavigation** __retval)
-{
-    *__retval = DynamicLinearNavigation::New2();
-}
-
-// private Fuse.Visual get_Next() :555
+// private Fuse.Visual get_Next()
 void DynamicLinearNavigation__get_Next_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->Next();
 }
 
-// public override sealed void OnChildAddedWhileRooted(Fuse.Node child) :350
+// public override sealed void OnChildAddedWhileRooted(Fuse.Node child)
 void DynamicLinearNavigation__OnChildAddedWhileRooted_fn(DynamicLinearNavigation* __this, ::g::Fuse::Node* child)
 {
     ::g::Fuse::Navigation::VisualNavigation__OnChildAddedWhileRooted_fn(__this, child);
-    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[8/*Fuse.Visual*/]);
+    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[7/*Fuse.Visual*/]);
 
     if (v == NULL)
         return;
@@ -1470,11 +1430,11 @@ void DynamicLinearNavigation__OnChildAddedWhileRooted_fn(DynamicLinearNavigation
     __this->OnHistoryChanged();
 }
 
-// public override sealed void OnChildRemovedWhileRooted(Fuse.Node child) :364
+// public override sealed void OnChildRemovedWhileRooted(Fuse.Node child)
 void DynamicLinearNavigation__OnChildRemovedWhileRooted_fn(DynamicLinearNavigation* __this, ::g::Fuse::Node* child)
 {
     ::g::Fuse::Navigation::VisualNavigation__OnChildRemovedWhileRooted_fn(__this, child);
-    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[8/*Fuse.Visual*/]);
+    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[7/*Fuse.Visual*/]);
 
     if (v == NULL)
         return;
@@ -1487,7 +1447,7 @@ void DynamicLinearNavigation__OnChildRemovedWhileRooted_fn(DynamicLinearNavigati
     __this->ChangeProgress(__this->Progress(), __this->Progress(), 1);
 }
 
-// protected override sealed void OnRooted() :47
+// protected override sealed void OnRooted()
 void DynamicLinearNavigation__OnRooted_fn(DynamicLinearNavigation* __this)
 {
     ::g::Fuse::Navigation::VisualNavigation__OnRooted_fn(__this);
@@ -1504,7 +1464,7 @@ void DynamicLinearNavigation__OnRooted_fn(DynamicLinearNavigation* __this)
     __this->OnHistoryChanged();
 }
 
-// protected override sealed void OnUnrooted() :115
+// protected override sealed void OnUnrooted()
 void DynamicLinearNavigation__OnUnrooted_fn(DynamicLinearNavigation* __this)
 {
     ::g::Uno::Float2 ret8;
@@ -1520,55 +1480,49 @@ void DynamicLinearNavigation__OnUnrooted_fn(DynamicLinearNavigation* __this)
     ::g::Fuse::Navigation::VisualNavigation__OnUnrooted_fn(__this);
 }
 
-// private void OnUpdated() :227
+// private void OnUpdated()
 void DynamicLinearNavigation__OnUpdated_fn(DynamicLinearNavigation* __this)
 {
     __this->OnUpdated();
 }
 
-// private Fuse.Visual get_Previous() :550
+// private Fuse.Visual get_Previous()
 void DynamicLinearNavigation__get_Previous_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->Previous();
 }
 
-// public float get_Progress() :381
+// public float get_Progress()
 void DynamicLinearNavigation__get_Progress_fn(DynamicLinearNavigation* __this, float* __retval)
 {
     *__retval = __this->Progress();
 }
 
-// private void ResetRegionLimits() :246
+// private void ResetRegionLimits()
 void DynamicLinearNavigation__ResetRegionLimits_fn(DynamicLinearNavigation* __this)
 {
     __this->ResetRegionLimits();
 }
 
-// private void SetDesiredActive(Fuse.Visual page) :417
+// private void SetDesiredActive(Fuse.Visual page)
 void DynamicLinearNavigation__SetDesiredActive_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual* page)
 {
     __this->SetDesiredActive(page);
 }
 
-// private void SetDesiredActiveIndex(int index) :424
-void DynamicLinearNavigation__SetDesiredActiveIndex_fn(DynamicLinearNavigation* __this, int32_t* index)
-{
-    __this->SetDesiredActiveIndex(*index);
-}
-
-// private void SetProgress(float value) :252
+// private void SetProgress(float value)
 void DynamicLinearNavigation__SetProgress_fn(DynamicLinearNavigation* __this, float* value)
 {
     __this->SetProgress(*value);
 }
 
-// private bool TransitionToChild(Fuse.Visual element, [bool bypass], [bool clamp]) :181
+// private bool TransitionToChild(Fuse.Visual element, [bool bypass], [bool clamp])
 void DynamicLinearNavigation__TransitionToChild_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual* element, bool* bypass, bool* clamp, bool* __retval)
 {
     *__retval = __this->TransitionToChild(element, *bypass, *clamp);
 }
 
-// private void UpdateDesired(Fuse.Visual target, int index) :326
+// private void UpdateDesired(Fuse.Visual target, int index)
 void DynamicLinearNavigation__UpdateDesired_fn(DynamicLinearNavigation* __this, ::g::Fuse::Visual* target, int32_t* index)
 {
     __this->UpdateDesired(target, *index);
@@ -1577,14 +1531,7 @@ void DynamicLinearNavigation__UpdateDesired_fn(DynamicLinearNavigation* __this, 
 ::g::Uno::UX::Selector DynamicLinearNavigation::DesiredActiveName_;
 ::g::Uno::UX::Selector DynamicLinearNavigation::DesiredActiveIndexName_;
 
-// public generated DynamicLinearNavigation() [instance] :13
-void DynamicLinearNavigation::ctor_4()
-{
-    _reuseExistingVisual = true;
-    ctor_3();
-}
-
-// private void AnimationDone() [instance] :385
+// private void AnimationDone() [instance]
 void DynamicLinearNavigation::AnimationDone()
 {
     if (_queueClearForwardHistory)
@@ -1598,20 +1545,20 @@ void DynamicLinearNavigation::AnimationDone()
     OnStateChanged(0);
 }
 
-// private Fuse.Visual get_Back() [instance] :540
+// private Fuse.Visual get_Back() [instance]
 ::g::Fuse::Visual* DynamicLinearNavigation::Back()
 {
     return (PageCount() > 0) ? (::g::Fuse::Visual*)GetPage(MaxIndex()) : NULL;
 }
 
-// private void ChangeProgress(float prev, float next, Fuse.Navigation.NavigationMode mode) [instance] :272
+// private void ChangeProgress(float prev, float next, Fuse.Navigation.NavigationMode mode) [instance]
 void DynamicLinearNavigation::ChangeProgress(float prev, float next, int32_t mode)
 {
     _prevProgress = prev;
     OnPageProgressChanged((double)next, (double)prev, mode);
 }
 
-// private void CheckNeedUpdate([bool off]) [instance] :208
+// private void CheckNeedUpdate([bool off]) [instance]
 void DynamicLinearNavigation::CheckNeedUpdate(bool off)
 {
     bool needUpdated = (_region != NULL) && !::g::Fuse::Motion::Simulation::Simulation::IsStatic(uInterface(uPtr(_region), ::g::Fuse::Motion::Simulation::Simulation_typeof()));
@@ -1621,34 +1568,34 @@ void DynamicLinearNavigation::CheckNeedUpdate(bool off)
 
     if (needUpdated)
     {
-        ::g::Fuse::UpdateManager::AddAction1(uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)DynamicLinearNavigation__OnUpdated_fn, this), 0);
+        ::g::Fuse::UpdateManager::AddAction1(uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)DynamicLinearNavigation__OnUpdated_fn, this), 0);
         _hasUpdated = true;
     }
     else if (off)
     {
         AnimationDone();
-        ::g::Fuse::UpdateManager::RemoveAction1(uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)DynamicLinearNavigation__OnUpdated_fn, this), 0);
+        ::g::Fuse::UpdateManager::RemoveAction1(uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)DynamicLinearNavigation__OnUpdated_fn, this), 0);
         _hasUpdated = false;
     }
 }
 
-// private int ClampProgress(int progress) [instance] :528
+// private int ClampProgress(int progress) [instance]
 int32_t DynamicLinearNavigation::ClampProgress1(int32_t progress)
 {
     return ::g::Uno::Math::Clamp8(progress, 0, MaxIndex());
 }
 
-// private void CleanupListenComplete() [instance] :64
+// private void CleanupListenComplete() [instance]
 void DynamicLinearNavigation::CleanupListenComplete()
 {
     if (_listenComplete != NULL)
     {
-        uPtr(_listenComplete)->remove_RootingCompleted(uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)DynamicLinearNavigation__GotoDesiredActiveAction_fn, this));
+        uPtr(_listenComplete)->remove_RootingCompleted(uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)DynamicLinearNavigation__GotoDesiredActiveAction_fn, this));
         _listenComplete = NULL;
     }
 }
 
-// private void ClearForwardHistory() [instance] :510
+// private void ClearForwardHistory() [instance]
 void DynamicLinearNavigation::ClearForwardHistory()
 {
     bool ret5;
@@ -1658,32 +1605,20 @@ void DynamicLinearNavigation::ClearForwardHistory()
         int32_t target = GetPageIndex(_active);
 
         for (int32_t i = target - 1; i >= 0; i--)
-            ::g::Uno::Collections::ICollection::Remove_ex(uInterface(uPtr(uPtr(Parent())->Children()), ::g::Uno::Collections::ICollection_typeof()->MakeType(::TYPES[38/*Fuse.Node*/], NULL)), GetPage(i), &ret5);
+            ::g::Uno::Collections::ICollection::Remove_ex(uInterface(uPtr(uPtr(Parent())->Children()), ::g::Uno::Collections::ICollection_typeof()->MakeType(::TYPES[37/*Fuse.Node*/], NULL)), GetPage(i), &ret5);
     }
 
     OnHistoryChanged();
 }
 
-// public int get_DesiredActiveIndex() [instance] :413
-int32_t DynamicLinearNavigation::DesiredActiveIndex()
-{
-    return _desiredIndex;
-}
-
-// public void set_DesiredActiveIndex(int value) [instance] :414
-void DynamicLinearNavigation::DesiredActiveIndex(int32_t value)
-{
-    SetDesiredActiveIndex(value);
-}
-
-// private void DesiredTransition(Fuse.Visual target) [instance] :317
+// private void DesiredTransition(Fuse.Visual target) [instance]
 void DynamicLinearNavigation::DesiredTransition(::g::Fuse::Visual* target)
 {
     UpdateDesired(target, -1);
     TransitionToChild(target, false, false);
 }
 
-// private void DirectSetActive(Fuse.Visual page) [instance] :431
+// private void DirectSetActive(Fuse.Visual page) [instance]
 void DynamicLinearNavigation::DirectSetActive(::g::Fuse::Visual* page)
 {
     if (page == _active)
@@ -1694,13 +1629,13 @@ void DynamicLinearNavigation::DirectSetActive(::g::Fuse::Visual* page)
     OnHistoryChanged();
 }
 
-// private Fuse.Visual get_Front() [instance] :545
+// private Fuse.Visual get_Front() [instance]
 ::g::Fuse::Visual* DynamicLinearNavigation::Front()
 {
     return (PageCount() > 0) ? (::g::Fuse::Visual*)GetPage(0) : NULL;
 }
 
-// private bool GotoDesiredActive() [instance] :78
+// private bool GotoDesiredActive() [instance]
 bool DynamicLinearNavigation::GotoDesiredActive()
 {
     ::g::Fuse::Visual* ind3;
@@ -1732,7 +1667,7 @@ bool DynamicLinearNavigation::GotoDesiredActive()
     {
         CleanupListenComplete();
         _listenComplete = desiredPage;
-        uPtr(_listenComplete)->add_RootingCompleted(uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)DynamicLinearNavigation__GotoDesiredActiveAction_fn, this));
+        uPtr(_listenComplete)->add_RootingCompleted(uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)DynamicLinearNavigation__GotoDesiredActiveAction_fn, this));
         return false;
     }
 
@@ -1745,25 +1680,25 @@ bool DynamicLinearNavigation::GotoDesiredActive()
     return true;
 }
 
-// private void GotoDesiredActiveAction() [instance] :73
+// private void GotoDesiredActiveAction() [instance]
 void DynamicLinearNavigation::GotoDesiredActiveAction()
 {
     GotoDesiredActive();
 }
 
-// public void GotoImpl(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode) [instance] :167
+// public void GotoImpl(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode) [instance]
 void DynamicLinearNavigation::GotoImpl(::g::Fuse::Visual* element, int32_t mode)
 {
     if (uPtr(element)->Parent() != Parent())
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Attempting to navigate to element with different parent"), element, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/DynamicLinearNavigation.uno"), 171, uString::Const("GotoImpl"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Attempting to navigate to element with different parent"), element, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/DynamicLinearNavigation.uno"), 171, uString::Const("GotoImpl"), NULL);
         return;
     }
 
     TransitionToChild(element, (mode & 1) == 1, false);
 }
 
-// private void GotoInternal(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode) [instance] :149
+// private void GotoInternal(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode) [instance]
 void DynamicLinearNavigation::GotoInternal(::g::Fuse::Visual* element, int32_t mode)
 {
     if (!IsRootingCompleted())
@@ -1781,13 +1716,13 @@ void DynamicLinearNavigation::GotoInternal(::g::Fuse::Visual* element, int32_t m
         GotoImpl(element, mode);
 }
 
-// private int get_MaxIndex() [instance] :535
+// private int get_MaxIndex() [instance]
 int32_t DynamicLinearNavigation::MaxIndex()
 {
     return PageCount() - 1;
 }
 
-// public Fuse.Motion.MotionConfig get_Motion() [instance] :21
+// public Fuse.Motion.MotionConfig get_Motion() [instance]
 ::g::Fuse::Motion::MotionConfig* DynamicLinearNavigation::Motion()
 {
     if (_motion == NULL)
@@ -1796,22 +1731,22 @@ int32_t DynamicLinearNavigation::MaxIndex()
     return _motion;
 }
 
-// public void set_Motion(Fuse.Motion.MotionConfig value) [instance] :27
+// public void set_Motion(Fuse.Motion.MotionConfig value) [instance]
 void DynamicLinearNavigation::Motion(::g::Fuse::Motion::MotionConfig* value)
 {
     _motion = value;
 
     if (IsRootingCompleted())
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Motion should not be changed post-rooting"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/DynamicLinearNavigation.uno"), 31, uString::Const("set_Motion"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Motion should not be changed post-rooting"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/DynamicLinearNavigation.uno"), 31, uString::Const("set_Motion"), NULL);
 }
 
-// private Fuse.Visual get_Next() [instance] :555
+// private Fuse.Visual get_Next() [instance]
 ::g::Fuse::Visual* DynamicLinearNavigation::Next()
 {
     return GetPage(GetPageIndex(_active) - 1);
 }
 
-// private void OnUpdated() [instance] :227
+// private void OnUpdated() [instance]
 void DynamicLinearNavigation::OnUpdated()
 {
     ::g::Uno::Float2 ret9;
@@ -1819,7 +1754,7 @@ void DynamicLinearNavigation::OnUpdated()
 
     if (_region == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("Updated called without a region"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/DynamicLinearNavigation.uno"), 231, uString::Const("OnUpdated"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("Updated called without a region"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/DynamicLinearNavigation.uno"), 231, uString::Const("OnUpdated"));
         return;
     }
 
@@ -1829,27 +1764,27 @@ void DynamicLinearNavigation::OnUpdated()
     CheckNeedUpdate(true);
 }
 
-// private Fuse.Visual get_Previous() [instance] :550
+// private Fuse.Visual get_Previous() [instance]
 ::g::Fuse::Visual* DynamicLinearNavigation::Previous()
 {
     return GetPage(GetPageIndex(_active) + 1);
 }
 
-// public float get_Progress() [instance] :381
+// public float get_Progress() [instance]
 float DynamicLinearNavigation::Progress()
 {
     ::g::Uno::Float2 ret13;
     return (_region == NULL) ? _progress : (::g::Fuse::Motion::Simulation::MotionSimulation::get_Position_ex(uInterface(uPtr(_region), ::g::Fuse::Motion::Simulation::MotionSimulation_typeof()->MakeType(::g::Uno::Float2_typeof(), NULL)), &ret13), ret13).X;
 }
 
-// private void ResetRegionLimits() [instance] :246
+// private void ResetRegionLimits() [instance]
 void DynamicLinearNavigation::ResetRegionLimits()
 {
     ::g::Fuse::Motion::Simulation::BoundedRegion2D::MaxPosition(uInterface(uPtr(_region), ::g::Fuse::Motion::Simulation::BoundedRegion2D_typeof()), ::g::Uno::Float2__New2((float)MaxIndex(), 0.0f));
     ::g::Fuse::Motion::Simulation::BoundedRegion2D::MinPosition(uInterface(uPtr(_region), ::g::Fuse::Motion::Simulation::BoundedRegion2D_typeof()), ::g::Uno::Float2__New1(0.0f));
 }
 
-// private void SetDesiredActive(Fuse.Visual page) [instance] :417
+// private void SetDesiredActive(Fuse.Visual page) [instance]
 void DynamicLinearNavigation::SetDesiredActive(::g::Fuse::Visual* page)
 {
     UpdateDesired(page, -1);
@@ -1857,15 +1792,7 @@ void DynamicLinearNavigation::SetDesiredActive(::g::Fuse::Visual* page)
     GotoInternal(page, 0);
 }
 
-// private void SetDesiredActiveIndex(int index) [instance] :424
-void DynamicLinearNavigation::SetDesiredActiveIndex(int32_t index)
-{
-    UpdateDesired(NULL, index);
-    _desired = 2;
-    GotoInternal(_desiredActive, 0);
-}
-
-// private void SetProgress(float value) [instance] :252
+// private void SetProgress(float value) [instance]
 void DynamicLinearNavigation::SetProgress(float value)
 {
     ::g::Uno::Float2 ret11;
@@ -1888,7 +1815,7 @@ void DynamicLinearNavigation::SetProgress(float value)
     ChangeProgress(prev, value, 1);
 }
 
-// private bool TransitionToChild(Fuse.Visual element, [bool bypass], [bool clamp]) [instance] :181
+// private bool TransitionToChild(Fuse.Visual element, [bool bypass], [bool clamp]) [instance]
 bool DynamicLinearNavigation::TransitionToChild(::g::Fuse::Visual* element, bool bypass, bool clamp)
 {
     float targetProgress = (float)GetPageIndex(element);
@@ -1913,7 +1840,7 @@ bool DynamicLinearNavigation::TransitionToChild(::g::Fuse::Visual* element, bool
     return true;
 }
 
-// private void UpdateDesired(Fuse.Visual target, int index) [instance] :326
+// private void UpdateDesired(Fuse.Visual target, int index) [instance]
 void DynamicLinearNavigation::UpdateDesired(::g::Fuse::Visual* target, int32_t index)
 {
     if (target != NULL)
@@ -1936,22 +1863,14 @@ void DynamicLinearNavigation::UpdateDesired(::g::Fuse::Visual* target, int32_t i
         OnPropertyChanged(DynamicLinearNavigation::DesiredActiveIndexName_);
     }
 }
-
-// public generated DynamicLinearNavigation New() [static] :13
-DynamicLinearNavigation* DynamicLinearNavigation::New2()
-{
-    DynamicLinearNavigation* obj4 = (DynamicLinearNavigation*)uNew(DynamicLinearNavigation_typeof());
-    obj4->ctor_4();
-    return obj4;
-}
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/EdgeNavigation.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/EdgeNavigation.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class EdgeNavigation :20
+// public sealed class EdgeNavigation
 // {
-// static generated EdgeNavigation() :20
+// static generated EdgeNavigation()
 static void EdgeNavigation__cctor_2_fn(uType* __type)
 {
     ::g::Fuse::Properties_typeof()->Init();
@@ -1961,19 +1880,19 @@ static void EdgeNavigation__cctor_2_fn(uType* __type)
 static void EdgeNavigation_build(uType* type)
 {
     ::STRINGS[6] = uString::Const("EdgeNavigation may not work as expected with more than one main (non-edge) page.");
-    ::STRINGS[7] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/EdgeNavigation.uno");
+    ::STRINGS[7] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/EdgeNavigation.uno");
     ::STRINGS[8] = uString::Const("CheckChildren");
     ::STRINGS[9] = uString::Const("Element");
     ::STRINGS[10] = uString::Const("OnRooted");
     ::STRINGS[11] = uString::Const("EdgeNavigation must be rooted in an Element");
-    ::TYPES[2] = ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Navigation::PageData_typeof(), NULL);
-    ::TYPES[3] = ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Navigation::PageData_typeof(), NULL);
-    ::TYPES[4] = ::g::Fuse::Elements::Element_typeof();
-    ::TYPES[5] = ::g::Uno::Action2_typeof()->MakeType(uObject_typeof(), ::g::Uno::Double_typeof(), NULL);
-    ::TYPES[6] = ::g::Uno::Collections::Dictionary__Enumerator_typeof()->MakeType(::g::Fuse::Navigation::NavigationEdge_typeof(), ::g::Fuse::Gestures::Internal::EdgeSwiper_typeof(), NULL);
-    ::TYPES[7] = ::g::Uno::Collections::KeyValuePair_typeof()->MakeType(::g::Fuse::Navigation::NavigationEdge_typeof(), ::g::Fuse::Gestures::Internal::EdgeSwiper_typeof(), NULL);
-    ::TYPES[8] = ::g::Fuse::Visual_typeof();
-    ::TYPES[9] = ::g::Fuse::Gestures::Internal::EdgeSwiper_typeof();
+    ::TYPES[1] = ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Navigation::PageData_typeof(), NULL);
+    ::TYPES[2] = ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Navigation::PageData_typeof(), NULL);
+    ::TYPES[3] = ::g::Fuse::Elements::Element_typeof();
+    ::TYPES[4] = ::g::Uno::Action2_typeof()->MakeType(uObject_typeof(), ::g::Uno::Double_typeof(), NULL);
+    ::TYPES[5] = ::g::Uno::Collections::Dictionary__Enumerator_typeof()->MakeType(::g::Fuse::Navigation::NavigationEdge_typeof(), ::g::Fuse::Gestures::Internal::EdgeSwiper_typeof(), NULL);
+    ::TYPES[6] = ::g::Uno::Collections::KeyValuePair_typeof()->MakeType(::g::Fuse::Navigation::NavigationEdge_typeof(), ::g::Fuse::Gestures::Internal::EdgeSwiper_typeof(), NULL);
+    ::TYPES[7] = ::g::Fuse::Visual_typeof();
+    ::TYPES[8] = ::g::Fuse::Gestures::Internal::EdgeSwiper_typeof();
     type->SetInterfaces(
         ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Navigation::VisualNavigation_type, interface0),
         ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(::g::Fuse::Navigation::VisualNavigation_type, interface1),
@@ -1986,9 +1905,9 @@ static void EdgeNavigation_build(uType* type)
         ::g::Fuse::IParentObserver_typeof(), offsetof(::g::Fuse::Navigation::VisualNavigation_type, interface8),
         ::g::Fuse::Navigation::IBaseNavigation_typeof(), offsetof(::g::Fuse::Navigation::VisualNavigation_type, interface9));
     type->SetFields(25,
-        ::TYPES[8/*Fuse.Visual*/], offsetof(EdgeNavigation, _active), 0,
-        ::g::Uno::Collections::Dictionary_typeof()->MakeType(::g::Fuse::Navigation::NavigationEdge_typeof(), ::TYPES[9/*Fuse.Gestures.Internal.EdgeSwiper*/], NULL), offsetof(EdgeNavigation, _swipers), 0,
-        ::g::Uno::Collections::List_typeof()->MakeType(::TYPES[8/*Fuse.Visual*/], NULL), offsetof(EdgeNavigation, _mains), 0,
+        ::TYPES[7/*Fuse.Visual*/], offsetof(EdgeNavigation, _active), 0,
+        ::g::Uno::Collections::Dictionary_typeof()->MakeType(::g::Fuse::Navigation::NavigationEdge_typeof(), ::TYPES[8/*Fuse.Gestures.Internal.EdgeSwiper*/], NULL), offsetof(EdgeNavigation, _swipers), 0,
+        ::g::Uno::Collections::List_typeof()->MakeType(::TYPES[7/*Fuse.Visual*/], NULL), offsetof(EdgeNavigation, _mains), 0,
         ::g::Uno::Double_typeof(), offsetof(EdgeNavigation, _maxProgress), 0,
         ::g::Fuse::PropertyHandle_typeof(), (uintptr_t)&EdgeNavigation::_edgeHandle_, uFieldFlagsStatic);
 }
@@ -2059,7 +1978,7 @@ static void EdgeNavigation_build(uType* type)
     return type;
 }
 
-// public override sealed Fuse.Visual get_Active() :73
+// public override sealed Fuse.Visual get_Active()
 void EdgeNavigation__get_Active_fn(EdgeNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     ::g::Fuse::Visual* ret19;
@@ -2070,43 +1989,43 @@ void EdgeNavigation__get_Active_fn(EdgeNavigation* __this, ::g::Fuse::Visual** _
     return *__retval = __this->_active, void();
 }
 
-// public override sealed void set_Active(Fuse.Visual value) :81
+// public override sealed void set_Active(Fuse.Visual value)
 void EdgeNavigation__set_Active_fn(EdgeNavigation* __this, ::g::Fuse::Visual* value)
 {
     __this->Goto(value, 0);
 }
 
-// public override sealed bool get_CanGoBack() :228
+// public override sealed bool get_CanGoBack()
 void EdgeNavigation__get_CanGoBack_fn(EdgeNavigation* __this, bool* __retval)
 {
     return *__retval = __this->IsAnyPanelActive(), void();
 }
 
-// private void CheckChildren() :132
+// private void CheckChildren()
 void EdgeNavigation__CheckChildren_fn(EdgeNavigation* __this)
 {
     __this->CheckChildren();
 }
 
-// private void CheckProgress() :176
+// private void CheckProgress()
 void EdgeNavigation__CheckProgress_fn(EdgeNavigation* __this)
 {
     __this->CheckProgress();
 }
 
-// private void ClearChildren() :121
+// private void ClearChildren()
 void EdgeNavigation__ClearChildren_fn(EdgeNavigation* __this)
 {
     __this->ClearChildren();
 }
 
-// public static Fuse.Navigation.NavigationEdge GetEdge(Fuse.Visual elm) :31
+// public static Fuse.Navigation.NavigationEdge GetEdge(Fuse.Visual elm)
 void EdgeNavigation__GetEdge_fn(::g::Fuse::Visual* elm, int32_t* __retval)
 {
     *__retval = EdgeNavigation::GetEdge(elm);
 }
 
-// public override sealed Fuse.Navigation.NavigationPageState GetPageState(Fuse.Visual page) :235
+// public override sealed Fuse.Navigation.NavigationPageState GetPageState(Fuse.Visual page)
 void EdgeNavigation__GetPageState_fn(EdgeNavigation* __this, ::g::Fuse::Visual* page, ::g::Fuse::Navigation::NavigationPageState* __retval)
 {
     ::g::Fuse::Navigation::NavigationPageState collection8;
@@ -2118,17 +2037,17 @@ void EdgeNavigation__GetPageState_fn(EdgeNavigation* __this, ::g::Fuse::Visual* 
         try
         {
             {
-                while (enum7.MoveNext(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]))
+                while (enum7.MoveNext(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]))
                 {
-                    ::g::Uno::Collections::KeyValuePair<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > sw = enum7.Current(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                    ::g::Uno::Collections::KeyValuePair<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > sw = enum7.Current(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
 
-                    if (uPtr(sw.Value(::TYPES[7/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Target() == page)
+                    if (uPtr(sw.Value(::TYPES[6/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Target() == page)
                     {
                         collection8 = uDefault< ::g::Fuse::Navigation::NavigationPageState>();
-                        collection8.Progress = (1.0f - (float)uPtr(sw.Value(::TYPES[7/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Progress());
+                        collection8.Progress = (1.0f - (float)uPtr(sw.Value(::TYPES[6/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Progress());
                         collection8.PreviousProgress = 0.0f;
                         ::g::Fuse::Navigation::NavigationPageState __uno_retval = collection8;
-                        enum7.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                        enum7.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
                         return *__retval = __uno_retval, void();
                     }
                 }
@@ -2138,14 +2057,14 @@ void EdgeNavigation__GetPageState_fn(EdgeNavigation* __this, ::g::Fuse::Visual* 
         catch (const uThrowable& __t)
         {
             {
-                enum7.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                enum7.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
             }
                         throw __t;
             goto __after_finally_0;
         }
 
         {
-            enum7.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+            enum7.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
         }
         __after_finally_0:;
     }
@@ -2156,7 +2075,7 @@ void EdgeNavigation__GetPageState_fn(EdgeNavigation* __this, ::g::Fuse::Visual* 
     return *__retval = collection9, void();
 }
 
-// public override sealed void GoBack() :222
+// public override sealed void GoBack()
 void EdgeNavigation__GoBack_fn(EdgeNavigation* __this)
 {
     ::g::Uno::Collections::Dictionary__Enumerator<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > ret15;
@@ -2166,10 +2085,10 @@ void EdgeNavigation__GoBack_fn(EdgeNavigation* __this)
         try
         {
             {
-                while (enum6.MoveNext(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]))
+                while (enum6.MoveNext(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]))
                 {
-                    ::g::Uno::Collections::KeyValuePair<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > sw = enum6.Current(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
-                    uPtr(sw.Value(::TYPES[7/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Disable();
+                    ::g::Uno::Collections::KeyValuePair<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > sw = enum6.Current(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                    uPtr(sw.Value(::TYPES[6/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Disable();
                 }
             }
         }
@@ -2177,20 +2096,20 @@ void EdgeNavigation__GoBack_fn(EdgeNavigation* __this)
         catch (const uThrowable& __t)
         {
             {
-                enum6.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                enum6.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
             }
                         throw __t;
             goto __after_finally_1;
         }
 
         {
-            enum6.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+            enum6.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
         }
         __after_finally_1:;
     }
 }
 
-// public override sealed void Goto(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode) :45
+// public override sealed void Goto(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode)
 void EdgeNavigation__Goto_fn(EdgeNavigation* __this, ::g::Fuse::Visual* element, int32_t* mode)
 {
     int32_t mode_ = *mode;
@@ -2205,14 +2124,14 @@ void EdgeNavigation__Goto_fn(EdgeNavigation* __this, ::g::Fuse::Visual* element,
         try
         {
             {
-                while (enum1.MoveNext(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]))
+                while (enum1.MoveNext(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]))
                 {
-                    ::g::Uno::Collections::KeyValuePair<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > sw = enum1.Current(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                    ::g::Uno::Collections::KeyValuePair<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > sw = enum1.Current(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
 
-                    if (uPtr(sw.Value(::TYPES[7/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Target() == element)
-                        uPtr(sw.Value(::TYPES[7/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Enable();
+                    if (uPtr(sw.Value(::TYPES[6/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Target() == element)
+                        uPtr(sw.Value(::TYPES[6/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Enable();
                     else
-                        uPtr(sw.Value(::TYPES[7/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Disable();
+                        uPtr(sw.Value(::TYPES[6/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Disable();
                 }
             }
         }
@@ -2220,14 +2139,14 @@ void EdgeNavigation__Goto_fn(EdgeNavigation* __this, ::g::Fuse::Visual* element,
         catch (const uThrowable& __t)
         {
             {
-                enum1.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                enum1.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
             }
                         throw __t;
             goto __after_finally_2;
         }
 
         {
-            enum1.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+            enum1.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
         }
         __after_finally_2:;
     }
@@ -2235,54 +2154,54 @@ void EdgeNavigation__Goto_fn(EdgeNavigation* __this, ::g::Fuse::Visual* element,
     __this->CheckProgress();
 }
 
-// internal bool IsAnyPanelActive() :212
+// internal bool IsAnyPanelActive()
 void EdgeNavigation__IsAnyPanelActive_fn(EdgeNavigation* __this, bool* __retval)
 {
     *__retval = __this->IsAnyPanelActive();
 }
 
-// public override sealed void OnChildAddedWhileRooted(Fuse.Node child) :106
+// public override sealed void OnChildAddedWhileRooted(Fuse.Node child)
 void EdgeNavigation__OnChildAddedWhileRooted_fn(EdgeNavigation* __this, ::g::Fuse::Node* child)
 {
     ::g::Fuse::Navigation::VisualNavigation__OnChildAddedWhileRooted_fn(__this, child);
     __this->CheckChildren();
 }
 
-// public override sealed void OnChildRemovedWhileRooted(Fuse.Node child) :112
+// public override sealed void OnChildRemovedWhileRooted(Fuse.Node child)
 void EdgeNavigation__OnChildRemovedWhileRooted_fn(EdgeNavigation* __this, ::g::Fuse::Node* child)
 {
     ::g::Fuse::Navigation::VisualNavigation__OnChildRemovedWhileRooted_fn(__this, child);
     __this->CheckChildren();
 }
 
-// private void OnProgressChanged(object s, double progress) :165
+// private void OnProgressChanged(object s, double progress)
 void EdgeNavigation__OnProgressChanged_fn(EdgeNavigation* __this, uObject* s, double* progress)
 {
     __this->OnProgressChanged(s, *progress);
 }
 
-// protected override sealed void OnRooted() :87
+// protected override sealed void OnRooted()
 void EdgeNavigation__OnRooted_fn(EdgeNavigation* __this)
 {
     ::g::Fuse::Navigation::VisualNavigation__OnRooted_fn(__this);
 
-    if (!uIs((::g::Fuse::Visual*)__this->Parent(), ::TYPES[4/*Fuse.Elements.Element*/]))
+    if (!uIs((::g::Fuse::Visual*)__this->Parent(), ::TYPES[3/*Fuse.Elements.Element*/]))
     {
-        ::g::Fuse::Diagnostics::UserRootError(::STRINGS[9/*"Element"*/], __this->Parent(), __this, ::STRINGS[7/*"/usr/local/...*/], 92, ::STRINGS[10/*"OnRooted"*/]);
+        ::g::Fuse::Diagnostics::UserRootError(::STRINGS[9/*"Element"*/], __this->Parent(), __this, ::STRINGS[7/*"/Users/antt...*/], 92, ::STRINGS[10/*"OnRooted"*/]);
         U_THROW(::g::Uno::Exception::New2(::STRINGS[11/*"EdgeNavigat...*/]));
     }
 
     __this->CheckChildren();
 }
 
-// protected override sealed void OnUnrooted() :100
+// protected override sealed void OnUnrooted()
 void EdgeNavigation__OnUnrooted_fn(EdgeNavigation* __this)
 {
     __this->ClearChildren();
     ::g::Fuse::Navigation::VisualNavigation__OnUnrooted_fn(__this);
 }
 
-// public override sealed void Toggle(Fuse.Visual page) :62
+// public override sealed void Toggle(Fuse.Visual page)
 void EdgeNavigation__Toggle_fn(EdgeNavigation* __this, ::g::Fuse::Visual* page)
 {
     if (__this->Active() == page)
@@ -2293,16 +2212,16 @@ void EdgeNavigation__Toggle_fn(EdgeNavigation* __this, ::g::Fuse::Visual* page)
 
 uSStrong< ::g::Fuse::PropertyHandle*> EdgeNavigation::_edgeHandle_;
 
-// private void CheckChildren() [instance] :132
+// private void CheckChildren() [instance]
 void EdgeNavigation::CheckChildren()
 {
     ::g::Fuse::Navigation::PageData* ret11;
     ClearChildren();
 
-    for (int32_t i = 0; i < ::g::Uno::Collections::ICollection::Count(uInterface(uPtr(Pages()), ::TYPES[2/*Uno.Collections.ICollection<Fuse.Navigation.PageData>*/])); i++)
+    for (int32_t i = 0; i < ::g::Uno::Collections::ICollection::Count(uInterface(uPtr(Pages()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Navigation.PageData>*/])); i++)
     {
-        ::g::Fuse::Visual* nodeChild = uPtr((::g::Uno::Collections::IList::get_Item_ex(uInterface(uPtr(Pages()), ::TYPES[3/*Uno.Collections.IList<Fuse.Navigation.PageData>*/]), uCRef<int32_t>(i), &ret11), ret11))->Visual();
-        ::g::Fuse::Elements::Element* element = uAs< ::g::Fuse::Elements::Element*>(nodeChild, ::TYPES[4/*Fuse.Elements.Element*/]);
+        ::g::Fuse::Visual* nodeChild = uPtr((::g::Uno::Collections::IList::get_Item_ex(uInterface(uPtr(Pages()), ::TYPES[2/*Uno.Collections.IList<Fuse.Navigation.PageData>*/]), uCRef<int32_t>(i), &ret11), ret11))->Visual();
+        ::g::Fuse::Elements::Element* element = uAs< ::g::Fuse::Elements::Element*>(nodeChild, ::TYPES[3/*Fuse.Elements.Element*/]);
         int32_t edge = (element == NULL) ? 4 : EdgeNavigation::GetEdge(element);
 
         if (edge == 4)
@@ -2310,15 +2229,15 @@ void EdgeNavigation::CheckChildren()
             ::g::Uno::Collections::List__Add_fn(uPtr(_mains), nodeChild);
 
             if (uPtr(_mains)->Count() > 1)
-                ::g::Fuse::Diagnostics::UserWarning(::STRINGS[6/*"EdgeNavigat...*/], this, ::STRINGS[7/*"/usr/local/...*/], 147, ::STRINGS[8/*"CheckChildren"*/]);
+                ::g::Fuse::Diagnostics::UserWarning(::STRINGS[6/*"EdgeNavigat...*/], this, ::STRINGS[7/*"/Users/antt...*/], 147, ::STRINGS[8/*"CheckChildren"*/]);
         }
         else
         {
             ::g::Fuse::Gestures::Internal::EdgeSwiper* s = ::g::Fuse::Gestures::Internal::EdgeSwiper::New1();
             s->Edge(edge);
             s->Target(element);
-            s->add_ProgressChanged(uDelegate::New(::TYPES[5/*Uno.Action<object, double>*/], (void*)EdgeNavigation__OnProgressChanged_fn, this));
-            s->Rooted(uAs< ::g::Fuse::Elements::Element*>(Parent(), ::TYPES[4/*Fuse.Elements.Element*/]));
+            s->add_ProgressChanged(uDelegate::New(::TYPES[4/*Uno.Action<object, double>*/], (void*)EdgeNavigation__OnProgressChanged_fn, this));
+            s->Rooted(uAs< ::g::Fuse::Elements::Element*>(Parent(), ::TYPES[3/*Fuse.Elements.Element*/]));
             ::g::Uno::Collections::Dictionary__set_Item_fn(uPtr(_swipers), uCRef<int32_t>(edge), s);
         }
     }
@@ -2326,7 +2245,7 @@ void EdgeNavigation::CheckChildren()
     OnPageProgressChanged1(1);
 }
 
-// private void CheckProgress() [instance] :176
+// private void CheckProgress() [instance]
 void EdgeNavigation::CheckProgress()
 {
     ::g::Uno::Collections::Dictionary__Enumerator<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > ret12;
@@ -2338,14 +2257,14 @@ void EdgeNavigation::CheckProgress()
         try
         {
             {
-                while (enum3.MoveNext(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]))
+                while (enum3.MoveNext(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]))
                 {
-                    ::g::Uno::Collections::KeyValuePair<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > sw = enum3.Current(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                    ::g::Uno::Collections::KeyValuePair<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > sw = enum3.Current(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
 
-                    if (uPtr(sw.Value(::TYPES[7/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Progress() > _maxProgress)
+                    if (uPtr(sw.Value(::TYPES[6/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Progress() > _maxProgress)
                     {
-                        maxPage = uPtr(sw.Value(::TYPES[7/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Target();
-                        _maxProgress = uPtr(sw.Value(::TYPES[7/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Progress();
+                        maxPage = uPtr(sw.Value(::TYPES[6/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Target();
+                        _maxProgress = uPtr(sw.Value(::TYPES[6/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Progress();
                     }
                 }
             }
@@ -2354,19 +2273,19 @@ void EdgeNavigation::CheckProgress()
         catch (const uThrowable& __t)
         {
             {
-                enum3.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                enum3.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
             }
                         throw __t;
             goto __after_finally_3;
         }
 
         {
-            enum3.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+            enum3.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
         }
         __after_finally_3:;
     }
 
-    ::g::Fuse::Visual* newActive = (_maxProgress == 0.0) ? uCast< ::g::Fuse::Visual*>(NULL, ::TYPES[8/*Fuse.Visual*/]) : maxPage;
+    ::g::Fuse::Visual* newActive = (_maxProgress == 0.0) ? uCast< ::g::Fuse::Visual*>(NULL, ::TYPES[7/*Fuse.Visual*/]) : maxPage;
 
     if (newActive != _active)
     {
@@ -2377,7 +2296,7 @@ void EdgeNavigation::CheckProgress()
     OnPageProgressChanged1(2);
 }
 
-// private void ClearChildren() [instance] :121
+// private void ClearChildren() [instance]
 void EdgeNavigation::ClearChildren()
 {
     ::g::Uno::Collections::Dictionary__Enumerator<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > ret13;
@@ -2387,11 +2306,11 @@ void EdgeNavigation::ClearChildren()
         try
         {
             {
-                while (enum2.MoveNext(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]))
+                while (enum2.MoveNext(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]))
                 {
-                    ::g::Uno::Collections::KeyValuePair<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > s = enum2.Current(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
-                    uPtr(s.Value(::TYPES[7/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->remove_ProgressChanged(uDelegate::New(::TYPES[5/*Uno.Action<object, double>*/], (void*)EdgeNavigation__OnProgressChanged_fn, this));
-                    uPtr(s.Value(::TYPES[7/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Unrooted();
+                    ::g::Uno::Collections::KeyValuePair<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > s = enum2.Current(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                    uPtr(s.Value(::TYPES[6/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->remove_ProgressChanged(uDelegate::New(::TYPES[4/*Uno.Action<object, double>*/], (void*)EdgeNavigation__OnProgressChanged_fn, this));
+                    uPtr(s.Value(::TYPES[6/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Unrooted();
                 }
             }
         }
@@ -2399,14 +2318,14 @@ void EdgeNavigation::ClearChildren()
         catch (const uThrowable& __t)
         {
             {
-                enum2.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                enum2.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
             }
                         throw __t;
             goto __after_finally_4;
         }
 
         {
-            enum2.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+            enum2.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
         }
         __after_finally_4:;
     }
@@ -2415,7 +2334,7 @@ void EdgeNavigation::ClearChildren()
     uPtr(_mains)->Clear();
 }
 
-// internal bool IsAnyPanelActive() [instance] :212
+// internal bool IsAnyPanelActive() [instance]
 bool EdgeNavigation::IsAnyPanelActive()
 {
     ::g::Uno::Collections::Dictionary__Enumerator<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > ret17;
@@ -2425,14 +2344,14 @@ bool EdgeNavigation::IsAnyPanelActive()
         try
         {
             {
-                while (enum5.MoveNext(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]))
+                while (enum5.MoveNext(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]))
                 {
-                    ::g::Uno::Collections::KeyValuePair<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > sw = enum5.Current(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                    ::g::Uno::Collections::KeyValuePair<int32_t, uStrong< ::g::Fuse::Gestures::Internal::EdgeSwiper*> > sw = enum5.Current(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
 
-                    if (uPtr(sw.Value(::TYPES[7/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Progress() > 0.0)
+                    if (uPtr(sw.Value(::TYPES[6/*Uno.Collections.KeyValuePair<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>*/]))->Progress() > 0.0)
                     {
                         bool __uno_retval = true;
-                        enum5.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                        enum5.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
                         return __uno_retval;
                     }
                 }
@@ -2442,14 +2361,14 @@ bool EdgeNavigation::IsAnyPanelActive()
         catch (const uThrowable& __t)
         {
             {
-                enum5.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+                enum5.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
             }
                         throw __t;
             goto __after_finally_5;
         }
 
         {
-            enum5.Dispose(::TYPES[6/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
+            enum5.Dispose(::TYPES[5/*Uno.Collections.Dictionary<Fuse.Navigation.NavigationEdge, Fuse.Gestures.Internal.EdgeSwiper>.Enumerator*/]);
         }
         __after_finally_5:;
     }
@@ -2457,10 +2376,10 @@ bool EdgeNavigation::IsAnyPanelActive()
     return false;
 }
 
-// private void OnProgressChanged(object s, double progress) [instance] :165
+// private void OnProgressChanged(object s, double progress) [instance]
 void EdgeNavigation::OnProgressChanged(uObject* s, double progress)
 {
-    ::g::Fuse::Gestures::Internal::EdgeSwiper* swiper = uAs< ::g::Fuse::Gestures::Internal::EdgeSwiper*>(s, ::TYPES[9/*Fuse.Gestures.Internal.EdgeSwiper*/]);
+    ::g::Fuse::Gestures::Internal::EdgeSwiper* swiper = uAs< ::g::Fuse::Gestures::Internal::EdgeSwiper*>(s, ::TYPES[8/*Fuse.Gestures.Internal.EdgeSwiper*/]);
     ::g::Fuse::Elements::Element* panel = uPtr(swiper)->Target();
 
     if ((panel == NULL) || (swiper == NULL))
@@ -2469,7 +2388,7 @@ void EdgeNavigation::OnProgressChanged(uObject* s, double progress)
     CheckProgress();
 }
 
-// public static Fuse.Navigation.NavigationEdge GetEdge(Fuse.Visual elm) [static] :31
+// public static Fuse.Navigation.NavigationEdge GetEdge(Fuse.Visual elm) [static]
 int32_t EdgeNavigation::GetEdge(::g::Fuse::Visual* elm)
 {
     EdgeNavigation_typeof()->Init();
@@ -2482,10 +2401,10 @@ int32_t EdgeNavigation::GetEdge(::g::Fuse::Visual* elm)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/SwipeNavigate.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/SwipeNavigate.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class EndSeekArgs :50
+// internal sealed class EndSeekArgs
 // {
 static void EndSeekArgs_build(uType* type)
 {
@@ -2508,74 +2427,74 @@ uType* EndSeekArgs_typeof()
     return type;
 }
 
-// public EndSeekArgs(Fuse.Navigation.SnapTo snapTo, [float velocity]) :55
+// public EndSeekArgs(Fuse.Navigation.SnapTo snapTo, [float velocity])
 void EndSeekArgs__ctor__fn(EndSeekArgs* __this, int32_t* snapTo, float* velocity)
 {
     __this->ctor_(*snapTo, *velocity);
 }
 
-// public EndSeekArgs New(Fuse.Navigation.SnapTo snapTo, [float velocity]) :55
+// public EndSeekArgs New(Fuse.Navigation.SnapTo snapTo, [float velocity])
 void EndSeekArgs__New1_fn(int32_t* snapTo, float* velocity, EndSeekArgs** __retval)
 {
     *__retval = EndSeekArgs::New1(*snapTo, *velocity);
 }
 
-// public generated Fuse.Navigation.SnapTo get_SnapTo() :53
+// public generated Fuse.Navigation.SnapTo get_SnapTo()
 void EndSeekArgs__get_SnapTo_fn(EndSeekArgs* __this, int32_t* __retval)
 {
     *__retval = __this->SnapTo();
 }
 
-// private generated void set_SnapTo(Fuse.Navigation.SnapTo value) :53
+// private generated void set_SnapTo(Fuse.Navigation.SnapTo value)
 void EndSeekArgs__set_SnapTo_fn(EndSeekArgs* __this, int32_t* value)
 {
     __this->SnapTo(*value);
 }
 
-// public generated float get_Velocity() :52
+// public generated float get_Velocity()
 void EndSeekArgs__get_Velocity_fn(EndSeekArgs* __this, float* __retval)
 {
     *__retval = __this->Velocity();
 }
 
-// private generated void set_Velocity(float value) :52
+// private generated void set_Velocity(float value)
 void EndSeekArgs__set_Velocity_fn(EndSeekArgs* __this, float* value)
 {
     __this->Velocity(*value);
 }
 
-// public EndSeekArgs(Fuse.Navigation.SnapTo snapTo, [float velocity]) [instance] :55
+// public EndSeekArgs(Fuse.Navigation.SnapTo snapTo, [float velocity]) [instance]
 void EndSeekArgs::ctor_(int32_t snapTo, float velocity)
 {
     SnapTo(snapTo);
     Velocity(velocity);
 }
 
-// public generated Fuse.Navigation.SnapTo get_SnapTo() [instance] :53
+// public generated Fuse.Navigation.SnapTo get_SnapTo() [instance]
 int32_t EndSeekArgs::SnapTo()
 {
     return _SnapTo;
 }
 
-// private generated void set_SnapTo(Fuse.Navigation.SnapTo value) [instance] :53
+// private generated void set_SnapTo(Fuse.Navigation.SnapTo value) [instance]
 void EndSeekArgs::SnapTo(int32_t value)
 {
     _SnapTo = value;
 }
 
-// public generated float get_Velocity() [instance] :52
+// public generated float get_Velocity() [instance]
 float EndSeekArgs::Velocity()
 {
     return _Velocity;
 }
 
-// private generated void set_Velocity(float value) [instance] :52
+// private generated void set_Velocity(float value) [instance]
 void EndSeekArgs::Velocity(float value)
 {
     _Velocity = value;
 }
 
-// public EndSeekArgs New(Fuse.Navigation.SnapTo snapTo, [float velocity]) [static] :55
+// public EndSeekArgs New(Fuse.Navigation.SnapTo snapTo, [float velocity]) [static]
 EndSeekArgs* EndSeekArgs::New1(int32_t snapTo, float velocity)
 {
     EndSeekArgs* obj1 = (EndSeekArgs*)uNew(EndSeekArgs_typeof());
@@ -2584,14 +2503,14 @@ EndSeekArgs* EndSeekArgs::New1(int32_t snapTo, float velocity)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/NavigationAnimations.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/NavigationAnimations.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class EnterExitAnimation :134
+// public abstract class EnterExitAnimation
 // {
 static void EnterExitAnimation_build(uType* type)
 {
-    ::TYPES[1] = ::g::Fuse::Navigation::INavigation_typeof();
+    ::TYPES[0] = ::g::Fuse::Navigation::INavigation_typeof();
     type->SetDependencies(
         ::g::Uno::Math_typeof());
     type->SetInterfaces(
@@ -2649,31 +2568,31 @@ static void EnterExitAnimation_build(uType* type)
     return type;
 }
 
-// protected generated EnterExitAnimation() :134
+// protected generated EnterExitAnimation()
 void EnterExitAnimation__ctor_6_fn(EnterExitAnimation* __this)
 {
     __this->ctor_6();
 }
 
-// protected override sealed void ForceUpdate() :136
+// protected override sealed void ForceUpdate()
 void EnterExitAnimation__ForceUpdate_fn(EnterExitAnimation* __this)
 {
-    float p = ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(__this->NavContext()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), __this->PageContext()).Progress;
+    float p = ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(__this->NavContext()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), __this->PageContext()).Progress;
 
     if (__this->IsMatch((double)p))
         __this->Seek((double)(__this->Scale() * ::g::Uno::Math::Abs1(p)), 0);
 }
 
-// private bool IsMatch(double progress) :143
+// private bool IsMatch(double progress)
 void EnterExitAnimation__IsMatch_fn(EnterExitAnimation* __this, double* progress, bool* __retval)
 {
     *__retval = __this->IsMatch(*progress);
 }
 
-// internal override sealed void OnNavigationStateChanged(object sender, Fuse.Navigation.NavigationArgs state) :151
+// internal override sealed void OnNavigationStateChanged(object sender, Fuse.Navigation.NavigationArgs state)
 void EnterExitAnimation__OnNavigationStateChanged_fn(EnterExitAnimation* __this, uObject* sender, ::g::Fuse::Navigation::NavigationArgs* state)
 {
-    ::g::Fuse::Navigation::NavigationPageState ps = ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(__this->NavContext()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), __this->PageContext());
+    ::g::Fuse::Navigation::NavigationPageState ps = ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(__this->NavContext()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), __this->PageContext());
     int32_t d = (::g::Uno::Math::Abs1(ps.PreviousProgress) < ::g::Uno::Math::Abs1(ps.Progress)) ? 0 : 1;
 
     if (!__this->IsMatch((double)ps.Progress))
@@ -2685,23 +2604,23 @@ void EnterExitAnimation__OnNavigationStateChanged_fn(EnterExitAnimation* __this,
     __this->GoProgress((double)(__this->Scale() * ::g::Uno::Math::Abs1(ps.Progress)), d, state);
 }
 
-// protected generated EnterExitAnimation() [instance] :134
+// protected generated EnterExitAnimation() [instance]
 void EnterExitAnimation::ctor_6()
 {
     ctor_5();
 }
 
-// private bool IsMatch(double progress) [instance] :143
+// private bool IsMatch(double progress) [instance]
 bool EnterExitAnimation::IsMatch(double progress)
 {
     return (PositiveProgress && (progress >= 0.0)) || (NegativeProgress && (progress <= 0.0));
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/NavigationAnimations.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/NavigationAnimations.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public class EnteringAnimation :226
+// public class EnteringAnimation
 // {
 static void EnteringAnimation_build(uType* type)
 {
@@ -2756,26 +2675,26 @@ static void EnteringAnimation_build(uType* type)
     return type;
 }
 
-// public EnteringAnimation() :228
+// public EnteringAnimation()
 void EnteringAnimation__ctor_7_fn(EnteringAnimation* __this)
 {
     __this->ctor_7();
 }
 
-// public EnteringAnimation New() :228
+// public EnteringAnimation New()
 void EnteringAnimation__New2_fn(EnteringAnimation** __retval)
 {
     *__retval = EnteringAnimation::New2();
 }
 
-// public EnteringAnimation() [instance] :228
+// public EnteringAnimation() [instance]
 void EnteringAnimation::ctor_7()
 {
     ctor_6();
     PositiveProgress = true;
 }
 
-// public EnteringAnimation New() [static] :228
+// public EnteringAnimation New() [static]
 EnteringAnimation* EnteringAnimation::New2()
 {
     EnteringAnimation* obj1 = (EnteringAnimation*)uNew(EnteringAnimation_typeof());
@@ -2784,10 +2703,10 @@ EnteringAnimation* EnteringAnimation::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/NavigationAnimations.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/NavigationAnimations.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public class ExitingAnimation :191
+// public class ExitingAnimation
 // {
 static void ExitingAnimation_build(uType* type)
 {
@@ -2817,7 +2736,6 @@ static void ExitingAnimation_build(uType* type)
     options.TypeSize = sizeof(::g::Fuse::Navigation::NavigationAnimation_type);
     type = (::g::Fuse::Navigation::NavigationAnimation_type*)uClassType::New("Fuse.Navigation.ExitingAnimation", options);
     type->fp_build_ = ExitingAnimation_build;
-    type->fp_ctor_ = (void*)ExitingAnimation__New2_fn;
     type->interface8.fp_OnPlaybackDone = (void(*)(uObject*, uObject*))::g::Fuse::Triggers::Trigger__FuseAnimationsIBasePlayerFeedbackOnPlaybackDone_fn;
     type->interface8.fp_OnStable = (void(*)(uObject*, uObject*))::g::Fuse::Triggers::Trigger__FuseAnimationsIBasePlayerFeedbackOnStable_fn;
     type->interface7.fp_OnProgressUpdated = (void(*)(uObject*, uObject*, double*, double*, int32_t*))::g::Fuse::Triggers::Trigger__FuseAnimationsIUnwrappedPlayerFeedbackOnProgressUpdated_fn;
@@ -2842,38 +2760,24 @@ static void ExitingAnimation_build(uType* type)
     return type;
 }
 
-// public ExitingAnimation() :193
+// public ExitingAnimation()
 void ExitingAnimation__ctor_7_fn(ExitingAnimation* __this)
 {
     __this->ctor_7();
 }
 
-// public ExitingAnimation New() :193
-void ExitingAnimation__New2_fn(ExitingAnimation** __retval)
-{
-    *__retval = ExitingAnimation::New2();
-}
-
-// public ExitingAnimation() [instance] :193
+// public ExitingAnimation() [instance]
 void ExitingAnimation::ctor_7()
 {
     ctor_6();
     NegativeProgress = true;
 }
-
-// public ExitingAnimation New() [static] :193
-ExitingAnimation* ExitingAnimation::New2()
-{
-    ExitingAnimation* obj1 = (ExitingAnimation*)uNew(ExitingAnimation_typeof());
-    obj1->ctor_7();
-    return obj1;
-}
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/ExplicitNavigation.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/ExplicitNavigation.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class ExplicitNavigation :9
+// internal sealed class ExplicitNavigation
 // {
 static void ExplicitNavigation_build(uType* type)
 {
@@ -2949,13 +2853,13 @@ static void ExplicitNavigation_build(uType* type)
     return type;
 }
 
-// public override sealed Fuse.Visual get_Active() :26
+// public override sealed Fuse.Visual get_Active()
 void ExplicitNavigation__get_Active_fn(ExplicitNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     return *__retval = __this->_active, void();
 }
 
-// public override sealed void set_Active(Fuse.Visual value) :27
+// public override sealed void set_Active(Fuse.Visual value)
 void ExplicitNavigation__set_Active_fn(ExplicitNavigation* __this, ::g::Fuse::Visual* value)
 {
     if (__this->_active != value)
@@ -2966,7 +2870,7 @@ void ExplicitNavigation__set_Active_fn(ExplicitNavigation* __this, ::g::Fuse::Vi
     }
 }
 
-// public override sealed void Goto(Fuse.Visual visual, Fuse.Navigation.NavigationGotoMode mode) :11
+// public override sealed void Goto(Fuse.Visual visual, Fuse.Navigation.NavigationGotoMode mode)
 void ExplicitNavigation__Goto_fn(ExplicitNavigation* __this, ::g::Fuse::Visual* visual, int32_t* mode)
 {
     int32_t mode_ = *mode;
@@ -2979,49 +2883,49 @@ void ExplicitNavigation__Goto_fn(ExplicitNavigation* __this, ::g::Fuse::Visual* 
     __this->OnPageProgressChanged1((mode_ == 1) ? 1 : 0);
 }
 
-// public void SetPageProgress(Fuse.Visual page, float progress, [bool update]) :59
+// public void SetPageProgress(Fuse.Visual page, float progress, [bool update])
 void ExplicitNavigation__SetPageProgress_fn(ExplicitNavigation* __this, ::g::Fuse::Visual* page, float* progress, bool* update)
 {
     __this->SetPageProgress(page, *progress, *update);
 }
 
-// public void SetPageProgress(Fuse.Visual page, float progress, float previous, [bool update]) :54
+// public void SetPageProgress(Fuse.Visual page, float progress, float previous, [bool update])
 void ExplicitNavigation__SetPageProgress1_fn(ExplicitNavigation* __this, ::g::Fuse::Visual* page, float* progress, float* previous, bool* update)
 {
     __this->SetPageProgress1(page, *progress, *previous, *update);
 }
 
-// private void SetPageProgress(Fuse.Visual page, float progress, float previous, bool update, bool havPrev) :43
+// private void SetPageProgress(Fuse.Visual page, float progress, float previous, bool update, bool havPrev)
 void ExplicitNavigation__SetPageProgress2_fn(ExplicitNavigation* __this, ::g::Fuse::Visual* page, float* progress, float* previous, bool* update, bool* havPrev)
 {
     __this->SetPageProgress2(page, *progress, *previous, *update, *havPrev);
 }
 
-// public void SetState(Fuse.Navigation.NavigationState state) :69
+// public void SetState(Fuse.Navigation.NavigationState state)
 void ExplicitNavigation__SetState_fn(ExplicitNavigation* __this, int32_t* state)
 {
     __this->SetState(*state);
 }
 
-// public void UpdateProgress(Fuse.Navigation.NavigationMode mode) :64
+// public void UpdateProgress(Fuse.Navigation.NavigationMode mode)
 void ExplicitNavigation__UpdateProgress_fn(ExplicitNavigation* __this, int32_t* mode)
 {
     __this->UpdateProgress(*mode);
 }
 
-// public void SetPageProgress(Fuse.Visual page, float progress, [bool update]) [instance] :59
+// public void SetPageProgress(Fuse.Visual page, float progress, [bool update]) [instance]
 void ExplicitNavigation::SetPageProgress(::g::Fuse::Visual* page, float progress, bool update)
 {
     SetPageProgress2(page, progress, 0.0f, update, false);
 }
 
-// public void SetPageProgress(Fuse.Visual page, float progress, float previous, [bool update]) [instance] :54
+// public void SetPageProgress(Fuse.Visual page, float progress, float previous, [bool update]) [instance]
 void ExplicitNavigation::SetPageProgress1(::g::Fuse::Visual* page, float progress, float previous, bool update)
 {
     SetPageProgress2(page, progress, previous, update, true);
 }
 
-// private void SetPageProgress(Fuse.Visual page, float progress, float previous, bool update, bool havPrev) [instance] :43
+// private void SetPageProgress(Fuse.Visual page, float progress, float previous, bool update, bool havPrev) [instance]
 void ExplicitNavigation::SetPageProgress2(::g::Fuse::Visual* page, float progress, float previous, bool update, bool havPrev)
 {
     ::g::Fuse::Navigation::PageData* pd = GetPageData(page);
@@ -3036,23 +2940,23 @@ void ExplicitNavigation::SetPageProgress2(::g::Fuse::Visual* page, float progres
         OnPageProgressChanged1(0);
 }
 
-// public void SetState(Fuse.Navigation.NavigationState state) [instance] :69
+// public void SetState(Fuse.Navigation.NavigationState state) [instance]
 void ExplicitNavigation::SetState(int32_t state)
 {
     OnStateChanged(state);
 }
 
-// public void UpdateProgress(Fuse.Navigation.NavigationMode mode) [instance] :64
+// public void UpdateProgress(Fuse.Navigation.NavigationMode mode) [instance]
 void ExplicitNavigation::UpdateProgress(int32_t mode)
 {
     OnPageProgressChanged1(mode);
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum RouterRequest.Fields :90
+// public enum RouterRequest.Fields
 uEnumType* RouterRequest__Fields_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3072,10 +2976,10 @@ uEnumType* RouterRequest__Fields_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/FindRouter.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/FindRouter.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class FindRouter :25
+// public sealed class FindRouter
 // {
 static void FindRouter_build(uType* type)
 {
@@ -3106,17 +3010,17 @@ static void FindRouter_build(uType* type)
     return type;
 }
 
-// public override sealed Uno.IDisposable Subscribe(Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) :32
+// public override sealed Uno.IDisposable Subscribe(Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener)
 void FindRouter__Subscribe_fn(FindRouter* __this, uObject* context, uObject* listener, uObject** __retval)
 {
-    return *__retval = (uObject*)FindRouter__Subscription::New1(__this, ::g::Fuse::Reactive::IContext::Node(uInterface(uPtr(context), ::TYPES[14/*Fuse.Reactive.IContext*/])), listener), void();
+    return *__retval = (uObject*)FindRouter__Subscription::New1(__this, ::g::Fuse::Reactive::IContext::Node(uInterface(uPtr(context), ::TYPES[13/*Fuse.Reactive.IContext*/])), listener), void();
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterModify.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterModify.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal enum RouterModify.Flags :98
+// internal enum RouterModify.Flags
 uEnumType* RouterModify__Flags_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3128,10 +3032,10 @@ uEnumType* RouterModify__Flags_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum RouterRequest.Flags :36
+// public enum RouterRequest.Flags
 uEnumType* RouterRequest__Flags_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3144,10 +3048,10 @@ uEnumType* RouterRequest__Flags_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Router.GetHistoryAt :773
+// private sealed class Router.GetHistoryAt
 // {
 static void Router__GetHistoryAt_build(uType* type)
 {
@@ -3171,30 +3075,30 @@ uType* Router__GetHistoryAt_typeof()
     return type;
 }
 
-// public generated GetHistoryAt() :773
+// public generated GetHistoryAt()
 void Router__GetHistoryAt__ctor__fn(Router__GetHistoryAt* __this)
 {
     __this->ctor_();
 }
 
-// public bool HistoryAction(Uno.Collections.List<Fuse.Navigation.RouterPage> stack) :779
+// public bool HistoryAction(Uno.Collections.List<Fuse.Navigation.RouterPage> stack)
 void Router__GetHistoryAt__HistoryAction_fn(Router__GetHistoryAt* __this, ::g::Uno::Collections::List* stack, bool* __retval)
 {
     *__retval = __this->HistoryAction(stack);
 }
 
-// public generated GetHistoryAt New() :773
+// public generated GetHistoryAt New()
 void Router__GetHistoryAt__New1_fn(Router__GetHistoryAt** __retval)
 {
     *__retval = Router__GetHistoryAt::New1();
 }
 
-// public generated GetHistoryAt() [instance] :773
+// public generated GetHistoryAt() [instance]
 void Router__GetHistoryAt::ctor_()
 {
 }
 
-// public bool HistoryAction(Uno.Collections.List<Fuse.Navigation.RouterPage> stack) [instance] :779
+// public bool HistoryAction(Uno.Collections.List<Fuse.Navigation.RouterPage> stack) [instance]
 bool Router__GetHistoryAt::HistoryAction(::g::Uno::Collections::List* stack)
 {
     ::g::Fuse::Navigation::RouterPage* ret2;
@@ -3210,7 +3114,7 @@ bool Router__GetHistoryAt::HistoryAction(::g::Uno::Collections::List* stack)
     return At >= 0;
 }
 
-// public generated GetHistoryAt New() [static] :773
+// public generated GetHistoryAt New() [static]
 Router__GetHistoryAt* Router__GetHistoryAt::New1()
 {
     Router__GetHistoryAt* obj1 = (Router__GetHistoryAt*)uNew(Router__GetHistoryAt_typeof());
@@ -3219,18 +3123,18 @@ Router__GetHistoryAt* Router__GetHistoryAt::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Router.GetRouteCallback :323
+// private sealed class Router.GetRouteCallback
 // {
 static void Router__GetRouteCallback_build(uType* type)
 {
-    ::TYPES[10] = uObject_typeof()->Array();
-    ::TYPES[11] = ::g::Fuse::Scripting::IThreadWorker_typeof();
-    ::TYPES[12] = ::g::Uno::Action1_typeof()->MakeType(::g::Fuse::Scripting::Context_typeof(), NULL);
+    ::TYPES[9] = uObject_typeof()->Array();
+    ::TYPES[10] = ::g::Fuse::Scripting::IThreadWorker_typeof();
+    ::TYPES[11] = ::g::Uno::Action1_typeof()->MakeType(::g::Fuse::Scripting::Context_typeof(), NULL);
     type->SetFields(0,
-        ::TYPES[11/*Fuse.Scripting.IThreadWorker*/], offsetof(Router__GetRouteCallback, _threadWorker), 0,
+        ::TYPES[10/*Fuse.Scripting.IThreadWorker*/], offsetof(Router__GetRouteCallback, _threadWorker), 0,
         ::g::Fuse::Navigation::Router_typeof(), offsetof(Router__GetRouteCallback, _router), 0,
         ::g::Fuse::Scripting::Function_typeof(), offsetof(Router__GetRouteCallback, _callback), 0,
         ::g::Fuse::Navigation::Route_typeof(), offsetof(Router__GetRouteCallback, _route), 0);
@@ -3250,37 +3154,37 @@ uType* Router__GetRouteCallback_typeof()
     return type;
 }
 
-// public GetRouteCallback(Fuse.Scripting.IThreadWorker threadWorker, Fuse.Navigation.Router router, Fuse.Scripting.Function callback) :331
+// public GetRouteCallback(Fuse.Scripting.IThreadWorker threadWorker, Fuse.Navigation.Router router, Fuse.Scripting.Function callback)
 void Router__GetRouteCallback__ctor__fn(Router__GetRouteCallback* __this, uObject* threadWorker, ::g::Fuse::Navigation::Router* router, ::g::Fuse::Scripting::Function* callback)
 {
     __this->ctor_(threadWorker, router, callback);
 }
 
-// public GetRouteCallback New(Fuse.Scripting.IThreadWorker threadWorker, Fuse.Navigation.Router router, Fuse.Scripting.Function callback) :331
+// public GetRouteCallback New(Fuse.Scripting.IThreadWorker threadWorker, Fuse.Navigation.Router router, Fuse.Scripting.Function callback)
 void Router__GetRouteCallback__New1_fn(uObject* threadWorker, ::g::Fuse::Navigation::Router* router, ::g::Fuse::Scripting::Function* callback, Router__GetRouteCallback** __retval)
 {
     *__retval = Router__GetRouteCallback::New1(threadWorker, router, callback);
 }
 
-// public void RunJS(Fuse.Scripting.Context context) :344
+// public void RunJS(Fuse.Scripting.Context context)
 void Router__GetRouteCallback__RunJS_fn(Router__GetRouteCallback* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->RunJS(context);
 }
 
-// public void RunUI() :338
+// public void RunUI()
 void Router__GetRouteCallback__RunUI_fn(Router__GetRouteCallback* __this)
 {
     __this->RunUI();
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.Context context, Fuse.Navigation.Route route) :349
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.Context context, Fuse.Navigation.Route route)
 void Router__GetRouteCallback__ToArray_fn(::g::Fuse::Scripting::Context* context, ::g::Fuse::Navigation::Route* route, ::g::Fuse::Scripting::Array** __retval)
 {
     *__retval = Router__GetRouteCallback::ToArray(context, route);
 }
 
-// public GetRouteCallback(Fuse.Scripting.IThreadWorker threadWorker, Fuse.Navigation.Router router, Fuse.Scripting.Function callback) [instance] :331
+// public GetRouteCallback(Fuse.Scripting.IThreadWorker threadWorker, Fuse.Navigation.Router router, Fuse.Scripting.Function callback) [instance]
 void Router__GetRouteCallback::ctor_(uObject* threadWorker, ::g::Fuse::Navigation::Router* router, ::g::Fuse::Scripting::Function* callback)
 {
     _threadWorker = threadWorker;
@@ -3288,20 +3192,20 @@ void Router__GetRouteCallback::ctor_(uObject* threadWorker, ::g::Fuse::Navigatio
     _callback = callback;
 }
 
-// public void RunJS(Fuse.Scripting.Context context) [instance] :344
+// public void RunJS(Fuse.Scripting.Context context) [instance]
 void Router__GetRouteCallback::RunJS(::g::Fuse::Scripting::Context* context)
 {
-    uPtr(_callback)->Call(context, uArray::Init<uObject*>(::TYPES[10/*object[]*/], 1, (::g::Fuse::Scripting::Array*)Router__GetRouteCallback::ToArray(context, _route)));
+    uPtr(_callback)->Call(context, uArray::Init<uObject*>(::TYPES[9/*object[]*/], 1, (::g::Fuse::Scripting::Array*)Router__GetRouteCallback::ToArray(context, _route)));
 }
 
-// public void RunUI() [instance] :338
+// public void RunUI() [instance]
 void Router__GetRouteCallback::RunUI()
 {
     _route = uPtr(_router)->GetCurrentRoute();
-    ::g::Fuse::Scripting::IThreadWorker::Invoke1(uInterface(uPtr(_threadWorker), ::TYPES[11/*Fuse.Scripting.IThreadWorker*/]), uDelegate::New(::TYPES[12/*Uno.Action<Fuse.Scripting.Context>*/], (void*)Router__GetRouteCallback__RunJS_fn, this));
+    ::g::Fuse::Scripting::IThreadWorker::Invoke1(uInterface(uPtr(_threadWorker), ::TYPES[10/*Fuse.Scripting.IThreadWorker*/]), uDelegate::New(::TYPES[11/*Uno.Action<Fuse.Scripting.Context>*/], (void*)Router__GetRouteCallback__RunJS_fn, this));
 }
 
-// public GetRouteCallback New(Fuse.Scripting.IThreadWorker threadWorker, Fuse.Navigation.Router router, Fuse.Scripting.Function callback) [static] :331
+// public GetRouteCallback New(Fuse.Scripting.IThreadWorker threadWorker, Fuse.Navigation.Router router, Fuse.Scripting.Function callback) [static]
 Router__GetRouteCallback* Router__GetRouteCallback::New1(uObject* threadWorker, ::g::Fuse::Navigation::Router* router, ::g::Fuse::Scripting::Function* callback)
 {
     Router__GetRouteCallback* obj1 = (Router__GetRouteCallback*)uNew(Router__GetRouteCallback_typeof());
@@ -3309,11 +3213,11 @@ Router__GetRouteCallback* Router__GetRouteCallback::New1(uObject* threadWorker, 
     return obj1;
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.Context context, Fuse.Navigation.Route route) [static] :349
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.Context context, Fuse.Navigation.Route route) [static]
 ::g::Fuse::Scripting::Array* Router__GetRouteCallback::ToArray(::g::Fuse::Scripting::Context* context, ::g::Fuse::Navigation::Route* route)
 {
     int32_t len = uPtr(route)->Length();
-    ::g::Fuse::Scripting::Array* arr = uPtr(context)->NewArray(uArray::Init<uObject*>(::TYPES[10/*object[]*/], 1, uBox<int32_t>(::g::Uno::Int_typeof(), len * 2)));
+    ::g::Fuse::Scripting::Array* arr = uPtr(context)->NewArray(uArray::Init<uObject*>(::TYPES[9/*object[]*/], 1, uBox<int32_t>(::g::Uno::Int_typeof(), len * 2)));
 
     for (int32_t i = 0; i < len; i++)
     {
@@ -3326,14 +3230,14 @@ Router__GetRouteCallback* Router__GetRouteCallback::New1(uObject* threadWorker, 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/TriggerActions.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/TriggerActions.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class GoBack :182
+// public sealed class GoBack
 // {
 static void GoBack_build(uType* type)
 {
-    ::TYPES[13] = ::g::Fuse::Navigation::IBaseNavigation_typeof();
+    ::TYPES[12] = ::g::Fuse::Navigation::IBaseNavigation_typeof();
     type->SetInterfaces(
         ::g::Fuse::ISourceLocation_typeof(), offsetof(::g::Fuse::Navigation::BackForwardNavigationTriggerAction_type, interface0));
     type->SetFields(11);
@@ -3359,22 +3263,22 @@ static void GoBack_build(uType* type)
     return type;
 }
 
-// protected override sealed void Perform(Fuse.Navigation.IBaseNavigation ctx, Fuse.Node node) :184
+// protected override sealed void Perform(Fuse.Navigation.IBaseNavigation ctx, Fuse.Node node)
 void GoBack__Perform1_fn(GoBack* __this, uObject* ctx, ::g::Fuse::Node* node)
 {
-    if (::g::Fuse::Navigation::IBaseNavigation::CanGoBack(uInterface(uPtr(ctx), ::TYPES[13/*Fuse.Navigation.IBaseNavigation*/])))
-        ::g::Fuse::Navigation::IBaseNavigation::GoBack(uInterface(uPtr(ctx), ::TYPES[13/*Fuse.Navigation.IBaseNavigation*/]));
+    if (::g::Fuse::Navigation::IBaseNavigation::CanGoBack(uInterface(uPtr(ctx), ::TYPES[12/*Fuse.Navigation.IBaseNavigation*/])))
+        ::g::Fuse::Navigation::IBaseNavigation::GoBack(uInterface(uPtr(ctx), ::TYPES[12/*Fuse.Navigation.IBaseNavigation*/]));
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/TriggerActions.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/TriggerActions.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class GoForward :217
+// public sealed class GoForward
 // {
 static void GoForward_build(uType* type)
 {
-    ::TYPES[13] = ::g::Fuse::Navigation::IBaseNavigation_typeof();
+    ::TYPES[12] = ::g::Fuse::Navigation::IBaseNavigation_typeof();
     type->SetInterfaces(
         ::g::Fuse::ISourceLocation_typeof(), offsetof(::g::Fuse::Navigation::BackForwardNavigationTriggerAction_type, interface0));
     type->SetFields(11);
@@ -3400,18 +3304,18 @@ static void GoForward_build(uType* type)
     return type;
 }
 
-// protected override sealed void Perform(Fuse.Navigation.IBaseNavigation ctx, Fuse.Node node) :220
+// protected override sealed void Perform(Fuse.Navigation.IBaseNavigation ctx, Fuse.Node node)
 void GoForward__Perform1_fn(GoForward* __this, uObject* ctx, ::g::Fuse::Node* node)
 {
-    if (::g::Fuse::Navigation::IBaseNavigation::CanGoForward(uInterface(uPtr(ctx), ::TYPES[13/*Fuse.Navigation.IBaseNavigation*/])))
-        ::g::Fuse::Navigation::IBaseNavigation::GoForward(uInterface(uPtr(ctx), ::TYPES[13/*Fuse.Navigation.IBaseNavigation*/]));
+    if (::g::Fuse::Navigation::IBaseNavigation::CanGoForward(uInterface(uPtr(ctx), ::TYPES[12/*Fuse.Navigation.IBaseNavigation*/])))
+        ::g::Fuse::Navigation::IBaseNavigation::GoForward(uInterface(uPtr(ctx), ::TYPES[12/*Fuse.Navigation.IBaseNavigation*/]));
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/ModifyRouteCommand.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/ModifyRouteCommand.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class GotoRouteCommand :178
+// public sealed class GotoRouteCommand
 // {
 static void GotoRouteCommand_build(uType* type)
 {
@@ -3442,17 +3346,17 @@ static void GotoRouteCommand_build(uType* type)
     return type;
 }
 
-// internal override sealed bool ProcessArguments(Fuse.Navigation.RouterRequest request, Fuse.Reactive.Expression.Argument[] args) :180
+// internal override sealed bool ProcessArguments(Fuse.Navigation.RouterRequest request, Fuse.Reactive.Expression.Argument[] args)
 void GotoRouteCommand__ProcessArguments_fn(GotoRouteCommand* __this, ::g::Fuse::Navigation::RouterRequest* request, uArray* args, bool* __retval)
 {
     return *__retval = uPtr(request)->AddHow(1) && uPtr(request)->AddPath(::g::Fuse::Navigation::RouteModificationCommand__ArgumentArrayAdapter::New1(args)), void();
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// private delegate bool Router.HistoryAction(Uno.Collections.List<Fuse.Navigation.RouterPage> stack) :815
+// private delegate bool Router.HistoryAction(Uno.Collections.List<Fuse.Navigation.RouterPage> stack)
 uDelegateType* Router__HistoryAction_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -3464,10 +3368,10 @@ uDelegateType* Router__HistoryAction_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/INavigation.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/INavigation.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public delegate void HistoryChangedHandler(object sender) :47
+// public delegate void HistoryChangedHandler(object sender)
 uDelegateType* HistoryChangedHandler_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -3479,10 +3383,10 @@ uDelegateType* HistoryChangedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/INavigation.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/INavigation.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract interface IBaseNavigation :56
+// public abstract interface IBaseNavigation
 // {
 uInterfaceType* IBaseNavigation_typeof()
 {
@@ -3494,10 +3398,10 @@ uInterfaceType* IBaseNavigation_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/INavigation.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/INavigation.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract interface INavigation :77
+// public abstract interface INavigation
 // {
 uInterfaceType* INavigation_typeof()
 {
@@ -3509,18 +3413,18 @@ uInterfaceType* INavigation_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/ModifyRouteCommand.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/ModifyRouteCommand.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class RouteModificationCommand.InnerSubscription :68
+// private sealed class RouteModificationCommand.InnerSubscription
 // {
 static void RouteModificationCommand__InnerSubscription_build(uType* type)
 {
     ::STRINGS[12] = uString::Const("could not find router");
-    ::STRINGS[13] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/ModifyRouteCommand.uno");
+    ::STRINGS[13] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/ModifyRouteCommand.uno");
     ::STRINGS[14] = uString::Const("HandleRequest");
-    ::TYPES[14] = ::g::Fuse::Reactive::IContext_typeof();
-    ::TYPES[15] = ::g::Uno::Action_typeof();
+    ::TYPES[13] = ::g::Fuse::Reactive::IContext_typeof();
+    ::TYPES[14] = ::g::Uno::Action_typeof();
     type->SetDependencies(
         ::g::Fuse::Navigation::Router_typeof(),
         ::g::Fuse::UpdateManager_typeof());
@@ -3554,13 +3458,13 @@ static void RouteModificationCommand__InnerSubscription_build(uType* type)
     return type;
 }
 
-// public InnerSubscription(Fuse.Navigation.RouteModificationCommand.OuterSubscription outSub) :73
+// public InnerSubscription(Fuse.Navigation.RouteModificationCommand.OuterSubscription outSub)
 void RouteModificationCommand__InnerSubscription__ctor_4_fn(RouteModificationCommand__InnerSubscription* __this, ::g::Fuse::Navigation::RouteModificationCommand__OuterSubscription* outSub)
 {
     __this->ctor_4(outSub);
 }
 
-// public override sealed void Dispose() :107
+// public override sealed void Dispose()
 void RouteModificationCommand__InnerSubscription__Dispose_fn(RouteModificationCommand__InnerSubscription* __this)
 {
     if (__this->_outSub != NULL)
@@ -3572,19 +3476,19 @@ void RouteModificationCommand__InnerSubscription__Dispose_fn(RouteModificationCo
     ::g::Fuse::Reactive::VarArgFunction__Subscription__Dispose_fn(__this);
 }
 
-// private void HandleRequest(Fuse.Reactive.Expression.Argument[] args) :91
+// private void HandleRequest(Fuse.Reactive.Expression.Argument[] args)
 void RouteModificationCommand__InnerSubscription__HandleRequest_fn(RouteModificationCommand__InnerSubscription* __this, uArray* args)
 {
     __this->HandleRequest(args);
 }
 
-// public InnerSubscription New(Fuse.Navigation.RouteModificationCommand.OuterSubscription outSub) :73
+// public InnerSubscription New(Fuse.Navigation.RouteModificationCommand.OuterSubscription outSub)
 void RouteModificationCommand__InnerSubscription__New1_fn(::g::Fuse::Navigation::RouteModificationCommand__OuterSubscription* outSub, RouteModificationCommand__InnerSubscription** __retval)
 {
     *__retval = RouteModificationCommand__InnerSubscription::New1(outSub);
 }
 
-// protected override sealed void OnNewArguments(Fuse.Reactive.Expression.Argument[] args) :79
+// protected override sealed void OnNewArguments(Fuse.Reactive.Expression.Argument[] args)
 void RouteModificationCommand__InnerSubscription__OnNewArguments_fn(RouteModificationCommand__InnerSubscription* __this, uArray* args)
 {
     if ((__this->_outSub == NULL) || __this->_triggered)
@@ -3592,17 +3496,17 @@ void RouteModificationCommand__InnerSubscription__OnNewArguments_fn(RouteModific
 
     __this->_triggered = true;
     __this->HandleRequest(args);
-    ::g::Fuse::UpdateManager::AddDeferredAction2(uDelegate::New(::TYPES[15/*Uno.Action*/], __this, offsetof(::g::Fuse::Reactive::VarArgFunction__Subscription_type, fp_Dispose)), -1, 2);
+    ::g::Fuse::UpdateManager::AddDeferredAction2(uDelegate::New(::TYPES[14/*Uno.Action*/], __this, offsetof(::g::Fuse::Reactive::VarArgFunction__Subscription_type, fp_Dispose)), -1, 2);
 }
 
-// public InnerSubscription(Fuse.Navigation.RouteModificationCommand.OuterSubscription outSub) [instance] :73
+// public InnerSubscription(Fuse.Navigation.RouteModificationCommand.OuterSubscription outSub) [instance]
 void RouteModificationCommand__InnerSubscription::ctor_4(::g::Fuse::Navigation::RouteModificationCommand__OuterSubscription* outSub)
 {
     ctor_2(uPtr(outSub)->_expr);
     _outSub = outSub;
 }
 
-// private void HandleRequest(Fuse.Reactive.Expression.Argument[] args) [instance] :91
+// private void HandleRequest(Fuse.Reactive.Expression.Argument[] args) [instance]
 void RouteModificationCommand__InnerSubscription::HandleRequest(uArray* args)
 {
     ::g::Fuse::Navigation::RouterRequest* request = ::g::Fuse::Navigation::RouterRequest::New1(0);
@@ -3610,18 +3514,18 @@ void RouteModificationCommand__InnerSubscription::HandleRequest(uArray* args)
     if (!uPtr(uPtr(_outSub)->_expr)->ProcessArguments(request, args))
         return;
 
-    ::g::Fuse::Navigation::Router* router = ::g::Fuse::Navigation::Router::TryFindRouter(::g::Fuse::Reactive::IContext::Node(uInterface(uPtr(uPtr(_outSub)->_context), ::TYPES[14/*Fuse.Reactive.IContext*/])));
+    ::g::Fuse::Navigation::Router* router = ::g::Fuse::Navigation::Router::TryFindRouter(::g::Fuse::Reactive::IContext::Node(uInterface(uPtr(uPtr(_outSub)->_context), ::TYPES[13/*Fuse.Reactive.IContext*/])));
 
     if (router == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[12/*"could not f...*/], this, ::STRINGS[13/*"/usr/local/...*/], 100, ::STRINGS[14/*"HandleRequest"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[12/*"could not f...*/], this, ::STRINGS[13/*"/Users/antt...*/], 100, ::STRINGS[14/*"HandleRequest"*/], NULL);
         return;
     }
 
     request->MakeRequest(router);
 }
 
-// public InnerSubscription New(Fuse.Navigation.RouteModificationCommand.OuterSubscription outSub) [static] :73
+// public InnerSubscription New(Fuse.Navigation.RouteModificationCommand.OuterSubscription outSub) [static]
 RouteModificationCommand__InnerSubscription* RouteModificationCommand__InnerSubscription::New1(::g::Fuse::Navigation::RouteModificationCommand__OuterSubscription* outSub)
 {
     RouteModificationCommand__InnerSubscription* obj1 = (RouteModificationCommand__InnerSubscription*)uNew(RouteModificationCommand__InnerSubscription_typeof());
@@ -3630,10 +3534,10 @@ RouteModificationCommand__InnerSubscription* RouteModificationCommand__InnerSubs
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/PageBinding.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/PageBinding.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract interface IPagePropertyListener :323
+// internal abstract interface IPagePropertyListener
 // {
 uInterfaceType* IPagePropertyListener_typeof()
 {
@@ -3645,10 +3549,10 @@ uInterfaceType* IPagePropertyListener_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/PageBinding.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/PageBinding.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract interface IPageResourceBinding :9
+// internal abstract interface IPageResourceBinding
 // {
 uInterfaceType* IPageResourceBinding_typeof()
 {
@@ -3660,10 +3564,10 @@ uInterfaceType* IPageResourceBinding_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/IRouterOutlet.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/IRouterOutlet.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract interface IRouterOutlet :42
+// internal abstract interface IRouterOutlet
 // {
 uInterfaceType* IRouterOutlet_typeof()
 {
@@ -3675,10 +3579,10 @@ uInterfaceType* IRouterOutlet_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/INavigation.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/INavigation.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract interface ISeekableNavigation :102
+// internal abstract interface ISeekableNavigation
 // {
 uInterfaceType* ISeekableNavigation_typeof()
 {
@@ -3690,10 +3594,10 @@ uInterfaceType* ISeekableNavigation_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RoutePageProxy.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RoutePageProxy.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// private struct RoutePageProxy.Level :61
+// private struct RoutePageProxy.Level
 // {
 static void RoutePageProxy__Level_build(uType* type)
 {
@@ -3708,6 +3612,7 @@ uStructType* RoutePageProxy__Level_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.FieldCount = 2;
     options.Alignment = alignof(RoutePageProxy__Level);
     options.ValueSize = sizeof(RoutePageProxy__Level);
@@ -3718,17 +3623,17 @@ uStructType* RoutePageProxy__Level_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/ModifyRouteCommand.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/ModifyRouteCommand.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class ModifyRouteCommand :149
+// public sealed class ModifyRouteCommand
 // {
 static void ModifyRouteCommand_build(uType* type)
 {
     ::STRINGS[15] = uString::Const("arguments to modifyRoute must be name-value-pairs");
-    ::STRINGS[13] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/ModifyRouteCommand.uno");
+    ::STRINGS[13] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/ModifyRouteCommand.uno");
     ::STRINGS[16] = uString::Const("ProcessArguments");
-    ::TYPES[16] = ::g::Fuse::NameValuePair_typeof();
+    ::TYPES[15] = ::g::Fuse::NameValuePair_typeof();
     type->SetInterfaces(
         ::g::Fuse::Reactive::IExpression_typeof(), offsetof(::g::Fuse::Navigation::RouteModificationCommand_type, interface0),
         ::g::Fuse::ISourceLocation_typeof(), offsetof(::g::Fuse::Navigation::RouteModificationCommand_type, interface1));
@@ -3756,16 +3661,16 @@ static void ModifyRouteCommand_build(uType* type)
     return type;
 }
 
-// internal override sealed bool ProcessArguments(Fuse.Navigation.RouterRequest request, Fuse.Reactive.Expression.Argument[] args) :151
+// internal override sealed bool ProcessArguments(Fuse.Navigation.RouterRequest request, Fuse.Reactive.Expression.Argument[] args)
 void ModifyRouteCommand__ProcessArguments_fn(ModifyRouteCommand* __this, ::g::Fuse::Navigation::RouterRequest* request, uArray* args, bool* __retval)
 {
     for (int32_t i = 0; i < uPtr(args)->Length(); ++i)
     {
-        ::g::Fuse::NameValuePair* nvp = uAs< ::g::Fuse::NameValuePair*>(uPtr(uPtr(args)->Strong< ::g::Fuse::Reactive::Expression__Argument*>(i))->Value(), ::TYPES[16/*Fuse.NameValuePair*/]);
+        ::g::Fuse::NameValuePair* nvp = uAs< ::g::Fuse::NameValuePair*>(uPtr(uPtr(args)->Strong< ::g::Fuse::Reactive::Expression__Argument*>(i))->Value(), ::TYPES[15/*Fuse.NameValuePair*/]);
 
         if (nvp == NULL)
         {
-            ::g::Fuse::Diagnostics::UserError(::STRINGS[15/*"arguments t...*/], __this, ::STRINGS[13/*"/usr/local/...*/], 158, ::STRINGS[16/*"ProcessArgu...*/], NULL);
+            ::g::Fuse::Diagnostics::UserError(::STRINGS[15/*"arguments t...*/], __this, ::STRINGS[13/*"/Users/antt...*/], 158, ::STRINGS[16/*"ProcessArgu...*/], NULL);
             return *__retval = false, void();
         }
 
@@ -3777,10 +3682,10 @@ void ModifyRouteCommand__ProcessArguments_fn(ModifyRouteCommand* __this, ::g::Fu
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum ModifyRouteHow :23
+// public enum ModifyRouteHow
 uEnumType* ModifyRouteHow_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3799,16 +3704,16 @@ uEnumType* ModifyRouteHow_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/INavigation.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/INavigation.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class NavigatedArgs :30
+// public sealed class NavigatedArgs
 // {
 static void NavigatedArgs_build(uType* type)
 {
     ::STRINGS[17] = uString::Const("name");
     ::STRINGS[18] = uString::Const("");
-    ::TYPES[17] = ::g::Fuse::Scripting::IEventSerializer_typeof();
+    ::TYPES[16] = ::g::Fuse::Scripting::IEventSerializer_typeof();
     type->SetInterfaces(
         ::g::Fuse::Scripting::IScriptEvent_typeof(), offsetof(NavigatedArgs_type, interface0));
     type->SetFields(0,
@@ -3832,59 +3737,59 @@ NavigatedArgs_type* NavigatedArgs_typeof()
     return type;
 }
 
-// public NavigatedArgs(Fuse.Visual newVisual) :34
+// public NavigatedArgs(Fuse.Visual newVisual)
 void NavigatedArgs__ctor_1_fn(NavigatedArgs* __this, ::g::Fuse::Visual* newVisual)
 {
     __this->ctor_1(newVisual);
 }
 
-// private void Fuse.Scripting.IScriptEvent.Serialize(Fuse.Scripting.IEventSerializer s) :39
+// private void Fuse.Scripting.IScriptEvent.Serialize(Fuse.Scripting.IEventSerializer s)
 void NavigatedArgs__FuseScriptingIScriptEventSerialize_fn(NavigatedArgs* __this, uObject* s)
 {
-    if (::g::Uno::String::op_Inequality(::g::Uno::UX::Selector__op_Implicit2(uPtr(__this->NewVisual())->Name()), NULL))
-        ::g::Fuse::Scripting::IEventSerializer::AddString(uInterface(uPtr(s), ::TYPES[17/*Fuse.Scripting.IEventSerializer*/]), ::STRINGS[17/*"name"*/], ::g::Uno::UX::Selector__op_Implicit2(uPtr(__this->NewVisual())->Name()));
+    if (::g::Uno::String::op_Inequality(::g::Uno::UX::Selector__op_Implicit1(uPtr(__this->NewVisual())->Name()), NULL))
+        ::g::Fuse::Scripting::IEventSerializer::AddString(uInterface(uPtr(s), ::TYPES[16/*Fuse.Scripting.IEventSerializer*/]), ::STRINGS[17/*"name"*/], ::g::Uno::UX::Selector__op_Implicit1(uPtr(__this->NewVisual())->Name()));
     else
-        ::g::Fuse::Scripting::IEventSerializer::AddString(uInterface(uPtr(s), ::TYPES[17/*Fuse.Scripting.IEventSerializer*/]), ::STRINGS[17/*"name"*/], ::STRINGS[18/*""*/]);
+        ::g::Fuse::Scripting::IEventSerializer::AddString(uInterface(uPtr(s), ::TYPES[16/*Fuse.Scripting.IEventSerializer*/]), ::STRINGS[17/*"name"*/], ::STRINGS[18/*""*/]);
 }
 
-// public NavigatedArgs New(Fuse.Visual newVisual) :34
+// public NavigatedArgs New(Fuse.Visual newVisual)
 void NavigatedArgs__New2_fn(::g::Fuse::Visual* newVisual, NavigatedArgs** __retval)
 {
     *__retval = NavigatedArgs::New2(newVisual);
 }
 
-// public generated Fuse.Visual get_NewVisual() :32
+// public generated Fuse.Visual get_NewVisual()
 void NavigatedArgs__get_NewVisual_fn(NavigatedArgs* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->NewVisual();
 }
 
-// private generated void set_NewVisual(Fuse.Visual value) :32
+// private generated void set_NewVisual(Fuse.Visual value)
 void NavigatedArgs__set_NewVisual_fn(NavigatedArgs* __this, ::g::Fuse::Visual* value)
 {
     __this->NewVisual(value);
 }
 
-// public NavigatedArgs(Fuse.Visual newVisual) [instance] :34
+// public NavigatedArgs(Fuse.Visual newVisual) [instance]
 void NavigatedArgs::ctor_1(::g::Fuse::Visual* newVisual)
 {
     ctor_();
     NewVisual(newVisual);
 }
 
-// public generated Fuse.Visual get_NewVisual() [instance] :32
+// public generated Fuse.Visual get_NewVisual() [instance]
 ::g::Fuse::Visual* NavigatedArgs::NewVisual()
 {
     return _NewVisual;
 }
 
-// private generated void set_NewVisual(Fuse.Visual value) [instance] :32
+// private generated void set_NewVisual(Fuse.Visual value) [instance]
 void NavigatedArgs::NewVisual(::g::Fuse::Visual* value)
 {
     _NewVisual = value;
 }
 
-// public NavigatedArgs New(Fuse.Visual newVisual) [static] :34
+// public NavigatedArgs New(Fuse.Visual newVisual) [static]
 NavigatedArgs* NavigatedArgs::New2(::g::Fuse::Visual* newVisual)
 {
     NavigatedArgs* obj1 = (NavigatedArgs*)uNew(NavigatedArgs_typeof());
@@ -3893,10 +3798,10 @@ NavigatedArgs* NavigatedArgs::New2(::g::Fuse::Visual* newVisual)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/INavigation.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/INavigation.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public delegate void NavigatedHandler(object sender, Fuse.Navigation.NavigatedArgs args) :46
+// public delegate void NavigatedHandler(object sender, Fuse.Navigation.NavigatedArgs args)
 uDelegateType* NavigatedHandler_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -3909,15 +3814,15 @@ uDelegateType* NavigatedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/TriggerActions.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/TriggerActions.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class NavigateTo :52
+// public sealed class NavigateTo
 // {
 static void NavigateTo_build(uType* type)
 {
-    ::TYPES[1] = ::g::Fuse::Navigation::INavigation_typeof();
-    ::TYPES[18] = ::g::Fuse::Navigation::StructuredNavigation_typeof();
+    ::TYPES[0] = ::g::Fuse::Navigation::INavigation_typeof();
+    ::TYPES[17] = ::g::Fuse::Navigation::StructuredNavigation_typeof();
     type->SetInterfaces(
         ::g::Fuse::ISourceLocation_typeof(), offsetof(::g::Fuse::Navigation::NavigationTriggerAction_type, interface0));
     type->SetFields(11,
@@ -3946,104 +3851,104 @@ static void NavigateTo_build(uType* type)
     return type;
 }
 
-// public generated bool get_Bypass() :62
+// public generated bool get_Bypass()
 void NavigateTo__get_Bypass_fn(NavigateTo* __this, bool* __retval)
 {
     *__retval = __this->Bypass();
 }
 
-// public generated void set_Bypass(bool value) :62
+// public generated void set_Bypass(bool value)
 void NavigateTo__set_Bypass_fn(NavigateTo* __this, bool* value)
 {
     __this->Bypass(*value);
 }
 
-// public generated bool get_ClearForwardHistory() :67
+// public generated bool get_ClearForwardHistory()
 void NavigateTo__get_ClearForwardHistory_fn(NavigateTo* __this, bool* __retval)
 {
     *__retval = __this->ClearForwardHistory();
 }
 
-// public generated void set_ClearForwardHistory(bool value) :67
+// public generated void set_ClearForwardHistory(bool value)
 void NavigateTo__set_ClearForwardHistory_fn(NavigateTo* __this, bool* value)
 {
     __this->ClearForwardHistory(*value);
 }
 
-// protected override sealed void Perform(Fuse.Navigation.INavigation ctx, Fuse.Node n) :69
+// protected override sealed void Perform(Fuse.Navigation.INavigation ctx, Fuse.Node n)
 void NavigateTo__Perform1_fn(NavigateTo* __this, uObject* ctx, ::g::Fuse::Node* n)
 {
     int32_t mode = __this->Bypass() ? 1 : 0;
 
     if (__this->Target() != NULL)
     {
-        ::g::Fuse::Navigation::INavigation::Goto(uInterface(uPtr(ctx), ::TYPES[1/*Fuse.Navigation.INavigation*/]), __this->Target(), mode);
+        ::g::Fuse::Navigation::INavigation::Goto(uInterface(uPtr(ctx), ::TYPES[0/*Fuse.Navigation.INavigation*/]), __this->Target(), mode);
 
-        if (__this->ClearForwardHistory() && uIs(ctx, ::TYPES[18/*Fuse.Navigation.StructuredNavigation*/]))
-            uPtr(uAs< ::g::Fuse::Navigation::StructuredNavigation*>(ctx, ::TYPES[18/*Fuse.Navigation.StructuredNavigation*/]))->QueueClearForwardHistory();
+        if (__this->ClearForwardHistory() && uIs(ctx, ::TYPES[17/*Fuse.Navigation.StructuredNavigation*/]))
+            uPtr(uAs< ::g::Fuse::Navigation::StructuredNavigation*>(ctx, ::TYPES[17/*Fuse.Navigation.StructuredNavigation*/]))->QueueClearForwardHistory();
     }
 }
 
-// public generated Fuse.Visual get_Target() :57
+// public generated Fuse.Visual get_Target()
 void NavigateTo__get_Target_fn(NavigateTo* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->Target();
 }
 
-// public generated void set_Target(Fuse.Visual value) :57
+// public generated void set_Target(Fuse.Visual value)
 void NavigateTo__set_Target_fn(NavigateTo* __this, ::g::Fuse::Visual* value)
 {
     __this->Target(value);
 }
 
-// public generated bool get_Bypass() [instance] :62
+// public generated bool get_Bypass() [instance]
 bool NavigateTo::Bypass()
 {
     return _Bypass;
 }
 
-// public generated void set_Bypass(bool value) [instance] :62
+// public generated void set_Bypass(bool value) [instance]
 void NavigateTo::Bypass(bool value)
 {
     _Bypass = value;
 }
 
-// public generated bool get_ClearForwardHistory() [instance] :67
+// public generated bool get_ClearForwardHistory() [instance]
 bool NavigateTo::ClearForwardHistory()
 {
     return _ClearForwardHistory;
 }
 
-// public generated void set_ClearForwardHistory(bool value) [instance] :67
+// public generated void set_ClearForwardHistory(bool value) [instance]
 void NavigateTo::ClearForwardHistory(bool value)
 {
     _ClearForwardHistory = value;
 }
 
-// public generated Fuse.Visual get_Target() [instance] :57
+// public generated Fuse.Visual get_Target() [instance]
 ::g::Fuse::Visual* NavigateTo::Target()
 {
     return _Target;
 }
 
-// public generated void set_Target(Fuse.Visual value) [instance] :57
+// public generated void set_Target(Fuse.Visual value) [instance]
 void NavigateTo::Target(::g::Fuse::Visual* value)
 {
     _Target = value;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/TriggerActions.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/TriggerActions.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class NavigateToggle :107
+// public sealed class NavigateToggle
 // {
 static void NavigateToggle_build(uType* type)
 {
     ::STRINGS[19] = uString::Const("No Page was found");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/TriggerActions.uno");
+    ::STRINGS[1] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/TriggerActions.uno");
     ::STRINGS[2] = uString::Const("Perform");
-    ::TYPES[1] = ::g::Fuse::Navigation::INavigation_typeof();
+    ::TYPES[0] = ::g::Fuse::Navigation::INavigation_typeof();
     type->SetDependencies(
         ::g::Fuse::Navigation::Navigation_typeof());
     type->SetInterfaces(
@@ -4073,7 +3978,7 @@ static void NavigateToggle_build(uType* type)
     return type;
 }
 
-// protected override sealed void Perform(Fuse.Node n) :125
+// protected override sealed void Perform(Fuse.Node n)
 void NavigateToggle__Perform_fn(NavigateToggle* __this, ::g::Fuse::Node* n)
 {
     ::g::Fuse::Node* ind1;
@@ -4082,42 +3987,42 @@ void NavigateToggle__Perform_fn(NavigateToggle* __this, ::g::Fuse::Node* n)
     ::g::Fuse::Visual* page = ::g::Fuse::Navigation::Navigation::TryFindPage1((ind1 = __this->Target(), (ind1 != NULL) ? ind1 : n), &ctx, &ignore);
 
     if (page != NULL)
-        ::g::Fuse::Navigation::INavigation::Toggle(uInterface(uPtr(ctx), ::TYPES[1/*Fuse.Navigation.INavigation*/]), page);
+        ::g::Fuse::Navigation::INavigation::Toggle(uInterface(uPtr(ctx), ::TYPES[0/*Fuse.Navigation.INavigation*/]), page);
     else
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[19/*"No Page was...*/], __this, ::STRINGS[1/*"/usr/local/...*/], 133, ::STRINGS[2/*"Perform"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[19/*"No Page was...*/], __this, ::STRINGS[1/*"/Users/antt...*/], 133, ::STRINGS[2/*"Perform"*/], NULL);
 }
 
-// public generated Fuse.Visual get_Target() :123
+// public generated Fuse.Visual get_Target()
 void NavigateToggle__get_Target_fn(NavigateToggle* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->Target();
 }
 
-// public generated void set_Target(Fuse.Visual value) :123
+// public generated void set_Target(Fuse.Visual value)
 void NavigateToggle__set_Target_fn(NavigateToggle* __this, ::g::Fuse::Visual* value)
 {
     __this->Target(value);
 }
 
-// public generated Fuse.Visual get_Target() [instance] :123
+// public generated Fuse.Visual get_Target() [instance]
 ::g::Fuse::Visual* NavigateToggle::Target()
 {
     return _Target;
 }
 
-// public generated void set_Target(Fuse.Visual value) [instance] :123
+// public generated void set_Target(Fuse.Visual value) [instance]
 void NavigateToggle::Target(::g::Fuse::Visual* value)
 {
     _Target = value;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Navigation.Locators.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Navigation.Locators.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public interfacemodifiers class Navigation :17
+// public interfacemodifiers class Navigation
 // {
-// static generated Navigation() :17
+// static generated Navigation()
 static void Navigation__cctor__fn(uType* __type)
 {
     ::g::Fuse::Properties_typeof()->Init();
@@ -4127,16 +4032,16 @@ static void Navigation__cctor__fn(uType* __type)
 static void Navigation_build(uType* type)
 {
     ::STRINGS[20] = uString::Const("TryFindBaseNavigation requires rooting to have started");
-    ::STRINGS[21] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Navigation.Locators.uno");
+    ::STRINGS[21] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Navigation.Locators.uno");
     ::STRINGS[22] = uString::Const("TryFindBaseNavigation");
     ::STRINGS[23] = uString::Const("TryFindPage requires rooting to have started");
     ::STRINGS[24] = uString::Const("TryFindPage");
     ::STRINGS[25] = uString::Const("`Page` set to a value that is not within an navigation");
-    ::TYPES[13] = ::g::Fuse::Navigation::IBaseNavigation_typeof();
-    ::TYPES[19] = ::g::Fuse::Visual_typeof()->MakeMethod(2/*FirstChild<Fuse.Node>*/, ::g::Fuse::Node_typeof(), NULL);
-    ::TYPES[20] = ::g::Fuse::Node_typeof()->MakeMethod(3/*NextSibling<Fuse.Node>*/, ::g::Fuse::Node_typeof(), NULL);
-    ::TYPES[8] = ::g::Fuse::Visual_typeof();
-    ::TYPES[1] = ::g::Fuse::Navigation::INavigation_typeof();
+    ::TYPES[12] = ::g::Fuse::Navigation::IBaseNavigation_typeof();
+    ::TYPES[18] = ::g::Fuse::Visual_typeof()->MakeMethod(2/*FirstChild<Fuse.Node>*/, ::g::Fuse::Node_typeof(), NULL);
+    ::TYPES[19] = ::g::Fuse::Node_typeof()->MakeMethod(3/*NextSibling<Fuse.Node>*/, ::g::Fuse::Node_typeof(), NULL);
+    ::TYPES[7] = ::g::Fuse::Visual_typeof();
+    ::TYPES[0] = ::g::Fuse::Navigation::INavigation_typeof();
     type->SetDependencies(
         ::g::Fuse::Navigation::NavigationPageProperty_typeof());
     type->SetFields(0,
@@ -4159,43 +4064,43 @@ uType* Navigation_typeof()
     return type;
 }
 
-// internal static Fuse.Navigation.IBaseNavigation GetLocalNavigation(Fuse.Visual node) :19
+// internal static Fuse.Navigation.IBaseNavigation GetLocalNavigation(Fuse.Visual node)
 void Navigation__GetLocalNavigation_fn(::g::Fuse::Visual* node, uObject** __retval)
 {
     *__retval = Navigation::GetLocalNavigation(node);
 }
 
-// public static Fuse.Navigation.IBaseNavigation GetNavigationNavigation(Fuse.Visual n) :172
+// public static Fuse.Navigation.IBaseNavigation GetNavigationNavigation(Fuse.Visual n)
 void Navigation__GetNavigationNavigation_fn(::g::Fuse::Visual* n, uObject** __retval)
 {
     *__retval = Navigation::GetNavigationNavigation(n);
 }
 
-// public static bool IsPage(Fuse.Node n) :186
+// public static bool IsPage(Fuse.Node n)
 void Navigation__IsPage_fn(::g::Fuse::Node* n, bool* __retval)
 {
     *__retval = Navigation::IsPage(n);
 }
 
-// public static Fuse.Navigation.INavigation TryFind(Fuse.Node node) :38
+// public static Fuse.Navigation.INavigation TryFind(Fuse.Node node)
 void Navigation__TryFind_fn(::g::Fuse::Node* node, uObject** __retval)
 {
     *__retval = Navigation::TryFind(node);
 }
 
-// public static Fuse.Navigation.IBaseNavigation TryFindBaseNavigation(Fuse.Node node) :72
+// public static Fuse.Navigation.IBaseNavigation TryFindBaseNavigation(Fuse.Node node)
 void Navigation__TryFindBaseNavigation_fn(::g::Fuse::Node* node, uObject** __retval)
 {
     *__retval = Navigation::TryFindBaseNavigation(node);
 }
 
-// public static Fuse.Navigation.IBaseNavigation TryFindBaseNavigation(Fuse.Node node, Fuse.Visual& parent) :45
+// public static Fuse.Navigation.IBaseNavigation TryFindBaseNavigation(Fuse.Node node, Fuse.Visual& parent)
 void Navigation__TryFindBaseNavigation1_fn(::g::Fuse::Node* node, ::g::Fuse::Visual** parent, uObject** __retval)
 {
     *__retval = Navigation::TryFindBaseNavigation1(node, parent);
 }
 
-// internal static Fuse.Visual TryFindPage(Fuse.Node node, Fuse.Navigation.INavigation& nav, Fuse.Visual& pageBind) :103
+// internal static Fuse.Visual TryFindPage(Fuse.Node node, Fuse.Navigation.INavigation& nav, Fuse.Visual& pageBind)
 void Navigation__TryFindPage1_fn(::g::Fuse::Node* node, uObject** nav, ::g::Fuse::Visual** pageBind, ::g::Fuse::Visual** __retval)
 {
     *__retval = Navigation::TryFindPage1(node, nav, pageBind);
@@ -4203,7 +4108,7 @@ void Navigation__TryFindPage1_fn(::g::Fuse::Node* node, uObject** nav, ::g::Fuse
 
 uSStrong< ::g::Fuse::PropertyHandle*> Navigation::_contextHandle_;
 
-// internal static Fuse.Navigation.IBaseNavigation GetLocalNavigation(Fuse.Visual node) [static] :19
+// internal static Fuse.Navigation.IBaseNavigation GetLocalNavigation(Fuse.Visual node) [static]
 uObject* Navigation::GetLocalNavigation(::g::Fuse::Visual* node)
 {
     Navigation_typeof()->Init();
@@ -4212,23 +4117,23 @@ uObject* Navigation::GetLocalNavigation(::g::Fuse::Visual* node)
     if (n != NULL)
         return n;
 
-    uObject* t = uAs<uObject*>(node, ::TYPES[13/*Fuse.Navigation.IBaseNavigation*/]);
+    uObject* t = uAs<uObject*>(node, ::TYPES[12/*Fuse.Navigation.IBaseNavigation*/]);
 
     if (t != NULL)
         return t;
 
-    for (::g::Fuse::Node* x = (::g::Fuse::Node*)uPtr(node)->FirstChild(::TYPES[19/*Fuse.Visual.FirstChild<Fuse.Node>*/]); x != NULL; x = (::g::Fuse::Node*)uPtr(x)->NextSibling(::TYPES[20/*Fuse.Node.NextSibling<Fuse.Node>*/]))
+    for (::g::Fuse::Node* x = (::g::Fuse::Node*)uPtr(node)->FirstChild(::TYPES[18/*Fuse.Visual.FirstChild<Fuse.Node>*/]); x != NULL; x = (::g::Fuse::Node*)uPtr(x)->NextSibling(::TYPES[19/*Fuse.Node.NextSibling<Fuse.Node>*/]))
     {
-        uObject* c = uAs<uObject*>(x, ::TYPES[13/*Fuse.Navigation.IBaseNavigation*/]);
+        uObject* c = uAs<uObject*>(x, ::TYPES[12/*Fuse.Navigation.IBaseNavigation*/]);
 
-        if ((c != NULL) && !uIs(c, ::TYPES[8/*Fuse.Visual*/]))
+        if ((c != NULL) && !uIs(c, ::TYPES[7/*Fuse.Visual*/]))
             return c;
     }
 
     return NULL;
 }
 
-// public static Fuse.Navigation.IBaseNavigation GetNavigationNavigation(Fuse.Visual n) [static] :172
+// public static Fuse.Navigation.IBaseNavigation GetNavigationNavigation(Fuse.Visual n) [static]
 uObject* Navigation::GetNavigationNavigation(::g::Fuse::Visual* n)
 {
     Navigation_typeof()->Init();
@@ -4240,11 +4145,11 @@ uObject* Navigation::GetNavigationNavigation(::g::Fuse::Visual* n)
     return NULL;
 }
 
-// public static bool IsPage(Fuse.Node n) [static] :186
+// public static bool IsPage(Fuse.Node n) [static]
 bool Navigation::IsPage(::g::Fuse::Node* n)
 {
     Navigation_typeof()->Init();
-    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(n, ::TYPES[8/*Fuse.Visual*/]);
+    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(n, ::TYPES[7/*Fuse.Visual*/]);
 
     if (v == NULL)
         return false;
@@ -4252,14 +4157,14 @@ bool Navigation::IsPage(::g::Fuse::Node* n)
     return uPtr(v)->LayoutRole() == 0;
 }
 
-// public static Fuse.Navigation.INavigation TryFind(Fuse.Node node) [static] :38
+// public static Fuse.Navigation.INavigation TryFind(Fuse.Node node) [static]
 uObject* Navigation::TryFind(::g::Fuse::Node* node)
 {
     Navigation_typeof()->Init();
-    return uAs<uObject*>(Navigation::TryFindBaseNavigation(node), ::TYPES[1/*Fuse.Navigation.INavigation*/]);
+    return uAs<uObject*>(Navigation::TryFindBaseNavigation(node), ::TYPES[0/*Fuse.Navigation.INavigation*/]);
 }
 
-// public static Fuse.Navigation.IBaseNavigation TryFindBaseNavigation(Fuse.Node node) [static] :72
+// public static Fuse.Navigation.IBaseNavigation TryFindBaseNavigation(Fuse.Node node) [static]
 uObject* Navigation::TryFindBaseNavigation(::g::Fuse::Node* node)
 {
     Navigation_typeof()->Init();
@@ -4267,7 +4172,7 @@ uObject* Navigation::TryFindBaseNavigation(::g::Fuse::Node* node)
     return Navigation::TryFindBaseNavigation1(node, &v);
 }
 
-// public static Fuse.Navigation.IBaseNavigation TryFindBaseNavigation(Fuse.Node node, Fuse.Visual& parent) [static] :45
+// public static Fuse.Navigation.IBaseNavigation TryFindBaseNavigation(Fuse.Node node, Fuse.Visual& parent) [static]
 uObject* Navigation::TryFindBaseNavigation1(::g::Fuse::Node* node, ::g::Fuse::Visual** parent)
 {
     Navigation_typeof()->Init();
@@ -4275,13 +4180,13 @@ uObject* Navigation::TryFindBaseNavigation1(::g::Fuse::Node* node, ::g::Fuse::Vi
 
     if (!uPtr(node)->IsRootingStarted())
     {
-        ::g::Fuse::Diagnostics::InternalError(::STRINGS[20/*"TryFindBase...*/], node, ::STRINGS[21/*"/usr/local/...*/], 50, ::STRINGS[22/*"TryFindBase...*/]);
+        ::g::Fuse::Diagnostics::InternalError(::STRINGS[20/*"TryFindBase...*/], node, ::STRINGS[21/*"/Users/antt...*/], 50, ::STRINGS[22/*"TryFindBase...*/]);
         return NULL;
     }
 
     while (node != NULL)
     {
-        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(node, ::TYPES[8/*Fuse.Visual*/]);
+        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(node, ::TYPES[7/*Fuse.Visual*/]);
 
         if (v != NULL)
         {
@@ -4300,17 +4205,17 @@ uObject* Navigation::TryFindBaseNavigation1(::g::Fuse::Node* node, ::g::Fuse::Vi
     return NULL;
 }
 
-// internal static Fuse.Visual TryFindPage(Fuse.Node node, Fuse.Navigation.INavigation& nav, Fuse.Visual& pageBind) [static] :103
+// internal static Fuse.Visual TryFindPage(Fuse.Node node, Fuse.Navigation.INavigation& nav, Fuse.Visual& pageBind) [static]
 ::g::Fuse::Visual* Navigation::TryFindPage1(::g::Fuse::Node* node, uObject** nav, ::g::Fuse::Visual** pageBind)
 {
     Navigation_typeof()->Init();
-    ::g::Fuse::Visual* prev = uAs< ::g::Fuse::Visual*>(node, ::TYPES[8/*Fuse.Visual*/]);
+    ::g::Fuse::Visual* prev = uAs< ::g::Fuse::Visual*>(node, ::TYPES[7/*Fuse.Visual*/]);
     *nav = NULL;
     *pageBind = NULL;
 
     if (!uPtr(node)->IsRootingStarted())
     {
-        ::g::Fuse::Diagnostics::InternalError(::STRINGS[23/*"TryFindPage...*/], node, ::STRINGS[21/*"/usr/local/...*/], 111, ::STRINGS[24/*"TryFindPage"*/]);
+        ::g::Fuse::Diagnostics::InternalError(::STRINGS[23/*"TryFindPage...*/], node, ::STRINGS[21/*"/Users/antt...*/], 111, ::STRINGS[24/*"TryFindPage"*/]);
         return NULL;
     }
 
@@ -4318,7 +4223,7 @@ uObject* Navigation::TryFindBaseNavigation1(::g::Fuse::Node* node, ::g::Fuse::Vi
 
     while (node != NULL)
     {
-        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(node, ::TYPES[8/*Fuse.Visual*/]);
+        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(node, ::TYPES[7/*Fuse.Visual*/]);
 
         if (v != NULL)
         {
@@ -4334,7 +4239,7 @@ uObject* Navigation::TryFindBaseNavigation1(::g::Fuse::Node* node, ::g::Fuse::Vi
 
                     if (*nav == NULL)
                     {
-                        ::g::Fuse::Diagnostics::UserWarning(::STRINGS[25/*"`Page` set ...*/], p, ::STRINGS[21/*"/usr/local/...*/], 132, ::STRINGS[24/*"TryFindPage"*/]);
+                        ::g::Fuse::Diagnostics::UserWarning(::STRINGS[25/*"`Page` set ...*/], p, ::STRINGS[21/*"/Users/antt...*/], 132, ::STRINGS[24/*"TryFindPage"*/]);
                         return NULL;
                     }
                 }
@@ -4348,7 +4253,7 @@ uObject* Navigation::TryFindBaseNavigation1(::g::Fuse::Node* node, ::g::Fuse::Vi
 
                 if (n != NULL)
                 {
-                    *nav = uAs<uObject*>(n, ::TYPES[1/*Fuse.Navigation.INavigation*/]);
+                    *nav = uAs<uObject*>(n, ::TYPES[0/*Fuse.Navigation.INavigation*/]);
 
                     if (*nav == NULL)
                         return NULL;
@@ -4368,17 +4273,17 @@ uObject* Navigation::TryFindBaseNavigation1(::g::Fuse::Node* node, ::g::Fuse::Vi
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/NavigationAnimations.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/NavigationAnimations.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class NavigationAnimation :37
+// public abstract class NavigationAnimation
 // {
 static void NavigationAnimation_build(uType* type)
 {
-    ::TYPES[15] = ::g::Uno::Action_typeof();
-    ::TYPES[1] = ::g::Fuse::Navigation::INavigation_typeof();
-    ::TYPES[21] = ::g::Fuse::Navigation::NavigationHandler_typeof();
-    ::TYPES[22] = ::g::Fuse::Navigation::NavigationPageProxy__StatusChangedHandler_typeof();
+    ::TYPES[14] = ::g::Uno::Action_typeof();
+    ::TYPES[0] = ::g::Fuse::Navigation::INavigation_typeof();
+    ::TYPES[20] = ::g::Fuse::Navigation::NavigationHandler_typeof();
+    ::TYPES[21] = ::g::Fuse::Navigation::NavigationPageProxy__StatusChangedHandler_typeof();
     type->SetDependencies(
         ::g::Fuse::UpdateManager_typeof());
     type->SetInterfaces(
@@ -4439,51 +4344,51 @@ NavigationAnimation_type* NavigationAnimation_typeof()
     return type;
 }
 
-// internal NavigationAnimation() :39
+// internal NavigationAnimation()
 void NavigationAnimation__ctor_5_fn(NavigationAnimation* __this)
 {
     __this->ctor_5();
 }
 
-// internal void GoProgress(double p, Fuse.Animations.AnimationVariant variant, Fuse.Navigation.NavigationArgs state) :93
+// internal void GoProgress(double p, Fuse.Animations.AnimationVariant variant, Fuse.Navigation.NavigationArgs state)
 void NavigationAnimation__GoProgress_fn(NavigationAnimation* __this, double* p, int32_t* variant, ::g::Fuse::Navigation::NavigationArgs* state)
 {
     __this->GoProgress(*p, *variant, state);
 }
 
-// private void GoProgressPlay() :122
+// private void GoProgressPlay()
 void NavigationAnimation__GoProgressPlay_fn(NavigationAnimation* __this)
 {
     __this->GoProgressPlay();
 }
 
-// protected Fuse.Navigation.INavigation get_NavContext() :42
+// protected Fuse.Navigation.INavigation get_NavContext()
 void NavigationAnimation__get_NavContext_fn(NavigationAnimation* __this, uObject** __retval)
 {
     *__retval = __this->NavContext();
 }
 
-// private void NavReady(object s) :52
+// private void NavReady(object s)
 void NavigationAnimation__NavReady_fn(NavigationAnimation* __this, uObject* s)
 {
     __this->NavReady(s);
 }
 
-// private void NavUnready(object s) :66
+// private void NavUnready(object s)
 void NavigationAnimation__NavUnready_fn(NavigationAnimation* __this, uObject* s)
 {
     __this->NavUnready(s);
 }
 
-// protected override sealed void OnRooted() :45
+// protected override sealed void OnRooted()
 void NavigationAnimation__OnRooted_fn(NavigationAnimation* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
     __this->_proxy = ::g::Fuse::Navigation::NavigationPageProxy::New1();
-    uPtr(__this->_proxy)->Init(uDelegate::New(::TYPES[22/*Fuse.Navigation.NavigationPageProxy.StatusChangedHandler*/], (void*)NavigationAnimation__NavReady_fn, __this), uDelegate::New(::TYPES[22/*Fuse.Navigation.NavigationPageProxy.StatusChangedHandler*/], (void*)NavigationAnimation__NavUnready_fn, __this), __this->Parent());
+    uPtr(__this->_proxy)->Init(uDelegate::New(::TYPES[21/*Fuse.Navigation.NavigationPageProxy.StatusChangedHandler*/], (void*)NavigationAnimation__NavReady_fn, __this), uDelegate::New(::TYPES[21/*Fuse.Navigation.NavigationPageProxy.StatusChangedHandler*/], (void*)NavigationAnimation__NavUnready_fn, __this), __this->Parent());
 }
 
-// protected override sealed void OnUnrooted() :58
+// protected override sealed void OnUnrooted()
 void NavigationAnimation__OnUnrooted_fn(NavigationAnimation* __this)
 {
     uPtr(__this->_proxy)->Dispose();
@@ -4492,32 +4397,32 @@ void NavigationAnimation__OnUnrooted_fn(NavigationAnimation* __this)
     ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
 }
 
-// protected Fuse.Visual get_PageContext() :41
+// protected Fuse.Visual get_PageContext()
 void NavigationAnimation__get_PageContext_fn(NavigationAnimation* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->PageContext();
 }
 
-// public float get_Scale() :86
+// public float get_Scale()
 void NavigationAnimation__get_Scale_fn(NavigationAnimation* __this, float* __retval)
 {
     *__retval = __this->Scale();
 }
 
-// public void set_Scale(float value) :87
+// public void set_Scale(float value)
 void NavigationAnimation__set_Scale_fn(NavigationAnimation* __this, float* value)
 {
     __this->Scale(*value);
 }
 
-// internal NavigationAnimation() [instance] :39
+// internal NavigationAnimation() [instance]
 void NavigationAnimation::ctor_5()
 {
     _scale = 1.0f;
     ctor_4();
 }
 
-// internal void GoProgress(double p, Fuse.Animations.AnimationVariant variant, Fuse.Navigation.NavigationArgs state) [instance] :93
+// internal void GoProgress(double p, Fuse.Animations.AnimationVariant variant, Fuse.Navigation.NavigationArgs state) [instance]
 void NavigationAnimation::GoProgress(double p, int32_t variant, ::g::Fuse::Navigation::NavigationArgs* state)
 {
     if (uPtr(state)->Mode() == 0)
@@ -4528,7 +4433,7 @@ void NavigationAnimation::GoProgress(double p, int32_t variant, ::g::Fuse::Navig
         if (!_delay)
         {
             _delay = true;
-            ::g::Fuse::UpdateManager::PerformNextFrame(uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)NavigationAnimation__GoProgressPlay_fn, this), 0, 1);
+            ::g::Fuse::UpdateManager::PerformNextFrame(uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)NavigationAnimation__GoProgressPlay_fn, this), 0, 1);
         }
     }
     else if (uPtr(state)->Mode() == 2)
@@ -4543,7 +4448,7 @@ void NavigationAnimation::GoProgress(double p, int32_t variant, ::g::Fuse::Navig
     }
 }
 
-// private void GoProgressPlay() [instance] :122
+// private void GoProgressPlay() [instance]
 void NavigationAnimation::GoProgressPlay()
 {
     if (!_delay)
@@ -4553,48 +4458,48 @@ void NavigationAnimation::GoProgressPlay()
     PlayTo(_delayProgress, _delayVariant);
 }
 
-// protected Fuse.Navigation.INavigation get_NavContext() [instance] :42
+// protected Fuse.Navigation.INavigation get_NavContext() [instance]
 uObject* NavigationAnimation::NavContext()
 {
     return uPtr(_proxy)->Navigation();
 }
 
-// private void NavReady(object s) [instance] :52
+// private void NavReady(object s) [instance]
 void NavigationAnimation::NavReady(uObject* s)
 {
-    ::g::Fuse::Navigation::INavigation::add_PageProgressChanged(uInterface(uPtr(uPtr(_proxy)->Navigation()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[21/*Fuse.Navigation.NavigationHandler*/], this, offsetof(NavigationAnimation_type, fp_OnNavigationStateChanged)));
+    ::g::Fuse::Navigation::INavigation::add_PageProgressChanged(uInterface(uPtr(uPtr(_proxy)->Navigation()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[20/*Fuse.Navigation.NavigationHandler*/], this, offsetof(NavigationAnimation_type, fp_OnNavigationStateChanged)));
     ForceUpdate();
 }
 
-// private void NavUnready(object s) [instance] :66
+// private void NavUnready(object s) [instance]
 void NavigationAnimation::NavUnready(uObject* s)
 {
-    ::g::Fuse::Navigation::INavigation::remove_PageProgressChanged(uInterface(uPtr(uPtr(_proxy)->Navigation()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[21/*Fuse.Navigation.NavigationHandler*/], this, offsetof(NavigationAnimation_type, fp_OnNavigationStateChanged)));
+    ::g::Fuse::Navigation::INavigation::remove_PageProgressChanged(uInterface(uPtr(uPtr(_proxy)->Navigation()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[20/*Fuse.Navigation.NavigationHandler*/], this, offsetof(NavigationAnimation_type, fp_OnNavigationStateChanged)));
 }
 
-// protected Fuse.Visual get_PageContext() [instance] :41
+// protected Fuse.Visual get_PageContext() [instance]
 ::g::Fuse::Visual* NavigationAnimation::PageContext()
 {
     return uPtr(_proxy)->Page();
 }
 
-// public float get_Scale() [instance] :86
+// public float get_Scale() [instance]
 float NavigationAnimation::Scale()
 {
     return _scale;
 }
 
-// public void set_Scale(float value) [instance] :87
+// public void set_Scale(float value) [instance]
 void NavigationAnimation::Scale(float value)
 {
     _scale = value;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Navigation.Events.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Navigation.Events.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class NavigationArgs :13
+// public sealed class NavigationArgs
 // {
 static void NavigationArgs_build(uType* type)
 {
@@ -4619,55 +4524,55 @@ uType* NavigationArgs_typeof()
     return type;
 }
 
-// public NavigationArgs(double progress, double prevProgress, [Fuse.Navigation.NavigationMode mode]) :19
+// public NavigationArgs(double progress, double prevProgress, [Fuse.Navigation.NavigationMode mode])
 void NavigationArgs__ctor_1_fn(NavigationArgs* __this, double* progress, double* prevProgress, int32_t* mode)
 {
     __this->ctor_1(*progress, *prevProgress, *mode);
 }
 
-// public generated Fuse.Navigation.NavigationMode get_Mode() :15
+// public generated Fuse.Navigation.NavigationMode get_Mode()
 void NavigationArgs__get_Mode_fn(NavigationArgs* __this, int32_t* __retval)
 {
     *__retval = __this->Mode();
 }
 
-// private generated void set_Mode(Fuse.Navigation.NavigationMode value) :15
+// private generated void set_Mode(Fuse.Navigation.NavigationMode value)
 void NavigationArgs__set_Mode_fn(NavigationArgs* __this, int32_t* value)
 {
     __this->Mode(*value);
 }
 
-// public NavigationArgs New(double progress, double prevProgress, [Fuse.Navigation.NavigationMode mode]) :19
+// public NavigationArgs New(double progress, double prevProgress, [Fuse.Navigation.NavigationMode mode])
 void NavigationArgs__New2_fn(double* progress, double* prevProgress, int32_t* mode, NavigationArgs** __retval)
 {
     *__retval = NavigationArgs::New2(*progress, *prevProgress, *mode);
 }
 
-// public generated double get_PreviousProgress() :17
+// public generated double get_PreviousProgress()
 void NavigationArgs__get_PreviousProgress_fn(NavigationArgs* __this, double* __retval)
 {
     *__retval = __this->PreviousProgress();
 }
 
-// private generated void set_PreviousProgress(double value) :17
+// private generated void set_PreviousProgress(double value)
 void NavigationArgs__set_PreviousProgress_fn(NavigationArgs* __this, double* value)
 {
     __this->PreviousProgress(*value);
 }
 
-// public generated double get_Progress() :16
+// public generated double get_Progress()
 void NavigationArgs__get_Progress_fn(NavigationArgs* __this, double* __retval)
 {
     *__retval = __this->Progress();
 }
 
-// private generated void set_Progress(double value) :16
+// private generated void set_Progress(double value)
 void NavigationArgs__set_Progress_fn(NavigationArgs* __this, double* value)
 {
     __this->Progress(*value);
 }
 
-// public NavigationArgs(double progress, double prevProgress, [Fuse.Navigation.NavigationMode mode]) [instance] :19
+// public NavigationArgs(double progress, double prevProgress, [Fuse.Navigation.NavigationMode mode]) [instance]
 void NavigationArgs::ctor_1(double progress, double prevProgress, int32_t mode)
 {
     ctor_();
@@ -4676,43 +4581,43 @@ void NavigationArgs::ctor_1(double progress, double prevProgress, int32_t mode)
     Mode(mode);
 }
 
-// public generated Fuse.Navigation.NavigationMode get_Mode() [instance] :15
+// public generated Fuse.Navigation.NavigationMode get_Mode() [instance]
 int32_t NavigationArgs::Mode()
 {
     return _Mode;
 }
 
-// private generated void set_Mode(Fuse.Navigation.NavigationMode value) [instance] :15
+// private generated void set_Mode(Fuse.Navigation.NavigationMode value) [instance]
 void NavigationArgs::Mode(int32_t value)
 {
     _Mode = value;
 }
 
-// public generated double get_PreviousProgress() [instance] :17
+// public generated double get_PreviousProgress() [instance]
 double NavigationArgs::PreviousProgress()
 {
     return _PreviousProgress;
 }
 
-// private generated void set_PreviousProgress(double value) [instance] :17
+// private generated void set_PreviousProgress(double value) [instance]
 void NavigationArgs::PreviousProgress(double value)
 {
     _PreviousProgress = value;
 }
 
-// public generated double get_Progress() [instance] :16
+// public generated double get_Progress() [instance]
 double NavigationArgs::Progress()
 {
     return _Progress;
 }
 
-// private generated void set_Progress(double value) [instance] :16
+// private generated void set_Progress(double value) [instance]
 void NavigationArgs::Progress(double value)
 {
     _Progress = value;
 }
 
-// public NavigationArgs New(double progress, double prevProgress, [Fuse.Navigation.NavigationMode mode]) [static] :19
+// public NavigationArgs New(double progress, double prevProgress, [Fuse.Navigation.NavigationMode mode]) [static]
 NavigationArgs* NavigationArgs::New2(double progress, double prevProgress, int32_t mode)
 {
     NavigationArgs* obj1 = (NavigationArgs*)uNew(NavigationArgs_typeof());
@@ -4721,10 +4626,10 @@ NavigationArgs* NavigationArgs::New2(double progress, double prevProgress, int32
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/EdgeNavigation.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/EdgeNavigation.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum NavigationEdge :11
+// public enum NavigationEdge
 uEnumType* NavigationEdge_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -4740,10 +4645,10 @@ uEnumType* NavigationEdge_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/INavigation.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/INavigation.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum NavigationGotoMode :18
+// public enum NavigationGotoMode
 uEnumType* NavigationGotoMode_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -4757,10 +4662,10 @@ uEnumType* NavigationGotoMode_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Navigation.Events.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Navigation.Events.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public delegate void NavigationHandler(object sender, Fuse.Navigation.NavigationArgs state) :28
+// public delegate void NavigationHandler(object sender, Fuse.Navigation.NavigationArgs state)
 uDelegateType* NavigationHandler_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -4773,10 +4678,10 @@ uDelegateType* NavigationHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Navigation.Events.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Navigation.Events.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum NavigationMode :6
+// public enum NavigationMode
 uEnumType* NavigationMode_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -4790,10 +4695,10 @@ uEnumType* NavigationMode_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/INavigation.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/INavigation.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public delegate void NavigationPageCountHandler(object sender) :48
+// public delegate void NavigationPageCountHandler(object sender)
 uDelegateType* NavigationPageCountHandler_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -4805,30 +4710,30 @@ uDelegateType* NavigationPageCountHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/PageBinding.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/PageBinding.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class NavigationPageProperty :328
+// public static class NavigationPageProperty
 // {
-// static generated NavigationPageProperty() :328
+// static generated NavigationPageProperty()
 static void NavigationPageProperty__cctor__fn(uType* __type)
 {
     ::g::Fuse::Properties_typeof()->Init();
     NavigationPageProperty::_pageProperty_ = ::g::Fuse::Properties::CreateHandle();
-    NavigationPageProperty::RootedBindings_ = ((::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[23/*Uno.Collections.List<Fuse.Navigation.IPageResourceBinding>*/]));
-    NavigationPageProperty::_watchers_ = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[24/*Uno.Collections.Dictionary<Fuse.Visual, Uno.Collections.List<Fuse.Navigation.IPagePropertyListener>>*/]));
+    NavigationPageProperty::RootedBindings_ = ((::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[22/*Uno.Collections.List<Fuse.Navigation.IPageResourceBinding>*/]));
+    NavigationPageProperty::_watchers_ = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[23/*Uno.Collections.Dictionary<Fuse.Visual, Uno.Collections.List<Fuse.Navigation.IPagePropertyListener>>*/]));
 }
 
 static void NavigationPageProperty_build(uType* type)
 {
-    ::TYPES[23] = ::g::Uno::Collections::List_typeof()->MakeType(::g::Fuse::Navigation::IPageResourceBinding_typeof(), NULL);
-    ::TYPES[24] = ::g::Uno::Collections::Dictionary_typeof()->MakeType(::g::Fuse::Visual_typeof(), ::g::Uno::Collections::List_typeof()->MakeType(::g::Fuse::Navigation::IPagePropertyListener_typeof(), NULL), NULL);
-    ::TYPES[8] = ::g::Fuse::Visual_typeof();
-    ::TYPES[25] = ::g::Uno::Collections::List_typeof()->MakeType(::g::Fuse::Navigation::IPagePropertyListener_typeof(), NULL);
+    ::TYPES[22] = ::g::Uno::Collections::List_typeof()->MakeType(::g::Fuse::Navigation::IPageResourceBinding_typeof(), NULL);
+    ::TYPES[23] = ::g::Uno::Collections::Dictionary_typeof()->MakeType(::g::Fuse::Visual_typeof(), ::g::Uno::Collections::List_typeof()->MakeType(::g::Fuse::Navigation::IPagePropertyListener_typeof(), NULL), NULL);
+    ::TYPES[7] = ::g::Fuse::Visual_typeof();
+    ::TYPES[24] = ::g::Uno::Collections::List_typeof()->MakeType(::g::Fuse::Navigation::IPagePropertyListener_typeof(), NULL);
     type->SetFields(0,
         ::g::Fuse::PropertyHandle_typeof(), (uintptr_t)&NavigationPageProperty::_pageProperty_, uFieldFlagsStatic,
-        ::TYPES[23/*Uno.Collections.List<Fuse.Navigation.IPageResourceBinding>*/], (uintptr_t)&NavigationPageProperty::RootedBindings_, uFieldFlagsStatic,
-        ::TYPES[24/*Uno.Collections.Dictionary<Fuse.Visual, Uno.Collections.List<Fuse.Navigation.IPagePropertyListener>>*/], (uintptr_t)&NavigationPageProperty::_watchers_, uFieldFlagsStatic);
+        ::TYPES[22/*Uno.Collections.List<Fuse.Navigation.IPageResourceBinding>*/], (uintptr_t)&NavigationPageProperty::RootedBindings_, uFieldFlagsStatic,
+        ::TYPES[23/*Uno.Collections.Dictionary<Fuse.Visual, Uno.Collections.List<Fuse.Navigation.IPagePropertyListener>>*/], (uintptr_t)&NavigationPageProperty::_watchers_, uFieldFlagsStatic);
 }
 
 uClassType* NavigationPageProperty_typeof()
@@ -4845,25 +4750,25 @@ uClassType* NavigationPageProperty_typeof()
     return type;
 }
 
-// internal static void AddPageWatcher(Fuse.Visual where, Fuse.Navigation.IPagePropertyListener callback) :351
+// internal static void AddPageWatcher(Fuse.Visual where, Fuse.Navigation.IPagePropertyListener callback)
 void NavigationPageProperty__AddPageWatcher_fn(::g::Fuse::Visual* where, uObject* callback)
 {
     NavigationPageProperty::AddPageWatcher(where, callback);
 }
 
-// public static Fuse.Visual GetNavigationPage(Fuse.Visual n) :405
+// public static Fuse.Visual GetNavigationPage(Fuse.Visual n)
 void NavigationPageProperty__GetNavigationPage_fn(::g::Fuse::Visual* n, ::g::Fuse::Visual** __retval)
 {
     *__retval = NavigationPageProperty::GetNavigationPage(n);
 }
 
-// private static Uno.Collections.List<Fuse.Navigation.IPagePropertyListener> GetWatcherList(Fuse.Visual where, [bool optional]) :337
+// private static Uno.Collections.List<Fuse.Navigation.IPagePropertyListener> GetWatcherList(Fuse.Visual where, [bool optional])
 void NavigationPageProperty__GetWatcherList_fn(::g::Fuse::Visual* where, bool* optional, ::g::Uno::Collections::List** __retval)
 {
     *__retval = NavigationPageProperty::GetWatcherList(where, *optional);
 }
 
-// internal static void RemovePageWatcher(Fuse.Visual where, Fuse.Navigation.IPagePropertyListener callback) :356
+// internal static void RemovePageWatcher(Fuse.Visual where, Fuse.Navigation.IPagePropertyListener callback)
 void NavigationPageProperty__RemovePageWatcher_fn(::g::Fuse::Visual* where, uObject* callback)
 {
     NavigationPageProperty::RemovePageWatcher(where, callback);
@@ -4873,26 +4778,26 @@ uSStrong< ::g::Fuse::PropertyHandle*> NavigationPageProperty::_pageProperty_;
 uSStrong< ::g::Uno::Collections::List*> NavigationPageProperty::RootedBindings_;
 uSStrong< ::g::Uno::Collections::Dictionary*> NavigationPageProperty::_watchers_;
 
-// internal static void AddPageWatcher(Fuse.Visual where, Fuse.Navigation.IPagePropertyListener callback) [static] :351
+// internal static void AddPageWatcher(Fuse.Visual where, Fuse.Navigation.IPagePropertyListener callback) [static]
 void NavigationPageProperty::AddPageWatcher(::g::Fuse::Visual* where, uObject* callback)
 {
     NavigationPageProperty_typeof()->Init();
     ::g::Uno::Collections::List__Add_fn(uPtr(NavigationPageProperty::GetWatcherList(where, false)), callback);
 }
 
-// public static Fuse.Visual GetNavigationPage(Fuse.Visual n) [static] :405
+// public static Fuse.Visual GetNavigationPage(Fuse.Visual n) [static]
 ::g::Fuse::Visual* NavigationPageProperty::GetNavigationPage(::g::Fuse::Visual* n)
 {
     NavigationPageProperty_typeof()->Init();
     uObject* v;
 
     if (uPtr(uPtr(n)->Properties())->TryGet(NavigationPageProperty::_pageProperty_, &v))
-        return uCast< ::g::Fuse::Visual*>(v, ::TYPES[8/*Fuse.Visual*/]);
+        return uCast< ::g::Fuse::Visual*>(v, ::TYPES[7/*Fuse.Visual*/]);
 
     return NULL;
 }
 
-// private static Uno.Collections.List<Fuse.Navigation.IPagePropertyListener> GetWatcherList(Fuse.Visual where, [bool optional]) [static] :337
+// private static Uno.Collections.List<Fuse.Navigation.IPagePropertyListener> GetWatcherList(Fuse.Visual where, [bool optional]) [static]
 ::g::Uno::Collections::List* NavigationPageProperty::GetWatcherList(::g::Fuse::Visual* where, bool optional)
 {
     NavigationPageProperty_typeof()->Init();
@@ -4905,12 +4810,12 @@ void NavigationPageProperty::AddPageWatcher(::g::Fuse::Visual* where, uObject* c
     if (optional)
         return NULL;
 
-    ::g::Uno::Collections::List* q = (::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[25/*Uno.Collections.List<Fuse.Navigation.IPagePropertyListener>*/]);
+    ::g::Uno::Collections::List* q = (::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[24/*Uno.Collections.List<Fuse.Navigation.IPagePropertyListener>*/]);
     ::g::Uno::Collections::Dictionary__Add_fn(uPtr(NavigationPageProperty::_watchers_), where, q);
     return q;
 }
 
-// internal static void RemovePageWatcher(Fuse.Visual where, Fuse.Navigation.IPagePropertyListener callback) [static] :356
+// internal static void RemovePageWatcher(Fuse.Visual where, Fuse.Navigation.IPagePropertyListener callback) [static]
 void NavigationPageProperty::RemovePageWatcher(::g::Fuse::Visual* where, uObject* callback)
 {
     NavigationPageProperty_typeof()->Init();
@@ -4928,10 +4833,10 @@ void NavigationPageProperty::RemovePageWatcher(::g::Fuse::Visual* where, uObject
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/NavigationPageProxy.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/NavigationPageProxy.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class NavigationPageProxy :14
+// public sealed class NavigationPageProxy
 // {
 static void NavigationPageProxy_build(uType* type)
 {
@@ -4967,78 +4872,78 @@ NavigationPageProxy_type* NavigationPageProxy_typeof()
     return type;
 }
 
-// internal NavigationPageProxy() :32
+// internal NavigationPageProxy()
 void NavigationPageProxy__ctor__fn(NavigationPageProxy* __this)
 {
     __this->ctor_();
 }
 
-// public void Dispose() :100
+// public void Dispose()
 void NavigationPageProxy__Dispose_fn(NavigationPageProxy* __this)
 {
     __this->Dispose();
 }
 
-// internal void Init(Fuse.Navigation.NavigationPageProxy.StatusChangedHandler ready, Fuse.Navigation.NavigationPageProxy.StatusChangedHandler unready, Fuse.Visual source) :34
+// internal void Init(Fuse.Navigation.NavigationPageProxy.StatusChangedHandler ready, Fuse.Navigation.NavigationPageProxy.StatusChangedHandler unready, Fuse.Visual source)
 void NavigationPageProxy__Init_fn(NavigationPageProxy* __this, uDelegate* ready, uDelegate* unready, ::g::Fuse::Visual* source)
 {
     __this->Init(ready, unready, source);
 }
 
-// public bool get_IsReady() :83
+// public bool get_IsReady()
 void NavigationPageProxy__get_IsReady_fn(NavigationPageProxy* __this, bool* __retval)
 {
     *__retval = __this->IsReady();
 }
 
-// public Fuse.Navigation.INavigation get_Navigation() :24
+// public Fuse.Navigation.INavigation get_Navigation()
 void NavigationPageProxy__get_Navigation_fn(NavigationPageProxy* __this, uObject** __retval)
 {
     *__retval = __this->Navigation();
 }
 
-// internal NavigationPageProxy New() :32
+// internal NavigationPageProxy New()
 void NavigationPageProxy__New1_fn(NavigationPageProxy** __retval)
 {
     *__retval = NavigationPageProxy::New1();
 }
 
-// private void OnPageRootingCompleted() :86
+// private void OnPageRootingCompleted()
 void NavigationPageProxy__OnPageRootingCompleted_fn(NavigationPageProxy* __this)
 {
     __this->OnPageRootingCompleted();
 }
 
-// public generated Fuse.Visual get_Page() :21
+// public generated Fuse.Visual get_Page()
 void NavigationPageProxy__get_Page_fn(NavigationPageProxy* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->Page();
 }
 
-// private generated void set_Page(Fuse.Visual value) :21
+// private generated void set_Page(Fuse.Visual value)
 void NavigationPageProxy__set_Page_fn(NavigationPageProxy* __this, ::g::Fuse::Visual* value)
 {
     __this->Page(value);
 }
 
-// private void RootImpl(Fuse.Visual source) :41
+// private void RootImpl(Fuse.Visual source)
 void NavigationPageProxy__RootImpl_fn(NavigationPageProxy* __this, ::g::Fuse::Visual* source)
 {
     __this->RootImpl(source);
 }
 
-// private void UnrootImpl() :107
+// private void UnrootImpl()
 void NavigationPageProxy__UnrootImpl_fn(NavigationPageProxy* __this)
 {
     __this->UnrootImpl();
 }
 
-// internal NavigationPageProxy() [instance] :32
+// internal NavigationPageProxy() [instance]
 void NavigationPageProxy::ctor_()
 {
 }
 
-// public void Dispose() [instance] :100
+// public void Dispose() [instance]
 void NavigationPageProxy::Dispose()
 {
     UnrootImpl();
@@ -5046,7 +4951,7 @@ void NavigationPageProxy::Dispose()
     _unready = NULL;
 }
 
-// internal void Init(Fuse.Navigation.NavigationPageProxy.StatusChangedHandler ready, Fuse.Navigation.NavigationPageProxy.StatusChangedHandler unready, Fuse.Visual source) [instance] :34
+// internal void Init(Fuse.Navigation.NavigationPageProxy.StatusChangedHandler ready, Fuse.Navigation.NavigationPageProxy.StatusChangedHandler unready, Fuse.Visual source) [instance]
 void NavigationPageProxy::Init(uDelegate* ready, uDelegate* unready, ::g::Fuse::Visual* source)
 {
     _ready = ready;
@@ -5054,52 +4959,52 @@ void NavigationPageProxy::Init(uDelegate* ready, uDelegate* unready, ::g::Fuse::
     RootImpl(source);
 }
 
-// public bool get_IsReady() [instance] :83
+// public bool get_IsReady() [instance]
 bool NavigationPageProxy::IsReady()
 {
     return _navigation != NULL;
 }
 
-// public Fuse.Navigation.INavigation get_Navigation() [instance] :24
+// public Fuse.Navigation.INavigation get_Navigation() [instance]
 uObject* NavigationPageProxy::Navigation()
 {
     return _navigation;
 }
 
-// private void OnPageRootingCompleted() [instance] :86
+// private void OnPageRootingCompleted() [instance]
 void NavigationPageProxy::OnPageRootingCompleted()
 {
     if ((!_waitRootingCompleted || (Page() == NULL)) || (_source == NULL))
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("Got an undesired ready event"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/NavigationPageProxy.uno"), 90, uString::Const("OnPageRootingCompleted"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("Got an undesired ready event"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/NavigationPageProxy.uno"), 90, uString::Const("OnPageRootingCompleted"));
         return;
     }
 
-    uPtr(Page())->remove_RootingCompleted(uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)NavigationPageProxy__OnPageRootingCompleted_fn, this));
+    uPtr(Page())->remove_RootingCompleted(uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)NavigationPageProxy__OnPageRootingCompleted_fn, this));
     _waitRootingCompleted = false;
     RootImpl(_source);
 }
 
-// public generated Fuse.Visual get_Page() [instance] :21
+// public generated Fuse.Visual get_Page() [instance]
 ::g::Fuse::Visual* NavigationPageProxy::Page()
 {
     return _Page;
 }
 
-// private generated void set_Page(Fuse.Visual value) [instance] :21
+// private generated void set_Page(Fuse.Visual value) [instance]
 void NavigationPageProxy::Page(::g::Fuse::Visual* value)
 {
     _Page = value;
 }
 
-// private void RootImpl(Fuse.Visual source) [instance] :41
+// private void RootImpl(Fuse.Visual source) [instance]
 void NavigationPageProxy::RootImpl(::g::Fuse::Visual* source)
 {
     _source = source;
 
     if (_source == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("Attempting rooting to null source"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/NavigationPageProxy.uno"), 46, uString::Const("RootImpl"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("Attempting rooting to null source"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/NavigationPageProxy.uno"), 46, uString::Const("RootImpl"));
         return;
     }
 
@@ -5107,13 +5012,13 @@ void NavigationPageProxy::RootImpl(::g::Fuse::Visual* source)
 
     if (Page() == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Unable to locate Page"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/NavigationPageProxy.uno"), 53, uString::Const("RootImpl"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Unable to locate Page"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/NavigationPageProxy.uno"), 53, uString::Const("RootImpl"), NULL);
         return;
     }
 
     if (!uPtr(Page())->IsRootingStarted())
     {
-        uPtr(Page())->add_RootingCompleted(uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)NavigationPageProxy__OnPageRootingCompleted_fn, this));
+        uPtr(Page())->add_RootingCompleted(uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)NavigationPageProxy__OnPageRootingCompleted_fn, this));
         _waitRootingCompleted = true;
         _navigation = NULL;
         _pageBind = NULL;
@@ -5122,7 +5027,7 @@ void NavigationPageProxy::RootImpl(::g::Fuse::Visual* source)
 
     if (_navigation == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("Something went wrong locating a Navigator"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/NavigationPageProxy.uno"), 70, uString::Const("RootImpl"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("Something went wrong locating a Navigator"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/NavigationPageProxy.uno"), 70, uString::Const("RootImpl"));
         return;
     }
 
@@ -5133,7 +5038,7 @@ void NavigationPageProxy::RootImpl(::g::Fuse::Visual* source)
         uPtr(_ready)->InvokeVoid(this);
 }
 
-// private void UnrootImpl() [instance] :107
+// private void UnrootImpl() [instance]
 void NavigationPageProxy::UnrootImpl()
 {
     if (Page() != NULL)
@@ -5143,7 +5048,7 @@ void NavigationPageProxy::UnrootImpl()
 
         if (_waitRootingCompleted)
         {
-            uPtr(Page())->remove_RootingCompleted(uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)NavigationPageProxy__OnPageRootingCompleted_fn, this));
+            uPtr(Page())->remove_RootingCompleted(uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)NavigationPageProxy__OnPageRootingCompleted_fn, this));
             _waitRootingCompleted = false;
         }
     }
@@ -5156,7 +5061,7 @@ void NavigationPageProxy::UnrootImpl()
     _source = NULL;
 }
 
-// internal NavigationPageProxy New() [static] :32
+// internal NavigationPageProxy New() [static]
 NavigationPageProxy* NavigationPageProxy::New1()
 {
     NavigationPageProxy* obj2 = (NavigationPageProxy*)uNew(NavigationPageProxy_typeof());
@@ -5165,10 +5070,10 @@ NavigationPageProxy* NavigationPageProxy::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/INavigation.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/INavigation.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public struct NavigationPageState :65
+// public struct NavigationPageState
 // {
 static void NavigationPageState_build(uType* type)
 {
@@ -5183,6 +5088,7 @@ uStructType* NavigationPageState_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.FieldCount = 2;
     options.Alignment = alignof(NavigationPageState);
     options.ValueSize = sizeof(NavigationPageState);
@@ -5193,10 +5099,10 @@ uStructType* NavigationPageState_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Navigation.Events.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Navigation.Events.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum NavigationState :30
+// public enum NavigationState
 uEnumType* NavigationState_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -5210,10 +5116,10 @@ uEnumType* NavigationState_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/StructuredNavigation.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/StructuredNavigation.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal enum StructuredNavigation.NavigationStructure :15
+// internal enum StructuredNavigation.NavigationStructure
 uEnumType* StructuredNavigation__NavigationStructure_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -5226,14 +5132,14 @@ uEnumType* StructuredNavigation__NavigationStructure_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Activated.uno
-// -----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Activated.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class NavigationTrigger :13
+// public abstract class NavigationTrigger
 // {
 static void NavigationTrigger_build(uType* type)
 {
-    ::TYPES[26] = ::g::Fuse::Navigation::RoutePageProxy__ActiveChanged_typeof();
+    ::TYPES[25] = ::g::Fuse::Navigation::RoutePageProxy__ActiveChanged_typeof();
     type->SetBase(::g::Fuse::Triggers::PulseTrigger_typeof()->MakeType(::g::Uno::EventArgs_typeof(), NULL));
     type->SetInterfaces(
         ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(NavigationTrigger_type, interface0),
@@ -5290,23 +5196,23 @@ NavigationTrigger_type* NavigationTrigger_typeof()
     return type;
 }
 
-// internal NavigationTrigger() :15
+// internal NavigationTrigger()
 void NavigationTrigger__ctor_6_fn(NavigationTrigger* __this)
 {
     __this->ctor_6();
 }
 
-// protected override sealed void OnRooted() :53
+// protected override sealed void OnRooted()
 void NavigationTrigger__OnRooted_fn(NavigationTrigger* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
-    __this->_proxy = ::g::Fuse::Navigation::RoutePageProxy::New1(__this->Parent(), uDelegate::New(::TYPES[26/*Fuse.Navigation.RoutePageProxy.ActiveChanged*/], __this, offsetof(NavigationTrigger_type, fp_ActiveChanged)));
+    __this->_proxy = ::g::Fuse::Navigation::RoutePageProxy::New1(__this->Parent(), uDelegate::New(::TYPES[25/*Fuse.Navigation.RoutePageProxy.ActiveChanged*/], __this, offsetof(NavigationTrigger_type, fp_ActiveChanged)));
     uPtr(__this->_proxy)->Path(__this->Path());
     uPtr(__this->_proxy)->TriggerWhen(__this->When());
     uPtr(__this->_proxy)->Init();
 }
 
-// protected override sealed void OnUnrooted() :64
+// protected override sealed void OnUnrooted()
 void NavigationTrigger__OnUnrooted_fn(NavigationTrigger* __this)
 {
     uPtr(__this->_proxy)->Dispose();
@@ -5314,31 +5220,31 @@ void NavigationTrigger__OnUnrooted_fn(NavigationTrigger* __this)
     ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
 }
 
-// public Fuse.Navigation.RoutePagePath get_Path() :25
+// public Fuse.Navigation.RoutePagePath get_Path()
 void NavigationTrigger__get_Path_fn(NavigationTrigger* __this, int32_t* __retval)
 {
     *__retval = __this->Path();
 }
 
-// public void set_Path(Fuse.Navigation.RoutePagePath value) :26
+// public void set_Path(Fuse.Navigation.RoutePagePath value)
 void NavigationTrigger__set_Path_fn(NavigationTrigger* __this, int32_t* value)
 {
     __this->Path(*value);
 }
 
-// public Fuse.Navigation.RoutePageTriggerWhen get_When() :42
+// public Fuse.Navigation.RoutePageTriggerWhen get_When()
 void NavigationTrigger__get_When_fn(NavigationTrigger* __this, int32_t* __retval)
 {
     *__retval = __this->When();
 }
 
-// public void set_When(Fuse.Navigation.RoutePageTriggerWhen value) :43
+// public void set_When(Fuse.Navigation.RoutePageTriggerWhen value)
 void NavigationTrigger__set_When_fn(NavigationTrigger* __this, int32_t* value)
 {
     __this->When(*value);
 }
 
-// internal NavigationTrigger() [instance] :15
+// internal NavigationTrigger() [instance]
 void NavigationTrigger::ctor_6()
 {
     _path = 1;
@@ -5346,13 +5252,13 @@ void NavigationTrigger::ctor_6()
     ctor_5();
 }
 
-// public Fuse.Navigation.RoutePagePath get_Path() [instance] :25
+// public Fuse.Navigation.RoutePagePath get_Path() [instance]
 int32_t NavigationTrigger::Path()
 {
     return _path;
 }
 
-// public void set_Path(Fuse.Navigation.RoutePagePath value) [instance] :26
+// public void set_Path(Fuse.Navigation.RoutePagePath value) [instance]
 void NavigationTrigger::Path(int32_t value)
 {
     _path = value;
@@ -5361,13 +5267,13 @@ void NavigationTrigger::Path(int32_t value)
         uPtr(_proxy)->Path(value);
 }
 
-// public Fuse.Navigation.RoutePageTriggerWhen get_When() [instance] :42
+// public Fuse.Navigation.RoutePageTriggerWhen get_When() [instance]
 int32_t NavigationTrigger::When()
 {
     return _when;
 }
 
-// public void set_When(Fuse.Navigation.RoutePageTriggerWhen value) [instance] :43
+// public void set_When(Fuse.Navigation.RoutePageTriggerWhen value) [instance]
 void NavigationTrigger::When(int32_t value)
 {
     _when = value;
@@ -5377,15 +5283,15 @@ void NavigationTrigger::When(int32_t value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/TriggerActions.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/TriggerActions.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class NavigationTriggerAction :8
+// public abstract class NavigationTriggerAction
 // {
 static void NavigationTriggerAction_build(uType* type)
 {
     ::STRINGS[26] = uString::Const("No navigation context was found");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/TriggerActions.uno");
+    ::STRINGS[1] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/TriggerActions.uno");
     ::STRINGS[2] = uString::Const("Perform");
     type->SetDependencies(
         ::g::Fuse::Navigation::Navigation_typeof());
@@ -5416,19 +5322,19 @@ NavigationTriggerAction_type* NavigationTriggerAction_typeof()
     return type;
 }
 
-// public generated Fuse.Navigation.INavigation get_NavigationContext() :10
+// public generated Fuse.Navigation.INavigation get_NavigationContext()
 void NavigationTriggerAction__get_NavigationContext_fn(NavigationTriggerAction* __this, uObject** __retval)
 {
     *__retval = __this->NavigationContext();
 }
 
-// public generated void set_NavigationContext(Fuse.Navigation.INavigation value) :10
+// public generated void set_NavigationContext(Fuse.Navigation.INavigation value)
 void NavigationTriggerAction__set_NavigationContext_fn(NavigationTriggerAction* __this, uObject* value)
 {
     __this->NavigationContext(value);
 }
 
-// protected override sealed void Perform(Fuse.Node n) :12
+// protected override sealed void Perform(Fuse.Node n)
 void NavigationTriggerAction__Perform_fn(NavigationTriggerAction* __this, ::g::Fuse::Node* n)
 {
     uObject* ind1;
@@ -5437,41 +5343,41 @@ void NavigationTriggerAction__Perform_fn(NavigationTriggerAction* __this, ::g::F
 
     if (ctx == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[26/*"No navigati...*/], __this, ::STRINGS[1/*"/usr/local/...*/], 17, ::STRINGS[2/*"Perform"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[26/*"No navigati...*/], __this, ::STRINGS[1/*"/Users/antt...*/], 17, ::STRINGS[2/*"Perform"*/], NULL);
         return;
     }
 
     __this->Perform1(ctx, n);
 }
 
-// public generated Fuse.Navigation.INavigation get_NavigationContext() [instance] :10
+// public generated Fuse.Navigation.INavigation get_NavigationContext() [instance]
 uObject* NavigationTriggerAction::NavigationContext()
 {
     return _NavigationContext;
 }
 
-// public generated void set_NavigationContext(Fuse.Navigation.INavigation value) [instance] :10
+// public generated void set_NavigationContext(Fuse.Navigation.INavigation value) [instance]
 void NavigationTriggerAction::NavigationContext(uObject* value)
 {
     _NavigationContext = value;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/ModifyRouteCommand.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/ModifyRouteCommand.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class RouteModificationCommand.OuterSubscription :17
+// private sealed class RouteModificationCommand.OuterSubscription
 // {
 static void RouteModificationCommand__OuterSubscription_build(uType* type)
 {
-    ::TYPES[27] = ::g::Fuse::Reactive::IListener_typeof();
+    ::TYPES[26] = ::g::Fuse::Reactive::IListener_typeof();
     type->SetInterfaces(
         ::g::Uno::IDisposable_typeof(), offsetof(RouteModificationCommand__OuterSubscription_type, interface0),
-        ::TYPES[27/*Fuse.Reactive.IListener*/], offsetof(RouteModificationCommand__OuterSubscription_type, interface1),
+        ::TYPES[26/*Fuse.Reactive.IListener*/], offsetof(RouteModificationCommand__OuterSubscription_type, interface1),
         ::g::Fuse::Reactive::IEventHandler_typeof(), offsetof(RouteModificationCommand__OuterSubscription_type, interface2));
     type->SetFields(2,
         ::g::Fuse::Navigation::RouteModificationCommand_typeof(), offsetof(RouteModificationCommand__OuterSubscription, _expr), 0,
-        ::TYPES[27/*Fuse.Reactive.IListener*/], offsetof(RouteModificationCommand__OuterSubscription, _listener), 0,
+        ::TYPES[26/*Fuse.Reactive.IListener*/], offsetof(RouteModificationCommand__OuterSubscription, _listener), 0,
         ::g::Fuse::Reactive::IContext_typeof(), offsetof(RouteModificationCommand__OuterSubscription, _context), 0,
         ::g::Fuse::Navigation::RouteModificationCommand__InnerSubscription_typeof(), offsetof(RouteModificationCommand__OuterSubscription, _innerSub), 0);
 }
@@ -5499,13 +5405,13 @@ RouteModificationCommand__OuterSubscription_type* RouteModificationCommand__Oute
     return type;
 }
 
-// public OuterSubscription(Fuse.Navigation.RouteModificationCommand expr, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) :24
+// public OuterSubscription(Fuse.Navigation.RouteModificationCommand expr, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener)
 void RouteModificationCommand__OuterSubscription__ctor_1_fn(RouteModificationCommand__OuterSubscription* __this, ::g::Fuse::Navigation::RouteModificationCommand* expr, uObject* context, uObject* listener)
 {
     __this->ctor_1(expr, context, listener);
 }
 
-// public override sealed void Dispose() :32
+// public override sealed void Dispose()
 void RouteModificationCommand__OuterSubscription__Dispose_fn(RouteModificationCommand__OuterSubscription* __this)
 {
     ::g::Fuse::Reactive::InnerListener__Dispose_fn(__this);
@@ -5515,13 +5421,13 @@ void RouteModificationCommand__OuterSubscription__Dispose_fn(RouteModificationCo
     __this->DisposeInner(false);
 }
 
-// internal void DisposeInner([bool fromInner]) :41
+// internal void DisposeInner([bool fromInner])
 void RouteModificationCommand__OuterSubscription__DisposeInner_fn(RouteModificationCommand__OuterSubscription* __this, bool* fromInner)
 {
     __this->DisposeInner(*fromInner);
 }
 
-// private void Fuse.Reactive.IEventHandler.Dispatch(Fuse.Reactive.IEventRecord e) :52
+// private void Fuse.Reactive.IEventHandler.Dispatch(Fuse.Reactive.IEventRecord e)
 void RouteModificationCommand__OuterSubscription__FuseReactiveIEventHandlerDispatch_fn(RouteModificationCommand__OuterSubscription* __this, uObject* e)
 {
     if (__this->_innerSub != NULL)
@@ -5531,33 +5437,33 @@ void RouteModificationCommand__OuterSubscription__FuseReactiveIEventHandlerDispa
     uPtr(__this->_innerSub)->Init(__this->_context);
 }
 
-// public OuterSubscription New(Fuse.Navigation.RouteModificationCommand expr, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) :24
+// public OuterSubscription New(Fuse.Navigation.RouteModificationCommand expr, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener)
 void RouteModificationCommand__OuterSubscription__New1_fn(::g::Fuse::Navigation::RouteModificationCommand* expr, uObject* context, uObject* listener, RouteModificationCommand__OuterSubscription** __retval)
 {
     *__retval = RouteModificationCommand__OuterSubscription::New1(expr, context, listener);
 }
 
-// protected override sealed void OnLostData(Fuse.Reactive.IExpression expr) :65
+// protected override sealed void OnLostData(Fuse.Reactive.IExpression expr)
 void RouteModificationCommand__OuterSubscription__OnLostData_fn(RouteModificationCommand__OuterSubscription* __this, uObject* expr)
 {
 }
 
-// protected override sealed void OnNewData(Fuse.Reactive.IExpression expr, object value) :64
+// protected override sealed void OnNewData(Fuse.Reactive.IExpression expr, object value)
 void RouteModificationCommand__OuterSubscription__OnNewData_fn(RouteModificationCommand__OuterSubscription* __this, uObject* expr, uObject* value)
 {
 }
 
-// public OuterSubscription(Fuse.Navigation.RouteModificationCommand expr, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) [instance] :24
+// public OuterSubscription(Fuse.Navigation.RouteModificationCommand expr, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) [instance]
 void RouteModificationCommand__OuterSubscription::ctor_1(::g::Fuse::Navigation::RouteModificationCommand* expr, uObject* context, uObject* listener)
 {
     ctor_();
     _expr = expr;
     _context = context;
     _listener = listener;
-    ::g::Fuse::Reactive::IListener::OnNewData(uInterface(uPtr(_listener), ::TYPES[27/*Fuse.Reactive.IListener*/]), (uObject*)_expr, this);
+    ::g::Fuse::Reactive::IListener::OnNewData(uInterface(uPtr(_listener), ::TYPES[26/*Fuse.Reactive.IListener*/]), (uObject*)_expr, this);
 }
 
-// internal void DisposeInner([bool fromInner]) [instance] :41
+// internal void DisposeInner([bool fromInner]) [instance]
 void RouteModificationCommand__OuterSubscription::DisposeInner(bool fromInner)
 {
     if (_innerSub != NULL)
@@ -5569,7 +5475,7 @@ void RouteModificationCommand__OuterSubscription::DisposeInner(bool fromInner)
     }
 }
 
-// public OuterSubscription New(Fuse.Navigation.RouteModificationCommand expr, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) [static] :24
+// public OuterSubscription New(Fuse.Navigation.RouteModificationCommand expr, Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) [static]
 RouteModificationCommand__OuterSubscription* RouteModificationCommand__OuterSubscription::New1(::g::Fuse::Navigation::RouteModificationCommand* expr, uObject* context, uObject* listener)
 {
     RouteModificationCommand__OuterSubscription* obj1 = (RouteModificationCommand__OuterSubscription*)uNew(RouteModificationCommand__OuterSubscription_typeof());
@@ -5578,10 +5484,10 @@ RouteModificationCommand__OuterSubscription* RouteModificationCommand__OuterSubs
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/IRouterOutlet.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/IRouterOutlet.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal enum OutletType :17
+// internal enum OutletType
 uEnumType* OutletType_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -5594,12 +5500,12 @@ uEnumType* OutletType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/PageData.uno
-// ----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/PageData.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class PageData :12
+// internal sealed class PageData
 // {
-// static generated PageData() :12
+// static generated PageData()
 static void PageData__cctor__fn(uType* __type)
 {
     ::g::Fuse::Properties_typeof()->Init();
@@ -5609,9 +5515,9 @@ static void PageData__cctor__fn(uType* __type)
 static void PageData_build(uType* type)
 {
     ::STRINGS[27] = uString::Const("Attaching to null page");
-    ::STRINGS[28] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/PageData.uno");
+    ::STRINGS[28] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/PageData.uno");
     ::STRINGS[29] = uString::Const("AttachRouterPage");
-    ::TYPES[28] = ::g::Fuse::Navigation::RouterPageChangedHandler_typeof();
+    ::TYPES[27] = ::g::Fuse::Navigation::RouterPageChangedHandler_typeof();
     type->SetFields(0,
         ::g::Uno::Int_typeof(), offsetof(PageData, Index), 0,
         ::g::Uno::Float_typeof(), offsetof(PageData, Progress), 0,
@@ -5620,7 +5526,7 @@ static void PageData_build(uType* type)
         uObject_typeof(), offsetof(PageData, _Context), 0,
         ::g::Fuse::Navigation::RouterPage_typeof(), offsetof(PageData, _RouterPage), 0,
         ::g::Fuse::Visual_typeof(), offsetof(PageData, _Visual), uFieldFlagsWeak,
-        ::TYPES[28/*Fuse.Navigation.RouterPageChangedHandler*/], offsetof(PageData, RouterPageChanged1), 0,
+        ::TYPES[27/*Fuse.Navigation.RouterPageChangedHandler*/], offsetof(PageData, RouterPageChanged1), 0,
         ::g::Fuse::PropertyHandle_typeof(), (uintptr_t)&PageData::_propPageData_, uFieldFlagsStatic);
 }
 
@@ -5639,85 +5545,85 @@ uType* PageData_typeof()
     return type;
 }
 
-// public PageData(Fuse.Visual visual) :33
+// public PageData(Fuse.Visual visual)
 void PageData__ctor__fn(PageData* __this, ::g::Fuse::Visual* visual)
 {
     __this->ctor_(visual);
 }
 
-// public void AttachRouterPage(Fuse.Navigation.RouterPage rp) :38
+// public void AttachRouterPage(Fuse.Navigation.RouterPage rp)
 void PageData__AttachRouterPage_fn(PageData* __this, ::g::Fuse::Navigation::RouterPage* rp)
 {
     __this->AttachRouterPage(rp);
 }
 
-// public generated object get_Context() :31
+// public generated object get_Context()
 void PageData__get_Context_fn(PageData* __this, uObject** __retval)
 {
     *__retval = __this->Context();
 }
 
-// private generated void set_Context(object value) :31
+// private generated void set_Context(object value)
 void PageData__set_Context_fn(PageData* __this, uObject* value)
 {
     __this->Context(value);
 }
 
-// public static Fuse.Navigation.PageData Get(Fuse.Visual v) :84
+// public static Fuse.Navigation.PageData Get(Fuse.Visual v)
 void PageData__Get_fn(::g::Fuse::Visual* v, PageData** __retval)
 {
     *__retval = PageData::Get(v);
 }
 
-// public static Fuse.Navigation.PageData GetOrCreate(Fuse.Visual v, [bool allowCreate]) :70
+// public static Fuse.Navigation.PageData GetOrCreate(Fuse.Visual v, [bool allowCreate])
 void PageData__GetOrCreate_fn(::g::Fuse::Visual* v, bool* allowCreate, PageData** __retval)
 {
     *__retval = PageData::GetOrCreate(v, *allowCreate);
 }
 
-// public PageData New(Fuse.Visual visual) :33
+// public PageData New(Fuse.Visual visual)
 void PageData__New1_fn(::g::Fuse::Visual* visual, PageData** __retval)
 {
     *__retval = PageData::New1(visual);
 }
 
-// public generated Fuse.Navigation.RouterPage get_RouterPage() :27
+// public generated Fuse.Navigation.RouterPage get_RouterPage()
 void PageData__get_RouterPage_fn(PageData* __this, ::g::Fuse::Navigation::RouterPage** __retval)
 {
     *__retval = __this->RouterPage();
 }
 
-// private generated void set_RouterPage(Fuse.Navigation.RouterPage value) :27
+// private generated void set_RouterPage(Fuse.Navigation.RouterPage value)
 void PageData__set_RouterPage_fn(PageData* __this, ::g::Fuse::Navigation::RouterPage* value)
 {
     __this->RouterPage(value);
 }
 
-// public generated void add_RouterPageChanged(Fuse.Navigation.RouterPageChangedHandler value) :29
+// public generated void add_RouterPageChanged(Fuse.Navigation.RouterPageChangedHandler value)
 void PageData__add_RouterPageChanged_fn(PageData* __this, uDelegate* value)
 {
     __this->add_RouterPageChanged(value);
 }
 
-// public generated void remove_RouterPageChanged(Fuse.Navigation.RouterPageChangedHandler value) :29
+// public generated void remove_RouterPageChanged(Fuse.Navigation.RouterPageChangedHandler value)
 void PageData__remove_RouterPageChanged_fn(PageData* __this, uDelegate* value)
 {
     __this->remove_RouterPageChanged(value);
 }
 
-// private void UpdateContextData(Fuse.Visual page, object data) :55
+// private void UpdateContextData(Fuse.Visual page, object data)
 void PageData__UpdateContextData_fn(PageData* __this, ::g::Fuse::Visual* page, uObject* data)
 {
     __this->UpdateContextData(page, data);
 }
 
-// public generated Fuse.Visual get_Visual() :15
+// public generated Fuse.Visual get_Visual()
 void PageData__get_Visual_fn(PageData* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->Visual();
 }
 
-// private generated void set_Visual(Fuse.Visual value) :15
+// private generated void set_Visual(Fuse.Visual value)
 void PageData__set_Visual_fn(PageData* __this, ::g::Fuse::Visual* value)
 {
     __this->Visual(value);
@@ -5725,20 +5631,20 @@ void PageData__set_Visual_fn(PageData* __this, ::g::Fuse::Visual* value)
 
 uSStrong< ::g::Fuse::PropertyHandle*> PageData::_propPageData_;
 
-// public PageData(Fuse.Visual visual) [instance] :33
+// public PageData(Fuse.Visual visual) [instance]
 void PageData::ctor_(::g::Fuse::Visual* visual)
 {
     Visual(visual);
 }
 
-// public void AttachRouterPage(Fuse.Navigation.RouterPage rp) [instance] :38
+// public void AttachRouterPage(Fuse.Navigation.RouterPage rp) [instance]
 void PageData::AttachRouterPage(::g::Fuse::Navigation::RouterPage* rp)
 {
     ::g::Fuse::Visual* visual = Visual();
 
     if (visual == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(::STRINGS[27/*"Attaching t...*/], this, ::STRINGS[28/*"/usr/local/...*/], 43, ::STRINGS[29/*"AttachRoute...*/]);
+        ::g::Fuse::Diagnostics::InternalError(::STRINGS[27/*"Attaching t...*/], this, ::STRINGS[28/*"/Users/antt...*/], 43, ::STRINGS[29/*"AttachRoute...*/]);
         return;
     }
 
@@ -5750,43 +5656,43 @@ void PageData::AttachRouterPage(::g::Fuse::Navigation::RouterPage* rp)
         uPtr(RouterPageChanged1)->Invoke(2, this, rp);
 }
 
-// public generated object get_Context() [instance] :31
+// public generated object get_Context() [instance]
 uObject* PageData::Context()
 {
     return _Context;
 }
 
-// private generated void set_Context(object value) [instance] :31
+// private generated void set_Context(object value) [instance]
 void PageData::Context(uObject* value)
 {
     _Context = value;
 }
 
-// public generated Fuse.Navigation.RouterPage get_RouterPage() [instance] :27
+// public generated Fuse.Navigation.RouterPage get_RouterPage() [instance]
 ::g::Fuse::Navigation::RouterPage* PageData::RouterPage()
 {
     return _RouterPage;
 }
 
-// private generated void set_RouterPage(Fuse.Navigation.RouterPage value) [instance] :27
+// private generated void set_RouterPage(Fuse.Navigation.RouterPage value) [instance]
 void PageData::RouterPage(::g::Fuse::Navigation::RouterPage* value)
 {
     _RouterPage = value;
 }
 
-// public generated void add_RouterPageChanged(Fuse.Navigation.RouterPageChangedHandler value) [instance] :29
+// public generated void add_RouterPageChanged(Fuse.Navigation.RouterPageChangedHandler value) [instance]
 void PageData::add_RouterPageChanged(uDelegate* value)
 {
-    RouterPageChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(RouterPageChanged1, value), ::TYPES[28/*Fuse.Navigation.RouterPageChangedHandler*/]);
+    RouterPageChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(RouterPageChanged1, value), ::TYPES[27/*Fuse.Navigation.RouterPageChangedHandler*/]);
 }
 
-// public generated void remove_RouterPageChanged(Fuse.Navigation.RouterPageChangedHandler value) [instance] :29
+// public generated void remove_RouterPageChanged(Fuse.Navigation.RouterPageChangedHandler value) [instance]
 void PageData::remove_RouterPageChanged(uDelegate* value)
 {
-    RouterPageChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(RouterPageChanged1, value), ::TYPES[28/*Fuse.Navigation.RouterPageChangedHandler*/]);
+    RouterPageChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(RouterPageChanged1, value), ::TYPES[27/*Fuse.Navigation.RouterPageChangedHandler*/]);
 }
 
-// private void UpdateContextData(Fuse.Visual page, object data) [instance] :55
+// private void UpdateContextData(Fuse.Visual page, object data) [instance]
 void PageData::UpdateContextData(::g::Fuse::Visual* page, uObject* data)
 {
     uObject* oldData = Context();
@@ -5794,26 +5700,26 @@ void PageData::UpdateContextData(::g::Fuse::Visual* page, uObject* data)
     uPtr(page)->BroadcastDataChange(oldData, data);
 }
 
-// public generated Fuse.Visual get_Visual() [instance] :15
+// public generated Fuse.Visual get_Visual() [instance]
 ::g::Fuse::Visual* PageData::Visual()
 {
     return _Visual;
 }
 
-// private generated void set_Visual(Fuse.Visual value) [instance] :15
+// private generated void set_Visual(Fuse.Visual value) [instance]
 void PageData::Visual(::g::Fuse::Visual* value)
 {
     _Visual = value;
 }
 
-// public static Fuse.Navigation.PageData Get(Fuse.Visual v) [static] :84
+// public static Fuse.Navigation.PageData Get(Fuse.Visual v) [static]
 PageData* PageData::Get(::g::Fuse::Visual* v)
 {
     PageData_typeof()->Init();
     return PageData::GetOrCreate(v, false);
 }
 
-// public static Fuse.Navigation.PageData GetOrCreate(Fuse.Visual v, [bool allowCreate]) [static] :70
+// public static Fuse.Navigation.PageData GetOrCreate(Fuse.Visual v, [bool allowCreate]) [static]
 PageData* PageData::GetOrCreate(::g::Fuse::Visual* v, bool allowCreate)
 {
     PageData_typeof()->Init();
@@ -5830,7 +5736,7 @@ PageData* PageData::GetOrCreate(::g::Fuse::Visual* v, bool allowCreate)
     return pd;
 }
 
-// public PageData New(Fuse.Visual visual) [static] :33
+// public PageData New(Fuse.Visual visual) [static]
 PageData* PageData::New1(::g::Fuse::Visual* visual)
 {
     PageData* obj1 = (PageData*)uNew(PageData_typeof());
@@ -5839,10 +5745,10 @@ PageData* PageData::New1(::g::Fuse::Visual* visual)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/PageBinding.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/PageBinding.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class PageExpression :15
+// public sealed class PageExpression
 // {
 static void PageExpression_build(uType* type)
 {
@@ -5874,51 +5780,51 @@ static void PageExpression_build(uType* type)
     return type;
 }
 
-// public generated string get_Key() :18
+// public generated string get_Key()
 void PageExpression__get_Key_fn(PageExpression* __this, uString** __retval)
 {
     *__retval = __this->Key();
 }
 
-// private generated void set_Key(string value) :18
+// private generated void set_Key(string value)
 void PageExpression__set_Key_fn(PageExpression* __this, uString* value)
 {
     __this->Key(value);
 }
 
-// public override sealed Uno.IDisposable Subscribe(Fuse.Reactive.IContext dc, Fuse.Reactive.IListener listener) :26
+// public override sealed Uno.IDisposable Subscribe(Fuse.Reactive.IContext dc, Fuse.Reactive.IListener listener)
 void PageExpression__Subscribe_fn(PageExpression* __this, uObject* dc, uObject* listener, uObject** __retval)
 {
-    return *__retval = (uObject*)PageExpression__Subscription::New1(__this, ::g::Fuse::Reactive::IContext::Node(uInterface(uPtr(dc), ::TYPES[14/*Fuse.Reactive.IContext*/])), listener), void();
+    return *__retval = (uObject*)PageExpression__Subscription::New1(__this, ::g::Fuse::Reactive::IContext::Node(uInterface(uPtr(dc), ::TYPES[13/*Fuse.Reactive.IContext*/])), listener), void();
 }
 
-// public generated string get_Key() [instance] :18
+// public generated string get_Key() [instance]
 uString* PageExpression::Key()
 {
     return _Key;
 }
 
-// private generated void set_Key(string value) [instance] :18
+// private generated void set_Key(string value) [instance]
 void PageExpression::Key(uString* value)
 {
     _Key = value;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/PageBinding.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/PageBinding.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class PageResourceBinding<T> :160
+// public sealed class PageResourceBinding<T>
 // {
 static void PageResourceBinding_build(uType* type)
 {
     ::STRINGS[30] = uString::Const("Visual");
     ::STRINGS[31] = uString::Const("Node");
-    ::TYPES[29] = ::g::Uno::Predicate_typeof()->MakeType(uObject_typeof(), NULL);
-    ::TYPES[15] = ::g::Uno::Action_typeof();
-    ::TYPES[1] = ::g::Fuse::Navigation::INavigation_typeof();
-    ::TYPES[30] = ::g::Fuse::Navigation::NavigatedHandler_typeof();
-    ::TYPES[8] = ::g::Fuse::Visual_typeof();
+    ::TYPES[28] = ::g::Uno::Predicate_typeof()->MakeType(uObject_typeof(), NULL);
+    ::TYPES[14] = ::g::Uno::Action_typeof();
+    ::TYPES[0] = ::g::Fuse::Navigation::INavigation_typeof();
+    ::TYPES[29] = ::g::Fuse::Navigation::NavigatedHandler_typeof();
+    ::TYPES[7] = ::g::Fuse::Visual_typeof();
     type->SetDependencies(
         ::g::Fuse::Navigation::Navigation_typeof(),
         ::g::Fuse::Navigation::NavigationPageProperty_typeof(),
@@ -5935,8 +5841,8 @@ static void PageResourceBinding_build(uType* type)
     type->SetFields(17,
         type->T(0), (uintptr_t)0, uFieldFlagsConstrained,
         ::g::Uno::Bool_typeof(), offsetof(PageResourceBinding, _hasDefault), 0,
-        ::TYPES[1/*Fuse.Navigation.INavigation*/], offsetof(PageResourceBinding, _nav), 0,
-        ::TYPES[8/*Fuse.Visual*/], offsetof(PageResourceBinding, _currentPage), 0,
+        ::TYPES[0/*Fuse.Navigation.INavigation*/], offsetof(PageResourceBinding, _nav), 0,
+        ::TYPES[7/*Fuse.Visual*/], offsetof(PageResourceBinding, _currentPage), 0,
         ::g::Uno::String_typeof(), offsetof(PageResourceBinding, _Key), 0,
         ::g::Uno::UX::Property1_typeof()->MakeType(type->T(0), NULL), offsetof(PageResourceBinding, _Target), 0);
 }
@@ -5979,98 +5885,98 @@ PageResourceBinding_type* PageResourceBinding_typeof()
     return type;
 }
 
-// private bool Acceptor(object obj) :317
+// private bool Acceptor(object obj)
 void PageResourceBinding__Acceptor_fn(PageResourceBinding* __this, uObject* obj, bool* __retval)
 {
     *__retval = __this->Acceptor(obj);
 }
 
-// private void GotoPage(Fuse.Visual page) :287
+// private void GotoPage(Fuse.Visual page)
 void PageResourceBinding__GotoPage_fn(PageResourceBinding* __this, ::g::Fuse::Visual* page)
 {
     __this->GotoPage(page);
 }
 
-// public generated string get_Key() :166
+// public generated string get_Key()
 void PageResourceBinding__get_Key_fn(PageResourceBinding* __this, uString** __retval)
 {
     *__retval = __this->Key();
 }
 
-// private generated void set_Key(string value) :166
+// private generated void set_Key(string value)
 void PageResourceBinding__set_Key_fn(PageResourceBinding* __this, uString* value)
 {
     __this->Key(value);
 }
 
-// private object get_LocalObject() :258
+// private object get_LocalObject()
 void PageResourceBinding__get_LocalObject_fn(PageResourceBinding* __this, uObject** __retval)
 {
     *__retval = __this->LocalObject();
 }
 
-// private void OnChanged() :296
+// private void OnChanged()
 void PageResourceBinding__OnChanged_fn(PageResourceBinding* __this)
 {
     __this->OnChanged();
 }
 
-// private void OnNavigated(object s, Fuse.Navigation.NavigatedArgs args) :282
+// private void OnNavigated(object s, Fuse.Navigation.NavigatedArgs args)
 void PageResourceBinding__OnNavigated_fn(PageResourceBinding* __this, uObject* s, ::g::Fuse::Navigation::NavigatedArgs* args)
 {
     __this->OnNavigated(s, args);
 }
 
-// protected override sealed void OnRooted() :206
+// protected override sealed void OnRooted()
 void PageResourceBinding__OnRooted_fn(PageResourceBinding* __this)
 {
     ::g::Fuse::Node__OnRooted_fn(__this);
-    ::g::Fuse::Resources::ResourceRegistry::AddResourceChangedHandler(__this->Key(), uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)PageResourceBinding__OnChanged_fn, __this));
+    ::g::Fuse::Resources::ResourceRegistry::AddResourceChangedHandler(__this->Key(), uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)PageResourceBinding__OnChanged_fn, __this));
     ::g::Uno::Collections::List__Add_fn(uPtr(::g::Fuse::Navigation::NavigationPageProperty::RootedBindings()), (uObject*)__this);
     __this->UpdateSource();
 }
 
-// protected override sealed void OnUnrooted() :247
+// protected override sealed void OnUnrooted()
 void PageResourceBinding__OnUnrooted_fn(PageResourceBinding* __this)
 {
     bool ret2;
     __this->ReleaseCurrent();
     ::g::Uno::Collections::List__Remove_fn(uPtr(::g::Fuse::Navigation::NavigationPageProperty::RootedBindings()), (uObject*)__this, &ret2);
-    ::g::Fuse::Resources::ResourceRegistry::RemoveResourceChangedHandler(__this->Key(), uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)PageResourceBinding__OnChanged_fn, __this));
+    ::g::Fuse::Resources::ResourceRegistry::RemoveResourceChangedHandler(__this->Key(), uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)PageResourceBinding__OnChanged_fn, __this));
     ::g::Fuse::Node__OnUnrooted_fn(__this);
 }
 
-// private void ReleaseCurrent() :237
+// private void ReleaseCurrent()
 void PageResourceBinding__ReleaseCurrent_fn(PageResourceBinding* __this)
 {
     __this->ReleaseCurrent();
 }
 
-// public generated Uno.UX.Property<T> get_Target() :163
+// public generated Uno.UX.Property<T> get_Target()
 void PageResourceBinding__get_Target_fn(PageResourceBinding* __this, ::g::Uno::UX::Property1** __retval)
 {
     *__retval = __this->Target();
 }
 
-// private generated void set_Target(Uno.UX.Property<T> value) :163
+// private generated void set_Target(Uno.UX.Property<T> value)
 void PageResourceBinding__set_Target_fn(PageResourceBinding* __this, ::g::Uno::UX::Property1* value)
 {
     __this->Target(value);
 }
 
-// private void UpdateSource() :215
+// private void UpdateSource()
 void PageResourceBinding__UpdateSource_fn(PageResourceBinding* __this)
 {
     __this->UpdateSource();
 }
 
-// private bool Acceptor(object obj) [instance] :317
+// private bool Acceptor(object obj) [instance]
 bool PageResourceBinding::Acceptor(uObject* obj)
 {
     return uIs(obj, __type->T(0));
 }
 
-// private void GotoPage(Fuse.Visual page) [instance] :287
+// private void GotoPage(Fuse.Visual page) [instance]
 void PageResourceBinding::GotoPage(::g::Fuse::Visual* page)
 {
     if (page == _currentPage)
@@ -6080,26 +5986,26 @@ void PageResourceBinding::GotoPage(::g::Fuse::Visual* page)
     OnChanged();
 }
 
-// public generated string get_Key() [instance] :166
+// public generated string get_Key() [instance]
 uString* PageResourceBinding::Key()
 {
     return _Key;
 }
 
-// private generated void set_Key(string value) [instance] :166
+// private generated void set_Key(string value) [instance]
 void PageResourceBinding::Key(uString* value)
 {
     _Key = value;
 }
 
-// private object get_LocalObject() [instance] :258
+// private object get_LocalObject() [instance]
 uObject* PageResourceBinding::LocalObject()
 {
     ::g::Fuse::Node* n = Parent();
 
     while (n != NULL)
     {
-        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(n, ::TYPES[8/*Fuse.Visual*/]);
+        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(n, ::TYPES[7/*Fuse.Visual*/]);
 
         if (v != NULL)
         {
@@ -6120,7 +6026,7 @@ uObject* PageResourceBinding::LocalObject()
     return NULL;
 }
 
-// private void OnChanged() [instance] :296
+// private void OnChanged() [instance]
 void PageResourceBinding::OnChanged()
 {
     ::g::Fuse::Visual* page = _currentPage;
@@ -6133,7 +6039,7 @@ void PageResourceBinding::OnChanged()
         {
             uObject* resource;
 
-            if (uPtr(page)->TryGetResource(Key(), uDelegate::New(::TYPES[29/*Uno.Predicate<object>*/], (void*)PageResourceBinding__Acceptor_fn, this), &resource))
+            if (uPtr(page)->TryGetResource(Key(), uDelegate::New(::TYPES[28/*Uno.Predicate<object>*/], (void*)PageResourceBinding__Acceptor_fn, this), &resource))
                 ::g::Uno::UX::Property1__Set_fn(uPtr(Target()), uUnboxAny(__type->T(0), resource), NULL);
             else if (_hasDefault)
                 ::g::Uno::UX::Property1__Set_fn(uPtr(Target()), _default(), NULL);
@@ -6141,37 +6047,37 @@ void PageResourceBinding::OnChanged()
     }
 }
 
-// private void OnNavigated(object s, Fuse.Navigation.NavigatedArgs args) [instance] :282
+// private void OnNavigated(object s, Fuse.Navigation.NavigatedArgs args) [instance]
 void PageResourceBinding::OnNavigated(uObject* s, ::g::Fuse::Navigation::NavigatedArgs* args)
 {
     GotoPage(uPtr(args)->NewVisual());
 }
 
-// private void ReleaseCurrent() [instance] :237
+// private void ReleaseCurrent() [instance]
 void PageResourceBinding::ReleaseCurrent()
 {
     if (_nav != NULL)
     {
-        ::g::Fuse::Navigation::INavigation::remove_Navigated(uInterface(uPtr(_nav), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[30/*Fuse.Navigation.NavigatedHandler*/], (void*)PageResourceBinding__OnNavigated_fn, this));
+        ::g::Fuse::Navigation::INavigation::remove_Navigated(uInterface(uPtr(_nav), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[29/*Fuse.Navigation.NavigatedHandler*/], (void*)PageResourceBinding__OnNavigated_fn, this));
         _nav = NULL;
     }
 
     _currentPage = NULL;
 }
 
-// public generated Uno.UX.Property<T> get_Target() [instance] :163
+// public generated Uno.UX.Property<T> get_Target() [instance]
 ::g::Uno::UX::Property1* PageResourceBinding::Target()
 {
     return _Target;
 }
 
-// private generated void set_Target(Uno.UX.Property<T> value) [instance] :163
+// private generated void set_Target(Uno.UX.Property<T> value) [instance]
 void PageResourceBinding::Target(::g::Uno::UX::Property1* value)
 {
     _Target = value;
 }
 
-// private void UpdateSource() [instance] :215
+// private void UpdateSource() [instance]
 void PageResourceBinding::UpdateSource()
 {
     uObject* local = LocalObject();
@@ -6180,36 +6086,36 @@ void PageResourceBinding::UpdateSource()
         return;
 
     ReleaseCurrent();
-    _nav = uAs<uObject*>(local, ::TYPES[1/*Fuse.Navigation.INavigation*/]);
-    _currentPage = uAs< ::g::Fuse::Visual*>(local, ::TYPES[8/*Fuse.Visual*/]);
+    _nav = uAs<uObject*>(local, ::TYPES[0/*Fuse.Navigation.INavigation*/]);
+    _currentPage = uAs< ::g::Fuse::Visual*>(local, ::TYPES[7/*Fuse.Visual*/]);
 
     if (_nav != NULL)
     {
-        ::g::Fuse::Navigation::INavigation::add_Navigated(uInterface(uPtr(_nav), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[30/*Fuse.Navigation.NavigatedHandler*/], (void*)PageResourceBinding__OnNavigated_fn, this));
-        GotoPage(::g::Fuse::Navigation::INavigation::ActivePage(uInterface(uPtr(_nav), ::TYPES[1/*Fuse.Navigation.INavigation*/])));
+        ::g::Fuse::Navigation::INavigation::add_Navigated(uInterface(uPtr(_nav), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[29/*Fuse.Navigation.NavigatedHandler*/], (void*)PageResourceBinding__OnNavigated_fn, this));
+        GotoPage(::g::Fuse::Navigation::INavigation::ActivePage(uInterface(uPtr(_nav), ::TYPES[0/*Fuse.Navigation.INavigation*/])));
     }
     else
         OnChanged();
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterPage.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterPage.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class PagesMap :104
+// internal sealed class PagesMap
 // {
 static void PagesMap_build(uType* type)
 {
     ::STRINGS[32] = uString::Const("$__fuse_classname");
     ::STRINGS[33] = uString::Const("$path");
-    ::TYPES[31] = ::g::Fuse::IObject_typeof();
-    ::TYPES[32] = ::g::Fuse::Marshal_typeof()->MakeMethod(0/*ToType<string>*/, ::g::Uno::String_typeof(), NULL);
-    ::TYPES[33] = ::g::Fuse::Navigation::ChildRouterPagesUpdated_typeof();
+    ::TYPES[30] = ::g::Fuse::IObject_typeof();
+    ::TYPES[31] = ::g::Fuse::Marshal_typeof()->MakeMethod(0/*ToType<string>*/, ::g::Uno::String_typeof(), NULL);
+    ::TYPES[32] = ::g::Fuse::Navigation::ChildRouterPagesUpdated_typeof();
     type->SetBase(::g::Fuse::Reactive::ObserverMap_typeof()->MakeType(::g::Fuse::Navigation::RouterPage_typeof(), NULL));
     type->SetInterfaces(
         ::g::Fuse::Reactive::IObserver_typeof(), offsetof(::g::Fuse::Reactive::ObserverMap_type, interface0));
     type->SetFields(6,
-        ::TYPES[33/*Fuse.Navigation.ChildRouterPagesUpdated*/], offsetof(PagesMap, Updated1), 0);
+        ::TYPES[32/*Fuse.Navigation.ChildRouterPagesUpdated*/], offsetof(PagesMap, Updated1), 0);
 }
 
 ::g::Fuse::Reactive::ObserverMap_type* PagesMap_typeof()
@@ -6240,108 +6146,108 @@ static void PagesMap_build(uType* type)
     return type;
 }
 
-// public generated PagesMap() :104
+// public generated PagesMap()
 void PagesMap__ctor_1_fn(PagesMap* __this)
 {
     __this->ctor_1();
 }
 
-// public static string GetObjectPath(object data) :106
+// public static string GetObjectPath(object data)
 void PagesMap__GetObjectPath_fn(uObject* data, uString** __retval)
 {
     *__retval = PagesMap::GetObjectPath(data);
 }
 
-// public static bool HasObjectPath(object data) :118
+// public static bool HasObjectPath(object data)
 void PagesMap__HasObjectPath_fn(uObject* data, bool* __retval)
 {
     *__retval = PagesMap::HasObjectPath(data);
 }
 
-// protected override sealed Fuse.Navigation.RouterPage Map(object v) :128
+// protected override sealed Fuse.Navigation.RouterPage Map(object v)
 void PagesMap__Map_fn(PagesMap* __this, uObject* v, ::g::Fuse::Navigation::RouterPage** __retval)
 {
     return *__retval = ::g::Fuse::Navigation::RouterPage::New1(PagesMap::GetObjectPath(v), NULL, v), void();
 }
 
-// public generated PagesMap New() :104
+// public generated PagesMap New()
 void PagesMap__New1_fn(PagesMap** __retval)
 {
     *__retval = PagesMap::New1();
 }
 
-// protected override sealed void OnUpdated() :138
+// protected override sealed void OnUpdated()
 void PagesMap__OnUpdated_fn(PagesMap* __this)
 {
     if (::g::Uno::Delegate::op_Inequality(__this->Updated1, NULL))
         uPtr(__this->Updated1)->InvokeVoid();
 }
 
-// protected override sealed object Unmap(Fuse.Navigation.RouterPage mv) :133
+// protected override sealed object Unmap(Fuse.Navigation.RouterPage mv)
 void PagesMap__Unmap_fn(PagesMap* __this, ::g::Fuse::Navigation::RouterPage* mv, uObject** __retval)
 {
     return *__retval = uPtr(mv)->Context, void();
 }
 
-// public generated void add_Updated(Fuse.Navigation.ChildRouterPagesUpdated value) :126
+// public generated void add_Updated(Fuse.Navigation.ChildRouterPagesUpdated value)
 void PagesMap__add_Updated_fn(PagesMap* __this, uDelegate* value)
 {
     __this->add_Updated(value);
 }
 
-// public generated void remove_Updated(Fuse.Navigation.ChildRouterPagesUpdated value) :126
+// public generated void remove_Updated(Fuse.Navigation.ChildRouterPagesUpdated value)
 void PagesMap__remove_Updated_fn(PagesMap* __this, uDelegate* value)
 {
     __this->remove_Updated(value);
 }
 
-// public generated PagesMap() [instance] :104
+// public generated PagesMap() [instance]
 void PagesMap::ctor_1()
 {
     ctor_();
 }
 
-// public generated void add_Updated(Fuse.Navigation.ChildRouterPagesUpdated value) [instance] :126
+// public generated void add_Updated(Fuse.Navigation.ChildRouterPagesUpdated value) [instance]
 void PagesMap::add_Updated(uDelegate* value)
 {
-    Updated1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Updated1, value), ::TYPES[33/*Fuse.Navigation.ChildRouterPagesUpdated*/]);
+    Updated1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Updated1, value), ::TYPES[32/*Fuse.Navigation.ChildRouterPagesUpdated*/]);
 }
 
-// public generated void remove_Updated(Fuse.Navigation.ChildRouterPagesUpdated value) [instance] :126
+// public generated void remove_Updated(Fuse.Navigation.ChildRouterPagesUpdated value) [instance]
 void PagesMap::remove_Updated(uDelegate* value)
 {
-    Updated1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Updated1, value), ::TYPES[33/*Fuse.Navigation.ChildRouterPagesUpdated*/]);
+    Updated1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Updated1, value), ::TYPES[32/*Fuse.Navigation.ChildRouterPagesUpdated*/]);
 }
 
-// public static string GetObjectPath(object data) [static] :106
+// public static string GetObjectPath(object data) [static]
 uString* PagesMap::GetObjectPath(uObject* data)
 {
     uString* ret2;
     uString* ret3;
     uString* path = NULL;
-    uObject* obj = uAs<uObject*>(data, ::TYPES[31/*Fuse.IObject*/]);
+    uObject* obj = uAs<uObject*>(data, ::TYPES[30/*Fuse.IObject*/]);
 
-    if ((obj != NULL) && ::g::Fuse::IObject::ContainsKey(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]), ::STRINGS[32/*"$__fuse_cla...*/]))
-        path = (::g::Fuse::Marshal__ToType_fn(::TYPES[32/*Fuse.Marshal.ToType<string>*/], ::g::Fuse::IObject::Item(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]), ::STRINGS[32/*"$__fuse_cla...*/]), &ret2), ret2);
+    if ((obj != NULL) && ::g::Fuse::IObject::ContainsKey(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]), ::STRINGS[32/*"$__fuse_cla...*/]))
+        path = (::g::Fuse::Marshal__ToType_fn(::TYPES[31/*Fuse.Marshal.ToType<string>*/], ::g::Fuse::IObject::Item(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]), ::STRINGS[32/*"$__fuse_cla...*/]), &ret2), ret2);
 
-    if ((obj != NULL) && ::g::Fuse::IObject::ContainsKey(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]), ::STRINGS[33/*"$path"*/]))
-        path = (::g::Fuse::Marshal__ToType_fn(::TYPES[32/*Fuse.Marshal.ToType<string>*/], ::g::Fuse::IObject::Item(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]), ::STRINGS[33/*"$path"*/]), &ret3), ret3);
+    if ((obj != NULL) && ::g::Fuse::IObject::ContainsKey(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]), ::STRINGS[33/*"$path"*/]))
+        path = (::g::Fuse::Marshal__ToType_fn(::TYPES[31/*Fuse.Marshal.ToType<string>*/], ::g::Fuse::IObject::Item(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]), ::STRINGS[33/*"$path"*/]), &ret3), ret3);
 
     return path;
 }
 
-// public static bool HasObjectPath(object data) [static] :118
+// public static bool HasObjectPath(object data) [static]
 bool PagesMap::HasObjectPath(uObject* data)
 {
-    uObject* obj = uAs<uObject*>(data, ::TYPES[31/*Fuse.IObject*/]);
+    uObject* obj = uAs<uObject*>(data, ::TYPES[30/*Fuse.IObject*/]);
 
-    if ((obj != NULL) && (::g::Fuse::IObject::ContainsKey(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]), ::STRINGS[33/*"$path"*/]) || ::g::Fuse::IObject::ContainsKey(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]), ::STRINGS[32/*"$__fuse_cla...*/])))
+    if ((obj != NULL) && (::g::Fuse::IObject::ContainsKey(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]), ::STRINGS[33/*"$path"*/]) || ::g::Fuse::IObject::ContainsKey(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]), ::STRINGS[32/*"$__fuse_cla...*/])))
         return true;
 
     return false;
 }
 
-// public generated PagesMap New() [static] :104
+// public generated PagesMap New() [static]
 PagesMap* PagesMap::New1()
 {
     PagesMap* obj1 = (PagesMap*)uNew(PagesMap_typeof());
@@ -6350,10 +6256,10 @@ PagesMap* PagesMap::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RoutePageProxy.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RoutePageProxy.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public delegate void RoutePageProxy.ProgressUpdated(double progress) :34
+// public delegate void RoutePageProxy.ProgressUpdated(double progress)
 uDelegateType* RoutePageProxy__ProgressUpdated_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -6365,10 +6271,10 @@ uDelegateType* RoutePageProxy__ProgressUpdated_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/ModifyRouteCommand.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/ModifyRouteCommand.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class PushRouteCommand :193
+// public sealed class PushRouteCommand
 // {
 static void PushRouteCommand_build(uType* type)
 {
@@ -6399,17 +6305,17 @@ static void PushRouteCommand_build(uType* type)
     return type;
 }
 
-// internal override sealed bool ProcessArguments(Fuse.Navigation.RouterRequest request, Fuse.Reactive.Expression.Argument[] args) :195
+// internal override sealed bool ProcessArguments(Fuse.Navigation.RouterRequest request, Fuse.Reactive.Expression.Argument[] args)
 void PushRouteCommand__ProcessArguments_fn(PushRouteCommand* __this, ::g::Fuse::Navigation::RouterRequest* request, uArray* args, bool* __retval)
 {
     return *__retval = uPtr(request)->AddHow(0) && uPtr(request)->AddPath(::g::Fuse::Navigation::RouteModificationCommand__ArgumentArrayAdapter::New1(args)), void();
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Route.uno
-// -------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Route.uno
+// -------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Route :13
+// public sealed class Route
 // {
 static void Route_build(uType* type)
 {
@@ -6434,25 +6340,25 @@ uType* Route_typeof()
     return type;
 }
 
-// public Route(string path, [string parameter], [Fuse.Navigation.Route subRoute]) :33
+// public Route(string path, [string parameter], [Fuse.Navigation.Route subRoute])
 void Route__ctor__fn(Route* __this, uString* path, uString* parameter, Route* subRoute)
 {
     __this->ctor_(path, parameter, subRoute);
 }
 
-// public int get_Length() :43
+// public int get_Length()
 void Route__get_Length_fn(Route* __this, int32_t* __retval)
 {
     *__retval = __this->Length();
 }
 
-// public Route New(string path, [string parameter], [Fuse.Navigation.Route subRoute]) :33
+// public Route New(string path, [string parameter], [Fuse.Navigation.Route subRoute])
 void Route__New1_fn(uString* path, uString* parameter, Route* subRoute, Route** __retval)
 {
     *__retval = Route::New1(path, parameter, subRoute);
 }
 
-// public Route(string path, [string parameter], [Fuse.Navigation.Route subRoute]) [instance] :33
+// public Route(string path, [string parameter], [Fuse.Navigation.Route subRoute]) [instance]
 void Route::ctor_(uString* path, uString* parameter, Route* subRoute)
 {
     Path = path;
@@ -6460,7 +6366,7 @@ void Route::ctor_(uString* path, uString* parameter, Route* subRoute)
     SubRoute = subRoute;
 }
 
-// public int get_Length() [instance] :43
+// public int get_Length() [instance]
 int32_t Route::Length()
 {
     if (SubRoute == NULL)
@@ -6469,7 +6375,7 @@ int32_t Route::Length()
         return uPtr(SubRoute)->Length() + 1;
 }
 
-// public Route New(string path, [string parameter], [Fuse.Navigation.Route subRoute]) [static] :33
+// public Route New(string path, [string parameter], [Fuse.Navigation.Route subRoute]) [static]
 Route* Route::New1(uString* path, uString* parameter, Route* subRoute)
 {
     Route* obj3 = (Route*)uNew(Route_typeof());
@@ -6478,10 +6384,10 @@ Route* Route::New1(uString* path, uString* parameter, Route* subRoute)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/ModifyRouteCommand.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/ModifyRouteCommand.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class RouteModificationCommand :8
+// public abstract class RouteModificationCommand
 // {
 static void RouteModificationCommand_build(uType* type)
 {
@@ -6512,17 +6418,17 @@ RouteModificationCommand_type* RouteModificationCommand_typeof()
     return type;
 }
 
-// public override sealed Uno.IDisposable Subscribe(Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener) :12
+// public override sealed Uno.IDisposable Subscribe(Fuse.Reactive.IContext context, Fuse.Reactive.IListener listener)
 void RouteModificationCommand__Subscribe_fn(RouteModificationCommand* __this, uObject* context, uObject* listener, uObject** __retval)
 {
     return *__retval = (uObject*)RouteModificationCommand__OuterSubscription::New1(__this, context, listener), void();
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RoutePageProxy.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RoutePageProxy.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum RoutePagePath :10
+// public enum RoutePagePath
 uEnumType* RoutePagePath_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -6535,10 +6441,10 @@ uEnumType* RoutePagePath_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RoutePageProxy.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RoutePageProxy.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class RoutePageProxy :32
+// internal sealed class RoutePageProxy
 // {
 static void RoutePageProxy_build(uType* type)
 {
@@ -6572,151 +6478,151 @@ uType* RoutePageProxy_typeof()
     return type;
 }
 
-// public RoutePageProxy(Fuse.Visual source, Fuse.Navigation.RoutePageProxy.ActiveChanged activeChanged) :76
+// public RoutePageProxy(Fuse.Visual source, Fuse.Navigation.RoutePageProxy.ActiveChanged activeChanged)
 void RoutePageProxy__ctor__fn(RoutePageProxy* __this, ::g::Fuse::Visual* source, uDelegate* activeChanged)
 {
     __this->ctor_(source, activeChanged);
 }
 
-// private void DiscardLevels(int start) :194
+// private void DiscardLevels(int start)
 void RoutePageProxy__DiscardLevels_fn(RoutePageProxy* __this, int32_t* start)
 {
     __this->DiscardLevels(*start);
 }
 
-// public void Dispose() :92
+// public void Dispose()
 void RoutePageProxy__Dispose_fn(RoutePageProxy* __this)
 {
     __this->Dispose();
 }
 
-// private void Dispose(Fuse.Navigation.RoutePageProxy.Level level) :102
+// private void Dispose(Fuse.Navigation.RoutePageProxy.Level level)
 void RoutePageProxy__Dispose1_fn(RoutePageProxy* __this, RoutePageProxy__Level* level)
 {
     __this->Dispose1(*level);
 }
 
-// private bool ExtendListen(Fuse.Navigation.RoutePageProxy.Level level) :141
+// private bool ExtendListen(Fuse.Navigation.RoutePageProxy.Level level)
 void RoutePageProxy__ExtendListen_fn(RoutePageProxy* __this, RoutePageProxy__Level* level, bool* __retval)
 {
     *__retval = __this->ExtendListen(*level);
 }
 
-// private int GetLevel(object sender) :112
+// private int GetLevel(object sender)
 void RoutePageProxy__GetLevel_fn(RoutePageProxy* __this, uObject* sender, int32_t* __retval)
 {
     *__retval = __this->GetLevel(sender);
 }
 
-// private double GetProgress() :213
+// private double GetProgress()
 void RoutePageProxy__GetProgress_fn(RoutePageProxy* __this, double* __retval)
 {
     *__retval = __this->GetProgress();
 }
 
-// private void GetState(bool& isActive, bool& isStable) :250
+// private void GetState(bool& isActive, bool& isStable)
 void RoutePageProxy__GetState_fn(RoutePageProxy* __this, bool* isActive, bool* isStable)
 {
     __this->GetState(isActive, isStable);
 }
 
-// public void Init() :83
+// public void Init()
 void RoutePageProxy__Init_fn(RoutePageProxy* __this)
 {
     __this->Init();
 }
 
-// private void InitialUpdate() :231
+// private void InitialUpdate()
 void RoutePageProxy__InitialUpdate_fn(RoutePageProxy* __this)
 {
     __this->InitialUpdate();
 }
 
-// private void Listen(Fuse.Navigation.RoutePageProxy.Level level) :164
+// private void Listen(Fuse.Navigation.RoutePageProxy.Level level)
 void RoutePageProxy__Listen_fn(RoutePageProxy* __this, RoutePageProxy__Level* level)
 {
     __this->Listen(*level);
 }
 
-// private void NavReady(object sender) :123
+// private void NavReady(object sender)
 void RoutePageProxy__NavReady_fn(RoutePageProxy* __this, uObject* sender)
 {
     __this->NavReady(sender);
 }
 
-// private void NavUnready(object sender) :203
+// private void NavUnready(object sender)
 void RoutePageProxy__NavUnready_fn(RoutePageProxy* __this, uObject* sender)
 {
     __this->NavUnready(sender);
 }
 
-// public RoutePageProxy New(Fuse.Visual source, Fuse.Navigation.RoutePageProxy.ActiveChanged activeChanged) :76
+// public RoutePageProxy New(Fuse.Visual source, Fuse.Navigation.RoutePageProxy.ActiveChanged activeChanged)
 void RoutePageProxy__New1_fn(::g::Fuse::Visual* source, uDelegate* activeChanged, RoutePageProxy** __retval)
 {
     *__retval = RoutePageProxy::New1(source, activeChanged);
 }
 
-// private void OnActivePageChanged(object s, Fuse.Visual active) :269
+// private void OnActivePageChanged(object s, Fuse.Visual active)
 void RoutePageProxy__OnActivePageChanged_fn(RoutePageProxy* __this, uObject* s, ::g::Fuse::Visual* active)
 {
     __this->OnActivePageChanged(s, active);
 }
 
-// private void OnNavigationProgressChanged(object sender, Fuse.Navigation.NavigationArgs state) :244
+// private void OnNavigationProgressChanged(object sender, Fuse.Navigation.NavigationArgs state)
 void RoutePageProxy__OnNavigationProgressChanged_fn(RoutePageProxy* __this, uObject* sender, ::g::Fuse::Navigation::NavigationArgs* state)
 {
     __this->OnNavigationProgressChanged(sender, state);
 }
 
-// private void OnStateChanged(object s, Uno.UX.ValueChangedArgs<Fuse.Navigation.NavigationState> state) :284
+// private void OnStateChanged(object s, Uno.UX.ValueChangedArgs<Fuse.Navigation.NavigationState> state)
 void RoutePageProxy__OnStateChanged_fn(RoutePageProxy* __this, uObject* s, ::g::Uno::UX::ValueChangedArgs* state)
 {
     __this->OnStateChanged(s, state);
 }
 
-// public Fuse.Navigation.RoutePagePath get_Path() :40
+// public Fuse.Navigation.RoutePagePath get_Path()
 void RoutePageProxy__get_Path_fn(RoutePageProxy* __this, int32_t* __retval)
 {
     *__retval = __this->Path();
 }
 
-// public void set_Path(Fuse.Navigation.RoutePagePath value) :41
+// public void set_Path(Fuse.Navigation.RoutePagePath value)
 void RoutePageProxy__set_Path_fn(RoutePageProxy* __this, int32_t* value)
 {
     __this->Path(*value);
 }
 
-// private void ScheduleActiveChanged() :274
+// private void ScheduleActiveChanged()
 void RoutePageProxy__ScheduleActiveChanged_fn(RoutePageProxy* __this)
 {
     __this->ScheduleActiveChanged();
 }
 
-// public Fuse.Navigation.RoutePageTriggerWhen get_TriggerWhen() :47
+// public Fuse.Navigation.RoutePageTriggerWhen get_TriggerWhen()
 void RoutePageProxy__get_TriggerWhen_fn(RoutePageProxy* __this, int32_t* __retval)
 {
     *__retval = __this->TriggerWhen();
 }
 
-// public void set_TriggerWhen(Fuse.Navigation.RoutePageTriggerWhen value) :48
+// public void set_TriggerWhen(Fuse.Navigation.RoutePageTriggerWhen value)
 void RoutePageProxy__set_TriggerWhen_fn(RoutePageProxy* __this, int32_t* value)
 {
     __this->TriggerWhen(*value);
 }
 
-// private void Unlisten(Fuse.Navigation.RoutePageProxy.Level level) :179
+// private void Unlisten(Fuse.Navigation.RoutePageProxy.Level level)
 void RoutePageProxy__Unlisten_fn(RoutePageProxy* __this, RoutePageProxy__Level* level)
 {
     __this->Unlisten(*level);
 }
 
-// private void UpdateActive() :289
+// private void UpdateActive()
 void RoutePageProxy__UpdateActive_fn(RoutePageProxy* __this)
 {
     __this->UpdateActive();
 }
 
-// public RoutePageProxy(Fuse.Visual source, Fuse.Navigation.RoutePageProxy.ActiveChanged activeChanged) [instance] :76
+// public RoutePageProxy(Fuse.Visual source, Fuse.Navigation.RoutePageProxy.ActiveChanged activeChanged) [instance]
 void RoutePageProxy::ctor_(::g::Fuse::Visual* source, uDelegate* activeChanged)
 {
     _path = 1;
@@ -6726,7 +6632,7 @@ void RoutePageProxy::ctor_(::g::Fuse::Visual* source, uDelegate* activeChanged)
     _source = source;
 }
 
-// private void DiscardLevels(int start) [instance] :194
+// private void DiscardLevels(int start) [instance]
 void RoutePageProxy::DiscardLevels(int32_t start)
 {
     RoutePageProxy__Level ret5;
@@ -6738,7 +6644,7 @@ void RoutePageProxy::DiscardLevels(int32_t start)
     }
 }
 
-// public void Dispose() [instance] :92
+// public void Dispose() [instance]
 void RoutePageProxy::Dispose()
 {
     RoutePageProxy__Level ret6;
@@ -6752,7 +6658,7 @@ void RoutePageProxy::Dispose()
     _activeChangedPending = false;
 }
 
-// private void Dispose(Fuse.Navigation.RoutePageProxy.Level level) [instance] :102
+// private void Dispose(Fuse.Navigation.RoutePageProxy.Level level) [instance]
 void RoutePageProxy::Dispose1(RoutePageProxy__Level level)
 {
     Unlisten(level);
@@ -6764,7 +6670,7 @@ void RoutePageProxy::Dispose1(RoutePageProxy__Level level)
     }
 }
 
-// private bool ExtendListen(Fuse.Navigation.RoutePageProxy.Level level) [instance] :141
+// private bool ExtendListen(Fuse.Navigation.RoutePageProxy.Level level) [instance]
 bool RoutePageProxy::ExtendListen(RoutePageProxy__Level level)
 {
     RoutePageProxy__Level collection2;
@@ -6785,11 +6691,11 @@ bool RoutePageProxy::ExtendListen(RoutePageProxy__Level level)
     collection2.PageProxy = ::g::Fuse::Navigation::NavigationPageProxy::New1();
     RoutePageProxy__Level nextLevel = collection2;
     ::g::Uno::Collections::List__Add_fn(uPtr(_levels), uCRef(nextLevel));
-    uPtr(nextLevel.PageProxy)->Init(uDelegate::New(::TYPES[22/*Fuse.Navigation.NavigationPageProxy.StatusChangedHandler*/], (void*)RoutePageProxy__NavReady_fn, this), uDelegate::New(::TYPES[22/*Fuse.Navigation.NavigationPageProxy.StatusChangedHandler*/], (void*)RoutePageProxy__NavUnready_fn, this), nav);
+    uPtr(nextLevel.PageProxy)->Init(uDelegate::New(::TYPES[21/*Fuse.Navigation.NavigationPageProxy.StatusChangedHandler*/], (void*)RoutePageProxy__NavReady_fn, this), uDelegate::New(::TYPES[21/*Fuse.Navigation.NavigationPageProxy.StatusChangedHandler*/], (void*)RoutePageProxy__NavUnready_fn, this), nav);
     return true;
 }
 
-// private int GetLevel(object sender) [instance] :112
+// private int GetLevel(object sender) [instance]
 int32_t RoutePageProxy::GetLevel(uObject* sender)
 {
     RoutePageProxy__Level ret7;
@@ -6798,11 +6704,11 @@ int32_t RoutePageProxy::GetLevel(uObject* sender)
         if (sender == (::g::Uno::Collections::List__get_Item_fn(uPtr(_levels), uCRef<int32_t>(i), &ret7), ret7).PageProxy)
             return i;
 
-    ::g::Fuse::Diagnostics::InternalError(uString::Const("Unexpected sender"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RoutePageProxy.uno"), 119, uString::Const("GetLevel"));
+    ::g::Fuse::Diagnostics::InternalError(uString::Const("Unexpected sender"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RoutePageProxy.uno"), 119, uString::Const("GetLevel"));
     return -1;
 }
 
-// private double GetProgress() [instance] :213
+// private double GetProgress() [instance]
 double RoutePageProxy::GetProgress()
 {
     RoutePageProxy__Level ret8;
@@ -6815,7 +6721,7 @@ double RoutePageProxy::GetProgress()
         if (!uPtr(level.PageProxy)->IsReady())
             return 1.0;
 
-        ::g::Fuse::Navigation::NavigationPageState pp = ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uPtr(level.PageProxy)->Page());
+        ::g::Fuse::Navigation::NavigationPageState pp = ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uPtr(level.PageProxy)->Page());
         float lp = pp.Progress;
 
         if ((i == 0) || (::g::Uno::Math::Abs1(lp) > ::g::Uno::Math::Abs1(p)))
@@ -6825,7 +6731,7 @@ double RoutePageProxy::GetProgress()
     return (double)p;
 }
 
-// private void GetState(bool& isActive, bool& isStable) [instance] :250
+// private void GetState(bool& isActive, bool& isStable) [instance]
 void RoutePageProxy::GetState(bool* isActive, bool* isStable)
 {
     RoutePageProxy__Level ret9;
@@ -6841,14 +6747,14 @@ void RoutePageProxy::GetState(bool* isActive, bool* isStable)
 
     for (int32_t i = 0; i < uPtr(_levels)->Count(); ++i)
     {
-        bool la = ::g::Fuse::Navigation::INavigation::ActivePage(uInterface(uPtr(uPtr((::g::Uno::Collections::List__get_Item_fn(uPtr(_levels), uCRef<int32_t>(i), &ret9), ret9).PageProxy)->Navigation()), ::TYPES[1/*Fuse.Navigation.INavigation*/])) == uPtr((::g::Uno::Collections::List__get_Item_fn(uPtr(_levels), uCRef<int32_t>(i), &ret10), ret10).PageProxy)->Page();
+        bool la = ::g::Fuse::Navigation::INavigation::ActivePage(uInterface(uPtr(uPtr((::g::Uno::Collections::List__get_Item_fn(uPtr(_levels), uCRef<int32_t>(i), &ret9), ret9).PageProxy)->Navigation()), ::TYPES[0/*Fuse.Navigation.INavigation*/])) == uPtr((::g::Uno::Collections::List__get_Item_fn(uPtr(_levels), uCRef<int32_t>(i), &ret10), ret10).PageProxy)->Page();
         *isActive = *isActive && la;
-        bool s = ::g::Fuse::Navigation::INavigation::State(uInterface(uPtr(uPtr((::g::Uno::Collections::List__get_Item_fn(uPtr(_levels), uCRef<int32_t>(i), &ret11), ret11).PageProxy)->Navigation()), ::TYPES[1/*Fuse.Navigation.INavigation*/])) == 0;
+        bool s = ::g::Fuse::Navigation::INavigation::State(uInterface(uPtr(uPtr((::g::Uno::Collections::List__get_Item_fn(uPtr(_levels), uCRef<int32_t>(i), &ret11), ret11).PageProxy)->Navigation()), ::TYPES[0/*Fuse.Navigation.INavigation*/])) == 0;
         *isStable = *isStable && s;
     }
 }
 
-// public void Init() [instance] :83
+// public void Init() [instance]
 void RoutePageProxy::Init()
 {
     RoutePageProxy__Level collection1;
@@ -6856,10 +6762,10 @@ void RoutePageProxy::Init()
     collection1.PageProxy = ::g::Fuse::Navigation::NavigationPageProxy::New1();
     RoutePageProxy__Level level = collection1;
     ::g::Uno::Collections::List__Add_fn(uPtr(_levels), uCRef(level));
-    uPtr(level.PageProxy)->Init(uDelegate::New(::TYPES[22/*Fuse.Navigation.NavigationPageProxy.StatusChangedHandler*/], (void*)RoutePageProxy__NavReady_fn, this), uDelegate::New(::TYPES[22/*Fuse.Navigation.NavigationPageProxy.StatusChangedHandler*/], (void*)RoutePageProxy__NavUnready_fn, this), _source);
+    uPtr(level.PageProxy)->Init(uDelegate::New(::TYPES[21/*Fuse.Navigation.NavigationPageProxy.StatusChangedHandler*/], (void*)RoutePageProxy__NavReady_fn, this), uDelegate::New(::TYPES[21/*Fuse.Navigation.NavigationPageProxy.StatusChangedHandler*/], (void*)RoutePageProxy__NavUnready_fn, this), _source);
 }
 
-// private void InitialUpdate() [instance] :231
+// private void InitialUpdate() [instance]
 void RoutePageProxy::InitialUpdate()
 {
     if (::g::Uno::Delegate::op_Inequality(_progressUpdated, NULL))
@@ -6873,25 +6779,25 @@ void RoutePageProxy::InitialUpdate()
     }
 }
 
-// private void Listen(Fuse.Navigation.RoutePageProxy.Level level) [instance] :164
+// private void Listen(Fuse.Navigation.RoutePageProxy.Level level) [instance]
 void RoutePageProxy::Listen(RoutePageProxy__Level level)
 {
     if (!level.Listening)
     {
         if (::g::Uno::Delegate::op_Inequality(_progressUpdated, NULL))
-            ::g::Fuse::Navigation::INavigation::add_PageProgressChanged(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[21/*Fuse.Navigation.NavigationHandler*/], (void*)RoutePageProxy__OnNavigationProgressChanged_fn, this));
+            ::g::Fuse::Navigation::INavigation::add_PageProgressChanged(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[20/*Fuse.Navigation.NavigationHandler*/], (void*)RoutePageProxy__OnNavigationProgressChanged_fn, this));
 
         if (::g::Uno::Delegate::op_Inequality(_activeChanged, NULL))
         {
-            ::g::Fuse::Navigation::INavigation::add_ActivePageChanged(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[47/*Fuse.Navigation.ActivePageChangedHandler*/], (void*)RoutePageProxy__OnActivePageChanged_fn, this));
-            ::g::Fuse::Navigation::INavigation::add_StateChanged(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[50/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/], (void*)RoutePageProxy__OnStateChanged_fn, this));
+            ::g::Fuse::Navigation::INavigation::add_ActivePageChanged(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[45/*Fuse.Navigation.ActivePageChangedHandler*/], (void*)RoutePageProxy__OnActivePageChanged_fn, this));
+            ::g::Fuse::Navigation::INavigation::add_StateChanged(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[48/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/], (void*)RoutePageProxy__OnStateChanged_fn, this));
         }
 
         level.Listening = true;
     }
 }
 
-// private void NavReady(object sender) [instance] :123
+// private void NavReady(object sender) [instance]
 void RoutePageProxy::NavReady(uObject* sender)
 {
     RoutePageProxy__Level ret12;
@@ -6913,7 +6819,7 @@ void RoutePageProxy::NavReady(uObject* sender)
     InitialUpdate();
 }
 
-// private void NavUnready(object sender) [instance] :203
+// private void NavUnready(object sender) [instance]
 void RoutePageProxy::NavUnready(uObject* sender)
 {
     RoutePageProxy__Level ret13;
@@ -6926,78 +6832,78 @@ void RoutePageProxy::NavUnready(uObject* sender)
     DiscardLevels(level + 1);
 }
 
-// private void OnActivePageChanged(object s, Fuse.Visual active) [instance] :269
+// private void OnActivePageChanged(object s, Fuse.Visual active) [instance]
 void RoutePageProxy::OnActivePageChanged(uObject* s, ::g::Fuse::Visual* active)
 {
     ScheduleActiveChanged();
 }
 
-// private void OnNavigationProgressChanged(object sender, Fuse.Navigation.NavigationArgs state) [instance] :244
+// private void OnNavigationProgressChanged(object sender, Fuse.Navigation.NavigationArgs state) [instance]
 void RoutePageProxy::OnNavigationProgressChanged(uObject* sender, ::g::Fuse::Navigation::NavigationArgs* state)
 {
     if (::g::Uno::Delegate::op_Inequality(_progressUpdated, NULL))
         uPtr(_progressUpdated)->InvokeVoid(uCRef(GetProgress()));
 }
 
-// private void OnStateChanged(object s, Uno.UX.ValueChangedArgs<Fuse.Navigation.NavigationState> state) [instance] :284
+// private void OnStateChanged(object s, Uno.UX.ValueChangedArgs<Fuse.Navigation.NavigationState> state) [instance]
 void RoutePageProxy::OnStateChanged(uObject* s, ::g::Uno::UX::ValueChangedArgs* state)
 {
     ScheduleActiveChanged();
 }
 
-// public Fuse.Navigation.RoutePagePath get_Path() [instance] :40
+// public Fuse.Navigation.RoutePagePath get_Path() [instance]
 int32_t RoutePageProxy::Path()
 {
     return _path;
 }
 
-// public void set_Path(Fuse.Navigation.RoutePagePath value) [instance] :41
+// public void set_Path(Fuse.Navigation.RoutePagePath value) [instance]
 void RoutePageProxy::Path(int32_t value)
 {
     _path = value;
 }
 
-// private void ScheduleActiveChanged() [instance] :274
+// private void ScheduleActiveChanged() [instance]
 void RoutePageProxy::ScheduleActiveChanged()
 {
     if (_activeChangedPending)
         return;
 
     _activeChangedPending = true;
-    ::g::Fuse::UpdateManager::AddDeferredAction2(uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)RoutePageProxy__UpdateActive_fn, this), -1, 2);
+    ::g::Fuse::UpdateManager::AddDeferredAction2(uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)RoutePageProxy__UpdateActive_fn, this), -1, 2);
 }
 
-// public Fuse.Navigation.RoutePageTriggerWhen get_TriggerWhen() [instance] :47
+// public Fuse.Navigation.RoutePageTriggerWhen get_TriggerWhen() [instance]
 int32_t RoutePageProxy::TriggerWhen()
 {
     return _triggerWhen;
 }
 
-// public void set_TriggerWhen(Fuse.Navigation.RoutePageTriggerWhen value) [instance] :48
+// public void set_TriggerWhen(Fuse.Navigation.RoutePageTriggerWhen value) [instance]
 void RoutePageProxy::TriggerWhen(int32_t value)
 {
     _triggerWhen = value;
 }
 
-// private void Unlisten(Fuse.Navigation.RoutePageProxy.Level level) [instance] :179
+// private void Unlisten(Fuse.Navigation.RoutePageProxy.Level level) [instance]
 void RoutePageProxy::Unlisten(RoutePageProxy__Level level)
 {
     if (level.Listening)
     {
         if (::g::Uno::Delegate::op_Inequality(_progressUpdated, NULL))
-            ::g::Fuse::Navigation::INavigation::remove_PageProgressChanged(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[21/*Fuse.Navigation.NavigationHandler*/], (void*)RoutePageProxy__OnNavigationProgressChanged_fn, this));
+            ::g::Fuse::Navigation::INavigation::remove_PageProgressChanged(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[20/*Fuse.Navigation.NavigationHandler*/], (void*)RoutePageProxy__OnNavigationProgressChanged_fn, this));
 
         if (::g::Uno::Delegate::op_Inequality(_activeChanged, NULL))
         {
-            ::g::Fuse::Navigation::INavigation::remove_ActivePageChanged(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[47/*Fuse.Navigation.ActivePageChangedHandler*/], (void*)RoutePageProxy__OnActivePageChanged_fn, this));
-            ::g::Fuse::Navigation::INavigation::remove_StateChanged(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[50/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/], (void*)RoutePageProxy__OnStateChanged_fn, this));
+            ::g::Fuse::Navigation::INavigation::remove_ActivePageChanged(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[45/*Fuse.Navigation.ActivePageChangedHandler*/], (void*)RoutePageProxy__OnActivePageChanged_fn, this));
+            ::g::Fuse::Navigation::INavigation::remove_StateChanged(uInterface(uPtr(uPtr(level.PageProxy)->Navigation()), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[48/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/], (void*)RoutePageProxy__OnStateChanged_fn, this));
         }
 
         level.Listening = false;
     }
 }
 
-// private void UpdateActive() [instance] :289
+// private void UpdateActive() [instance]
 void RoutePageProxy::UpdateActive()
 {
     if (!_activeChangedPending)
@@ -7014,7 +6920,7 @@ void RoutePageProxy::UpdateActive()
     uPtr(_activeChanged)->Invoke(2, uCRef(_isActive), uCRef(false));
 }
 
-// public RoutePageProxy New(Fuse.Visual source, Fuse.Navigation.RoutePageProxy.ActiveChanged activeChanged) [static] :76
+// public RoutePageProxy New(Fuse.Visual source, Fuse.Navigation.RoutePageProxy.ActiveChanged activeChanged) [static]
 RoutePageProxy* RoutePageProxy::New1(::g::Fuse::Visual* source, uDelegate* activeChanged)
 {
     RoutePageProxy* obj4 = (RoutePageProxy*)uNew(RoutePageProxy_typeof());
@@ -7023,10 +6929,10 @@ RoutePageProxy* RoutePageProxy::New1(::g::Fuse::Visual* source, uDelegate* activ
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RoutePageProxy.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RoutePageProxy.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum RoutePageTriggerWhen :21
+// public enum RoutePageTriggerWhen
 uEnumType* RoutePageTriggerWhen_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -7039,16 +6945,16 @@ uEnumType* RoutePageTriggerWhen_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class Router :5
+// public partial sealed class Router
 // {
-// static Router() :7
+// static Router()
 static void Router__cctor_1_fn(uType* __type)
 {
     ::g::Fuse::Scripting::ScriptClass_typeof()->Init();
-    ::g::Fuse::Scripting::ScriptClass::Register(__type, uArray::Init< ::g::Fuse::Scripting::ScriptMember*>(::TYPES[40/*Fuse.Scripting.ScriptMember[]*/], 8, (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("bookmark"), uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, ::TYPES[10/*object[]*/], NULL), (void*)Router__Bookmark_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New4(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("getRoute"), uDelegate::New(::g::Uno::Func3_typeof()->MakeType(::g::Fuse::Scripting::Context_typeof(), __type, ::TYPES[10/*object[]*/], uObject_typeof(), NULL), (void*)Router__GetRoute_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("goBack"), uDelegate::New(::g::Uno::Action1_typeof()->MakeType(__type, NULL), (void*)Router__GoBack1_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), ::STRINGS[54/*"goto"*/], uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, ::TYPES[10/*object[]*/], NULL), (void*)Router__Goto1_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("gotoRelative"), uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, ::TYPES[10/*object[]*/], NULL), (void*)Router__GotoRelative_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("modify"), uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, ::TYPES[10/*object[]*/], NULL), (void*)Router__Modify2_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("push"), uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, ::TYPES[10/*object[]*/], NULL), (void*)Router__Push1_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("pushRelative"), uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, ::TYPES[10/*object[]*/], NULL), (void*)Router__PushRelative_fn))));
+    ::g::Fuse::Scripting::ScriptClass::Register(__type, uArray::Init< ::g::Fuse::Scripting::ScriptMember*>(::TYPES[39/*Fuse.Scripting.ScriptMember[]*/], 8, (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("bookmark"), uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, ::TYPES[9/*object[]*/], NULL), (void*)Router__Bookmark_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New4(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("getRoute"), uDelegate::New(::g::Uno::Func3_typeof()->MakeType(::g::Fuse::Scripting::Context_typeof(), __type, ::TYPES[9/*object[]*/], uObject_typeof(), NULL), (void*)Router__GetRoute_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("goBack"), uDelegate::New(::g::Uno::Action1_typeof()->MakeType(__type, NULL), (void*)Router__GoBack1_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), ::STRINGS[54/*"goto"*/], uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, ::TYPES[9/*object[]*/], NULL), (void*)Router__Goto1_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("gotoRelative"), uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, ::TYPES[9/*object[]*/], NULL), (void*)Router__GotoRelative_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("modify"), uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, ::TYPES[9/*object[]*/], NULL), (void*)Router__Modify2_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("push"), uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, ::TYPES[9/*object[]*/], NULL), (void*)Router__Push1_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("pushRelative"), uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, ::TYPES[9/*object[]*/], NULL), (void*)Router__PushRelative_fn))));
 }
 
 static void Router_build(uType* type)
@@ -7126,282 +7032,282 @@ Router_type* Router_typeof()
     return type;
 }
 
-// public generated Router() :5
+// public generated Router()
 void Router__ctor_2_fn(Router* __this)
 {
     __this->ctor_2();
 }
 
-// private static Fuse.Navigation.IRouterOutlet AsRouterOutlet(Fuse.Node n) :656
+// private static Fuse.Navigation.IRouterOutlet AsRouterOutlet(Fuse.Node n)
 void Router__AsRouterOutlet_fn(::g::Fuse::Node* n, uObject** __retval)
 {
     *__retval = Router::AsRouterOutlet(n);
 }
 
-// public generated void add_BackAtRootPressed(Fuse.Navigation.Router.BackAtRootPressedHandler value) :164
+// public generated void add_BackAtRootPressed(Fuse.Navigation.Router.BackAtRootPressedHandler value)
 void Router__add_BackAtRootPressed_fn(Router* __this, uDelegate* value)
 {
     __this->add_BackAtRootPressed(value);
 }
 
-// public generated void remove_BackAtRootPressed(Fuse.Navigation.Router.BackAtRootPressedHandler value) :164
+// public generated void remove_BackAtRootPressed(Fuse.Navigation.Router.BackAtRootPressedHandler value)
 void Router__remove_BackAtRootPressed_fn(Router* __this, uDelegate* value)
 {
     __this->remove_BackAtRootPressed(value);
 }
 
-// public Fuse.Navigation.BackButtonAction get_BackButtonAction() :187
+// public Fuse.Navigation.BackButtonAction get_BackButtonAction()
 void Router__get_BackButtonAction_fn(Router* __this, int32_t* __retval)
 {
     *__retval = __this->BackButtonAction();
 }
 
-// public void set_BackButtonAction(Fuse.Navigation.BackButtonAction value) :188
+// public void set_BackButtonAction(Fuse.Navigation.BackButtonAction value)
 void Router__set_BackButtonAction_fn(Router* __this, int32_t* value)
 {
     __this->BackButtonAction(*value);
 }
 
-// private static void Bookmark(Fuse.Navigation.Router r, object[] args) :214
+// private static void Bookmark(Fuse.Navigation.Router r, object[] args)
 void Router__Bookmark_fn(Router* r, uArray* args)
 {
     Router::Bookmark(r, args);
 }
 
-// public void CancelNavigation() :404
+// public void CancelNavigation()
 void Router__CancelNavigation_fn(Router* __this)
 {
     __this->CancelNavigation();
 }
 
-// public bool get_CanGoBack() :314
+// public bool get_CanGoBack()
 void Router__get_CanGoBack_fn(Router* __this, bool* __retval)
 {
     *__retval = __this->CanGoBack();
 }
 
-// private void ClearPrepared() :372
+// private void ClearPrepared()
 void Router__ClearPrepared_fn(Router* __this)
 {
     __this->ClearPrepared();
 }
 
-// private bool EnumerateHistory(Fuse.Navigation.Router.HistoryAction action, Uno.Collections.List<Fuse.Navigation.RouterPage> stack, Fuse.Navigation.RouterPage rp) :817
+// private bool EnumerateHistory(Fuse.Navigation.Router.HistoryAction action, Uno.Collections.List<Fuse.Navigation.RouterPage> stack, Fuse.Navigation.RouterPage rp)
 void Router__EnumerateHistory_fn(Router* __this, uDelegate* action, ::g::Uno::Collections::List* stack, ::g::Fuse::Navigation::RouterPage* rp, bool* __retval)
 {
     *__retval = __this->EnumerateHistory(action, stack, rp);
 }
 
-// private Fuse.Navigation.IRouterOutlet FindOutletDown(Fuse.Node active) :634
+// private Fuse.Navigation.IRouterOutlet FindOutletDown(Fuse.Node active)
 void Router__FindOutletDown_fn(Router* __this, ::g::Fuse::Node* active, uObject** __retval)
 {
     *__retval = __this->FindOutletDown(active);
 }
 
-// private Fuse.Navigation.IRouterOutlet FindOutletUp(Fuse.Node active) :663
+// private Fuse.Navigation.IRouterOutlet FindOutletUp(Fuse.Node active)
 void Router__FindOutletUp_fn(Router* __this, ::g::Fuse::Node* active, uObject** __retval)
 {
     *__retval = __this->FindOutletUp(active);
 }
 
-// private Fuse.Navigation.IRouterOutlet FindOutletUp(Fuse.Node active, Fuse.Node& page) :669
+// private Fuse.Navigation.IRouterOutlet FindOutletUp(Fuse.Node active, Fuse.Node& page)
 void Router__FindOutletUp1_fn(Router* __this, ::g::Fuse::Node* active, ::g::Fuse::Node** page, uObject** __retval)
 {
     *__retval = __this->FindOutletUp1(active, page);
 }
 
-// internal static Fuse.Visual FindRouterOutletPage(Fuse.Node from) :598
+// internal static Fuse.Visual FindRouterOutletPage(Fuse.Node from)
 void Router__FindRouterOutletPage_fn(::g::Fuse::Node* from, ::g::Fuse::Visual** __retval)
 {
     *__retval = Router::FindRouterOutletPage(from);
 }
 
-// private void FinishPrepared() :363
+// private void FinishPrepared()
 void Router__FinishPrepared_fn(Router* __this)
 {
     __this->FinishPrepared();
 }
 
-// private bool Fuse.Navigation.IBaseNavigation.get_CanGoForward() :729
+// private bool Fuse.Navigation.IBaseNavigation.get_CanGoForward()
 void Router__FuseNavigationIBaseNavigationget_CanGoForward_fn(Router* __this, bool* __retval)
 {
     return *__retval = false, void();
 }
 
-// public void Fuse.Navigation.IBaseNavigation.GoBack() :310
+// public void Fuse.Navigation.IBaseNavigation.GoBack()
 void Router__FuseNavigationIBaseNavigationGoBack_fn(Router* __this)
 {
     __this->GoBack();
 }
 
-// private void Fuse.Navigation.IBaseNavigation.GoForward() :728
+// private void Fuse.Navigation.IBaseNavigation.GoForward()
 void Router__FuseNavigationIBaseNavigationGoForward_fn(Router* __this)
 {
 }
 
-// private Fuse.Navigation.RouterPageRoute GetCurrent(Fuse.Visual from, [Fuse.Navigation.IRouterOutlet to]) :556
+// private Fuse.Navigation.RouterPageRoute GetCurrent(Fuse.Visual from, [Fuse.Navigation.IRouterOutlet to])
 void Router__GetCurrent_fn(Router* __this, ::g::Fuse::Visual* from, uObject* to, ::g::Fuse::Navigation::RouterPageRoute** __retval)
 {
     *__retval = __this->GetCurrent(from, to);
 }
 
-// public Fuse.Navigation.Route GetCurrentRoute() :191
+// public Fuse.Navigation.Route GetCurrentRoute()
 void Router__GetCurrentRoute_fn(Router* __this, ::g::Fuse::Navigation::Route** __retval)
 {
     *__retval = __this->GetCurrentRoute();
 }
 
-// private Fuse.Navigation.RouterPageRoute GetCurrentRouterPageRoute() :196
+// private Fuse.Navigation.RouterPageRoute GetCurrentRouterPageRoute()
 void Router__GetCurrentRouterPageRoute_fn(Router* __this, ::g::Fuse::Navigation::RouterPageRoute** __retval)
 {
     *__retval = __this->GetCurrentRouterPageRoute();
 }
 
-// internal Fuse.Navigation.RouterPageRoute GetHistoryRoute(int at) :765
+// internal Fuse.Navigation.RouterPageRoute GetHistoryRoute(int at)
 void Router__GetHistoryRoute_fn(Router* __this, int32_t* at, ::g::Fuse::Navigation::RouterPageRoute** __retval)
 {
     *__retval = __this->GetHistoryRoute(*at);
 }
 
-// private int GetOutletDepth(Fuse.Navigation.IRouterOutlet outlet) :619
+// private int GetOutletDepth(Fuse.Navigation.IRouterOutlet outlet)
 void Router__GetOutletDepth_fn(Router* __this, uObject* outlet, int32_t* __retval)
 {
     *__retval = __this->GetOutletDepth(outlet);
 }
 
-// private static Fuse.Navigation.RouterPageRoute GetRelative(Fuse.Navigation.Router r, object[] args) :92
+// private static Fuse.Navigation.RouterPageRoute GetRelative(Fuse.Navigation.Router r, object[] args)
 void Router__GetRelative_fn(Router* r, uArray* args, ::g::Fuse::Navigation::RouterPageRoute** __retval)
 {
     *__retval = Router::GetRelative(r, args);
 }
 
-// internal Fuse.Navigation.RouterPageRoute GetRelativeRoute(Fuse.Node from, Fuse.Navigation.RouterPageRoute rel) :693
+// internal Fuse.Navigation.RouterPageRoute GetRelativeRoute(Fuse.Node from, Fuse.Navigation.RouterPageRoute rel)
 void Router__GetRelativeRoute1_fn(Router* __this, ::g::Fuse::Node* from, ::g::Fuse::Navigation::RouterPageRoute* rel, ::g::Fuse::Navigation::RouterPageRoute** __retval)
 {
     *__retval = __this->GetRelativeRoute1(from, rel);
 }
 
-// private static object GetRoute(Fuse.Scripting.Context c, Fuse.Navigation.Router r, object[] args) :305
+// private static object GetRoute(Fuse.Scripting.Context c, Fuse.Navigation.Router r, object[] args)
 void Router__GetRoute_fn(::g::Fuse::Scripting::Context* c, Router* r, uArray* args, uObject** __retval)
 {
     *__retval = Router::GetRoute(c, r, args);
 }
 
-// private Fuse.Navigation.RouterPageRoute GetRouteUpToRouter(Fuse.Node from) :570
+// private Fuse.Navigation.RouterPageRoute GetRouteUpToRouter(Fuse.Node from)
 void Router__GetRouteUpToRouter_fn(Router* __this, ::g::Fuse::Node* from, ::g::Fuse::Navigation::RouterPageRoute** __retval)
 {
     *__retval = __this->GetRouteUpToRouter(from);
 }
 
-// public bool GoBack() :296
+// public bool GoBack()
 void Router__GoBack_fn(Router* __this, bool* __retval)
 {
     *__retval = __this->GoBack();
 }
 
-// private static void GoBack(Fuse.Navigation.Router r) :135
+// private static void GoBack(Fuse.Navigation.Router r)
 void Router__GoBack1_fn(Router* r)
 {
     Router::GoBack1(r);
 }
 
-// public Fuse.Navigation.RouterGoBackBehavior get_GoBackBehavior() :279
+// public Fuse.Navigation.RouterGoBackBehavior get_GoBackBehavior()
 void Router__get_GoBackBehavior_fn(Router* __this, int32_t* __retval)
 {
     *__retval = __this->GoBackBehavior();
 }
 
-// public void set_GoBackBehavior(Fuse.Navigation.RouterGoBackBehavior value) :280
+// public void set_GoBackBehavior(Fuse.Navigation.RouterGoBackBehavior value)
 void Router__set_GoBackBehavior_fn(Router* __this, int32_t* value)
 {
     __this->GoBackBehavior(*value);
 }
 
-// private static void Goto(Fuse.Navigation.Router r, object[] args) :34
+// private static void Goto(Fuse.Navigation.Router r, object[] args)
 void Router__Goto1_fn(Router* r, uArray* args)
 {
     Router::Goto1(r, args);
 }
 
-// private static void GotoRelative(Fuse.Navigation.Router r, object[] args) :70
+// private static void GotoRelative(Fuse.Navigation.Router r, object[] args)
 void Router__GotoRelative_fn(Router* r, uArray* args)
 {
     Router::GotoRelative(r, args);
 }
 
-// private bool GoUp() :321
+// private bool GoUp()
 void Router__GoUp_fn(Router* __this, bool* __retval)
 {
     *__retval = __this->GoUp();
 }
 
-// private bool HasOtherRouter(Fuse.Visual n) :714
+// private bool HasOtherRouter(Fuse.Visual n)
 void Router__HasOtherRouter_fn(Router* __this, ::g::Fuse::Visual* n, bool* __retval)
 {
     *__retval = __this->HasOtherRouter(n);
 }
 
-// private static bool HasRouter(Fuse.Node n) :720
+// private static bool HasRouter(Fuse.Node n)
 void Router__HasRouter_fn(::g::Fuse::Node* n, bool* __retval)
 {
     *__retval = Router::HasRouter(n);
 }
 
-// public generated void add_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) :731
+// public generated void add_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value)
 void Router__add_HistoryChanged_fn(Router* __this, uDelegate* value)
 {
     __this->add_HistoryChanged(value);
 }
 
-// public generated void remove_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) :731
+// public generated void remove_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value)
 void Router__remove_HistoryChanged_fn(Router* __this, uDelegate* value)
 {
     __this->remove_HistoryChanged(value);
 }
 
-// public bool get_IsMasterRouter() :156
+// public bool get_IsMasterRouter()
 void Router__get_IsMasterRouter_fn(Router* __this, bool* __retval)
 {
     *__retval = __this->IsMasterRouter();
 }
 
-// public void set_IsMasterRouter(bool value) :157
+// public void set_IsMasterRouter(bool value)
 void Router__set_IsMasterRouter_fn(Router* __this, bool* value)
 {
     __this->IsMasterRouter(*value);
 }
 
-// internal void Modify(Fuse.Navigation.ModifyRouteHow how, Fuse.Navigation.RouterPageRoute route, Fuse.Navigation.NavigationGotoMode mode, string operationStyle) :219
+// internal void Modify(Fuse.Navigation.ModifyRouteHow how, Fuse.Navigation.RouterPageRoute route, Fuse.Navigation.NavigationGotoMode mode, string operationStyle)
 void Router__Modify1_fn(Router* __this, int32_t* how, ::g::Fuse::Navigation::RouterPageRoute* route, int32_t* mode, uString* operationStyle)
 {
     __this->Modify1(*how, route, *mode, operationStyle);
 }
 
-// private static void Modify(Fuse.Navigation.Router r, object[] args) :173
+// private static void Modify(Fuse.Navigation.Router r, object[] args)
 void Router__Modify2_fn(Router* r, uArray* args)
 {
     Router::Modify2(r, args);
 }
 
-// public generated Router New() :5
+// public generated Router New()
 void Router__New2_fn(Router** __retval)
 {
     *__retval = Router::New2();
 }
 
-// internal void OnHistoryChanged() :732
+// internal void OnHistoryChanged()
 void Router__OnHistoryChanged_fn(Router* __this)
 {
     __this->OnHistoryChanged();
 }
 
-// private void OnKeyPressed(object sender, Fuse.Input.KeyEventArgs args) :165
+// private void OnKeyPressed(object sender, Fuse.Input.KeyEventArgs args)
 void Router__OnKeyPressed_fn(Router* __this, uObject* sender, ::g::Fuse::Input::KeyEventArgs* args)
 {
     __this->OnKeyPressed(sender, args);
 }
 
-// protected override sealed void OnRooted() :92
+// protected override sealed void OnRooted()
 void Router__OnRooted_fn(Router* __this)
 {
     ::g::Fuse::Node__OnRooted_fn(__this);
@@ -7444,7 +7350,7 @@ void Router__OnRooted_fn(Router* __this)
     }
 }
 
-// protected override sealed void OnUnrooted() :132
+// protected override sealed void OnUnrooted()
 void Router__OnUnrooted_fn(Router* __this)
 {
     ::g::Fuse::PreviewState* ps = ::g::Fuse::PreviewState::Find(__this);
@@ -7456,73 +7362,73 @@ void Router__OnUnrooted_fn(Router* __this)
     ::g::Fuse::Node__OnUnrooted_fn(__this);
 }
 
-// private void Pop() :337
+// private void Pop()
 void Router__Pop_fn(Router* __this)
 {
     __this->Pop();
 }
 
-// public double get_PrepareProgress() :381
+// public double get_PrepareProgress()
 void Router__get_PrepareProgress_fn(Router* __this, double* __retval)
 {
     *__retval = __this->PrepareProgress();
 }
 
-// public void set_PrepareProgress(double value) :382
+// public void set_PrepareProgress(double value)
 void Router__set_PrepareProgress_fn(Router* __this, double* value)
 {
     __this->PrepareProgress(*value);
 }
 
-// private void PrepareRoute(Fuse.Navigation.RouterPageRoute r, Fuse.Navigation.RoutingOperation operation, string operationStyle) :353
+// private void PrepareRoute(Fuse.Navigation.RouterPageRoute r, Fuse.Navigation.RoutingOperation operation, string operationStyle)
 void Router__PrepareRoute_fn(Router* __this, ::g::Fuse::Navigation::RouterPageRoute* r, int32_t* operation, uString* operationStyle)
 {
     __this->PrepareRoute(r, *operation, operationStyle);
 }
 
-// private static void Push(Fuse.Navigation.Router r, object[] args) :121
+// private static void Push(Fuse.Navigation.Router r, object[] args)
 void Router__Push1_fn(Router* r, uArray* args)
 {
     Router::Push1(r, args);
 }
 
-// private static void PushRelative(Fuse.Navigation.Router r, object[] args) :85
+// private static void PushRelative(Fuse.Navigation.Router r, object[] args)
 void Router__PushRelative_fn(Router* r, uArray* args)
 {
     Router::PushRelative(r, args);
 }
 
-// internal Fuse.Navigation.RouterPage get_RootPage() :761
+// internal Fuse.Navigation.RouterPage get_RootPage()
 void Router__get_RootPage_fn(Router* __this, ::g::Fuse::Navigation::RouterPage** __retval)
 {
     *__retval = __this->RootPage();
 }
 
-// private void SetPrepareProgress(double value) :385
+// private void SetPrepareProgress(double value)
 void Router__SetPrepareProgress_fn(Router* __this, double* value)
 {
     __this->SetPrepareProgress(*value);
 }
 
-// private Fuse.Navigation.RouterPageRoute SetRoute(Fuse.Navigation.RouterPageRoute r, Fuse.Navigation.NavigationGotoMode gotoMode, Fuse.Navigation.RoutingOperation operation, string operationStyle, [bool userRequest]) :419
+// private Fuse.Navigation.RouterPageRoute SetRoute(Fuse.Navigation.RouterPageRoute r, Fuse.Navigation.NavigationGotoMode gotoMode, Fuse.Navigation.RoutingOperation operation, string operationStyle, [bool userRequest])
 void Router__SetRoute_fn(Router* __this, ::g::Fuse::Navigation::RouterPageRoute* r, int32_t* gotoMode, int32_t* operation, uString* operationStyle, bool* userRequest, ::g::Fuse::Navigation::RouterPageRoute** __retval)
 {
     *__retval = __this->SetRoute(r, *gotoMode, *operation, operationStyle, *userRequest);
 }
 
-// private Fuse.Navigation.RouterPageRoute SetRouteImpl(Fuse.Visual root, Fuse.Navigation.RouterPage rootPage, Fuse.Navigation.RouterPageRoute r, Fuse.Navigation.NavigationGotoMode gotoMode, Fuse.Navigation.RoutingOperation operation, string operationStyle, Fuse.Navigation.IRouterOutlet& majorChange, [bool canReuse]) :450
+// private Fuse.Navigation.RouterPageRoute SetRouteImpl(Fuse.Visual root, Fuse.Navigation.RouterPage rootPage, Fuse.Navigation.RouterPageRoute r, Fuse.Navigation.NavigationGotoMode gotoMode, Fuse.Navigation.RoutingOperation operation, string operationStyle, Fuse.Navigation.IRouterOutlet& majorChange, [bool canReuse])
 void Router__SetRouteImpl_fn(Router* __this, ::g::Fuse::Visual* root, ::g::Fuse::Navigation::RouterPage* rootPage, ::g::Fuse::Navigation::RouterPageRoute* r, int32_t* gotoMode, int32_t* operation, uString* operationStyle, uObject** majorChange, bool* canReuse, ::g::Fuse::Navigation::RouterPageRoute** __retval)
 {
     *__retval = __this->SetRouteImpl(root, rootPage, r, *gotoMode, *operation, operationStyle, majorChange, *canReuse);
 }
 
-// internal static Fuse.Navigation.Router TryFindRouter(Fuse.Node n) :738
+// internal static Fuse.Navigation.Router TryFindRouter(Fuse.Node n)
 void Router__TryFindRouter_fn(::g::Fuse::Node* n, Router** __retval)
 {
     *__retval = Router::TryFindRouter(n);
 }
 
-// public generated Router() [instance] :5
+// public generated Router() [instance]
 void Router::ctor_2()
 {
     _isMasterRouter = true;
@@ -7532,31 +7438,31 @@ void Router::ctor_2()
     ctor_1();
 }
 
-// public generated void add_BackAtRootPressed(Fuse.Navigation.Router.BackAtRootPressedHandler value) [instance] :164
+// public generated void add_BackAtRootPressed(Fuse.Navigation.Router.BackAtRootPressedHandler value) [instance]
 void Router::add_BackAtRootPressed(uDelegate* value)
 {
     BackAtRootPressed1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(BackAtRootPressed1, value), Router__BackAtRootPressedHandler_typeof());
 }
 
-// public generated void remove_BackAtRootPressed(Fuse.Navigation.Router.BackAtRootPressedHandler value) [instance] :164
+// public generated void remove_BackAtRootPressed(Fuse.Navigation.Router.BackAtRootPressedHandler value) [instance]
 void Router::remove_BackAtRootPressed(uDelegate* value)
 {
     BackAtRootPressed1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(BackAtRootPressed1, value), Router__BackAtRootPressedHandler_typeof());
 }
 
-// public Fuse.Navigation.BackButtonAction get_BackButtonAction() [instance] :187
+// public Fuse.Navigation.BackButtonAction get_BackButtonAction() [instance]
 int32_t Router::BackButtonAction()
 {
     return _backButtonAction;
 }
 
-// public void set_BackButtonAction(Fuse.Navigation.BackButtonAction value) [instance] :188
+// public void set_BackButtonAction(Fuse.Navigation.BackButtonAction value) [instance]
 void Router::BackButtonAction(int32_t value)
 {
     _backButtonAction = value;
 }
 
-// public void CancelNavigation() [instance] :404
+// public void CancelNavigation() [instance]
 void Router::CancelNavigation()
 {
     if (_prepareOutlet != NULL)
@@ -7565,16 +7471,16 @@ void Router::CancelNavigation()
         ClearPrepared();
     }
     else
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("No active navigation that can be cancelled"), NULL, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno"), 415, uString::Const("CancelNavigation"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("No active navigation that can be cancelled"), NULL, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno"), 415, uString::Const("CancelNavigation"));
 }
 
-// public bool get_CanGoBack() [instance] :314
+// public bool get_CanGoBack() [instance]
 bool Router::CanGoBack()
 {
     return GetHistoryRoute(1) != NULL;
 }
 
-// private void ClearPrepared() [instance] :372
+// private void ClearPrepared() [instance]
 void Router::ClearPrepared()
 {
     _prepareOutlet = NULL;
@@ -7582,7 +7488,7 @@ void Router::ClearPrepared()
     _prepareNext = NULL;
 }
 
-// private bool EnumerateHistory(Fuse.Navigation.Router.HistoryAction action, Uno.Collections.List<Fuse.Navigation.RouterPage> stack, Fuse.Navigation.RouterPage rp) [instance] :817
+// private bool EnumerateHistory(Fuse.Navigation.Router.HistoryAction action, Uno.Collections.List<Fuse.Navigation.RouterPage> stack, Fuse.Navigation.RouterPage rp) [instance]
 bool Router::EnumerateHistory(uDelegate* action, ::g::Uno::Collections::List* stack, ::g::Fuse::Navigation::RouterPage* rp)
 {
     bool ret4;
@@ -7609,7 +7515,7 @@ bool Router::EnumerateHistory(uDelegate* action, ::g::Uno::Collections::List* st
     return true;
 }
 
-// private Fuse.Navigation.IRouterOutlet FindOutletDown(Fuse.Node active) [instance] :634
+// private Fuse.Navigation.IRouterOutlet FindOutletDown(Fuse.Node active) [instance]
 uObject* Router::FindOutletDown(::g::Fuse::Node* active)
 {
     uObject* ro = Router::AsRouterOutlet(active);
@@ -7617,14 +7523,14 @@ uObject* Router::FindOutletDown(::g::Fuse::Node* active)
     if (ro != NULL)
         return ro;
 
-    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(active, ::TYPES[8/*Fuse.Visual*/]);
+    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(active, ::TYPES[7/*Fuse.Visual*/]);
 
     if (v != NULL)
     {
         if (HasOtherRouter(v))
             return NULL;
 
-        for (::g::Fuse::Node* ue = (::g::Fuse::Node*)uPtr(v)->FirstChild(::TYPES[19/*Fuse.Visual.FirstChild<Fuse.Node>*/]); ue != NULL; ue = (::g::Fuse::Node*)uPtr(ue)->NextSibling(::TYPES[20/*Fuse.Node.NextSibling<Fuse.Node>*/]))
+        for (::g::Fuse::Node* ue = (::g::Fuse::Node*)uPtr(v)->FirstChild(::TYPES[18/*Fuse.Visual.FirstChild<Fuse.Node>*/]); ue != NULL; ue = (::g::Fuse::Node*)uPtr(ue)->NextSibling(::TYPES[19/*Fuse.Node.NextSibling<Fuse.Node>*/]))
         {
             ro = FindOutletDown(ue);
 
@@ -7636,14 +7542,14 @@ uObject* Router::FindOutletDown(::g::Fuse::Node* active)
     return NULL;
 }
 
-// private Fuse.Navigation.IRouterOutlet FindOutletUp(Fuse.Node active) [instance] :663
+// private Fuse.Navigation.IRouterOutlet FindOutletUp(Fuse.Node active) [instance]
 uObject* Router::FindOutletUp(::g::Fuse::Node* active)
 {
     ::g::Fuse::Node* ignore;
     return FindOutletUp1(active, &ignore);
 }
 
-// private Fuse.Navigation.IRouterOutlet FindOutletUp(Fuse.Node active, Fuse.Node& page) [instance] :669
+// private Fuse.Navigation.IRouterOutlet FindOutletUp(Fuse.Node active, Fuse.Node& page) [instance]
 uObject* Router::FindOutletUp1(::g::Fuse::Node* active, ::g::Fuse::Node** page)
 {
     *page = active;
@@ -7655,7 +7561,7 @@ uObject* Router::FindOutletUp1(::g::Fuse::Node* active, ::g::Fuse::Node** page)
         if (ro != NULL)
             return ro;
 
-        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(active, ::TYPES[8/*Fuse.Visual*/]);
+        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(active, ::TYPES[7/*Fuse.Visual*/]);
 
         if ((v != NULL) && Router::HasRouter(v))
             return NULL;
@@ -7667,7 +7573,7 @@ uObject* Router::FindOutletUp1(::g::Fuse::Node* active, ::g::Fuse::Node** page)
     return NULL;
 }
 
-// private void FinishPrepared() [instance] :363
+// private void FinishPrepared() [instance]
 void Router::FinishPrepared()
 {
     if (_prepareOutlet == NULL)
@@ -7677,7 +7583,7 @@ void Router::FinishPrepared()
     ClearPrepared();
 }
 
-// private Fuse.Navigation.RouterPageRoute GetCurrent(Fuse.Visual from, [Fuse.Navigation.IRouterOutlet to]) [instance] :556
+// private Fuse.Navigation.RouterPageRoute GetCurrent(Fuse.Visual from, [Fuse.Navigation.IRouterOutlet to]) [instance]
 ::g::Fuse::Navigation::RouterPageRoute* Router::GetCurrent(::g::Fuse::Visual* from, uObject* to)
 {
     if (from == NULL)
@@ -7693,19 +7599,19 @@ void Router::FinishPrepared()
     return ::g::Fuse::Navigation::RouterPageRoute::New1(page, GetCurrent(pageVisual, to));
 }
 
-// public Fuse.Navigation.Route GetCurrentRoute() [instance] :191
+// public Fuse.Navigation.Route GetCurrentRoute() [instance]
 ::g::Fuse::Navigation::Route* Router::GetCurrentRoute()
 {
     return uPtr(GetHistoryRoute(0))->ToRoute();
 }
 
-// private Fuse.Navigation.RouterPageRoute GetCurrentRouterPageRoute() [instance] :196
+// private Fuse.Navigation.RouterPageRoute GetCurrentRouterPageRoute() [instance]
 ::g::Fuse::Navigation::RouterPageRoute* Router::GetCurrentRouterPageRoute()
 {
     return GetHistoryRoute(0);
 }
 
-// internal Fuse.Navigation.RouterPageRoute GetHistoryRoute(int at) [instance] :765
+// internal Fuse.Navigation.RouterPageRoute GetHistoryRoute(int at) [instance]
 ::g::Fuse::Navigation::RouterPageRoute* Router::GetHistoryRoute(int32_t at)
 {
     Router__GetHistoryAt* collection1;
@@ -7717,11 +7623,11 @@ void Router::FinishPrepared()
     return gha->Result;
 }
 
-// private int GetOutletDepth(Fuse.Navigation.IRouterOutlet outlet) [instance] :619
+// private int GetOutletDepth(Fuse.Navigation.IRouterOutlet outlet) [instance]
 int32_t Router::GetOutletDepth(uObject* outlet)
 {
     int32_t c = 0;
-    ::g::Fuse::Visual* n = uPtr(uAs< ::g::Fuse::Node*>(outlet, ::TYPES[38/*Fuse.Node*/]))->Parent();
+    ::g::Fuse::Visual* n = uPtr(uAs< ::g::Fuse::Node*>(outlet, ::TYPES[37/*Fuse.Node*/]))->Parent();
 
     while ((n != NULL) && (n != Parent()))
     {
@@ -7734,12 +7640,12 @@ int32_t Router::GetOutletDepth(uObject* outlet)
     return c;
 }
 
-// internal Fuse.Navigation.RouterPageRoute GetRelativeRoute(Fuse.Node from, Fuse.Navigation.RouterPageRoute rel) [instance] :693
+// internal Fuse.Navigation.RouterPageRoute GetRelativeRoute(Fuse.Node from, Fuse.Navigation.RouterPageRoute rel) [instance]
 ::g::Fuse::Navigation::RouterPageRoute* Router::GetRelativeRoute1(::g::Fuse::Node* from, ::g::Fuse::Navigation::RouterPageRoute* rel)
 {
     if (!IsRootingCompleted() || !uPtr(from)->IsRootingCompleted())
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Cannot calculate relative node if not rooted"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno"), 697, uString::Const("GetRelativeRoute"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Cannot calculate relative node if not rooted"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno"), 697, uString::Const("GetRelativeRoute"), NULL);
         return NULL;
     }
 
@@ -7747,16 +7653,16 @@ int32_t Router::GetOutletDepth(uObject* outlet)
 
     if (outlet == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Did not find an outlet relative to the provided Node"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno"), 704, uString::Const("GetRelativeRoute"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Did not find an outlet relative to the provided Node"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno"), 704, uString::Const("GetRelativeRoute"), NULL);
         return NULL;
     }
 
-    ::g::Fuse::Navigation::RouterPageRoute* current = GetRouteUpToRouter(uPtr(uAs< ::g::Fuse::Node*>(outlet, ::TYPES[38/*Fuse.Node*/]))->Parent());
+    ::g::Fuse::Navigation::RouterPageRoute* current = GetRouteUpToRouter(uPtr(uAs< ::g::Fuse::Node*>(outlet, ::TYPES[37/*Fuse.Node*/]))->Parent());
     ::g::Fuse::Navigation::RouterPageRoute* route = (current == NULL) ? rel : (::g::Fuse::Navigation::RouterPageRoute*)uPtr(current)->Append(rel);
     return route;
 }
 
-// private Fuse.Navigation.RouterPageRoute GetRouteUpToRouter(Fuse.Node from) [instance] :570
+// private Fuse.Navigation.RouterPageRoute GetRouteUpToRouter(Fuse.Node from) [instance]
 ::g::Fuse::Navigation::RouterPageRoute* Router::GetRouteUpToRouter(::g::Fuse::Node* from)
 {
     ::g::Fuse::Navigation::RouterPageRoute* route = NULL;
@@ -7769,7 +7675,7 @@ int32_t Router::GetOutletDepth(uObject* outlet)
         if (outlet == NULL)
             break;
 
-        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(page, ::TYPES[8/*Fuse.Visual*/]);
+        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(page, ::TYPES[7/*Fuse.Visual*/]);
         ::g::Fuse::Navigation::PageData* pd = (v != NULL) ? (::g::Fuse::Navigation::PageData*)::g::Fuse::Navigation::PageData::Get(v) : NULL;
         ::g::Fuse::Navigation::RouterPage* opage = NULL;
         ::g::Fuse::Visual* ignore;
@@ -7780,13 +7686,13 @@ int32_t Router::GetOutletDepth(uObject* outlet)
             opage = uPtr(pd)->RouterPage();
 
         route = ::g::Fuse::Navigation::RouterPageRoute::New1(opage, route);
-        from = uPtr(uAs< ::g::Fuse::Node*>(outlet, ::TYPES[38/*Fuse.Node*/]))->Parent();
+        from = uPtr(uAs< ::g::Fuse::Node*>(outlet, ::TYPES[37/*Fuse.Node*/]))->Parent();
     }
 
     return route;
 }
 
-// public bool GoBack() [instance] :296
+// public bool GoBack() [instance]
 bool Router::GoBack()
 {
     if (CanGoBack())
@@ -7800,22 +7706,22 @@ bool Router::GoBack()
     return false;
 }
 
-// public Fuse.Navigation.RouterGoBackBehavior get_GoBackBehavior() [instance] :279
+// public Fuse.Navigation.RouterGoBackBehavior get_GoBackBehavior() [instance]
 int32_t Router::GoBackBehavior()
 {
     return _goBackBehavior;
 }
 
-// public void set_GoBackBehavior(Fuse.Navigation.RouterGoBackBehavior value) [instance] :280
+// public void set_GoBackBehavior(Fuse.Navigation.RouterGoBackBehavior value) [instance]
 void Router::GoBackBehavior(int32_t value)
 {
     _goBackBehavior = value;
 
     if (value == 1)
-        ::g::Fuse::Diagnostics::Deprecated(uString::Const("Up behavior is deprecated as it isn't well defined."), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno"), 284, uString::Const("set_GoBackBehavior"));
+        ::g::Fuse::Diagnostics::Deprecated(uString::Const("Up behavior is deprecated as it isn't well defined."), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno"), 284, uString::Const("set_GoBackBehavior"));
 }
 
-// private bool GoUp() [instance] :321
+// private bool GoUp() [instance]
 bool Router::GoUp()
 {
     ::g::Fuse::Navigation::RouterPageRoute* cur = GetCurrentRouterPageRoute();
@@ -7834,38 +7740,38 @@ bool Router::GoUp()
     return false;
 }
 
-// private bool HasOtherRouter(Fuse.Visual n) [instance] :714
+// private bool HasOtherRouter(Fuse.Visual n) [instance]
 bool Router::HasOtherRouter(::g::Fuse::Visual* n)
 {
-    Router* r = (Router*)uPtr(n)->FirstChild(::TYPES[8/*Fuse.Visual*/]->MakeMethod(2/*FirstChild<Fuse.Navigation.Router>*/, __type, NULL));
+    Router* r = (Router*)uPtr(n)->FirstChild(::TYPES[7/*Fuse.Visual*/]->MakeMethod(2/*FirstChild<Fuse.Navigation.Router>*/, __type, NULL));
     return (r != NULL) && (r != this);
 }
 
-// public generated void add_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) [instance] :731
+// public generated void add_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) [instance]
 void Router::add_HistoryChanged(uDelegate* value)
 {
-    HistoryChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(HistoryChanged1, value), ::TYPES[48/*Fuse.Navigation.HistoryChangedHandler*/]);
+    HistoryChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(HistoryChanged1, value), ::TYPES[46/*Fuse.Navigation.HistoryChangedHandler*/]);
 }
 
-// public generated void remove_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) [instance] :731
+// public generated void remove_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) [instance]
 void Router::remove_HistoryChanged(uDelegate* value)
 {
-    HistoryChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(HistoryChanged1, value), ::TYPES[48/*Fuse.Navigation.HistoryChangedHandler*/]);
+    HistoryChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(HistoryChanged1, value), ::TYPES[46/*Fuse.Navigation.HistoryChangedHandler*/]);
 }
 
-// public bool get_IsMasterRouter() [instance] :156
+// public bool get_IsMasterRouter() [instance]
 bool Router::IsMasterRouter()
 {
     return _isMasterRouter;
 }
 
-// public void set_IsMasterRouter(bool value) [instance] :157
+// public void set_IsMasterRouter(bool value) [instance]
 void Router::IsMasterRouter(bool value)
 {
     _isMasterRouter = value;
 }
 
-// internal void Modify(Fuse.Navigation.ModifyRouteHow how, Fuse.Navigation.RouterPageRoute route, Fuse.Navigation.NavigationGotoMode mode, string operationStyle) [instance] :219
+// internal void Modify(Fuse.Navigation.ModifyRouteHow how, Fuse.Navigation.RouterPageRoute route, Fuse.Navigation.NavigationGotoMode mode, string operationStyle) [instance]
 void Router::Modify1(int32_t how, ::g::Fuse::Navigation::RouterPageRoute* route, int32_t mode, uString* operationStyle)
 {
     switch (how)
@@ -7893,13 +7799,13 @@ void Router::Modify1(int32_t how, ::g::Fuse::Navigation::RouterPageRoute* route,
         case 4:
         {
             if (route != NULL)
-                ::g::Fuse::Diagnostics::UserWarning(uString::Const("PrepareBack does not support an explicit route"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno"), 242, uString::Const("Modify"));
+                ::g::Fuse::Diagnostics::UserWarning(uString::Const("PrepareBack does not support an explicit route"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno"), 242, uString::Const("Modify"));
 
             ::g::Fuse::Navigation::RouterPageRoute* popRoute = GetHistoryRoute(1);
 
             if (popRoute == NULL)
             {
-                ::g::Fuse::Diagnostics::UserError(uString::Const("There is no history for PrepareBack"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno"), 247, uString::Const("Modify"), NULL);
+                ::g::Fuse::Diagnostics::UserError(uString::Const("There is no history for PrepareBack"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno"), 247, uString::Const("Modify"), NULL);
                 return;
             }
 
@@ -7924,14 +7830,14 @@ void Router::Modify1(int32_t how, ::g::Fuse::Navigation::RouterPageRoute* route,
     }
 }
 
-// internal void OnHistoryChanged() [instance] :732
+// internal void OnHistoryChanged() [instance]
 void Router::OnHistoryChanged()
 {
     if (::g::Uno::Delegate::op_Inequality(HistoryChanged1, NULL))
         uPtr(HistoryChanged1)->InvokeVoid(this);
 }
 
-// private void OnKeyPressed(object sender, Fuse.Input.KeyEventArgs args) [instance] :165
+// private void OnKeyPressed(object sender, Fuse.Input.KeyEventArgs args) [instance]
 void Router::OnKeyPressed(uObject* sender, ::g::Fuse::Input::KeyEventArgs* args)
 {
     if (uPtr(args)->Key() == 201)
@@ -7947,33 +7853,33 @@ void Router::OnKeyPressed(uObject* sender, ::g::Fuse::Input::KeyEventArgs* args)
     }
 }
 
-// private void Pop() [instance] :337
+// private void Pop() [instance]
 void Router::Pop()
 {
     ::g::Fuse::Navigation::RouterPageRoute* route = GetHistoryRoute(1);
 
     if (route == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Cannot pop() - history is empty"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno"), 342, uString::Const("Pop"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Cannot pop() - history is empty"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno"), 342, uString::Const("Pop"), NULL);
         return;
     }
 
     SetRoute(route, 0, 3, ::STRINGS[18/*""*/], true);
 }
 
-// public double get_PrepareProgress() [instance] :381
+// public double get_PrepareProgress() [instance]
 double Router::PrepareProgress()
 {
     return _prepareProgress;
 }
 
-// public void set_PrepareProgress(double value) [instance] :382
+// public void set_PrepareProgress(double value) [instance]
 void Router::PrepareProgress(double value)
 {
     SetPrepareProgress(value);
 }
 
-// private void PrepareRoute(Fuse.Navigation.RouterPageRoute r, Fuse.Navigation.RoutingOperation operation, string operationStyle) [instance] :353
+// private void PrepareRoute(Fuse.Navigation.RouterPageRoute r, Fuse.Navigation.RoutingOperation operation, string operationStyle) [instance]
 void Router::PrepareRoute(::g::Fuse::Navigation::RouterPageRoute* r, int32_t operation, uString* operationStyle)
 {
     _prepareCurrent = GetCurrentRouterPageRoute();
@@ -7983,13 +7889,13 @@ void Router::PrepareRoute(::g::Fuse::Navigation::RouterPageRoute* r, int32_t ope
     _prepareOperationStyle = operationStyle;
 }
 
-// internal Fuse.Navigation.RouterPage get_RootPage() [instance] :761
+// internal Fuse.Navigation.RouterPage get_RootPage() [instance]
 ::g::Fuse::Navigation::RouterPage* Router::RootPage()
 {
     return _rootPage;
 }
 
-// private void SetPrepareProgress(double value) [instance] :385
+// private void SetPrepareProgress(double value) [instance]
 void Router::SetPrepareProgress(double value)
 {
     if (((_prepareCurrent == NULL) || (_prepareNext == NULL)) || (_prepareOutlet == NULL))
@@ -8001,7 +7907,7 @@ void Router::SetPrepareProgress(double value)
 
     if ((pc == NULL) || (pn == NULL))
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("Invalid outlet depth in prepare progress"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno"), 396, uString::Const("SetPrepareProgress"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("Invalid outlet depth in prepare progress"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno"), 396, uString::Const("SetPrepareProgress"));
         return;
     }
 
@@ -8009,7 +7915,7 @@ void Router::SetPrepareProgress(double value)
     ::g::Fuse::Navigation::IRouterOutlet::PartialPrepareGoto(uInterface(uPtr(_prepareOutlet), ::g::Fuse::Navigation::IRouterOutlet_typeof()), _prepareProgress);
 }
 
-// private Fuse.Navigation.RouterPageRoute SetRoute(Fuse.Navigation.RouterPageRoute r, Fuse.Navigation.NavigationGotoMode gotoMode, Fuse.Navigation.RoutingOperation operation, string operationStyle, [bool userRequest]) [instance] :419
+// private Fuse.Navigation.RouterPageRoute SetRoute(Fuse.Navigation.RouterPageRoute r, Fuse.Navigation.NavigationGotoMode gotoMode, Fuse.Navigation.RoutingOperation operation, string operationStyle, [bool userRequest]) [instance]
 ::g::Fuse::Navigation::RouterPageRoute* Router::SetRoute(::g::Fuse::Navigation::RouterPageRoute* r, int32_t gotoMode, int32_t operation, uString* operationStyle, bool userRequest)
 {
     if (r == NULL)
@@ -8025,9 +7931,9 @@ void Router::SetPrepareProgress(double value)
         uString* msg = ::g::Uno::String::op_Addition2(uString::Const("Unable to navigate to route: "), uPtr(r)->Format());
 
         if (userRequest)
-            ::g::Fuse::Diagnostics::UserError(msg, this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno"), 436, uString::Const("SetRoute"), NULL);
+            ::g::Fuse::Diagnostics::UserError(msg, this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno"), 436, uString::Const("SetRoute"), NULL);
         else
-            ::g::Fuse::Diagnostics::InternalError(msg, this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno"), 438, uString::Const("SetRoute"));
+            ::g::Fuse::Diagnostics::InternalError(msg, this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno"), 438, uString::Const("SetRoute"));
 
         SetRouteImpl(Parent(), _rootPage, current, 1, 0, ::STRINGS[18/*""*/], &ignore, true);
     }
@@ -8036,7 +7942,7 @@ void Router::SetPrepareProgress(double value)
     return outR;
 }
 
-// private Fuse.Navigation.RouterPageRoute SetRouteImpl(Fuse.Visual root, Fuse.Navigation.RouterPage rootPage, Fuse.Navigation.RouterPageRoute r, Fuse.Navigation.NavigationGotoMode gotoMode, Fuse.Navigation.RoutingOperation operation, string operationStyle, Fuse.Navigation.IRouterOutlet& majorChange, [bool canReuse]) [instance] :450
+// private Fuse.Navigation.RouterPageRoute SetRouteImpl(Fuse.Visual root, Fuse.Navigation.RouterPage rootPage, Fuse.Navigation.RouterPageRoute r, Fuse.Navigation.NavigationGotoMode gotoMode, Fuse.Navigation.RoutingOperation operation, string operationStyle, Fuse.Navigation.IRouterOutlet& majorChange, [bool canReuse]) [instance]
 ::g::Fuse::Navigation::RouterPageRoute* Router::SetRouteImpl(::g::Fuse::Visual* root, ::g::Fuse::Navigation::RouterPage* rootPage, ::g::Fuse::Navigation::RouterPageRoute* r, int32_t gotoMode, int32_t operation, uString* operationStyle, uObject** majorChange, bool canReuse)
 {
     ::g::Fuse::Reactive::ObserverMap* pages = uPtr(rootPage)->ChildRouterPages();
@@ -8045,7 +7951,7 @@ void Router::SetPrepareProgress(double value)
 
     if (outlet == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(::g::Uno::String::op_Addition1(uString::Const("No router outlet found to handle route: "), r), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno"), 460, uString::Const("SetRouteImpl"));
+        ::g::Fuse::Diagnostics::InternalError(::g::Uno::String::op_Addition1(uString::Const("No router outlet found to handle route: "), r), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno"), 460, uString::Const("SetRouteImpl"));
         return NULL;
     }
 
@@ -8131,7 +8037,7 @@ void Router::SetPrepareProgress(double value)
     {
         if (pageVisual == NULL)
         {
-            ::g::Fuse::Diagnostics::InternalError(::g::Uno::String::op_Addition1(uString::Const("SubRoute requested but outlet has no active path: "), r), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno"), 536, uString::Const("SetRouteImpl"));
+            ::g::Fuse::Diagnostics::InternalError(::g::Uno::String::op_Addition1(uString::Const("SubRoute requested but outlet has no active path: "), r), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno"), 536, uString::Const("SetRouteImpl"));
             return NULL;
         }
 
@@ -8150,7 +8056,7 @@ void Router::SetPrepareProgress(double value)
     return ::g::Fuse::Navigation::RouterPageRoute::New1(page, outSubRoute);
 }
 
-// private static Fuse.Navigation.IRouterOutlet AsRouterOutlet(Fuse.Node n) [static] :656
+// private static Fuse.Navigation.IRouterOutlet AsRouterOutlet(Fuse.Node n) [static]
 uObject* Router::AsRouterOutlet(::g::Fuse::Node* n)
 {
     Router_typeof()->Init();
@@ -8162,7 +8068,7 @@ uObject* Router::AsRouterOutlet(::g::Fuse::Node* n)
     return NULL;
 }
 
-// private static void Bookmark(Fuse.Navigation.Router r, object[] args) [static] :214
+// private static void Bookmark(Fuse.Navigation.Router r, object[] args) [static]
 void Router::Bookmark(Router* r, uArray* args)
 {
     Router_typeof()->Init();
@@ -8173,38 +8079,38 @@ void Router::Bookmark(Router* r, uArray* args)
 
     if (uPtr(args)->Length() != 1)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("`Router.bookmark` takes one argument"), r, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno"), 220, uString::Const("Bookmark"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("`Router.bookmark` takes one argument"), r, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno"), 220, uString::Const("Bookmark"), NULL);
         return;
     }
 
-    uObject* obj = uAs<uObject*>(uPtr(args)->Strong<uObject*>(0), ::TYPES[31/*Fuse.IObject*/]);
+    uObject* obj = uAs<uObject*>(uPtr(args)->Strong<uObject*>(0), ::TYPES[30/*Fuse.IObject*/]);
 
     if (obj == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("`Router.bookmark` should be passed an object"), r, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno"), 227, uString::Const("Bookmark"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("`Router.bookmark` should be passed an object"), r, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno"), 227, uString::Const("Bookmark"), NULL);
         return;
     }
 
     uString* name = NULL;
     uObject* relative = NULL;
     ::g::Fuse::Navigation::RouterPageRoute* route = NULL;
-    uArray* keys = ::g::Fuse::IObject::Keys(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]));
+    uArray* keys = ::g::Fuse::IObject::Keys(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]));
 
     for (int32_t i = 0; i < uPtr(keys)->Length(); ++i)
     {
         uString* p = uPtr(keys)->Strong<uString*>(i);
-        uObject* o = ::g::Fuse::IObject::Item(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]), p);
+        uObject* o = ::g::Fuse::IObject::Item(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]), p);
 
         if (::g::Uno::String::op_Equality(p, ::STRINGS[17/*"name"*/]))
-            name = (::g::Fuse::Marshal__ToType_fn(::TYPES[32/*Fuse.Marshal.ToType<string>*/], o, &ret3), ret3);
+            name = (::g::Fuse::Marshal__ToType_fn(::TYPES[31/*Fuse.Marshal.ToType<string>*/], o, &ret3), ret3);
         else if (::g::Uno::String::op_Equality(p, uString::Const("relative")))
         {
-            ::g::Fuse::Node* node = uAs< ::g::Fuse::Node*>(o, ::TYPES[38/*Fuse.Node*/]);
+            ::g::Fuse::Node* node = uAs< ::g::Fuse::Node*>(o, ::TYPES[37/*Fuse.Node*/]);
             relative = uPtr(r)->FindOutletUp(node);
 
             if (relative == NULL)
             {
-                ::g::Fuse::Diagnostics::UserError(uString::Const("Could not find an outlet from the `relative` node"), r, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno"), 252, uString::Const("Bookmark"), NULL);
+                ::g::Fuse::Diagnostics::UserError(uString::Const("Could not find an outlet from the `relative` node"), r, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno"), 252, uString::Const("Bookmark"), NULL);
                 return;
             }
         }
@@ -8214,7 +8120,7 @@ void Router::Bookmark(Router* r, uArray* args)
 
             if (path == NULL)
             {
-                ::g::Fuse::Diagnostics::UserError(uString::Const("`path` should be an array"), r, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno"), 261, uString::Const("Bookmark"), NULL);
+                ::g::Fuse::Diagnostics::UserError(uString::Const("`path` should be an array"), r, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno"), 261, uString::Const("Bookmark"), NULL);
                 return;
             }
 
@@ -8222,7 +8128,7 @@ void Router::Bookmark(Router* r, uArray* args)
         }
         else
         {
-            ::g::Fuse::Diagnostics::UserError(::g::Uno::String::op_Addition2(uString::Const("Unrecognized argument: "), p), r, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno"), 269, uString::Const("Bookmark"), NULL);
+            ::g::Fuse::Diagnostics::UserError(::g::Uno::String::op_Addition2(uString::Const("Unrecognized argument: "), p), r, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno"), 269, uString::Const("Bookmark"), NULL);
             return;
         }
     }
@@ -8235,14 +8141,14 @@ void Router::Bookmark(Router* r, uArray* args)
 
     if (::g::Uno::String::op_Equality(name, NULL))
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("A `name` is required for the bookmark"), r, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno"), 282, uString::Const("Bookmark"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("A `name` is required for the bookmark"), r, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno"), 282, uString::Const("Bookmark"), NULL);
         return;
     }
 
     ::g::Uno::Collections::Dictionary__set_Item_fn(uPtr(uPtr(r)->Bookmarks), name, route);
 }
 
-// internal static Fuse.Visual FindRouterOutletPage(Fuse.Node from) [static] :598
+// internal static Fuse.Visual FindRouterOutletPage(Fuse.Node from) [static]
 ::g::Fuse::Visual* Router::FindRouterOutletPage(::g::Fuse::Node* from)
 {
     Router_typeof()->Init();
@@ -8256,12 +8162,12 @@ void Router::Bookmark(Router* r, uArray* args)
 
         if (ro != NULL)
         {
-            ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(from, ::TYPES[8/*Fuse.Visual*/]);
+            ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(from, ::TYPES[7/*Fuse.Visual*/]);
 
             if (v != NULL)
                 return v;
 
-            ::g::Fuse::Diagnostics::InternalError(uString::Const("Unexpected request for RouterOutlet page"), from, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno"), 610, uString::Const("FindRouterOutletPage"));
+            ::g::Fuse::Diagnostics::InternalError(uString::Const("Unexpected request for RouterOutlet page"), from, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno"), 610, uString::Const("FindRouterOutletPage"));
         }
 
         from = uPtr(from)->Parent();
@@ -8270,30 +8176,30 @@ void Router::Bookmark(Router* r, uArray* args)
     return NULL;
 }
 
-// private static Fuse.Navigation.RouterPageRoute GetRelative(Fuse.Navigation.Router r, object[] args) [static] :92
+// private static Fuse.Navigation.RouterPageRoute GetRelative(Fuse.Navigation.Router r, object[] args) [static]
 ::g::Fuse::Navigation::RouterPageRoute* Router::GetRelative(Router* r, uArray* args)
 {
     Router_typeof()->Init();
 
     if (uPtr(args)->Length() < 1)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Router.gotoRelative(): requires 1+ parameters"), r, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno"), 96, uString::Const("GetRelative"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Router.gotoRelative(): requires 1+ parameters"), r, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno"), 96, uString::Const("GetRelative"), NULL);
         return NULL;
     }
 
-    ::g::Fuse::Node* node = uAs< ::g::Fuse::Node*>(uPtr(args)->Strong<uObject*>(0), ::TYPES[38/*Fuse.Node*/]);
+    ::g::Fuse::Node* node = uAs< ::g::Fuse::Node*>(uPtr(args)->Strong<uObject*>(0), ::TYPES[37/*Fuse.Node*/]);
     ::g::Fuse::Navigation::RouterPageRoute* where = ::g::Fuse::Navigation::RouterRequest::ParseFlatRoute1(args, 1);
     return uPtr(r)->GetRelativeRoute1(node, where);
 }
 
-// private static object GetRoute(Fuse.Scripting.Context c, Fuse.Navigation.Router r, object[] args) [static] :305
+// private static object GetRoute(Fuse.Scripting.Context c, Fuse.Navigation.Router r, object[] args) [static]
 uObject* Router::GetRoute(::g::Fuse::Scripting::Context* c, Router* r, uArray* args)
 {
     Router_typeof()->Init();
 
     if (uPtr(args)->Length() != 1)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Router.getRoute(): must provide exactly 1 argument."), r, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno"), 309, uString::Const("GetRoute"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Router.getRoute(): must provide exactly 1 argument."), r, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno"), 309, uString::Const("GetRoute"), NULL);
         return NULL;
     }
 
@@ -8301,15 +8207,15 @@ uObject* Router::GetRoute(::g::Fuse::Scripting::Context* c, Router* r, uArray* a
 
     if (callback == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Router.getRoute(): argument must be a function."), r, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno"), 315, uString::Const("GetRoute"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Router.getRoute(): argument must be a function."), r, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno"), 315, uString::Const("GetRoute"), NULL);
         return NULL;
     }
 
-    ::g::Fuse::UpdateManager::PostAction(uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)Router__GetRouteCallback__RunUI_fn, Router__GetRouteCallback::New1(uPtr(c)->ThreadWorker(), r, callback)));
+    ::g::Fuse::UpdateManager::PostAction(uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)Router__GetRouteCallback__RunUI_fn, Router__GetRouteCallback::New1(uPtr(c)->ThreadWorker(), r, callback)));
     return NULL;
 }
 
-// private static void GoBack(Fuse.Navigation.Router r) [static] :135
+// private static void GoBack(Fuse.Navigation.Router r) [static]
 void Router::GoBack1(Router* r)
 {
     Router_typeof()->Init();
@@ -8320,7 +8226,7 @@ void Router::GoBack1(Router* r)
     uPtr(r)->GoBack();
 }
 
-// private static void Goto(Fuse.Navigation.Router r, object[] args) [static] :34
+// private static void Goto(Fuse.Navigation.Router r, object[] args) [static]
 void Router::Goto1(Router* r, uArray* args)
 {
     Router_typeof()->Init();
@@ -8333,10 +8239,10 @@ void Router::Goto1(Router* r, uArray* args)
     if (where != NULL)
         uPtr(r)->Modify1(1, where, 0, ::STRINGS[18/*""*/]);
     else
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Router.goto(): invalid route provided"), r, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno"), 45, uString::Const("Goto"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Router.goto(): invalid route provided"), r, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno"), 45, uString::Const("Goto"), NULL);
 }
 
-// private static void GotoRelative(Fuse.Navigation.Router r, object[] args) [static] :70
+// private static void GotoRelative(Fuse.Navigation.Router r, object[] args) [static]
 void Router::GotoRelative(Router* r, uArray* args)
 {
     Router_typeof()->Init();
@@ -8346,19 +8252,19 @@ void Router::GotoRelative(Router* r, uArray* args)
         uPtr(r)->Modify1(1, route, 0, ::STRINGS[18/*""*/]);
 }
 
-// private static bool HasRouter(Fuse.Node n) [static] :720
+// private static bool HasRouter(Fuse.Node n) [static]
 bool Router::HasRouter(::g::Fuse::Node* n)
 {
     Router_typeof()->Init();
-    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(n, ::TYPES[8/*Fuse.Visual*/]);
+    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(n, ::TYPES[7/*Fuse.Visual*/]);
 
     if (v == NULL)
         return false;
 
-    return ((Router*)uPtr(v)->FirstChild(::TYPES[8/*Fuse.Visual*/]->MakeMethod(2/*FirstChild<Fuse.Navigation.Router>*/, Router_typeof(), NULL))) != NULL;
+    return ((Router*)uPtr(v)->FirstChild(::TYPES[7/*Fuse.Visual*/]->MakeMethod(2/*FirstChild<Fuse.Navigation.Router>*/, Router_typeof(), NULL))) != NULL;
 }
 
-// private static void Modify(Fuse.Navigation.Router r, object[] args) [static] :173
+// private static void Modify(Fuse.Navigation.Router r, object[] args) [static]
 void Router::Modify2(Router* r, uArray* args)
 {
     Router_typeof()->Init();
@@ -8368,15 +8274,15 @@ void Router::Modify2(Router* r, uArray* args)
 
     if (uPtr(args)->Length() != 1)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("`Router.modify` takes one argument"), r, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno"), 179, uString::Const("Modify"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("`Router.modify` takes one argument"), r, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno"), 179, uString::Const("Modify"), NULL);
         return;
     }
 
-    uObject* obj = uAs<uObject*>(uPtr(args)->Strong<uObject*>(0), ::TYPES[31/*Fuse.IObject*/]);
+    uObject* obj = uAs<uObject*>(uPtr(args)->Strong<uObject*>(0), ::TYPES[30/*Fuse.IObject*/]);
 
     if (obj == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("`Router.modify` should be passed an object"), r, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno"), 186, uString::Const("Modify"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("`Router.modify` should be passed an object"), r, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno"), 186, uString::Const("Modify"), NULL);
         return;
     }
 
@@ -8388,7 +8294,7 @@ void Router::Modify2(Router* r, uArray* args)
     request->MakeRequest(r);
 }
 
-// public generated Router New() [static] :5
+// public generated Router New() [static]
 Router* Router::New2()
 {
     Router* obj2 = (Router*)uNew(Router_typeof());
@@ -8396,7 +8302,7 @@ Router* Router::New2()
     return obj2;
 }
 
-// private static void Push(Fuse.Navigation.Router r, object[] args) [static] :121
+// private static void Push(Fuse.Navigation.Router r, object[] args) [static]
 void Router::Push1(Router* r, uArray* args)
 {
     Router_typeof()->Init();
@@ -8408,7 +8314,7 @@ void Router::Push1(Router* r, uArray* args)
     uPtr(r)->Modify1(0, where, 0, ::STRINGS[18/*""*/]);
 }
 
-// private static void PushRelative(Fuse.Navigation.Router r, object[] args) [static] :85
+// private static void PushRelative(Fuse.Navigation.Router r, object[] args) [static]
 void Router::PushRelative(Router* r, uArray* args)
 {
     Router_typeof()->Init();
@@ -8418,7 +8324,7 @@ void Router::PushRelative(Router* r, uArray* args)
         uPtr(r)->Modify1(0, route, 0, ::STRINGS[18/*""*/]);
 }
 
-// internal static Fuse.Navigation.Router TryFindRouter(Fuse.Node n) [static] :738
+// internal static Fuse.Navigation.Router TryFindRouter(Fuse.Node n) [static]
 Router* Router::TryFindRouter(::g::Fuse::Node* n)
 {
     Router_typeof()->Init();
@@ -8426,11 +8332,11 @@ Router* Router::TryFindRouter(::g::Fuse::Node* n)
 
     while (p != NULL)
     {
-        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(p, ::TYPES[8/*Fuse.Visual*/]);
+        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(p, ::TYPES[7/*Fuse.Visual*/]);
 
         if (v != NULL)
         {
-            Router* r = (Router*)uPtr(v)->FirstChild(::TYPES[8/*Fuse.Visual*/]->MakeMethod(2/*FirstChild<Fuse.Navigation.Router>*/, Router_typeof(), NULL));
+            Router* r = (Router*)uPtr(v)->FirstChild(::TYPES[7/*Fuse.Visual*/]->MakeMethod(2/*FirstChild<Fuse.Navigation.Router>*/, Router_typeof(), NULL));
 
             if (r != NULL)
                 return r;
@@ -8443,15 +8349,15 @@ Router* Router::TryFindRouter(::g::Fuse::Node* n)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterCancelNavigation.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterCancelNavigation.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class RouterCancelNavigation :10
+// public sealed class RouterCancelNavigation
 // {
 static void RouterCancelNavigation_build(uType* type)
 {
     ::STRINGS[34] = uString::Const("Router not set and none could be found");
-    ::STRINGS[35] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterCancelNavigation.uno");
+    ::STRINGS[35] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterCancelNavigation.uno");
     ::STRINGS[2] = uString::Const("Perform");
     type->SetDependencies(
         ::g::Fuse::Navigation::Router_typeof());
@@ -8483,19 +8389,19 @@ static void RouterCancelNavigation_build(uType* type)
     return type;
 }
 
-// public generated RouterCancelNavigation() :10
+// public generated RouterCancelNavigation()
 void RouterCancelNavigation__ctor_2_fn(RouterCancelNavigation* __this)
 {
     __this->ctor_2();
 }
 
-// public generated RouterCancelNavigation New() :10
+// public generated RouterCancelNavigation New()
 void RouterCancelNavigation__New2_fn(RouterCancelNavigation** __retval)
 {
     *__retval = RouterCancelNavigation::New2();
 }
 
-// protected override sealed void Perform(Fuse.Node n) :15
+// protected override sealed void Perform(Fuse.Node n)
 void RouterCancelNavigation__Perform_fn(RouterCancelNavigation* __this, ::g::Fuse::Node* n)
 {
     ::g::Fuse::Navigation::Router* ind1;
@@ -8504,44 +8410,44 @@ void RouterCancelNavigation__Perform_fn(RouterCancelNavigation* __this, ::g::Fus
 
     if (useRouter == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[34/*"Router not ...*/], __this, ::STRINGS[35/*"/usr/local/...*/], 20, ::STRINGS[2/*"Perform"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[34/*"Router not ...*/], __this, ::STRINGS[35/*"/Users/antt...*/], 20, ::STRINGS[2/*"Perform"*/], NULL);
         return;
     }
 
     uPtr(useRouter)->CancelNavigation();
 }
 
-// public generated Fuse.Navigation.Router get_Router() :13
+// public generated Fuse.Navigation.Router get_Router()
 void RouterCancelNavigation__get_Router_fn(RouterCancelNavigation* __this, ::g::Fuse::Navigation::Router** __retval)
 {
     *__retval = __this->Router();
 }
 
-// public generated void set_Router(Fuse.Navigation.Router value) :13
+// public generated void set_Router(Fuse.Navigation.Router value)
 void RouterCancelNavigation__set_Router_fn(RouterCancelNavigation* __this, ::g::Fuse::Navigation::Router* value)
 {
     __this->Router(value);
 }
 
-// public generated RouterCancelNavigation() [instance] :10
+// public generated RouterCancelNavigation() [instance]
 void RouterCancelNavigation::ctor_2()
 {
     ctor_1();
 }
 
-// public generated Fuse.Navigation.Router get_Router() [instance] :13
+// public generated Fuse.Navigation.Router get_Router() [instance]
 ::g::Fuse::Navigation::Router* RouterCancelNavigation::Router()
 {
     return _Router;
 }
 
-// public generated void set_Router(Fuse.Navigation.Router value) [instance] :13
+// public generated void set_Router(Fuse.Navigation.Router value) [instance]
 void RouterCancelNavigation::Router(::g::Fuse::Navigation::Router* value)
 {
     _Router = value;
 }
 
-// public generated RouterCancelNavigation New() [static] :10
+// public generated RouterCancelNavigation New() [static]
 RouterCancelNavigation* RouterCancelNavigation::New2()
 {
     RouterCancelNavigation* obj2 = (RouterCancelNavigation*)uNew(RouterCancelNavigation_typeof());
@@ -8550,10 +8456,10 @@ RouterCancelNavigation* RouterCancelNavigation::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum RouterGoBackBehavior :17
+// public enum RouterGoBackBehavior
 uEnumType* RouterGoBackBehavior_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -8566,10 +8472,10 @@ uEnumType* RouterGoBackBehavior_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterModify.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterModify.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class RouterModify :84
+// public sealed class RouterModify
 // {
 static void RouterModify_build(uType* type)
 {
@@ -8609,24 +8515,24 @@ RouterModify_type* RouterModify_typeof()
     return type;
 }
 
-// internal RouterModify(Fuse.Navigation.RouterModify.Flags flags) :103
+// internal RouterModify(Fuse.Navigation.RouterModify.Flags flags)
 void RouterModify__ctor_3_fn(RouterModify* __this, int32_t* flags)
 {
     __this->ctor_3(*flags);
 }
 
-// private void DisposePathSub() :176
+// private void DisposePathSub()
 void RouterModify__DisposePathSub_fn(RouterModify* __this)
 {
     __this->DisposePathSub();
 }
 
-// private void Fuse.Reactive.IListener.OnLostData(Fuse.Reactive.IExpression source) :204
+// private void Fuse.Reactive.IListener.OnLostData(Fuse.Reactive.IExpression source)
 void RouterModify__FuseReactiveIListenerOnLostData_fn(RouterModify* __this, uObject* source)
 {
 }
 
-// private void Fuse.Reactive.IListener.OnNewData(Fuse.Reactive.IExpression source, object value) :185
+// private void Fuse.Reactive.IListener.OnNewData(Fuse.Reactive.IExpression source, object value)
 void RouterModify__FuseReactiveIListenerOnNewData_fn(RouterModify* __this, uObject* source, uObject* value)
 {
     if ((source != __this->Path()) || (__this->_pathSub == NULL))
@@ -8644,7 +8550,7 @@ void RouterModify__FuseReactiveIListenerOnNewData_fn(RouterModify* __this, uObje
                     return;
                 }
 
-                __this->PerformRoute(::g::Fuse::Reactive::IContext::Node(uInterface(uPtr(uAs<uObject*>(__this->_pathSub, ::TYPES[14/*Fuse.Reactive.IContext*/])), ::TYPES[14/*Fuse.Reactive.IContext*/])), route);
+                __this->PerformRoute(::g::Fuse::Reactive::IContext::Node(uInterface(uPtr(uAs<uObject*>(__this->_pathSub, ::TYPES[13/*Fuse.Reactive.IContext*/])), ::TYPES[13/*Fuse.Reactive.IContext*/])), route);
             }
         }
 
@@ -8664,44 +8570,44 @@ void RouterModify__FuseReactiveIListenerOnNewData_fn(RouterModify* __this, uObje
     }
 }
 
-// public Fuse.Navigation.ModifyRouteHow get_How() :112
+// public Fuse.Navigation.ModifyRouteHow get_How()
 void RouterModify__get_How_fn(RouterModify* __this, int32_t* __retval)
 {
     *__retval = __this->How();
 }
 
-// public void set_How(Fuse.Navigation.ModifyRouteHow value) :113
+// public void set_How(Fuse.Navigation.ModifyRouteHow value)
 void RouterModify__set_How_fn(RouterModify* __this, int32_t* value)
 {
     __this->How(*value);
 }
 
-// internal RouterModify New(Fuse.Navigation.RouterModify.Flags flags) :103
+// internal RouterModify New(Fuse.Navigation.RouterModify.Flags flags)
 void RouterModify__New3_fn(int32_t* flags, RouterModify** __retval)
 {
     *__retval = RouterModify::New3(*flags);
 }
 
-// protected override sealed void OnUnrooted() :157
+// protected override sealed void OnUnrooted()
 void RouterModify__OnUnrooted_fn(RouterModify* __this)
 {
     __this->DisposePathSub();
     ::g::Fuse::Triggers::Actions::TriggerAction__OnUnrooted_fn(__this);
 }
 
-// public Fuse.Reactive.IExpression get_Path() :151
+// public Fuse.Reactive.IExpression get_Path()
 void RouterModify__get_Path_fn(RouterModify* __this, uObject** __retval)
 {
     *__retval = __this->Path();
 }
 
-// public void set_Path(Fuse.Reactive.IExpression value) :152
+// public void set_Path(Fuse.Reactive.IExpression value)
 void RouterModify__set_Path_fn(RouterModify* __this, uObject* value)
 {
     __this->Path(value);
 }
 
-// protected override sealed void Perform(Fuse.Node n) :163
+// protected override sealed void Perform(Fuse.Node n)
 void RouterModify__Perform_fn(RouterModify* __this, ::g::Fuse::Node* n)
 {
     if (__this->Path() != NULL)
@@ -8713,32 +8619,32 @@ void RouterModify__Perform_fn(RouterModify* __this, ::g::Fuse::Node* n)
         __this->PerformRoute(n, NULL);
 }
 
-// private void PerformRoute(Fuse.Node n, Fuse.Navigation.RouterPageRoute route) :209
+// private void PerformRoute(Fuse.Node n, Fuse.Navigation.RouterPageRoute route)
 void RouterModify__PerformRoute_fn(RouterModify* __this, ::g::Fuse::Node* n, ::g::Fuse::Navigation::RouterPageRoute* route)
 {
     __this->PerformRoute(n, route);
 }
 
-// public generated Fuse.Navigation.Router get_Router() :87
+// public generated Fuse.Navigation.Router get_Router()
 void RouterModify__get_Router_fn(RouterModify* __this, ::g::Fuse::Navigation::Router** __retval)
 {
     *__retval = __this->Router();
 }
 
-// public generated void set_Router(Fuse.Navigation.Router value) :87
+// public generated void set_Router(Fuse.Navigation.Router value)
 void RouterModify__set_Router_fn(RouterModify* __this, ::g::Fuse::Navigation::Router* value)
 {
     __this->Router(value);
 }
 
-// internal RouterModify(Fuse.Navigation.RouterModify.Flags flags) [instance] :103
+// internal RouterModify(Fuse.Navigation.RouterModify.Flags flags) [instance]
 void RouterModify::ctor_3(int32_t flags)
 {
     _request = ::g::Fuse::Navigation::RouterRequest::New1(0);
     ctor_1();
 }
 
-// private void DisposePathSub() [instance] :176
+// private void DisposePathSub() [instance]
 void RouterModify::DisposePathSub()
 {
     if (_pathSub != NULL)
@@ -8748,31 +8654,31 @@ void RouterModify::DisposePathSub()
     }
 }
 
-// public Fuse.Navigation.ModifyRouteHow get_How() [instance] :112
+// public Fuse.Navigation.ModifyRouteHow get_How() [instance]
 int32_t RouterModify::How()
 {
     return uPtr(_request)->How;
 }
 
-// public void set_How(Fuse.Navigation.ModifyRouteHow value) [instance] :113
+// public void set_How(Fuse.Navigation.ModifyRouteHow value) [instance]
 void RouterModify::How(int32_t value)
 {
     uPtr(_request)->How = value;
 }
 
-// public Fuse.Reactive.IExpression get_Path() [instance] :151
+// public Fuse.Reactive.IExpression get_Path() [instance]
 uObject* RouterModify::Path()
 {
     return _path;
 }
 
-// public void set_Path(Fuse.Reactive.IExpression value) [instance] :152
+// public void set_Path(Fuse.Reactive.IExpression value) [instance]
 void RouterModify::Path(uObject* value)
 {
     _path = value;
 }
 
-// private void PerformRoute(Fuse.Node n, Fuse.Navigation.RouterPageRoute route) [instance] :209
+// private void PerformRoute(Fuse.Node n, Fuse.Navigation.RouterPageRoute route) [instance]
 void RouterModify::PerformRoute(::g::Fuse::Node* n, ::g::Fuse::Navigation::RouterPageRoute* route)
 {
     ::g::Fuse::Navigation::Router* ind1;
@@ -8782,26 +8688,26 @@ void RouterModify::PerformRoute(::g::Fuse::Node* n, ::g::Fuse::Navigation::Route
 
     if (useRouter == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[34/*"Router not ...*/], this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterModify.uno"), 216, uString::Const("PerformRoute"), NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[34/*"Router not ...*/], this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterModify.uno"), 216, uString::Const("PerformRoute"), NULL);
         return;
     }
 
     uPtr(_request)->MakeRequest(useRouter);
 }
 
-// public generated Fuse.Navigation.Router get_Router() [instance] :87
+// public generated Fuse.Navigation.Router get_Router() [instance]
 ::g::Fuse::Navigation::Router* RouterModify::Router()
 {
     return _Router;
 }
 
-// public generated void set_Router(Fuse.Navigation.Router value) [instance] :87
+// public generated void set_Router(Fuse.Navigation.Router value) [instance]
 void RouterModify::Router(::g::Fuse::Navigation::Router* value)
 {
     _Router = value;
 }
 
-// internal RouterModify New(Fuse.Navigation.RouterModify.Flags flags) [static] :103
+// internal RouterModify New(Fuse.Navigation.RouterModify.Flags flags) [static]
 RouterModify* RouterModify::New3(int32_t flags)
 {
     RouterModify* obj3 = (RouterModify*)uNew(RouterModify_typeof());
@@ -8810,10 +8716,10 @@ RouterModify* RouterModify::New3(int32_t flags)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterPage.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterPage.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class RouterPage :22
+// internal sealed class RouterPage
 // {
 static void RouterPage_build(uType* type)
 {
@@ -8825,13 +8731,13 @@ static void RouterPage_build(uType* type)
     ::STRINGS[40] = uString::Const(" ");
     ::STRINGS[41] = uString::Const("no-ctx");
     ::STRINGS[42] = uString::Const("@");
-    ::TYPES[34] = ::g::Fuse::Node_typeof()->MakeMethod(0/*FindBehavior<Fuse.Navigation.Router>*/, ::g::Fuse::Navigation::Router_typeof(), NULL);
-    ::TYPES[31] = ::g::Fuse::IObject_typeof();
-    ::TYPES[35] = ::g::Fuse::Navigation::PagesMap_typeof();
+    ::TYPES[33] = ::g::Fuse::Node_typeof()->MakeMethod(0/*FindBehavior<Fuse.Navigation.Router>*/, ::g::Fuse::Navigation::Router_typeof(), NULL);
+    ::TYPES[30] = ::g::Fuse::IObject_typeof();
+    ::TYPES[34] = ::g::Fuse::Navigation::PagesMap_typeof();
     type->SetFields(0,
         ::g::Uno::String_typeof(), offsetof(RouterPage, Parameter), 0,
         uObject_typeof(), offsetof(RouterPage, Context), 0,
-        ::TYPES[35/*Fuse.Navigation.PagesMap*/], offsetof(RouterPage, _childRouterPages), 0,
+        ::TYPES[34/*Fuse.Navigation.PagesMap*/], offsetof(RouterPage, _childRouterPages), 0,
         ::g::Uno::String_typeof(), offsetof(RouterPage, _Path), 0);
 }
 
@@ -8850,85 +8756,85 @@ uType* RouterPage_typeof()
     return type;
 }
 
-// public RouterPage(string path, [string parameter], [object context]) :29
+// public RouterPage(string path, [string parameter], [object context])
 void RouterPage__ctor__fn(RouterPage* __this, uString* path, uString* parameter, uObject* context)
 {
     __this->ctor_(path, parameter, context);
 }
 
-// internal static void BubbleHistoryChanged(Fuse.Node at) :87
+// internal static void BubbleHistoryChanged(Fuse.Node at)
 void RouterPage__BubbleHistoryChanged_fn(::g::Fuse::Node* at)
 {
     RouterPage::BubbleHistoryChanged(at);
 }
 
-// public Fuse.Reactive.ObserverMap<Fuse.Navigation.RouterPage> get_ChildRouterPages() :57
+// public Fuse.Reactive.ObserverMap<Fuse.Navigation.RouterPage> get_ChildRouterPages()
 void RouterPage__get_ChildRouterPages_fn(RouterPage* __this, ::g::Fuse::Reactive::ObserverMap** __retval)
 {
     *__retval = __this->ChildRouterPages();
 }
 
-// public void add_ChildRouterPagesUpdated(Fuse.Navigation.ChildRouterPagesUpdated value) :67
+// public void add_ChildRouterPagesUpdated(Fuse.Navigation.ChildRouterPagesUpdated value)
 void RouterPage__add_ChildRouterPagesUpdated_fn(RouterPage* __this, uDelegate* value)
 {
     __this->add_ChildRouterPagesUpdated(value);
 }
 
-// public void remove_ChildRouterPagesUpdated(Fuse.Navigation.ChildRouterPagesUpdated value) :68
+// public void remove_ChildRouterPagesUpdated(Fuse.Navigation.ChildRouterPagesUpdated value)
 void RouterPage__remove_ChildRouterPagesUpdated_fn(RouterPage* __this, uDelegate* value)
 {
     __this->remove_ChildRouterPagesUpdated(value);
 }
 
-// public static Fuse.Navigation.RouterPage CreateDefault() :39
+// public static Fuse.Navigation.RouterPage CreateDefault()
 void RouterPage__CreateDefault_fn(RouterPage** __retval)
 {
     *__retval = RouterPage::CreateDefault();
 }
 
-// public void DefaultPath(string defaultPath) :45
+// public void DefaultPath(string defaultPath)
 void RouterPage__DefaultPath_fn(RouterPage* __this, uString* defaultPath)
 {
     __this->DefaultPath(defaultPath);
 }
 
-// public static Fuse.IObject GetNavigationRequest(object data) :95
+// public static Fuse.IObject GetNavigationRequest(object data)
 void RouterPage__GetNavigationRequest_fn(uObject* data, uObject** __retval)
 {
     *__retval = RouterPage::GetNavigationRequest(data);
 }
 
-// public RouterPage New(string path, [string parameter], [object context]) :29
+// public RouterPage New(string path, [string parameter], [object context])
 void RouterPage__New1_fn(uString* path, uString* parameter, uObject* context, RouterPage** __retval)
 {
     *__retval = RouterPage::New1(path, parameter, context);
 }
 
-// public generated string get_Path() :25
+// public generated string get_Path()
 void RouterPage__get_Path_fn(RouterPage* __this, uString** __retval)
 {
     *__retval = __this->Path();
 }
 
-// private generated void set_Path(string value) :25
+// private generated void set_Path(string value)
 void RouterPage__set_Path_fn(RouterPage* __this, uString* value)
 {
     __this->Path(value);
 }
 
-// public string ToPathString() :77
+// public string ToPathString()
 void RouterPage__ToPathString_fn(RouterPage* __this, uString** __retval)
 {
     *__retval = __this->ToPathString();
 }
 
-// public override sealed string ToString() :71
+// public override sealed string ToString()
 void RouterPage__ToString_fn(RouterPage* __this, uString** __retval)
 {
     return *__retval = ::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(__this->Path(), ::STRINGS[37/*"?"*/]), __this->Parameter), ::STRINGS[40/*" "*/]), (__this->Context == NULL) ? ::STRINGS[41/*"no-ctx"*/] : (uString*)::g::Uno::String::op_Addition1(::STRINGS[42/*"@"*/], uBox<int32_t>(::g::Uno::Int_typeof(), ::g::Uno::Object::GetHashCode(uPtr(__this->Context))))), void();
 }
 
-// public RouterPage(string path, [string parameter], [object context]) [instance] :29
+// public RouterPage(string path, [string parameter], [object context]) [instance]
 void RouterPage::ctor_(uString* path, uString* parameter, uObject* context)
 {
     Path(path);
@@ -8936,7 +8842,7 @@ void RouterPage::ctor_(uString* path, uString* parameter, uObject* context)
     Context = context;
 }
 
-// public Fuse.Reactive.ObserverMap<Fuse.Navigation.RouterPage> get_ChildRouterPages() [instance] :57
+// public Fuse.Reactive.ObserverMap<Fuse.Navigation.RouterPage> get_ChildRouterPages() [instance]
 ::g::Fuse::Reactive::ObserverMap* RouterPage::ChildRouterPages()
 {
     if (_childRouterPages == NULL)
@@ -8945,38 +8851,38 @@ void RouterPage::ctor_(uString* path, uString* parameter, uObject* context)
     return _childRouterPages;
 }
 
-// public void add_ChildRouterPagesUpdated(Fuse.Navigation.ChildRouterPagesUpdated value) [instance] :67
+// public void add_ChildRouterPagesUpdated(Fuse.Navigation.ChildRouterPagesUpdated value) [instance]
 void RouterPage::add_ChildRouterPagesUpdated(uDelegate* value)
 {
-    uPtr(uCast< ::g::Fuse::Navigation::PagesMap*>(ChildRouterPages(), ::TYPES[35/*Fuse.Navigation.PagesMap*/]))->add_Updated(value);
+    uPtr(uCast< ::g::Fuse::Navigation::PagesMap*>(ChildRouterPages(), ::TYPES[34/*Fuse.Navigation.PagesMap*/]))->add_Updated(value);
 }
 
-// public void remove_ChildRouterPagesUpdated(Fuse.Navigation.ChildRouterPagesUpdated value) [instance] :68
+// public void remove_ChildRouterPagesUpdated(Fuse.Navigation.ChildRouterPagesUpdated value) [instance]
 void RouterPage::remove_ChildRouterPagesUpdated(uDelegate* value)
 {
-    uPtr(uCast< ::g::Fuse::Navigation::PagesMap*>(ChildRouterPages(), ::TYPES[35/*Fuse.Navigation.PagesMap*/]))->remove_Updated(value);
+    uPtr(uCast< ::g::Fuse::Navigation::PagesMap*>(ChildRouterPages(), ::TYPES[34/*Fuse.Navigation.PagesMap*/]))->remove_Updated(value);
 }
 
-// public void DefaultPath(string defaultPath) [instance] :45
+// public void DefaultPath(string defaultPath) [instance]
 void RouterPage::DefaultPath(uString* defaultPath)
 {
     if (::g::Uno::String::op_Equality(Path(), NULL) || ::g::Uno::String::op_Equality(Path(), ::STRINGS[18/*""*/]))
         Path(defaultPath);
 }
 
-// public generated string get_Path() [instance] :25
+// public generated string get_Path() [instance]
 uString* RouterPage::Path()
 {
     return _Path;
 }
 
-// private generated void set_Path(string value) [instance] :25
+// private generated void set_Path(string value) [instance]
 void RouterPage::Path(uString* value)
 {
     _Path = value;
 }
 
-// public string ToPathString() [instance] :77
+// public string ToPathString() [instance]
 uString* RouterPage::ToPathString()
 {
     uString* ind1;
@@ -8992,33 +8898,33 @@ uString* RouterPage::ToPathString()
     return q;
 }
 
-// internal static void BubbleHistoryChanged(Fuse.Node at) [static] :87
+// internal static void BubbleHistoryChanged(Fuse.Node at) [static]
 void RouterPage::BubbleHistoryChanged(::g::Fuse::Node* at)
 {
-    ::g::Fuse::Navigation::Router* router = (::g::Fuse::Navigation::Router*)uPtr(at)->FindBehavior(::TYPES[34/*Fuse.Node.FindBehavior<Fuse.Navigation.Router>*/]);
+    ::g::Fuse::Navigation::Router* router = (::g::Fuse::Navigation::Router*)uPtr(at)->FindBehavior(::TYPES[33/*Fuse.Node.FindBehavior<Fuse.Navigation.Router>*/]);
 
     if (router != NULL)
         uPtr(router)->OnHistoryChanged();
 }
 
-// public static Fuse.Navigation.RouterPage CreateDefault() [static] :39
+// public static Fuse.Navigation.RouterPage CreateDefault() [static]
 RouterPage* RouterPage::CreateDefault()
 {
     return RouterPage::New1(NULL, NULL, NULL);
 }
 
-// public static Fuse.IObject GetNavigationRequest(object data) [static] :95
+// public static Fuse.IObject GetNavigationRequest(object data) [static]
 uObject* RouterPage::GetNavigationRequest(uObject* data)
 {
-    uObject* obj = uAs<uObject*>(data, ::TYPES[31/*Fuse.IObject*/]);
+    uObject* obj = uAs<uObject*>(data, ::TYPES[30/*Fuse.IObject*/]);
 
-    if ((obj == NULL) || !::g::Fuse::IObject::ContainsKey(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]), ::STRINGS[36/*"$navigation...*/]))
+    if ((obj == NULL) || !::g::Fuse::IObject::ContainsKey(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]), ::STRINGS[36/*"$navigation...*/]))
         return NULL;
 
-    return uAs<uObject*>(::g::Fuse::IObject::Item(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]), ::STRINGS[36/*"$navigation...*/]), ::TYPES[31/*Fuse.IObject*/]);
+    return uAs<uObject*>(::g::Fuse::IObject::Item(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]), ::STRINGS[36/*"$navigation...*/]), ::TYPES[30/*Fuse.IObject*/]);
 }
 
-// public RouterPage New(string path, [string parameter], [object context]) [static] :29
+// public RouterPage New(string path, [string parameter], [object context]) [static]
 RouterPage* RouterPage::New1(uString* path, uString* parameter, uObject* context)
 {
     RouterPage* obj2 = (RouterPage*)uNew(RouterPage_typeof());
@@ -9027,10 +8933,10 @@ RouterPage* RouterPage::New1(uString* path, uString* parameter, uObject* context
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/PageData.uno
-// ----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/PageData.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------
 
-// internal delegate void RouterPageChangedHandler(object sender, Fuse.Navigation.RouterPage newPage) :5
+// internal delegate void RouterPageChangedHandler(object sender, Fuse.Navigation.RouterPage newPage)
 uDelegateType* RouterPageChangedHandler_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -9043,16 +8949,16 @@ uDelegateType* RouterPageChangedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterPage.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterPage.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class RouterPageRoute :145
+// internal sealed class RouterPageRoute
 // {
 static void RouterPageRoute_build(uType* type)
 {
     ::STRINGS[43] = uString::Const("/");
     ::STRINGS[44] = uString::Const("count can't be < 0");
-    ::STRINGS[45] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterPage.uno");
+    ::STRINGS[45] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterPage.uno");
     ::STRINGS[46] = uString::Const("SubDepth");
     type->SetFields(0,
         ::g::Fuse::Navigation::RouterPage_typeof(), offsetof(RouterPageRoute, RouterPage), 0,
@@ -9073,63 +8979,63 @@ uType* RouterPageRoute_typeof()
     return type;
 }
 
-// public RouterPageRoute(Fuse.Navigation.RouterPage routerPage, Fuse.Navigation.RouterPageRoute sub) :150
+// public RouterPageRoute(Fuse.Navigation.RouterPage routerPage, Fuse.Navigation.RouterPageRoute sub)
 void RouterPageRoute__ctor__fn(RouterPageRoute* __this, ::g::Fuse::Navigation::RouterPage* routerPage, RouterPageRoute* sub)
 {
     __this->ctor_(routerPage, sub);
 }
 
-// public Fuse.Navigation.RouterPageRoute Append(Fuse.Navigation.RouterPageRoute subRoute) :224
+// public Fuse.Navigation.RouterPageRoute Append(Fuse.Navigation.RouterPageRoute subRoute)
 void RouterPageRoute__Append_fn(RouterPageRoute* __this, RouterPageRoute* subRoute, RouterPageRoute** __retval)
 {
     *__retval = __this->Append(subRoute);
 }
 
-// internal string Format() :199
+// internal string Format()
 void RouterPageRoute__Format_fn(RouterPageRoute* __this, uString** __retval)
 {
     *__retval = __this->Format();
 }
 
-// public RouterPageRoute New(Fuse.Navigation.RouterPage routerPage, Fuse.Navigation.RouterPageRoute sub) :150
+// public RouterPageRoute New(Fuse.Navigation.RouterPage routerPage, Fuse.Navigation.RouterPageRoute sub)
 void RouterPageRoute__New1_fn(::g::Fuse::Navigation::RouterPage* routerPage, RouterPageRoute* sub, RouterPageRoute** __retval)
 {
     *__retval = RouterPageRoute::New1(routerPage, sub);
 }
 
-// internal Fuse.Navigation.RouterPageRoute SubDepth(int count) :207
+// internal Fuse.Navigation.RouterPageRoute SubDepth(int count)
 void RouterPageRoute__SubDepth_fn(RouterPageRoute* __this, int32_t* count, RouterPageRoute** __retval)
 {
     *__retval = __this->SubDepth(*count);
 }
 
-// public Fuse.Navigation.Route ToRoute() :184
+// public Fuse.Navigation.Route ToRoute()
 void RouterPageRoute__ToRoute_fn(RouterPageRoute* __this, ::g::Fuse::Navigation::Route** __retval)
 {
     *__retval = __this->ToRoute();
 }
 
-// internal Fuse.Navigation.RouterPageRoute Up() :192
+// internal Fuse.Navigation.RouterPageRoute Up()
 void RouterPageRoute__Up_fn(RouterPageRoute* __this, RouterPageRoute** __retval)
 {
     *__retval = __this->Up();
 }
 
-// public RouterPageRoute(Fuse.Navigation.RouterPage routerPage, Fuse.Navigation.RouterPageRoute sub) [instance] :150
+// public RouterPageRoute(Fuse.Navigation.RouterPage routerPage, Fuse.Navigation.RouterPageRoute sub) [instance]
 void RouterPageRoute::ctor_(::g::Fuse::Navigation::RouterPage* routerPage, RouterPageRoute* sub)
 {
     RouterPage = routerPage;
     SubRoute = sub;
 }
 
-// public Fuse.Navigation.RouterPageRoute Append(Fuse.Navigation.RouterPageRoute subRoute) [instance] :224
+// public Fuse.Navigation.RouterPageRoute Append(Fuse.Navigation.RouterPageRoute subRoute) [instance]
 RouterPageRoute* RouterPageRoute::Append(RouterPageRoute* subRoute)
 {
     RouterPageRoute* sub = (SubRoute == NULL) ? subRoute : (RouterPageRoute*)uPtr(SubRoute)->Append(subRoute);
     return RouterPageRoute::New1(RouterPage, sub);
 }
 
-// internal string Format() [instance] :199
+// internal string Format() [instance]
 uString* RouterPageRoute::Format()
 {
     uString* q = uPtr(RouterPage)->ToPathString();
@@ -9140,12 +9046,12 @@ uString* RouterPageRoute::Format()
     return q;
 }
 
-// internal Fuse.Navigation.RouterPageRoute SubDepth(int count) [instance] :207
+// internal Fuse.Navigation.RouterPageRoute SubDepth(int count) [instance]
 RouterPageRoute* RouterPageRoute::SubDepth(int32_t count)
 {
     if (count < 0)
     {
-        ::g::Fuse::Diagnostics::InternalError(::STRINGS[44/*"count can't...*/], this, ::STRINGS[45/*"/usr/local/...*/], 211, ::STRINGS[46/*"SubDepth"*/]);
+        ::g::Fuse::Diagnostics::InternalError(::STRINGS[44/*"count can't...*/], this, ::STRINGS[45/*"/Users/antt...*/], 211, ::STRINGS[46/*"SubDepth"*/]);
         return NULL;
     }
 
@@ -9158,7 +9064,7 @@ RouterPageRoute* RouterPageRoute::SubDepth(int32_t count)
     return uPtr(SubRoute)->SubDepth(count - 1);
 }
 
-// public Fuse.Navigation.Route ToRoute() [instance] :184
+// public Fuse.Navigation.Route ToRoute() [instance]
 ::g::Fuse::Navigation::Route* RouterPageRoute::ToRoute()
 {
     ::g::Fuse::Navigation::Route* r = ::g::Fuse::Navigation::Route::New1(uPtr(RouterPage)->Path(), uPtr(RouterPage)->Parameter, (SubRoute != NULL) ? (::g::Fuse::Navigation::Route*)uPtr(SubRoute)->ToRoute() : NULL);
@@ -9166,7 +9072,7 @@ RouterPageRoute* RouterPageRoute::SubDepth(int32_t count)
     return r;
 }
 
-// internal Fuse.Navigation.RouterPageRoute Up() [instance] :192
+// internal Fuse.Navigation.RouterPageRoute Up() [instance]
 RouterPageRoute* RouterPageRoute::Up()
 {
     if (SubRoute == NULL)
@@ -9177,7 +9083,7 @@ RouterPageRoute* RouterPageRoute::Up()
     return RouterPageRoute::New1(RouterPage, uPtr(SubRoute)->Up());
 }
 
-// public RouterPageRoute New(Fuse.Navigation.RouterPage routerPage, Fuse.Navigation.RouterPageRoute sub) [static] :150
+// public RouterPageRoute New(Fuse.Navigation.RouterPage routerPage, Fuse.Navigation.RouterPageRoute sub) [static]
 RouterPageRoute* RouterPageRoute::New1(::g::Fuse::Navigation::RouterPage* routerPage, RouterPageRoute* sub)
 {
     RouterPageRoute* obj1 = (RouterPageRoute*)uNew(RouterPageRoute_typeof());
@@ -9186,10 +9092,10 @@ RouterPageRoute* RouterPageRoute::New1(::g::Fuse::Navigation::RouterPage* router
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class RouterRequest :12
+// internal sealed class RouterRequest
 // {
 static void RouterRequest_build(uType* type)
 {
@@ -9219,128 +9125,128 @@ uType* RouterRequest_typeof()
     return type;
 }
 
-// public RouterRequest([Fuse.Navigation.RouterRequest.Flags flags]) :44
+// public RouterRequest([Fuse.Navigation.RouterRequest.Flags flags])
 void RouterRequest__ctor__fn(RouterRequest* __this, int32_t* flags)
 {
     __this->ctor_(*flags);
 }
 
-// public bool AddArgument(string name, object value, [Fuse.Navigation.RouterRequest.Fields allow]) :103
+// public bool AddArgument(string name, object value, [Fuse.Navigation.RouterRequest.Fields allow])
 void RouterRequest__AddArgument_fn(RouterRequest* __this, uString* name, uObject* value, int32_t* allow, bool* __retval)
 {
     *__retval = __this->AddArgument(name, value, *allow);
 }
 
-// public bool AddArguments(Fuse.IObject obj, [Fuse.Navigation.RouterRequest.Fields allow]) :158
+// public bool AddArguments(Fuse.IObject obj, [Fuse.Navigation.RouterRequest.Fields allow])
 void RouterRequest__AddArguments_fn(RouterRequest* __this, uObject* obj, int32_t* allow, bool* __retval)
 {
     *__retval = __this->AddArguments(obj, *allow);
 }
 
-// public bool AddHow(Fuse.Navigation.ModifyRouteHow how) :60
+// public bool AddHow(Fuse.Navigation.ModifyRouteHow how)
 void RouterRequest__AddHow_fn(RouterRequest* __this, int32_t* how, bool* __retval)
 {
     *__retval = __this->AddHow(*how);
 }
 
-// public bool AddPath(object value) :66
+// public bool AddPath(object value)
 void RouterRequest__AddPath_fn(RouterRequest* __this, uObject* value, bool* __retval)
 {
     *__retval = __this->AddPath(value);
 }
 
-// private static bool IsObjectRoute(object value) :246
+// private static bool IsObjectRoute(object value)
 void RouterRequest__IsObjectRoute_fn(uObject* value, bool* __retval)
 {
     *__retval = RouterRequest::IsObjectRoute(value);
 }
 
-// public bool MakeRequest(Fuse.Navigation.Router router) :169
+// public bool MakeRequest(Fuse.Navigation.Router router)
 void RouterRequest__MakeRequest_fn(RouterRequest* __this, ::g::Fuse::Navigation::Router* router, bool* __retval)
 {
     *__retval = __this->MakeRequest(router);
 }
 
-// public RouterRequest New([Fuse.Navigation.RouterRequest.Flags flags]) :44
+// public RouterRequest New([Fuse.Navigation.RouterRequest.Flags flags])
 void RouterRequest__New1_fn(int32_t* flags, RouterRequest** __retval)
 {
     *__retval = RouterRequest::New1(*flags);
 }
 
-// public Fuse.Navigation.RoutingOperation get_Operation() :26
+// public Fuse.Navigation.RoutingOperation get_Operation()
 void RouterRequest__get_Operation_fn(RouterRequest* __this, int32_t* __retval)
 {
     *__retval = __this->Operation();
 }
 
-// public void set_Operation(Fuse.Navigation.RoutingOperation value) :27
+// public void set_Operation(Fuse.Navigation.RoutingOperation value)
 void RouterRequest__set_Operation_fn(RouterRequest* __this, int32_t* value)
 {
     __this->Operation(*value);
 }
 
-// public static Fuse.Navigation.RouterPageRoute ParseFlatRoute(Fuse.IArray path) :195
+// public static Fuse.Navigation.RouterPageRoute ParseFlatRoute(Fuse.IArray path)
 void RouterRequest__ParseFlatRoute_fn(uObject* path, ::g::Fuse::Navigation::RouterPageRoute** __retval)
 {
     *__retval = RouterRequest::ParseFlatRoute(path);
 }
 
-// public static Fuse.Navigation.RouterPageRoute ParseFlatRoute(object[] args, [int pos]) :204
+// public static Fuse.Navigation.RouterPageRoute ParseFlatRoute(object[] args, [int pos])
 void RouterRequest__ParseFlatRoute1_fn(uArray* args, int32_t* pos, ::g::Fuse::Navigation::RouterPageRoute** __retval)
 {
     *__retval = RouterRequest::ParseFlatRoute1(args, *pos);
 }
 
-// private static bool ParseNVPComponent(object value, Fuse.Navigation.RouterPageRoute& route) :315
+// private static bool ParseNVPComponent(object value, Fuse.Navigation.RouterPageRoute& route)
 void RouterRequest__ParseNVPComponent_fn(uObject* value, ::g::Fuse::Navigation::RouterPageRoute** route, bool* __retval)
 {
     *__retval = RouterRequest::ParseNVPComponent(value, route);
 }
 
-// internal static bool ParseNVPRoute(object value, Fuse.Navigation.RouterPageRoute& route) :294
+// internal static bool ParseNVPRoute(object value, Fuse.Navigation.RouterPageRoute& route)
 void RouterRequest__ParseNVPRoute_fn(uObject* value, ::g::Fuse::Navigation::RouterPageRoute** route, bool* __retval)
 {
     *__retval = RouterRequest::ParseNVPRoute(value, route);
 }
 
-// private static bool ParseObjectComponent(object value, Fuse.Navigation.RouterPageRoute& route) :281
+// private static bool ParseObjectComponent(object value, Fuse.Navigation.RouterPageRoute& route)
 void RouterRequest__ParseObjectComponent_fn(uObject* value, ::g::Fuse::Navigation::RouterPageRoute** route, bool* __retval)
 {
     *__retval = RouterRequest::ParseObjectComponent(value, route);
 }
 
-// internal static bool ParseObjectRoute(object value, Fuse.Navigation.RouterPageRoute& route) :259
+// internal static bool ParseObjectRoute(object value, Fuse.Navigation.RouterPageRoute& route)
 void RouterRequest__ParseObjectRoute_fn(uObject* value, ::g::Fuse::Navigation::RouterPageRoute** route, bool* __retval)
 {
     *__retval = RouterRequest::ParseObjectRoute(value, route);
 }
 
-// internal static bool ParseUXRoute(object value, Fuse.Navigation.RouterPageRoute& route) :239
+// internal static bool ParseUXRoute(object value, Fuse.Navigation.RouterPageRoute& route)
 void RouterRequest__ParseUXRoute_fn(uObject* value, ::g::Fuse::Navigation::RouterPageRoute** route, bool* __retval)
 {
     *__retval = RouterRequest::ParseUXRoute(value, route);
 }
 
-// public void Reset() :50
+// public void Reset()
 void RouterRequest__Reset_fn(RouterRequest* __this)
 {
     __this->Reset();
 }
 
-// private static bool ValidateParameter(object arg, [int depth]) :336
+// private static bool ValidateParameter(object arg, [int depth])
 void RouterRequest__ValidateParameter_fn(uObject* arg, int32_t* depth, bool* __retval)
 {
     *__retval = RouterRequest::ValidateParameter(arg, *depth);
 }
 
-// public RouterRequest([Fuse.Navigation.RouterRequest.Flags flags]) [instance] :44
+// public RouterRequest([Fuse.Navigation.RouterRequest.Flags flags]) [instance]
 void RouterRequest::ctor_(int32_t flags)
 {
     _flags = flags;
     Reset();
 }
 
-// public bool AddArgument(string name, object value, [Fuse.Navigation.RouterRequest.Fields allow]) [instance] :103
+// public bool AddArgument(string name, object value, [Fuse.Navigation.RouterRequest.Fields allow]) [instance]
 bool RouterRequest::AddArgument(uString* name, uObject* value, int32_t allow)
 {
     int32_t ret2;
@@ -9356,30 +9262,30 @@ bool RouterRequest::AddArgument(uString* name, uObject* value, int32_t allow)
         return AddPath(value);
 
     if (::g::Uno::String::op_Equality(name, uString::Const("relative")) && ((allow & 4) == 4))
-        Relative = uAs< ::g::Fuse::Node*>(value, ::TYPES[38/*Fuse.Node*/]);
+        Relative = uAs< ::g::Fuse::Node*>(value, ::TYPES[37/*Fuse.Node*/]);
     else if (::g::Uno::String::op_Equality(name, uString::Const("transition")) && ((allow & 8) == 8))
     {
         int32_t v;
 
         if (!(::g::Fuse::Marshal__TryToType_fn(::g::Fuse::Marshal_typeof()->MakeMethod(1/*TryToType<Fuse.Navigation.NavigationGotoMode>*/, ::g::Fuse::Navigation::NavigationGotoMode_typeof(), NULL), value, &v, &ret3), ret3))
         {
-            ::g::Fuse::Diagnostics::UserError(uString::Const("Invalid transition value"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno"), 120, uString::Const("AddArgument"), NULL);
+            ::g::Fuse::Diagnostics::UserError(uString::Const("Invalid transition value"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno"), 120, uString::Const("AddArgument"), NULL);
             return false;
         }
         else
             Transition = v;
     }
     else if (::g::Uno::String::op_Equality(name, uString::Const("bookmark")) && ((allow & 32) == 32))
-        Bookmark = (::g::Fuse::Marshal__ToType_fn(::TYPES[32/*Fuse.Marshal.ToType<string>*/], value, &ret4), ret4);
+        Bookmark = (::g::Fuse::Marshal__ToType_fn(::TYPES[31/*Fuse.Marshal.ToType<string>*/], value, &ret4), ret4);
     else if (::g::Uno::String::op_Equality(name, uString::Const("style")) && ((allow & 16) == 16))
-        Style = (::g::Fuse::Marshal__ToType_fn(::TYPES[32/*Fuse.Marshal.ToType<string>*/], value, &ret5), ret5);
+        Style = (::g::Fuse::Marshal__ToType_fn(::TYPES[31/*Fuse.Marshal.ToType<string>*/], value, &ret5), ret5);
     else if (::g::Uno::String::op_Equality(name, uString::Const("operation")) && ((allow & 128) == 128))
     {
         int32_t v1;
 
         if (!(::g::Fuse::Marshal__TryToType_fn(::g::Fuse::Marshal_typeof()->MakeMethod(1/*TryToType<Fuse.Navigation.RoutingOperation>*/, ::g::Fuse::Navigation::RoutingOperation_typeof(), NULL), value, &v1, &ret6), ret6))
         {
-            ::g::Fuse::Diagnostics::UserError(uString::Const("Invalid operation value"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno"), 141, uString::Const("AddArgument"), NULL);
+            ::g::Fuse::Diagnostics::UserError(uString::Const("Invalid operation value"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno"), 141, uString::Const("AddArgument"), NULL);
             return false;
         }
         else
@@ -9387,33 +9293,33 @@ bool RouterRequest::AddArgument(uString* name, uObject* value, int32_t allow)
     }
     else
     {
-        ::g::Fuse::Diagnostics::UserError(::g::Uno::String::op_Addition2(uString::Const("Unrecognized or unsupported argument: "), name), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno"), 151, uString::Const("AddArgument"), NULL);
+        ::g::Fuse::Diagnostics::UserError(::g::Uno::String::op_Addition2(uString::Const("Unrecognized or unsupported argument: "), name), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno"), 151, uString::Const("AddArgument"), NULL);
         return false;
     }
 
     return true;
 }
 
-// public bool AddArguments(Fuse.IObject obj, [Fuse.Navigation.RouterRequest.Fields allow]) [instance] :158
+// public bool AddArguments(Fuse.IObject obj, [Fuse.Navigation.RouterRequest.Fields allow]) [instance]
 bool RouterRequest::AddArguments(uObject* obj, int32_t allow)
 {
-    uArray* keys = ::g::Fuse::IObject::Keys(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]));
+    uArray* keys = ::g::Fuse::IObject::Keys(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]));
 
     for (int32_t i = 0; i < uPtr(keys)->Length(); i++)
-        if (!AddArgument(uPtr(keys)->Strong<uString*>(i), ::g::Fuse::IObject::Item(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]), uPtr(keys)->Strong<uString*>(i)), allow))
+        if (!AddArgument(uPtr(keys)->Strong<uString*>(i), ::g::Fuse::IObject::Item(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]), uPtr(keys)->Strong<uString*>(i)), allow))
             return false;
 
     return true;
 }
 
-// public bool AddHow(Fuse.Navigation.ModifyRouteHow how) [instance] :60
+// public bool AddHow(Fuse.Navigation.ModifyRouteHow how) [instance]
 bool RouterRequest::AddHow(int32_t how)
 {
     How = how;
     return true;
 }
 
-// public bool AddPath(object value) [instance] :66
+// public bool AddPath(object value) [instance]
 bool RouterRequest::AddPath(uObject* value)
 {
     if ((_flags & 1) == 1)
@@ -9422,7 +9328,7 @@ bool RouterRequest::AddPath(uObject* value)
 
         if (path == NULL)
         {
-            ::g::Fuse::Diagnostics::UserError(uString::Const("`path` should be an array"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno"), 73, uString::Const("AddPath"), NULL);
+            ::g::Fuse::Diagnostics::UserError(uString::Const("`path` should be an array"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno"), 73, uString::Const("AddPath"), NULL);
             return false;
         }
 
@@ -9437,7 +9343,7 @@ bool RouterRequest::AddPath(uObject* value)
     return true;
 }
 
-// public bool MakeRequest(Fuse.Navigation.Router router) [instance] :169
+// public bool MakeRequest(Fuse.Navigation.Router router) [instance]
 bool RouterRequest::MakeRequest(::g::Fuse::Navigation::Router* router)
 {
     bool ret7;
@@ -9447,13 +9353,13 @@ bool RouterRequest::MakeRequest(::g::Fuse::Navigation::Router* router)
     {
         if (targetRoute != NULL)
         {
-            ::g::Fuse::Diagnostics::UserError(uString::Const("A path and bookmark cannot both be specified"), router, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno"), 177, uString::Const("MakeRequest"), NULL);
+            ::g::Fuse::Diagnostics::UserError(uString::Const("A path and bookmark cannot both be specified"), router, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno"), 177, uString::Const("MakeRequest"), NULL);
             return false;
         }
 
         if (!(::g::Uno::Collections::Dictionary__TryGetValue_fn(uPtr(uPtr(router)->Bookmarks), Bookmark, (void**)(&targetRoute), &ret7), ret7))
         {
-            ::g::Fuse::Diagnostics::UserError(::g::Uno::String::op_Addition2(uString::Const("Unknown bookmark: "), Bookmark), router, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno"), 183, uString::Const("MakeRequest"), NULL);
+            ::g::Fuse::Diagnostics::UserError(::g::Uno::String::op_Addition2(uString::Const("Unknown bookmark: "), Bookmark), router, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno"), 183, uString::Const("MakeRequest"), NULL);
             return false;
         }
     }
@@ -9465,20 +9371,20 @@ bool RouterRequest::MakeRequest(::g::Fuse::Navigation::Router* router)
     return true;
 }
 
-// public Fuse.Navigation.RoutingOperation get_Operation() [instance] :26
+// public Fuse.Navigation.RoutingOperation get_Operation() [instance]
 int32_t RouterRequest::Operation()
 {
     return _operation;
 }
 
-// public void set_Operation(Fuse.Navigation.RoutingOperation value) [instance] :27
+// public void set_Operation(Fuse.Navigation.RoutingOperation value) [instance]
 void RouterRequest::Operation(int32_t value)
 {
     _operation = value;
     HasOperation = true;
 }
 
-// public void Reset() [instance] :50
+// public void Reset() [instance]
 void RouterRequest::Reset()
 {
     How = 1;
@@ -9489,11 +9395,11 @@ void RouterRequest::Reset()
     HasOperation = false;
 }
 
-// private static bool IsObjectRoute(object value) [static] :246
+// private static bool IsObjectRoute(object value) [static]
 bool RouterRequest::IsObjectRoute(uObject* value)
 {
     uObject* array = uAs<uObject*>(value, ::g::Fuse::IArray_typeof());
-    bool isProperArray = (array != NULL) && !uIs(value, ::TYPES[31/*Fuse.IObject*/]);
+    bool isProperArray = (array != NULL) && !uIs(value, ::TYPES[30/*Fuse.IObject*/]);
 
     if ((isProperArray && (::g::Fuse::IArray::Length(uInterface(uPtr(array), ::g::Fuse::IArray_typeof())) > 0)) && ::g::Fuse::Navigation::PagesMap::HasObjectPath(::g::Fuse::IArray::Item(uInterface(uPtr(array), ::g::Fuse::IArray_typeof()), 0)))
         return true;
@@ -9504,7 +9410,7 @@ bool RouterRequest::IsObjectRoute(uObject* value)
     return false;
 }
 
-// public RouterRequest New([Fuse.Navigation.RouterRequest.Flags flags]) [static] :44
+// public RouterRequest New([Fuse.Navigation.RouterRequest.Flags flags]) [static]
 RouterRequest* RouterRequest::New1(int32_t flags)
 {
     RouterRequest* obj1 = (RouterRequest*)uNew(RouterRequest_typeof());
@@ -9512,10 +9418,10 @@ RouterRequest* RouterRequest::New1(int32_t flags)
     return obj1;
 }
 
-// public static Fuse.Navigation.RouterPageRoute ParseFlatRoute(Fuse.IArray path) [static] :195
+// public static Fuse.Navigation.RouterPageRoute ParseFlatRoute(Fuse.IArray path) [static]
 ::g::Fuse::Navigation::RouterPageRoute* RouterRequest::ParseFlatRoute(uObject* path)
 {
-    uArray* cvt = uArray::New(::TYPES[10/*object[]*/], ::g::Fuse::IArray::Length(uInterface(uPtr(path), ::g::Fuse::IArray_typeof())));
+    uArray* cvt = uArray::New(::TYPES[9/*object[]*/], ::g::Fuse::IArray::Length(uInterface(uPtr(path), ::g::Fuse::IArray_typeof())));
 
     for (int32_t i = 0; i < cvt->Length(); ++i)
         uPtr(cvt)->Strong<uObject*>(i) = ::g::Fuse::IArray::Item(uInterface(uPtr(path), ::g::Fuse::IArray_typeof()), i);
@@ -9523,7 +9429,7 @@ RouterRequest* RouterRequest::New1(int32_t flags)
     return RouterRequest::ParseFlatRoute1(cvt, 0);
 }
 
-// public static Fuse.Navigation.RouterPageRoute ParseFlatRoute(object[] args, [int pos]) [static] :204
+// public static Fuse.Navigation.RouterPageRoute ParseFlatRoute(object[] args, [int pos]) [static]
 ::g::Fuse::Navigation::RouterPageRoute* RouterRequest::ParseFlatRoute1(uArray* args, int32_t pos)
 {
     if (uPtr(args)->Length() <= pos)
@@ -9548,7 +9454,7 @@ RouterRequest* RouterRequest::New1(int32_t flags)
         return ::g::Fuse::Navigation::RouterPageRoute::New1(::g::Fuse::Navigation::RouterPage::New1(::g::Fuse::Navigation::PagesMap::GetObjectPath(uPtr(args)->Strong<uObject*>(pos)), NULL, uPtr(args)->Strong<uObject*>(pos)), RouterRequest::ParseFlatRoute1(args, pos + 1));
 }
 
-// private static bool ParseNVPComponent(object value, Fuse.Navigation.RouterPageRoute& route) [static] :315
+// private static bool ParseNVPComponent(object value, Fuse.Navigation.RouterPageRoute& route) [static]
 bool RouterRequest::ParseNVPComponent(uObject* value, ::g::Fuse::Navigation::RouterPageRoute** route)
 {
     if (uIs(value, ::g::Uno::String_typeof()))
@@ -9557,7 +9463,7 @@ bool RouterRequest::ParseNVPComponent(uObject* value, ::g::Fuse::Navigation::Rou
         return true;
     }
 
-    ::g::Fuse::NameValuePair* nvp = uAs< ::g::Fuse::NameValuePair*>(value, ::TYPES[16/*Fuse.NameValuePair*/]);
+    ::g::Fuse::NameValuePair* nvp = uAs< ::g::Fuse::NameValuePair*>(value, ::TYPES[15/*Fuse.NameValuePair*/]);
 
     if (nvp != NULL)
     {
@@ -9565,11 +9471,11 @@ bool RouterRequest::ParseNVPComponent(uObject* value, ::g::Fuse::Navigation::Rou
         return true;
     }
 
-    ::g::Fuse::Diagnostics::UserError(uString::Const("incompatible path component"), value, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno"), 332, uString::Const("ParseNVPComponent"), NULL);
+    ::g::Fuse::Diagnostics::UserError(uString::Const("incompatible path component"), value, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno"), 332, uString::Const("ParseNVPComponent"), NULL);
     return false;
 }
 
-// internal static bool ParseNVPRoute(object value, Fuse.Navigation.RouterPageRoute& route) [static] :294
+// internal static bool ParseNVPRoute(object value, Fuse.Navigation.RouterPageRoute& route) [static]
 bool RouterRequest::ParseNVPRoute(uObject* value, ::g::Fuse::Navigation::RouterPageRoute** route)
 {
     *route = NULL;
@@ -9587,14 +9493,14 @@ bool RouterRequest::ParseNVPRoute(uObject* value, ::g::Fuse::Navigation::RouterP
         return RouterRequest::ParseNVPComponent(value, route);
 }
 
-// private static bool ParseObjectComponent(object value, Fuse.Navigation.RouterPageRoute& route) [static] :281
+// private static bool ParseObjectComponent(object value, Fuse.Navigation.RouterPageRoute& route) [static]
 bool RouterRequest::ParseObjectComponent(uObject* value, ::g::Fuse::Navigation::RouterPageRoute** route)
 {
     uString* path = ::g::Fuse::Navigation::PagesMap::GetObjectPath(value);
 
     if (::g::Uno::String::op_Equality(path, NULL))
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Object does not contain a $path"), NULL, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno"), 286, uString::Const("ParseObjectComponent"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Object does not contain a $path"), NULL, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno"), 286, uString::Const("ParseObjectComponent"), NULL);
         return false;
     }
 
@@ -9602,12 +9508,12 @@ bool RouterRequest::ParseObjectComponent(uObject* value, ::g::Fuse::Navigation::
     return true;
 }
 
-// internal static bool ParseObjectRoute(object value, Fuse.Navigation.RouterPageRoute& route) [static] :259
+// internal static bool ParseObjectRoute(object value, Fuse.Navigation.RouterPageRoute& route) [static]
 bool RouterRequest::ParseObjectRoute(uObject* value, ::g::Fuse::Navigation::RouterPageRoute** route)
 {
     *route = NULL;
     uObject* array = uAs<uObject*>(value, ::g::Fuse::IArray_typeof());
-    bool isProperArray = (array != NULL) && !uIs(value, ::TYPES[31/*Fuse.IObject*/]);
+    bool isProperArray = (array != NULL) && !uIs(value, ::TYPES[30/*Fuse.IObject*/]);
 
     if (isProperArray)
     {
@@ -9621,7 +9527,7 @@ bool RouterRequest::ParseObjectRoute(uObject* value, ::g::Fuse::Navigation::Rout
         return RouterRequest::ParseObjectComponent(value, route);
 }
 
-// internal static bool ParseUXRoute(object value, Fuse.Navigation.RouterPageRoute& route) [static] :239
+// internal static bool ParseUXRoute(object value, Fuse.Navigation.RouterPageRoute& route) [static]
 bool RouterRequest::ParseUXRoute(uObject* value, ::g::Fuse::Navigation::RouterPageRoute** route)
 {
     if (RouterRequest::IsObjectRoute(value))
@@ -9630,25 +9536,25 @@ bool RouterRequest::ParseUXRoute(uObject* value, ::g::Fuse::Navigation::RouterPa
     return RouterRequest::ParseNVPRoute(value, route);
 }
 
-// private static bool ValidateParameter(object arg, [int depth]) [static] :336
+// private static bool ValidateParameter(object arg, [int depth]) [static]
 bool RouterRequest::ValidateParameter(uObject* arg, int32_t depth)
 {
     if (depth > 49)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Route parameter must be serializeable, it contains reference loops or is too large"), NULL, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno"), 340, uString::Const("ValidateParameter"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Route parameter must be serializeable, it contains reference loops or is too large"), NULL, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno"), 340, uString::Const("ValidateParameter"), NULL);
         return false;
     }
 
-    if (uIs(arg, ::TYPES[31/*Fuse.IObject*/]))
+    if (uIs(arg, ::TYPES[30/*Fuse.IObject*/]))
     {
         uObject* obj = (uObject*)arg;
-        uArray* keys = ::g::Fuse::IObject::Keys(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]));
+        uArray* keys = ::g::Fuse::IObject::Keys(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]));
 
         for (int32_t i = 0; i < uPtr(keys)->Length(); i++)
         {
             uString* key = uPtr(keys)->Strong<uString*>(i);
 
-            if (!RouterRequest::ValidateParameter(::g::Fuse::IObject::Item(uInterface(uPtr(obj), ::TYPES[31/*Fuse.IObject*/]), key), depth + 1))
+            if (!RouterRequest::ValidateParameter(::g::Fuse::IObject::Item(uInterface(uPtr(obj), ::TYPES[30/*Fuse.IObject*/]), key), depth + 1))
                 return false;
         }
     }
@@ -9664,13 +9570,13 @@ bool RouterRequest::ValidateParameter(uObject* arg, int32_t depth)
 
     if (uIs(arg, ::g::Fuse::Reactive::IEventHandler_typeof()))
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Route parameter must be serializeable, cannot contain functions."), NULL, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno"), 366, uString::Const("ValidateParameter"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Route parameter must be serializeable, cannot contain functions."), NULL, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno"), 366, uString::Const("ValidateParameter"), NULL);
         return false;
     }
 
     if (uIs(arg, ::g::Fuse::Reactive::IObservable_typeof()))
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Route parameter must be serializeable, cannot contain Observables."), NULL, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterRequest.uno"), 372, uString::Const("ValidateParameter"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Route parameter must be serializeable, cannot contain Observables."), NULL, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterRequest.uno"), 372, uString::Const("ValidateParameter"), NULL);
         return false;
     }
 
@@ -9678,10 +9584,10 @@ bool RouterRequest::ValidateParameter(uObject* arg, int32_t depth)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/IRouterOutlet.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/IRouterOutlet.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal enum RoutingOperation :8
+// internal enum RoutingOperation
 uEnumType* RoutingOperation_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -9696,10 +9602,10 @@ uEnumType* RoutingOperation_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/IRouterOutlet.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/IRouterOutlet.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal enum RoutingResult :29
+// internal enum RoutingResult
 uEnumType* RoutingResult_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -9714,10 +9620,10 @@ uEnumType* RoutingResult_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/SwipeNavigate.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/SwipeNavigate.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal enum SnapTo :43
+// internal enum SnapTo
 uEnumType* SnapTo_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -9731,10 +9637,10 @@ uEnumType* SnapTo_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/NavigationPageProxy.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/NavigationPageProxy.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public delegate void NavigationPageProxy.StatusChangedHandler(Fuse.Navigation.NavigationPageProxy sender) :16
+// public delegate void NavigationPageProxy.StatusChangedHandler(Fuse.Navigation.NavigationPageProxy sender)
 uDelegateType* NavigationPageProxy__StatusChangedHandler_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -9746,10 +9652,10 @@ uDelegateType* NavigationPageProxy__StatusChangedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/StructuredNavigation.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/StructuredNavigation.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public interfacemodifiers class StructuredNavigation :13
+// public interfacemodifiers class StructuredNavigation
 // {
 static void StructuredNavigation_build(uType* type)
 {
@@ -9851,73 +9757,73 @@ StructuredNavigation_type* StructuredNavigation_typeof()
     return type;
 }
 
-// public override sealed Fuse.Visual get_Active() :367
+// public override sealed Fuse.Visual get_Active()
 void StructuredNavigation__get_Active_fn(StructuredNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     return *__retval = __this->_active, void();
 }
 
-// public override sealed void set_Active(Fuse.Visual value) :368
+// public override sealed void set_Active(Fuse.Visual value)
 void StructuredNavigation__set_Active_fn(StructuredNavigation* __this, ::g::Fuse::Visual* value)
 {
     __this->Goto(value, 0);
 }
 
-// private void AnimationDone() :351
+// private void AnimationDone()
 void StructuredNavigation__AnimationDone_fn(StructuredNavigation* __this)
 {
     __this->AnimationDone();
 }
 
-// private Fuse.Visual get_Back() :481
+// private Fuse.Visual get_Back()
 void StructuredNavigation__get_Back_fn(StructuredNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->Back();
 }
 
-// public override sealed bool get_CanGoBack() :275
+// public override sealed bool get_CanGoBack()
 void StructuredNavigation__get_CanGoBack_fn(StructuredNavigation* __this, bool* __retval)
 {
     return *__retval = __this->HasPages() && (__this->_active != __this->Back()), void();
 }
 
-// public override sealed bool get_CanGoForward() :267
+// public override sealed bool get_CanGoForward()
 void StructuredNavigation__get_CanGoForward_fn(StructuredNavigation* __this, bool* __retval)
 {
     return *__retval = __this->HasPages() && (__this->_active != __this->Front()), void();
 }
 
-// private void ChangeProgress(float prev, float next, Fuse.Navigation.NavigationMode mode) :249
+// private void ChangeProgress(float prev, float next, Fuse.Navigation.NavigationMode mode)
 void StructuredNavigation__ChangeProgress_fn(StructuredNavigation* __this, float* prev, float* next, int32_t* mode)
 {
     __this->ChangeProgress(*prev, *next, *mode);
 }
 
-// private void CheckNeedUpdate([bool off]) :185
+// private void CheckNeedUpdate([bool off])
 void StructuredNavigation__CheckNeedUpdate_fn(StructuredNavigation* __this, bool* off)
 {
     __this->CheckNeedUpdate(*off);
 }
 
-// private int ClampProgress(int progress) :469
+// private int ClampProgress(int progress)
 void StructuredNavigation__ClampProgress1_fn(StructuredNavigation* __this, int32_t* progress, int32_t* __retval)
 {
     *__retval = __this->ClampProgress1(*progress);
 }
 
-// private void ClearForwardHistory() :451
+// private void ClearForwardHistory()
 void StructuredNavigation__ClearForwardHistory_fn(StructuredNavigation* __this)
 {
     __this->ClearForwardHistory();
 }
 
-// private Fuse.Visual get_Front() :486
+// private Fuse.Visual get_Front()
 void StructuredNavigation__get_Front_fn(StructuredNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->Front();
 }
 
-// private void Fuse.Navigation.ISeekableNavigation.BeginSeek() :384
+// private void Fuse.Navigation.ISeekableNavigation.BeginSeek()
 void StructuredNavigation__FuseNavigationISeekableNavigationBeginSeek_fn(StructuredNavigation* __this)
 {
     __this->_seekBase = (float)__this->Progress();
@@ -9931,7 +9837,7 @@ void StructuredNavigation__FuseNavigationISeekableNavigationBeginSeek_fn(Structu
     __this->OnStateChanged(1);
 }
 
-// private void Fuse.Navigation.ISeekableNavigation.EndSeek(Fuse.Navigation.EndSeekArgs args) :418
+// private void Fuse.Navigation.ISeekableNavigation.EndSeek(Fuse.Navigation.EndSeekArgs args)
 void StructuredNavigation__FuseNavigationISeekableNavigationEndSeek_fn(StructuredNavigation* __this, ::g::Fuse::Navigation::EndSeekArgs* args)
 {
     ::g::Uno::Float2 ret4;
@@ -9968,14 +9874,14 @@ void StructuredNavigation__FuseNavigationISeekableNavigationEndSeek_fn(Structure
         ::g::Fuse::Motion::Simulation::BoundedRegion2D::Reset(uInterface(uPtr(__this->_region), ::g::Fuse::Motion::Simulation::BoundedRegion2D_typeof()), (::g::Fuse::Motion::Simulation::MotionSimulation::get_Position_ex(uInterface(uPtr(__this->_region), ::g::Fuse::Motion::Simulation::MotionSimulation_typeof()->MakeType(::g::Uno::Float2_typeof(), NULL)), &ret4), ret4));
 }
 
-// private void Fuse.Navigation.ISeekableNavigation.Seek(Fuse.Navigation.UpdateSeekArgs args) :404
+// private void Fuse.Navigation.ISeekableNavigation.Seek(Fuse.Navigation.UpdateSeekArgs args)
 void StructuredNavigation__FuseNavigationISeekableNavigationSeek_fn(StructuredNavigation* __this, ::g::Fuse::Navigation::UpdateSeekArgs* args)
 {
     ::g::Uno::Float2 ret5;
 
     if (__this->_region == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("Seek being called on an unrooted navigation"), __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/StructuredNavigation.uno"), 408, uString::Const("Fuse.Navigation.ISeekableNavigation.Seek"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("Seek being called on an unrooted navigation"), __this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/StructuredNavigation.uno"), 408, uString::Const("Fuse.Navigation.ISeekableNavigation.Seek"));
         return;
     }
 
@@ -9985,7 +9891,7 @@ void StructuredNavigation__FuseNavigationISeekableNavigationSeek_fn(StructuredNa
     __this->CheckNeedUpdate(false);
 }
 
-// public override sealed Fuse.Navigation.NavigationPageState GetPageState(Fuse.Visual page) :255
+// public override sealed Fuse.Navigation.NavigationPageState GetPageState(Fuse.Visual page)
 void StructuredNavigation__GetPageState_fn(StructuredNavigation* __this, ::g::Fuse::Visual* page, ::g::Fuse::Navigation::NavigationPageState* __retval)
 {
     ::g::Fuse::Navigation::NavigationPageState collection1;
@@ -10006,21 +9912,21 @@ void StructuredNavigation__GetPageState_fn(StructuredNavigation* __this, ::g::Fu
     return *__retval = collection2, void();
 }
 
-// public override sealed void GoBack() :287
+// public override sealed void GoBack()
 void StructuredNavigation__GoBack_fn(StructuredNavigation* __this)
 {
     if (__this->CanGoBack())
         __this->TransitionToChild(__this->Previous(), false, false);
 }
 
-// public override sealed void GoForward() :281
+// public override sealed void GoForward()
 void StructuredNavigation__GoForward_fn(StructuredNavigation* __this)
 {
     if (__this->CanGoForward())
         __this->TransitionToChild(__this->Next(), false, false);
 }
 
-// public override sealed void Goto(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode) :90
+// public override sealed void Goto(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode)
 void StructuredNavigation__Goto_fn(StructuredNavigation* __this, ::g::Fuse::Visual* element, int32_t* mode)
 {
     int32_t mode_ = *mode;
@@ -10043,53 +9949,53 @@ void StructuredNavigation__Goto_fn(StructuredNavigation* __this, ::g::Fuse::Visu
         __this->GotoImpl(element, mode_);
 }
 
-// public void GotoImpl(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode) :112
+// public void GotoImpl(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode)
 void StructuredNavigation__GotoImpl_fn(StructuredNavigation* __this, ::g::Fuse::Visual* element, int32_t* mode)
 {
     __this->GotoImpl(element, *mode);
 }
 
-// private int get_MaxIndex() :476
+// private int get_MaxIndex()
 void StructuredNavigation__get_MaxIndex_fn(StructuredNavigation* __this, int32_t* __retval)
 {
     *__retval = __this->MaxIndex();
 }
 
-// internal generated Fuse.Navigation.StructuredNavigation.NavigationStructure get_Mode() :23
+// internal generated Fuse.Navigation.StructuredNavigation.NavigationStructure get_Mode()
 void StructuredNavigation__get_Mode_fn(StructuredNavigation* __this, int32_t* __retval)
 {
     *__retval = __this->Mode();
 }
 
-// internal generated void set_Mode(Fuse.Navigation.StructuredNavigation.NavigationStructure value) :23
+// internal generated void set_Mode(Fuse.Navigation.StructuredNavigation.NavigationStructure value)
 void StructuredNavigation__set_Mode_fn(StructuredNavigation* __this, int32_t* value)
 {
     __this->Mode(*value);
 }
 
-// public Fuse.Motion.MotionConfig get_Motion() :34
+// public Fuse.Motion.MotionConfig get_Motion()
 void StructuredNavigation__get_Motion_fn(StructuredNavigation* __this, ::g::Fuse::Motion::MotionConfig** __retval)
 {
     *__retval = __this->Motion();
 }
 
-// public void set_Motion(Fuse.Motion.MotionConfig value) :40
+// public void set_Motion(Fuse.Motion.MotionConfig value)
 void StructuredNavigation__set_Motion_fn(StructuredNavigation* __this, ::g::Fuse::Motion::MotionConfig* value)
 {
     __this->Motion(value);
 }
 
-// private Fuse.Visual get_Next() :496
+// private Fuse.Visual get_Next()
 void StructuredNavigation__get_Next_fn(StructuredNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->Next();
 }
 
-// public override sealed void OnChildAddedWhileRooted(Fuse.Node child) :314
+// public override sealed void OnChildAddedWhileRooted(Fuse.Node child)
 void StructuredNavigation__OnChildAddedWhileRooted_fn(StructuredNavigation* __this, ::g::Fuse::Node* child)
 {
     ::g::Fuse::Navigation::VisualNavigation__OnChildAddedWhileRooted_fn(__this, child);
-    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[8/*Fuse.Visual*/]);
+    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[7/*Fuse.Visual*/]);
 
     if (v == NULL)
         return;
@@ -10103,11 +10009,11 @@ void StructuredNavigation__OnChildAddedWhileRooted_fn(StructuredNavigation* __th
     __this->OnHistoryChanged();
 }
 
-// public override sealed void OnChildRemovedWhileRooted(Fuse.Node child) :330
+// public override sealed void OnChildRemovedWhileRooted(Fuse.Node child)
 void StructuredNavigation__OnChildRemovedWhileRooted_fn(StructuredNavigation* __this, ::g::Fuse::Node* child)
 {
     ::g::Fuse::Navigation::VisualNavigation__OnChildRemovedWhileRooted_fn(__this, child);
-    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[8/*Fuse.Visual*/]);
+    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[7/*Fuse.Visual*/]);
 
     if (v == NULL)
         return;
@@ -10119,7 +10025,7 @@ void StructuredNavigation__OnChildRemovedWhileRooted_fn(StructuredNavigation* __
     __this->ChangeProgress((float)__this->Progress(), (float)__this->Progress(), 1);
 }
 
-// protected override sealed void OnRooted() :50
+// protected override sealed void OnRooted()
 void StructuredNavigation__OnRooted_fn(StructuredNavigation* __this)
 {
     bool ret7;
@@ -10128,7 +10034,7 @@ void StructuredNavigation__OnRooted_fn(StructuredNavigation* __this)
     if (((__this->_active != NULL) && (uPtr(__this->_active)->Parent() != NULL)) && (__this->Parent() != uPtr(__this->_active)->Parent()))
         __this->SetActive(NULL);
 
-    if ((__this->_active != NULL) && !(::g::Uno::Collections::ICollection::Contains_ex(uInterface(uPtr(uPtr(__this->Parent())->Children()), ::g::Uno::Collections::ICollection_typeof()->MakeType(::TYPES[38/*Fuse.Node*/], NULL)), __this->_active, &ret7), ret7))
+    if ((__this->_active != NULL) && !(::g::Uno::Collections::ICollection::Contains_ex(uInterface(uPtr(uPtr(__this->Parent())->Children()), ::g::Uno::Collections::ICollection_typeof()->MakeType(::TYPES[37/*Fuse.Node*/], NULL)), __this->_active, &ret7), ret7))
         __this->SetActive(NULL);
 
     if ((__this->PageCount() > 0) && (__this->_active == NULL))
@@ -10141,7 +10047,7 @@ void StructuredNavigation__OnRooted_fn(StructuredNavigation* __this)
     ::g::Fuse::Motion::Simulation::MotionSimulation::set_Position_ex(uInterface(uPtr(__this->_region), ::g::Fuse::Motion::Simulation::MotionSimulation_typeof()->MakeType(::g::Uno::Float2_typeof(), NULL)), uCRef(::g::Uno::Float2__New2(__this->_progress, 0.0f)));
 }
 
-// protected override sealed void OnUnrooted() :72
+// protected override sealed void OnUnrooted()
 void StructuredNavigation__OnUnrooted_fn(StructuredNavigation* __this)
 {
     ::g::Uno::Float2 ret8;
@@ -10157,55 +10063,55 @@ void StructuredNavigation__OnUnrooted_fn(StructuredNavigation* __this)
     ::g::Fuse::Navigation::VisualNavigation__OnUnrooted_fn(__this);
 }
 
-// private void OnUpdated() :204
+// private void OnUpdated()
 void StructuredNavigation__OnUpdated_fn(StructuredNavigation* __this)
 {
     __this->OnUpdated();
 }
 
-// private Fuse.Visual get_Previous() :491
+// private Fuse.Visual get_Previous()
 void StructuredNavigation__get_Previous_fn(StructuredNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->Previous();
 }
 
-// public double get_Progress() :347
+// public double get_Progress()
 void StructuredNavigation__get_Progress_fn(StructuredNavigation* __this, double* __retval)
 {
     *__retval = __this->Progress();
 }
 
-// public void QueueClearForwardHistory() :150
+// public void QueueClearForwardHistory()
 void StructuredNavigation__QueueClearForwardHistory_fn(StructuredNavigation* __this)
 {
     __this->QueueClearForwardHistory();
 }
 
-// private void ResetRegionLimits() :223
+// private void ResetRegionLimits()
 void StructuredNavigation__ResetRegionLimits_fn(StructuredNavigation* __this)
 {
     __this->ResetRegionLimits();
 }
 
-// private void SetActive(Fuse.Visual page) :374
+// private void SetActive(Fuse.Visual page)
 void StructuredNavigation__SetActive_fn(StructuredNavigation* __this, ::g::Fuse::Visual* page)
 {
     __this->SetActive(page);
 }
 
-// private void SetProgress(float value) :229
+// private void SetProgress(float value)
 void StructuredNavigation__SetProgress_fn(StructuredNavigation* __this, float* value)
 {
     __this->SetProgress(*value);
 }
 
-// private bool TransitionToChild(Fuse.Visual element, [bool bypass], [bool clamp]) :158
+// private bool TransitionToChild(Fuse.Visual element, [bool bypass], [bool clamp])
 void StructuredNavigation__TransitionToChild_fn(StructuredNavigation* __this, ::g::Fuse::Visual* element, bool* bypass, bool* clamp, bool* __retval)
 {
     *__retval = __this->TransitionToChild(element, *bypass, *clamp);
 }
 
-// private void AnimationDone() [instance] :351
+// private void AnimationDone() [instance]
 void StructuredNavigation::AnimationDone()
 {
     if (_queueClearForwardHistory)
@@ -10219,20 +10125,20 @@ void StructuredNavigation::AnimationDone()
     OnStateChanged(0);
 }
 
-// private Fuse.Visual get_Back() [instance] :481
+// private Fuse.Visual get_Back() [instance]
 ::g::Fuse::Visual* StructuredNavigation::Back()
 {
     return (PageCount() > 0) ? (::g::Fuse::Visual*)GetPage(MaxIndex()) : NULL;
 }
 
-// private void ChangeProgress(float prev, float next, Fuse.Navigation.NavigationMode mode) [instance] :249
+// private void ChangeProgress(float prev, float next, Fuse.Navigation.NavigationMode mode) [instance]
 void StructuredNavigation::ChangeProgress(float prev, float next, int32_t mode)
 {
     _prevProgress = prev;
     OnPageProgressChanged((double)next, (double)prev, mode);
 }
 
-// private void CheckNeedUpdate([bool off]) [instance] :185
+// private void CheckNeedUpdate([bool off]) [instance]
 void StructuredNavigation::CheckNeedUpdate(bool off)
 {
     bool needUpdated = (_region != NULL) && !::g::Fuse::Motion::Simulation::Simulation::IsStatic(uInterface(uPtr(_region), ::g::Fuse::Motion::Simulation::Simulation_typeof()));
@@ -10242,24 +10148,24 @@ void StructuredNavigation::CheckNeedUpdate(bool off)
 
     if (needUpdated)
     {
-        ::g::Fuse::UpdateManager::AddAction1(uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)StructuredNavigation__OnUpdated_fn, this), 0);
+        ::g::Fuse::UpdateManager::AddAction1(uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)StructuredNavigation__OnUpdated_fn, this), 0);
         _hasUpdated = true;
     }
     else if (off)
     {
         AnimationDone();
-        ::g::Fuse::UpdateManager::RemoveAction1(uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)StructuredNavigation__OnUpdated_fn, this), 0);
+        ::g::Fuse::UpdateManager::RemoveAction1(uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)StructuredNavigation__OnUpdated_fn, this), 0);
         _hasUpdated = false;
     }
 }
 
-// private int ClampProgress(int progress) [instance] :469
+// private int ClampProgress(int progress) [instance]
 int32_t StructuredNavigation::ClampProgress1(int32_t progress)
 {
     return ::g::Uno::Math::Clamp8(progress, 0, MaxIndex());
 }
 
-// private void ClearForwardHistory() [instance] :451
+// private void ClearForwardHistory() [instance]
 void StructuredNavigation::ClearForwardHistory()
 {
     bool ret3;
@@ -10269,36 +10175,36 @@ void StructuredNavigation::ClearForwardHistory()
         int32_t target = GetPageIndex(_active);
 
         for (int32_t i = target - 1; i >= 0; i--)
-            ::g::Uno::Collections::ICollection::Remove_ex(uInterface(uPtr(uPtr(Parent())->Children()), ::g::Uno::Collections::ICollection_typeof()->MakeType(::TYPES[38/*Fuse.Node*/], NULL)), GetPage(i), &ret3);
+            ::g::Uno::Collections::ICollection::Remove_ex(uInterface(uPtr(uPtr(Parent())->Children()), ::g::Uno::Collections::ICollection_typeof()->MakeType(::TYPES[37/*Fuse.Node*/], NULL)), GetPage(i), &ret3);
     }
 
     OnHistoryChanged();
 }
 
-// private Fuse.Visual get_Front() [instance] :486
+// private Fuse.Visual get_Front() [instance]
 ::g::Fuse::Visual* StructuredNavigation::Front()
 {
     return (PageCount() > 0) ? (::g::Fuse::Visual*)GetPage(0) : NULL;
 }
 
-// public void GotoImpl(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode) [instance] :112
+// public void GotoImpl(Fuse.Visual element, Fuse.Navigation.NavigationGotoMode mode) [instance]
 void StructuredNavigation::GotoImpl(::g::Fuse::Visual* element, int32_t mode)
 {
     bool ret6;
 
     if ((uPtr(element)->Parent() != NULL) && (uPtr(element)->Parent() != Parent()))
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Attempting to navigate to element with different parent"), element, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/StructuredNavigation.uno"), 117, uString::Const("GotoImpl"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Attempting to navigate to element with different parent"), element, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/StructuredNavigation.uno"), 117, uString::Const("GotoImpl"), NULL);
         SetActive(NULL);
         return;
     }
 
-    if (!(::g::Uno::Collections::ICollection::Contains_ex(uInterface(uPtr(uPtr(Parent())->Children()), ::g::Uno::Collections::ICollection_typeof()->MakeType(::TYPES[38/*Fuse.Node*/], NULL)), element, &ret6), ret6))
+    if (!(::g::Uno::Collections::ICollection::Contains_ex(uInterface(uPtr(uPtr(Parent())->Children()), ::g::Uno::Collections::ICollection_typeof()->MakeType(::TYPES[37/*Fuse.Node*/], NULL)), element, &ret6), ret6))
     {
         if (Mode() == 1)
         {
             ClearForwardHistory();
-            ::g::Uno::Collections::IList::Insert_ex(uInterface(uPtr(uPtr(Parent())->Children()), ::g::Uno::Collections::IList_typeof()->MakeType(::TYPES[38/*Fuse.Node*/], NULL)), uCRef<int32_t>(0), element);
+            ::g::Uno::Collections::IList::Insert_ex(uInterface(uPtr(uPtr(Parent())->Children()), ::g::Uno::Collections::IList_typeof()->MakeType(::TYPES[37/*Fuse.Node*/], NULL)), uCRef<int32_t>(0), element);
         }
         else
             return;
@@ -10311,7 +10217,7 @@ void StructuredNavigation::GotoImpl(::g::Fuse::Visual* element, int32_t mode)
             uPtr(Parent())->BeginRemoveChild(element, NULL);
             SetProgress((float)((double)GetPageIndex(_active) + diff));
             ClearForwardHistory();
-            ::g::Uno::Collections::IList::Insert_ex(uInterface(uPtr(uPtr(Parent())->Children()), ::g::Uno::Collections::IList_typeof()->MakeType(::TYPES[38/*Fuse.Node*/], NULL)), uCRef<int32_t>(0), element);
+            ::g::Uno::Collections::IList::Insert_ex(uInterface(uPtr(uPtr(Parent())->Children()), ::g::Uno::Collections::IList_typeof()->MakeType(::TYPES[37/*Fuse.Node*/], NULL)), uCRef<int32_t>(0), element);
         }
     }
 
@@ -10319,25 +10225,25 @@ void StructuredNavigation::GotoImpl(::g::Fuse::Visual* element, int32_t mode)
     OnHistoryChanged();
 }
 
-// private int get_MaxIndex() [instance] :476
+// private int get_MaxIndex() [instance]
 int32_t StructuredNavigation::MaxIndex()
 {
     return PageCount() - 1;
 }
 
-// internal generated Fuse.Navigation.StructuredNavigation.NavigationStructure get_Mode() [instance] :23
+// internal generated Fuse.Navigation.StructuredNavigation.NavigationStructure get_Mode() [instance]
 int32_t StructuredNavigation::Mode()
 {
     return _Mode;
 }
 
-// internal generated void set_Mode(Fuse.Navigation.StructuredNavigation.NavigationStructure value) [instance] :23
+// internal generated void set_Mode(Fuse.Navigation.StructuredNavigation.NavigationStructure value) [instance]
 void StructuredNavigation::Mode(int32_t value)
 {
     _Mode = value;
 }
 
-// public Fuse.Motion.MotionConfig get_Motion() [instance] :34
+// public Fuse.Motion.MotionConfig get_Motion() [instance]
 ::g::Fuse::Motion::MotionConfig* StructuredNavigation::Motion()
 {
     if (_motion == NULL)
@@ -10346,22 +10252,22 @@ void StructuredNavigation::Mode(int32_t value)
     return _motion;
 }
 
-// public void set_Motion(Fuse.Motion.MotionConfig value) [instance] :40
+// public void set_Motion(Fuse.Motion.MotionConfig value) [instance]
 void StructuredNavigation::Motion(::g::Fuse::Motion::MotionConfig* value)
 {
     _motion = value;
 
     if (IsRootingCompleted())
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Motion should not be changed post-rooting"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/StructuredNavigation.uno"), 44, uString::Const("set_Motion"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Motion should not be changed post-rooting"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/StructuredNavigation.uno"), 44, uString::Const("set_Motion"), NULL);
 }
 
-// private Fuse.Visual get_Next() [instance] :496
+// private Fuse.Visual get_Next() [instance]
 ::g::Fuse::Visual* StructuredNavigation::Next()
 {
     return GetPage(GetPageIndex(_active) - 1);
 }
 
-// private void OnUpdated() [instance] :204
+// private void OnUpdated() [instance]
 void StructuredNavigation::OnUpdated()
 {
     ::g::Uno::Float2 ret9;
@@ -10369,7 +10275,7 @@ void StructuredNavigation::OnUpdated()
 
     if (_region == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("Updated called without a region"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/StructuredNavigation.uno"), 208, uString::Const("OnUpdated"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("Updated called without a region"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/StructuredNavigation.uno"), 208, uString::Const("OnUpdated"));
         return;
     }
 
@@ -10379,33 +10285,33 @@ void StructuredNavigation::OnUpdated()
     CheckNeedUpdate(true);
 }
 
-// private Fuse.Visual get_Previous() [instance] :491
+// private Fuse.Visual get_Previous() [instance]
 ::g::Fuse::Visual* StructuredNavigation::Previous()
 {
     return GetPage(GetPageIndex(_active) + 1);
 }
 
-// public double get_Progress() [instance] :347
+// public double get_Progress() [instance]
 double StructuredNavigation::Progress()
 {
     ::g::Uno::Float2 ret13;
     return (double)((_region == NULL) ? _progress : (::g::Fuse::Motion::Simulation::MotionSimulation::get_Position_ex(uInterface(uPtr(_region), ::g::Fuse::Motion::Simulation::MotionSimulation_typeof()->MakeType(::g::Uno::Float2_typeof(), NULL)), &ret13), ret13).X);
 }
 
-// public void QueueClearForwardHistory() [instance] :150
+// public void QueueClearForwardHistory() [instance]
 void StructuredNavigation::QueueClearForwardHistory()
 {
     _queueClearForwardHistory = true;
 }
 
-// private void ResetRegionLimits() [instance] :223
+// private void ResetRegionLimits() [instance]
 void StructuredNavigation::ResetRegionLimits()
 {
     ::g::Fuse::Motion::Simulation::BoundedRegion2D::MaxPosition(uInterface(uPtr(_region), ::g::Fuse::Motion::Simulation::BoundedRegion2D_typeof()), ::g::Uno::Float2__New2((float)MaxIndex(), 0.0f));
     ::g::Fuse::Motion::Simulation::BoundedRegion2D::MinPosition(uInterface(uPtr(_region), ::g::Fuse::Motion::Simulation::BoundedRegion2D_typeof()), ::g::Uno::Float2__New1(0.0f));
 }
 
-// private void SetActive(Fuse.Visual page) [instance] :374
+// private void SetActive(Fuse.Visual page) [instance]
 void StructuredNavigation::SetActive(::g::Fuse::Visual* page)
 {
     if (page == _active)
@@ -10415,7 +10321,7 @@ void StructuredNavigation::SetActive(::g::Fuse::Visual* page)
     OnActiveChanged(_active);
 }
 
-// private void SetProgress(float value) [instance] :229
+// private void SetProgress(float value) [instance]
 void StructuredNavigation::SetProgress(float value)
 {
     ::g::Uno::Float2 ret11;
@@ -10438,7 +10344,7 @@ void StructuredNavigation::SetProgress(float value)
     ChangeProgress(prev, value, 1);
 }
 
-// private bool TransitionToChild(Fuse.Visual element, [bool bypass], [bool clamp]) [instance] :158
+// private bool TransitionToChild(Fuse.Visual element, [bool bypass], [bool clamp]) [instance]
 bool StructuredNavigation::TransitionToChild(::g::Fuse::Visual* element, bool bypass, bool clamp)
 {
     float targetProgress = (float)GetPageIndex(element);
@@ -10464,24 +10370,24 @@ bool StructuredNavigation::TransitionToChild(::g::Fuse::Visual* element, bool by
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/FindRouter.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/FindRouter.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class FindRouter.Subscription :37
+// private sealed class FindRouter.Subscription
 // {
 static void FindRouter__Subscription_build(uType* type)
 {
     ::STRINGS[47] = uString::Const("unable to find a router");
-    ::STRINGS[48] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/FindRouter.uno");
+    ::STRINGS[48] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/FindRouter.uno");
     ::STRINGS[49] = uString::Const(".ctor");
-    ::TYPES[27] = ::g::Fuse::Reactive::IListener_typeof();
+    ::TYPES[26] = ::g::Fuse::Reactive::IListener_typeof();
     type->SetDependencies(
         ::g::Fuse::Navigation::Router_typeof());
     type->SetInterfaces(
         ::g::Uno::IDisposable_typeof(), offsetof(FindRouter__Subscription_type, interface0));
     type->SetFields(0,
         ::g::Fuse::Navigation::FindRouter_typeof(), offsetof(FindRouter__Subscription, _expr), 0,
-        ::TYPES[27/*Fuse.Reactive.IListener*/], offsetof(FindRouter__Subscription, _listener), 0);
+        ::TYPES[26/*Fuse.Reactive.IListener*/], offsetof(FindRouter__Subscription, _listener), 0);
 }
 
 FindRouter__Subscription_type* FindRouter__Subscription_typeof()
@@ -10501,25 +10407,25 @@ FindRouter__Subscription_type* FindRouter__Subscription_typeof()
     return type;
 }
 
-// public Subscription(Fuse.Navigation.FindRouter expr, Fuse.Node origin, Fuse.Reactive.IListener listener) :42
+// public Subscription(Fuse.Navigation.FindRouter expr, Fuse.Node origin, Fuse.Reactive.IListener listener)
 void FindRouter__Subscription__ctor__fn(FindRouter__Subscription* __this, ::g::Fuse::Navigation::FindRouter* expr, ::g::Fuse::Node* origin, uObject* listener)
 {
     __this->ctor_(expr, origin, listener);
 }
 
-// public void Dispose() :55
+// public void Dispose()
 void FindRouter__Subscription__Dispose_fn(FindRouter__Subscription* __this)
 {
     __this->Dispose();
 }
 
-// public Subscription New(Fuse.Navigation.FindRouter expr, Fuse.Node origin, Fuse.Reactive.IListener listener) :42
+// public Subscription New(Fuse.Navigation.FindRouter expr, Fuse.Node origin, Fuse.Reactive.IListener listener)
 void FindRouter__Subscription__New1_fn(::g::Fuse::Navigation::FindRouter* expr, ::g::Fuse::Node* origin, uObject* listener, FindRouter__Subscription** __retval)
 {
     *__retval = FindRouter__Subscription::New1(expr, origin, listener);
 }
 
-// public Subscription(Fuse.Navigation.FindRouter expr, Fuse.Node origin, Fuse.Reactive.IListener listener) [instance] :42
+// public Subscription(Fuse.Navigation.FindRouter expr, Fuse.Node origin, Fuse.Reactive.IListener listener) [instance]
 void FindRouter__Subscription::ctor_(::g::Fuse::Navigation::FindRouter* expr, ::g::Fuse::Node* origin, uObject* listener)
 {
     _expr = expr;
@@ -10527,19 +10433,19 @@ void FindRouter__Subscription::ctor_(::g::Fuse::Navigation::FindRouter* expr, ::
     ::g::Fuse::Navigation::Router* router = ::g::Fuse::Navigation::Router::TryFindRouter(origin);
 
     if (router == NULL)
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[47/*"unable to f...*/], this, ::STRINGS[48/*"/usr/local/...*/], 49, ::STRINGS[49/*".ctor"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[47/*"unable to f...*/], this, ::STRINGS[48/*"/Users/antt...*/], 49, ::STRINGS[49/*".ctor"*/], NULL);
     else
-        ::g::Fuse::Reactive::IListener::OnNewData(uInterface(uPtr(listener), ::TYPES[27/*Fuse.Reactive.IListener*/]), (uObject*)_expr, router);
+        ::g::Fuse::Reactive::IListener::OnNewData(uInterface(uPtr(listener), ::TYPES[26/*Fuse.Reactive.IListener*/]), (uObject*)_expr, router);
 }
 
-// public void Dispose() [instance] :55
+// public void Dispose() [instance]
 void FindRouter__Subscription::Dispose()
 {
     _expr = NULL;
     _listener = NULL;
 }
 
-// public Subscription New(Fuse.Navigation.FindRouter expr, Fuse.Node origin, Fuse.Reactive.IListener listener) [static] :42
+// public Subscription New(Fuse.Navigation.FindRouter expr, Fuse.Node origin, Fuse.Reactive.IListener listener) [static]
 FindRouter__Subscription* FindRouter__Subscription::New1(::g::Fuse::Navigation::FindRouter* expr, ::g::Fuse::Node* origin, uObject* listener)
 {
     FindRouter__Subscription* obj1 = (FindRouter__Subscription*)uNew(FindRouter__Subscription_typeof());
@@ -10548,21 +10454,21 @@ FindRouter__Subscription* FindRouter__Subscription::New1(::g::Fuse::Navigation::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/PageBinding.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/PageBinding.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class PageExpression.Subscription :31
+// private sealed class PageExpression.Subscription
 // {
 static void PageExpression__Subscription_build(uType* type)
 {
     ::STRINGS[30] = uString::Const("Visual");
     ::STRINGS[31] = uString::Const("Node");
-    ::TYPES[15] = ::g::Uno::Action_typeof();
-    ::TYPES[27] = ::g::Fuse::Reactive::IListener_typeof();
-    ::TYPES[29] = ::g::Uno::Predicate_typeof()->MakeType(uObject_typeof(), NULL);
-    ::TYPES[1] = ::g::Fuse::Navigation::INavigation_typeof();
-    ::TYPES[30] = ::g::Fuse::Navigation::NavigatedHandler_typeof();
-    ::TYPES[8] = ::g::Fuse::Visual_typeof();
+    ::TYPES[14] = ::g::Uno::Action_typeof();
+    ::TYPES[26] = ::g::Fuse::Reactive::IListener_typeof();
+    ::TYPES[28] = ::g::Uno::Predicate_typeof()->MakeType(uObject_typeof(), NULL);
+    ::TYPES[0] = ::g::Fuse::Navigation::INavigation_typeof();
+    ::TYPES[29] = ::g::Fuse::Navigation::NavigatedHandler_typeof();
+    ::TYPES[7] = ::g::Fuse::Visual_typeof();
     type->SetDependencies(
         ::g::Fuse::Navigation::Navigation_typeof(),
         ::g::Fuse::Navigation::NavigationPageProperty_typeof(),
@@ -10573,9 +10479,9 @@ static void PageExpression__Subscription_build(uType* type)
     type->SetFields(0,
         ::g::Fuse::Navigation::PageExpression_typeof(), offsetof(PageExpression__Subscription, _pe), 0,
         ::g::Fuse::Node_typeof(), offsetof(PageExpression__Subscription, _node), 0,
-        ::TYPES[1/*Fuse.Navigation.INavigation*/], offsetof(PageExpression__Subscription, _nav), 0,
-        ::TYPES[8/*Fuse.Visual*/], offsetof(PageExpression__Subscription, _currentPage), 0,
-        ::TYPES[27/*Fuse.Reactive.IListener*/], offsetof(PageExpression__Subscription, _listener), 0);
+        ::TYPES[0/*Fuse.Navigation.INavigation*/], offsetof(PageExpression__Subscription, _nav), 0,
+        ::TYPES[7/*Fuse.Visual*/], offsetof(PageExpression__Subscription, _currentPage), 0,
+        ::TYPES[26/*Fuse.Reactive.IListener*/], offsetof(PageExpression__Subscription, _listener), 0);
 }
 
 PageExpression__Subscription_type* PageExpression__Subscription_typeof()
@@ -10595,95 +10501,95 @@ PageExpression__Subscription_type* PageExpression__Subscription_typeof()
     return type;
 }
 
-// public Subscription(Fuse.Navigation.PageExpression pe, Fuse.Node node, Fuse.Reactive.IListener listener) :39
+// public Subscription(Fuse.Navigation.PageExpression pe, Fuse.Node node, Fuse.Reactive.IListener listener)
 void PageExpression__Subscription__ctor__fn(PageExpression__Subscription* __this, ::g::Fuse::Navigation::PageExpression* pe, ::g::Fuse::Node* node, uObject* listener)
 {
     __this->ctor_(pe, node, listener);
 }
 
-// private bool Acceptor(object obj) :151
+// private bool Acceptor(object obj)
 void PageExpression__Subscription__Acceptor_fn(PageExpression__Subscription* __this, uObject* obj, bool* __retval)
 {
     *__retval = __this->Acceptor(obj);
 }
 
-// public void Dispose() :80
+// public void Dispose()
 void PageExpression__Subscription__Dispose_fn(PageExpression__Subscription* __this)
 {
     __this->Dispose();
 }
 
-// private void GotoPage(Fuse.Visual page) :120
+// private void GotoPage(Fuse.Visual page)
 void PageExpression__Subscription__GotoPage_fn(PageExpression__Subscription* __this, ::g::Fuse::Visual* page)
 {
     __this->GotoPage(page);
 }
 
-// private object get_LocalObject() :91
+// private object get_LocalObject()
 void PageExpression__Subscription__get_LocalObject_fn(PageExpression__Subscription* __this, uObject** __retval)
 {
     *__retval = __this->LocalObject();
 }
 
-// public Subscription New(Fuse.Navigation.PageExpression pe, Fuse.Node node, Fuse.Reactive.IListener listener) :39
+// public Subscription New(Fuse.Navigation.PageExpression pe, Fuse.Node node, Fuse.Reactive.IListener listener)
 void PageExpression__Subscription__New1_fn(::g::Fuse::Navigation::PageExpression* pe, ::g::Fuse::Node* node, uObject* listener, PageExpression__Subscription** __retval)
 {
     *__retval = PageExpression__Subscription::New1(pe, node, listener);
 }
 
-// private void OnChanged() :129
+// private void OnChanged()
 void PageExpression__Subscription__OnChanged_fn(PageExpression__Subscription* __this)
 {
     __this->OnChanged();
 }
 
-// private void OnNavigated(object s, Fuse.Navigation.NavigatedArgs args) :115
+// private void OnNavigated(object s, Fuse.Navigation.NavigatedArgs args)
 void PageExpression__Subscription__OnNavigated_fn(PageExpression__Subscription* __this, uObject* s, ::g::Fuse::Navigation::NavigatedArgs* args)
 {
     __this->OnNavigated(s, args);
 }
 
-// private void ReleaseCurrent() :70
+// private void ReleaseCurrent()
 void PageExpression__Subscription__ReleaseCurrent_fn(PageExpression__Subscription* __this)
 {
     __this->ReleaseCurrent();
 }
 
-// public void UpdateSource() :49
+// public void UpdateSource()
 void PageExpression__Subscription__UpdateSource_fn(PageExpression__Subscription* __this)
 {
     __this->UpdateSource();
 }
 
-// public Subscription(Fuse.Navigation.PageExpression pe, Fuse.Node node, Fuse.Reactive.IListener listener) [instance] :39
+// public Subscription(Fuse.Navigation.PageExpression pe, Fuse.Node node, Fuse.Reactive.IListener listener) [instance]
 void PageExpression__Subscription::ctor_(::g::Fuse::Navigation::PageExpression* pe, ::g::Fuse::Node* node, uObject* listener)
 {
     _pe = pe;
     _node = node;
     _listener = listener;
-    ::g::Fuse::Resources::ResourceRegistry::AddResourceChangedHandler(uPtr(_pe)->Key(), uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)PageExpression__Subscription__OnChanged_fn, this));
+    ::g::Fuse::Resources::ResourceRegistry::AddResourceChangedHandler(uPtr(_pe)->Key(), uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)PageExpression__Subscription__OnChanged_fn, this));
     ::g::Uno::Collections::List__Add_fn(uPtr(::g::Fuse::Navigation::NavigationPageProperty::RootedBindings()), (uObject*)this);
     UpdateSource();
 }
 
-// private bool Acceptor(object obj) [instance] :151
+// private bool Acceptor(object obj) [instance]
 bool PageExpression__Subscription::Acceptor(uObject* obj)
 {
     return true;
 }
 
-// public void Dispose() [instance] :80
+// public void Dispose() [instance]
 void PageExpression__Subscription::Dispose()
 {
     bool ret2;
     ReleaseCurrent();
     ::g::Uno::Collections::List__Remove_fn(uPtr(::g::Fuse::Navigation::NavigationPageProperty::RootedBindings()), (uObject*)this, &ret2);
-    ::g::Fuse::Resources::ResourceRegistry::RemoveResourceChangedHandler(uPtr(_pe)->Key(), uDelegate::New(::TYPES[15/*Uno.Action*/], (void*)PageExpression__Subscription__OnChanged_fn, this));
+    ::g::Fuse::Resources::ResourceRegistry::RemoveResourceChangedHandler(uPtr(_pe)->Key(), uDelegate::New(::TYPES[14/*Uno.Action*/], (void*)PageExpression__Subscription__OnChanged_fn, this));
     _listener = NULL;
     _node = NULL;
 }
 
-// private void GotoPage(Fuse.Visual page) [instance] :120
+// private void GotoPage(Fuse.Visual page) [instance]
 void PageExpression__Subscription::GotoPage(::g::Fuse::Visual* page)
 {
     if (page == _currentPage)
@@ -10693,14 +10599,14 @@ void PageExpression__Subscription::GotoPage(::g::Fuse::Visual* page)
     OnChanged();
 }
 
-// private object get_LocalObject() [instance] :91
+// private object get_LocalObject() [instance]
 uObject* PageExpression__Subscription::LocalObject()
 {
     ::g::Fuse::Node* n = _node;
 
     while (n != NULL)
     {
-        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(n, ::TYPES[8/*Fuse.Visual*/]);
+        ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(n, ::TYPES[7/*Fuse.Visual*/]);
 
         if (v != NULL)
         {
@@ -10721,7 +10627,7 @@ uObject* PageExpression__Subscription::LocalObject()
     return NULL;
 }
 
-// private void OnChanged() [instance] :129
+// private void OnChanged() [instance]
 void PageExpression__Subscription::OnChanged()
 {
     uObject* listener = _listener;
@@ -10734,36 +10640,36 @@ void PageExpression__Subscription::OnChanged()
     if (page != NULL)
     {
         if (::g::Uno::String::op_Equality(uPtr(_pe)->Key(), ::STRINGS[30/*"Visual"*/]) || ::g::Uno::String::op_Equality(uPtr(_pe)->Key(), ::STRINGS[31/*"Node"*/]))
-            ::g::Fuse::Reactive::IListener::OnNewData(uInterface(uPtr(listener), ::TYPES[27/*Fuse.Reactive.IListener*/]), (uObject*)_pe, page);
+            ::g::Fuse::Reactive::IListener::OnNewData(uInterface(uPtr(listener), ::TYPES[26/*Fuse.Reactive.IListener*/]), (uObject*)_pe, page);
         else
         {
             uObject* resource;
 
-            if (uPtr(page)->TryGetResource(uPtr(_pe)->Key(), uDelegate::New(::TYPES[29/*Uno.Predicate<object>*/], (void*)PageExpression__Subscription__Acceptor_fn, this), &resource))
-                ::g::Fuse::Reactive::IListener::OnNewData(uInterface(uPtr(listener), ::TYPES[27/*Fuse.Reactive.IListener*/]), (uObject*)_pe, resource);
+            if (uPtr(page)->TryGetResource(uPtr(_pe)->Key(), uDelegate::New(::TYPES[28/*Uno.Predicate<object>*/], (void*)PageExpression__Subscription__Acceptor_fn, this), &resource))
+                ::g::Fuse::Reactive::IListener::OnNewData(uInterface(uPtr(listener), ::TYPES[26/*Fuse.Reactive.IListener*/]), (uObject*)_pe, resource);
         }
     }
 }
 
-// private void OnNavigated(object s, Fuse.Navigation.NavigatedArgs args) [instance] :115
+// private void OnNavigated(object s, Fuse.Navigation.NavigatedArgs args) [instance]
 void PageExpression__Subscription::OnNavigated(uObject* s, ::g::Fuse::Navigation::NavigatedArgs* args)
 {
     GotoPage(uPtr(args)->NewVisual());
 }
 
-// private void ReleaseCurrent() [instance] :70
+// private void ReleaseCurrent() [instance]
 void PageExpression__Subscription::ReleaseCurrent()
 {
     if (_nav != NULL)
     {
-        ::g::Fuse::Navigation::INavigation::remove_Navigated(uInterface(uPtr(_nav), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[30/*Fuse.Navigation.NavigatedHandler*/], (void*)PageExpression__Subscription__OnNavigated_fn, this));
+        ::g::Fuse::Navigation::INavigation::remove_Navigated(uInterface(uPtr(_nav), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[29/*Fuse.Navigation.NavigatedHandler*/], (void*)PageExpression__Subscription__OnNavigated_fn, this));
         _nav = NULL;
     }
 
     _currentPage = NULL;
 }
 
-// public void UpdateSource() [instance] :49
+// public void UpdateSource() [instance]
 void PageExpression__Subscription::UpdateSource()
 {
     uObject* local = LocalObject();
@@ -10772,19 +10678,19 @@ void PageExpression__Subscription::UpdateSource()
         return;
 
     ReleaseCurrent();
-    _nav = uAs<uObject*>(local, ::TYPES[1/*Fuse.Navigation.INavigation*/]);
-    _currentPage = uAs< ::g::Fuse::Visual*>(local, ::TYPES[8/*Fuse.Visual*/]);
+    _nav = uAs<uObject*>(local, ::TYPES[0/*Fuse.Navigation.INavigation*/]);
+    _currentPage = uAs< ::g::Fuse::Visual*>(local, ::TYPES[7/*Fuse.Visual*/]);
 
     if (_nav != NULL)
     {
-        ::g::Fuse::Navigation::INavigation::add_Navigated(uInterface(uPtr(_nav), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[30/*Fuse.Navigation.NavigatedHandler*/], (void*)PageExpression__Subscription__OnNavigated_fn, this));
-        GotoPage(::g::Fuse::Navigation::INavigation::ActivePage(uInterface(uPtr(_nav), ::TYPES[1/*Fuse.Navigation.INavigation*/])));
+        ::g::Fuse::Navigation::INavigation::add_Navigated(uInterface(uPtr(_nav), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[29/*Fuse.Navigation.NavigatedHandler*/], (void*)PageExpression__Subscription__OnNavigated_fn, this));
+        GotoPage(::g::Fuse::Navigation::INavigation::ActivePage(uInterface(uPtr(_nav), ::TYPES[0/*Fuse.Navigation.INavigation*/])));
     }
     else
         OnChanged();
 }
 
-// public Subscription New(Fuse.Navigation.PageExpression pe, Fuse.Node node, Fuse.Reactive.IListener listener) [static] :39
+// public Subscription New(Fuse.Navigation.PageExpression pe, Fuse.Node node, Fuse.Reactive.IListener listener) [static]
 PageExpression__Subscription* PageExpression__Subscription::New1(::g::Fuse::Navigation::PageExpression* pe, ::g::Fuse::Node* node, uObject* listener)
 {
     PageExpression__Subscription* obj1 = (PageExpression__Subscription*)uNew(PageExpression__Subscription_typeof());
@@ -10793,10 +10699,10 @@ PageExpression__Subscription* PageExpression__Subscription::New1(::g::Fuse::Navi
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/SwipeNavigate.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/SwipeNavigate.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum SwipeDirection :65
+// public enum SwipeDirection
 uEnumType* SwipeDirection_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -10811,12 +10717,12 @@ uEnumType* SwipeDirection_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/SwipeNavigate.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/SwipeNavigate.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class SwipeNavigate :89
+// public sealed class SwipeNavigate
 // {
-// static generated SwipeNavigate() :89
+// static generated SwipeNavigate()
 static void SwipeNavigate__cctor_1_fn(uType* __type)
 {
     SwipeNavigate::elasticDecay_ = 0.015f;
@@ -10826,12 +10732,12 @@ static void SwipeNavigate__cctor_1_fn(uType* __type)
 static void SwipeNavigate_build(uType* type)
 {
     ::STRINGS[50] = uString::Const("SwipeNavigate: failed to find suitable Navigation object");
-    ::STRINGS[51] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/SwipeNavigate.uno");
+    ::STRINGS[51] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/SwipeNavigate.uno");
     ::STRINGS[52] = uString::Const("Fuse.Input.IGesture.OnPointerPressed");
-    ::TYPES[36] = ::g::Fuse::Motion::Simulation::PointerVelocity_typeof()->MakeType(::g::Uno::Float2_typeof(), NULL);
-    ::TYPES[37] = ::g::Fuse::Navigation::ISeekableNavigation_typeof();
-    ::TYPES[38] = ::g::Fuse::Node_typeof();
-    ::TYPES[4] = ::g::Fuse::Elements::Element_typeof();
+    ::TYPES[35] = ::g::Fuse::Motion::Simulation::PointerVelocity_typeof()->MakeType(::g::Uno::Float2_typeof(), NULL);
+    ::TYPES[36] = ::g::Fuse::Navigation::ISeekableNavigation_typeof();
+    ::TYPES[37] = ::g::Fuse::Node_typeof();
+    ::TYPES[3] = ::g::Fuse::Elements::Element_typeof();
     type->SetDependencies(
         ::g::Fuse::Input::Gestures_typeof(),
         ::g::Uno::Math_typeof(),
@@ -10846,11 +10752,11 @@ static void SwipeNavigate_build(uType* type)
         ::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(SwipeNavigate_type, interface6),
         ::g::Fuse::Input::IGesture_typeof(), offsetof(SwipeNavigate_type, interface7));
     type->SetFields(17,
-        ::TYPES[36/*Fuse.Motion.Simulation.PointerVelocity<float2>*/], offsetof(SwipeNavigate, _velocity), 0,
-        ::TYPES[37/*Fuse.Navigation.ISeekableNavigation*/], offsetof(SwipeNavigate, _currentNavigation), 0,
+        ::TYPES[35/*Fuse.Motion.Simulation.PointerVelocity<float2>*/], offsetof(SwipeNavigate, _velocity), 0,
+        ::TYPES[36/*Fuse.Navigation.ISeekableNavigation*/], offsetof(SwipeNavigate, _currentNavigation), 0,
         ::g::Fuse::Input::Gesture_typeof(), offsetof(SwipeNavigate, _gesture), 0,
         ::g::Fuse::Navigation::SwipeDirection_typeof(), offsetof(SwipeNavigate, _forwardDirection), 0,
-        ::TYPES[4/*Fuse.Elements.Element*/], offsetof(SwipeNavigate, _lengthNode), 0,
+        ::TYPES[3/*Fuse.Elements.Element*/], offsetof(SwipeNavigate, _lengthNode), 0,
         ::g::Uno::Bool_typeof(), offsetof(SwipeNavigate, _hasMaxPages), 0,
         ::g::Uno::Float_typeof(), offsetof(SwipeNavigate, _maxPages), 0,
         ::g::Uno::Float2_typeof(), offsetof(SwipeNavigate, _startCoord), 0,
@@ -10909,61 +10815,61 @@ SwipeNavigate_type* SwipeNavigate_typeof()
     return type;
 }
 
-// public SwipeNavigate() :196
+// public SwipeNavigate()
 void SwipeNavigate__ctor_3_fn(SwipeNavigate* __this)
 {
     __this->ctor_3();
 }
 
-// public Fuse.Navigation.AllowedNavigationDirections get_AllowedDirections() :327
+// public Fuse.Navigation.AllowedNavigationDirections get_AllowedDirections()
 void SwipeNavigate__get_AllowedDirections_fn(SwipeNavigate* __this, int32_t* __retval)
 {
     *__retval = __this->AllowedDirections();
 }
 
-// public void set_AllowedDirections(Fuse.Navigation.AllowedNavigationDirections value) :328
+// public void set_AllowedDirections(Fuse.Navigation.AllowedNavigationDirections value)
 void SwipeNavigate__set_AllowedDirections_fn(SwipeNavigate* __this, int32_t* value)
 {
     __this->AllowedDirections(*value);
 }
 
-// private Fuse.Navigation.SnapTo DetermineSnap() :387
+// private Fuse.Navigation.SnapTo DetermineSnap()
 void SwipeNavigate__DetermineSnap_fn(SwipeNavigate* __this, int32_t* __retval)
 {
     *__retval = __this->DetermineSnap();
 }
 
-// private float2 get_Direction() :188
+// private float2 get_Direction()
 void SwipeNavigate__get_Direction_fn(SwipeNavigate* __this, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->Direction();
 }
 
-// private float2 get_Distance() :296
+// private float2 get_Distance()
 void SwipeNavigate__get_Distance_fn(SwipeNavigate* __this, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->Distance();
 }
 
-// private double get_ElapsedTime() :301
+// private double get_ElapsedTime()
 void SwipeNavigate__get_ElapsedTime_fn(SwipeNavigate* __this, double* __retval)
 {
     *__retval = __this->ElapsedTime();
 }
 
-// public Fuse.Navigation.SwipeDirection get_ForwardDirection() :124
+// public Fuse.Navigation.SwipeDirection get_ForwardDirection()
 void SwipeNavigate__get_ForwardDirection_fn(SwipeNavigate* __this, int32_t* __retval)
 {
     *__retval = __this->ForwardDirection();
 }
 
-// public void set_ForwardDirection(Fuse.Navigation.SwipeDirection value) :125
+// public void set_ForwardDirection(Fuse.Navigation.SwipeDirection value)
 void SwipeNavigate__set_ForwardDirection_fn(SwipeNavigate* __this, int32_t* value)
 {
     __this->ForwardDirection(*value);
 }
 
-// private void Fuse.Input.IGesture.OnCaptureChanged(Fuse.Input.PointerEventArgs args, Fuse.Input.CaptureType how, Fuse.Input.CaptureType prev) :237
+// private void Fuse.Input.IGesture.OnCaptureChanged(Fuse.Input.PointerEventArgs args, Fuse.Input.CaptureType how, Fuse.Input.CaptureType prev)
 void SwipeNavigate__FuseInputIGestureOnCaptureChanged_fn(SwipeNavigate* __this, ::g::Fuse::Input::PointerEventArgs* args, int32_t* how, int32_t* prev)
 {
     int32_t how_ = *how;
@@ -10974,18 +10880,18 @@ void SwipeNavigate__FuseInputIGestureOnCaptureChanged_fn(SwipeNavigate* __this, 
 
     if (((how_ & 2) == 2) && !((prev_ & 2) == 2))
     {
-        ::g::Fuse::Navigation::ISeekableNavigation::BeginSeek(uInterface(uPtr(__this->_currentNavigation), ::TYPES[37/*Fuse.Navigation.ISeekableNavigation*/]));
+        ::g::Fuse::Navigation::ISeekableNavigation::BeginSeek(uInterface(uPtr(__this->_currentNavigation), ::TYPES[36/*Fuse.Navigation.ISeekableNavigation*/]));
         __this->_startedSeek = true;
     }
 }
 
-// private void Fuse.Input.IGesture.OnLostCapture(bool forced) :201
+// private void Fuse.Input.IGesture.OnLostCapture(bool forced)
 void SwipeNavigate__FuseInputIGestureOnLostCapture_fn(SwipeNavigate* __this, bool* forced)
 {
     if (__this->_currentNavigation != NULL)
     {
-        if (uPtr(uAs< ::g::Fuse::Node*>(__this->_currentNavigation, ::TYPES[38/*Fuse.Node*/]))->IsRootingCompleted() && __this->_startedSeek)
-            ::g::Fuse::Navigation::ISeekableNavigation::EndSeek(uInterface(uPtr(__this->_currentNavigation), ::TYPES[37/*Fuse.Navigation.ISeekableNavigation*/]), ::g::Fuse::Navigation::EndSeekArgs::New1(1, 0.0f));
+        if (uPtr(uAs< ::g::Fuse::Node*>(__this->_currentNavigation, ::TYPES[37/*Fuse.Node*/]))->IsRootingCompleted() && __this->_startedSeek)
+            ::g::Fuse::Navigation::ISeekableNavigation::EndSeek(uInterface(uPtr(__this->_currentNavigation), ::TYPES[36/*Fuse.Navigation.ISeekableNavigation*/]), ::g::Fuse::Navigation::EndSeekArgs::New1(1, 0.0f));
 
         __this->_currentNavigation = NULL;
     }
@@ -10993,7 +10899,7 @@ void SwipeNavigate__FuseInputIGestureOnLostCapture_fn(SwipeNavigate* __this, boo
     __this->_startedSeek = false;
 }
 
-// private Fuse.Input.GestureRequest Fuse.Input.IGesture.OnPointerMoved(Fuse.Input.PointerMovedArgs args) :251
+// private Fuse.Input.GestureRequest Fuse.Input.IGesture.OnPointerMoved(Fuse.Input.PointerMovedArgs args)
 void SwipeNavigate__FuseInputIGestureOnPointerMoved_fn(SwipeNavigate* __this, ::g::Fuse::Input::PointerMovedArgs* args, int32_t* __retval)
 {
     if (__this->_currentNavigation == NULL)
@@ -11003,12 +10909,12 @@ void SwipeNavigate__FuseInputIGestureOnPointerMoved_fn(SwipeNavigate* __this, ::
     ::g::Fuse::Motion::Simulation::PointerVelocity__AddSampleTime_fn(uPtr(__this->_velocity), uCRef(__this->_currentCoord), uCRef(args->Timestamp()), uCRef<int32_t>(uPtr(__this->_gesture)->IsHardCapture() ? 0 : 1));
 
     if (uPtr(__this->_gesture)->IsHardCapture())
-        ::g::Fuse::Navigation::ISeekableNavigation::Seek(uInterface(uPtr(__this->_currentNavigation), ::TYPES[37/*Fuse.Navigation.ISeekableNavigation*/]), __this->GetNavigationArgs());
+        ::g::Fuse::Navigation::ISeekableNavigation::Seek(uInterface(uPtr(__this->_currentNavigation), ::TYPES[36/*Fuse.Navigation.ISeekableNavigation*/]), __this->GetNavigationArgs());
 
     return *__retval = 1, void();
 }
 
-// private Fuse.Input.GestureRequest Fuse.Input.IGesture.OnPointerPressed(Fuse.Input.PointerPressedArgs args) :223
+// private Fuse.Input.GestureRequest Fuse.Input.IGesture.OnPointerPressed(Fuse.Input.PointerPressedArgs args)
 void SwipeNavigate__FuseInputIGestureOnPointerPressed_fn(SwipeNavigate* __this, ::g::Fuse::Input::PointerPressedArgs* args, int32_t* __retval)
 {
     __this->_startCoord = (__this->_currentCoord = uPtr(args)->WindowPoint());
@@ -11017,14 +10923,14 @@ void SwipeNavigate__FuseInputIGestureOnPointerPressed_fn(SwipeNavigate* __this, 
 
     if (__this->_currentNavigation == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(::STRINGS[50/*"SwipeNaviga...*/], __this, ::STRINGS[51/*"/usr/local/...*/], 230, ::STRINGS[52/*"Fuse.Input....*/]);
+        ::g::Fuse::Diagnostics::InternalError(::STRINGS[50/*"SwipeNaviga...*/], __this, ::STRINGS[51/*"/Users/antt...*/], 230, ::STRINGS[52/*"Fuse.Input....*/]);
         return *__retval = 0, void();
     }
 
     return *__retval = 1, void();
 }
 
-// private Fuse.Input.GestureRequest Fuse.Input.IGesture.OnPointerReleased(Fuse.Input.PointerReleasedArgs args) :266
+// private Fuse.Input.GestureRequest Fuse.Input.IGesture.OnPointerReleased(Fuse.Input.PointerReleasedArgs args)
 void SwipeNavigate__FuseInputIGestureOnPointerReleased_fn(SwipeNavigate* __this, ::g::Fuse::Input::PointerReleasedArgs* args, int32_t* __retval)
 {
     __this->_currentCoord = uPtr(args)->WindowPoint();
@@ -11032,58 +10938,58 @@ void SwipeNavigate__FuseInputIGestureOnPointerReleased_fn(SwipeNavigate* __this,
 
     if (uPtr(__this->_gesture)->IsHardCapture() && (__this->_currentNavigation != NULL))
     {
-        ::g::Fuse::Navigation::ISeekableNavigation::EndSeek(uInterface(uPtr(__this->_currentNavigation), ::TYPES[37/*Fuse.Navigation.ISeekableNavigation*/]), ::g::Fuse::Navigation::EndSeekArgs::New1(__this->DetermineSnap(), __this->ProgressVelocity()));
+        ::g::Fuse::Navigation::ISeekableNavigation::EndSeek(uInterface(uPtr(__this->_currentNavigation), ::TYPES[36/*Fuse.Navigation.ISeekableNavigation*/]), ::g::Fuse::Navigation::EndSeekArgs::New1(__this->DetermineSnap(), __this->ProgressVelocity()));
         __this->_currentNavigation = NULL;
     }
 
     return *__retval = 2, void();
 }
 
-// private Fuse.Input.GesturePriorityConfig Fuse.Input.IGesture.get_Priority() :215
+// private Fuse.Input.GesturePriorityConfig Fuse.Input.IGesture.get_Priority()
 void SwipeNavigate__FuseInputIGestureget_Priority_fn(SwipeNavigate* __this, ::g::Fuse::Input::GesturePriorityConfig* __retval)
 {
     ::g::Uno::Float2 diff = ::g::Uno::Float2__op_Subtraction2(__this->_currentCoord, __this->_startCoord);
     return *__retval = ::g::Fuse::Input::GesturePriorityConfig__New1(1, ::g::Fuse::Input::Gesture::VectorSignificance(__this->Direction(), diff), 0), void();
 }
 
-// private Fuse.Navigation.UpdateSeekArgs GetNavigationArgs() :331
+// private Fuse.Navigation.UpdateSeekArgs GetNavigationArgs()
 void SwipeNavigate__GetNavigationArgs_fn(SwipeNavigate* __this, ::g::Fuse::Navigation::UpdateSeekArgs** __retval)
 {
     *__retval = __this->GetNavigationArgs();
 }
 
-// private Fuse.Navigation.SwipeDirection Invert(Fuse.Navigation.SwipeDirection sd) :138
+// private Fuse.Navigation.SwipeDirection Invert(Fuse.Navigation.SwipeDirection sd)
 void SwipeNavigate__Invert_fn(SwipeNavigate* __this, int32_t* sd, int32_t* __retval)
 {
     *__retval = __this->Invert(*sd);
 }
 
-// private bool get_IsHorizontal() :181
+// private bool get_IsHorizontal()
 void SwipeNavigate__get_IsHorizontal_fn(SwipeNavigate* __this, bool* __retval)
 {
     *__retval = __this->IsHorizontal();
 }
 
-// private Fuse.Navigation.ISeekableNavigation get_Navigation() :93
+// private Fuse.Navigation.ISeekableNavigation get_Navigation()
 void SwipeNavigate__get_Navigation_fn(SwipeNavigate* __this, uObject** __retval)
 {
     *__retval = __this->Navigation();
 }
 
-// public SwipeNavigate New() :196
+// public SwipeNavigate New()
 void SwipeNavigate__New2_fn(SwipeNavigate** __retval)
 {
     *__retval = SwipeNavigate::New2();
 }
 
-// protected override sealed void OnRooted() :103
+// protected override sealed void OnRooted()
 void SwipeNavigate__OnRooted_fn(SwipeNavigate* __this)
 {
     ::g::Fuse::Node__OnRooted_fn(__this);
     __this->_gesture = ::g::Fuse::Input::Gestures::Add((uObject*)__this, __this->Parent(), 1);
 }
 
-// protected override sealed void OnUnrooted() :110
+// protected override sealed void OnUnrooted()
 void SwipeNavigate__OnUnrooted_fn(SwipeNavigate* __this)
 {
     uPtr(__this->_gesture)->Dispose();
@@ -11091,37 +10997,37 @@ void SwipeNavigate__OnUnrooted_fn(SwipeNavigate* __this)
     ::g::Fuse::Node__OnUnrooted_fn(__this);
 }
 
-// private float get_ProgressVelocity() :306
+// private float get_ProgressVelocity()
 void SwipeNavigate__get_ProgressVelocity_fn(SwipeNavigate* __this, float* __retval)
 {
     *__retval = __this->ProgressVelocity();
 }
 
-// private float2 get_Scale() :283
+// private float2 get_Scale()
 void SwipeNavigate__get_Scale_fn(SwipeNavigate* __this, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->Scale();
 }
 
-// public Fuse.Navigation.SwipeDirection get_SwipeDirection() :134
+// public Fuse.Navigation.SwipeDirection get_SwipeDirection()
 void SwipeNavigate__get_SwipeDirection_fn(SwipeNavigate* __this, int32_t* __retval)
 {
     *__retval = __this->SwipeDirection();
 }
 
-// public void set_SwipeDirection(Fuse.Navigation.SwipeDirection value) :135
+// public void set_SwipeDirection(Fuse.Navigation.SwipeDirection value)
 void SwipeNavigate__set_SwipeDirection_fn(SwipeNavigate* __this, int32_t* value)
 {
     __this->SwipeDirection(*value);
 }
 
-// public generated float get_VelocityThreshold() :150
+// public generated float get_VelocityThreshold()
 void SwipeNavigate__get_VelocityThreshold_fn(SwipeNavigate* __this, float* __retval)
 {
     *__retval = __this->VelocityThreshold();
 }
 
-// public generated void set_VelocityThreshold(float value) :150
+// public generated void set_VelocityThreshold(float value)
 void SwipeNavigate__set_VelocityThreshold_fn(SwipeNavigate* __this, float* value)
 {
     __this->VelocityThreshold(*value);
@@ -11130,29 +11036,29 @@ void SwipeNavigate__set_VelocityThreshold_fn(SwipeNavigate* __this, float* value
 float SwipeNavigate::elasticDecay_;
 float SwipeNavigate::elasticScale_;
 
-// public SwipeNavigate() [instance] :196
+// public SwipeNavigate() [instance]
 void SwipeNavigate::ctor_3()
 {
-    _velocity = ((::g::Fuse::Motion::Simulation::PointerVelocity*)::g::Fuse::Motion::Simulation::PointerVelocity::New1(::TYPES[36/*Fuse.Motion.Simulation.PointerVelocity<float2>*/]));
+    _velocity = ((::g::Fuse::Motion::Simulation::PointerVelocity*)::g::Fuse::Motion::Simulation::PointerVelocity::New1(::TYPES[35/*Fuse.Motion.Simulation.PointerVelocity<float2>*/]));
     _forwardDirection = 1;
     _swipeAllow = 3;
     ctor_2();
     VelocityThreshold(300.0f);
 }
 
-// public Fuse.Navigation.AllowedNavigationDirections get_AllowedDirections() [instance] :327
+// public Fuse.Navigation.AllowedNavigationDirections get_AllowedDirections() [instance]
 int32_t SwipeNavigate::AllowedDirections()
 {
     return _swipeAllow;
 }
 
-// public void set_AllowedDirections(Fuse.Navigation.AllowedNavigationDirections value) [instance] :328
+// public void set_AllowedDirections(Fuse.Navigation.AllowedNavigationDirections value) [instance]
 void SwipeNavigate::AllowedDirections(int32_t value)
 {
     _swipeAllow = value;
 }
 
-// private Fuse.Navigation.SnapTo DetermineSnap() [instance] :387
+// private Fuse.Navigation.SnapTo DetermineSnap() [instance]
 int32_t SwipeNavigate::DetermineSnap()
 {
     ::g::Uno::Float2 ret2;
@@ -11173,37 +11079,37 @@ int32_t SwipeNavigate::DetermineSnap()
     return q;
 }
 
-// private float2 get_Direction() [instance] :188
+// private float2 get_Direction() [instance]
 ::g::Uno::Float2 SwipeNavigate::Direction()
 {
     return IsHorizontal() ? ::g::Uno::Float2__New2(1.0f, 0.0f) : ::g::Uno::Float2__New2(0.0f, 1.0f);
 }
 
-// private float2 get_Distance() [instance] :296
+// private float2 get_Distance() [instance]
 ::g::Uno::Float2 SwipeNavigate::Distance()
 {
     return ::g::Uno::Float2__op_Subtraction2(_currentCoord, _startCoord);
 }
 
-// private double get_ElapsedTime() [instance] :301
+// private double get_ElapsedTime() [instance]
 double SwipeNavigate::ElapsedTime()
 {
     return ::g::Fuse::Time::FrameTime() - _startTime;
 }
 
-// public Fuse.Navigation.SwipeDirection get_ForwardDirection() [instance] :124
+// public Fuse.Navigation.SwipeDirection get_ForwardDirection() [instance]
 int32_t SwipeNavigate::ForwardDirection()
 {
     return _forwardDirection;
 }
 
-// public void set_ForwardDirection(Fuse.Navigation.SwipeDirection value) [instance] :125
+// public void set_ForwardDirection(Fuse.Navigation.SwipeDirection value) [instance]
 void SwipeNavigate::ForwardDirection(int32_t value)
 {
     _forwardDirection = value;
 }
 
-// private Fuse.Navigation.UpdateSeekArgs GetNavigationArgs() [instance] :331
+// private Fuse.Navigation.UpdateSeekArgs GetNavigationArgs() [instance]
 ::g::Fuse::Navigation::UpdateSeekArgs* SwipeNavigate::GetNavigationArgs()
 {
     float distance, scale;
@@ -11239,7 +11145,7 @@ void SwipeNavigate::ForwardDirection(int32_t value)
     return ::g::Fuse::Navigation::UpdateSeekArgs::New1(delta, clampDistance, scale, ElapsedTime());
 }
 
-// private Fuse.Navigation.SwipeDirection Invert(Fuse.Navigation.SwipeDirection sd) [instance] :138
+// private Fuse.Navigation.SwipeDirection Invert(Fuse.Navigation.SwipeDirection sd) [instance]
 int32_t SwipeNavigate::Invert(int32_t sd)
 {
     switch (sd)
@@ -11257,19 +11163,19 @@ int32_t SwipeNavigate::Invert(int32_t sd)
     return 1;
 }
 
-// private bool get_IsHorizontal() [instance] :181
+// private bool get_IsHorizontal() [instance]
 bool SwipeNavigate::IsHorizontal()
 {
     return (ForwardDirection() == 1) || (ForwardDirection() == 0);
 }
 
-// private Fuse.Navigation.ISeekableNavigation get_Navigation() [instance] :93
+// private Fuse.Navigation.ISeekableNavigation get_Navigation() [instance]
 uObject* SwipeNavigate::Navigation()
 {
-    return uAs<uObject*>(::g::Fuse::Navigation::Navigation::TryFindBaseNavigation(ContextParent()), ::TYPES[37/*Fuse.Navigation.ISeekableNavigation*/]);
+    return uAs<uObject*>(::g::Fuse::Navigation::Navigation::TryFindBaseNavigation(ContextParent()), ::TYPES[36/*Fuse.Navigation.ISeekableNavigation*/]);
 }
 
-// private float get_ProgressVelocity() [instance] :306
+// private float get_ProgressVelocity() [instance]
 float SwipeNavigate::ProgressVelocity()
 {
     ::g::Uno::Float2 ret4;
@@ -11292,13 +11198,13 @@ float SwipeNavigate::ProgressVelocity()
     return 0.0f;
 }
 
-// private float2 get_Scale() [instance] :283
+// private float2 get_Scale() [instance]
 ::g::Uno::Float2 SwipeNavigate::Scale()
 {
     if (_lengthNode != NULL)
         return uPtr(_lengthNode)->ActualSize();
 
-    ::g::Fuse::Elements::Element* e = uAs< ::g::Fuse::Elements::Element*>(Parent(), ::TYPES[4/*Fuse.Elements.Element*/]);
+    ::g::Fuse::Elements::Element* e = uAs< ::g::Fuse::Elements::Element*>(Parent(), ::TYPES[3/*Fuse.Elements.Element*/]);
 
     if (e == NULL)
         return ::g::Uno::Float2__New1(1.0f);
@@ -11306,31 +11212,31 @@ float SwipeNavigate::ProgressVelocity()
     return uPtr(e)->ActualSize();
 }
 
-// public Fuse.Navigation.SwipeDirection get_SwipeDirection() [instance] :134
+// public Fuse.Navigation.SwipeDirection get_SwipeDirection() [instance]
 int32_t SwipeNavigate::SwipeDirection()
 {
     return Invert(ForwardDirection());
 }
 
-// public void set_SwipeDirection(Fuse.Navigation.SwipeDirection value) [instance] :135
+// public void set_SwipeDirection(Fuse.Navigation.SwipeDirection value) [instance]
 void SwipeNavigate::SwipeDirection(int32_t value)
 {
     ForwardDirection(Invert(value));
 }
 
-// public generated float get_VelocityThreshold() [instance] :150
+// public generated float get_VelocityThreshold() [instance]
 float SwipeNavigate::VelocityThreshold()
 {
     return _VelocityThreshold;
 }
 
-// public generated void set_VelocityThreshold(float value) [instance] :150
+// public generated void set_VelocityThreshold(float value) [instance]
 void SwipeNavigate::VelocityThreshold(float value)
 {
     _VelocityThreshold = value;
 }
 
-// public SwipeNavigate New() [static] :196
+// public SwipeNavigate New() [static]
 SwipeNavigate* SwipeNavigate::New2()
 {
     SwipeNavigate* obj1 = (SwipeNavigate*)uNew(SwipeNavigate_typeof());
@@ -11339,10 +11245,10 @@ SwipeNavigate* SwipeNavigate::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/SwipeNavigate.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/SwipeNavigate.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class UpdateSeekArgs :12
+// internal sealed class UpdateSeekArgs
 // {
 static void UpdateSeekArgs_build(uType* type)
 {
@@ -11367,49 +11273,49 @@ uType* UpdateSeekArgs_typeof()
     return type;
 }
 
-// public UpdateSeekArgs(float delta, float distance, float scale, double time) :30
+// public UpdateSeekArgs(float delta, float distance, float scale, double time)
 void UpdateSeekArgs__ctor__fn(UpdateSeekArgs* __this, float* delta, float* distance, float* scale, double* time)
 {
     __this->ctor_(*delta, *distance, *scale, *time);
 }
 
-// public generated float get_Delta() :14
+// public generated float get_Delta()
 void UpdateSeekArgs__get_Delta_fn(UpdateSeekArgs* __this, float* __retval)
 {
     *__retval = __this->Delta();
 }
 
-// private generated void set_Delta(float value) :14
+// private generated void set_Delta(float value)
 void UpdateSeekArgs__set_Delta_fn(UpdateSeekArgs* __this, float* value)
 {
     __this->Delta(*value);
 }
 
-// public generated float get_Distance() :15
+// public generated float get_Distance()
 void UpdateSeekArgs__get_Distance_fn(UpdateSeekArgs* __this, float* __retval)
 {
     *__retval = __this->Distance();
 }
 
-// private generated void set_Distance(float value) :15
+// private generated void set_Distance(float value)
 void UpdateSeekArgs__set_Distance_fn(UpdateSeekArgs* __this, float* value)
 {
     __this->Distance(*value);
 }
 
-// public UpdateSeekArgs New(float delta, float distance, float scale, double time) :30
+// public UpdateSeekArgs New(float delta, float distance, float scale, double time)
 void UpdateSeekArgs__New1_fn(float* delta, float* distance, float* scale, double* time, UpdateSeekArgs** __retval)
 {
     *__retval = UpdateSeekArgs::New1(*delta, *distance, *scale, *time);
 }
 
-// public float get_RelativeDelta() :19
+// public float get_RelativeDelta()
 void UpdateSeekArgs__get_RelativeDelta_fn(UpdateSeekArgs* __this, float* __retval)
 {
     *__retval = __this->RelativeDelta();
 }
 
-// public UpdateSeekArgs(float delta, float distance, float scale, double time) [instance] :30
+// public UpdateSeekArgs(float delta, float distance, float scale, double time) [instance]
 void UpdateSeekArgs::ctor_(float delta, float distance, float scale, double time)
 {
     Delta(delta);
@@ -11418,37 +11324,37 @@ void UpdateSeekArgs::ctor_(float delta, float distance, float scale, double time
     _time = time;
 }
 
-// public generated float get_Delta() [instance] :14
+// public generated float get_Delta() [instance]
 float UpdateSeekArgs::Delta()
 {
     return _Delta;
 }
 
-// private generated void set_Delta(float value) [instance] :14
+// private generated void set_Delta(float value) [instance]
 void UpdateSeekArgs::Delta(float value)
 {
     _Delta = value;
 }
 
-// public generated float get_Distance() [instance] :15
+// public generated float get_Distance() [instance]
 float UpdateSeekArgs::Distance()
 {
     return _Distance;
 }
 
-// private generated void set_Distance(float value) [instance] :15
+// private generated void set_Distance(float value) [instance]
 void UpdateSeekArgs::Distance(float value)
 {
     _Distance = value;
 }
 
-// public float get_RelativeDelta() [instance] :19
+// public float get_RelativeDelta() [instance]
 float UpdateSeekArgs::RelativeDelta()
 {
     return Delta() / _scale;
 }
 
-// public UpdateSeekArgs New(float delta, float distance, float scale, double time) [static] :30
+// public UpdateSeekArgs New(float delta, float distance, float scale, double time) [static]
 UpdateSeekArgs* UpdateSeekArgs::New1(float delta, float distance, float scale, double time)
 {
     UpdateSeekArgs* obj1 = (UpdateSeekArgs*)uNew(UpdateSeekArgs_typeof());
@@ -11457,17 +11363,17 @@ UpdateSeekArgs* UpdateSeekArgs::New1(float delta, float distance, float scale, d
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/VisualNavigation.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/VisualNavigation.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public interfacemodifiers class VisualNavigation :11
+// public interfacemodifiers class VisualNavigation
 // {
-// static VisualNavigation() :13
+// static VisualNavigation()
 static void VisualNavigation__cctor_1_fn(uType* __type)
 {
     ::g::Fuse::Scripting::ScriptClass_typeof()->Init();
-    VisualNavigation::ActiveIndexName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[53/*"ActiveIndex"*/]);
-    ::g::Fuse::Scripting::ScriptClass::Register(__type, uArray::Init< ::g::Fuse::Scripting::ScriptMember*>(::TYPES[40/*Fuse.Scripting.ScriptMember[]*/], 1, (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::TYPES[41/*Fuse.Scripting.ScriptMethod<Fuse.Navigation.VisualNavigation>*/], ::STRINGS[54/*"goto"*/], uDelegate::New(::TYPES[42/*Uno.Action<Fuse.Navigation.VisualNavigation, object[]>*/], (void*)VisualNavigation__gotoNode_fn))));
+    VisualNavigation::ActiveIndexName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[53/*"ActiveIndex"*/]);
+    ::g::Fuse::Scripting::ScriptClass::Register(__type, uArray::Init< ::g::Fuse::Scripting::ScriptMember*>(::TYPES[39/*Fuse.Scripting.ScriptMember[]*/], 1, (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::TYPES[40/*Fuse.Scripting.ScriptMethod<Fuse.Navigation.VisualNavigation>*/], ::STRINGS[54/*"goto"*/], uDelegate::New(::TYPES[41/*Uno.Action<Fuse.Navigation.VisualNavigation, object[]>*/], (void*)VisualNavigation__gotoNode_fn))));
 }
 
 static void VisualNavigation_build(uType* type)
@@ -11475,23 +11381,22 @@ static void VisualNavigation_build(uType* type)
     ::STRINGS[53] = uString::Const("ActiveIndex");
     ::STRINGS[54] = uString::Const("goto");
     ::STRINGS[55] = uString::Const("Navigation.goto() : Argument must be a node object");
-    ::STRINGS[56] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/VisualNavigation.uno");
+    ::STRINGS[56] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/VisualNavigation.uno");
     ::STRINGS[57] = uString::Const("gotoNode");
-    ::TYPES[39] = ::g::Uno::Type_typeof();
-    ::TYPES[40] = ::g::Fuse::Scripting::ScriptMember_typeof()->Array();
-    ::TYPES[41] = ::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(type, NULL);
-    ::TYPES[42] = ::g::Uno::Action2_typeof()->MakeType(type, uObject_typeof()->Array(), NULL);
-    ::TYPES[43] = ::g::Uno::Collections::List_typeof()->MakeType(::g::Fuse::Navigation::PageData_typeof(), NULL);
-    ::TYPES[8] = ::g::Fuse::Visual_typeof();
-    ::TYPES[44] = ::g::Uno::UX::ValueChangedArgs_typeof()->MakeType(::g::Fuse::Navigation::NavigationState_typeof(), NULL);
-    ::TYPES[45] = ::TYPES[8/*Fuse.Visual*/]->MakeMethod(2/*FirstChild<Fuse.Visual>*/, ::TYPES[8/*Fuse.Visual*/], NULL);
-    ::TYPES[46] = ::g::Fuse::Node_typeof()->MakeMethod(3/*NextSibling<Fuse.Visual>*/, ::TYPES[8/*Fuse.Visual*/], NULL);
-    ::TYPES[47] = ::g::Fuse::Navigation::ActivePageChangedHandler_typeof();
-    ::TYPES[48] = ::g::Fuse::Navigation::HistoryChangedHandler_typeof();
-    ::TYPES[30] = ::g::Fuse::Navigation::NavigatedHandler_typeof();
-    ::TYPES[49] = ::g::Fuse::Navigation::NavigationPageCountHandler_typeof();
-    ::TYPES[21] = ::g::Fuse::Navigation::NavigationHandler_typeof();
-    ::TYPES[50] = ::g::Uno::UX::ValueChangedHandler_typeof()->MakeType(::g::Fuse::Navigation::NavigationState_typeof(), NULL);
+    ::TYPES[38] = ::g::Uno::Type_typeof();
+    ::TYPES[39] = ::g::Fuse::Scripting::ScriptMember_typeof()->Array();
+    ::TYPES[40] = ::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(type, NULL);
+    ::TYPES[41] = ::g::Uno::Action2_typeof()->MakeType(type, uObject_typeof()->Array(), NULL);
+    ::TYPES[7] = ::g::Fuse::Visual_typeof();
+    ::TYPES[42] = ::g::Uno::UX::ValueChangedArgs_typeof()->MakeType(::g::Fuse::Navigation::NavigationState_typeof(), NULL);
+    ::TYPES[43] = ::TYPES[7/*Fuse.Visual*/]->MakeMethod(2/*FirstChild<Fuse.Visual>*/, ::TYPES[7/*Fuse.Visual*/], NULL);
+    ::TYPES[44] = ::g::Fuse::Node_typeof()->MakeMethod(3/*NextSibling<Fuse.Visual>*/, ::TYPES[7/*Fuse.Visual*/], NULL);
+    ::TYPES[45] = ::g::Fuse::Navigation::ActivePageChangedHandler_typeof();
+    ::TYPES[46] = ::g::Fuse::Navigation::HistoryChangedHandler_typeof();
+    ::TYPES[29] = ::g::Fuse::Navigation::NavigatedHandler_typeof();
+    ::TYPES[47] = ::g::Fuse::Navigation::NavigationPageCountHandler_typeof();
+    ::TYPES[20] = ::g::Fuse::Navigation::NavigationHandler_typeof();
+    ::TYPES[48] = ::g::Uno::UX::ValueChangedHandler_typeof()->MakeType(::g::Fuse::Navigation::NavigationState_typeof(), NULL);
     type->SetDependencies(
         ::g::Fuse::Navigation::Navigation_typeof(),
         ::g::Fuse::Navigation::PageData_typeof());
@@ -11508,13 +11413,13 @@ static void VisualNavigation_build(uType* type)
         ::g::Fuse::Navigation::IBaseNavigation_typeof(), offsetof(VisualNavigation_type, interface9));
     type->SetFields(17,
         ::g::Fuse::Navigation::NavigationState_typeof(), offsetof(VisualNavigation, _navState), 0,
-        ::TYPES[43/*Uno.Collections.List<Fuse.Navigation.PageData>*/], offsetof(VisualNavigation, _pages), 0,
-        ::TYPES[47/*Fuse.Navigation.ActivePageChangedHandler*/], offsetof(VisualNavigation, ActivePageChanged1), 0,
-        ::TYPES[48/*Fuse.Navigation.HistoryChangedHandler*/], offsetof(VisualNavigation, HistoryChanged1), 0,
-        ::TYPES[30/*Fuse.Navigation.NavigatedHandler*/], offsetof(VisualNavigation, Navigated1), 0,
-        ::TYPES[49/*Fuse.Navigation.NavigationPageCountHandler*/], offsetof(VisualNavigation, PageCountChanged1), 0,
-        ::TYPES[21/*Fuse.Navigation.NavigationHandler*/], offsetof(VisualNavigation, PageProgressChanged1), 0,
-        ::TYPES[50/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/], offsetof(VisualNavigation, StateChanged1), 0,
+        ::g::Uno::Collections::List_typeof()->MakeType(::g::Fuse::Navigation::PageData_typeof(), NULL), offsetof(VisualNavigation, _pages), 0,
+        ::TYPES[45/*Fuse.Navigation.ActivePageChangedHandler*/], offsetof(VisualNavigation, ActivePageChanged1), 0,
+        ::TYPES[46/*Fuse.Navigation.HistoryChangedHandler*/], offsetof(VisualNavigation, HistoryChanged1), 0,
+        ::TYPES[29/*Fuse.Navigation.NavigatedHandler*/], offsetof(VisualNavigation, Navigated1), 0,
+        ::TYPES[47/*Fuse.Navigation.NavigationPageCountHandler*/], offsetof(VisualNavigation, PageCountChanged1), 0,
+        ::TYPES[20/*Fuse.Navigation.NavigationHandler*/], offsetof(VisualNavigation, PageProgressChanged1), 0,
+        ::TYPES[48/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/], offsetof(VisualNavigation, StateChanged1), 0,
         ::g::Uno::UX::Selector_typeof(), (uintptr_t)&VisualNavigation::ActiveIndexName_, uFieldFlagsStatic);
 }
 
@@ -11583,61 +11488,55 @@ VisualNavigation_type* VisualNavigation_typeof()
     return type;
 }
 
-// internal VisualNavigation() :33
-void VisualNavigation__ctor_3_fn(VisualNavigation* __this)
-{
-    __this->ctor_3();
-}
-
-// public Fuse.Visual get_ActivePage() :214
+// public Fuse.Visual get_ActivePage()
 void VisualNavigation__get_ActivePage_fn(VisualNavigation* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->ActivePage();
 }
 
-// public generated void add_ActivePageChanged(Fuse.Navigation.ActivePageChangedHandler value) :101
+// public generated void add_ActivePageChanged(Fuse.Navigation.ActivePageChangedHandler value)
 void VisualNavigation__add_ActivePageChanged_fn(VisualNavigation* __this, uDelegate* value)
 {
     __this->add_ActivePageChanged(value);
 }
 
-// public generated void remove_ActivePageChanged(Fuse.Navigation.ActivePageChangedHandler value) :101
+// public generated void remove_ActivePageChanged(Fuse.Navigation.ActivePageChangedHandler value)
 void VisualNavigation__remove_ActivePageChanged_fn(VisualNavigation* __this, uDelegate* value)
 {
     __this->remove_ActivePageChanged(value);
 }
 
-// public virtual bool get_CanGoBack() :125
+// public virtual bool get_CanGoBack()
 void VisualNavigation__get_CanGoBack_fn(VisualNavigation* __this, bool* __retval)
 {
     return *__retval = false, void();
 }
 
-// public virtual bool get_CanGoForward() :126
+// public virtual bool get_CanGoForward()
 void VisualNavigation__get_CanGoForward_fn(VisualNavigation* __this, bool* __retval)
 {
     return *__retval = false, void();
 }
 
-// public Fuse.Visual GetPage(int index) :207
+// public Fuse.Visual GetPage(int index)
 void VisualNavigation__GetPage_fn(VisualNavigation* __this, int32_t* index, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->GetPage(*index);
 }
 
-// internal Fuse.Navigation.PageData GetPageData(Fuse.Visual page) :134
+// internal Fuse.Navigation.PageData GetPageData(Fuse.Visual page)
 void VisualNavigation__GetPageData_fn(VisualNavigation* __this, ::g::Fuse::Visual* page, ::g::Fuse::Navigation::PageData** __retval)
 {
     *__retval = __this->GetPageData(page);
 }
 
-// protected int GetPageIndex(Fuse.Visual child) :221
+// protected int GetPageIndex(Fuse.Visual child)
 void VisualNavigation__GetPageIndex_fn(VisualNavigation* __this, ::g::Fuse::Visual* child, int32_t* __retval)
 {
     *__retval = __this->GetPageIndex(child);
 }
 
-// public virtual Fuse.Navigation.NavigationPageState GetPageState(Fuse.Visual page) :40
+// public virtual Fuse.Navigation.NavigationPageState GetPageState(Fuse.Visual page)
 void VisualNavigation__GetPageState_fn(VisualNavigation* __this, ::g::Fuse::Visual* page, ::g::Fuse::Navigation::NavigationPageState* __retval)
 {
     ::g::Fuse::Navigation::NavigationPageState collection1;
@@ -11658,62 +11557,62 @@ void VisualNavigation__GetPageState_fn(VisualNavigation* __this, ::g::Fuse::Visu
     return *__retval = collection2, void();
 }
 
-// public virtual void GoBack() :124
+// public virtual void GoBack()
 void VisualNavigation__GoBack_fn(VisualNavigation* __this)
 {
 }
 
-// public virtual void GoForward() :123
+// public virtual void GoForward()
 void VisualNavigation__GoForward_fn(VisualNavigation* __this)
 {
 }
 
-// private static void gotoNode(Fuse.Navigation.VisualNavigation nav, object[] args) :26
+// private static void gotoNode(Fuse.Navigation.VisualNavigation nav, object[] args)
 void VisualNavigation__gotoNode_fn(VisualNavigation* nav, uArray* args)
 {
     VisualNavigation::gotoNode(nav, args);
 }
 
-// protected bool get_HasPages() :218
+// protected bool get_HasPages()
 void VisualNavigation__get_HasPages_fn(VisualNavigation* __this, bool* __retval)
 {
     *__retval = __this->HasPages();
 }
 
-// public generated void add_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) :115
+// public generated void add_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value)
 void VisualNavigation__add_HistoryChanged_fn(VisualNavigation* __this, uDelegate* value)
 {
     __this->add_HistoryChanged(value);
 }
 
-// public generated void remove_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) :115
+// public generated void remove_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value)
 void VisualNavigation__remove_HistoryChanged_fn(VisualNavigation* __this, uDelegate* value)
 {
     __this->remove_HistoryChanged(value);
 }
 
-// public generated void add_Navigated(Fuse.Navigation.NavigatedHandler value) :87
+// public generated void add_Navigated(Fuse.Navigation.NavigatedHandler value)
 void VisualNavigation__add_Navigated_fn(VisualNavigation* __this, uDelegate* value)
 {
     __this->add_Navigated(value);
 }
 
-// public generated void remove_Navigated(Fuse.Navigation.NavigatedHandler value) :87
+// public generated void remove_Navigated(Fuse.Navigation.NavigatedHandler value)
 void VisualNavigation__remove_Navigated_fn(VisualNavigation* __this, uDelegate* value)
 {
     __this->remove_Navigated(value);
 }
 
-// protected void OnActiveChanged(Fuse.Visual newElement) :107
+// protected void OnActiveChanged(Fuse.Visual newElement)
 void VisualNavigation__OnActiveChanged_fn(VisualNavigation* __this, ::g::Fuse::Visual* newElement)
 {
     __this->OnActiveChanged(newElement);
 }
 
-// public virtual void OnChildAddedWhileRooted(Fuse.Node child) :173
+// public virtual void OnChildAddedWhileRooted(Fuse.Node child)
 void VisualNavigation__OnChildAddedWhileRooted_fn(VisualNavigation* __this, ::g::Fuse::Node* child)
 {
-    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[8/*Fuse.Visual*/]);
+    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[7/*Fuse.Visual*/]);
 
     if (v == NULL)
         return;
@@ -11721,16 +11620,16 @@ void VisualNavigation__OnChildAddedWhileRooted_fn(VisualNavigation* __this, ::g:
     __this->UpdatePages();
 }
 
-// public void OnChildMovedWhileRooted(Fuse.Node child) :191
+// public void OnChildMovedWhileRooted(Fuse.Node child)
 void VisualNavigation__OnChildMovedWhileRooted_fn(VisualNavigation* __this, ::g::Fuse::Node* child)
 {
     __this->OnChildMovedWhileRooted(child);
 }
 
-// public virtual void OnChildRemovedWhileRooted(Fuse.Node child) :182
+// public virtual void OnChildRemovedWhileRooted(Fuse.Node child)
 void VisualNavigation__OnChildRemovedWhileRooted_fn(VisualNavigation* __this, ::g::Fuse::Node* child)
 {
-    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[8/*Fuse.Visual*/]);
+    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[7/*Fuse.Visual*/]);
 
     if (v == NULL)
         return;
@@ -11738,116 +11637,116 @@ void VisualNavigation__OnChildRemovedWhileRooted_fn(VisualNavigation* __this, ::
     __this->UpdatePages();
 }
 
-// protected void OnHistoryChanged() :117
+// protected void OnHistoryChanged()
 void VisualNavigation__OnHistoryChanged_fn(VisualNavigation* __this)
 {
     __this->OnHistoryChanged();
 }
 
-// protected void OnNavigated(Fuse.Visual newElement) :92
+// protected void OnNavigated(Fuse.Visual newElement)
 void VisualNavigation__OnNavigated_fn(VisualNavigation* __this, ::g::Fuse::Visual* newElement)
 {
     __this->OnNavigated(newElement);
 }
 
-// protected void OnPageCountChanged() :68
+// protected void OnPageCountChanged()
 void VisualNavigation__OnPageCountChanged_fn(VisualNavigation* __this)
 {
     __this->OnPageCountChanged();
 }
 
-// protected void OnPageProgressChanged(double current, double prev, Fuse.Navigation.NavigationMode mode) :81
+// protected void OnPageProgressChanged(double current, double prev, Fuse.Navigation.NavigationMode mode)
 void VisualNavigation__OnPageProgressChanged_fn(VisualNavigation* __this, double* current, double* prev, int32_t* mode)
 {
     __this->OnPageProgressChanged(*current, *prev, *mode);
 }
 
-// protected void OnPageProgressChanged(Fuse.Navigation.NavigationMode mode) :76
+// protected void OnPageProgressChanged(Fuse.Navigation.NavigationMode mode)
 void VisualNavigation__OnPageProgressChanged1_fn(VisualNavigation* __this, int32_t* mode)
 {
     __this->OnPageProgressChanged1(*mode);
 }
 
-// protected override void OnRooted() :142
+// protected override void OnRooted()
 void VisualNavigation__OnRooted_fn(VisualNavigation* __this)
 {
     ::g::Fuse::Node__OnRooted_fn(__this);
     __this->UpdatePages();
 }
 
-// protected void OnStateChanged(Fuse.Navigation.NavigationState newState) :58
+// protected void OnStateChanged(Fuse.Navigation.NavigationState newState)
 void VisualNavigation__OnStateChanged_fn(VisualNavigation* __this, int32_t* newState)
 {
     __this->OnStateChanged(*newState);
 }
 
-// protected override void OnUnrooted() :167
+// protected override void OnUnrooted()
 void VisualNavigation__OnUnrooted_fn(VisualNavigation* __this)
 {
     uPtr(__this->_pages)->Clear();
     ::g::Fuse::Node__OnUnrooted_fn(__this);
 }
 
-// public int get_PageCount() :204
+// public int get_PageCount()
 void VisualNavigation__get_PageCount_fn(VisualNavigation* __this, int32_t* __retval)
 {
     *__retval = __this->PageCount();
 }
 
-// public generated void add_PageCountChanged(Fuse.Navigation.NavigationPageCountHandler value) :49
+// public generated void add_PageCountChanged(Fuse.Navigation.NavigationPageCountHandler value)
 void VisualNavigation__add_PageCountChanged_fn(VisualNavigation* __this, uDelegate* value)
 {
     __this->add_PageCountChanged(value);
 }
 
-// public generated void remove_PageCountChanged(Fuse.Navigation.NavigationPageCountHandler value) :49
+// public generated void remove_PageCountChanged(Fuse.Navigation.NavigationPageCountHandler value)
 void VisualNavigation__remove_PageCountChanged_fn(VisualNavigation* __this, uDelegate* value)
 {
     __this->remove_PageCountChanged(value);
 }
 
-// public generated void add_PageProgressChanged(Fuse.Navigation.NavigationHandler value) :74
+// public generated void add_PageProgressChanged(Fuse.Navigation.NavigationHandler value)
 void VisualNavigation__add_PageProgressChanged_fn(VisualNavigation* __this, uDelegate* value)
 {
     __this->add_PageProgressChanged(value);
 }
 
-// public generated void remove_PageProgressChanged(Fuse.Navigation.NavigationHandler value) :74
+// public generated void remove_PageProgressChanged(Fuse.Navigation.NavigationHandler value)
 void VisualNavigation__remove_PageProgressChanged_fn(VisualNavigation* __this, uDelegate* value)
 {
     __this->remove_PageProgressChanged(value);
 }
 
-// protected internal Uno.Collections.IList<Fuse.Navigation.PageData> get_Pages() :132
+// internal Uno.Collections.IList<Fuse.Navigation.PageData> get_Pages()
 void VisualNavigation__get_Pages_fn(VisualNavigation* __this, uObject** __retval)
 {
     *__retval = __this->Pages();
 }
 
-// public Fuse.Navigation.NavigationState get_State() :54
+// public Fuse.Navigation.NavigationState get_State()
 void VisualNavigation__get_State_fn(VisualNavigation* __this, int32_t* __retval)
 {
     *__retval = __this->State();
 }
 
-// public generated void add_StateChanged(Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState> value) :56
+// public generated void add_StateChanged(Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState> value)
 void VisualNavigation__add_StateChanged_fn(VisualNavigation* __this, uDelegate* value)
 {
     __this->add_StateChanged(value);
 }
 
-// public generated void remove_StateChanged(Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState> value) :56
+// public generated void remove_StateChanged(Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState> value)
 void VisualNavigation__remove_StateChanged_fn(VisualNavigation* __this, uDelegate* value)
 {
     __this->remove_StateChanged(value);
 }
 
-// public virtual void Toggle(Fuse.Visual page) :37
+// public virtual void Toggle(Fuse.Visual page)
 void VisualNavigation__Toggle_fn(VisualNavigation* __this, ::g::Fuse::Visual* page)
 {
 }
 
-// private void UpdatePages() :148
+// private void UpdatePages()
 void VisualNavigation__UpdatePages_fn(VisualNavigation* __this)
 {
     __this->UpdatePages();
@@ -11855,32 +11754,25 @@ void VisualNavigation__UpdatePages_fn(VisualNavigation* __this)
 
 ::g::Uno::UX::Selector VisualNavigation::ActiveIndexName_;
 
-// internal VisualNavigation() [instance] :33
-void VisualNavigation::ctor_3()
-{
-    _pages = ((::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[43/*Uno.Collections.List<Fuse.Navigation.PageData>*/]));
-    ctor_2();
-}
-
-// public Fuse.Visual get_ActivePage() [instance] :214
+// public Fuse.Visual get_ActivePage() [instance]
 ::g::Fuse::Visual* VisualNavigation::ActivePage()
 {
     return Active();
 }
 
-// public generated void add_ActivePageChanged(Fuse.Navigation.ActivePageChangedHandler value) [instance] :101
+// public generated void add_ActivePageChanged(Fuse.Navigation.ActivePageChangedHandler value) [instance]
 void VisualNavigation::add_ActivePageChanged(uDelegate* value)
 {
-    ActivePageChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(ActivePageChanged1, value), ::TYPES[47/*Fuse.Navigation.ActivePageChangedHandler*/]);
+    ActivePageChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(ActivePageChanged1, value), ::TYPES[45/*Fuse.Navigation.ActivePageChangedHandler*/]);
 }
 
-// public generated void remove_ActivePageChanged(Fuse.Navigation.ActivePageChangedHandler value) [instance] :101
+// public generated void remove_ActivePageChanged(Fuse.Navigation.ActivePageChangedHandler value) [instance]
 void VisualNavigation::remove_ActivePageChanged(uDelegate* value)
 {
-    ActivePageChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(ActivePageChanged1, value), ::TYPES[47/*Fuse.Navigation.ActivePageChangedHandler*/]);
+    ActivePageChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(ActivePageChanged1, value), ::TYPES[45/*Fuse.Navigation.ActivePageChangedHandler*/]);
 }
 
-// public Fuse.Visual GetPage(int index) [instance] :207
+// public Fuse.Visual GetPage(int index) [instance]
 ::g::Fuse::Visual* VisualNavigation::GetPage(int32_t index)
 {
     ::g::Fuse::Navigation::PageData* ret3;
@@ -11891,7 +11783,7 @@ void VisualNavigation::remove_ActivePageChanged(uDelegate* value)
     return uPtr((::g::Uno::Collections::List__get_Item_fn(uPtr(_pages), uCRef<int32_t>(index), &ret3), ret3))->Visual();
 }
 
-// internal Fuse.Navigation.PageData GetPageData(Fuse.Visual page) [instance] :134
+// internal Fuse.Navigation.PageData GetPageData(Fuse.Visual page) [instance]
 ::g::Fuse::Navigation::PageData* VisualNavigation::GetPageData(::g::Fuse::Visual* page)
 {
     if (page == NULL)
@@ -11900,7 +11792,7 @@ void VisualNavigation::remove_ActivePageChanged(uDelegate* value)
     return ::g::Fuse::Navigation::PageData::Get(page);
 }
 
-// protected int GetPageIndex(Fuse.Visual child) [instance] :221
+// protected int GetPageIndex(Fuse.Visual child) [instance]
 int32_t VisualNavigation::GetPageIndex(::g::Fuse::Visual* child)
 {
     ::g::Fuse::Navigation::PageData* pd = GetPageData(child);
@@ -11911,37 +11803,37 @@ int32_t VisualNavigation::GetPageIndex(::g::Fuse::Visual* child)
     return uPtr(pd)->Index;
 }
 
-// protected bool get_HasPages() [instance] :218
+// protected bool get_HasPages() [instance]
 bool VisualNavigation::HasPages()
 {
     return uPtr(_pages)->Count() > 0;
 }
 
-// public generated void add_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) [instance] :115
+// public generated void add_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) [instance]
 void VisualNavigation::add_HistoryChanged(uDelegate* value)
 {
-    HistoryChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(HistoryChanged1, value), ::TYPES[48/*Fuse.Navigation.HistoryChangedHandler*/]);
+    HistoryChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(HistoryChanged1, value), ::TYPES[46/*Fuse.Navigation.HistoryChangedHandler*/]);
 }
 
-// public generated void remove_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) [instance] :115
+// public generated void remove_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) [instance]
 void VisualNavigation::remove_HistoryChanged(uDelegate* value)
 {
-    HistoryChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(HistoryChanged1, value), ::TYPES[48/*Fuse.Navigation.HistoryChangedHandler*/]);
+    HistoryChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(HistoryChanged1, value), ::TYPES[46/*Fuse.Navigation.HistoryChangedHandler*/]);
 }
 
-// public generated void add_Navigated(Fuse.Navigation.NavigatedHandler value) [instance] :87
+// public generated void add_Navigated(Fuse.Navigation.NavigatedHandler value) [instance]
 void VisualNavigation::add_Navigated(uDelegate* value)
 {
-    Navigated1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Navigated1, value), ::TYPES[30/*Fuse.Navigation.NavigatedHandler*/]);
+    Navigated1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Navigated1, value), ::TYPES[29/*Fuse.Navigation.NavigatedHandler*/]);
 }
 
-// public generated void remove_Navigated(Fuse.Navigation.NavigatedHandler value) [instance] :87
+// public generated void remove_Navigated(Fuse.Navigation.NavigatedHandler value) [instance]
 void VisualNavigation::remove_Navigated(uDelegate* value)
 {
-    Navigated1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Navigated1, value), ::TYPES[30/*Fuse.Navigation.NavigatedHandler*/]);
+    Navigated1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Navigated1, value), ::TYPES[29/*Fuse.Navigation.NavigatedHandler*/]);
 }
 
-// protected void OnActiveChanged(Fuse.Visual newElement) [instance] :107
+// protected void OnActiveChanged(Fuse.Visual newElement) [instance]
 void VisualNavigation::OnActiveChanged(::g::Fuse::Visual* newElement)
 {
     OnPropertyChanged(VisualNavigation::ActiveIndexName_);
@@ -11950,10 +11842,10 @@ void VisualNavigation::OnActiveChanged(::g::Fuse::Visual* newElement)
         uPtr(ActivePageChanged1)->Invoke(2, this, newElement);
 }
 
-// public void OnChildMovedWhileRooted(Fuse.Node child) [instance] :191
+// public void OnChildMovedWhileRooted(Fuse.Node child) [instance]
 void VisualNavigation::OnChildMovedWhileRooted(::g::Fuse::Node* child)
 {
-    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[8/*Fuse.Visual*/]);
+    ::g::Fuse::Visual* v = uAs< ::g::Fuse::Visual*>(child, ::TYPES[7/*Fuse.Visual*/]);
 
     if (v == NULL)
         return;
@@ -11961,14 +11853,14 @@ void VisualNavigation::OnChildMovedWhileRooted(::g::Fuse::Node* child)
     UpdatePages();
 }
 
-// protected void OnHistoryChanged() [instance] :117
+// protected void OnHistoryChanged() [instance]
 void VisualNavigation::OnHistoryChanged()
 {
     if (::g::Uno::Delegate::op_Inequality(HistoryChanged1, NULL))
         uPtr(HistoryChanged1)->InvokeVoid(this);
 }
 
-// protected void OnNavigated(Fuse.Visual newElement) [instance] :92
+// protected void OnNavigated(Fuse.Visual newElement) [instance]
 void VisualNavigation::OnNavigated(::g::Fuse::Visual* newElement)
 {
     uDelegate* handler = Navigated1;
@@ -11977,27 +11869,27 @@ void VisualNavigation::OnNavigated(::g::Fuse::Visual* newElement)
         uPtr(handler)->Invoke(2, this, (::g::Fuse::Navigation::NavigatedArgs*)::g::Fuse::Navigation::NavigatedArgs::New2(newElement));
 }
 
-// protected void OnPageCountChanged() [instance] :68
+// protected void OnPageCountChanged() [instance]
 void VisualNavigation::OnPageCountChanged()
 {
     if (::g::Uno::Delegate::op_Inequality(PageCountChanged1, NULL))
         uPtr(PageCountChanged1)->InvokeVoid(this);
 }
 
-// protected void OnPageProgressChanged(double current, double prev, Fuse.Navigation.NavigationMode mode) [instance] :81
+// protected void OnPageProgressChanged(double current, double prev, Fuse.Navigation.NavigationMode mode) [instance]
 void VisualNavigation::OnPageProgressChanged(double current, double prev, int32_t mode)
 {
     if (::g::Uno::Delegate::op_Inequality(PageProgressChanged1, NULL))
         uPtr(PageProgressChanged1)->Invoke(2, this, (::g::Fuse::Navigation::NavigationArgs*)::g::Fuse::Navigation::NavigationArgs::New2(current, prev, mode));
 }
 
-// protected void OnPageProgressChanged(Fuse.Navigation.NavigationMode mode) [instance] :76
+// protected void OnPageProgressChanged(Fuse.Navigation.NavigationMode mode) [instance]
 void VisualNavigation::OnPageProgressChanged1(int32_t mode)
 {
     OnPageProgressChanged(0.0, 0.0, mode);
 }
 
-// protected void OnStateChanged(Fuse.Navigation.NavigationState newState) [instance] :58
+// protected void OnStateChanged(Fuse.Navigation.NavigationState newState) [instance]
 void VisualNavigation::OnStateChanged(int32_t newState)
 {
     ::g::Uno::UX::ValueChangedArgs* ret4;
@@ -12008,70 +11900,70 @@ void VisualNavigation::OnStateChanged(int32_t newState)
     _navState = newState;
 
     if (::g::Uno::Delegate::op_Inequality(StateChanged1, NULL))
-        uPtr(StateChanged1)->Invoke(2, this, (::g::Uno::UX::ValueChangedArgs__New2_fn(::TYPES[44/*Uno.UX.ValueChangedArgs<Fuse.Navigation.NavigationState>*/], uCRef<int32_t>(newState), &ret4), ret4));
+        uPtr(StateChanged1)->Invoke(2, this, (::g::Uno::UX::ValueChangedArgs__New2_fn(::TYPES[42/*Uno.UX.ValueChangedArgs<Fuse.Navigation.NavigationState>*/], uCRef<int32_t>(newState), &ret4), ret4));
 }
 
-// public int get_PageCount() [instance] :204
+// public int get_PageCount() [instance]
 int32_t VisualNavigation::PageCount()
 {
     return uPtr(_pages)->Count();
 }
 
-// public generated void add_PageCountChanged(Fuse.Navigation.NavigationPageCountHandler value) [instance] :49
+// public generated void add_PageCountChanged(Fuse.Navigation.NavigationPageCountHandler value) [instance]
 void VisualNavigation::add_PageCountChanged(uDelegate* value)
 {
-    PageCountChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(PageCountChanged1, value), ::TYPES[49/*Fuse.Navigation.NavigationPageCountHandler*/]);
+    PageCountChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(PageCountChanged1, value), ::TYPES[47/*Fuse.Navigation.NavigationPageCountHandler*/]);
 }
 
-// public generated void remove_PageCountChanged(Fuse.Navigation.NavigationPageCountHandler value) [instance] :49
+// public generated void remove_PageCountChanged(Fuse.Navigation.NavigationPageCountHandler value) [instance]
 void VisualNavigation::remove_PageCountChanged(uDelegate* value)
 {
-    PageCountChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(PageCountChanged1, value), ::TYPES[49/*Fuse.Navigation.NavigationPageCountHandler*/]);
+    PageCountChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(PageCountChanged1, value), ::TYPES[47/*Fuse.Navigation.NavigationPageCountHandler*/]);
 }
 
-// public generated void add_PageProgressChanged(Fuse.Navigation.NavigationHandler value) [instance] :74
+// public generated void add_PageProgressChanged(Fuse.Navigation.NavigationHandler value) [instance]
 void VisualNavigation::add_PageProgressChanged(uDelegate* value)
 {
-    PageProgressChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(PageProgressChanged1, value), ::TYPES[21/*Fuse.Navigation.NavigationHandler*/]);
+    PageProgressChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(PageProgressChanged1, value), ::TYPES[20/*Fuse.Navigation.NavigationHandler*/]);
 }
 
-// public generated void remove_PageProgressChanged(Fuse.Navigation.NavigationHandler value) [instance] :74
+// public generated void remove_PageProgressChanged(Fuse.Navigation.NavigationHandler value) [instance]
 void VisualNavigation::remove_PageProgressChanged(uDelegate* value)
 {
-    PageProgressChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(PageProgressChanged1, value), ::TYPES[21/*Fuse.Navigation.NavigationHandler*/]);
+    PageProgressChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(PageProgressChanged1, value), ::TYPES[20/*Fuse.Navigation.NavigationHandler*/]);
 }
 
-// protected internal Uno.Collections.IList<Fuse.Navigation.PageData> get_Pages() [instance] :132
+// internal Uno.Collections.IList<Fuse.Navigation.PageData> get_Pages() [instance]
 uObject* VisualNavigation::Pages()
 {
     return (uObject*)_pages;
 }
 
-// public Fuse.Navigation.NavigationState get_State() [instance] :54
+// public Fuse.Navigation.NavigationState get_State() [instance]
 int32_t VisualNavigation::State()
 {
     return _navState;
 }
 
-// public generated void add_StateChanged(Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState> value) [instance] :56
+// public generated void add_StateChanged(Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState> value) [instance]
 void VisualNavigation::add_StateChanged(uDelegate* value)
 {
-    StateChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(StateChanged1, value), ::TYPES[50/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/]);
+    StateChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(StateChanged1, value), ::TYPES[48/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/]);
 }
 
-// public generated void remove_StateChanged(Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState> value) [instance] :56
+// public generated void remove_StateChanged(Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState> value) [instance]
 void VisualNavigation::remove_StateChanged(uDelegate* value)
 {
-    StateChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(StateChanged1, value), ::TYPES[50/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/]);
+    StateChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(StateChanged1, value), ::TYPES[48/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/]);
 }
 
-// private void UpdatePages() [instance] :148
+// private void UpdatePages() [instance]
 void VisualNavigation::UpdatePages()
 {
     uPtr(_pages)->Clear();
     int32_t c = 0;
 
-    for (::g::Fuse::Visual* x = (::g::Fuse::Visual*)uPtr(Parent())->FirstChild(::TYPES[45/*Fuse.Visual.FirstChild<Fuse.Visual>*/]); x != NULL; x = (::g::Fuse::Visual*)uPtr(x)->NextSibling(::TYPES[46/*Fuse.Node.NextSibling<Fuse.Visual>*/]))
+    for (::g::Fuse::Visual* x = (::g::Fuse::Visual*)uPtr(Parent())->FirstChild(::TYPES[43/*Fuse.Visual.FirstChild<Fuse.Visual>*/]); x != NULL; x = (::g::Fuse::Visual*)uPtr(x)->NextSibling(::TYPES[44/*Fuse.Node.NextSibling<Fuse.Visual>*/]))
     {
         if (!::g::Fuse::Navigation::Navigation::IsPage(x))
             continue;
@@ -12085,31 +11977,31 @@ void VisualNavigation::UpdatePages()
     OnPageCountChanged();
 }
 
-// private static void gotoNode(Fuse.Navigation.VisualNavigation nav, object[] args) [static] :26
+// private static void gotoNode(Fuse.Navigation.VisualNavigation nav, object[] args) [static]
 void VisualNavigation::gotoNode(VisualNavigation* nav, uArray* args)
 {
     VisualNavigation_typeof()->Init();
-    ::g::Fuse::Visual* target = uAs< ::g::Fuse::Visual*>(uPtr(args)->Strong<uObject*>(0), ::TYPES[8/*Fuse.Visual*/]);
+    ::g::Fuse::Visual* target = uAs< ::g::Fuse::Visual*>(uPtr(args)->Strong<uObject*>(0), ::TYPES[7/*Fuse.Visual*/]);
 
     if (target != NULL)
         uPtr(nav)->Goto(target, 0);
     else
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[55/*"Navigation....*/], nav, ::STRINGS[56/*"/usr/local/...*/], 30, ::STRINGS[57/*"gotoNode"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[55/*"Navigation....*/], nav, ::STRINGS[56/*"/Users/antt...*/], 30, ::STRINGS[57/*"gotoNode"*/], NULL);
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/WhileNavigating.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/WhileNavigating.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public class WhileNavigating :31
+// public class WhileNavigating
 // {
 static void WhileNavigating_build(uType* type)
 {
     ::STRINGS[58] = uString::Const("WhileNavigating requires a Navigation context");
-    ::STRINGS[59] = uString::Const("/usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/WhileNavigating.uno");
+    ::STRINGS[59] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/WhileNavigating.uno");
     ::STRINGS[10] = uString::Const("OnRooted");
-    ::TYPES[1] = ::g::Fuse::Navigation::INavigation_typeof();
-    ::TYPES[50] = ::g::Uno::UX::ValueChangedHandler_typeof()->MakeType(::g::Fuse::Navigation::NavigationState_typeof(), NULL);
+    ::TYPES[0] = ::g::Fuse::Navigation::INavigation_typeof();
+    ::TYPES[48] = ::g::Uno::UX::ValueChangedHandler_typeof()->MakeType(::g::Fuse::Navigation::NavigationState_typeof(), NULL);
     type->SetDependencies(
         ::g::Fuse::Navigation::Navigation_typeof());
     type->SetInterfaces(
@@ -12123,7 +12015,7 @@ static void WhileNavigating_build(uType* type)
         ::g::Fuse::Animations::IUnwrappedPlayerFeedback_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface7),
         ::g::Fuse::Animations::IBasePlayerFeedback_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface8));
     type->SetFields(39,
-        ::TYPES[1/*Fuse.Navigation.INavigation*/], offsetof(WhileNavigating, _context), 0);
+        ::TYPES[0/*Fuse.Navigation.INavigation*/], offsetof(WhileNavigating, _context), 0);
 }
 
 ::g::Fuse::Triggers::Trigger_type* WhileNavigating_typeof()
@@ -12166,13 +12058,13 @@ static void WhileNavigating_build(uType* type)
     return type;
 }
 
-// public generated WhileNavigating() :31
+// public generated WhileNavigating()
 void WhileNavigating__ctor_6_fn(WhileNavigating* __this)
 {
     __this->ctor_6();
 }
 
-// protected override sealed void OnRooted() :35
+// protected override sealed void OnRooted()
 void WhileNavigating__OnRooted_fn(WhileNavigating* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
@@ -12180,39 +12072,39 @@ void WhileNavigating__OnRooted_fn(WhileNavigating* __this)
 
     if (__this->_context == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[58/*"WhileNaviga...*/], __this, ::STRINGS[59/*"/usr/local/...*/], 41, ::STRINGS[10/*"OnRooted"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[58/*"WhileNaviga...*/], __this, ::STRINGS[59/*"/Users/antt...*/], 41, ::STRINGS[10/*"OnRooted"*/], NULL);
         return;
     }
 
-    ::g::Fuse::Navigation::INavigation::add_StateChanged(uInterface(uPtr(__this->_context), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[50/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/], (void*)WhileNavigating__OnStateChanged_fn, __this));
-    __this->SetActive(::g::Fuse::Navigation::INavigation::State(uInterface(uPtr(__this->_context), ::TYPES[1/*Fuse.Navigation.INavigation*/])) != 0);
+    ::g::Fuse::Navigation::INavigation::add_StateChanged(uInterface(uPtr(__this->_context), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[48/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/], (void*)WhileNavigating__OnStateChanged_fn, __this));
+    __this->SetActive(::g::Fuse::Navigation::INavigation::State(uInterface(uPtr(__this->_context), ::TYPES[0/*Fuse.Navigation.INavigation*/])) != 0);
 }
 
-// private void OnStateChanged(object s, Uno.UX.ValueChangedArgs<Fuse.Navigation.NavigationState> args) :59
+// private void OnStateChanged(object s, Uno.UX.ValueChangedArgs<Fuse.Navigation.NavigationState> args)
 void WhileNavigating__OnStateChanged_fn(WhileNavigating* __this, uObject* s, ::g::Uno::UX::ValueChangedArgs* args)
 {
     __this->OnStateChanged(s, args);
 }
 
-// protected override sealed void OnUnrooted() :49
+// protected override sealed void OnUnrooted()
 void WhileNavigating__OnUnrooted_fn(WhileNavigating* __this)
 {
     if (__this->_context != NULL)
     {
-        ::g::Fuse::Navigation::INavigation::remove_StateChanged(uInterface(uPtr(__this->_context), ::TYPES[1/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[50/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/], (void*)WhileNavigating__OnStateChanged_fn, __this));
+        ::g::Fuse::Navigation::INavigation::remove_StateChanged(uInterface(uPtr(__this->_context), ::TYPES[0/*Fuse.Navigation.INavigation*/]), uDelegate::New(::TYPES[48/*Uno.UX.ValueChangedHandler<Fuse.Navigation.NavigationState>*/], (void*)WhileNavigating__OnStateChanged_fn, __this));
         __this->_context = NULL;
     }
 
     ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
 }
 
-// public generated WhileNavigating() [instance] :31
+// public generated WhileNavigating() [instance]
 void WhileNavigating::ctor_6()
 {
     ctor_5();
 }
 
-// private void OnStateChanged(object s, Uno.UX.ValueChangedArgs<Fuse.Navigation.NavigationState> args) [instance] :59
+// private void OnStateChanged(object s, Uno.UX.ValueChangedArgs<Fuse.Navigation.NavigationState> args) [instance]
 void WhileNavigating::OnStateChanged(uObject* s, ::g::Uno::UX::ValueChangedArgs* args)
 {
     int32_t ret2;

@@ -23,21 +23,21 @@ public class ViewGroup
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void AddView235(final Object parentHandle,final Object childHandle)
+    public static void AddView237(final Object parentHandle,final Object childHandle)
     {
         android.view.ViewGroup viewGroup = (android.view.ViewGroup)parentHandle;
         android.view.View childView = (android.view.View)childHandle;
         viewGroup.addView(childView);
     }
     
-    public static void AddView1236(final Object parentHandle,final Object childHandle,final int index)
+    public static void AddView1238(final Object parentHandle,final Object childHandle,final int index)
     {
         android.view.ViewGroup viewGroup = (android.view.ViewGroup)parentHandle;
         android.view.View childView = (android.view.View)childHandle;
         viewGroup.addView(childView, index);
     }
     
-    public static Object Create237()
+    public static Object Create239()
     {
         android.widget.FrameLayout frameLayout = new com.fuse.android.views.ViewGroup(com.fuse.Activity.getRootActivity());
         frameLayout.setFocusable(true);
@@ -46,7 +46,7 @@ public class ViewGroup
         return frameLayout;
     }
     
-    public static void RemoveView238(final Object parentHandle,final Object childHandle)
+    public static void RemoveView240(final Object parentHandle,final Object childHandle)
     {
         android.view.ViewGroup viewGroup = (android.view.ViewGroup)parentHandle;
         android.view.View childView = (android.view.View)childHandle;

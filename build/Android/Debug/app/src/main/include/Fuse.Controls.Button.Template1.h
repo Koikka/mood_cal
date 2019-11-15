@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/.uno/ux15/Fuse.Controls.Button.g.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/.uno/ux15/Fuse.Controls.Button.g.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public partial sealed class Button.Template1 :72
+// public partial sealed class Button.Template1
 // {
 ::g::Uno::UX::Template_type* Button__Template1_typeof();
 void Button__Template1__ctor_1_fn(Button__Template1* __this, ::g::Fuse::Controls::Button* parent, ::g::Fuse::Controls::Button* parentInstance);

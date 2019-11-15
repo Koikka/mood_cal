@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/V8SimpleExtensions.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/V8SimpleExtensions.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace Fuse{
 namespace Scripting{
 namespace V8{
 
-// internal static extern class Error :336
+// internal static extern class Error
 // {
 uClassType* Error_typeof();
 void Error__Check_fn(::JSContext** context, ::JSScriptException** err, uDelegate* handler);

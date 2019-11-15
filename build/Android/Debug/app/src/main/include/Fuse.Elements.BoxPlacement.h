@@ -1,16 +1,16 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/BoxSizing.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/BoxSizing.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Uno.Float2.h>
-#include <Uno.Object.h>
+#include <Uno.ValueType.h>
 namespace g{namespace Fuse{namespace Elements{struct BoxPlacement;}}}
 
 namespace g{
 namespace Fuse{
 namespace Elements{
 
-// public struct BoxPlacement :9
+// public struct BoxPlacement
 // {
 uStructType* BoxPlacement_typeof();
 void BoxPlacement__NoGood_fn(BoxPlacement* __this, float* value, bool* __retval);

@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileString.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhileString.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Animations.IBase-d3bd6f2e.h>
-#include <Fuse.Animations.IUnwr-594abe9.h>
+#include <Fuse.Animations.IBase-3168404.h>
+#include <Fuse.Animations.IUnwr-29908c99.h>
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
@@ -21,7 +21,7 @@ namespace g{
 namespace Fuse{
 namespace Triggers{
 
-// public sealed class WhileString :21
+// public sealed class WhileString
 // {
 ::g::Fuse::Triggers::WhileValue_type* WhileString_typeof();
 void WhileString__get_CaseSensitive_fn(WhileString* __this, bool* __retval);

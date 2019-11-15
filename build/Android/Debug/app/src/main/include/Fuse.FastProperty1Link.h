@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Visual.FastProperties1.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Visual.FastProperties1.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Fuse{struct FastProperty1Link;}}
 namespace g{
 namespace Fuse{
 
-// internal class FastProperty1Link :46
+// internal class FastProperty1Link
 // {
 uType* FastProperty1Link_typeof();
 void FastProperty1Link__ctor__fn(FastProperty1Link* __this, int32_t* p);

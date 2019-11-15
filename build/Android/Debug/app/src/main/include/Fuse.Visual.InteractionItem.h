@@ -1,14 +1,14 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Visual.Interacting.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Visual.Interacting.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Uno.Object.h>
+#include <Uno.ValueType.h>
 namespace g{namespace Fuse{struct Visual__InteractionItem;}}
 
 namespace g{
 namespace Fuse{
 
-// private struct Visual.InteractionItem :8
+// private struct Visual.InteractionItem
 // {
 uStructType* Visual__InteractionItem_typeof();
 

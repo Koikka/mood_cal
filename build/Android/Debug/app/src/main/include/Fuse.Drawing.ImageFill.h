@@ -1,11 +1,11 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Drawing/ImageFill.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Drawing/ImageFill.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Drawing.DynamicBrush.h>
-#include <Fuse.Drawing.ImageFil-1398d2ef.h>
+#include <Fuse.Drawing.ImageFil-b905dd3.h>
 #include <Fuse.ILoading.h>
-#include <Fuse.Internal.IImageC-c450902.h>
+#include <Fuse.Internal.IImageC-7a43a0be.h>
 #include <Fuse.Resources.IMemoryResource.h>
 #include <Uno.Float4.h>
 namespace g{namespace Fuse{namespace Drawing{struct ImageFill;}}}
@@ -23,7 +23,7 @@ namespace g{
 namespace Fuse{
 namespace Drawing{
 
-// public sealed class ImageFill :26
+// public sealed class ImageFill
 // {
 struct ImageFill_type : ::g::Fuse::Drawing::Brush_type
 {

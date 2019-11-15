@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Triggers/LayoutAnimation.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Triggers/LayoutAnimation.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -17,7 +17,7 @@ namespace g{
 namespace Fuse{
 namespace Triggers{
 
-// public static class LayoutTransition :24
+// public static class LayoutTransition
 // {
 uClassType* LayoutTransition_typeof();
 void LayoutTransition__GetPositionChange_fn(::g::Fuse::Node* n, ::g::Uno::Float2* oldPos, ::g::Uno::Float2* newPos, bool* __retval);

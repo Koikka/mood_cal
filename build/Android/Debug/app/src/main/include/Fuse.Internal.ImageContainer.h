@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Internal/ImageContainer.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Internal/ImageContainer.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -16,7 +16,7 @@ namespace g{
 namespace Fuse{
 namespace Internal{
 
-// internal sealed class ImageContainer :18
+// internal sealed class ImageContainer
 // {
 uType* ImageContainer_typeof();
 void ImageContainer__ctor__fn(ImageContainer* __this, uObject* owner);

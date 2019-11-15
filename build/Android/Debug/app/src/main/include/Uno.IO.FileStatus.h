@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/FileStatus.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/FileStatus.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Uno{
 namespace IO{
 
-// internal sealed class FileStatus :6
+// internal sealed class FileStatus
 // {
 uType* FileStatus_typeof();
 void FileStatus__ctor__fn(FileStatus* __this);

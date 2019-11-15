@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Testing/1.9.0/JavaScriptTest.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Testing/1.12.0/JavaScriptTest.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Testing{
 
-// public sealed class UnoTestingHelper :17
+// public sealed class UnoTestingHelper
 // {
 ::g::Fuse::Scripting::NativeModule_type* UnoTestingHelper_typeof();
 void UnoTestingHelper__ctor_2_fn(UnoTestingHelper* __this);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls/1.9.0/Viewport.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls/1.12.0/Viewport.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Elements{
 
-// public enum ViewportMode :11
+// public enum ViewportMode
 uEnumType* ViewportMode_typeof();
 
 }}} // ::g::Fuse::Elements

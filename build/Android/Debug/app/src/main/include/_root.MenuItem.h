@@ -15,7 +15,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -25,7 +25,7 @@ namespace g{struct MenuItem;}
 
 namespace g{
 
-// public partial class MenuItem :2
+// public partial class MenuItem
 // {
 ::g::Fuse::Controls::Panel_type* MenuItem_typeof();
 void MenuItem__ctor_7_fn(MenuItem* __this);

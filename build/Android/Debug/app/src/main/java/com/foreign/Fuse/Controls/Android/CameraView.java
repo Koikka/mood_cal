@@ -23,9 +23,9 @@ public class CameraView
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object Create307()
+    public static Object Create310()
     {
-        android.widget.FrameLayout frameLayout = new android.widget.FrameLayout(fi.samk.mood_cal.Kalenteri.GetRootActivity());
+        android.widget.FrameLayout frameLayout = new android.widget.FrameLayout(com.fuse.Activity.getRootActivity());
         frameLayout.setLayoutParams(new android.widget.FrameLayout.LayoutParams(android.view.ViewGroup.LayoutParams.MATCH_PARENT, android.view.ViewGroup.LayoutParams.MATCH_PARENT));
         return frameLayout;
     }

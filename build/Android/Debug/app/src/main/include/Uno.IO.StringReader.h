@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/StringReader.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/StringReader.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Uno{
 namespace IO{
 
-// public sealed class StringReader :6
+// public sealed class StringReader
 // {
 ::g::Uno::IO::TextReader_type* StringReader_typeof();
 void StringReader__ctor_1_fn(StringReader* __this, uString* text);

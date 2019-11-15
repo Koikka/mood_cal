@@ -4,7 +4,7 @@
 #include <Android.ActivityResultCallback.h>
 #include <Android.ActivityUtils.h>
 #include <Android.Base.Wrappers.JWrapper.h>
-#include <Android.Base.Wrappers-88f7a41f.h>
+#include <Android.Base.Wrappers-4c0b8613.h>
 #include <Android.Bootstrapper.h>
 #include <BootstrapperImpl_Android.h>
 #include <Java.Object.h>
@@ -12,7 +12,7 @@
 #include <Uno.Action3-3.h>
 #include <Uno.Bool.h>
 #include <Uno.Collections.Dictionary-2.h>
-#include <Uno.Compiler.ExportTa-39be7c2b.h>
+#include <Uno.Compiler.ExportTa-2429dd1f.h>
 #include <Uno.Delegate.h>
 #include <Uno.Int.h>
 #include <Uno.Object.h>
@@ -22,10 +22,10 @@ static uType* TYPES[3];
 namespace g{
 namespace Android{
 
-// /usr/local/share/uno/Packages/Android.ActivityUtils/1.9.0/ActivityUtils.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Android.ActivityUtils/1.12.0/ActivityUtils.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern delegate void ActivityResultCallback(int resultCode, Java.Object intent, object info) :9
+// public extern delegate void ActivityResultCallback(int resultCode, Java.Object intent, object info)
 uDelegateType* ActivityResultCallback_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -39,12 +39,12 @@ uDelegateType* ActivityResultCallback_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Android.ActivityUtils/1.9.0/ActivityUtils.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Android.ActivityUtils/1.12.0/ActivityUtils.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static extern class ActivityUtils :13
+// public static extern class ActivityUtils
 // {
-// static ActivityUtils() :21
+// static ActivityUtils()
 static void ActivityUtils__cctor__fn(uType* __type)
 {
     if (ActivityUtils::_intentListener_ == NULL)
@@ -82,37 +82,43 @@ uClassType* ActivityUtils_typeof()
     return type;
 }
 
-// private static Java.Object Init() :32
+// private static Java.Object Init()
 void ActivityUtils__Init_fn(::g::Java::Object** __retval)
 {
     *__retval = ActivityUtils::Init();
 }
 
-// private static bool OnReceived(int requestCode, int resultCode, Java.Object data) :76
+// private static bool OnReceived(int requestCode, int resultCode, Java.Object data)
 void ActivityUtils__OnReceived_fn(int32_t* requestCode, int32_t* resultCode, ::g::Java::Object* data, bool* __retval)
 {
     *__retval = ActivityUtils::OnReceived(*requestCode, *resultCode, data);
 }
 
-// public static generated void add_Results(Uno.Action<int, int, Java.Object> value) :19
+// public static generated void add_Results(Uno.Action<int, int, Java.Object> value)
 void ActivityUtils__add_Results_fn(uDelegate* value)
 {
     ActivityUtils::add_Results(value);
 }
 
-// public static generated void remove_Results(Uno.Action<int, int, Java.Object> value) :19
+// public static generated void remove_Results(Uno.Action<int, int, Java.Object> value)
 void ActivityUtils__remove_Results_fn(uDelegate* value)
 {
     ActivityUtils::remove_Results(value);
 }
 
-// public static void StartActivity(Java.Object intent, Android.ActivityResultCallback callback, object info) :61
+// public static void StartActivity(Java.Object intent, Android.ActivityResultCallback callback)
+void ActivityUtils__StartActivity1_fn(::g::Java::Object* intent, uDelegate* callback)
+{
+    ActivityUtils::StartActivity1(intent, callback);
+}
+
+// public static void StartActivity(Java.Object intent, Android.ActivityResultCallback callback, object info)
 void ActivityUtils__StartActivity2_fn(::g::Java::Object* intent, uDelegate* callback, uObject* info)
 {
     ActivityUtils::StartActivity2(intent, callback, info);
 }
 
-// private static void StartForResultJava(int id, Java.Object _intent) :70
+// private static void StartForResultJava(int id, Java.Object _intent)
 void ActivityUtils__StartForResultJava_fn(int32_t* id, ::g::Java::Object* _intent)
 {
     ActivityUtils::StartForResultJava(*id, _intent);
@@ -124,7 +130,7 @@ uSStrong< ::g::Uno::Collections::Dictionary*> ActivityUtils::_pendingResults_;
 uSStrong< ::g::Uno::Collections::Dictionary*> ActivityUtils::_pendingInfos_;
 uSStrong<uDelegate*> ActivityUtils::Results1_;
 
-// private static Java.Object Init() [static] :32
+// private static Java.Object Init() [static]
 ::g::Java::Object* ActivityUtils::Init()
 {
     ActivityUtils_typeof()->Init();
@@ -140,7 +146,7 @@ uSStrong<uDelegate*> ActivityUtils::Results1_;
     
 }
 
-// private static bool OnReceived(int requestCode, int resultCode, Java.Object data) [static] :76
+// private static bool OnReceived(int requestCode, int resultCode, Java.Object data) [static]
 bool ActivityUtils::OnReceived(int32_t requestCode, int32_t resultCode, ::g::Java::Object* data)
 {
     ActivityUtils_typeof()->Init();
@@ -167,7 +173,14 @@ bool ActivityUtils::OnReceived(int32_t requestCode, int32_t resultCode, ::g::Jav
     return false;
 }
 
-// public static void StartActivity(Java.Object intent, Android.ActivityResultCallback callback, object info) [static] :61
+// public static void StartActivity(Java.Object intent, Android.ActivityResultCallback callback) [static]
+void ActivityUtils::StartActivity1(::g::Java::Object* intent, uDelegate* callback)
+{
+    ActivityUtils_typeof()->Init();
+    ActivityUtils::StartActivity2(intent, callback, NULL);
+}
+
+// public static void StartActivity(Java.Object intent, Android.ActivityResultCallback callback, object info) [static]
 void ActivityUtils::StartActivity2(::g::Java::Object* intent, uDelegate* callback, uObject* info)
 {
     ActivityUtils_typeof()->Init();
@@ -177,7 +190,7 @@ void ActivityUtils::StartActivity2(::g::Java::Object* intent, uDelegate* callbac
     ActivityUtils::StartForResultJava(ActivityUtils::_requestID_, intent);
 }
 
-// private static void StartForResultJava(int id, Java.Object _intent) [static] :70
+// private static void StartForResultJava(int id, Java.Object _intent) [static]
 void ActivityUtils::StartForResultJava(int32_t id, ::g::Java::Object* _intent)
 {
     ActivityUtils_typeof()->Init();
@@ -199,14 +212,14 @@ void ActivityUtils::StartForResultJava(int32_t id, ::g::Java::Object* _intent)
     
 }
 
-// public static generated void add_Results(Uno.Action<int, int, Java.Object> value) [static] :19
+// public static generated void add_Results(Uno.Action<int, int, Java.Object> value) [static]
 void ActivityUtils::add_Results(uDelegate* value)
 {
     ActivityUtils_typeof()->Init();
     ActivityUtils::Results1_ = uCast<uDelegate*>(::g::Uno::Delegate::Combine(ActivityUtils::Results1_, value), ::TYPES[2/*Uno.Action<int, int, Java.Object>*/]);
 }
 
-// public static generated void remove_Results(Uno.Action<int, int, Java.Object> value) [static] :19
+// public static generated void remove_Results(Uno.Action<int, int, Java.Object> value) [static]
 void ActivityUtils::remove_Results(uDelegate* value)
 {
     ActivityUtils_typeof()->Init();
@@ -214,10 +227,10 @@ void ActivityUtils::remove_Results(uDelegate* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Bootstrapper.uno
-// -------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Bootstrapper.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static extern class Bootstrapper :9
+// internal static extern class Bootstrapper
 // {
 static void Bootstrapper_build(uType* type)
 {
@@ -235,13 +248,13 @@ uClassType* Bootstrapper_typeof()
     return type;
 }
 
-// public static void _RegisterTypes() :11
+// public static void _RegisterTypes()
 void Bootstrapper___RegisterTypes_fn()
 {
     Bootstrapper::_RegisterTypes();
 }
 
-// public static void _RegisterTypes() [static] :11
+// public static void _RegisterTypes() [static]
 void Bootstrapper::_RegisterTypes()
 {
     ::BootstrapperImpl();

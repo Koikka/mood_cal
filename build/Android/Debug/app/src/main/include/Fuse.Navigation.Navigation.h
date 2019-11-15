@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Navigation.Locators.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Navigation.Locators.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// public interfacemodifiers class Navigation :17
+// public interfacemodifiers class Navigation
 // {
 uType* Navigation_typeof();
 void Navigation__GetLocalNavigation_fn(::g::Fuse::Visual* node, uObject** __retval);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive/1.9.0/IExpression.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive/1.12.0/IExpression.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public abstract interface IContext :20
+// public abstract interface IContext
 // {
 uInterfaceType* IContext_typeof();
 

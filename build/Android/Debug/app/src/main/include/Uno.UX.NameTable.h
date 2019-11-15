@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/NameTable.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/UX/NameTable.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Uno{
 namespace UX{
 
-// public sealed class NameTable :5
+// public sealed class NameTable
 // {
 uType* NameTable_typeof();
 void NameTable__ctor__fn(NameTable* __this, NameTable* parentTable, uArray* entries);

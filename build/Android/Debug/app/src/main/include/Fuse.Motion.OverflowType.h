@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/Enums.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Motion/1.12.0/Enums.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Motion{
 
-// public enum OverflowType :10
+// public enum OverflowType
 uEnumType* OverflowType_typeof();
 
 }}} // ::g::Fuse::Motion

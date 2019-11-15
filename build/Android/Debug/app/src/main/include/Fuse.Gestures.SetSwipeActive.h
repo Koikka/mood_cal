@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Swipe.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Gestures/1.12.0/Swipe.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.ISourceLocation.h>
-#include <Fuse.Triggers.Actions-fcab7e57.h>
+#include <Fuse.Triggers.Actions-16700ed8.h>
 namespace g{namespace Fuse{namespace Gestures{struct SetSwipeActive;}}}
 namespace g{namespace Fuse{namespace Gestures{struct SwipeGesture;}}}
 namespace g{namespace Fuse{struct Node;}}
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Gestures{
 
-// public sealed class SetSwipeActive :403
+// public sealed class SetSwipeActive
 // {
 ::g::Fuse::Triggers::Actions::TriggerAction_type* SetSwipeActive_typeof();
 void SetSwipeActive__get_Bypass_fn(SetSwipeActive* __this, bool* __retval);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.UserEvents/1.9.0/UserEvent.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.UserEvents/1.12.0/UserEvent.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{namespace Uno{namespace Collections{struct Dictionary;}}}
 namespace g{
 namespace Fuse{
 
-// internal sealed class UserEventDispatch :48
+// internal sealed class UserEventDispatch
 // {
 uType* UserEventDispatch_typeof();
 void UserEventDispatch__ctor__fn(UserEventDispatch* __this);

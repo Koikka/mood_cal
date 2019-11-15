@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Generic.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Generic.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Uno{struct Generic;}}
 namespace g{
 namespace Uno{
 
-// public static class Generic :7
+// public static class Generic
 // {
 uClassType* Generic_typeof();
 void Generic__Equals_fn(uType* __type, void* left, void* right, bool* __retval);

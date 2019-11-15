@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/ZonedDateTime.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Time/ZonedDateTime.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -14,7 +14,7 @@ namespace g{
 namespace Uno{
 namespace Time{
 
-// public sealed class ZonedDateTime :6
+// public sealed class ZonedDateTime
 // {
 uType* ZonedDateTime_typeof();
 void ZonedDateTime__ctor__fn(ZonedDateTime* __this, ::g::Uno::Time::Instant* instant, ::g::Uno::Time::DateTimeZone* zone);
@@ -29,10 +29,13 @@ void ZonedDateTime__get_LocalDateTime_fn(ZonedDateTime* __this, ::g::Uno::Time::
 void ZonedDateTime__get_Minute_fn(ZonedDateTime* __this, int32_t* __retval);
 void ZonedDateTime__get_Month_fn(ZonedDateTime* __this, int32_t* __retval);
 void ZonedDateTime__New1_fn(::g::Uno::Time::Instant* instant, ::g::Uno::Time::DateTimeZone* zone, ZonedDateTime** __retval);
+void ZonedDateTime__New2_fn(::g::Uno::Time::Instant* instant, ::g::Uno::Time::DateTimeZone* zone, ::g::Uno::Time::CalendarSystem* calendar, ZonedDateTime** __retval);
+void ZonedDateTime__get_Now_fn(ZonedDateTime** __retval);
 void ZonedDateTime__get_Offset_fn(ZonedDateTime* __this, ::g::Uno::Time::Offset* __retval);
 void ZonedDateTime__get_Second_fn(ZonedDateTime* __this, int32_t* __retval);
 void ZonedDateTime__ToInstant_fn(ZonedDateTime* __this, ::g::Uno::Time::Instant* __retval);
 void ZonedDateTime__ToString_fn(ZonedDateTime* __this, uString** __retval);
+void ZonedDateTime__WithZone_fn(ZonedDateTime* __this, ::g::Uno::Time::DateTimeZone* targetZone, ZonedDateTime** __retval);
 void ZonedDateTime__get_Year_fn(ZonedDateTime* __this, int32_t* __retval);
 void ZonedDateTime__get_Zone_fn(ZonedDateTime* __this, ::g::Uno::Time::DateTimeZone** __retval);
 
@@ -54,9 +57,12 @@ struct ZonedDateTime : uObject
     ::g::Uno::Time::Offset Offset();
     int32_t Second();
     ::g::Uno::Time::Instant ToInstant();
+    ZonedDateTime* WithZone(::g::Uno::Time::DateTimeZone* targetZone);
     int32_t Year();
     ::g::Uno::Time::DateTimeZone* Zone();
     static ZonedDateTime* New1(::g::Uno::Time::Instant instant, ::g::Uno::Time::DateTimeZone* zone);
+    static ZonedDateTime* New2(::g::Uno::Time::Instant instant, ::g::Uno::Time::DateTimeZone* zone, ::g::Uno::Time::CalendarSystem* calendar);
+    static ZonedDateTime* Now();
 };
 // }
 

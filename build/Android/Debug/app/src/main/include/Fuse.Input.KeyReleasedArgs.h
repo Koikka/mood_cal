@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Keyboard.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Input/Keyboard.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Input{
 
-// public sealed class KeyReleasedArgs :67
+// public sealed class KeyReleasedArgs
 // {
 ::g::Fuse::VisualEventArgs_type* KeyReleasedArgs_typeof();
 void KeyReleasedArgs__ctor_3_fn(KeyReleasedArgs* __this, int32_t* key, bool* isMetaKeyPressed, bool* isControlKeyPressed, bool* isShiftKeyPressed, bool* isAltKeyPressed, ::g::Fuse::Visual* visual);

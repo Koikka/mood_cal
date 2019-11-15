@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/EffectHelpers.Blur.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/EffectHelpers.Blur.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Uno.Object.h>
-#include <Uno.Runtime.Implement-476e2792.h>
+#include <Uno.Runtime.Implement-3bc148a8.h>
 namespace g{namespace Fuse{namespace Effects{struct EffectHelpers;}}}
 namespace g{namespace Fuse{struct DrawContext;}}
 namespace g{namespace Uno{namespace Graphics{struct Framebuffer;}}}
@@ -17,7 +17,7 @@ namespace g{
 namespace Fuse{
 namespace Effects{
 
-// internal partial sealed class EffectHelpers :9
+// internal partial sealed class EffectHelpers
 // {
 uType* EffectHelpers_typeof();
 void EffectHelpers__ctor__fn(EffectHelpers* __this);
@@ -34,18 +34,18 @@ struct EffectHelpers : uObject
 {
     static uSStrong<EffectHelpers*> _instance_;
     static uSStrong<EffectHelpers*>& _instance() { return _instance_; }
-    uStrong< ::g::Uno::Graphics::IndexBuffer*> ResampleBilinear_VertexData_44444bad_2_5_2;
-    uStrong< ::g::Uno::Graphics::VertexBuffer*> ResampleBilinear_VertexData_44444bad_2_5_3;
-    uStrong< ::g::Uno::Graphics::IndexBuffer*> ResampleGaussian5tap_VertexData_8e4c5d82_2_5_2;
-    uStrong< ::g::Uno::Graphics::VertexBuffer*> ResampleGaussian5tap_VertexData_8e4c5d82_2_5_3;
-    uStrong< ::g::Uno::Graphics::IndexBuffer*> ResampleGaussian9tap_VertexData_6379debe_2_5_2;
-    uStrong< ::g::Uno::Graphics::VertexBuffer*> ResampleGaussian9tap_VertexData_6379debe_2_5_3;
-    uStrong< ::g::Uno::Graphics::IndexBuffer*> GaussianBlurSeparable_VertexData_2aabda0d_2_5_2;
-    uStrong< ::g::Uno::Graphics::VertexBuffer*> GaussianBlurSeparable_VertexData_2aabda0d_2_5_3;
-    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_44444bad;
-    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_8e4c5d82;
-    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_6379debe;
-    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_2aabda0d;
+    uStrong< ::g::Uno::Graphics::IndexBuffer*> ResampleBilinear_VertexData_92c4812c_2_5_2;
+    uStrong< ::g::Uno::Graphics::VertexBuffer*> ResampleBilinear_VertexData_92c4812c_2_5_3;
+    uStrong< ::g::Uno::Graphics::IndexBuffer*> ResampleGaussian5tap_VertexData_29a0fd93_2_5_2;
+    uStrong< ::g::Uno::Graphics::VertexBuffer*> ResampleGaussian5tap_VertexData_29a0fd93_2_5_3;
+    uStrong< ::g::Uno::Graphics::IndexBuffer*> ResampleGaussian9tap_VertexData_a023b028_2_5_2;
+    uStrong< ::g::Uno::Graphics::VertexBuffer*> ResampleGaussian9tap_VertexData_a023b028_2_5_3;
+    uStrong< ::g::Uno::Graphics::IndexBuffer*> GaussianBlurSeparable_VertexData_b5e3eac2_2_5_2;
+    uStrong< ::g::Uno::Graphics::VertexBuffer*> GaussianBlurSeparable_VertexData_b5e3eac2_2_5_3;
+    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_92c4812c;
+    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_29a0fd93;
+    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_a023b028;
+    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_b5e3eac2;
 
     void ctor_();
     ::g::Uno::Graphics::Framebuffer* Blur(::g::Uno::Graphics::Texture2D* original, ::g::Fuse::DrawContext* dc, float sigma);

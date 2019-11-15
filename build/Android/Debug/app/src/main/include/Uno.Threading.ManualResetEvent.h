@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Uno.Threading/1.9.0/ManualResetEvent.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Threading/1.12.3/ManualResetEvent.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Uno{
 namespace Threading{
 
-// public sealed class ManualResetEvent :6
+// public sealed class ManualResetEvent
 // {
 ::g::Uno::Threading::EventWaitHandle_type* ManualResetEvent_typeof();
 void ManualResetEvent__ctor_1_fn(ManualResetEvent* __this, bool* initialState);

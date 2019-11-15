@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/MobileTextEdit.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/TextControls/MobileTextEdit.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -14,7 +14,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// internal sealed extern class TextEditRenderer :219
+// internal sealed extern class TextEditRenderer
 // {
 uType* TextEditRenderer_typeof();
 void TextEditRenderer__ctor__fn(TextEditRenderer* __this);

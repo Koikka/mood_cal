@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Uno.Threading/1.9.0/EventWaitHandle.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Threading/1.12.3/EventWaitHandle.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Uno{
 namespace Threading{
 
-// public enum EventResetMode :6
+// public enum EventResetMode
 uEnumType* EventResetMode_typeof();
 
 }}} // ::g::Uno::Threading

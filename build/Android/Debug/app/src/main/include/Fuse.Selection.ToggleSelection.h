@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Selection/1.9.0/ToggleSelection.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Selection/1.12.0/ToggleSelection.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.ISourceLocation.h>
-#include <Fuse.Triggers.Actions-fcab7e57.h>
+#include <Fuse.Triggers.Actions-16700ed8.h>
 namespace g{namespace Fuse{namespace Selection{struct ToggleSelection;}}}
 namespace g{namespace Fuse{struct Node;}}
 
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Selection{
 
-// public sealed class ToggleSelection :26
+// public sealed class ToggleSelection
 // {
 ::g::Fuse::Triggers::Actions::TriggerAction_type* ToggleSelection_typeof();
 void ToggleSelection__get_Mode_fn(ToggleSelection* __this, int32_t* __retval);

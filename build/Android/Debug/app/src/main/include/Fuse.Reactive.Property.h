@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Expressions/1.9.0/Property.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Expressions/1.12.0/Property.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public sealed class Property :8
+// public sealed class Property
 // {
 ::g::Fuse::Reactive::Expression_type* Property_typeof();
 void Property__ctor_1_fn(Property* __this, ::g::Fuse::Reactive::ConstantExpression* obj, ::g::Uno::UX::PropertyAccessor* accessor);

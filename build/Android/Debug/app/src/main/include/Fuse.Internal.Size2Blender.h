@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/Blender.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Internal/Blender.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Internal{
 
-// internal sealed class Size2Blender :104
+// internal sealed class Size2Blender
 // {
 ::g::Fuse::Internal::Blender_type* Size2Blender_typeof();
 void Size2Blender__ctor_1_fn(Size2Blender* __this);

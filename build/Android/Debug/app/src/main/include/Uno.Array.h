@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Array.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Array.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,7 +7,7 @@
 namespace g{
 namespace Uno{
 
-// public sealed class Array :9
+// public sealed class Array
 // {
 uType* Array_typeof();
 void Array__Copy_fn(uType* __type, uArray* sourceArray, int32_t* sourceIndex, uArray* destinationArray, int32_t* destinationIndex, int32_t* length);

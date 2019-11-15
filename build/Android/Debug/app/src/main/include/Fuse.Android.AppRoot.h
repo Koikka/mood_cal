@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Android/1.9.0/AppRoot.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Android/1.12.0/AppRoot.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Android{
 
-// internal static extern class AppRoot :11
+// internal static extern class AppRoot
 // {
 uClassType* AppRoot_typeof();
 void AppRoot__ClearRoot_fn(::g::Fuse::Controls::Native::ViewHandle* handle);

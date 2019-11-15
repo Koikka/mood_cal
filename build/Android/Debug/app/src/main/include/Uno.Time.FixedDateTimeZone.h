@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Timezones/FixedDateTimeZone.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Time/Timezones/FixedDateTimeZone.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Uno{
 namespace Time{
 
-// internal sealed class FixedDateTimeZone :3
+// internal sealed class FixedDateTimeZone
 // {
 ::g::Uno::Time::DateTimeZone_type* FixedDateTimeZone_typeof();
 void FixedDateTimeZone__ctor_1_fn(FixedDateTimeZone* __this, uString* id1, ::g::Uno::Time::Offset* offset1);

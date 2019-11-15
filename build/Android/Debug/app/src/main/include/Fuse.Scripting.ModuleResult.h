@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting/1.9.0/ModuleResult.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting/1.12.0/ModuleResult.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -15,7 +15,7 @@ namespace g{
 namespace Fuse{
 namespace Scripting{
 
-// public sealed class ModuleResult :10
+// public sealed class ModuleResult
 // {
 uType* ModuleResult_typeof();
 void ModuleResult__ctor__fn(ModuleResult* __this, ::g::Fuse::Scripting::Context* context, uString* id, ::g::Fuse::Scripting::Module* mod, ::g::Fuse::Scripting::Object* obj);

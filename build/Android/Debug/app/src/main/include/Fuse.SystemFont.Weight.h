@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/SystemFont.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/SystemFont.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,7 +7,7 @@
 namespace g{
 namespace Fuse{
 
-// public enum SystemFont.Weight :38
+// public enum SystemFont.Weight
 uEnumType* SystemFont__Weight_typeof();
 
 }} // ::g::Fuse

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/TextureHelpers.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Graphics/TextureHelpers.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Uno{
 namespace Graphics{
 
-// public static class TextureHelpers :5
+// public static class TextureHelpers
 // {
 uClassType* TextureHelpers_typeof();
 void TextureHelpers__GetMipCount1_fn(::g::Uno::Int2* size, int32_t* __retval);

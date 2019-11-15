@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Each.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Bindings/1.12.0/Each.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@
 #include <Fuse.ISourceLocation.h>
 #include <Fuse.Node.ISubtreeDataProvider.h>
 #include <Fuse.Reactive.Instantiator.h>
-#include <Fuse.Reactive.ItemsWi-e7592013.h>
+#include <Fuse.Reactive.ItemsWi-8cc75761.h>
 #include <Fuse.Reactive.WindowItem.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Uno.Collections.ICollection-1.h>
@@ -22,7 +22,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public sealed class Each :94
+// public sealed class Each
 // {
 ::g::Fuse::Reactive::Instantiator_type* Each_typeof();
 void Each__ctor_5_fn(Each* __this);

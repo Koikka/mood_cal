@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Visual.HitTest.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Visual.HitTest.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{namespace Fuse{struct Visual__HitTestRecord;}}
 namespace g{
 namespace Fuse{
 
-// private sealed class Visual.HitTestRecord :80
+// private sealed class Visual.HitTestRecord
 // {
 uType* Visual__HitTestRecord_typeof();
 void Visual__HitTestRecord__ctor__fn(Visual__HitTestRecord* __this);

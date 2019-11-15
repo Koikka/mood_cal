@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Pointer.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Input/Pointer.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Input{
 
-// private enum Pointer.PELStatus :670
+// private enum Pointer.PELStatus
 uEnumType* Pointer__PELStatus_typeof();
 
 }}} // ::g::Fuse::Input

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Motion/1.9.0/SpringFunction.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Motion/1.12.0/SpringFunction.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Motion{
 
-// public sealed class SpringFunction :8
+// public sealed class SpringFunction
 // {
 ::g::Fuse::Reactive::Expression_type* SpringFunction_typeof();
 void SpringFunction__Subscribe_fn(SpringFunction* __this, uObject* context, uObject* listener, uObject** __retval);

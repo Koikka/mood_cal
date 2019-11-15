@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Diagnostics/Debug.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Diagnostics/Debug.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Uno{
 namespace Diagnostics{
 
-// public static class Debug :27
+// public static class Debug
 // {
 uClassType* Debug_typeof();
 void Debug__Assert_fn(bool* value, uString* expression, uString* filename, int32_t* line, uArray* operands);

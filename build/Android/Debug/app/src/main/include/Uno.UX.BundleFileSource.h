@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/BundleFileSource.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/UX/BundleFileSource.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Uno{
 namespace UX{
 
-// public sealed class BundleFileSource :6
+// public sealed class BundleFileSource
 // {
 ::g::Uno::UX::FileSource_type* BundleFileSource_typeof();
 void BundleFileSource__ctor_1_fn(BundleFileSource* __this, ::g::Uno::IO::BundleFile* bundleFile);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Actions/Visibility.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Actions/Visibility.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace Fuse{
 namespace Triggers{
 namespace Actions{
 
-// public abstract interface IHide :42
+// public abstract interface IHide
 // {
 uInterfaceType* IHide_typeof();
 

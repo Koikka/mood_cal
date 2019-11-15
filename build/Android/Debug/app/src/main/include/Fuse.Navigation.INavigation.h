@@ -1,8 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/INavigation.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/INavigation.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Navigation.IBase-84e3f965.h>
+#include <Fuse.Navigation.IBase-516f1dcd.h>
 #include <Uno.Object.h>
 namespace g{namespace Fuse{namespace Navigation{struct NavigationPageState;}}}
 namespace g{namespace Fuse{struct Visual;}}
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// public abstract interface INavigation :77
+// public abstract interface INavigation
 // {
 uInterfaceType* INavigation_typeof();
 
@@ -47,7 +47,7 @@ struct INavigation
 
 }}} // ::g::Fuse::Navigation
 
-#include <Fuse.Navigation.Navig-4be788bd.h>
+#include <Fuse.Navigation.Navig-285c943d.h>
 
 namespace g{
 namespace Fuse{

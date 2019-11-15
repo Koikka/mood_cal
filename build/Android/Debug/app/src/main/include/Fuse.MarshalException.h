@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Marshal/1.9.0/Marshal.Cast.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Marshal/1.12.0/Marshal.Cast.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Fuse{struct MarshalException;}}
 namespace g{
 namespace Fuse{
 
-// public sealed class MarshalException :7
+// public sealed class MarshalException
 // {
 ::g::Uno::Exception_type* MarshalException_typeof();
 void MarshalException__ctor_3_fn(MarshalException* __this, uObject* v, uType* t);

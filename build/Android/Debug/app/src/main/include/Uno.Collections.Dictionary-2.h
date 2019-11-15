@@ -1,8 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/Dictionary.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Collections/Dictionary.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Uno.Collections.Dicti-e0584c76.h>
+#include <Uno.Collections.Dicti-98abe5e0.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IDictionary-2.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -17,7 +17,7 @@ namespace g{
 namespace Uno{
 namespace Collections{
 
-// public sealed class Dictionary<TKey, TValue> :6
+// public sealed class Dictionary<TKey, TValue>
 // {
 struct Dictionary_type : uType
 {
@@ -79,7 +79,7 @@ struct Dictionary : uObject
 
 }}} // ::g::Uno::Collections
 
-#include <Uno.Collections.Dicti-d1699346.h>
+#include <Uno.Collections.Dicti-5d5b73f.h>
 
 namespace g{
 namespace Uno{

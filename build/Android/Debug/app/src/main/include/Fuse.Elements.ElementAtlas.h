@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Caching/ElementAtlas.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Caching/ElementAtlas.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -20,7 +20,7 @@ namespace g{
 namespace Fuse{
 namespace Elements{
 
-// internal sealed class ElementAtlas :8
+// internal sealed class ElementAtlas
 // {
 uType* ElementAtlas_typeof();
 void ElementAtlas__ctor__fn(ElementAtlas* __this);

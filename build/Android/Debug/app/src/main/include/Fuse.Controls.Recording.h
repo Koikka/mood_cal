@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Recording.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.CameraView/1.12.0/Recording.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public abstract class Recording :7
+// public abstract class Recording
 // {
 uType* Recording_typeof();
 void Recording__ctor__fn(Recording* __this, uString* filePath1);

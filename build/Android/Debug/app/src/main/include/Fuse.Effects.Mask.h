@@ -1,11 +1,11 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/Mask.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/Mask.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Binding.h>
 #include <Fuse.Effects.BasicEffect.h>
 #include <Fuse.INotifyUnrooted.h>
-#include <Fuse.Internal.IImageC-c450902.h>
+#include <Fuse.Internal.IImageC-7a43a0be.h>
 #include <Fuse.IProperties.h>
 #include <Fuse.ISourceLocation.h>
 #include <Fuse.Scripting.IScriptObject.h>
@@ -13,7 +13,7 @@
 #include <Uno.Collections.IEnumerable-1.h>
 #include <Uno.Collections.IList-1.h>
 #include <Uno.Float4x4.h>
-#include <Uno.Runtime.Implement-476e2792.h>
+#include <Uno.Runtime.Implement-3bc148a8.h>
 namespace g{namespace Fuse{namespace Effects{struct Mask;}}}
 namespace g{namespace Fuse{namespace Internal{struct ImageContainer;}}}
 namespace g{namespace Fuse{struct DrawContext;}}
@@ -25,7 +25,7 @@ namespace g{
 namespace Fuse{
 namespace Effects{
 
-// public sealed class Mask :13
+// public sealed class Mask
 // {
 struct Mask_type : ::g::Fuse::Effects::BasicEffect_type
 {
@@ -45,14 +45,14 @@ struct Mask : ::g::Fuse::Effects::BasicEffect
 {
     uStrong< ::g::Fuse::Internal::ImageContainer*> _container;
     int32_t _mode;
-    uStrong< ::g::Uno::Graphics::VertexBuffer*> OnRender_VertexData_e56a2f35_7_2_1;
-    ::g::Uno::Float4x4 OnRender_LocalTransform_e56a2f35_4_9_2;
-    ::g::Uno::Float4x4 OnRender_LocalTransform_e56a2f35_4_9_3;
-    uStrong< ::g::Uno::Graphics::VertexBuffer*> OnRender_VertexData_97b14dfa_7_2_1;
-    uStrong< ::g::Uno::Graphics::VertexBuffer*> OnRender_VertexData_f63e1f3f_7_2_1;
-    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_e56a2f35;
-    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_97b14dfa;
-    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_f63e1f3f;
+    uStrong< ::g::Uno::Graphics::VertexBuffer*> OnRender_VertexData_c63fd577_7_2_1;
+    ::g::Uno::Float4x4 OnRender_LocalTransform_c63fd577_4_9_2;
+    ::g::Uno::Float4x4 OnRender_LocalTransform_c63fd577_4_9_3;
+    uStrong< ::g::Uno::Graphics::VertexBuffer*> OnRender_VertexData_a7f41733_7_2_1;
+    uStrong< ::g::Uno::Graphics::VertexBuffer*> OnRender_VertexData_dd716216_7_2_1;
+    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_c63fd577;
+    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_a7f41733;
+    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_dd716216;
 };
 // }
 

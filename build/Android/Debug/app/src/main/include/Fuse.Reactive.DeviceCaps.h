@@ -1,10 +1,10 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Expressions/1.9.0/Device.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Expressions/1.12.0/Device.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.IObject.h>
 #include <Fuse.Reactive.CapsObject.h>
-#include <Fuse.Reactive.IObserv-45c40f03.h>
+#include <Fuse.Reactive.IObserv-e1955a6b.h>
 #include <Uno.UX.IPropertyListener.h>
 namespace g{namespace Fuse{namespace Reactive{struct DeviceCaps;}}}
 namespace g{namespace Uno{namespace UX{struct Selector;}}}
@@ -13,7 +13,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public sealed class DeviceCaps :114
+// public sealed class DeviceCaps
 // {
 ::g::Fuse::Reactive::CapsObject_type* DeviceCaps_typeof();
 void DeviceCaps__ctor_2_fn(DeviceCaps* __this);

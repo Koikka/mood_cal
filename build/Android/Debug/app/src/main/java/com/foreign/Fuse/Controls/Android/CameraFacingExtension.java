@@ -26,7 +26,7 @@ public class CameraFacingExtension
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static int GetCameraId305(final int facing)
+    public static int GetCameraId308(final int facing)
     {
         Camera.CameraInfo cameraInfo = new Camera.CameraInfo();
         for (int i = 0; i < Camera.getNumberOfCameras(); i++)

@@ -6,6 +6,7 @@
     "Fuse.Controls.CameraView",
     "Fuse.ImageTools",
     "Fuse.Camera",
+    "Fuse.CameraRoll",
     "Fuse.Share",
     "Uno.Permissions"
   ],
@@ -19,6 +20,7 @@
     "**.js:Bundle",
     "*.jpg:Bundle",
     "*.jpeg:Bundle",
+    "*.svg:Bundle",
     "*.png:Bundle",
     "*.uno"
   ],
@@ -28,9 +30,9 @@
     "RunsInBackground": true*/
   },
   "Android": {
-    /*"GooglePlay": {
+    "GooglePlay": {
       "SenderID": "935485284549"
-    },*/
+    },
     "NotificationIcon": {
       /*"LDPI": "Foo.png",*/
       /*"MDPI": "Assets/res/mipmap-mdpi/ic_launcher.png",
@@ -56,8 +58,8 @@
     },
     /* https://forums.fusetools.com/t/signing-android-apps/5515 */
     "Package": "fi.samk.mood_cal",
-    "VersionCode": 104,
-    "VersionName": "1.0.4",
+    "VersionCode": 105,
+    "VersionName": "1.0.5",
     "Key": {
       "Alias": "application",
       "AliasPassword": "mood_cal",
@@ -65,10 +67,10 @@
       "StorePassword": "mood_cal"
     },
     "SDK": {
-      "BuildToolsVersion": "26.0.0",
-      "CompileVersion": 26,
+      "BuildToolsVersion": "29.0.0",
+      "CompileVersion": 29,
       "MinVersion": 19,
-      "TargetVersion": 26
+      "TargetVersion": 29
     }
   },
   /*"Firebase": {

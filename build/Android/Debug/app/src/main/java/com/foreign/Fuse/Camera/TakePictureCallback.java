@@ -29,7 +29,7 @@ public class TakePictureCallback
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void HandleIntent422(final UnoObject _this, final int resultCode,final Object intent,final Object photo,final com.foreign.Uno.Action_String onComplete,final com.foreign.Uno.Action_String onFail)
+    public static void HandleIntent426(final UnoObject _this, final int resultCode,final Object intent,final Object photo,final com.foreign.Uno.Action_String onComplete,final com.foreign.Uno.Action_String onFail)
     {
         switch (resultCode)
         {

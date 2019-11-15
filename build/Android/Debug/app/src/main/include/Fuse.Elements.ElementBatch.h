@@ -1,13 +1,13 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Caching/ElementBatch.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Caching/ElementBatch.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Elements.IElemen-894a094d.h>
+#include <Fuse.Elements.IElemen-2dbc2a57.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.IEnumerable-1.h>
-#include <Uno.Graphics.VertexAt-28188a9f.h>
+#include <Uno.Graphics.VertexAt-20e40bee.h>
 #include <Uno.Object.h>
-#include <Uno.Runtime.Implement-476e2792.h>
+#include <Uno.Runtime.Implement-3bc148a8.h>
 namespace g{namespace Fuse{namespace Elements{struct Element;}}}
 namespace g{namespace Fuse{namespace Elements{struct ElementAtlas;}}}
 namespace g{namespace Fuse{namespace Elements{struct ElementBatch;}}}
@@ -17,7 +17,6 @@ namespace g{namespace Fuse{struct DrawContext;}}
 namespace g{namespace Fuse{struct VisualBounds;}}
 namespace g{namespace Uno{namespace Collections{struct List;}}}
 namespace g{namespace Uno{namespace Graphics{struct IndexBuffer;}}}
-namespace g{namespace Uno{struct Buffer;}}
 namespace g{namespace Uno{struct Float4x4;}}
 namespace g{namespace Uno{struct Rect;}}
 namespace g{namespace Uno{struct Recti;}}
@@ -26,7 +25,7 @@ namespace g{
 namespace Fuse{
 namespace Elements{
 
-// internal sealed class ElementBatch :72
+// internal sealed class ElementBatch
 // {
 struct ElementBatch_type : uType
 {
@@ -69,8 +68,8 @@ struct ElementBatch : uObject
     int32_t _prevElementCount;
     uStrong< ::g::Fuse::VisualBounds*> _renderBounds;
     uStrong< ::g::Uno::Collections::List*> _elements;
-    uStrong< ::g::Uno::Buffer*> _tempBuffer;
-    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_f8c70145;
+    uStrong<uArray*> _tempBuffer;
+    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_b9458d08;
 
     void ctor_(::g::Fuse::Elements::ElementBatcher* elementBatcher, ::g::Fuse::Elements::ElementAtlas* elementAtlas);
     void AddElement(::g::Fuse::Elements::Element* elm);

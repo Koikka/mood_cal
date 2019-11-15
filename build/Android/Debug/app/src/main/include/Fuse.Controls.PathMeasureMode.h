@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/Shapes/SegmentedShape.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/Shapes/SegmentedShape.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public enum PathMeasureMode :11
+// public enum PathMeasureMode
 uEnumType* PathMeasureMode_typeof();
 
 }}} // ::g::Fuse::Controls

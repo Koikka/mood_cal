@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/PropertyObject.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/UX/PropertyObject.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Uno{
 namespace UX{
 
-// public class PropertyObject :11
+// public class PropertyObject
 // {
 uType* PropertyObject_typeof();
 void PropertyObject__ctor__fn(PropertyObject* __this);

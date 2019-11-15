@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Input/PointerEvents.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Input{
 
-// public delegate void PointerMovedHandler(object sender, Fuse.Input.PointerMovedArgs args) :42
+// public delegate void PointerMovedHandler(object sender, Fuse.Input.PointerMovedArgs args)
 uDelegateType* PointerMovedHandler_typeof();
 
 }}} // ::g::Fuse::Input

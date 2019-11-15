@@ -1,8 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Spin.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Animations/1.12.0/Spin.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Animations.OpenA-dfad1354.h>
+#include <Fuse.Animations.OpenA-7fd80330.h>
 namespace g{namespace Fuse{namespace Animations{struct CreateStateParams;}}}
 namespace g{namespace Fuse{namespace Animations{struct Spin;}}}
 namespace g{namespace Fuse{namespace Animations{struct SpinState;}}}
@@ -13,7 +13,7 @@ namespace g{
 namespace Fuse{
 namespace Animations{
 
-// internal sealed class SpinState :47
+// internal sealed class SpinState
 // {
 ::g::Fuse::Animations::OpenAnimatorState_type* SpinState_typeof();
 void SpinState__ctor_2_fn(SpinState* __this, ::g::Fuse::Animations::Spin* animator, ::g::Fuse::Animations::CreateStateParams* p);

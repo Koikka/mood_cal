@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Property.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/UX/Property.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Uno{
 namespace UX{
 
-// public delegate void ValueChangedHandler<T>(object sender, Uno.UX.ValueChangedArgs<T> args) :13
+// public delegate void ValueChangedHandler<T>(object sender, Uno.UX.ValueChangedArgs<T> args)
 uDelegateType* ValueChangedHandler_typeof();
 
 }}} // ::g::Uno::UX

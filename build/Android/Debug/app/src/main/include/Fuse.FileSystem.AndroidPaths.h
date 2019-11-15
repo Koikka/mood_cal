@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.FileSystem/1.9.0/AndroidPaths.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.FileSystem/1.12.0/AndroidPaths.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace FileSystem{
 
-// internal sealed extern class AndroidPaths :9
+// internal sealed extern class AndroidPaths
 // {
 uType* AndroidPaths_typeof();
 void AndroidPaths__GetCacheDirectory_fn(uString** __retval);

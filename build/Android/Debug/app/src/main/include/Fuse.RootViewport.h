@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/RootViewport.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/RootViewport.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -27,7 +27,7 @@ namespace g{namespace Fuse{struct RootViewport;}}
 namespace g{
 namespace Fuse{
 
-// public class RootViewport :33
+// public class RootViewport
 // {
 struct RootViewport_type : ::g::Fuse::Visual_type
 {

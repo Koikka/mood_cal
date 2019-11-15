@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Gesture.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Input/Gesture.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace g{
 namespace Fuse{
 namespace Input{
 
-// public abstract interface IGesture :50
+// public abstract interface IGesture
 // {
 uInterfaceType* IGesture_typeof();
 
@@ -35,7 +35,7 @@ struct IGesture
 
 }}} // ::g::Fuse::Input
 
-#include <Fuse.Input.GesturePri-ad5d864e.h>
+#include <Fuse.Input.GesturePri-c96394d3.h>
 
 namespace g{
 namespace Fuse{

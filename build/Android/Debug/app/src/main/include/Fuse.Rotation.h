@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Transform.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Transform.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -18,7 +18,7 @@ namespace g{namespace Fuse{struct Rotation;}}
 namespace g{
 namespace Fuse{
 
-// public sealed class Rotation :59
+// public sealed class Rotation
 // {
 ::g::Fuse::Transform_type* Rotation_typeof();
 void Rotation__ctor_3_fn(Rotation* __this);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Node.DataContext.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Node.DataContext.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Fuse{struct Node;}}
 namespace g{
 namespace Fuse{
 
-// public abstract interface Node.ISubtreeDataProvider :21
+// public abstract interface Node.ISubtreeDataProvider
 // {
 uInterfaceType* Node__ISubtreeDataProvider_typeof();
 

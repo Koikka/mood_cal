@@ -9,10 +9,10 @@ namespace g{
 namespace Uno{
 namespace Net{
 
-// /usr/local/share/uno/Packages/Uno.Net.Sockets/1.9.0/NetworkHelpers.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Net.Sockets/1.12.3/NetworkHelpers.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class NetworkHelpers :8
+// internal sealed extern class NetworkHelpers
 // {
 static void NetworkHelpers_build(uType* type)
 {
@@ -31,13 +31,13 @@ uType* NetworkHelpers_typeof()
     return type;
 }
 
-// public static extern string GetError() :27
+// public static extern string GetError()
 void NetworkHelpers__GetError_fn(uString** __retval)
 {
     *__retval = NetworkHelpers::GetError();
 }
 
-// public static extern string GetError() [static] :27
+// public static extern string GetError() [static]
 uString* NetworkHelpers::GetError()
 {
     return uString::Utf8(strerror(errno));

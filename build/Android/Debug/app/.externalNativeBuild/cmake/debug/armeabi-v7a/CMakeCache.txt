@@ -18,22 +18,19 @@
 ANDROID_ABI:UNINITIALIZED=armeabi-v7a
 
 //No help, variable specified on the command line.
-ANDROID_NATIVE_API_LEVEL:UNINITIALIZED=19
-
-//No help, variable specified on the command line.
 ANDROID_NDK:UNINITIALIZED=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle
 
 //No help, variable specified on the command line.
-ANDROID_PLATFORM:UNINITIALIZED=android-9
+ANDROID_PLATFORM:UNINITIALIZED=android-16
 
 //No help, variable specified on the command line.
-ANDROID_STL:UNINITIALIZED=gnustl_shared
+ANDROID_STL:UNINITIALIZED=c++_static
 
 //No help, variable specified on the command line.
 ANDROID_TOOLCHAIN:UNINITIALIZED=clang
 
 //Archiver
-CMAKE_AR:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ar
+CMAKE_AR:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ar
 
 //Flags used by the compiler during all build types.
 CMAKE_ASM_FLAGS:STRING=
@@ -65,7 +62,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //Libraries linked by default with all C++ applications.
-CMAKE_CXX_STANDARD_LIBRARIES:STRING=-latomic -lm "/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" "/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_shared.so"
+CMAKE_CXX_STANDARD_LIBRARIES:STRING=-latomic -lm
 
 //Flags used by the compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -108,10 +105,10 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //No help, variable specified on the command line.
-CMAKE_LIBRARY_OUTPUT_DIRECTORY:UNINITIALIZED=/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/.externalNativeBuild/cmake/debug/obj/armeabi-v7a
+CMAKE_LIBRARY_OUTPUT_DIRECTORY:UNINITIALIZED=/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/build/intermediates/cmake/debug/obj/armeabi-v7a
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ld
+CMAKE_LINKER:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ld
 
 //No help, variable specified on the command line.
 CMAKE_MAKE_PROGRAM:UNINITIALIZED=/Users/anttikoivisto/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
@@ -132,19 +129,19 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-nm
+CMAKE_NM:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-nm
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-objcopy
+CMAKE_OBJCOPY:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-objcopy
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-objdump
+CMAKE_OBJDUMP:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-objdump
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=Kalenteri
 
 //Ranlib
-CMAKE_RANLIB:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ranlib
+CMAKE_RANLIB:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ranlib
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=
@@ -184,10 +181,10 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-strip
+CMAKE_STRIP:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-strip
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -199,7 +196,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 Kalenteri_BINARY_DIR:STATIC=/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/.externalNativeBuild/cmake/debug/armeabi-v7a
 
 //Dependencies for the target
-Kalenteri_LIB_DEPENDS:STATIC=general;android;general;log;general;gnustl_shared;general;V8Simple;general;EGL;general;GLESv2;general;z;general;/usr/local/share/uno/Packages/UnoCore/1.9.0/prebuilt/Android/lib/armeabi-v7a/libuImage.a;general;/usr/local/share/uno/Packages/UnoCore/1.9.0/prebuilt/Android/lib/armeabi-v7a/libpng.a;general;/usr/local/share/uno/Packages/UnoCore/1.9.0/prebuilt/Android/lib/armeabi-v7a/libjpeg.a;general;/usr/local/share/uno/Packages/UnoCore/1.9.0/prebuilt/Android/lib/armeabi-v7a/libfreetype.a;general;/usr/local/share/uno/Packages/UnoCore/1.9.0/prebuilt/Android/lib/armeabi-v7a/libXliPlatform.a;general;/usr/local/share/uno/Packages/UnoCore/1.9.0/prebuilt/Android/lib/armeabi-v7a/libuBase.a;general;/Users/anttikoivisto/Library/Android/sdk/ndk-bundle/sources/cxx-stl/stlport/libs/armeabi-v7a/libstlport_static.a;
+Kalenteri_LIB_DEPENDS:STATIC=general;android;general;log;general;EGL;general;GLESv2;general;z;general;/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/prebuilt/Android/lib/armeabi-v7a/libuImage.a;general;/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/prebuilt/Android/lib/armeabi-v7a/libpng.a;general;/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/prebuilt/Android/lib/armeabi-v7a/libjpeg.a;general;/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/prebuilt/Android/lib/armeabi-v7a/libfreetype.a;general;/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/prebuilt/Android/lib/armeabi-v7a/libXliPlatform.a;general;/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/prebuilt/Android/lib/armeabi-v7a/libuBase.a;general;/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/android/lib/armeabi-v7a/libv8_base.a;general;/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/android/lib/armeabi-v7a/libv8_snapshot.a;general;/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/android/lib/armeabi-v7a/libv8_libsampler.a;general;/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/android/lib/armeabi-v7a/libv8_libplatform.a;general;/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/android/lib/armeabi-v7a/libv8_libbase.a;general;/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/android/lib/armeabi-v7a/libv8_initializers.a;general;/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/android/lib/armeabi-v7a/libv8_init.a;
 
 //Value Computed by CMake
 Kalenteri_SOURCE_DIR:STATIC=/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Debug/app/src/main
@@ -286,6 +283,7 @@ CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+CMAKE_NINJA_FORCE_RESPONSE_FILE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators

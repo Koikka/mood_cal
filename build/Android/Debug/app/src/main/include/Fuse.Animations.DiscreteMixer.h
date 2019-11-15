@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/DiscreteMixer.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Animations/1.12.0/DiscreteMixer.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -15,7 +15,7 @@ namespace g{
 namespace Fuse{
 namespace Animations{
 
-// internal sealed class DiscreteMixer :8
+// internal sealed class DiscreteMixer
 // {
 ::g::Fuse::Animations::MixerBase_type* DiscreteMixer_typeof();
 void DiscreteMixer__ctor_1_fn(DiscreteMixer* __this);

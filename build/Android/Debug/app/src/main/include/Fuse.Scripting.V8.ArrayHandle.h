@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Handle.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/Handle.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace Fuse{
 namespace Scripting{
 namespace V8{
 
-// internal sealed extern class ArrayHandle :14
+// internal sealed extern class ArrayHandle
 // {
 uType* ArrayHandle_typeof();
 void ArrayHandle__ctor__fn(ArrayHandle* __this, uArray* array);

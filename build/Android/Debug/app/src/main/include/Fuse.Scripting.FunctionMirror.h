@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/FunctionMirror.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/FunctionMirror.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Reactive.IEventHandler.h>
-#include <Fuse.Scripting.Diagno-2903b551.h>
+#include <Fuse.Scripting.Diagno-e09e6984.h>
 #include <Fuse.Scripting.IFunctionMirror.h>
 #include <Fuse.Scripting.IRaw.h>
 namespace g{namespace Fuse{namespace Scripting{struct Function;}}}
@@ -13,7 +13,7 @@ namespace g{
 namespace Fuse{
 namespace Scripting{
 
-// internal sealed class FunctionMirror :10
+// internal sealed class FunctionMirror
 // {
 struct FunctionMirror_type : uType
 {

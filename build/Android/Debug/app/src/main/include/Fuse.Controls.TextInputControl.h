@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/TextInputControl.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/TextControls/TextInputControl.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -14,7 +14,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Triggers.IValue-1.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
@@ -33,7 +33,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public abstract class TextInputControl :26
+// public abstract class TextInputControl
 // {
 struct TextInputControl_type : ::g::Fuse::Controls::Control_type
 {
@@ -42,6 +42,7 @@ struct TextInputControl_type : ::g::Fuse::Controls::Control_type
 
 TextInputControl_type* TextInputControl_typeof();
 void TextInputControl__ctor_6_fn(TextInputControl* __this, ::g::Fuse::Controls::TextEdit* editor);
+void TextInputControl__get_Editor_fn(TextInputControl* __this, ::g::Fuse::Controls::TextEdit** __retval);
 void TextInputControl__FocusDelegator_fn(TextInputControl* __this, ::g::Fuse::Visual** __retval);
 void TextInputControl__get_FontSize_fn(TextInputControl* __this, float* __retval);
 void TextInputControl__set_FontSize_fn(TextInputControl* __this, float* value);
@@ -63,6 +64,7 @@ struct TextInputControl : ::g::Fuse::Controls::LayoutControl
     uStrong< ::g::Fuse::Gestures::Tapped*> _tapped;
 
     void ctor_6(::g::Fuse::Controls::TextEdit* editor);
+    ::g::Fuse::Controls::TextEdit* Editor();
     ::g::Fuse::Visual* FocusDelegator();
     float FontSize();
     void FontSize(float value);

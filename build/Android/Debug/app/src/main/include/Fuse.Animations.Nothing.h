@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Nothing.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Animations/1.12.0/Nothing.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Animations{
 
-// public sealed class Nothing :10
+// public sealed class Nothing
 // {
 ::g::Fuse::Animations::Animator_type* Nothing_typeof();
 void Nothing__ctor_3_fn(Nothing* __this);

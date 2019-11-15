@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/DropShadow.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/DropShadow.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -22,7 +22,7 @@ namespace g{
 namespace Fuse{
 namespace Effects{
 
-// public sealed class DropShadow :11
+// public sealed class DropShadow
 // {
 ::g::Fuse::Effects::BasicEffect_type* DropShadow_typeof();
 void DropShadow__ctor_4_fn(DropShadow* __this);

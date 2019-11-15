@@ -196,9 +196,10 @@ public class SystemUI
         // ActionBar is ugly, hide it
         // details: http://stackoverflow.com/a/14167949/574033
         ActionBar actionBar = com.fuse.Activity.getRootActivity().getActionBar();
-        
+        //#if #(Project.Mobile.ShowStatusbar)
         if (actionBar!=null)
         	actionBar.hide();
+        //#endi
         
     }
     
@@ -265,9 +266,9 @@ public class SystemUI
         
         // status bar
         activity.getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
-        
+        //#if #(Project.Mobile.ShowStatusbar)
         	com.foreign.Fuse.Platform.SystemUI.HideActionBar94();
-        
+        //#endif
         
         // layouts
         if (ExternedBlockHost.callUno_Fuse_Platform_SystemUI_SuperLayoutGet83()==null) com.foreign.Fuse.Platform.SystemUI.CreateLayouts84();

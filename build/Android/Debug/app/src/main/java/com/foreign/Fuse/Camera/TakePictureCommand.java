@@ -20,6 +20,11 @@ import com.Bindings.ExternedBlockHost;
 import android.provider.MediaStore;
 import com.fuse.Activity;
 import com.fusetools.camera.Image;
+import android.os.Build;
+import android.support.v4.content.FileProvider;
+import java.io.File;
+import android.net.Uri;
+import android.util.Log;
 import android.content.Intent;
 
 public class TakePictureCommand
@@ -29,7 +34,7 @@ public class TakePictureCommand
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object CreateImage423()
+    public static Object CreateImage427()
     {
         try {
         	return Image.create();
@@ -39,12 +44,29 @@ public class TakePictureCommand
         }
     }
     
-    public static Object CreateIntent424(final Object photo)
+    public static Object CreateIntent428(final Object photo)
     {
         Image p = (Image)photo;
         try {
         	Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        	intent.putExtra(MediaStore.EXTRA_OUTPUT, p.getFileUri());
+        
+        	//FileProvider way for Marshmallow+ (API 23)
+        	if (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP) {
+        
+        		File photoFile = p.getFile();
+        		if (photoFile != null) {
+        			Uri photoURI = FileProvider.getUriForFile(
+        				com.fuse.Activity.getRootActivity(),
+        				"fi.samk.mood_cal.camera_file_provider",
+        				photoFile);
+        			intent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
+        		} else {
+        			return null;
+        		}
+        	} else {
+        		intent.putExtra(MediaStore.EXTRA_OUTPUT, p.getFileUri());
+        	}
+        
         	return intent;
         } catch (Exception e) {
         	e.printStackTrace();

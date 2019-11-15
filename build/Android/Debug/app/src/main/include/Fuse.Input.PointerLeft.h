@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Input/PointerEvents.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Input{
 
-// internal sealed class PointerLeft :103
+// internal sealed class PointerLeft
 // {
 ::g::Fuse::VisualEvent_type* PointerLeft_typeof();
 void PointerLeft__ctor_1_fn(PointerLeft* __this);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonValue.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace Uno{
 namespace Data{
 namespace Json{
 
-// internal abstract class Value :6
+// internal abstract class Value
 // {
 uType* Value_typeof();
 void Value__ctor__fn(Value* __this);

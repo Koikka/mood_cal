@@ -12,17 +12,17 @@
 #include <Fuse.PropertyHandle.h>
 #include <Fuse.Reactive.FuseJS.Builtins.h>
 #include <Fuse.Reactive.IObserver.h>
-#include <Fuse.Reactive.IProper-5c136cab.h>
-#include <Fuse.Reactive.IProper-fa34e162.h>
+#include <Fuse.Reactive.IProper-32722c88.h>
+#include <Fuse.Reactive.IProper-4091f911.h>
 #include <Fuse.Reactive.ISubscription.h>
-#include <Fuse.Reactive.JavaScr-6ae501cc.h>
+#include <Fuse.Reactive.JavaScr-b94bff0e.h>
 #include <Fuse.Reactive.JavaScript.h>
 #include <Fuse.Scripting.Array.h>
 #include <Fuse.Scripting.Callback.h>
 #include <Fuse.Scripting.Context.h>
 #include <Fuse.Scripting.Dependency.h>
 #include <Fuse.Scripting.DependencyType.h>
-#include <Fuse.Scripting.Diagno-2903b551.h>
+#include <Fuse.Scripting.Diagno-e09e6984.h>
 #include <Fuse.Scripting.Error.h>
 #include <Fuse.Scripting.External.h>
 #include <Fuse.Scripting.Function.h>
@@ -30,71 +30,71 @@
 #include <Fuse.Scripting.IRaw.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Scripting.IThreadWorker.h>
-#include <Fuse.Scripting.JavaSc-16705bcf.h>
-#include <Fuse.Scripting.JavaSc-1994004a.h>
-#include <Fuse.Scripting.JavaSc-23be06a6.h>
-#include <Fuse.Scripting.JavaSc-29a32635.h>
-#include <Fuse.Scripting.JavaSc-3029fb23.h>
-#include <Fuse.Scripting.JavaSc-3a15604a.h>
-#include <Fuse.Scripting.JavaSc-3ee1203c.h>
-#include <Fuse.Scripting.JavaSc-40d6b5d8.h>
-#include <Fuse.Scripting.JavaSc-46700f35.h>
-#include <Fuse.Scripting.JavaSc-4716ab56.h>
-#include <Fuse.Scripting.JavaSc-48d9f4c1.h>
-#include <Fuse.Scripting.JavaSc-4bfe0e85.h>
-#include <Fuse.Scripting.JavaSc-4db3ed33.h>
-#include <Fuse.Scripting.JavaSc-4ed6f47e.h>
-#include <Fuse.Scripting.JavaSc-523a45a7.h>
-#include <Fuse.Scripting.JavaSc-55f6a939.h>
-#include <Fuse.Scripting.JavaSc-5a293939.h>
-#include <Fuse.Scripting.JavaSc-5db9581f.h>
-#include <Fuse.Scripting.JavaSc-65931e4.h>
-#include <Fuse.Scripting.JavaSc-7238a365.h>
-#include <Fuse.Scripting.JavaSc-755dc531.h>
-#include <Fuse.Scripting.JavaSc-785af38e.h>
-#include <Fuse.Scripting.JavaSc-7da4cc1d.h>
-#include <Fuse.Scripting.JavaSc-85b5f6e7.h>
-#include <Fuse.Scripting.JavaSc-8897fcbc.h>
-#include <Fuse.Scripting.JavaSc-8dfffb19.h>
-#include <Fuse.Scripting.JavaSc-8e9ad5a9.h>
-#include <Fuse.Scripting.JavaSc-99b08894.h>
-#include <Fuse.Scripting.JavaSc-9bdef5c4.h>
-#include <Fuse.Scripting.JavaSc-a1671db.h>
-#include <Fuse.Scripting.JavaSc-a335f9c0.h>
-#include <Fuse.Scripting.JavaSc-a8f163c3.h>
-#include <Fuse.Scripting.JavaSc-ac35ccc1.h>
-#include <Fuse.Scripting.JavaSc-af5e22ab.h>
-#include <Fuse.Scripting.JavaSc-b00d7805.h>
-#include <Fuse.Scripting.JavaSc-ba1e0ae1.h>
-#include <Fuse.Scripting.JavaSc-ba4907c2.h>
-#include <Fuse.Scripting.JavaSc-be2f6a08.h>
-#include <Fuse.Scripting.JavaSc-c0fb814d.h>
-#include <Fuse.Scripting.JavaSc-c105a89e.h>
-#include <Fuse.Scripting.JavaSc-c123d73c.h>
-#include <Fuse.Scripting.JavaSc-c85dee8e.h>
-#include <Fuse.Scripting.JavaSc-cf986d4b.h>
-#include <Fuse.Scripting.JavaSc-d06e1506.h>
-#include <Fuse.Scripting.JavaSc-d44b1a66.h>
-#include <Fuse.Scripting.JavaSc-e284ce6f.h>
-#include <Fuse.Scripting.JavaSc-e466fa6f.h>
-#include <Fuse.Scripting.JavaSc-eea13d31.h>
-#include <Fuse.Scripting.JavaSc-f3a61c5b.h>
-#include <Fuse.Scripting.JavaSc-f78ac33b.h>
-#include <Fuse.Scripting.JavaSc-fe438aa1.h>
-#include <Fuse.Scripting.JavaSc-fe479a09.h>
+#include <Fuse.Scripting.JavaSc-183c88bb.h>
+#include <Fuse.Scripting.JavaSc-1c236a48.h>
+#include <Fuse.Scripting.JavaSc-29928b0.h>
+#include <Fuse.Scripting.JavaSc-2cc59a67.h>
+#include <Fuse.Scripting.JavaSc-2d704d23.h>
+#include <Fuse.Scripting.JavaSc-35ff44f5.h>
+#include <Fuse.Scripting.JavaSc-37cad261.h>
+#include <Fuse.Scripting.JavaSc-421c0f43.h>
+#include <Fuse.Scripting.JavaSc-45d8dcdc.h>
+#include <Fuse.Scripting.JavaSc-47b8c04a.h>
+#include <Fuse.Scripting.JavaSc-48dfe6e.h>
+#include <Fuse.Scripting.JavaSc-4d8b8d3b.h>
+#include <Fuse.Scripting.JavaSc-4dc83dca.h>
+#include <Fuse.Scripting.JavaSc-5642d662.h>
+#include <Fuse.Scripting.JavaSc-59ac654b.h>
+#include <Fuse.Scripting.JavaSc-5d3427a0.h>
+#include <Fuse.Scripting.JavaSc-5d5b767d.h>
+#include <Fuse.Scripting.JavaSc-636760b6.h>
+#include <Fuse.Scripting.JavaSc-67106cb4.h>
+#include <Fuse.Scripting.JavaSc-68f87363.h>
+#include <Fuse.Scripting.JavaSc-6dbcab53.h>
+#include <Fuse.Scripting.JavaSc-6e565fd8.h>
+#include <Fuse.Scripting.JavaSc-6ebffb2a.h>
+#include <Fuse.Scripting.JavaSc-771ed470.h>
+#include <Fuse.Scripting.JavaSc-78e307dc.h>
+#include <Fuse.Scripting.JavaSc-7b8af218.h>
+#include <Fuse.Scripting.JavaSc-81a918dc.h>
+#include <Fuse.Scripting.JavaSc-9057f86e.h>
+#include <Fuse.Scripting.JavaSc-954655e8.h>
+#include <Fuse.Scripting.JavaSc-9ad9265.h>
+#include <Fuse.Scripting.JavaSc-9edf79ec.h>
+#include <Fuse.Scripting.JavaSc-a7033ea9.h>
+#include <Fuse.Scripting.JavaSc-ac33bbd6.h>
+#include <Fuse.Scripting.JavaSc-ae29438f.h>
+#include <Fuse.Scripting.JavaSc-b23d3ea6.h>
+#include <Fuse.Scripting.JavaSc-b3a4b385.h>
+#include <Fuse.Scripting.JavaSc-be0643d7.h>
+#include <Fuse.Scripting.JavaSc-beb9684d.h>
+#include <Fuse.Scripting.JavaSc-c0c26d2a.h>
+#include <Fuse.Scripting.JavaSc-c34bec81.h>
+#include <Fuse.Scripting.JavaSc-c35974ac.h>
+#include <Fuse.Scripting.JavaSc-d07aa03e.h>
+#include <Fuse.Scripting.JavaSc-d79c0972.h>
+#include <Fuse.Scripting.JavaSc-deb712d7.h>
+#include <Fuse.Scripting.JavaSc-e0816d5b.h>
+#include <Fuse.Scripting.JavaSc-e0d676a2.h>
+#include <Fuse.Scripting.JavaSc-e2c071b7.h>
+#include <Fuse.Scripting.JavaSc-ea55ed7a.h>
+#include <Fuse.Scripting.JavaSc-ef65af4d.h>
+#include <Fuse.Scripting.JavaSc-f0e271b7.h>
+#include <Fuse.Scripting.JavaSc-f3ae1945.h>
+#include <Fuse.Scripting.JavaSc-f3b04035.h>
 #include <Fuse.Scripting.Module.h>
 #include <Fuse.Scripting.ModuleResult.h>
 #include <Fuse.Scripting.Object.h>
-#include <Fuse.Scripting.Script-102b1113.h>
-#include <Fuse.Scripting.Script-c8a158ba.h>
 #include <Fuse.Scripting.ScriptClass.h>
+#include <Fuse.Scripting.Script-d705456.h>
 #include <Fuse.Scripting.ScriptException.h>
+#include <Fuse.Scripting.Script-fd4b46d.h>
 #include <Fuse.Scripting.ScriptMember.h>
 #include <Fuse.Scripting.ScriptMethod.h>
 #include <Fuse.Scripting.ScriptModule.h>
 #include <Fuse.Scripting.ScriptProperty.h>
-#include <Fuse.Scripting.Subscr-24ebf004.h>
-#include <Fuse.Scripting.Subscr-9da816f1.h>
+#include <Fuse.Scripting.Subscr-1b37a718.h>
+#include <Fuse.Scripting.Subscr-2da2127a.h>
 #include <Fuse.Scripting.V8.Context.h>
 #include <Fuse.Scripting.ValueMirror.h>
 #include <Fuse.UpdateManager.h>
@@ -103,13 +103,13 @@
 #include <Uno.Action1-1.h>
 #include <Uno.Action2-2.h>
 #include <Uno.Bool.h>
-#include <Uno.Collections.Dicti-87d2e37d.h>
-#include <Uno.Collections.Dicti-894ef3c3.h>
-#include <Uno.Collections.Dicti-98f6bc43.h>
-#include <Uno.Collections.Dicti-d1699346.h>
-#include <Uno.Collections.Dicti-d6e3a7c5.h>
+#include <Uno.Collections.Dicti-35aa62f0.h>
+#include <Uno.Collections.Dicti-4d6dc92b.h>
+#include <Uno.Collections.Dicti-5d5b73f.h>
+#include <Uno.Collections.Dicti-8cba3288.h>
+#include <Uno.Collections.Dicti-c2020085.h>
 #include <Uno.Collections.Dictionary-2.h>
-#include <Uno.Collections.Enume-8ddd045.h>
+#include <Uno.Collections.Enume-9e7bc8e0.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
 #include <Uno.Collections.IList-1.h>
@@ -131,9 +131,9 @@
 #include <Uno.Int4.h>
 #include <Uno.Long.h>
 #include <Uno.Object.h>
-#include <Uno.Runtime.Implement-eca777ec.h>
+#include <Uno.Runtime.Implement-26b2c647.h>
 #include <Uno.String.h>
-#include <Uno.Threading.Concurr-cd310558.h>
+#include <Uno.Threading.Concurr-2d1b1f8c.h>
 #include <Uno.Threading.EventWaitHandle.h>
 #include <Uno.Threading.ManualResetEvent.h>
 #include <Uno.Threading.Monitor.h>
@@ -158,10 +158,10 @@ namespace Fuse{
 namespace Scripting{
 namespace JavaScript{
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Observable.Add :547
+// private sealed class Observable.Add
 // {
 static void Observable__Add_build(uType* type)
 {
@@ -188,19 +188,19 @@ static void Observable__Add_build(uType* type)
     return type;
 }
 
-// public Add(Fuse.Scripting.JavaScript.Observable obs, object value) :551
+// public Add(Fuse.Scripting.JavaScript.Observable obs, object value)
 void Observable__Add__ctor_1_fn(Observable__Add* __this, ::g::Fuse::Scripting::JavaScript::Observable* obs, uObject* value)
 {
     __this->ctor_1(obs, value);
 }
 
-// public Add New(Fuse.Scripting.JavaScript.Observable obs, object value) :551
+// public Add New(Fuse.Scripting.JavaScript.Observable obs, object value)
 void Observable__Add__New1_fn(::g::Fuse::Scripting::JavaScript::Observable* obs, uObject* value, Observable__Add** __retval)
 {
     *__retval = Observable__Add::New1(obs, value);
 }
 
-// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub) :556
+// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub)
 void Observable__Add__OnPerform_fn(Observable__Add* __this, uObject* sub)
 {
     ::g::Fuse::Scripting::JavaScript::Observable__Subscription* ret2;
@@ -212,14 +212,14 @@ void Observable__Add__OnPerform_fn(Observable__Add* __this, uObject* sub)
             ::g::Fuse::Reactive::IObserver::OnAdd(uInterface(uPtr(uPtr((::g::Uno::Collections::IList::get_Item_ex(uInterface(uPtr(sub), ::TYPES[1/*Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription>*/]), uCRef<int32_t>(i), &ret3), ret3))->Observer()), ::TYPES[2/*Fuse.Reactive.IObserver*/]), __this->_value);
 }
 
-// public Add(Fuse.Scripting.JavaScript.Observable obs, object value) [instance] :551
+// public Add(Fuse.Scripting.JavaScript.Observable obs, object value) [instance]
 void Observable__Add::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* obs, uObject* value)
 {
     ctor_(obs);
     _value = value;
 }
 
-// public Add New(Fuse.Scripting.JavaScript.Observable obs, object value) [static] :551
+// public Add New(Fuse.Scripting.JavaScript.Observable obs, object value) [static]
 Observable__Add* Observable__Add::New1(::g::Fuse::Scripting::JavaScript::Observable* obs, uObject* value)
 {
     Observable__Add* obj1 = (Observable__Add*)uNew(Observable__Add_typeof());
@@ -228,10 +228,10 @@ Observable__Add* Observable__Add::New1(::g::Fuse::Scripting::JavaScript::Observa
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeObservable.uno
-// -----------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeObservable.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class TreeObservable.AddOperation :212
+// private sealed class TreeObservable.AddOperation
 // {
 static void TreeObservable__AddOperation_build(uType* type)
 {
@@ -256,19 +256,19 @@ static void TreeObservable__AddOperation_build(uType* type)
     return type;
 }
 
-// public AddOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) :214
+// public AddOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args)
 void TreeObservable__AddOperation__ctor_2_fn(TreeObservable__AddOperation* __this, ::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     __this->ctor_2(context, inst, args);
 }
 
-// public AddOperation New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) :214
+// public AddOperation New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args)
 void TreeObservable__AddOperation__New1_fn(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args, TreeObservable__AddOperation** __retval)
 {
     *__retval = TreeObservable__AddOperation::New1(context, inst, args);
 }
 
-// protected override sealed void Perform(object dc) :219
+// protected override sealed void Perform(object dc)
 void TreeObservable__AddOperation__Perform1_fn(TreeObservable__AddOperation* __this, uObject* dc)
 {
     ::g::Fuse::Scripting::JavaScript::TreeArray* arr = uAs< ::g::Fuse::Scripting::JavaScript::TreeArray*>(dc, ::TYPES[3/*Fuse.Scripting.JavaScript.TreeArray*/]);
@@ -277,19 +277,19 @@ void TreeObservable__AddOperation__Perform1_fn(TreeObservable__AddOperation* __t
         uPtr(arr)->Add(__this->WrappedValue);
 }
 
-// protected override sealed int get_SpecialArgCount() :218
+// protected override sealed int get_SpecialArgCount()
 void TreeObservable__AddOperation__get_SpecialArgCount_fn(TreeObservable__AddOperation* __this, int32_t* __retval)
 {
     return *__retval = 1, void();
 }
 
-// public AddOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [instance] :214
+// public AddOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [instance]
 void TreeObservable__AddOperation::ctor_2(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     ctor_1(context, inst, args);
 }
 
-// public AddOperation New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [static] :214
+// public AddOperation New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [static]
 TreeObservable__AddOperation* TreeObservable__AddOperation::New1(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     TreeObservable__AddOperation* obj1 = (TreeObservable__AddOperation*)uNew(TreeObservable__AddOperation_typeof());
@@ -298,10 +298,10 @@ TreeObservable__AddOperation* TreeObservable__AddOperation::New1(::g::Fuse::Scri
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ArrayMirror.uno
-// -----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ArrayMirror.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal class ArrayMirror :6
+// internal class ArrayMirror
 // {
 static void ArrayMirror_build(uType* type)
 {
@@ -338,19 +338,19 @@ static void ArrayMirror_build(uType* type)
     return type;
 }
 
-// protected ArrayMirror(Fuse.Scripting.Array obj) :11
+// protected ArrayMirror(Fuse.Scripting.Array obj)
 void ArrayMirror__ctor_3_fn(ArrayMirror* __this, ::g::Fuse::Scripting::Array* obj)
 {
     __this->ctor_3(obj);
 }
 
-// internal ArrayMirror(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Array arr) :13
+// internal ArrayMirror(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Array arr)
 void ArrayMirror__ctor_4_fn(ArrayMirror* __this, ::g::Fuse::Scripting::Context* context, uObject* mirror, ::g::Fuse::Scripting::Array* arr)
 {
     __this->ctor_4(context, mirror, arr);
 }
 
-// public override sealed object get_Item(int index) :43
+// public override sealed object get_Item(int index)
 void ArrayMirror__get_Item_fn(ArrayMirror* __this, int32_t* index, uObject** __retval)
 {
     uObject* ret4;
@@ -358,31 +358,31 @@ void ArrayMirror__get_Item_fn(ArrayMirror* __this, int32_t* index, uObject** __r
     return *__retval = (::g::Uno::Collections::List__get_Item_fn(uPtr(__this->_items), uCRef<int32_t>(index_), &ret4), ret4), void();
 }
 
-// internal object[] get_ItemsReadonly() :26
+// internal object[] get_ItemsReadonly()
 void ArrayMirror__get_ItemsReadonly_fn(ArrayMirror* __this, uArray** __retval)
 {
     *__retval = __this->ItemsReadonly();
 }
 
-// public override sealed int get_Length() :48
+// public override sealed int get_Length()
 void ArrayMirror__get_Length_fn(ArrayMirror* __this, int32_t* __retval)
 {
     return *__retval = uPtr(__this->_items)->Count(), void();
 }
 
-// internal ArrayMirror New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Array arr) :13
+// internal ArrayMirror New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Array arr)
 void ArrayMirror__New2_fn(::g::Fuse::Scripting::Context* context, uObject* mirror, ::g::Fuse::Scripting::Array* arr, ArrayMirror** __retval)
 {
     *__retval = ArrayMirror::New2(context, mirror, arr);
 }
 
-// internal void Set(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Array arr) :18
+// internal void Set(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Array arr)
 void ArrayMirror__Set_fn(ArrayMirror* __this, ::g::Fuse::Scripting::Context* context, uObject* mirror, ::g::Fuse::Scripting::Array* arr)
 {
     __this->Set(context, mirror, arr);
 }
 
-// public override sealed void Unsubscribe() :29
+// public override sealed void Unsubscribe()
 void ArrayMirror__Unsubscribe_fn(ArrayMirror* __this)
 {
     uObject* ret3;
@@ -401,26 +401,26 @@ void ArrayMirror__Unsubscribe_fn(ArrayMirror* __this)
     }
 }
 
-// protected ArrayMirror(Fuse.Scripting.Array obj) [instance] :11
+// protected ArrayMirror(Fuse.Scripting.Array obj) [instance]
 void ArrayMirror::ctor_3(::g::Fuse::Scripting::Array* obj)
 {
     ctor_2(obj);
 }
 
-// internal ArrayMirror(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Array arr) [instance] :13
+// internal ArrayMirror(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Array arr) [instance]
 void ArrayMirror::ctor_4(::g::Fuse::Scripting::Context* context, uObject* mirror, ::g::Fuse::Scripting::Array* arr)
 {
     ctor_2(arr);
     Set(context, mirror, arr);
 }
 
-// internal object[] get_ItemsReadonly() [instance] :26
+// internal object[] get_ItemsReadonly() [instance]
 uArray* ArrayMirror::ItemsReadonly()
 {
     return (uArray*)uPtr(_items)->ToArray();
 }
 
-// internal void Set(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Array arr) [instance] :18
+// internal void Set(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Array arr) [instance]
 void ArrayMirror::Set(::g::Fuse::Scripting::Context* context, uObject* mirror, ::g::Fuse::Scripting::Array* arr)
 {
     _items = ((::g::Uno::Collections::List*)::g::Uno::Collections::List::New2(::TYPES[4/*Uno.Collections.List<object>*/], uPtr(arr)->Length()));
@@ -429,7 +429,7 @@ void ArrayMirror::Set(::g::Fuse::Scripting::Context* context, uObject* mirror, :
         ::g::Uno::Collections::List__Add_fn(uPtr(_items), ::g::Fuse::Scripting::JavaScript::IMirror::Reflect(uInterface(uPtr(mirror), ::TYPES[5/*Fuse.Scripting.JavaScript.IMirror*/]), context, uPtr(arr)->Item(i)));
 }
 
-// internal ArrayMirror New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Array arr) [static] :13
+// internal ArrayMirror New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Array arr) [static]
 ArrayMirror* ArrayMirror::New2(::g::Fuse::Scripting::Context* context, uObject* mirror, ::g::Fuse::Scripting::Array* arr)
 {
     ArrayMirror* obj2 = (ArrayMirror*)uNew(ArrayMirror_typeof());
@@ -438,10 +438,10 @@ ArrayMirror* ArrayMirror::New2(::g::Fuse::Scripting::Context* context, uObject* 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeArray.uno
-// ------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeArray.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class TreeArray.ArraySubscription :18
+// internal sealed class TreeArray.ArraySubscription
 // {
 static void TreeArray__ArraySubscription_build(uType* type)
 {
@@ -471,74 +471,74 @@ TreeArray__ArraySubscription_type* TreeArray__ArraySubscription_typeof()
     return type;
 }
 
-// public ArraySubscription(Fuse.Scripting.JavaScript.ArrayMirror am, Fuse.Reactive.IObserver observer) :22
+// public ArraySubscription(Fuse.Scripting.JavaScript.ArrayMirror am, Fuse.Reactive.IObserver observer)
 void TreeArray__ArraySubscription__ctor_1_fn(TreeArray__ArraySubscription* __this, ::g::Fuse::Scripting::JavaScript::ArrayMirror* am, uObject* observer)
 {
     __this->ctor_1(am, observer);
 }
 
-// private void Fuse.Reactive.ISubscription.ReplaceAllExclusive(Fuse.IArray values) :137
+// private void Fuse.Reactive.ISubscription.ReplaceAllExclusive(Fuse.IArray values)
 void TreeArray__ArraySubscription__FuseReactiveISubscriptionReplaceAllExclusive_fn(TreeArray__ArraySubscription* __this, uObject* values)
 {
     __this->ReplaceAllExclusive(values);
 }
 
-// private void Fuse.Reactive.ISubscription.SetExclusive(object newValue) :127
+// private void Fuse.Reactive.ISubscription.SetExclusive(object newValue)
 void TreeArray__ArraySubscription__FuseReactiveISubscriptionSetExclusive_fn(TreeArray__ArraySubscription* __this, uObject* newValue)
 {
     __this->ReplaceAllExclusive((uObject*)TreeArray__ArraySubscription__SimpleArray::New1(uArray::Init<uObject*>(::TYPES[15/*object[]*/], 1, newValue)));
 }
 
-// public ArraySubscription New(Fuse.Scripting.JavaScript.ArrayMirror am, Fuse.Reactive.IObserver observer) :22
+// public ArraySubscription New(Fuse.Scripting.JavaScript.ArrayMirror am, Fuse.Reactive.IObserver observer)
 void TreeArray__ArraySubscription__New1_fn(::g::Fuse::Scripting::JavaScript::ArrayMirror* am, uObject* observer, TreeArray__ArraySubscription** __retval)
 {
     *__retval = TreeArray__ArraySubscription::New1(am, observer);
 }
 
-// public void OnAdd(object newValue) :34
+// public void OnAdd(object newValue)
 void TreeArray__ArraySubscription__OnAdd_fn(TreeArray__ArraySubscription* __this, uObject* newValue)
 {
     __this->OnAdd(newValue);
 }
 
-// public void OnInsertAt(int index, object newValue) :41
+// public void OnInsertAt(int index, object newValue)
 void TreeArray__ArraySubscription__OnInsertAt_fn(TreeArray__ArraySubscription* __this, int32_t* index, uObject* newValue)
 {
     __this->OnInsertAt(*index, newValue);
 }
 
-// public void OnRemoveAt(int index) :48
+// public void OnRemoveAt(int index)
 void TreeArray__ArraySubscription__OnRemoveAt_fn(TreeArray__ArraySubscription* __this, int32_t* index)
 {
     __this->OnRemoveAt(*index);
 }
 
-// public void OnReplaceAll(Fuse.IArray values, Fuse.Scripting.JavaScript.TreeArray.ArraySubscription exclude) :55
+// public void OnReplaceAll(Fuse.IArray values, Fuse.Scripting.JavaScript.TreeArray.ArraySubscription exclude)
 void TreeArray__ArraySubscription__OnReplaceAll_fn(TreeArray__ArraySubscription* __this, uObject* values, TreeArray__ArraySubscription* exclude)
 {
     __this->OnReplaceAll(values, exclude);
 }
 
-// public void OnReplaceAt(int index, object newValue) :27
+// public void OnReplaceAt(int index, object newValue)
 void TreeArray__ArraySubscription__OnReplaceAt_fn(TreeArray__ArraySubscription* __this, int32_t* index, uObject* newValue)
 {
     __this->OnReplaceAt(*index, newValue);
 }
 
-// private void ReplaceAllExclusive(Fuse.IArray values) :106
+// private void ReplaceAllExclusive(Fuse.IArray values)
 void TreeArray__ArraySubscription__ReplaceAllExclusive_fn(TreeArray__ArraySubscription* __this, uObject* values)
 {
     __this->ReplaceAllExclusive(values);
 }
 
-// public ArraySubscription(Fuse.Scripting.JavaScript.ArrayMirror am, Fuse.Reactive.IObserver observer) [instance] :22
+// public ArraySubscription(Fuse.Scripting.JavaScript.ArrayMirror am, Fuse.Reactive.IObserver observer) [instance]
 void TreeArray__ArraySubscription::ctor_1(::g::Fuse::Scripting::JavaScript::ArrayMirror* am, uObject* observer)
 {
     ctor_(am);
     _observer = observer;
 }
 
-// public void OnAdd(object newValue) [instance] :34
+// public void OnAdd(object newValue) [instance]
 void TreeArray__ArraySubscription::OnAdd(uObject* newValue)
 {
     ::g::Fuse::Reactive::IObserver::OnAdd(uInterface(uPtr(_observer), ::TYPES[2/*Fuse.Reactive.IObserver*/]), newValue);
@@ -548,7 +548,7 @@ void TreeArray__ArraySubscription::OnAdd(uObject* newValue)
         uPtr(next)->OnAdd(newValue);
 }
 
-// public void OnInsertAt(int index, object newValue) [instance] :41
+// public void OnInsertAt(int index, object newValue) [instance]
 void TreeArray__ArraySubscription::OnInsertAt(int32_t index, uObject* newValue)
 {
     ::g::Fuse::Reactive::IObserver::OnInsertAt(uInterface(uPtr(_observer), ::TYPES[2/*Fuse.Reactive.IObserver*/]), index, newValue);
@@ -558,7 +558,7 @@ void TreeArray__ArraySubscription::OnInsertAt(int32_t index, uObject* newValue)
         uPtr(next)->OnInsertAt(index, newValue);
 }
 
-// public void OnRemoveAt(int index) [instance] :48
+// public void OnRemoveAt(int index) [instance]
 void TreeArray__ArraySubscription::OnRemoveAt(int32_t index)
 {
     ::g::Fuse::Reactive::IObserver::OnRemoveAt(uInterface(uPtr(_observer), ::TYPES[2/*Fuse.Reactive.IObserver*/]), index);
@@ -568,7 +568,7 @@ void TreeArray__ArraySubscription::OnRemoveAt(int32_t index)
         uPtr(next)->OnRemoveAt(index);
 }
 
-// public void OnReplaceAll(Fuse.IArray values, Fuse.Scripting.JavaScript.TreeArray.ArraySubscription exclude) [instance] :55
+// public void OnReplaceAll(Fuse.IArray values, Fuse.Scripting.JavaScript.TreeArray.ArraySubscription exclude) [instance]
 void TreeArray__ArraySubscription::OnReplaceAll(uObject* values, TreeArray__ArraySubscription* exclude)
 {
     if (this != exclude)
@@ -580,7 +580,7 @@ void TreeArray__ArraySubscription::OnReplaceAll(uObject* values, TreeArray__Arra
         uPtr(next)->OnReplaceAll(values, exclude);
 }
 
-// public void OnReplaceAt(int index, object newValue) [instance] :27
+// public void OnReplaceAt(int index, object newValue) [instance]
 void TreeArray__ArraySubscription::OnReplaceAt(int32_t index, uObject* newValue)
 {
     ::g::Fuse::Reactive::IObserver::OnNewAt(uInterface(uPtr(_observer), ::TYPES[2/*Fuse.Reactive.IObserver*/]), index, newValue);
@@ -590,7 +590,7 @@ void TreeArray__ArraySubscription::OnReplaceAt(int32_t index, uObject* newValue)
         uPtr(next)->OnReplaceAt(index, newValue);
 }
 
-// private void ReplaceAllExclusive(Fuse.IArray values) [instance] :106
+// private void ReplaceAllExclusive(Fuse.IArray values) [instance]
 void TreeArray__ArraySubscription::ReplaceAllExclusive(uObject* values)
 {
     ::g::Fuse::Scripting::JavaScript::TreeArray* ta = uAs< ::g::Fuse::Scripting::JavaScript::TreeArray*>(SubscriptionSubject(), ::TYPES[3/*Fuse.Scripting.JavaScript.TreeArray*/]);
@@ -600,7 +600,7 @@ void TreeArray__ArraySubscription::ReplaceAllExclusive(uObject* values)
     ta->ReplaceAll(values, this);
 }
 
-// public ArraySubscription New(Fuse.Scripting.JavaScript.ArrayMirror am, Fuse.Reactive.IObserver observer) [static] :22
+// public ArraySubscription New(Fuse.Scripting.JavaScript.ArrayMirror am, Fuse.Reactive.IObserver observer) [static]
 TreeArray__ArraySubscription* TreeArray__ArraySubscription::New1(::g::Fuse::Scripting::JavaScript::ArrayMirror* am, uObject* observer)
 {
     TreeArray__ArraySubscription* obj1 = (TreeArray__ArraySubscription*)uNew(TreeArray__ArraySubscription_typeof());
@@ -609,10 +609,10 @@ TreeArray__ArraySubscription* TreeArray__ArraySubscription::New1(::g::Fuse::Scri
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ClassInstance.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ClassInstance.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class ClassInstance :10
+// internal sealed class ClassInstance
 // {
 static void ClassInstance_build(uType* type)
 {
@@ -647,55 +647,55 @@ uType* ClassInstance_typeof()
     return type;
 }
 
-// internal ClassInstance(Fuse.Scripting.JavaScript.ThreadWorker context, object obj, Uno.UX.NameTable rootTable) :29
+// internal ClassInstance(Fuse.Scripting.JavaScript.ThreadWorker context, object obj, Uno.UX.NameTable rootTable)
 void ClassInstance__ctor__fn(ClassInstance* __this, ::g::Fuse::Scripting::JavaScript::ThreadWorker* context, uObject* obj, ::g::Uno::UX::NameTable* rootTable)
 {
     __this->ctor_(context, obj, rootTable);
 }
 
-// public void CallMethod(Fuse.Scripting.Context context, Fuse.Scripting.Function method, object[] args) :37
+// public void CallMethod(Fuse.Scripting.Context context, Fuse.Scripting.Function method, object[] args)
 void ClassInstance__CallMethod_fn(ClassInstance* __this, ::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* method, uArray* args)
 {
     __this->CallMethod(context, method, args);
 }
 
-// private void DispatchUnroot() :74
+// private void DispatchUnroot()
 void ClassInstance__DispatchUnroot_fn(ClassInstance* __this)
 {
     __this->DispatchUnroot();
 }
 
-// private void EnsureHasProperties() :69
+// private void EnsureHasProperties()
 void ClassInstance__EnsureHasProperties_fn(ClassInstance* __this)
 {
     __this->EnsureHasProperties();
 }
 
-// public void EnsureRooted(Fuse.Scripting.Context context) :45
+// public void EnsureRooted(Fuse.Scripting.Context context)
 void ClassInstance__EnsureRooted_fn(ClassInstance* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->EnsureRooted(context);
 }
 
-// internal Fuse.Scripting.Object GetPropertyObservable(Fuse.Scripting.Context context, Uno.UX.Property p) :81
+// internal Fuse.Scripting.Object GetPropertyObservable(Fuse.Scripting.Context context, Uno.UX.Property p)
 void ClassInstance__GetPropertyObservable_fn(ClassInstance* __this, ::g::Fuse::Scripting::Context* context, ::g::Uno::UX::Property* p, ::g::Fuse::Scripting::Object** __retval)
 {
     *__retval = __this->GetPropertyObservable(context, p);
 }
 
-// internal ClassInstance New(Fuse.Scripting.JavaScript.ThreadWorker context, object obj, Uno.UX.NameTable rootTable) :29
+// internal ClassInstance New(Fuse.Scripting.JavaScript.ThreadWorker context, object obj, Uno.UX.NameTable rootTable)
 void ClassInstance__New1_fn(::g::Fuse::Scripting::JavaScript::ThreadWorker* context, uObject* obj, ::g::Uno::UX::NameTable* rootTable, ClassInstance** __retval)
 {
     *__retval = ClassInstance::New1(context, obj, rootTable);
 }
 
-// private void Unroot(Fuse.Scripting.Context context) :94
+// private void Unroot(Fuse.Scripting.Context context)
 void ClassInstance__Unroot_fn(ClassInstance* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->Unroot(context);
 }
 
-// internal ClassInstance(Fuse.Scripting.JavaScript.ThreadWorker context, object obj, Uno.UX.NameTable rootTable) [instance] :29
+// internal ClassInstance(Fuse.Scripting.JavaScript.ThreadWorker context, object obj, Uno.UX.NameTable rootTable) [instance]
 void ClassInstance::ctor_(::g::Fuse::Scripting::JavaScript::ThreadWorker* context, uObject* obj, ::g::Uno::UX::NameTable* rootTable)
 {
     _worker = context;
@@ -703,14 +703,14 @@ void ClassInstance::ctor_(::g::Fuse::Scripting::JavaScript::ThreadWorker* contex
     _obj = obj;
 }
 
-// public void CallMethod(Fuse.Scripting.Context context, Fuse.Scripting.Function method, object[] args) [instance] :37
+// public void CallMethod(Fuse.Scripting.Context context, Fuse.Scripting.Function method, object[] args) [instance]
 void ClassInstance::CallMethod(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* method, uArray* args)
 {
     uPtr(_self)->Item(::STRINGS[0/*"_tempMethod"*/], method);
     uPtr(_self)->CallMethod(context, ::STRINGS[0/*"_tempMethod"*/], args);
 }
 
-// private void DispatchUnroot() [instance] :74
+// private void DispatchUnroot() [instance]
 void ClassInstance::DispatchUnroot()
 {
     uObject* n = (uObject*)uPtr(_rootTable)->This();
@@ -718,14 +718,14 @@ void ClassInstance::DispatchUnroot()
     uPtr(_worker)->Invoke1(uDelegate::New(::TYPES[9/*Uno.Action<Fuse.Scripting.Context>*/], (void*)ClassInstance__Unroot_fn, this));
 }
 
-// private void EnsureHasProperties() [instance] :69
+// private void EnsureHasProperties() [instance]
 void ClassInstance::EnsureHasProperties()
 {
     if (_properties == NULL)
         _properties = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[10/*Uno.Collections.Dictionary<Uno.UX.Property, Fuse.Scripting.JavaScript.ObservableProperty>*/]));
 }
 
-// public void EnsureRooted(Fuse.Scripting.Context context) [instance] :45
+// public void EnsureRooted(Fuse.Scripting.Context context) [instance]
 void ClassInstance::EnsureRooted(::g::Fuse::Scripting::Context* context)
 {
     ::g::Uno::UX::Property* ret4;
@@ -758,7 +758,7 @@ void ClassInstance::EnsureRooted(::g::Fuse::Scripting::Context* context)
     }
 }
 
-// internal Fuse.Scripting.Object GetPropertyObservable(Fuse.Scripting.Context context, Uno.UX.Property p) [instance] :81
+// internal Fuse.Scripting.Object GetPropertyObservable(Fuse.Scripting.Context context, Uno.UX.Property p) [instance]
 ::g::Fuse::Scripting::Object* ClassInstance::GetPropertyObservable(::g::Fuse::Scripting::Context* context, ::g::Uno::UX::Property* p)
 {
     bool ret7;
@@ -774,7 +774,7 @@ void ClassInstance::EnsureRooted(::g::Fuse::Scripting::Context* context)
     return uPtr(uPtr(op)->GetObservable(context))->Object();
 }
 
-// private void Unroot(Fuse.Scripting.Context context) [instance] :94
+// private void Unroot(Fuse.Scripting.Context context) [instance]
 void ClassInstance::Unroot(::g::Fuse::Scripting::Context* context)
 {
     ::g::Uno::Collections::Dictionary__ValueCollection__Enumerator<uStrong< ::g::Fuse::Scripting::JavaScript::ObservableProperty*> > ret8;
@@ -817,7 +817,7 @@ void ClassInstance::Unroot(::g::Fuse::Scripting::Context* context)
     _self = NULL;
 }
 
-// internal ClassInstance New(Fuse.Scripting.JavaScript.ThreadWorker context, object obj, Uno.UX.NameTable rootTable) [static] :29
+// internal ClassInstance New(Fuse.Scripting.JavaScript.ThreadWorker context, object obj, Uno.UX.NameTable rootTable) [static]
 ClassInstance* ClassInstance::New1(::g::Fuse::Scripting::JavaScript::ThreadWorker* context, uObject* obj, ::g::Uno::UX::NameTable* rootTable)
 {
     ClassInstance* obj3 = (ClassInstance*)uNew(ClassInstance_typeof());
@@ -826,10 +826,10 @@ ClassInstance* ClassInstance::New1(::g::Fuse::Scripting::JavaScript::ThreadWorke
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Observable.Clear :442
+// private sealed class Observable.Clear
 // {
 static void Observable__Clear_build(uType* type)
 {
@@ -856,19 +856,19 @@ static void Observable__Clear_build(uType* type)
     return type;
 }
 
-// public Clear(Fuse.Scripting.JavaScript.Observable obs, int origin) :446
+// public Clear(Fuse.Scripting.JavaScript.Observable obs, int origin)
 void Observable__Clear__ctor_1_fn(Observable__Clear* __this, ::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t* origin)
 {
     __this->ctor_1(obs, *origin);
 }
 
-// public Clear New(Fuse.Scripting.JavaScript.Observable obs, int origin) :446
+// public Clear New(Fuse.Scripting.JavaScript.Observable obs, int origin)
 void Observable__Clear__New1_fn(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t* origin, Observable__Clear** __retval)
 {
     *__retval = Observable__Clear::New1(obs, *origin);
 }
 
-// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub) :451
+// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub)
 void Observable__Clear__OnPerform_fn(Observable__Clear* __this, uObject* sub)
 {
     ::g::Fuse::Scripting::JavaScript::Observable__Subscription* ret2;
@@ -881,14 +881,14 @@ void Observable__Clear__OnPerform_fn(Observable__Clear* __this, uObject* sub)
             ::g::Fuse::Reactive::IObserver::OnClear(uInterface(uPtr(uPtr((::g::Uno::Collections::IList::get_Item_ex(uInterface(uPtr(sub), ::TYPES[1/*Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription>*/]), uCRef<int32_t>(i), &ret3), ret3))->Observer()), ::TYPES[2/*Fuse.Reactive.IObserver*/]));
 }
 
-// public Clear(Fuse.Scripting.JavaScript.Observable obs, int origin) [instance] :446
+// public Clear(Fuse.Scripting.JavaScript.Observable obs, int origin) [instance]
 void Observable__Clear::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t origin)
 {
     ctor_(obs);
     _origin = origin;
 }
 
-// public Clear New(Fuse.Scripting.JavaScript.Observable obs, int origin) [static] :446
+// public Clear New(Fuse.Scripting.JavaScript.Observable obs, int origin) [static]
 Observable__Clear* Observable__Clear::New1(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t origin)
 {
     Observable__Clear* obj1 = (Observable__Clear*)uNew(Observable__Clear_typeof());
@@ -897,10 +897,10 @@ Observable__Clear* Observable__Clear::New1(::g::Fuse::Scripting::JavaScript::Obs
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Observable.Subscription.ClearExclusiveOperation :185
+// private sealed class Observable.Subscription.ClearExclusiveOperation
 // {
 static void Observable__Subscription__ClearExclusiveOperation_build(uType* type)
 {
@@ -925,38 +925,38 @@ uType* Observable__Subscription__ClearExclusiveOperation_typeof()
     return type;
 }
 
-// public ClearExclusiveOperation(Fuse.Scripting.Object obj, int origin) :187
+// public ClearExclusiveOperation(Fuse.Scripting.Object obj, int origin)
 void Observable__Subscription__ClearExclusiveOperation__ctor__fn(Observable__Subscription__ClearExclusiveOperation* __this, ::g::Fuse::Scripting::Object* obj, int32_t* origin)
 {
     __this->ctor_(obj, *origin);
 }
 
-// public ClearExclusiveOperation New(Fuse.Scripting.Object obj, int origin) :187
+// public ClearExclusiveOperation New(Fuse.Scripting.Object obj, int origin)
 void Observable__Subscription__ClearExclusiveOperation__New1_fn(::g::Fuse::Scripting::Object* obj, int32_t* origin, Observable__Subscription__ClearExclusiveOperation** __retval)
 {
     *__retval = Observable__Subscription__ClearExclusiveOperation::New1(obj, *origin);
 }
 
-// public void Perform(Fuse.Scripting.Context context) :197
+// public void Perform(Fuse.Scripting.Context context)
 void Observable__Subscription__ClearExclusiveOperation__Perform_fn(Observable__Subscription__ClearExclusiveOperation* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->Perform(context);
 }
 
-// public ClearExclusiveOperation(Fuse.Scripting.Object obj, int origin) [instance] :187
+// public ClearExclusiveOperation(Fuse.Scripting.Object obj, int origin) [instance]
 void Observable__Subscription__ClearExclusiveOperation::ctor_(::g::Fuse::Scripting::Object* obj, int32_t origin)
 {
     Object = obj;
     Origin = origin;
 }
 
-// public void Perform(Fuse.Scripting.Context context) [instance] :197
+// public void Perform(Fuse.Scripting.Context context) [instance]
 void Observable__Subscription__ClearExclusiveOperation::Perform(::g::Fuse::Scripting::Context* context)
 {
     uPtr(Object)->CallMethod(context, ::STRINGS[1/*"clear"*/], uArray::Init<uObject*>(::TYPES[15/*object[]*/], 1, uBox<int32_t>(::TYPES[63/*int*/], Origin)));
 }
 
-// public ClearExclusiveOperation New(Fuse.Scripting.Object obj, int origin) [static] :187
+// public ClearExclusiveOperation New(Fuse.Scripting.Object obj, int origin) [static]
 Observable__Subscription__ClearExclusiveOperation* Observable__Subscription__ClearExclusiveOperation::New1(::g::Fuse::Scripting::Object* obj, int32_t origin)
 {
     Observable__Subscription__ClearExclusiveOperation* obj1 = (Observable__Subscription__ClearExclusiveOperation*)uNew(Observable__Subscription__ClearExclusiveOperation_typeof());
@@ -965,10 +965,10 @@ Observable__Subscription__ClearExclusiveOperation* Observable__Subscription__Cle
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ThreadWorker.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ThreadWorker.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class ThreadWorker.ContextIgnoringAction :185
+// private sealed class ThreadWorker.ContextIgnoringAction
 // {
 static void ThreadWorker__ContextIgnoringAction_build(uType* type)
 {
@@ -990,37 +990,37 @@ uType* ThreadWorker__ContextIgnoringAction_typeof()
     return type;
 }
 
-// public ContextIgnoringAction(Uno.Action action) :189
+// public ContextIgnoringAction(Uno.Action action)
 void ThreadWorker__ContextIgnoringAction__ctor__fn(ThreadWorker__ContextIgnoringAction* __this, uDelegate* action)
 {
     __this->ctor_(action);
 }
 
-// public ContextIgnoringAction New(Uno.Action action) :189
+// public ContextIgnoringAction New(Uno.Action action)
 void ThreadWorker__ContextIgnoringAction__New1_fn(uDelegate* action, ThreadWorker__ContextIgnoringAction** __retval)
 {
     *__retval = ThreadWorker__ContextIgnoringAction::New1(action);
 }
 
-// public void Run(Fuse.Scripting.Context context) :194
+// public void Run(Fuse.Scripting.Context context)
 void ThreadWorker__ContextIgnoringAction__Run_fn(ThreadWorker__ContextIgnoringAction* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->Run(context);
 }
 
-// public ContextIgnoringAction(Uno.Action action) [instance] :189
+// public ContextIgnoringAction(Uno.Action action) [instance]
 void ThreadWorker__ContextIgnoringAction::ctor_(uDelegate* action)
 {
     _action = action;
 }
 
-// public void Run(Fuse.Scripting.Context context) [instance] :194
+// public void Run(Fuse.Scripting.Context context) [instance]
 void ThreadWorker__ContextIgnoringAction::Run(::g::Fuse::Scripting::Context* context)
 {
     uPtr(_action)->InvokeVoid();
 }
 
-// public ContextIgnoringAction New(Uno.Action action) [static] :189
+// public ContextIgnoringAction New(Uno.Action action) [static]
 ThreadWorker__ContextIgnoringAction* ThreadWorker__ContextIgnoringAction::New1(uDelegate* action)
 {
     ThreadWorker__ContextIgnoringAction* obj1 = (ThreadWorker__ContextIgnoringAction*)uNew(ThreadWorker__ContextIgnoringAction_typeof());
@@ -1029,10 +1029,10 @@ ThreadWorker__ContextIgnoringAction* ThreadWorker__ContextIgnoringAction::New1(u
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/DateTimeConverterHelpers.uno
-// ------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/DateTimeConverterHelpers.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static class DateTimeConverterHelpers :11
+// internal static class DateTimeConverterHelpers
 // {
 static void DateTimeConverterHelpers_build(uType* type)
 {
@@ -1052,19 +1052,19 @@ uClassType* DateTimeConverterHelpers_typeof()
     return type;
 }
 
-// public static object ConvertDateTimeToJSDate(Fuse.Scripting.Context context, Uno.DateTime dt, Fuse.Scripting.Function dateCtor) :25
+// public static object ConvertDateTimeToJSDate(Fuse.Scripting.Context context, Uno.DateTime dt, Fuse.Scripting.Function dateCtor)
 void DateTimeConverterHelpers__ConvertDateTimeToJSDate_fn(::g::Fuse::Scripting::Context* context, ::g::Uno::DateTime* dt, ::g::Fuse::Scripting::Function* dateCtor, uObject** __retval)
 {
     *__retval = DateTimeConverterHelpers::ConvertDateTimeToJSDate(context, *dt, dateCtor);
 }
 
-// public static Uno.DateTime ConvertDateToDateTime(Fuse.Scripting.Context context, Fuse.Scripting.Object date) :16
+// public static Uno.DateTime ConvertDateToDateTime(Fuse.Scripting.Context context, Fuse.Scripting.Object date)
 void DateTimeConverterHelpers__ConvertDateToDateTime_fn(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Object* date, ::g::Uno::DateTime* __retval)
 {
     *__retval = DateTimeConverterHelpers::ConvertDateToDateTime(context, date);
 }
 
-// public static object ConvertDateTimeToJSDate(Fuse.Scripting.Context context, Uno.DateTime dt, Fuse.Scripting.Function dateCtor) [static] :25
+// public static object ConvertDateTimeToJSDate(Fuse.Scripting.Context context, Uno.DateTime dt, Fuse.Scripting.Function dateCtor) [static]
 uObject* DateTimeConverterHelpers::ConvertDateTimeToJSDate(::g::Fuse::Scripting::Context* context, ::g::Uno::DateTime dt, ::g::Fuse::Scripting::Function* dateCtor)
 {
     int64_t dotNetTicks = dt.Ticks();
@@ -1073,7 +1073,7 @@ uObject* DateTimeConverterHelpers::ConvertDateTimeToJSDate(::g::Fuse::Scripting:
     return uPtr(dateCtor)->Call(context, uArray::Init<uObject*>(::TYPES[15/*object[]*/], 1, uBox(::g::Uno::Double_typeof(), (double)jsTicks)));
 }
 
-// public static Uno.DateTime ConvertDateToDateTime(Fuse.Scripting.Context context, Fuse.Scripting.Object date) [static] :16
+// public static Uno.DateTime ConvertDateToDateTime(Fuse.Scripting.Context context, Fuse.Scripting.Object date) [static]
 ::g::Uno::DateTime DateTimeConverterHelpers::ConvertDateToDateTime(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Object* date)
 {
     int64_t jsTicks = (int64_t)uUnbox<double>(::g::Uno::Double_typeof(), uPtr(context)->Wrap(uPtr(date)->CallMethod(context, ::STRINGS[2/*"getTime"*/], uArray::New(::TYPES[15/*object[]*/], 0))));
@@ -1083,10 +1083,10 @@ uObject* DateTimeConverterHelpers::ConvertDateTimeToJSDate(::g::Fuse::Scripting:
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ThreadWorker.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ThreadWorker.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class ThreadWorker.ExceptionClosure :133
+// private sealed class ThreadWorker.ExceptionClosure
 // {
 static void ThreadWorker__ExceptionClosure_build(uType* type)
 {
@@ -1108,37 +1108,37 @@ uType* ThreadWorker__ExceptionClosure_typeof()
     return type;
 }
 
-// public ExceptionClosure(Uno.Exception exception) :137
+// public ExceptionClosure(Uno.Exception exception)
 void ThreadWorker__ExceptionClosure__ctor__fn(ThreadWorker__ExceptionClosure* __this, ::g::Uno::Exception* exception)
 {
     __this->ctor_(exception);
 }
 
-// public ExceptionClosure New(Uno.Exception exception) :137
+// public ExceptionClosure New(Uno.Exception exception)
 void ThreadWorker__ExceptionClosure__New1_fn(::g::Uno::Exception* exception, ThreadWorker__ExceptionClosure** __retval)
 {
     *__retval = ThreadWorker__ExceptionClosure::New1(exception);
 }
 
-// public void Run() :142
+// public void Run()
 void ThreadWorker__ExceptionClosure__Run_fn(ThreadWorker__ExceptionClosure* __this)
 {
     __this->Run();
 }
 
-// public ExceptionClosure(Uno.Exception exception) [instance] :137
+// public ExceptionClosure(Uno.Exception exception) [instance]
 void ThreadWorker__ExceptionClosure::ctor_(::g::Uno::Exception* exception)
 {
     _exception = exception;
 }
 
-// public void Run() [instance] :142
+// public void Run() [instance]
 void ThreadWorker__ExceptionClosure::Run()
 {
     U_THROW(::g::Fuse::WrapException::New4(_exception));
 }
 
-// public ExceptionClosure New(Uno.Exception exception) [static] :137
+// public ExceptionClosure New(Uno.Exception exception) [static]
 ThreadWorker__ExceptionClosure* ThreadWorker__ExceptionClosure::New1(::g::Uno::Exception* exception)
 {
     ThreadWorker__ExceptionClosure* obj1 = (ThreadWorker__ExceptionClosure*)uNew(ThreadWorker__ExceptionClosure_typeof());
@@ -1147,10 +1147,10 @@ ThreadWorker__ExceptionClosure* ThreadWorker__ExceptionClosure::New1(::g::Uno::E
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Observable.Failed :464
+// private sealed class Observable.Failed
 // {
 static void Observable__Failed_build(uType* type)
 {
@@ -1177,19 +1177,19 @@ static void Observable__Failed_build(uType* type)
     return type;
 }
 
-// public Failed(Fuse.Scripting.JavaScript.Observable obs, string message) :468
+// public Failed(Fuse.Scripting.JavaScript.Observable obs, string message)
 void Observable__Failed__ctor_1_fn(Observable__Failed* __this, ::g::Fuse::Scripting::JavaScript::Observable* obs, uString* message)
 {
     __this->ctor_1(obs, message);
 }
 
-// public Failed New(Fuse.Scripting.JavaScript.Observable obs, string message) :468
+// public Failed New(Fuse.Scripting.JavaScript.Observable obs, string message)
 void Observable__Failed__New1_fn(::g::Fuse::Scripting::JavaScript::Observable* obs, uString* message, Observable__Failed** __retval)
 {
     *__retval = Observable__Failed::New1(obs, message);
 }
 
-// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub) :473
+// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub)
 void Observable__Failed__OnPerform_fn(Observable__Failed* __this, uObject* sub)
 {
     ::g::Fuse::Scripting::JavaScript::Observable__Subscription* ret2;
@@ -1202,14 +1202,14 @@ void Observable__Failed__OnPerform_fn(Observable__Failed* __this, uObject* sub)
             ::g::Fuse::Reactive::IObserver::OnFailed(uInterface(uPtr(uPtr((::g::Uno::Collections::IList::get_Item_ex(uInterface(uPtr(sub), ::TYPES[1/*Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription>*/]), uCRef<int32_t>(i), &ret3), ret3))->Observer()), ::TYPES[2/*Fuse.Reactive.IObserver*/]), __this->_message);
 }
 
-// public Failed(Fuse.Scripting.JavaScript.Observable obs, string message) [instance] :468
+// public Failed(Fuse.Scripting.JavaScript.Observable obs, string message) [instance]
 void Observable__Failed::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* obs, uString* message)
 {
     ctor_(obs);
     _message = message;
 }
 
-// public Failed New(Fuse.Scripting.JavaScript.Observable obs, string message) [static] :468
+// public Failed New(Fuse.Scripting.JavaScript.Observable obs, string message) [static]
 Observable__Failed* Observable__Failed::New1(::g::Fuse::Scripting::JavaScript::Observable* obs, uString* message)
 {
     Observable__Failed* obj1 = (Observable__Failed*)uNew(Observable__Failed_typeof());
@@ -1218,10 +1218,10 @@ Observable__Failed* Observable__Failed::New1(::g::Fuse::Scripting::JavaScript::O
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ThreadWorker.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ThreadWorker.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract interface IMirror :10
+// internal abstract interface IMirror
 // {
 uInterfaceType* IMirror_typeof()
 {
@@ -1233,10 +1233,10 @@ uInterfaceType* IMirror_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Observable.InsertAll :646
+// private sealed class Observable.InsertAll
 // {
 static void Observable__InsertAll_build(uType* type)
 {
@@ -1265,19 +1265,19 @@ static void Observable__InsertAll_build(uType* type)
     return type;
 }
 
-// public InsertAll(Fuse.Scripting.JavaScript.Observable obs, int index, Fuse.Scripting.JavaScript.ArrayMirror items) :651
+// public InsertAll(Fuse.Scripting.JavaScript.Observable obs, int index, Fuse.Scripting.JavaScript.ArrayMirror items)
 void Observable__InsertAll__ctor_1_fn(Observable__InsertAll* __this, ::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t* index, ::g::Fuse::Scripting::JavaScript::ArrayMirror* items)
 {
     __this->ctor_1(obs, *index, items);
 }
 
-// public InsertAll New(Fuse.Scripting.JavaScript.Observable obs, int index, Fuse.Scripting.JavaScript.ArrayMirror items) :651
+// public InsertAll New(Fuse.Scripting.JavaScript.Observable obs, int index, Fuse.Scripting.JavaScript.ArrayMirror items)
 void Observable__InsertAll__New1_fn(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t* index, ::g::Fuse::Scripting::JavaScript::ArrayMirror* items, Observable__InsertAll** __retval)
 {
     *__retval = Observable__InsertAll::New1(obs, *index, items);
 }
 
-// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub) :662
+// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub)
 void Observable__InsertAll__OnPerform_fn(Observable__InsertAll* __this, uObject* sub)
 {
     ::g::Fuse::Scripting::JavaScript::Observable__Subscription* ret2;
@@ -1293,13 +1293,13 @@ void Observable__InsertAll__OnPerform_fn(Observable__InsertAll* __this, uObject*
     }
 }
 
-// protected override sealed void Unsubscribe() :657
+// protected override sealed void Unsubscribe()
 void Observable__InsertAll__Unsubscribe_fn(Observable__InsertAll* __this)
 {
     ::g::Fuse::Scripting::ValueMirror::Unsubscribe1(__this->_items);
 }
 
-// public InsertAll(Fuse.Scripting.JavaScript.Observable obs, int index, Fuse.Scripting.JavaScript.ArrayMirror items) [instance] :651
+// public InsertAll(Fuse.Scripting.JavaScript.Observable obs, int index, Fuse.Scripting.JavaScript.ArrayMirror items) [instance]
 void Observable__InsertAll::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t index, ::g::Fuse::Scripting::JavaScript::ArrayMirror* items)
 {
     ctor_(obs);
@@ -1307,7 +1307,7 @@ void Observable__InsertAll::ctor_1(::g::Fuse::Scripting::JavaScript::Observable*
     _items = items;
 }
 
-// public InsertAll New(Fuse.Scripting.JavaScript.Observable obs, int index, Fuse.Scripting.JavaScript.ArrayMirror items) [static] :651
+// public InsertAll New(Fuse.Scripting.JavaScript.Observable obs, int index, Fuse.Scripting.JavaScript.ArrayMirror items) [static]
 Observable__InsertAll* Observable__InsertAll::New1(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t index, ::g::Fuse::Scripting::JavaScript::ArrayMirror* items)
 {
     Observable__InsertAll* obj1 = (Observable__InsertAll*)uNew(Observable__InsertAll_typeof());
@@ -1316,10 +1316,10 @@ Observable__InsertAll* Observable__InsertAll::New1(::g::Fuse::Scripting::JavaScr
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Observable.InsertAt :618
+// private sealed class Observable.InsertAt
 // {
 static void Observable__InsertAt_build(uType* type)
 {
@@ -1348,19 +1348,19 @@ static void Observable__InsertAt_build(uType* type)
     return type;
 }
 
-// public InsertAt(Fuse.Scripting.JavaScript.Observable obs, int index, object value) :623
+// public InsertAt(Fuse.Scripting.JavaScript.Observable obs, int index, object value)
 void Observable__InsertAt__ctor_1_fn(Observable__InsertAt* __this, ::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t* index, uObject* value)
 {
     __this->ctor_1(obs, *index, value);
 }
 
-// public InsertAt New(Fuse.Scripting.JavaScript.Observable obs, int index, object value) :623
+// public InsertAt New(Fuse.Scripting.JavaScript.Observable obs, int index, object value)
 void Observable__InsertAt__New1_fn(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t* index, uObject* value, Observable__InsertAt** __retval)
 {
     *__retval = Observable__InsertAt::New1(obs, *index, value);
 }
 
-// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub) :634
+// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub)
 void Observable__InsertAt__OnPerform_fn(Observable__InsertAt* __this, uObject* sub)
 {
     ::g::Fuse::Scripting::JavaScript::Observable__Subscription* ret2;
@@ -1372,13 +1372,13 @@ void Observable__InsertAt__OnPerform_fn(Observable__InsertAt* __this, uObject* s
             ::g::Fuse::Reactive::IObserver::OnInsertAt(uInterface(uPtr(uPtr((::g::Uno::Collections::IList::get_Item_ex(uInterface(uPtr(sub), ::TYPES[1/*Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription>*/]), uCRef<int32_t>(i), &ret3), ret3))->Observer()), ::TYPES[2/*Fuse.Reactive.IObserver*/]), __this->_index, __this->_value);
 }
 
-// protected override sealed void Unsubscribe() :629
+// protected override sealed void Unsubscribe()
 void Observable__InsertAt__Unsubscribe_fn(Observable__InsertAt* __this)
 {
     ::g::Fuse::Scripting::ValueMirror::Unsubscribe1(__this->_value);
 }
 
-// public InsertAt(Fuse.Scripting.JavaScript.Observable obs, int index, object value) [instance] :623
+// public InsertAt(Fuse.Scripting.JavaScript.Observable obs, int index, object value) [instance]
 void Observable__InsertAt::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t index, uObject* value)
 {
     ctor_(obs);
@@ -1386,7 +1386,7 @@ void Observable__InsertAt::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* 
     _value = value;
 }
 
-// public InsertAt New(Fuse.Scripting.JavaScript.Observable obs, int index, object value) [static] :623
+// public InsertAt New(Fuse.Scripting.JavaScript.Observable obs, int index, object value) [static]
 Observable__InsertAt* Observable__InsertAt::New1(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t index, uObject* value)
 {
     Observable__InsertAt* obj1 = (Observable__InsertAt*)uNew(Observable__InsertAt_typeof());
@@ -1395,10 +1395,10 @@ Observable__InsertAt* Observable__InsertAt::New1(::g::Fuse::Scripting::JavaScrip
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeObservable.uno
-// -----------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeObservable.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class TreeObservable.InsertAtOperation :226
+// private sealed class TreeObservable.InsertAtOperation
 // {
 static void TreeObservable__InsertAtOperation_build(uType* type)
 {
@@ -1427,19 +1427,19 @@ static void TreeObservable__InsertAtOperation_build(uType* type)
     return type;
 }
 
-// public InsertAtOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) :228
+// public InsertAtOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args)
 void TreeObservable__InsertAtOperation__ctor_2_fn(TreeObservable__InsertAtOperation* __this, ::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     __this->ctor_2(context, inst, args);
 }
 
-// public InsertAtOperation New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) :228
+// public InsertAtOperation New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args)
 void TreeObservable__InsertAtOperation__New1_fn(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args, TreeObservable__InsertAtOperation** __retval)
 {
     *__retval = TreeObservable__InsertAtOperation::New1(context, inst, args);
 }
 
-// protected override sealed void Perform(object dc) :236
+// protected override sealed void Perform(object dc)
 void TreeObservable__InsertAtOperation__Perform1_fn(TreeObservable__InsertAtOperation* __this, uObject* dc)
 {
     ::g::Fuse::Scripting::JavaScript::TreeArray* arr = uAs< ::g::Fuse::Scripting::JavaScript::TreeArray*>(dc, ::TYPES[3/*Fuse.Scripting.JavaScript.TreeArray*/]);
@@ -1448,20 +1448,20 @@ void TreeObservable__InsertAtOperation__Perform1_fn(TreeObservable__InsertAtOper
         uPtr(arr)->InsertAt(__this->_index, __this->WrappedValue);
 }
 
-// protected override sealed int get_SpecialArgCount() :232
+// protected override sealed int get_SpecialArgCount()
 void TreeObservable__InsertAtOperation__get_SpecialArgCount_fn(TreeObservable__InsertAtOperation* __this, int32_t* __retval)
 {
     return *__retval = 2, void();
 }
 
-// public InsertAtOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [instance] :228
+// public InsertAtOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [instance]
 void TreeObservable__InsertAtOperation::ctor_2(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     ctor_1(context, inst, args);
     _index = ::g::Fuse::Marshal::ToInt(uPtr(Arguments)->Strong<uObject*>(uPtr(Arguments)->Length() - 2));
 }
 
-// public InsertAtOperation New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [static] :228
+// public InsertAtOperation New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [static]
 TreeObservable__InsertAtOperation* TreeObservable__InsertAtOperation::New1(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     TreeObservable__InsertAtOperation* obj1 = (TreeObservable__InsertAtOperation*)uNew(TreeObservable__InsertAtOperation_typeof());
@@ -1470,12 +1470,12 @@ TreeObservable__InsertAtOperation* TreeObservable__InsertAtOperation::New1(::g::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Context.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Context.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class JSContext :10
+// public abstract class JSContext
 // {
-// static JSContext() :27
+// static JSContext()
 static void JSContext__cctor__fn(uType* __type)
 {
     ::g::Fuse::Scripting::ScriptClass_typeof()->Init();
@@ -1520,70 +1520,70 @@ JSContext_type* JSContext_typeof()
     return type;
 }
 
-// protected JSContext() :33
+// protected JSContext()
 void JSContext__ctor_1_fn(JSContext* __this)
 {
     __this->ctor_1();
 }
 
-// internal static Fuse.Scripting.JavaScript.JSContext Create() :35
+// internal static Fuse.Scripting.JavaScript.JSContext Create()
 void JSContext__Create_fn(JSContext** __retval)
 {
     *__retval = JSContext::Create();
 }
 
-// private object CreateMirror(object obj) :99
+// private object CreateMirror(object obj)
 void JSContext__CreateMirror_fn(JSContext* __this, uObject* obj, uObject** __retval)
 {
     *__retval = __this->CreateMirror(obj);
 }
 
-// private static Uno.UX.NameTable FindRootTable(Uno.UX.NameTable names) :233
+// private static Uno.UX.NameTable FindRootTable(Uno.UX.NameTable names)
 void JSContext__FindRootTable_fn(::g::Uno::UX::NameTable* names, ::g::Uno::UX::NameTable** __retval)
 {
     *__retval = JSContext::FindRootTable(names);
 }
 
-// private object Fuse.Scripting.JavaScript.IMirror.Reflect(Fuse.Scripting.Context context, object obj) :91
+// private object Fuse.Scripting.JavaScript.IMirror.Reflect(Fuse.Scripting.Context context, object obj)
 void JSContext__FuseScriptingJavaScriptIMirrorReflect_fn(JSContext* __this, ::g::Fuse::Scripting::Context* context, uObject* obj, uObject** __retval)
 {
     if (context != __this)
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("IMirror.Reflect with inconsistent context"), __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Context.uno"), 94, uString::Const("Fuse.Scripting.JavaScript.IMirror.Reflect"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("IMirror.Reflect with inconsistent context"), __this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Context.uno"), 94, uString::Const("Fuse.Scripting.JavaScript.IMirror.Reflect"));
 
     return *__retval = __this->Reflect(obj), void();
 }
 
-// internal generated Fuse.Reactive.FuseJS.Builtins get_FuseJS() :17
+// internal generated Fuse.Reactive.FuseJS.Builtins get_FuseJS()
 void JSContext__get_FuseJS_fn(JSContext* __this, ::g::Fuse::Reactive::FuseJS::Builtins** __retval)
 {
     *__retval = __this->FuseJS();
 }
 
-// private generated void set_FuseJS(Fuse.Reactive.FuseJS.Builtins value) :17
+// private generated void set_FuseJS(Fuse.Reactive.FuseJS.Builtins value)
 void JSContext__set_FuseJS_fn(JSContext* __this, ::g::Fuse::Reactive::FuseJS::Builtins* value)
 {
     __this->FuseJS(value);
 }
 
-// internal Fuse.Scripting.Function GetClass(Fuse.Scripting.ScriptClass sc) :143
+// internal Fuse.Scripting.Function GetClass(Fuse.Scripting.ScriptClass sc)
 void JSContext__GetClass_fn(JSContext* __this, ::g::Fuse::Scripting::ScriptClass* sc, ::g::Fuse::Scripting::Function** __retval)
 {
     *__retval = __this->GetClass(sc);
 }
 
-// internal Fuse.Scripting.JavaScript.ClassInstance GetClassInstance(object obj, Uno.UX.NameTable rootTable) :211
+// internal Fuse.Scripting.JavaScript.ClassInstance GetClassInstance(object obj, Uno.UX.NameTable rootTable)
 void JSContext__GetClassInstance_fn(JSContext* __this, uObject* obj, ::g::Uno::UX::NameTable* rootTable, ::g::Fuse::Scripting::JavaScript::ClassInstance** __retval)
 {
     *__retval = __this->GetClassInstance(obj, rootTable);
 }
 
-// internal Fuse.Scripting.JavaScript.ClassInstance GetClassInstance(Uno.UX.NameTable scope) :203
+// internal Fuse.Scripting.JavaScript.ClassInstance GetClassInstance(Uno.UX.NameTable scope)
 void JSContext__GetClassInstance1_fn(JSContext* __this, ::g::Uno::UX::NameTable* scope, ::g::Fuse::Scripting::JavaScript::ClassInstance** __retval)
 {
     *__retval = __this->GetClassInstance1(scope);
 }
 
-// public override sealed object Reflect(object obj) :61
+// public override sealed object Reflect(object obj)
 void JSContext__Reflect_fn(JSContext* __this, uObject* obj, uObject** __retval)
 {
     ::g::Fuse::Scripting::External* e = uAs< ::g::Fuse::Scripting::External*>(obj, ::TYPES[19/*Fuse.Scripting.External*/]);
@@ -1633,31 +1633,31 @@ void JSContext__Reflect_fn(JSContext* __this, uObject* obj, uObject** __retval)
     return *__retval = res, void();
 }
 
-// private Fuse.Scripting.Function RegisterClass(Fuse.Scripting.ScriptClass sc) :154
+// private Fuse.Scripting.Function RegisterClass(Fuse.Scripting.ScriptClass sc)
 void JSContext__RegisterClass_fn(JSContext* __this, ::g::Fuse::Scripting::ScriptClass* sc, ::g::Fuse::Scripting::Function** __retval)
 {
     *__retval = __this->RegisterClass(sc);
 }
 
-// public override sealed Fuse.Scripting.IThreadWorker get_ThreadWorker() :21
+// public override sealed Fuse.Scripting.IThreadWorker get_ThreadWorker()
 void JSContext__get_ThreadWorker_fn(JSContext* __this, uObject** __retval)
 {
     return *__retval = (uObject*)::g::Fuse::Reactive::JavaScript::Worker_, void();
 }
 
-// public override sealed object Unwrap(object obj) :56
+// public override sealed object Unwrap(object obj)
 void JSContext__Unwrap_fn(JSContext* __this, uObject* obj, uObject** __retval)
 {
     return *__retval = ::g::Fuse::Scripting::JavaScript::TypeWrapper::Unwrap(__this, obj), void();
 }
 
-// public override sealed object Wrap(object obj) :51
+// public override sealed object Wrap(object obj)
 void JSContext__Wrap_fn(JSContext* __this, uObject* obj, uObject** __retval)
 {
     return *__retval = ::g::Fuse::Scripting::JavaScript::TypeWrapper::Wrap(__this, obj), void();
 }
 
-// protected JSContext() [instance] :33
+// protected JSContext() [instance]
 void JSContext::ctor_1()
 {
     _registeredClasses = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::g::Uno::Collections::Dictionary_typeof()->MakeType(::g::Fuse::Scripting::ScriptClass_typeof(), ::TYPES[16/*Fuse.Scripting.Function*/], NULL)));
@@ -1665,12 +1665,12 @@ void JSContext::ctor_1()
     ctor_();
 }
 
-// private object CreateMirror(object obj) [instance] :99
+// private object CreateMirror(object obj) [instance]
 uObject* JSContext::CreateMirror(uObject* obj)
 {
     if (_reflectionDepth > 50)
     {
-        ::g::Fuse::Diagnostics::UserWarning(uString::Const("JavaScript data model contains circular references or is too deep. Some data may not display correctly."), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Context.uno"), 103, uString::Const("CreateMirror"));
+        ::g::Fuse::Diagnostics::UserWarning(uString::Const("JavaScript data model contains circular references or is too deep. Some data may not display correctly."), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Context.uno"), 103, uString::Const("CreateMirror"));
         return NULL;
     }
 
@@ -1701,19 +1701,19 @@ uObject* JSContext::CreateMirror(uObject* obj)
     return obj;
 }
 
-// internal generated Fuse.Reactive.FuseJS.Builtins get_FuseJS() [instance] :17
+// internal generated Fuse.Reactive.FuseJS.Builtins get_FuseJS() [instance]
 ::g::Fuse::Reactive::FuseJS::Builtins* JSContext::FuseJS()
 {
     return _FuseJS;
 }
 
-// private generated void set_FuseJS(Fuse.Reactive.FuseJS.Builtins value) [instance] :17
+// private generated void set_FuseJS(Fuse.Reactive.FuseJS.Builtins value) [instance]
 void JSContext::FuseJS(::g::Fuse::Reactive::FuseJS::Builtins* value)
 {
     _FuseJS = value;
 }
 
-// internal Fuse.Scripting.Function GetClass(Fuse.Scripting.ScriptClass sc) [instance] :143
+// internal Fuse.Scripting.Function GetClass(Fuse.Scripting.ScriptClass sc) [instance]
 ::g::Fuse::Scripting::Function* JSContext::GetClass(::g::Fuse::Scripting::ScriptClass* sc)
 {
     bool ret1;
@@ -1728,7 +1728,7 @@ void JSContext::FuseJS(::g::Fuse::Reactive::FuseJS::Builtins* value)
     return cl;
 }
 
-// internal Fuse.Scripting.JavaScript.ClassInstance GetClassInstance(object obj, Uno.UX.NameTable rootTable) [instance] :211
+// internal Fuse.Scripting.JavaScript.ClassInstance GetClassInstance(object obj, Uno.UX.NameTable rootTable) [instance]
 ::g::Fuse::Scripting::JavaScript::ClassInstance* JSContext::GetClassInstance(uObject* obj, ::g::Uno::UX::NameTable* rootTable)
 {
     uObject* n = uAs<uObject*>(obj, ::g::Fuse::IProperties_typeof());
@@ -1749,14 +1749,14 @@ void JSContext::FuseJS(::g::Fuse::Reactive::FuseJS::Builtins* value)
     U_THROW(::g::Uno::Exception::New2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(uString::Const("Cannot use object of type '"), ::g::Uno::Type::FullName(uPtr(::g::Uno::Object::GetType(uPtr(uPtr(rootTable)->This()))))), uString::Const("' as 'this' in JavaScript module; must be 'IProperties' or 'App'"))));
 }
 
-// internal Fuse.Scripting.JavaScript.ClassInstance GetClassInstance(Uno.UX.NameTable scope) [instance] :203
+// internal Fuse.Scripting.JavaScript.ClassInstance GetClassInstance(Uno.UX.NameTable scope) [instance]
 ::g::Fuse::Scripting::JavaScript::ClassInstance* JSContext::GetClassInstance1(::g::Uno::UX::NameTable* scope)
 {
     ::g::Uno::UX::NameTable* rootTable = JSContext::FindRootTable(scope);
     return GetClassInstance(uPtr(rootTable)->This(), rootTable);
 }
 
-// private Fuse.Scripting.Function RegisterClass(Fuse.Scripting.ScriptClass sc) [instance] :154
+// private Fuse.Scripting.Function RegisterClass(Fuse.Scripting.ScriptClass sc) [instance]
 ::g::Fuse::Scripting::Function* JSContext::RegisterClass(::g::Fuse::Scripting::ScriptClass* sc)
 {
     ::g::Fuse::Scripting::Function* cl = uCast< ::g::Fuse::Scripting::Function*>(Evaluate(::g::Uno::String::op_Addition2(::g::Uno::Type::FullName(uPtr(uPtr(sc)->Type())), uString::Const(" (ScriptClass)")), uString::Const("(function(external_object) { this.external_object = external_object; })")), ::TYPES[16/*Fuse.Scripting.Function*/]);
@@ -1810,7 +1810,7 @@ void JSContext::FuseJS(::g::Fuse::Reactive::FuseJS::Builtins* value)
     return cl;
 }
 
-// internal static Fuse.Scripting.JavaScript.JSContext Create() [static] :35
+// internal static Fuse.Scripting.JavaScript.JSContext Create() [static]
 JSContext* JSContext::Create()
 {
     JSContext_typeof()->Init();
@@ -1820,7 +1820,7 @@ JSContext* JSContext::Create()
     return result;
 }
 
-// private static Uno.UX.NameTable FindRootTable(Uno.UX.NameTable names) [static] :233
+// private static Uno.UX.NameTable FindRootTable(Uno.UX.NameTable names) [static]
 ::g::Uno::UX::NameTable* JSContext::FindRootTable(::g::Uno::UX::NameTable* names)
 {
     JSContext_typeof()->Init();
@@ -1838,10 +1838,10 @@ JSContext* JSContext::Create()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeObject.uno
-// -------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeObject.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class TreeObject.PropertySubscription.JSThreadSet :27
+// private sealed class TreeObject.PropertySubscription.JSThreadSet
 // {
 static void TreeObject__PropertySubscription__JSThreadSet_build(uType* type)
 {
@@ -1868,25 +1868,25 @@ uType* TreeObject__PropertySubscription__JSThreadSet_typeof()
     return type;
 }
 
-// public JSThreadSet(Fuse.Scripting.Object obj, string key, object value) :32
+// public JSThreadSet(Fuse.Scripting.Object obj, string key, object value)
 void TreeObject__PropertySubscription__JSThreadSet__ctor__fn(TreeObject__PropertySubscription__JSThreadSet* __this, ::g::Fuse::Scripting::Object* obj, uString* key, uObject* value)
 {
     __this->ctor_(obj, key, value);
 }
 
-// public JSThreadSet New(Fuse.Scripting.Object obj, string key, object value) :32
+// public JSThreadSet New(Fuse.Scripting.Object obj, string key, object value)
 void TreeObject__PropertySubscription__JSThreadSet__New1_fn(::g::Fuse::Scripting::Object* obj, uString* key, uObject* value, TreeObject__PropertySubscription__JSThreadSet** __retval)
 {
     *__retval = TreeObject__PropertySubscription__JSThreadSet::New1(obj, key, value);
 }
 
-// public void Perform(Fuse.Scripting.Context context) :38
+// public void Perform(Fuse.Scripting.Context context)
 void TreeObject__PropertySubscription__JSThreadSet__Perform_fn(TreeObject__PropertySubscription__JSThreadSet* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->Perform(context);
 }
 
-// public JSThreadSet(Fuse.Scripting.Object obj, string key, object value) [instance] :32
+// public JSThreadSet(Fuse.Scripting.Object obj, string key, object value) [instance]
 void TreeObject__PropertySubscription__JSThreadSet::ctor_(::g::Fuse::Scripting::Object* obj, uString* key, uObject* value)
 {
     _obj = obj;
@@ -1894,7 +1894,7 @@ void TreeObject__PropertySubscription__JSThreadSet::ctor_(::g::Fuse::Scripting::
     _value = value;
 }
 
-// public void Perform(Fuse.Scripting.Context context) [instance] :38
+// public void Perform(Fuse.Scripting.Context context) [instance]
 void TreeObject__PropertySubscription__JSThreadSet::Perform(::g::Fuse::Scripting::Context* context)
 {
     uObject* val = uPtr(context)->Unwrap(_value);
@@ -1905,7 +1905,7 @@ void TreeObject__PropertySubscription__JSThreadSet::Perform(::g::Fuse::Scripting
         uPtr(_obj)->Item(_key, val);
 }
 
-// public JSThreadSet New(Fuse.Scripting.Object obj, string key, object value) [static] :32
+// public JSThreadSet New(Fuse.Scripting.Object obj, string key, object value) [static]
 TreeObject__PropertySubscription__JSThreadSet* TreeObject__PropertySubscription__JSThreadSet::New1(::g::Fuse::Scripting::Object* obj, uString* key, uObject* value)
 {
     TreeObject__PropertySubscription__JSThreadSet* obj1 = (TreeObject__PropertySubscription__JSThreadSet*)uNew(TreeObject__PropertySubscription__JSThreadSet_typeof());
@@ -1914,10 +1914,10 @@ TreeObject__PropertySubscription__JSThreadSet* TreeObject__PropertySubscription_
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ObservableProperty.uno
-// ------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ObservableProperty.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class LazyObservableProperty :7
+// internal sealed class LazyObservableProperty
 // {
 static void LazyObservableProperty_build(uType* type)
 {
@@ -1954,38 +1954,38 @@ static void LazyObservableProperty_build(uType* type)
     return type;
 }
 
-// public LazyObservableProperty(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p, Fuse.Scripting.Context c) :9
+// public LazyObservableProperty(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p, Fuse.Scripting.Context c)
 void LazyObservableProperty__ctor_1_fn(LazyObservableProperty* __this, ::g::Fuse::Scripting::JavaScript::ThreadWorker* w, ::g::Fuse::Scripting::Object* obj, ::g::Uno::UX::Property* p, ::g::Fuse::Scripting::Context* c)
 {
     __this->ctor_1(w, obj, p, c);
 }
 
-// private object Get(Fuse.Scripting.Context context, object[] args) :14
+// private object Get(Fuse.Scripting.Context context, object[] args)
 void LazyObservableProperty__Get_fn(LazyObservableProperty* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->Get(context, args);
 }
 
-// public LazyObservableProperty New(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p, Fuse.Scripting.Context c) :9
+// public LazyObservableProperty New(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p, Fuse.Scripting.Context c)
 void LazyObservableProperty__New2_fn(::g::Fuse::Scripting::JavaScript::ThreadWorker* w, ::g::Fuse::Scripting::Object* obj, ::g::Uno::UX::Property* p, ::g::Fuse::Scripting::Context* c, LazyObservableProperty** __retval)
 {
     *__retval = LazyObservableProperty::New2(w, obj, p, c);
 }
 
-// public LazyObservableProperty(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p, Fuse.Scripting.Context c) [instance] :9
+// public LazyObservableProperty(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p, Fuse.Scripting.Context c) [instance]
 void LazyObservableProperty::ctor_1(::g::Fuse::Scripting::JavaScript::ThreadWorker* w, ::g::Fuse::Scripting::Object* obj, ::g::Uno::UX::Property* p, ::g::Fuse::Scripting::Context* c)
 {
     ctor_(w, obj, p);
     uPtr(c)->ObjectDefineProperty(obj, uPtr(p)->Name().ToString(::TYPES[17/*Uno.UX.Selector*/]), uDelegate::New(::TYPES[18/*Fuse.Scripting.Callback*/], (void*)LazyObservableProperty__Get_fn, this), NULL, false, false);
 }
 
-// private object Get(Fuse.Scripting.Context context, object[] args) [instance] :14
+// private object Get(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* LazyObservableProperty::Get(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     return uPtr(context)->Unwrap(GetObservable(context));
 }
 
-// public LazyObservableProperty New(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p, Fuse.Scripting.Context c) [static] :9
+// public LazyObservableProperty New(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p, Fuse.Scripting.Context c) [static]
 LazyObservableProperty* LazyObservableProperty::New2(::g::Fuse::Scripting::JavaScript::ThreadWorker* w, ::g::Fuse::Scripting::Object* obj, ::g::Uno::UX::Property* p, ::g::Fuse::Scripting::Context* c)
 {
     LazyObservableProperty* obj1 = (LazyObservableProperty*)uNew(LazyObservableProperty_typeof());
@@ -1994,12 +1994,12 @@ LazyObservableProperty* LazyObservableProperty::New2(::g::Fuse::Scripting::JavaS
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Context.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Context.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class JSContext.MethodClosure :305
+// private sealed class JSContext.MethodClosure
 // {
-// static generated MethodClosure() :305
+// static generated MethodClosure()
 static void JSContext__MethodClosure__cctor__fn(uType* __type)
 {
     JSContext__MethodClosure::_emptyArgs_ = uArray::New(::TYPES[15/*object[]*/], 0);
@@ -2035,25 +2035,25 @@ uType* JSContext__MethodClosure_typeof()
     return type;
 }
 
-// public MethodClosure(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptMethod m) :308
+// public MethodClosure(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptMethod m)
 void JSContext__MethodClosure__ctor__fn(JSContext__MethodClosure* __this, ::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* cl, ::g::Fuse::Scripting::ScriptMethod* m)
 {
     __this->ctor_(context, cl, m);
 }
 
-// private object Callback(Fuse.Scripting.Context context, object[] args) :320
+// private object Callback(Fuse.Scripting.Context context, object[] args)
 void JSContext__MethodClosure__Callback_fn(JSContext__MethodClosure* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->Callback(context, args);
 }
 
-// private static object[] CopyArgs(Fuse.Scripting.Context context, Fuse.Scripting.Array args) :328
+// private static object[] CopyArgs(Fuse.Scripting.Context context, Fuse.Scripting.Array args)
 void JSContext__MethodClosure__CopyArgs_fn(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Array* args, uArray** __retval)
 {
     *__retval = JSContext__MethodClosure::CopyArgs(context, args);
 }
 
-// public MethodClosure New(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptMethod m) :308
+// public MethodClosure New(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptMethod m)
 void JSContext__MethodClosure__New1_fn(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* cl, ::g::Fuse::Scripting::ScriptMethod* m, JSContext__MethodClosure** __retval)
 {
     *__retval = JSContext__MethodClosure::New1(context, cl, m);
@@ -2061,7 +2061,7 @@ void JSContext__MethodClosure__New1_fn(::g::Fuse::Scripting::Context* context, :
 
 uSStrong<uArray*> JSContext__MethodClosure::_emptyArgs_;
 
-// public MethodClosure(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptMethod m) [instance] :308
+// public MethodClosure(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptMethod m) [instance]
 void JSContext__MethodClosure::ctor_(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* cl, ::g::Fuse::Scripting::ScriptMethod* m)
 {
     _m = m;
@@ -2069,7 +2069,7 @@ void JSContext__MethodClosure::ctor_(::g::Fuse::Scripting::Context* context, ::g
     uPtr(factory)->Call(context, uArray::Init<uObject*>(::TYPES[15/*object[]*/], 2, cl, uDelegate::New(::TYPES[18/*Fuse.Scripting.Callback*/], (void*)JSContext__MethodClosure__Callback_fn, this)));
 }
 
-// private object Callback(Fuse.Scripting.Context context, object[] args) [instance] :320
+// private object Callback(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* JSContext__MethodClosure::Callback(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     uObject* self = uPtr(uCast< ::g::Fuse::Scripting::External*>(uPtr(args)->Strong<uObject*>(0), ::TYPES[19/*Fuse.Scripting.External*/]))->Object;
@@ -2078,7 +2078,7 @@ uObject* JSContext__MethodClosure::Callback(::g::Fuse::Scripting::Context* conte
     return res;
 }
 
-// private static object[] CopyArgs(Fuse.Scripting.Context context, Fuse.Scripting.Array args) [static] :328
+// private static object[] CopyArgs(Fuse.Scripting.Context context, Fuse.Scripting.Array args) [static]
 uArray* JSContext__MethodClosure::CopyArgs(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Array* args)
 {
     JSContext__MethodClosure_typeof()->Init();
@@ -2090,7 +2090,7 @@ uArray* JSContext__MethodClosure::CopyArgs(::g::Fuse::Scripting::Context* contex
     return res;
 }
 
-// public MethodClosure New(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptMethod m) [static] :308
+// public MethodClosure New(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptMethod m) [static]
 JSContext__MethodClosure* JSContext__MethodClosure::New1(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* cl, ::g::Fuse::Scripting::ScriptMethod* m)
 {
     JSContext__MethodClosure* obj1 = (JSContext__MethodClosure*)uNew(JSContext__MethodClosure_typeof());
@@ -2099,12 +2099,12 @@ JSContext__MethodClosure* JSContext__MethodClosure::New1(::g::Fuse::Scripting::C
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ModuleInstance.uno
-// --------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ModuleInstance.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class ModuleInstance :7
+// internal sealed class ModuleInstance
 // {
-// static generated ModuleInstance() :7
+// static generated ModuleInstance()
 static void ModuleInstance__cctor__fn(uType* __type)
 {
     ModuleInstance::_resetHookMutex_ = ::g::Uno::Object::New();
@@ -2154,49 +2154,49 @@ uType* ModuleInstance_typeof()
     return type;
 }
 
-// public ModuleInstance(Fuse.Scripting.IThreadWorker worker, Fuse.Reactive.JavaScript js) :14
+// public ModuleInstance(Fuse.Scripting.IThreadWorker worker, Fuse.Reactive.JavaScript js)
 void ModuleInstance__ctor_1_fn(ModuleInstance* __this, uObject* worker, ::g::Fuse::Reactive::JavaScript* js)
 {
     __this->ctor_1(worker, js);
 }
 
-// public void Dispose() :77
+// public void Dispose()
 void ModuleInstance__Dispose_fn(ModuleInstance* __this)
 {
     __this->Dispose();
 }
 
-// private void Evaluate(Fuse.Scripting.Context context) :25
+// private void Evaluate(Fuse.Scripting.Context context)
 void ModuleInstance__Evaluate_fn(ModuleInstance* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->Evaluate(context);
 }
 
-// private void EvaluateModule(Fuse.Scripting.Context context) :92
+// private void EvaluateModule(Fuse.Scripting.Context context)
 void ModuleInstance__EvaluateModule_fn(ModuleInstance* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->EvaluateModule(context);
 }
 
-// public ModuleInstance New(Fuse.Scripting.IThreadWorker worker, Fuse.Reactive.JavaScript js) :14
+// public ModuleInstance New(Fuse.Scripting.IThreadWorker worker, Fuse.Reactive.JavaScript js)
 void ModuleInstance__New2_fn(uObject* worker, ::g::Fuse::Reactive::JavaScript* js, ModuleInstance** __retval)
 {
     *__retval = ModuleInstance::New2(worker, js);
 }
 
-// internal bool ReflectExports() :66
+// internal bool ReflectExports()
 void ModuleInstance__ReflectExports_fn(ModuleInstance* __this, bool* __retval)
 {
     *__retval = __this->ReflectExports();
 }
 
-// private void ReflectExportsJS(Fuse.Scripting.Context context) :50
+// private void ReflectExportsJS(Fuse.Scripting.Context context)
 void ModuleInstance__ReflectExportsJS_fn(ModuleInstance* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->ReflectExportsJS(context);
 }
 
-// private void SetDataContext() :60
+// private void SetDataContext()
 void ModuleInstance__SetDataContext_fn(ModuleInstance* __this)
 {
     __this->SetDataContext();
@@ -2204,7 +2204,7 @@ void ModuleInstance__SetDataContext_fn(ModuleInstance* __this)
 
 uSStrong<uObject*> ModuleInstance::_resetHookMutex_;
 
-// public ModuleInstance(Fuse.Scripting.IThreadWorker worker, Fuse.Reactive.JavaScript js) [instance] :14
+// public ModuleInstance(Fuse.Scripting.IThreadWorker worker, Fuse.Reactive.JavaScript js) [instance]
 void ModuleInstance::ctor_1(uObject* worker, ::g::Fuse::Reactive::JavaScript* js)
 {
     ::g::Fuse::Reactive::JavaScript__Dependency* ret5;
@@ -2221,7 +2221,7 @@ void ModuleInstance::ctor_1(uObject* worker, ::g::Fuse::Reactive::JavaScript* js
     ::g::Fuse::Scripting::IThreadWorker::Invoke1(uInterface(uPtr(_worker), ::TYPES[24/*Fuse.Scripting.IThreadWorker*/]), uDelegate::New(::TYPES[9/*Uno.Action<Fuse.Scripting.Context>*/], (void*)ModuleInstance__Evaluate_fn, this));
 }
 
-// public void Dispose() [instance] :77
+// public void Dispose() [instance]
 void ModuleInstance::Dispose()
 {
     ClearDiagnostic();
@@ -2233,7 +2233,7 @@ void ModuleInstance::Dispose()
     }
 }
 
-// private void Evaluate(Fuse.Scripting.Context context) [instance] :25
+// private void Evaluate(Fuse.Scripting.Context context) [instance]
 void ModuleInstance::Evaluate(::g::Fuse::Scripting::Context* context)
 {
     ::g::Fuse::Scripting::Dependency collection2;
@@ -2287,7 +2287,7 @@ void ModuleInstance::Evaluate(::g::Fuse::Scripting::Context* context)
     ReflectExportsJS(context);
 }
 
-// private void EvaluateModule(Fuse.Scripting.Context context) [instance] :92
+// private void EvaluateModule(Fuse.Scripting.Context context) [instance]
 void ModuleInstance::EvaluateModule(::g::Fuse::Scripting::Context* context)
 {
     ::g::Fuse::Scripting::Context* ctx = context;
@@ -2332,7 +2332,7 @@ void ModuleInstance::EvaluateModule(::g::Fuse::Scripting::Context* context)
     }
 }
 
-// internal bool ReflectExports() [instance] :66
+// internal bool ReflectExports() [instance]
 bool ModuleInstance::ReflectExports()
 {
     if (_moduleResult == NULL)
@@ -2342,21 +2342,21 @@ bool ModuleInstance::ReflectExports()
     return true;
 }
 
-// private void ReflectExportsJS(Fuse.Scripting.Context context) [instance] :50
+// private void ReflectExportsJS(Fuse.Scripting.Context context) [instance]
 void ModuleInstance::ReflectExportsJS(::g::Fuse::Scripting::Context* context)
 {
     _dc = uPtr(uCast< ::g::Fuse::Scripting::JavaScript::JSContext*>(context, ::TYPES[25/*Fuse.Scripting.JavaScript.JSContext*/]))->Reflect((_moduleResult == NULL) ? uCast<uObject*>(NULL, ::TYPES[29/*object*/]) : (uObject*)uPtr(_moduleResult)->GetExports(context));
     ::g::Fuse::UpdateManager::PostAction(uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)ModuleInstance__SetDataContext_fn, this));
 }
 
-// private void SetDataContext() [instance] :60
+// private void SetDataContext() [instance]
 void ModuleInstance::SetDataContext()
 {
     if (_moduleResult != NULL)
         uPtr(_js)->SetDataContext(_dc);
 }
 
-// public ModuleInstance New(Fuse.Scripting.IThreadWorker worker, Fuse.Reactive.JavaScript js) [static] :14
+// public ModuleInstance New(Fuse.Scripting.IThreadWorker worker, Fuse.Reactive.JavaScript js) [static]
 ModuleInstance* ModuleInstance::New2(uObject* worker, ::g::Fuse::Reactive::JavaScript* js)
 {
     ModuleInstance* obj4 = (ModuleInstance*)uNew(ModuleInstance_typeof());
@@ -2365,10 +2365,10 @@ ModuleInstance* ModuleInstance::New2(uObject* worker, ::g::Fuse::Reactive::JavaS
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Observable.NewAll :516
+// private sealed class Observable.NewAll
 // {
 static void Observable__NewAll_build(uType* type)
 {
@@ -2398,19 +2398,19 @@ static void Observable__NewAll_build(uType* type)
     return type;
 }
 
-// public NewAll(Fuse.Scripting.JavaScript.Observable obs, Fuse.Scripting.JavaScript.ArrayMirror newValues, int origin) :521
+// public NewAll(Fuse.Scripting.JavaScript.Observable obs, Fuse.Scripting.JavaScript.ArrayMirror newValues, int origin)
 void Observable__NewAll__ctor_1_fn(Observable__NewAll* __this, ::g::Fuse::Scripting::JavaScript::Observable* obs, ::g::Fuse::Scripting::JavaScript::ArrayMirror* newValues, int32_t* origin)
 {
     __this->ctor_1(obs, newValues, *origin);
 }
 
-// public NewAll New(Fuse.Scripting.JavaScript.Observable obs, Fuse.Scripting.JavaScript.ArrayMirror newValues, int origin) :521
+// public NewAll New(Fuse.Scripting.JavaScript.Observable obs, Fuse.Scripting.JavaScript.ArrayMirror newValues, int origin)
 void Observable__NewAll__New1_fn(::g::Fuse::Scripting::JavaScript::Observable* obs, ::g::Fuse::Scripting::JavaScript::ArrayMirror* newValues, int32_t* origin, Observable__NewAll** __retval)
 {
     *__retval = Observable__NewAll::New1(obs, newValues, *origin);
 }
 
-// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub) :532
+// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub)
 void Observable__NewAll__OnPerform_fn(Observable__NewAll* __this, uObject* sub)
 {
     ::g::Fuse::Scripting::JavaScript::Observable__Subscription* ret2;
@@ -2424,13 +2424,13 @@ void Observable__NewAll__OnPerform_fn(Observable__NewAll* __this, uObject* sub)
             ::g::Fuse::Reactive::IObserver::OnNewAll(uInterface(uPtr(uPtr((::g::Uno::Collections::IList::get_Item_ex(uInterface(uPtr(sub), ::TYPES[1/*Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription>*/]), uCRef<int32_t>(i), &ret3), ret3))->Observer()), ::TYPES[2/*Fuse.Reactive.IObserver*/]), (uObject*)__this->_newValues);
 }
 
-// protected override sealed void Unsubscribe() :527
+// protected override sealed void Unsubscribe()
 void Observable__NewAll__Unsubscribe_fn(Observable__NewAll* __this)
 {
     ::g::Fuse::Scripting::ValueMirror::Unsubscribe1(__this->_newValues);
 }
 
-// public NewAll(Fuse.Scripting.JavaScript.Observable obs, Fuse.Scripting.JavaScript.ArrayMirror newValues, int origin) [instance] :521
+// public NewAll(Fuse.Scripting.JavaScript.Observable obs, Fuse.Scripting.JavaScript.ArrayMirror newValues, int origin) [instance]
 void Observable__NewAll::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* obs, ::g::Fuse::Scripting::JavaScript::ArrayMirror* newValues, int32_t origin)
 {
     ctor_(obs);
@@ -2438,7 +2438,7 @@ void Observable__NewAll::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* ob
     _origin = origin;
 }
 
-// public NewAll New(Fuse.Scripting.JavaScript.Observable obs, Fuse.Scripting.JavaScript.ArrayMirror newValues, int origin) [static] :521
+// public NewAll New(Fuse.Scripting.JavaScript.Observable obs, Fuse.Scripting.JavaScript.ArrayMirror newValues, int origin) [static]
 Observable__NewAll* Observable__NewAll::New1(::g::Fuse::Scripting::JavaScript::Observable* obs, ::g::Fuse::Scripting::JavaScript::ArrayMirror* newValues, int32_t origin)
 {
     Observable__NewAll* obj1 = (Observable__NewAll*)uNew(Observable__NewAll_typeof());
@@ -2447,10 +2447,10 @@ Observable__NewAll* Observable__NewAll::New1(::g::Fuse::Scripting::JavaScript::O
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Observable.NewAt :486
+// private sealed class Observable.NewAt
 // {
 static void Observable__NewAt_build(uType* type)
 {
@@ -2479,19 +2479,19 @@ static void Observable__NewAt_build(uType* type)
     return type;
 }
 
-// public NewAt(Fuse.Scripting.JavaScript.Observable obs, int index, object newValue) :491
+// public NewAt(Fuse.Scripting.JavaScript.Observable obs, int index, object newValue)
 void Observable__NewAt__ctor_1_fn(Observable__NewAt* __this, ::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t* index, uObject* newValue)
 {
     __this->ctor_1(obs, *index, newValue);
 }
 
-// public NewAt New(Fuse.Scripting.JavaScript.Observable obs, int index, object newValue) :491
+// public NewAt New(Fuse.Scripting.JavaScript.Observable obs, int index, object newValue)
 void Observable__NewAt__New1_fn(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t* index, uObject* newValue, Observable__NewAt** __retval)
 {
     *__retval = Observable__NewAt::New1(obs, *index, newValue);
 }
 
-// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub) :503
+// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub)
 void Observable__NewAt__OnPerform_fn(Observable__NewAt* __this, uObject* sub)
 {
     ::g::Fuse::Scripting::JavaScript::Observable__Subscription* ret2;
@@ -2504,13 +2504,13 @@ void Observable__NewAt__OnPerform_fn(Observable__NewAt* __this, uObject* sub)
             ::g::Fuse::Reactive::IObserver::OnNewAt(uInterface(uPtr(uPtr((::g::Uno::Collections::IList::get_Item_ex(uInterface(uPtr(sub), ::TYPES[1/*Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription>*/]), uCRef<int32_t>(i), &ret3), ret3))->Observer()), ::TYPES[2/*Fuse.Reactive.IObserver*/]), __this->_index, __this->_value);
 }
 
-// protected override sealed void Unsubscribe() :497
+// protected override sealed void Unsubscribe()
 void Observable__NewAt__Unsubscribe_fn(Observable__NewAt* __this)
 {
     ::g::Fuse::Scripting::ValueMirror::Unsubscribe1(__this->_value);
 }
 
-// public NewAt(Fuse.Scripting.JavaScript.Observable obs, int index, object newValue) [instance] :491
+// public NewAt(Fuse.Scripting.JavaScript.Observable obs, int index, object newValue) [instance]
 void Observable__NewAt::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t index, uObject* newValue)
 {
     ctor_(obs);
@@ -2518,7 +2518,7 @@ void Observable__NewAt::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* obs
     _value = newValue;
 }
 
-// public NewAt New(Fuse.Scripting.JavaScript.Observable obs, int index, object newValue) [static] :491
+// public NewAt New(Fuse.Scripting.JavaScript.Observable obs, int index, object newValue) [static]
 Observable__NewAt* Observable__NewAt::New1(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t index, uObject* newValue)
 {
     Observable__NewAt* obj1 = (Observable__NewAt*)uNew(Observable__NewAt_typeof());
@@ -2527,10 +2527,10 @@ Observable__NewAt* Observable__NewAt::New1(::g::Fuse::Scripting::JavaScript::Obs
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ObjectMirror.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ObjectMirror.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal class ObjectMirror :6
+// internal class ObjectMirror
 // {
 static void ObjectMirror_build(uType* type)
 {
@@ -2570,43 +2570,43 @@ ObjectMirror_type* ObjectMirror_typeof()
     return type;
 }
 
-// internal ObjectMirror(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Object obj) :13
+// internal ObjectMirror(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Object obj)
 void ObjectMirror__ctor_2_fn(ObjectMirror* __this, ::g::Fuse::Scripting::Context* context, uObject* mirror, ::g::Fuse::Scripting::Object* obj)
 {
     __this->ctor_2(context, mirror, obj);
 }
 
-// protected ObjectMirror(Fuse.Scripting.Object obj) :11
+// protected ObjectMirror(Fuse.Scripting.Object obj)
 void ObjectMirror__ctor_3_fn(ObjectMirror* __this, ::g::Fuse::Scripting::Object* obj)
 {
     __this->ctor_3(obj);
 }
 
-// public bool ContainsKey(string key) :42
+// public bool ContainsKey(string key)
 void ObjectMirror__ContainsKey_fn(ObjectMirror* __this, uString* key, bool* __retval)
 {
     *__retval = __this->ContainsKey(key);
 }
 
-// public object get_Item(string key) :49
+// public object get_Item(string key)
 void ObjectMirror__get_Item_fn(ObjectMirror* __this, uString* key, uObject** __retval)
 {
     *__retval = __this->Item(key);
 }
 
-// public string[] get_Keys() :54
+// public string[] get_Keys()
 void ObjectMirror__get_Keys_fn(ObjectMirror* __this, uArray** __retval)
 {
     *__retval = __this->Keys();
 }
 
-// internal ObjectMirror New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Object obj) :13
+// internal ObjectMirror New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Object obj)
 void ObjectMirror__New1_fn(::g::Fuse::Scripting::Context* context, uObject* mirror, ::g::Fuse::Scripting::Object* obj, ObjectMirror** __retval)
 {
     *__retval = ObjectMirror::New1(context, mirror, obj);
 }
 
-// internal virtual void Set(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Object obj) :18
+// internal virtual void Set(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Object obj)
 void ObjectMirror__Set_fn(ObjectMirror* __this, ::g::Fuse::Scripting::Context* context, uObject* mirror, ::g::Fuse::Scripting::Object* obj)
 {
     uPtr(__this->_props)->Clear();
@@ -2619,7 +2619,7 @@ void ObjectMirror__Set_fn(ObjectMirror* __this, ::g::Fuse::Scripting::Context* c
     }
 }
 
-// public override void Unsubscribe() :30
+// public override void Unsubscribe()
 void ObjectMirror__Unsubscribe_fn(ObjectMirror* __this)
 {
     ::g::Uno::Collections::Dictionary__Enumerator<uStrong<uString*>, uStrong<uObject*> > ret5;
@@ -2661,7 +2661,7 @@ void ObjectMirror__Unsubscribe_fn(ObjectMirror* __this)
     }
 }
 
-// internal ObjectMirror(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Object obj) [instance] :13
+// internal ObjectMirror(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Object obj) [instance]
 void ObjectMirror::ctor_2(::g::Fuse::Scripting::Context* context, uObject* mirror, ::g::Fuse::Scripting::Object* obj)
 {
     _props = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[21/*Uno.Collections.Dictionary<string, object>*/]));
@@ -2669,34 +2669,34 @@ void ObjectMirror::ctor_2(::g::Fuse::Scripting::Context* context, uObject* mirro
     Set(context, mirror, obj);
 }
 
-// protected ObjectMirror(Fuse.Scripting.Object obj) [instance] :11
+// protected ObjectMirror(Fuse.Scripting.Object obj) [instance]
 void ObjectMirror::ctor_3(::g::Fuse::Scripting::Object* obj)
 {
     _props = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[21/*Uno.Collections.Dictionary<string, object>*/]));
     ctor_1(obj);
 }
 
-// public bool ContainsKey(string key) [instance] :42
+// public bool ContainsKey(string key) [instance]
 bool ObjectMirror::ContainsKey(uString* key)
 {
     bool ret4;
     return (::g::Uno::Collections::Dictionary__ContainsKey_fn(uPtr(_props), key, &ret4), ret4);
 }
 
-// public object get_Item(string key) [instance] :49
+// public object get_Item(string key) [instance]
 uObject* ObjectMirror::Item(uString* key)
 {
     uObject* ret6;
     return (::g::Uno::Collections::Dictionary__get_Item_fn(uPtr(_props), key, &ret6), ret6);
 }
 
-// public string[] get_Keys() [instance] :54
+// public string[] get_Keys() [instance]
 uArray* ObjectMirror::Keys()
 {
     return (uArray*)::g::Uno::Collections::EnumerableExtensions::ToArray(::TYPES[33/*Uno.Collections.EnumerableExtensions.ToArray<string>*/], (uObject*)((::g::Uno::Collections::Dictionary__KeyCollection*)uPtr(_props)->Keys()));
 }
 
-// internal ObjectMirror New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Object obj) [static] :13
+// internal ObjectMirror New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Object obj) [static]
 ObjectMirror* ObjectMirror::New1(::g::Fuse::Scripting::Context* context, uObject* mirror, ::g::Fuse::Scripting::Object* obj)
 {
     ObjectMirror* obj3 = (ObjectMirror*)uNew(ObjectMirror_typeof());
@@ -2705,10 +2705,10 @@ ObjectMirror* ObjectMirror::New1(::g::Fuse::Scripting::Context* context, uObject
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class Observable :6
+// internal sealed class Observable
 // {
 static void Observable_build(uType* type)
 {
@@ -2753,31 +2753,31 @@ Observable_type* Observable_typeof()
     return type;
 }
 
-// internal Observable(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.ThreadWorker worker, Fuse.Scripting.Object obj, bool suppressCallback) :255
+// internal Observable(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.ThreadWorker worker, Fuse.Scripting.Object obj, bool suppressCallback)
 void Observable__ctor_3_fn(Observable* __this, ::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::ThreadWorker* worker, ::g::Fuse::Scripting::Object* obj, bool* suppressCallback)
 {
     __this->ctor_3(context, worker, obj, *suppressCallback);
 }
 
-// internal static Fuse.Scripting.JavaScript.Observable Create(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.ThreadWorker worker) :263
+// internal static Fuse.Scripting.JavaScript.Observable Create(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.ThreadWorker worker)
 void Observable__Create_fn(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::ThreadWorker* worker, Observable** __retval)
 {
     *__retval = Observable::Create(context, worker);
 }
 
-// private Uno.IDisposable Fuse.Reactive.IObservableArray.Subscribe(Fuse.Reactive.IObserver observer) :243
+// private Uno.IDisposable Fuse.Reactive.IObservableArray.Subscribe(Fuse.Reactive.IObserver observer)
 void Observable__FuseReactiveIObservableArraySubscribe_fn(Observable* __this, uObject* observer, uObject** __retval)
 {
     return *__retval = __this->Subscribe(observer), void();
 }
 
-// public bool get_IsUnsubscribed() :334
+// public bool get_IsUnsubscribed()
 void Observable__get_IsUnsubscribed_fn(Observable* __this, bool* __retval)
 {
     *__retval = __this->IsUnsubscribed();
 }
 
-// public override sealed object get_Item(int index) :13
+// public override sealed object get_Item(int index)
 void Observable__get_Item_fn(Observable* __this, int32_t* index, uObject** __retval)
 {
     uObject* ret4;
@@ -2785,67 +2785,67 @@ void Observable__get_Item_fn(Observable* __this, int32_t* index, uObject** __ret
     return *__retval = (::g::Uno::Collections::List__get_Item_fn(uPtr(__this->_values), uCRef<int32_t>(index_), &ret4), ret4), void();
 }
 
-// public override sealed int get_Length() :9
+// public override sealed int get_Length()
 void Observable__get_Length_fn(Observable* __this, int32_t* __retval)
 {
     return *__retval = uPtr(__this->_values)->Count(), void();
 }
 
-// internal Observable New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.ThreadWorker worker, Fuse.Scripting.Object obj, bool suppressCallback) :255
+// internal Observable New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.ThreadWorker worker, Fuse.Scripting.Object obj, bool suppressCallback)
 void Observable__New1_fn(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::ThreadWorker* worker, ::g::Fuse::Scripting::Object* obj, bool* suppressCallback, Observable** __retval)
 {
     *__retval = Observable::New1(context, worker, obj, *suppressCallback);
 }
 
-// internal Fuse.Scripting.Object get_Object() :251
+// internal Fuse.Scripting.Object get_Object()
 void Observable__get_Object_fn(Observable* __this, ::g::Fuse::Scripting::Object** __retval)
 {
     *__retval = __this->Object();
 }
 
-// private object ObserveChange(Fuse.Scripting.Context context, object[] args) :278
+// private object ObserveChange(Fuse.Scripting.Context context, object[] args)
 void Observable__ObserveChange_fn(Observable* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->ObserveChange(context, args);
 }
 
-// private void ObserversCleanup() :25
+// private void ObserversCleanup()
 void Observable__ObserversCleanup_fn(Observable* __this)
 {
     __this->ObserversCleanup();
 }
 
-// private void RemoveSubscriber(Fuse.Scripting.Context context) :357
+// private void RemoveSubscriber(Fuse.Scripting.Context context)
 void Observable__RemoveSubscriber_fn(Observable* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->RemoveSubscriber(context);
 }
 
-// public void SetValue(int index, object value) :17
+// public void SetValue(int index, object value)
 void Observable__SetValue_fn(Observable* __this, int32_t* index, uObject* value)
 {
     __this->SetValue(*index, value);
 }
 
-// public Fuse.Reactive.ISubscription Subscribe(Fuse.Reactive.IObserver observer) :233
+// public Fuse.Reactive.ISubscription Subscribe(Fuse.Reactive.IObserver observer)
 void Observable__Subscribe_fn(Observable* __this, uObject* observer, uObject** __retval)
 {
     *__retval = __this->Subscribe(observer);
 }
 
-// internal Fuse.Scripting.JavaScript.Observable.Subscription SubscribeInternal(Fuse.Reactive.IObserver observer) :238
+// internal Fuse.Scripting.JavaScript.Observable.Subscription SubscribeInternal(Fuse.Reactive.IObserver observer)
 void Observable__SubscribeInternal_fn(Observable* __this, uObject* observer, Observable__Subscription** __retval)
 {
     *__retval = __this->SubscribeInternal(observer);
 }
 
-// private int ToInt(object obj) :269
+// private int ToInt(object obj)
 void Observable__ToInt_fn(Observable* __this, uObject* obj, int32_t* __retval)
 {
     *__retval = __this->ToInt(obj);
 }
 
-// public override sealed void Unsubscribe() :337
+// public override sealed void Unsubscribe()
 void Observable__Unsubscribe_fn(Observable* __this)
 {
     __this->UnsubscribeValues();
@@ -2857,13 +2857,13 @@ void Observable__Unsubscribe_fn(Observable* __this)
     }
 }
 
-// private void UnsubscribeValues() :348
+// private void UnsubscribeValues()
 void Observable__UnsubscribeValues_fn(Observable* __this)
 {
     __this->UnsubscribeValues();
 }
 
-// internal Observable(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.ThreadWorker worker, Fuse.Scripting.Object obj, bool suppressCallback) [instance] :255
+// internal Observable(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.ThreadWorker worker, Fuse.Scripting.Object obj, bool suppressCallback) [instance]
 void Observable::ctor_3(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::ThreadWorker* worker, ::g::Fuse::Scripting::Object* obj, bool suppressCallback)
 {
     _values = ((::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[4/*Uno.Collections.List<object>*/]));
@@ -2875,19 +2875,19 @@ void Observable::ctor_3(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scrip
     uPtr(obj)->CallMethod(context, uString::Const("addSubscriber"), uArray::Init<uObject*>(::TYPES[15/*object[]*/], 2, (::g::Fuse::Scripting::Function*)_observeChange, uBox(::g::Uno::Bool_typeof(), suppressCallback)));
 }
 
-// public bool get_IsUnsubscribed() [instance] :334
+// public bool get_IsUnsubscribed() [instance]
 bool Observable::IsUnsubscribed()
 {
     return _isUnsubscribed;
 }
 
-// internal Fuse.Scripting.Object get_Object() [instance] :251
+// internal Fuse.Scripting.Object get_Object() [instance]
 ::g::Fuse::Scripting::Object* Observable::Object()
 {
     return _observable;
 }
 
-// private object ObserveChange(Fuse.Scripting.Context context, object[] args) [instance] :278
+// private object ObserveChange(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* Observable::ObserveChange(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     ::g::Fuse::Scripting::JavaScript::JSContext* ctx = uCast< ::g::Fuse::Scripting::JavaScript::JSContext*>(context, ::TYPES[25/*Fuse.Scripting.JavaScript.JSContext*/]);
@@ -2920,7 +2920,7 @@ uObject* Observable::ObserveChange(::g::Fuse::Scripting::Context* context, uArra
     return NULL;
 }
 
-// private void ObserversCleanup() [instance] :25
+// private void ObserversCleanup() [instance]
 void Observable::ObserversCleanup()
 {
     Observable__Subscription* ret2;
@@ -2933,7 +2933,7 @@ void Observable::ObserversCleanup()
             uPtr(_observers)->RemoveAt(i);
 }
 
-// private void RemoveSubscriber(Fuse.Scripting.Context context) [instance] :357
+// private void RemoveSubscriber(Fuse.Scripting.Context context) [instance]
 void Observable::RemoveSubscriber(::g::Fuse::Scripting::Context* context)
 {
     uPtr(_observable)->CallMethod(context, uString::Const("removeSubscriber"), uArray::Init<uObject*>(::TYPES[15/*object[]*/], 1, (::g::Fuse::Scripting::Function*)_observeChange));
@@ -2941,25 +2941,25 @@ void Observable::RemoveSubscriber(::g::Fuse::Scripting::Context* context)
     _observable = NULL;
 }
 
-// public void SetValue(int index, object value) [instance] :17
+// public void SetValue(int index, object value) [instance]
 void Observable::SetValue(int32_t index, uObject* value)
 {
     ::g::Uno::Collections::List__set_Item_fn(uPtr(_values), uCRef<int32_t>(index), value);
 }
 
-// public Fuse.Reactive.ISubscription Subscribe(Fuse.Reactive.IObserver observer) [instance] :233
+// public Fuse.Reactive.ISubscription Subscribe(Fuse.Reactive.IObserver observer) [instance]
 uObject* Observable::Subscribe(uObject* observer)
 {
     return (uObject*)SubscribeInternal(observer);
 }
 
-// internal Fuse.Scripting.JavaScript.Observable.Subscription SubscribeInternal(Fuse.Reactive.IObserver observer) [instance] :238
+// internal Fuse.Scripting.JavaScript.Observable.Subscription SubscribeInternal(Fuse.Reactive.IObserver observer) [instance]
 Observable__Subscription* Observable::SubscribeInternal(uObject* observer)
 {
     return Observable__Subscription::New2(this, observer);
 }
 
-// private int ToInt(object obj) [instance] :269
+// private int ToInt(object obj) [instance]
 int32_t Observable::ToInt(uObject* obj)
 {
     if (uIs(obj, ::TYPES[63/*int*/]))
@@ -2971,7 +2971,7 @@ int32_t Observable::ToInt(uObject* obj)
     return -1;
 }
 
-// private void UnsubscribeValues() [instance] :348
+// private void UnsubscribeValues() [instance]
 void Observable::UnsubscribeValues()
 {
     uObject* ret3;
@@ -2985,14 +2985,14 @@ void Observable::UnsubscribeValues()
     }
 }
 
-// internal static Fuse.Scripting.JavaScript.Observable Create(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.ThreadWorker worker) [static] :263
+// internal static Fuse.Scripting.JavaScript.Observable Create(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.ThreadWorker worker) [static]
 Observable* Observable::Create(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::ThreadWorker* worker)
 {
     ::g::Fuse::Scripting::JavaScript::JSContext* jsContext = uCast< ::g::Fuse::Scripting::JavaScript::JSContext*>(context, ::TYPES[25/*Fuse.Scripting.JavaScript.JSContext*/]);
     return Observable::New1(context, worker, uCast< ::g::Fuse::Scripting::Object*>(uPtr(uPtr(uPtr(jsContext)->FuseJS())->Observable)->Call(context, uArray::New(::TYPES[15/*object[]*/], 0)), ::TYPES[11/*Fuse.Scripting.Object*/]), true);
 }
 
-// internal Observable New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.ThreadWorker worker, Fuse.Scripting.Object obj, bool suppressCallback) [static] :255
+// internal Observable New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.ThreadWorker worker, Fuse.Scripting.Object obj, bool suppressCallback) [static]
 Observable* Observable::New1(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::ThreadWorker* worker, ::g::Fuse::Scripting::Object* obj, bool suppressCallback)
 {
     Observable* obj1 = (Observable*)uNew(Observable_typeof());
@@ -3001,10 +3001,10 @@ Observable* Observable::New1(::g::Fuse::Scripting::Context* context, ::g::Fuse::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ObservableProperty.uno
-// ------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ObservableProperty.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal class ObservableProperty :26
+// internal class ObservableProperty
 // {
 static void ObservableProperty_build(uType* type)
 {
@@ -3047,36 +3047,36 @@ ObservableProperty_type* ObservableProperty_typeof()
     return type;
 }
 
-// public ObservableProperty(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p) :32
+// public ObservableProperty(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p)
 void ObservableProperty__ctor__fn(ObservableProperty* __this, ::g::Fuse::Scripting::JavaScript::ThreadWorker* w, ::g::Fuse::Scripting::Object* obj, ::g::Uno::UX::Property* p)
 {
     __this->ctor_(w, obj, p);
 }
 
-// private object DefaultValueCallback(Fuse.Scripting.Context context, object[] args) :56
+// private object DefaultValueCallback(Fuse.Scripting.Context context, object[] args)
 void ObservableProperty__DefaultValueCallback_fn(ObservableProperty* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->DefaultValueCallback(context, args);
 }
 
-// private void Fuse.Reactive.IObserver.OnAdd(object addedValue) :183
+// private void Fuse.Reactive.IObserver.OnAdd(object addedValue)
 void ObservableProperty__FuseReactiveIObserverOnAdd_fn(ObservableProperty* __this, uObject* addedValue)
 {
 }
 
-// private void Fuse.Reactive.IObserver.OnClear() :165
+// private void Fuse.Reactive.IObserver.OnClear()
 void ObservableProperty__FuseReactiveIObserverOnClear_fn(ObservableProperty* __this)
 {
     if (::g::Uno::Type::IsClass(uPtr(uPtr(__this->_property)->PropertyType())))
         uPtr(__this->_property)->SetAsObject1(NULL, (uObject*)__this);
 }
 
-// private void Fuse.Reactive.IObserver.OnFailed(string message) :195
+// private void Fuse.Reactive.IObserver.OnFailed(string message)
 void ObservableProperty__FuseReactiveIObserverOnFailed_fn(ObservableProperty* __this, uString* message)
 {
 }
 
-// private void Fuse.Reactive.IObserver.OnInsertAt(int index, object value) :191
+// private void Fuse.Reactive.IObserver.OnInsertAt(int index, object value)
 void ObservableProperty__FuseReactiveIObserverOnInsertAt_fn(ObservableProperty* __this, int32_t* index, uObject* value)
 {
     int32_t index_ = *index;
@@ -3085,14 +3085,14 @@ void ObservableProperty__FuseReactiveIObserverOnInsertAt_fn(ObservableProperty* 
         __this->Set(value);
 }
 
-// private void Fuse.Reactive.IObserver.OnNewAll(Fuse.IArray values) :171
+// private void Fuse.Reactive.IObserver.OnNewAll(Fuse.IArray values)
 void ObservableProperty__FuseReactiveIObserverOnNewAll_fn(ObservableProperty* __this, uObject* values)
 {
     if (::g::Fuse::IArray::Length(uInterface(uPtr(values), ::TYPES[35/*Fuse.IArray*/])) == 1)
         __this->Set(::g::Fuse::IArray::Item(uInterface(uPtr(values), ::TYPES[35/*Fuse.IArray*/]), 0));
 }
 
-// private void Fuse.Reactive.IObserver.OnNewAt(int index, object newValue) :175
+// private void Fuse.Reactive.IObserver.OnNewAt(int index, object newValue)
 void ObservableProperty__FuseReactiveIObserverOnNewAt_fn(ObservableProperty* __this, int32_t* index, uObject* newValue)
 {
     int32_t index_ = *index;
@@ -3101,60 +3101,60 @@ void ObservableProperty__FuseReactiveIObserverOnNewAt_fn(ObservableProperty* __t
         __this->Set(newValue);
 }
 
-// private void Fuse.Reactive.IObserver.OnRemoveAt(int index) :187
+// private void Fuse.Reactive.IObserver.OnRemoveAt(int index)
 void ObservableProperty__FuseReactiveIObserverOnRemoveAt_fn(ObservableProperty* __this, int32_t* index)
 {
 }
 
-// private void Fuse.Reactive.IObserver.OnSet(object newValue) :179
+// private void Fuse.Reactive.IObserver.OnSet(object newValue)
 void ObservableProperty__FuseReactiveIObserverOnSet_fn(ObservableProperty* __this, uObject* newValue)
 {
     __this->Set(newValue);
 }
 
-// internal Fuse.Scripting.JavaScript.Observable GetObservable(Fuse.Scripting.Context context) :44
+// internal Fuse.Scripting.JavaScript.Observable GetObservable(Fuse.Scripting.Context context)
 void ObservableProperty__GetObservable_fn(ObservableProperty* __this, ::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::Observable** __retval)
 {
     *__retval = __this->GetObservable(context);
 }
 
-// public ObservableProperty New(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p) :32
+// public ObservableProperty New(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p)
 void ObservableProperty__New1_fn(::g::Fuse::Scripting::JavaScript::ThreadWorker* w, ::g::Fuse::Scripting::Object* obj, ::g::Uno::UX::Property* p, ObservableProperty** __retval)
 {
     *__retval = ObservableProperty::New1(w, obj, p);
 }
 
-// private void PushValue(Fuse.Scripting.Context context, object val) :237
+// private void PushValue(Fuse.Scripting.Context context, object val)
 void ObservableProperty__PushValue_fn(ObservableProperty* __this, ::g::Fuse::Scripting::Context* context, uObject* val)
 {
     __this->PushValue(context, val);
 }
 
-// private void PushValueOnJSThread(object value) :215
+// private void PushValueOnJSThread(object value)
 void ObservableProperty__PushValueOnJSThread_fn(ObservableProperty* __this, uObject* value)
 {
     __this->PushValueOnJSThread(value);
 }
 
-// public void Reset() :149
+// public void Reset()
 void ObservableProperty__Reset_fn(ObservableProperty* __this)
 {
     __this->Reset();
 }
 
-// private void Set(object value) :200
+// private void Set(object value)
 void ObservableProperty__Set_fn(ObservableProperty* __this, uObject* value)
 {
     __this->Set(value);
 }
 
-// private void Subscribe(Fuse.Scripting.Context context) :142
+// private void Subscribe(Fuse.Scripting.Context context)
 void ObservableProperty__Subscribe_fn(ObservableProperty* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->Subscribe(context);
 }
 
-// private void Uno.UX.IPropertyListener.OnPropertyChanged(Uno.UX.PropertyObject obj, Uno.UX.Selector prop) :207
+// private void Uno.UX.IPropertyListener.OnPropertyChanged(Uno.UX.PropertyObject obj, Uno.UX.Selector prop)
 void ObservableProperty__UnoUXIPropertyListenerOnPropertyChanged_fn(ObservableProperty* __this, ::g::Uno::UX::PropertyObject* obj, ::g::Uno::UX::Selector* prop)
 {
     ::g::Uno::UX::Selector prop_ = *prop;
@@ -3171,7 +3171,7 @@ void ObservableProperty__UnoUXIPropertyListenerOnPropertyChanged_fn(ObservablePr
     __this->PushValueOnJSThread(uPtr(__this->_property)->GetAsObject1());
 }
 
-// public ObservableProperty(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p) [instance] :32
+// public ObservableProperty(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p) [instance]
 void ObservableProperty::ctor_(::g::Fuse::Scripting::JavaScript::ThreadWorker* w, ::g::Fuse::Scripting::Object* obj, ::g::Uno::UX::Property* p)
 {
     _obj = obj;
@@ -3179,7 +3179,7 @@ void ObservableProperty::ctor_(::g::Fuse::Scripting::JavaScript::ThreadWorker* w
     _property = p;
 }
 
-// private object DefaultValueCallback(Fuse.Scripting.Context context, object[] args) [instance] :56
+// private object DefaultValueCallback(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* ObservableProperty::DefaultValueCallback(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     uObject* value = uPtr(args)->Strong<uObject*>(0);
@@ -3193,7 +3193,7 @@ uObject* ObservableProperty::DefaultValueCallback(::g::Fuse::Scripting::Context*
     return NULL;
 }
 
-// internal Fuse.Scripting.JavaScript.Observable GetObservable(Fuse.Scripting.Context context) [instance] :44
+// internal Fuse.Scripting.JavaScript.Observable GetObservable(Fuse.Scripting.Context context) [instance]
 ::g::Fuse::Scripting::JavaScript::Observable* ObservableProperty::GetObservable(::g::Fuse::Scripting::Context* context)
 {
     if (_observable == NULL)
@@ -3206,7 +3206,7 @@ uObject* ObservableProperty::DefaultValueCallback(::g::Fuse::Scripting::Context*
     return _observable;
 }
 
-// private void PushValue(Fuse.Scripting.Context context, object val) [instance] :237
+// private void PushValue(Fuse.Scripting.Context context, object val) [instance]
 void ObservableProperty::PushValue(::g::Fuse::Scripting::Context* context, uObject* val)
 {
     if (_subscription == NULL)
@@ -3218,13 +3218,13 @@ void ObservableProperty::PushValue(::g::Fuse::Scripting::Context* context, uObje
         uPtr(_subscription)->ClearExclusive(context);
 }
 
-// private void PushValueOnJSThread(object value) [instance] :215
+// private void PushValueOnJSThread(object value) [instance]
 void ObservableProperty::PushValueOnJSThread(uObject* value)
 {
     uPtr(_worker)->Invoke1(uDelegate::New(::TYPES[9/*Uno.Action<Fuse.Scripting.Context>*/], (void*)ObservableProperty__PushCapture__Run_fn, ObservableProperty__PushCapture::New1(uDelegate::New(::g::Uno::Action2_typeof()->MakeType(::g::Fuse::Scripting::Context_typeof(), ::TYPES[29/*object*/], NULL), (void*)ObservableProperty__PushValue_fn, this), value)));
 }
 
-// public void Reset() [instance] :149
+// public void Reset() [instance]
 void ObservableProperty::Reset()
 {
     if (_subscription != NULL)
@@ -3241,7 +3241,7 @@ void ObservableProperty::Reset()
     }
 }
 
-// private void Set(object value) [instance] :200
+// private void Set(object value) [instance]
 void ObservableProperty::Set(uObject* value)
 {
     uObject* res;
@@ -3250,7 +3250,7 @@ void ObservableProperty::Set(uObject* value)
         uPtr(_property)->SetAsObject1(res, (uObject*)this);
 }
 
-// private void Subscribe(Fuse.Scripting.Context context) [instance] :142
+// private void Subscribe(Fuse.Scripting.Context context) [instance]
 void ObservableProperty::Subscribe(::g::Fuse::Scripting::Context* context)
 {
     _subscription = uPtr(_observable)->SubscribeInternal((uObject*)this);
@@ -3258,7 +3258,7 @@ void ObservableProperty::Subscribe(::g::Fuse::Scripting::Context* context)
     uPtr(_property)->AddListener((uObject*)this);
 }
 
-// public ObservableProperty New(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p) [static] :32
+// public ObservableProperty New(Fuse.Scripting.JavaScript.ThreadWorker w, Fuse.Scripting.Object obj, Uno.UX.Property p) [static]
 ObservableProperty* ObservableProperty::New1(::g::Fuse::Scripting::JavaScript::ThreadWorker* w, ::g::Fuse::Scripting::Object* obj, ::g::Uno::UX::Property* p)
 {
     ObservableProperty* obj1 = (ObservableProperty*)uNew(ObservableProperty_typeof());
@@ -3267,10 +3267,10 @@ ObservableProperty* ObservableProperty::New1(::g::Fuse::Scripting::JavaScript::T
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class Observable.Operation :364
+// public abstract class Observable.Operation
 // {
 static void Observable__Operation_build(uType* type)
 {
@@ -3294,42 +3294,42 @@ Observable__Operation_type* Observable__Operation_typeof()
     return type;
 }
 
-// protected Operation(Fuse.Scripting.JavaScript.Observable observable) :370
+// protected Operation(Fuse.Scripting.JavaScript.Observable observable)
 void Observable__Operation__ctor__fn(Observable__Operation* __this, ::g::Fuse::Scripting::JavaScript::Observable* observable)
 {
     __this->ctor_(observable);
 }
 
-// protected Fuse.Scripting.JavaScript.Observable get_Observable() :375
+// protected Fuse.Scripting.JavaScript.Observable get_Observable()
 void Observable__Operation__get_Observable_fn(Observable__Operation* __this, ::g::Fuse::Scripting::JavaScript::Observable** __retval)
 {
     *__retval = __this->Observable();
 }
 
-// public void Perform() :377
+// public void Perform()
 void Observable__Operation__Perform_fn(Observable__Operation* __this)
 {
     __this->Perform();
 }
 
-// protected virtual void Unsubscribe() :399
+// protected virtual void Unsubscribe()
 void Observable__Operation__Unsubscribe_fn(Observable__Operation* __this)
 {
 }
 
-// protected Operation(Fuse.Scripting.JavaScript.Observable observable) [instance] :370
+// protected Operation(Fuse.Scripting.JavaScript.Observable observable) [instance]
 void Observable__Operation::ctor_(::g::Fuse::Scripting::JavaScript::Observable* observable)
 {
     _observable = observable;
 }
 
-// protected Fuse.Scripting.JavaScript.Observable get_Observable() [instance] :375
+// protected Fuse.Scripting.JavaScript.Observable get_Observable() [instance]
 ::g::Fuse::Scripting::JavaScript::Observable* Observable__Operation::Observable()
 {
     return _observable;
 }
 
-// public void Perform() [instance] :377
+// public void Perform() [instance]
 void Observable__Operation::Perform()
 {
     if (uPtr(_observable)->IsUnsubscribed())
@@ -3367,10 +3367,10 @@ void Observable__Operation::Perform()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeObservable.uno
-// -----------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeObservable.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private abstract class TreeObservable.Operation :115
+// private abstract class TreeObservable.Operation
 // {
 static void TreeObservable__Operation_build(uType* type)
 {
@@ -3397,32 +3397,32 @@ TreeObservable__Operation_type* TreeObservable__Operation_typeof()
     return type;
 }
 
-// protected Operation(Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) :119
+// protected Operation(Fuse.Scripting.JavaScript.TreeObservable inst, object[] args)
 void TreeObservable__Operation__ctor__fn(TreeObservable__Operation* __this, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     __this->ctor_(inst, args);
 }
 
-// public void Perform(Fuse.Scripting.Context context) :125
+// public void Perform(Fuse.Scripting.Context context)
 void TreeObservable__Operation__Perform_fn(TreeObservable__Operation* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->Perform(context);
 }
 
-// private void Perform(object dc, int pos) :157
+// private void Perform(object dc, int pos)
 void TreeObservable__Operation__Perform2_fn(TreeObservable__Operation* __this, uObject* dc, int32_t* pos)
 {
     __this->Perform2(dc, *pos);
 }
 
-// protected Operation(Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [instance] :119
+// protected Operation(Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [instance]
 void TreeObservable__Operation::ctor_(::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     Arguments = args;
     TreeObservable = inst;
 }
 
-// public void Perform(Fuse.Scripting.Context context) [instance] :125
+// public void Perform(Fuse.Scripting.Context context) [instance]
 void TreeObservable__Operation::Perform(::g::Fuse::Scripting::Context* context)
 {
     if ((uPtr(Arguments)->Length() - SpecialArgCount()) < 0)
@@ -3434,7 +3434,7 @@ void TreeObservable__Operation::Perform(::g::Fuse::Scripting::Context* context)
     ::g::Fuse::UpdateManager::PostAction(uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)TreeObservable__Operation__PerformClosure__Perform_fn, TreeObservable__Operation__PerformClosure::New1(this, TreeObservable)));
 }
 
-// private void Perform(object dc, int pos) [instance] :157
+// private void Perform(object dc, int pos) [instance]
 void TreeObservable__Operation::Perform2(uObject* dc, int32_t pos)
 {
     if (pos == (uPtr(Arguments)->Length() - SpecialArgCount()))
@@ -3465,10 +3465,10 @@ void TreeObservable__Operation::Perform2(uObject* dc, int32_t pos)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeObservable.uno
-// -----------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeObservable.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class TreeObservable.Operation.PerformClosure :140
+// private sealed class TreeObservable.Operation.PerformClosure
 // {
 static void TreeObservable__Operation__PerformClosure_build(uType* type)
 {
@@ -3491,38 +3491,38 @@ uType* TreeObservable__Operation__PerformClosure_typeof()
     return type;
 }
 
-// public PerformClosure(Fuse.Scripting.JavaScript.TreeObservable.Operation operation, object dc) :145
+// public PerformClosure(Fuse.Scripting.JavaScript.TreeObservable.Operation operation, object dc)
 void TreeObservable__Operation__PerformClosure__ctor__fn(TreeObservable__Operation__PerformClosure* __this, ::g::Fuse::Scripting::JavaScript::TreeObservable__Operation* operation, uObject* dc)
 {
     __this->ctor_(operation, dc);
 }
 
-// public PerformClosure New(Fuse.Scripting.JavaScript.TreeObservable.Operation operation, object dc) :145
+// public PerformClosure New(Fuse.Scripting.JavaScript.TreeObservable.Operation operation, object dc)
 void TreeObservable__Operation__PerformClosure__New1_fn(::g::Fuse::Scripting::JavaScript::TreeObservable__Operation* operation, uObject* dc, TreeObservable__Operation__PerformClosure** __retval)
 {
     *__retval = TreeObservable__Operation__PerformClosure::New1(operation, dc);
 }
 
-// public void Perform() :151
+// public void Perform()
 void TreeObservable__Operation__PerformClosure__Perform_fn(TreeObservable__Operation__PerformClosure* __this)
 {
     __this->Perform();
 }
 
-// public PerformClosure(Fuse.Scripting.JavaScript.TreeObservable.Operation operation, object dc) [instance] :145
+// public PerformClosure(Fuse.Scripting.JavaScript.TreeObservable.Operation operation, object dc) [instance]
 void TreeObservable__Operation__PerformClosure::ctor_(::g::Fuse::Scripting::JavaScript::TreeObservable__Operation* operation, uObject* dc)
 {
     _operation = operation;
     _dc = dc;
 }
 
-// public void Perform() [instance] :151
+// public void Perform() [instance]
 void TreeObservable__Operation__PerformClosure::Perform()
 {
     uPtr(_operation)->Perform2(_dc, 0);
 }
 
-// public PerformClosure New(Fuse.Scripting.JavaScript.TreeObservable.Operation operation, object dc) [static] :145
+// public PerformClosure New(Fuse.Scripting.JavaScript.TreeObservable.Operation operation, object dc) [static]
 TreeObservable__Operation__PerformClosure* TreeObservable__Operation__PerformClosure::New1(::g::Fuse::Scripting::JavaScript::TreeObservable__Operation* operation, uObject* dc)
 {
     TreeObservable__Operation__PerformClosure* obj1 = (TreeObservable__Operation__PerformClosure*)uNew(TreeObservable__Operation__PerformClosure_typeof());
@@ -3531,10 +3531,10 @@ TreeObservable__Operation__PerformClosure* TreeObservable__Operation__PerformClo
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Context.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Context.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class JSContext.PropertyClosure :266
+// private sealed class JSContext.PropertyClosure
 // {
 static void JSContext__PropertyClosure_build(uType* type)
 {
@@ -3577,25 +3577,25 @@ uType* JSContext__PropertyClosure_typeof()
     return type;
 }
 
-// public PropertyClosure(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptProperty p) :270
+// public PropertyClosure(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptProperty p)
 void JSContext__PropertyClosure__ctor__fn(JSContext__PropertyClosure* __this, ::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* cl, ::g::Fuse::Scripting::ScriptProperty* p)
 {
     __this->ctor_(context, cl, p);
 }
 
-// private object GetObservable(Fuse.Scripting.Context context, object[] args) :297
+// private object GetObservable(Fuse.Scripting.Context context, object[] args)
 void JSContext__PropertyClosure__GetObservable_fn(JSContext__PropertyClosure* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->GetObservable(context, args);
 }
 
-// public PropertyClosure New(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptProperty p) :270
+// public PropertyClosure New(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptProperty p)
 void JSContext__PropertyClosure__New1_fn(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* cl, ::g::Fuse::Scripting::ScriptProperty* p, JSContext__PropertyClosure** __retval)
 {
     *__retval = JSContext__PropertyClosure::New1(context, cl, p);
 }
 
-// public PropertyClosure(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptProperty p) [instance] :270
+// public PropertyClosure(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptProperty p) [instance]
 void JSContext__PropertyClosure::ctor_(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* cl, ::g::Fuse::Scripting::ScriptProperty* p)
 {
     _p = p;
@@ -3605,7 +3605,7 @@ void JSContext__PropertyClosure::ctor_(::g::Fuse::Scripting::Context* context, :
     uPtr(definer)->Call(context, uArray::Init<uObject*>(::TYPES[15/*object[]*/], 2, cl, uDelegate::New(::TYPES[18/*Fuse.Scripting.Callback*/], (void*)JSContext__PropertyClosure__GetObservable_fn, this)));
 }
 
-// private object GetObservable(Fuse.Scripting.Context context, object[] args) [instance] :297
+// private object GetObservable(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* JSContext__PropertyClosure::GetObservable(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     ::g::Uno::UX::PropertyObject* obj = uAs< ::g::Uno::UX::PropertyObject*>(uPtr(context)->Wrap(uPtr(args)->Strong<uObject*>(0)), ::TYPES[34/*Uno.UX.PropertyObject*/]);
@@ -3613,7 +3613,7 @@ uObject* JSContext__PropertyClosure::GetObservable(::g::Fuse::Scripting::Context
     return uPtr(ci)->GetPropertyObservable(context, uPtr(_p)->GetProperty(obj));
 }
 
-// public PropertyClosure New(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptProperty p) [static] :270
+// public PropertyClosure New(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptProperty p) [static]
 JSContext__PropertyClosure* JSContext__PropertyClosure::New1(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* cl, ::g::Fuse::Scripting::ScriptProperty* p)
 {
     JSContext__PropertyClosure* obj1 = (JSContext__PropertyClosure*)uNew(JSContext__PropertyClosure_typeof());
@@ -3622,10 +3622,10 @@ JSContext__PropertyClosure* JSContext__PropertyClosure::New1(::g::Fuse::Scriptin
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeObject.uno
-// -------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeObject.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class TreeObject.PropertySubscription :18
+// internal sealed class TreeObject.PropertySubscription
 // {
 static void TreeObject__PropertySubscription_build(uType* type)
 {
@@ -3654,13 +3654,13 @@ TreeObject__PropertySubscription_type* TreeObject__PropertySubscription_typeof()
     return type;
 }
 
-// public PropertySubscription(Fuse.Scripting.JavaScript.TreeObject om, Fuse.Reactive.IPropertyObserver observer) :22
+// public PropertySubscription(Fuse.Scripting.JavaScript.TreeObject om, Fuse.Reactive.IPropertyObserver observer)
 void TreeObject__PropertySubscription__ctor_1_fn(TreeObject__PropertySubscription* __this, ::g::Fuse::Scripting::JavaScript::TreeObject* om, uObject* observer)
 {
     __this->ctor_1(om, observer);
 }
 
-// private bool Fuse.Reactive.IPropertySubscription.TrySetExclusive(string key, object newValue) :51
+// private bool Fuse.Reactive.IPropertySubscription.TrySetExclusive(string key, object newValue)
 void TreeObject__PropertySubscription__FuseReactiveIPropertySubscriptionTrySetExclusive_fn(TreeObject__PropertySubscription* __this, uString* key, uObject* newValue, bool* __retval)
 {
     ::g::Fuse::Scripting::JavaScript::TreeObject* t = uCast< ::g::Fuse::Scripting::JavaScript::TreeObject*>(__this->SubscriptionSubject(), ::TYPES[52/*Fuse.Scripting.JavaScript.TreeObject*/]);
@@ -3669,26 +3669,26 @@ void TreeObject__PropertySubscription__FuseReactiveIPropertySubscriptionTrySetEx
     return *__retval = true, void();
 }
 
-// public PropertySubscription New(Fuse.Scripting.JavaScript.TreeObject om, Fuse.Reactive.IPropertyObserver observer) :22
+// public PropertySubscription New(Fuse.Scripting.JavaScript.TreeObject om, Fuse.Reactive.IPropertyObserver observer)
 void TreeObject__PropertySubscription__New1_fn(::g::Fuse::Scripting::JavaScript::TreeObject* om, uObject* observer, TreeObject__PropertySubscription** __retval)
 {
     *__retval = TreeObject__PropertySubscription::New1(om, observer);
 }
 
-// public void OnPropertyChanged(string key, object newValue, Fuse.Scripting.JavaScript.TreeObject.PropertySubscription exclude) :63
+// public void OnPropertyChanged(string key, object newValue, Fuse.Scripting.JavaScript.TreeObject.PropertySubscription exclude)
 void TreeObject__PropertySubscription__OnPropertyChanged_fn(TreeObject__PropertySubscription* __this, uString* key, uObject* newValue, TreeObject__PropertySubscription* exclude)
 {
     __this->OnPropertyChanged(key, newValue, exclude);
 }
 
-// public PropertySubscription(Fuse.Scripting.JavaScript.TreeObject om, Fuse.Reactive.IPropertyObserver observer) [instance] :22
+// public PropertySubscription(Fuse.Scripting.JavaScript.TreeObject om, Fuse.Reactive.IPropertyObserver observer) [instance]
 void TreeObject__PropertySubscription::ctor_1(::g::Fuse::Scripting::JavaScript::TreeObject* om, uObject* observer)
 {
     ctor_(om);
     _observer = observer;
 }
 
-// public void OnPropertyChanged(string key, object newValue, Fuse.Scripting.JavaScript.TreeObject.PropertySubscription exclude) [instance] :63
+// public void OnPropertyChanged(string key, object newValue, Fuse.Scripting.JavaScript.TreeObject.PropertySubscription exclude) [instance]
 void TreeObject__PropertySubscription::OnPropertyChanged(uString* key, uObject* newValue, TreeObject__PropertySubscription* exclude)
 {
     if (exclude != this)
@@ -3700,7 +3700,7 @@ void TreeObject__PropertySubscription::OnPropertyChanged(uString* key, uObject* 
         uPtr(next)->OnPropertyChanged(key, newValue, exclude);
 }
 
-// public PropertySubscription New(Fuse.Scripting.JavaScript.TreeObject om, Fuse.Reactive.IPropertyObserver observer) [static] :22
+// public PropertySubscription New(Fuse.Scripting.JavaScript.TreeObject om, Fuse.Reactive.IPropertyObserver observer) [static]
 TreeObject__PropertySubscription* TreeObject__PropertySubscription::New1(::g::Fuse::Scripting::JavaScript::TreeObject* om, uObject* observer)
 {
     TreeObject__PropertySubscription* obj1 = (TreeObject__PropertySubscription*)uNew(TreeObject__PropertySubscription_typeof());
@@ -3709,10 +3709,10 @@ TreeObject__PropertySubscription* TreeObject__PropertySubscription::New1(::g::Fu
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ObservableProperty.uno
-// ------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ObservableProperty.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class ObservableProperty.PushCapture :220
+// private sealed class ObservableProperty.PushCapture
 // {
 static void ObservableProperty__PushCapture_build(uType* type)
 {
@@ -3735,38 +3735,38 @@ uType* ObservableProperty__PushCapture_typeof()
     return type;
 }
 
-// public PushCapture(Uno.Action<Fuse.Scripting.Context, object> push, object arg) :225
+// public PushCapture(Uno.Action<Fuse.Scripting.Context, object> push, object arg)
 void ObservableProperty__PushCapture__ctor__fn(ObservableProperty__PushCapture* __this, uDelegate* push, uObject* arg)
 {
     __this->ctor_(push, arg);
 }
 
-// public PushCapture New(Uno.Action<Fuse.Scripting.Context, object> push, object arg) :225
+// public PushCapture New(Uno.Action<Fuse.Scripting.Context, object> push, object arg)
 void ObservableProperty__PushCapture__New1_fn(uDelegate* push, uObject* arg, ObservableProperty__PushCapture** __retval)
 {
     *__retval = ObservableProperty__PushCapture::New1(push, arg);
 }
 
-// public void Run(Fuse.Scripting.Context context) :231
+// public void Run(Fuse.Scripting.Context context)
 void ObservableProperty__PushCapture__Run_fn(ObservableProperty__PushCapture* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->Run(context);
 }
 
-// public PushCapture(Uno.Action<Fuse.Scripting.Context, object> push, object arg) [instance] :225
+// public PushCapture(Uno.Action<Fuse.Scripting.Context, object> push, object arg) [instance]
 void ObservableProperty__PushCapture::ctor_(uDelegate* push, uObject* arg)
 {
     _push = push;
     _arg = arg;
 }
 
-// public void Run(Fuse.Scripting.Context context) [instance] :231
+// public void Run(Fuse.Scripting.Context context) [instance]
 void ObservableProperty__PushCapture::Run(::g::Fuse::Scripting::Context* context)
 {
     uPtr(_push)->Invoke(2, context, (uObject*)_arg);
 }
 
-// public PushCapture New(Uno.Action<Fuse.Scripting.Context, object> push, object arg) [static] :225
+// public PushCapture New(Uno.Action<Fuse.Scripting.Context, object> push, object arg) [static]
 ObservableProperty__PushCapture* ObservableProperty__PushCapture::New1(uDelegate* push, uObject* arg)
 {
     ObservableProperty__PushCapture* obj1 = (ObservableProperty__PushCapture*)uNew(ObservableProperty__PushCapture_typeof());
@@ -3775,10 +3775,10 @@ ObservableProperty__PushCapture* ObservableProperty__PushCapture::New1(uDelegate
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Context.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Context.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class JSContext.ReadonlyPropertyClosure :244
+// private sealed class JSContext.ReadonlyPropertyClosure
 // {
 static void JSContext__ReadonlyPropertyClosure_build(uType* type)
 {
@@ -3810,26 +3810,26 @@ uType* JSContext__ReadonlyPropertyClosure_typeof()
     return type;
 }
 
-// public ReadonlyPropertyClosure(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptReadonlyProperty constant) :246
+// public ReadonlyPropertyClosure(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptReadonlyProperty constant)
 void JSContext__ReadonlyPropertyClosure__ctor__fn(JSContext__ReadonlyPropertyClosure* __this, ::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* cl, ::g::Fuse::Scripting::ScriptReadonlyProperty* constant)
 {
     __this->ctor_(context, cl, constant);
 }
 
-// public ReadonlyPropertyClosure New(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptReadonlyProperty constant) :246
+// public ReadonlyPropertyClosure New(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptReadonlyProperty constant)
 void JSContext__ReadonlyPropertyClosure__New1_fn(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* cl, ::g::Fuse::Scripting::ScriptReadonlyProperty* constant, JSContext__ReadonlyPropertyClosure** __retval)
 {
     *__retval = JSContext__ReadonlyPropertyClosure::New1(context, cl, constant);
 }
 
-// public ReadonlyPropertyClosure(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptReadonlyProperty constant) [instance] :246
+// public ReadonlyPropertyClosure(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptReadonlyProperty constant) [instance]
 void JSContext__ReadonlyPropertyClosure::ctor_(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* cl, ::g::Fuse::Scripting::ScriptReadonlyProperty* constant)
 {
     ::g::Fuse::Scripting::Function* definer = uCast< ::g::Fuse::Scripting::Function*>(uPtr(context)->Evaluate(::g::Uno::String::op_Addition2(uPtr(constant)->Name, ::STRINGS[23/*" (ScriptRea...*/]), ::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::STRINGS[24/*"(function(c...*/], uPtr(constant)->Name), ::STRINGS[25/*"',"*/]), ::STRINGS[12/*"{"*/]), ::STRINGS[26/*"value: prop...*/]), ::STRINGS[27/*"writable: f...*/]), ::STRINGS[28/*"enumerable:...*/]), ::STRINGS[29/*"configurabl...*/]), ::STRINGS[20/*"}"*/]), ::STRINGS[30/*");"*/]), ::STRINGS[22/*"})"*/])), ::TYPES[16/*Fuse.Scripting.Function*/]);
     uPtr(definer)->Call(context, uArray::Init<uObject*>(::TYPES[15/*object[]*/], 2, cl, (uObject*)context->Unwrap(constant->Value)));
 }
 
-// public ReadonlyPropertyClosure New(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptReadonlyProperty constant) [static] :246
+// public ReadonlyPropertyClosure New(Fuse.Scripting.Context context, Fuse.Scripting.Function cl, Fuse.Scripting.ScriptReadonlyProperty constant) [static]
 JSContext__ReadonlyPropertyClosure* JSContext__ReadonlyPropertyClosure::New1(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* cl, ::g::Fuse::Scripting::ScriptReadonlyProperty* constant)
 {
     JSContext__ReadonlyPropertyClosure* obj1 = (JSContext__ReadonlyPropertyClosure*)uNew(JSContext__ReadonlyPropertyClosure_typeof());
@@ -3838,10 +3838,10 @@ JSContext__ReadonlyPropertyClosure* JSContext__ReadonlyPropertyClosure::New1(::g
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Observable.RemoveAt :568
+// private sealed class Observable.RemoveAt
 // {
 static void Observable__RemoveAt_build(uType* type)
 {
@@ -3868,19 +3868,19 @@ static void Observable__RemoveAt_build(uType* type)
     return type;
 }
 
-// public RemoveAt(Fuse.Scripting.JavaScript.Observable obs, int index) :572
+// public RemoveAt(Fuse.Scripting.JavaScript.Observable obs, int index)
 void Observable__RemoveAt__ctor_1_fn(Observable__RemoveAt* __this, ::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t* index)
 {
     __this->ctor_1(obs, *index);
 }
 
-// public RemoveAt New(Fuse.Scripting.JavaScript.Observable obs, int index) :572
+// public RemoveAt New(Fuse.Scripting.JavaScript.Observable obs, int index)
 void Observable__RemoveAt__New1_fn(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t* index, Observable__RemoveAt** __retval)
 {
     *__retval = Observable__RemoveAt::New1(obs, *index);
 }
 
-// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub) :577
+// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub)
 void Observable__RemoveAt__OnPerform_fn(Observable__RemoveAt* __this, uObject* sub)
 {
     ::g::Fuse::Scripting::JavaScript::Observable__Subscription* ret2;
@@ -3893,14 +3893,14 @@ void Observable__RemoveAt__OnPerform_fn(Observable__RemoveAt* __this, uObject* s
             ::g::Fuse::Reactive::IObserver::OnRemoveAt(uInterface(uPtr(uPtr((::g::Uno::Collections::IList::get_Item_ex(uInterface(uPtr(sub), ::TYPES[1/*Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription>*/]), uCRef<int32_t>(i), &ret3), ret3))->Observer()), ::TYPES[2/*Fuse.Reactive.IObserver*/]), __this->_index);
 }
 
-// public RemoveAt(Fuse.Scripting.JavaScript.Observable obs, int index) [instance] :572
+// public RemoveAt(Fuse.Scripting.JavaScript.Observable obs, int index) [instance]
 void Observable__RemoveAt::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t index)
 {
     ctor_(obs);
     _index = index;
 }
 
-// public RemoveAt New(Fuse.Scripting.JavaScript.Observable obs, int index) [static] :572
+// public RemoveAt New(Fuse.Scripting.JavaScript.Observable obs, int index) [static]
 Observable__RemoveAt* Observable__RemoveAt::New1(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t index)
 {
     Observable__RemoveAt* obj1 = (Observable__RemoveAt*)uNew(Observable__RemoveAt_typeof());
@@ -3909,10 +3909,10 @@ Observable__RemoveAt* Observable__RemoveAt::New1(::g::Fuse::Scripting::JavaScrip
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeObservable.uno
-// -----------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeObservable.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class TreeObservable.RemoveAtOperation :243
+// private sealed class TreeObservable.RemoveAtOperation
 // {
 static void TreeObservable__RemoveAtOperation_build(uType* type)
 {
@@ -3941,19 +3941,19 @@ static void TreeObservable__RemoveAtOperation_build(uType* type)
     return type;
 }
 
-// public RemoveAtOperation(Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) :245
+// public RemoveAtOperation(Fuse.Scripting.JavaScript.TreeObservable inst, object[] args)
 void TreeObservable__RemoveAtOperation__ctor_1_fn(TreeObservable__RemoveAtOperation* __this, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     __this->ctor_1(inst, args);
 }
 
-// public RemoveAtOperation New(Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) :245
+// public RemoveAtOperation New(Fuse.Scripting.JavaScript.TreeObservable inst, object[] args)
 void TreeObservable__RemoveAtOperation__New1_fn(::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args, TreeObservable__RemoveAtOperation** __retval)
 {
     *__retval = TreeObservable__RemoveAtOperation::New1(inst, args);
 }
 
-// protected override sealed void Perform(object dc) :254
+// protected override sealed void Perform(object dc)
 void TreeObservable__RemoveAtOperation__Perform1_fn(TreeObservable__RemoveAtOperation* __this, uObject* dc)
 {
     ::g::Fuse::Scripting::JavaScript::TreeArray* arr = uAs< ::g::Fuse::Scripting::JavaScript::TreeArray*>(dc, ::TYPES[3/*Fuse.Scripting.JavaScript.TreeArray*/]);
@@ -3962,20 +3962,20 @@ void TreeObservable__RemoveAtOperation__Perform1_fn(TreeObservable__RemoveAtOper
         uPtr(arr)->RemoveAt(__this->_index);
 }
 
-// protected override sealed int get_SpecialArgCount() :252
+// protected override sealed int get_SpecialArgCount()
 void TreeObservable__RemoveAtOperation__get_SpecialArgCount_fn(TreeObservable__RemoveAtOperation* __this, int32_t* __retval)
 {
     return *__retval = 1, void();
 }
 
-// public RemoveAtOperation(Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [instance] :245
+// public RemoveAtOperation(Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [instance]
 void TreeObservable__RemoveAtOperation::ctor_1(::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     ctor_(inst, args);
     _index = ::g::Fuse::Marshal::ToInt(uPtr(Arguments)->Strong<uObject*>(uPtr(Arguments)->Length() - 1));
 }
 
-// public RemoveAtOperation New(Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [static] :245
+// public RemoveAtOperation New(Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [static]
 TreeObservable__RemoveAtOperation* TreeObservable__RemoveAtOperation::New1(::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     TreeObservable__RemoveAtOperation* obj1 = (TreeObservable__RemoveAtOperation*)uNew(TreeObservable__RemoveAtOperation_typeof());
@@ -3984,10 +3984,10 @@ TreeObservable__RemoveAtOperation* TreeObservable__RemoveAtOperation::New1(::g::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Observable.RemoveRange :590
+// private sealed class Observable.RemoveRange
 // {
 static void Observable__RemoveRange_build(uType* type)
 {
@@ -4015,19 +4015,19 @@ static void Observable__RemoveRange_build(uType* type)
     return type;
 }
 
-// public RemoveRange(Fuse.Scripting.JavaScript.Observable obs, int index, int count) :595
+// public RemoveRange(Fuse.Scripting.JavaScript.Observable obs, int index, int count)
 void Observable__RemoveRange__ctor_1_fn(Observable__RemoveRange* __this, ::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t* index, int32_t* count)
 {
     __this->ctor_1(obs, *index, *count);
 }
 
-// public RemoveRange New(Fuse.Scripting.JavaScript.Observable obs, int index, int count) :595
+// public RemoveRange New(Fuse.Scripting.JavaScript.Observable obs, int index, int count)
 void Observable__RemoveRange__New1_fn(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t* index, int32_t* count, Observable__RemoveRange** __retval)
 {
     *__retval = Observable__RemoveRange::New1(obs, *index, *count);
 }
 
-// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub) :601
+// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub)
 void Observable__RemoveRange__OnPerform_fn(Observable__RemoveRange* __this, uObject* sub)
 {
     ::g::Fuse::Scripting::JavaScript::Observable__Subscription* ret2;
@@ -4044,7 +4044,7 @@ void Observable__RemoveRange__OnPerform_fn(Observable__RemoveRange* __this, uObj
     }
 }
 
-// public RemoveRange(Fuse.Scripting.JavaScript.Observable obs, int index, int count) [instance] :595
+// public RemoveRange(Fuse.Scripting.JavaScript.Observable obs, int index, int count) [instance]
 void Observable__RemoveRange::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t index, int32_t count)
 {
     ctor_(obs);
@@ -4052,7 +4052,7 @@ void Observable__RemoveRange::ctor_1(::g::Fuse::Scripting::JavaScript::Observabl
     _count = count;
 }
 
-// public RemoveRange New(Fuse.Scripting.JavaScript.Observable obs, int index, int count) [static] :595
+// public RemoveRange New(Fuse.Scripting.JavaScript.Observable obs, int index, int count) [static]
 Observable__RemoveRange* Observable__RemoveRange::New1(::g::Fuse::Scripting::JavaScript::Observable* obs, int32_t index, int32_t count)
 {
     Observable__RemoveRange* obj1 = (Observable__RemoveRange*)uNew(Observable__RemoveRange_typeof());
@@ -4061,10 +4061,10 @@ Observable__RemoveRange* Observable__RemoveRange::New1(::g::Fuse::Scripting::Jav
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Observable.Subscription.ReplaceAllExclusiveOperation :140
+// private sealed class Observable.Subscription.ReplaceAllExclusiveOperation
 // {
 static void Observable__Subscription__ReplaceAllExclusiveOperation_build(uType* type)
 {
@@ -4091,25 +4091,25 @@ uType* Observable__Subscription__ReplaceAllExclusiveOperation_typeof()
     return type;
 }
 
-// public ReplaceAllExclusiveOperation(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object[] newValues, int origin) :142
+// public ReplaceAllExclusiveOperation(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object[] newValues, int origin)
 void Observable__Subscription__ReplaceAllExclusiveOperation__ctor__fn(Observable__Subscription__ReplaceAllExclusiveOperation* __this, uObject* worker, ::g::Fuse::Scripting::Object* obj, uArray* newValues, int32_t* origin)
 {
     __this->ctor_(worker, obj, newValues, *origin);
 }
 
-// public ReplaceAllExclusiveOperation New(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object[] newValues, int origin) :142
+// public ReplaceAllExclusiveOperation New(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object[] newValues, int origin)
 void Observable__Subscription__ReplaceAllExclusiveOperation__New1_fn(uObject* worker, ::g::Fuse::Scripting::Object* obj, uArray* newValues, int32_t* origin, Observable__Subscription__ReplaceAllExclusiveOperation** __retval)
 {
     *__retval = Observable__Subscription__ReplaceAllExclusiveOperation::New1(worker, obj, newValues, *origin);
 }
 
-// public void Perform(Fuse.Scripting.Context context) :156
+// public void Perform(Fuse.Scripting.Context context)
 void Observable__Subscription__ReplaceAllExclusiveOperation__Perform_fn(Observable__Subscription__ReplaceAllExclusiveOperation* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->Perform(context);
 }
 
-// public ReplaceAllExclusiveOperation(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object[] newValues, int origin) [instance] :142
+// public ReplaceAllExclusiveOperation(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object[] newValues, int origin) [instance]
 void Observable__Subscription__ReplaceAllExclusiveOperation::ctor_(uObject* worker, ::g::Fuse::Scripting::Object* obj, uArray* newValues, int32_t origin)
 {
     Worker = worker;
@@ -4118,7 +4118,7 @@ void Observable__Subscription__ReplaceAllExclusiveOperation::ctor_(uObject* work
     Origin = origin;
 }
 
-// public void Perform(Fuse.Scripting.Context context) [instance] :156
+// public void Perform(Fuse.Scripting.Context context) [instance]
 void Observable__Subscription__ReplaceAllExclusiveOperation::Perform(::g::Fuse::Scripting::Context* context)
 {
     for (int32_t i = 0; i < uPtr(NewValues)->Length(); i++)
@@ -4127,7 +4127,7 @@ void Observable__Subscription__ReplaceAllExclusiveOperation::Perform(::g::Fuse::
     uPtr(Object)->CallMethod(context, ::STRINGS[31/*"replaceAllW...*/], uArray::Init<uObject*>(::TYPES[15/*object[]*/], 2, (::g::Fuse::Scripting::Array*)uPtr(context)->NewArray(NewValues), uBox<int32_t>(::TYPES[63/*int*/], Origin)));
 }
 
-// public ReplaceAllExclusiveOperation New(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object[] newValues, int origin) [static] :142
+// public ReplaceAllExclusiveOperation New(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object[] newValues, int origin) [static]
 Observable__Subscription__ReplaceAllExclusiveOperation* Observable__Subscription__ReplaceAllExclusiveOperation::New1(uObject* worker, ::g::Fuse::Scripting::Object* obj, uArray* newValues, int32_t origin)
 {
     Observable__Subscription__ReplaceAllExclusiveOperation* obj1 = (Observable__Subscription__ReplaceAllExclusiveOperation*)uNew(Observable__Subscription__ReplaceAllExclusiveOperation_typeof());
@@ -4136,10 +4136,10 @@ Observable__Subscription__ReplaceAllExclusiveOperation* Observable__Subscription
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeArray.uno
-// ------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeArray.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class TreeArray.ArraySubscription.ReplaceAllOperation :63
+// private sealed class TreeArray.ArraySubscription.ReplaceAllOperation
 // {
 static void TreeArray__ArraySubscription__ReplaceAllOperation_build(uType* type)
 {
@@ -4167,32 +4167,32 @@ uType* TreeArray__ArraySubscription__ReplaceAllOperation_typeof()
     return type;
 }
 
-// public ReplaceAllOperation(Fuse.Scripting.Array target, Fuse.IArray newValues) :68
+// public ReplaceAllOperation(Fuse.Scripting.Array target, Fuse.IArray newValues)
 void TreeArray__ArraySubscription__ReplaceAllOperation__ctor__fn(TreeArray__ArraySubscription__ReplaceAllOperation* __this, ::g::Fuse::Scripting::Array* target, uObject* newValues)
 {
     __this->ctor_(target, newValues);
 }
 
-// public ReplaceAllOperation New(Fuse.Scripting.Array target, Fuse.IArray newValues) :68
+// public ReplaceAllOperation New(Fuse.Scripting.Array target, Fuse.IArray newValues)
 void TreeArray__ArraySubscription__ReplaceAllOperation__New1_fn(::g::Fuse::Scripting::Array* target, uObject* newValues, TreeArray__ArraySubscription__ReplaceAllOperation** __retval)
 {
     *__retval = TreeArray__ArraySubscription__ReplaceAllOperation::New1(target, newValues);
 }
 
-// public void Perform(Fuse.Scripting.Context context) :74
+// public void Perform(Fuse.Scripting.Context context)
 void TreeArray__ArraySubscription__ReplaceAllOperation__Perform_fn(TreeArray__ArraySubscription__ReplaceAllOperation* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->Perform(context);
 }
 
-// public ReplaceAllOperation(Fuse.Scripting.Array target, Fuse.IArray newValues) [instance] :68
+// public ReplaceAllOperation(Fuse.Scripting.Array target, Fuse.IArray newValues) [instance]
 void TreeArray__ArraySubscription__ReplaceAllOperation::ctor_(::g::Fuse::Scripting::Array* target, uObject* newValues)
 {
     _target = target;
     _newValues = newValues;
 }
 
-// public void Perform(Fuse.Scripting.Context context) [instance] :74
+// public void Perform(Fuse.Scripting.Context context) [instance]
 void TreeArray__ArraySubscription__ReplaceAllOperation::Perform(::g::Fuse::Scripting::Context* context)
 {
     uArray* nv = uArray::New(::TYPES[15/*object[]*/], ::g::Fuse::IArray::Length(uInterface(uPtr(_newValues), ::TYPES[35/*Fuse.IArray*/])));
@@ -4205,7 +4205,7 @@ void TreeArray__ArraySubscription__ReplaceAllOperation::Perform(::g::Fuse::Scrip
     uPtr(replaceAllFn)->Call(context, uArray::Init<uObject*>(::TYPES[15/*object[]*/], 2, (::g::Fuse::Scripting::Array*)_target, newValuesJs));
 }
 
-// public ReplaceAllOperation New(Fuse.Scripting.Array target, Fuse.IArray newValues) [static] :68
+// public ReplaceAllOperation New(Fuse.Scripting.Array target, Fuse.IArray newValues) [static]
 TreeArray__ArraySubscription__ReplaceAllOperation* TreeArray__ArraySubscription__ReplaceAllOperation::New1(::g::Fuse::Scripting::Array* target, uObject* newValues)
 {
     TreeArray__ArraySubscription__ReplaceAllOperation* obj1 = (TreeArray__ArraySubscription__ReplaceAllOperation*)uNew(TreeArray__ArraySubscription__ReplaceAllOperation_typeof());
@@ -4214,10 +4214,10 @@ TreeArray__ArraySubscription__ReplaceAllOperation* TreeArray__ArraySubscription_
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ObservableProperty.uno
-// ------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ObservableProperty.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class ObservableProperty.ResolveDefaultValueClosure :72
+// internal sealed class ObservableProperty.ResolveDefaultValueClosure
 // {
 static void ObservableProperty__ResolveDefaultValueClosure_build(uType* type)
 {
@@ -4258,37 +4258,37 @@ uType* ObservableProperty__ResolveDefaultValueClosure_typeof()
     return type;
 }
 
-// public ResolveDefaultValueClosure(Fuse.Scripting.JavaScript.ObservableProperty op, object value) :79
+// public ResolveDefaultValueClosure(Fuse.Scripting.JavaScript.ObservableProperty op, object value)
 void ObservableProperty__ResolveDefaultValueClosure__ctor__fn(ObservableProperty__ResolveDefaultValueClosure* __this, ::g::Fuse::Scripting::JavaScript::ObservableProperty* op, uObject* value)
 {
     __this->ctor_(op, value);
 }
 
-// private static bool IsDefault<T>(object value, Uno.Type t) :135
+// private static bool IsDefault<T>(object value, Uno.Type t)
 void ObservableProperty__ResolveDefaultValueClosure__IsDefault_fn(uType* __type, uObject* value, uType* t, bool* __retval)
 {
     *__retval = ObservableProperty__ResolveDefaultValueClosure::IsDefault(__type, value, t);
 }
 
-// private static bool IsDefaultValueForType(object value, Uno.Type t) :115
+// private static bool IsDefaultValueForType(object value, Uno.Type t)
 void ObservableProperty__ResolveDefaultValueClosure__IsDefaultValueForType_fn(uObject* value, uType* t, bool* __retval)
 {
     *__retval = ObservableProperty__ResolveDefaultValueClosure::IsDefaultValueForType(value, t);
 }
 
-// public ResolveDefaultValueClosure New(Fuse.Scripting.JavaScript.ObservableProperty op, object value) :79
+// public ResolveDefaultValueClosure New(Fuse.Scripting.JavaScript.ObservableProperty op, object value)
 void ObservableProperty__ResolveDefaultValueClosure__New1_fn(::g::Fuse::Scripting::JavaScript::ObservableProperty* op, uObject* value, ObservableProperty__ResolveDefaultValueClosure** __retval)
 {
     *__retval = ObservableProperty__ResolveDefaultValueClosure::New1(op, value);
 }
 
-// public void Perform() :88
+// public void Perform()
 void ObservableProperty__ResolveDefaultValueClosure__Perform_fn(ObservableProperty__ResolveDefaultValueClosure* __this)
 {
     __this->Perform();
 }
 
-// public ResolveDefaultValueClosure(Fuse.Scripting.JavaScript.ObservableProperty op, object value) [instance] :79
+// public ResolveDefaultValueClosure(Fuse.Scripting.JavaScript.ObservableProperty op, object value) [instance]
 void ObservableProperty__ResolveDefaultValueClosure::ctor_(::g::Fuse::Scripting::JavaScript::ObservableProperty* op, uObject* value)
 {
     _property = uPtr(op)->_property;
@@ -4297,7 +4297,7 @@ void ObservableProperty__ResolveDefaultValueClosure::ctor_(::g::Fuse::Scripting:
     _value = value;
 }
 
-// public void Perform() [instance] :88
+// public void Perform() [instance]
 void ObservableProperty__ResolveDefaultValueClosure::Perform()
 {
     if (ObservableProperty__ResolveDefaultValueClosure::IsDefaultValueForType(uPtr(_property)->GetAsObject1(), uPtr(_property)->PropertyType()))
@@ -4307,13 +4307,13 @@ void ObservableProperty__ResolveDefaultValueClosure::Perform()
     }
 }
 
-// private static bool IsDefault<T>(object value, Uno.Type t) [static] :135
+// private static bool IsDefault<T>(object value, Uno.Type t) [static]
 bool ObservableProperty__ResolveDefaultValueClosure::IsDefault(uType* __type, uObject* value, uType* t)
 {
     return ::g::Uno::Type::op_Equality(t, __type->U(0)) && ::g::Uno::Object::Equals(uPtr(value), uBoxPtr(__type->U(0), uT(__type->U(0), U_ALLOCA(__type->U(0)->ValueSize))));
 }
 
-// private static bool IsDefaultValueForType(object value, Uno.Type t) [static] :115
+// private static bool IsDefaultValueForType(object value, Uno.Type t) [static]
 bool ObservableProperty__ResolveDefaultValueClosure::IsDefaultValueForType(uObject* value, uType* t)
 {
     if (value == NULL)
@@ -4325,7 +4325,7 @@ bool ObservableProperty__ResolveDefaultValueClosure::IsDefaultValueForType(uObje
     return ((((((((ObservableProperty__ResolveDefaultValueClosure::IsDefault(::TYPES[38/*Fuse.Scripting.JavaScript.ObservableProperty.ResolveDefaultValueClosure.IsDefault<bool>*/], value, t) || ObservableProperty__ResolveDefaultValueClosure::IsDefault(::TYPES[39/*Fuse.Scripting.JavaScript.ObservableProperty.ResolveDefaultValueClosure.IsDefault<int>*/], value, t)) || ObservableProperty__ResolveDefaultValueClosure::IsDefault(::TYPES[40/*Fuse.Scripting.JavaScript.ObservableProperty.ResolveDefaultValueClosure.IsDefault<float>*/], value, t)) || ObservableProperty__ResolveDefaultValueClosure::IsDefault(::TYPES[41/*Fuse.Scripting.JavaScript.ObservableProperty.ResolveDefaultValueClosure.IsDefault<double>*/], value, t)) || ObservableProperty__ResolveDefaultValueClosure::IsDefault(::TYPES[42/*Fuse.Scripting.JavaScript.ObservableProperty.ResolveDefaultValueClosure.IsDefault<float2>*/], value, t)) || ObservableProperty__ResolveDefaultValueClosure::IsDefault(::TYPES[43/*Fuse.Scripting.JavaScript.ObservableProperty.ResolveDefaultValueClosure.IsDefault<float3>*/], value, t)) || ObservableProperty__ResolveDefaultValueClosure::IsDefault(::TYPES[44/*Fuse.Scripting.JavaScript.ObservableProperty.ResolveDefaultValueClosure.IsDefault<float4>*/], value, t)) || ObservableProperty__ResolveDefaultValueClosure::IsDefault(::TYPES[45/*Fuse.Scripting.JavaScript.ObservableProperty.ResolveDefaultValueClosure.IsDefault<Uno.UX.Size>*/], value, t)) || ObservableProperty__ResolveDefaultValueClosure::IsDefault(::TYPES[46/*Fuse.Scripting.JavaScript.ObservableProperty.ResolveDefaultValueClosure.IsDefault<Uno.UX.Size2>*/], value, t)) || ObservableProperty__ResolveDefaultValueClosure::IsDefault(::TYPES[47/*Fuse.Scripting.JavaScript.ObservableProperty.ResolveDefaultValueClosure.IsDefault<Uno.UX.Selector>*/], value, t);
 }
 
-// public ResolveDefaultValueClosure New(Fuse.Scripting.JavaScript.ObservableProperty op, object value) [static] :79
+// public ResolveDefaultValueClosure New(Fuse.Scripting.JavaScript.ObservableProperty op, object value) [static]
 ObservableProperty__ResolveDefaultValueClosure* ObservableProperty__ResolveDefaultValueClosure::New1(::g::Fuse::Scripting::JavaScript::ObservableProperty* op, uObject* value)
 {
     ObservableProperty__ResolveDefaultValueClosure* obj1 = (ObservableProperty__ResolveDefaultValueClosure*)uNew(ObservableProperty__ResolveDefaultValueClosure_typeof());
@@ -4334,10 +4334,10 @@ ObservableProperty__ResolveDefaultValueClosure* ObservableProperty__ResolveDefau
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/RootableScriptModule.uno
-// --------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/RootableScriptModule.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class RootableScriptModule :18
+// internal sealed class RootableScriptModule
 // {
 static void RootableScriptModule_build(uType* type)
 {
@@ -4376,13 +4376,13 @@ static void RootableScriptModule_build(uType* type)
     return type;
 }
 
-// public RootableScriptModule(Fuse.Scripting.JavaScript.ThreadWorker worker, Uno.UX.NameTable names) :31
+// public RootableScriptModule(Fuse.Scripting.JavaScript.ThreadWorker worker, Uno.UX.NameTable names)
 void RootableScriptModule__ctor_2_fn(RootableScriptModule* __this, ::g::Fuse::Scripting::JavaScript::ThreadWorker* worker, ::g::Uno::UX::NameTable* names)
 {
     __this->ctor_2(worker, names);
 }
 
-// internal override sealed void CallModuleFunc(Fuse.Scripting.Context context, Fuse.Scripting.Function moduleFunc, object[] args) :75
+// internal override sealed void CallModuleFunc(Fuse.Scripting.Context context, Fuse.Scripting.Function moduleFunc, object[] args)
 void RootableScriptModule__CallModuleFunc_fn(RootableScriptModule* __this, ::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* moduleFunc, uArray* args)
 {
     if (__this->_classInstance != NULL)
@@ -4391,20 +4391,20 @@ void RootableScriptModule__CallModuleFunc_fn(RootableScriptModule* __this, ::g::
         uPtr(moduleFunc)->Call(context, args);
 }
 
-// private void EnsureClassInstanceRooted(Fuse.Scripting.Context c) :43
+// private void EnsureClassInstanceRooted(Fuse.Scripting.Context c)
 void RootableScriptModule__EnsureClassInstanceRooted_fn(RootableScriptModule* __this, ::g::Fuse::Scripting::Context* c)
 {
     __this->EnsureClassInstanceRooted(c);
 }
 
-// public override sealed void Evaluate(Fuse.Scripting.Context c, Fuse.Scripting.ModuleResult result) :37
+// public override sealed void Evaluate(Fuse.Scripting.Context c, Fuse.Scripting.ModuleResult result)
 void RootableScriptModule__Evaluate_fn(RootableScriptModule* __this, ::g::Fuse::Scripting::Context* c, ::g::Fuse::Scripting::ModuleResult* result)
 {
     __this->EnsureClassInstanceRooted(c);
     ::g::Fuse::Scripting::ScriptModule__Evaluate_fn(__this, c, result);
 }
 
-// internal override sealed string GenerateArgs(Fuse.Scripting.Context c, Fuse.Scripting.ModuleResult result, Uno.Collections.List<object> args) :59
+// internal override sealed string GenerateArgs(Fuse.Scripting.Context c, Fuse.Scripting.ModuleResult result, Uno.Collections.List<object> args)
 void RootableScriptModule__GenerateArgs_fn(RootableScriptModule* __this, ::g::Fuse::Scripting::Context* c, ::g::Fuse::Scripting::ModuleResult* result, ::g::Uno::Collections::List* args, uString** __retval)
 {
     uString* ret3;
@@ -4447,31 +4447,31 @@ void RootableScriptModule__GenerateArgs_fn(RootableScriptModule* __this, ::g::Fu
     return *__retval = argsString, void();
 }
 
-// internal override sealed Uno.Collections.Dictionary<string, Fuse.Scripting.Dependency> GenerateRequireTable(Fuse.Scripting.Context c) :54
+// internal override sealed Uno.Collections.Dictionary<string, Fuse.Scripting.Dependency> GenerateRequireTable(Fuse.Scripting.Context c)
 void RootableScriptModule__GenerateRequireTable_fn(RootableScriptModule* __this, ::g::Fuse::Scripting::Context* c, ::g::Uno::Collections::Dictionary** __retval)
 {
     return *__retval = __this->Dependencies, void();
 }
 
-// public Fuse.Scripting.JavaScript.ScriptModuleNames get_ModuleNames() :27
+// public Fuse.Scripting.JavaScript.ScriptModuleNames get_ModuleNames()
 void RootableScriptModule__get_ModuleNames_fn(RootableScriptModule* __this, int32_t* __retval)
 {
     *__retval = __this->ModuleNames();
 }
 
-// public void set_ModuleNames(Fuse.Scripting.JavaScript.ScriptModuleNames value) :28
+// public void set_ModuleNames(Fuse.Scripting.JavaScript.ScriptModuleNames value)
 void RootableScriptModule__set_ModuleNames_fn(RootableScriptModule* __this, int32_t* value)
 {
     __this->ModuleNames(*value);
 }
 
-// public RootableScriptModule New(Fuse.Scripting.JavaScript.ThreadWorker worker, Uno.UX.NameTable names) :31
+// public RootableScriptModule New(Fuse.Scripting.JavaScript.ThreadWorker worker, Uno.UX.NameTable names)
 void RootableScriptModule__New2_fn(::g::Fuse::Scripting::JavaScript::ThreadWorker* worker, ::g::Uno::UX::NameTable* names, RootableScriptModule** __retval)
 {
     *__retval = RootableScriptModule::New2(worker, names);
 }
 
-// public RootableScriptModule(Fuse.Scripting.JavaScript.ThreadWorker worker, Uno.UX.NameTable names) [instance] :31
+// public RootableScriptModule(Fuse.Scripting.JavaScript.ThreadWorker worker, Uno.UX.NameTable names) [instance]
 void RootableScriptModule::ctor_2(::g::Fuse::Scripting::JavaScript::ThreadWorker* worker, ::g::Uno::UX::NameTable* names)
 {
     ctor_1();
@@ -4479,7 +4479,7 @@ void RootableScriptModule::ctor_2(::g::Fuse::Scripting::JavaScript::ThreadWorker
     _names = names;
 }
 
-// private void EnsureClassInstanceRooted(Fuse.Scripting.Context c) [instance] :43
+// private void EnsureClassInstanceRooted(Fuse.Scripting.Context c) [instance]
 void RootableScriptModule::EnsureClassInstanceRooted(::g::Fuse::Scripting::Context* c)
 {
     if (_names != NULL)
@@ -4491,19 +4491,19 @@ void RootableScriptModule::EnsureClassInstanceRooted(::g::Fuse::Scripting::Conte
     }
 }
 
-// public Fuse.Scripting.JavaScript.ScriptModuleNames get_ModuleNames() [instance] :27
+// public Fuse.Scripting.JavaScript.ScriptModuleNames get_ModuleNames() [instance]
 int32_t RootableScriptModule::ModuleNames()
 {
     return _moduleNames;
 }
 
-// public void set_ModuleNames(Fuse.Scripting.JavaScript.ScriptModuleNames value) [instance] :28
+// public void set_ModuleNames(Fuse.Scripting.JavaScript.ScriptModuleNames value) [instance]
 void RootableScriptModule::ModuleNames(int32_t value)
 {
     _moduleNames = value;
 }
 
-// public RootableScriptModule New(Fuse.Scripting.JavaScript.ThreadWorker worker, Uno.UX.NameTable names) [static] :31
+// public RootableScriptModule New(Fuse.Scripting.JavaScript.ThreadWorker worker, Uno.UX.NameTable names) [static]
 RootableScriptModule* RootableScriptModule::New2(::g::Fuse::Scripting::JavaScript::ThreadWorker* worker, ::g::Uno::UX::NameTable* names)
 {
     RootableScriptModule* obj2 = (RootableScriptModule*)uNew(RootableScriptModule_typeof());
@@ -4512,10 +4512,10 @@ RootableScriptModule* RootableScriptModule::New2(::g::Fuse::Scripting::JavaScrip
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/RootableScriptModule.uno
-// --------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/RootableScriptModule.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum ScriptModuleNames :10
+// public enum ScriptModuleNames
 uEnumType* ScriptModuleNames_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -4528,10 +4528,10 @@ uEnumType* ScriptModuleNames_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Observable.Set :411
+// private sealed class Observable.Set
 // {
 static void Observable__Set_build(uType* type)
 {
@@ -4560,19 +4560,19 @@ static void Observable__Set_build(uType* type)
     return type;
 }
 
-// public Set(Fuse.Scripting.JavaScript.Observable obs, object value, int origin) :416
+// public Set(Fuse.Scripting.JavaScript.Observable obs, object value, int origin)
 void Observable__Set__ctor_1_fn(Observable__Set* __this, ::g::Fuse::Scripting::JavaScript::Observable* obs, uObject* value, int32_t* origin)
 {
     __this->ctor_1(obs, value, *origin);
 }
 
-// public Set New(Fuse.Scripting.JavaScript.Observable obs, object value, int origin) :416
+// public Set New(Fuse.Scripting.JavaScript.Observable obs, object value, int origin)
 void Observable__Set__New1_fn(::g::Fuse::Scripting::JavaScript::Observable* obs, uObject* value, int32_t* origin, Observable__Set** __retval)
 {
     *__retval = Observable__Set::New1(obs, value, *origin);
 }
 
-// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub) :427
+// protected override sealed void OnPerform(Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription> sub)
 void Observable__Set__OnPerform_fn(Observable__Set* __this, uObject* sub)
 {
     ::g::Fuse::Scripting::JavaScript::Observable__Subscription* ret2;
@@ -4586,13 +4586,13 @@ void Observable__Set__OnPerform_fn(Observable__Set* __this, uObject* sub)
             ::g::Fuse::Reactive::IObserver::OnSet(uInterface(uPtr(uPtr((::g::Uno::Collections::IList::get_Item_ex(uInterface(uPtr(sub), ::TYPES[1/*Uno.Collections.IList<Fuse.Scripting.JavaScript.Observable.Subscription>*/]), uCRef<int32_t>(i), &ret3), ret3))->Observer()), ::TYPES[2/*Fuse.Reactive.IObserver*/]), __this->_value);
 }
 
-// protected override sealed void Unsubscribe() :422
+// protected override sealed void Unsubscribe()
 void Observable__Set__Unsubscribe_fn(Observable__Set* __this)
 {
     ::g::Fuse::Scripting::ValueMirror::Unsubscribe1(__this->_value);
 }
 
-// public Set(Fuse.Scripting.JavaScript.Observable obs, object value, int origin) [instance] :416
+// public Set(Fuse.Scripting.JavaScript.Observable obs, object value, int origin) [instance]
 void Observable__Set::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* obs, uObject* value, int32_t origin)
 {
     ctor_(obs);
@@ -4600,7 +4600,7 @@ void Observable__Set::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* obs, 
     _origin = origin;
 }
 
-// public Set New(Fuse.Scripting.JavaScript.Observable obs, object value, int origin) [static] :416
+// public Set New(Fuse.Scripting.JavaScript.Observable obs, object value, int origin) [static]
 Observable__Set* Observable__Set::New1(::g::Fuse::Scripting::JavaScript::Observable* obs, uObject* value, int32_t origin)
 {
     Observable__Set* obj1 = (Observable__Set*)uNew(Observable__Set_typeof());
@@ -4609,10 +4609,10 @@ Observable__Set* Observable__Set::New1(::g::Fuse::Scripting::JavaScript::Observa
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeObject.uno
-// -------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeObject.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class TreeObject.SetClosure :81
+// private sealed class TreeObject.SetClosure
 // {
 static void TreeObject__SetClosure_build(uType* type)
 {
@@ -4640,25 +4640,25 @@ uType* TreeObject__SetClosure_typeof()
     return type;
 }
 
-// public SetClosure(Fuse.Scripting.JavaScript.TreeObject treeObject, Uno.Collections.Dictionary<string, object> newProps, object rawOverride, bool hasRawOverride) :88
+// public SetClosure(Fuse.Scripting.JavaScript.TreeObject treeObject, Uno.Collections.Dictionary<string, object> newProps, object rawOverride, bool hasRawOverride)
 void TreeObject__SetClosure__ctor__fn(TreeObject__SetClosure* __this, ::g::Fuse::Scripting::JavaScript::TreeObject* treeObject, ::g::Uno::Collections::Dictionary* newProps, uObject* rawOverride, bool* hasRawOverride)
 {
     __this->ctor_(treeObject, newProps, rawOverride, *hasRawOverride);
 }
 
-// public SetClosure New(Fuse.Scripting.JavaScript.TreeObject treeObject, Uno.Collections.Dictionary<string, object> newProps, object rawOverride, bool hasRawOverride) :88
+// public SetClosure New(Fuse.Scripting.JavaScript.TreeObject treeObject, Uno.Collections.Dictionary<string, object> newProps, object rawOverride, bool hasRawOverride)
 void TreeObject__SetClosure__New1_fn(::g::Fuse::Scripting::JavaScript::TreeObject* treeObject, ::g::Uno::Collections::Dictionary* newProps, uObject* rawOverride, bool* hasRawOverride, TreeObject__SetClosure** __retval)
 {
     *__retval = TreeObject__SetClosure::New1(treeObject, newProps, rawOverride, *hasRawOverride);
 }
 
-// public void Perform() :97
+// public void Perform()
 void TreeObject__SetClosure__Perform_fn(TreeObject__SetClosure* __this)
 {
     __this->Perform();
 }
 
-// public SetClosure(Fuse.Scripting.JavaScript.TreeObject treeObject, Uno.Collections.Dictionary<string, object> newProps, object rawOverride, bool hasRawOverride) [instance] :88
+// public SetClosure(Fuse.Scripting.JavaScript.TreeObject treeObject, Uno.Collections.Dictionary<string, object> newProps, object rawOverride, bool hasRawOverride) [instance]
 void TreeObject__SetClosure::ctor_(::g::Fuse::Scripting::JavaScript::TreeObject* treeObject, ::g::Uno::Collections::Dictionary* newProps, uObject* rawOverride, bool hasRawOverride)
 {
     _treeObject = treeObject;
@@ -4667,7 +4667,7 @@ void TreeObject__SetClosure::ctor_(::g::Fuse::Scripting::JavaScript::TreeObject*
     _hasRawOverride = hasRawOverride;
 }
 
-// public void Perform() [instance] :97
+// public void Perform() [instance]
 void TreeObject__SetClosure::Perform()
 {
     ::g::Uno::Collections::Dictionary__Enumerator<uStrong<uString*>, uStrong<uObject*> > ret3;
@@ -4711,7 +4711,7 @@ void TreeObject__SetClosure::Perform()
     }
 }
 
-// public SetClosure New(Fuse.Scripting.JavaScript.TreeObject treeObject, Uno.Collections.Dictionary<string, object> newProps, object rawOverride, bool hasRawOverride) [static] :88
+// public SetClosure New(Fuse.Scripting.JavaScript.TreeObject treeObject, Uno.Collections.Dictionary<string, object> newProps, object rawOverride, bool hasRawOverride) [static]
 TreeObject__SetClosure* TreeObject__SetClosure::New1(::g::Fuse::Scripting::JavaScript::TreeObject* treeObject, ::g::Uno::Collections::Dictionary* newProps, uObject* rawOverride, bool hasRawOverride)
 {
     TreeObject__SetClosure* obj2 = (TreeObject__SetClosure*)uNew(TreeObject__SetClosure_typeof());
@@ -4720,10 +4720,10 @@ TreeObject__SetClosure* TreeObject__SetClosure::New1(::g::Fuse::Scripting::JavaS
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Observable.Subscription.SetExclusiveOperation :79
+// private sealed class Observable.Subscription.SetExclusiveOperation
 // {
 static void Observable__Subscription__SetExclusiveOperation_build(uType* type)
 {
@@ -4752,25 +4752,25 @@ uType* Observable__Subscription__SetExclusiveOperation_typeof()
     return type;
 }
 
-// public SetExclusiveOperation(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object newValue, int origin, Fuse.Scripting.DiagnosticSubject diagnosticSubject) :81
+// public SetExclusiveOperation(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object newValue, int origin, Fuse.Scripting.DiagnosticSubject diagnosticSubject)
 void Observable__Subscription__SetExclusiveOperation__ctor__fn(Observable__Subscription__SetExclusiveOperation* __this, uObject* worker, ::g::Fuse::Scripting::Object* obj, uObject* newValue, int32_t* origin, ::g::Fuse::Scripting::DiagnosticSubject* diagnosticSubject)
 {
     __this->ctor_(worker, obj, newValue, *origin, diagnosticSubject);
 }
 
-// public SetExclusiveOperation New(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object newValue, int origin, Fuse.Scripting.DiagnosticSubject diagnosticSubject) :81
+// public SetExclusiveOperation New(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object newValue, int origin, Fuse.Scripting.DiagnosticSubject diagnosticSubject)
 void Observable__Subscription__SetExclusiveOperation__New1_fn(uObject* worker, ::g::Fuse::Scripting::Object* obj, uObject* newValue, int32_t* origin, ::g::Fuse::Scripting::DiagnosticSubject* diagnosticSubject, Observable__Subscription__SetExclusiveOperation** __retval)
 {
     *__retval = Observable__Subscription__SetExclusiveOperation::New1(worker, obj, newValue, *origin, diagnosticSubject);
 }
 
-// public void Perform(Fuse.Scripting.Context context) :96
+// public void Perform(Fuse.Scripting.Context context)
 void Observable__Subscription__SetExclusiveOperation__Perform_fn(Observable__Subscription__SetExclusiveOperation* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->Perform(context);
 }
 
-// public SetExclusiveOperation(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object newValue, int origin, Fuse.Scripting.DiagnosticSubject diagnosticSubject) [instance] :81
+// public SetExclusiveOperation(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object newValue, int origin, Fuse.Scripting.DiagnosticSubject diagnosticSubject) [instance]
 void Observable__Subscription__SetExclusiveOperation::ctor_(uObject* worker, ::g::Fuse::Scripting::Object* obj, uObject* newValue, int32_t origin, ::g::Fuse::Scripting::DiagnosticSubject* diagnosticSubject)
 {
     Worker = worker;
@@ -4780,7 +4780,7 @@ void Observable__Subscription__SetExclusiveOperation::ctor_(uObject* worker, ::g
     DiagnosticSubject = diagnosticSubject;
 }
 
-// public void Perform(Fuse.Scripting.Context context) [instance] :96
+// public void Perform(Fuse.Scripting.Context context) [instance]
 void Observable__Subscription__SetExclusiveOperation::Perform(::g::Fuse::Scripting::Context* context)
 {
     try
@@ -4802,7 +4802,7 @@ void Observable__Subscription__SetExclusiveOperation::Perform(::g::Fuse::Scripti
     }
 }
 
-// public SetExclusiveOperation New(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object newValue, int origin, Fuse.Scripting.DiagnosticSubject diagnosticSubject) [static] :81
+// public SetExclusiveOperation New(Fuse.Scripting.IThreadWorker worker, Fuse.Scripting.Object obj, object newValue, int origin, Fuse.Scripting.DiagnosticSubject diagnosticSubject) [static]
 Observable__Subscription__SetExclusiveOperation* Observable__Subscription__SetExclusiveOperation::New1(uObject* worker, ::g::Fuse::Scripting::Object* obj, uObject* newValue, int32_t origin, ::g::Fuse::Scripting::DiagnosticSubject* diagnosticSubject)
 {
     Observable__Subscription__SetExclusiveOperation* obj1 = (Observable__Subscription__SetExclusiveOperation*)uNew(Observable__Subscription__SetExclusiveOperation_typeof());
@@ -4811,10 +4811,10 @@ Observable__Subscription__SetExclusiveOperation* Observable__Subscription__SetEx
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeObservable.uno
-// -----------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeObservable.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class TreeObservable.SetOperation :195
+// private sealed class TreeObservable.SetOperation
 // {
 static void TreeObservable__SetOperation_build(uType* type)
 {
@@ -4843,19 +4843,19 @@ static void TreeObservable__SetOperation_build(uType* type)
     return type;
 }
 
-// public SetOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) :197
+// public SetOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args)
 void TreeObservable__SetOperation__ctor_2_fn(TreeObservable__SetOperation* __this, ::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     __this->ctor_2(context, inst, args);
 }
 
-// public SetOperation New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) :197
+// public SetOperation New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args)
 void TreeObservable__SetOperation__New1_fn(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args, TreeObservable__SetOperation** __retval)
 {
     *__retval = TreeObservable__SetOperation::New1(context, inst, args);
 }
 
-// protected override sealed void Perform(object dc) :200
+// protected override sealed void Perform(object dc)
 void TreeObservable__SetOperation__Perform1_fn(TreeObservable__SetOperation* __this, uObject* dc)
 {
     uObject* key = uPtr(__this->Arguments)->Strong<uObject*>(uPtr(__this->Arguments)->Length() - 2);
@@ -4870,19 +4870,19 @@ void TreeObservable__SetOperation__Perform1_fn(TreeObservable__SetOperation* __t
         uPtr(arr)->Set1(::g::Fuse::Marshal::ToInt(key), __this->WrappedValue);
 }
 
-// protected override sealed int get_SpecialArgCount() :198
+// protected override sealed int get_SpecialArgCount()
 void TreeObservable__SetOperation__get_SpecialArgCount_fn(TreeObservable__SetOperation* __this, int32_t* __retval)
 {
     return *__retval = 2, void();
 }
 
-// public SetOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [instance] :197
+// public SetOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [instance]
 void TreeObservable__SetOperation::ctor_2(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     ctor_1(context, inst, args);
 }
 
-// public SetOperation New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [static] :197
+// public SetOperation New(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [static]
 TreeObservable__SetOperation* TreeObservable__SetOperation::New1(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     TreeObservable__SetOperation* obj1 = (TreeObservable__SetOperation*)uNew(TreeObservable__SetOperation_typeof());
@@ -4891,10 +4891,10 @@ TreeObservable__SetOperation* TreeObservable__SetOperation::New1(::g::Fuse::Scri
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeArray.uno
-// ------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeArray.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class TreeArray.ArraySubscription.SimpleArray :142
+// private sealed class TreeArray.ArraySubscription.SimpleArray
 // {
 static void TreeArray__ArraySubscription__SimpleArray_build(uType* type)
 {
@@ -4921,49 +4921,49 @@ TreeArray__ArraySubscription__SimpleArray_type* TreeArray__ArraySubscription__Si
     return type;
 }
 
-// public SimpleArray(object[] values) :146
+// public SimpleArray(object[] values)
 void TreeArray__ArraySubscription__SimpleArray__ctor__fn(TreeArray__ArraySubscription__SimpleArray* __this, uArray* values)
 {
     __this->ctor_(values);
 }
 
-// public object get_Item(int index) :154
+// public object get_Item(int index)
 void TreeArray__ArraySubscription__SimpleArray__get_Item_fn(TreeArray__ArraySubscription__SimpleArray* __this, int32_t* index, uObject** __retval)
 {
     *__retval = __this->Item(*index);
 }
 
-// public int get_Length() :151
+// public int get_Length()
 void TreeArray__ArraySubscription__SimpleArray__get_Length_fn(TreeArray__ArraySubscription__SimpleArray* __this, int32_t* __retval)
 {
     *__retval = __this->Length();
 }
 
-// public SimpleArray New(object[] values) :146
+// public SimpleArray New(object[] values)
 void TreeArray__ArraySubscription__SimpleArray__New1_fn(uArray* values, TreeArray__ArraySubscription__SimpleArray** __retval)
 {
     *__retval = TreeArray__ArraySubscription__SimpleArray::New1(values);
 }
 
-// public SimpleArray(object[] values) [instance] :146
+// public SimpleArray(object[] values) [instance]
 void TreeArray__ArraySubscription__SimpleArray::ctor_(uArray* values)
 {
     _values = values;
 }
 
-// public object get_Item(int index) [instance] :154
+// public object get_Item(int index) [instance]
 uObject* TreeArray__ArraySubscription__SimpleArray::Item(int32_t index)
 {
     return uPtr(_values)->Strong<uObject*>(index);
 }
 
-// public int get_Length() [instance] :151
+// public int get_Length() [instance]
 int32_t TreeArray__ArraySubscription__SimpleArray::Length()
 {
     return uPtr(_values)->Length();
 }
 
-// public SimpleArray New(object[] values) [static] :146
+// public SimpleArray New(object[] values) [static]
 TreeArray__ArraySubscription__SimpleArray* TreeArray__ArraySubscription__SimpleArray::New1(uArray* values)
 {
     TreeArray__ArraySubscription__SimpleArray* obj1 = (TreeArray__ArraySubscription__SimpleArray*)uNew(TreeArray__ArraySubscription__SimpleArray_typeof());
@@ -4972,12 +4972,12 @@ TreeArray__ArraySubscription__SimpleArray* TreeArray__ArraySubscription__SimpleA
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Observable.Subscription :51
+// public sealed class Observable.Subscription
 // {
-// static generated Subscription() :51
+// static generated Subscription()
 static void Observable__Subscription__cctor__fn(uType* __type)
 {
     Observable__Subscription::_counter_ = 1;
@@ -5016,25 +5016,25 @@ Observable__Subscription_type* Observable__Subscription_typeof()
     return type;
 }
 
-// public Subscription(Fuse.Scripting.JavaScript.Observable om, Fuse.Reactive.IObserver obs) :68
+// public Subscription(Fuse.Scripting.JavaScript.Observable om, Fuse.Reactive.IObserver obs)
 void Observable__Subscription__ctor_1_fn(Observable__Subscription* __this, ::g::Fuse::Scripting::JavaScript::Observable* om, uObject* obs)
 {
     __this->ctor_1(om, obs);
 }
 
-// public void ClearExclusive(Fuse.Scripting.Context context) :203
+// public void ClearExclusive(Fuse.Scripting.Context context)
 void Observable__Subscription__ClearExclusive_fn(Observable__Subscription* __this, ::g::Fuse::Scripting::Context* context)
 {
     __this->ClearExclusive(context);
 }
 
-// public void Dispose() :218
+// public void Dispose()
 void Observable__Subscription__Dispose_fn(Observable__Subscription* __this)
 {
     __this->Dispose();
 }
 
-// private void Fuse.Reactive.ISubscription.ReplaceAllExclusive(Fuse.IArray newValues) :165
+// private void Fuse.Reactive.ISubscription.ReplaceAllExclusive(Fuse.IArray newValues)
 void Observable__Subscription__FuseReactiveISubscriptionReplaceAllExclusive_fn(Observable__Subscription* __this, uObject* newValues)
 {
     uArray* arr = uArray::New(::TYPES[15/*object[]*/], ::g::Fuse::IArray::Length(uInterface(uPtr(newValues), ::TYPES[35/*Fuse.IArray*/])));
@@ -5046,14 +5046,14 @@ void Observable__Subscription__FuseReactiveISubscriptionReplaceAllExclusive_fn(O
     ::g::Fuse::Scripting::IThreadWorker::Invoke1(uInterface(uPtr(uPtr(__this->_om)->_worker), ::TYPES[24/*Fuse.Scripting.IThreadWorker*/]), uDelegate::New(::TYPES[9/*Uno.Action<Fuse.Scripting.Context>*/], (void*)Observable__Subscription__ReplaceAllExclusiveOperation__Perform_fn, op));
 }
 
-// private void Fuse.Reactive.ISubscription.SetExclusive(object newValue) :126
+// private void Fuse.Reactive.ISubscription.SetExclusive(object newValue)
 void Observable__Subscription__FuseReactiveISubscriptionSetExclusive_fn(Observable__Subscription* __this, uObject* newValue)
 {
     __this->ClearDiagnostic();
 
     if (uPtr(__this->_om)->Object() == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("Unexpected null object"), __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno"), 132, uString::Const("Fuse.Reactive.ISubscription.SetExclusive"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("Unexpected null object"), __this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno"), 132, uString::Const("Fuse.Reactive.ISubscription.SetExclusive"));
         return;
     }
 
@@ -5061,37 +5061,37 @@ void Observable__Subscription__FuseReactiveISubscriptionSetExclusive_fn(Observab
     ::g::Fuse::Scripting::IThreadWorker::Invoke1(uInterface(uPtr(uPtr(__this->_om)->_worker), ::TYPES[24/*Fuse.Scripting.IThreadWorker*/]), uDelegate::New(::TYPES[9/*Uno.Action<Fuse.Scripting.Context>*/], (void*)Observable__Subscription__SetExclusiveOperation__Perform_fn, op));
 }
 
-// public Subscription New(Fuse.Scripting.JavaScript.Observable om, Fuse.Reactive.IObserver obs) :68
+// public Subscription New(Fuse.Scripting.JavaScript.Observable om, Fuse.Reactive.IObserver obs)
 void Observable__Subscription__New2_fn(::g::Fuse::Scripting::JavaScript::Observable* om, uObject* obs, Observable__Subscription** __retval)
 {
     *__retval = Observable__Subscription::New2(om, obs);
 }
 
-// public Fuse.Reactive.IObserver get_Observer() :66
+// public Fuse.Reactive.IObserver get_Observer()
 void Observable__Subscription__get_Observer_fn(Observable__Subscription* __this, uObject** __retval)
 {
     *__retval = __this->Observer();
 }
 
-// public generated bool get_Removed() :57
+// public generated bool get_Removed()
 void Observable__Subscription__get_Removed_fn(Observable__Subscription* __this, bool* __retval)
 {
     *__retval = __this->Removed();
 }
 
-// private generated void set_Removed(bool value) :57
+// private generated void set_Removed(bool value)
 void Observable__Subscription__set_Removed_fn(Observable__Subscription* __this, bool* value)
 {
     __this->Removed(*value);
 }
 
-// public void SetExclusive(Fuse.Scripting.Context context, object newValue) :112
+// public void SetExclusive(Fuse.Scripting.Context context, object newValue)
 void Observable__Subscription__SetExclusive_fn(Observable__Subscription* __this, ::g::Fuse::Scripting::Context* context, uObject* newValue)
 {
     __this->SetExclusive(context, newValue);
 }
 
-// public bool ShouldSend([int origin]) :59
+// public bool ShouldSend([int origin])
 void Observable__Subscription__ShouldSend_fn(Observable__Subscription* __this, int32_t* origin, bool* __retval)
 {
     *__retval = __this->ShouldSend(*origin);
@@ -5099,7 +5099,7 @@ void Observable__Subscription__ShouldSend_fn(Observable__Subscription* __this, i
 
 int32_t Observable__Subscription::_counter_;
 
-// public Subscription(Fuse.Scripting.JavaScript.Observable om, Fuse.Reactive.IObserver obs) [instance] :68
+// public Subscription(Fuse.Scripting.JavaScript.Observable om, Fuse.Reactive.IObserver obs) [instance]
 void Observable__Subscription::ctor_1(::g::Fuse::Scripting::JavaScript::Observable* om, uObject* obs)
 {
     ctor_();
@@ -5110,46 +5110,46 @@ void Observable__Subscription::ctor_1(::g::Fuse::Scripting::JavaScript::Observab
     _obs = obs;
 }
 
-// public void ClearExclusive(Fuse.Scripting.Context context) [instance] :203
+// public void ClearExclusive(Fuse.Scripting.Context context) [instance]
 void Observable__Subscription::ClearExclusive(::g::Fuse::Scripting::Context* context)
 {
     Observable__Subscription__ClearExclusiveOperation* op = Observable__Subscription__ClearExclusiveOperation::New1(uPtr(_om)->Object(), _origin);
     op->Perform(context);
 }
 
-// public void Dispose() [instance] :218
+// public void Dispose() [instance]
 void Observable__Subscription::Dispose()
 {
     Removed(true);
     uPtr(_om)->ObserversCleanup();
 }
 
-// public Fuse.Reactive.IObserver get_Observer() [instance] :66
+// public Fuse.Reactive.IObserver get_Observer() [instance]
 uObject* Observable__Subscription::Observer()
 {
     return _obs;
 }
 
-// public generated bool get_Removed() [instance] :57
+// public generated bool get_Removed() [instance]
 bool Observable__Subscription::Removed()
 {
     return _Removed;
 }
 
-// private generated void set_Removed(bool value) [instance] :57
+// private generated void set_Removed(bool value) [instance]
 void Observable__Subscription::Removed(bool value)
 {
     _Removed = value;
 }
 
-// public void SetExclusive(Fuse.Scripting.Context context, object newValue) [instance] :112
+// public void SetExclusive(Fuse.Scripting.Context context, object newValue) [instance]
 void Observable__Subscription::SetExclusive(::g::Fuse::Scripting::Context* context, uObject* newValue)
 {
     ClearDiagnostic();
 
     if (uPtr(_om)->Object() == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("Unexpected null object"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/Observable.uno"), 118, uString::Const("SetExclusive"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("Unexpected null object"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/Observable.uno"), 118, uString::Const("SetExclusive"));
         return;
     }
 
@@ -5157,13 +5157,13 @@ void Observable__Subscription::SetExclusive(::g::Fuse::Scripting::Context* conte
     op->Perform(context);
 }
 
-// public bool ShouldSend([int origin]) [instance] :59
+// public bool ShouldSend([int origin]) [instance]
 bool Observable__Subscription::ShouldSend(int32_t origin)
 {
     return !Removed() && (origin != _origin);
 }
 
-// public Subscription New(Fuse.Scripting.JavaScript.Observable om, Fuse.Reactive.IObserver obs) [static] :68
+// public Subscription New(Fuse.Scripting.JavaScript.Observable om, Fuse.Reactive.IObserver obs) [static]
 Observable__Subscription* Observable__Subscription::New2(::g::Fuse::Scripting::JavaScript::Observable* om, uObject* obs)
 {
     Observable__Subscription* obj1 = (Observable__Subscription*)uNew(Observable__Subscription_typeof());
@@ -5172,16 +5172,17 @@ Observable__Subscription* Observable__Subscription::New2(::g::Fuse::Scripting::J
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ThreadWorker.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ThreadWorker.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class ThreadWorker :15
+// internal sealed class ThreadWorker
 // {
 static void ThreadWorker_build(uType* type)
 {
     type->SetDependencies(
         ::g::Fuse::Scripting::JavaScript::JSContext_typeof(),
         ::g::Fuse::Platform::Lifecycle_typeof(),
+        ::g::Uno::Threading::Thread_typeof(),
         ::g::Fuse::UpdateManager_typeof());
     type->SetInterfaces(
         ::g::Uno::IDisposable_typeof(), offsetof(ThreadWorker_type, interface0),
@@ -5201,7 +5202,7 @@ ThreadWorker_type* ThreadWorker_typeof()
     uTypeOptions options;
     options.FieldCount = 4;
     options.InterfaceCount = 2;
-    options.DependencyCount = 3;
+    options.DependencyCount = 4;
     options.ObjectSize = sizeof(ThreadWorker);
     options.TypeSize = sizeof(ThreadWorker_type);
     type = (ThreadWorker_type*)uClassType::New("Fuse.Scripting.JavaScript.ThreadWorker", options);
@@ -5212,67 +5213,67 @@ ThreadWorker_type* ThreadWorker_typeof()
     return type;
 }
 
-// public ThreadWorker() :24
+// public ThreadWorker()
 void ThreadWorker__ctor__fn(ThreadWorker* __this)
 {
     __this->ctor_();
 }
 
-// private void DispatchException(Uno.Exception e) :151
+// private void DispatchException(Uno.Exception e)
 void ThreadWorker__DispatchException_fn(ThreadWorker* __this, ::g::Uno::Exception* e)
 {
     __this->DispatchException(e);
 }
 
-// public void Dispose() :46
+// public void Dispose()
 void ThreadWorker__Dispose_fn(ThreadWorker* __this)
 {
     __this->Dispose();
 }
 
-// public void Invoke(Uno.Action action) :163
+// public void Invoke(Uno.Action action)
 void ThreadWorker__Invoke_fn(ThreadWorker* __this, uDelegate* action)
 {
     __this->Invoke(action);
 }
 
-// public void Invoke(Uno.Action<Fuse.Scripting.Context> action) :157
+// public void Invoke(Uno.Action<Fuse.Scripting.Context> action)
 void ThreadWorker__Invoke1_fn(ThreadWorker* __this, uDelegate* action)
 {
     __this->Invoke1(action);
 }
 
-// public ThreadWorker New() :24
+// public ThreadWorker New()
 void ThreadWorker__New1_fn(ThreadWorker** __retval)
 {
     *__retval = ThreadWorker::New1();
 }
 
-// private void OnTerminating(Fuse.Platform.ApplicationState newState) :41
+// private void OnTerminating(Fuse.Platform.ApplicationState newState)
 void ThreadWorker__OnTerminating_fn(ThreadWorker* __this, int32_t* newState)
 {
     __this->OnTerminating(*newState);
 }
 
-// private void Run() :55
+// private void Run()
 void ThreadWorker__Run_fn(ThreadWorker* __this)
 {
     __this->Run();
 }
 
-// private void RunInner(Fuse.Scripting.JavaScript.JSContext context) :99
+// private void RunInner(Fuse.Scripting.JavaScript.JSContext context)
 void ThreadWorker__RunInner_fn(ThreadWorker* __this, ::g::Fuse::Scripting::JavaScript::JSContext* context)
 {
     __this->RunInner(context);
 }
 
-// private bool RunOnce(Fuse.Scripting.JavaScript.JSContext context) :69
+// private bool RunOnce(Fuse.Scripting.JavaScript.JSContext context)
 void ThreadWorker__RunOnce_fn(ThreadWorker* __this, ::g::Fuse::Scripting::JavaScript::JSContext* context, bool* __retval)
 {
     *__retval = __this->RunOnce(context);
 }
 
-// public ThreadWorker() [instance] :24
+// public ThreadWorker() [instance]
 void ThreadWorker::ctor_()
 {
     _idle = ::g::Uno::Threading::ManualResetEvent::New2(true);
@@ -5283,14 +5284,14 @@ void ThreadWorker::ctor_()
     uPtr(_thread)->Start();
 }
 
-// private void DispatchException(Uno.Exception e) [instance] :151
+// private void DispatchException(Uno.Exception e) [instance]
 void ThreadWorker::DispatchException(::g::Uno::Exception* e)
 {
     ThreadWorker__ExceptionClosure* closure = ThreadWorker__ExceptionClosure::New1(e);
     ::g::Fuse::UpdateManager::PostAction(uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)ThreadWorker__ExceptionClosure__Run_fn, closure));
 }
 
-// public void Dispose() [instance] :46
+// public void Dispose() [instance]
 void ThreadWorker::Dispose()
 {
     ::g::Fuse::Platform::Lifecycle::remove_Terminating(uDelegate::New(::g::Uno::Action1_typeof()->MakeType(::g::Fuse::Platform::ApplicationState_typeof(), NULL), (void*)ThreadWorker__OnTerminating_fn, this));
@@ -5299,26 +5300,26 @@ void ThreadWorker::Dispose()
     uPtr(_terminate)->Dispose();
 }
 
-// public void Invoke(Uno.Action action) [instance] :163
+// public void Invoke(Uno.Action action) [instance]
 void ThreadWorker::Invoke(uDelegate* action)
 {
     Invoke1(uDelegate::New(::TYPES[9/*Uno.Action<Fuse.Scripting.Context>*/], (void*)ThreadWorker__ContextIgnoringAction__Run_fn, ThreadWorker__ContextIgnoringAction::New1(action)));
 }
 
-// public void Invoke(Uno.Action<Fuse.Scripting.Context> action) [instance] :157
+// public void Invoke(Uno.Action<Fuse.Scripting.Context> action) [instance]
 void ThreadWorker::Invoke1(uDelegate* action)
 {
     uPtr(_idle)->Reset();
     ::g::Uno::Threading::ConcurrentQueue__Enqueue_fn(uPtr(_queue), action);
 }
 
-// private void OnTerminating(Fuse.Platform.ApplicationState newState) [instance] :41
+// private void OnTerminating(Fuse.Platform.ApplicationState newState) [instance]
 void ThreadWorker::OnTerminating(int32_t newState)
 {
     Dispose();
 }
 
-// private void Run() [instance] :55
+// private void Run() [instance]
 void ThreadWorker::Run()
 {
     try
@@ -5354,12 +5355,12 @@ void ThreadWorker::Run()
     catch (const uThrowable& __t)
     {
         ::g::Uno::Exception* e = __t.Exception;
-        ::g::Fuse::Diagnostics::UnknownException(uString::Const("ThreadWorked failed"), e, this, uString::Const("/usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ThreadWorker.uno"), 64, uString::Const("Run"));
+        ::g::Fuse::Diagnostics::UnknownException(uString::Const("ThreadWorked failed"), e, this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ThreadWorker.uno"), 64, uString::Const("Run"));
         DispatchException(e);
     }
 }
 
-// private void RunInner(Fuse.Scripting.JavaScript.JSContext context) [instance] :99
+// private void RunInner(Fuse.Scripting.JavaScript.JSContext context) [instance]
 void ThreadWorker::RunInner(::g::Fuse::Scripting::JavaScript::JSContext* context)
 {
     double t = ::g::Uno::Diagnostics::Clock::GetSeconds();
@@ -5384,7 +5385,7 @@ void ThreadWorker::RunInner(::g::Fuse::Scripting::JavaScript::JSContext* context
     }
 }
 
-// private bool RunOnce(Fuse.Scripting.JavaScript.JSContext context) [instance] :69
+// private bool RunOnce(Fuse.Scripting.JavaScript.JSContext context) [instance]
 bool ThreadWorker::RunOnce(::g::Fuse::Scripting::JavaScript::JSContext* context)
 {
     bool ret2;
@@ -5424,7 +5425,7 @@ bool ThreadWorker::RunOnce(::g::Fuse::Scripting::JavaScript::JSContext* context)
     return didAnything;
 }
 
-// public ThreadWorker New() [static] :24
+// public ThreadWorker New() [static]
 ThreadWorker* ThreadWorker::New1()
 {
     ThreadWorker* obj1 = (ThreadWorker*)uNew(ThreadWorker_typeof());
@@ -5433,10 +5434,10 @@ ThreadWorker* ThreadWorker::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeArray.uno
-// ------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeArray.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class TreeArray :9
+// internal sealed class TreeArray
 // {
 static void TreeArray_build(uType* type)
 {
@@ -5467,61 +5468,61 @@ TreeArray_type* TreeArray_typeof()
     return type;
 }
 
-// internal TreeArray(Fuse.Scripting.Array arr) :11
+// internal TreeArray(Fuse.Scripting.Array arr)
 void TreeArray__ctor_5_fn(TreeArray* __this, ::g::Fuse::Scripting::Array* arr)
 {
     __this->ctor_5(arr);
 }
 
-// internal void Add(object value) :211
+// internal void Add(object value)
 void TreeArray__Add_fn(TreeArray* __this, uObject* value)
 {
     __this->Add(value);
 }
 
-// internal void InsertAt(int index, object value) :219
+// internal void InsertAt(int index, object value)
 void TreeArray__InsertAt_fn(TreeArray* __this, int32_t* index, uObject* value)
 {
     __this->InsertAt(*index, value);
 }
 
-// internal TreeArray New(Fuse.Scripting.Array arr) :11
+// internal TreeArray New(Fuse.Scripting.Array arr)
 void TreeArray__New3_fn(::g::Fuse::Scripting::Array* arr, TreeArray** __retval)
 {
     *__retval = TreeArray::New3(arr);
 }
 
-// internal void RemoveAt(int index) :227
+// internal void RemoveAt(int index)
 void TreeArray__RemoveAt_fn(TreeArray* __this, int32_t* index)
 {
     __this->RemoveAt(*index);
 }
 
-// internal void ReplaceAll(Fuse.IArray newValues, Fuse.Scripting.JavaScript.TreeArray.ArraySubscription exclude) :181
+// internal void ReplaceAll(Fuse.IArray newValues, Fuse.Scripting.JavaScript.TreeArray.ArraySubscription exclude)
 void TreeArray__ReplaceAll_fn(TreeArray* __this, uObject* newValues, TreeArray__ArraySubscription* exclude)
 {
     __this->ReplaceAll(newValues, exclude);
 }
 
-// internal void Set(int index, object newValue) :200
+// internal void Set(int index, object newValue)
 void TreeArray__Set1_fn(TreeArray* __this, int32_t* index, uObject* newValue)
 {
     __this->Set1(*index, newValue);
 }
 
-// public Uno.IDisposable Subscribe(Fuse.Reactive.IObserver observer) :13
+// public Uno.IDisposable Subscribe(Fuse.Reactive.IObserver observer)
 void TreeArray__Subscribe_fn(TreeArray* __this, uObject* observer, uObject** __retval)
 {
     *__retval = __this->Subscribe(observer);
 }
 
-// internal TreeArray(Fuse.Scripting.Array arr) [instance] :11
+// internal TreeArray(Fuse.Scripting.Array arr) [instance]
 void TreeArray::ctor_5(::g::Fuse::Scripting::Array* arr)
 {
     ctor_3(arr);
 }
 
-// internal void Add(object value) [instance] :211
+// internal void Add(object value) [instance]
 void TreeArray::Add(uObject* value)
 {
     ::g::Uno::Collections::List__Add_fn(uPtr(_items), value);
@@ -5531,7 +5532,7 @@ void TreeArray::Add(uObject* value)
         uPtr(sub)->OnAdd(value);
 }
 
-// internal void InsertAt(int index, object value) [instance] :219
+// internal void InsertAt(int index, object value) [instance]
 void TreeArray::InsertAt(int32_t index, uObject* value)
 {
     ::g::Uno::Collections::List__Insert_fn(uPtr(_items), uCRef<int32_t>(index), value);
@@ -5541,7 +5542,7 @@ void TreeArray::InsertAt(int32_t index, uObject* value)
         uPtr(sub)->OnInsertAt(index, value);
 }
 
-// internal void RemoveAt(int index) [instance] :227
+// internal void RemoveAt(int index) [instance]
 void TreeArray::RemoveAt(int32_t index)
 {
     uPtr(_items)->RemoveAt(index);
@@ -5551,7 +5552,7 @@ void TreeArray::RemoveAt(int32_t index)
         uPtr(sub)->OnRemoveAt(index);
 }
 
-// internal void ReplaceAll(Fuse.IArray newValues, Fuse.Scripting.JavaScript.TreeArray.ArraySubscription exclude) [instance] :181
+// internal void ReplaceAll(Fuse.IArray newValues, Fuse.Scripting.JavaScript.TreeArray.ArraySubscription exclude) [instance]
 void TreeArray::ReplaceAll(uObject* newValues, TreeArray__ArraySubscription* exclude)
 {
     uObject* ret2;
@@ -5570,7 +5571,7 @@ void TreeArray::ReplaceAll(uObject* newValues, TreeArray__ArraySubscription* exc
         uPtr(sub)->OnReplaceAll(newValues, exclude);
 }
 
-// internal void Set(int index, object newValue) [instance] :200
+// internal void Set(int index, object newValue) [instance]
 void TreeArray::Set1(int32_t index, uObject* newValue)
 {
     uObject* ret3;
@@ -5582,13 +5583,13 @@ void TreeArray::Set1(int32_t index, uObject* newValue)
         uPtr(sub)->OnReplaceAt(index, newValue);
 }
 
-// public Uno.IDisposable Subscribe(Fuse.Reactive.IObserver observer) [instance] :13
+// public Uno.IDisposable Subscribe(Fuse.Reactive.IObserver observer) [instance]
 uObject* TreeArray::Subscribe(uObject* observer)
 {
     return (uObject*)TreeArray__ArraySubscription::New1(this, observer);
 }
 
-// internal TreeArray New(Fuse.Scripting.Array arr) [static] :11
+// internal TreeArray New(Fuse.Scripting.Array arr) [static]
 TreeArray* TreeArray::New3(::g::Fuse::Scripting::Array* arr)
 {
     TreeArray* obj1 = (TreeArray*)uNew(TreeArray_typeof());
@@ -5597,10 +5598,10 @@ TreeArray* TreeArray::New3(::g::Fuse::Scripting::Array* arr)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeObject.uno
-// -------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeObject.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal class TreeObject :8
+// internal class TreeObject
 // {
 static void TreeObject_build(uType* type)
 {
@@ -5638,19 +5639,19 @@ TreeObject_type* TreeObject_typeof()
     return type;
 }
 
-// protected TreeObject(Fuse.Scripting.Object obj) :11
+// protected TreeObject(Fuse.Scripting.Object obj)
 void TreeObject__ctor_4_fn(TreeObject* __this, ::g::Fuse::Scripting::Object* obj)
 {
     __this->ctor_4(obj);
 }
 
-// protected TreeObject New(Fuse.Scripting.Object obj) :11
+// protected TreeObject New(Fuse.Scripting.Object obj)
 void TreeObject__New3_fn(::g::Fuse::Scripting::Object* obj, TreeObject** __retval)
 {
     *__retval = TreeObject::New3(obj);
 }
 
-// public override sealed object get_ReflectedRaw() :75
+// public override sealed object get_ReflectedRaw()
 void TreeObject__get_ReflectedRaw_fn(TreeObject* __this, uObject** __retval)
 {
     uObject* ind1;
@@ -5659,7 +5660,7 @@ void TreeObject__get_ReflectedRaw_fn(TreeObject* __this, uObject** __retval)
     return *__retval = (ind1 != NULL) ? ind1 : (::g::Fuse::Scripting::ValueMirror__get_ReflectedRaw_fn(__this, &ret5), ret5), void();
 }
 
-// internal override sealed void Set(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Object obj) :116
+// internal override sealed void Set(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.IMirror mirror, Fuse.Scripting.Object obj)
 void TreeObject__Set_fn(TreeObject* __this, ::g::Fuse::Scripting::Context* context, uObject* mirror, ::g::Fuse::Scripting::Object* obj)
 {
     uObject* rawOverride = NULL;
@@ -5684,25 +5685,25 @@ void TreeObject__Set_fn(TreeObject* __this, ::g::Fuse::Scripting::Context* conte
     ::g::Fuse::UpdateManager::PostAction(uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)TreeObject__SetClosure__Perform_fn, TreeObject__SetClosure::New1(__this, newProps, rawOverride, hasRawOverride)));
 }
 
-// internal void Set(string key, object newValue, Fuse.Scripting.JavaScript.TreeObject.PropertySubscription exclude) :139
+// internal void Set(string key, object newValue, Fuse.Scripting.JavaScript.TreeObject.PropertySubscription exclude)
 void TreeObject__Set1_fn(TreeObject* __this, uString* key, uObject* newValue, TreeObject__PropertySubscription* exclude)
 {
     __this->Set1(key, newValue, exclude);
 }
 
-// public Fuse.Reactive.IPropertySubscription Subscribe(Fuse.Reactive.IPropertyObserver observer) :13
+// public Fuse.Reactive.IPropertySubscription Subscribe(Fuse.Reactive.IPropertyObserver observer)
 void TreeObject__Subscribe_fn(TreeObject* __this, uObject* observer, uObject** __retval)
 {
     *__retval = __this->Subscribe(observer);
 }
 
-// protected TreeObject(Fuse.Scripting.Object obj) [instance] :11
+// protected TreeObject(Fuse.Scripting.Object obj) [instance]
 void TreeObject::ctor_4(::g::Fuse::Scripting::Object* obj)
 {
     ctor_3(obj);
 }
 
-// internal void Set(string key, object newValue, Fuse.Scripting.JavaScript.TreeObject.PropertySubscription exclude) [instance] :139
+// internal void Set(string key, object newValue, Fuse.Scripting.JavaScript.TreeObject.PropertySubscription exclude) [instance]
 void TreeObject::Set1(uString* key, uObject* newValue, TreeObject__PropertySubscription* exclude)
 {
     bool ret3;
@@ -5718,13 +5719,13 @@ void TreeObject::Set1(uString* key, uObject* newValue, TreeObject__PropertySubsc
         uPtr(sub)->OnPropertyChanged(key, newValue, exclude);
 }
 
-// public Fuse.Reactive.IPropertySubscription Subscribe(Fuse.Reactive.IPropertyObserver observer) [instance] :13
+// public Fuse.Reactive.IPropertySubscription Subscribe(Fuse.Reactive.IPropertyObserver observer) [instance]
 uObject* TreeObject::Subscribe(uObject* observer)
 {
     return (uObject*)TreeObject__PropertySubscription::New1(this, observer);
 }
 
-// protected TreeObject New(Fuse.Scripting.Object obj) [static] :11
+// protected TreeObject New(Fuse.Scripting.Object obj) [static]
 TreeObject* TreeObject::New3(::g::Fuse::Scripting::Object* obj)
 {
     TreeObject* obj2 = (TreeObject*)uNew(TreeObject_typeof());
@@ -5733,10 +5734,10 @@ TreeObject* TreeObject::New3(::g::Fuse::Scripting::Object* obj)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeObservable.uno
-// -----------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeObservable.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class TreeObservable :8
+// internal sealed class TreeObservable
 // {
 static void TreeObservable_build(uType* type)
 {
@@ -5772,73 +5773,73 @@ TreeObservable_type* TreeObservable_typeof()
     return type;
 }
 
-// public TreeObservable(Fuse.Scripting.Context context, Fuse.Scripting.Object obj) :10
+// public TreeObservable(Fuse.Scripting.Context context, Fuse.Scripting.Object obj)
 void TreeObservable__ctor_5_fn(TreeObservable* __this, ::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Object* obj)
 {
     __this->ctor_5(context, obj);
 }
 
-// private object Add(Fuse.Scripting.Context context, object[] args) :97
+// private object Add(Fuse.Scripting.Context context, object[] args)
 void TreeObservable__Add_fn(TreeObservable* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->Add(context, args);
 }
 
-// private long GetId(Fuse.Scripting.Context context, object obj) :81
+// private long GetId(Fuse.Scripting.Context context, object obj)
 void TreeObservable__GetId_fn(TreeObservable* __this, ::g::Fuse::Scripting::Context* context, uObject* obj, int64_t* __retval)
 {
     *__retval = __this->GetId(context, obj);
 }
 
-// private object InsertAt(Fuse.Scripting.Context context, object[] args) :109
+// private object InsertAt(Fuse.Scripting.Context context, object[] args)
 void TreeObservable__InsertAt_fn(TreeObservable* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->InsertAt(context, args);
 }
 
-// public TreeObservable New(Fuse.Scripting.Context context, Fuse.Scripting.Object obj) :10
+// public TreeObservable New(Fuse.Scripting.Context context, Fuse.Scripting.Object obj)
 void TreeObservable__New4_fn(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Object* obj, TreeObservable** __retval)
 {
     *__retval = TreeObservable::New4(context, obj);
 }
 
-// private void NullifyCallbacks() :30
+// private void NullifyCallbacks()
 void TreeObservable__NullifyCallbacks_fn(TreeObservable* __this)
 {
     __this->NullifyCallbacks();
 }
 
-// public object Reflect(Fuse.Scripting.Context context, object obj) :41
+// public object Reflect(Fuse.Scripting.Context context, object obj)
 void TreeObservable__Reflect_fn(TreeObservable* __this, ::g::Fuse::Scripting::Context* context, uObject* obj, uObject** __retval)
 {
     *__retval = __this->Reflect(context, obj);
 }
 
-// private object RemoveAt(Fuse.Scripting.Context context, object[] args) :103
+// private object RemoveAt(Fuse.Scripting.Context context, object[] args)
 void TreeObservable__RemoveAt_fn(TreeObservable* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->RemoveAt(context, args);
 }
 
-// private object Set(Fuse.Scripting.Context context, object[] args) :91
+// private object Set(Fuse.Scripting.Context context, object[] args)
 void TreeObservable__Set2_fn(TreeObservable* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->Set2(context, args);
 }
 
-// private void Subscribe() :16
+// private void Subscribe()
 void TreeObservable__Subscribe1_fn(TreeObservable* __this)
 {
     __this->Subscribe1();
 }
 
-// public override sealed void Unsubscribe() :25
+// public override sealed void Unsubscribe()
 void TreeObservable__Unsubscribe_fn(TreeObservable* __this)
 {
     uPtr(::g::Fuse::Reactive::JavaScript::Worker_)->Invoke(uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)TreeObservable__NullifyCallbacks_fn, __this));
 }
 
-// public TreeObservable(Fuse.Scripting.Context context, Fuse.Scripting.Object obj) [instance] :10
+// public TreeObservable(Fuse.Scripting.Context context, Fuse.Scripting.Object obj) [instance]
 void TreeObservable::ctor_5(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Object* obj)
 {
     _reflections = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::g::Uno::Collections::Dictionary_typeof()->MakeType(::g::Uno::Long_typeof(), ::TYPES[6/*Fuse.Scripting.ValueMirror*/], NULL)));
@@ -5847,14 +5848,14 @@ void TreeObservable::ctor_5(::g::Fuse::Scripting::Context* context, ::g::Fuse::S
     Subscribe1();
 }
 
-// private object Add(Fuse.Scripting.Context context, object[] args) [instance] :97
+// private object Add(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* TreeObservable::Add(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     TreeObservable__AddOperation::New1(context, this, args)->Perform(context);
     return NULL;
 }
 
-// private long GetId(Fuse.Scripting.Context context, object obj) [instance] :81
+// private long GetId(Fuse.Scripting.Context context, object obj) [instance]
 int64_t TreeObservable::GetId(::g::Fuse::Scripting::Context* context, uObject* obj)
 {
     ::g::Fuse::Scripting::Function* func = uCast< ::g::Fuse::Scripting::Function*>(uPtr(context)->Evaluate(uString::Const("(get node ID)"), uString::Const("(function(obj) { if (obj instanceof Object && typeof obj.__fuse_id  !== 'undefined') return obj.__fuse_id; return -1 })")), ::TYPES[16/*Fuse.Scripting.Function*/]);
@@ -5872,14 +5873,14 @@ int64_t TreeObservable::GetId(::g::Fuse::Scripting::Context* context, uObject* o
     return -1LL;
 }
 
-// private object InsertAt(Fuse.Scripting.Context context, object[] args) [instance] :109
+// private object InsertAt(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* TreeObservable::InsertAt(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     TreeObservable__InsertAtOperation::New1(context, this, args)->Perform(context);
     return NULL;
 }
 
-// private void NullifyCallbacks() [instance] :30
+// private void NullifyCallbacks() [instance]
 void TreeObservable::NullifyCallbacks()
 {
     ::g::Fuse::Scripting::Object* obj = uCast< ::g::Fuse::Scripting::Object*>(Raw(), ::TYPES[11/*Fuse.Scripting.Object*/]);
@@ -5889,7 +5890,7 @@ void TreeObservable::NullifyCallbacks()
     obj->Item(uString::Const("__fuse_insertAt"), NULL);
 }
 
-// public object Reflect(Fuse.Scripting.Context context, object obj) [instance] :41
+// public object Reflect(Fuse.Scripting.Context context, object obj) [instance]
 uObject* TreeObservable::Reflect(::g::Fuse::Scripting::Context* context, uObject* obj)
 {
     bool ret2;
@@ -5931,21 +5932,21 @@ uObject* TreeObservable::Reflect(::g::Fuse::Scripting::Context* context, uObject
     return obj;
 }
 
-// private object RemoveAt(Fuse.Scripting.Context context, object[] args) [instance] :103
+// private object RemoveAt(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* TreeObservable::RemoveAt(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     TreeObservable__RemoveAtOperation::New1(this, args)->Perform(context);
     return NULL;
 }
 
-// private object Set(Fuse.Scripting.Context context, object[] args) [instance] :91
+// private object Set(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* TreeObservable::Set2(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     TreeObservable__SetOperation::New1(context, this, args)->Perform(context);
     return NULL;
 }
 
-// private void Subscribe() [instance] :16
+// private void Subscribe() [instance]
 void TreeObservable::Subscribe1()
 {
     ::g::Fuse::Scripting::Object* obj = uCast< ::g::Fuse::Scripting::Object*>(Raw(), ::TYPES[11/*Fuse.Scripting.Object*/]);
@@ -5955,7 +5956,7 @@ void TreeObservable::Subscribe1()
     obj->Item(uString::Const("__fuse_insertAt"), uDelegate::New(::TYPES[18/*Fuse.Scripting.Callback*/], (void*)TreeObservable__InsertAt_fn, this));
 }
 
-// public TreeObservable New(Fuse.Scripting.Context context, Fuse.Scripting.Object obj) [static] :10
+// public TreeObservable New(Fuse.Scripting.Context context, Fuse.Scripting.Object obj) [static]
 TreeObservable* TreeObservable::New4(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Object* obj)
 {
     TreeObservable* obj1 = (TreeObservable*)uNew(TreeObservable_typeof());
@@ -5964,10 +5965,10 @@ TreeObservable* TreeObservable::New4(::g::Fuse::Scripting::Context* context, ::g
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TypeWrapper.uno
-// -----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TypeWrapper.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static class TypeWrapper :11
+// internal static class TypeWrapper
 // {
 static void TypeWrapper_build(uType* type)
 {
@@ -6007,97 +6008,97 @@ uClassType* TypeWrapper_typeof()
     return type;
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, float2 v) :60
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, float2 v)
 void TypeWrapper__ToArray_fn(::g::Fuse::Scripting::JavaScript::JSContext* context, ::g::Uno::Float2* v, ::g::Fuse::Scripting::Array** __retval)
 {
     *__retval = TypeWrapper::ToArray(context, *v);
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, float3 v) :65
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, float3 v)
 void TypeWrapper__ToArray1_fn(::g::Fuse::Scripting::JavaScript::JSContext* context, ::g::Uno::Float3* v, ::g::Fuse::Scripting::Array** __retval)
 {
     *__retval = TypeWrapper::ToArray1(context, *v);
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, float4 v) :70
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, float4 v)
 void TypeWrapper__ToArray2_fn(::g::Fuse::Scripting::JavaScript::JSContext* context, ::g::Uno::Float4* v, ::g::Fuse::Scripting::Array** __retval)
 {
     *__retval = TypeWrapper::ToArray2(context, *v);
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, int2 v) :75
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, int2 v)
 void TypeWrapper__ToArray3_fn(::g::Fuse::Scripting::JavaScript::JSContext* context, ::g::Uno::Int2* v, ::g::Fuse::Scripting::Array** __retval)
 {
     *__retval = TypeWrapper::ToArray3(context, *v);
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, int3 v) :80
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, int3 v)
 void TypeWrapper__ToArray4_fn(::g::Fuse::Scripting::JavaScript::JSContext* context, ::g::Uno::Int3* v, ::g::Fuse::Scripting::Array** __retval)
 {
     *__retval = TypeWrapper::ToArray4(context, *v);
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, int4 v) :85
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, int4 v)
 void TypeWrapper__ToArray5_fn(::g::Fuse::Scripting::JavaScript::JSContext* context, ::g::Uno::Int4* v, ::g::Fuse::Scripting::Array** __retval)
 {
     *__retval = TypeWrapper::ToArray5(context, *v);
 }
 
-// public static object Unwrap(Fuse.Scripting.JavaScript.JSContext context, object dc) :40
+// public static object Unwrap(Fuse.Scripting.JavaScript.JSContext context, object dc)
 void TypeWrapper__Unwrap_fn(::g::Fuse::Scripting::JavaScript::JSContext* context, uObject* dc, uObject** __retval)
 {
     *__retval = TypeWrapper::Unwrap(context, dc);
 }
 
-// public static object Wrap(Fuse.Scripting.JavaScript.JSContext context, object obj) :15
+// public static object Wrap(Fuse.Scripting.JavaScript.JSContext context, object obj)
 void TypeWrapper__Wrap_fn(::g::Fuse::Scripting::JavaScript::JSContext* context, uObject* obj, uObject** __retval)
 {
     *__retval = TypeWrapper::Wrap(context, obj);
 }
 
-// private static object WrapScriptClass(Fuse.Scripting.JavaScript.JSContext context, object obj) :90
+// private static object WrapScriptClass(Fuse.Scripting.JavaScript.JSContext context, object obj)
 void TypeWrapper__WrapScriptClass_fn(::g::Fuse::Scripting::JavaScript::JSContext* context, uObject* obj, uObject** __retval)
 {
     *__retval = TypeWrapper::WrapScriptClass(context, obj);
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, float2 v) [static] :60
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, float2 v) [static]
 ::g::Fuse::Scripting::Array* TypeWrapper::ToArray(::g::Fuse::Scripting::JavaScript::JSContext* context, ::g::Uno::Float2 v)
 {
     return uPtr(context)->NewArray(uArray::Init<uObject*>(::TYPES[15/*object[]*/], 2, uBox(::g::Uno::Double_typeof(), (double)v.X), uBox(::g::Uno::Double_typeof(), (double)v.Y)));
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, float3 v) [static] :65
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, float3 v) [static]
 ::g::Fuse::Scripting::Array* TypeWrapper::ToArray1(::g::Fuse::Scripting::JavaScript::JSContext* context, ::g::Uno::Float3 v)
 {
     return uPtr(context)->NewArray(uArray::Init<uObject*>(::TYPES[15/*object[]*/], 3, uBox(::g::Uno::Double_typeof(), (double)v.X), uBox(::g::Uno::Double_typeof(), (double)v.Y), uBox(::g::Uno::Double_typeof(), (double)v.Z)));
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, float4 v) [static] :70
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, float4 v) [static]
 ::g::Fuse::Scripting::Array* TypeWrapper::ToArray2(::g::Fuse::Scripting::JavaScript::JSContext* context, ::g::Uno::Float4 v)
 {
     return uPtr(context)->NewArray(uArray::Init<uObject*>(::TYPES[15/*object[]*/], 4, uBox(::g::Uno::Double_typeof(), (double)v.X), uBox(::g::Uno::Double_typeof(), (double)v.Y), uBox(::g::Uno::Double_typeof(), (double)v.Z), uBox(::g::Uno::Double_typeof(), (double)v.W)));
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, int2 v) [static] :75
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, int2 v) [static]
 ::g::Fuse::Scripting::Array* TypeWrapper::ToArray3(::g::Fuse::Scripting::JavaScript::JSContext* context, ::g::Uno::Int2 v)
 {
     return uPtr(context)->NewArray(uArray::Init<uObject*>(::TYPES[15/*object[]*/], 2, uBox(::g::Uno::Double_typeof(), (double)v.X), uBox(::g::Uno::Double_typeof(), (double)v.Y)));
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, int3 v) [static] :80
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, int3 v) [static]
 ::g::Fuse::Scripting::Array* TypeWrapper::ToArray4(::g::Fuse::Scripting::JavaScript::JSContext* context, ::g::Uno::Int3 v)
 {
     return uPtr(context)->NewArray(uArray::Init<uObject*>(::TYPES[15/*object[]*/], 3, uBox(::g::Uno::Double_typeof(), (double)v.X), uBox(::g::Uno::Double_typeof(), (double)v.Y), uBox(::g::Uno::Double_typeof(), (double)v.Z)));
 }
 
-// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, int4 v) [static] :85
+// private static Fuse.Scripting.Array ToArray(Fuse.Scripting.JavaScript.JSContext context, int4 v) [static]
 ::g::Fuse::Scripting::Array* TypeWrapper::ToArray5(::g::Fuse::Scripting::JavaScript::JSContext* context, ::g::Uno::Int4 v)
 {
     return uPtr(context)->NewArray(uArray::Init<uObject*>(::TYPES[15/*object[]*/], 4, uBox(::g::Uno::Double_typeof(), (double)v.X), uBox(::g::Uno::Double_typeof(), (double)v.Y), uBox(::g::Uno::Double_typeof(), (double)v.Z), uBox(::g::Uno::Double_typeof(), (double)v.W)));
 }
 
-// public static object Unwrap(Fuse.Scripting.JavaScript.JSContext context, object dc) [static] :40
+// public static object Unwrap(Fuse.Scripting.JavaScript.JSContext context, object dc) [static]
 uObject* TypeWrapper::Unwrap(::g::Fuse::Scripting::JavaScript::JSContext* context, uObject* dc)
 {
     if (dc == NULL)
@@ -6134,7 +6135,7 @@ uObject* TypeWrapper::Unwrap(::g::Fuse::Scripting::JavaScript::JSContext* contex
         return dc;
 }
 
-// public static object Wrap(Fuse.Scripting.JavaScript.JSContext context, object obj) [static] :15
+// public static object Wrap(Fuse.Scripting.JavaScript.JSContext context, object obj) [static]
 uObject* TypeWrapper::Wrap(::g::Fuse::Scripting::JavaScript::JSContext* context, uObject* obj)
 {
     if (uIs(obj, ::TYPES[19/*Fuse.Scripting.External*/]))
@@ -6166,7 +6167,7 @@ uObject* TypeWrapper::Wrap(::g::Fuse::Scripting::JavaScript::JSContext* context,
     return obj;
 }
 
-// private static object WrapScriptClass(Fuse.Scripting.JavaScript.JSContext context, object obj) [static] :90
+// private static object WrapScriptClass(Fuse.Scripting.JavaScript.JSContext context, object obj) [static]
 uObject* TypeWrapper::WrapScriptClass(::g::Fuse::Scripting::JavaScript::JSContext* context, uObject* obj)
 {
     uObject* so = uAs<uObject*>(obj, ::TYPES[65/*Fuse.Scripting.IScriptObject*/]);
@@ -6190,10 +6191,10 @@ uObject* TypeWrapper::WrapScriptClass(::g::Fuse::Scripting::JavaScript::JSContex
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/TreeObservable/TreeObservable.uno
-// -----------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/TreeObservable/TreeObservable.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private abstract class TreeObservable.ValueOperation :185
+// private abstract class TreeObservable.ValueOperation
 // {
 static void TreeObservable__ValueOperation_build(uType* type)
 {
@@ -6216,13 +6217,13 @@ static void TreeObservable__ValueOperation_build(uType* type)
     return type;
 }
 
-// protected ValueOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) :187
+// protected ValueOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args)
 void TreeObservable__ValueOperation__ctor_1_fn(TreeObservable__ValueOperation* __this, ::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     __this->ctor_1(context, inst, args);
 }
 
-// protected ValueOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [instance] :187
+// protected ValueOperation(Fuse.Scripting.Context context, Fuse.Scripting.JavaScript.TreeObservable inst, object[] args) [instance]
 void TreeObservable__ValueOperation::ctor_1(::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::JavaScript::TreeObservable* inst, uArray* args)
 {
     ctor_(inst, args);

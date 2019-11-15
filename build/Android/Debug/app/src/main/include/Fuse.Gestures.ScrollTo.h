@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Scroller.Actions.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Scroller.Actions.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.ISourceLocation.h>
-#include <Fuse.Triggers.Actions-fcab7e57.h>
+#include <Fuse.Triggers.Actions-16700ed8.h>
 #include <Uno.Float2.h>
 namespace g{namespace Fuse{namespace Controls{struct ScrollView;}}}
 namespace g{namespace Fuse{namespace Gestures{struct ScrollTo;}}}
@@ -13,7 +13,7 @@ namespace g{
 namespace Fuse{
 namespace Gestures{
 
-// public sealed class ScrollTo :56
+// public sealed class ScrollTo
 // {
 ::g::Fuse::Triggers::Actions::TriggerAction_type* ScrollTo_typeof();
 void ScrollTo__get_How_fn(ScrollTo* __this, int32_t* __retval);

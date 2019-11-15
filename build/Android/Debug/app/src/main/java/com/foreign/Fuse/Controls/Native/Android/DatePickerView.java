@@ -25,7 +25,7 @@ public class DatePickerView
 
     public static Object Create132()
     {
-        return new android.widget.DatePicker(fi.samk.mood_cal.Kalenteri.GetRootActivity());
+        return new android.widget.DatePicker(com.fuse.Activity.getRootActivity());
     }
     
     public static int GetApiLevel133()

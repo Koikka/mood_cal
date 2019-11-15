@@ -1,17 +1,17 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/Shapes/Path.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/Shapes/Path.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Uno.Float2.h>
-#include <Uno.Object.h>
 #include <Uno.Rect.h>
+#include <Uno.ValueType.h>
 namespace g{namespace Fuse{namespace Controls{struct Path__Positioning;}}}
 
 namespace g{
 namespace Fuse{
 namespace Controls{
 
-// private struct Path.Positioning :211
+// private struct Path.Positioning
 // {
 uStructType* Path__Positioning_typeof();
 

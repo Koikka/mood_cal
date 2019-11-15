@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/EventRecord.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Bindings/1.12.0/EventRecord.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Reactive.IEventRecord.h>
-#include <Fuse.Scripting.IEvent-434826af.h>
+#include <Fuse.Scripting.IEvent-1effd56d.h>
 #include <Uno.Object.h>
 #include <Uno.UX.Selector.h>
 namespace g{namespace Fuse{namespace Reactive{struct EventRecord;}}}
@@ -15,7 +15,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// internal sealed class EventRecord :9
+// internal sealed class EventRecord
 // {
 struct EventRecord_type : uType
 {

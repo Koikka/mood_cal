@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Actions/Pulse.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Actions/Pulse.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.ISourceLocation.h>
-#include <Fuse.Triggers.Actions-fcab7e57.h>
+#include <Fuse.Triggers.Actions-16700ed8.h>
 namespace g{namespace Fuse{namespace Triggers{namespace Actions{struct Pulse;}}}}
 namespace g{namespace Fuse{struct Node;}}
 
@@ -12,7 +12,7 @@ namespace Fuse{
 namespace Triggers{
 namespace Actions{
 
-// public sealed class Pulse :21
+// public sealed class Pulse
 // {
 ::g::Fuse::Triggers::Actions::TriggerAction_type* Pulse_typeof();
 void Pulse__Perform_fn(Pulse* __this, ::g::Fuse::Node* target);

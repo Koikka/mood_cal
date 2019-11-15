@@ -1,10 +1,10 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Blitter.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Blitter.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Uno.Float2.h>
 #include <Uno.Object.h>
-#include <Uno.Runtime.Implement-476e2792.h>
+#include <Uno.Runtime.Implement-3bc148a8.h>
 namespace g{namespace Fuse{namespace Common{struct Blitter;}}}
 namespace g{namespace Uno{namespace Graphics{struct SamplerState;}}}
 namespace g{namespace Uno{namespace Graphics{struct Texture2D;}}}
@@ -18,7 +18,7 @@ namespace g{
 namespace Fuse{
 namespace Common{
 
-// internal sealed class Blitter :6
+// internal sealed class Blitter
 // {
 uType* Blitter_typeof();
 void Blitter__ctor__fn(Blitter* __this);
@@ -31,11 +31,11 @@ struct Blitter : uObject
 {
     static uSStrong<Blitter*> Singleton_;
     static uSStrong<Blitter*>& Singleton() { return Blitter_typeof()->Init(), Singleton_; }
-    uStrong< ::g::Uno::Graphics::VertexBuffer*> Blit_v_254ef0e5_1_8_1;
-    uStrong<uArray*> Blit_verts_254ef0e5_1_7_5;
-    uStrong< ::g::Uno::Graphics::VertexBuffer*> Fill_v_181ef612_1_8_1;
-    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_254ef0e5;
-    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_181ef612;
+    uStrong< ::g::Uno::Graphics::VertexBuffer*> Blit_v_7bb9a5fb_1_8_1;
+    uStrong<uArray*> Blit_verts_7bb9a5fb_1_7_5;
+    uStrong< ::g::Uno::Graphics::VertexBuffer*> Fill_v_9ec1d7a_1_8_1;
+    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_7bb9a5fb;
+    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_9ec1d7a;
 
     void ctor_();
     void Blit(::g::Uno::Graphics::Texture2D* texture, ::g::Uno::Graphics::SamplerState samplerState, bool preMultiplied, ::g::Uno::Rect textureRect, ::g::Uno::Float3x3 textureTransform, ::g::Uno::Rect localRect, ::g::Uno::Float4x4 localToClipTransform, ::g::Uno::Float4 color, int32_t cullFace);

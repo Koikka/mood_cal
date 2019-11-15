@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.ScriptClass.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,7 +7,7 @@
 #include <Fuse.IPreviewStateSaver.h>
 #include <Fuse.IProperties.h>
 #include <Fuse.ISourceLocation.h>
-#include <Fuse.Navigation.IBase-84e3f965.h>
+#include <Fuse.Navigation.IBase-516f1dcd.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Uno.Collections.ICollection-1.h>
@@ -27,7 +27,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// public partial sealed class Router :5
+// public partial sealed class Router
 // {
 struct Router_type : ::g::Fuse::Node_type
 {

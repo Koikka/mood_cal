@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpMessageCache.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Net.Http/1.12.3/HttpMessageCache.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace Uno{
 namespace Net{
 namespace Http{
 
-// public static class HttpMessageCache :3
+// public static class HttpMessageCache
 // {
 uClassType* HttpMessageCache_typeof();
 void HttpMessageCache__Init_fn();

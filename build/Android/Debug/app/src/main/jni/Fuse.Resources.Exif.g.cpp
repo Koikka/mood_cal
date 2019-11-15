@@ -2,18 +2,19 @@
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Android.Base.Wrappers.JWrapper.h>
-#include <Android.Base.Wrappers-88f7a41f.h>
+#include <Android.Base.Wrappers-4c0b8613.h>
 #include <Fuse.Diagnostics.h>
-#include <Fuse.Resources.Exif.E-66dec815.h>
+#include <Fuse.Resources.Exif.E-e739d759.h>
 #include <Fuse.Resources.Exif.ExifData.h>
-#include <Fuse.Resources.Exif.I-cf73dc79.h>
+#include <Fuse.Resources.Exif.I-84c031e4.h>
 #include <Java.Object.h>
 #include <jni.h>
 #include <Uno.Bool.h>
 #include <Uno.Byte.h>
-#include <Uno.Compiler.ExportTa-39be7c2b.h>
-#include <Uno.Compiler.ExportTa-d07b0040.h>
+#include <Uno.Compiler.ExportTa-2429dd1f.h>
+#include <Uno.Compiler.ExportTa-9295b098.h>
 #include <Uno.Int.h>
+#include <Uno.Object.h>
 #include <Uno.String.h>
 #include <Uno/JNIHelper.h>
 static uString* STRINGS[3];
@@ -24,10 +25,10 @@ namespace Fuse{
 namespace Resources{
 namespace Exif{
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Resources/Exif/Exif.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Resources/Exif/Exif.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class ExifAndroidImpl :181
+// internal sealed extern class ExifAndroidImpl
 // {
 static void ExifAndroidImpl_build(uType* type)
 {
@@ -46,31 +47,31 @@ uType* ExifAndroidImpl_typeof()
     return type;
 }
 
-// internal static Fuse.Resources.Exif.ExifData FromByteArray(byte[] bytes) :183
+// internal static Fuse.Resources.Exif.ExifData FromByteArray(byte[] bytes)
 void ExifAndroidImpl__FromByteArray_fn(uArray* bytes, ::g::Fuse::Resources::Exif::ExifData* __retval)
 {
     *__retval = ExifAndroidImpl::FromByteArray(bytes);
 }
 
-// internal static Fuse.Resources.Exif.ExifData FromInputStream(Java.Object stream) :190
+// internal static Fuse.Resources.Exif.ExifData FromInputStream(Java.Object stream)
 void ExifAndroidImpl__FromInputStream_fn(::g::Java::Object* stream, ::g::Fuse::Resources::Exif::ExifData* __retval)
 {
     *__retval = ExifAndroidImpl::FromInputStream(stream);
 }
 
-// private static int GetOrientation(Java.Object stream) :202
+// private static int GetOrientation(Java.Object stream)
 void ExifAndroidImpl__GetOrientation_fn(::g::Java::Object* stream, int32_t* __retval)
 {
     *__retval = ExifAndroidImpl::GetOrientation(stream);
 }
 
-// private static Java.Object InputStreamFromByteArray(Java.Object buf) :196
+// private static Java.Object InputStreamFromByteArray(Java.Object buf)
 void ExifAndroidImpl__InputStreamFromByteArray_fn(::g::Java::Object* buf, ::g::Java::Object** __retval)
 {
     *__retval = ExifAndroidImpl::InputStreamFromByteArray(buf);
 }
 
-// internal static Fuse.Resources.Exif.ExifData FromByteArray(byte[] bytes) [static] :183
+// internal static Fuse.Resources.Exif.ExifData FromByteArray(byte[] bytes) [static]
 ::g::Fuse::Resources::Exif::ExifData ExifAndroidImpl::FromByteArray(uArray* bytes)
 {
     ::g::Java::Object* buf = ::g::Uno::Compiler::ExportTargetInterop::ForeignDataView::Create(bytes);
@@ -78,13 +79,13 @@ void ExifAndroidImpl__InputStreamFromByteArray_fn(::g::Java::Object* buf, ::g::J
     return ::g::Fuse::Resources::Exif::ExifData__New1(ExifAndroidImpl::GetOrientation(stream));
 }
 
-// internal static Fuse.Resources.Exif.ExifData FromInputStream(Java.Object stream) [static] :190
+// internal static Fuse.Resources.Exif.ExifData FromInputStream(Java.Object stream) [static]
 ::g::Fuse::Resources::Exif::ExifData ExifAndroidImpl::FromInputStream(::g::Java::Object* stream)
 {
     return ::g::Fuse::Resources::Exif::ExifData__New1(ExifAndroidImpl::GetOrientation(stream));
 }
 
-// private static int GetOrientation(Java.Object stream) [static] :202
+// private static int GetOrientation(Java.Object stream) [static]
 int32_t ExifAndroidImpl::GetOrientation(::g::Java::Object* stream)
 {
     {
@@ -102,7 +103,7 @@ int32_t ExifAndroidImpl::GetOrientation(::g::Java::Object* stream)
     
 }
 
-// private static Java.Object InputStreamFromByteArray(Java.Object buf) [static] :196
+// private static Java.Object InputStreamFromByteArray(Java.Object buf) [static]
 ::g::Java::Object* ExifAndroidImpl::InputStreamFromByteArray(::g::Java::Object* buf)
 {
     {
@@ -121,15 +122,15 @@ int32_t ExifAndroidImpl::GetOrientation(::g::Java::Object* stream)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Resources/Exif/Exif.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Resources/Exif/Exif.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public struct ExifData :21
+// public struct ExifData
 // {
 static void ExifData_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("Reserved Exif orientation {0}, assuming identity");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Resources/Exif/Exif.uno");
+    ::STRINGS[1] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Resources/Exif/Exif.uno");
     ::STRINGS[2] = uString::Const(".ctor");
     ::TYPES[0] = uObject_typeof()->Array();
     type->SetFields(0,
@@ -142,6 +143,7 @@ uStructType* ExifData_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.FieldCount = 1;
     options.Alignment = alignof(ExifData);
     options.ValueSize = sizeof(ExifData);
@@ -151,32 +153,32 @@ uStructType* ExifData_typeof()
     return type;
 }
 
-// internal ExifData(int orientation) :42
-void ExifData__ctor__fn(ExifData* __this, int32_t* orientation)
+// internal ExifData(int orientation)
+void ExifData__ctor_1_fn(ExifData* __this, int32_t* orientation)
 {
-    __this->ctor_(*orientation);
+    __this->ctor_1(*orientation);
 }
 
-// internal static extern Fuse.Resources.Exif.ExifData FromAndroidInputStream(Java.Object stream) :37
+// internal static extern Fuse.Resources.Exif.ExifData FromAndroidInputStream(Java.Object stream)
 void ExifData__FromAndroidInputStream_fn(::g::Java::Object* stream, ExifData* __retval)
 {
     *__retval = ExifData__FromAndroidInputStream(stream);
 }
 
-// public static Fuse.Resources.Exif.ExifData FromByteArray(byte[] buffer) :25
+// public static Fuse.Resources.Exif.ExifData FromByteArray(byte[] buffer)
 void ExifData__FromByteArray_fn(uArray* buffer, ExifData* __retval)
 {
     *__retval = ExifData__FromByteArray(buffer);
 }
 
-// internal ExifData New(int orientation) :42
+// internal ExifData New(int orientation)
 void ExifData__New1_fn(int32_t* orientation, ExifData* __retval)
 {
     *__retval = ExifData__New1(*orientation);
 }
 
-// internal ExifData(int orientation) [instance] :42
-void ExifData::ctor_(int32_t orientation)
+// internal ExifData(int orientation) [instance]
+void ExifData::ctor_1(int32_t orientation)
 {
     if (orientation < 0)
     {
@@ -228,39 +230,39 @@ void ExifData::ctor_(int32_t orientation)
         }
         default:
         {
-            ::g::Fuse::Diagnostics::InternalError(::g::Uno::String::Format(::STRINGS[0/*"Reserved Ex...*/], uArray::Init<uObject*>(::TYPES[0/*object[]*/], 1, uBox<int32_t>(::g::Uno::Int_typeof(), orientation))), NULL, ::STRINGS[1/*"/usr/local/...*/], 63, ::STRINGS[2/*".ctor"*/]);
+            ::g::Fuse::Diagnostics::InternalError(::g::Uno::String::Format(::STRINGS[0/*"Reserved Ex...*/], uArray::Init<uObject*>(::TYPES[0/*object[]*/], 1, uBox<int32_t>(::g::Uno::Int_typeof(), orientation))), NULL, ::STRINGS[1/*"/Users/antt...*/], 63, ::STRINGS[2/*".ctor"*/]);
             Orientation = 0;
             break;
         }
     }
 }
 
-// internal static extern Fuse.Resources.Exif.ExifData FromAndroidInputStream(Java.Object stream) [static] :37
+// internal static extern Fuse.Resources.Exif.ExifData FromAndroidInputStream(Java.Object stream) [static]
 ExifData ExifData__FromAndroidInputStream(::g::Java::Object* stream)
 {
     return ::g::Fuse::Resources::Exif::ExifAndroidImpl::FromInputStream(stream);
 }
 
-// public static Fuse.Resources.Exif.ExifData FromByteArray(byte[] buffer) [static] :25
+// public static Fuse.Resources.Exif.ExifData FromByteArray(byte[] buffer) [static]
 ExifData ExifData__FromByteArray(uArray* buffer)
 {
     return ::g::Fuse::Resources::Exif::ExifAndroidImpl::FromByteArray(buffer);
     return uDefault<ExifData>();
 }
 
-// internal ExifData New(int orientation) [static] :42
+// internal ExifData New(int orientation) [static]
 ExifData ExifData__New1(int32_t orientation)
 {
     ExifData obj1;
-    obj1.ctor_(orientation);
+    obj1.ctor_1(orientation);
     return obj1;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Resources/Exif/Exif.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Resources/Exif/Exif.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum ImageOrientation :12
+// public enum ImageOrientation
 uEnumType* ImageOrientation_typeof()
 {
     static uSStrong<uEnumType*> type;

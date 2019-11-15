@@ -1,32 +1,32 @@
 // This file was generated based on '(multiple files)'.
 // WARNING: Changes might be lost if you edit this file directly.
 
-#include <_root.FuseControlsNav-4d426250.h>
+#include <_root.FuseControlsNav-7469d335.h>
 #include <Fuse.Animations.Animator.h>
 #include <Fuse.Animations.Change-1.h>
 #include <Fuse.Animations.Easing.h>
 #include <Fuse.Animations.Move.h>
 #include <Fuse.Animations.Scale.h>
 #include <Fuse.Animations.TrackAnimator.h>
-#include <Fuse.Animations.Trans-997c8373.h>
-#include <Fuse.Controls.Navigat-325d320d.h>
-#include <Fuse.Controls.Navigat-3abd94bc.h>
-#include <Fuse.Controls.Navigat-70e90308.h>
-#include <Fuse.Controls.Navigat-72feefa7.h>
-#include <Fuse.Controls.Navigat-830df8a4.h>
-#include <Fuse.Controls.Navigat-831df711.h>
-#include <Fuse.Controls.Navigat-8c78e52a.h>
-#include <Fuse.Controls.Navigat-9705f33a.h>
-#include <Fuse.Controls.Navigat-9f619694.h>
+#include <Fuse.Animations.Trans-d75ee66a.h>
+#include <Fuse.Controls.Navigat-11aed9ab.h>
+#include <Fuse.Controls.Navigat-41e3a383.h>
+#include <Fuse.Controls.Navigat-64ddb643.h>
+#include <Fuse.Controls.Navigat-68008d77.h>
+#include <Fuse.Controls.Navigat-a4330218.h>
+#include <Fuse.Controls.Navigat-e0eff304.h>
+#include <Fuse.Controls.Navigat-e5b213cd.h>
+#include <Fuse.Controls.Navigat-f3d39bc3.h>
+#include <Fuse.Controls.Navigat-fa80f607.h>
 #include <Fuse.Elements.Element.h>
 #include <Fuse.Elements.HitTestMode.h>
 #include <Fuse.ITranslationMode.h>
 #include <Fuse.Node.h>
 #include <Fuse.Translation.h>
 #include <Fuse.TranslationModes.h>
-#include <Fuse.Triggers.Actions-e720de5b.h>
-#include <Fuse.Triggers.Actions-fcab7e57.h>
-#include <Fuse.Triggers.Transit-122edce0.h>
+#include <Fuse.Triggers.Actions-16700ed8.h>
+#include <Fuse.Triggers.Actions-e9589b1e.h>
+#include <Fuse.Triggers.Transit-fdebe0fa.h>
 #include <Fuse.Triggers.Trigger.h>
 #include <Uno.Double.h>
 #include <Uno.Float.h>
@@ -42,15 +42,15 @@ namespace Fuse{
 namespace Controls{
 namespace NavigationInternal{
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/.uno/ux15/Fuse.Controls.NavigationInternal.BlockInputWhileNavigating.g.uno
-// ---------------------------------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/.uno/ux15/Fuse.Controls.NavigationInternal.BlockInputWhileNavigating.g.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class BlockInputWhileNavigating :4
+// public partial sealed class BlockInputWhileNavigating
 // {
-// static BlockInputWhileNavigating() :8
+// static BlockInputWhileNavigating()
 static void BlockInputWhileNavigating__cctor_2_fn(uType* __type)
 {
-    BlockInputWhileNavigating::__selector0_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[0/*"HitTestMode"*/]);
+    BlockInputWhileNavigating::__selector0_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[0/*"HitTestMode"*/]);
 }
 
 static void BlockInputWhileNavigating_build(uType* type)
@@ -113,19 +113,19 @@ static void BlockInputWhileNavigating_build(uType* type)
     return type;
 }
 
-// public BlockInputWhileNavigating(Fuse.Controls.NavigationControl nav) :12
+// public BlockInputWhileNavigating(Fuse.Controls.NavigationControl nav)
 void BlockInputWhileNavigating__ctor_7_fn(BlockInputWhileNavigating* __this, ::g::Fuse::Controls::NavigationControl* nav1)
 {
     __this->ctor_7(nav1);
 }
 
-// private void InitializeUX() :18
+// private void InitializeUX()
 void BlockInputWhileNavigating__InitializeUX_fn(BlockInputWhileNavigating* __this)
 {
     __this->InitializeUX();
 }
 
-// public BlockInputWhileNavigating New(Fuse.Controls.NavigationControl nav) :12
+// public BlockInputWhileNavigating New(Fuse.Controls.NavigationControl nav)
 void BlockInputWhileNavigating__New3_fn(::g::Fuse::Controls::NavigationControl* nav1, BlockInputWhileNavigating** __retval)
 {
     *__retval = BlockInputWhileNavigating::New3(nav1);
@@ -133,7 +133,7 @@ void BlockInputWhileNavigating__New3_fn(::g::Fuse::Controls::NavigationControl* 
 
 ::g::Uno::UX::Selector BlockInputWhileNavigating::__selector0_;
 
-// public BlockInputWhileNavigating(Fuse.Controls.NavigationControl nav) [instance] :12
+// public BlockInputWhileNavigating(Fuse.Controls.NavigationControl nav) [instance]
 void BlockInputWhileNavigating::ctor_7(::g::Fuse::Controls::NavigationControl* nav1)
 {
     ctor_6();
@@ -141,7 +141,7 @@ void BlockInputWhileNavigating::ctor_7(::g::Fuse::Controls::NavigationControl* n
     InitializeUX();
 }
 
-// private void InitializeUX() [instance] :18
+// private void InitializeUX() [instance]
 void BlockInputWhileNavigating::InitializeUX()
 {
     nav_HitTestMode_inst = ::g::FuseControlsNavigation_FuseElementsElement_HitTestMode_Property::New1(nav, BlockInputWhileNavigating::__selector0_);
@@ -152,7 +152,7 @@ void BlockInputWhileNavigating::InitializeUX()
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Animators()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), temp);
 }
 
-// public BlockInputWhileNavigating New(Fuse.Controls.NavigationControl nav) [static] :12
+// public BlockInputWhileNavigating New(Fuse.Controls.NavigationControl nav) [static]
 BlockInputWhileNavigating* BlockInputWhileNavigating::New3(::g::Fuse::Controls::NavigationControl* nav1)
 {
     BlockInputWhileNavigating* obj1 = (BlockInputWhileNavigating*)uNew(BlockInputWhileNavigating_typeof());
@@ -161,12 +161,12 @@ BlockInputWhileNavigating* BlockInputWhileNavigating::New3(::g::Fuse::Controls::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/NavigationInternal/EnterHorizontal.uno
-// ---------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/NavigationInternal/EnterHorizontal.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class EnterHorizontal :9
+// public partial sealed class EnterHorizontal
 // {
-// static EnterHorizontal() :6
+// static EnterHorizontal()
 static void EnterHorizontal__cctor_2_fn(uType* __type)
 {
 }
@@ -230,32 +230,32 @@ static void EnterHorizontal_build(uType* type)
     return type;
 }
 
-// public EnterHorizontal() :10
+// public EnterHorizontal()
 void EnterHorizontal__ctor_8_fn(EnterHorizontal* __this)
 {
     __this->ctor_8();
 }
 
-// private void InitializeUX() :14
+// private void InitializeUX()
 void EnterHorizontal__InitializeUX_fn(EnterHorizontal* __this)
 {
     __this->InitializeUX();
 }
 
-// public EnterHorizontal New() :10
+// public EnterHorizontal New()
 void EnterHorizontal__New3_fn(EnterHorizontal** __retval)
 {
     *__retval = EnterHorizontal::New3();
 }
 
-// public EnterHorizontal() [instance] :10
+// public EnterHorizontal() [instance]
 void EnterHorizontal::ctor_8()
 {
     ctor_7();
     InitializeUX();
 }
 
-// private void InitializeUX() [instance] :14
+// private void InitializeUX() [instance]
 void EnterHorizontal::InitializeUX()
 {
     ::g::Fuse::Animations::Move* temp = ::g::Fuse::Animations::Move::New2();
@@ -266,7 +266,7 @@ void EnterHorizontal::InitializeUX()
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Animators()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), temp);
 }
 
-// public EnterHorizontal New() [static] :10
+// public EnterHorizontal New() [static]
 EnterHorizontal* EnterHorizontal::New3()
 {
     EnterHorizontal* obj1 = (EnterHorizontal*)uNew(EnterHorizontal_typeof());
@@ -275,12 +275,12 @@ EnterHorizontal* EnterHorizontal::New3()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/NavigationInternal/EnterVertical.uno
-// -------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/NavigationInternal/EnterVertical.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class EnterVertical :9
+// public partial sealed class EnterVertical
 // {
-// static EnterVertical() :6
+// static EnterVertical()
 static void EnterVertical__cctor_2_fn(uType* __type)
 {
 }
@@ -344,32 +344,32 @@ static void EnterVertical_build(uType* type)
     return type;
 }
 
-// public EnterVertical() :10
+// public EnterVertical()
 void EnterVertical__ctor_8_fn(EnterVertical* __this)
 {
     __this->ctor_8();
 }
 
-// private void InitializeUX() :14
+// private void InitializeUX()
 void EnterVertical__InitializeUX_fn(EnterVertical* __this)
 {
     __this->InitializeUX();
 }
 
-// public EnterVertical New() :10
+// public EnterVertical New()
 void EnterVertical__New3_fn(EnterVertical** __retval)
 {
     *__retval = EnterVertical::New3();
 }
 
-// public EnterVertical() [instance] :10
+// public EnterVertical() [instance]
 void EnterVertical::ctor_8()
 {
     ctor_7();
     InitializeUX();
 }
 
-// private void InitializeUX() [instance] :14
+// private void InitializeUX() [instance]
 void EnterVertical::InitializeUX()
 {
     ::g::Fuse::Animations::Move* temp = ::g::Fuse::Animations::Move::New2();
@@ -380,7 +380,7 @@ void EnterVertical::InitializeUX()
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Animators()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), temp);
 }
 
-// public EnterVertical New() [static] :10
+// public EnterVertical New() [static]
 EnterVertical* EnterVertical::New3()
 {
     EnterVertical* obj1 = (EnterVertical*)uNew(EnterVertical_typeof());
@@ -389,12 +389,12 @@ EnterVertical* EnterVertical::New3()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/NavigationInternal/ExitHorizontal.uno
-// --------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/NavigationInternal/ExitHorizontal.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class ExitHorizontal :8
+// public partial sealed class ExitHorizontal
 // {
-// static ExitHorizontal() :6
+// static ExitHorizontal()
 static void ExitHorizontal__cctor_2_fn(uType* __type)
 {
 }
@@ -458,32 +458,32 @@ static void ExitHorizontal_build(uType* type)
     return type;
 }
 
-// public ExitHorizontal() :10
+// public ExitHorizontal()
 void ExitHorizontal__ctor_8_fn(ExitHorizontal* __this)
 {
     __this->ctor_8();
 }
 
-// private void InitializeUX() :14
+// private void InitializeUX()
 void ExitHorizontal__InitializeUX_fn(ExitHorizontal* __this)
 {
     __this->InitializeUX();
 }
 
-// public ExitHorizontal New() :10
+// public ExitHorizontal New()
 void ExitHorizontal__New3_fn(ExitHorizontal** __retval)
 {
     *__retval = ExitHorizontal::New3();
 }
 
-// public ExitHorizontal() [instance] :10
+// public ExitHorizontal() [instance]
 void ExitHorizontal::ctor_8()
 {
     ctor_7();
     InitializeUX();
 }
 
-// private void InitializeUX() [instance] :14
+// private void InitializeUX() [instance]
 void ExitHorizontal::InitializeUX()
 {
     ::g::Fuse::Animations::Move* temp = ::g::Fuse::Animations::Move::New2();
@@ -494,7 +494,7 @@ void ExitHorizontal::InitializeUX()
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Animators()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), temp);
 }
 
-// public ExitHorizontal New() [static] :10
+// public ExitHorizontal New() [static]
 ExitHorizontal* ExitHorizontal::New3()
 {
     ExitHorizontal* obj1 = (ExitHorizontal*)uNew(ExitHorizontal_typeof());
@@ -503,12 +503,12 @@ ExitHorizontal* ExitHorizontal::New3()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/NavigationInternal/ExitVertical.uno
-// ------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/NavigationInternal/ExitVertical.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class ExitVertical :9
+// public partial sealed class ExitVertical
 // {
-// static ExitVertical() :6
+// static ExitVertical()
 static void ExitVertical__cctor_2_fn(uType* __type)
 {
 }
@@ -572,32 +572,32 @@ static void ExitVertical_build(uType* type)
     return type;
 }
 
-// public ExitVertical() :10
+// public ExitVertical()
 void ExitVertical__ctor_8_fn(ExitVertical* __this)
 {
     __this->ctor_8();
 }
 
-// private void InitializeUX() :14
+// private void InitializeUX()
 void ExitVertical__InitializeUX_fn(ExitVertical* __this)
 {
     __this->InitializeUX();
 }
 
-// public ExitVertical New() :10
+// public ExitVertical New()
 void ExitVertical__New3_fn(ExitVertical** __retval)
 {
     *__retval = ExitVertical::New3();
 }
 
-// public ExitVertical() [instance] :10
+// public ExitVertical() [instance]
 void ExitVertical::ctor_8()
 {
     ctor_7();
     InitializeUX();
 }
 
-// private void InitializeUX() [instance] :14
+// private void InitializeUX() [instance]
 void ExitVertical::InitializeUX()
 {
     ::g::Fuse::Animations::Move* temp = ::g::Fuse::Animations::Move::New2();
@@ -608,7 +608,7 @@ void ExitVertical::InitializeUX()
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Animators()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), temp);
 }
 
-// public ExitVertical New() [static] :10
+// public ExitVertical New() [static]
 ExitVertical* ExitVertical::New3()
 {
     ExitVertical* obj1 = (ExitVertical*)uNew(ExitVertical_typeof());
@@ -617,12 +617,12 @@ ExitVertical* ExitVertical::New3()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/.uno/ux15/Fuse.Controls.NavigationInternal.NavEnterHorizontal.g.uno
-// --------------------------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/.uno/ux15/Fuse.Controls.NavigationInternal.NavEnterHorizontal.g.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class NavEnterHorizontal :4
+// public partial sealed class NavEnterHorizontal
 // {
-// static NavEnterHorizontal() :6
+// static NavEnterHorizontal()
 static void NavEnterHorizontal__cctor_2_fn(uType* __type)
 {
 }
@@ -688,32 +688,32 @@ static void NavEnterHorizontal_build(uType* type)
     return type;
 }
 
-// public NavEnterHorizontal() :10
+// public NavEnterHorizontal()
 void NavEnterHorizontal__ctor_6_fn(NavEnterHorizontal* __this)
 {
     __this->ctor_6();
 }
 
-// private void InitializeUX() :14
+// private void InitializeUX()
 void NavEnterHorizontal__InitializeUX_fn(NavEnterHorizontal* __this)
 {
     __this->InitializeUX();
 }
 
-// public NavEnterHorizontal New() :10
+// public NavEnterHorizontal New()
 void NavEnterHorizontal__New3_fn(NavEnterHorizontal** __retval)
 {
     *__retval = NavEnterHorizontal::New3();
 }
 
-// public NavEnterHorizontal() [instance] :10
+// public NavEnterHorizontal() [instance]
 void NavEnterHorizontal::ctor_6()
 {
     ctor_5();
     InitializeUX();
 }
 
-// private void InitializeUX() [instance] :14
+// private void InitializeUX() [instance]
 void NavEnterHorizontal::InitializeUX()
 {
     ::g::Fuse::Animations::Move* temp = ::g::Fuse::Animations::Move::New2();
@@ -732,7 +732,7 @@ void NavEnterHorizontal::InitializeUX()
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Actions()), ::TYPES[2/*Uno.Collections.ICollection<Fuse.Triggers.Actions.TriggerAction>*/]), temp1);
 }
 
-// public NavEnterHorizontal New() [static] :10
+// public NavEnterHorizontal New() [static]
 NavEnterHorizontal* NavEnterHorizontal::New3()
 {
     NavEnterHorizontal* obj1 = (NavEnterHorizontal*)uNew(NavEnterHorizontal_typeof());
@@ -741,12 +741,12 @@ NavEnterHorizontal* NavEnterHorizontal::New3()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/.uno/ux15/Fuse.Controls.NavigationInternal.NavExitHorizontal.g.uno
-// -------------------------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/.uno/ux15/Fuse.Controls.NavigationInternal.NavExitHorizontal.g.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class NavExitHorizontal :4
+// public partial sealed class NavExitHorizontal
 // {
-// static NavExitHorizontal() :6
+// static NavExitHorizontal()
 static void NavExitHorizontal__cctor_2_fn(uType* __type)
 {
 }
@@ -812,32 +812,32 @@ static void NavExitHorizontal_build(uType* type)
     return type;
 }
 
-// public NavExitHorizontal() :10
+// public NavExitHorizontal()
 void NavExitHorizontal__ctor_6_fn(NavExitHorizontal* __this)
 {
     __this->ctor_6();
 }
 
-// private void InitializeUX() :14
+// private void InitializeUX()
 void NavExitHorizontal__InitializeUX_fn(NavExitHorizontal* __this)
 {
     __this->InitializeUX();
 }
 
-// public NavExitHorizontal New() :10
+// public NavExitHorizontal New()
 void NavExitHorizontal__New3_fn(NavExitHorizontal** __retval)
 {
     *__retval = NavExitHorizontal::New3();
 }
 
-// public NavExitHorizontal() [instance] :10
+// public NavExitHorizontal() [instance]
 void NavExitHorizontal::ctor_6()
 {
     ctor_5();
     InitializeUX();
 }
 
-// private void InitializeUX() [instance] :14
+// private void InitializeUX() [instance]
 void NavExitHorizontal::InitializeUX()
 {
     ::g::Fuse::Animations::Move* temp = ::g::Fuse::Animations::Move::New2();
@@ -856,7 +856,7 @@ void NavExitHorizontal::InitializeUX()
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Actions()), ::TYPES[2/*Uno.Collections.ICollection<Fuse.Triggers.Actions.TriggerAction>*/]), temp1);
 }
 
-// public NavExitHorizontal New() [static] :10
+// public NavExitHorizontal New() [static]
 NavExitHorizontal* NavExitHorizontal::New3()
 {
     NavExitHorizontal* obj1 = (NavExitHorizontal*)uNew(NavExitHorizontal_typeof());
@@ -865,12 +865,12 @@ NavExitHorizontal* NavExitHorizontal::New3()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/.uno/ux15/Fuse.Controls.NavigationInternal.NavRemoveHorizontal.g.uno
-// ---------------------------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/.uno/ux15/Fuse.Controls.NavigationInternal.NavRemoveHorizontal.g.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class NavRemoveHorizontal :4
+// public partial sealed class NavRemoveHorizontal
 // {
-// static NavRemoveHorizontal() :6
+// static NavRemoveHorizontal()
 static void NavRemoveHorizontal__cctor_2_fn(uType* __type)
 {
 }
@@ -933,32 +933,32 @@ static void NavRemoveHorizontal_build(uType* type)
     return type;
 }
 
-// public NavRemoveHorizontal() :10
+// public NavRemoveHorizontal()
 void NavRemoveHorizontal__ctor_6_fn(NavRemoveHorizontal* __this)
 {
     __this->ctor_6();
 }
 
-// private void InitializeUX() :14
+// private void InitializeUX()
 void NavRemoveHorizontal__InitializeUX_fn(NavRemoveHorizontal* __this)
 {
     __this->InitializeUX();
 }
 
-// public NavRemoveHorizontal New() :10
+// public NavRemoveHorizontal New()
 void NavRemoveHorizontal__New3_fn(NavRemoveHorizontal** __retval)
 {
     *__retval = NavRemoveHorizontal::New3();
 }
 
-// public NavRemoveHorizontal() [instance] :10
+// public NavRemoveHorizontal() [instance]
 void NavRemoveHorizontal::ctor_6()
 {
     ctor_5();
     InitializeUX();
 }
 
-// private void InitializeUX() [instance] :14
+// private void InitializeUX() [instance]
 void NavRemoveHorizontal::InitializeUX()
 {
     ::g::Fuse::Animations::Scale* temp = ::g::Fuse::Animations::Scale::New2();
@@ -969,7 +969,7 @@ void NavRemoveHorizontal::InitializeUX()
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Animators()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), temp);
 }
 
-// public NavRemoveHorizontal New() [static] :10
+// public NavRemoveHorizontal New() [static]
 NavRemoveHorizontal* NavRemoveHorizontal::New3()
 {
     NavRemoveHorizontal* obj1 = (NavRemoveHorizontal*)uNew(NavRemoveHorizontal_typeof());

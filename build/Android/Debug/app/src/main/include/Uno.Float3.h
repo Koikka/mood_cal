@@ -1,20 +1,20 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Float3.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Float3.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Uno.Object.h>
+#include <Uno.ValueType.h>
 namespace g{namespace Uno{struct Float2;}}
 namespace g{namespace Uno{struct Float3;}}
 
 namespace g{
 namespace Uno{
 
-// public intrinsic struct Float3 :7
+// public intrinsic struct Float3
 // {
 uStructType* Float3_typeof();
-void Float3__ctor__fn(Float3* __this, float* xyz);
-void Float3__ctor_1_fn(Float3* __this, float* x, float* y, float* z);
-void Float3__ctor_3_fn(Float3* __this, ::g::Uno::Float2* xy, float* z);
+void Float3__ctor_1_fn(Float3* __this, float* xyz);
+void Float3__ctor_2_fn(Float3* __this, float* x, float* y, float* z);
+void Float3__ctor_4_fn(Float3* __this, ::g::Uno::Float2* xy, float* z);
 void Float3__Equals_fn(Float3* __this, uType* __type, uObject* o, bool* __retval);
 void Float3__GetHashCode_fn(Float3* __this, uType* __type, int32_t* __retval);
 void Float3__New1_fn(float* xyz, Float3* __retval);
@@ -22,6 +22,7 @@ void Float3__New2_fn(float* x, float* y, float* z, Float3* __retval);
 void Float3__New4_fn(::g::Uno::Float2* xy, float* z, Float3* __retval);
 void Float3__op_Addition2_fn(Float3* a, Float3* b, Float3* __retval);
 void Float3__op_Division1_fn(Float3* a, float* b, Float3* __retval);
+void Float3__op_Division2_fn(Float3* a, Float3* b, Float3* __retval);
 void Float3__op_Inequality_fn(Float3* a, Float3* b, bool* __retval);
 void Float3__op_Multiply_fn(float* a, Float3* b, Float3* __retval);
 void Float3__op_Multiply1_fn(Float3* a, float* b, Float3* __retval);
@@ -36,9 +37,9 @@ struct Float3
     float Y;
     float Z;
 
-    void ctor_(float xyz);
-    void ctor_1(float x, float y, float z);
-    void ctor_3(::g::Uno::Float2 xy, float z);
+    void ctor_1(float xyz);
+    void ctor_2(float x, float y, float z);
+    void ctor_4(::g::Uno::Float2 xy, float z);
     bool Equals(uType* __type, uObject* o) { bool __retval; return Float3__Equals_fn(this, __type, o, &__retval), __retval; }
     int32_t GetHashCode(uType* __type) { int32_t __retval; return Float3__GetHashCode_fn(this, __type, &__retval), __retval; }
     uString* ToString(uType* __type) { uString* __retval; return Float3__ToString_fn(this, __type, &__retval), __retval; }
@@ -49,6 +50,7 @@ Float3 Float3__New2(float x, float y, float z);
 Float3 Float3__New4(::g::Uno::Float2 xy, float z);
 Float3 Float3__op_Addition2(Float3 a, Float3 b);
 Float3 Float3__op_Division1(Float3 a, float b);
+Float3 Float3__op_Division2(Float3 a, Float3 b);
 bool Float3__op_Inequality(Float3 a, Float3 b);
 Float3 Float3__op_Multiply(float a, Float3 b);
 Float3 Float3__op_Multiply1(Float3 a, float b);

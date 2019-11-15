@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Marshal/1.9.0/Marshal.Convert.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Marshal/1.12.0/Marshal.Convert.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,7 +7,7 @@
 namespace g{
 namespace Fuse{
 
-// public abstract interface Marshal.IConverter :9
+// public abstract interface Marshal.IConverter
 // {
 uInterfaceType* Marshal__IConverter_typeof();
 

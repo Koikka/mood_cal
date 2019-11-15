@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Keyboard.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Input/Keyboard.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -17,7 +17,7 @@ namespace g{
 namespace Fuse{
 namespace Input{
 
-// public static class Keyboard :88
+// public static class Keyboard
 // {
 uClassType* Keyboard_typeof();
 void Keyboard__get_KeyPressed_fn(::g::Fuse::VisualEvent** __retval);

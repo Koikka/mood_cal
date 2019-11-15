@@ -1,17 +1,17 @@
 // This file was generated based on '(multiple files)'.
 // WARNING: Changes might be lost if you edit this file directly.
 
-#include <Android.Base.Primitiv-2b9696be.h>
+#include <Android.Base.Primitiv-a9a90c2a.h>
 #include <Android.Base.Types.ByteBuffer.h>
 #include <Android.Base.Wrappers.JWrapper.h>
-#include <Android.Base.Wrappers-88f7a41f.h>
+#include <Android.Base.Wrappers-4c0b8613.h>
 #include <Java.Object.h>
 #include <jni.h>
 #include <Uno.ArgumentNullException.h>
 #include <Uno.Bool.h>
 #include <Uno.Byte.h>
-#include <Uno.Compiler.ExportTa-39be7c2b.h>
-#include <Uno.Compiler.ExportTa-d07b0040.h>
+#include <Uno.Compiler.ExportTa-2429dd1f.h>
+#include <Uno.Compiler.ExportTa-9295b098.h>
 #include <Uno.Exception.h>
 #include <Uno.Object.h>
 #include <Uno.String.h>
@@ -23,10 +23,10 @@ namespace Uno{
 namespace Compiler{
 namespace ExportTargetInterop{
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Compiler/ExportTargetInterop/Foreign/ForeignDataView.uno
-// ---------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Compiler/ExportTargetInterop/Foreign/ForeignDataView.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static extern class ForeignDataView :69
+// public static extern class ForeignDataView
 // {
 static void ForeignDataView_build(uType* type)
 {
@@ -47,25 +47,25 @@ uClassType* ForeignDataView_typeof()
     return type;
 }
 
-// public static Java.Object Create(byte[] unoArray) :75
+// public static Java.Object Create(byte[] unoArray)
 void ForeignDataView__Create_fn(uArray* unoArray, ::g::Java::Object** __retval)
 {
     *__retval = ForeignDataView::Create(unoArray);
 }
 
-// private static Java.Object CreateInner(Android.Base.Primitives.ujobject directBuffer, object unoObj) :98
+// private static Java.Object CreateInner(Android.Base.Primitives.ujobject directBuffer, object unoObj)
 void ForeignDataView__CreateInner_fn(jobject* directBuffer, uObject* unoObj, ::g::Java::Object** __retval)
 {
     *__retval = ForeignDataView::CreateInner(*directBuffer, unoObj);
 }
 
-// private static Java.Object CreateInnerJava(Java.Object directBuffer, object unoObj) :110
+// private static Java.Object CreateInnerJava(Java.Object directBuffer, object unoObj)
 void ForeignDataView__CreateInnerJava_fn(::g::Java::Object* directBuffer, uObject* unoObj, ::g::Java::Object** __retval)
 {
     *__retval = ForeignDataView::CreateInnerJava(directBuffer, unoObj);
 }
 
-// public static Java.Object Create(byte[] unoArray) [static] :75
+// public static Java.Object Create(byte[] unoArray) [static]
 ::g::Java::Object* ForeignDataView::Create(uArray* unoArray)
 {
     if (unoArray == NULL)
@@ -74,7 +74,7 @@ void ForeignDataView__CreateInnerJava_fn(::g::Java::Object* directBuffer, uObjec
     return ForeignDataView::CreateInner(::g::Android::Base::Types::ByteBuffer::NewDirectByteBuffer(unoArray), unoArray);
 }
 
-// private static Java.Object CreateInner(Android.Base.Primitives.ujobject directBuffer, object unoObj) [static] :98
+// private static Java.Object CreateInner(Android.Base.Primitives.ujobject directBuffer, object unoObj) [static]
 ::g::Java::Object* ForeignDataView::CreateInner(jobject directBuffer, uObject* unoObj)
 {
     if (!::g::Android::Base::Types::ByteBuffer::ValidDirectByteBuffer(directBuffer))
@@ -89,7 +89,7 @@ void ForeignDataView__CreateInnerJava_fn(::g::Java::Object* directBuffer, uObjec
     return result;
 }
 
-// private static Java.Object CreateInnerJava(Java.Object directBuffer, object unoObj) [static] :110
+// private static Java.Object CreateInnerJava(Java.Object directBuffer, object unoObj) [static]
 ::g::Java::Object* ForeignDataView::CreateInnerJava(::g::Java::Object* directBuffer, uObject* unoObj)
 {
     {

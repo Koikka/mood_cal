@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/FuseJS/1.9.0/Base64.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Base64.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{namespace FuseJS{struct Base64;}}
 namespace g{
 namespace FuseJS{
 
-// public sealed class Base64 :25
+// public sealed class Base64
 // {
 ::g::Fuse::Scripting::NativeModule_type* Base64_typeof();
 void Base64__ctor_2_fn(Base64* __this);

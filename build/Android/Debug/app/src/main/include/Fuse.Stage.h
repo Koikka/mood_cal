@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/UpdateManager.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/UpdateManager.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{namespace Uno{namespace Collections{struct Queue;}}}
 namespace g{
 namespace Fuse{
 
-// internal sealed class Stage :81
+// internal sealed class Stage
 // {
 uType* Stage_typeof();
 void Stage__ctor__fn(Stage* __this, int32_t* _updateStage);

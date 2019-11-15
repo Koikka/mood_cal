@@ -2,11 +2,11 @@
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Android.Base.JNI.h>
-#include <Android.Base.Primitiv-2b9696be.h>
-#include <Android.Base.Primitiv-b7b09a.h>
+#include <Android.Base.Primitiv-a9a90c2a.h>
+#include <Android.Base.Primitiv-eed27b63.h>
 #include <Android.Base.Wrappers.JWrapper.h>
-#include <Android.Base.Wrappers-88f7a41f.h>
-#include <Android.Base.Wrappers-90b493fe.h>
+#include <Android.Base.Wrappers-4c0b8613.h>
+#include <Android.Base.Wrappers-f1330e79.h>
 #include <android/asset_manager_jni.h>
 #include <dirent.h>
 #include <errno.h>
@@ -18,7 +18,7 @@
 #include <unistd.h>
 #include <Uno.Action1-1.h>
 #include <Uno.ArgumentNullException.h>
-#include <Uno.ArgumentOutOfRang-6803b39e.h>
+#include <Uno.ArgumentOutOfRang-f36f7996.h>
 #include <Uno.Array.h>
 #include <Uno.Bool.h>
 #include <Uno.Byte.h>
@@ -28,8 +28,8 @@
 #include <Uno.Collections.IEnumerator.h>
 #include <Uno.Collections.IEnumerator1-1.h>
 #include <Uno.Collections.List-1.h>
-#include <Uno.Collections.List--251bdc7d.h>
-#include <Uno.Compiler.ExportTa-39be7c2b.h>
+#include <Uno.Collections.List--132bd82f.h>
+#include <Uno.Compiler.ExportTa-2429dd1f.h>
 #include <Uno.Delegate.h>
 #include <Uno.Environment.h>
 #include <Uno.GC.h>
@@ -43,7 +43,7 @@
 #include <Uno.IO.BinaryReader.h>
 #include <Uno.IO.Bundle.h>
 #include <Uno.IO.BundleFile.h>
-#include <Uno.IO.Directory.Enum-e0c10ae8.h>
+#include <Uno.IO.Directory.Enum-70c75057.h>
 #include <Uno.IO.Directory.Enumerable.h>
 #include <Uno.IO.Directory.Enumerator.h>
 #include <Uno.IO.Directory.h>
@@ -90,12 +90,12 @@ namespace g{
 namespace Uno{
 namespace IO{
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Bundle.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/Bundle.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static extern class AAssetManager :315
+// internal static extern class AAssetManager
 // {
-// static generated AAssetManager() :315
+// static generated AAssetManager()
 static void AAssetManager__cctor__fn(uType* __type)
 {
     AAssetManager::Ptr_ = AAssetManager::GetPtr();
@@ -123,19 +123,19 @@ uClassType* AAssetManager_typeof()
     return type;
 }
 
-// private static Java.Object GetJavaObject() :336
+// private static Java.Object GetJavaObject()
 void AAssetManager__GetJavaObject_fn(::g::Java::Object** __retval)
 {
     *__retval = AAssetManager::GetJavaObject();
 }
 
-// private static Uno.IO.AAssetManagerPtr GetPtr() :328
+// private static Uno.IO.AAssetManagerPtr GetPtr()
 void AAssetManager__GetPtr_fn(::AAssetManager** __retval)
 {
     *__retval = AAssetManager::GetPtr();
 }
 
-// public static Uno.IO.AAssetPtr OpenOrThrow(string filename) :319
+// public static Uno.IO.AAssetPtr OpenOrThrow(string filename)
 void AAssetManager__OpenOrThrow_fn(uString* filename, ::AAsset** __retval)
 {
     *__retval = AAssetManager::OpenOrThrow(filename);
@@ -143,7 +143,7 @@ void AAssetManager__OpenOrThrow_fn(uString* filename, ::AAsset** __retval)
 
 ::AAssetManager* AAssetManager::Ptr_;
 
-// private static Java.Object GetJavaObject() [static] :336
+// private static Java.Object GetJavaObject() [static]
 ::g::Java::Object* AAssetManager::GetJavaObject()
 {
     AAssetManager_typeof()->Init();
@@ -159,7 +159,7 @@ void AAssetManager__OpenOrThrow_fn(uString* filename, ::AAsset** __retval)
     
 }
 
-// private static Uno.IO.AAssetManagerPtr GetPtr() [static] :328
+// private static Uno.IO.AAssetManagerPtr GetPtr() [static]
 ::AAssetManager* AAssetManager::GetPtr()
 {
     AAssetManager_typeof()->Init();
@@ -168,7 +168,7 @@ void AAssetManager__OpenOrThrow_fn(uString* filename, ::AAsset** __retval)
     return AAssetManager_fromJava(env, jobject);
 }
 
-// public static Uno.IO.AAssetPtr OpenOrThrow(string filename) [static] :319
+// public static Uno.IO.AAssetPtr OpenOrThrow(string filename) [static]
 ::AAsset* AAssetManager::OpenOrThrow(uString* filename)
 {
     AAssetManager_typeof()->Init();
@@ -181,10 +181,10 @@ void AAssetManager__OpenOrThrow_fn(uString* filename, ::AAsset** __retval)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Bundle.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/Bundle.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal extern struct AAssetManagerPtr :311
+// internal extern struct AAssetManagerPtr
 // {
 static void AAssetManagerPtr_build(uType* type)
 {
@@ -196,6 +196,7 @@ uStructType* AAssetManagerPtr_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(::AAssetManager*);
     options.ValueSize = sizeof(::AAssetManager*);
     options.TypeSize = sizeof(uStructType);
@@ -205,10 +206,10 @@ uStructType* AAssetManagerPtr_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Bundle.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/Bundle.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal extern struct AAssetPtr :304
+// internal extern struct AAssetPtr
 // {
 static void AAssetPtr_build(uType* type)
 {
@@ -220,6 +221,7 @@ uStructType* AAssetPtr_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(::AAsset*);
     options.ValueSize = sizeof(::AAsset*);
     options.TypeSize = sizeof(uStructType);
@@ -229,10 +231,10 @@ uStructType* AAssetPtr_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Bundle.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/Bundle.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class AAssetStream :342
+// internal sealed extern class AAssetStream
 // {
 static void AAssetStream_build(uType* type)
 {
@@ -269,19 +271,19 @@ static void AAssetStream_build(uType* type)
     return type;
 }
 
-// public AAssetStream(string filename) :346
+// public AAssetStream(string filename)
 void AAssetStream__ctor_1_fn(AAssetStream* __this, uString* filename)
 {
     __this->ctor_1(filename);
 }
 
-// private void CheckDisposed() :440
+// private void CheckDisposed()
 void AAssetStream__CheckDisposed_fn(AAssetStream* __this)
 {
     __this->CheckDisposed();
 }
 
-// public override sealed void Dispose(bool disposing) :432
+// public override sealed void Dispose(bool disposing)
 void AAssetStream__Dispose1_fn(AAssetStream* __this, bool* disposing)
 {
     bool disposing_ = *disposing;
@@ -291,25 +293,25 @@ void AAssetStream__Dispose1_fn(AAssetStream* __this, bool* disposing)
     __this->_fp = NULL;
 }
 
-// public override sealed void Flush() :428
+// public override sealed void Flush()
 void AAssetStream__Flush_fn(AAssetStream* __this)
 {
 }
 
-// public override sealed long get_Length() :368
+// public override sealed long get_Length()
 void AAssetStream__get_Length_fn(AAssetStream* __this, int64_t* __retval)
 {
     __this->CheckDisposed();
     return *__retval = AAsset_getLength(__this->_fp), void();
 }
 
-// public AAssetStream New(string filename) :346
+// public AAssetStream New(string filename)
 void AAssetStream__New1_fn(uString* filename, AAssetStream** __retval)
 {
     *__retval = AAssetStream::New1(filename);
 }
 
-// public override sealed int Read(byte[] dst, int byteOffset, int byteCount) :394
+// public override sealed int Read(byte[] dst, int byteOffset, int byteCount)
 void AAssetStream__Read_fn(AAssetStream* __this, uArray* dst, int32_t* byteOffset, int32_t* byteCount, int32_t* __retval)
 {
     int32_t byteOffset_ = *byteOffset;
@@ -322,27 +324,27 @@ void AAssetStream__Read_fn(AAssetStream* __this, uArray* dst, int32_t* byteOffse
     return *__retval = AAsset_read(__this->_fp, (uint8_t*) dst->Ptr() + byteOffset_, byteCount_), void();
 }
 
-// public override sealed void Write(byte[] src, int byteOffset, int byteCount) :403
+// public override sealed void Write(byte[] src, int byteOffset, int byteCount)
 void AAssetStream__Write_fn(AAssetStream* __this, uArray* src, int32_t* byteOffset, int32_t* byteCount)
 {
     U_THROW(::g::Uno::NotImplementedException::New4());
 }
 
-// public AAssetStream(string filename) [instance] :346
+// public AAssetStream(string filename) [instance]
 void AAssetStream::ctor_1(uString* filename)
 {
     ctor_();
     _fp = ::g::Uno::IO::AAssetManager::OpenOrThrow(filename);
 }
 
-// private void CheckDisposed() [instance] :440
+// private void CheckDisposed() [instance]
 void AAssetStream::CheckDisposed()
 {
     if (!this->_fp)
         U_THROW(::g::Uno::ObjectDisposedException::New4(::STRINGS[1/*"The asset s...*/]));
 }
 
-// public AAssetStream New(string filename) [static] :346
+// public AAssetStream New(string filename) [static]
 AAssetStream* AAssetStream::New1(uString* filename)
 {
     AAssetStream* obj1 = (AAssetStream*)uNew(AAssetStream_typeof());
@@ -351,10 +353,10 @@ AAssetStream* AAssetStream::New1(uString* filename)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/BinaryReader.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/BinaryReader.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class BinaryReader :7
+// public sealed class BinaryReader
 // {
 static void BinaryReader_build(uType* type)
 {
@@ -384,43 +386,43 @@ BinaryReader_type* BinaryReader_typeof()
     return type;
 }
 
-// public BinaryReader(Uno.IO.Stream stream) :14
+// public BinaryReader(Uno.IO.Stream stream)
 void BinaryReader__ctor__fn(BinaryReader* __this, ::g::Uno::IO::Stream* stream)
 {
     __this->ctor_(stream);
 }
 
-// public void Dispose() :32
+// public void Dispose()
 void BinaryReader__Dispose_fn(BinaryReader* __this)
 {
     __this->Dispose();
 }
 
-// public generated bool get_LittleEndian() :28
+// public generated bool get_LittleEndian()
 void BinaryReader__get_LittleEndian_fn(BinaryReader* __this, bool* __retval)
 {
     *__retval = __this->LittleEndian();
 }
 
-// public generated void set_LittleEndian(bool value) :29
+// public generated void set_LittleEndian(bool value)
 void BinaryReader__set_LittleEndian_fn(BinaryReader* __this, bool* value)
 {
     __this->LittleEndian(*value);
 }
 
-// public BinaryReader New(Uno.IO.Stream stream) :14
+// public BinaryReader New(Uno.IO.Stream stream)
 void BinaryReader__New1_fn(::g::Uno::IO::Stream* stream, BinaryReader** __retval)
 {
     *__retval = BinaryReader::New1(stream);
 }
 
-// public byte[] ReadBytes(int byteCount) :56
+// public byte[] ReadBytes(int byteCount)
 void BinaryReader__ReadBytes_fn(BinaryReader* __this, int32_t* byteCount, uArray** __retval)
 {
     *__retval = __this->ReadBytes(*byteCount);
 }
 
-// public BinaryReader(Uno.IO.Stream stream) [instance] :14
+// public BinaryReader(Uno.IO.Stream stream) [instance]
 void BinaryReader::ctor_(::g::Uno::IO::Stream* stream)
 {
     _stream = stream;
@@ -428,25 +430,25 @@ void BinaryReader::ctor_(::g::Uno::IO::Stream* stream)
     LittleEndian(true);
 }
 
-// public void Dispose() [instance] :32
+// public void Dispose() [instance]
 void BinaryReader::Dispose()
 {
     uPtr(_stream)->Dispose();
 }
 
-// public generated bool get_LittleEndian() [instance] :28
+// public generated bool get_LittleEndian() [instance]
 bool BinaryReader::LittleEndian()
 {
     return _LittleEndian;
 }
 
-// public generated void set_LittleEndian(bool value) [instance] :29
+// public generated void set_LittleEndian(bool value) [instance]
 void BinaryReader::LittleEndian(bool value)
 {
     _LittleEndian = value;
 }
 
-// public byte[] ReadBytes(int byteCount) [instance] :56
+// public byte[] ReadBytes(int byteCount) [instance]
 uArray* BinaryReader::ReadBytes(int32_t byteCount)
 {
     if (byteCount < 0)
@@ -476,7 +478,7 @@ uArray* BinaryReader::ReadBytes(int32_t byteCount)
     return result;
 }
 
-// public BinaryReader New(Uno.IO.Stream stream) [static] :14
+// public BinaryReader New(Uno.IO.Stream stream) [static]
 BinaryReader* BinaryReader::New1(::g::Uno::IO::Stream* stream)
 {
     BinaryReader* obj1 = (BinaryReader*)uNew(BinaryReader_typeof());
@@ -485,12 +487,12 @@ BinaryReader* BinaryReader::New1(::g::Uno::IO::Stream* stream)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Bundle.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/Bundle.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Bundle :202
+// public sealed class Bundle
 // {
-// static Bundle() :228
+// static Bundle()
 static void Bundle__cctor__fn(uType* __type)
 {
     uArray* array1;
@@ -546,43 +548,43 @@ uType* Bundle_typeof()
     return type;
 }
 
-// private Bundle(string packageName) :271
+// private Bundle(string packageName)
 void Bundle__ctor__fn(Bundle* __this, uString* packageName)
 {
     __this->ctor_(packageName);
 }
 
-// public static Uno.Collections.IEnumerable<Uno.IO.BundleFile> get_AllFiles() :259
+// public static Uno.Collections.IEnumerable<Uno.IO.BundleFile> get_AllFiles()
 void Bundle__get_AllFiles_fn(uObject** __retval)
 {
     *__retval = Bundle::AllFiles();
 }
 
-// public Uno.Collections.IEnumerable<Uno.IO.BundleFile> get_Files() :283
+// public Uno.Collections.IEnumerable<Uno.IO.BundleFile> get_Files()
 void Bundle__get_Files_fn(Bundle* __this, uObject** __retval)
 {
     *__retval = __this->Files();
 }
 
-// public static Uno.IO.Bundle Get([string package]) :251
+// public static Uno.IO.Bundle Get([string package])
 void Bundle__Get_fn(uString* package, Bundle** __retval)
 {
     *__retval = Bundle::Get(package);
 }
 
-// public Uno.IO.BundleFile GetFile(string filename) :286
+// public Uno.IO.BundleFile GetFile(string filename)
 void Bundle__GetFile_fn(Bundle* __this, uString* filename, ::g::Uno::IO::BundleFile** __retval)
 {
     *__retval = __this->GetFile(filename);
 }
 
-// private Bundle New(string packageName) :271
+// private Bundle New(string packageName)
 void Bundle__New1_fn(uString* packageName, Bundle** __retval)
 {
     *__retval = Bundle::New1(packageName);
 }
 
-// public override sealed string ToString() :295
+// public override sealed string ToString()
 void Bundle__ToString_fn(Bundle* __this, uString** __retval)
 {
     return *__retval = __this->_packageName, void();
@@ -591,20 +593,20 @@ void Bundle__ToString_fn(Bundle* __this, uString** __retval)
 uSStrong< ::g::Uno::Collections::Dictionary*> Bundle::_bundles_;
 uSStrong< ::g::Uno::Collections::List*> Bundle::_allFiles_;
 
-// private Bundle(string packageName) [instance] :271
+// private Bundle(string packageName) [instance]
 void Bundle::ctor_(uString* packageName)
 {
     _files = ((::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[3/*Uno.Collections.List<Uno.IO.BundleFile>*/]));
     _packageName = packageName;
 }
 
-// public Uno.Collections.IEnumerable<Uno.IO.BundleFile> get_Files() [instance] :283
+// public Uno.Collections.IEnumerable<Uno.IO.BundleFile> get_Files() [instance]
 uObject* Bundle::Files()
 {
     return (uObject*)_files;
 }
 
-// public Uno.IO.BundleFile GetFile(string filename) [instance] :286
+// public Uno.IO.BundleFile GetFile(string filename) [instance]
 ::g::Uno::IO::BundleFile* Bundle::GetFile(uString* filename)
 {
     ::g::Uno::Collections::List__Enumerator<uStrong< ::g::Uno::IO::BundleFile*> > ret7;
@@ -646,7 +648,7 @@ uObject* Bundle::Files()
     U_THROW(::g::Uno::IO::FileNotFoundException::New5(::g::Uno::String::op_Addition2(::STRINGS[5/*"BundleFile ...*/], filename), filename));
 }
 
-// public static Uno.IO.Bundle Get([string package]) [static] :251
+// public static Uno.IO.Bundle Get([string package]) [static]
 Bundle* Bundle::Get(uString* package)
 {
     Bundle_typeof()->Init();
@@ -654,7 +656,7 @@ Bundle* Bundle::Get(uString* package)
     return (::g::Uno::Collections::Dictionary__get_Item_fn(uPtr(Bundle::_bundles_), package, &ret6), ret6);
 }
 
-// private Bundle New(string packageName) [static] :271
+// private Bundle New(string packageName) [static]
 Bundle* Bundle::New1(uString* packageName)
 {
     Bundle* obj5 = (Bundle*)uNew(Bundle_typeof());
@@ -662,7 +664,7 @@ Bundle* Bundle::New1(uString* packageName)
     return obj5;
 }
 
-// public static Uno.Collections.IEnumerable<Uno.IO.BundleFile> get_AllFiles() [static] :259
+// public static Uno.Collections.IEnumerable<Uno.IO.BundleFile> get_AllFiles() [static]
 uObject* Bundle::AllFiles()
 {
     Bundle_typeof()->Init();
@@ -670,10 +672,10 @@ uObject* Bundle::AllFiles()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Bundle.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/Bundle.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class BundleFile :26
+// public sealed class BundleFile
 // {
 static void BundleFile_build(uType* type)
 {
@@ -704,103 +706,103 @@ uType* BundleFile_typeof()
     return type;
 }
 
-// internal BundleFile(Uno.IO.Bundle bundle, string sourcePath, [string bundlePath]) :73
+// internal BundleFile(Uno.IO.Bundle bundle, string sourcePath, [string bundlePath])
 void BundleFile__ctor__fn(BundleFile* __this, ::g::Uno::IO::Bundle* bundle, uString* sourcePath, uString* bundlePath)
 {
     __this->ctor_(bundle, sourcePath, bundlePath);
 }
 
-// public generated Uno.IO.Bundle get_Bundle() :34
+// public generated Uno.IO.Bundle get_Bundle()
 void BundleFile__get_Bundle_fn(BundleFile* __this, ::g::Uno::IO::Bundle** __retval)
 {
     *__retval = __this->Bundle();
 }
 
-// private generated void set_Bundle(Uno.IO.Bundle value) :34
+// private generated void set_Bundle(Uno.IO.Bundle value)
 void BundleFile__set_Bundle_fn(BundleFile* __this, ::g::Uno::IO::Bundle* value)
 {
     __this->Bundle(value);
 }
 
-// public generated string get_BundlePath() :38
+// public generated string get_BundlePath()
 void BundleFile__get_BundlePath_fn(BundleFile* __this, uString** __retval)
 {
     *__retval = __this->BundlePath();
 }
 
-// private generated void set_BundlePath(string value) :38
+// private generated void set_BundlePath(string value)
 void BundleFile__set_BundlePath_fn(BundleFile* __this, uString* value)
 {
     __this->BundlePath(value);
 }
 
-// public generated void add_Changed(Uno.Action<Uno.IO.BundleFile> value) :31
+// public generated void add_Changed(Uno.Action<Uno.IO.BundleFile> value)
 void BundleFile__add_Changed_fn(BundleFile* __this, uDelegate* value)
 {
     __this->add_Changed(value);
 }
 
-// public generated void remove_Changed(Uno.Action<Uno.IO.BundleFile> value) :31
+// public generated void remove_Changed(Uno.Action<Uno.IO.BundleFile> value)
 void BundleFile__remove_Changed_fn(BundleFile* __this, uDelegate* value)
 {
     __this->remove_Changed(value);
 }
 
-// public generated bool get_IsFile() :39
+// public generated bool get_IsFile()
 void BundleFile__get_IsFile_fn(BundleFile* __this, bool* __retval)
 {
     *__retval = __this->IsFile();
 }
 
-// private generated void set_IsFile(bool value) :39
+// private generated void set_IsFile(bool value)
 void BundleFile__set_IsFile_fn(BundleFile* __this, bool* value)
 {
     __this->IsFile(*value);
 }
 
-// internal BundleFile New(Uno.IO.Bundle bundle, string sourcePath, [string bundlePath]) :73
+// internal BundleFile New(Uno.IO.Bundle bundle, string sourcePath, [string bundlePath])
 void BundleFile__New1_fn(::g::Uno::IO::Bundle* bundle, uString* sourcePath, uString* bundlePath, BundleFile** __retval)
 {
     *__retval = BundleFile::New1(bundle, sourcePath, bundlePath);
 }
 
-// public Uno.IO.Stream OpenRead() :85
+// public Uno.IO.Stream OpenRead()
 void BundleFile__OpenRead_fn(BundleFile* __this, ::g::Uno::IO::Stream** __retval)
 {
     *__retval = __this->OpenRead();
 }
 
-// public byte[] ReadAllBytes() :153
+// public byte[] ReadAllBytes()
 void BundleFile__ReadAllBytes_fn(BundleFile* __this, uArray** __retval)
 {
     *__retval = __this->ReadAllBytes();
 }
 
-// public string ReadAllText() :170
+// public string ReadAllText()
 void BundleFile__ReadAllText_fn(BundleFile* __this, uString** __retval)
 {
     *__retval = __this->ReadAllText();
 }
 
-// public generated string get_SourcePath() :37
+// public generated string get_SourcePath()
 void BundleFile__get_SourcePath_fn(BundleFile* __this, uString** __retval)
 {
     *__retval = __this->SourcePath();
 }
 
-// private generated void set_SourcePath(string value) :37
+// private generated void set_SourcePath(string value)
 void BundleFile__set_SourcePath_fn(BundleFile* __this, uString* value)
 {
     __this->SourcePath(value);
 }
 
-// public override sealed string ToString() :196
+// public override sealed string ToString()
 void BundleFile__ToString_fn(BundleFile* __this, uString** __retval)
 {
     return *__retval = __this->SourcePath(), void();
 }
 
-// internal BundleFile(Uno.IO.Bundle bundle, string sourcePath, [string bundlePath]) [instance] :73
+// internal BundleFile(Uno.IO.Bundle bundle, string sourcePath, [string bundlePath]) [instance]
 void BundleFile::ctor_(::g::Uno::IO::Bundle* bundle, uString* sourcePath, uString* bundlePath)
 {
     Bundle(bundle);
@@ -809,55 +811,55 @@ void BundleFile::ctor_(::g::Uno::IO::Bundle* bundle, uString* sourcePath, uStrin
     IsFile(false);
 }
 
-// public generated Uno.IO.Bundle get_Bundle() [instance] :34
+// public generated Uno.IO.Bundle get_Bundle() [instance]
 ::g::Uno::IO::Bundle* BundleFile::Bundle()
 {
     return _Bundle;
 }
 
-// private generated void set_Bundle(Uno.IO.Bundle value) [instance] :34
+// private generated void set_Bundle(Uno.IO.Bundle value) [instance]
 void BundleFile::Bundle(::g::Uno::IO::Bundle* value)
 {
     _Bundle = value;
 }
 
-// public generated string get_BundlePath() [instance] :38
+// public generated string get_BundlePath() [instance]
 uString* BundleFile::BundlePath()
 {
     return _BundlePath;
 }
 
-// private generated void set_BundlePath(string value) [instance] :38
+// private generated void set_BundlePath(string value) [instance]
 void BundleFile::BundlePath(uString* value)
 {
     _BundlePath = value;
 }
 
-// public generated void add_Changed(Uno.Action<Uno.IO.BundleFile> value) [instance] :31
+// public generated void add_Changed(Uno.Action<Uno.IO.BundleFile> value) [instance]
 void BundleFile::add_Changed(uDelegate* value)
 {
     Changed1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Changed1, value), ::TYPES[7/*Uno.Action<Uno.IO.BundleFile>*/]);
 }
 
-// public generated void remove_Changed(Uno.Action<Uno.IO.BundleFile> value) [instance] :31
+// public generated void remove_Changed(Uno.Action<Uno.IO.BundleFile> value) [instance]
 void BundleFile::remove_Changed(uDelegate* value)
 {
     Changed1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Changed1, value), ::TYPES[7/*Uno.Action<Uno.IO.BundleFile>*/]);
 }
 
-// public generated bool get_IsFile() [instance] :39
+// public generated bool get_IsFile() [instance]
 bool BundleFile::IsFile()
 {
     return _IsFile;
 }
 
-// private generated void set_IsFile(bool value) [instance] :39
+// private generated void set_IsFile(bool value) [instance]
 void BundleFile::IsFile(bool value)
 {
     _IsFile = value;
 }
 
-// public Uno.IO.Stream OpenRead() [instance] :85
+// public Uno.IO.Stream OpenRead() [instance]
 ::g::Uno::IO::Stream* BundleFile::OpenRead()
 {
     if (::g::Uno::String::op_Equality(BundlePath(), NULL))
@@ -866,7 +868,7 @@ void BundleFile::IsFile(bool value)
     return ::g::Uno::IO::AAssetStream::New1(BundlePath());
 }
 
-// public byte[] ReadAllBytes() [instance] :153
+// public byte[] ReadAllBytes() [instance]
 uArray* BundleFile::ReadAllBytes()
 {
     ::g::Uno::IO::Stream* stream = OpenRead();
@@ -899,25 +901,25 @@ uArray* BundleFile::ReadAllBytes()
     }
 }
 
-// public string ReadAllText() [instance] :170
+// public string ReadAllText() [instance]
 uString* BundleFile::ReadAllText()
 {
     return ::g::Uno::Text::Utf8::GetString(ReadAllBytes());
 }
 
-// public generated string get_SourcePath() [instance] :37
+// public generated string get_SourcePath() [instance]
 uString* BundleFile::SourcePath()
 {
     return _SourcePath;
 }
 
-// private generated void set_SourcePath(string value) [instance] :37
+// private generated void set_SourcePath(string value) [instance]
 void BundleFile::SourcePath(uString* value)
 {
     _SourcePath = value;
 }
 
-// internal BundleFile New(Uno.IO.Bundle bundle, string sourcePath, [string bundlePath]) [static] :73
+// internal BundleFile New(Uno.IO.Bundle bundle, string sourcePath, [string bundlePath]) [static]
 BundleFile* BundleFile::New1(::g::Uno::IO::Bundle* bundle, uString* sourcePath, uString* bundlePath)
 {
     BundleFile* obj1 = (BundleFile*)uNew(BundleFile_typeof());
@@ -926,10 +928,10 @@ BundleFile* BundleFile::New1(::g::Uno::IO::Bundle* bundle, uString* sourcePath, 
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Directory.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/Directory.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class Directory :29
+// public static class Directory
 // {
 static void Directory_build(uType* type)
 {
@@ -950,73 +952,73 @@ uClassType* Directory_typeof()
     return type;
 }
 
-// public static void CreateDirectory(string dirName) :283
+// public static void CreateDirectory(string dirName)
 void Directory__CreateDirectory_fn(uString* dirName)
 {
     Directory::CreateDirectory(dirName);
 }
 
-// public static void Delete(string dirName, bool recursive) :320
+// public static void Delete(string dirName, bool recursive)
 void Directory__Delete_fn(uString* dirName, bool* recursive)
 {
     Directory::Delete(dirName, *recursive);
 }
 
-// public static Uno.Collections.IEnumerable<string> EnumerateDirectories(string dirName) :392
+// public static Uno.Collections.IEnumerable<string> EnumerateDirectories(string dirName)
 void Directory__EnumerateDirectories_fn(uString* dirName, uObject** __retval)
 {
     *__retval = Directory::EnumerateDirectories(dirName);
 }
 
-// public static Uno.Collections.IEnumerable<string> EnumerateFiles(string dirName) :397
+// public static Uno.Collections.IEnumerable<string> EnumerateFiles(string dirName)
 void Directory__EnumerateFiles_fn(uString* dirName, uObject** __retval)
 {
     *__retval = Directory::EnumerateFiles(dirName);
 }
 
-// public static Uno.Collections.IEnumerable<string> EnumerateFileSystemEntries(string dirName) :402
+// public static Uno.Collections.IEnumerable<string> EnumerateFileSystemEntries(string dirName)
 void Directory__EnumerateFileSystemEntries_fn(uString* dirName, uObject** __retval)
 {
     *__retval = Directory::EnumerateFileSystemEntries(dirName);
 }
 
-// public static bool Exists(string dirName) :371
+// public static bool Exists(string dirName)
 void Directory__Exists_fn(uString* dirName, bool* __retval)
 {
     *__retval = Directory::Exists(dirName);
 }
 
-// public static string GetCurrentDirectory() :245
+// public static string GetCurrentDirectory()
 void Directory__GetCurrentDirectory_fn(uString** __retval)
 {
     *__retval = Directory::GetCurrentDirectory();
 }
 
-// private static extern string GetUserConfigDirectory() :158
+// private static extern string GetUserConfigDirectory()
 void Directory__GetUserConfigDirectory_fn(uString** __retval)
 {
     *__retval = Directory::GetUserConfigDirectory();
 }
 
-// private static extern string GetUserDataDirectory() :167
+// private static extern string GetUserDataDirectory()
 void Directory__GetUserDataDirectory_fn(uString** __retval)
 {
     *__retval = Directory::GetUserDataDirectory();
 }
 
-// public static string GetUserDirectory(Uno.IO.UserDirectory dir) :32
+// public static string GetUserDirectory(Uno.IO.UserDirectory dir)
 void Directory__GetUserDirectory_fn(int32_t* dir, uString** __retval)
 {
     *__retval = Directory::GetUserDirectory(*dir);
 }
 
-// public static void Move(string oldName, string newName) :348
+// public static void Move(string oldName, string newName)
 void Directory__Move_fn(uString* oldName, uString* newName)
 {
     Directory::Move(oldName, newName);
 }
 
-// public static void CreateDirectory(string dirName) [static] :283
+// public static void CreateDirectory(string dirName) [static]
 void Directory::CreateDirectory(uString* dirName)
 {
     if (::g::Uno::String::op_Equality(dirName, NULL))
@@ -1032,7 +1034,7 @@ void Directory::CreateDirectory(uString* dirName)
     U_THROW(::g::Uno::IO::IOException::New4(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(uString::Const("Unable to create directory '"), dirName), ::STRINGS[14/*"'"*/])));
 }
 
-// public static void Delete(string dirName, bool recursive) [static] :320
+// public static void Delete(string dirName, bool recursive) [static]
 void Directory::Delete(uString* dirName, bool recursive)
 {
     uString* ret3;
@@ -1108,25 +1110,25 @@ void Directory::Delete(uString* dirName, bool recursive)
         U_THROW(::g::Uno::IO::IOException::New4(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(uString::Const("Unable to delete directory '"), dirName), ::STRINGS[14/*"'"*/])));
 }
 
-// public static Uno.Collections.IEnumerable<string> EnumerateDirectories(string dirName) [static] :392
+// public static Uno.Collections.IEnumerable<string> EnumerateDirectories(string dirName) [static]
 uObject* Directory::EnumerateDirectories(uString* dirName)
 {
     return (uObject*)Directory__Enumerable::New1(dirName, 1);
 }
 
-// public static Uno.Collections.IEnumerable<string> EnumerateFiles(string dirName) [static] :397
+// public static Uno.Collections.IEnumerable<string> EnumerateFiles(string dirName) [static]
 uObject* Directory::EnumerateFiles(uString* dirName)
 {
     return (uObject*)Directory__Enumerable::New1(dirName, 2);
 }
 
-// public static Uno.Collections.IEnumerable<string> EnumerateFileSystemEntries(string dirName) [static] :402
+// public static Uno.Collections.IEnumerable<string> EnumerateFileSystemEntries(string dirName) [static]
 uObject* Directory::EnumerateFileSystemEntries(uString* dirName)
 {
     return (uObject*)Directory__Enumerable::New1(dirName, 0);
 }
 
-// public static bool Exists(string dirName) [static] :371
+// public static bool Exists(string dirName) [static]
 bool Directory::Exists(uString* dirName)
 {
     if (::g::Uno::String::op_Equality(dirName, NULL))
@@ -1137,7 +1139,7 @@ bool Directory::Exists(uString* dirName)
         S_ISDIR(attributes.st_mode);
 }
 
-// public static string GetCurrentDirectory() [static] :245
+// public static string GetCurrentDirectory() [static]
 uString* Directory::GetCurrentDirectory()
 {
     char buf[4096];
@@ -1147,7 +1149,7 @@ uString* Directory::GetCurrentDirectory()
     return uString::Utf8(buf);
 }
 
-// private static extern string GetUserConfigDirectory() [static] :158
+// private static extern string GetUserConfigDirectory() [static]
 uString* Directory::GetUserConfigDirectory()
 {
     {
@@ -1163,7 +1165,7 @@ uString* Directory::GetUserConfigDirectory()
     
 }
 
-// private static extern string GetUserDataDirectory() [static] :167
+// private static extern string GetUserDataDirectory() [static]
 uString* Directory::GetUserDataDirectory()
 {
     {
@@ -1179,7 +1181,7 @@ uString* Directory::GetUserDataDirectory()
     
 }
 
-// public static string GetUserDirectory(Uno.IO.UserDirectory dir) [static] :32
+// public static string GetUserDirectory(Uno.IO.UserDirectory dir) [static]
 uString* Directory::GetUserDirectory(int32_t dir)
 {
     switch (dir)
@@ -1195,7 +1197,7 @@ uString* Directory::GetUserDirectory(int32_t dir)
     U_THROW(::g::Uno::ArgumentOutOfRangeException::New6(uString::Const("dir")));
 }
 
-// public static void Move(string oldName, string newName) [static] :348
+// public static void Move(string oldName, string newName) [static]
 void Directory::Move(uString* oldName, uString* newName)
 {
     if (::g::Uno::String::op_Equality(oldName, NULL))
@@ -1212,10 +1214,10 @@ void Directory::Move(uString* oldName, uString* newName)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/DirectoryInfo.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/DirectoryInfo.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class DirectoryInfo :5
+// public sealed class DirectoryInfo
 // {
 static void DirectoryInfo_build(uType* type)
 {
@@ -1238,13 +1240,13 @@ static void DirectoryInfo_build(uType* type)
     return type;
 }
 
-// public DirectoryInfo(string originalPath) :7
+// public DirectoryInfo(string originalPath)
 void DirectoryInfo__ctor_1_fn(DirectoryInfo* __this, uString* originalPath)
 {
     __this->ctor_1(originalPath);
 }
 
-// internal override sealed extern Uno.IO.FileStatus LoadStatus() :18
+// internal override sealed extern Uno.IO.FileStatus LoadStatus()
 void DirectoryInfo__LoadStatus_fn(DirectoryInfo* __this, ::g::Uno::IO::FileStatus** __retval)
 {
     ::g::Uno::IO::FileStatus* ret2;
@@ -1256,19 +1258,19 @@ void DirectoryInfo__LoadStatus_fn(DirectoryInfo* __this, ::g::Uno::IO::FileStatu
     return *__retval = status, void();
 }
 
-// public DirectoryInfo New(string originalPath) :7
+// public DirectoryInfo New(string originalPath)
 void DirectoryInfo__New1_fn(uString* originalPath, DirectoryInfo** __retval)
 {
     *__retval = DirectoryInfo::New1(originalPath);
 }
 
-// public DirectoryInfo(string originalPath) [instance] :7
+// public DirectoryInfo(string originalPath) [instance]
 void DirectoryInfo::ctor_1(uString* originalPath)
 {
     ctor_(originalPath);
 }
 
-// public DirectoryInfo New(string originalPath) [static] :7
+// public DirectoryInfo New(string originalPath) [static]
 DirectoryInfo* DirectoryInfo::New1(uString* originalPath)
 {
     DirectoryInfo* obj1 = (DirectoryInfo*)uNew(DirectoryInfo_typeof());
@@ -1277,10 +1279,10 @@ DirectoryInfo* DirectoryInfo::New1(uString* originalPath)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Directory.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/Directory.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Directory.Enumerable :407
+// private sealed class Directory.Enumerable
 // {
 static void Directory__Enumerable_build(uType* type)
 {
@@ -1307,38 +1309,38 @@ Directory__Enumerable_type* Directory__Enumerable_typeof()
     return type;
 }
 
-// public Enumerable(string dirName, Uno.IO.Directory.EnumeratorMode mode) :412
+// public Enumerable(string dirName, Uno.IO.Directory.EnumeratorMode mode)
 void Directory__Enumerable__ctor__fn(Directory__Enumerable* __this, uString* dirName, int32_t* mode)
 {
     __this->ctor_(dirName, *mode);
 }
 
-// public Uno.Collections.IEnumerator<string> GetEnumerator() :418
+// public Uno.Collections.IEnumerator<string> GetEnumerator()
 void Directory__Enumerable__GetEnumerator_fn(Directory__Enumerable* __this, uObject** __retval)
 {
     *__retval = __this->GetEnumerator();
 }
 
-// public Enumerable New(string dirName, Uno.IO.Directory.EnumeratorMode mode) :412
+// public Enumerable New(string dirName, Uno.IO.Directory.EnumeratorMode mode)
 void Directory__Enumerable__New1_fn(uString* dirName, int32_t* mode, Directory__Enumerable** __retval)
 {
     *__retval = Directory__Enumerable::New1(dirName, *mode);
 }
 
-// public Enumerable(string dirName, Uno.IO.Directory.EnumeratorMode mode) [instance] :412
+// public Enumerable(string dirName, Uno.IO.Directory.EnumeratorMode mode) [instance]
 void Directory__Enumerable::ctor_(uString* dirName, int32_t mode)
 {
     _dirName = dirName;
     _mode = mode;
 }
 
-// public Uno.Collections.IEnumerator<string> GetEnumerator() [instance] :418
+// public Uno.Collections.IEnumerator<string> GetEnumerator() [instance]
 uObject* Directory__Enumerable::GetEnumerator()
 {
     return (uObject*)::g::Uno::IO::Directory__Enumerator::New1(_dirName, _mode);
 }
 
-// public Enumerable New(string dirName, Uno.IO.Directory.EnumeratorMode mode) [static] :412
+// public Enumerable New(string dirName, Uno.IO.Directory.EnumeratorMode mode) [static]
 Directory__Enumerable* Directory__Enumerable::New1(uString* dirName, int32_t mode)
 {
     Directory__Enumerable* obj1 = (Directory__Enumerable*)uNew(Directory__Enumerable_typeof());
@@ -1347,10 +1349,10 @@ Directory__Enumerable* Directory__Enumerable::New1(uString* dirName, int32_t mod
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Directory.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/Directory.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Directory.Enumerator :425
+// private sealed class Directory.Enumerator
 // {
 static void Directory__Enumerator_build(uType* type)
 {
@@ -1392,43 +1394,43 @@ Directory__Enumerator_type* Directory__Enumerator_typeof()
     return type;
 }
 
-// public Enumerator(string dirName, Uno.IO.Directory.EnumeratorMode mode) :436
+// public Enumerator(string dirName, Uno.IO.Directory.EnumeratorMode mode)
 void Directory__Enumerator__ctor__fn(Directory__Enumerator* __this, uString* dirName, int32_t* mode)
 {
     __this->ctor_(dirName, *mode);
 }
 
-// public string get_Current() :434
+// public string get_Current()
 void Directory__Enumerator__get_Current_fn(Directory__Enumerator* __this, uString** __retval)
 {
     *__retval = __this->Current();
 }
 
-// public void Dispose() :458
+// public void Dispose()
 void Directory__Enumerator__Dispose_fn(Directory__Enumerator* __this)
 {
     __this->Dispose();
 }
 
-// public bool MoveNext() :485
+// public bool MoveNext()
 void Directory__Enumerator__MoveNext_fn(Directory__Enumerator* __this, bool* __retval)
 {
     *__retval = __this->MoveNext();
 }
 
-// public Enumerator New(string dirName, Uno.IO.Directory.EnumeratorMode mode) :436
+// public Enumerator New(string dirName, Uno.IO.Directory.EnumeratorMode mode)
 void Directory__Enumerator__New1_fn(uString* dirName, int32_t* mode, Directory__Enumerator** __retval)
 {
     *__retval = Directory__Enumerator::New1(dirName, *mode);
 }
 
-// public void Reset() :469
+// public void Reset()
 void Directory__Enumerator__Reset_fn(Directory__Enumerator* __this)
 {
     __this->Reset();
 }
 
-// public Enumerator(string dirName, Uno.IO.Directory.EnumeratorMode mode) [instance] :436
+// public Enumerator(string dirName, Uno.IO.Directory.EnumeratorMode mode) [instance]
 void Directory__Enumerator::ctor_(uString* dirName, int32_t mode)
 {
     if (::g::Uno::String::op_Equality(dirName, NULL))
@@ -1443,19 +1445,19 @@ void Directory__Enumerator::ctor_(uString* dirName, int32_t mode)
     _prefix = (::g::Uno::String::op_Inequality(dirName, ::STRINGS[9/*"."*/]) ? (uString*)::g::Uno::String::op_Addition1(dirName, uBox<char16_t>(::g::Uno::Char_typeof(), ::g::Uno::IO::Path::DirectorySeparatorChar())) : ::STRINGS[10/*""*/]);
 }
 
-// public string get_Current() [instance] :434
+// public string get_Current() [instance]
 uString* Directory__Enumerator::Current()
 {
     return _current;
 }
 
-// public void Dispose() [instance] :458
+// public void Dispose() [instance]
 void Directory__Enumerator::Dispose()
 {
     Reset();
 }
 
-// public bool MoveNext() [instance] :485
+// public bool MoveNext() [instance]
 bool Directory__Enumerator::MoveNext()
 {
     if (::g::Uno::IntPtr::op_Equality(_handle, ::g::Uno::IntPtr::Zero_))
@@ -1493,7 +1495,7 @@ bool Directory__Enumerator::MoveNext()
     return false;
 }
 
-// public void Reset() [instance] :469
+// public void Reset() [instance]
 void Directory__Enumerator::Reset()
 {
     _current = NULL;
@@ -1501,7 +1503,7 @@ void Directory__Enumerator::Reset()
     this->_handle = NULL;
 }
 
-// public Enumerator New(string dirName, Uno.IO.Directory.EnumeratorMode mode) [static] :436
+// public Enumerator New(string dirName, Uno.IO.Directory.EnumeratorMode mode) [static]
 Directory__Enumerator* Directory__Enumerator::New1(uString* dirName, int32_t mode)
 {
     Directory__Enumerator* obj1 = (Directory__Enumerator*)uNew(Directory__Enumerator_typeof());
@@ -1510,10 +1512,10 @@ Directory__Enumerator* Directory__Enumerator::New1(uString* dirName, int32_t mod
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Directory.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/Directory.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private enum Directory.EnumeratorMode :563
+// private enum Directory.EnumeratorMode
 uEnumType* Directory__EnumeratorMode_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -1527,10 +1529,10 @@ uEnumType* Directory__EnumeratorMode_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/File.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/File.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class File :14
+// public static class File
 // {
 static void File_build(uType* type)
 {
@@ -1562,79 +1564,79 @@ uClassType* File_typeof()
     return type;
 }
 
-// public static void AppendAllText(string filename, string contents) :173
+// public static void AppendAllText(string filename, string contents)
 void File__AppendAllText_fn(uString* filename, uString* contents)
 {
     File::AppendAllText(filename, contents);
 }
 
-// public static void Copy(string sourceFile, string destinationFile) :57
+// public static void Copy(string sourceFile, string destinationFile)
 void File__Copy_fn(uString* sourceFile, uString* destinationFile)
 {
     File::Copy(sourceFile, destinationFile);
 }
 
-// public static void Copy(string sourceFile, string destinationFile, bool overwrite) :62
+// public static void Copy(string sourceFile, string destinationFile, bool overwrite)
 void File__Copy1_fn(uString* sourceFile, uString* destinationFile, bool* overwrite)
 {
     File::Copy1(sourceFile, destinationFile, *overwrite);
 }
 
-// public static void Delete(string filename) :37
+// public static void Delete(string filename)
 void File__Delete_fn(uString* filename)
 {
     File::Delete(filename);
 }
 
-// public static bool Exists(string filename) :143
+// public static bool Exists(string filename)
 void File__Exists_fn(uString* filename, bool* __retval)
 {
     *__retval = File::Exists(filename);
 }
 
-// public static void Move(string oldName, string newName) :120
+// public static void Move(string oldName, string newName)
 void File__Move_fn(uString* oldName, uString* newName)
 {
     File::Move(oldName, newName);
 }
 
-// public static Uno.IO.FileStream Open(string filename, Uno.IO.FileMode filemode) :16
+// public static Uno.IO.FileStream Open(string filename, Uno.IO.FileMode filemode)
 void File__Open_fn(uString* filename, int32_t* filemode, ::g::Uno::IO::FileStream** __retval)
 {
     *__retval = File::Open(filename, *filemode);
 }
 
-// public static Uno.IO.FileStream OpenRead(string filename) :21
+// public static Uno.IO.FileStream OpenRead(string filename)
 void File__OpenRead_fn(uString* filename, ::g::Uno::IO::FileStream** __retval)
 {
     *__retval = File::OpenRead(filename);
 }
 
-// public static byte[] ReadAllBytes(string filename) :194
+// public static byte[] ReadAllBytes(string filename)
 void File__ReadAllBytes_fn(uString* filename, uArray** __retval)
 {
     *__retval = File::ReadAllBytes(filename);
 }
 
-// public static string ReadAllText(string filename) :179
+// public static string ReadAllText(string filename)
 void File__ReadAllText_fn(uString* filename, uString** __retval)
 {
     *__retval = File::ReadAllText(filename);
 }
 
-// public static void WriteAllBytes(string filename, byte[] bytes) :210
+// public static void WriteAllBytes(string filename, byte[] bytes)
 void File__WriteAllBytes_fn(uString* filename, uArray* bytes)
 {
     File::WriteAllBytes(filename, bytes);
 }
 
-// public static void WriteAllText(string filename, string text) :204
+// public static void WriteAllText(string filename, string text)
 void File__WriteAllText_fn(uString* filename, uString* text)
 {
     File::WriteAllText(filename, text);
 }
 
-// public static void AppendAllText(string filename, string contents) [static] :173
+// public static void AppendAllText(string filename, string contents) [static]
 void File::AppendAllText(uString* filename, uString* contents)
 {
     ::g::Uno::IO::StreamWriter* w = ::g::Uno::IO::StreamWriter::New1(File::Open(filename, 6));
@@ -1663,13 +1665,13 @@ void File::AppendAllText(uString* filename, uString* contents)
     }
 }
 
-// public static void Copy(string sourceFile, string destinationFile) [static] :57
+// public static void Copy(string sourceFile, string destinationFile) [static]
 void File::Copy(uString* sourceFile, uString* destinationFile)
 {
     File::Copy1(sourceFile, destinationFile, false);
 }
 
-// public static void Copy(string sourceFile, string destinationFile, bool overwrite) [static] :62
+// public static void Copy(string sourceFile, string destinationFile, bool overwrite) [static]
 void File::Copy1(uString* sourceFile, uString* destinationFile, bool overwrite)
 {
     if (::g::Uno::String::op_Equality(sourceFile, NULL))
@@ -1704,15 +1706,16 @@ void File::Copy1(uString* sourceFile, uString* destinationFile, bool overwrite)
 
     char buf[BUFSIZ];
     size_t size = 0;
+    ssize_t res;
     
     while ((size = read(source, buf, BUFSIZ)) > 0)
-        write(destination, buf, size);
+        res = write(destination, buf, size);
     
     close(source);
     close(destination);
 }
 
-// public static void Delete(string filename) [static] :37
+// public static void Delete(string filename) [static]
 void File::Delete(uString* filename)
 {
     if (::g::Uno::String::op_Equality(filename, NULL))
@@ -1724,7 +1727,7 @@ void File::Delete(uString* filename)
         U_THROW(::g::Uno::IO::IOException::New4(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::STRINGS[17/*"Unable to d...*/], filename), ::STRINGS[14/*"'"*/])));
 }
 
-// public static bool Exists(string filename) [static] :143
+// public static bool Exists(string filename) [static]
 bool File::Exists(uString* filename)
 {
     if (::g::Uno::String::op_Equality(filename, NULL))
@@ -1735,7 +1738,7 @@ bool File::Exists(uString* filename)
         !S_ISDIR(attributes.st_mode);
 }
 
-// public static void Move(string oldName, string newName) [static] :120
+// public static void Move(string oldName, string newName) [static]
 void File::Move(uString* oldName, uString* newName)
 {
     if (::g::Uno::String::op_Equality(oldName, NULL))
@@ -1751,19 +1754,19 @@ void File::Move(uString* oldName, uString* newName)
         U_THROW(::g::Uno::IO::IOException::New4(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::STRINGS[20/*"Unable to m...*/], oldName), ::STRINGS[21/*"' to '"*/]), newName), ::STRINGS[14/*"'"*/])));
 }
 
-// public static Uno.IO.FileStream Open(string filename, Uno.IO.FileMode filemode) [static] :16
+// public static Uno.IO.FileStream Open(string filename, Uno.IO.FileMode filemode) [static]
 ::g::Uno::IO::FileStream* File::Open(uString* filename, int32_t filemode)
 {
     return ::g::Uno::IO::FileStream::New1(filename, filemode);
 }
 
-// public static Uno.IO.FileStream OpenRead(string filename) [static] :21
+// public static Uno.IO.FileStream OpenRead(string filename) [static]
 ::g::Uno::IO::FileStream* File::OpenRead(uString* filename)
 {
     return ::g::Uno::IO::FileStream::New2(::g::Uno::IO::FILEPtr::OpenOrThrow(filename, ::STRINGS[22/*"rb"*/]), true, false);
 }
 
-// public static byte[] ReadAllBytes(string filename) [static] :194
+// public static byte[] ReadAllBytes(string filename) [static]
 uArray* File::ReadAllBytes(uString* filename)
 {
     ::g::Uno::IO::FileStream* f = File::Open(filename, 3);
@@ -1796,7 +1799,7 @@ uArray* File::ReadAllBytes(uString* filename)
     }
 }
 
-// public static string ReadAllText(string filename) [static] :179
+// public static string ReadAllText(string filename) [static]
 uString* File::ReadAllText(uString* filename)
 {
     ::g::Uno::IO::StreamReader* r = ::g::Uno::IO::StreamReader::New1(File::Open(filename, 3));
@@ -1827,7 +1830,7 @@ uString* File::ReadAllText(uString* filename)
     }
 }
 
-// public static void WriteAllBytes(string filename, byte[] bytes) [static] :210
+// public static void WriteAllBytes(string filename, byte[] bytes) [static]
 void File::WriteAllBytes(uString* filename, uArray* bytes)
 {
     ::g::Uno::IO::FileStream* f = File::Open(filename, 2);
@@ -1856,7 +1859,7 @@ void File::WriteAllBytes(uString* filename, uArray* bytes)
     }
 }
 
-// public static void WriteAllText(string filename, string text) [static] :204
+// public static void WriteAllText(string filename, string text) [static]
 void File::WriteAllText(uString* filename, uString* text)
 {
     ::g::Uno::IO::StreamWriter* w = ::g::Uno::IO::StreamWriter::New1(File::Open(filename, 2));
@@ -1886,10 +1889,10 @@ void File::WriteAllText(uString* filename, uString* text)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/FileAttributes.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/FileAttributes.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum FileAttributes :3
+// public enum FileAttributes
 uEnumType* FileAttributes_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -1903,10 +1906,10 @@ uEnumType* FileAttributes_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/FileInfo.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/FileInfo.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class FileInfo :5
+// public sealed class FileInfo
 // {
 static void FileInfo_build(uType* type)
 {
@@ -1929,19 +1932,19 @@ static void FileInfo_build(uType* type)
     return type;
 }
 
-// public FileInfo(string originalPath) :10
+// public FileInfo(string originalPath)
 void FileInfo__ctor_1_fn(FileInfo* __this, uString* originalPath)
 {
     __this->ctor_1(originalPath);
 }
 
-// public long get_Length() :34
+// public long get_Length()
 void FileInfo__get_Length_fn(FileInfo* __this, int64_t* __retval)
 {
     *__retval = __this->Length();
 }
 
-// internal override sealed extern Uno.IO.FileStatus LoadStatus() :21
+// internal override sealed extern Uno.IO.FileStatus LoadStatus()
 void FileInfo__LoadStatus_fn(FileInfo* __this, ::g::Uno::IO::FileStatus** __retval)
 {
     ::g::Uno::IO::FileStatus* ret2;
@@ -1953,25 +1956,25 @@ void FileInfo__LoadStatus_fn(FileInfo* __this, ::g::Uno::IO::FileStatus** __retv
     return *__retval = status, void();
 }
 
-// public FileInfo New(string originalPath) :10
+// public FileInfo New(string originalPath)
 void FileInfo__New1_fn(uString* originalPath, FileInfo** __retval)
 {
     *__retval = FileInfo::New1(originalPath);
 }
 
-// public FileInfo(string originalPath) [instance] :10
+// public FileInfo(string originalPath) [instance]
 void FileInfo::ctor_1(uString* originalPath)
 {
     ctor_(originalPath);
 }
 
-// public long get_Length() [instance] :34
+// public long get_Length() [instance]
 int64_t FileInfo::Length()
 {
     return uPtr(Status())->Length();
 }
 
-// public FileInfo New(string originalPath) [static] :10
+// public FileInfo New(string originalPath) [static]
 FileInfo* FileInfo::New1(uString* originalPath)
 {
     FileInfo* obj1 = (FileInfo*)uNew(FileInfo_typeof());
@@ -1980,10 +1983,10 @@ FileInfo* FileInfo::New1(uString* originalPath)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/FileMode.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/FileMode.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum FileMode :6
+// public enum FileMode
 uEnumType* FileMode_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -2000,10 +2003,10 @@ uEnumType* FileMode_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/IOException.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/IOException.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class FileNotFoundException :24
+// public sealed class FileNotFoundException
 // {
 static void FileNotFoundException_build(uType* type)
 {
@@ -2026,50 +2029,50 @@ static void FileNotFoundException_build(uType* type)
     return type;
 }
 
-// public FileNotFoundException(string message, string filename) :28
+// public FileNotFoundException(string message, string filename)
 void FileNotFoundException__ctor_4_fn(FileNotFoundException* __this, uString* message, uString* filename)
 {
     __this->ctor_4(message, filename);
 }
 
-// public generated string get_FileName() :26
+// public generated string get_FileName()
 void FileNotFoundException__get_FileName_fn(FileNotFoundException* __this, uString** __retval)
 {
     *__retval = __this->FileName();
 }
 
-// private generated void set_FileName(string value) :26
+// private generated void set_FileName(string value)
 void FileNotFoundException__set_FileName_fn(FileNotFoundException* __this, uString* value)
 {
     __this->FileName(value);
 }
 
-// public FileNotFoundException New(string message, string filename) :28
+// public FileNotFoundException New(string message, string filename)
 void FileNotFoundException__New5_fn(uString* message, uString* filename, FileNotFoundException** __retval)
 {
     *__retval = FileNotFoundException::New5(message, filename);
 }
 
-// public FileNotFoundException(string message, string filename) [instance] :28
+// public FileNotFoundException(string message, string filename) [instance]
 void FileNotFoundException::ctor_4(uString* message, uString* filename)
 {
     ctor_3(message);
     FileName(filename);
 }
 
-// public generated string get_FileName() [instance] :26
+// public generated string get_FileName() [instance]
 uString* FileNotFoundException::FileName()
 {
     return _FileName;
 }
 
-// private generated void set_FileName(string value) [instance] :26
+// private generated void set_FileName(string value) [instance]
 void FileNotFoundException::FileName(uString* value)
 {
     _FileName = value;
 }
 
-// public FileNotFoundException New(string message, string filename) [static] :28
+// public FileNotFoundException New(string message, string filename) [static]
 FileNotFoundException* FileNotFoundException::New5(uString* message, uString* filename)
 {
     FileNotFoundException* obj1 = (FileNotFoundException*)uNew(FileNotFoundException_typeof());
@@ -2078,10 +2081,10 @@ FileNotFoundException* FileNotFoundException::New5(uString* message, uString* fi
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/FileStream.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/FileStream.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal extern struct FILEPtr :9
+// internal extern struct FILEPtr
 // {
 static void FILEPtr_build(uType* type)
 {
@@ -2095,6 +2098,7 @@ uStructType* FILEPtr_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.Alignment = alignof(FILE*);
     options.ValueSize = sizeof(FILE*);
     options.TypeSize = sizeof(uStructType);
@@ -2103,19 +2107,19 @@ uStructType* FILEPtr_typeof()
     return type;
 }
 
-// public static Uno.IO.FILEPtr OpenOrThrow(string filename, string mode) :12
+// public static Uno.IO.FILEPtr OpenOrThrow(string filename, string mode)
 void FILEPtr__OpenOrThrow_fn(uString* filename, uString* mode, FILE** __retval)
 {
     *__retval = FILEPtr::OpenOrThrow(filename, mode);
 }
 
-// private static void Throw(string filename) :33
+// private static void Throw(string filename)
 void FILEPtr__Throw_fn(uString* filename)
 {
     FILEPtr::Throw(filename);
 }
 
-// public static Uno.IO.FILEPtr OpenOrThrow(string filename, string mode) [static] :12
+// public static Uno.IO.FILEPtr OpenOrThrow(string filename, string mode) [static]
 FILE* FILEPtr::OpenOrThrow(uString* filename, uString* mode)
 {
     if (::g::Uno::String::op_Equality(filename, NULL))
@@ -2127,19 +2131,19 @@ FILE* FILEPtr::OpenOrThrow(uString* filename, uString* mode)
     return retval;
 }
 
-// private static void Throw(string filename) [static] :33
+// private static void Throw(string filename) [static]
 void FILEPtr::Throw(uString* filename)
 {
     U_THROW(::g::Uno::IO::FileNotFoundException::New5(::g::Uno::String::op_Addition2(::STRINGS[23/*"Can't open ...*/], filename), filename));
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/FileStatus.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/FileStatus.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class FileStatus :6
+// internal sealed class FileStatus
 // {
-// static generated FileStatus() :6
+// static generated FileStatus()
 static void FileStatus__cctor__fn(uType* __type)
 {
     FileStatus::FileTimeEpoch_ = ::g::Uno::Time::Instant__FromUtc(1601, 1, 1, 0, 0);
@@ -2176,55 +2180,55 @@ uType* FileStatus_typeof()
     return type;
 }
 
-// public FileStatus() :18
+// public FileStatus()
 void FileStatus__ctor__fn(FileStatus* __this)
 {
     __this->ctor_();
 }
 
-// public FileStatus(long length, Uno.IO.FileAttributes attributes, Uno.Time.ZonedDateTime creationTimeUtc, Uno.Time.ZonedDateTime lastAccessTimeUtc, Uno.Time.ZonedDateTime lastWriteTimeUtc) :34
+// public FileStatus(long length, Uno.IO.FileAttributes attributes, Uno.Time.ZonedDateTime creationTimeUtc, Uno.Time.ZonedDateTime lastAccessTimeUtc, Uno.Time.ZonedDateTime lastWriteTimeUtc)
 void FileStatus__ctor_1_fn(FileStatus* __this, int64_t* length, int32_t* attributes, ::g::Uno::Time::ZonedDateTime* creationTimeUtc, ::g::Uno::Time::ZonedDateTime* lastAccessTimeUtc, ::g::Uno::Time::ZonedDateTime* lastWriteTimeUtc)
 {
     __this->ctor_1(*length, *attributes, creationTimeUtc, lastAccessTimeUtc, lastWriteTimeUtc);
 }
 
-// public Uno.IO.FileAttributes get_Attributes() :55
+// public Uno.IO.FileAttributes get_Attributes()
 void FileStatus__get_Attributes_fn(FileStatus* __this, int32_t* __retval)
 {
     *__retval = __this->Attributes();
 }
 
-// public bool get_Exists() :53
+// public bool get_Exists()
 void FileStatus__get_Exists_fn(FileStatus* __this, bool* __retval)
 {
     *__retval = __this->Exists();
 }
 
-// public Uno.Time.ZonedDateTime get_LastAccessTimeUtc() :57
+// public Uno.Time.ZonedDateTime get_LastAccessTimeUtc()
 void FileStatus__get_LastAccessTimeUtc_fn(FileStatus* __this, ::g::Uno::Time::ZonedDateTime** __retval)
 {
     *__retval = __this->LastAccessTimeUtc();
 }
 
-// public Uno.Time.ZonedDateTime get_LastWriteTimeUtc() :59
+// public Uno.Time.ZonedDateTime get_LastWriteTimeUtc()
 void FileStatus__get_LastWriteTimeUtc_fn(FileStatus* __this, ::g::Uno::Time::ZonedDateTime** __retval)
 {
     *__retval = __this->LastWriteTimeUtc();
 }
 
-// public long get_Length() :61
+// public long get_Length()
 void FileStatus__get_Length_fn(FileStatus* __this, int64_t* __retval)
 {
     *__retval = __this->Length();
 }
 
-// public FileStatus New() :18
+// public FileStatus New()
 void FileStatus__New1_fn(FileStatus** __retval)
 {
     *__retval = FileStatus::New1();
 }
 
-// public FileStatus New(long length, Uno.IO.FileAttributes attributes, Uno.Time.ZonedDateTime creationTimeUtc, Uno.Time.ZonedDateTime lastAccessTimeUtc, Uno.Time.ZonedDateTime lastWriteTimeUtc) :34
+// public FileStatus New(long length, Uno.IO.FileAttributes attributes, Uno.Time.ZonedDateTime creationTimeUtc, Uno.Time.ZonedDateTime lastAccessTimeUtc, Uno.Time.ZonedDateTime lastWriteTimeUtc)
 void FileStatus__New2_fn(int64_t* length, int32_t* attributes, ::g::Uno::Time::ZonedDateTime* creationTimeUtc, ::g::Uno::Time::ZonedDateTime* lastAccessTimeUtc, ::g::Uno::Time::ZonedDateTime* lastWriteTimeUtc, FileStatus** __retval)
 {
     *__retval = FileStatus::New2(*length, *attributes, creationTimeUtc, lastAccessTimeUtc, lastWriteTimeUtc);
@@ -2232,7 +2236,7 @@ void FileStatus__New2_fn(int64_t* length, int32_t* attributes, ::g::Uno::Time::Z
 
 ::g::Uno::Time::Instant FileStatus::FileTimeEpoch_;
 
-// public FileStatus() [instance] :18
+// public FileStatus() [instance]
 void FileStatus::ctor_()
 {
     ::g::Uno::Time::ZonedDateTime* defaultTime = ::g::Uno::Time::ZonedDateTime::New1(FileStatus::FileTimeEpoch_, ::g::Uno::Time::DateTimeZone::Utc());
@@ -2243,7 +2247,7 @@ void FileStatus::ctor_()
     _attributes = -1;
 }
 
-// public FileStatus(long length, Uno.IO.FileAttributes attributes, Uno.Time.ZonedDateTime creationTimeUtc, Uno.Time.ZonedDateTime lastAccessTimeUtc, Uno.Time.ZonedDateTime lastWriteTimeUtc) [instance] :34
+// public FileStatus(long length, Uno.IO.FileAttributes attributes, Uno.Time.ZonedDateTime creationTimeUtc, Uno.Time.ZonedDateTime lastAccessTimeUtc, Uno.Time.ZonedDateTime lastWriteTimeUtc) [instance]
 void FileStatus::ctor_1(int64_t length, int32_t attributes, ::g::Uno::Time::ZonedDateTime* creationTimeUtc, ::g::Uno::Time::ZonedDateTime* lastAccessTimeUtc, ::g::Uno::Time::ZonedDateTime* lastWriteTimeUtc)
 {
     _length = length;
@@ -2254,37 +2258,37 @@ void FileStatus::ctor_1(int64_t length, int32_t attributes, ::g::Uno::Time::Zone
     _exists = true;
 }
 
-// public Uno.IO.FileAttributes get_Attributes() [instance] :55
+// public Uno.IO.FileAttributes get_Attributes() [instance]
 int32_t FileStatus::Attributes()
 {
     return _attributes;
 }
 
-// public bool get_Exists() [instance] :53
+// public bool get_Exists() [instance]
 bool FileStatus::Exists()
 {
     return _exists;
 }
 
-// public Uno.Time.ZonedDateTime get_LastAccessTimeUtc() [instance] :57
+// public Uno.Time.ZonedDateTime get_LastAccessTimeUtc() [instance]
 ::g::Uno::Time::ZonedDateTime* FileStatus::LastAccessTimeUtc()
 {
     return _lastAccessTimeUtc;
 }
 
-// public Uno.Time.ZonedDateTime get_LastWriteTimeUtc() [instance] :59
+// public Uno.Time.ZonedDateTime get_LastWriteTimeUtc() [instance]
 ::g::Uno::Time::ZonedDateTime* FileStatus::LastWriteTimeUtc()
 {
     return _lastWriteTimeUtc;
 }
 
-// public long get_Length() [instance] :61
+// public long get_Length() [instance]
 int64_t FileStatus::Length()
 {
     return _length;
 }
 
-// public FileStatus New() [static] :18
+// public FileStatus New() [static]
 FileStatus* FileStatus::New1()
 {
     FileStatus* obj1 = (FileStatus*)uNew(FileStatus_typeof());
@@ -2292,7 +2296,7 @@ FileStatus* FileStatus::New1()
     return obj1;
 }
 
-// public FileStatus New(long length, Uno.IO.FileAttributes attributes, Uno.Time.ZonedDateTime creationTimeUtc, Uno.Time.ZonedDateTime lastAccessTimeUtc, Uno.Time.ZonedDateTime lastWriteTimeUtc) [static] :34
+// public FileStatus New(long length, Uno.IO.FileAttributes attributes, Uno.Time.ZonedDateTime creationTimeUtc, Uno.Time.ZonedDateTime lastAccessTimeUtc, Uno.Time.ZonedDateTime lastWriteTimeUtc) [static]
 FileStatus* FileStatus::New2(int64_t length, int32_t attributes, ::g::Uno::Time::ZonedDateTime* creationTimeUtc, ::g::Uno::Time::ZonedDateTime* lastAccessTimeUtc, ::g::Uno::Time::ZonedDateTime* lastWriteTimeUtc)
 {
     FileStatus* obj2 = (FileStatus*)uNew(FileStatus_typeof());
@@ -2301,10 +2305,10 @@ FileStatus* FileStatus::New2(int64_t length, int32_t attributes, ::g::Uno::Time:
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/FileStatusHelpers.Unix.uno
-// ------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/FileStatusHelpers.Unix.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static extern class FileStatusHelpers :10
+// internal static extern class FileStatusHelpers
 // {
 static void FileStatusHelpers_build(uType* type)
 {
@@ -2325,19 +2329,19 @@ uClassType* FileStatusHelpers_typeof()
     return type;
 }
 
-// public static extern Uno.IO.FileStatus GetFileStatus(string path) :18
+// public static extern Uno.IO.FileStatus GetFileStatus(string path)
 void FileStatusHelpers__GetFileStatus_fn(uString* path, ::g::Uno::IO::FileStatus** __retval)
 {
     *__retval = FileStatusHelpers::GetFileStatus(path);
 }
 
-// private static extern Uno.Time.ZonedDateTime UnixTimeToZoned(long sec) :12
+// private static extern Uno.Time.ZonedDateTime UnixTimeToZoned(long sec)
 void FileStatusHelpers__UnixTimeToZoned_fn(int64_t* sec, ::g::Uno::Time::ZonedDateTime** __retval)
 {
     *__retval = FileStatusHelpers::UnixTimeToZoned(*sec);
 }
 
-// public static extern Uno.IO.FileStatus GetFileStatus(string path) [static] :18
+// public static extern Uno.IO.FileStatus GetFileStatus(string path) [static]
 ::g::Uno::IO::FileStatus* FileStatusHelpers::GetFileStatus(uString* path)
 {
     struct stat s;
@@ -2376,7 +2380,7 @@ void FileStatusHelpers__UnixTimeToZoned_fn(int64_t* sec, ::g::Uno::Time::ZonedDa
     return ::g::Uno::IO::FileStatus::New2(s.st_size, attributes, lastWriteTime, lastAccessTime, lastWriteTime);
 }
 
-// private static extern Uno.Time.ZonedDateTime UnixTimeToZoned(long sec) [static] :12
+// private static extern Uno.Time.ZonedDateTime UnixTimeToZoned(long sec) [static]
 ::g::Uno::Time::ZonedDateTime* FileStatusHelpers::UnixTimeToZoned(int64_t sec)
 {
     int64_t ticks = sec * 10000000LL;
@@ -2384,10 +2388,10 @@ void FileStatusHelpers__UnixTimeToZoned_fn(int64_t* sec, ::g::Uno::Time::ZonedDa
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/FileStream.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/FileStream.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class FileStream :40
+// public sealed class FileStream
 // {
 static void FileStream_build(uType* type)
 {
@@ -2432,25 +2436,25 @@ static void FileStream_build(uType* type)
     return type;
 }
 
-// public FileStream(string filename, Uno.IO.FileMode mode) :45
+// public FileStream(string filename, Uno.IO.FileMode mode)
 void FileStream__ctor_1_fn(FileStream* __this, uString* filename, int32_t* mode)
 {
     __this->ctor_1(filename, *mode);
 }
 
-// internal extern FileStream(Uno.IO.FILEPtr fp, bool canRead, bool canWrite) :54
+// internal extern FileStream(Uno.IO.FILEPtr fp, bool canRead, bool canWrite)
 void FileStream__ctor_2_fn(FileStream* __this, FILE** fp, bool* canRead, bool* canWrite)
 {
     __this->ctor_2(*fp, *canRead, *canWrite);
 }
 
-// private void CheckDisposed() :250
+// private void CheckDisposed()
 void FileStream__CheckDisposed_fn(FileStream* __this)
 {
     __this->CheckDisposed();
 }
 
-// public override sealed void Dispose(bool disposing) :239
+// public override sealed void Dispose(bool disposing)
 void FileStream__Dispose1_fn(FileStream* __this, bool* disposing)
 {
     bool disposing_ = *disposing;
@@ -2460,20 +2464,20 @@ void FileStream__Dispose1_fn(FileStream* __this, bool* disposing)
     __this->_fp = NULL;
 }
 
-// public override sealed void Flush() :232
+// public override sealed void Flush()
 void FileStream__Flush_fn(FileStream* __this)
 {
     __this->CheckDisposed();
     fflush(__this->_fp);
 }
 
-// private extern string GetNativeFileMode(string filename, Uno.IO.FileMode mode) :62
+// private extern string GetNativeFileMode(string filename, Uno.IO.FileMode mode)
 void FileStream__GetNativeFileMode_fn(FileStream* __this, uString* filename, int32_t* mode, uString** __retval)
 {
     *__retval = __this->GetNativeFileMode(filename, *mode);
 }
 
-// public override sealed long get_Length() :132
+// public override sealed long get_Length()
 void FileStream__get_Length_fn(FileStream* __this, int64_t* __retval)
 {
     __this->CheckDisposed();
@@ -2484,19 +2488,19 @@ void FileStream__get_Length_fn(FileStream* __this, int64_t* __retval)
     return *__retval = l, void();
 }
 
-// public FileStream New(string filename, Uno.IO.FileMode mode) :45
+// public FileStream New(string filename, Uno.IO.FileMode mode)
 void FileStream__New1_fn(uString* filename, int32_t* mode, FileStream** __retval)
 {
     *__retval = FileStream::New1(filename, *mode);
 }
 
-// internal extern FileStream New(Uno.IO.FILEPtr fp, bool canRead, bool canWrite) :54
+// internal extern FileStream New(Uno.IO.FILEPtr fp, bool canRead, bool canWrite)
 void FileStream__New2_fn(FILE** fp, bool* canRead, bool* canWrite, FileStream** __retval)
 {
     *__retval = FileStream::New2(*fp, *canRead, *canWrite);
 }
 
-// public override sealed int Read(byte[] dst, int byteOffset, int byteCount) :169
+// public override sealed int Read(byte[] dst, int byteOffset, int byteCount)
 void FileStream__Read_fn(FileStream* __this, uArray* dst, int32_t* byteOffset, int32_t* byteCount, int32_t* __retval)
 {
     int32_t byteOffset_ = *byteOffset;
@@ -2511,13 +2515,13 @@ void FileStream__Read_fn(FileStream* __this, uArray* dst, int32_t* byteOffset, i
     return *__retval = (int)fread((uint8_t*)dst->Ptr() + byteOffset_, 1, byteCount_, __this->_fp), void();
 }
 
-// public long Seek(long byteOffset, Uno.IO.SeekOrigin origin) :206
+// public long Seek(long byteOffset, Uno.IO.SeekOrigin origin)
 void FileStream__Seek_fn(FileStream* __this, int64_t* byteOffset, int32_t* origin, int64_t* __retval)
 {
     *__retval = __this->Seek(*byteOffset, *origin);
 }
 
-// public override sealed void Write(byte[] src, int byteOffset, int byteCount) :185
+// public override sealed void Write(byte[] src, int byteOffset, int byteCount)
 void FileStream__Write_fn(FileStream* __this, uArray* src, int32_t* byteOffset, int32_t* byteCount)
 {
     int32_t byteOffset_ = *byteOffset;
@@ -2535,14 +2539,14 @@ void FileStream__Write_fn(FileStream* __this, uArray* src, int32_t* byteOffset, 
         U_THROW(::g::Uno::IO::IOException::New4(::STRINGS[34/*"Error while...*/]));
 }
 
-// public FileStream(string filename, Uno.IO.FileMode mode) [instance] :45
+// public FileStream(string filename, Uno.IO.FileMode mode) [instance]
 void FileStream::ctor_1(uString* filename, int32_t mode)
 {
     ctor_();
     _fp = ::g::Uno::IO::FILEPtr::OpenOrThrow(filename, GetNativeFileMode(filename, mode));
 }
 
-// internal extern FileStream(Uno.IO.FILEPtr fp, bool canRead, bool canWrite) [instance] :54
+// internal extern FileStream(Uno.IO.FILEPtr fp, bool canRead, bool canWrite) [instance]
 void FileStream::ctor_2(FILE* fp, bool canRead, bool canWrite)
 {
     ctor_();
@@ -2551,14 +2555,14 @@ void FileStream::ctor_2(FILE* fp, bool canRead, bool canWrite)
     _canWrite = canWrite;
 }
 
-// private void CheckDisposed() [instance] :250
+// private void CheckDisposed() [instance]
 void FileStream::CheckDisposed()
 {
     if (!this->_fp)
         U_THROW(::g::Uno::ObjectDisposedException::New4(::STRINGS[24/*"The file st...*/]));
 }
 
-// private extern string GetNativeFileMode(string filename, Uno.IO.FileMode mode) [instance] :62
+// private extern string GetNativeFileMode(string filename, Uno.IO.FileMode mode) [instance]
 uString* FileStream::GetNativeFileMode(uString* filename, int32_t mode)
 {
     switch (mode)
@@ -2613,7 +2617,7 @@ uString* FileStream::GetNativeFileMode(uString* filename, int32_t mode)
     U_THROW(::g::Uno::ArgumentOutOfRangeException::New6(::STRINGS[30/*"mode"*/]));
 }
 
-// public long Seek(long byteOffset, Uno.IO.SeekOrigin origin) [instance] :206
+// public long Seek(long byteOffset, Uno.IO.SeekOrigin origin) [instance]
 int64_t FileStream::Seek(int64_t byteOffset, int32_t origin)
 {
     int64_t byteOffset_ = byteOffset;
@@ -2638,7 +2642,7 @@ int64_t FileStream::Seek(int64_t byteOffset, int32_t origin)
     U_THROW(::g::Uno::IO::IOException::New4(::STRINGS[32/*"Error while...*/]));
 }
 
-// public FileStream New(string filename, Uno.IO.FileMode mode) [static] :45
+// public FileStream New(string filename, Uno.IO.FileMode mode) [static]
 FileStream* FileStream::New1(uString* filename, int32_t mode)
 {
     FileStream* obj1 = (FileStream*)uNew(FileStream_typeof());
@@ -2646,7 +2650,7 @@ FileStream* FileStream::New1(uString* filename, int32_t mode)
     return obj1;
 }
 
-// internal extern FileStream New(Uno.IO.FILEPtr fp, bool canRead, bool canWrite) [static] :54
+// internal extern FileStream New(Uno.IO.FILEPtr fp, bool canRead, bool canWrite) [static]
 FileStream* FileStream::New2(FILE* fp, bool canRead, bool canWrite)
 {
     FileStream* obj2 = (FileStream*)uNew(FileStream_typeof());
@@ -2655,10 +2659,10 @@ FileStream* FileStream::New2(FILE* fp, bool canRead, bool canWrite)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/FileSystemInfo.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/FileSystemInfo.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class FileSystemInfo :7
+// public abstract class FileSystemInfo
 // {
 static void FileSystemInfo_build(uType* type)
 {
@@ -2688,61 +2692,61 @@ FileSystemInfo_type* FileSystemInfo_typeof()
     return type;
 }
 
-// protected FileSystemInfo(string originalPath) :13
+// protected FileSystemInfo(string originalPath)
 void FileSystemInfo__ctor__fn(FileSystemInfo* __this, uString* originalPath)
 {
     __this->ctor_(originalPath);
 }
 
-// private static Uno.Time.ZonedDateTime ConvertTime(object time) :33
+// private static Uno.Time.ZonedDateTime ConvertTime(object time)
 void FileSystemInfo__ConvertTime_fn(uObject* time, ::g::Uno::Time::ZonedDateTime** __retval)
 {
     *__retval = FileSystemInfo::ConvertTime(time);
 }
 
-// public bool get_Exists() :48
+// public bool get_Exists()
 void FileSystemInfo__get_Exists_fn(FileSystemInfo* __this, bool* __retval)
 {
     *__retval = __this->Exists();
 }
 
-// public string get_FullName() :50
+// public string get_FullName()
 void FileSystemInfo__get_FullName_fn(FileSystemInfo* __this, uString** __retval)
 {
     *__retval = __this->FullName();
 }
 
-// public Uno.Time.ZonedDateTime get_LastAccessTimeUtc() :52
+// public Uno.Time.ZonedDateTime get_LastAccessTimeUtc()
 void FileSystemInfo__get_LastAccessTimeUtc_fn(FileSystemInfo* __this, ::g::Uno::Time::ZonedDateTime** __retval)
 {
     *__retval = __this->LastAccessTimeUtc();
 }
 
-// public Uno.Time.ZonedDateTime get_LastWriteTimeUtc() :54
+// public Uno.Time.ZonedDateTime get_LastWriteTimeUtc()
 void FileSystemInfo__get_LastWriteTimeUtc_fn(FileSystemInfo* __this, ::g::Uno::Time::ZonedDateTime** __retval)
 {
     *__retval = __this->LastWriteTimeUtc();
 }
 
-// internal virtual extern Uno.IO.FileStatus LoadStatus() :70
+// internal virtual extern Uno.IO.FileStatus LoadStatus()
 void FileSystemInfo__LoadStatus_fn(FileSystemInfo* __this, ::g::Uno::IO::FileStatus** __retval)
 {
     return *__retval = ::g::Uno::IO::FileStatusHelpers::GetFileStatus(__this->_fullPath), void();
 }
 
-// public void Refresh() :23
+// public void Refresh()
 void FileSystemInfo__Refresh_fn(FileSystemInfo* __this)
 {
     __this->Refresh();
 }
 
-// internal extern Uno.IO.FileStatus get_Status() :61
+// internal extern Uno.IO.FileStatus get_Status()
 void FileSystemInfo__get_Status_fn(FileSystemInfo* __this, ::g::Uno::IO::FileStatus** __retval)
 {
     *__retval = __this->Status();
 }
 
-// protected FileSystemInfo(string originalPath) [instance] :13
+// protected FileSystemInfo(string originalPath) [instance]
 void FileSystemInfo::ctor_(uString* originalPath)
 {
     if (::g::Uno::String::op_Equality(originalPath, NULL))
@@ -2752,37 +2756,37 @@ void FileSystemInfo::ctor_(uString* originalPath)
     _fullPath = ::g::Uno::IO::Path::GetFullPath(_originalPath);
 }
 
-// public bool get_Exists() [instance] :48
+// public bool get_Exists() [instance]
 bool FileSystemInfo::Exists()
 {
     return uPtr(Status())->Exists();
 }
 
-// public string get_FullName() [instance] :50
+// public string get_FullName() [instance]
 uString* FileSystemInfo::FullName()
 {
     return _fullPath;
 }
 
-// public Uno.Time.ZonedDateTime get_LastAccessTimeUtc() [instance] :52
+// public Uno.Time.ZonedDateTime get_LastAccessTimeUtc() [instance]
 ::g::Uno::Time::ZonedDateTime* FileSystemInfo::LastAccessTimeUtc()
 {
     return FileSystemInfo::ConvertTime(uPtr(Status())->LastAccessTimeUtc());
 }
 
-// public Uno.Time.ZonedDateTime get_LastWriteTimeUtc() [instance] :54
+// public Uno.Time.ZonedDateTime get_LastWriteTimeUtc() [instance]
 ::g::Uno::Time::ZonedDateTime* FileSystemInfo::LastWriteTimeUtc()
 {
     return FileSystemInfo::ConvertTime(uPtr(Status())->LastWriteTimeUtc());
 }
 
-// public void Refresh() [instance] :23
+// public void Refresh() [instance]
 void FileSystemInfo::Refresh()
 {
     _status = LoadStatus();
 }
 
-// internal extern Uno.IO.FileStatus get_Status() [instance] :61
+// internal extern Uno.IO.FileStatus get_Status() [instance]
 ::g::Uno::IO::FileStatus* FileSystemInfo::Status()
 {
     if (_status == NULL)
@@ -2791,17 +2795,17 @@ void FileSystemInfo::Refresh()
     return _status;
 }
 
-// private static Uno.Time.ZonedDateTime ConvertTime(object time) [static] :33
+// private static Uno.Time.ZonedDateTime ConvertTime(object time) [static]
 ::g::Uno::Time::ZonedDateTime* FileSystemInfo::ConvertTime(uObject* time)
 {
     return uCast< ::g::Uno::Time::ZonedDateTime*>(time, ::TYPES[8/*Uno.Time.ZonedDateTime*/]);
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/IOException.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/IOException.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public class IOException :6
+// public class IOException
 // {
 static void IOException_build(uType* type)
 {
@@ -2823,25 +2827,25 @@ static void IOException_build(uType* type)
     return type;
 }
 
-// public IOException(string message) :8
+// public IOException(string message)
 void IOException__ctor_3_fn(IOException* __this, uString* message)
 {
     __this->ctor_3(message);
 }
 
-// public IOException New(string message) :8
+// public IOException New(string message)
 void IOException__New4_fn(uString* message, IOException** __retval)
 {
     *__retval = IOException::New4(message);
 }
 
-// public IOException(string message) [instance] :8
+// public IOException(string message) [instance]
 void IOException::ctor_3(uString* message)
 {
     ctor_1(message);
 }
 
-// public IOException New(string message) [static] :8
+// public IOException New(string message) [static]
 IOException* IOException::New4(uString* message)
 {
     IOException* obj1 = (IOException*)uNew(IOException_typeof());
@@ -2850,10 +2854,10 @@ IOException* IOException::New4(uString* message)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/MemoryStream.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/MemoryStream.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class MemoryStream :7
+// public sealed class MemoryStream
 // {
 static void MemoryStream_build(uType* type)
 {
@@ -2892,60 +2896,60 @@ static void MemoryStream_build(uType* type)
     return type;
 }
 
-// public MemoryStream() :50
+// public MemoryStream()
 void MemoryStream__ctor_1_fn(MemoryStream* __this)
 {
     __this->ctor_1();
 }
 
-// public int get_Capacity() :36
+// public int get_Capacity()
 void MemoryStream__get_Capacity_fn(MemoryStream* __this, int32_t* __retval)
 {
     *__retval = __this->Capacity();
 }
 
-// private void EnsureCapacity(int byteCount) :114
+// private void EnsureCapacity(int byteCount)
 void MemoryStream__EnsureCapacity_fn(MemoryStream* __this, int32_t* byteCount)
 {
     __this->EnsureCapacity(*byteCount);
 }
 
-// public override sealed void Flush() :151
+// public override sealed void Flush()
 void MemoryStream__Flush_fn(MemoryStream* __this)
 {
 }
 
-// public byte[] GetBuffer() :141
+// public byte[] GetBuffer()
 void MemoryStream__GetBuffer_fn(MemoryStream* __this, uArray** __retval)
 {
     *__retval = __this->GetBuffer();
 }
 
-// public override sealed long get_Length() :31
+// public override sealed long get_Length()
 void MemoryStream__get_Length_fn(MemoryStream* __this, int64_t* __retval)
 {
     return *__retval = __this->_length, void();
 }
 
-// public MemoryStream New() :50
+// public MemoryStream New()
 void MemoryStream__New1_fn(MemoryStream** __retval)
 {
     *__retval = MemoryStream::New1();
 }
 
-// public generated long get_Position() :41
+// public generated long get_Position()
 void MemoryStream__get_Position_fn(MemoryStream* __this, int64_t* __retval)
 {
     *__retval = __this->Position();
 }
 
-// public generated void set_Position(long value) :41
+// public generated void set_Position(long value)
 void MemoryStream__set_Position_fn(MemoryStream* __this, int64_t* value)
 {
     __this->Position(*value);
 }
 
-// public override sealed int Read(byte[] dst, int byteOffset, int byteCount) :86
+// public override sealed int Read(byte[] dst, int byteOffset, int byteCount)
 void MemoryStream__Read_fn(MemoryStream* __this, uArray* dst, int32_t* byteOffset, int32_t* byteCount, int32_t* __retval)
 {
     int32_t byteCount_ = *byteCount;
@@ -2959,13 +2963,13 @@ void MemoryStream__Read_fn(MemoryStream* __this, uArray* dst, int32_t* byteOffse
     return *__retval = i, void();
 }
 
-// private void ResizeTo(int newSize) :130
+// private void ResizeTo(int newSize)
 void MemoryStream__ResizeTo_fn(MemoryStream* __this, int32_t* newSize)
 {
     __this->ResizeTo(*newSize);
 }
 
-// public override sealed void Write(byte[] src, int byteOffset, int byteCount) :69
+// public override sealed void Write(byte[] src, int byteOffset, int byteCount)
 void MemoryStream__Write_fn(MemoryStream* __this, uArray* src, int32_t* byteOffset, int32_t* byteCount)
 {
     int32_t byteCount_ = *byteCount;
@@ -2986,7 +2990,7 @@ void MemoryStream__Write_fn(MemoryStream* __this, uArray* src, int32_t* byteOffs
         __this->_length = __this->Position();
 }
 
-// public MemoryStream() [instance] :50
+// public MemoryStream() [instance]
 void MemoryStream::ctor_1()
 {
     _canWrite = true;
@@ -2996,13 +3000,13 @@ void MemoryStream::ctor_1()
     ctor_();
 }
 
-// public int get_Capacity() [instance] :36
+// public int get_Capacity() [instance]
 int32_t MemoryStream::Capacity()
 {
     return uPtr(_buffer)->Length();
 }
 
-// private void EnsureCapacity(int byteCount) [instance] :114
+// private void EnsureCapacity(int byteCount) [instance]
 void MemoryStream::EnsureCapacity(int32_t byteCount)
 {
     if ((Position() + (int64_t)byteCount) <= (int64_t)Capacity())
@@ -3013,26 +3017,26 @@ void MemoryStream::EnsureCapacity(int32_t byteCount)
         ResizeTo((int32_t)Position() + byteCount);
 }
 
-// public byte[] GetBuffer() [instance] :141
+// public byte[] GetBuffer() [instance]
 uArray* MemoryStream::GetBuffer()
 {
     return _buffer;
 }
 
-// public generated long get_Position() [instance] :41
+// public generated long get_Position() [instance]
 int64_t MemoryStream::Position()
 {
     return _Position;
 }
 
-// public generated void set_Position(long value) [instance] :41
+// public generated void set_Position(long value) [instance]
 void MemoryStream::Position(int64_t value)
 {
     int64_t value_ = value;
     _Position = value_;
 }
 
-// private void ResizeTo(int newSize) [instance] :130
+// private void ResizeTo(int newSize) [instance]
 void MemoryStream::ResizeTo(int32_t newSize)
 {
     if (!_canResize)
@@ -3044,7 +3048,7 @@ void MemoryStream::ResizeTo(int32_t newSize)
     _nextIncrease = Capacity();
 }
 
-// public MemoryStream New() [static] :50
+// public MemoryStream New() [static]
 MemoryStream* MemoryStream::New1()
 {
     MemoryStream* obj1 = (MemoryStream*)uNew(MemoryStream_typeof());
@@ -3053,12 +3057,12 @@ MemoryStream* MemoryStream::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Path.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/Path.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class Path :7
+// public static class Path
 // {
-// static generated Path() :7
+// static generated Path()
 static void Path__cctor__fn(uType* __type)
 {
     Path::DirectorySeparatorChar_ = Path::GetDirectorySeparatorChar();
@@ -3095,73 +3099,73 @@ uClassType* Path_typeof()
     return type;
 }
 
-// public static string Combine(string path1, string path2) :38
+// public static string Combine(string path1, string path2)
 void Path__Combine_fn(uString* path1, uString* path2, uString** __retval)
 {
     *__retval = Path::Combine(path1, path2);
 }
 
-// private static string CombineInternal(string a, string b) :21
+// private static string CombineInternal(string a, string b)
 void Path__CombineInternal_fn(uString* a, uString* b, uString** __retval)
 {
     *__retval = Path::CombineInternal(a, b);
 }
 
-// public static string GetDirectoryName(string path) :117
+// public static string GetDirectoryName(string path)
 void Path__GetDirectoryName_fn(uString* path, uString** __retval)
 {
     *__retval = Path::GetDirectoryName(path);
 }
 
-// private static char GetDirectorySeparatorChar() :254
+// private static char GetDirectorySeparatorChar()
 void Path__GetDirectorySeparatorChar_fn(char16_t* __retval)
 {
     *__retval = Path::GetDirectorySeparatorChar();
 }
 
-// private static char[] GetDirectorySeparatorChars() :261
+// private static char[] GetDirectorySeparatorChars()
 void Path__GetDirectorySeparatorChars_fn(uArray** __retval)
 {
     *__retval = Path::GetDirectorySeparatorChars();
 }
 
-// public static string GetFileName(string path) :158
+// public static string GetFileName(string path)
 void Path__GetFileName_fn(uString* path, uString** __retval)
 {
     *__retval = Path::GetFileName(path);
 }
 
-// public static string GetFullPath(string filename) :188
+// public static string GetFullPath(string filename)
 void Path__GetFullPath_fn(uString* filename, uString** __retval)
 {
     *__retval = Path::GetFullPath(filename);
 }
 
-// private static char GetPathSeparator() :268
+// private static char GetPathSeparator()
 void Path__GetPathSeparator_fn(char16_t* __retval)
 {
     *__retval = Path::GetPathSeparator();
 }
 
-// private static char GetVolumeSeparatorChar() :275
+// private static char GetVolumeSeparatorChar()
 void Path__GetVolumeSeparatorChar_fn(char16_t* __retval)
 {
     *__retval = Path::GetVolumeSeparatorChar();
 }
 
-// private static bool IsDirectorySeparator(char ch) :16
+// private static bool IsDirectorySeparator(char ch)
 void Path__IsDirectorySeparator_fn(char16_t* ch, bool* __retval)
 {
     *__retval = Path::IsDirectorySeparator(*ch);
 }
 
-// public static bool IsPathRooted(string path) :213
+// public static bool IsPathRooted(string path)
 void Path__IsPathRooted_fn(uString* path, bool* __retval)
 {
     *__retval = Path::IsPathRooted(path);
 }
 
-// private static string NormalizePathSeparators(string path) :93
+// private static string NormalizePathSeparators(string path)
 void Path__NormalizePathSeparators_fn(uString* path, uString** __retval)
 {
     *__retval = Path::NormalizePathSeparators(path);
@@ -3173,7 +3177,7 @@ char16_t Path::PathSeparator_;
 char16_t Path::VolumeSeparatorChar_;
 uSStrong<uArray*> Path::DirectorySeparatorChars_;
 
-// public static string Combine(string path1, string path2) [static] :38
+// public static string Combine(string path1, string path2) [static]
 uString* Path::Combine(uString* path1, uString* path2)
 {
     Path_typeof()->Init();
@@ -3187,7 +3191,7 @@ uString* Path::Combine(uString* path1, uString* path2)
     return Path::CombineInternal(path1, path2);
 }
 
-// private static string CombineInternal(string a, string b) [static] :21
+// private static string CombineInternal(string a, string b) [static]
 uString* Path::CombineInternal(uString* a, uString* b)
 {
     Path_typeof()->Init();
@@ -3207,7 +3211,7 @@ uString* Path::CombineInternal(uString* a, uString* b)
     return ::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition1(a, uBox<char16_t>(::g::Uno::Char_typeof(), Path::DirectorySeparatorChar_)), b);
 }
 
-// public static string GetDirectoryName(string path) [static] :117
+// public static string GetDirectoryName(string path) [static]
 uString* Path::GetDirectoryName(uString* path)
 {
     Path_typeof()->Init();
@@ -3232,21 +3236,21 @@ uString* Path::GetDirectoryName(uString* path)
     return ::g::Uno::String::Substring1(path, 0, lastDirectorySeparator);
 }
 
-// private static char GetDirectorySeparatorChar() [static] :254
+// private static char GetDirectorySeparatorChar() [static]
 char16_t Path::GetDirectorySeparatorChar()
 {
     Path_typeof()->Init();
     return '/';
 }
 
-// private static char[] GetDirectorySeparatorChars() [static] :261
+// private static char[] GetDirectorySeparatorChars() [static]
 uArray* Path::GetDirectorySeparatorChars()
 {
     Path_typeof()->Init();
     return uArray::Init<int32_t>(::TYPES[4/*char[]*/], 1, '/');
 }
 
-// public static string GetFileName(string path) [static] :158
+// public static string GetFileName(string path) [static]
 uString* Path::GetFileName(uString* path)
 {
     Path_typeof()->Init();
@@ -3262,35 +3266,35 @@ uString* Path::GetFileName(uString* path)
     return path;
 }
 
-// public static string GetFullPath(string filename) [static] :188
+// public static string GetFullPath(string filename) [static]
 uString* Path::GetFullPath(uString* filename)
 {
     Path_typeof()->Init();
     return Path::IsPathRooted(filename) ? filename : (uString*)Path::Combine(::g::Uno::IO::Directory::GetCurrentDirectory(), filename);
 }
 
-// private static char GetPathSeparator() [static] :268
+// private static char GetPathSeparator() [static]
 char16_t Path::GetPathSeparator()
 {
     Path_typeof()->Init();
     return ':';
 }
 
-// private static char GetVolumeSeparatorChar() [static] :275
+// private static char GetVolumeSeparatorChar() [static]
 char16_t Path::GetVolumeSeparatorChar()
 {
     Path_typeof()->Init();
     return '/';
 }
 
-// private static bool IsDirectorySeparator(char ch) [static] :16
+// private static bool IsDirectorySeparator(char ch) [static]
 bool Path::IsDirectorySeparator(char16_t ch)
 {
     Path_typeof()->Init();
     return (ch == Path::DirectorySeparatorChar_) || (ch == Path::AltDirectorySeparatorChar_);
 }
 
-// public static bool IsPathRooted(string path) [static] :213
+// public static bool IsPathRooted(string path) [static]
 bool Path::IsPathRooted(uString* path)
 {
     Path_typeof()->Init();
@@ -3304,7 +3308,7 @@ bool Path::IsPathRooted(uString* path)
     return false;
 }
 
-// private static string NormalizePathSeparators(string path) [static] :93
+// private static string NormalizePathSeparators(string path) [static]
 uString* Path::NormalizePathSeparators(uString* path)
 {
     Path_typeof()->Init();
@@ -3332,10 +3336,10 @@ uString* Path::NormalizePathSeparators(uString* path)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/SeekOrigin.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/SeekOrigin.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum SeekOrigin :6
+// public enum SeekOrigin
 uEnumType* SeekOrigin_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3349,10 +3353,10 @@ uEnumType* SeekOrigin_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Stream.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/Stream.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class Stream :7
+// public abstract class Stream
 // {
 static void Stream_build(uType* type)
 {
@@ -3376,52 +3380,52 @@ Stream_type* Stream_typeof()
     return type;
 }
 
-// protected generated Stream() :7
+// protected generated Stream()
 void Stream__ctor__fn(Stream* __this)
 {
     __this->ctor_();
 }
 
-// public void Close() :63
+// public void Close()
 void Stream__Close_fn(Stream* __this)
 {
     __this->Close();
 }
 
-// public void Dispose() :69
+// public void Dispose()
 void Stream__Dispose_fn(Stream* __this)
 {
     __this->Dispose();
 }
 
-// public virtual void Dispose(bool disposing) :59
+// public virtual void Dispose(bool disposing)
 void Stream__Dispose1_fn(Stream* __this, bool* disposing)
 {
 }
 
-// protected generated Stream() [instance] :7
+// protected generated Stream() [instance]
 void Stream::ctor_()
 {
 }
 
-// public void Close() [instance] :63
+// public void Close() [instance]
 void Stream::Close()
 {
     Dispose1(true);
     ::g::Uno::GC::SuppressFinalize(this);
 }
 
-// public void Dispose() [instance] :69
+// public void Dispose() [instance]
 void Stream::Dispose()
 {
     Close();
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/StreamReader.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/StreamReader.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class StreamReader :7
+// public sealed class StreamReader
 // {
 static void StreamReader_build(uType* type)
 {
@@ -3460,13 +3464,13 @@ static void StreamReader_build(uType* type)
     return type;
 }
 
-// public StreamReader(Uno.IO.Stream stream) :41
+// public StreamReader(Uno.IO.Stream stream)
 void StreamReader__ctor_1_fn(StreamReader* __this, ::g::Uno::IO::Stream* stream)
 {
     __this->ctor_1(stream);
 }
 
-// protected override sealed void Dispose(bool disposing) :59
+// protected override sealed void Dispose(bool disposing)
 void StreamReader__Dispose1_fn(StreamReader* __this, bool* disposing)
 {
     bool disposing_ = *disposing;
@@ -3480,13 +3484,13 @@ void StreamReader__Dispose1_fn(StreamReader* __this, bool* disposing)
     ::g::Uno::IO::TextReader__Dispose1_fn(__this, uCRef(disposing_));
 }
 
-// public StreamReader New(Uno.IO.Stream stream) :41
+// public StreamReader New(Uno.IO.Stream stream)
 void StreamReader__New1_fn(::g::Uno::IO::Stream* stream, StreamReader** __retval)
 {
     *__retval = StreamReader::New1(stream);
 }
 
-// public override sealed int Peek() :69
+// public override sealed int Peek()
 void StreamReader__Peek_fn(StreamReader* __this, int32_t* __retval)
 {
     if (__this->_stream == NULL)
@@ -3503,7 +3507,7 @@ void StreamReader__Peek_fn(StreamReader* __this, int32_t* __retval)
     return *__retval = (int32_t)uPtr(__this->_charBuffer)->Item<char16_t>(__this->_charPos), void();
 }
 
-// public override sealed int Read() :82
+// public override sealed int Read()
 void StreamReader__Read_fn(StreamReader* __this, int32_t* __retval)
 {
     if (__this->_stream == NULL)
@@ -3520,19 +3524,19 @@ void StreamReader__Read_fn(StreamReader* __this, int32_t* __retval)
     return *__retval = (int32_t)uPtr(__this->_charBuffer)->Item<char16_t>(__this->_charPos++), void();
 }
 
-// private void ReadBuffer() :144
+// private void ReadBuffer()
 void StreamReader__ReadBuffer_fn(StreamReader* __this)
 {
     __this->ReadBuffer();
 }
 
-// public string ReadToEnd() :127
+// public string ReadToEnd()
 void StreamReader__ReadToEnd_fn(StreamReader* __this, uString** __retval)
 {
     *__retval = __this->ReadToEnd();
 }
 
-// public StreamReader(Uno.IO.Stream stream) [instance] :41
+// public StreamReader(Uno.IO.Stream stream) [instance]
 void StreamReader::ctor_1(::g::Uno::IO::Stream* stream)
 {
     ctor_();
@@ -3545,7 +3549,7 @@ void StreamReader::ctor_1(::g::Uno::IO::Stream* stream)
     _charLen = 0;
 }
 
-// private void ReadBuffer() [instance] :144
+// private void ReadBuffer() [instance]
 void StreamReader::ReadBuffer()
 {
     _charPos = 0;
@@ -3563,7 +3567,7 @@ void StreamReader::ReadBuffer()
     while (_charLen == 0);
 }
 
-// public string ReadToEnd() [instance] :127
+// public string ReadToEnd() [instance]
 uString* StreamReader::ReadToEnd()
 {
     ::g::Uno::Text::StringBuilder* stringBuilder = ::g::Uno::Text::StringBuilder::New1();
@@ -3586,7 +3590,7 @@ uString* StreamReader::ReadToEnd()
     return stringBuilder->ToString();
 }
 
-// public StreamReader New(Uno.IO.Stream stream) [static] :41
+// public StreamReader New(Uno.IO.Stream stream) [static]
 StreamReader* StreamReader::New1(::g::Uno::IO::Stream* stream)
 {
     StreamReader* obj1 = (StreamReader*)uNew(StreamReader_typeof());
@@ -3595,10 +3599,10 @@ StreamReader* StreamReader::New1(::g::Uno::IO::Stream* stream)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/StreamWriter.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/StreamWriter.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class StreamWriter :8
+// public sealed class StreamWriter
 // {
 static void StreamWriter_build(uType* type)
 {
@@ -3629,13 +3633,13 @@ static void StreamWriter_build(uType* type)
     return type;
 }
 
-// public StreamWriter(Uno.IO.Stream stream) :24
+// public StreamWriter(Uno.IO.Stream stream)
 void StreamWriter__ctor_1_fn(StreamWriter* __this, ::g::Uno::IO::Stream* stream)
 {
     __this->ctor_1(stream);
 }
 
-// protected override sealed void Dispose(bool disposing) :32
+// protected override sealed void Dispose(bool disposing)
 void StreamWriter__Dispose1_fn(StreamWriter* __this, bool* disposing)
 {
     bool disposing_ = *disposing;
@@ -3647,31 +3651,31 @@ void StreamWriter__Dispose1_fn(StreamWriter* __this, bool* disposing)
     ::g::Uno::IO::TextWriter__Dispose1_fn(__this, uCRef(disposing_));
 }
 
-// public void Flush() :98
+// public void Flush()
 void StreamWriter__Flush_fn(StreamWriter* __this)
 {
     __this->Flush();
 }
 
-// public StreamWriter New(Uno.IO.Stream stream) :24
+// public StreamWriter New(Uno.IO.Stream stream)
 void StreamWriter__New1_fn(::g::Uno::IO::Stream* stream, StreamWriter** __retval)
 {
     *__retval = StreamWriter::New1(stream);
 }
 
-// private void Write(byte[] array, int index, int count) :80
+// private void Write(byte[] array, int index, int count)
 void StreamWriter__Write13_fn(StreamWriter* __this, uArray* array, int32_t* index, int32_t* count)
 {
     __this->Write13(array, *index, *count);
 }
 
-// public void Write(string value) :74
+// public void Write(string value)
 void StreamWriter__Write9_fn(StreamWriter* __this, uString* value)
 {
     __this->Write9(value);
 }
 
-// public StreamWriter(Uno.IO.Stream stream) [instance] :24
+// public StreamWriter(Uno.IO.Stream stream) [instance]
 void StreamWriter::ctor_1(::g::Uno::IO::Stream* stream)
 {
     ctor_();
@@ -3680,7 +3684,7 @@ void StreamWriter::ctor_1(::g::Uno::IO::Stream* stream)
     _index = 0;
 }
 
-// public void Flush() [instance] :98
+// public void Flush() [instance]
 void StreamWriter::Flush()
 {
     if (_index != 0)
@@ -3692,7 +3696,7 @@ void StreamWriter::Flush()
     uPtr(_stream)->Flush();
 }
 
-// private void Write(byte[] array, int index, int count) [instance] :80
+// private void Write(byte[] array, int index, int count) [instance]
 void StreamWriter::Write13(uArray* array, int32_t index, int32_t count)
 {
     if ((_index + count) >= 256)
@@ -3711,14 +3715,14 @@ void StreamWriter::Write13(uArray* array, int32_t index, int32_t count)
         uPtr(_buffer)->Item<uint8_t>(_index++) = uPtr(array)->Item<uint8_t>(index + i);
 }
 
-// public void Write(string value) [instance] :74
+// public void Write(string value) [instance]
 void StreamWriter::Write9(uString* value)
 {
     uArray* array = ::g::Uno::Text::Utf8::GetBytes(value);
     Write13(array, 0, uPtr(array)->Length());
 }
 
-// public StreamWriter New(Uno.IO.Stream stream) [static] :24
+// public StreamWriter New(Uno.IO.Stream stream) [static]
 StreamWriter* StreamWriter::New1(::g::Uno::IO::Stream* stream)
 {
     StreamWriter* obj1 = (StreamWriter*)uNew(StreamWriter_typeof());
@@ -3727,10 +3731,10 @@ StreamWriter* StreamWriter::New1(::g::Uno::IO::Stream* stream)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/StringReader.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/StringReader.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class StringReader :6
+// public sealed class StringReader
 // {
 static void StringReader_build(uType* type)
 {
@@ -3763,24 +3767,24 @@ static void StringReader_build(uType* type)
     return type;
 }
 
-// public StringReader(string text) :12
+// public StringReader(string text)
 void StringReader__ctor_1_fn(StringReader* __this, uString* text)
 {
     __this->ctor_1(text);
 }
 
-// protected override sealed void Dispose(bool disposing) :24
+// protected override sealed void Dispose(bool disposing)
 void StringReader__Dispose1_fn(StringReader* __this, bool* disposing)
 {
 }
 
-// public StringReader New(string text) :12
+// public StringReader New(string text)
 void StringReader__New1_fn(uString* text, StringReader** __retval)
 {
     *__retval = StringReader::New1(text);
 }
 
-// public override sealed int Peek() :28
+// public override sealed int Peek()
 void StringReader__Peek_fn(StringReader* __this, int32_t* __retval)
 {
     if (::g::Uno::String::op_Equality(__this->_string, NULL))
@@ -3792,7 +3796,7 @@ void StringReader__Peek_fn(StringReader* __this, int32_t* __retval)
     return *__retval = (int32_t)uPtr(__this->_string)->Item(__this->_index), void();
 }
 
-// public override sealed int Read() :39
+// public override sealed int Read()
 void StringReader__Read_fn(StringReader* __this, int32_t* __retval)
 {
     if (::g::Uno::String::op_Equality(__this->_string, NULL))
@@ -3804,7 +3808,7 @@ void StringReader__Read_fn(StringReader* __this, int32_t* __retval)
     return *__retval = (int32_t)uPtr(__this->_string)->Item(__this->_index++), void();
 }
 
-// public StringReader(string text) [instance] :12
+// public StringReader(string text) [instance]
 void StringReader::ctor_1(uString* text)
 {
     ctor_();
@@ -3813,7 +3817,7 @@ void StringReader::ctor_1(uString* text)
     _length = (::g::Uno::String::op_Equality(text, NULL) ? 0 : uPtr(text)->Length());
 }
 
-// public StringReader New(string text) [static] :12
+// public StringReader New(string text) [static]
 StringReader* StringReader::New1(uString* text)
 {
     StringReader* obj1 = (StringReader*)uNew(StringReader_typeof());
@@ -3822,10 +3826,10 @@ StringReader* StringReader::New1(uString* text)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/TextReader.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/TextReader.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class TextReader :8
+// public abstract class TextReader
 // {
 static void TextReader_build(uType* type)
 {
@@ -3852,54 +3856,54 @@ TextReader_type* TextReader_typeof()
     return type;
 }
 
-// protected generated TextReader() :8
+// protected generated TextReader()
 void TextReader__ctor__fn(TextReader* __this)
 {
     __this->ctor_();
 }
 
-// public void Dispose() :12
+// public void Dispose()
 void TextReader__Dispose_fn(TextReader* __this)
 {
     __this->Dispose();
 }
 
-// protected virtual void Dispose(bool disposing) :18
+// protected virtual void Dispose(bool disposing)
 void TextReader__Dispose1_fn(TextReader* __this, bool* disposing)
 {
 }
 
-// public virtual int Peek() :28
+// public virtual int Peek()
 void TextReader__Peek_fn(TextReader* __this, int32_t* __retval)
 {
     return *__retval = -1, void();
 }
 
-// public virtual int Read() :33
+// public virtual int Read()
 void TextReader__Read_fn(TextReader* __this, int32_t* __retval)
 {
     return *__retval = -1, void();
 }
 
-// public string ReadLine() :95
+// public string ReadLine()
 void TextReader__ReadLine_fn(TextReader* __this, uString** __retval)
 {
     *__retval = __this->ReadLine();
 }
 
-// protected generated TextReader() [instance] :8
+// protected generated TextReader() [instance]
 void TextReader::ctor_()
 {
 }
 
-// public void Dispose() [instance] :12
+// public void Dispose() [instance]
 void TextReader::Dispose()
 {
     Dispose1(true);
     ::g::Uno::GC::SuppressFinalize(this);
 }
 
-// public string ReadLine() [instance] :95
+// public string ReadLine() [instance]
 uString* TextReader::ReadLine()
 {
     ::g::Uno::Collections::List* buffer = (::g::Uno::Collections::List*)::g::Uno::Collections::List::New2(::TYPES[10/*Uno.Collections.List<char>*/], 16);
@@ -3925,10 +3929,10 @@ uString* TextReader::ReadLine()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/TextWriter.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/TextWriter.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class TextWriter :7
+// public abstract class TextWriter
 // {
 static void TextWriter_build(uType* type)
 {
@@ -3955,30 +3959,30 @@ TextWriter_type* TextWriter_typeof()
     return type;
 }
 
-// protected generated TextWriter() :7
+// protected generated TextWriter()
 void TextWriter__ctor__fn(TextWriter* __this)
 {
     __this->ctor_();
 }
 
-// public void Dispose() :19
+// public void Dispose()
 void TextWriter__Dispose_fn(TextWriter* __this)
 {
     __this->Dispose();
 }
 
-// protected virtual void Dispose(bool disposing) :25
+// protected virtual void Dispose(bool disposing)
 void TextWriter__Dispose1_fn(TextWriter* __this, bool* disposing)
 {
 }
 
-// protected generated TextWriter() [instance] :7
+// protected generated TextWriter() [instance]
 void TextWriter::ctor_()
 {
     _newline = ::g::Uno::Environment::NewLine();
 }
 
-// public void Dispose() [instance] :19
+// public void Dispose() [instance]
 void TextWriter::Dispose()
 {
     Dispose1(true);
@@ -3986,10 +3990,10 @@ void TextWriter::Dispose()
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/Directory.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/Directory.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum UserDirectory :7
+// public enum UserDirectory
 uEnumType* UserDirectory_typeof()
 {
     static uSStrong<uEnumType*> type;

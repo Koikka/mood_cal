@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Diagnostics.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Diagnostics.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{namespace Fuse{struct Diagnostics__Temporal;}}
 namespace g{
 namespace Fuse{
 
-// private sealed class Diagnostics.Temporal :192
+// private sealed class Diagnostics.Temporal
 // {
 struct Diagnostics__Temporal_type : uType
 {

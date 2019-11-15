@@ -23,7 +23,7 @@ public class NativePhotoHandle
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void Recycle319(final Object bitmap)
+    public static void Recycle322(final Object bitmap)
     {
         ((android.graphics.Bitmap)bitmap).recycle();
     }

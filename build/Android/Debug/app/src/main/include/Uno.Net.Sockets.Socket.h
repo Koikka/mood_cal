@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Uno.Net.Sockets/1.9.0/Socket.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Net.Sockets/1.12.3/Socket.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace Uno{
 namespace Net{
 namespace Sockets{
 
-// public sealed class Socket :263
+// public sealed class Socket
 // {
 struct Socket_type : uType
 {

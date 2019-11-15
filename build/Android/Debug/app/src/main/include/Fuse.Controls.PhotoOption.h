@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/PhotoOption.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.CameraView/1.12.0/PhotoOption.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public abstract class PhotoOption :10
+// public abstract class PhotoOption
 // {
 uType* PhotoOption_typeof();
 void PhotoOption__ctor__fn(PhotoOption* __this);

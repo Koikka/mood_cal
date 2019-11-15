@@ -23,16 +23,16 @@ public class ViewHandle
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void BringToFront247(final UnoObject _this)
+    public static void BringToFront249(final UnoObject _this)
     {
-        android.view.View view = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
+        android.view.View view = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
         view.bringToFront();
     }
     
-    public static void CopyState249(final UnoObject sourceHandle,final UnoObject destHandle)
+    public static void CopyState251(final UnoObject sourceHandle,final UnoObject destHandle)
     {
-        android.view.View source = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(sourceHandle);
-        android.view.View dest = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(destHandle);
+        android.view.View source = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(sourceHandle);
+        android.view.View dest = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(destHandle);
         dest.setVisibility(source.getVisibility());
         dest.setEnabled(source.isEnabled());
         dest.setAlpha(source.getAlpha());
@@ -47,57 +47,57 @@ public class ViewHandle
         dest.setRotationY(source.getRotationY());
     }
     
-    public static String Format250(final UnoObject _this)
+    public static String Format252(final UnoObject _this)
     {
-        java.lang.Object handle = ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
+        java.lang.Object handle = ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
         return handle.toString();
     }
     
-    public static int GetMeasuredHeight251(final Object handle)
+    public static int GetMeasuredHeight253(final Object handle)
     {
         return ((android.view.View)handle).getMeasuredHeight();
     }
     
-    public static int GetMeasuredWidth252(final Object handle)
+    public static int GetMeasuredWidth254(final Object handle)
     {
         return ((android.view.View)handle).getMeasuredWidth();
     }
     
-    public static int IndexOfChild253(final UnoObject _this, final UnoObject childHandle)
+    public static int IndexOfChild255(final UnoObject _this, final UnoObject childHandle)
     {
-        android.view.ViewGroup parent = (android.view.ViewGroup)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
-        android.view.View child = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(childHandle);
+        android.view.ViewGroup parent = (android.view.ViewGroup)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
+        android.view.View child = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(childHandle);
         return parent.indexOfChild(child);
     }
     
-    public static void InsertChild254(final UnoObject _this, final UnoObject childHandle)
+    public static void InsertChild256(final UnoObject _this, final UnoObject childHandle)
     {
-        android.view.ViewGroup parent = (android.view.ViewGroup)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
-        android.view.View child = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(childHandle);
+        android.view.ViewGroup parent = (android.view.ViewGroup)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
+        android.view.View child = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(childHandle);
         parent.addView(child);
     }
     
-    public static void InsertChild1255(final UnoObject _this, final UnoObject childHandle,final int index)
+    public static void InsertChild1257(final UnoObject _this, final UnoObject childHandle,final int index)
     {
-        android.view.ViewGroup parent = (android.view.ViewGroup)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
-        android.view.View child = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(childHandle);
+        android.view.ViewGroup parent = (android.view.ViewGroup)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
+        android.view.View child = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(childHandle);
         parent.addView(child, index);
     }
     
-    public static void InvalidateImpl256(final UnoObject _this)
+    public static void InvalidateImpl258(final UnoObject _this)
     {
-        android.view.View handle = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
+        android.view.View handle = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
         handle.invalidate();
     }
     
-    public static boolean IsViewGroup257(final UnoObject _this)
+    public static boolean IsViewGroup259(final UnoObject _this)
     {
-        java.lang.Object handle = ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
+        java.lang.Object handle = ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
         return handle instanceof com.fuse.android.views.ViewGroup ||
         	handle instanceof com.fuse.android.views.FuseScrollView;
     }
     
-    public static void Measure1258(final Object handle,final int w,final int h,final boolean hasX,final boolean hasY)
+    public static void Measure1260(final Object handle,final int w,final int h,final boolean hasX,final boolean hasY)
     {
         int wSpec = hasX ? android.view.View.MeasureSpec.makeMeasureSpec(w, android.view.View.MeasureSpec.EXACTLY) : 0;
         int hSpec = hasY ? android.view.View.MeasureSpec.makeMeasureSpec(h, android.view.View.MeasureSpec.EXACTLY) : 0;
@@ -105,27 +105,27 @@ public class ViewHandle
         view.measure(wSpec, hSpec);
     }
     
-    public static void RemoveChild259(final UnoObject _this, final UnoObject childHandle)
+    public static void RemoveChild261(final UnoObject _this, final UnoObject childHandle)
     {
-        android.view.ViewGroup parent = (android.view.ViewGroup)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
-        android.view.View child = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(childHandle);
+        android.view.ViewGroup parent = (android.view.ViewGroup)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
+        android.view.View child = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(childHandle);
         parent.removeView(child);
     }
     
-    public static void ResetLayoutParams260(final UnoObject _this)
+    public static void ResetLayoutParams262(final UnoObject _this)
     {
-        ((android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this)).setLayoutParams(new android.widget.FrameLayout.LayoutParams(android.view.ViewGroup.LayoutParams.MATCH_PARENT, android.view.ViewGroup.LayoutParams.MATCH_PARENT));
+        ((android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this)).setLayoutParams(new android.widget.FrameLayout.LayoutParams(android.view.ViewGroup.LayoutParams.MATCH_PARENT, android.view.ViewGroup.LayoutParams.MATCH_PARENT));
     }
     
-    public static void SetBackgroundColor261(final UnoObject _this, final int color)
+    public static void SetBackgroundColor263(final UnoObject _this, final int color)
     {
-        android.view.View view = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
+        android.view.View view = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
         view.setBackgroundColor(color);
     }
     
-    public static void SetClipToBounds262(final UnoObject _this, final boolean clipToBounds)
+    public static void SetClipToBounds264(final UnoObject _this, final boolean clipToBounds)
     {
-        android.view.View view = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
+        android.view.View view = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
         if (view instanceof android.view.ViewGroup)
         {
         	android.view.ViewGroup viewGroup = (android.view.ViewGroup)view;
@@ -134,34 +134,34 @@ public class ViewHandle
         }
     }
     
-    public static void SetEnabled263(final UnoObject _this, final boolean value)
+    public static void SetEnabled265(final UnoObject _this, final boolean value)
     {
-        ((android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this)).setEnabled(value);
+        ((android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this)).setEnabled(value);
     }
     
-    public static void SetHitTestEnabled264(final UnoObject _this, final boolean enabled)
+    public static void SetHitTestEnabled266(final UnoObject _this, final boolean enabled)
     {
-        android.view.View view = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
+        android.view.View view = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
         if (view instanceof com.fuse.android.views.ViewGroup) {
         	com.fuse.android.views.ViewGroup viewgroup = (com.fuse.android.views.ViewGroup)view;
         	viewgroup.HitTestEnabled = enabled;
         }
     }
     
-    public static void SetIsVisible265(final UnoObject _this, final boolean isVisible)
+    public static void SetIsVisible267(final UnoObject _this, final boolean isVisible)
     {
-        android.view.View handle = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
+        android.view.View handle = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
         handle.setVisibility( (isVisible) ? android.view.View.VISIBLE : android.view.View.INVISIBLE );
     }
     
-    public static void SetOpacity266(final UnoObject _this, final float value)
+    public static void SetOpacity268(final UnoObject _this, final float value)
     {
-        ((android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this)).setAlpha(value);
+        ((android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this)).setAlpha(value);
     }
     
-    public static void UpdateTransform267(final UnoObject _this, final float scaleX,final float scaleY,final float rotation,final float rotationX,final float rotationY)
+    public static void UpdateTransform269(final UnoObject _this, final float scaleX,final float scaleY,final float rotation,final float rotationX,final float rotationY)
     {
-        android.view.View view = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
+        android.view.View view = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
         view.setPivotX(0);
         view.setPivotY(0);
         view.setScaleX(scaleX);
@@ -171,9 +171,9 @@ public class ViewHandle
         view.setRotationY(rotationY);
     }
     
-    public static void UpdateViewRectImpl268(final UnoObject _this, final int x,final int y,final int w,final int h)
+    public static void UpdateViewRectImpl270(final UnoObject _this, final int x,final int y,final int w,final int h)
     {
-        android.view.View view = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet248(_this);
+        android.view.View view = (android.view.View)ExternedBlockHost.callUno_Fuse_Controls_Native_ViewHandle_NativeHandleGet250(_this);
         com.fuse.android.views.ViewGroup.UpdateChildRect(view, x, y, w, h);
     }
     

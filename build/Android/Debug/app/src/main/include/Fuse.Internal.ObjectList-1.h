@@ -1,8 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/ObjectList.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Internal/ObjectList.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Internal.ObjectL-cd9a6807.h>
+#include <Fuse.Internal.ObjectL-6f4e51d2.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
 #include <Uno.Collections.IList-1.h>
@@ -14,7 +14,7 @@ namespace g{
 namespace Fuse{
 namespace Internal{
 
-// internal sealed class ObjectList<T> :13
+// internal sealed class ObjectList<T>
 // {
 struct ObjectList_type : uType
 {

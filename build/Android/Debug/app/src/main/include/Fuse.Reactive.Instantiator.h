@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Instantiator.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Bindings/1.12.0/Instantiator.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@
 #include <Fuse.IProperties.h>
 #include <Fuse.ISourceLocation.h>
 #include <Fuse.Node.ISubtreeDataProvider.h>
-#include <Fuse.Reactive.ItemsWi-e7592013.h>
+#include <Fuse.Reactive.ItemsWi-8cc75761.h>
 #include <Fuse.Reactive.WindowItem.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Uno.Collections.ICollection-1.h>
@@ -29,7 +29,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public partial class Instantiator :116
+// public partial class Instantiator
 // {
 struct Instantiator_type : ::g::Fuse::Node_type
 {

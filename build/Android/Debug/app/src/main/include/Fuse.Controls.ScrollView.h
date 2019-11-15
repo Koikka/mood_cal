@@ -1,10 +1,10 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/ScrollView.ux.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/ScrollView.ux.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Animations.IResize.h>
 #include <Fuse.Binding.h>
-#include <Fuse.Controls.Native.-737f180b.h>
+#include <Fuse.Controls.Native.-c95850ba.h>
 #include <Fuse.Controls.ScrollViewBase.h>
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
@@ -15,7 +15,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -28,7 +28,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public partial sealed class ScrollView :58
+// public partial sealed class ScrollView
 // {
 ::g::Fuse::Controls::ScrollViewBase_type* ScrollView_typeof();
 void ScrollView__ctor_7_fn(ScrollView* __this);

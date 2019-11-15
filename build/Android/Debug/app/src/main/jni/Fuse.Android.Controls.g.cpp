@@ -2,11 +2,11 @@
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Fuse.Android.Controls.WebView.h>
-#include <Fuse.Android.Controls-3a7bea61.h>
-#include <Fuse.Android.Controls-b7abe437.h>
-#include <Fuse.Controls.URISche-2ed3a615.h>
+#include <Fuse.Android.Controls-4b329d47.h>
+#include <Fuse.Android.Controls-9c2da349.h>
+#include <Fuse.Controls.URISche-c4a82e84.h>
 #include <Fuse.Controls.WebView.h>
-#include <Fuse.Navigation.Histo-b65f239b.h>
+#include <Fuse.Navigation.Histo-7effafc8.h>
 #include <Java.Object.h>
 #include <Uno.Action.h>
 #include <Uno.Action1-1.h>
@@ -31,10 +31,10 @@ namespace Fuse{
 namespace Android{
 namespace Controls{
 
-// /usr/local/share/uno/Packages/Fuse.Controls.WebView/1.9.0/Android/WebView.uno
-// -----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.WebView/1.12.0/Android/WebView.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed extern class WebView :14
+// public sealed extern class WebView
 // {
 static void WebView_build(uType* type)
 {
@@ -130,289 +130,289 @@ WebView_type* WebView_typeof()
     return type;
 }
 
-// private WebView(Fuse.Controls.WebView host, Java.Object handle, string[] schemes) :38
+// private WebView(Fuse.Controls.WebView host, Java.Object handle, string[] schemes)
 void WebView__ctor_9_fn(WebView* __this, ::g::Fuse::Controls::WebView* host, ::g::Java::Object* handle, uArray* schemes)
 {
     __this->ctor_9(host, handle, schemes);
 }
 
-// public generated string get_BaseUrl() :98
+// public generated string get_BaseUrl()
 void WebView__get_BaseUrl_fn(WebView* __this, uString** __retval)
 {
     *__retval = __this->BaseUrl();
 }
 
-// public generated void set_BaseUrl(string value) :98
+// public generated void set_BaseUrl(string value)
 void WebView__set_BaseUrl_fn(WebView* __this, uString* value)
 {
     __this->BaseUrl(value);
 }
 
-// public generated void add_BeginLoading(Uno.EventHandler value) :23
+// public generated void add_BeginLoading(Uno.EventHandler value)
 void WebView__add_BeginLoading_fn(WebView* __this, uDelegate* value)
 {
     __this->add_BeginLoading(value);
 }
 
-// public generated void remove_BeginLoading(Uno.EventHandler value) :23
+// public generated void remove_BeginLoading(Uno.EventHandler value)
 void WebView__remove_BeginLoading_fn(WebView* __this, uDelegate* value)
 {
     __this->remove_BeginLoading(value);
 }
 
-// public bool get_CanGoBack() :120
+// public bool get_CanGoBack()
 void WebView__get_CanGoBack_fn(WebView* __this, bool* __retval)
 {
     *__retval = __this->CanGoBack();
 }
 
-// public bool get_CanGoForward() :125
+// public bool get_CanGoForward()
 void WebView__get_CanGoForward_fn(WebView* __this, bool* __retval)
 {
     *__retval = __this->CanGoForward();
 }
 
-// public static Fuse.Android.Controls.WebView Create(Fuse.Controls.WebView webViewHost, string[] schemes) :32
+// public static Fuse.Android.Controls.WebView Create(Fuse.Controls.WebView webViewHost, string[] schemes)
 void WebView__Create_fn(::g::Fuse::Controls::WebView* webViewHost, uArray* schemes, WebView** __retval)
 {
     *__retval = WebView::Create(webViewHost, schemes);
 }
 
-// public void Eval(string js) :93
+// public void Eval(string js)
 void WebView__Eval_fn(WebView* __this, uString* js)
 {
     __this->Eval(js);
 }
 
-// public void Eval(string js, Uno.Action<string> resultHandler) :88
+// public void Eval(string js, Uno.Action<string> resultHandler)
 void WebView__Eval1_fn(WebView* __this, uString* js, uDelegate* resultHandler)
 {
     __this->Eval1(js, resultHandler);
 }
 
-// public Uno.UX.FileSource get_File() :205
+// public Uno.UX.FileSource get_File()
 void WebView__get_File_fn(WebView* __this, ::g::Uno::UX::FileSource** __retval)
 {
     *__retval = __this->File();
 }
 
-// public void set_File(Uno.UX.FileSource value) :206
+// public void set_File(Uno.UX.FileSource value)
 void WebView__set_File_fn(WebView* __this, ::g::Uno::UX::FileSource* value)
 {
     __this->File(value);
 }
 
-// public void GoBack() :128
+// public void GoBack()
 void WebView__GoBack_fn(WebView* __this)
 {
     __this->GoBack();
 }
 
-// public void GoForward() :133
+// public void GoForward()
 void WebView__GoForward_fn(WebView* __this)
 {
     __this->GoForward();
 }
 
-// public bool HasURISchemeHandler() :59
+// public bool HasURISchemeHandler()
 void WebView__HasURISchemeHandler_fn(WebView* __this, bool* __retval)
 {
     *__retval = __this->HasURISchemeHandler();
 }
 
-// public generated void add_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) :148
+// public generated void add_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value)
 void WebView__add_HistoryChanged_fn(WebView* __this, uDelegate* value)
 {
     __this->add_HistoryChanged(value);
 }
 
-// public generated void remove_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) :148
+// public generated void remove_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value)
 void WebView__remove_HistoryChanged_fn(WebView* __this, uDelegate* value)
 {
     __this->remove_HistoryChanged(value);
 }
 
-// private void LoadFile(Uno.UX.FileSource file) :214
+// private void LoadFile(Uno.UX.FileSource file)
 void WebView__LoadFile_fn(WebView* __this, ::g::Uno::UX::FileSource* file)
 {
     __this->LoadFile(file);
 }
 
-// public void LoadHtml(string html) :158
+// public void LoadHtml(string html)
 void WebView__LoadHtml_fn(WebView* __this, uString* html)
 {
     __this->LoadHtml(html);
 }
 
-// public void LoadHtml(string html, string baseUrl) :163
+// public void LoadHtml(string html, string baseUrl)
 void WebView__LoadHtml1_fn(WebView* __this, uString* html, uString* baseUrl)
 {
     __this->LoadHtml1(html, baseUrl);
 }
 
-// public void LoadUrl(string url) :172
+// public void LoadUrl(string url)
 void WebView__LoadUrl_fn(WebView* __this, uString* url)
 {
     __this->LoadUrl(url);
 }
 
-// private WebView New(Fuse.Controls.WebView host, Java.Object handle, string[] schemes) :38
+// private WebView New(Fuse.Controls.WebView host, Java.Object handle, string[] schemes)
 void WebView__New5_fn(::g::Fuse::Controls::WebView* host, ::g::Java::Object* handle, uArray* schemes, WebView** __retval)
 {
     *__retval = WebView::New5(host, handle, schemes);
 }
 
-// private void OnBeginloading() :76
+// private void OnBeginloading()
 void WebView__OnBeginloading_fn(WebView* __this)
 {
     __this->OnBeginloading();
 }
 
-// private void OnCustomURI(string url) :64
+// private void OnCustomURI(string url)
 void WebView__OnCustomURI_fn(WebView* __this, uString* url)
 {
     __this->OnCustomURI(url);
 }
 
-// private void OnHistoryChanged() :150
+// private void OnHistoryChanged()
 void WebView__OnHistoryChanged_fn(WebView* __this)
 {
     __this->OnHistoryChanged();
 }
 
-// private void OnPageLoaded() :70
+// private void OnPageLoaded()
 void WebView__OnPageLoaded_fn(WebView* __this)
 {
     __this->OnPageLoaded();
 }
 
-// private void OnProgressChanged(int newProgress) :191
+// private void OnProgressChanged(int newProgress)
 void WebView__OnProgressChanged_fn(WebView* __this, int32_t* newProgress)
 {
     __this->OnProgressChanged(*newProgress);
 }
 
-// private void OnUrlChanged() :82
+// private void OnUrlChanged()
 void WebView__OnUrlChanged_fn(WebView* __this)
 {
     __this->OnUrlChanged();
 }
 
-// public generated void add_PageLoaded(Uno.EventHandler value) :25
+// public generated void add_PageLoaded(Uno.EventHandler value)
 void WebView__add_PageLoaded_fn(WebView* __this, uDelegate* value)
 {
     __this->add_PageLoaded(value);
 }
 
-// public generated void remove_PageLoaded(Uno.EventHandler value) :25
+// public generated void remove_PageLoaded(Uno.EventHandler value)
 void WebView__remove_PageLoaded_fn(WebView* __this, uDelegate* value)
 {
     __this->remove_PageLoaded(value);
 }
 
-// public double get_Progress() :199
+// public double get_Progress()
 void WebView__get_Progress_fn(WebView* __this, double* __retval)
 {
     *__retval = __this->Progress();
 }
 
-// public generated void add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) :22
+// public generated void add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value)
 void WebView__add_ProgressChanged_fn(WebView* __this, uDelegate* value)
 {
     __this->add_ProgressChanged(value);
 }
 
-// public generated void remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) :22
+// public generated void remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value)
 void WebView__remove_ProgressChanged_fn(WebView* __this, uDelegate* value)
 {
     __this->remove_ProgressChanged(value);
 }
 
-// public void Reload() :138
+// public void Reload()
 void WebView__Reload_fn(WebView* __this)
 {
     __this->Reload();
 }
 
-// public generated bool get_ScrollEnabled() :227
+// public generated bool get_ScrollEnabled()
 void WebView__get_ScrollEnabled_fn(WebView* __this, bool* __retval)
 {
     *__retval = __this->ScrollEnabled();
 }
 
-// public generated void set_ScrollEnabled(bool value) :227
+// public generated void set_ScrollEnabled(bool value)
 void WebView__set_ScrollEnabled_fn(WebView* __this, bool* value)
 {
     __this->ScrollEnabled(*value);
 }
 
-// public string get_Source() :103
+// public string get_Source()
 void WebView__get_Source_fn(WebView* __this, uString** __retval)
 {
     *__retval = __this->Source();
 }
 
-// public void set_Source(string value) :104
+// public void set_Source(string value)
 void WebView__set_Source_fn(WebView* __this, uString* value)
 {
     __this->Source(value);
 }
 
-// public void Stop() :143
+// public void Stop()
 void WebView__Stop_fn(WebView* __this)
 {
     __this->Stop();
 }
 
-// public generated void add_URISchemeHandler(Uno.EventHandler value) :26
+// public generated void add_URISchemeHandler(Uno.EventHandler value)
 void WebView__add_URISchemeHandler_fn(WebView* __this, uDelegate* value)
 {
     __this->add_URISchemeHandler(value);
 }
 
-// public generated void remove_URISchemeHandler(Uno.EventHandler value) :26
+// public generated void remove_URISchemeHandler(Uno.EventHandler value)
 void WebView__remove_URISchemeHandler_fn(WebView* __this, uDelegate* value)
 {
     __this->remove_URISchemeHandler(value);
 }
 
-// public string get_Url() :109
+// public string get_Url()
 void WebView__get_Url_fn(WebView* __this, uString** __retval)
 {
     *__retval = __this->Url();
 }
 
-// public void set_Url(string value) :110
+// public void set_Url(string value)
 void WebView__set_Url_fn(WebView* __this, uString* value)
 {
     __this->Url(value);
 }
 
-// public generated void add_UrlChanged(Uno.EventHandler value) :24
+// public generated void add_UrlChanged(Uno.EventHandler value)
 void WebView__add_UrlChanged_fn(WebView* __this, uDelegate* value)
 {
     __this->add_UrlChanged(value);
 }
 
-// public generated void remove_UrlChanged(Uno.EventHandler value) :24
+// public generated void remove_UrlChanged(Uno.EventHandler value)
 void WebView__remove_UrlChanged_fn(WebView* __this, uDelegate* value)
 {
     __this->remove_UrlChanged(value);
 }
 
-// public generated bool get_ZoomEnabled() :226
+// public generated bool get_ZoomEnabled()
 void WebView__get_ZoomEnabled_fn(WebView* __this, bool* __retval)
 {
     *__retval = __this->ZoomEnabled();
 }
 
-// public generated void set_ZoomEnabled(bool value) :226
+// public generated void set_ZoomEnabled(bool value)
 void WebView__set_ZoomEnabled_fn(WebView* __this, bool* value)
 {
     __this->ZoomEnabled(*value);
 }
 
-// private WebView(Fuse.Controls.WebView host, Java.Object handle, string[] schemes) [instance] :38
+// private WebView(Fuse.Controls.WebView host, Java.Object handle, string[] schemes) [instance]
 void WebView::ctor_9(::g::Fuse::Controls::WebView* host, ::g::Java::Object* handle, uArray* schemes)
 {
     ctor_7(handle);
@@ -425,61 +425,61 @@ void WebView::ctor_9(::g::Fuse::Controls::WebView* host, ::g::Java::Object* hand
     uPtr(_webViewHost)->WebViewClient((uObject*)this);
 }
 
-// public generated string get_BaseUrl() [instance] :98
+// public generated string get_BaseUrl() [instance]
 uString* WebView::BaseUrl()
 {
     return _BaseUrl;
 }
 
-// public generated void set_BaseUrl(string value) [instance] :98
+// public generated void set_BaseUrl(string value) [instance]
 void WebView::BaseUrl(uString* value)
 {
     _BaseUrl = value;
 }
 
-// public generated void add_BeginLoading(Uno.EventHandler value) [instance] :23
+// public generated void add_BeginLoading(Uno.EventHandler value) [instance]
 void WebView::add_BeginLoading(uDelegate* value)
 {
     BeginLoading1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(BeginLoading1, value), ::TYPES[6/*Uno.EventHandler*/]);
 }
 
-// public generated void remove_BeginLoading(Uno.EventHandler value) [instance] :23
+// public generated void remove_BeginLoading(Uno.EventHandler value) [instance]
 void WebView::remove_BeginLoading(uDelegate* value)
 {
     BeginLoading1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(BeginLoading1, value), ::TYPES[6/*Uno.EventHandler*/]);
 }
 
-// public bool get_CanGoBack() [instance] :120
+// public bool get_CanGoBack() [instance]
 bool WebView::CanGoBack()
 {
     return ::g::Fuse::Android::Controls::WebViewUtils::WebViewForeign::CanGoBack(_webViewHandle);
 }
 
-// public bool get_CanGoForward() [instance] :125
+// public bool get_CanGoForward() [instance]
 bool WebView::CanGoForward()
 {
     return ::g::Fuse::Android::Controls::WebViewUtils::WebViewForeign::CanGoForward(_webViewHandle);
 }
 
-// public void Eval(string js) [instance] :93
+// public void Eval(string js) [instance]
 void WebView::Eval(uString* js)
 {
     uPtr(_evalRequestMgr)->EvaluateJs(js, NULL);
 }
 
-// public void Eval(string js, Uno.Action<string> resultHandler) [instance] :88
+// public void Eval(string js, Uno.Action<string> resultHandler) [instance]
 void WebView::Eval1(uString* js, uDelegate* resultHandler)
 {
     uPtr(_evalRequestMgr)->EvaluateJs(js, resultHandler);
 }
 
-// public Uno.UX.FileSource get_File() [instance] :205
+// public Uno.UX.FileSource get_File() [instance]
 ::g::Uno::UX::FileSource* WebView::File()
 {
     return _file;
 }
 
-// public void set_File(Uno.UX.FileSource value) [instance] :206
+// public void set_File(Uno.UX.FileSource value) [instance]
 void WebView::File(::g::Uno::UX::FileSource* value)
 {
     _file = value;
@@ -488,37 +488,37 @@ void WebView::File(::g::Uno::UX::FileSource* value)
         LoadFile(_file);
 }
 
-// public void GoBack() [instance] :128
+// public void GoBack() [instance]
 void WebView::GoBack()
 {
     ::g::Fuse::Android::Controls::WebViewUtils::WebViewForeign::GoBack(_webViewHandle);
 }
 
-// public void GoForward() [instance] :133
+// public void GoForward() [instance]
 void WebView::GoForward()
 {
     ::g::Fuse::Android::Controls::WebViewUtils::WebViewForeign::GoForward(_webViewHandle);
 }
 
-// public bool HasURISchemeHandler() [instance] :59
+// public bool HasURISchemeHandler() [instance]
 bool WebView::HasURISchemeHandler()
 {
     return ::g::Uno::Delegate::op_Inequality(URISchemeHandler1, NULL);
 }
 
-// public generated void add_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) [instance] :148
+// public generated void add_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) [instance]
 void WebView::add_HistoryChanged(uDelegate* value)
 {
     HistoryChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(HistoryChanged1, value), ::TYPES[7/*Fuse.Navigation.HistoryChangedHandler*/]);
 }
 
-// public generated void remove_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) [instance] :148
+// public generated void remove_HistoryChanged(Fuse.Navigation.HistoryChangedHandler value) [instance]
 void WebView::remove_HistoryChanged(uDelegate* value)
 {
     HistoryChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(HistoryChanged1, value), ::TYPES[7/*Fuse.Navigation.HistoryChangedHandler*/]);
 }
 
-// private void LoadFile(Uno.UX.FileSource file) [instance] :214
+// private void LoadFile(Uno.UX.FileSource file) [instance]
 void WebView::LoadFile(::g::Uno::UX::FileSource* file)
 {
     uString* data = ::STRINGS[0/*""*/];
@@ -548,13 +548,13 @@ void WebView::LoadFile(::g::Uno::UX::FileSource* file)
     }
 }
 
-// public void LoadHtml(string html) [instance] :158
+// public void LoadHtml(string html) [instance]
 void WebView::LoadHtml(uString* html)
 {
     LoadHtml1(html, NULL);
 }
 
-// public void LoadHtml(string html, string baseUrl) [instance] :163
+// public void LoadHtml(string html, string baseUrl) [instance]
 void WebView::LoadHtml1(uString* html, uString* baseUrl)
 {
     uString* ind4;
@@ -566,7 +566,7 @@ void WebView::LoadHtml1(uString* html, uString* baseUrl)
     OnHistoryChanged();
 }
 
-// public void LoadUrl(string url) [instance] :172
+// public void LoadUrl(string url) [instance]
 void WebView::LoadUrl(uString* url)
 {
     uArray* array1;
@@ -593,35 +593,35 @@ void WebView::LoadUrl(uString* url)
     OnHistoryChanged();
 }
 
-// private void OnBeginloading() [instance] :76
+// private void OnBeginloading() [instance]
 void WebView::OnBeginloading()
 {
     if (::g::Uno::Delegate::op_Inequality(BeginLoading1, NULL))
         uPtr(BeginLoading1)->Invoke(2, this, (::g::Uno::EventArgs*)::g::Uno::EventArgs::Empty());
 }
 
-// private void OnCustomURI(string url) [instance] :64
+// private void OnCustomURI(string url) [instance]
 void WebView::OnCustomURI(uString* url)
 {
     if (::g::Uno::Delegate::op_Inequality(URISchemeHandler1, NULL))
         uPtr(URISchemeHandler1)->Invoke(2, this, (::g::Fuse::Controls::URISchemeEventArgs*)::g::Fuse::Controls::URISchemeEventArgs::New2(url));
 }
 
-// private void OnHistoryChanged() [instance] :150
+// private void OnHistoryChanged() [instance]
 void WebView::OnHistoryChanged()
 {
     if (::g::Uno::Delegate::op_Inequality(HistoryChanged1, NULL))
         uPtr(HistoryChanged1)->InvokeVoid(_webViewHost);
 }
 
-// private void OnPageLoaded() [instance] :70
+// private void OnPageLoaded() [instance]
 void WebView::OnPageLoaded()
 {
     if (::g::Uno::Delegate::op_Inequality(PageLoaded1, NULL))
         uPtr(PageLoaded1)->Invoke(2, this, (::g::Uno::EventArgs*)::g::Uno::EventArgs::Empty());
 }
 
-// private void OnProgressChanged(int newProgress) [instance] :191
+// private void OnProgressChanged(int newProgress) [instance]
 void WebView::OnProgressChanged(int32_t newProgress)
 {
     ::g::Uno::UX::ValueChangedArgs* ret6;
@@ -630,135 +630,135 @@ void WebView::OnProgressChanged(int32_t newProgress)
         uPtr(ProgressChanged1)->Invoke(2, this, (::g::Uno::UX::ValueChangedArgs__New2_fn(::TYPES[5/*Uno.UX.ValueChangedArgs<double>*/], uCRef((double)newProgress / 100.0), &ret6), ret6));
 }
 
-// private void OnUrlChanged() [instance] :82
+// private void OnUrlChanged() [instance]
 void WebView::OnUrlChanged()
 {
     if (::g::Uno::Delegate::op_Inequality(UrlChanged1, NULL))
         uPtr(UrlChanged1)->Invoke(2, this, (::g::Uno::EventArgs*)::g::Uno::EventArgs::Empty());
 }
 
-// public generated void add_PageLoaded(Uno.EventHandler value) [instance] :25
+// public generated void add_PageLoaded(Uno.EventHandler value) [instance]
 void WebView::add_PageLoaded(uDelegate* value)
 {
     PageLoaded1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(PageLoaded1, value), ::TYPES[6/*Uno.EventHandler*/]);
 }
 
-// public generated void remove_PageLoaded(Uno.EventHandler value) [instance] :25
+// public generated void remove_PageLoaded(Uno.EventHandler value) [instance]
 void WebView::remove_PageLoaded(uDelegate* value)
 {
     PageLoaded1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(PageLoaded1, value), ::TYPES[6/*Uno.EventHandler*/]);
 }
 
-// public double get_Progress() [instance] :199
+// public double get_Progress() [instance]
 double WebView::Progress()
 {
     return ::g::Fuse::Android::Controls::WebViewUtils::WebViewForeign::GetProgress(_webViewHandle) / 100.0;
 }
 
-// public generated void add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) [instance] :22
+// public generated void add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) [instance]
 void WebView::add_ProgressChanged(uDelegate* value)
 {
     ProgressChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(ProgressChanged1, value), ::TYPES[8/*Uno.UX.ValueChangedHandler<double>*/]);
 }
 
-// public generated void remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) [instance] :22
+// public generated void remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) [instance]
 void WebView::remove_ProgressChanged(uDelegate* value)
 {
     ProgressChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(ProgressChanged1, value), ::TYPES[8/*Uno.UX.ValueChangedHandler<double>*/]);
 }
 
-// public void Reload() [instance] :138
+// public void Reload() [instance]
 void WebView::Reload()
 {
     ::g::Fuse::Android::Controls::WebViewUtils::WebViewForeign::Reload(_webViewHandle);
 }
 
-// public generated bool get_ScrollEnabled() [instance] :227
+// public generated bool get_ScrollEnabled() [instance]
 bool WebView::ScrollEnabled()
 {
     return _ScrollEnabled;
 }
 
-// public generated void set_ScrollEnabled(bool value) [instance] :227
+// public generated void set_ScrollEnabled(bool value) [instance]
 void WebView::ScrollEnabled(bool value)
 {
     _ScrollEnabled = value;
 }
 
-// public string get_Source() [instance] :103
+// public string get_Source() [instance]
 uString* WebView::Source()
 {
     return _source;
 }
 
-// public void set_Source(string value) [instance] :104
+// public void set_Source(string value) [instance]
 void WebView::Source(uString* value)
 {
     LoadHtml(_source = value);
 }
 
-// public void Stop() [instance] :143
+// public void Stop() [instance]
 void WebView::Stop()
 {
     ::g::Fuse::Android::Controls::WebViewUtils::WebViewForeign::StopLoading(_webViewHandle);
 }
 
-// public generated void add_URISchemeHandler(Uno.EventHandler value) [instance] :26
+// public generated void add_URISchemeHandler(Uno.EventHandler value) [instance]
 void WebView::add_URISchemeHandler(uDelegate* value)
 {
     URISchemeHandler1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(URISchemeHandler1, value), ::TYPES[6/*Uno.EventHandler*/]);
 }
 
-// public generated void remove_URISchemeHandler(Uno.EventHandler value) [instance] :26
+// public generated void remove_URISchemeHandler(Uno.EventHandler value) [instance]
 void WebView::remove_URISchemeHandler(uDelegate* value)
 {
     URISchemeHandler1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(URISchemeHandler1, value), ::TYPES[6/*Uno.EventHandler*/]);
 }
 
-// public string get_Url() [instance] :109
+// public string get_Url() [instance]
 uString* WebView::Url()
 {
     return ::g::Fuse::Android::Controls::WebViewUtils::WebViewForeign::GetUrl(_webViewHandle);
 }
 
-// public void set_Url(string value) [instance] :110
+// public void set_Url(string value) [instance]
 void WebView::Url(uString* value)
 {
     LoadUrl(value);
 }
 
-// public generated void add_UrlChanged(Uno.EventHandler value) [instance] :24
+// public generated void add_UrlChanged(Uno.EventHandler value) [instance]
 void WebView::add_UrlChanged(uDelegate* value)
 {
     UrlChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(UrlChanged1, value), ::TYPES[6/*Uno.EventHandler*/]);
 }
 
-// public generated void remove_UrlChanged(Uno.EventHandler value) [instance] :24
+// public generated void remove_UrlChanged(Uno.EventHandler value) [instance]
 void WebView::remove_UrlChanged(uDelegate* value)
 {
     UrlChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(UrlChanged1, value), ::TYPES[6/*Uno.EventHandler*/]);
 }
 
-// public generated bool get_ZoomEnabled() [instance] :226
+// public generated bool get_ZoomEnabled() [instance]
 bool WebView::ZoomEnabled()
 {
     return _ZoomEnabled;
 }
 
-// public generated void set_ZoomEnabled(bool value) [instance] :226
+// public generated void set_ZoomEnabled(bool value) [instance]
 void WebView::ZoomEnabled(bool value)
 {
     _ZoomEnabled = value;
 }
 
-// public static Fuse.Android.Controls.WebView Create(Fuse.Controls.WebView webViewHost, string[] schemes) [static] :32
+// public static Fuse.Android.Controls.WebView Create(Fuse.Controls.WebView webViewHost, string[] schemes) [static]
 WebView* WebView::Create(::g::Fuse::Controls::WebView* webViewHost, uArray* schemes)
 {
     ::g::Java::Object* handle = ::g::Fuse::Android::Controls::WebViewUtils::WebViewForeign::CreateWebView(uPtr(webViewHost)->ZoomEnabled(), uPtr(webViewHost)->ScrollEnabled());
     return WebView::New5(webViewHost, handle, schemes);
 }
 
-// private WebView New(Fuse.Controls.WebView host, Java.Object handle, string[] schemes) [static] :38
+// private WebView New(Fuse.Controls.WebView host, Java.Object handle, string[] schemes) [static]
 WebView* WebView::New5(::g::Fuse::Controls::WebView* host, ::g::Java::Object* handle, uArray* schemes)
 {
     WebView* obj5 = (WebView*)uNew(WebView_typeof());

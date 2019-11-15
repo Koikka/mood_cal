@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/Video.ScriptClass.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/Video.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -15,7 +15,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Triggers.IMediaPlayback.h>
 #include <Fuse.Triggers.IPlayback.h>
 #include <Fuse.Triggers.IProgress.h>
@@ -35,7 +35,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public partial sealed class Video :8
+// public partial sealed class Video
 // {
 struct Video_type : ::g::Fuse::Controls::Panel_type
 {

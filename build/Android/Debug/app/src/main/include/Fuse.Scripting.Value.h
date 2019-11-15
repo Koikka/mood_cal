@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting/1.9.0/Types.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting/1.12.0/Types.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace Scripting{
 
-// public static class Value :104
+// public static class Value
 // {
 uClassType* Value_typeof();
 void Value__ToNumber_fn(uObject* obj, double* __retval);

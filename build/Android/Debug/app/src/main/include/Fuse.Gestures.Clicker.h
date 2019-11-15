@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Internal/Clicker.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Gestures/1.12.0/Internal/Clicker.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -19,7 +19,7 @@ namespace g{
 namespace Fuse{
 namespace Gestures{
 
-// internal sealed class Clicker :101
+// internal sealed class Clicker
 // {
 struct Clicker_type : uType
 {

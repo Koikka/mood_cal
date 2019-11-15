@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/DrawManager.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/DrawManager.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Internal{
 
-// internal static class DrawManager :5
+// internal static class DrawManager
 // {
 uClassType* DrawManager_typeof();
 void DrawManager__EndDraw_fn(::g::Fuse::DrawContext* dc);

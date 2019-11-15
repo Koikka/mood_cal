@@ -2,22 +2,22 @@
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <_root.Hamburger.h>
-#include <_root.Kalenteri_acces-581bf775.h>
-#include <_root.Kalenteri_FuseT-90887ccc.h>
+#include <_root.Kalenteri_acces-6b03e6e1.h>
+#include <_root.Kalenteri_FuseT-2f6abca3.h>
 #include <Fuse.Animations.Animator.h>
 #include <Fuse.Animations.Easing.h>
 #include <Fuse.Animations.Move.h>
 #include <Fuse.Animations.Rotate.h>
 #include <Fuse.Animations.Scale.h>
 #include <Fuse.Animations.TrackAnimator.h>
-#include <Fuse.Animations.Trans-997c8373.h>
+#include <Fuse.Animations.Trans-d75ee66a.h>
 #include <Fuse.Controls.Shape.h>
 #include <Fuse.Controls.StackPanel.h>
 #include <Fuse.Elements.Alignment.h>
 #include <Fuse.Elements.Element.h>
 #include <Fuse.Elements.HitTestMode.h>
 #include <Fuse.Reactive.BindingMode.h>
-#include <Fuse.Reactive.Constan-264ec80.h>
+#include <Fuse.Reactive.Constan-50d3d885.h>
 #include <Fuse.Reactive.Constant.h>
 #include <Fuse.Reactive.DataBinding.h>
 #include <Fuse.Reactive.Expression.h>
@@ -48,15 +48,15 @@ static uType* TYPES[3];
 
 namespace g{
 
-// public partial sealed class Hamburger :2
+// public partial sealed class Hamburger
 // {
-// static Hamburger() :23
+// static Hamburger()
 static void Hamburger__cctor_5_fn(uType* __type)
 {
-    Hamburger::__selector0_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[0/*"Value"*/]);
-    Hamburger::__selector1_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[1/*"top"*/]);
-    Hamburger::__selector2_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[2/*"mid"*/]);
-    Hamburger::__selector3_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[3/*"bot"*/]);
+    Hamburger::__selector0_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[0/*"Value"*/]);
+    Hamburger::__selector1_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[1/*"top"*/]);
+    Hamburger::__selector2_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[2/*"mid"*/]);
+    Hamburger::__selector3_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[3/*"bot"*/]);
 }
 
 static void Hamburger_build(uType* type)
@@ -168,37 +168,37 @@ static void Hamburger_build(uType* type)
     return type;
 }
 
-// public Hamburger() :27
+// public Hamburger()
 void Hamburger__ctor_8_fn(Hamburger* __this)
 {
     __this->ctor_8();
 }
 
-// private void InitializeUX() :31
+// private void InitializeUX()
 void Hamburger__InitializeUX_fn(Hamburger* __this)
 {
     __this->InitializeUX();
 }
 
-// public bool get_IsOpen() :8
+// public bool get_IsOpen()
 void Hamburger__get_IsOpen_fn(Hamburger* __this, bool* __retval)
 {
     *__retval = __this->IsOpen();
 }
 
-// public void set_IsOpen(bool value) :9
+// public void set_IsOpen(bool value)
 void Hamburger__set_IsOpen_fn(Hamburger* __this, bool* value)
 {
     __this->IsOpen(*value);
 }
 
-// public Hamburger New() :27
+// public Hamburger New()
 void Hamburger__New4_fn(Hamburger** __retval)
 {
     *__retval = Hamburger::New4();
 }
 
-// public void SetIsOpen(bool value, Uno.UX.IPropertyListener origin) :11
+// public void SetIsOpen(bool value, Uno.UX.IPropertyListener origin)
 void Hamburger__SetIsOpen_fn(Hamburger* __this, bool* value, uObject* origin)
 {
     __this->SetIsOpen(*value, origin);
@@ -209,14 +209,14 @@ void Hamburger__SetIsOpen_fn(Hamburger* __this, bool* value, uObject* origin)
 ::g::Uno::UX::Selector Hamburger::__selector2_;
 ::g::Uno::UX::Selector Hamburger::__selector3_;
 
-// public Hamburger() [instance] :27
+// public Hamburger() [instance]
 void Hamburger::ctor_8()
 {
     ctor_7();
     InitializeUX();
 }
 
-// private void InitializeUX() [instance] :31
+// private void InitializeUX() [instance]
 void Hamburger::InitializeUX()
 {
     ::g::Fuse::Reactive::Constant* temp1 = ::g::Fuse::Reactive::Constant::New1(this);
@@ -308,29 +308,29 @@ void Hamburger::InitializeUX()
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Children()), ::TYPES[2/*Uno.Collections.ICollection<Fuse.Node>*/]), temp9);
 }
 
-// public bool get_IsOpen() [instance] :8
+// public bool get_IsOpen() [instance]
 bool Hamburger::IsOpen()
 {
     return _field_IsOpen;
 }
 
-// public void set_IsOpen(bool value) [instance] :9
+// public void set_IsOpen(bool value) [instance]
 void Hamburger::IsOpen(bool value)
 {
     SetIsOpen(value, NULL);
 }
 
-// public void SetIsOpen(bool value, Uno.UX.IPropertyListener origin) [instance] :11
+// public void SetIsOpen(bool value, Uno.UX.IPropertyListener origin) [instance]
 void Hamburger::SetIsOpen(bool value, uObject* origin)
 {
     if (value != _field_IsOpen)
     {
         _field_IsOpen = value;
-        OnPropertyChanged1(::g::Uno::UX::Selector__op_Implicit1(::STRINGS[5/*"IsOpen"*/]), origin);
+        OnPropertyChanged1(::g::Uno::UX::Selector__op_Implicit(::STRINGS[5/*"IsOpen"*/]), origin);
     }
 }
 
-// public Hamburger New() [static] :27
+// public Hamburger New() [static]
 Hamburger* Hamburger::New4()
 {
     Hamburger* obj1 = (Hamburger*)uNew(Hamburger_typeof());

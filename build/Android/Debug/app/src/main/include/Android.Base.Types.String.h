@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Targets/Android/Uno/Base/Types.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Targets/Android/Uno/Base/Types.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace Android{
 namespace Base{
 namespace Types{
 
-// public static extern class String :96
+// public static extern class String
 // {
 uClassType* String_typeof();
 void String__JavaToUno_fn(JNIEnv** jni_, jobject* jstr_, uString** __retval);

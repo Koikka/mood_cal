@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Experimental.Http/1.9.0/HttpLoader.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Experimental.Http/1.12.0/HttpLoader.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Experimental{
 namespace Http{
 
-// public static class HttpLoader :9
+// public static class HttpLoader
 // {
 uClassType* HttpLoader_typeof();
 void HttpLoader__LoadBinary_fn(uString* requestUri, uDelegate* callback, uDelegate* error);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/AppAlerts.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Platform/1.12.0/AppAlerts.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace Platform{
 
-// internal static class AppEvents :13
+// internal static class AppEvents
 // {
 uClassType* AppEvents_typeof();
 void AppEvents__add_LowMemoryWarning_fn(uDelegate* value);

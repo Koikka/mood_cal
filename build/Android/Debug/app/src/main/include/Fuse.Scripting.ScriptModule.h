@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting/1.9.0/ScriptModule.Evaluate.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting/1.12.0/ScriptModule.Evaluate.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -19,7 +19,7 @@ namespace g{
 namespace Fuse{
 namespace Scripting{
 
-// public partial class ScriptModule :22
+// public partial class ScriptModule
 // {
 struct ScriptModule_type : ::g::Fuse::Scripting::Module_type
 {

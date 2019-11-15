@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/Image.ScriptClass.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/Image.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -14,7 +14,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -38,12 +38,13 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public partial sealed class Image :8
+// public partial sealed class Image
 // {
 ::g::Fuse::Controls::Control_type* Image_typeof();
 void Image__ctor_6_fn(Image* __this);
 void Image__ArrangePaddingBox_fn(Image* __this, ::g::Fuse::LayoutParams* lp);
 void Image__CalcRenderBounds_fn(Image* __this, ::g::Fuse::VisualBounds** __retval);
+void Image__clearCache_fn(Image* img);
 void Image__get_Color_fn(Image* __this, ::g::Uno::Float4* __retval);
 void Image__set_Color_fn(Image* __this, ::g::Uno::Float4* value);
 void Image__get_Container_fn(Image* __this, ::g::Fuse::Internal::ImageContainer** __retval);
@@ -136,6 +137,7 @@ struct Image : ::g::Fuse::Controls::LayoutControl
     void UpdateNativeImageTransform();
     uString* Url();
     void Url(uString* value);
+    static void clearCache(Image* img);
     static Image* New3();
     static void reload(Image* img);
     static void retry(Image* img);

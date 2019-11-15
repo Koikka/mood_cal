@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/OpenAnimator.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Animations/1.12.0/OpenAnimator.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace Animations{
 
-// public abstract class OpenAnimator :14
+// public abstract class OpenAnimator
 // {
 ::g::Fuse::Animations::Animator_type* OpenAnimator_typeof();
 void OpenAnimator__get_AnimatorVariant_fn(OpenAnimator* __this, int32_t* __retval);

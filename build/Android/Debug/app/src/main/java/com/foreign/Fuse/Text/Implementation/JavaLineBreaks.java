@@ -27,7 +27,7 @@ public class JavaLineBreaks
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void CopyLineBreaks355(final String text,final Object outByteBufferHandle)
+    public static void CopyLineBreaks358(final String text,final Object outByteBufferHandle)
     {
         ByteBuffer outByteBuffer = (ByteBuffer)outByteBufferHandle;
         BreakIterator bi = BreakIterator.getLineInstance();

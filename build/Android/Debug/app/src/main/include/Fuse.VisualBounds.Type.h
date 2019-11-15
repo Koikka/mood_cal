@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/VisualBounds.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/VisualBounds.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,7 +7,7 @@
 namespace g{
 namespace Fuse{
 
-// internal enum VisualBounds.Type :324
+// internal enum VisualBounds.Type
 uEnumType* VisualBounds__Type_typeof();
 
 }} // ::g::Fuse

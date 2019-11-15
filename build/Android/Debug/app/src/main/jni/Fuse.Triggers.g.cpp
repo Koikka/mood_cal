@@ -1,42 +1,46 @@
 // This file was generated based on '(multiple files)'.
 // WARNING: Changes might be lost if you edit this file directly.
 
-#include <Fuse.Animations.Anima-9f6f3909.h>
+#include <Fuse.Animations.Anima-c53c24b4.h>
 #include <Fuse.Animations.Animator.h>
 #include <Fuse.Animations.Easing.h>
 #include <Fuse.Animations.IResizeMode.h>
 #include <Fuse.Animations.Move.h>
 #include <Fuse.Animations.Nothing.h>
-#include <Fuse.Animations.Playe-8fa817d1.h>
+#include <Fuse.Animations.Playe-a7f214f1.h>
 #include <Fuse.Animations.TrackAnimator.h>
-#include <Fuse.Animations.Trans-997c8373.h>
-#include <Fuse.Animations.Trigg-21dd249.h>
-#include <Fuse.Animations.Trigg-75f4f270.h>
-#include <Fuse.Animations.Trigg-96b74ffc.h>
-#include <Fuse.Controls.Navigat-2fbffbd2.h>
-#include <Fuse.Controls.Navigat-340a5907.h>
-#include <Fuse.Controls.Navigat-4da4086.h>
-#include <Fuse.Controls.Navigat-70e90308.h>
+#include <Fuse.Animations.Trans-d75ee66a.h>
+#include <Fuse.Animations.Trigg-620ac6c1.h>
+#include <Fuse.Animations.Trigg-be9b88ec.h>
+#include <Fuse.Animations.Trigg-c2c83d9f.h>
+#include <Fuse.Controls.Navigat-11aed9ab.h>
+#include <Fuse.Controls.Navigat-4dceb234.h>
+#include <Fuse.Controls.Navigat-b1ca1d4.h>
+#include <Fuse.Controls.Navigat-e68bc464.h>
 #include <Fuse.Controls.Navigator.h>
-#include <Fuse.Controls.ScrollP-640a7167.h>
+#include <Fuse.Controls.ScrollP-e3c40c45.h>
 #include <Fuse.Controls.ScrollViewBase.h>
 #include <Fuse.Diagnostics.h>
 #include <Fuse.Elements.Element.h>
+#include <Fuse.Elements.Preplac-bfc6c60d.h>
+#include <Fuse.Elements.PreplacementArgs.h>
 #include <Fuse.IScalingMode.h>
 #include <Fuse.ITransformRelative.h>
 #include <Fuse.ITranslationMode.h>
 #include <Fuse.LayoutPriority.h>
 #include <Fuse.Marshal.h>
 #include <Fuse.Navigation.INavigation.h>
-#include <Fuse.Navigation.Navig-11678f15.h>
-#include <Fuse.Navigation.Navig-4be788bd.h>
+#include <Fuse.Navigation.Navig-285c943d.h>
+#include <Fuse.Navigation.Navig-671c9a8e.h>
+#include <Fuse.Navigation.Navig-9b35ba09.h>
 #include <Fuse.Navigation.NavigationArgs.h>
 #include <Fuse.Navigation.NavigationMode.h>
-#include <Fuse.Navigation.Navig-c3ed68c1.h>
-#include <Fuse.Navigation.Routi-30764b7e.h>
+#include <Fuse.Navigation.Routi-617abe1f.h>
 #include <Fuse.Node.h>
-#include <Fuse.NodeGroupBase.Co-a2bdc185.h>
+#include <Fuse.NodeGroupBase.Co-ac498844.h>
 #include <Fuse.PendingRemoveVisual.h>
+#include <Fuse.PlacedArgs.h>
+#include <Fuse.PlacedHandler.h>
 #include <Fuse.Platform.SystemUI.h>
 #include <Fuse.Properties.h>
 #include <Fuse.PropertyHandle.h>
@@ -52,72 +56,74 @@
 #include <Fuse.Scripting.ScriptMethod1-1.h>
 #include <Fuse.Translation.h>
 #include <Fuse.TranslationModes.h>
-#include <Fuse.Triggers.Actions-b3c1f4a1.h>
-#include <Fuse.Triggers.Actions-fcab7e57.h>
+#include <Fuse.Triggers.Actions-16700ed8.h>
+#include <Fuse.Triggers.Actions-a73f808c.h>
 #include <Fuse.Triggers.Busy.h>
 #include <Fuse.Triggers.BusyOn.h>
-#include <Fuse.Triggers.BusyTas-26a0325f.h>
+#include <Fuse.Triggers.BusyTas-51877279.h>
 #include <Fuse.Triggers.BusyTask.h>
 #include <Fuse.Triggers.BusyTask.Type.h>
 #include <Fuse.Triggers.BusyTaskActivity.h>
 #include <Fuse.Triggers.BusyTaskMatch.h>
 #include <Fuse.Triggers.BusyTaskModule.h>
-#include <Fuse.Triggers.Complet-462ee28e.h>
-#include <Fuse.Triggers.Complet-9d1486a7.h>
+#include <Fuse.Triggers.Complet-10976b50.h>
+#include <Fuse.Triggers.Complet-c0495e7e.h>
 #include <Fuse.Triggers.Completed.h>
 #include <Fuse.Triggers.IBusyHandler.h>
 #include <Fuse.Triggers.IMediaPlayback.h>
 #include <Fuse.Triggers.IPlayback.h>
 #include <Fuse.Triggers.IProgress.h>
 #include <Fuse.Triggers.IPulseTrigger.h>
-#include <Fuse.Triggers.IScroll-2d167265.h>
-#include <Fuse.Triggers.IScroll-7d599e87.h>
-#include <Fuse.Triggers.IScroll-c30a2192.h>
+#include <Fuse.Triggers.IScroll-453bcb81.h>
+#include <Fuse.Triggers.IScroll-711fa8f0.h>
+#include <Fuse.Triggers.IScroll-a3ac329f.h>
+#include <Fuse.Triggers.IScroll-e629bfc7.h>
 #include <Fuse.Triggers.IScrolledLength.h>
 #include <Fuse.Triggers.IScrolledLengths.h>
-#include <Fuse.Triggers.IScroll-f5dfc45d.h>
 #include <Fuse.Triggers.IValue-1.h>
-#include <Fuse.Triggers.LayoutT-17f13160.h>
-#include <Fuse.Triggers.LayoutT-38529711.h>
-#include <Fuse.Triggers.LayoutT-3aa69d98.h>
-#include <Fuse.Triggers.LayoutT-6adfe46a.h>
-#include <Fuse.Triggers.LayoutT-6d66b793.h>
-#include <Fuse.Triggers.LayoutT-999d3106.h>
-#include <Fuse.Triggers.LayoutT-9d622a39.h>
+#include <Fuse.Triggers.LayoutA-285f782c.h>
+#include <Fuse.Triggers.LayoutAnimation.h>
+#include <Fuse.Triggers.LayoutT-3bcc5640.h>
+#include <Fuse.Triggers.LayoutT-441a9c39.h>
+#include <Fuse.Triggers.LayoutT-5f2cb75e.h>
+#include <Fuse.Triggers.LayoutT-6de4fbbf.h>
+#include <Fuse.Triggers.LayoutT-7481130.h>
+#include <Fuse.Triggers.LayoutT-83a359cb.h>
+#include <Fuse.Triggers.LayoutT-c508849f.h>
 #include <Fuse.Triggers.LayoutTransition.h>
-#include <Fuse.Triggers.OnUserE-d681e270.h>
+#include <Fuse.Triggers.OnUserE-ade25f5c.h>
 #include <Fuse.Triggers.OnUserEvent.h>
-#include <Fuse.Triggers.PulseTr-e6f97a32.h>
+#include <Fuse.Triggers.PulseTr-dc59ef15.h>
 #include <Fuse.Triggers.PulseTrigger-1.h>
-#include <Fuse.Triggers.Removin-3934475f.h>
+#include <Fuse.Triggers.Removin-d410682d.h>
 #include <Fuse.Triggers.Scrolled.h>
 #include <Fuse.Triggers.ScrolledArgs.h>
 #include <Fuse.Triggers.ScrolledWhere.h>
 #include <Fuse.Triggers.ScrollRegion.h>
 #include <Fuse.Triggers.State.h>
-#include <Fuse.Triggers.StateGr-10cf9727.h>
+#include <Fuse.Triggers.StateGr-189aa02.h>
 #include <Fuse.Triggers.StateGroup.h>
 #include <Fuse.Triggers.StateTransition.h>
 #include <Fuse.Triggers.Timeline.h>
 #include <Fuse.Triggers.Timeline.State.h>
-#include <Fuse.Triggers.Transit-122edce0.h>
+#include <Fuse.Triggers.Transit-fdebe0fa.h>
 #include <Fuse.Triggers.Transition.h>
 #include <Fuse.Triggers.TransitionGroup.h>
 #include <Fuse.Triggers.TransitionMode.h>
 #include <Fuse.Triggers.Trigger.h>
-#include <Fuse.Triggers.Trigger-506bb336.h>
-#include <Fuse.Triggers.Trigger-fd67b2ab.h>
+#include <Fuse.Triggers.Trigger-475afdcf.h>
+#include <Fuse.Triggers.Trigger-e24a2d68.h>
 #include <Fuse.Triggers.TriggerPlayState.h>
 #include <Fuse.Triggers.WhileBool.h>
 #include <Fuse.Triggers.WhileCompleted.h>
 #include <Fuse.Triggers.WhileDisabled.h>
+#include <Fuse.Triggers.WhileEn-4b938fb8.h>
 #include <Fuse.Triggers.WhileEnabled.h>
-#include <Fuse.Triggers.WhileEn-fb4c6c6e.h>
 #include <Fuse.Triggers.WhileFalse.h>
 #include <Fuse.Triggers.WhileFloat.h>
 #include <Fuse.Triggers.WhileFloat.Range.h>
-#include <Fuse.Triggers.WhileKe-99bafeca.h>
-#include <Fuse.Triggers.WhileKe-9ea3ef4d.h>
+#include <Fuse.Triggers.WhileKe-50b586f7.h>
+#include <Fuse.Triggers.WhileKe-f56d1324.h>
 #include <Fuse.Triggers.WhilePaused.h>
 #include <Fuse.Triggers.WhilePlaying.h>
 #include <Fuse.Triggers.WhileString.h>
@@ -158,6 +164,7 @@
 #include <Uno.IDisposable.h>
 #include <Uno.Int.h>
 #include <Uno.Math.h>
+#include <Uno.Matrix.h>
 #include <Uno.Object.h>
 #include <Uno.Predicate-1.h>
 #include <Uno.String.h>
@@ -168,19 +175,19 @@
 #include <Uno.UX.Selector.h>
 #include <Uno.UX.ValueChangedArgs-1.h>
 #include <Uno.UX.ValueChangedHandler-1.h>
-static uString* STRINGS[37];
-static uType* TYPES[41];
+static uString* STRINGS[39];
+static uType* TYPES[45];
 
 namespace g{
 namespace Fuse{
 namespace Triggers{
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Busy.uno
-// ----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Busy.uno
+// ----------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class Busy :66
+// public partial sealed class Busy
 // {
-// static Busy() :10
+// static Busy()
 static void Busy__cctor_1_fn(uType* __type)
 {
     ::g::Fuse::Scripting::ScriptClass_typeof()->Init();
@@ -193,7 +200,7 @@ static void Busy_build(uType* type)
     ::STRINGS[1] = uString::Const("deactivate");
     ::STRINGS[2] = uString::Const("");
     ::STRINGS[3] = uString::Const("On='ParameterChanged' requires a Visual parent");
-    ::STRINGS[4] = uString::Const("/usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Busy.uno");
+    ::STRINGS[4] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Busy.uno");
     ::STRINGS[5] = uString::Const("UpdateState");
     ::TYPES[0] = ::g::Uno::Type_typeof();
     ::TYPES[1] = ::g::Fuse::Scripting::ScriptMember_typeof()->Array();
@@ -257,49 +264,49 @@ static void Busy_build(uType* type)
     return type;
 }
 
-// private static void activate(Fuse.Triggers.Busy b) :25
+// private static void activate(Fuse.Triggers.Busy b)
 void Busy__activate_fn(Busy* b)
 {
     Busy::activate(b);
 }
 
-// public Fuse.Triggers.BusyTaskActivity get_Activity() :95
+// public Fuse.Triggers.BusyTaskActivity get_Activity()
 void Busy__get_Activity_fn(Busy* __this, int32_t* __retval)
 {
     *__retval = __this->Activity();
 }
 
-// public void set_Activity(Fuse.Triggers.BusyTaskActivity value) :96
+// public void set_Activity(Fuse.Triggers.BusyTaskActivity value)
 void Busy__set_Activity_fn(Busy* __this, int32_t* value)
 {
     __this->Activity(*value);
 }
 
-// private static void deactivate(Fuse.Triggers.Busy b) :37
+// private static void deactivate(Fuse.Triggers.Busy b)
 void Busy__deactivate_fn(Busy* b)
 {
     Busy::deactivate(b);
 }
 
-// public bool get_IsActive() :76
+// public bool get_IsActive()
 void Busy__get_IsActive_fn(Busy* __this, bool* __retval)
 {
     *__retval = __this->IsActive();
 }
 
-// public void set_IsActive(bool value) :77
+// public void set_IsActive(bool value)
 void Busy__set_IsActive_fn(Busy* __this, bool* value)
 {
     __this->IsActive(*value);
 }
 
-// private void OnParameterChanged(object s, Uno.EventArgs args) :155
+// private void OnParameterChanged(object s, Uno.EventArgs args)
 void Busy__OnParameterChanged_fn(Busy* __this, uObject* s, ::g::Uno::EventArgs* args)
 {
     __this->OnParameterChanged(s, args);
 }
 
-// protected override sealed void OnRooted() :141
+// protected override sealed void OnRooted()
 void Busy__OnRooted_fn(Busy* __this)
 {
     ::g::Fuse::Node__OnRooted_fn(__this);
@@ -310,26 +317,26 @@ void Busy__OnRooted_fn(Busy* __this)
     __this->UpdateState();
 }
 
-// protected override sealed void OnUnrooted() :149
+// protected override sealed void OnUnrooted()
 void Busy__OnUnrooted_fn(Busy* __this)
 {
     ::g::Fuse::Triggers::BusyTask::SetBusy(__this->Parent(), &__this->_busyTask, 0, ::STRINGS[2/*""*/]);
     ::g::Fuse::Node__OnUnrooted_fn(__this);
 }
 
-// private void UpdateState() :118
+// private void UpdateState()
 void Busy__UpdateState_fn(Busy* __this)
 {
     __this->UpdateState();
 }
 
-// public Fuse.Triggers.BusyTaskActivity get_Activity() [instance] :95
+// public Fuse.Triggers.BusyTaskActivity get_Activity() [instance]
 int32_t Busy::Activity()
 {
     return _activity;
 }
 
-// public void set_Activity(Fuse.Triggers.BusyTaskActivity value) [instance] :96
+// public void set_Activity(Fuse.Triggers.BusyTaskActivity value) [instance]
 void Busy::Activity(int32_t value)
 {
     if (value == _activity)
@@ -339,13 +346,13 @@ void Busy::Activity(int32_t value)
     UpdateState();
 }
 
-// public bool get_IsActive() [instance] :76
+// public bool get_IsActive() [instance]
 bool Busy::IsActive()
 {
     return _isActive;
 }
 
-// public void set_IsActive(bool value) [instance] :77
+// public void set_IsActive(bool value) [instance]
 void Busy::IsActive(bool value)
 {
     if (value == _isActive)
@@ -355,13 +362,13 @@ void Busy::IsActive(bool value)
     UpdateState();
 }
 
-// private void OnParameterChanged(object s, Uno.EventArgs args) [instance] :155
+// private void OnParameterChanged(object s, Uno.EventArgs args) [instance]
 void Busy::OnParameterChanged(uObject* s, ::g::Uno::EventArgs* args)
 {
     IsActive(true);
 }
 
-// private void UpdateState() [instance] :118
+// private void UpdateState() [instance]
 void Busy::UpdateState()
 {
     if (!IsRootingStarted())
@@ -377,21 +384,21 @@ void Busy::UpdateState()
         if (v == NULL)
         {
             _rootOn = (_rootOn & -2);
-            ::g::Fuse::Diagnostics::UserError(::STRINGS[3/*"On='Paramet...*/], this, ::STRINGS[4/*"/usr/local/...*/], 132, ::STRINGS[5/*"UpdateState"*/], NULL);
+            ::g::Fuse::Diagnostics::UserError(::STRINGS[3/*"On='Paramet...*/], this, ::STRINGS[4/*"/Users/antt...*/], 132, ::STRINGS[5/*"UpdateState"*/], NULL);
         }
         else
             uPtr(v)->add_ParameterChanged(uDelegate::New(::TYPES[5/*Uno.EventHandler*/], (void*)Busy__OnParameterChanged_fn, this));
     }
 }
 
-// private static void activate(Fuse.Triggers.Busy b) [static] :25
+// private static void activate(Fuse.Triggers.Busy b) [static]
 void Busy::activate(Busy* b)
 {
     Busy_typeof()->Init();
     uPtr(b)->IsActive(true);
 }
 
-// private static void deactivate(Fuse.Triggers.Busy b) [static] :37
+// private static void deactivate(Fuse.Triggers.Busy b) [static]
 void Busy::deactivate(Busy* b)
 {
     Busy_typeof()->Init();
@@ -399,10 +406,10 @@ void Busy::deactivate(Busy* b)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Busy.uno
-// ----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Busy.uno
+// ----------------------------------------------------------------------------------------------------------------------------------
 
-// public enum BusyOn :6
+// public enum BusyOn
 uEnumType* BusyOn_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -415,12 +422,12 @@ uEnumType* BusyOn_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/BusyTask.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/BusyTask.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class BusyTask :50
+// public sealed class BusyTask
 // {
-// static BusyTask() :228
+// static BusyTask()
 static void BusyTask__cctor__fn(uType* __type)
 {
     ::g::Fuse::Scripting::ScriptClass_typeof()->Init();
@@ -455,79 +462,79 @@ uType* BusyTask_typeof()
     return type;
 }
 
-// internal BusyTask(Fuse.Node n, [Fuse.Triggers.BusyTask.Type type], [Fuse.Triggers.BusyTaskActivity act], [string message]) :66
+// internal BusyTask(Fuse.Node n, [Fuse.Triggers.BusyTask.Type type], [Fuse.Triggers.BusyTaskActivity act], [string message])
 void BusyTask__ctor__fn(BusyTask* __this, ::g::Fuse::Node* n, int32_t* type, int32_t* act, uString* message)
 {
     __this->ctor_(n, *type, *act, message);
 }
 
-// internal static void AddListener(Fuse.Node n, Uno.Action handler) :164
+// internal static void AddListener(Fuse.Node n, Uno.Action handler)
 void BusyTask__AddListener_fn(::g::Fuse::Node* n, uDelegate* handler)
 {
     BusyTask::AddListener(n, handler);
 }
 
-// private static void done(Fuse.Triggers.BusyTask bt) :239
+// private static void done(Fuse.Triggers.BusyTask bt)
 void BusyTask__done_fn(BusyTask* bt)
 {
     BusyTask::done(bt);
 }
 
-// internal void Done() :92
+// internal void Done()
 void BusyTask__Done_fn(BusyTask* __this)
 {
     __this->Done();
 }
 
-// public static Fuse.Triggers.BusyTaskActivity GetBusyActivity(Fuse.Node n, [Fuse.Triggers.BusyTaskMatch match]) :109
+// public static Fuse.Triggers.BusyTaskActivity GetBusyActivity(Fuse.Node n, [Fuse.Triggers.BusyTaskMatch match])
 void BusyTask__GetBusyActivity_fn(::g::Fuse::Node* n, int32_t* match, int32_t* __retval)
 {
     *__retval = BusyTask::GetBusyActivity(n, *match);
 }
 
-// private static bool IsBusyHandled(Fuse.Node n, Fuse.Triggers.BusyTaskActivity activity) :146
+// private static bool IsBusyHandled(Fuse.Node n, Fuse.Triggers.BusyTaskActivity activity)
 void BusyTask__IsBusyHandled_fn(::g::Fuse::Node* n, int32_t* activity, bool* __retval)
 {
     *__retval = BusyTask::IsBusyHandled(n, *activity);
 }
 
-// internal BusyTask New(Fuse.Node n, [Fuse.Triggers.BusyTask.Type type], [Fuse.Triggers.BusyTaskActivity act], [string message]) :66
+// internal BusyTask New(Fuse.Node n, [Fuse.Triggers.BusyTask.Type type], [Fuse.Triggers.BusyTaskActivity act], [string message])
 void BusyTask__New1_fn(::g::Fuse::Node* n, int32_t* type, int32_t* act, uString* message, BusyTask** __retval)
 {
     *__retval = BusyTask::New1(n, *type, *act, message);
 }
 
-// private static void OnBusyChanged(Fuse.Node n) :180
+// private static void OnBusyChanged(Fuse.Node n)
 void BusyTask__OnBusyChanged_fn(::g::Fuse::Node* n)
 {
     BusyTask::OnBusyChanged(n);
 }
 
-// private void OnRooted() :204
+// private void OnRooted()
 void BusyTask__OnRooted_fn(BusyTask* __this)
 {
     __this->OnRooted();
 }
 
-// private void OnUnrooted() :197
+// private void OnUnrooted()
 void BusyTask__OnUnrooted_fn(BusyTask* __this)
 {
     __this->OnUnrooted();
 }
 
-// internal static void RemoveListener(Fuse.Node n, Uno.Action handler) :172
+// internal static void RemoveListener(Fuse.Node n, Uno.Action handler)
 void BusyTask__RemoveListener_fn(::g::Fuse::Node* n, uDelegate* handler)
 {
     BusyTask::RemoveListener(n, handler);
 }
 
-// public static void SetBusy(Fuse.Node n, Fuse.Triggers.BusyTask& bt, Fuse.Triggers.BusyTaskActivity act, [string message]) :209
+// public static void SetBusy(Fuse.Node n, Fuse.Triggers.BusyTask& bt, Fuse.Triggers.BusyTaskActivity act, [string message])
 void BusyTask__SetBusy_fn(::g::Fuse::Node* n, BusyTask** bt, int32_t* act, uString* message)
 {
     BusyTask::SetBusy(n, bt, *act, message);
 }
 
-// internal void SetNodeActivity(Fuse.Node n, Fuse.Triggers.BusyTaskActivity act, string message) :83
+// internal void SetNodeActivity(Fuse.Node n, Fuse.Triggers.BusyTaskActivity act, string message)
 void BusyTask__SetNodeActivity_fn(BusyTask* __this, ::g::Fuse::Node* n, int32_t* act, uString* message)
 {
     __this->SetNodeActivity(n, *act, message);
@@ -536,7 +543,7 @@ void BusyTask__SetNodeActivity_fn(BusyTask* __this, ::g::Fuse::Node* n, int32_t*
 uSStrong< ::g::Uno::Collections::List*> BusyTask::_tasks_;
 uSStrong< ::g::Uno::Collections::Dictionary*> BusyTask::_listeners_;
 
-// internal BusyTask(Fuse.Node n, [Fuse.Triggers.BusyTask.Type type], [Fuse.Triggers.BusyTaskActivity act], [string message]) [instance] :66
+// internal BusyTask(Fuse.Node n, [Fuse.Triggers.BusyTask.Type type], [Fuse.Triggers.BusyTaskActivity act], [string message]) [instance]
 void BusyTask::ctor_(::g::Fuse::Node* n, int32_t type, int32_t act, uString* message)
 {
     _type = type;
@@ -551,7 +558,7 @@ void BusyTask::ctor_(::g::Fuse::Node* n, int32_t type, int32_t act, uString* mes
         BusyTask::OnBusyChanged(n);
 }
 
-// internal void Done() [instance] :92
+// internal void Done() [instance]
 void BusyTask::Done()
 {
     bool ret4;
@@ -566,13 +573,13 @@ void BusyTask::Done()
     }
 }
 
-// private void OnRooted() [instance] :204
+// private void OnRooted() [instance]
 void BusyTask::OnRooted()
 {
     BusyTask::OnBusyChanged(_node);
 }
 
-// private void OnUnrooted() [instance] :197
+// private void OnUnrooted() [instance]
 void BusyTask::OnUnrooted()
 {
     if (_type == 1)
@@ -581,7 +588,7 @@ void BusyTask::OnUnrooted()
     BusyTask::OnBusyChanged(_node);
 }
 
-// internal void SetNodeActivity(Fuse.Node n, Fuse.Triggers.BusyTaskActivity act, string message) [instance] :83
+// internal void SetNodeActivity(Fuse.Node n, Fuse.Triggers.BusyTaskActivity act, string message) [instance]
 void BusyTask::SetNodeActivity(::g::Fuse::Node* n, int32_t act, uString* message)
 {
     _node = n;
@@ -592,7 +599,7 @@ void BusyTask::SetNodeActivity(::g::Fuse::Node* n, int32_t act, uString* message
         BusyTask::OnBusyChanged(_node);
 }
 
-// internal static void AddListener(Fuse.Node n, Uno.Action handler) [static] :164
+// internal static void AddListener(Fuse.Node n, Uno.Action handler) [static]
 void BusyTask::AddListener(::g::Fuse::Node* n, uDelegate* handler)
 {
     BusyTask_typeof()->Init();
@@ -605,14 +612,14 @@ void BusyTask::AddListener(::g::Fuse::Node* n, uDelegate* handler)
     ::g::Uno::Collections::List__Add_fn(uPtr((::g::Uno::Collections::Dictionary__get_Item_fn(uPtr(BusyTask::_listeners_), n, &ret3), ret3)), handler);
 }
 
-// private static void done(Fuse.Triggers.BusyTask bt) [static] :239
+// private static void done(Fuse.Triggers.BusyTask bt) [static]
 void BusyTask::done(BusyTask* bt)
 {
     BusyTask_typeof()->Init();
     uPtr(bt)->Done();
 }
 
-// public static Fuse.Triggers.BusyTaskActivity GetBusyActivity(Fuse.Node n, [Fuse.Triggers.BusyTaskMatch match]) [static] :109
+// public static Fuse.Triggers.BusyTaskActivity GetBusyActivity(Fuse.Node n, [Fuse.Triggers.BusyTaskMatch match]) [static]
 int32_t BusyTask::GetBusyActivity(::g::Fuse::Node* n, int32_t match)
 {
     BusyTask_typeof()->Init();
@@ -656,7 +663,7 @@ int32_t BusyTask::GetBusyActivity(::g::Fuse::Node* n, int32_t match)
     return act;
 }
 
-// private static bool IsBusyHandled(Fuse.Node n, Fuse.Triggers.BusyTaskActivity activity) [static] :146
+// private static bool IsBusyHandled(Fuse.Node n, Fuse.Triggers.BusyTaskActivity activity) [static]
 bool BusyTask::IsBusyHandled(::g::Fuse::Node* n, int32_t activity)
 {
     BusyTask_typeof()->Init();
@@ -675,7 +682,7 @@ bool BusyTask::IsBusyHandled(::g::Fuse::Node* n, int32_t activity)
     return activity == 0;
 }
 
-// internal BusyTask New(Fuse.Node n, [Fuse.Triggers.BusyTask.Type type], [Fuse.Triggers.BusyTaskActivity act], [string message]) [static] :66
+// internal BusyTask New(Fuse.Node n, [Fuse.Triggers.BusyTask.Type type], [Fuse.Triggers.BusyTaskActivity act], [string message]) [static]
 BusyTask* BusyTask::New1(::g::Fuse::Node* n, int32_t type, int32_t act, uString* message)
 {
     BusyTask* obj1 = (BusyTask*)uNew(BusyTask_typeof());
@@ -683,7 +690,7 @@ BusyTask* BusyTask::New1(::g::Fuse::Node* n, int32_t type, int32_t act, uString*
     return obj1;
 }
 
-// private static void OnBusyChanged(Fuse.Node n) [static] :180
+// private static void OnBusyChanged(Fuse.Node n) [static]
 void BusyTask::OnBusyChanged(::g::Fuse::Node* n)
 {
     BusyTask_typeof()->Init();
@@ -708,7 +715,7 @@ void BusyTask::OnBusyChanged(::g::Fuse::Node* n)
     }
 }
 
-// internal static void RemoveListener(Fuse.Node n, Uno.Action handler) [static] :172
+// internal static void RemoveListener(Fuse.Node n, Uno.Action handler) [static]
 void BusyTask::RemoveListener(::g::Fuse::Node* n, uDelegate* handler)
 {
     BusyTask_typeof()->Init();
@@ -722,7 +729,7 @@ void BusyTask::RemoveListener(::g::Fuse::Node* n, uDelegate* handler)
         ::g::Uno::Collections::Dictionary__Remove_fn(uPtr(BusyTask::_listeners_), n, &ret13);
 }
 
-// public static void SetBusy(Fuse.Node n, Fuse.Triggers.BusyTask& bt, Fuse.Triggers.BusyTaskActivity act, [string message]) [static] :209
+// public static void SetBusy(Fuse.Node n, Fuse.Triggers.BusyTask& bt, Fuse.Triggers.BusyTaskActivity act, [string message]) [static]
 void BusyTask::SetBusy(::g::Fuse::Node* n, BusyTask** bt, int32_t act, uString* message)
 {
     BusyTask_typeof()->Init();
@@ -745,10 +752,10 @@ void BusyTask::SetBusy(::g::Fuse::Node* n, BusyTask** bt, int32_t act, uString* 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/BusyTask.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/BusyTask.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum BusyTaskActivity :8
+// public enum BusyTaskActivity
 uEnumType* BusyTaskActivity_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -769,10 +776,10 @@ uEnumType* BusyTaskActivity_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/BusyTask.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/BusyTask.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum BusyTaskMatch :35
+// public enum BusyTaskMatch
 uEnumType* BusyTaskMatch_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -786,10 +793,10 @@ uEnumType* BusyTaskMatch_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/BusyTaskModule.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/BusyTaskModule.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class BusyTaskModule :12
+// public sealed class BusyTaskModule
 // {
 static void BusyTaskModule_build(uType* type)
 {
@@ -823,19 +830,19 @@ static void BusyTaskModule_build(uType* type)
     return type;
 }
 
-// public BusyTaskModule() :16
+// public BusyTaskModule()
 void BusyTaskModule__ctor_2_fn(BusyTaskModule* __this)
 {
     __this->ctor_2();
 }
 
-// private override sealed object CreateExportsObject(Fuse.Scripting.Context c) :57
+// private override sealed object CreateExportsObject(Fuse.Scripting.Context c)
 void BusyTaskModule__CreateExportsObject_fn(BusyTaskModule* __this, ::g::Fuse::Scripting::Context* c, uObject** __retval)
 {
     return *__retval = uDelegate::New(::g::Fuse::Scripting::Callback_typeof(), (void*)BusyTaskModule__ConstructorClosure__Construct_fn, BusyTaskModule__ConstructorClosure::New1(c)), void();
 }
 
-// public BusyTaskModule New() :16
+// public BusyTaskModule New()
 void BusyTaskModule__New2_fn(BusyTaskModule** __retval)
 {
     *__retval = BusyTaskModule::New2();
@@ -843,7 +850,7 @@ void BusyTaskModule__New2_fn(BusyTaskModule** __retval)
 
 uSStrong<BusyTaskModule*> BusyTaskModule::_module_;
 
-// public BusyTaskModule() [instance] :16
+// public BusyTaskModule() [instance]
 void BusyTaskModule::ctor_2()
 {
     ctor_1();
@@ -855,7 +862,7 @@ void BusyTaskModule::ctor_2()
     }
 }
 
-// public BusyTaskModule New() [static] :16
+// public BusyTaskModule New() [static]
 BusyTaskModule* BusyTaskModule::New2()
 {
     BusyTaskModule* obj1 = (BusyTaskModule*)uNew(BusyTaskModule_typeof());
@@ -864,12 +871,12 @@ BusyTaskModule* BusyTaskModule::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Completed.uno
-// ---------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Completed.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class Completed :38
+// public partial sealed class Completed
 // {
-// static Completed() :10
+// static Completed()
 static void Completed__cctor_2_fn(uType* __type)
 {
     ::g::Fuse::Scripting::ScriptClass_typeof()->Init();
@@ -948,129 +955,129 @@ static void Completed_build(uType* type)
     return type;
 }
 
-// public Fuse.Triggers.CompletedActivation get_Activation() :97
+// public Fuse.Triggers.CompletedActivation get_Activation()
 void Completed__get_Activation_fn(Completed* __this, int32_t* __retval)
 {
     *__retval = __this->Activation();
 }
 
-// public void set_Activation(Fuse.Triggers.CompletedActivation value) :98
+// public void set_Activation(Fuse.Triggers.CompletedActivation value)
 void Completed__set_Activation_fn(Completed* __this, int32_t* value)
 {
     __this->Activation(*value);
 }
 
-// public Fuse.Triggers.BusyTaskActivity get_Activity() :109
+// public Fuse.Triggers.BusyTaskActivity get_Activity()
 void Completed__get_Activity_fn(Completed* __this, int32_t* __retval)
 {
     *__retval = __this->Activity();
 }
 
-// public void set_Activity(Fuse.Triggers.BusyTaskActivity value) :110
+// public void set_Activity(Fuse.Triggers.BusyTaskActivity value)
 void Completed__set_Activity_fn(Completed* __this, int32_t* value)
 {
     __this->Activity(*value);
 }
 
-// private void Cleanup(bool unroot) :67
+// private void Cleanup(bool unroot)
 void Completed__Cleanup_fn(Completed* __this, bool* unroot)
 {
     __this->Cleanup(*unroot);
 }
 
-// private void DoPulse() :166
+// private void DoPulse()
 void Completed__DoPulse_fn(Completed* __this)
 {
     __this->DoPulse();
 }
 
-// private bool get_IsBusy() :147
+// private bool get_IsBusy()
 void Completed__get_IsBusy_fn(Completed* __this, bool* __retval)
 {
     *__retval = __this->IsBusy();
 }
 
-// public Fuse.Triggers.BusyTaskMatch get_Match() :126
+// public Fuse.Triggers.BusyTaskMatch get_Match()
 void Completed__get_Match_fn(Completed* __this, int32_t* __retval)
 {
     *__retval = __this->Match();
 }
 
-// public void set_Match(Fuse.Triggers.BusyTaskMatch value) :127
+// public void set_Match(Fuse.Triggers.BusyTaskMatch value)
 void Completed__set_Match_fn(Completed* __this, int32_t* value)
 {
     __this->Match(*value);
 }
 
-// protected override sealed void OnRooted() :42
+// protected override sealed void OnRooted()
 void Completed__OnRooted_fn(Completed* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
     __this->Reset();
 }
 
-// protected override sealed void OnUnrooted() :60
+// protected override sealed void OnUnrooted()
 void Completed__OnUnrooted_fn(Completed* __this)
 {
     __this->Cleanup(true);
     ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
 }
 
-// public bool get_Repeat() :141
+// public bool get_Repeat()
 void Completed__get_Repeat_fn(Completed* __this, bool* __retval)
 {
     *__retval = __this->Repeat();
 }
 
-// public void set_Repeat(bool value) :142
+// public void set_Repeat(bool value)
 void Completed__set_Repeat_fn(Completed* __this, bool* value)
 {
     __this->Repeat(*value);
 }
 
-// private static void reset(Fuse.Triggers.Completed cp) :24
+// private static void reset(Fuse.Triggers.Completed cp)
 void Completed__reset_fn(Completed* cp)
 {
     Completed::reset(cp);
 }
 
-// public void Reset() :180
+// public void Reset()
 void Completed__Reset_fn(Completed* __this)
 {
     __this->Reset();
 }
 
-// private void Setup() :48
+// private void Setup()
 void Completed__Setup_fn(Completed* __this)
 {
     __this->Setup();
 }
 
-// private void Update() :155
+// private void Update()
 void Completed__Update_fn(Completed* __this)
 {
     __this->Update();
 }
 
-// public Fuse.Triggers.CompletedActivation get_Activation() [instance] :97
+// public Fuse.Triggers.CompletedActivation get_Activation() [instance]
 int32_t Completed::Activation()
 {
     return _activation;
 }
 
-// public void set_Activation(Fuse.Triggers.CompletedActivation value) [instance] :98
+// public void set_Activation(Fuse.Triggers.CompletedActivation value) [instance]
 void Completed::Activation(int32_t value)
 {
     _activation = value;
 }
 
-// public Fuse.Triggers.BusyTaskActivity get_Activity() [instance] :109
+// public Fuse.Triggers.BusyTaskActivity get_Activity() [instance]
 int32_t Completed::Activity()
 {
     return _activity;
 }
 
-// public void set_Activity(Fuse.Triggers.BusyTaskActivity value) [instance] :110
+// public void set_Activity(Fuse.Triggers.BusyTaskActivity value) [instance]
 void Completed::Activity(int32_t value)
 {
     _activity = value;
@@ -1079,7 +1086,7 @@ void Completed::Activity(int32_t value)
         Update();
 }
 
-// private void Cleanup(bool unroot) [instance] :67
+// private void Cleanup(bool unroot) [instance]
 void Completed::Cleanup(bool unroot)
 {
     if (Repeat() && !unroot)
@@ -1095,7 +1102,7 @@ void Completed::Cleanup(bool unroot)
     }
 }
 
-// private void DoPulse() [instance] :166
+// private void DoPulse() [instance]
 void Completed::DoPulse()
 {
     if (!IsBusy() && !_pulsed)
@@ -1106,7 +1113,7 @@ void Completed::DoPulse()
     }
 }
 
-// private bool get_IsBusy() [instance] :147
+// private bool get_IsBusy() [instance]
 bool Completed::IsBusy()
 {
     int32_t act = ::g::Fuse::Triggers::BusyTask::GetBusyActivity(Parent(), Match());
@@ -1114,13 +1121,13 @@ bool Completed::IsBusy()
     return busy;
 }
 
-// public Fuse.Triggers.BusyTaskMatch get_Match() [instance] :126
+// public Fuse.Triggers.BusyTaskMatch get_Match() [instance]
 int32_t Completed::Match()
 {
     return _match;
 }
 
-// public void set_Match(Fuse.Triggers.BusyTaskMatch value) [instance] :127
+// public void set_Match(Fuse.Triggers.BusyTaskMatch value) [instance]
 void Completed::Match(int32_t value)
 {
     _match = value;
@@ -1129,26 +1136,26 @@ void Completed::Match(int32_t value)
         Update();
 }
 
-// public bool get_Repeat() [instance] :141
+// public bool get_Repeat() [instance]
 bool Completed::Repeat()
 {
     return _repeat;
 }
 
-// public void set_Repeat(bool value) [instance] :142
+// public void set_Repeat(bool value) [instance]
 void Completed::Repeat(bool value)
 {
     _repeat = value;
 }
 
-// public void Reset() [instance] :180
+// public void Reset() [instance]
 void Completed::Reset()
 {
     _pulsed = false;
     Setup();
 }
 
-// private void Setup() [instance] :48
+// private void Setup() [instance]
 void Completed::Setup()
 {
     if (!_listening)
@@ -1159,7 +1166,7 @@ void Completed::Setup()
     }
 }
 
-// private void Update() [instance] :155
+// private void Update() [instance]
 void Completed::Update()
 {
     if (!IsBusy() && !_pulsed)
@@ -1171,7 +1178,7 @@ void Completed::Update()
     }
 }
 
-// private static void reset(Fuse.Triggers.Completed cp) [static] :24
+// private static void reset(Fuse.Triggers.Completed cp) [static]
 void Completed::reset(Completed* cp)
 {
     Completed_typeof()->Init();
@@ -1179,10 +1186,10 @@ void Completed::reset(Completed* cp)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Completed.uno
-// ---------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Completed.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum CompletedActivation :8
+// public enum CompletedActivation
 uEnumType* CompletedActivation_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -1195,10 +1202,10 @@ uEnumType* CompletedActivation_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Completed.uno
-// ---------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Completed.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class CompletedEventArgs :6
+// public sealed class CompletedEventArgs
 // {
 static void CompletedEventArgs_build(uType* type)
 {
@@ -1219,25 +1226,25 @@ uType* CompletedEventArgs_typeof()
     return type;
 }
 
-// public generated CompletedEventArgs() :6
+// public generated CompletedEventArgs()
 void CompletedEventArgs__ctor_1_fn(CompletedEventArgs* __this)
 {
     __this->ctor_1();
 }
 
-// public generated CompletedEventArgs New() :6
+// public generated CompletedEventArgs New()
 void CompletedEventArgs__New2_fn(CompletedEventArgs** __retval)
 {
     *__retval = CompletedEventArgs::New2();
 }
 
-// public generated CompletedEventArgs() [instance] :6
+// public generated CompletedEventArgs() [instance]
 void CompletedEventArgs::ctor_1()
 {
     ctor_();
 }
 
-// public generated CompletedEventArgs New() [static] :6
+// public generated CompletedEventArgs New() [static]
 CompletedEventArgs* CompletedEventArgs::New2()
 {
     CompletedEventArgs* obj1 = (CompletedEventArgs*)uNew(CompletedEventArgs_typeof());
@@ -1246,15 +1253,15 @@ CompletedEventArgs* CompletedEventArgs::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/BusyTaskModule.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/BusyTaskModule.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class BusyTaskModule.ConstructorClosure :25
+// private sealed class BusyTaskModule.ConstructorClosure
 // {
 static void BusyTaskModule__ConstructorClosure_build(uType* type)
 {
     ::STRINGS[7] = uString::Const("Use the `Busy` behavior instead of FuseJS/BusyTask");
-    ::STRINGS[8] = uString::Const("/usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/BusyTaskModule.uno");
+    ::STRINGS[8] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/BusyTaskModule.uno");
     ::STRINGS[9] = uString::Const("Construct");
     ::STRINGS[10] = uString::Const("new BusyTask() - must provide 1 or 2 arguments");
     ::STRINGS[11] = uString::Const("new BusyTask() - argument must be an UX node");
@@ -1280,19 +1287,19 @@ uType* BusyTaskModule__ConstructorClosure_typeof()
     return type;
 }
 
-// public ConstructorClosure(Fuse.Scripting.Context c) :28
+// public ConstructorClosure(Fuse.Scripting.Context c)
 void BusyTaskModule__ConstructorClosure__ctor__fn(BusyTaskModule__ConstructorClosure* __this, ::g::Fuse::Scripting::Context* c)
 {
     __this->ctor_(c);
 }
 
-// public object Construct(Fuse.Scripting.Context context, object[] args) :35
+// public object Construct(Fuse.Scripting.Context context, object[] args)
 void BusyTaskModule__ConstructorClosure__Construct_fn(BusyTaskModule__ConstructorClosure* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->Construct(context, args);
 }
 
-// public ConstructorClosure New(Fuse.Scripting.Context c) :28
+// public ConstructorClosure New(Fuse.Scripting.Context c)
 void BusyTaskModule__ConstructorClosure__New1_fn(::g::Fuse::Scripting::Context* c, BusyTaskModule__ConstructorClosure** __retval)
 {
     *__retval = BusyTaskModule__ConstructorClosure::New1(c);
@@ -1300,20 +1307,20 @@ void BusyTaskModule__ConstructorClosure__New1_fn(::g::Fuse::Scripting::Context* 
 
 bool BusyTaskModule__ConstructorClosure::_warning_;
 
-// public ConstructorClosure(Fuse.Scripting.Context c) [instance] :28
+// public ConstructorClosure(Fuse.Scripting.Context c) [instance]
 void BusyTaskModule__ConstructorClosure::ctor_(::g::Fuse::Scripting::Context* c)
 {
     _c = c;
 }
 
-// public object Construct(Fuse.Scripting.Context context, object[] args) [instance] :35
+// public object Construct(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* BusyTaskModule__ConstructorClosure::Construct(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     int32_t ret2;
 
     if (!BusyTaskModule__ConstructorClosure::_warning_)
     {
-        ::g::Fuse::Diagnostics::Deprecated(::STRINGS[7/*"Use the `Bu...*/], this, ::STRINGS[8/*"/usr/local/...*/], 40, ::STRINGS[9/*"Construct"*/]);
+        ::g::Fuse::Diagnostics::Deprecated(::STRINGS[7/*"Use the `Bu...*/], this, ::STRINGS[8/*"/Users/antt...*/], 40, ::STRINGS[9/*"Construct"*/]);
         BusyTaskModule__ConstructorClosure::_warning_ = true;
     }
 
@@ -1333,7 +1340,7 @@ uObject* BusyTaskModule__ConstructorClosure::Construct(::g::Fuse::Scripting::Con
     return uPtr(_c)->Unwrap(::g::Fuse::Triggers::BusyTask::New1(n, 1, act, ::STRINGS[2/*""*/]));
 }
 
-// public ConstructorClosure New(Fuse.Scripting.Context c) [static] :28
+// public ConstructorClosure New(Fuse.Scripting.Context c) [static]
 BusyTaskModule__ConstructorClosure* BusyTaskModule__ConstructorClosure::New1(::g::Fuse::Scripting::Context* c)
 {
     BusyTaskModule__ConstructorClosure* obj1 = (BusyTaskModule__ConstructorClosure*)uNew(BusyTaskModule__ConstructorClosure_typeof());
@@ -1342,10 +1349,10 @@ BusyTaskModule__ConstructorClosure* BusyTaskModule__ConstructorClosure::New1(::g
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Triggers/ScrollRegion.uno
-// --------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Triggers/ScrollRegion.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class IScrolledLengths.ContentSizeLength :39
+// private sealed class IScrolledLengths.ContentSizeLength
 // {
 static void IScrolledLengths__ContentSizeLength_build(uType* type)
 {
@@ -1369,36 +1376,36 @@ IScrolledLengths__ContentSizeLength_type* IScrolledLengths__ContentSizeLength_ty
     return type;
 }
 
-// public generated ContentSizeLength() :39
+// public generated ContentSizeLength()
 void IScrolledLengths__ContentSizeLength__ctor__fn(IScrolledLengths__ContentSizeLength* __this)
 {
     __this->ctor_();
 }
 
-// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable) :41
+// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable)
 void IScrolledLengths__ContentSizeLength__GetPoints_fn(IScrolledLengths__ContentSizeLength* __this, float* value, ::g::Fuse::Controls::ScrollViewBase* scrollable, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->GetPoints(*value, scrollable);
 }
 
-// public generated ContentSizeLength New() :39
+// public generated ContentSizeLength New()
 void IScrolledLengths__ContentSizeLength__New1_fn(IScrolledLengths__ContentSizeLength** __retval)
 {
     *__retval = IScrolledLengths__ContentSizeLength::New1();
 }
 
-// public generated ContentSizeLength() [instance] :39
+// public generated ContentSizeLength() [instance]
 void IScrolledLengths__ContentSizeLength::ctor_()
 {
 }
 
-// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable) [instance] :41
+// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable) [instance]
 ::g::Uno::Float2 IScrolledLengths__ContentSizeLength::GetPoints(float value, ::g::Fuse::Controls::ScrollViewBase* scrollable)
 {
     return ::g::Uno::Float2__op_Multiply(value, ::g::Uno::Float2__op_Subtraction2(uPtr(scrollable)->MaxScroll(), uPtr(scrollable)->MinScroll()));
 }
 
-// public generated ContentSizeLength New() [static] :39
+// public generated ContentSizeLength New() [static]
 IScrolledLengths__ContentSizeLength* IScrolledLengths__ContentSizeLength::New1()
 {
     IScrolledLengths__ContentSizeLength* obj1 = (IScrolledLengths__ContentSizeLength*)uNew(IScrolledLengths__ContentSizeLength_typeof());
@@ -1407,10 +1414,10 @@ IScrolledLengths__ContentSizeLength* IScrolledLengths__ContentSizeLength::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Trigger.uno
-// -------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Trigger.uno
+// -------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Trigger.DeferredItem :275
+// private sealed class Trigger.DeferredItem
 // {
 static void Trigger__DeferredItem_build(uType* type)
 {
@@ -1434,36 +1441,36 @@ uType* Trigger__DeferredItem_typeof()
     return type;
 }
 
-// public generated DeferredItem() :275
+// public generated DeferredItem()
 void Trigger__DeferredItem__ctor__fn(Trigger__DeferredItem* __this)
 {
     __this->ctor_();
 }
 
-// public generated DeferredItem New() :275
+// public generated DeferredItem New()
 void Trigger__DeferredItem__New1_fn(Trigger__DeferredItem** __retval)
 {
     *__retval = Trigger__DeferredItem::New1();
 }
 
-// public void Perform() :280
+// public void Perform()
 void Trigger__DeferredItem__Perform_fn(Trigger__DeferredItem* __this)
 {
     __this->Perform();
 }
 
-// public generated DeferredItem() [instance] :275
+// public generated DeferredItem() [instance]
 void Trigger__DeferredItem::ctor_()
 {
 }
 
-// public void Perform() [instance] :280
+// public void Perform() [instance]
 void Trigger__DeferredItem::Perform()
 {
     uPtr(Action)->PerformFromNode(Node);
 }
 
-// public generated DeferredItem New() [static] :275
+// public generated DeferredItem New() [static]
 Trigger__DeferredItem* Trigger__DeferredItem::New1()
 {
     Trigger__DeferredItem* obj1 = (Trigger__DeferredItem*)uNew(Trigger__DeferredItem_typeof());
@@ -1472,10 +1479,10 @@ Trigger__DeferredItem* Trigger__DeferredItem::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/StateGroup.uno
-// ----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/StateGroup.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class StateGroup.GotoImpl :117
+// private sealed class StateGroup.GotoImpl
 // {
 static void StateGroup__GotoImpl_build(uType* type)
 {
@@ -1503,30 +1510,30 @@ uType* StateGroup__GotoImpl_typeof()
     return type;
 }
 
-// public generated GotoImpl() :117
+// public generated GotoImpl()
 void StateGroup__GotoImpl__ctor__fn(StateGroup__GotoImpl* __this)
 {
     __this->ctor_();
 }
 
-// public void Go() :122
+// public void Go()
 void StateGroup__GotoImpl__Go_fn(StateGroup__GotoImpl* __this)
 {
     __this->Go();
 }
 
-// public generated GotoImpl New() :117
+// public generated GotoImpl New()
 void StateGroup__GotoImpl__New1_fn(StateGroup__GotoImpl** __retval)
 {
     *__retval = StateGroup__GotoImpl::New1();
 }
 
-// public generated GotoImpl() [instance] :117
+// public generated GotoImpl() [instance]
 void StateGroup__GotoImpl::ctor_()
 {
 }
 
-// public void Go() [instance] :122
+// public void Go() [instance]
 void StateGroup__GotoImpl::Go()
 {
     ::g::Fuse::Triggers::State* ret4;
@@ -1604,7 +1611,7 @@ void StateGroup__GotoImpl::Go()
     }
 }
 
-// public generated GotoImpl New() [static] :117
+// public generated GotoImpl New() [static]
 StateGroup__GotoImpl* StateGroup__GotoImpl::New1()
 {
     StateGroup__GotoImpl* obj3 = (StateGroup__GotoImpl*)uNew(StateGroup__GotoImpl_typeof());
@@ -1613,10 +1620,10 @@ StateGroup__GotoImpl* StateGroup__GotoImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/BusyTask.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/BusyTask.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract interface IBusyHandler :45
+// public abstract interface IBusyHandler
 // {
 uInterfaceType* IBusyHandler_typeof()
 {
@@ -1628,10 +1635,10 @@ uInterfaceType* IBusyHandler_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Actions/Playback.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Actions/Playback.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract interface IMediaPlayback :30
+// public abstract interface IMediaPlayback
 // {
 uInterfaceType* IMediaPlayback_typeof()
 {
@@ -1643,10 +1650,10 @@ uInterfaceType* IMediaPlayback_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Actions/Playback.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Actions/Playback.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract interface IPlayback :5
+// public abstract interface IPlayback
 // {
 uInterfaceType* IPlayback_typeof()
 {
@@ -1658,10 +1665,10 @@ uInterfaceType* IPlayback_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/ProgressAnimation.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/ProgressAnimation.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract interface IProgress :8
+// public abstract interface IProgress
 // {
 uInterfaceType* IProgress_typeof()
 {
@@ -1673,10 +1680,10 @@ uInterfaceType* IProgress_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Timeline.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Timeline.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract interface IPulseTrigger :11
+// public abstract interface IPulseTrigger
 // {
 uInterfaceType* IPulseTrigger_typeof()
 {
@@ -1688,10 +1695,10 @@ uInterfaceType* IPulseTrigger_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Triggers/ScrollRegion.uno
-// --------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Triggers/ScrollRegion.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract interface IScrolledLength :8
+// public abstract interface IScrolledLength
 // {
 uInterfaceType* IScrolledLength_typeof()
 {
@@ -1703,12 +1710,12 @@ uInterfaceType* IScrolledLength_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Triggers/ScrollRegion.uno
-// --------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Triggers/ScrollRegion.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class IScrolledLengths :13
+// public static class IScrolledLengths
 // {
-// static generated IScrolledLengths() :13
+// static generated IScrolledLengths()
 static void IScrolledLengths__cctor__fn(uType* __type)
 {
     IScrolledLengths::Points_ = (uObject*)IScrolledLengths__PointsLength::New1();
@@ -1746,10 +1753,10 @@ uSStrong<uObject*> IScrolledLengths::ContentSize_;
 uSStrong<uObject*> IScrolledLengths::ScrollViewSize_;
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/IValue.uno
-// ------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/IValue.uno
+// ------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract interface IValue<T> :5
+// public abstract interface IValue<T>
 // {
 uInterfaceType* IValue_typeof()
 {
@@ -1761,12 +1768,268 @@ uInterfaceType* IValue_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Triggers/LayoutAnimation.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Triggers/LayoutAnimation.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class LayoutTransition :24
+// public sealed class LayoutAnimation
 // {
-// static generated LayoutTransition() :24
+static void LayoutAnimation_build(uType* type)
+{
+    ::STRINGS[12] = uString::Const("LayoutAnimation can only be used on an Element");
+    ::STRINGS[13] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Triggers/LayoutAnimation.uno");
+    ::STRINGS[14] = uString::Const("OnRooted");
+    ::TYPES[15] = ::g::Fuse::Elements::Element_typeof();
+    ::TYPES[16] = ::g::Fuse::PlacedHandler_typeof();
+    ::TYPES[17] = ::g::Fuse::Elements::PreplacementHandler_typeof();
+    ::TYPES[18] = ::g::Fuse::Triggers::LayoutTransitionedHandler_typeof();
+    type->SetDependencies(
+        ::g::Fuse::Triggers::LayoutTransition_typeof(),
+        ::g::Fuse::UpdateManager_typeof());
+    type->SetInterfaces(
+        ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Triggers::Trigger_type, interface0),
+        ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface1),
+        ::g::Fuse::IProperties_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface2),
+        ::g::Fuse::INotifyUnrooted_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface3),
+        ::g::Fuse::ISourceLocation_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface4),
+        ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Triggers::Trigger_type, interface5),
+        ::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Triggers::Trigger_type, interface6),
+        ::g::Fuse::Animations::IUnwrappedPlayerFeedback_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface7),
+        ::g::Fuse::Animations::IBasePlayerFeedback_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface8));
+    type->SetFields(38,
+        ::g::Fuse::Triggers::LayoutAnimationType_typeof(), offsetof(LayoutAnimation, _type), 0,
+        ::TYPES[15/*Fuse.Elements.Element*/], offsetof(LayoutAnimation, _element), 0,
+        ::g::Uno::Int_typeof(), offsetof(LayoutAnimation, _hasOld), 0,
+        ::g::Uno::Int_typeof(), offsetof(LayoutAnimation, _frameTrans), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(LayoutAnimation, _oldWorld), 0,
+        ::g::Uno::Float4x4_typeof(), offsetof(LayoutAnimation, _oldLocal), 0,
+        ::g::Uno::Float2_typeof(), offsetof(LayoutAnimation, _oldPosition), 0,
+        ::g::Uno::Float2_typeof(), offsetof(LayoutAnimation, _oldSize), 0,
+        ::g::Fuse::Visual_typeof(), offsetof(LayoutAnimation, _oldParent), 0);
+}
+
+::g::Fuse::Triggers::Trigger_type* LayoutAnimation_typeof()
+{
+    static uSStrong< ::g::Fuse::Triggers::Trigger_type*> type;
+    if (type != NULL) return type;
+
+    uTypeOptions options;
+    options.BaseDefinition = ::g::Fuse::Triggers::Trigger_typeof();
+    options.FieldCount = 47;
+    options.InterfaceCount = 9;
+    options.DependencyCount = 2;
+    options.ObjectSize = sizeof(LayoutAnimation);
+    options.TypeSize = sizeof(::g::Fuse::Triggers::Trigger_type);
+    type = (::g::Fuse::Triggers::Trigger_type*)uClassType::New("Fuse.Triggers.LayoutAnimation", options);
+    type->fp_build_ = LayoutAnimation_build;
+    type->fp_ctor_ = (void*)LayoutAnimation__New2_fn;
+    type->fp_OnRooted = (void(*)(::g::Fuse::Node*))LayoutAnimation__OnRooted_fn;
+    type->fp_OnUnrooted = (void(*)(::g::Fuse::Node*))LayoutAnimation__OnUnrooted_fn;
+    type->interface8.fp_OnPlaybackDone = (void(*)(uObject*, uObject*))::g::Fuse::Triggers::Trigger__FuseAnimationsIBasePlayerFeedbackOnPlaybackDone_fn;
+    type->interface8.fp_OnStable = (void(*)(uObject*, uObject*))::g::Fuse::Triggers::Trigger__FuseAnimationsIBasePlayerFeedbackOnStable_fn;
+    type->interface7.fp_OnProgressUpdated = (void(*)(uObject*, uObject*, double*, double*, int32_t*))::g::Fuse::Triggers::Trigger__FuseAnimationsIUnwrappedPlayerFeedbackOnProgressUpdated_fn;
+    type->interface5.fp_Clear = (void(*)(uObject*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingClear_fn;
+    type->interface5.fp_Contains = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingContains_fn;
+    type->interface0.fp_RemoveAt = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsIListFuseBindingRemoveAt_fn;
+    type->interface6.fp_GetEnumerator = (void(*)(uObject*, uObject**))::g::Fuse::Node__UnoCollectionsIEnumerableFuseBindingGetEnumerator_fn;
+    type->interface1.fp_SetScriptObject = (void(*)(uObject*, uObject*, ::g::Fuse::Scripting::Context*))::g::Fuse::Node__FuseScriptingIScriptObjectSetScriptObject_fn;
+    type->interface5.fp_get_Count = (void(*)(uObject*, int32_t*))::g::Fuse::Node__UnoCollectionsICollectionFuseBindingget_Count_fn;
+    type->interface0.fp_get_Item = (void(*)(uObject*, int32_t*, uTRef))::g::Fuse::Node__UnoCollectionsIListFuseBindingget_Item_fn;
+    type->interface1.fp_get_ScriptObject = (void(*)(uObject*, uObject**))::g::Fuse::Node__FuseScriptingIScriptObjectget_ScriptObject_fn;
+    type->interface1.fp_get_ScriptContext = (void(*)(uObject*, ::g::Fuse::Scripting::Context**))::g::Fuse::Node__FuseScriptingIScriptObjectget_ScriptContext_fn;
+    type->interface4.fp_get_SourceNearest = (void(*)(uObject*, uObject**))::g::Fuse::Node__FuseISourceLocationget_SourceNearest_fn;
+    type->interface3.fp_add_Unrooted = (void(*)(uObject*, uDelegate*))::g::Fuse::Node__FuseINotifyUnrootedadd_Unrooted_fn;
+    type->interface3.fp_remove_Unrooted = (void(*)(uObject*, uDelegate*))::g::Fuse::Node__FuseINotifyUnrootedremove_Unrooted_fn;
+    type->interface0.fp_Insert = (void(*)(uObject*, int32_t*, void*))::g::Fuse::Node__Insert_fn;
+    type->interface2.fp_get_Properties = (void(*)(uObject*, ::g::Fuse::Properties**))::g::Fuse::Node__get_Properties_fn;
+    type->interface4.fp_get_SourceLineNumber = (void(*)(uObject*, int32_t*))::g::Fuse::Node__get_SourceLineNumber_fn;
+    type->interface4.fp_get_SourceFileName = (void(*)(uObject*, uString**))::g::Fuse::Node__get_SourceFileName_fn;
+    type->interface5.fp_Add = (void(*)(uObject*, void*))::g::Fuse::Node__Add_fn;
+    type->interface5.fp_Remove = (void(*)(uObject*, void*, bool*))::g::Fuse::Node__Remove_fn;
+    return type;
+}
+
+// public generated LayoutAnimation()
+void LayoutAnimation__ctor_5_fn(LayoutAnimation* __this)
+{
+    __this->ctor_5();
+}
+
+// public generated LayoutAnimation New()
+void LayoutAnimation__New2_fn(LayoutAnimation** __retval)
+{
+    *__retval = LayoutAnimation::New2();
+}
+
+// private void OnPlaced(object sender, Fuse.PlacedArgs args)
+void LayoutAnimation__OnPlaced_fn(LayoutAnimation* __this, uObject* sender, ::g::Fuse::PlacedArgs* args)
+{
+    __this->OnPlaced(sender, args);
+}
+
+// private void OnPreplacement(object sender, Fuse.Elements.PreplacementArgs args)
+void LayoutAnimation__OnPreplacement_fn(LayoutAnimation* __this, uObject* sender, ::g::Fuse::Elements::PreplacementArgs* args)
+{
+    __this->OnPreplacement(sender, args);
+}
+
+// protected override sealed void OnRooted()
+void LayoutAnimation__OnRooted_fn(LayoutAnimation* __this)
+{
+    ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
+    __this->_element = uAs< ::g::Fuse::Elements::Element*>(__this->Parent(), ::TYPES[15/*Fuse.Elements.Element*/]);
+
+    if (__this->_element == NULL)
+    {
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[12/*"LayoutAnima...*/], __this, ::STRINGS[13/*"/Users/antt...*/], 227, ::STRINGS[14/*"OnRooted"*/], NULL);
+        return;
+    }
+
+    uPtr(__this->_element)->add_Placed(uDelegate::New(::TYPES[16/*Fuse.PlacedHandler*/], (void*)LayoutAnimation__OnPlaced_fn, __this));
+    uPtr(__this->_element)->add_Preplacement(uDelegate::New(::TYPES[17/*Fuse.Elements.PreplacementHandler*/], (void*)LayoutAnimation__OnPreplacement_fn, __this));
+    uPtr(__this->_element)->ignoreTempArrange = true;
+    ::g::Fuse::VisualEvent__AddHandler_fn(uPtr(::g::Fuse::Triggers::LayoutTransition::Transitioned()), __this->_element, uDelegate::New(::TYPES[18/*Fuse.Triggers.LayoutTransitionedHandler*/], (void*)LayoutAnimation__OnTransitioned_fn, __this));
+}
+
+// private void OnTransitioned(object sender, Fuse.Triggers.LayoutTransitionedArgs args)
+void LayoutAnimation__OnTransitioned_fn(LayoutAnimation* __this, uObject* sender, ::g::Fuse::Triggers::LayoutTransitionedArgs* args)
+{
+    __this->OnTransitioned(sender, args);
+}
+
+// protected override sealed void OnUnrooted()
+void LayoutAnimation__OnUnrooted_fn(LayoutAnimation* __this)
+{
+    if (__this->_element != NULL)
+    {
+        uPtr(__this->_element)->ignoreTempArrange = false;
+        uPtr(__this->_element)->remove_Placed(uDelegate::New(::TYPES[16/*Fuse.PlacedHandler*/], (void*)LayoutAnimation__OnPlaced_fn, __this));
+        uPtr(__this->_element)->remove_Preplacement(uDelegate::New(::TYPES[17/*Fuse.Elements.PreplacementHandler*/], (void*)LayoutAnimation__OnPreplacement_fn, __this));
+        ::g::Fuse::VisualEvent__RemoveHandler_fn(uPtr(::g::Fuse::Triggers::LayoutTransition::Transitioned()), __this->_element, uDelegate::New(::TYPES[18/*Fuse.Triggers.LayoutTransitionedHandler*/], (void*)LayoutAnimation__OnTransitioned_fn, __this));
+    }
+
+    ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
+}
+
+// public Fuse.Triggers.LayoutAnimationType get_Type()
+void LayoutAnimation__get_Type_fn(LayoutAnimation* __this, int32_t* __retval)
+{
+    *__retval = __this->Type();
+}
+
+// public void set_Type(Fuse.Triggers.LayoutAnimationType value)
+void LayoutAnimation__set_Type_fn(LayoutAnimation* __this, int32_t* value)
+{
+    __this->Type(*value);
+}
+
+// public generated LayoutAnimation() [instance]
+void LayoutAnimation::ctor_5()
+{
+    _type = 3;
+    ctor_4();
+}
+
+// private void OnPlaced(object sender, Fuse.PlacedArgs args) [instance]
+void LayoutAnimation::OnPlaced(uObject* sender, ::g::Fuse::PlacedArgs* args)
+{
+    ::g::Uno::Float4x4 ind1;
+
+    if (!((Type() & 1) == 1))
+        return;
+
+    if (_hasOld != ::g::Fuse::UpdateManager::FrameIndex())
+        return;
+
+    if (_frameTrans == ::g::Fuse::UpdateManager::FrameIndex())
+        return;
+
+    ind1 = _oldLocal;
+    ::g::Uno::Float2 oldPosition = ::g::Uno::Float2__New2(ind1.M41, ind1.M42);
+    ::g::Uno::Float2 oldSize = _oldSize;
+    ::g::Uno::Float4x4 m = ::g::Uno::Matrix::Mul8(_oldWorld, uPtr(uPtr(_element)->Parent())->WorldTransformInverse());
+    ::g::Uno::Float3 worldChange = ::g::Uno::Float3__op_Subtraction2(::g::Uno::Float3__New2(m.M41, m.M42, m.M43), ::g::Uno::Float3__New4(uPtr(_element)->IntendedPosition(), 0.0f));
+    ::g::Fuse::Triggers::LayoutTransition::SetWorldPositionChange(_element, worldChange);
+    ::g::Fuse::Triggers::LayoutTransition::SetPositionChange(_element, oldPosition, uPtr(_element)->IntendedPosition());
+    ::g::Fuse::Triggers::LayoutTransition::SetSizeChange(_element, oldSize, uPtr(_element)->IntendedSize());
+    BypassActivate();
+    Deactivate();
+}
+
+// private void OnPreplacement(object sender, Fuse.Elements.PreplacementArgs args) [instance]
+void LayoutAnimation::OnPreplacement(uObject* sender, ::g::Fuse::Elements::PreplacementArgs* args)
+{
+    if (!((Type() & 1) == 1))
+        return;
+
+    if (_hasOld == ::g::Fuse::UpdateManager::FrameIndex())
+        return;
+
+    if (!uPtr(args)->HasPrev())
+        return;
+
+    _hasOld = ::g::Fuse::UpdateManager::FrameIndex();
+    _oldWorld = uPtr(_element)->WorldTransform();
+    _oldPosition = uPtr(_element)->ActualPosition();
+    _oldSize = uPtr(_element)->ActualSize();
+    _oldParent = uPtr(_element)->Parent();
+    _oldLocal = uPtr(_element)->LocalTransform();
+}
+
+// private void OnTransitioned(object sender, Fuse.Triggers.LayoutTransitionedArgs args) [instance]
+void LayoutAnimation::OnTransitioned(uObject* sender, ::g::Fuse::Triggers::LayoutTransitionedArgs* args)
+{
+    if (!((Type() & 2) == 2))
+        return;
+
+    _frameTrans = ::g::Fuse::UpdateManager::FrameIndex();
+    BypassActivate();
+    Deactivate();
+}
+
+// public Fuse.Triggers.LayoutAnimationType get_Type() [instance]
+int32_t LayoutAnimation::Type()
+{
+    return _type;
+}
+
+// public void set_Type(Fuse.Triggers.LayoutAnimationType value) [instance]
+void LayoutAnimation::Type(int32_t value)
+{
+    _type = value;
+}
+
+// public generated LayoutAnimation New() [static]
+LayoutAnimation* LayoutAnimation::New2()
+{
+    LayoutAnimation* obj2 = (LayoutAnimation*)uNew(LayoutAnimation_typeof());
+    obj2->ctor_5();
+    return obj2;
+}
+// }
+
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Triggers/LayoutAnimation.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// public enum LayoutAnimationType
+uEnumType* LayoutAnimationType_typeof()
+{
+    static uSStrong<uEnumType*> type;
+    if (type != NULL) return type;
+
+    type = uEnumType::New("Fuse.Triggers.LayoutAnimationType", ::g::Uno::Int_typeof(), 3);
+    type->SetLiterals(
+        "Implicit", 1LL,
+        "Explicit", 2LL,
+        "Both", 3LL);
+    return type;
+}
+
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Triggers/LayoutAnimation.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// public static class LayoutTransition
+// {
+// static generated LayoutTransition()
 static void LayoutTransition__cctor__fn(uType* __type)
 {
     ::g::Fuse::Properties_typeof()->Init();
@@ -1811,43 +2074,43 @@ uClassType* LayoutTransition_typeof()
     return type;
 }
 
-// internal static bool GetPositionChange(Fuse.Node n, float2& oldPos, float2& newPos) :77
+// internal static bool GetPositionChange(Fuse.Node n, float2& oldPos, float2& newPos)
 void LayoutTransition__GetPositionChange_fn(::g::Fuse::Node* n, ::g::Uno::Float2* oldPos, ::g::Uno::Float2* newPos, bool* __retval)
 {
     *__retval = LayoutTransition::GetPositionChange(n, oldPos, newPos);
 }
 
-// internal static bool GetSizeChange(Fuse.Node n, float2& oldSize, float2& newSize) :140
+// internal static bool GetSizeChange(Fuse.Node n, float2& oldSize, float2& newSize)
 void LayoutTransition__GetSizeChange_fn(::g::Fuse::Node* n, ::g::Uno::Float2* oldSize, ::g::Uno::Float2* newSize, bool* __retval)
 {
     *__retval = LayoutTransition::GetSizeChange(n, oldSize, newSize);
 }
 
-// internal static float3 GetWorldPositionChange(Fuse.Node n) :47
+// internal static float3 GetWorldPositionChange(Fuse.Node n)
 void LayoutTransition__GetWorldPositionChange_fn(::g::Fuse::Node* n, ::g::Uno::Float3* __retval)
 {
     *__retval = LayoutTransition::GetWorldPositionChange(n);
 }
 
-// internal static void SetPositionChange(Fuse.Visual n, float2 oldPos, float2 newPos) :87
+// internal static void SetPositionChange(Fuse.Visual n, float2 oldPos, float2 newPos)
 void LayoutTransition__SetPositionChange_fn(::g::Fuse::Visual* n, ::g::Uno::Float2* oldPos, ::g::Uno::Float2* newPos)
 {
     LayoutTransition::SetPositionChange(n, *oldPos, *newPos);
 }
 
-// internal static void SetSizeChange(Fuse.Node n, float2 oldSize, float2 newSize) :135
+// internal static void SetSizeChange(Fuse.Node n, float2 oldSize, float2 newSize)
 void LayoutTransition__SetSizeChange_fn(::g::Fuse::Node* n, ::g::Uno::Float2* oldSize, ::g::Uno::Float2* newSize)
 {
     LayoutTransition::SetSizeChange(n, *oldSize, *newSize);
 }
 
-// internal static void SetWorldPositionChange(Fuse.Node n, float3 change) :54
+// internal static void SetWorldPositionChange(Fuse.Node n, float3 change)
 void LayoutTransition__SetWorldPositionChange_fn(::g::Fuse::Node* n, ::g::Uno::Float3* change)
 {
     LayoutTransition::SetWorldPositionChange(n, *change);
 }
 
-// public static Fuse.VisualEvent<Fuse.Triggers.LayoutTransitionedHandler, Fuse.Triggers.LayoutTransitionedArgs> get_Transitioned() :28
+// public static Fuse.VisualEvent<Fuse.Triggers.LayoutTransitionedHandler, Fuse.Triggers.LayoutTransitionedArgs> get_Transitioned()
 void LayoutTransition__get_Transitioned_fn(::g::Fuse::VisualEvent** __retval)
 {
     *__retval = LayoutTransition::Transitioned();
@@ -1864,7 +2127,7 @@ uSStrong<uObject*> LayoutTransition::ResizeSizeChange_;
 uSStrong<uObject*> LayoutTransition::ScalingSizeChange_;
 uSStrong< ::g::Fuse::PropertyHandle*> LayoutTransition::_sizeChange_;
 
-// internal static bool GetPositionChange(Fuse.Node n, float2& oldPos, float2& newPos) [static] :77
+// internal static bool GetPositionChange(Fuse.Node n, float2& oldPos, float2& newPos) [static]
 bool LayoutTransition::GetPositionChange(::g::Fuse::Node* n, ::g::Uno::Float2* oldPos, ::g::Uno::Float2* newPos)
 {
     LayoutTransition_typeof()->Init();
@@ -1875,7 +2138,7 @@ bool LayoutTransition::GetPositionChange(::g::Fuse::Node* n, ::g::Uno::Float2* o
     return v != NULL;
 }
 
-// internal static bool GetSizeChange(Fuse.Node n, float2& oldSize, float2& newSize) [static] :140
+// internal static bool GetSizeChange(Fuse.Node n, float2& oldSize, float2& newSize) [static]
 bool LayoutTransition::GetSizeChange(::g::Fuse::Node* n, ::g::Uno::Float2* oldSize, ::g::Uno::Float2* newSize)
 {
     LayoutTransition_typeof()->Init();
@@ -1896,7 +2159,7 @@ bool LayoutTransition::GetSizeChange(::g::Fuse::Node* n, ::g::Uno::Float2* oldSi
     }
 }
 
-// internal static float3 GetWorldPositionChange(Fuse.Node n) [static] :47
+// internal static float3 GetWorldPositionChange(Fuse.Node n) [static]
 ::g::Uno::Float3 LayoutTransition::GetWorldPositionChange(::g::Fuse::Node* n)
 {
     LayoutTransition_typeof()->Init();
@@ -1908,28 +2171,28 @@ bool LayoutTransition::GetSizeChange(::g::Fuse::Node* n, ::g::Uno::Float2* oldSi
         return ::g::Uno::Float3__New1(0.0f);
 }
 
-// internal static void SetPositionChange(Fuse.Visual n, float2 oldPos, float2 newPos) [static] :87
+// internal static void SetPositionChange(Fuse.Visual n, float2 oldPos, float2 newPos) [static]
 void LayoutTransition::SetPositionChange(::g::Fuse::Visual* n, ::g::Uno::Float2 oldPos, ::g::Uno::Float2 newPos)
 {
     LayoutTransition_typeof()->Init();
     uPtr(uPtr(n)->Properties())->Set(LayoutTransition::_positionChange_, uBox(::g::Uno::Float4_typeof(), ::g::Uno::Float4__New7(oldPos, newPos)));
 }
 
-// internal static void SetSizeChange(Fuse.Node n, float2 oldSize, float2 newSize) [static] :135
+// internal static void SetSizeChange(Fuse.Node n, float2 oldSize, float2 newSize) [static]
 void LayoutTransition::SetSizeChange(::g::Fuse::Node* n, ::g::Uno::Float2 oldSize, ::g::Uno::Float2 newSize)
 {
     LayoutTransition_typeof()->Init();
     uPtr(uPtr(n)->Properties())->Set(LayoutTransition::_sizeChange_, uBox(::g::Uno::Float4_typeof(), ::g::Uno::Float4__New7(oldSize, newSize)));
 }
 
-// internal static void SetWorldPositionChange(Fuse.Node n, float3 change) [static] :54
+// internal static void SetWorldPositionChange(Fuse.Node n, float3 change) [static]
 void LayoutTransition::SetWorldPositionChange(::g::Fuse::Node* n, ::g::Uno::Float3 change)
 {
     LayoutTransition_typeof()->Init();
     uPtr(uPtr(n)->Properties())->Set(LayoutTransition::_worldPositionChange_, uBox(::g::Uno::Float3_typeof(), change));
 }
 
-// public static Fuse.VisualEvent<Fuse.Triggers.LayoutTransitionedHandler, Fuse.Triggers.LayoutTransitionedArgs> get_Transitioned() [static] :28
+// public static Fuse.VisualEvent<Fuse.Triggers.LayoutTransitionedHandler, Fuse.Triggers.LayoutTransitionedArgs> get_Transitioned() [static]
 ::g::Fuse::VisualEvent* LayoutTransition::Transitioned()
 {
     LayoutTransition_typeof()->Init();
@@ -1937,10 +2200,10 @@ void LayoutTransition::SetWorldPositionChange(::g::Fuse::Node* n, ::g::Uno::Floa
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Triggers/LayoutAnimation.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Triggers/LayoutAnimation.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class LayoutTransitioned :15
+// internal sealed class LayoutTransitioned
 // {
 static void LayoutTransitioned_build(uType* type)
 {
@@ -1965,31 +2228,31 @@ static void LayoutTransitioned_build(uType* type)
     return type;
 }
 
-// public generated LayoutTransitioned() :15
+// public generated LayoutTransitioned()
 void LayoutTransitioned__ctor_1_fn(LayoutTransitioned* __this)
 {
     __this->ctor_1();
 }
 
-// protected override sealed void Invoke(Fuse.Triggers.LayoutTransitionedHandler handler, object sender, Fuse.Triggers.LayoutTransitionedArgs args) :17
+// protected override sealed void Invoke(Fuse.Triggers.LayoutTransitionedHandler handler, object sender, Fuse.Triggers.LayoutTransitionedArgs args)
 void LayoutTransitioned__Invoke_fn(LayoutTransitioned* __this, uDelegate* handler, uObject* sender, ::g::Fuse::Triggers::LayoutTransitionedArgs* args)
 {
     uPtr(handler)->Invoke(2, sender, args);
 }
 
-// public generated LayoutTransitioned New() :15
+// public generated LayoutTransitioned New()
 void LayoutTransitioned__New1_fn(LayoutTransitioned** __retval)
 {
     *__retval = LayoutTransitioned::New1();
 }
 
-// public generated LayoutTransitioned() [instance] :15
+// public generated LayoutTransitioned() [instance]
 void LayoutTransitioned::ctor_1()
 {
     ctor_();
 }
 
-// public generated LayoutTransitioned New() [static] :15
+// public generated LayoutTransitioned New() [static]
 LayoutTransitioned* LayoutTransitioned::New1()
 {
     LayoutTransitioned* obj1 = (LayoutTransitioned*)uNew(LayoutTransitioned_typeof());
@@ -1998,10 +2261,10 @@ LayoutTransitioned* LayoutTransitioned::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Triggers/LayoutAnimation.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Triggers/LayoutAnimation.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class LayoutTransitionedArgs :8
+// public sealed class LayoutTransitionedArgs
 // {
 static void LayoutTransitionedArgs_build(uType* type)
 {
@@ -2027,25 +2290,25 @@ static void LayoutTransitionedArgs_build(uType* type)
     return type;
 }
 
-// public LayoutTransitionedArgs(Fuse.Visual node) :10
+// public LayoutTransitionedArgs(Fuse.Visual node)
 void LayoutTransitionedArgs__ctor_2_fn(LayoutTransitionedArgs* __this, ::g::Fuse::Visual* node)
 {
     __this->ctor_2(node);
 }
 
-// public LayoutTransitionedArgs New(Fuse.Visual node) :10
+// public LayoutTransitionedArgs New(Fuse.Visual node)
 void LayoutTransitionedArgs__New3_fn(::g::Fuse::Visual* node, LayoutTransitionedArgs** __retval)
 {
     *__retval = LayoutTransitionedArgs::New3(node);
 }
 
-// public LayoutTransitionedArgs(Fuse.Visual node) [instance] :10
+// public LayoutTransitionedArgs(Fuse.Visual node) [instance]
 void LayoutTransitionedArgs::ctor_2(::g::Fuse::Visual* node)
 {
     ctor_1(node);
 }
 
-// public LayoutTransitionedArgs New(Fuse.Visual node) [static] :10
+// public LayoutTransitionedArgs New(Fuse.Visual node) [static]
 LayoutTransitionedArgs* LayoutTransitionedArgs::New3(::g::Fuse::Visual* node)
 {
     LayoutTransitionedArgs* obj1 = (LayoutTransitionedArgs*)uNew(LayoutTransitionedArgs_typeof());
@@ -2054,10 +2317,10 @@ LayoutTransitionedArgs* LayoutTransitionedArgs::New3(::g::Fuse::Visual* node)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Triggers/LayoutAnimation.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Triggers/LayoutAnimation.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal delegate void LayoutTransitionedHandler(object sender, Fuse.Triggers.LayoutTransitionedArgs args) :14
+// public delegate void LayoutTransitionedHandler(object sender, Fuse.Triggers.LayoutTransitionedArgs args)
 uDelegateType* LayoutTransitionedHandler_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -2070,17 +2333,17 @@ uDelegateType* LayoutTransitionedHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.UserEvents/1.9.0/OnUserEvent.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.UserEvents/1.12.0/OnUserEvent.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class OnUserEvent :69
+// public sealed class OnUserEvent
 // {
 static void OnUserEvent_build(uType* type)
 {
-    ::STRINGS[12] = uString::Const("OnUserEvent requires a `EventName`");
-    ::STRINGS[13] = uString::Const("/usr/local/share/uno/Packages/Fuse.UserEvents/1.9.0/OnUserEvent.uno");
+    ::STRINGS[15] = uString::Const("OnUserEvent requires a `EventName`");
+    ::STRINGS[16] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.UserEvents/1.12.0/OnUserEvent.uno");
     ::STRINGS[14] = uString::Const("OnRooted");
-    ::TYPES[15] = ::g::Fuse::UserEventHandler_typeof();
+    ::TYPES[19] = ::g::Fuse::UserEventHandler_typeof();
     type->SetDependencies(
         ::g::Fuse::UserEvent_typeof(),
         ::g::Fuse::UserEventDispatch_typeof());
@@ -2099,7 +2362,7 @@ static void OnUserEvent_build(uType* type)
         ::g::Fuse::UserEventDispatch_typeof(), offsetof(OnUserEvent, _rootedEvent), 0,
         ::g::Fuse::Visual_typeof(), offsetof(OnUserEvent, _scope), 0,
         ::g::Uno::UX::Selector_typeof(), offsetof(OnUserEvent, _EventName), 0,
-        ::TYPES[15/*Fuse.UserEventHandler*/], offsetof(OnUserEvent, Handler1), 0);
+        ::TYPES[19/*Fuse.UserEventHandler*/], offsetof(OnUserEvent, Handler1), 0);
 }
 
 ::g::Fuse::Triggers::Trigger_type* OnUserEvent_typeof()
@@ -2143,131 +2406,131 @@ static void OnUserEvent_build(uType* type)
     return type;
 }
 
-// public generated OnUserEvent() :69
+// public generated OnUserEvent()
 void OnUserEvent__ctor_5_fn(OnUserEvent* __this)
 {
     __this->ctor_5();
 }
 
-// public generated Uno.UX.Selector get_EventName() :74
+// public generated Uno.UX.Selector get_EventName()
 void OnUserEvent__get_EventName_fn(OnUserEvent* __this, ::g::Uno::UX::Selector* __retval)
 {
     *__retval = __this->EventName();
 }
 
-// public generated void set_EventName(Uno.UX.Selector value) :74
+// public generated void set_EventName(Uno.UX.Selector value)
 void OnUserEvent__set_EventName_fn(OnUserEvent* __this, ::g::Uno::UX::Selector* value)
 {
     __this->EventName(*value);
 }
 
-// public Fuse.Triggers.OnUserEventFilter get_Filter() :82
+// public Fuse.Triggers.OnUserEventFilter get_Filter()
 void OnUserEvent__get_Filter_fn(OnUserEvent* __this, int32_t* __retval)
 {
     *__retval = __this->Filter();
 }
 
-// public void set_Filter(Fuse.Triggers.OnUserEventFilter value) :83
+// public void set_Filter(Fuse.Triggers.OnUserEventFilter value)
 void OnUserEvent__set_Filter_fn(OnUserEvent* __this, int32_t* value)
 {
     __this->Filter(*value);
 }
 
-// public generated void add_Handler(Fuse.UserEventHandler value) :89
+// public generated void add_Handler(Fuse.UserEventHandler value)
 void OnUserEvent__add_Handler_fn(OnUserEvent* __this, uDelegate* value)
 {
     __this->add_Handler(value);
 }
 
-// public generated void remove_Handler(Fuse.UserEventHandler value) :89
+// public generated void remove_Handler(Fuse.UserEventHandler value)
 void OnUserEvent__remove_Handler_fn(OnUserEvent* __this, uDelegate* value)
 {
     __this->remove_Handler(value);
 }
 
-// public generated OnUserEvent New() :69
+// public generated OnUserEvent New()
 void OnUserEvent__New2_fn(OnUserEvent** __retval)
 {
     *__retval = OnUserEvent::New2();
 }
 
-// private void OnRaised(object s, Fuse.UserEventArgs args) :123
+// private void OnRaised(object s, Fuse.UserEventArgs args)
 void OnUserEvent__OnRaised_fn(OnUserEvent* __this, uObject* s, ::g::Fuse::UserEventArgs* args)
 {
     __this->OnRaised(s, args);
 }
 
-// protected override sealed void OnRooted() :92
+// protected override sealed void OnRooted()
 void OnUserEvent__OnRooted_fn(OnUserEvent* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
 
-    if (::g::Uno::String::op_Equality(::g::Uno::UX::Selector__op_Implicit2(__this->EventName()), NULL))
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[12/*"OnUserEvent...*/], __this, ::STRINGS[13/*"/usr/local/...*/], 97, ::STRINGS[14/*"OnRooted"*/], NULL);
+    if (::g::Uno::String::op_Equality(::g::Uno::UX::Selector__op_Implicit1(__this->EventName()), NULL))
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[15/*"OnUserEvent...*/], __this, ::STRINGS[16/*"/Users/antt...*/], 97, ::STRINGS[14/*"OnRooted"*/], NULL);
     else
     {
         __this->_rootedEvent = ::g::Fuse::UserEventDispatch::GetByName(__this->EventName());
-        uPtr(__this->_rootedEvent)->add_Raised(uDelegate::New(::TYPES[15/*Fuse.UserEventHandler*/], (void*)OnUserEvent__OnRaised_fn, __this));
+        uPtr(__this->_rootedEvent)->add_Raised(uDelegate::New(::TYPES[19/*Fuse.UserEventHandler*/], (void*)OnUserEvent__OnRaised_fn, __this));
     }
 
     __this->_scope = NULL;
 }
 
-// protected override sealed void OnUnrooted() :107
+// protected override sealed void OnUnrooted()
 void OnUserEvent__OnUnrooted_fn(OnUserEvent* __this)
 {
     if (__this->_rootedEvent != NULL)
     {
-        uPtr(__this->_rootedEvent)->remove_Raised(uDelegate::New(::TYPES[15/*Fuse.UserEventHandler*/], (void*)OnUserEvent__OnRaised_fn, __this));
+        uPtr(__this->_rootedEvent)->remove_Raised(uDelegate::New(::TYPES[19/*Fuse.UserEventHandler*/], (void*)OnUserEvent__OnRaised_fn, __this));
         __this->_rootedEvent = NULL;
     }
 
     ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
 }
 
-// public generated OnUserEvent() [instance] :69
+// public generated OnUserEvent() [instance]
 void OnUserEvent::ctor_5()
 {
     ctor_4();
 }
 
-// public generated Uno.UX.Selector get_EventName() [instance] :74
+// public generated Uno.UX.Selector get_EventName() [instance]
 ::g::Uno::UX::Selector OnUserEvent::EventName()
 {
     return _EventName;
 }
 
-// public generated void set_EventName(Uno.UX.Selector value) [instance] :74
+// public generated void set_EventName(Uno.UX.Selector value) [instance]
 void OnUserEvent::EventName(::g::Uno::UX::Selector value)
 {
     _EventName = value;
 }
 
-// public Fuse.Triggers.OnUserEventFilter get_Filter() [instance] :82
+// public Fuse.Triggers.OnUserEventFilter get_Filter() [instance]
 int32_t OnUserEvent::Filter()
 {
     return _filter;
 }
 
-// public void set_Filter(Fuse.Triggers.OnUserEventFilter value) [instance] :83
+// public void set_Filter(Fuse.Triggers.OnUserEventFilter value) [instance]
 void OnUserEvent::Filter(int32_t value)
 {
     _filter = value;
 }
 
-// public generated void add_Handler(Fuse.UserEventHandler value) [instance] :89
+// public generated void add_Handler(Fuse.UserEventHandler value) [instance]
 void OnUserEvent::add_Handler(uDelegate* value)
 {
-    Handler1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Handler1, value), ::TYPES[15/*Fuse.UserEventHandler*/]);
+    Handler1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Handler1, value), ::TYPES[19/*Fuse.UserEventHandler*/]);
 }
 
-// public generated void remove_Handler(Fuse.UserEventHandler value) [instance] :89
+// public generated void remove_Handler(Fuse.UserEventHandler value) [instance]
 void OnUserEvent::remove_Handler(uDelegate* value)
 {
-    Handler1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Handler1, value), ::TYPES[15/*Fuse.UserEventHandler*/]);
+    Handler1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Handler1, value), ::TYPES[19/*Fuse.UserEventHandler*/]);
 }
 
-// private void OnRaised(object s, Fuse.UserEventArgs args) [instance] :123
+// private void OnRaised(object s, Fuse.UserEventArgs args) [instance]
 void OnUserEvent::OnRaised(uObject* s, ::g::Fuse::UserEventArgs* args)
 {
     if (Filter() == 0)
@@ -2289,7 +2552,7 @@ void OnUserEvent::OnRaised(uObject* s, ::g::Fuse::UserEventArgs* args)
     Pulse();
 }
 
-// public generated OnUserEvent New() [static] :69
+// public generated OnUserEvent New() [static]
 OnUserEvent* OnUserEvent::New2()
 {
     OnUserEvent* obj1 = (OnUserEvent*)uNew(OnUserEvent_typeof());
@@ -2298,10 +2561,10 @@ OnUserEvent* OnUserEvent::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.UserEvents/1.9.0/OnUserEvent.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.UserEvents/1.12.0/OnUserEvent.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum OnUserEventFilter :5
+// public enum OnUserEventFilter
 uEnumType* OnUserEventFilter_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -2314,10 +2577,10 @@ uEnumType* OnUserEventFilter_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Triggers/ScrollRegion.uno
-// --------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Triggers/ScrollRegion.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class IScrolledLengths.PixelsLength :27
+// private sealed class IScrolledLengths.PixelsLength
 // {
 static void IScrolledLengths__PixelsLength_build(uType* type)
 {
@@ -2341,36 +2604,36 @@ IScrolledLengths__PixelsLength_type* IScrolledLengths__PixelsLength_typeof()
     return type;
 }
 
-// public generated PixelsLength() :27
+// public generated PixelsLength()
 void IScrolledLengths__PixelsLength__ctor__fn(IScrolledLengths__PixelsLength* __this)
 {
     __this->ctor_();
 }
 
-// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable) :29
+// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable)
 void IScrolledLengths__PixelsLength__GetPoints_fn(IScrolledLengths__PixelsLength* __this, float* value, ::g::Fuse::Controls::ScrollViewBase* scrollable, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->GetPoints(*value, scrollable);
 }
 
-// public generated PixelsLength New() :27
+// public generated PixelsLength New()
 void IScrolledLengths__PixelsLength__New1_fn(IScrolledLengths__PixelsLength** __retval)
 {
     *__retval = IScrolledLengths__PixelsLength::New1();
 }
 
-// public generated PixelsLength() [instance] :27
+// public generated PixelsLength() [instance]
 void IScrolledLengths__PixelsLength::ctor_()
 {
 }
 
-// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable) [instance] :29
+// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable) [instance]
 ::g::Uno::Float2 IScrolledLengths__PixelsLength::GetPoints(float value, ::g::Fuse::Controls::ScrollViewBase* scrollable)
 {
     return ::g::Uno::Float2__op_Division1(::g::Uno::Float2__New1(value), uPtr(scrollable)->AbsoluteZoom());
 }
 
-// public generated PixelsLength New() [static] :27
+// public generated PixelsLength New() [static]
 IScrolledLengths__PixelsLength* IScrolledLengths__PixelsLength::New1()
 {
     IScrolledLengths__PixelsLength* obj1 = (IScrolledLengths__PixelsLength*)uNew(IScrolledLengths__PixelsLength_typeof());
@@ -2379,10 +2642,10 @@ IScrolledLengths__PixelsLength* IScrolledLengths__PixelsLength::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Triggers/ScrollRegion.uno
-// --------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Triggers/ScrollRegion.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class IScrolledLengths.PointsLength :15
+// private sealed class IScrolledLengths.PointsLength
 // {
 static void IScrolledLengths__PointsLength_build(uType* type)
 {
@@ -2406,36 +2669,36 @@ IScrolledLengths__PointsLength_type* IScrolledLengths__PointsLength_typeof()
     return type;
 }
 
-// public generated PointsLength() :15
+// public generated PointsLength()
 void IScrolledLengths__PointsLength__ctor__fn(IScrolledLengths__PointsLength* __this)
 {
     __this->ctor_();
 }
 
-// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable) :17
+// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable)
 void IScrolledLengths__PointsLength__GetPoints_fn(IScrolledLengths__PointsLength* __this, float* value, ::g::Fuse::Controls::ScrollViewBase* scrollable, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->GetPoints(*value, scrollable);
 }
 
-// public generated PointsLength New() :15
+// public generated PointsLength New()
 void IScrolledLengths__PointsLength__New1_fn(IScrolledLengths__PointsLength** __retval)
 {
     *__retval = IScrolledLengths__PointsLength::New1();
 }
 
-// public generated PointsLength() [instance] :15
+// public generated PointsLength() [instance]
 void IScrolledLengths__PointsLength::ctor_()
 {
 }
 
-// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable) [instance] :17
+// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable) [instance]
 ::g::Uno::Float2 IScrolledLengths__PointsLength::GetPoints(float value, ::g::Fuse::Controls::ScrollViewBase* scrollable)
 {
     return ::g::Uno::Float2__New1(value);
 }
 
-// public generated PointsLength New() [static] :15
+// public generated PointsLength New() [static]
 IScrolledLengths__PointsLength* IScrolledLengths__PointsLength::New1()
 {
     IScrolledLengths__PointsLength* obj1 = (IScrolledLengths__PointsLength*)uNew(IScrolledLengths__PointsLength_typeof());
@@ -2444,10 +2707,10 @@ IScrolledLengths__PointsLength* IScrolledLengths__PointsLength::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Triggers/LayoutAnimation.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Triggers/LayoutAnimation.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class LayoutTransition.PositionChangeMode :59
+// private sealed class LayoutTransition.PositionChangeMode
 // {
 static void LayoutTransition__PositionChangeMode_build(uType* type)
 {
@@ -2477,42 +2740,42 @@ LayoutTransition__PositionChangeMode_type* LayoutTransition__PositionChangeMode_
     return type;
 }
 
-// public generated PositionChangeMode() :59
+// public generated PositionChangeMode()
 void LayoutTransition__PositionChangeMode__ctor__fn(LayoutTransition__PositionChangeMode* __this)
 {
     __this->ctor_();
 }
 
-// public float3 GetAbsVector(Fuse.Translation t) :61
+// public float3 GetAbsVector(Fuse.Translation t)
 void LayoutTransition__PositionChangeMode__GetAbsVector_fn(LayoutTransition__PositionChangeMode* __this, ::g::Fuse::Translation* t, ::g::Uno::Float3* __retval)
 {
     *__retval = __this->GetAbsVector(t);
 }
 
-// public generated PositionChangeMode New() :59
+// public generated PositionChangeMode New()
 void LayoutTransition__PositionChangeMode__New1_fn(LayoutTransition__PositionChangeMode** __retval)
 {
     *__retval = LayoutTransition__PositionChangeMode::New1();
 }
 
-// public object Subscribe(Fuse.ITransformRelative transform) :69
+// public object Subscribe(Fuse.ITransformRelative transform)
 void LayoutTransition__PositionChangeMode__Subscribe_fn(LayoutTransition__PositionChangeMode* __this, uObject* transform, uObject** __retval)
 {
     *__retval = __this->Subscribe(transform);
 }
 
-// public void Unsubscribe(Fuse.ITransformRelative transform, object sub) :70
+// public void Unsubscribe(Fuse.ITransformRelative transform, object sub)
 void LayoutTransition__PositionChangeMode__Unsubscribe_fn(LayoutTransition__PositionChangeMode* __this, uObject* transform, uObject* sub)
 {
     __this->Unsubscribe(transform, sub);
 }
 
-// public generated PositionChangeMode() [instance] :59
+// public generated PositionChangeMode() [instance]
 void LayoutTransition__PositionChangeMode::ctor_()
 {
 }
 
-// public float3 GetAbsVector(Fuse.Translation t) [instance] :61
+// public float3 GetAbsVector(Fuse.Translation t) [instance]
 ::g::Uno::Float3 LayoutTransition__PositionChangeMode::GetAbsVector(::g::Fuse::Translation* t)
 {
     ::g::Uno::Float2 oldPos, newPos;
@@ -2523,18 +2786,18 @@ void LayoutTransition__PositionChangeMode::ctor_()
     return ::g::Uno::Float3__op_Multiply2(::g::Uno::Float3__New4(::g::Uno::Float2__op_Subtraction2(oldPos, newPos), 0.0f), uPtr(t)->Vector());
 }
 
-// public object Subscribe(Fuse.ITransformRelative transform) [instance] :69
+// public object Subscribe(Fuse.ITransformRelative transform) [instance]
 uObject* LayoutTransition__PositionChangeMode::Subscribe(uObject* transform)
 {
     return NULL;
 }
 
-// public void Unsubscribe(Fuse.ITransformRelative transform, object sub) [instance] :70
+// public void Unsubscribe(Fuse.ITransformRelative transform, object sub) [instance]
 void LayoutTransition__PositionChangeMode::Unsubscribe(uObject* transform, uObject* sub)
 {
 }
 
-// public generated PositionChangeMode New() [static] :59
+// public generated PositionChangeMode New() [static]
 LayoutTransition__PositionChangeMode* LayoutTransition__PositionChangeMode::New1()
 {
     LayoutTransition__PositionChangeMode* obj1 = (LayoutTransition__PositionChangeMode*)uNew(LayoutTransition__PositionChangeMode_typeof());
@@ -2543,10 +2806,10 @@ LayoutTransition__PositionChangeMode* LayoutTransition__PositionChangeMode::New1
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/PulseTrigger.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/PulseTrigger.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// public delegate void PulseTrigger<ArgsT>.PulseHandler(object sender, ArgsT args) :13
+// public delegate void PulseTrigger<ArgsT>.PulseHandler(object sender, ArgsT args)
 uDelegateType* PulseTrigger__PulseHandler_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -2559,17 +2822,15 @@ uDelegateType* PulseTrigger__PulseHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/PulseTrigger.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/PulseTrigger.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class PulseTrigger<ArgsT> :10
+// public abstract class PulseTrigger<ArgsT>
 // {
 static void PulseTrigger_build(uType* type)
 {
     type->SetPrecalc(
         PulseTrigger__PulseHandler_typeof()->MakeType(type->T(0), NULL));
-    type->MethodTypes[0]->SetPrecalc(
-        ::g::Fuse::Visual_typeof()->MakeMethod(2/*FirstChild<T>*/, type->MethodTypes[0]->U(0), NULL));
     type->SetInterfaces(
         ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Triggers::Trigger_type, interface0),
         ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface1),
@@ -2594,12 +2855,10 @@ static void PulseTrigger_build(uType* type)
     options.FieldCount = 39;
     options.GenericCount = 1;
     options.InterfaceCount = 9;
-    options.MethodTypeCount = 1;
     options.PrecalcCount = 1;
     options.ObjectSize = sizeof(PulseTrigger);
     options.TypeSize = sizeof(::g::Fuse::Triggers::Trigger_type);
     type = (::g::Fuse::Triggers::Trigger_type*)uClassType::New("Fuse.Triggers.PulseTrigger`1", options);
-    type->MethodTypes[0] = type->NewMethodType(1, 1,0);
     type->fp_build_ = PulseTrigger_build;
     type->interface8.fp_OnPlaybackDone = (void(*)(uObject*, uObject*))::g::Fuse::Triggers::Trigger__FuseAnimationsIBasePlayerFeedbackOnPlaybackDone_fn;
     type->interface8.fp_OnStable = (void(*)(uObject*, uObject*))::g::Fuse::Triggers::Trigger__FuseAnimationsIBasePlayerFeedbackOnStable_fn;
@@ -2625,43 +2884,37 @@ static void PulseTrigger_build(uType* type)
     return type;
 }
 
-// protected generated PulseTrigger() :10
+// protected generated PulseTrigger()
 void PulseTrigger__ctor_5_fn(PulseTrigger* __this)
 {
     __this->ctor_5();
 }
 
-// internal static void AddHandlerImpl<T>(Fuse.Visual visual, Fuse.Triggers.PulseTrigger<ArgsT>.PulseHandler handler) :27
-void PulseTrigger__AddHandlerImpl_fn(uType* __type, ::g::Fuse::Visual* visual, uDelegate* handler)
-{
-    PulseTrigger::AddHandlerImpl(__type, visual, handler);
-}
-
-// public generated void add_Handler(Fuse.Triggers.PulseTrigger<ArgsT>.PulseHandler value) :18
+// public generated void add_Handler(Fuse.Triggers.PulseTrigger<ArgsT>.PulseHandler value)
 void PulseTrigger__add_Handler_fn(PulseTrigger* __this, uDelegate* value)
 {
     __this->add_Handler(value);
 }
 
-// public generated void remove_Handler(Fuse.Triggers.PulseTrigger<ArgsT>.PulseHandler value) :18
+// public generated void remove_Handler(Fuse.Triggers.PulseTrigger<ArgsT>.PulseHandler value)
 void PulseTrigger__remove_Handler_fn(PulseTrigger* __this, uDelegate* value)
 {
     __this->remove_Handler(value);
 }
 
-// protected void Pulse(ArgsT args) :20
+// protected void Pulse(ArgsT args)
 void PulseTrigger__Pulse1_fn(PulseTrigger* __this, ::g::Uno::EventArgs* args)
 {
     __this->Pulse1(args);
 }
 
-// protected generated PulseTrigger() [instance] :10
+// protected generated PulseTrigger() [instance]
 void PulseTrigger::ctor_5()
 {
     ctor_4();
 }
 
-// public generated void add_Handler(Fuse.Triggers.PulseTrigger<ArgsT>.PulseHandler value) [instance] :18
+// public generated void add_Handler(Fuse.Triggers.PulseTrigger<ArgsT>.PulseHandler value) [instance]
 void PulseTrigger::add_Handler(uDelegate* value)
 {
     uType* __types[] = {
@@ -2670,7 +2923,7 @@ void PulseTrigger::add_Handler(uDelegate* value)
     Handler1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Handler1, value), __types[0]);
 }
 
-// public generated void remove_Handler(Fuse.Triggers.PulseTrigger<ArgsT>.PulseHandler value) [instance] :18
+// public generated void remove_Handler(Fuse.Triggers.PulseTrigger<ArgsT>.PulseHandler value) [instance]
 void PulseTrigger::remove_Handler(uDelegate* value)
 {
     uType* __types[] = {
@@ -2679,7 +2932,7 @@ void PulseTrigger::remove_Handler(uDelegate* value)
     Handler1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Handler1, value), __types[0]);
 }
 
-// protected void Pulse(ArgsT args) [instance] :20
+// protected void Pulse(ArgsT args) [instance]
 void PulseTrigger::Pulse1(::g::Uno::EventArgs* args)
 {
     Pulse();
@@ -2687,29 +2940,12 @@ void PulseTrigger::Pulse1(::g::Uno::EventArgs* args)
     if (::g::Uno::Delegate::op_Inequality(Handler1, NULL))
         uPtr(Handler1)->Invoke(2, this, args);
 }
-
-// internal static void AddHandlerImpl<T>(Fuse.Visual visual, Fuse.Triggers.PulseTrigger<ArgsT>.PulseHandler handler) [static] :27
-void PulseTrigger::AddHandlerImpl(uType* __type, ::g::Fuse::Visual* visual, uDelegate* handler)
-{
-    uType* __types[] = {
-        __type->Precalced(0/*Fuse.Visual.FirstChild<T>*/),
-    };
-    PulseTrigger* r = (PulseTrigger*)uPtr(visual)->FirstChild(__types[0]);
-
-    if (r == NULL)
-    {
-        r = (PulseTrigger*)__type->U(0)->New();
-        ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(uPtr(visual)->Children()), ::TYPES[30/*Uno.Collections.ICollection<Fuse.Node>*/]), r);
-    }
-
-    uPtr(r)->add_Handler(handler);
-}
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileFloat.uno
-// ----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhileFloat.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------
 
-// private enum WhileFloat.Range :16
+// private enum WhileFloat.Range
 uEnumType* WhileFloat__Range_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -2723,16 +2959,16 @@ uEnumType* WhileFloat__Range_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/WhileKeyboardVisible.uno
-// ---------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/WhileKeyboardVisible.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class WhileKeyboardVisible.RelativeToKeyboardMode :63
+// private sealed class WhileKeyboardVisible.RelativeToKeyboardMode
 // {
 static void WhileKeyboardVisible__RelativeToKeyboardMode_build(uType* type)
 {
-    ::STRINGS[15] = uString::Const("`Keyboard` RelativeTo has been deprecated. Use `window()` margins instead");
-    ::STRINGS[16] = uString::Const("/usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/WhileKeyboardVisible.uno");
-    ::STRINGS[17] = uString::Const("GetAbsVector");
+    ::STRINGS[17] = uString::Const("`Keyboard` RelativeTo has been deprecated. Use `window()` margins instead");
+    ::STRINGS[18] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/WhileKeyboardVisible.uno");
+    ::STRINGS[19] = uString::Const("GetAbsVector");
     type->SetDependencies(
         ::g::Fuse::Platform::SystemUI_typeof());
     type->SetInterfaces(
@@ -2762,47 +2998,47 @@ WhileKeyboardVisible__RelativeToKeyboardMode_type* WhileKeyboardVisible__Relativ
     return type;
 }
 
-// public generated RelativeToKeyboardMode() :63
+// public generated RelativeToKeyboardMode()
 void WhileKeyboardVisible__RelativeToKeyboardMode__ctor__fn(WhileKeyboardVisible__RelativeToKeyboardMode* __this)
 {
     __this->ctor_();
 }
 
-// public float3 GetAbsVector(Fuse.Translation t) :66
+// public float3 GetAbsVector(Fuse.Translation t)
 void WhileKeyboardVisible__RelativeToKeyboardMode__GetAbsVector_fn(WhileKeyboardVisible__RelativeToKeyboardMode* __this, ::g::Fuse::Translation* t, ::g::Uno::Float3* __retval)
 {
     *__retval = __this->GetAbsVector(t);
 }
 
-// public generated RelativeToKeyboardMode New() :63
+// public generated RelativeToKeyboardMode New()
 void WhileKeyboardVisible__RelativeToKeyboardMode__New1_fn(WhileKeyboardVisible__RelativeToKeyboardMode** __retval)
 {
     *__retval = WhileKeyboardVisible__RelativeToKeyboardMode::New1();
 }
 
-// public object Subscribe(Fuse.ITransformRelative transform) :77
+// public object Subscribe(Fuse.ITransformRelative transform)
 void WhileKeyboardVisible__RelativeToKeyboardMode__Subscribe_fn(WhileKeyboardVisible__RelativeToKeyboardMode* __this, uObject* transform, uObject** __retval)
 {
     *__retval = __this->Subscribe(transform);
 }
 
-// public void Unsubscribe(Fuse.ITransformRelative transform, object sub) :78
+// public void Unsubscribe(Fuse.ITransformRelative transform, object sub)
 void WhileKeyboardVisible__RelativeToKeyboardMode__Unsubscribe_fn(WhileKeyboardVisible__RelativeToKeyboardMode* __this, uObject* transform, uObject* sub)
 {
     __this->Unsubscribe(transform, sub);
 }
 
-// public generated RelativeToKeyboardMode() [instance] :63
+// public generated RelativeToKeyboardMode() [instance]
 void WhileKeyboardVisible__RelativeToKeyboardMode::ctor_()
 {
 }
 
-// public float3 GetAbsVector(Fuse.Translation t) [instance] :66
+// public float3 GetAbsVector(Fuse.Translation t) [instance]
 ::g::Uno::Float3 WhileKeyboardVisible__RelativeToKeyboardMode::GetAbsVector(::g::Fuse::Translation* t)
 {
     if (!_notice)
     {
-        ::g::Fuse::Diagnostics::Deprecated(::STRINGS[15/*"`Keyboard` ...*/], this, ::STRINGS[16/*"/usr/local/...*/], 70, ::STRINGS[17/*"GetAbsVector"*/]);
+        ::g::Fuse::Diagnostics::Deprecated(::STRINGS[17/*"`Keyboard` ...*/], this, ::STRINGS[18/*"/Users/antt...*/], 70, ::STRINGS[19/*"GetAbsVector"*/]);
         _notice = true;
     }
 
@@ -2810,18 +3046,18 @@ void WhileKeyboardVisible__RelativeToKeyboardMode::ctor_()
     return ::g::Uno::Float3__op_Multiply2(uPtr(t)->Vector(), ::g::Uno::Float3__New2(0.0f, height, 0.0f));
 }
 
-// public object Subscribe(Fuse.ITransformRelative transform) [instance] :77
+// public object Subscribe(Fuse.ITransformRelative transform) [instance]
 uObject* WhileKeyboardVisible__RelativeToKeyboardMode::Subscribe(uObject* transform)
 {
     return NULL;
 }
 
-// public void Unsubscribe(Fuse.ITransformRelative transform, object sub) [instance] :78
+// public void Unsubscribe(Fuse.ITransformRelative transform, object sub) [instance]
 void WhileKeyboardVisible__RelativeToKeyboardMode::Unsubscribe(uObject* transform, uObject* sub)
 {
 }
 
-// public generated RelativeToKeyboardMode New() [static] :63
+// public generated RelativeToKeyboardMode New() [static]
 WhileKeyboardVisible__RelativeToKeyboardMode* WhileKeyboardVisible__RelativeToKeyboardMode::New1()
 {
     WhileKeyboardVisible__RelativeToKeyboardMode* obj1 = (WhileKeyboardVisible__RelativeToKeyboardMode*)uNew(WhileKeyboardVisible__RelativeToKeyboardMode_typeof());
@@ -2830,18 +3066,18 @@ WhileKeyboardVisible__RelativeToKeyboardMode* WhileKeyboardVisible__RelativeToKe
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/RemovingAnimation.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/RemovingAnimation.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public class RemovingAnimation :41
+// public class RemovingAnimation
 // {
 static void RemovingAnimation_build(uType* type)
 {
-    ::STRINGS[18] = uString::Const("Double removal of Visual");
-    ::STRINGS[19] = uString::Const("/usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/RemovingAnimation.uno");
-    ::STRINGS[20] = uString::Const("Fuse.IBeginRemoveVisualListener.OnBeginRemoveVisual");
-    ::STRINGS[21] = uString::Const("Unexpected done");
-    ::STRINGS[22] = uString::Const("OnDone");
+    ::STRINGS[20] = uString::Const("Double removal of Visual");
+    ::STRINGS[21] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/RemovingAnimation.uno");
+    ::STRINGS[22] = uString::Const("Fuse.IBeginRemoveVisualListener.OnBeginRemoveVisual");
+    ::STRINGS[23] = uString::Const("Unexpected done");
+    ::STRINGS[24] = uString::Const("OnDone");
     ::TYPES[8] = ::g::Uno::Action_typeof();
     type->SetInterfaces(
         ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(RemovingAnimation_type, interface0),
@@ -2897,18 +3133,18 @@ RemovingAnimation_type* RemovingAnimation_typeof()
     return type;
 }
 
-// public generated RemovingAnimation() :41
+// public generated RemovingAnimation()
 void RemovingAnimation__ctor_5_fn(RemovingAnimation* __this)
 {
     __this->ctor_5();
 }
 
-// private void Fuse.IBeginRemoveVisualListener.OnBeginRemoveVisual(Fuse.PendingRemoveVisual pr) :45
+// private void Fuse.IBeginRemoveVisualListener.OnBeginRemoveVisual(Fuse.PendingRemoveVisual pr)
 void RemovingAnimation__FuseIBeginRemoveVisualListenerOnBeginRemoveVisual_fn(RemovingAnimation* __this, ::g::Fuse::PendingRemoveVisual* pr)
 {
     if (__this->_args != NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(::STRINGS[18/*"Double remo...*/], __this, ::STRINGS[19/*"/usr/local/...*/], 49, ::STRINGS[20/*"Fuse.IBegin...*/]);
+        ::g::Fuse::Diagnostics::InternalError(::STRINGS[20/*"Double remo...*/], __this, ::STRINGS[21/*"/Users/antt...*/], 49, ::STRINGS[22/*"Fuse.IBegin...*/]);
         return;
     }
 
@@ -2917,13 +3153,13 @@ void RemovingAnimation__FuseIBeginRemoveVisualListenerOnBeginRemoveVisual_fn(Rem
     __this->Activate(uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)RemovingAnimation__OnDone_fn, __this));
 }
 
-// private void OnDone() :58
+// private void OnDone()
 void RemovingAnimation__OnDone_fn(RemovingAnimation* __this)
 {
     __this->OnDone();
 }
 
-// protected override sealed void OnUnrooted() :70
+// protected override sealed void OnUnrooted()
 void RemovingAnimation__OnUnrooted_fn(RemovingAnimation* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
@@ -2935,18 +3171,18 @@ void RemovingAnimation__OnUnrooted_fn(RemovingAnimation* __this)
     }
 }
 
-// public generated RemovingAnimation() [instance] :41
+// public generated RemovingAnimation() [instance]
 void RemovingAnimation::ctor_5()
 {
     ctor_4();
 }
 
-// private void OnDone() [instance] :58
+// private void OnDone() [instance]
 void RemovingAnimation::OnDone()
 {
     if (_args == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(::STRINGS[21/*"Unexpected ...*/], this, ::STRINGS[19/*"/usr/local/...*/], 62, ::STRINGS[22/*"OnDone"*/]);
+        ::g::Fuse::Diagnostics::InternalError(::STRINGS[23/*"Unexpected ...*/], this, ::STRINGS[21/*"/Users/antt...*/], 62, ::STRINGS[24/*"OnDone"*/]);
         return;
     }
 
@@ -2955,10 +3191,10 @@ void RemovingAnimation::OnDone()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Triggers/LayoutAnimation.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Triggers/LayoutAnimation.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class LayoutTransition.ResizeChangeMode :93
+// private sealed class LayoutTransition.ResizeChangeMode
 // {
 static void LayoutTransition__ResizeChangeMode_build(uType* type)
 {
@@ -2985,30 +3221,30 @@ LayoutTransition__ResizeChangeMode_type* LayoutTransition__ResizeChangeMode_type
     return type;
 }
 
-// public generated ResizeChangeMode() :93
+// public generated ResizeChangeMode()
 void LayoutTransition__ResizeChangeMode__ctor__fn(LayoutTransition__ResizeChangeMode* __this)
 {
     __this->ctor_();
 }
 
-// public bool GetSizeChange(Fuse.Visual n, Fuse.Visual relative, float2& baseSize, float2& deltaSize) :95
+// public bool GetSizeChange(Fuse.Visual n, Fuse.Visual relative, float2& baseSize, float2& deltaSize)
 void LayoutTransition__ResizeChangeMode__GetSizeChange_fn(LayoutTransition__ResizeChangeMode* __this, ::g::Fuse::Visual* n, ::g::Fuse::Visual* relative, ::g::Uno::Float2* baseSize, ::g::Uno::Float2* deltaSize, bool* __retval)
 {
     *__retval = __this->GetSizeChange(n, relative, baseSize, deltaSize);
 }
 
-// public generated ResizeChangeMode New() :93
+// public generated ResizeChangeMode New()
 void LayoutTransition__ResizeChangeMode__New1_fn(LayoutTransition__ResizeChangeMode** __retval)
 {
     *__retval = LayoutTransition__ResizeChangeMode::New1();
 }
 
-// public generated ResizeChangeMode() [instance] :93
+// public generated ResizeChangeMode() [instance]
 void LayoutTransition__ResizeChangeMode::ctor_()
 {
 }
 
-// public bool GetSizeChange(Fuse.Visual n, Fuse.Visual relative, float2& baseSize, float2& deltaSize) [instance] :95
+// public bool GetSizeChange(Fuse.Visual n, Fuse.Visual relative, float2& baseSize, float2& deltaSize) [instance]
 bool LayoutTransition__ResizeChangeMode::GetSizeChange(::g::Fuse::Visual* n, ::g::Fuse::Visual* relative, ::g::Uno::Float2* baseSize, ::g::Uno::Float2* deltaSize)
 {
     ::g::Uno::Float2 oldSize, newSize;
@@ -3018,7 +3254,7 @@ bool LayoutTransition__ResizeChangeMode::GetSizeChange(::g::Fuse::Visual* n, ::g
     return b;
 }
 
-// public generated ResizeChangeMode New() [static] :93
+// public generated ResizeChangeMode New() [static]
 LayoutTransition__ResizeChangeMode* LayoutTransition__ResizeChangeMode::New1()
 {
     LayoutTransition__ResizeChangeMode* obj1 = (LayoutTransition__ResizeChangeMode*)uNew(LayoutTransition__ResizeChangeMode_typeof());
@@ -3027,10 +3263,10 @@ LayoutTransition__ResizeChangeMode* LayoutTransition__ResizeChangeMode::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Triggers/LayoutAnimation.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Triggers/LayoutAnimation.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class LayoutTransition.ScaleChangeMode :107
+// private sealed class LayoutTransition.ScaleChangeMode
 // {
 static void LayoutTransition__ScaleChangeMode_build(uType* type)
 {
@@ -3060,42 +3296,42 @@ LayoutTransition__ScaleChangeMode_type* LayoutTransition__ScaleChangeMode_typeof
     return type;
 }
 
-// public generated ScaleChangeMode() :107
+// public generated ScaleChangeMode()
 void LayoutTransition__ScaleChangeMode__ctor__fn(LayoutTransition__ScaleChangeMode* __this)
 {
     __this->ctor_();
 }
 
-// public float3 GetScaleVector(Fuse.Scaling v) :109
+// public float3 GetScaleVector(Fuse.Scaling v)
 void LayoutTransition__ScaleChangeMode__GetScaleVector_fn(LayoutTransition__ScaleChangeMode* __this, ::g::Fuse::Scaling* v, ::g::Uno::Float3* __retval)
 {
     *__retval = __this->GetScaleVector(v);
 }
 
-// public generated ScaleChangeMode New() :107
+// public generated ScaleChangeMode New()
 void LayoutTransition__ScaleChangeMode__New1_fn(LayoutTransition__ScaleChangeMode** __retval)
 {
     *__retval = LayoutTransition__ScaleChangeMode::New1();
 }
 
-// public object Subscribe(Fuse.ITransformRelative transform) :122
+// public object Subscribe(Fuse.ITransformRelative transform)
 void LayoutTransition__ScaleChangeMode__Subscribe_fn(LayoutTransition__ScaleChangeMode* __this, uObject* transform, uObject** __retval)
 {
     *__retval = __this->Subscribe(transform);
 }
 
-// public void Unsubscribe(Fuse.ITransformRelative transform, object sub) :123
+// public void Unsubscribe(Fuse.ITransformRelative transform, object sub)
 void LayoutTransition__ScaleChangeMode__Unsubscribe_fn(LayoutTransition__ScaleChangeMode* __this, uObject* transform, uObject* sub)
 {
     __this->Unsubscribe(transform, sub);
 }
 
-// public generated ScaleChangeMode() [instance] :107
+// public generated ScaleChangeMode() [instance]
 void LayoutTransition__ScaleChangeMode::ctor_()
 {
 }
 
-// public float3 GetScaleVector(Fuse.Scaling v) [instance] :109
+// public float3 GetScaleVector(Fuse.Scaling v) [instance]
 ::g::Uno::Float3 LayoutTransition__ScaleChangeMode::GetScaleVector(::g::Fuse::Scaling* v)
 {
     ::g::Uno::Float2 oldSize, newSize;
@@ -3109,18 +3345,18 @@ void LayoutTransition__ScaleChangeMode::ctor_()
     return ::g::Uno::Float3__op_Multiply2(::g::Uno::Float3__New4(n, 1.0f), v->Vector());
 }
 
-// public object Subscribe(Fuse.ITransformRelative transform) [instance] :122
+// public object Subscribe(Fuse.ITransformRelative transform) [instance]
 uObject* LayoutTransition__ScaleChangeMode::Subscribe(uObject* transform)
 {
     return NULL;
 }
 
-// public void Unsubscribe(Fuse.ITransformRelative transform, object sub) [instance] :123
+// public void Unsubscribe(Fuse.ITransformRelative transform, object sub) [instance]
 void LayoutTransition__ScaleChangeMode::Unsubscribe(uObject* transform, uObject* sub)
 {
 }
 
-// public generated ScaleChangeMode New() [static] :107
+// public generated ScaleChangeMode New() [static]
 LayoutTransition__ScaleChangeMode* LayoutTransition__ScaleChangeMode::New1()
 {
     LayoutTransition__ScaleChangeMode* obj1 = (LayoutTransition__ScaleChangeMode*)uNew(LayoutTransition__ScaleChangeMode_typeof());
@@ -3129,31 +3365,31 @@ LayoutTransition__ScaleChangeMode* LayoutTransition__ScaleChangeMode::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Triggers/Scrolled.ScriptClass.uno
-// ----------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Triggers/Scrolled.ScriptClass.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class Scrolled :8
+// public partial sealed class Scrolled
 // {
-// static Scrolled() :10
+// static Scrolled()
 static void Scrolled__cctor_2_fn(uType* __type)
 {
     ::g::Fuse::Scripting::ScriptClass_typeof()->Init();
-    ::g::Fuse::Scripting::ScriptClass::Register(__type, uArray::Init< ::g::Fuse::Scripting::ScriptMember*>(::TYPES[1/*Fuse.Scripting.ScriptMember[]*/], 1, (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::TYPES[16/*Fuse.Scripting.ScriptMethod<Fuse.Triggers.Scrolled>*/], ::STRINGS[23/*"check"*/], uDelegate::New(::TYPES[17/*Uno.Action<Fuse.Triggers.Scrolled>*/], (void*)Scrolled__check_fn))));
+    ::g::Fuse::Scripting::ScriptClass::Register(__type, uArray::Init< ::g::Fuse::Scripting::ScriptMember*>(::TYPES[1/*Fuse.Scripting.ScriptMember[]*/], 1, (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::TYPES[20/*Fuse.Scripting.ScriptMethod<Fuse.Triggers.Scrolled>*/], ::STRINGS[25/*"check"*/], uDelegate::New(::TYPES[21/*Uno.Action<Fuse.Triggers.Scrolled>*/], (void*)Scrolled__check_fn))));
 }
 
 static void Scrolled_build(uType* type)
 {
-    ::STRINGS[23] = uString::Const("check");
-    ::STRINGS[24] = uString::Const("Scrolled could not find a Scrollable control.");
-    ::STRINGS[25] = uString::Const("/usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Triggers/Scrolled.uno");
+    ::STRINGS[25] = uString::Const("check");
+    ::STRINGS[26] = uString::Const("Scrolled could not find a Scrollable control.");
+    ::STRINGS[27] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Triggers/Scrolled.uno");
     ::STRINGS[14] = uString::Const("OnRooted");
     ::TYPES[0] = ::g::Uno::Type_typeof();
     ::TYPES[1] = ::g::Fuse::Scripting::ScriptMember_typeof()->Array();
-    ::TYPES[16] = ::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(type, NULL);
-    ::TYPES[17] = ::g::Uno::Action1_typeof()->MakeType(type, NULL);
+    ::TYPES[20] = ::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(type, NULL);
+    ::TYPES[21] = ::g::Uno::Action1_typeof()->MakeType(type, NULL);
     ::TYPES[8] = ::g::Uno::Action_typeof();
-    ::TYPES[18] = ::g::Fuse::Node_typeof()->MakeMethod(1/*FindByType<Fuse.Controls.ScrollViewBase>*/, ::g::Fuse::Controls::ScrollViewBase_typeof(), NULL);
-    ::TYPES[19] = ::g::Fuse::Controls::ScrollPositionChangedHandler_typeof();
+    ::TYPES[22] = ::g::Fuse::Node_typeof()->MakeMethod(1/*FindByType<Fuse.Controls.ScrollViewBase>*/, ::g::Fuse::Controls::ScrollViewBase_typeof(), NULL);
+    ::TYPES[23] = ::g::Fuse::Controls::ScrollPositionChangedHandler_typeof();
     type->SetBase(::g::Fuse::Triggers::PulseTrigger_typeof()->MakeType(::g::Fuse::Triggers::ScrolledArgs_typeof(), NULL));
     type->SetDependencies(
         ::g::Fuse::UpdateManager_typeof());
@@ -3214,60 +3450,60 @@ static void Scrolled_build(uType* type)
     return type;
 }
 
-// private static void check(Fuse.Triggers.Scrolled s) :23
+// private static void check(Fuse.Triggers.Scrolled s)
 void Scrolled__check_fn(Scrolled* s)
 {
     Scrolled::check(s);
 }
 
-// private void Check() :65
+// private void Check()
 void Scrolled__Check_fn(Scrolled* __this)
 {
     __this->Check();
 }
 
-// protected override sealed void OnRooted() :29
+// protected override sealed void OnRooted()
 void Scrolled__OnRooted_fn(Scrolled* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
-    __this->_scrollable = ((::g::Fuse::Controls::ScrollViewBase*)uPtr(__this->Parent())->FindByType(::TYPES[18/*Fuse.Node.FindByType<Fuse.Controls.ScrollViewBase>*/]));
+    __this->_scrollable = ((::g::Fuse::Controls::ScrollViewBase*)uPtr(__this->Parent())->FindByType(::TYPES[22/*Fuse.Node.FindByType<Fuse.Controls.ScrollViewBase>*/]));
 
     if (__this->_scrollable == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[24/*"Scrolled co...*/], __this, ::STRINGS[25/*"/usr/local/...*/], 35, ::STRINGS[14/*"OnRooted"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[26/*"Scrolled co...*/], __this, ::STRINGS[27/*"/Users/antt...*/], 35, ::STRINGS[14/*"OnRooted"*/], NULL);
         return;
     }
 
-    uPtr(__this->_scrollable)->add_ScrollPositionChanged(uDelegate::New(::TYPES[19/*Fuse.Controls.ScrollPositionChangedHandler*/], (void*)Scrolled__OnScrollPositionChanged_fn, __this));
+    uPtr(__this->_scrollable)->add_ScrollPositionChanged(uDelegate::New(::TYPES[23/*Fuse.Controls.ScrollPositionChangedHandler*/], (void*)Scrolled__OnScrollPositionChanged_fn, __this));
     __this->_inZone = uPtr(__this->_region)->IsInZone(__this->_scrollable);
 }
 
-// private void OnScrollPositionChanged(object s, object args) :53
+// private void OnScrollPositionChanged(object s, object args)
 void Scrolled__OnScrollPositionChanged_fn(Scrolled* __this, uObject* s, uObject* args)
 {
     __this->OnScrollPositionChanged(s, args);
 }
 
-// protected override sealed void OnUnrooted() :43
+// protected override sealed void OnUnrooted()
 void Scrolled__OnUnrooted_fn(Scrolled* __this)
 {
     if (__this->_scrollable != NULL)
     {
-        uPtr(__this->_scrollable)->remove_ScrollPositionChanged(uDelegate::New(::TYPES[19/*Fuse.Controls.ScrollPositionChangedHandler*/], (void*)Scrolled__OnScrollPositionChanged_fn, __this));
+        uPtr(__this->_scrollable)->remove_ScrollPositionChanged(uDelegate::New(::TYPES[23/*Fuse.Controls.ScrollPositionChangedHandler*/], (void*)Scrolled__OnScrollPositionChanged_fn, __this));
         __this->_scrollable = NULL;
     }
 
     ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
 }
 
-// private void Check() [instance] :65
+// private void Check() [instance]
 void Scrolled::Check()
 {
     if ((_scrollable != NULL) && uPtr(_region)->IsInZone(_scrollable))
         Pulse1(::g::Fuse::Triggers::ScrolledArgs::New2());
 }
 
-// private void OnScrollPositionChanged(object s, object args) [instance] :53
+// private void OnScrollPositionChanged(object s, object args) [instance]
 void Scrolled::OnScrollPositionChanged(uObject* s, uObject* args)
 {
     bool inz = uPtr(_region)->IsInZone(_scrollable);
@@ -3281,7 +3517,7 @@ void Scrolled::OnScrollPositionChanged(uObject* s, uObject* args)
         Pulse1(::g::Fuse::Triggers::ScrolledArgs::New2());
 }
 
-// private static void check(Fuse.Triggers.Scrolled s) [static] :23
+// private static void check(Fuse.Triggers.Scrolled s) [static]
 void Scrolled::check(Scrolled* s)
 {
     Scrolled_typeof()->Init();
@@ -3289,10 +3525,10 @@ void Scrolled::check(Scrolled* s)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Triggers/Scrolled.uno
-// ----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Triggers/Scrolled.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class ScrolledArgs :8
+// public sealed class ScrolledArgs
 // {
 static void ScrolledArgs_build(uType* type)
 {
@@ -3313,25 +3549,25 @@ uType* ScrolledArgs_typeof()
     return type;
 }
 
-// public generated ScrolledArgs() :8
+// public generated ScrolledArgs()
 void ScrolledArgs__ctor_1_fn(ScrolledArgs* __this)
 {
     __this->ctor_1();
 }
 
-// public generated ScrolledArgs New() :8
+// public generated ScrolledArgs New()
 void ScrolledArgs__New2_fn(ScrolledArgs** __retval)
 {
     *__retval = ScrolledArgs::New2();
 }
 
-// public generated ScrolledArgs() [instance] :8
+// public generated ScrolledArgs() [instance]
 void ScrolledArgs::ctor_1()
 {
     ctor_();
 }
 
-// public generated ScrolledArgs New() [static] :8
+// public generated ScrolledArgs New() [static]
 ScrolledArgs* ScrolledArgs::New2()
 {
     ScrolledArgs* obj1 = (ScrolledArgs*)uNew(ScrolledArgs_typeof());
@@ -3340,10 +3576,10 @@ ScrolledArgs* ScrolledArgs::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Triggers/ScrollRegion.uno
-// --------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Triggers/ScrollRegion.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum ScrolledWhere :66
+// public enum ScrolledWhere
 uEnumType* ScrolledWhere_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3357,18 +3593,18 @@ uEnumType* ScrolledWhere_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Triggers/ScrollRegion.uno
-// --------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Triggers/ScrollRegion.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class ScrollRegion :76
+// internal sealed class ScrollRegion
 // {
 static void ScrollRegion_build(uType* type)
 {
-    ::TYPES[20] = ::g::Fuse::Triggers::IScrolledLength_typeof();
+    ::TYPES[24] = ::g::Fuse::Triggers::IScrolledLength_typeof();
     type->SetFields(0,
         ::g::Fuse::Triggers::ScrolledWhere_typeof(), offsetof(ScrollRegion, To), 0,
         ::g::Uno::Float_typeof(), offsetof(ScrollRegion, Within), 0,
-        ::TYPES[20/*Fuse.Triggers.IScrolledLength*/], offsetof(ScrollRegion, RelativeTo), 0);
+        ::TYPES[24/*Fuse.Triggers.IScrolledLength*/], offsetof(ScrollRegion, RelativeTo), 0);
 }
 
 uType* ScrollRegion_typeof()
@@ -3385,25 +3621,25 @@ uType* ScrollRegion_typeof()
     return type;
 }
 
-// private float2 CalcWithin(Fuse.Controls.ScrollViewBase scrollable) :105
+// private float2 CalcWithin(Fuse.Controls.ScrollViewBase scrollable)
 void ScrollRegion__CalcWithin_fn(ScrollRegion* __this, ::g::Fuse::Controls::ScrollViewBase* scrollable, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->CalcWithin(scrollable);
 }
 
-// public bool IsInZone(Fuse.Controls.ScrollViewBase scrollable) :110
+// public bool IsInZone(Fuse.Controls.ScrollViewBase scrollable)
 void ScrollRegion__IsInZone_fn(ScrollRegion* __this, ::g::Fuse::Controls::ScrollViewBase* scrollable, bool* __retval)
 {
     *__retval = __this->IsInZone(scrollable);
 }
 
-// private float2 CalcWithin(Fuse.Controls.ScrollViewBase scrollable) [instance] :105
+// private float2 CalcWithin(Fuse.Controls.ScrollViewBase scrollable) [instance]
 ::g::Uno::Float2 ScrollRegion::CalcWithin(::g::Fuse::Controls::ScrollViewBase* scrollable)
 {
-    return ::g::Fuse::Triggers::IScrolledLength::GetPoints(uInterface(uPtr(RelativeTo), ::TYPES[20/*Fuse.Triggers.IScrolledLength*/]), Within, scrollable);
+    return ::g::Fuse::Triggers::IScrolledLength::GetPoints(uInterface(uPtr(RelativeTo), ::TYPES[24/*Fuse.Triggers.IScrolledLength*/]), Within, scrollable);
 }
 
-// public bool IsInZone(Fuse.Controls.ScrollViewBase scrollable) [instance] :110
+// public bool IsInZone(Fuse.Controls.ScrollViewBase scrollable) [instance]
 bool ScrollRegion::IsInZone(::g::Fuse::Controls::ScrollViewBase* scrollable)
 {
     ::g::Uno::Float2 w = CalcWithin(scrollable);
@@ -3430,10 +3666,10 @@ bool ScrollRegion::IsInZone(::g::Fuse::Controls::ScrollViewBase* scrollable)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.ScrollView/1.9.0/Triggers/ScrollRegion.uno
-// --------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.ScrollView/1.12.0/Triggers/ScrollRegion.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class IScrolledLengths.ScrollViewSizeLength :52
+// private sealed class IScrolledLengths.ScrollViewSizeLength
 // {
 static void IScrolledLengths__ScrollViewSizeLength_build(uType* type)
 {
@@ -3457,36 +3693,36 @@ IScrolledLengths__ScrollViewSizeLength_type* IScrolledLengths__ScrollViewSizeLen
     return type;
 }
 
-// public generated ScrollViewSizeLength() :52
+// public generated ScrollViewSizeLength()
 void IScrolledLengths__ScrollViewSizeLength__ctor__fn(IScrolledLengths__ScrollViewSizeLength* __this)
 {
     __this->ctor_();
 }
 
-// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable) :54
+// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable)
 void IScrolledLengths__ScrollViewSizeLength__GetPoints_fn(IScrolledLengths__ScrollViewSizeLength* __this, float* value, ::g::Fuse::Controls::ScrollViewBase* scrollable, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->GetPoints(*value, scrollable);
 }
 
-// public generated ScrollViewSizeLength New() :52
+// public generated ScrollViewSizeLength New()
 void IScrolledLengths__ScrollViewSizeLength__New1_fn(IScrolledLengths__ScrollViewSizeLength** __retval)
 {
     *__retval = IScrolledLengths__ScrollViewSizeLength::New1();
 }
 
-// public generated ScrollViewSizeLength() [instance] :52
+// public generated ScrollViewSizeLength() [instance]
 void IScrolledLengths__ScrollViewSizeLength::ctor_()
 {
 }
 
-// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable) [instance] :54
+// public float2 GetPoints(float value, Fuse.Controls.ScrollViewBase scrollable) [instance]
 ::g::Uno::Float2 IScrolledLengths__ScrollViewSizeLength::GetPoints(float value, ::g::Fuse::Controls::ScrollViewBase* scrollable)
 {
     return ::g::Uno::Float2__op_Multiply(value, uPtr(scrollable)->ActualSize());
 }
 
-// public generated ScrollViewSizeLength New() [static] :52
+// public generated ScrollViewSizeLength New() [static]
 IScrolledLengths__ScrollViewSizeLength* IScrolledLengths__ScrollViewSizeLength::New1()
 {
     IScrolledLengths__ScrollViewSizeLength* obj1 = (IScrolledLengths__ScrollViewSizeLength*)uNew(IScrolledLengths__ScrollViewSizeLength_typeof());
@@ -3495,28 +3731,28 @@ IScrolledLengths__ScrollViewSizeLength* IScrolledLengths__ScrollViewSizeLength::
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/State.ScriptClass.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/State.ScriptClass.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class State :8
+// public partial sealed class State
 // {
-// static State() :10
+// static State()
 static void State__cctor_2_fn(uType* __type)
 {
     ::g::Fuse::Scripting::ScriptClass_typeof()->Init();
-    ::g::Fuse::Scripting::ScriptClass::Register(__type, uArray::Init< ::g::Fuse::Scripting::ScriptMember*>(::TYPES[1/*Fuse.Scripting.ScriptMember[]*/], 1, (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::TYPES[21/*Fuse.Scripting.ScriptMethod<Fuse.Triggers.State>*/], ::STRINGS[26/*"goto"*/], uDelegate::New(::TYPES[22/*Uno.Action<Fuse.Triggers.State>*/], (void*)State__goto__fn))));
+    ::g::Fuse::Scripting::ScriptClass::Register(__type, uArray::Init< ::g::Fuse::Scripting::ScriptMember*>(::TYPES[1/*Fuse.Scripting.ScriptMember[]*/], 1, (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::TYPES[25/*Fuse.Scripting.ScriptMethod<Fuse.Triggers.State>*/], ::STRINGS[28/*"goto"*/], uDelegate::New(::TYPES[26/*Uno.Action<Fuse.Triggers.State>*/], (void*)State__goto__fn))));
 }
 
 static void State_build(uType* type)
 {
-    ::STRINGS[26] = uString::Const("goto");
-    ::STRINGS[27] = uString::Const("Cannot call `Goto` on an unrooted `State`");
-    ::STRINGS[28] = uString::Const("/usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/State.uno");
-    ::STRINGS[29] = uString::Const("Goto");
+    ::STRINGS[28] = uString::Const("goto");
+    ::STRINGS[29] = uString::Const("Cannot call `Goto` on an unrooted `State`");
+    ::STRINGS[30] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/State.uno");
+    ::STRINGS[31] = uString::Const("Goto");
     ::TYPES[0] = ::g::Uno::Type_typeof();
     ::TYPES[1] = ::g::Fuse::Scripting::ScriptMember_typeof()->Array();
-    ::TYPES[21] = ::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(type, NULL);
-    ::TYPES[22] = ::g::Uno::Action1_typeof()->MakeType(type, NULL);
+    ::TYPES[25] = ::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(type, NULL);
+    ::TYPES[26] = ::g::Uno::Action1_typeof()->MakeType(type, NULL);
     type->SetInterfaces(
         ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Triggers::Trigger_type, interface0),
         ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface1),
@@ -3573,31 +3809,31 @@ static void State_build(uType* type)
     return type;
 }
 
-// public void Goto() :58
+// public void Goto()
 void State__Goto_fn(State* __this)
 {
     __this->Goto();
 }
 
-// private static void goto_(Fuse.Triggers.State n) :24
+// private static void goto_(Fuse.Triggers.State n)
 void State__goto__fn(State* n)
 {
     State::goto_(n);
 }
 
-// internal bool get_On() :19
+// internal bool get_On()
 void State__get_On_fn(State* __this, bool* __retval)
 {
     *__retval = __this->On();
 }
 
-// internal void set_On(bool value) :20
+// internal void set_On(bool value)
 void State__set_On_fn(State* __this, bool* value)
 {
     __this->On(*value);
 }
 
-// protected override sealed void OnPlayStateChanged(Fuse.Triggers.TriggerPlayState state) :69
+// protected override sealed void OnPlayStateChanged(Fuse.Triggers.TriggerPlayState state)
 void State__OnPlayStateChanged_fn(State* __this, int32_t* state)
 {
     int32_t state_ = *state;
@@ -3606,7 +3842,7 @@ void State__OnPlayStateChanged_fn(State* __this, int32_t* state)
         uPtr(__this->_stateGroup)->StateStopped();
 }
 
-// protected override sealed void OnRooted() :35
+// protected override sealed void OnRooted()
 void State__OnRooted_fn(State* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
@@ -3615,7 +3851,7 @@ void State__OnRooted_fn(State* __this)
         __this->Activate(NULL);
 }
 
-// protected override sealed void OnUnrooted() :49
+// protected override sealed void OnUnrooted()
 void State__OnUnrooted_fn(State* __this)
 {
     if (__this->OverrideContextParent == __this->_stateGroup)
@@ -3625,37 +3861,37 @@ void State__OnUnrooted_fn(State* __this)
     ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
 }
 
-// public new double get_Progress() :56
+// public new double get_Progress()
 void State__get_Progress1_fn(State* __this, double* __retval)
 {
     *__retval = __this->Progress1();
 }
 
-// internal void RootStateGroup(Fuse.Triggers.StateGroup stateGroup) :43
+// internal void RootStateGroup(Fuse.Triggers.StateGroup stateGroup)
 void State__RootStateGroup_fn(State* __this, ::g::Fuse::Triggers::StateGroup* stateGroup)
 {
     __this->RootStateGroup(stateGroup);
 }
 
-// public void Goto() [instance] :58
+// public void Goto() [instance]
 void State::Goto()
 {
     if (_stateGroup == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(::STRINGS[27/*"Cannot call...*/], NULL, ::STRINGS[28/*"/usr/local/...*/], 62, ::STRINGS[29/*"Goto"*/]);
+        ::g::Fuse::Diagnostics::InternalError(::STRINGS[29/*"Cannot call...*/], NULL, ::STRINGS[30/*"/Users/antt...*/], 62, ::STRINGS[31/*"Goto"*/]);
         return;
     }
 
     uPtr(_stateGroup)->Goto(this);
 }
 
-// internal bool get_On() [instance] :19
+// internal bool get_On() [instance]
 bool State::On()
 {
     return _on;
 }
 
-// internal void set_On(bool value) [instance] :20
+// internal void set_On(bool value) [instance]
 void State::On(bool value)
 {
     if (_on == value)
@@ -3672,13 +3908,13 @@ void State::On(bool value)
     }
 }
 
-// public new double get_Progress() [instance] :56
+// public new double get_Progress() [instance]
 double State::Progress1()
 {
     return Progress();
 }
 
-// internal void RootStateGroup(Fuse.Triggers.StateGroup stateGroup) [instance] :43
+// internal void RootStateGroup(Fuse.Triggers.StateGroup stateGroup) [instance]
 void State::RootStateGroup(::g::Fuse::Triggers::StateGroup* stateGroup)
 {
     ::g::Fuse::Node* ind1;
@@ -3686,7 +3922,7 @@ void State::RootStateGroup(::g::Fuse::Triggers::StateGroup* stateGroup)
     _stateGroup = stateGroup;
 }
 
-// private static void goto_(Fuse.Triggers.State n) [static] :24
+// private static void goto_(Fuse.Triggers.State n) [static]
 void State::goto_(State* n)
 {
     State_typeof()->Init();
@@ -3694,10 +3930,10 @@ void State::goto_(State* n)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Timeline.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Timeline.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// private enum Timeline.State :91
+// private enum Timeline.State
 uEnumType* Timeline__State_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3710,16 +3946,16 @@ uEnumType* Timeline__State_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/StateGroup.ScriptClass.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/StateGroup.ScriptClass.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class StateGroup :8
+// public partial sealed class StateGroup
 // {
-// static StateGroup() :10
+// static StateGroup()
 static void StateGroup__cctor_1_fn(uType* __type)
 {
     ::g::Fuse::Scripting::ScriptClass_typeof()->Init();
-    ::g::Fuse::Scripting::ScriptClass::Register(__type, uArray::Init< ::g::Fuse::Scripting::ScriptMember*>(::TYPES[1/*Fuse.Scripting.ScriptMember[]*/], 2, (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), ::STRINGS[26/*"goto"*/], uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, uObject_typeof()->Array(), NULL), (void*)StateGroup__goto__fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("gotoNext"), uDelegate::New(::g::Uno::Action1_typeof()->MakeType(__type, NULL), (void*)StateGroup__gotoNext_fn))));
+    ::g::Fuse::Scripting::ScriptClass::Register(__type, uArray::Init< ::g::Fuse::Scripting::ScriptMember*>(::TYPES[1/*Fuse.Scripting.ScriptMember[]*/], 2, (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), ::STRINGS[28/*"goto"*/], uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, uObject_typeof()->Array(), NULL), (void*)StateGroup__goto__fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("gotoNext"), uDelegate::New(::g::Uno::Action1_typeof()->MakeType(__type, NULL), (void*)StateGroup__gotoNext_fn))));
 }
 
 static void StateGroup_build(uType* type)
@@ -3778,73 +4014,73 @@ static void StateGroup_build(uType* type)
     return type;
 }
 
-// public Fuse.Triggers.State get_Active() :26
+// public Fuse.Triggers.State get_Active()
 void StateGroup__get_Active_fn(StateGroup* __this, ::g::Fuse::Triggers::State** __retval)
 {
     *__retval = __this->Active();
 }
 
-// public void set_Active(Fuse.Triggers.State value) :27
+// public void set_Active(Fuse.Triggers.State value)
 void StateGroup__set_Active_fn(StateGroup* __this, ::g::Fuse::Triggers::State* value)
 {
     __this->Active(value);
 }
 
-// private int get_ActiveIndex() :50
+// private int get_ActiveIndex()
 void StateGroup__get_ActiveIndex_fn(StateGroup* __this, int32_t* __retval)
 {
     *__retval = __this->ActiveIndex();
 }
 
-// private void set_ActiveIndex(int value) :57
+// private void set_ActiveIndex(int value)
 void StateGroup__set_ActiveIndex_fn(StateGroup* __this, int32_t* value)
 {
     __this->ActiveIndex(*value);
 }
 
-// private void CheckAllDone() :147
+// private void CheckAllDone()
 void StateGroup__CheckAllDone_fn(StateGroup* __this)
 {
     __this->CheckAllDone();
 }
 
-// public object FindObjectByName(Uno.UX.Selector name, Uno.Predicate<object> acceptor) :68
+// public object FindObjectByName(Uno.UX.Selector name, Uno.Predicate<object> acceptor)
 void StateGroup__FindObjectByName_fn(StateGroup* __this, ::g::Uno::UX::Selector* name, uDelegate* acceptor, uObject** __retval)
 {
     *__retval = __this->FindObjectByName(*name, acceptor);
 }
 
-// internal void Goto(Fuse.Triggers.State next) :109
+// internal void Goto(Fuse.Triggers.State next)
 void StateGroup__Goto_fn(StateGroup* __this, ::g::Fuse::Triggers::State* next)
 {
     __this->Goto(next);
 }
 
-// private static void goto_(Fuse.Triggers.StateGroup n, object[] args) :44
+// private static void goto_(Fuse.Triggers.StateGroup n, object[] args)
 void StateGroup__goto__fn(StateGroup* n, uArray* args)
 {
     StateGroup::goto_(n, args);
 }
 
-// private static void gotoName(Fuse.Triggers.StateGroup n, string name) :23
+// private static void gotoName(Fuse.Triggers.StateGroup n, string name)
 void StateGroup__gotoName_fn(StateGroup* n, uString* name)
 {
     StateGroup::gotoName(n, name);
 }
 
-// private static void gotoNext(Fuse.Triggers.StateGroup n) :64
+// private static void gotoNext(Fuse.Triggers.StateGroup n)
 void StateGroup__gotoNext_fn(StateGroup* n)
 {
     StateGroup::gotoNext(n);
 }
 
-// public void GotoNextState() :63
+// public void GotoNextState()
 void StateGroup__GotoNextState_fn(StateGroup* __this)
 {
     __this->GotoNextState();
 }
 
-// protected override sealed void OnRooted() :94
+// protected override sealed void OnRooted()
 void StateGroup__OnRooted_fn(StateGroup* __this)
 {
     ::g::Fuse::Triggers::State* ret10;
@@ -3886,7 +4122,7 @@ void StateGroup__OnRooted_fn(StateGroup* __this)
     }
 }
 
-// protected override sealed void OnUnrooted() :84
+// protected override sealed void OnUnrooted()
 void StateGroup__OnUnrooted_fn(StateGroup* __this)
 {
     ::g::Fuse::Triggers::State* ret12;
@@ -3921,50 +4157,50 @@ void StateGroup__OnUnrooted_fn(StateGroup* __this)
     }
 }
 
-// private static bool StateAcceptor(object o) :18
+// private static bool StateAcceptor(object o)
 void StateGroup__StateAcceptor_fn(uObject* o, bool* __retval)
 {
     *__retval = StateGroup::StateAcceptor(o);
 }
 
-// public Uno.Collections.IList<Fuse.Triggers.State> get_States() :21
+// public Uno.Collections.IList<Fuse.Triggers.State> get_States()
 void StateGroup__get_States_fn(StateGroup* __this, uObject** __retval)
 {
     *__retval = __this->States();
 }
 
-// internal void StateStopped() :141
+// internal void StateStopped()
 void StateGroup__StateStopped_fn(StateGroup* __this)
 {
     __this->StateStopped();
 }
 
-// public Fuse.Triggers.StateTransition get_Transition() :80
+// public Fuse.Triggers.StateTransition get_Transition()
 void StateGroup__get_Transition_fn(StateGroup* __this, int32_t* __retval)
 {
     *__retval = __this->Transition();
 }
 
-// public void set_Transition(Fuse.Triggers.StateTransition value) :81
+// public void set_Transition(Fuse.Triggers.StateTransition value)
 void StateGroup__set_Transition_fn(StateGroup* __this, int32_t* value)
 {
     __this->Transition(*value);
 }
 
-// public Fuse.Triggers.State get_Active() [instance] :26
+// public Fuse.Triggers.State get_Active() [instance]
 ::g::Fuse::Triggers::State* StateGroup::Active()
 {
     return _active;
 }
 
-// public void set_Active(Fuse.Triggers.State value) [instance] :27
+// public void set_Active(Fuse.Triggers.State value) [instance]
 void StateGroup::Active(::g::Fuse::Triggers::State* value)
 {
     if (value != _active)
         Goto(value);
 }
 
-// private int get_ActiveIndex() [instance] :50
+// private int get_ActiveIndex() [instance]
 int32_t StateGroup::ActiveIndex()
 {
     ::g::Fuse::Triggers::State* ret13;
@@ -3976,14 +4212,14 @@ int32_t StateGroup::ActiveIndex()
     return -1;
 }
 
-// private void set_ActiveIndex(int value) [instance] :57
+// private void set_ActiveIndex(int value) [instance]
 void StateGroup::ActiveIndex(int32_t value)
 {
     ::g::Fuse::Triggers::State* ret14;
     Active((::g::Uno::Collections::IList::get_Item_ex(uInterface(uPtr(_states), ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Triggers::State_typeof(), NULL)), uCRef<int32_t>(value), &ret14), ret14));
 }
 
-// private void CheckAllDone() [instance] :147
+// private void CheckAllDone() [instance]
 void StateGroup::CheckAllDone()
 {
     ::g::Fuse::Triggers::State* ret7;
@@ -4023,7 +4259,7 @@ void StateGroup::CheckAllDone()
         uPtr(_active)->On(true);
 }
 
-// public object FindObjectByName(Uno.UX.Selector name, Uno.Predicate<object> acceptor) [instance] :68
+// public object FindObjectByName(Uno.UX.Selector name, Uno.Predicate<object> acceptor) [instance]
 uObject* StateGroup::FindObjectByName(::g::Uno::UX::Selector name, uDelegate* acceptor)
 {
     ::g::Fuse::Triggers::State* ret8;
@@ -4066,7 +4302,7 @@ uObject* StateGroup::FindObjectByName(::g::Uno::UX::Selector name, uDelegate* ac
     return NULL;
 }
 
-// internal void Goto(Fuse.Triggers.State next) [instance] :109
+// internal void Goto(Fuse.Triggers.State next) [instance]
 void StateGroup::Goto(::g::Fuse::Triggers::State* next)
 {
     StateGroup__GotoImpl* collection4;
@@ -4074,45 +4310,45 @@ void StateGroup::Goto(::g::Fuse::Triggers::State* next)
     ::g::Fuse::UpdateManager::AddDeferredAction2(uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)StateGroup__GotoImpl__Go_fn, uPtr((collection4 = StateGroup__GotoImpl::New1(), uPtr(collection4)->Next = next, uPtr(collection4)->Group = this, collection4))), -1, 2);
 }
 
-// public void GotoNextState() [instance] :63
+// public void GotoNextState() [instance]
 void StateGroup::GotoNextState()
 {
     ActiveIndex((ActiveIndex() + 1) % ::g::Uno::Collections::ICollection::Count(uInterface(uPtr(_states), ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Triggers::State_typeof(), NULL))));
 }
 
-// public Uno.Collections.IList<Fuse.Triggers.State> get_States() [instance] :21
+// public Uno.Collections.IList<Fuse.Triggers.State> get_States() [instance]
 uObject* StateGroup::States()
 {
     return _states;
 }
 
-// internal void StateStopped() [instance] :141
+// internal void StateStopped() [instance]
 void StateGroup::StateStopped()
 {
     if (Transition() == 1)
         ::g::Fuse::UpdateManager::AddDeferredAction2(uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)StateGroup__CheckAllDone_fn, this), -1, 2);
 }
 
-// public Fuse.Triggers.StateTransition get_Transition() [instance] :80
+// public Fuse.Triggers.StateTransition get_Transition() [instance]
 int32_t StateGroup::Transition()
 {
     return _transition;
 }
 
-// public void set_Transition(Fuse.Triggers.StateTransition value) [instance] :81
+// public void set_Transition(Fuse.Triggers.StateTransition value) [instance]
 void StateGroup::Transition(int32_t value)
 {
     _transition = value;
 }
 
-// private static void goto_(Fuse.Triggers.StateGroup n, object[] args) [static] :44
+// private static void goto_(Fuse.Triggers.StateGroup n, object[] args) [static]
 void StateGroup::goto_(StateGroup* n, uArray* args)
 {
     StateGroup_typeof()->Init();
 
     if (uPtr(args)->Length() != 1)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("StateGroup.goto requires 1 argument"), n, uString::Const("/usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/StateGroup.ScriptClass.uno"), 48, uString::Const("goto_"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("StateGroup.goto requires 1 argument"), n, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/StateGroup.ScriptClass.uno"), 48, uString::Const("goto_"), NULL);
         return;
     }
 
@@ -4122,29 +4358,29 @@ void StateGroup::goto_(StateGroup* n, uArray* args)
         uPtr(n)->Goto(uAs< ::g::Fuse::Triggers::State*>(uPtr(args)->Strong<uObject*>(0), ::g::Fuse::Triggers::State_typeof()));
 }
 
-// private static void gotoName(Fuse.Triggers.StateGroup n, string name) [static] :23
+// private static void gotoName(Fuse.Triggers.StateGroup n, string name) [static]
 void StateGroup::gotoName(StateGroup* n, uString* name)
 {
     StateGroup_typeof()->Init();
-    ::g::Fuse::Triggers::State* state = uAs< ::g::Fuse::Triggers::State*>(uPtr(n)->FindObjectByName(::g::Uno::UX::Selector__op_Implicit1(name), uDelegate::New(::g::Uno::Predicate_typeof()->MakeType(uObject_typeof(), NULL), (void*)StateGroup__StateAcceptor_fn)), ::g::Fuse::Triggers::State_typeof());
+    ::g::Fuse::Triggers::State* state = uAs< ::g::Fuse::Triggers::State*>(uPtr(n)->FindObjectByName(::g::Uno::UX::Selector__op_Implicit(name), uDelegate::New(::g::Uno::Predicate_typeof()->MakeType(uObject_typeof(), NULL), (void*)StateGroup__StateAcceptor_fn)), ::g::Fuse::Triggers::State_typeof());
 
     if (state == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(::g::Uno::String::op_Addition2(uString::Const("Unable to find State with Name: "), name), n, uString::Const("/usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/StateGroup.ScriptClass.uno"), 28, uString::Const("gotoName"), NULL);
+        ::g::Fuse::Diagnostics::UserError(::g::Uno::String::op_Addition2(uString::Const("Unable to find State with Name: "), name), n, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/StateGroup.ScriptClass.uno"), 28, uString::Const("gotoName"), NULL);
         return;
     }
 
     n->Goto(state);
 }
 
-// private static void gotoNext(Fuse.Triggers.StateGroup n) [static] :64
+// private static void gotoNext(Fuse.Triggers.StateGroup n) [static]
 void StateGroup::gotoNext(StateGroup* n)
 {
     StateGroup_typeof()->Init();
     uPtr(n)->GotoNextState();
 }
 
-// private static bool StateAcceptor(object o) [static] :18
+// private static bool StateAcceptor(object o) [static]
 bool StateGroup::StateAcceptor(uObject* o)
 {
     StateGroup_typeof()->Init();
@@ -4152,10 +4388,10 @@ bool StateGroup::StateAcceptor(uObject* o)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/StateGroup.uno
-// ----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/StateGroup.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum StateTransition :8
+// public enum StateTransition
 uEnumType* StateTransition_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -4168,16 +4404,16 @@ uEnumType* StateTransition_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Timeline.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Timeline.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// public partial sealed class Timeline :76
+// public partial sealed class Timeline
 // {
-// static Timeline() :10
+// static Timeline()
 static void Timeline__cctor_2_fn(uType* __type)
 {
     ::g::Fuse::Scripting::ScriptClass_typeof()->Init();
-    Timeline::_progressName_ = ::g::Uno::UX::Selector__op_Implicit1(uString::Const("Progress"));
+    Timeline::_progressName_ = ::g::Uno::UX::Selector__op_Implicit(uString::Const("Progress"));
     ::g::Fuse::Scripting::ScriptClass::Register(__type, uArray::Init< ::g::Fuse::Scripting::ScriptMember*>(::TYPES[1/*Fuse.Scripting.ScriptMember[]*/], 9, (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("pause"), uDelegate::New(::g::Uno::Action1_typeof()->MakeType(__type, NULL), (void*)Timeline__pause_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("pulse"), uDelegate::New(::g::Uno::Action1_typeof()->MakeType(__type, NULL), (void*)Timeline__pulse_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("pulseBackward"), uDelegate::New(::g::Uno::Action1_typeof()->MakeType(__type, NULL), (void*)Timeline__pulseBackward_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("pulseForward"), uDelegate::New(::g::Uno::Action1_typeof()->MakeType(__type, NULL), (void*)Timeline__pulseForward_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("play"), uDelegate::New(::g::Uno::Action1_typeof()->MakeType(__type, NULL), (void*)Timeline__resume_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("playTo"), uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, uObject_typeof()->Array(), NULL), (void*)Timeline__playTo_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("resume"), uDelegate::New(::g::Uno::Action1_typeof()->MakeType(__type, NULL), (void*)Timeline__resume_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New2(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("seek"), uDelegate::New(::g::Uno::Action2_typeof()->MakeType(__type, uObject_typeof()->Array(), NULL), (void*)Timeline__seek_fn)), (::g::Fuse::Scripting::ScriptMethod1*)::g::Fuse::Scripting::ScriptMethod1::New3(::g::Fuse::Scripting::ScriptMethod1_typeof()->MakeType(__type, NULL), uString::Const("stop"), uDelegate::New(::g::Uno::Action1_typeof()->MakeType(__type, NULL), (void*)Timeline__stop_fn))));
 }
 
@@ -4261,33 +4497,33 @@ Timeline_type* Timeline_typeof()
     return type;
 }
 
-// private void BypassOff() :325
+// private void BypassOff()
 void Timeline__BypassOff_fn(Timeline* __this)
 {
     __this->BypassOff();
 }
 
-// private void Fuse.Triggers.IPlayback.Pause() :246
+// private void Fuse.Triggers.IPlayback.Pause()
 void Timeline__FuseTriggersIPlaybackPause_fn(Timeline* __this)
 {
     __this->Pause();
 }
 
-// private void Fuse.Triggers.IPlayback.PlayTo(double progress) :260
+// private void Fuse.Triggers.IPlayback.PlayTo(double progress)
 void Timeline__FuseTriggersIPlaybackPlayTo_fn(Timeline* __this, double* progress)
 {
     double progress_ = *progress;
     __this->PlayTo1(progress_);
 }
 
-// private void Fuse.Triggers.IPlayback.Resume() :251
+// private void Fuse.Triggers.IPlayback.Resume()
 void Timeline__FuseTriggersIPlaybackResume_fn(Timeline* __this)
 {
     if (__this->IsRootingCompleted())
         __this->Play((double)((__this->_lastPlay == 0) ? 1 : 0));
 }
 
-// private void Fuse.Triggers.IPlayback.Stop() :236
+// private void Fuse.Triggers.IPlayback.Stop()
 void Timeline__FuseTriggersIPlaybackStop_fn(Timeline* __this)
 {
     if (__this->IsRootingCompleted())
@@ -4298,7 +4534,7 @@ void Timeline__FuseTriggersIPlaybackStop_fn(Timeline* __this)
     }
 }
 
-// protected override sealed void OnProgressChanged() :305
+// protected override sealed void OnProgressChanged()
 void Timeline__OnProgressChanged_fn(Timeline* __this)
 {
     uObject* ind1;
@@ -4311,7 +4547,7 @@ void Timeline__OnProgressChanged_fn(Timeline* __this)
         uPtr(__this->ProgressChanged1)->Invoke(2, sender, (::g::Uno::UX::ValueChangedArgs__New2_fn(::g::Uno::UX::ValueChangedArgs_typeof()->MakeType(::g::Uno::Double_typeof(), NULL), uCRef(__this->Progress1()), &ret3), ret3));
 }
 
-// protected override sealed void OnRooted() :152
+// protected override sealed void OnRooted()
 void Timeline__OnRooted_fn(Timeline* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
@@ -4328,139 +4564,139 @@ void Timeline__OnRooted_fn(Timeline* __this)
     }
 }
 
-// private static void pause(Fuse.Triggers.Timeline n) :101
+// private static void pause(Fuse.Triggers.Timeline n)
 void Timeline__pause_fn(Timeline* n)
 {
     Timeline::pause(n);
 }
 
-// public void Pause() :215
+// public void Pause()
 void Timeline__Pause_fn(Timeline* __this)
 {
     __this->Pause();
 }
 
-// private void Play(double progress) :204
+// private void Play(double progress)
 void Timeline__Play_fn(Timeline* __this, double* progress)
 {
     __this->Play(*progress);
 }
 
-// private static void playTo(Fuse.Triggers.Timeline n, object[] args) :63
+// private static void playTo(Fuse.Triggers.Timeline n, object[] args)
 void Timeline__playTo_fn(Timeline* n, uArray* args)
 {
     Timeline::playTo(n, args);
 }
 
-// public void PlayTo(double progress) :191
+// public void PlayTo(double progress)
 void Timeline__PlayTo1_fn(Timeline* __this, double* progress)
 {
     __this->PlayTo1(*progress);
 }
 
-// public new double get_Progress() :279
+// public new double get_Progress()
 void Timeline__get_Progress1_fn(Timeline* __this, double* __retval)
 {
     *__retval = __this->Progress1();
 }
 
-// public new void set_Progress(double value) :280
+// public new void set_Progress(double value)
 void Timeline__set_Progress_fn(Timeline* __this, double* value)
 {
     __this->Progress1(*value);
 }
 
-// public generated void add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) :169
+// public generated void add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value)
 void Timeline__add_ProgressChanged_fn(Timeline* __this, uDelegate* value)
 {
     __this->add_ProgressChanged(value);
 }
 
-// public generated void remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) :169
+// public generated void remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value)
 void Timeline__remove_ProgressChanged_fn(Timeline* __this, uDelegate* value)
 {
     __this->remove_ProgressChanged(value);
 }
 
-// private static void pulse(Fuse.Triggers.Timeline n) :30
+// private static void pulse(Fuse.Triggers.Timeline n)
 void Timeline__pulse_fn(Timeline* n)
 {
     Timeline::pulse(n);
 }
 
-// public new void Pulse() :314
+// public new void Pulse()
 void Timeline__Pulse1_fn(Timeline* __this)
 {
     __this->Pulse1();
 }
 
-// private static void pulseBackward(Fuse.Triggers.Timeline n) :50
+// private static void pulseBackward(Fuse.Triggers.Timeline n)
 void Timeline__pulseBackward_fn(Timeline* n)
 {
     Timeline::pulseBackward(n);
 }
 
-// public new void PulseBackward() :331
+// public new void PulseBackward()
 void Timeline__PulseBackward1_fn(Timeline* __this)
 {
     __this->PulseBackward1();
 }
 
-// private static void pulseForward(Fuse.Triggers.Timeline n) :40
+// private static void pulseForward(Fuse.Triggers.Timeline n)
 void Timeline__pulseForward_fn(Timeline* n)
 {
     Timeline::pulseForward(n);
 }
 
-// public void PulseForward() :319
+// public void PulseForward()
 void Timeline__PulseForward_fn(Timeline* __this)
 {
     __this->PulseForward();
 }
 
-// private static void resume(Fuse.Triggers.Timeline n) :91
+// private static void resume(Fuse.Triggers.Timeline n)
 void Timeline__resume_fn(Timeline* n)
 {
     Timeline::resume(n);
 }
 
-// public void Resume() :227
+// public void Resume()
 void Timeline__Resume_fn(Timeline* __this)
 {
     __this->Resume();
 }
 
-// private static void seek(Fuse.Triggers.Timeline n, object[] args) :112
+// private static void seek(Fuse.Triggers.Timeline n, object[] args)
 void Timeline__seek_fn(Timeline* n, uArray* args)
 {
     Timeline::seek(n, args);
 }
 
-// private static void stop(Fuse.Triggers.Timeline n) :80
+// private static void stop(Fuse.Triggers.Timeline n)
 void Timeline__stop_fn(Timeline* n)
 {
     Timeline::stop(n);
 }
 
-// public void Stop() :176
+// public void Stop()
 void Timeline__Stop1_fn(Timeline* __this)
 {
     __this->Stop1();
 }
 
-// public double get_TargetProgress() :116
+// public double get_TargetProgress()
 void Timeline__get_TargetProgress_fn(Timeline* __this, double* __retval)
 {
     *__retval = __this->TargetProgress();
 }
 
-// public void set_TargetProgress(double value) :117
+// public void set_TargetProgress(double value)
 void Timeline__set_TargetProgress_fn(Timeline* __this, double* value)
 {
     __this->TargetProgress(*value);
 }
 
-// public void TimelinePlayTo(double progress) :197
+// public void TimelinePlayTo(double progress)
 void Timeline__TimelinePlayTo_fn(Timeline* __this, double* progress)
 {
     __this->TimelinePlayTo(*progress);
@@ -4468,14 +4704,14 @@ void Timeline__TimelinePlayTo_fn(Timeline* __this, double* progress)
 
 ::g::Uno::UX::Selector Timeline::_progressName_;
 
-// private void BypassOff() [instance] :325
+// private void BypassOff() [instance]
 void Timeline::BypassOff()
 {
     _targetProgress = 0.0;
     BypassDeactivate();
 }
 
-// public void Pause() [instance] :215
+// public void Pause() [instance]
 void Timeline::Pause()
 {
     if (IsRootingCompleted())
@@ -4485,7 +4721,7 @@ void Timeline::Pause()
     }
 }
 
-// private void Play(double progress) [instance] :204
+// private void Play(double progress) [instance]
 void Timeline::Play(double progress)
 {
     _state = 0;
@@ -4494,44 +4730,44 @@ void Timeline::Play(double progress)
     _targetProgress = progress;
 }
 
-// public void PlayTo(double progress) [instance] :191
+// public void PlayTo(double progress) [instance]
 void Timeline::PlayTo1(double progress)
 {
     TimelinePlayTo(progress);
 }
 
-// public new double get_Progress() [instance] :279
+// public new double get_Progress() [instance]
 double Timeline::Progress1()
 {
     return Progress();
 }
 
-// public new void set_Progress(double value) [instance] :280
+// public new void set_Progress(double value) [instance]
 void Timeline::Progress1(double value)
 {
     Seek(value, 0);
     _targetProgress = value;
 }
 
-// public generated void add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) [instance] :169
+// public generated void add_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) [instance]
 void Timeline::add_ProgressChanged(uDelegate* value)
 {
-    ProgressChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(ProgressChanged1, value), ::TYPES[40/*Uno.UX.ValueChangedHandler`1*/]->MakeType(::g::Uno::Double_typeof(), NULL));
+    ProgressChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(ProgressChanged1, value), ::TYPES[44/*Uno.UX.ValueChangedHandler`1*/]->MakeType(::g::Uno::Double_typeof(), NULL));
 }
 
-// public generated void remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) [instance] :169
+// public generated void remove_ProgressChanged(Uno.UX.ValueChangedHandler<double> value) [instance]
 void Timeline::remove_ProgressChanged(uDelegate* value)
 {
-    ProgressChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(ProgressChanged1, value), ::TYPES[40/*Uno.UX.ValueChangedHandler`1*/]->MakeType(::g::Uno::Double_typeof(), NULL));
+    ProgressChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(ProgressChanged1, value), ::TYPES[44/*Uno.UX.ValueChangedHandler`1*/]->MakeType(::g::Uno::Double_typeof(), NULL));
 }
 
-// public new void Pulse() [instance] :314
+// public new void Pulse() [instance]
 void Timeline::Pulse1()
 {
     Pulse();
 }
 
-// public new void PulseBackward() [instance] :331
+// public new void PulseBackward() [instance]
 void Timeline::PulseBackward1()
 {
     BypassActivate();
@@ -4539,14 +4775,14 @@ void Timeline::PulseBackward1()
     DirectDeactivate();
 }
 
-// public void PulseForward() [instance] :319
+// public void PulseForward() [instance]
 void Timeline::PulseForward()
 {
     _targetProgress = 1.0;
     DirectActivate(uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)Timeline__BypassOff_fn, this));
 }
 
-// public void Resume() [instance] :227
+// public void Resume() [instance]
 void Timeline::Resume()
 {
     if (IsRootingCompleted())
@@ -4556,7 +4792,7 @@ void Timeline::Resume()
     }
 }
 
-// public void Stop() [instance] :176
+// public void Stop() [instance]
 void Timeline::Stop1()
 {
     if (IsRootingCompleted())
@@ -4567,13 +4803,13 @@ void Timeline::Stop1()
     }
 }
 
-// public double get_TargetProgress() [instance] :116
+// public double get_TargetProgress() [instance]
 double Timeline::TargetProgress()
 {
     return _targetProgress;
 }
 
-// public void set_TargetProgress(double value) [instance] :117
+// public void set_TargetProgress(double value) [instance]
 void Timeline::TargetProgress(double value)
 {
     _targetProgress = value;
@@ -4583,77 +4819,77 @@ void Timeline::TargetProgress(double value)
         PlayTo1(_targetProgress);
 }
 
-// public void TimelinePlayTo(double progress) [instance] :197
+// public void TimelinePlayTo(double progress) [instance]
 void Timeline::TimelinePlayTo(double progress)
 {
     if (IsRootingCompleted())
         Play(progress);
 }
 
-// private static void pause(Fuse.Triggers.Timeline n) [static] :101
+// private static void pause(Fuse.Triggers.Timeline n) [static]
 void Timeline::pause(Timeline* n)
 {
     Timeline_typeof()->Init();
     uPtr(n)->Pause();
 }
 
-// private static void playTo(Fuse.Triggers.Timeline n, object[] args) [static] :63
+// private static void playTo(Fuse.Triggers.Timeline n, object[] args) [static]
 void Timeline::playTo(Timeline* n, uArray* args)
 {
     Timeline_typeof()->Init();
 
     if (uPtr(args)->Length() != 1)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Timeline.playTo requires 1 argument"), n, uString::Const("/usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Timeline.ScriptClass.uno"), 67, uString::Const("playTo"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Timeline.playTo requires 1 argument"), n, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Timeline.ScriptClass.uno"), 67, uString::Const("playTo"), NULL);
         return;
     }
 
     uPtr(n)->PlayTo1(::g::Fuse::Marshal::ToDouble(uPtr(args)->Strong<uObject*>(0)));
 }
 
-// private static void pulse(Fuse.Triggers.Timeline n) [static] :30
+// private static void pulse(Fuse.Triggers.Timeline n) [static]
 void Timeline::pulse(Timeline* n)
 {
     Timeline_typeof()->Init();
     uPtr(n)->Pulse1();
 }
 
-// private static void pulseBackward(Fuse.Triggers.Timeline n) [static] :50
+// private static void pulseBackward(Fuse.Triggers.Timeline n) [static]
 void Timeline::pulseBackward(Timeline* n)
 {
     Timeline_typeof()->Init();
     uPtr(n)->PulseBackward1();
 }
 
-// private static void pulseForward(Fuse.Triggers.Timeline n) [static] :40
+// private static void pulseForward(Fuse.Triggers.Timeline n) [static]
 void Timeline::pulseForward(Timeline* n)
 {
     Timeline_typeof()->Init();
     uPtr(n)->PulseForward();
 }
 
-// private static void resume(Fuse.Triggers.Timeline n) [static] :91
+// private static void resume(Fuse.Triggers.Timeline n) [static]
 void Timeline::resume(Timeline* n)
 {
     Timeline_typeof()->Init();
     uPtr(n)->Resume();
 }
 
-// private static void seek(Fuse.Triggers.Timeline n, object[] args) [static] :112
+// private static void seek(Fuse.Triggers.Timeline n, object[] args) [static]
 void Timeline::seek(Timeline* n, uArray* args)
 {
     Timeline_typeof()->Init();
 
     if (uPtr(args)->Length() != 1)
     {
-        ::g::Fuse::Diagnostics::UserError(uString::Const("Timeline.seek requires 1 argument"), n, uString::Const("/usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Timeline.ScriptClass.uno"), 116, uString::Const("seek"), NULL);
+        ::g::Fuse::Diagnostics::UserError(uString::Const("Timeline.seek requires 1 argument"), n, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Timeline.ScriptClass.uno"), 116, uString::Const("seek"), NULL);
         return;
     }
 
     uPtr(n)->Progress1(::g::Fuse::Marshal::ToDouble(uPtr(args)->Strong<uObject*>(0)));
 }
 
-// private static void stop(Fuse.Triggers.Timeline n) [static] :80
+// private static void stop(Fuse.Triggers.Timeline n) [static]
 void Timeline::stop(Timeline* n)
 {
     Timeline_typeof()->Init();
@@ -4661,18 +4897,18 @@ void Timeline::stop(Timeline* n)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/Transition.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/Transition.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public class Transition :200
+// public class Transition
 // {
 static void Transition_build(uType* type)
 {
-    ::TYPES[23] = ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Animations::Animator_typeof(), NULL);
-    ::TYPES[24] = ::g::Fuse::Navigation::INavigation_typeof();
+    ::TYPES[27] = ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Animations::Animator_typeof(), NULL);
+    ::TYPES[28] = ::g::Fuse::Navigation::INavigation_typeof();
     ::TYPES[8] = ::g::Uno::Action_typeof();
-    ::TYPES[25] = ::g::Fuse::Navigation::NavigationHandler_typeof();
-    ::TYPES[26] = ::g::Fuse::Internal::MiniList_typeof()->MakeType(::g::Uno::String_typeof(), NULL);
+    ::TYPES[29] = ::g::Fuse::Navigation::NavigationHandler_typeof();
+    ::TYPES[30] = ::g::Fuse::Internal::MiniList_typeof()->MakeType(::g::Uno::String_typeof(), NULL);
     type->SetDependencies(
         ::g::Fuse::Animations::Easing_typeof(),
         ::g::Uno::Math_typeof(),
@@ -4690,8 +4926,8 @@ static void Transition_build(uType* type)
         ::g::Fuse::Animations::IUnwrappedPlayerFeedback_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface7),
         ::g::Fuse::Animations::IBasePlayerFeedback_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface8));
     type->SetFields(38,
-        ::TYPES[26/*Fuse.Internal.MiniList<string>*/], offsetof(Transition, _to), 0,
-        ::TYPES[26/*Fuse.Internal.MiniList<string>*/], offsetof(Transition, _from), 0,
+        ::TYPES[30/*Fuse.Internal.MiniList<string>*/], offsetof(Transition, _to), 0,
+        ::TYPES[30/*Fuse.Internal.MiniList<string>*/], offsetof(Transition, _from), 0,
         ::g::Fuse::Triggers::TransitionDirection_typeof(), offsetof(Transition, _direction), 0,
         ::g::Uno::Bool_typeof(), offsetof(Transition, _autoRelease), 0,
         ::g::Fuse::Triggers::TransitionMode_typeof(), offsetof(Transition, _mode), 0,
@@ -4745,67 +4981,67 @@ static void Transition_build(uType* type)
     return type;
 }
 
-// public generated Transition() :200
+// public generated Transition()
 void Transition__ctor_5_fn(Transition* __this)
 {
     __this->ctor_5();
 }
 
-// private void AddUseTransition() :313
+// private void AddUseTransition()
 void Transition__AddUseTransition_fn(Transition* __this)
 {
     __this->AddUseTransition();
 }
 
-// public bool get_AutoRelease() :266
+// public bool get_AutoRelease()
 void Transition__get_AutoRelease_fn(Transition* __this, bool* __retval)
 {
     *__retval = __this->AutoRelease();
 }
 
-// public void set_AutoRelease(bool value) :267
+// public void set_AutoRelease(bool value)
 void Transition__set_AutoRelease_fn(Transition* __this, bool* value)
 {
     __this->AutoRelease(*value);
 }
 
-// public Fuse.Triggers.TransitionDirection get_Direction() :254
+// public Fuse.Triggers.TransitionDirection get_Direction()
 void Transition__get_Direction_fn(Transition* __this, int32_t* __retval)
 {
     *__retval = __this->Direction();
 }
 
-// public void set_Direction(Fuse.Triggers.TransitionDirection value) :255
+// public void set_Direction(Fuse.Triggers.TransitionDirection value)
 void Transition__set_Direction_fn(Transition* __this, int32_t* value)
 {
     __this->Direction(*value);
 }
 
-// public Fuse.Triggers.TransitionMode get_Mode() :273
+// public Fuse.Triggers.TransitionMode get_Mode()
 void Transition__get_Mode_fn(Transition* __this, int32_t* __retval)
 {
     *__retval = __this->Mode();
 }
 
-// public void set_Mode(Fuse.Triggers.TransitionMode value) :274
+// public void set_Mode(Fuse.Triggers.TransitionMode value)
 void Transition__set_Mode_fn(Transition* __this, int32_t* value)
 {
     __this->Mode(*value);
 }
 
-// public generated Transition New() :200
+// public generated Transition New()
 void Transition__New2_fn(Transition** __retval)
 {
     *__retval = Transition::New2();
 }
 
-// private void OnPageProgressChanged(object sender, Fuse.Navigation.NavigationArgs args) :482
+// private void OnPageProgressChanged(object sender, Fuse.Navigation.NavigationArgs args)
 void Transition__OnPageProgressChanged_fn(Transition* __this, uObject* sender, ::g::Fuse::Navigation::NavigationArgs* args)
 {
     __this->OnPageProgressChanged(sender, args);
 }
 
-// protected override sealed void OnPlayStateChanged(Fuse.Triggers.TriggerPlayState state) :459
+// protected override sealed void OnPlayStateChanged(Fuse.Triggers.TriggerPlayState state)
 void Transition__OnPlayStateChanged_fn(Transition* __this, int32_t* state)
 {
     int32_t state_ = *state;
@@ -4816,7 +5052,7 @@ void Transition__OnPlayStateChanged_fn(Transition* __this, int32_t* state)
     uPtr(uPtr(__this->_group)->Navigator())->SetTransitionState(__this, state_ != 0);
 }
 
-// protected override sealed void OnProgressChanged() :449
+// protected override sealed void OnProgressChanged()
 void Transition__OnProgressChanged_fn(Transition* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnProgressChanged_fn(__this);
@@ -4825,7 +5061,7 @@ void Transition__OnProgressChanged_fn(Transition* __this)
         ::g::Fuse::UpdateManager::AddDeferredAction2(uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)::g::Fuse::Triggers::TransitionGroup__ReleasePage_fn, uPtr(__this->_group)), -1, 2);
 }
 
-// protected override sealed void OnRooted() :298
+// protected override sealed void OnRooted()
 void Transition__OnRooted_fn(Transition* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
@@ -4835,21 +5071,21 @@ void Transition__OnRooted_fn(Transition* __this)
     {
         __this->AddUseTransition();
         uPtr(uPtr(__this->_group)->Navigator())->SetTransitionState(__this, false);
-        uPtr(uPtr(__this->_group)->Navigator())->add_PageProgressChanged(uDelegate::New(::TYPES[25/*Fuse.Navigation.NavigationHandler*/], (void*)Transition__OnPageProgressChanged_fn, __this));
+        uPtr(uPtr(__this->_group)->Navigator())->add_PageProgressChanged(uDelegate::New(::TYPES[29/*Fuse.Navigation.NavigationHandler*/], (void*)Transition__OnPageProgressChanged_fn, __this));
     }
 }
 
-// protected override sealed void OnUnrooted() :342
+// protected override sealed void OnUnrooted()
 void Transition__OnUnrooted_fn(Transition* __this)
 {
     bool ret2;
 
     if (__this->_useAnimator != NULL)
-        ::g::Uno::Collections::ICollection::Remove_ex(uInterface(uPtr(__this->Animators()), ::TYPES[23/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), __this->_useAnimator, &ret2);
+        ::g::Uno::Collections::ICollection::Remove_ex(uInterface(uPtr(__this->Animators()), ::TYPES[27/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), __this->_useAnimator, &ret2);
 
     if (__this->_group != NULL)
     {
-        uPtr(uPtr(__this->_group)->Navigator())->remove_PageProgressChanged(uDelegate::New(::TYPES[25/*Fuse.Navigation.NavigationHandler*/], (void*)Transition__OnPageProgressChanged_fn, __this));
+        uPtr(uPtr(__this->_group)->Navigator())->remove_PageProgressChanged(uDelegate::New(::TYPES[29/*Fuse.Navigation.NavigationHandler*/], (void*)Transition__OnPageProgressChanged_fn, __this));
         uPtr(uPtr(__this->_group)->Navigator())->SetTransitionState(__this, false);
         uPtr(__this->_group)->Unroot(__this);
     }
@@ -4857,43 +5093,43 @@ void Transition__OnUnrooted_fn(Transition* __this)
     ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
 }
 
-// internal int Priority(bool isActive, bool isBackward, string newPath, string oldPath, Fuse.Navigation.NavigationGotoMode mode, string operationStyle) :356
+// internal int Priority(bool isActive, bool isBackward, string newPath, string oldPath, Fuse.Navigation.NavigationGotoMode mode, string operationStyle)
 void Transition__Priority_fn(Transition* __this, bool* isActive, bool* isBackward, uString* newPath, uString* oldPath, int32_t* mode, uString* operationStyle, int32_t* __retval)
 {
     *__retval = __this->Priority(*isActive, *isBackward, newPath, oldPath, *mode, operationStyle);
 }
 
-// internal void QuickDeactivate() :467
+// internal void QuickDeactivate()
 void Transition__QuickDeactivate_fn(Transition* __this)
 {
     __this->QuickDeactivate();
 }
 
-// public string get_Style() :281
+// public string get_Style()
 void Transition__get_Style_fn(Transition* __this, uString** __retval)
 {
     *__retval = __this->Style();
 }
 
-// public void set_Style(string value) :282
+// public void set_Style(string value)
 void Transition__set_Style_fn(Transition* __this, uString* value)
 {
     __this->Style(value);
 }
 
-// public Fuse.Controls.NavigationControlTransition get_UseTransition() :293
+// public Fuse.Controls.NavigationControlTransition get_UseTransition()
 void Transition__get_UseTransition_fn(Transition* __this, int32_t* __retval)
 {
     *__retval = __this->UseTransition();
 }
 
-// public void set_UseTransition(Fuse.Controls.NavigationControlTransition value) :294
+// public void set_UseTransition(Fuse.Controls.NavigationControlTransition value)
 void Transition__set_UseTransition_fn(Transition* __this, int32_t* value)
 {
     __this->UseTransition(*value);
 }
 
-// public generated Transition() [instance] :200
+// public generated Transition() [instance]
 void Transition::ctor_5()
 {
     _autoRelease = true;
@@ -4901,7 +5137,7 @@ void Transition::ctor_5()
     ctor_4();
 }
 
-// private void AddUseTransition() [instance] :313
+// private void AddUseTransition() [instance]
 void Transition::AddUseTransition()
 {
     int32_t use = UseTransition();
@@ -4927,46 +5163,46 @@ void Transition::AddUseTransition()
     }
 
     if (_useAnimator != NULL)
-        ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Animators()), ::TYPES[23/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), _useAnimator);
+        ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Animators()), ::TYPES[27/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), _useAnimator);
 }
 
-// public bool get_AutoRelease() [instance] :266
+// public bool get_AutoRelease() [instance]
 bool Transition::AutoRelease()
 {
     return _autoRelease;
 }
 
-// public void set_AutoRelease(bool value) [instance] :267
+// public void set_AutoRelease(bool value) [instance]
 void Transition::AutoRelease(bool value)
 {
     _autoRelease = value;
 }
 
-// public Fuse.Triggers.TransitionDirection get_Direction() [instance] :254
+// public Fuse.Triggers.TransitionDirection get_Direction() [instance]
 int32_t Transition::Direction()
 {
     return _direction;
 }
 
-// public void set_Direction(Fuse.Triggers.TransitionDirection value) [instance] :255
+// public void set_Direction(Fuse.Triggers.TransitionDirection value) [instance]
 void Transition::Direction(int32_t value)
 {
     _direction = value;
 }
 
-// public Fuse.Triggers.TransitionMode get_Mode() [instance] :273
+// public Fuse.Triggers.TransitionMode get_Mode() [instance]
 int32_t Transition::Mode()
 {
     return _mode;
 }
 
-// public void set_Mode(Fuse.Triggers.TransitionMode value) [instance] :274
+// public void set_Mode(Fuse.Triggers.TransitionMode value) [instance]
 void Transition::Mode(int32_t value)
 {
     _mode = value;
 }
 
-// private void OnPageProgressChanged(object sender, Fuse.Navigation.NavigationArgs args) [instance] :482
+// private void OnPageProgressChanged(object sender, Fuse.Navigation.NavigationArgs args) [instance]
 void Transition::OnPageProgressChanged(uObject* sender, ::g::Fuse::Navigation::NavigationArgs* args)
 {
     if (!IsSelected || (_group == NULL))
@@ -4979,7 +5215,7 @@ void Transition::OnPageProgressChanged(uObject* sender, ::g::Fuse::Navigation::N
         return;
     }
 
-    ::g::Fuse::Navigation::NavigationPageState ps = ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(uAs<uObject*>(uPtr(_group)->Navigator(), ::TYPES[24/*Fuse.Navigation.INavigation*/])), ::TYPES[24/*Fuse.Navigation.INavigation*/]), uPtr(_group)->Page());
+    ::g::Fuse::Navigation::NavigationPageState ps = ::g::Fuse::Navigation::INavigation::GetPageState(uInterface(uPtr(uAs<uObject*>(uPtr(_group)->Navigator(), ::TYPES[28/*Fuse.Navigation.INavigation*/])), ::TYPES[28/*Fuse.Navigation.INavigation*/]), uPtr(_group)->Page());
     int32_t d = (::g::Uno::Math::Abs1(ps.PreviousProgress) < ::g::Uno::Math::Abs1(ps.Progress)) ? 0 : 1;
     float p = ::g::Uno::Math::Abs1(ps.Progress);
 
@@ -4991,7 +5227,7 @@ void Transition::OnPageProgressChanged(uObject* sender, ::g::Fuse::Navigation::N
         BypassSeek((double)p, d);
 }
 
-// internal int Priority(bool isActive, bool isBackward, string newPath, string oldPath, Fuse.Navigation.NavigationGotoMode mode, string operationStyle) [instance] :356
+// internal int Priority(bool isActive, bool isBackward, string newPath, string oldPath, Fuse.Navigation.NavigationGotoMode mode, string operationStyle) [instance]
 int32_t Transition::Priority(bool isActive, bool isBackward, uString* newPath, uString* oldPath, int32_t mode, uString* operationStyle)
 {
     bool normActive = isActive != isBackward;
@@ -5078,17 +5314,17 @@ int32_t Transition::Priority(bool isActive, bool isBackward, uString* newPath, u
             return -1;
     }
 
-    if (_to.Count(::TYPES[26/*Fuse.Internal.MiniList<string>*/]) > 0)
+    if (_to.Count(::TYPES[30/*Fuse.Internal.MiniList<string>*/]) > 0)
     {
-        if (!normActive && _to.Contains(::TYPES[26/*Fuse.Internal.MiniList<string>*/], toPath))
+        if (!normActive && _to.Contains(::TYPES[30/*Fuse.Internal.MiniList<string>*/], toPath))
             return priority + 20;
 
         return -1;
     }
 
-    if (_from.Count(::TYPES[26/*Fuse.Internal.MiniList<string>*/]) > 0)
+    if (_from.Count(::TYPES[30/*Fuse.Internal.MiniList<string>*/]) > 0)
     {
-        if (normActive && _from.Contains(::TYPES[26/*Fuse.Internal.MiniList<string>*/], fromPath))
+        if (normActive && _from.Contains(::TYPES[30/*Fuse.Internal.MiniList<string>*/], fromPath))
             return priority + 10;
 
         return -1;
@@ -5097,7 +5333,7 @@ int32_t Transition::Priority(bool isActive, bool isBackward, uString* newPath, u
     return priority;
 }
 
-// internal void QuickDeactivate() [instance] :467
+// internal void QuickDeactivate() [instance]
 void Transition::QuickDeactivate()
 {
     if (Progress() < 1.0)
@@ -5106,31 +5342,31 @@ void Transition::QuickDeactivate()
         BypassDeactivate();
 }
 
-// public string get_Style() [instance] :281
+// public string get_Style() [instance]
 uString* Transition::Style()
 {
     return _style;
 }
 
-// public void set_Style(string value) [instance] :282
+// public void set_Style(string value) [instance]
 void Transition::Style(uString* value)
 {
     _style = value;
 }
 
-// public Fuse.Controls.NavigationControlTransition get_UseTransition() [instance] :293
+// public Fuse.Controls.NavigationControlTransition get_UseTransition() [instance]
 int32_t Transition::UseTransition()
 {
     return _useTransition;
 }
 
-// public void set_UseTransition(Fuse.Controls.NavigationControlTransition value) [instance] :294
+// public void set_UseTransition(Fuse.Controls.NavigationControlTransition value) [instance]
 void Transition::UseTransition(int32_t value)
 {
     _useTransition = value;
 }
 
-// public generated Transition New() [static] :200
+// public generated Transition New() [static]
 Transition* Transition::New2()
 {
     Transition* obj1 = (Transition*)uNew(Transition_typeof());
@@ -5139,10 +5375,10 @@ Transition* Transition::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/Transition.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/Transition.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum TransitionDirection :146
+// public enum TransitionDirection
 uEnumType* TransitionDirection_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -5162,35 +5398,35 @@ uEnumType* TransitionDirection_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/Transition.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/Transition.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class TransitionGroup :11
+// internal sealed class TransitionGroup
 // {
-// static generated TransitionGroup() :11
+// static generated TransitionGroup()
 static void TransitionGroup__cctor__fn(uType* __type)
 {
-    TransitionGroup::_groupMap_ = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[27/*Uno.Collections.Dictionary<Fuse.Node, Fuse.Triggers.TransitionGroup>*/]));
+    TransitionGroup::_groupMap_ = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[31/*Uno.Collections.Dictionary<Fuse.Node, Fuse.Triggers.TransitionGroup>*/]));
 }
 
 static void TransitionGroup_build(uType* type)
 {
-    ::STRINGS[30] = uString::Const("Transition must have a Navigator ancestor");
-    ::STRINGS[31] = uString::Const("/usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/Transition.uno");
-    ::STRINGS[32] = uString::Const("Root");
-    ::STRINGS[33] = uString::Const("Transition must have a Visual parent");
-    ::TYPES[27] = ::g::Uno::Collections::Dictionary_typeof()->MakeType(::g::Fuse::Node_typeof(), type, NULL);
-    ::TYPES[28] = ::g::Uno::Collections::List_typeof()->MakeType(::g::Fuse::Triggers::Transition_typeof(), NULL);
-    ::TYPES[29] = ::g::Fuse::Controls::NavigationSwitchedHandler_typeof();
-    ::TYPES[30] = ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Node_typeof(), NULL);
-    ::TYPES[31] = ::g::Fuse::Controls::Navigator_typeof();
+    ::STRINGS[32] = uString::Const("Transition must have a Navigator ancestor");
+    ::STRINGS[33] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/Transition.uno");
+    ::STRINGS[34] = uString::Const("Root");
+    ::STRINGS[35] = uString::Const("Transition must have a Visual parent");
+    ::TYPES[31] = ::g::Uno::Collections::Dictionary_typeof()->MakeType(::g::Fuse::Node_typeof(), type, NULL);
+    ::TYPES[32] = ::g::Uno::Collections::List_typeof()->MakeType(::g::Fuse::Triggers::Transition_typeof(), NULL);
+    ::TYPES[33] = ::g::Fuse::Controls::NavigationSwitchedHandler_typeof();
+    ::TYPES[34] = ::g::Uno::Collections::ICollection_typeof()->MakeType(::g::Fuse::Node_typeof(), NULL);
+    ::TYPES[35] = ::g::Fuse::Controls::Navigator_typeof();
     ::TYPES[4] = ::g::Fuse::Visual_typeof();
     type->SetFields(0,
-        ::TYPES[31/*Fuse.Controls.Navigator*/], offsetof(TransitionGroup, _navigator), 0,
+        ::TYPES[35/*Fuse.Controls.Navigator*/], offsetof(TransitionGroup, _navigator), 0,
         ::TYPES[4/*Fuse.Visual*/], offsetof(TransitionGroup, _parent), 0,
-        ::TYPES[28/*Uno.Collections.List<Fuse.Triggers.Transition>*/], offsetof(TransitionGroup, _states), 0,
+        ::TYPES[32/*Uno.Collections.List<Fuse.Triggers.Transition>*/], offsetof(TransitionGroup, _states), 0,
         ::g::Fuse::Triggers::Transition_typeof(), offsetof(TransitionGroup, _selected), 0,
-        ::TYPES[27/*Uno.Collections.Dictionary<Fuse.Node, Fuse.Triggers.TransitionGroup>*/], (uintptr_t)&TransitionGroup::_groupMap_, uFieldFlagsStatic);
+        ::TYPES[31/*Uno.Collections.Dictionary<Fuse.Node, Fuse.Triggers.TransitionGroup>*/], (uintptr_t)&TransitionGroup::_groupMap_, uFieldFlagsStatic);
 }
 
 uType* TransitionGroup_typeof()
@@ -5208,67 +5444,67 @@ uType* TransitionGroup_typeof()
     return type;
 }
 
-// public TransitionGroup(Fuse.Controls.Navigator navigator, Fuse.Visual parent) :50
+// public TransitionGroup(Fuse.Controls.Navigator navigator, Fuse.Visual parent)
 void TransitionGroup__ctor__fn(TransitionGroup* __this, ::g::Fuse::Controls::Navigator* navigator, ::g::Fuse::Visual* parent)
 {
     __this->ctor_(navigator, parent);
 }
 
-// public void Add(Fuse.Triggers.Transition t) :72
+// public void Add(Fuse.Triggers.Transition t)
 void TransitionGroup__Add_fn(TransitionGroup* __this, ::g::Fuse::Triggers::Transition* t)
 {
     __this->Add(t);
 }
 
-// private void Cleanup() :66
+// private void Cleanup()
 void TransitionGroup__Cleanup_fn(TransitionGroup* __this)
 {
     __this->Cleanup();
 }
 
-// public Fuse.Controls.Navigator get_Navigator() :57
+// public Fuse.Controls.Navigator get_Navigator()
 void TransitionGroup__get_Navigator_fn(TransitionGroup* __this, ::g::Fuse::Controls::Navigator** __retval)
 {
     *__retval = __this->Navigator();
 }
 
-// public TransitionGroup New(Fuse.Controls.Navigator navigator, Fuse.Visual parent) :50
+// public TransitionGroup New(Fuse.Controls.Navigator navigator, Fuse.Visual parent)
 void TransitionGroup__New1_fn(::g::Fuse::Controls::Navigator* navigator, ::g::Fuse::Visual* parent, TransitionGroup** __retval)
 {
     *__retval = TransitionGroup::New1(navigator, parent);
 }
 
-// private void OnSwitched(object sender, Fuse.Controls.NavigatorSwitchedArgs args) :89
+// private void OnSwitched(object sender, Fuse.Controls.NavigatorSwitchedArgs args)
 void TransitionGroup__OnSwitched_fn(TransitionGroup* __this, uObject* sender, ::g::Fuse::Controls::NavigatorSwitchedArgs* args)
 {
     __this->OnSwitched(sender, args);
 }
 
-// public Fuse.Visual get_Page() :59
+// public Fuse.Visual get_Page()
 void TransitionGroup__get_Page_fn(TransitionGroup* __this, ::g::Fuse::Visual** __retval)
 {
     *__retval = __this->Page();
 }
 
-// public void ReleasePage() :61
+// public void ReleasePage()
 void TransitionGroup__ReleasePage_fn(TransitionGroup* __this)
 {
     __this->ReleasePage();
 }
 
-// public static Fuse.Triggers.TransitionGroup Root(Fuse.Triggers.Transition t) :15
+// public static Fuse.Triggers.TransitionGroup Root(Fuse.Triggers.Transition t)
 void TransitionGroup__Root_fn(::g::Fuse::Triggers::Transition* t, TransitionGroup** __retval)
 {
     *__retval = TransitionGroup::Root(t);
 }
 
-// private void SelectTransition(Fuse.Triggers.Transition which) :134
+// private void SelectTransition(Fuse.Triggers.Transition which)
 void TransitionGroup__SelectTransition_fn(TransitionGroup* __this, ::g::Fuse::Triggers::Transition* which)
 {
     __this->SelectTransition(which);
 }
 
-// public void Unroot(Fuse.Triggers.Transition t) :77
+// public void Unroot(Fuse.Triggers.Transition t)
 void TransitionGroup__Unroot_fn(TransitionGroup* __this, ::g::Fuse::Triggers::Transition* t)
 {
     __this->Unroot(t);
@@ -5276,34 +5512,34 @@ void TransitionGroup__Unroot_fn(TransitionGroup* __this, ::g::Fuse::Triggers::Tr
 
 uSStrong< ::g::Uno::Collections::Dictionary*> TransitionGroup::_groupMap_;
 
-// public TransitionGroup(Fuse.Controls.Navigator navigator, Fuse.Visual parent) [instance] :50
+// public TransitionGroup(Fuse.Controls.Navigator navigator, Fuse.Visual parent) [instance]
 void TransitionGroup::ctor_(::g::Fuse::Controls::Navigator* navigator, ::g::Fuse::Visual* parent)
 {
-    _states = ((::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[28/*Uno.Collections.List<Fuse.Triggers.Transition>*/]));
+    _states = ((::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[32/*Uno.Collections.List<Fuse.Triggers.Transition>*/]));
     _parent = parent;
     _navigator = navigator;
-    uPtr(_navigator)->add_Switched(uDelegate::New(::TYPES[29/*Fuse.Controls.NavigationSwitchedHandler*/], (void*)TransitionGroup__OnSwitched_fn, this));
+    uPtr(_navigator)->add_Switched(uDelegate::New(::TYPES[33/*Fuse.Controls.NavigationSwitchedHandler*/], (void*)TransitionGroup__OnSwitched_fn, this));
 }
 
-// public void Add(Fuse.Triggers.Transition t) [instance] :72
+// public void Add(Fuse.Triggers.Transition t) [instance]
 void TransitionGroup::Add(::g::Fuse::Triggers::Transition* t)
 {
     ::g::Uno::Collections::List__Add_fn(uPtr(_states), t);
 }
 
-// private void Cleanup() [instance] :66
+// private void Cleanup() [instance]
 void TransitionGroup::Cleanup()
 {
-    uPtr(_navigator)->remove_Switched(uDelegate::New(::TYPES[29/*Fuse.Controls.NavigationSwitchedHandler*/], (void*)TransitionGroup__OnSwitched_fn, this));
+    uPtr(_navigator)->remove_Switched(uDelegate::New(::TYPES[33/*Fuse.Controls.NavigationSwitchedHandler*/], (void*)TransitionGroup__OnSwitched_fn, this));
 }
 
-// public Fuse.Controls.Navigator get_Navigator() [instance] :57
+// public Fuse.Controls.Navigator get_Navigator() [instance]
 ::g::Fuse::Controls::Navigator* TransitionGroup::Navigator()
 {
     return _navigator;
 }
 
-// private void OnSwitched(object sender, Fuse.Controls.NavigatorSwitchedArgs args) [instance] :89
+// private void OnSwitched(object sender, Fuse.Controls.NavigatorSwitchedArgs args) [instance]
 void TransitionGroup::OnSwitched(uObject* sender, ::g::Fuse::Controls::NavigatorSwitchedArgs* args)
 {
     ::g::Fuse::Triggers::Transition* ret2;
@@ -5338,26 +5574,26 @@ void TransitionGroup::OnSwitched(uObject* sender, ::g::Fuse::Controls::Navigator
         ::g::Fuse::Triggers::Transition* trans = ::g::Fuse::Triggers::Transition::New2();
         trans->UseTransition(0);
         trans->Direction(forward ? 1 : 2);
-        ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(uPtr(_parent)->Children()), ::TYPES[30/*Uno.Collections.ICollection<Fuse.Node>*/]), trans);
+        ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(uPtr(_parent)->Children()), ::TYPES[34/*Uno.Collections.ICollection<Fuse.Node>*/]), trans);
         selectTrans = trans;
     }
 
     SelectTransition(selectTrans);
 }
 
-// public Fuse.Visual get_Page() [instance] :59
+// public Fuse.Visual get_Page() [instance]
 ::g::Fuse::Visual* TransitionGroup::Page()
 {
     return _parent;
 }
 
-// public void ReleasePage() [instance] :61
+// public void ReleasePage() [instance]
 void TransitionGroup::ReleasePage()
 {
     uPtr(_navigator)->ReleasePage(_parent);
 }
 
-// private void SelectTransition(Fuse.Triggers.Transition which) [instance] :134
+// private void SelectTransition(Fuse.Triggers.Transition which) [instance]
 void TransitionGroup::SelectTransition(::g::Fuse::Triggers::Transition* which)
 {
     ::g::Fuse::Triggers::Transition* ret5;
@@ -5369,7 +5605,7 @@ void TransitionGroup::SelectTransition(::g::Fuse::Triggers::Transition* which)
     _selected = which;
 }
 
-// public void Unroot(Fuse.Triggers.Transition t) [instance] :77
+// public void Unroot(Fuse.Triggers.Transition t) [instance]
 void TransitionGroup::Unroot(::g::Fuse::Triggers::Transition* t)
 {
     bool ret7;
@@ -5383,7 +5619,7 @@ void TransitionGroup::Unroot(::g::Fuse::Triggers::Transition* t)
     }
 }
 
-// public TransitionGroup New(Fuse.Controls.Navigator navigator, Fuse.Visual parent) [static] :50
+// public TransitionGroup New(Fuse.Controls.Navigator navigator, Fuse.Visual parent) [static]
 TransitionGroup* TransitionGroup::New1(::g::Fuse::Controls::Navigator* navigator, ::g::Fuse::Visual* parent)
 {
     TransitionGroup* obj1 = (TransitionGroup*)uNew(TransitionGroup_typeof());
@@ -5391,7 +5627,7 @@ TransitionGroup* TransitionGroup::New1(::g::Fuse::Controls::Navigator* navigator
     return obj1;
 }
 
-// public static Fuse.Triggers.TransitionGroup Root(Fuse.Triggers.Transition t) [static] :15
+// public static Fuse.Triggers.TransitionGroup Root(Fuse.Triggers.Transition t) [static]
 TransitionGroup* TransitionGroup::Root(::g::Fuse::Triggers::Transition* t)
 {
     TransitionGroup_typeof()->Init();
@@ -5401,13 +5637,13 @@ TransitionGroup* TransitionGroup::Root(::g::Fuse::Triggers::Transition* t)
 
     while ((q != NULL) && (nav == NULL))
     {
-        nav = uAs< ::g::Fuse::Controls::Navigator*>(q, ::TYPES[31/*Fuse.Controls.Navigator*/]);
+        nav = uAs< ::g::Fuse::Controls::Navigator*>(q, ::TYPES[35/*Fuse.Controls.Navigator*/]);
         q = uPtr(q)->ContextParent();
     }
 
     if (nav == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[30/*"Transition ...*/], t, ::STRINGS[31/*"/usr/local/...*/], 26, ::STRINGS[32/*"Root"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[32/*"Transition ...*/], t, ::STRINGS[33/*"/Users/antt...*/], 26, ::STRINGS[34/*"Root"*/], NULL);
         return NULL;
     }
 
@@ -5415,7 +5651,7 @@ TransitionGroup* TransitionGroup::Root(::g::Fuse::Triggers::Transition* t)
 
     if (vis == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[33/*"Transition ...*/], t, ::STRINGS[31/*"/usr/local/...*/], 33, ::STRINGS[32/*"Root"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[35/*"Transition ...*/], t, ::STRINGS[33/*"/Users/antt...*/], 33, ::STRINGS[34/*"Root"*/], NULL);
         return NULL;
     }
 
@@ -5432,10 +5668,10 @@ TransitionGroup* TransitionGroup::Root(::g::Fuse::Triggers::Transition* t)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/Transition.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/Transition.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum TransitionMode :181
+// public enum TransitionMode
 uEnumType* TransitionMode_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -5449,15 +5685,15 @@ uEnumType* TransitionMode_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Trigger.uno
-// -------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Trigger.uno
+// -------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class Trigger :77
+// public abstract class Trigger
 // {
-// static generated Trigger() :77
+// static generated Trigger()
 static void Trigger__cctor_1_fn(uType* __type)
 {
-    Trigger::ProgressName_ = ::g::Uno::UX::Selector__op_Implicit1(uString::Const("Progress"));
+    Trigger::ProgressName_ = ::g::Uno::UX::Selector__op_Implicit(uString::Const("Progress"));
 }
 
 static void Trigger_build(uType* type)
@@ -5538,152 +5774,152 @@ Trigger_type* Trigger_typeof()
     return type;
 }
 
-// protected generated Trigger() :77
+// protected generated Trigger()
 void Trigger__ctor_4_fn(Trigger* __this)
 {
     __this->ctor_4();
 }
 
-// public Uno.Collections.IList<Fuse.Triggers.Actions.TriggerAction> get_Actions() :215
+// public Uno.Collections.IList<Fuse.Triggers.Actions.TriggerAction> get_Actions()
 void Trigger__get_Actions_fn(Trigger* __this, uObject** __retval)
 {
     *__retval = __this->Actions();
 }
 
-// protected void Activate([Uno.Action done]) :433
+// protected void Activate([Uno.Action done])
 void Trigger__Activate_fn(Trigger* __this, uDelegate* done)
 {
     __this->Activate(done);
 }
 
-// private void AddDeferredAction(Fuse.Triggers.Actions.TriggerAction i) :285
+// private void AddDeferredAction(Fuse.Triggers.Actions.TriggerAction i)
 void Trigger__AddDeferredAction_fn(Trigger* __this, ::g::Fuse::Triggers::Actions::TriggerAction* i)
 {
     __this->AddDeferredAction(i);
 }
 
-// public Fuse.Animations.TriggerAnimation get_Animation() :126
+// public Fuse.Animations.TriggerAnimation get_Animation()
 void Trigger__get_Animation_fn(Trigger* __this, ::g::Fuse::Animations::TriggerAnimation** __retval)
 {
     *__retval = __this->Animation();
 }
 
-// public void set_Animation(Fuse.Animations.TriggerAnimation value) :131
+// public void set_Animation(Fuse.Animations.TriggerAnimation value)
 void Trigger__set_Animation_fn(Trigger* __this, ::g::Fuse::Animations::TriggerAnimation* value)
 {
     __this->Animation(value);
 }
 
-// public Uno.Collections.IList<Fuse.Animations.Animator> get_Animators() :201
+// public Uno.Collections.IList<Fuse.Animations.Animator> get_Animators()
 void Trigger__get_Animators_fn(Trigger* __this, uObject** __retval)
 {
     *__retval = __this->Animators();
 }
 
-// public Fuse.Animations.TriggerAnimation get_BackwardAnimation() :178
+// public Fuse.Animations.TriggerAnimation get_BackwardAnimation()
 void Trigger__get_BackwardAnimation_fn(Trigger* __this, ::g::Fuse::Animations::TriggerAnimation** __retval)
 {
     *__retval = __this->BackwardAnimation();
 }
 
-// public void set_BackwardAnimation(Fuse.Animations.TriggerAnimation value) :179
+// public void set_BackwardAnimation(Fuse.Animations.TriggerAnimation value)
 void Trigger__set_BackwardAnimation_fn(Trigger* __this, ::g::Fuse::Animations::TriggerAnimation* value)
 {
     __this->BackwardAnimation(value);
 }
 
-// public Fuse.Triggers.TriggerBypassMode get_Bypass() :104
+// public Fuse.Triggers.TriggerBypassMode get_Bypass()
 void Trigger__get_Bypass_fn(Trigger* __this, int32_t* __retval)
 {
     *__retval = __this->Bypass();
 }
 
-// public void set_Bypass(Fuse.Triggers.TriggerBypassMode value) :105
+// public void set_Bypass(Fuse.Triggers.TriggerBypassMode value)
 void Trigger__set_Bypass_fn(Trigger* __this, int32_t* value)
 {
     __this->Bypass(*value);
 }
 
-// protected void BypassActivate() :444
+// protected void BypassActivate()
 void Trigger__BypassActivate_fn(Trigger* __this)
 {
     __this->BypassActivate();
 }
 
-// protected void BypassDeactivate() :478
+// protected void BypassDeactivate()
 void Trigger__BypassDeactivate_fn(Trigger* __this)
 {
     __this->BypassDeactivate();
 }
 
-// protected void BypassSeek(double progress, [Fuse.Animations.AnimationVariant direction]) :724
+// protected void BypassSeek(double progress, [Fuse.Animations.AnimationVariant direction])
 void Trigger__BypassSeek_fn(Trigger* __this, double* progress, int32_t* direction)
 {
     __this->BypassSeek(*progress, *direction);
 }
 
-// private void CleanupStableState() :332
+// private void CleanupStableState()
 void Trigger__CleanupStableState_fn(Trigger* __this)
 {
     __this->CleanupStableState();
 }
 
-// private void CleanupState() :555
+// private void CleanupState()
 void Trigger__CleanupState_fn(Trigger* __this)
 {
     __this->CleanupState();
 }
 
-// private void CreateState() :564
+// private void CreateState()
 void Trigger__CreateState_fn(Trigger* __this)
 {
     __this->CreateState();
 }
 
-// protected void Deactivate() :461
+// protected void Deactivate()
 void Trigger__Deactivate_fn(Trigger* __this)
 {
     __this->Deactivate();
 }
 
-// protected void DirectActivate([Uno.Action done]) :451
+// protected void DirectActivate([Uno.Action done])
 void Trigger__DirectActivate_fn(Trigger* __this, uDelegate* done)
 {
     __this->DirectActivate(done);
 }
 
-// protected void DirectDeactivate() :472
+// protected void DirectDeactivate()
 void Trigger__DirectDeactivate_fn(Trigger* __this)
 {
     __this->DirectDeactivate();
 }
 
-// protected void DirectSeek(double progress, [Fuse.Animations.AnimationVariant direction]) :719
+// protected void DirectSeek(double progress, [Fuse.Animations.AnimationVariant direction])
 void Trigger__DirectSeek_fn(Trigger* __this, double* progress, int32_t* direction)
 {
     __this->DirectSeek(*progress, *direction);
 }
 
-// private void EnsureAnimationLength() :583
+// private void EnsureAnimationLength()
 void Trigger__EnsureAnimationLength_fn(Trigger* __this)
 {
     __this->EnsureAnimationLength();
 }
 
-// private bool EnsureState(double progress) :573
+// private bool EnsureState(double progress)
 void Trigger__EnsureState_fn(Trigger* __this, double* progress, bool* __retval)
 {
     *__retval = __this->EnsureState(*progress);
 }
 
-// private void Fuse.Animations.IBasePlayerFeedback.OnPlaybackDone(object s) :297
+// private void Fuse.Animations.IBasePlayerFeedback.OnPlaybackDone(object s)
 void Trigger__FuseAnimationsIBasePlayerFeedbackOnPlaybackDone_fn(Trigger* __this, uObject* s)
 {
     __this->SetPlayState(0);
 
     if (__this->_animState == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("Trigger.OnPlaybackdone called with _animState == null"), __this, uString::Const("/usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Trigger.uno"), 303, uString::Const("Fuse.Animations.IBasePlayerFeedback.OnPlaybackDone"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("Trigger.OnPlaybackdone called with _animState == null"), __this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Trigger.uno"), 303, uString::Const("Fuse.Animations.IBasePlayerFeedback.OnPlaybackDone"));
         return;
     }
 
@@ -5703,13 +5939,13 @@ void Trigger__FuseAnimationsIBasePlayerFeedbackOnPlaybackDone_fn(Trigger* __this
         uPtr(perform)->InvokeVoid();
 }
 
-// private void Fuse.Animations.IBasePlayerFeedback.OnStable(object s) :327
+// private void Fuse.Animations.IBasePlayerFeedback.OnStable(object s)
 void Trigger__FuseAnimationsIBasePlayerFeedbackOnStable_fn(Trigger* __this, uObject* s)
 {
     __this->CleanupStableState();
 }
 
-// private void Fuse.Animations.IUnwrappedPlayerFeedback.OnProgressUpdated(object s, double prev, double cur, Fuse.Animations.PlayerFeedbackFlags flags) :653
+// private void Fuse.Animations.IUnwrappedPlayerFeedback.OnProgressUpdated(object s, double prev, double cur, Fuse.Animations.PlayerFeedbackFlags flags)
 void Trigger__FuseAnimationsIUnwrappedPlayerFeedbackOnProgressUpdated_fn(Trigger* __this, uObject* s, double* prev, double* cur, int32_t* flags)
 {
     double cur_ = *cur;
@@ -5743,41 +5979,41 @@ void Trigger__FuseAnimationsIUnwrappedPlayerFeedbackOnProgressUpdated_fn(Trigger
     }
 }
 
-// public bool get_HasActions() :224
+// public bool get_HasActions()
 void Trigger__get_HasActions_fn(Trigger* __this, bool* __retval)
 {
     *__retval = __this->HasActions();
 }
 
-// public bool get_HasBackwardAnimation() :187
+// public bool get_HasBackwardAnimation()
 void Trigger__get_HasBackwardAnimation_fn(Trigger* __this, bool* __retval)
 {
     *__retval = __this->HasBackwardAnimation();
 }
 
-// protected void InversePulse() :515
+// protected void InversePulse()
 void Trigger__InversePulse_fn(Trigger* __this)
 {
     __this->InversePulse();
 }
 
-// private bool IsForward(Fuse.Triggers.TriggerPlayState ps) :637
+// private bool IsForward(Fuse.Triggers.TriggerPlayState ps)
 void Trigger__IsForward_fn(Trigger* __this, int32_t* ps, bool* __retval)
 {
     *__retval = __this->IsForward(*ps);
 }
 
-// protected virtual void OnPlayStateChanged(Fuse.Triggers.TriggerPlayState state) :290
+// protected virtual void OnPlayStateChanged(Fuse.Triggers.TriggerPlayState state)
 void Trigger__OnPlayStateChanged_fn(Trigger* __this, int32_t* state)
 {
 }
 
-// protected virtual void OnProgressChanged() :626
+// protected virtual void OnProgressChanged()
 void Trigger__OnProgressChanged_fn(Trigger* __this)
 {
 }
 
-// protected override void OnRooted() :744
+// protected override void OnRooted()
 void Trigger__OnRooted_fn(Trigger* __this)
 {
     ::g::Fuse::NodeGroupBase__OnRooted_fn(__this);
@@ -5804,7 +6040,7 @@ void Trigger__OnRooted_fn(Trigger* __this)
     }
 }
 
-// protected override void OnUnrooted() :776
+// protected override void OnUnrooted()
 void Trigger__OnUnrooted_fn(Trigger* __this)
 {
     __this->Stop(true);
@@ -5813,109 +6049,109 @@ void Trigger__OnUnrooted_fn(Trigger* __this)
     ::g::Fuse::NodeGroupBase__OnUnrooted_fn(__this);
 }
 
-// private void PlayActions(Fuse.Triggers.Actions.TriggerWhen when) :352
+// private void PlayActions(Fuse.Triggers.Actions.TriggerWhen when)
 void Trigger__PlayActions_fn(Trigger* __this, int32_t* when)
 {
     __this->PlayActions(*when);
 }
 
-// protected void PlayEnd(bool on, [Uno.Action done]) :531
+// protected void PlayEnd(bool on, [Uno.Action done])
 void Trigger__PlayEnd_fn(Trigger* __this, bool* on, uDelegate* done)
 {
     __this->PlayEnd(*on, done);
 }
 
-// private void PlayOn() :520
+// private void PlayOn()
 void Trigger__PlayOn_fn(Trigger* __this)
 {
     __this->PlayOn();
 }
 
-// protected internal Fuse.Triggers.TriggerPlayState get_PlayState() :295
+// protected internal Fuse.Triggers.TriggerPlayState get_PlayState()
 void Trigger__get_PlayState_fn(Trigger* __this, int32_t* __retval)
 {
     *__retval = __this->PlayState();
 }
 
-// protected void PlayTo(double progress, [Fuse.Animations.AnimationVariant variant]) :689
+// protected void PlayTo(double progress, [Fuse.Animations.AnimationVariant variant])
 void Trigger__PlayTo_fn(Trigger* __this, double* progress, int32_t* variant)
 {
     __this->PlayTo(*progress, *variant);
 }
 
-// public double get_Progress() :241
+// public double get_Progress()
 void Trigger__get_Progress_fn(Trigger* __this, double* __retval)
 {
     *__retval = __this->Progress();
 }
 
-// protected void Pulse() :491
+// protected void Pulse()
 void Trigger__Pulse_fn(Trigger* __this)
 {
     __this->Pulse();
 }
 
-// protected void Seek(double progress, [Fuse.Animations.AnimationVariant direction]) :708
+// protected void Seek(double progress, [Fuse.Animations.AnimationVariant direction])
 void Trigger__Seek_fn(Trigger* __this, double* progress, int32_t* direction)
 {
     __this->Seek(*progress, *direction);
 }
 
-// private void SeekImpl(double progress, Fuse.Animations.AnimationVariant direction, Fuse.Animations.TriggerAnimationState.SeekFlags flags) :730
+// private void SeekImpl(double progress, Fuse.Animations.AnimationVariant direction, Fuse.Animations.TriggerAnimationState.SeekFlags flags)
 void Trigger__SeekImpl_fn(Trigger* __this, double* progress, int32_t* direction, int32_t* flags)
 {
     __this->SeekImpl(*progress, *direction, *flags);
 }
 
-// private void SetDone(Uno.Action done, bool on) :227
+// private void SetDone(Uno.Action done, bool on)
 void Trigger__SetDone_fn(Trigger* __this, uDelegate* done, bool* on)
 {
     __this->SetDone(done, *on);
 }
 
-// private void SetPlayState(Fuse.Triggers.TriggerPlayState next) :252
+// private void SetPlayState(Fuse.Triggers.TriggerPlayState next)
 void Trigger__SetPlayState_fn(Trigger* __this, int32_t* next)
 {
     __this->SetPlayState(*next);
 }
 
-// private bool get_ShouldBypass() :392
+// private bool get_ShouldBypass()
 void Trigger__get_ShouldBypass_fn(Trigger* __this, bool* __retval)
 {
     *__retval = __this->ShouldBypass();
 }
 
-// private bool get_ShouldIgnore() :383
+// private bool get_ShouldIgnore()
 void Trigger__get_ShouldIgnore_fn(Trigger* __this, bool* __retval)
 {
     *__retval = __this->ShouldIgnore();
 }
 
-// protected void Start() :340
+// protected void Start()
 void Trigger__Start_fn(Trigger* __this)
 {
     __this->Start();
 }
 
-// protected void Stop([bool force]) :368
+// protected void Stop([bool force])
 void Trigger__Stop_fn(Trigger* __this, bool* force)
 {
     __this->Stop(*force);
 }
 
-// private void StopAction() :484
+// private void StopAction()
 void Trigger__StopAction_fn(Trigger* __this)
 {
     __this->StopAction();
 }
 
-// private void UnrootActions() :785
+// private void UnrootActions()
 void Trigger__UnrootActions_fn(Trigger* __this)
 {
     __this->UnrootActions();
 }
 
-// private Fuse.Triggers.TriggerPlayState WhatDirection(double diff, bool animating) :630
+// private Fuse.Triggers.TriggerPlayState WhatDirection(double diff, bool animating)
 void Trigger__WhatDirection_fn(Trigger* __this, double* diff, bool* animating, int32_t* __retval)
 {
     *__retval = __this->WhatDirection(*diff, *animating);
@@ -5924,14 +6160,14 @@ void Trigger__WhatDirection_fn(Trigger* __this, double* diff, bool* animating, i
 bool Trigger::_warnBypass_;
 ::g::Uno::UX::Selector Trigger::ProgressName_;
 
-// protected generated Trigger() [instance] :77
+// protected generated Trigger() [instance]
 void Trigger::ctor_4()
 {
     _noLayoutFrame = -1;
     ctor_3(0);
 }
 
-// public Uno.Collections.IList<Fuse.Triggers.Actions.TriggerAction> get_Actions() [instance] :215
+// public Uno.Collections.IList<Fuse.Triggers.Actions.TriggerAction> get_Actions() [instance]
 uObject* Trigger::Actions()
 {
     if (_actions == NULL)
@@ -5940,7 +6176,7 @@ uObject* Trigger::Actions()
     return (uObject*)_actions;
 }
 
-// protected void Activate([Uno.Action done]) [instance] :433
+// protected void Activate([Uno.Action done]) [instance]
 void Trigger::Activate(uDelegate* done)
 {
     if (ShouldIgnore())
@@ -5952,14 +6188,14 @@ void Trigger::Activate(uDelegate* done)
         DirectActivate(done);
 }
 
-// private void AddDeferredAction(Fuse.Triggers.Actions.TriggerAction i) [instance] :285
+// private void AddDeferredAction(Fuse.Triggers.Actions.TriggerAction i) [instance]
 void Trigger::AddDeferredAction(::g::Fuse::Triggers::Actions::TriggerAction* i)
 {
     Trigger__DeferredItem* collection1;
     ::g::Fuse::UpdateManager::AddDeferredAction2(uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)Trigger__DeferredItem__Perform_fn, uPtr((collection1 = Trigger__DeferredItem::New1(), uPtr(collection1)->Action = i, uPtr(collection1)->Node = this, collection1))), -1, 2);
 }
 
-// public Fuse.Animations.TriggerAnimation get_Animation() [instance] :126
+// public Fuse.Animations.TriggerAnimation get_Animation() [instance]
 ::g::Fuse::Animations::TriggerAnimation* Trigger::Animation()
 {
     if (_animation == NULL)
@@ -5968,69 +6204,69 @@ void Trigger::AddDeferredAction(::g::Fuse::Triggers::Actions::TriggerAction* i)
     return _animation;
 }
 
-// public void set_Animation(Fuse.Animations.TriggerAnimation value) [instance] :131
+// public void set_Animation(Fuse.Animations.TriggerAnimation value) [instance]
 void Trigger::Animation(::g::Fuse::Animations::TriggerAnimation* value)
 {
     _animation = value;
 }
 
-// public Uno.Collections.IList<Fuse.Animations.Animator> get_Animators() [instance] :201
+// public Uno.Collections.IList<Fuse.Animations.Animator> get_Animators() [instance]
 uObject* Trigger::Animators()
 {
     return uPtr(Animation())->Animators();
 }
 
-// public Fuse.Animations.TriggerAnimation get_BackwardAnimation() [instance] :178
+// public Fuse.Animations.TriggerAnimation get_BackwardAnimation() [instance]
 ::g::Fuse::Animations::TriggerAnimation* Trigger::BackwardAnimation()
 {
     return uPtr(Animation())->Backward();
 }
 
-// public void set_BackwardAnimation(Fuse.Animations.TriggerAnimation value) [instance] :179
+// public void set_BackwardAnimation(Fuse.Animations.TriggerAnimation value) [instance]
 void Trigger::BackwardAnimation(::g::Fuse::Animations::TriggerAnimation* value)
 {
     uPtr(Animation())->Backward(value);
 }
 
-// public Fuse.Triggers.TriggerBypassMode get_Bypass() [instance] :104
+// public Fuse.Triggers.TriggerBypassMode get_Bypass() [instance]
 int32_t Trigger::Bypass()
 {
     return _bypass;
 }
 
-// public void set_Bypass(Fuse.Triggers.TriggerBypassMode value) [instance] :105
+// public void set_Bypass(Fuse.Triggers.TriggerBypassMode value) [instance]
 void Trigger::Bypass(int32_t value)
 {
     _bypass = value;
 
     if ((value == 3) && !Trigger::_warnBypass_)
     {
-        ::g::Fuse::Diagnostics::Deprecated(uString::Const("ExceptLayout mode indicates a problem in trigger expecations and should no tbe used"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Trigger.uno"), 110, uString::Const("set_Bypass"));
+        ::g::Fuse::Diagnostics::Deprecated(uString::Const("ExceptLayout mode indicates a problem in trigger expecations and should no tbe used"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Trigger.uno"), 110, uString::Const("set_Bypass"));
         Trigger::_warnBypass_ = true;
     }
 }
 
-// protected void BypassActivate() [instance] :444
+// protected void BypassActivate() [instance]
 void Trigger::BypassActivate()
 {
     BypassSeek(1.0, 0);
     PlayOn();
 }
 
-// protected void BypassDeactivate() [instance] :478
+// protected void BypassDeactivate() [instance]
 void Trigger::BypassDeactivate()
 {
     BypassSeek(0.0, 0);
     DirectDeactivate();
 }
 
-// protected void BypassSeek(double progress, [Fuse.Animations.AnimationVariant direction]) [instance] :724
+// protected void BypassSeek(double progress, [Fuse.Animations.AnimationVariant direction]) [instance]
 void Trigger::BypassSeek(double progress, int32_t direction)
 {
     SeekImpl(progress, direction, 3);
 }
 
-// private void CleanupStableState() [instance] :332
+// private void CleanupStableState() [instance]
 void Trigger::CleanupStableState()
 {
     if ((_animState == NULL) || !uPtr(_animState)->IsStable())
@@ -6040,7 +6276,7 @@ void Trigger::CleanupStableState()
         CleanupState();
 }
 
-// private void CleanupState() [instance] :555
+// private void CleanupState() [instance]
 void Trigger::CleanupState()
 {
     if (_animState != NULL)
@@ -6050,7 +6286,7 @@ void Trigger::CleanupState()
     }
 }
 
-// private void CreateState() [instance] :564
+// private void CreateState() [instance]
 void Trigger::CreateState()
 {
     CleanupState();
@@ -6059,7 +6295,7 @@ void Trigger::CreateState()
     uPtr(_animState)->Feedback = (uObject*)this;
 }
 
-// protected void Deactivate() [instance] :461
+// protected void Deactivate() [instance]
 void Trigger::Deactivate()
 {
     if (ShouldIgnore())
@@ -6071,25 +6307,25 @@ void Trigger::Deactivate()
         DirectDeactivate();
 }
 
-// protected void DirectActivate([Uno.Action done]) [instance] :451
+// protected void DirectActivate([Uno.Action done]) [instance]
 void Trigger::DirectActivate(uDelegate* done)
 {
     PlayEnd(true, done);
 }
 
-// protected void DirectDeactivate() [instance] :472
+// protected void DirectDeactivate() [instance]
 void Trigger::DirectDeactivate()
 {
     PlayEnd(false, uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)Trigger__StopAction_fn, this));
 }
 
-// protected void DirectSeek(double progress, [Fuse.Animations.AnimationVariant direction]) [instance] :719
+// protected void DirectSeek(double progress, [Fuse.Animations.AnimationVariant direction]) [instance]
 void Trigger::DirectSeek(double progress, int32_t direction)
 {
     SeekImpl(progress, direction, 1);
 }
 
-// private void EnsureAnimationLength() [instance] :583
+// private void EnsureAnimationLength() [instance]
 void Trigger::EnsureAnimationLength()
 {
     ::g::Fuse::Triggers::Actions::TriggerAction* ret2;
@@ -6120,17 +6356,17 @@ void Trigger::EnsureAnimationLength()
     ::g::Fuse::Animations::Nothing* n = ::g::Fuse::Animations::Nothing::New2();
     n->Delay(actFore);
     n->DelayBack(actBack);
-    ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Animators()), ::TYPES[23/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), n);
+    ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Animators()), ::TYPES[27/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), n);
 
     if (HasBackwardAnimation())
     {
         n = ::g::Fuse::Animations::Nothing::New2();
         n->Delay(actBack);
-        ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(uPtr(BackwardAnimation())->Animators()), ::TYPES[23/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), n);
+        ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(uPtr(BackwardAnimation())->Animators()), ::TYPES[27/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), n);
     }
 }
 
-// private bool EnsureState(double progress) [instance] :573
+// private bool EnsureState(double progress) [instance]
 bool Trigger::EnsureState(double progress)
 {
     if ((progress > 0.0) || _startAtZero)
@@ -6142,31 +6378,31 @@ bool Trigger::EnsureState(double progress)
     return _animState != NULL;
 }
 
-// public bool get_HasActions() [instance] :224
+// public bool get_HasActions() [instance]
 bool Trigger::HasActions()
 {
     return (_actions != NULL) && (uPtr(_actions)->Count() > 0);
 }
 
-// public bool get_HasBackwardAnimation() [instance] :187
+// public bool get_HasBackwardAnimation() [instance]
 bool Trigger::HasBackwardAnimation()
 {
     return uPtr(Animation())->HasBackward();
 }
 
-// protected void InversePulse() [instance] :515
+// protected void InversePulse() [instance]
 void Trigger::InversePulse()
 {
     PlayEnd(false, uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)Trigger__PlayOn_fn, this));
 }
 
-// private bool IsForward(Fuse.Triggers.TriggerPlayState ps) [instance] :637
+// private bool IsForward(Fuse.Triggers.TriggerPlayState ps) [instance]
 bool Trigger::IsForward(int32_t ps)
 {
     return (ps == 2) || (ps == 4);
 }
 
-// private void PlayActions(Fuse.Triggers.Actions.TriggerWhen when) [instance] :352
+// private void PlayActions(Fuse.Triggers.Actions.TriggerWhen when) [instance]
 void Trigger::PlayActions(int32_t when)
 {
     ::g::Fuse::Triggers::Actions::TriggerAction* ret4;
@@ -6182,7 +6418,7 @@ void Trigger::PlayActions(int32_t when)
         }
 }
 
-// protected void PlayEnd(bool on, [Uno.Action done]) [instance] :531
+// protected void PlayEnd(bool on, [Uno.Action done]) [instance]
 void Trigger::PlayEnd(bool on, uDelegate* done)
 {
     if (on)
@@ -6204,19 +6440,19 @@ void Trigger::PlayEnd(bool on, uDelegate* done)
         uPtr(_animState)->PlayEnd(on);
 }
 
-// private void PlayOn() [instance] :520
+// private void PlayOn() [instance]
 void Trigger::PlayOn()
 {
     PlayEnd(true, NULL);
 }
 
-// protected internal Fuse.Triggers.TriggerPlayState get_PlayState() [instance] :295
+// protected internal Fuse.Triggers.TriggerPlayState get_PlayState() [instance]
 int32_t Trigger::PlayState()
 {
     return _lastPlayState;
 }
 
-// protected void PlayTo(double progress, [Fuse.Animations.AnimationVariant variant]) [instance] :689
+// protected void PlayTo(double progress, [Fuse.Animations.AnimationVariant variant]) [instance]
 void Trigger::PlayTo(double progress, int32_t variant)
 {
     if (progress > Progress())
@@ -6228,7 +6464,7 @@ void Trigger::PlayTo(double progress, int32_t variant)
         uPtr(_animState)->PlayToProgress(progress, variant, 1);
 }
 
-// public double get_Progress() [instance] :241
+// public double get_Progress() [instance]
 double Trigger::Progress()
 {
     if (_animState != NULL)
@@ -6237,7 +6473,7 @@ double Trigger::Progress()
     return 0.0;
 }
 
-// protected void Pulse() [instance] :491
+// protected void Pulse() [instance]
 void Trigger::Pulse()
 {
     if (ShouldIgnore())
@@ -6247,7 +6483,7 @@ void Trigger::Pulse()
     DirectActivate(uDelegate::New(::TYPES[8/*Uno.Action*/], (void*)Trigger__DirectDeactivate_fn, this));
 }
 
-// protected void Seek(double progress, [Fuse.Animations.AnimationVariant direction]) [instance] :708
+// protected void Seek(double progress, [Fuse.Animations.AnimationVariant direction]) [instance]
 void Trigger::Seek(double progress, int32_t direction)
 {
     if (ShouldIgnore())
@@ -6259,7 +6495,7 @@ void Trigger::Seek(double progress, int32_t direction)
         DirectSeek(progress, direction);
 }
 
-// private void SeekImpl(double progress, Fuse.Animations.AnimationVariant direction, Fuse.Animations.TriggerAnimationState.SeekFlags flags) [instance] :730
+// private void SeekImpl(double progress, Fuse.Animations.AnimationVariant direction, Fuse.Animations.TriggerAnimationState.SeekFlags flags) [instance]
 void Trigger::SeekImpl(double progress, int32_t direction, int32_t flags)
 {
     if (progress > 0.0)
@@ -6271,14 +6507,14 @@ void Trigger::SeekImpl(double progress, int32_t direction, int32_t flags)
         uPtr(_animState)->SeekProgress(progress, direction, flags);
 }
 
-// private void SetDone(Uno.Action done, bool on) [instance] :227
+// private void SetDone(Uno.Action done, bool on) [instance]
 void Trigger::SetDone(uDelegate* done, bool on)
 {
     _doneOn = on;
     _doneAction = done;
 }
 
-// private void SetPlayState(Fuse.Triggers.TriggerPlayState next) [instance] :252
+// private void SetPlayState(Fuse.Triggers.TriggerPlayState next) [instance]
 void Trigger::SetPlayState(int32_t next)
 {
     ::g::Fuse::Triggers::Actions::TriggerAction* ret5;
@@ -6306,7 +6542,7 @@ void Trigger::SetPlayState(int32_t next)
     }
 }
 
-// private bool get_ShouldBypass() [instance] :392
+// private bool get_ShouldBypass() [instance]
 bool Trigger::ShouldBypass()
 {
     if (Bypass() == 1)
@@ -6326,13 +6562,13 @@ bool Trigger::ShouldBypass()
     return !IsRootingCompleted();
 }
 
-// private bool get_ShouldIgnore() [instance] :383
+// private bool get_ShouldIgnore() [instance]
 bool Trigger::ShouldIgnore()
 {
     return !IsRootingStarted();
 }
 
-// protected void Start() [instance] :340
+// protected void Start() [instance]
 void Trigger::Start()
 {
     if (!_isStarted)
@@ -6346,7 +6582,7 @@ void Trigger::Start()
     }
 }
 
-// protected void Stop([bool force]) [instance] :368
+// protected void Stop([bool force]) [instance]
 void Trigger::Stop(bool force)
 {
     if (_startAtZero && !force)
@@ -6360,13 +6596,13 @@ void Trigger::Stop(bool force)
     }
 }
 
-// private void StopAction() [instance] :484
+// private void StopAction() [instance]
 void Trigger::StopAction()
 {
     Stop(false);
 }
 
-// private void UnrootActions() [instance] :785
+// private void UnrootActions() [instance]
 void Trigger::UnrootActions()
 {
     ::g::Fuse::Triggers::Actions::TriggerAction* ret6;
@@ -6378,7 +6614,7 @@ void Trigger::UnrootActions()
         uPtr((::g::Uno::Collections::List__get_Item_fn(uPtr(_actions), uCRef<int32_t>(i), &ret6), ret6))->Unroot();
 }
 
-// private Fuse.Triggers.TriggerPlayState WhatDirection(double diff, bool animating) [instance] :630
+// private Fuse.Triggers.TriggerPlayState WhatDirection(double diff, bool animating) [instance]
 int32_t Trigger::WhatDirection(double diff, bool animating)
 {
     if (animating)
@@ -6388,10 +6624,10 @@ int32_t Trigger::WhatDirection(double diff, bool animating)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Trigger.uno
-// -------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Trigger.uno
+// -------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum TriggerBypassMode :11
+// public enum TriggerBypassMode
 uEnumType* TriggerBypassMode_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -6406,10 +6642,10 @@ uEnumType* TriggerBypassMode_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Trigger.uno
-// -------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Trigger.uno
+// -------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum TriggerPlayState :26
+// public enum TriggerPlayState
 uEnumType* TriggerPlayState_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -6425,10 +6661,10 @@ uEnumType* TriggerPlayState_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/BusyTask.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/BusyTask.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// internal enum BusyTask.Type :56
+// internal enum BusyTask.Type
 uEnumType* BusyTask__Type_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -6441,10 +6677,10 @@ uEnumType* BusyTask__Type_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileBool.uno
-// ---------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhileBool.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class WhileBool :8
+// public abstract class WhileBool
 // {
 static void WhileBool_build(uType* type)
 {
@@ -6503,62 +6739,62 @@ WhileBool_type* WhileBool_typeof()
     return type;
 }
 
-// protected generated WhileBool() :8
+// protected generated WhileBool()
 void WhileBool__ctor_7_fn(WhileBool* __this)
 {
     __this->ctor_7();
 }
 
-// public void Toggle() :16
+// public void Toggle()
 void WhileBool__Toggle_fn(WhileBool* __this)
 {
     __this->Toggle();
 }
 
-// public new bool get_Value() :12
+// public new bool get_Value()
 void WhileBool__get_Value1_fn(WhileBool* __this, bool* __retval)
 {
     *__retval = __this->Value1();
 }
 
-// public new void set_Value(bool value) :13
+// public new void set_Value(bool value)
 void WhileBool__set_Value1_fn(WhileBool* __this, bool* value)
 {
     __this->Value1(*value);
 }
 
-// protected generated WhileBool() [instance] :8
+// protected generated WhileBool() [instance]
 void WhileBool::ctor_7()
 {
     ctor_6();
 }
 
-// public void Toggle() [instance] :16
+// public void Toggle() [instance]
 void WhileBool::Toggle()
 {
     Value1(!Value1());
 }
 
-// public new bool get_Value() [instance] :12
+// public new bool get_Value() [instance]
 bool WhileBool::Value1()
 {
     bool ret1;
     return (::g::Fuse::Triggers::WhileValue__get_Value_fn(this, &ret1), ret1);
 }
 
-// public new void set_Value(bool value) [instance] :13
+// public new void set_Value(bool value) [instance]
 void WhileBool::Value1(bool value)
 {
     ::g::Fuse::Triggers::WhileValue__set_Value_fn(this, uCRef(value));
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhilePlaying.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhilePlaying.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WhileCompleted :87
+// public sealed class WhileCompleted
 // {
-// static generated WhileCompleted() :87
+// static generated WhileCompleted()
 static void WhileCompleted__cctor_2_fn(uType* __type)
 {
     ::g::Fuse::Properties_typeof()->Init();
@@ -6567,9 +6803,9 @@ static void WhileCompleted__cctor_2_fn(uType* __type)
 
 static void WhileCompleted_build(uType* type)
 {
-    ::TYPES[32] = ::g::Uno::Bool_typeof();
-    ::TYPES[33] = ::g::Fuse::Visual_typeof()->MakeMethod(2/*FirstChild<Fuse.Triggers.WhileCompleted>*/, type, NULL);
-    ::TYPES[34] = ::g::Fuse::Node_typeof()->MakeMethod(3/*NextSibling<Fuse.Triggers.WhileCompleted>*/, type, NULL);
+    ::TYPES[36] = ::g::Uno::Bool_typeof();
+    ::TYPES[37] = ::g::Fuse::Visual_typeof()->MakeMethod(2/*FirstChild<Fuse.Triggers.WhileCompleted>*/, type, NULL);
+    ::TYPES[38] = ::g::Fuse::Node_typeof()->MakeMethod(3/*NextSibling<Fuse.Triggers.WhileCompleted>*/, type, NULL);
     type->SetInterfaces(
         ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Triggers::Trigger_type, interface0),
         ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface1),
@@ -6623,20 +6859,20 @@ static void WhileCompleted_build(uType* type)
     return type;
 }
 
-// private static bool IsCompleted(Fuse.Visual n) :91
+// private static bool IsCompleted(Fuse.Visual n)
 void WhileCompleted__IsCompleted_fn(::g::Fuse::Visual* n, bool* __retval)
 {
     *__retval = WhileCompleted::IsCompleted(n);
 }
 
-// protected override sealed void OnRooted() :109
+// protected override sealed void OnRooted()
 void WhileCompleted__OnRooted_fn(WhileCompleted* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
     __this->SetActive(WhileCompleted::IsCompleted(__this->Parent()));
 }
 
-// public static void SetState(Fuse.Visual n, bool paused) :98
+// public static void SetState(Fuse.Visual n, bool paused)
 void WhileCompleted__SetState_fn(::g::Fuse::Visual* n, bool* paused)
 {
     WhileCompleted::SetState(n, *paused);
@@ -6644,19 +6880,19 @@ void WhileCompleted__SetState_fn(::g::Fuse::Visual* n, bool* paused)
 
 uSStrong< ::g::Fuse::PropertyHandle*> WhileCompleted::_whileCompletedProp_;
 
-// private static bool IsCompleted(Fuse.Visual n) [static] :91
+// private static bool IsCompleted(Fuse.Visual n) [static]
 bool WhileCompleted::IsCompleted(::g::Fuse::Visual* n)
 {
     WhileCompleted_typeof()->Init();
     uObject* v = uPtr(uPtr(n)->Properties())->Get(WhileCompleted::_whileCompletedProp_);
 
-    if (!uIs(v, ::TYPES[32/*bool*/]))
+    if (!uIs(v, ::TYPES[36/*bool*/]))
         return false;
 
-    return uUnbox<bool>(::TYPES[32/*bool*/], v);
+    return uUnbox<bool>(::TYPES[36/*bool*/], v);
 }
 
-// public static void SetState(Fuse.Visual n, bool paused) [static] :98
+// public static void SetState(Fuse.Visual n, bool paused) [static]
 void WhileCompleted::SetState(::g::Fuse::Visual* n, bool paused)
 {
     WhileCompleted_typeof()->Init();
@@ -6664,19 +6900,19 @@ void WhileCompleted::SetState(::g::Fuse::Visual* n, bool paused)
 
     if (v != paused)
     {
-        uPtr(uPtr(n)->Properties())->Set(WhileCompleted::_whileCompletedProp_, uBox(::TYPES[32/*bool*/], paused));
+        uPtr(uPtr(n)->Properties())->Set(WhileCompleted::_whileCompletedProp_, uBox(::TYPES[36/*bool*/], paused));
 
-        for (WhileCompleted* wl = (WhileCompleted*)n->FirstChild(::TYPES[33/*Fuse.Visual.FirstChild<Fuse.Triggers.WhileCompleted>*/]); wl != NULL; wl = (WhileCompleted*)uPtr(wl)->NextSibling(::TYPES[34/*Fuse.Node.NextSibling<Fuse.Triggers.WhileCompleted>*/]))
+        for (WhileCompleted* wl = (WhileCompleted*)n->FirstChild(::TYPES[37/*Fuse.Visual.FirstChild<Fuse.Triggers.WhileCompleted>*/]); wl != NULL; wl = (WhileCompleted*)uPtr(wl)->NextSibling(::TYPES[38/*Fuse.Node.NextSibling<Fuse.Triggers.WhileCompleted>*/]))
             if (uPtr(wl)->IsRootingCompleted())
                 uPtr(wl)->SetActive(paused);
     }
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Disabled.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Disabled.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WhileDisabled :39
+// public sealed class WhileDisabled
 // {
 static void WhileDisabled_build(uType* type)
 {
@@ -6732,31 +6968,31 @@ static void WhileDisabled_build(uType* type)
     return type;
 }
 
-// public generated WhileDisabled() :39
+// public generated WhileDisabled()
 void WhileDisabled__ctor_7_fn(WhileDisabled* __this)
 {
     __this->ctor_7();
 }
 
-// protected override sealed bool get_IsActive() :43
+// protected override sealed bool get_IsActive()
 void WhileDisabled__get_IsActive_fn(WhileDisabled* __this, bool* __retval)
 {
     return *__retval = (__this->Parent() != NULL) ? !uPtr(__this->Parent())->IsContextEnabled() : false, void();
 }
 
-// public generated WhileDisabled New() :39
+// public generated WhileDisabled New()
 void WhileDisabled__New2_fn(WhileDisabled** __retval)
 {
     *__retval = WhileDisabled::New2();
 }
 
-// public generated WhileDisabled() [instance] :39
+// public generated WhileDisabled() [instance]
 void WhileDisabled::ctor_7()
 {
     ctor_6();
 }
 
-// public generated WhileDisabled New() [static] :39
+// public generated WhileDisabled New() [static]
 WhileDisabled* WhileDisabled::New2()
 {
     WhileDisabled* obj1 = (WhileDisabled*)uNew(WhileDisabled_typeof());
@@ -6765,10 +7001,10 @@ WhileDisabled* WhileDisabled::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Disabled.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Disabled.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WhileEnabled :64
+// public sealed class WhileEnabled
 // {
 static void WhileEnabled_build(uType* type)
 {
@@ -6823,17 +7059,17 @@ static void WhileEnabled_build(uType* type)
     return type;
 }
 
-// protected override sealed bool get_IsActive() :68
+// protected override sealed bool get_IsActive()
 void WhileEnabled__get_IsActive_fn(WhileEnabled* __this, bool* __retval)
 {
     return *__retval = (__this->Parent() != NULL) ? uPtr(__this->Parent())->IsContextEnabled() : true, void();
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/Disabled.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/Disabled.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class WhileEnabledDisabledTrigger :8
+// public abstract class WhileEnabledDisabledTrigger
 // {
 static void WhileEnabledDisabledTrigger_build(uType* type)
 {
@@ -6890,19 +7126,19 @@ WhileEnabledDisabledTrigger_type* WhileEnabledDisabledTrigger_typeof()
     return type;
 }
 
-// internal WhileEnabledDisabledTrigger() :10
+// internal WhileEnabledDisabledTrigger()
 void WhileEnabledDisabledTrigger__ctor_6_fn(WhileEnabledDisabledTrigger* __this)
 {
     __this->ctor_6();
 }
 
-// private void OnIsContextEnabledChanged(object sender, Uno.EventArgs args) :28
+// private void OnIsContextEnabledChanged(object sender, Uno.EventArgs args)
 void WhileEnabledDisabledTrigger__OnIsContextEnabledChanged_fn(WhileEnabledDisabledTrigger* __this, uObject* sender, ::g::Uno::EventArgs* args)
 {
     __this->OnIsContextEnabledChanged(sender, args);
 }
 
-// protected override sealed void OnRooted() :14
+// protected override sealed void OnRooted()
 void WhileEnabledDisabledTrigger__OnRooted_fn(WhileEnabledDisabledTrigger* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
@@ -6910,30 +7146,30 @@ void WhileEnabledDisabledTrigger__OnRooted_fn(WhileEnabledDisabledTrigger* __thi
     __this->SetActive(__this->IsActive());
 }
 
-// protected override sealed void OnUnrooted() :22
+// protected override sealed void OnUnrooted()
 void WhileEnabledDisabledTrigger__OnUnrooted_fn(WhileEnabledDisabledTrigger* __this)
 {
     uPtr(__this->Parent())->remove_IsContextEnabledChanged(uDelegate::New(::TYPES[5/*Uno.EventHandler*/], (void*)WhileEnabledDisabledTrigger__OnIsContextEnabledChanged_fn, __this));
     ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
 }
 
-// internal WhileEnabledDisabledTrigger() [instance] :10
+// internal WhileEnabledDisabledTrigger() [instance]
 void WhileEnabledDisabledTrigger::ctor_6()
 {
     ctor_5();
 }
 
-// private void OnIsContextEnabledChanged(object sender, Uno.EventArgs args) [instance] :28
+// private void OnIsContextEnabledChanged(object sender, Uno.EventArgs args) [instance]
 void WhileEnabledDisabledTrigger::OnIsContextEnabledChanged(uObject* sender, ::g::Uno::EventArgs* args)
 {
     SetActive(IsActive());
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileBool.uno
-// ---------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhileBool.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WhileFalse :102
+// public sealed class WhileFalse
 // {
 static void WhileFalse_build(uType* type)
 {
@@ -6993,31 +7229,31 @@ static void WhileFalse_build(uType* type)
     return type;
 }
 
-// public generated WhileFalse() :102
+// public generated WhileFalse()
 void WhileFalse__ctor_8_fn(WhileFalse* __this)
 {
     __this->ctor_8();
 }
 
-// protected override sealed bool get_IsOn() :104
+// protected override sealed bool get_IsOn()
 void WhileFalse__get_IsOn_fn(WhileFalse* __this, bool* __retval)
 {
     return *__retval = !__this->Value1(), void();
 }
 
-// public generated WhileFalse New() :102
+// public generated WhileFalse New()
 void WhileFalse__New2_fn(WhileFalse** __retval)
 {
     *__retval = WhileFalse::New2();
 }
 
-// public generated WhileFalse() [instance] :102
+// public generated WhileFalse() [instance]
 void WhileFalse::ctor_8()
 {
     ctor_7();
 }
 
-// public generated WhileFalse New() [static] :102
+// public generated WhileFalse New() [static]
 WhileFalse* WhileFalse::New2()
 {
     WhileFalse* obj1 = (WhileFalse*)uNew(WhileFalse_typeof());
@@ -7026,10 +7262,10 @@ WhileFalse* WhileFalse::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileFloat.uno
-// ----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhileFloat.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WhileFloat :7
+// public sealed class WhileFloat
 // {
 static void WhileFloat_build(uType* type)
 {
@@ -7090,7 +7326,7 @@ static void WhileFloat_build(uType* type)
     return type;
 }
 
-// protected override sealed bool get_IsOn() :76
+// protected override sealed bool get_IsOn()
 void WhileFloat__get_IsOn_fn(WhileFloat* __this, bool* __retval)
 {
     if ((__this->_low == 1) && (__this->Value1() <= __this->_compare.X))
@@ -7108,38 +7344,38 @@ void WhileFloat__get_IsOn_fn(WhileFloat* __this, bool* __retval)
     return *__retval = true, void();
 }
 
-// public new float get_Value() :12
+// public new float get_Value()
 void WhileFloat__get_Value1_fn(WhileFloat* __this, float* __retval)
 {
     *__retval = __this->Value1();
 }
 
-// public new void set_Value(float value) :13
+// public new void set_Value(float value)
 void WhileFloat__set_Value1_fn(WhileFloat* __this, float* value)
 {
     __this->Value1(*value);
 }
 
-// public new float get_Value() [instance] :12
+// public new float get_Value() [instance]
 float WhileFloat::Value1()
 {
     float ret2;
     return (::g::Fuse::Triggers::WhileValue__get_Value_fn(this, &ret2), ret2);
 }
 
-// public new void set_Value(float value) [instance] :13
+// public new void set_Value(float value) [instance]
 void WhileFloat::Value1(float value)
 {
     ::g::Fuse::Triggers::WhileValue__set_Value_fn(this, uCRef(value));
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/WhileKeyboardVisible.uno
-// ---------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/WhileKeyboardVisible.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WhileKeyboardVisible :12
+// public sealed class WhileKeyboardVisible
 // {
-// static generated WhileKeyboardVisible() :12
+// static generated WhileKeyboardVisible()
 static void WhileKeyboardVisible__cctor_2_fn(uType* __type)
 {
     WhileKeyboardVisible::Keyboard_ = (uObject*)WhileKeyboardVisible__RelativeToKeyboardMode::New1();
@@ -7207,13 +7443,13 @@ WhileKeyboardVisible_type* WhileKeyboardVisible_typeof()
     return type;
 }
 
-// private void CheckActivation() :47
+// private void CheckActivation()
 void WhileKeyboardVisible__CheckActivation_fn(WhileKeyboardVisible* __this)
 {
     __this->CheckActivation();
 }
 
-// protected override sealed void OnRooted() :22
+// protected override sealed void OnRooted()
 void WhileKeyboardVisible__OnRooted_fn(WhileKeyboardVisible* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
@@ -7222,7 +7458,7 @@ void WhileKeyboardVisible__OnRooted_fn(WhileKeyboardVisible* __this)
     __this->CheckActivation();
 }
 
-// protected override sealed void OnUnrooted() :30
+// protected override sealed void OnUnrooted()
 void WhileKeyboardVisible__OnUnrooted_fn(WhileKeyboardVisible* __this)
 {
     uPtr(__this->_caps)->RemovePropertyListener((uObject*)__this);
@@ -7231,7 +7467,7 @@ void WhileKeyboardVisible__OnUnrooted_fn(WhileKeyboardVisible* __this)
     ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
 }
 
-// private void Uno.UX.IPropertyListener.OnPropertyChanged(Uno.UX.PropertyObject sender, Uno.UX.Selector name) :40
+// private void Uno.UX.IPropertyListener.OnPropertyChanged(Uno.UX.PropertyObject sender, Uno.UX.Selector name)
 void WhileKeyboardVisible__UnoUXIPropertyListenerOnPropertyChanged_fn(WhileKeyboardVisible* __this, ::g::Uno::UX::PropertyObject* sender, ::g::Uno::UX::Selector* name)
 {
     ::g::Uno::UX::Selector name_ = *name;
@@ -7242,7 +7478,7 @@ void WhileKeyboardVisible__UnoUXIPropertyListenerOnPropertyChanged_fn(WhileKeybo
 
 uSStrong<uObject*> WhileKeyboardVisible::Keyboard_;
 
-// private void CheckActivation() [instance] :47
+// private void CheckActivation() [instance]
 void WhileKeyboardVisible::CheckActivation()
 {
     bool ret2;
@@ -7250,9 +7486,9 @@ void WhileKeyboardVisible::CheckActivation()
     ::g::Uno::Float4 safe = ::g::Uno::Float4__New1(0.0f);
     ::g::Uno::Float4 stat = ::g::Uno::Float4__New1(0.0f);
 
-    if (!(::g::Fuse::Marshal__TryToType_fn(::g::Fuse::Marshal_typeof()->MakeMethod(1/*TryToType<float4>*/, ::g::Uno::Float4_typeof(), NULL), uPtr(_caps)->Item(::g::Uno::UX::Selector__op_Implicit2(::g::Fuse::Reactive::WindowCaps::NameSafeMargins())), &safe, &ret2), ret2) || !(::g::Fuse::Marshal__TryToType_fn(::g::Fuse::Marshal_typeof()->MakeMethod(1/*TryToType<float4>*/, ::g::Uno::Float4_typeof(), NULL), uPtr(_caps)->Item(::g::Uno::UX::Selector__op_Implicit2(::g::Fuse::Reactive::WindowCaps::NameStaticMargins())), &stat, &ret3), ret3))
+    if (!(::g::Fuse::Marshal__TryToType_fn(::g::Fuse::Marshal_typeof()->MakeMethod(1/*TryToType<float4>*/, ::g::Uno::Float4_typeof(), NULL), uPtr(_caps)->Item(::g::Uno::UX::Selector__op_Implicit1(::g::Fuse::Reactive::WindowCaps::NameSafeMargins())), &safe, &ret2), ret2) || !(::g::Fuse::Marshal__TryToType_fn(::g::Fuse::Marshal_typeof()->MakeMethod(1/*TryToType<float4>*/, ::g::Uno::Float4_typeof(), NULL), uPtr(_caps)->Item(::g::Uno::UX::Selector__op_Implicit1(::g::Fuse::Reactive::WindowCaps::NameStaticMargins())), &stat, &ret3), ret3))
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("Invalid margin values"), this, ::STRINGS[16/*"/usr/local/...*/], 54, uString::Const("CheckActivation"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("Invalid margin values"), this, ::STRINGS[18/*"/Users/antt...*/], 54, uString::Const("CheckActivation"));
         Deactivate();
         return;
     }
@@ -7261,12 +7497,12 @@ void WhileKeyboardVisible::CheckActivation()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhilePlaying.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhilePlaying.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WhilePaused :51
+// public sealed class WhilePaused
 // {
-// static generated WhilePaused() :51
+// static generated WhilePaused()
 static void WhilePaused__cctor_2_fn(uType* __type)
 {
     ::g::Fuse::Properties_typeof()->Init();
@@ -7275,9 +7511,9 @@ static void WhilePaused__cctor_2_fn(uType* __type)
 
 static void WhilePaused_build(uType* type)
 {
-    ::TYPES[32] = ::g::Uno::Bool_typeof();
-    ::TYPES[35] = ::g::Fuse::Visual_typeof()->MakeMethod(2/*FirstChild<Fuse.Triggers.WhilePaused>*/, type, NULL);
-    ::TYPES[36] = ::g::Fuse::Node_typeof()->MakeMethod(3/*NextSibling<Fuse.Triggers.WhilePaused>*/, type, NULL);
+    ::TYPES[36] = ::g::Uno::Bool_typeof();
+    ::TYPES[39] = ::g::Fuse::Visual_typeof()->MakeMethod(2/*FirstChild<Fuse.Triggers.WhilePaused>*/, type, NULL);
+    ::TYPES[40] = ::g::Fuse::Node_typeof()->MakeMethod(3/*NextSibling<Fuse.Triggers.WhilePaused>*/, type, NULL);
     type->SetInterfaces(
         ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Triggers::Trigger_type, interface0),
         ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface1),
@@ -7331,20 +7567,20 @@ static void WhilePaused_build(uType* type)
     return type;
 }
 
-// private static bool IsPaused(Fuse.Visual n) :55
+// private static bool IsPaused(Fuse.Visual n)
 void WhilePaused__IsPaused_fn(::g::Fuse::Visual* n, bool* __retval)
 {
     *__retval = WhilePaused::IsPaused(n);
 }
 
-// protected override sealed void OnRooted() :73
+// protected override sealed void OnRooted()
 void WhilePaused__OnRooted_fn(WhilePaused* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
     __this->SetActive(WhilePaused::IsPaused(__this->Parent()));
 }
 
-// public static void SetState(Fuse.Visual n, bool paused) :62
+// public static void SetState(Fuse.Visual n, bool paused)
 void WhilePaused__SetState_fn(::g::Fuse::Visual* n, bool* paused)
 {
     WhilePaused::SetState(n, *paused);
@@ -7352,19 +7588,19 @@ void WhilePaused__SetState_fn(::g::Fuse::Visual* n, bool* paused)
 
 uSStrong< ::g::Fuse::PropertyHandle*> WhilePaused::_whilePausedProp_;
 
-// private static bool IsPaused(Fuse.Visual n) [static] :55
+// private static bool IsPaused(Fuse.Visual n) [static]
 bool WhilePaused::IsPaused(::g::Fuse::Visual* n)
 {
     WhilePaused_typeof()->Init();
     uObject* v = uPtr(uPtr(n)->Properties())->Get(WhilePaused::_whilePausedProp_);
 
-    if (!uIs(v, ::TYPES[32/*bool*/]))
+    if (!uIs(v, ::TYPES[36/*bool*/]))
         return false;
 
-    return uUnbox<bool>(::TYPES[32/*bool*/], v);
+    return uUnbox<bool>(::TYPES[36/*bool*/], v);
 }
 
-// public static void SetState(Fuse.Visual n, bool paused) [static] :62
+// public static void SetState(Fuse.Visual n, bool paused) [static]
 void WhilePaused::SetState(::g::Fuse::Visual* n, bool paused)
 {
     WhilePaused_typeof()->Init();
@@ -7372,20 +7608,20 @@ void WhilePaused::SetState(::g::Fuse::Visual* n, bool paused)
 
     if (v != paused)
     {
-        uPtr(uPtr(n)->Properties())->Set(WhilePaused::_whilePausedProp_, uBox(::TYPES[32/*bool*/], paused));
+        uPtr(uPtr(n)->Properties())->Set(WhilePaused::_whilePausedProp_, uBox(::TYPES[36/*bool*/], paused));
 
-        for (WhilePaused* wl = (WhilePaused*)n->FirstChild(::TYPES[35/*Fuse.Visual.FirstChild<Fuse.Triggers.WhilePaused>*/]); wl != NULL; wl = (WhilePaused*)uPtr(wl)->NextSibling(::TYPES[36/*Fuse.Node.NextSibling<Fuse.Triggers.WhilePaused>*/]))
+        for (WhilePaused* wl = (WhilePaused*)n->FirstChild(::TYPES[39/*Fuse.Visual.FirstChild<Fuse.Triggers.WhilePaused>*/]); wl != NULL; wl = (WhilePaused*)uPtr(wl)->NextSibling(::TYPES[40/*Fuse.Node.NextSibling<Fuse.Triggers.WhilePaused>*/]))
             uPtr(wl)->SetActive(paused);
     }
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhilePlaying.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhilePlaying.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WhilePlaying :15
+// public sealed class WhilePlaying
 // {
-// static generated WhilePlaying() :15
+// static generated WhilePlaying()
 static void WhilePlaying__cctor_2_fn(uType* __type)
 {
     ::g::Fuse::Properties_typeof()->Init();
@@ -7394,9 +7630,9 @@ static void WhilePlaying__cctor_2_fn(uType* __type)
 
 static void WhilePlaying_build(uType* type)
 {
-    ::TYPES[32] = ::g::Uno::Bool_typeof();
-    ::TYPES[37] = ::g::Fuse::Visual_typeof()->MakeMethod(2/*FirstChild<Fuse.Triggers.WhilePlaying>*/, type, NULL);
-    ::TYPES[38] = ::g::Fuse::Node_typeof()->MakeMethod(3/*NextSibling<Fuse.Triggers.WhilePlaying>*/, type, NULL);
+    ::TYPES[36] = ::g::Uno::Bool_typeof();
+    ::TYPES[41] = ::g::Fuse::Visual_typeof()->MakeMethod(2/*FirstChild<Fuse.Triggers.WhilePlaying>*/, type, NULL);
+    ::TYPES[42] = ::g::Fuse::Node_typeof()->MakeMethod(3/*NextSibling<Fuse.Triggers.WhilePlaying>*/, type, NULL);
     type->SetInterfaces(
         ::g::Uno::Collections::IList_typeof()->MakeType(::g::Fuse::Binding_typeof(), NULL), offsetof(::g::Fuse::Triggers::Trigger_type, interface0),
         ::g::Fuse::Scripting::IScriptObject_typeof(), offsetof(::g::Fuse::Triggers::Trigger_type, interface1),
@@ -7450,20 +7686,20 @@ static void WhilePlaying_build(uType* type)
     return type;
 }
 
-// private static bool IsPlaying(Fuse.Visual n) :19
+// private static bool IsPlaying(Fuse.Visual n)
 void WhilePlaying__IsPlaying_fn(::g::Fuse::Visual* n, bool* __retval)
 {
     *__retval = WhilePlaying::IsPlaying(n);
 }
 
-// protected override sealed void OnRooted() :37
+// protected override sealed void OnRooted()
 void WhilePlaying__OnRooted_fn(WhilePlaying* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
     __this->SetActive(WhilePlaying::IsPlaying(__this->Parent()));
 }
 
-// public static void SetState(Fuse.Visual n, bool playing) :26
+// public static void SetState(Fuse.Visual n, bool playing)
 void WhilePlaying__SetState_fn(::g::Fuse::Visual* n, bool* playing)
 {
     WhilePlaying::SetState(n, *playing);
@@ -7471,19 +7707,19 @@ void WhilePlaying__SetState_fn(::g::Fuse::Visual* n, bool* playing)
 
 uSStrong< ::g::Fuse::PropertyHandle*> WhilePlaying::_whilePlayingProp_;
 
-// private static bool IsPlaying(Fuse.Visual n) [static] :19
+// private static bool IsPlaying(Fuse.Visual n) [static]
 bool WhilePlaying::IsPlaying(::g::Fuse::Visual* n)
 {
     WhilePlaying_typeof()->Init();
     uObject* v = uPtr(uPtr(n)->Properties())->Get(WhilePlaying::_whilePlayingProp_);
 
-    if (!uIs(v, ::TYPES[32/*bool*/]))
+    if (!uIs(v, ::TYPES[36/*bool*/]))
         return false;
 
-    return uUnbox<bool>(::TYPES[32/*bool*/], v);
+    return uUnbox<bool>(::TYPES[36/*bool*/], v);
 }
 
-// public static void SetState(Fuse.Visual n, bool playing) [static] :26
+// public static void SetState(Fuse.Visual n, bool playing) [static]
 void WhilePlaying::SetState(::g::Fuse::Visual* n, bool playing)
 {
     WhilePlaying_typeof()->Init();
@@ -7491,18 +7727,18 @@ void WhilePlaying::SetState(::g::Fuse::Visual* n, bool playing)
 
     if (v != playing)
     {
-        uPtr(uPtr(n)->Properties())->Set(WhilePlaying::_whilePlayingProp_, uBox(::TYPES[32/*bool*/], playing));
+        uPtr(uPtr(n)->Properties())->Set(WhilePlaying::_whilePlayingProp_, uBox(::TYPES[36/*bool*/], playing));
 
-        for (WhilePlaying* wl = (WhilePlaying*)n->FirstChild(::TYPES[37/*Fuse.Visual.FirstChild<Fuse.Triggers.WhilePlaying>*/]); wl != NULL; wl = (WhilePlaying*)uPtr(wl)->NextSibling(::TYPES[38/*Fuse.Node.NextSibling<Fuse.Triggers.WhilePlaying>*/]))
+        for (WhilePlaying* wl = (WhilePlaying*)n->FirstChild(::TYPES[41/*Fuse.Visual.FirstChild<Fuse.Triggers.WhilePlaying>*/]); wl != NULL; wl = (WhilePlaying*)uPtr(wl)->NextSibling(::TYPES[42/*Fuse.Node.NextSibling<Fuse.Triggers.WhilePlaying>*/]))
             uPtr(wl)->SetActive(playing);
     }
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileString.uno
-// -----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhileString.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WhileString :21
+// public sealed class WhileString
 // {
 static void WhileString_build(uType* type)
 {
@@ -7568,31 +7804,31 @@ static void WhileString_build(uType* type)
     return type;
 }
 
-// public bool get_CaseSensitive() :64
+// public bool get_CaseSensitive()
 void WhileString__get_CaseSensitive_fn(WhileString* __this, bool* __retval)
 {
     *__retval = __this->CaseSensitive();
 }
 
-// public void set_CaseSensitive(bool value) :65
+// public void set_CaseSensitive(bool value)
 void WhileString__set_CaseSensitive_fn(WhileString* __this, bool* value)
 {
     __this->CaseSensitive(*value);
 }
 
-// public string get_Compare() :45
+// public string get_Compare()
 void WhileString__get_Compare_fn(WhileString* __this, uString** __retval)
 {
     *__retval = __this->Compare();
 }
 
-// public void set_Compare(string value) :46
+// public void set_Compare(string value)
 void WhileString__set_Compare_fn(WhileString* __this, uString* value)
 {
     __this->Compare(value);
 }
 
-// protected override sealed bool get_IsOn() :129
+// protected override sealed bool get_IsOn()
 void WhileString__get_IsOn_fn(WhileString* __this, bool* __retval)
 {
     uString* ind1;
@@ -7652,49 +7888,49 @@ void WhileString__get_IsOn_fn(WhileString* __this, bool* __retval)
     return *__retval = true, void();
 }
 
-// public int get_MaxLength() :115
+// public int get_MaxLength()
 void WhileString__get_MaxLength_fn(WhileString* __this, int32_t* __retval)
 {
     *__retval = __this->MaxLength();
 }
 
-// public void set_MaxLength(int value) :116
+// public void set_MaxLength(int value)
 void WhileString__set_MaxLength_fn(WhileString* __this, int32_t* value)
 {
     __this->MaxLength(*value);
 }
 
-// public int get_MinLength() :101
+// public int get_MinLength()
 void WhileString__get_MinLength_fn(WhileString* __this, int32_t* __retval)
 {
     *__retval = __this->MinLength();
 }
 
-// public void set_MinLength(int value) :102
+// public void set_MinLength(int value)
 void WhileString__set_MinLength_fn(WhileString* __this, int32_t* value)
 {
     __this->MinLength(*value);
 }
 
-// public Fuse.Triggers.WhileStringTest get_Test() :26
+// public Fuse.Triggers.WhileStringTest get_Test()
 void WhileString__get_Test_fn(WhileString* __this, int32_t* __retval)
 {
     *__retval = __this->Test();
 }
 
-// public void set_Test(Fuse.Triggers.WhileStringTest value) :27
+// public void set_Test(Fuse.Triggers.WhileStringTest value)
 void WhileString__set_Test_fn(WhileString* __this, int32_t* value)
 {
     __this->Test(*value);
 }
 
-// public bool get_CaseSensitive() [instance] :64
+// public bool get_CaseSensitive() [instance]
 bool WhileString::CaseSensitive()
 {
     return _caseSensitive;
 }
 
-// public void set_CaseSensitive(bool value) [instance] :65
+// public void set_CaseSensitive(bool value) [instance]
 void WhileString::CaseSensitive(bool value)
 {
     if (value != _caseSensitive)
@@ -7704,13 +7940,13 @@ void WhileString::CaseSensitive(bool value)
     }
 }
 
-// public string get_Compare() [instance] :45
+// public string get_Compare() [instance]
 uString* WhileString::Compare()
 {
     return _compare;
 }
 
-// public void set_Compare(string value) [instance] :46
+// public void set_Compare(string value) [instance]
 void WhileString::Compare(uString* value)
 {
     if (::g::Uno::String::op_Inequality(_compare, value))
@@ -7720,13 +7956,13 @@ void WhileString::Compare(uString* value)
     }
 }
 
-// public int get_MaxLength() [instance] :115
+// public int get_MaxLength() [instance]
 int32_t WhileString::MaxLength()
 {
     return _maxLength;
 }
 
-// public void set_MaxLength(int value) [instance] :116
+// public void set_MaxLength(int value) [instance]
 void WhileString::MaxLength(int32_t value)
 {
     if (!_hasMaxLength || (value != _maxLength))
@@ -7737,13 +7973,13 @@ void WhileString::MaxLength(int32_t value)
     }
 }
 
-// public int get_MinLength() [instance] :101
+// public int get_MinLength() [instance]
 int32_t WhileString::MinLength()
 {
     return _minLength;
 }
 
-// public void set_MinLength(int value) [instance] :102
+// public void set_MinLength(int value) [instance]
 void WhileString::MinLength(int32_t value)
 {
     if (!_hasMinLength || (value != _minLength))
@@ -7754,13 +7990,13 @@ void WhileString::MinLength(int32_t value)
     }
 }
 
-// public Fuse.Triggers.WhileStringTest get_Test() [instance] :26
+// public Fuse.Triggers.WhileStringTest get_Test() [instance]
 int32_t WhileString::Test()
 {
     return _test;
 }
 
-// public void set_Test(Fuse.Triggers.WhileStringTest value) [instance] :27
+// public void set_Test(Fuse.Triggers.WhileStringTest value) [instance]
 void WhileString::Test(int32_t value)
 {
     if (_test != value)
@@ -7771,10 +8007,10 @@ void WhileString::Test(int32_t value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileString.uno
-// -----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhileString.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum WhileStringTest :6
+// public enum WhileStringTest
 uEnumType* WhileStringTest_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -7790,10 +8026,10 @@ uEnumType* WhileStringTest_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileTrigger.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhileTrigger.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class WhileTrigger :10
+// public abstract class WhileTrigger
 // {
 static void WhileTrigger_build(uType* type)
 {
@@ -7848,49 +8084,49 @@ static void WhileTrigger_build(uType* type)
     return type;
 }
 
-// protected generated WhileTrigger() :10
+// protected generated WhileTrigger()
 void WhileTrigger__ctor_5_fn(WhileTrigger* __this)
 {
     __this->ctor_5();
 }
 
-// public generated bool get_Invert() :14
+// public generated bool get_Invert()
 void WhileTrigger__get_Invert_fn(WhileTrigger* __this, bool* __retval)
 {
     *__retval = __this->Invert();
 }
 
-// public generated void set_Invert(bool value) :14
+// public generated void set_Invert(bool value)
 void WhileTrigger__set_Invert_fn(WhileTrigger* __this, bool* value)
 {
     __this->Invert(*value);
 }
 
-// protected void SetActive(bool on) :16
+// protected void SetActive(bool on)
 void WhileTrigger__SetActive_fn(WhileTrigger* __this, bool* on)
 {
     __this->SetActive(*on);
 }
 
-// protected generated WhileTrigger() [instance] :10
+// protected generated WhileTrigger() [instance]
 void WhileTrigger::ctor_5()
 {
     ctor_4();
 }
 
-// public generated bool get_Invert() [instance] :14
+// public generated bool get_Invert() [instance]
 bool WhileTrigger::Invert()
 {
     return _Invert;
 }
 
-// public generated void set_Invert(bool value) [instance] :14
+// public generated void set_Invert(bool value) [instance]
 void WhileTrigger::Invert(bool value)
 {
     _Invert = value;
 }
 
-// protected void SetActive(bool on) [instance] :16
+// protected void SetActive(bool on) [instance]
 void WhileTrigger::SetActive(bool on)
 {
     if (on != Invert())
@@ -7900,10 +8136,10 @@ void WhileTrigger::SetActive(bool on)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileBool.uno
-// ---------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhileBool.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
-// public class WhileTrue :89
+// public class WhileTrue
 // {
 static void WhileTrue_build(uType* type)
 {
@@ -7963,31 +8199,31 @@ static void WhileTrue_build(uType* type)
     return type;
 }
 
-// public generated WhileTrue() :89
+// public generated WhileTrue()
 void WhileTrue__ctor_8_fn(WhileTrue* __this)
 {
     __this->ctor_8();
 }
 
-// protected override sealed bool get_IsOn() :91
+// protected override sealed bool get_IsOn()
 void WhileTrue__get_IsOn_fn(WhileTrue* __this, bool* __retval)
 {
     return *__retval = __this->Value1(), void();
 }
 
-// public generated WhileTrue New() :89
+// public generated WhileTrue New()
 void WhileTrue__New2_fn(WhileTrue** __retval)
 {
     *__retval = WhileTrue::New2();
 }
 
-// public generated WhileTrue() [instance] :89
+// public generated WhileTrue() [instance]
 void WhileTrue::ctor_8()
 {
     ctor_7();
 }
 
-// public generated WhileTrue New() [static] :89
+// public generated WhileTrue New() [static]
 WhileTrue* WhileTrue::New2()
 {
     WhileTrue* obj1 = (WhileTrue*)uNew(WhileTrue_typeof());
@@ -7996,18 +8232,18 @@ WhileTrue* WhileTrue::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileValue.uno
-// ----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhileValue.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class WhileValue<T> :11
+// public abstract class WhileValue<T>
 // {
 static void WhileValue_build(uType* type)
 {
-    ::STRINGS[34] = uString::Const("`Pulse` on a `WhileValue` will be removed, create a `Timeline` instead.");
-    ::STRINGS[35] = uString::Const("/usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileValue.uno");
-    ::STRINGS[36] = uString::Const("Pulse");
-    ::TYPES[39] = ::g::Fuse::Triggers::IValue_typeof();
-    ::TYPES[40] = ::g::Uno::UX::ValueChangedHandler_typeof();
+    ::STRINGS[36] = uString::Const("`Pulse` on a `WhileValue` will be removed, create a `Timeline` instead.");
+    ::STRINGS[37] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhileValue.uno");
+    ::STRINGS[38] = uString::Const("Pulse");
+    ::TYPES[43] = ::g::Fuse::Triggers::IValue_typeof();
+    ::TYPES[44] = ::g::Uno::UX::ValueChangedHandler_typeof();
     type->SetPrecalc(
         ::g::Fuse::Triggers::IValue_typeof()->MakeType(type->T(0), NULL),
         ::g::Uno::UX::ValueChangedHandler_typeof()->MakeType(type->T(0), NULL));
@@ -8025,9 +8261,9 @@ static void WhileValue_build(uType* type)
     type->SetFields(39,
         type->T(0), (uintptr_t)0, uFieldFlagsConstrained,
         ::g::Uno::Bool_typeof(), offsetof(WhileValue, _hasValue), 0,
-        ::TYPES[39/*Fuse.Triggers.IValue`1*/]->MakeType(type->T(0), NULL), offsetof(WhileValue, _source), 0,
-        ::TYPES[39/*Fuse.Triggers.IValue`1*/]->MakeType(type->T(0), NULL), offsetof(WhileValue, _obj), 0,
-        ::TYPES[40/*Uno.UX.ValueChangedHandler`1*/]->MakeType(type->T(0), NULL), offsetof(WhileValue, ValueChanged1), 0);
+        ::TYPES[43/*Fuse.Triggers.IValue`1*/]->MakeType(type->T(0), NULL), offsetof(WhileValue, _source), 0,
+        ::TYPES[43/*Fuse.Triggers.IValue`1*/]->MakeType(type->T(0), NULL), offsetof(WhileValue, _obj), 0,
+        ::TYPES[44/*Uno.UX.ValueChangedHandler`1*/]->MakeType(type->T(0), NULL), offsetof(WhileValue, ValueChanged1), 0);
 }
 
 WhileValue_type* WhileValue_typeof()
@@ -8072,19 +8308,19 @@ WhileValue_type* WhileValue_typeof()
     return type;
 }
 
-// protected generated WhileValue() :11
+// protected generated WhileValue()
 void WhileValue__ctor_6_fn(WhileValue* __this)
 {
     __this->ctor_6();
 }
 
-// private static Fuse.Triggers.IValue<T> FindValueNode(Fuse.Node n) :59
+// private static Fuse.Triggers.IValue<T> FindValueNode(Fuse.Node n)
 void WhileValue__FindValueNode_fn(uType* __type, ::g::Fuse::Node* n, uObject** __retval)
 {
     *__retval = WhileValue::FindValueNode(__type, n);
 }
 
-// protected override sealed void OnRooted() :67
+// protected override sealed void OnRooted()
 void WhileValue__OnRooted_fn(WhileValue* __this)
 {
     uType* __types[] = {
@@ -8101,7 +8337,7 @@ void WhileValue__OnRooted_fn(WhileValue* __this)
     __this->SetActive(__this->IsOn());
 }
 
-// protected override sealed void OnUnrooted() :75
+// protected override sealed void OnUnrooted()
 void WhileValue__OnUnrooted_fn(WhileValue* __this)
 {
     uType* __types[] = {
@@ -8118,37 +8354,37 @@ void WhileValue__OnUnrooted_fn(WhileValue* __this)
     ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
 }
 
-// private void OnValueChanged(object s, Uno.UX.ValueChangedArgs<T> a) :85
+// private void OnValueChanged(object s, Uno.UX.ValueChangedArgs<T> a)
 void WhileValue__OnValueChanged_fn(WhileValue* __this, uObject* s, ::g::Uno::UX::ValueChangedArgs* a)
 {
     __this->OnValueChanged(s, a);
 }
 
-// public new void Pulse() :43
+// public new void Pulse()
 void WhileValue__Pulse1_fn(WhileValue* __this)
 {
     __this->Pulse1();
 }
 
-// public Fuse.Triggers.IValue<T> get_Source() :37
+// public Fuse.Triggers.IValue<T> get_Source()
 void WhileValue__get_Source_fn(WhileValue* __this, uObject** __retval)
 {
     *__retval = __this->Source();
 }
 
-// public void set_Source(Fuse.Triggers.IValue<T> value) :38
+// public void set_Source(Fuse.Triggers.IValue<T> value)
 void WhileValue__set_Source_fn(WhileValue* __this, uObject* value)
 {
     __this->Source(value);
 }
 
-// protected void UpdateState() :92
+// protected void UpdateState()
 void WhileValue__UpdateState_fn(WhileValue* __this)
 {
     __this->UpdateState();
 }
 
-// public T get_Value() :17
+// public T get_Value()
 void WhileValue__get_Value_fn(WhileValue* __this, uTRef __retval)
 {
     uType* __types[] = {
@@ -8165,7 +8401,7 @@ void WhileValue__get_Value_fn(WhileValue* __this, uTRef __retval)
     return __retval.Store(__this->_value()), void();
 }
 
-// public void set_Value(T value) :23
+// public void set_Value(T value)
 void WhileValue__set_Value_fn(WhileValue* __this, void* value)
 {
     if (!__this->_hasValue || !::g::Uno::Object::Equals1(uBoxPtr(__this->__type->GetBase(WhileValue_typeof())->T(0), __this->_value()), uBoxPtr(__this->__type->GetBase(WhileValue_typeof())->T(0), value)))
@@ -8176,25 +8412,25 @@ void WhileValue__set_Value_fn(WhileValue* __this, void* value)
     }
 }
 
-// public generated void add_ValueChanged(Uno.UX.ValueChangedHandler<T> value) :41
+// public generated void add_ValueChanged(Uno.UX.ValueChangedHandler<T> value)
 void WhileValue__add_ValueChanged_fn(WhileValue* __this, uDelegate* value)
 {
     __this->add_ValueChanged(value);
 }
 
-// public generated void remove_ValueChanged(Uno.UX.ValueChangedHandler<T> value) :41
+// public generated void remove_ValueChanged(Uno.UX.ValueChangedHandler<T> value)
 void WhileValue__remove_ValueChanged_fn(WhileValue* __this, uDelegate* value)
 {
     __this->remove_ValueChanged(value);
 }
 
-// protected generated WhileValue() [instance] :11
+// protected generated WhileValue() [instance]
 void WhileValue::ctor_6()
 {
     ctor_5();
 }
 
-// private void OnValueChanged(object s, Uno.UX.ValueChangedArgs<T> a) [instance] :85
+// private void OnValueChanged(object s, Uno.UX.ValueChangedArgs<T> a) [instance]
 void WhileValue::OnValueChanged(uObject* s, ::g::Uno::UX::ValueChangedArgs* a)
 {
     SetActive(IsOn());
@@ -8203,12 +8439,12 @@ void WhileValue::OnValueChanged(uObject* s, ::g::Uno::UX::ValueChangedArgs* a)
         uPtr(ValueChanged1)->Invoke(2, this, a);
 }
 
-// public new void Pulse() [instance] :43
+// public new void Pulse() [instance]
 void WhileValue::Pulse1()
 {
     if (!::g::Fuse::Triggers::WhileValueStatic::_deprecatedNote_)
     {
-        ::g::Fuse::Diagnostics::Deprecated(::STRINGS[34/*"`Pulse` on ...*/], this, ::STRINGS[35/*"/usr/local/...*/], 47, ::STRINGS[36/*"Pulse"*/]);
+        ::g::Fuse::Diagnostics::Deprecated(::STRINGS[36/*"`Pulse` on ...*/], this, ::STRINGS[37/*"/Users/antt...*/], 47, ::STRINGS[38/*"Pulse"*/]);
         ::g::Fuse::Triggers::WhileValueStatic::_deprecatedNote_ = true;
     }
 
@@ -8218,19 +8454,19 @@ void WhileValue::Pulse1()
         Pulse();
 }
 
-// public Fuse.Triggers.IValue<T> get_Source() [instance] :37
+// public Fuse.Triggers.IValue<T> get_Source() [instance]
 uObject* WhileValue::Source()
 {
     return _source;
 }
 
-// public void set_Source(Fuse.Triggers.IValue<T> value) [instance] :38
+// public void set_Source(Fuse.Triggers.IValue<T> value) [instance]
 void WhileValue::Source(uObject* value)
 {
     _source = value;
 }
 
-// protected void UpdateState() [instance] :92
+// protected void UpdateState() [instance]
 void WhileValue::UpdateState()
 {
     if (!IsRootingCompleted())
@@ -8239,7 +8475,7 @@ void WhileValue::UpdateState()
     SetActive(IsOn());
 }
 
-// public generated void add_ValueChanged(Uno.UX.ValueChangedHandler<T> value) [instance] :41
+// public generated void add_ValueChanged(Uno.UX.ValueChangedHandler<T> value) [instance]
 void WhileValue::add_ValueChanged(uDelegate* value)
 {
     uType* __types[] = {
@@ -8248,7 +8484,7 @@ void WhileValue::add_ValueChanged(uDelegate* value)
     ValueChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(ValueChanged1, value), __types[0]);
 }
 
-// public generated void remove_ValueChanged(Uno.UX.ValueChangedHandler<T> value) [instance] :41
+// public generated void remove_ValueChanged(Uno.UX.ValueChangedHandler<T> value) [instance]
 void WhileValue::remove_ValueChanged(uDelegate* value)
 {
     uType* __types[] = {
@@ -8257,7 +8493,7 @@ void WhileValue::remove_ValueChanged(uDelegate* value)
     ValueChanged1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(ValueChanged1, value), __types[0]);
 }
 
-// private static Fuse.Triggers.IValue<T> FindValueNode(Fuse.Node n) [static] :59
+// private static Fuse.Triggers.IValue<T> FindValueNode(Fuse.Node n) [static]
 uObject* WhileValue::FindValueNode(uType* __type, ::g::Fuse::Node* n)
 {
     uType* __types[] = {
@@ -8274,10 +8510,10 @@ uObject* WhileValue::FindValueNode(uType* __type, ::g::Fuse::Node* n)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileValue.uno
-// ----------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhileValue.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static class WhileValueStatic :6
+// internal static class WhileValueStatic
 // {
 static void WhileValueStatic_build(uType* type)
 {
@@ -8301,10 +8537,10 @@ uClassType* WhileValueStatic_typeof()
 bool WhileValueStatic::_deprecatedNote_;
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/WhileVisible.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/WhileVisible.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WhileVisible :9
+// public sealed class WhileVisible
 // {
 static void WhileVisible_build(uType* type)
 {
@@ -8362,25 +8598,25 @@ static void WhileVisible_build(uType* type)
     return type;
 }
 
-// public generated WhileVisible() :9
+// public generated WhileVisible()
 void WhileVisible__ctor_6_fn(WhileVisible* __this)
 {
     __this->ctor_6();
 }
 
-// public generated WhileVisible New() :9
+// public generated WhileVisible New()
 void WhileVisible__New2_fn(WhileVisible** __retval)
 {
     *__retval = WhileVisible::New2();
 }
 
-// private void OnIsVisibleChanged(object sender, Uno.EventArgs args) :25
+// private void OnIsVisibleChanged(object sender, Uno.EventArgs args)
 void WhileVisible__OnIsVisibleChanged_fn(WhileVisible* __this, uObject* sender, ::g::Uno::EventArgs* args)
 {
     __this->OnIsVisibleChanged(sender, args);
 }
 
-// protected override sealed void OnRooted() :11
+// protected override sealed void OnRooted()
 void WhileVisible__OnRooted_fn(WhileVisible* __this)
 {
     ::g::Fuse::Triggers::Trigger__OnRooted_fn(__this);
@@ -8388,26 +8624,26 @@ void WhileVisible__OnRooted_fn(WhileVisible* __this)
     __this->SetActive(uPtr(__this->Parent())->IsVisible());
 }
 
-// protected override sealed void OnUnrooted() :19
+// protected override sealed void OnUnrooted()
 void WhileVisible__OnUnrooted_fn(WhileVisible* __this)
 {
     uPtr(__this->Parent())->remove_IsVisibleChanged(uDelegate::New(::TYPES[5/*Uno.EventHandler*/], (void*)WhileVisible__OnIsVisibleChanged_fn, __this));
     ::g::Fuse::Triggers::Trigger__OnUnrooted_fn(__this);
 }
 
-// public generated WhileVisible() [instance] :9
+// public generated WhileVisible() [instance]
 void WhileVisible::ctor_6()
 {
     ctor_5();
 }
 
-// private void OnIsVisibleChanged(object sender, Uno.EventArgs args) [instance] :25
+// private void OnIsVisibleChanged(object sender, Uno.EventArgs args) [instance]
 void WhileVisible::OnIsVisibleChanged(uObject* sender, ::g::Uno::EventArgs* args)
 {
     SetActive(uPtr(Parent())->IsVisible());
 }
 
-// public generated WhileVisible New() [static] :9
+// public generated WhileVisible New() [static]
 WhileVisible* WhileVisible::New2()
 {
     WhileVisible* obj1 = (WhileVisible*)uNew(WhileVisible_typeof());
@@ -8416,10 +8652,10 @@ WhileVisible* WhileVisible::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Triggers/LayoutAnimation.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Triggers/LayoutAnimation.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class LayoutTransition.WorldPositionChangeMode :30
+// private sealed class LayoutTransition.WorldPositionChangeMode
 // {
 static void LayoutTransition__WorldPositionChangeMode_build(uType* type)
 {
@@ -8449,59 +8685,59 @@ LayoutTransition__WorldPositionChangeMode_type* LayoutTransition__WorldPositionC
     return type;
 }
 
-// public generated WorldPositionChangeMode() :30
+// public generated WorldPositionChangeMode()
 void LayoutTransition__WorldPositionChangeMode__ctor__fn(LayoutTransition__WorldPositionChangeMode* __this)
 {
     __this->ctor_();
 }
 
-// public float3 GetAbsVector(Fuse.Translation t) :32
+// public float3 GetAbsVector(Fuse.Translation t)
 void LayoutTransition__WorldPositionChangeMode__GetAbsVector_fn(LayoutTransition__WorldPositionChangeMode* __this, ::g::Fuse::Translation* t, ::g::Uno::Float3* __retval)
 {
     *__retval = __this->GetAbsVector(t);
 }
 
-// public generated WorldPositionChangeMode New() :30
+// public generated WorldPositionChangeMode New()
 void LayoutTransition__WorldPositionChangeMode__New1_fn(LayoutTransition__WorldPositionChangeMode** __retval)
 {
     *__retval = LayoutTransition__WorldPositionChangeMode::New1();
 }
 
-// public object Subscribe(Fuse.ITransformRelative transform) :37
+// public object Subscribe(Fuse.ITransformRelative transform)
 void LayoutTransition__WorldPositionChangeMode__Subscribe_fn(LayoutTransition__WorldPositionChangeMode* __this, uObject* transform, uObject** __retval)
 {
     *__retval = __this->Subscribe(transform);
 }
 
-// public void Unsubscribe(Fuse.ITransformRelative transform, object sub) :38
+// public void Unsubscribe(Fuse.ITransformRelative transform, object sub)
 void LayoutTransition__WorldPositionChangeMode__Unsubscribe_fn(LayoutTransition__WorldPositionChangeMode* __this, uObject* transform, uObject* sub)
 {
     __this->Unsubscribe(transform, sub);
 }
 
-// public generated WorldPositionChangeMode() [instance] :30
+// public generated WorldPositionChangeMode() [instance]
 void LayoutTransition__WorldPositionChangeMode::ctor_()
 {
 }
 
-// public float3 GetAbsVector(Fuse.Translation t) [instance] :32
+// public float3 GetAbsVector(Fuse.Translation t) [instance]
 ::g::Uno::Float3 LayoutTransition__WorldPositionChangeMode::GetAbsVector(::g::Fuse::Translation* t)
 {
     return ::g::Uno::Float3__op_Multiply2(::g::Fuse::Triggers::LayoutTransition::GetWorldPositionChange(uPtr(t)->RelativeNode()), uPtr(t)->Vector());
 }
 
-// public object Subscribe(Fuse.ITransformRelative transform) [instance] :37
+// public object Subscribe(Fuse.ITransformRelative transform) [instance]
 uObject* LayoutTransition__WorldPositionChangeMode::Subscribe(uObject* transform)
 {
     return NULL;
 }
 
-// public void Unsubscribe(Fuse.ITransformRelative transform, object sub) [instance] :38
+// public void Unsubscribe(Fuse.ITransformRelative transform, object sub) [instance]
 void LayoutTransition__WorldPositionChangeMode::Unsubscribe(uObject* transform, uObject* sub)
 {
 }
 
-// public generated WorldPositionChangeMode New() [static] :30
+// public generated WorldPositionChangeMode New() [static]
 LayoutTransition__WorldPositionChangeMode* LayoutTransition__WorldPositionChangeMode::New1()
 {
     LayoutTransition__WorldPositionChangeMode* obj1 = (LayoutTransition__WorldPositionChangeMode*)uNew(LayoutTransition__WorldPositionChangeMode_typeof());

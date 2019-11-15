@@ -7,8 +7,7 @@ public class CppManager {
     @SuppressWarnings("unused")
     public static void LoadLibraries()
     {
-        String[] libs = new String[] { "log", "gnustl_shared", "V8Simple" };
-        Log.d("Kalenteri","SDK: "+Build.VERSION.SDK_INT);
+        String[] libs = new String[] {  };
 
         if (loadLibrariesInternal(libs) != 0)
         {

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/WrapLayout.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/WrapLayout.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -14,7 +14,7 @@ namespace g{
 namespace Fuse{
 namespace Layouts{
 
-// public sealed class WrapLayout :17
+// public sealed class WrapLayout
 // {
 ::g::Fuse::Layouts::Layout_type* WrapLayout_typeof();
 void WrapLayout__Arrange_fn(WrapLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, bool* doArrange, ::g::Uno::Float4* padding, ::g::Uno::Float2* __retval);

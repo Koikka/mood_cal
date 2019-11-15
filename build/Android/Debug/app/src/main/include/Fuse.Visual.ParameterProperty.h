@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Visual.ScriptClass.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Visual.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{namespace Uno{namespace UX{struct Selector;}}}
 namespace g{
 namespace Fuse{
 
-// private sealed class Visual.ParameterProperty :19
+// private sealed class Visual.ParameterProperty
 // {
 ::g::Uno::UX::Property1_type* Visual__ParameterProperty_typeof();
 void Visual__ParameterProperty__ctor_3_fn(Visual__ParameterProperty* __this, ::g::Fuse::Visual* visual);

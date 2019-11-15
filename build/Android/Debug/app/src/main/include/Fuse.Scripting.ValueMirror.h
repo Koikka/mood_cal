@@ -1,16 +1,16 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/ValueMirror.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/ValueMirror.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Scripting.IRaw.h>
-#include <Fuse.Scripting.Subscr-9da816f1.h>
+#include <Fuse.Scripting.Subscr-2da2127a.h>
 namespace g{namespace Fuse{namespace Scripting{struct ValueMirror;}}}
 
 namespace g{
 namespace Fuse{
 namespace Scripting{
 
-// internal abstract class ValueMirror :18
+// internal abstract class ValueMirror
 // {
 struct ValueMirror_type : uType
 {

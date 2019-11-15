@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/GridLayout.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/GridLayout.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace Layouts{
 
-// public sealed class Column :213
+// public sealed class Column
 // {
 uType* Column_typeof();
 void Column__ctor_4_fn(Column* __this);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/LineSegments.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/LineSegments.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Drawing{
 
-// public sealed class LineSegments :9
+// public sealed class LineSegments
 // {
 uType* LineSegments_typeof();
 void LineSegments__ctor__fn(LineSegments* __this);

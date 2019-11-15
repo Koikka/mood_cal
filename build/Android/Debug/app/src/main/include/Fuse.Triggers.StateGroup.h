@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Triggers/1.9.0/StateGroup.ScriptClass.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Triggers/1.12.0/StateGroup.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -19,7 +19,7 @@ namespace g{
 namespace Fuse{
 namespace Triggers{
 
-// public partial sealed class StateGroup :8
+// public partial sealed class StateGroup
 // {
 ::g::Fuse::Node_type* StateGroup_typeof();
 void StateGroup__get_Active_fn(StateGroup* __this, ::g::Fuse::Triggers::State** __retval);

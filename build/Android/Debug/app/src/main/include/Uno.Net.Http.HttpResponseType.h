@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpResponseType.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Net.Http/1.12.3/HttpResponseType.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace Uno{
 namespace Net{
 namespace Http{
 
-// public enum HttpResponseType :3
+// public enum HttpResponseType
 uEnumType* HttpResponseType_typeof();
 
 }}}} // ::g::Uno::Net::Http

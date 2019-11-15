@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Expressions/1.9.0/PlatformFunctions.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Expressions/1.12.0/PlatformFunctions.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public abstract class PlatformFunction :11
+// public abstract class PlatformFunction
 // {
 struct PlatformFunction_type : ::g::Fuse::Reactive::Expression_type
 {

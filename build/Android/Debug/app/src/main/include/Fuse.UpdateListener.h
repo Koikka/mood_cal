@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/UpdateManager.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/UpdateManager.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Fuse{struct UpdateListener;}}
 namespace g{
 namespace Fuse{
 
-// internal sealed class UpdateListener :44
+// internal sealed class UpdateListener
 // {
 uType* UpdateListener_typeof();
 void UpdateListener__ctor__fn(UpdateListener* __this);

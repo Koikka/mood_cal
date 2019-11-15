@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/List.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Collections/List.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace g{
 namespace Uno{
 namespace Collections{
 
-// public sealed class List<T> :6
+// public sealed class List<T>
 // {
 struct List_type : uType
 {
@@ -81,7 +81,7 @@ struct List : uObject
 
 }}} // ::g::Uno::Collections
 
-#include <Uno.Collections.List--251bdc7d.h>
+#include <Uno.Collections.List--132bd82f.h>
 
 namespace g{
 namespace Uno{

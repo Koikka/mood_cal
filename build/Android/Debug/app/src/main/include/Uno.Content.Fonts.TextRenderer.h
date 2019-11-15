@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Content/Fonts/TextRenderer.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Content/Fonts/TextRenderer.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -21,7 +21,7 @@ namespace Uno{
 namespace Content{
 namespace Fonts{
 
-// public sealed class TextRenderer :10
+// public sealed class TextRenderer
 // {
 uType* TextRenderer_typeof();
 void TextRenderer__ctor__fn(TextRenderer* __this, int32_t* maxCharCount, ::g::Uno::Content::Fonts::TextShader* shader, ::g::Uno::Content::Fonts::TextTransform* transform);

@@ -23,7 +23,7 @@ public class TextEditRenderer
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void CopyState324(final Object sourceHandle,final Object targetHandle,final boolean updateTextAlignment,final boolean isMultiline,final int width,final int height)
+    public static void CopyState327(final Object sourceHandle,final Object targetHandle,final boolean updateTextAlignment,final boolean isMultiline,final int width,final int height)
     {
         android.widget.EditText source = (android.widget.EditText)sourceHandle;
         android.widget.EditText target = (android.widget.EditText)targetHandle;
@@ -89,7 +89,7 @@ public class TextEditRenderer
         }
     }
     
-    public static Object CreateTextEdit325()
+    public static Object CreateTextEdit328()
     {
         android.widget.EditText tv = new android.widget.EditText(com.fuse.Activity.getRootActivity());
         tv.setBackgroundResource(0);

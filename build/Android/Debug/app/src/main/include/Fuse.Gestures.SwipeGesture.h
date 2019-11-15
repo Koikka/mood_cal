@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Swipe.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Gestures/1.12.0/Swipe.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -23,7 +23,7 @@ namespace g{
 namespace Fuse{
 namespace Gestures{
 
-// public sealed class SwipeGesture :55
+// public sealed class SwipeGesture
 // {
 struct SwipeGesture_type : ::g::Fuse::Node_type
 {

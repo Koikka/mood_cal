@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonException.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonException.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace Uno{
 namespace Data{
 namespace Json{
 
-// public sealed class JsonException :3
+// public sealed class JsonException
 // {
 ::g::Uno::Exception_type* JsonException_typeof();
 void JsonException__ctor_3_fn(JsonException* __this, uString* message);

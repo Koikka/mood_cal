@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Element.ITreeRenderer.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Element.ITreeRenderer.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace g{
 namespace Fuse{
 namespace Elements{
 
-// public abstract interface ITreeRenderer :9
+// public abstract interface ITreeRenderer
 // {
 uInterfaceType* ITreeRenderer_typeof();
 

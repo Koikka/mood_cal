@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Expressions/1.9.0/TernaryOperator.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Expressions/1.12.0/TernaryOperator.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.ISourceLocation.h>
-#include <Fuse.Reactive.Compute-2d5dc615.h>
+#include <Fuse.Reactive.Compute-c1d394b1.h>
 #include <Fuse.Reactive.IExpression.h>
 namespace g{namespace Fuse{namespace Reactive{struct Expression__Argument;}}}
 namespace g{namespace Fuse{namespace Reactive{struct TernaryOperator;}}}
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public abstract class TernaryOperator :8
+// public abstract class TernaryOperator
 // {
 ::g::Fuse::Reactive::ComputeExpression_type* TernaryOperator_typeof();
 void TernaryOperator__Compute_fn(TernaryOperator* __this, uObject* first, uObject* second, uObject* third, uObject** __retval);

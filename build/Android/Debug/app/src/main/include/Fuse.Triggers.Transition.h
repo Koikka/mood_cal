@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/Transition.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/Transition.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Animations.IBase-d3bd6f2e.h>
-#include <Fuse.Animations.IUnwr-594abe9.h>
+#include <Fuse.Animations.IBase-3168404.h>
+#include <Fuse.Animations.IUnwr-29908c99.h>
 #include <Fuse.Binding.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.Internal.MiniList-1.h>
@@ -23,7 +23,7 @@ namespace g{
 namespace Fuse{
 namespace Triggers{
 
-// public class Transition :200
+// public class Transition
 // {
 ::g::Fuse::Triggers::Trigger_type* Transition_typeof();
 void Transition__ctor_5_fn(Transition* __this);

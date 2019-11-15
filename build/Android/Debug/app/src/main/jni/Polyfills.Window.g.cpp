@@ -16,10 +16,10 @@ namespace g{
 namespace Polyfills{
 namespace Window{
 
-// /usr/local/share/uno/Packages/Polyfills.Window/1.9.0/WindowModule.uno
-// ---------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Polyfills.Window/1.12.0/WindowModule.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WindowModule :10
+// public sealed class WindowModule
 // {
 static void WindowModule_build(uType* type)
 {
@@ -57,25 +57,25 @@ WindowModule_type* WindowModule_typeof()
     return type;
 }
 
-// public WindowModule() :28
+// public WindowModule()
 void WindowModule__ctor_3_fn(WindowModule* __this)
 {
     __this->ctor_3();
 }
 
-// public Fuse.Scripting.Module GetModule() :12
+// public Fuse.Scripting.Module GetModule()
 void WindowModule__GetModule_fn(WindowModule* __this, ::g::Fuse::Scripting::Module** __retval)
 {
     *__retval = __this->GetModule();
 }
 
-// private static Uno.UX.FileSource GetWindow() :20
+// private static Uno.UX.FileSource GetWindow()
 void WindowModule__GetWindow_fn(::g::Uno::UX::FileSource** __retval)
 {
     *__retval = WindowModule::GetWindow();
 }
 
-// public WindowModule New() :28
+// public WindowModule New()
 void WindowModule__New3_fn(WindowModule** __retval)
 {
     *__retval = WindowModule::New3();
@@ -84,7 +84,7 @@ void WindowModule__New3_fn(WindowModule** __retval)
 uSStrong<WindowModule*> WindowModule::_instance_;
 uSStrong< ::g::Uno::UX::FileSource*> WindowModule::_fileSourceInstance_;
 
-// public WindowModule() [instance] :28
+// public WindowModule() [instance]
 void WindowModule::ctor_3()
 {
     ctor_2(WindowModule::GetWindow());
@@ -93,22 +93,22 @@ void WindowModule::ctor_3()
         ::g::Uno::UX::Resource::SetGlobalKey(WindowModule::_instance_ = this, ::STRINGS[0/*"Polyfills/W...*/]);
 }
 
-// public Fuse.Scripting.Module GetModule() [instance] :12
+// public Fuse.Scripting.Module GetModule() [instance]
 ::g::Fuse::Scripting::Module* WindowModule::GetModule()
 {
     return this;
 }
 
-// private static Uno.UX.FileSource GetWindow() [static] :20
+// private static Uno.UX.FileSource GetWindow() [static]
 ::g::Uno::UX::FileSource* WindowModule::GetWindow()
 {
     if (WindowModule::_fileSourceInstance_ == NULL)
-        WindowModule::_fileSourceInstance_ = ::g::Uno::UX::FileSource::op_Implicit1(uPtr(::g::Uno::IO::Bundle::Get(::STRINGS[1/*"Polyfills.W...*/]))->GetFile(::STRINGS[2/*"js/Window.js"*/]));
+        WindowModule::_fileSourceInstance_ = ::g::Uno::UX::FileSource::op_Implicit(uPtr(::g::Uno::IO::Bundle::Get(::STRINGS[1/*"Polyfills.W...*/]))->GetFile(::STRINGS[2/*"js/Window.js"*/]));
 
     return WindowModule::_fileSourceInstance_;
 }
 
-// public WindowModule New() [static] :28
+// public WindowModule New() [static]
 WindowModule* WindowModule::New3()
 {
     WindowModule* obj1 = (WindowModule*)uNew(WindowModule_typeof());

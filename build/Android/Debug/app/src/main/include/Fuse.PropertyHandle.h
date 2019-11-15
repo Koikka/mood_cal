@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Properties.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Properties.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Fuse{struct PropertyHandle;}}
 namespace g{
 namespace Fuse{
 
-// public sealed class PropertyHandle :5
+// public sealed class PropertyHandle
 // {
 uType* PropertyHandle_typeof();
 void PropertyHandle__ctor__fn(PropertyHandle* __this);

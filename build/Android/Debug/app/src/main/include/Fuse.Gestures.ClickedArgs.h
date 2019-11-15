@@ -1,8 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Clicked.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Gestures/1.12.0/Clicked.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Input.CustomPoin-ba20e234.h>
+#include <Fuse.Input.CustomPoin-cc508ee7.h>
 #include <Fuse.Scripting.IScriptEvent.h>
 namespace g{namespace Fuse{namespace Gestures{struct ClickedArgs;}}}
 namespace g{namespace Fuse{namespace Input{struct PointerEventArgs;}}}
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Gestures{
 
-// public sealed class ClickedArgs :7
+// public sealed class ClickedArgs
 // {
 ::g::Fuse::VisualEventArgs_type* ClickedArgs_typeof();
 void ClickedArgs__ctor_4_fn(ClickedArgs* __this, ::g::Fuse::Input::PointerEventArgs* args, ::g::Fuse::Visual* visual);

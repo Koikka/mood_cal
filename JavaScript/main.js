@@ -1,6 +1,18 @@
+//-------------------------- BUILD APP ----------------------------
+// uno build --target=android -r --configuration=Release
+// NOTIFICATION FIX: https://stackoverflow.com/questions/56118459/cant-compile-react-native-app-with-firebase-messaging
+//-------------------------- BUILD APP ----------------------------
+
+
 var Observable = require('FuseJS/Observable');
 var Storage = require("FuseJS/Storage");
 var Share = require("FuseJS/Share");
+var FileSystem = require("FuseJS/FileSystem");
+var Base64 = require("FuseJS/Base64");
+var ImageTools = require("FuseJS/ImageTools");
+var camera = require('FuseJS/Camera');
+var cameraRoll = require("FuseJS/CameraRoll");
+var md5 = require("JavaScript/md5.js");
 // var LocalNotify = require("FuseJS/LocalNotifications");
 //var push_notif = require("FuseJS/Push");
 
@@ -26,6 +38,7 @@ var Device = require('Device');
 //     Push = FNotify;
 
 var SAVENAME = "calendar_type.json";
+var SAVE_SETTINGS = "settings.json";
 var calendar_type = Observable("mood_calendar");
 var mood_cal_vis = Observable("Collapsed");
 var sleep_cal_vis = Observable("Collapsed");
@@ -67,6 +80,8 @@ var sleep_h = Observable();
 var sleep_m = Observable();
 var wake_h = Observable();
 var wake_m = Observable();
+var meal_h = Observable();
+var meal_m = Observable();
 var sleep_track_h = Observable("21");
 var sleep_track_m = Observable("6");
 var bed_track_h = Observable("21");
@@ -85,13 +100,42 @@ var logo_img_white = Observable("Images/samk_logo_3.png");
 var emoji_status = Observable();
 var notif_toggle = Observable(false);
 
+var eat_9 = Observable(false);
+var eat_6 = Observable(false);
+var eat_3 = Observable(false);
+var eat_free_text = Observable("");
+var accordion_icon = Observable("&#xf107;");
+var compen = ["oksensin","laksatiivit","liikunta","diureetit"];
+var items = Observable(compen);
+var kompensaationkeinot = [];
+var meal_picture = "";
+var base_64_image = "";
+var image_buffer = "";
+var picture_test = Observable("");
+var image_from_library = 0;
+var shoud_reset_compensation = Observable(false);
+var show_login_screen = Observable(true);
+var show_all_content = Observable("Collapsed");
+var username = Observable();
+var password = Observable();
+var saved_hash = "";
+
+var cheer_message = Observable("");
+var cheer_title = Observable("");
+var cheer_added = Observable("");
+var notifcation_token_set = false;
+var user_id_set = false;
+
+console.log("-----------------------------------------");
+console.log(items);
+console.log("-----------------------------------------");
 
 
 
 // var camera = require('FuseJS/Camera');
 // var test_images = Observable();
 // var show_help_text = Observable(true);
-chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
+chart_url.value = "https://koikka.work/fuse/data.html?id="+saved_hash+"&v="+new Date().getTime();
 // push.on("registrationSucceeded", function(regID) {
 //     console.log("Reg Succeeded: " + regID);
 // });
@@ -99,10 +143,70 @@ chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new 
 // push.on("error", function(reason) {
 //     console.log("Reg Failed: " + reason);
 // });
-
-// push.on("receivedMessage", function(payload) {
-//     console.log("Recieved Push Notification: " + payload);
-// });
+/* Not used -> waiting for promise */
+function get_from_memory(filePath, name) {
+    console.log("--------------------------------- GET MEMORY ---------------------------------");
+    return new Promise(function (resolve, reject) {
+        var object = [];
+        console.log("---------------------------------");
+        var contents = Storage.readSync(SAVE_SETTINGS);
+        console.log(contents);
+        if (contents.length > 0) {
+            // THERE IS DATA
+            console.log("GO TO MAIN SCREEN");
+            var json = JSON.parse(contents);
+            saved_hash = json.hash;
+            chart_url.value = "https://koikka.work/fuse/data.html?id="+saved_hash+"&v="+new Date().getTime();
+            show_login_screen.value = false;
+            user_id_set = true;
+            if (notifcation_token_set && user_id_set)
+                save_push_id(saved_hash, registration_token);
+            get_cheer_message();
+        } else {
+            // SHOULD GO TO LOGIN
+            console.log("GO TO LOGIN");
+        }
+        // Storage.read(SAVE_SETTINGS).then(function(content) {
+        //     object = JSON.parse(content);
+        //     console.log("--------------------------------- CONTENT ---------------------------------");
+        //     console.log(content);
+        //     // if (content.has("is_logged_user")) {
+        //     //     console.log("USER IS LOGGED?");
+        //     //     console.log(content.hash);
+        //     // } else {
+        //     //     console.log("SHOW LOGIN SCREEN");
+        //     // }
+        // }, function(error) {
+        //     console.log("some error while reading data");
+        // });
+        console.log("---------------------------------");
+        // return object;
+        resolve(object)
+    });
+}
+function saveMessage(username, password, created_hash) {
+    // var created_hash = (+new Date).toString(36);
+    var storeObject = {is_logged_user: true, username: username, password: password, hash: created_hash};
+    Storage.write(SAVE_SETTINGS, JSON.stringify(storeObject));
+    saved_hash = created_hash;
+    chart_url.value = "https://koikka.work/fuse/data.html?id="+saved_hash+"&v="+new Date().getTime();
+    show_login_screen.value = false;
+    user_id_set = true;
+    if (notifcation_token_set && user_id_set)
+        save_push_id(saved_hash, registration_token);
+    get_cheer_message();
+    // hasStored.value = true;
+}
+function login() {
+    console.log(username.value);
+    console.log(password.value);
+    console.log("------->"+md5(username.value+password.value));
+    console.log("login");
+    var total = username.value+password.value;
+    var hash = md5(total);
+    saveMessage(username.value, password.value, hash);
+}
+get_from_memory();
 console.log('setting up push notifications');
 
 var registration_token = "";
@@ -134,6 +238,12 @@ var device_uuid = "";
 Push.onRegistrationSucceeded = function(regID) {
     console.log ("Reg Succeeded: " + regID);
     registration_token = regID;
+    console.log("------------------------------------------------------------------------------------------------------------------------------");
+    console.log(registration_token);
+    console.log("------------------------------------------------------------------------------------------------------------------------------");
+    notifcation_token_set = true;
+    if (notifcation_token_set && user_id_set)
+        save_push_id(saved_hash, registration_token);
     //status.value = "onRegistrationSucceeded: " + regID;
 };
 
@@ -172,8 +282,9 @@ var clearAllNotifications = function() {
 // sendLater();
 function get_mood_emoji() {
     console.log("get_mood_emoji()");
-    var body = "action=emoji_status&id="+Device.UUID;
-    var url = "http://koikka.work/fuse/fuse.php";
+    // var body = "action=emoji_status&id="+Device.UUID;
+    var body = "action=emoji_status&id="+saved_hash;
+    var url = "https://koikka.work/fuse/fuse.php";
     fetch(url, {
         method: 'POST',
         headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
@@ -189,7 +300,7 @@ function get_mood_emoji() {
             // callback(json);
         } else {
             console.log("False HTTP response : "+response.status);
-            emoji_status.value = "http://koikka.work/fuse/rested/5.png";
+            emoji_status.value = "https://koikka.work/fuse/rested/5.png";
         }
     }).catch(function(err) {
         if(err != "SyntaxError: Unexpected end of input") {
@@ -249,47 +360,78 @@ set_mood.onValueChanged(function(val) {
 //----------------------------------------------------------------------------
 
 
-        console.log('UUID:',   Device.UUID);
-        console.log('locale:', Device.locale);
-        console.log('system:', Device.system + " " + Device.systemVersion);
-        console.log('SDK:',    Device.SDKVersion);
-        console.log('device:', Device.vendor + " " + Device.model);
-        console.log('cores:',  Device.cores);
-        console.log('retina:', Device.isRetina);
+        // console.log('UUID:',   Device.UUID);
+        // console.log('locale:', Device.locale);
+        // console.log('system:', Device.system + " " + Device.systemVersion);
+        // console.log('SDK:',    Device.SDKVersion);
+        // console.log('device:', Device.vendor + " " + Device.model);
+        // console.log('cores:',  Device.cores);
+        // console.log('retina:', Device.isRetina);
 
-        var asyncUUID = Observable("");
-        setTimeout(function() {
-            if (Device.UUID == '') {
-                Device.getUUID().then(function(uuid) {
-                    console.log('getUUID: ' + uuid);
-                    asyncUUID.value = uuid;
-                }).catch(function(error) {
-                    console.log('getUUID error: ' + error);
-                });
-            } else {
-                asyncUUID.value = Device.UUID;
-            }
-            chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
-            console.log("registration_token: "+registration_token);
-            get_mood_emoji();
-            save_push_id(Device.UUID, registration_token);
-            device_uuid = Device.UUID;
-        }, 2000);
+        // var asyncUUID = Observable("");
+        // setTimeout(function() {
+        //     if (Device.UUID == '') {
+        //         Device.getUUID().then(function(uuid) {
+        //             console.log('getUUID: ' + uuid);
+        //             asyncUUID.value = uuid;
+        //         }).catch(function(error) {
+        //             console.log('getUUID error: ' + error);
+        //         });
+        //     } else {
+        //         asyncUUID.value = Device.UUID;
+        //     }
+        //     chart_url.value = "https://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
+        //     console.log("registration_token: "+registration_token);
+        //     get_mood_emoji();
+        //     save_push_id(Device.UUID, registration_token);
+        //     device_uuid = Device.UUID;
+        // }, 2000);
 
-        module.exports = {
-            name:      Device.vendor + " " + Device.model,
-            UUID:      Device.UUID,
-            asyncUUID: asyncUUID,
-            locale:    Device.locale,
-            cores:     Device.cores,
-            isRetina:  Device.isRetina
-        };
+        // module.exports = {
+        //     name:      Device.vendor + " " + Device.model,
+        //     UUID:      Device.UUID,
+        //     asyncUUID: asyncUUID,
+        //     locale:    Device.locale,
+        //     cores:     Device.cores,
+        //     isRetina:  Device.isRetina
+        // };
 
 //----------------------------------------------------------------------------
+function get_cheer_message() {
+    // https://koikka.work/fuse/fuse.php?action=get_cheer_message&id=
+    var body = "action=get_cheer_message&id="+saved_hash+"&v="+new Date().getTime();
+    var url = "https://koikka.work/fuse/fuse.php";
+    fetch(url, {
+        method: 'POST',
+        headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
+        body: body,
+        cache: false
+    }).then(function(response) {
+        if(response.ok) {
+            var json = JSON.parse(response._bodyText);
+            console.log(response._bodyText);
+            // str = str.replace(/abc/g, '')
+            cheer_title.value = json.cheer_title.replace(/_/g, ' ');
+            cheer_message.value = json.cheer_message.replace(/_/g, ' ');
+            cheer_added.value = json.time_added;
+            // json.action = action;
+            // callback(json);
+        } else {
+            console.log("False HTTP response : "+response.status);
+        }
+    }).catch(function(err) {
+        if(err != "SyntaxError: Unexpected end of input") {
+            // An error occurred somewhere in the Promise chain
+            console.log("Server error : "+err);
+        } else{
+            console.log("SERVER SYNTAX ERROR");
+        }
+    });
+}
 function save_push_id(uuid, token) {
     console.log("save_push_id: "+uuid+"_"+token);
     var body = "action=save_push_id&id="+uuid+"&token="+token;
-    var url = "http://koikka.work/fuse/fuse.php";
+    var url = "https://koikka.work/fuse/fuse.php";
     fetch(url, {
         method: 'POST',
         headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
@@ -329,7 +471,10 @@ function handle_empty_screen() {
     if (mood_cal_vis.value == "Collapsed" && sleep_cal_vis.value == "Collapsed" && eat_cal_vis.value == "Collapsed" && home_page_vis.value == "Collapsed" && set_notification_vis.value == "Collapsed") {
         web_view_vis.value = "Visible";
     }
-    chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
+    get_mood_emoji();
+    get_cheer_message();
+    // chart_url.value = "https://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
+    chart_url.value = "https://koikka.work/fuse/data.html?id="+saved_hash+"&v="+new Date().getTime();
     console.log("Updated chart url");
 }
 function toggle_cal_visibility() {
@@ -359,7 +504,8 @@ function extra_content_visible() {
     }
 }
 function save_mood() {
-    chart_url.value = "http://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
+    // chart_url.value = "https://koikka.work/fuse/data.html?id="+Device.UUID+"&v="+new Date().getTime();
+    chart_url.value = "https://koikka.work/fuse/data.html?id="+saved_hash+"&v="+new Date().getTime();
     var mood = "";
     var moods = ["h_9", "h_8", "h_7", "n_6", "n_5", "n_4", "s_3", "s_2", "s_1"];
     var feels = ["h_9", "h_8", "h_7", "n_6", "n_5", "n_4", "s_3", "s_2", "s_1"];
@@ -370,8 +516,9 @@ function save_mood() {
         }
     }
 
-    var body = "action=save_mood&mood="+mood+"&value="+set_mood.value+"&id="+Device.UUID;
-    var url = "http://koikka.work/fuse/fuse.php";
+    // var body = "action=save_mood&mood="+mood+"&value="+set_mood.value+"&id="+Device.UUID;
+    var body = "action=save_mood&mood="+mood+"&value="+set_mood.value+"&id="+saved_hash;
+    var url = "https://koikka.work/fuse/fuse.php";
     fetch(url, {
         method: 'POST',
         headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
@@ -406,6 +553,7 @@ function save_mood() {
 function confirmed_save() {
     mood_cal_vis.value = "Collapsed";
     sleep_cal_vis.value = "Collapsed";
+    eat_cal_vis.value = "Collapsed";
     save_confirm.value = false;
     fade_me_in.value = false;
 }
@@ -464,7 +612,7 @@ function highlight_mood_2(args) {
         }
     }
     var emoji_selected = false;
-    var moods = ["sleep_9", "sleep_6", "sleep_3"];
+    // var moods = ["sleep_9", "sleep_6", "sleep_3"];
     for (var i = 0; i < moods.length; i++) {
         if (eval(moods[i]).value == true) {
             emoji_selected = true;
@@ -474,6 +622,42 @@ function highlight_mood_2(args) {
     // if (set_mood.value.length > 0 && emoji_selected) {
     //     enable_mood_send.value = true;
     // }
+}
+function highlight_mood_3(args) {
+    console.log(args.mood);
+    var moods = ["eat_9", "eat_6", "eat_3"];
+    for (var i = 0; i < moods.length; i++) {
+        if (moods[i] == args.mood) {
+            console.log(moods[i]+" == true");
+            eval(moods[i]).value = true;
+        } else {
+            console.log(moods[i]+" == false");
+            eval(moods[i]).value = false;
+        }
+    }
+    var emoji_selected = false;
+    // var moods = ["eat_9", "eat_6", "eat_3"];
+    for (var i = 0; i < moods.length; i++) {
+        if (eval(moods[i]).value == true) {
+            emoji_selected = true;
+        }
+    }
+}
+function eat_compensation(args) {
+    console.log(args.eat_compensation);
+    if (kompensaationkeinot.length == 0) {
+        kompensaationkeinot.push(args.eat_compensation);
+    } else {
+        var index = kompensaationkeinot.indexOf(args.eat_compensation);
+        if (index > -1) {
+            kompensaationkeinot.splice(index, 1);
+        } else {
+            kompensaationkeinot.push(args.eat_compensation);
+        }
+    }
+    for (var i = 0; i < kompensaationkeinot.length; i++) {
+        console.log("-----> "+kompensaationkeinot[i]);
+    }
 }
 
 // function formatTime(time) {
@@ -643,9 +827,10 @@ function save_sleep() {
     var sleep_time = parseInt(diff_hours-2)+(parseInt(diff_mins)/60);
     console.log("--------- "+sleep_time);
     // console.log((parseInt(diff_mins)/60));
-    // http://koikka.work/fuse/fuse.php?action=save_sleep&id=1&sleep_quality=1&sleep_naps=1&sleep_tired=0&sleep_time=9.25&sleep_mood=1&to_bed=21:00&started_sleeping=22:00&woke_up=6:00
-    var body = "action=save_sleep&id="+Device.UUID+"&sleep_quality="+sleep_quality_val+"&sleep_naps="+sleep_naps_val+"&sleep_tired="+sleep_tired_val+"&sleep_time="+sleep_time+"&sleep_mood="+mood+"&to_bed="+bed_h.value+":"+bed_m.value+"&started_sleeping="+sleep_h.value+":"+sleep_m.value+"&woke_up="+wake_h.value+":"+wake_m.value+"";
-    var url = "http://koikka.work/fuse/fuse.php";
+    // https://koikka.work/fuse/fuse.php?action=save_sleep&id=1&sleep_quality=1&sleep_naps=1&sleep_tired=0&sleep_time=9.25&sleep_mood=1&to_bed=21:00&started_sleeping=22:00&woke_up=6:00
+    // var body = "action=save_sleep&id="+Device.UUID+"&sleep_quality="+sleep_quality_val+"&sleep_naps="+sleep_naps_val+"&sleep_tired="+sleep_tired_val+"&sleep_time="+sleep_time+"&sleep_mood="+mood+"&to_bed="+bed_h.value+":"+bed_m.value+"&started_sleeping="+sleep_h.value+":"+sleep_m.value+"&woke_up="+wake_h.value+":"+wake_m.value+"";
+    var body = "action=save_sleep&id="+saved_hash+"&sleep_quality="+sleep_quality_val+"&sleep_naps="+sleep_naps_val+"&sleep_tired="+sleep_tired_val+"&sleep_time="+sleep_time+"&sleep_mood="+mood+"&to_bed="+bed_h.value+":"+bed_m.value+"&started_sleeping="+sleep_h.value+":"+sleep_m.value+"&woke_up="+wake_h.value+":"+wake_m.value+"";
+    var url = "https://koikka.work/fuse/fuse.php";
     fetch(url, {
         method: 'POST',
         headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
@@ -692,7 +877,101 @@ function save_sleep() {
     sleep_tired.value = false;
     save_confirm.value = true;
 }
+function save_eat() {
+    var moods = ["eat_9", "eat_6", "eat_3"];
+    var mood = "";
+    for (var i = 0; i < moods.length; i++) {
+        if (eval(moods[i]).value == true) {
+            console.log(moods[i]);
+            mood = moods[i];
+            mood = mood.split("_")[1];
+        }
+    }
+    console.log("Eating siley: "+mood);
+    console.log("Eated at: "+meal_h.value+":"+meal_m.value);
+    console.log("Compensation: ");
+    var compensation = "";
+    for (var i = 0; i < kompensaationkeinot.length; i++) {
+        console.log("-----> "+kompensaationkeinot[i]);
+        if (i > 0)
+            compensation += ",";
+        compensation += kompensaationkeinot[i];
+    }
+    console.log("Free text: "+eat_free_text.value);
+    console.log("Meal picture: "+meal_picture);
+    console.log("Base_64_image: "+base_64_image);
 
+    // SAMPLE
+    // https://koikka.work/fuse/fuse.php?action=save_meal&id=83E95ADC-3780-35C6-A7E4-90069C5A3BE8&meal_quality=9&meal_time=(observable) 11:(observable) 25&compensation=oksensin,liikunta&free_text=blah&meal_img=/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAHgAOIDASIAAhEBAxEB/8QAHwAAAgMAAwEBAQEAAAAAAAAABgcFCAkAAwQKAgsB/8QAORAAAgMAAgIBBAICAQMDAgQHAgMBBAUGEhETBwAUISIIFSMxMgkWJDNBURdCJTRDUmFxCpEYodL/xAAdAQACAgMBAQEAAAAAAAAAAAACAwEEAAUGBwgJ/8QAPhEAAQIEAwYEBQMEAAYCAwAAAQIRAAMhMRJBUQRhcYGR8AUTobEGIsHR4Qcy8RRCUmIVIzNyksIIJFOCov/aAAwDAQACEQMRAD8A+hr494tw3AMWcap/eWBT0/t7hfe3mRNZww9pygVUXXEvcM/1yqEvqMKu1HaGEZ/r6CrqDQlwVoBbjlsWqVaISpcg5hNsExS1hDJY5pLH1qE3sIFwfaudHk21lMCcGy5lywipUZZsQeh3cDClMVFX4tKrOE2EqSSmDYqAGPWsFD9FeNk75ptXZ1izbDUMt2bb7UoI0slvud9wLUNIokRKSGQAWm2PemfzNTzgoMkUDUAZh68/WNqqWXdSnJvmfePbc4xo0mhQXbya2XNFFfTi5ZZ97ZimbCt6Dr1OsKUGVdry+4L/AAJuSuH+R9Mr6
+    var url = "https://koikka.work/fuse/fuse.php";
+    // var body = "action=save_meal&id="+Device.UUID+"&meal_quality="+mood+"&meal_time="+meal_h.value+":"+meal_m.value+"&compensation="+compensation+"&free_text="+eat_free_text.value+"&meal_img="+base_64_image+"&image_from_library="+image_from_library;
+    var body = "action=save_meal&id="+saved_hash+"&meal_quality="+mood+"&meal_time="+meal_h.value+":"+meal_m.value+"&compensation="+compensation+"&free_text="+eat_free_text.value+"&meal_img="+base_64_image+"&image_from_library="+image_from_library;
+    console.log(url+"?"+body);
+    fetch(url, {
+        method: 'POST',
+        headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
+        body: body,
+        cache: false
+    }).then(function(response) {
+        if(response.ok) {
+            // var json = JSON.parse(response._bodyText);
+            console.log(response._bodyText);
+            // get_mood_emoji();
+            // json.action = action;
+            // callback(json);
+        } else {
+            console.log("False HTTP response : "+response.status);
+        }
+    }).catch(function(err) {
+        if(err != "SyntaxError: Unexpected end of input") {
+            // An error occurred somewhere in the Promise chain
+            console.log("Server error : "+err);
+        } else{
+            console.log("SERVER SYNTAX ERROR");
+        }
+    });
+    // var body = "action=save_sleep&id="+Device.UUID+"&sleep_quality="+sleep_quality_val+"&sleep_naps="+sleep_naps_val+"&sleep_tired="+sleep_tired_val+"&sleep_time="+sleep_time+"&sleep_mood="+mood+"&to_bed="+bed_h.value+":"+bed_m.value+"&started_sleeping="+sleep_h.value+":"+sleep_m.value+"&woke_up="+wake_h.value+":"+wake_m.value+"";
+    // var url = "https://koikka.work/fuse/fuse.php";
+    // fetch(url, {
+    //     method: 'POST',
+    //     headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
+    //     body: body,
+    //     cache: false
+    // }).then(function(response) {
+    //     if(response.ok) {
+    //         // var json = JSON.parse(response._bodyText);
+    //         console.log(response._bodyText);
+    //         get_mood_emoji();
+    //         // json.action = action;
+    //         // callback(json);
+    //     } else {
+    //         console.log("False HTTP response : "+response.status);
+    //     }
+    // }).catch(function(err) {
+    //     if(err != "SyntaxError: Unexpected end of input") {
+    //         // An error occurred somewhere in the Promise chain
+    //         console.log("Server error : "+err);
+    //     } else{
+    //         console.log("SERVER SYNTAX ERROR");
+    //     }
+    // });
+
+    time_of_meal_value.value = "12:00";
+    time_of_meal.value = new Date(Date.parse("2019-01-17T12:00:00.000Z"));
+
+    var eat_moods = ["eat_9", "eat_6", "eat_3"];
+    for (var i = 0; i < eat_moods.length; i++) {
+        eval(eat_moods[i]).value = false;
+    }
+    kompensaationkeinot = [];
+    eat_free_text.value = "";
+    // items = Observable(compen);
+    meal_picture = "";
+    base_64_image = "";
+    picture_test.value = "";
+    save_confirm.value = true;
+    image_from_library = 0;
+}
 /* Not used -> waiting for promise */
 // function get_from_memory(filePath, name) {
 //    return new Promise(function (resolve, reject) {
@@ -747,12 +1026,15 @@ function save_sleep() {
 var time_to_bed_visibility = Observable("Collapsed");
 var time_to_sleep_visibility = Observable("Collapsed");
 var time_to_wake_visibility = Observable("Collapsed");
+var time_of_meal_visibility = Observable("Collapsed");
 var time_to_bed = Observable(new Date(Date.parse("2019-01-16T21:00:00.000Z")));
 var time_to_sleep = Observable(new Date(Date.parse("2019-01-16T21:00:00.000Z")));
 var time_to_wake = Observable(new Date(Date.parse("2019-01-17T07:00:00.000Z")));
+var time_of_meal = Observable(new Date(Date.parse("2019-01-17T12:00:00.000Z")));
 var time_to_bed_value = Observable("21:00");
 var time_to_sleep_value = Observable("21:00");
 var time_to_wake_value = Observable("07:00");
+var time_of_meal_value = Observable("12:00");
 var time_to_notify = Observable(new Date(Date.parse("2019-01-16T09:00:00.000Z")));
 var notification_time = "09:00";
 
@@ -789,6 +1071,17 @@ time_to_wake.onValueChanged(module, function(date) {
     wake_h.value = time_string.split(":")[0];
     wake_m.value = time_string.split(":")[1];
 });
+
+time_of_meal.onValueChanged(module, function(date) {
+    // console.log("time_to_sleep changed: " + JSON.stringify(date));
+    let time_string = JSON.stringify(date);
+    time_string = time_string.split("T")[1];
+    time_string = time_string.split(":00.000Z")[0];
+    console.log(time_string);
+    time_of_meal_value.value = time_string;
+    meal_h.value = time_string.split(":")[0];
+    meal_m.value = time_string.split(":")[1];
+});
 time_to_notify.onValueChanged(module, function(date) {
     // console.log("time_to_sleep changed: " + JSON.stringify(date));
     let time_string = JSON.stringify(date);
@@ -821,19 +1114,30 @@ function time_to_wake_visibility_func() {
         time_to_wake_visibility.value = "Visible";
     }
 }
+function time_of_meal_visibility_func() {
+    console.log("-------------------"+time_of_meal_visibility.value);
+    if (time_of_meal_visibility.value == "Visible") {
+        time_of_meal_visibility.value = "Collapsed";
+    } else {
+        time_of_meal_visibility.value = "Visible";
+    }
+}
+
 function notification_page() {
     console.log("----");
 }
 function time_to_notify_func() {
     console.log("--");
-    console.log(Device.UUID);
+    console.log(saved_hash);
     console.log(notification_time+" - "+registration_token+" - "+device_uuid);
     if (notif_toggle.value == false) {
         notification_time = "";
     }
-    console.log("http://koikka.work/fuse/fuse.php?action=set_notification&id="+Device.UUID+"&push_id="+registration_token+"&time="+notification_time);
-    var body = "action=set_notification&id="+Device.UUID+"&push_id="+registration_token+"&time="+notification_time;
-    var url = "http://koikka.work/fuse/fuse.php";
+    // console.log("https://koikka.work/fuse/fuse.php?action=set_notification&id="+Device.UUID+"&push_id="+registration_token+"&time="+notification_time);
+    // var body = "action=set_notification&id="+Device.UUID+"&push_id="+registration_token+"&time="+notification_time;
+    console.log("https://koikka.work/fuse/fuse.php?action=set_notification&id="+saved_hash+"&push_id="+registration_token+"&time="+notification_time);
+    var body = "action=set_notification&id="+saved_hash+"&push_id="+registration_token+"&time="+notification_time;
+    var url = "https://koikka.work/fuse/fuse.php";
     fetch(url, {
         method: 'POST',
         headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
@@ -862,9 +1166,10 @@ function get_time_to_notify_func() {
     console.log("-------------------");
     // console.log(Device.UUID);
     // console.log(notification_time+" - "+registration_token+" - "+device_uuid);
-    // console.log("http://koikka.work/fuse/fuse.php?action=get_notification&id="+Device.UUID+"&push_id="+registration_token);
-    var body = "action=get_notification&id="+Device.UUID+"&push_id="+registration_token;
-    var url = "http://koikka.work/fuse/fuse.php";
+    // console.log("https://koikka.work/fuse/fuse.php?action=get_notification&id="+Device.UUID+"&push_id="+registration_token);
+    // var body = "action=get_notification&id="+Device.UUID+"&push_id="+registration_token;
+    var body = "action=get_notification&id="+saved_hash+"&push_id="+registration_token;
+    var url = "https://koikka.work/fuse/fuse.php";
     fetch(url, {
         method: 'POST',
         headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
@@ -909,11 +1214,95 @@ function notif_toggle_handler() {
     }
     console.log("notif_toggle_out: "+notif_toggle.value);
 }
+function attach_image_from_roll() {
+    cameraRoll.getImage()
+    .then(function(image) {
+        var imgBase64 = "";
+        picture_test.value = image.path;
+        ImageTools.resize(image, { mode: ImageTools.KEEP_ASPECT, desiredWidth: 640, desiredHeight: 640}).then(function(newImage) {
+            var arrayBuff = FileSystem.readBufferFromFileSync(newImage.path);
+            var b64data_2 = Base64.encodeBuffer(arrayBuff); // send this to the backend
+            // test_image_xhr(encodeURIComponent(b64data_2));
+            base_64_image = encodeURIComponent(b64data_2);
+            picture_test.value = newImage.path;
+            image_from_library = 1;
+        });
+    }, function(error) {
+        // Will be called if the user aborted the selection or if an error occurred.
+    });
+}
+function open_camera() {
+    camera.takePicture(640,640).then(function(image) {
+    // camera.takePicture().then(function(image) {
+        var arrayBuff = FileSystem.readBufferFromFileSync(image.path);
+        var b64data_2 = Base64.encodeBuffer(arrayBuff); // send this to the backend
+        // test_image_xhr(encodeURIComponent(b64data_2));
+        base_64_image = encodeURIComponent(b64data_2);
+        picture_test.value = image.path;
+        image_from_library = 0;
+        // image.release();
+        return cameraRoll.publishImage(image);
+    }).catch(function(error) {
+        console.log("--------------------------------------");
+        console.log(error);
+        console.log("--------------------------------------");
+        //Something went wrong, see error for details
+    });
+}
+function test_image_xhr(b64data) {
+    // var body = "action=save_meal&id="+Device.UUID+"&meal_quality=9&meal_time="+meal_h.value+":"+meal_m.value+"&compensation=&free_text="+eat_free_text.value+"&meal_img="+b64data;//Base64.encodeBuffer(buffer);
+    var body = "action=save_meal&id="+saved_hash+"&meal_quality=9&meal_time="+meal_h.value+":"+meal_m.value+"&compensation=&free_text="+eat_free_text.value+"&meal_img="+b64data;//Base64.encodeBuffer(buffer);
+    // console.log(buffer);
+    var url = "https://koikka.work/fuse/fuse.php";
+    fetch(url, {
+        method: 'POST',
+        headers: { "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"},
+        body: body,
+        cache: false
+    }).then(function(response) {
+        if(response.ok) {
+            // var json = JSON.parse(response._bodyText);
+            console.log(response._bodyText);
+            // json.action = action;
+            // callback(json);
+        } else {
+            console.log("False HTTP response : "+response.status);
+        }
+    }).catch(function(err) {
+        if(err != "SyntaxError: Unexpected end of input") {
+            // An error occurred somewhere in the Promise chain
+            console.log("Server error : "+err);
+        } else{
+            console.log("SERVER SYNTAX ERROR");
+        }
+    });
+}
+function reset_compensation_function() {
+    // if (shoud_reset_compensation.value) {
+    //     // shoud_reset_compensation.value = false;
+    // } else {
+    //     shoud_reset_compensation.value = true;
+    // }
+    shoud_reset_compensation.value = true;
+}
+function reset_compensation_function_2() {
+    shoud_reset_compensation.value = false;
+}
 function empty_memory() {
     Storage.write(SAVENAME, "");
 }
 
 module.exports = {
+    get_cheer_message: get_cheer_message,
+    cheer_message: cheer_message,
+    cheer_title: cheer_title,
+    cheer_added: cheer_added,
+    show_login_screen: show_login_screen,
+    show_all_content: show_all_content,
+    username: username,
+    password: password,
+    login: login,
+    open_camera: open_camera,
     calendar_type: calendar_type,
     set_calendar_type_to_use: set_calendar_type_to_use,
     execute_button_select: execute_button_select,
@@ -1001,6 +1390,12 @@ module.exports = {
     time_to_wake_value: time_to_wake_value,
     time_to_wake_visibility: time_to_wake_visibility,
     time_to_wake_visibility_func: time_to_wake_visibility_func,
+    time_of_meal_visibility_func: time_of_meal_visibility_func,
+    time_of_meal_visibility: time_of_meal_visibility,
+    time_of_meal_value: time_of_meal_value,
+    time_of_meal: time_of_meal,
+    meal_h: meal_h,
+    meal_m: meal_m,
     notification_page: notification_page,
     time_to_notify: time_to_notify,
     time_to_notify_func: time_to_notify_func,
@@ -1010,6 +1405,20 @@ module.exports = {
     toggle_sleep_quality: toggle_sleep_quality,
     toggle_sleep_naps: toggle_sleep_naps,
     toggle_sleep_tired: toggle_sleep_tired,
+    items : items,
+    accordion_icon: accordion_icon,
+    eat_free_text: eat_free_text,
+    highlight_mood_3: highlight_mood_3,
+    eat_compensation: eat_compensation,
+    eat_9: eat_9,
+    eat_6: eat_6,
+    eat_3: eat_3,
+    save_eat: save_eat,
+    picture_test: picture_test,
+    attach_image_from_roll: attach_image_from_roll,
+    shoud_reset_compensation: shoud_reset_compensation,
+    reset_compensation_function: reset_compensation_function,
+    reset_compensation_function_2: reset_compensation_function_2,
     shareText : function() {
         Share.shareText(chart_url.value, "Linkki minun historiaan");
     }

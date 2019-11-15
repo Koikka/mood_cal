@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/IViewport.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/IViewport.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -14,7 +14,7 @@ namespace g{namespace Uno{struct Float4x4;}}
 namespace g{
 namespace Fuse{
 
-// internal sealed class InheritViewport :229
+// internal sealed class InheritViewport
 // {
 struct InheritViewport_type : uType
 {

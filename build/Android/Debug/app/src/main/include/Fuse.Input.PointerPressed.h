@@ -1,8 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEvents.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Input/PointerEvents.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Input.PointerPre-d85d5994.h>
+#include <Fuse.Input.PointerPre-a4f25721.h>
 #include <Fuse.Input.PointerPressedArgs.h>
 #include <Fuse.VisualEvent-2.h>
 namespace g{namespace Fuse{namespace Input{struct PointerPressed;}}}
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Input{
 
-// internal sealed class PointerPressed :24
+// internal sealed class PointerPressed
 // {
 ::g::Fuse::VisualEvent_type* PointerPressed_typeof();
 void PointerPressed__ctor_1_fn(PointerPressed* __this);

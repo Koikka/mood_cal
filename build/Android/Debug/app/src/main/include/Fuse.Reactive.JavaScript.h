@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/JavaScript.Dependencies.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/JavaScript.Dependencies.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@
 #include <Fuse.ISourceLocation.h>
 #include <Fuse.Node.ISiblingDataProvider.h>
 #include <Fuse.Reactive.IContext.h>
-#include <Fuse.Reactive.ValueFo-a26c06f.h>
+#include <Fuse.Reactive.ValueFo-2302f2a6.h>
 #include <Fuse.Scripting.IModuleProvider.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Uno.Collections.ICollection-1.h>
@@ -30,7 +30,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public partial sealed class JavaScript :10
+// public partial sealed class JavaScript
 // {
 struct JavaScript_type : ::g::Fuse::Node_type
 {

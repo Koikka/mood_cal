@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/LocalDateTime.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Time/LocalDateTime.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Uno.Object.h>
 #include <Uno.Time.Instant.h>
+#include <Uno.ValueType.h>
 namespace g{namespace Uno{namespace Time{struct CalendarSystem;}}}
 namespace g{namespace Uno{namespace Time{struct LocalDateTime;}}}
 
@@ -11,11 +11,11 @@ namespace g{
 namespace Uno{
 namespace Time{
 
-// public struct LocalDateTime :6
+// public struct LocalDateTime
 // {
 uStructType* LocalDateTime_typeof();
-void LocalDateTime__ctor_8_fn(LocalDateTime* __this, ::g::Uno::Time::Instant* instant);
-void LocalDateTime__ctor_9_fn(LocalDateTime* __this, ::g::Uno::Time::Instant* instant, ::g::Uno::Time::CalendarSystem* calendar);
+void LocalDateTime__ctor_9_fn(LocalDateTime* __this, ::g::Uno::Time::Instant* instant);
+void LocalDateTime__ctor_10_fn(LocalDateTime* __this, ::g::Uno::Time::Instant* instant, ::g::Uno::Time::CalendarSystem* calendar);
 void LocalDateTime__get_Calendar_fn(LocalDateTime* __this, ::g::Uno::Time::CalendarSystem** __retval);
 void LocalDateTime__get_Day_fn(LocalDateTime* __this, int32_t* __retval);
 void LocalDateTime__Equals_fn(LocalDateTime* __this, uType* __type, uObject* obj, bool* __retval);
@@ -37,8 +37,8 @@ struct LocalDateTime
     uStrong< ::g::Uno::Time::CalendarSystem*> _calendar;
     ::g::Uno::Time::Instant _instant;
 
-    void ctor_8(::g::Uno::Time::Instant instant);
-    void ctor_9(::g::Uno::Time::Instant instant, ::g::Uno::Time::CalendarSystem* calendar);
+    void ctor_9(::g::Uno::Time::Instant instant);
+    void ctor_10(::g::Uno::Time::Instant instant, ::g::Uno::Time::CalendarSystem* calendar);
     ::g::Uno::Time::CalendarSystem* Calendar();
     int32_t Day();
     bool Equals(uType* __type, uObject* obj) { bool __retval; return LocalDateTime__Equals_fn(this, __type, obj, &__retval), __retval; }

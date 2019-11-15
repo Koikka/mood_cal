@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/AverageMixer.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Animations/1.12.0/AverageMixer.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -15,7 +15,7 @@ namespace g{
 namespace Fuse{
 namespace Animations{
 
-// internal sealed class AverageMixer :7
+// internal sealed class AverageMixer
 // {
 ::g::Fuse::Animations::MixerBase_type* AverageMixer_typeof();
 void AverageMixer__ctor_1_fn(AverageMixer* __this);

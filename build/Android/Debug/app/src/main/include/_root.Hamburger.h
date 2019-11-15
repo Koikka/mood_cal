@@ -5,7 +5,7 @@
 #include <Fuse.Animations.IResize.h>
 #include <Fuse.Binding.h>
 #include <Fuse.Controls.Rectangle.h>
-#include <Fuse.Drawing.IDrawObj-d34d045e.h>
+#include <Fuse.Drawing.IDrawObj-13f8940.h>
 #include <Fuse.Drawing.ISurfaceDrawable.h>
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
@@ -16,7 +16,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -28,7 +28,7 @@ namespace g{struct Hamburger;}
 
 namespace g{
 
-// public partial sealed class Hamburger :2
+// public partial sealed class Hamburger
 // {
 ::g::Fuse::Controls::Shape_type* Hamburger_typeof();
 void Hamburger__ctor_8_fn(Hamburger* __this);

@@ -3,9 +3,9 @@
 
 #include <Uno.Bool.h>
 #include <Uno.Char.h>
-#include <Uno.Collections.Dicti-87d2e37d.h>
+#include <Uno.Collections.Dicti-8cba3288.h>
 #include <Uno.Collections.Dictionary-2.h>
-#include <Uno.Collections.Enume-8ddd045.h>
+#include <Uno.Collections.Enume-9e7bc8e0.h>
 #include <Uno.Collections.IEnumerable-1.h>
 #include <Uno.Collections.List-1.h>
 #include <Uno.Data.Json.Array.h>
@@ -38,10 +38,10 @@ namespace Uno{
 namespace Data{
 namespace Json{
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonValue.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class Array :90
+// internal sealed class Array
 // {
 static void Array_build(uType* type)
 {
@@ -66,63 +66,63 @@ uType* Array_typeof()
     return type;
 }
 
-// public generated Array() :90
+// public generated Array()
 void Array__ctor_1_fn(Array* __this)
 {
     __this->ctor_1();
 }
 
-// internal void Add(Uno.Data.Json.Value v) :94
+// internal void Add(Uno.Data.Json.Value v)
 void Array__Add_fn(Array* __this, ::g::Uno::Data::Json::Value* v)
 {
     __this->Add(v);
 }
 
-// public int get_Count() :104
+// public int get_Count()
 void Array__get_Count_fn(Array* __this, int32_t* __retval)
 {
     *__retval = __this->Count();
 }
 
-// public Uno.Data.Json.Value get_Item(int index) :101
+// public Uno.Data.Json.Value get_Item(int index)
 void Array__get_Item_fn(Array* __this, int32_t* index, ::g::Uno::Data::Json::Value** __retval)
 {
     *__retval = __this->Item(*index);
 }
 
-// public generated Array New() :90
+// public generated Array New()
 void Array__New1_fn(Array** __retval)
 {
     *__retval = Array::New1();
 }
 
-// public generated Array() [instance] :90
+// public generated Array() [instance]
 void Array::ctor_1()
 {
     _values = ((::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[0/*Uno.Collections.List<Uno.Data.Json.Value>*/]));
     ctor_();
 }
 
-// internal void Add(Uno.Data.Json.Value v) [instance] :94
+// internal void Add(Uno.Data.Json.Value v) [instance]
 void Array::Add(::g::Uno::Data::Json::Value* v)
 {
     ::g::Uno::Collections::List__Add_fn(uPtr(_values), v);
 }
 
-// public int get_Count() [instance] :104
+// public int get_Count() [instance]
 int32_t Array::Count()
 {
     return uPtr(_values)->Count();
 }
 
-// public Uno.Data.Json.Value get_Item(int index) [instance] :101
+// public Uno.Data.Json.Value get_Item(int index) [instance]
 ::g::Uno::Data::Json::Value* Array::Item(int32_t index)
 {
     ::g::Uno::Data::Json::Value* ret2;
     return (::g::Uno::Collections::List__get_Item_fn(uPtr(_values), uCRef<int32_t>(index), &ret2), ret2);
 }
 
-// public generated Array New() [static] :90
+// public generated Array New() [static]
 Array* Array::New1()
 {
     Array* obj1 = (Array*)uNew(Array_typeof());
@@ -131,10 +131,10 @@ Array* Array::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonValue.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract class AtomicValue<T> :17
+// internal abstract class AtomicValue<T>
 // {
 static void AtomicValue_build(uType* type)
 {
@@ -159,32 +159,32 @@ uType* AtomicValue_typeof()
     return type;
 }
 
-// protected AtomicValue(T val) :22
+// protected AtomicValue(T val)
 void AtomicValue__ctor_1_fn(AtomicValue* __this, void* val)
 {
     __this->ctor_();
     __this->_val() = val;
 }
 
-// public override sealed string ToString() :27
+// public override sealed string ToString()
 void AtomicValue__ToString_fn(AtomicValue* __this, uString** __retval)
 {
     return *__retval = ::g::Uno::Object::ToString(uBoxPtr(__this->__type->GetBase(AtomicValue_typeof())->T(0), uPtr(__this->_val()), U_ALLOCA(__this->__type->GetBase(AtomicValue_typeof())->T(0)->ObjectSize))), void();
 }
 
-// public T get_Value() :20
+// public T get_Value()
 void AtomicValue__get_Value_fn(AtomicValue* __this, uTRef __retval)
 {
     return __retval.Store(__this->_val()), void();
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonValue.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class Boolean :33
+// internal sealed class Boolean
 // {
-// static generated Boolean() :33
+// static generated Boolean()
 static void Boolean__cctor__fn(uType* __type)
 {
     Boolean::True_ = Boolean::New1(true);
@@ -215,13 +215,13 @@ uType* Boolean_typeof()
     return type;
 }
 
-// private Boolean(bool b) :35
+// private Boolean(bool b)
 void Boolean__ctor_2_fn(Boolean* __this, bool* b)
 {
     __this->ctor_2(*b);
 }
 
-// private Boolean New(bool b) :35
+// private Boolean New(bool b)
 void Boolean__New1_fn(bool* b, Boolean** __retval)
 {
     *__retval = Boolean::New1(*b);
@@ -230,13 +230,13 @@ void Boolean__New1_fn(bool* b, Boolean** __retval)
 uSStrong<Boolean*> Boolean::True_;
 uSStrong<Boolean*> Boolean::False_;
 
-// private Boolean(bool b) [instance] :35
+// private Boolean(bool b) [instance]
 void Boolean::ctor_2(bool b)
 {
     ::g::Uno::Data::Json::AtomicValue__ctor_1_fn(this, uCRef(b));
 }
 
-// private Boolean New(bool b) [static] :35
+// private Boolean New(bool b) [static]
 Boolean* Boolean::New1(bool b)
 {
     Boolean* obj1 = (Boolean*)uNew(Boolean_typeof());
@@ -245,10 +245,10 @@ Boolean* Boolean::New1(bool b)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonDataType.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonDataType.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum JsonDataType :3
+// public enum JsonDataType
 uEnumType* JsonDataType_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -266,10 +266,10 @@ uEnumType* JsonDataType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonException.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonException.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class JsonException :3
+// public sealed class JsonException
 // {
 static void JsonException_build(uType* type)
 {
@@ -291,25 +291,25 @@ static void JsonException_build(uType* type)
     return type;
 }
 
-// internal JsonException(string message) :5
+// internal JsonException(string message)
 void JsonException__ctor_3_fn(JsonException* __this, uString* message)
 {
     __this->ctor_3(message);
 }
 
-// internal JsonException New(string message) :5
+// internal JsonException New(string message)
 void JsonException__New4_fn(uString* message, JsonException** __retval)
 {
     *__retval = JsonException::New4(message);
 }
 
-// internal JsonException(string message) [instance] :5
+// internal JsonException(string message) [instance]
 void JsonException::ctor_3(uString* message)
 {
     ctor_1(message);
 }
 
-// internal JsonException New(string message) [static] :5
+// internal JsonException New(string message) [static]
 JsonException* JsonException::New4(uString* message)
 {
     JsonException* obj1 = (JsonException*)uNew(JsonException_typeof());
@@ -318,10 +318,10 @@ JsonException* JsonException::New4(uString* message)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonReader.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonReader.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class JsonReader :8
+// public sealed class JsonReader
 // {
 static void JsonReader_build(uType* type)
 {
@@ -351,112 +351,112 @@ uType* JsonReader_typeof()
     return type;
 }
 
-// private JsonReader(Uno.Data.Json.Value value) :12
+// private JsonReader(Uno.Data.Json.Value value)
 void JsonReader__ctor__fn(JsonReader* __this, ::g::Uno::Data::Json::Value* value)
 {
     __this->ctor_(value);
 }
 
-// public bool AsBool() :109
+// public bool AsBool()
 void JsonReader__AsBool_fn(JsonReader* __this, bool* __retval)
 {
     *__retval = __this->AsBool();
 }
 
-// public double AsNumber() :104
+// public double AsNumber()
 void JsonReader__AsNumber_fn(JsonReader* __this, double* __retval)
 {
     *__retval = __this->AsNumber();
 }
 
-// public string AsString() :99
+// public string AsString()
 void JsonReader__AsString_fn(JsonReader* __this, uString** __retval)
 {
     *__retval = __this->AsString();
 }
 
-// public int get_Count() :76
+// public int get_Count()
 void JsonReader__get_Count_fn(JsonReader* __this, int32_t* __retval)
 {
     *__retval = __this->Count();
 }
 
-// public Uno.Data.Json.JsonReader get_Item(int index) :32
+// public Uno.Data.Json.JsonReader get_Item(int index)
 void JsonReader__get_Item_fn(JsonReader* __this, int32_t* index, JsonReader** __retval)
 {
     *__retval = __this->Item(*index);
 }
 
-// public Uno.Data.Json.JsonReader get_Item(string key) :19
+// public Uno.Data.Json.JsonReader get_Item(string key)
 void JsonReader__get_Item1_fn(JsonReader* __this, uString* key, JsonReader** __retval)
 {
     *__retval = __this->Item1(key);
 }
 
-// public Uno.Data.Json.JsonDataType get_JsonDataType() :61
+// public Uno.Data.Json.JsonDataType get_JsonDataType()
 void JsonReader__get_JsonDataType_fn(JsonReader* __this, int32_t* __retval)
 {
     *__retval = __this->JsonDataType();
 }
 
-// public string[] get_Keys() :44
+// public string[] get_Keys()
 void JsonReader__get_Keys_fn(JsonReader* __this, uArray** __retval)
 {
     *__retval = __this->Keys();
 }
 
-// private JsonReader New(Uno.Data.Json.Value value) :12
+// private JsonReader New(Uno.Data.Json.Value value)
 void JsonReader__New1_fn(::g::Uno::Data::Json::Value* value, JsonReader** __retval)
 {
     *__retval = JsonReader::New1(value);
 }
 
-// public static explicit operator string(Uno.Data.Json.JsonReader value) :114
+// public static explicit operator string(Uno.Data.Json.JsonReader value)
 void JsonReader__op_Explicit1_fn(JsonReader* value, uString** __retval)
 {
     *__retval = JsonReader::op_Explicit1(value);
 }
 
-// public static explicit operator bool(Uno.Data.Json.JsonReader value) :124
+// public static explicit operator bool(Uno.Data.Json.JsonReader value)
 void JsonReader__op_Explicit3_fn(JsonReader* value, bool* __retval)
 {
     *__retval = JsonReader::op_Explicit3(value);
 }
 
-// public static Uno.Data.Json.JsonReader Parse(string json) :54
+// public static Uno.Data.Json.JsonReader Parse(string json)
 void JsonReader__Parse_fn(uString* json, JsonReader** __retval)
 {
     *__retval = JsonReader::Parse(json);
 }
 
-// private JsonReader(Uno.Data.Json.Value value) [instance] :12
+// private JsonReader(Uno.Data.Json.Value value) [instance]
 void JsonReader::ctor_(::g::Uno::Data::Json::Value* value)
 {
     _value = value;
 }
 
-// public bool AsBool() [instance] :109
+// public bool AsBool() [instance]
 bool JsonReader::AsBool()
 {
     bool ret2;
     return (::g::Uno::Data::Json::AtomicValue__get_Value_fn(uPtr(uCast< ::g::Uno::Data::Json::Boolean*>(_value, ::TYPES[1/*Uno.Data.Json.Boolean*/])), &ret2), ret2);
 }
 
-// public double AsNumber() [instance] :104
+// public double AsNumber() [instance]
 double JsonReader::AsNumber()
 {
     double ret3;
     return (::g::Uno::Data::Json::AtomicValue__get_Value_fn(uPtr(uCast< ::g::Uno::Data::Json::Number*>(_value, ::TYPES[2/*Uno.Data.Json.Number*/])), &ret3), ret3);
 }
 
-// public string AsString() [instance] :99
+// public string AsString() [instance]
 uString* JsonReader::AsString()
 {
     uString* ret4;
     return (::g::Uno::Data::Json::AtomicValue__get_Value_fn(uPtr(uCast< ::g::Uno::Data::Json::String*>(_value, ::TYPES[3/*Uno.Data.Json.String*/])), &ret4), ret4);
 }
 
-// public int get_Count() [instance] :76
+// public int get_Count() [instance]
 int32_t JsonReader::Count()
 {
     ::g::Uno::Data::Json::Object* obj = uAs< ::g::Uno::Data::Json::Object*>(_value, ::TYPES[4/*Uno.Data.Json.Object*/]);
@@ -472,7 +472,7 @@ int32_t JsonReader::Count()
     return 0;
 }
 
-// public Uno.Data.Json.JsonReader get_Item(int index) [instance] :32
+// public Uno.Data.Json.JsonReader get_Item(int index) [instance]
 JsonReader* JsonReader::Item(int32_t index)
 {
     ::g::Uno::Data::Json::Array* array = uAs< ::g::Uno::Data::Json::Array*>(_value, ::TYPES[5/*Uno.Data.Json.Array*/]);
@@ -483,7 +483,7 @@ JsonReader* JsonReader::Item(int32_t index)
     return JsonReader::New1(uPtr(array)->Item(index));
 }
 
-// public Uno.Data.Json.JsonReader get_Item(string key) [instance] :19
+// public Uno.Data.Json.JsonReader get_Item(string key) [instance]
 JsonReader* JsonReader::Item1(uString* key)
 {
     ::g::Uno::Data::Json::Object* obj = uAs< ::g::Uno::Data::Json::Object*>(_value, ::TYPES[4/*Uno.Data.Json.Object*/]);
@@ -494,7 +494,7 @@ JsonReader* JsonReader::Item1(uString* key)
     return JsonReader::New1(uPtr(obj)->Item(key));
 }
 
-// public Uno.Data.Json.JsonDataType get_JsonDataType() [instance] :61
+// public Uno.Data.Json.JsonDataType get_JsonDataType() [instance]
 int32_t JsonReader::JsonDataType()
 {
     if (uIs((::g::Uno::Data::Json::Value*)_value, ::TYPES[2/*Uno.Data.Json.Number*/]))
@@ -518,7 +518,7 @@ int32_t JsonReader::JsonDataType()
     return -1;
 }
 
-// public string[] get_Keys() [instance] :44
+// public string[] get_Keys() [instance]
 uArray* JsonReader::Keys()
 {
     ::g::Uno::Data::Json::Object* obj = uAs< ::g::Uno::Data::Json::Object*>(_value, ::TYPES[4/*Uno.Data.Json.Object*/]);
@@ -529,7 +529,7 @@ uArray* JsonReader::Keys()
     return uPtr(obj)->Keys();
 }
 
-// private JsonReader New(Uno.Data.Json.Value value) [static] :12
+// private JsonReader New(Uno.Data.Json.Value value) [static]
 JsonReader* JsonReader::New1(::g::Uno::Data::Json::Value* value)
 {
     JsonReader* obj1 = (JsonReader*)uNew(JsonReader_typeof());
@@ -537,29 +537,29 @@ JsonReader* JsonReader::New1(::g::Uno::Data::Json::Value* value)
     return obj1;
 }
 
-// public static explicit operator string(Uno.Data.Json.JsonReader value) [static] :114
+// public static explicit operator string(Uno.Data.Json.JsonReader value) [static]
 uString* JsonReader::op_Explicit1(JsonReader* value)
 {
     return uPtr(value)->AsString();
 }
 
-// public static explicit operator bool(Uno.Data.Json.JsonReader value) [static] :124
+// public static explicit operator bool(Uno.Data.Json.JsonReader value) [static]
 bool JsonReader::op_Explicit3(JsonReader* value)
 {
     return uPtr(value)->AsBool();
 }
 
-// public static Uno.Data.Json.JsonReader Parse(string json) [static] :54
+// public static Uno.Data.Json.JsonReader Parse(string json) [static]
 JsonReader* JsonReader::Parse(uString* json)
 {
     return JsonReader::New1(::g::Uno::Data::Json::Parser::Parse(::g::Uno::IO::StringReader::New1(json)));
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonWriter.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonWriter.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class JsonWriter :5
+// public static class JsonWriter
 // {
 static void JsonWriter_build(uType* type)
 {
@@ -587,19 +587,19 @@ uClassType* JsonWriter_typeof()
     return type;
 }
 
-// private static void EscapeString(string str, Uno.Text.StringBuilder sb) :33
+// private static void EscapeString(string str, Uno.Text.StringBuilder sb)
 void JsonWriter__EscapeString1_fn(uString* str, ::g::Uno::Text::StringBuilder* sb)
 {
     JsonWriter::EscapeString1(str, sb);
 }
 
-// public static string QuoteString(string str) :12
+// public static string QuoteString(string str)
 void JsonWriter__QuoteString_fn(uString* str, uString** __retval)
 {
     *__retval = JsonWriter::QuoteString(str);
 }
 
-// private static void EscapeString(string str, Uno.Text.StringBuilder sb) [static] :33
+// private static void EscapeString(string str, Uno.Text.StringBuilder sb) [static]
 void JsonWriter::EscapeString1(uString* str, ::g::Uno::Text::StringBuilder* sb)
 {
     for (int32_t i = 0; i < uPtr(str)->Length(); ++i)
@@ -656,7 +656,7 @@ void JsonWriter::EscapeString1(uString* str, ::g::Uno::Text::StringBuilder* sb)
     }
 }
 
-// public static string QuoteString(string str) [static] :12
+// public static string QuoteString(string str) [static]
 uString* JsonWriter::QuoteString(uString* str)
 {
     ::g::Uno::Text::StringBuilder* sb = ::g::Uno::Text::StringBuilder::New1();
@@ -667,12 +667,12 @@ uString* JsonWriter::QuoteString(uString* str)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonValue.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class Null :10
+// internal sealed class Null
 // {
-// static generated Null() :10
+// static generated Null()
 static void Null__cctor__fn(uType* __type)
 {
     Null::Singleton_ = Null::New1();
@@ -701,13 +701,13 @@ uType* Null_typeof()
     return type;
 }
 
-// private Null() :12
+// private Null()
 void Null__ctor_1_fn(Null* __this)
 {
     __this->ctor_1();
 }
 
-// private Null New() :12
+// private Null New()
 void Null__New1_fn(Null** __retval)
 {
     *__retval = Null::New1();
@@ -715,13 +715,13 @@ void Null__New1_fn(Null** __retval)
 
 uSStrong<Null*> Null::Singleton_;
 
-// private Null() [instance] :12
+// private Null() [instance]
 void Null::ctor_1()
 {
     ctor_();
 }
 
-// private Null New() [static] :12
+// private Null New() [static]
 Null* Null::New1()
 {
     Null* obj1 = (Null*)uNew(Null_typeof());
@@ -730,10 +730,10 @@ Null* Null::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonValue.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class Number :41
+// internal sealed class Number
 // {
 static void Number_build(uType* type)
 {
@@ -756,25 +756,25 @@ uType* Number_typeof()
     return type;
 }
 
-// public Number(double d) :43
+// public Number(double d)
 void Number__ctor_2_fn(Number* __this, double* d)
 {
     __this->ctor_2(*d);
 }
 
-// public Number New(double d) :43
+// public Number New(double d)
 void Number__New1_fn(double* d, Number** __retval)
 {
     *__retval = Number::New1(*d);
 }
 
-// public Number(double d) [instance] :43
+// public Number(double d) [instance]
 void Number::ctor_2(double d)
 {
     ::g::Uno::Data::Json::AtomicValue__ctor_1_fn(this, uCRef(d));
 }
 
-// public Number New(double d) [static] :43
+// public Number New(double d) [static]
 Number* Number::New1(double d)
 {
     Number* obj1 = (Number*)uNew(Number_typeof());
@@ -783,10 +783,10 @@ Number* Number::New1(double d)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonValue.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class Object :51
+// internal sealed class Object
 // {
 static void Object_build(uType* type)
 {
@@ -812,56 +812,56 @@ uType* Object_typeof()
     return type;
 }
 
-// public generated Object() :51
+// public generated Object()
 void Object__ctor_1_fn(Object* __this)
 {
     __this->ctor_1();
 }
 
-// public void Add(string key, Uno.Data.Json.Value val) :76
+// public void Add(string key, Uno.Data.Json.Value val)
 void Object__Add_fn(Object* __this, uString* key, ::g::Uno::Data::Json::Value* val)
 {
     __this->Add(key, val);
 }
 
-// public bool ContainsKey(string key) :84
+// public bool ContainsKey(string key)
 void Object__ContainsKey_fn(Object* __this, uString* key, bool* __retval)
 {
     *__retval = __this->ContainsKey(key);
 }
 
-// public int get_Count() :65
+// public int get_Count()
 void Object__get_Count_fn(Object* __this, int32_t* __retval)
 {
     *__retval = __this->Count();
 }
 
-// public Uno.Data.Json.Value get_Item(string key) :70
+// public Uno.Data.Json.Value get_Item(string key)
 void Object__get_Item_fn(Object* __this, uString* key, ::g::Uno::Data::Json::Value** __retval)
 {
     *__retval = __this->Item(key);
 }
 
-// public string[] get_Keys() :57
+// public string[] get_Keys()
 void Object__get_Keys_fn(Object* __this, uArray** __retval)
 {
     *__retval = __this->Keys();
 }
 
-// public generated Object New() :51
+// public generated Object New()
 void Object__New1_fn(Object** __retval)
 {
     *__retval = Object::New1();
 }
 
-// public generated Object() [instance] :51
+// public generated Object() [instance]
 void Object::ctor_1()
 {
     _values = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[9/*Uno.Collections.Dictionary<string, Uno.Data.Json.Value>*/]));
     ctor_();
 }
 
-// public void Add(string key, Uno.Data.Json.Value val) [instance] :76
+// public void Add(string key, Uno.Data.Json.Value val) [instance]
 void Object::Add(uString* key, ::g::Uno::Data::Json::Value* val)
 {
     bool ret2;
@@ -872,33 +872,33 @@ void Object::Add(uString* key, ::g::Uno::Data::Json::Value* val)
         ::g::Uno::Collections::Dictionary__Add_fn(uPtr(_values), key, val);
 }
 
-// public bool ContainsKey(string key) [instance] :84
+// public bool ContainsKey(string key) [instance]
 bool Object::ContainsKey(uString* key)
 {
     bool ret3;
     return (::g::Uno::Collections::Dictionary__ContainsKey_fn(uPtr(_values), key, &ret3), ret3);
 }
 
-// public int get_Count() [instance] :65
+// public int get_Count() [instance]
 int32_t Object::Count()
 {
     return uPtr(_values)->Count();
 }
 
-// public Uno.Data.Json.Value get_Item(string key) [instance] :70
+// public Uno.Data.Json.Value get_Item(string key) [instance]
 ::g::Uno::Data::Json::Value* Object::Item(uString* key)
 {
     ::g::Uno::Data::Json::Value* ret4;
     return (::g::Uno::Collections::Dictionary__get_Item_fn(uPtr(_values), key, &ret4), ret4);
 }
 
-// public string[] get_Keys() [instance] :57
+// public string[] get_Keys() [instance]
 uArray* Object::Keys()
 {
     return (uArray*)::g::Uno::Collections::EnumerableExtensions::ToArray(::TYPES[10/*Uno.Collections.EnumerableExtensions.ToArray<string>*/], (uObject*)((::g::Uno::Collections::Dictionary__KeyCollection*)uPtr(_values)->Keys()));
 }
 
-// public generated Object New() [static] :51
+// public generated Object New() [static]
 Object* Object::New1()
 {
     Object* obj1 = (Object*)uNew(Object_typeof());
@@ -907,10 +907,10 @@ Object* Object::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/Parser.uno
-// -------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/Parser.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class Parser :8
+// internal sealed class Parser
 // {
 static void Parser_build(uType* type)
 {
@@ -943,157 +943,157 @@ uType* Parser_typeof()
     return type;
 }
 
-// private Parser(Uno.IO.TextReader json) :12
+// private Parser(Uno.IO.TextReader json)
 void Parser__ctor__fn(Parser* __this, ::g::Uno::IO::TextReader* json)
 {
     __this->ctor_(json);
 }
 
-// private void Advance() :308
+// private void Advance()
 void Parser__Advance_fn(Parser* __this)
 {
     __this->Advance();
 }
 
-// private char Consume() :299
+// private char Consume()
 void Parser__Consume_fn(Parser* __this, char16_t* __retval)
 {
     *__retval = __this->Consume();
 }
 
-// private bool Eof() :265
+// private bool Eof()
 void Parser__Eof_fn(Parser* __this, bool* __retval)
 {
     *__retval = __this->Eof();
 }
 
-// private static uint GetHexValue(char hexChar) :257
+// private static uint GetHexValue(char hexChar)
 void Parser__GetHexValue_fn(char16_t* hexChar, uint32_t* __retval)
 {
     *__retval = Parser::GetHexValue(*hexChar);
 }
 
-// private static bool IsHexValue(char ch) :250
+// private static bool IsHexValue(char ch)
 void Parser__IsHexValue_fn(char16_t* ch, bool* __retval)
 {
     *__retval = Parser::IsHexValue(*ch);
 }
 
-// private bool IsNumericStartChar(char c) :125
+// private bool IsNumericStartChar(char c)
 void Parser__IsNumericStartChar_fn(Parser* __this, char16_t* c, bool* __retval)
 {
     *__retval = __this->IsNumericStartChar(*c);
 }
 
-// private Parser New(Uno.IO.TextReader json) :12
+// private Parser New(Uno.IO.TextReader json)
 void Parser__New1_fn(::g::Uno::IO::TextReader* json, Parser** __retval)
 {
     *__retval = Parser::New1(json);
 }
 
-// public static Uno.Data.Json.Value Parse(Uno.IO.TextReader json) :17
+// public static Uno.Data.Json.Value Parse(Uno.IO.TextReader json)
 void Parser__Parse_fn(::g::Uno::IO::TextReader* json, ::g::Uno::Data::Json::Value** __retval)
 {
     *__retval = Parser::Parse(json);
 }
 
-// private Uno.Data.Json.Array ParseArray() :130
+// private Uno.Data.Json.Array ParseArray()
 void Parser__ParseArray_fn(Parser* __this, ::g::Uno::Data::Json::Array** __retval)
 {
     *__retval = __this->ParseArray();
 }
 
-// private Uno.Data.Json.Boolean ParseFalse() :59
+// private Uno.Data.Json.Boolean ParseFalse()
 void Parser__ParseFalse_fn(Parser* __this, ::g::Uno::Data::Json::Boolean** __retval)
 {
     *__retval = __this->ParseFalse();
 }
 
-// private void ParseKeyword(string keyword) :49
+// private void ParseKeyword(string keyword)
 void Parser__ParseKeyword_fn(Parser* __this, uString* keyword)
 {
     __this->ParseKeyword(keyword);
 }
 
-// private Uno.Data.Json.Null ParseNull() :71
+// private Uno.Data.Json.Null ParseNull()
 void Parser__ParseNull_fn(Parser* __this, ::g::Uno::Data::Json::Null** __retval)
 {
     *__retval = __this->ParseNull();
 }
 
-// private Uno.Data.Json.Number ParseNumber() :77
+// private Uno.Data.Json.Number ParseNumber()
 void Parser__ParseNumber_fn(Parser* __this, ::g::Uno::Data::Json::Number** __retval)
 {
     *__retval = __this->ParseNumber();
 }
 
-// private Uno.Data.Json.Object ParseObject() :155
+// private Uno.Data.Json.Object ParseObject()
 void Parser__ParseObject_fn(Parser* __this, ::g::Uno::Data::Json::Object** __retval)
 {
     *__retval = __this->ParseObject();
 }
 
-// private string ParseRawString() :192
+// private string ParseRawString()
 void Parser__ParseRawString_fn(Parser* __this, uString** __retval)
 {
     *__retval = __this->ParseRawString();
 }
 
-// private Uno.Data.Json.String ParseString() :187
+// private Uno.Data.Json.String ParseString()
 void Parser__ParseString_fn(Parser* __this, ::g::Uno::Data::Json::String** __retval)
 {
     *__retval = __this->ParseString();
 }
 
-// private Uno.Data.Json.Boolean ParseTrue() :65
+// private Uno.Data.Json.Boolean ParseTrue()
 void Parser__ParseTrue_fn(Parser* __this, ::g::Uno::Data::Json::Boolean** __retval)
 {
     *__retval = __this->ParseTrue();
 }
 
-// private Uno.Data.Json.Value ParseValue() :26
+// private Uno.Data.Json.Value ParseValue()
 void Parser__ParseValue_fn(Parser* __this, ::g::Uno::Data::Json::Value** __retval)
 {
     *__retval = __this->ParseValue();
 }
 
-// private char Peek() :290
+// private char Peek()
 void Parser__Peek_fn(Parser* __this, char16_t* __retval)
 {
     *__retval = __this->Peek();
 }
 
-// private void SkipWhiteSpace() :270
+// private void SkipWhiteSpace()
 void Parser__SkipWhiteSpace_fn(Parser* __this)
 {
     __this->SkipWhiteSpace();
 }
 
-// private static Uno.Data.Json.JsonException UnexpectedCharacter(char c) :318
+// private static Uno.Data.Json.JsonException UnexpectedCharacter(char c)
 void Parser__UnexpectedCharacter_fn(char16_t* c, ::g::Uno::Data::Json::JsonException** __retval)
 {
     *__retval = Parser::UnexpectedCharacter(*c);
 }
 
-// private static Uno.Data.Json.JsonException UnexpectedEndOfFile() :313
+// private static Uno.Data.Json.JsonException UnexpectedEndOfFile()
 void Parser__UnexpectedEndOfFile_fn(::g::Uno::Data::Json::JsonException** __retval)
 {
     *__retval = Parser::UnexpectedEndOfFile();
 }
 
-// private Parser(Uno.IO.TextReader json) [instance] :12
+// private Parser(Uno.IO.TextReader json) [instance]
 void Parser::ctor_(::g::Uno::IO::TextReader* json)
 {
     _json = json;
 }
 
-// private void Advance() [instance] :308
+// private void Advance() [instance]
 void Parser::Advance()
 {
     uPtr(_json)->Read();
 }
 
-// private char Consume() [instance] :299
+// private char Consume() [instance]
 char16_t Parser::Consume()
 {
     int32_t ret = uPtr(_json)->Read();
@@ -1104,19 +1104,19 @@ char16_t Parser::Consume()
     return (char16_t)ret;
 }
 
-// private bool Eof() [instance] :265
+// private bool Eof() [instance]
 bool Parser::Eof()
 {
     return uPtr(_json)->Peek() < 0;
 }
 
-// private bool IsNumericStartChar(char c) [instance] :125
+// private bool IsNumericStartChar(char c) [instance]
 bool Parser::IsNumericStartChar(char16_t c)
 {
     return ::g::Uno::Char::IsDigit(c) || (c == '-');
 }
 
-// private Uno.Data.Json.Array ParseArray() [instance] :130
+// private Uno.Data.Json.Array ParseArray() [instance]
 ::g::Uno::Data::Json::Array* Parser::ParseArray()
 {
     Advance();
@@ -1155,14 +1155,14 @@ bool Parser::IsNumericStartChar(char16_t c)
     U_THROW(Parser::UnexpectedEndOfFile());
 }
 
-// private Uno.Data.Json.Boolean ParseFalse() [instance] :59
+// private Uno.Data.Json.Boolean ParseFalse() [instance]
 ::g::Uno::Data::Json::Boolean* Parser::ParseFalse()
 {
     ParseKeyword(::STRINGS[11/*"false"*/]);
     return ::g::Uno::Data::Json::Boolean::False();
 }
 
-// private void ParseKeyword(string keyword) [instance] :49
+// private void ParseKeyword(string keyword) [instance]
 void Parser::ParseKeyword(uString* keyword)
 {
     for (int32_t i = 0; i < uPtr(keyword)->Length(); ++i)
@@ -1174,14 +1174,14 @@ void Parser::ParseKeyword(uString* keyword)
     }
 }
 
-// private Uno.Data.Json.Null ParseNull() [instance] :71
+// private Uno.Data.Json.Null ParseNull() [instance]
 ::g::Uno::Data::Json::Null* Parser::ParseNull()
 {
     ParseKeyword(::STRINGS[12/*"null"*/]);
     return ::g::Uno::Data::Json::Null::Singleton();
 }
 
-// private Uno.Data.Json.Number ParseNumber() [instance] :77
+// private Uno.Data.Json.Number ParseNumber() [instance]
 ::g::Uno::Data::Json::Number* Parser::ParseNumber()
 {
     ::g::Uno::Text::StringBuilder* sb = ::g::Uno::Text::StringBuilder::New1();
@@ -1230,7 +1230,7 @@ void Parser::ParseKeyword(uString* keyword)
     return ::g::Uno::Data::Json::Number::New1(::g::Uno::Double::Parse(sb->ToString()));
 }
 
-// private Uno.Data.Json.Object ParseObject() [instance] :155
+// private Uno.Data.Json.Object ParseObject() [instance]
 ::g::Uno::Data::Json::Object* Parser::ParseObject()
 {
     Advance();
@@ -1277,7 +1277,7 @@ void Parser::ParseKeyword(uString* keyword)
     U_THROW(Parser::UnexpectedEndOfFile());
 }
 
-// private string ParseRawString() [instance] :192
+// private string ParseRawString() [instance]
 uString* Parser::ParseRawString()
 {
     char16_t ch = Consume();
@@ -1370,20 +1370,20 @@ uString* Parser::ParseRawString()
     return sb->ToString();
 }
 
-// private Uno.Data.Json.String ParseString() [instance] :187
+// private Uno.Data.Json.String ParseString() [instance]
 ::g::Uno::Data::Json::String* Parser::ParseString()
 {
     return ::g::Uno::Data::Json::String::New1(ParseRawString());
 }
 
-// private Uno.Data.Json.Boolean ParseTrue() [instance] :65
+// private Uno.Data.Json.Boolean ParseTrue() [instance]
 ::g::Uno::Data::Json::Boolean* Parser::ParseTrue()
 {
     ParseKeyword(::STRINGS[14/*"true"*/]);
     return ::g::Uno::Data::Json::Boolean::True();
 }
 
-// private Uno.Data.Json.Value ParseValue() [instance] :26
+// private Uno.Data.Json.Value ParseValue() [instance]
 ::g::Uno::Data::Json::Value* Parser::ParseValue()
 {
     if (Eof())
@@ -1416,7 +1416,7 @@ uString* Parser::ParseRawString()
     }
 }
 
-// private char Peek() [instance] :290
+// private char Peek() [instance]
 char16_t Parser::Peek()
 {
     int32_t ret = uPtr(_json)->Peek();
@@ -1427,7 +1427,7 @@ char16_t Parser::Peek()
     return (char16_t)ret;
 }
 
-// private void SkipWhiteSpace() [instance] :270
+// private void SkipWhiteSpace() [instance]
 void Parser::SkipWhiteSpace()
 {
     while (!Eof())
@@ -1450,7 +1450,7 @@ void Parser::SkipWhiteSpace()
     }
 }
 
-// private static uint GetHexValue(char hexChar) [static] :257
+// private static uint GetHexValue(char hexChar) [static]
 uint32_t Parser::GetHexValue(char16_t hexChar)
 {
     if ((uint32_t)hexChar >= 65U)
@@ -1459,13 +1459,13 @@ uint32_t Parser::GetHexValue(char16_t hexChar)
         return (uint32_t)hexChar - 48U;
 }
 
-// private static bool IsHexValue(char ch) [static] :250
+// private static bool IsHexValue(char ch) [static]
 bool Parser::IsHexValue(char16_t ch)
 {
     return (((ch >= '0') && (ch <= '9')) || ((ch >= 'a') && (ch <= 'f'))) || ((ch >= 'A') && (ch <= 'F'));
 }
 
-// private Parser New(Uno.IO.TextReader json) [static] :12
+// private Parser New(Uno.IO.TextReader json) [static]
 Parser* Parser::New1(::g::Uno::IO::TextReader* json)
 {
     Parser* obj1 = (Parser*)uNew(Parser_typeof());
@@ -1473,7 +1473,7 @@ Parser* Parser::New1(::g::Uno::IO::TextReader* json)
     return obj1;
 }
 
-// public static Uno.Data.Json.Value Parse(Uno.IO.TextReader json) [static] :17
+// public static Uno.Data.Json.Value Parse(Uno.IO.TextReader json) [static]
 ::g::Uno::Data::Json::Value* Parser::Parse(::g::Uno::IO::TextReader* json)
 {
     Parser* p = Parser::New1(json);
@@ -1486,23 +1486,23 @@ Parser* Parser::New1(::g::Uno::IO::TextReader* json)
     return v;
 }
 
-// private static Uno.Data.Json.JsonException UnexpectedCharacter(char c) [static] :318
+// private static Uno.Data.Json.JsonException UnexpectedCharacter(char c) [static]
 ::g::Uno::Data::Json::JsonException* Parser::UnexpectedCharacter(char16_t c)
 {
     return ::g::Uno::Data::Json::JsonException::New4(::g::Uno::String::op_Addition1(::STRINGS[15/*"Unexpected ...*/], uBox<char16_t>(::g::Uno::Char_typeof(), c)));
 }
 
-// private static Uno.Data.Json.JsonException UnexpectedEndOfFile() [static] :313
+// private static Uno.Data.Json.JsonException UnexpectedEndOfFile() [static]
 ::g::Uno::Data::Json::JsonException* Parser::UnexpectedEndOfFile()
 {
     return ::g::Uno::Data::Json::JsonException::New4(::STRINGS[16/*"Unexpected ...*/]);
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonValue.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class String :46
+// internal sealed class String
 // {
 static void String_build(uType* type)
 {
@@ -1525,25 +1525,25 @@ uType* String_typeof()
     return type;
 }
 
-// public String(string d) :48
+// public String(string d)
 void String__ctor_2_fn(String* __this, uString* d)
 {
     __this->ctor_2(d);
 }
 
-// public String New(string d) :48
+// public String New(string d)
 void String__New1_fn(uString* d, String** __retval)
 {
     *__retval = String::New1(d);
 }
 
-// public String(string d) [instance] :48
+// public String(string d) [instance]
 void String::ctor_2(uString* d)
 {
     ::g::Uno::Data::Json::AtomicValue__ctor_1_fn(this, d);
 }
 
-// public String New(string d) [static] :48
+// public String New(string d) [static]
 String* String::New1(uString* d)
 {
     String* obj1 = (String*)uNew(String_typeof());
@@ -1552,10 +1552,10 @@ String* String::New1(uString* d)
 }
 // }
 
-// /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonValue.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonValue.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract class Value :6
+// internal abstract class Value
 // {
 static void Value_build(uType* type)
 {
@@ -1574,13 +1574,13 @@ uType* Value_typeof()
     return type;
 }
 
-// protected generated Value() :6
+// protected generated Value()
 void Value__ctor__fn(Value* __this)
 {
     __this->ctor_();
 }
 
-// protected generated Value() [instance] :6
+// protected generated Value() [instance]
 void Value::ctor_()
 {
 }

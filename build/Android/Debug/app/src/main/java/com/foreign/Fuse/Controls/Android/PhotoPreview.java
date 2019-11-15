@@ -23,25 +23,25 @@ public class PhotoPreview
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object NewImageView320()
+    public static Object NewImageView323()
     {
-        android.widget.ImageView imageView = new android.widget.ImageView(fi.samk.mood_cal.Kalenteri.GetRootActivity());
+        android.widget.ImageView imageView = new android.widget.ImageView(com.fuse.Activity.getRootActivity());
         imageView.setCropToPadding(true);
         imageView.setScaleType(android.widget.ImageView.ScaleType.CENTER_INSIDE);
         return imageView;
     }
     
-    public static void SetCenterCrop321(final Object imageView)
+    public static void SetCenterCrop324(final Object imageView)
     {
         ((android.widget.ImageView)imageView).setScaleType(android.widget.ImageView.ScaleType.CENTER_CROP);
     }
     
-    public static void SetCenterInside322(final Object imageView)
+    public static void SetCenterInside325(final Object imageView)
     {
         ((android.widget.ImageView)imageView).setScaleType(android.widget.ImageView.ScaleType.CENTER_INSIDE);
     }
     
-    public static void SetImageBitmap323(final Object imageView,final Object bitmap)
+    public static void SetImageBitmap326(final Object imageView,final Object bitmap)
     {
         ((android.widget.ImageView)imageView).setImageBitmap((android.graphics.Bitmap)bitmap);
     }

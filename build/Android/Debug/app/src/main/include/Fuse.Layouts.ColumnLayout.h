@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Layouts/ColumnLayout.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Layouts/ColumnLayout.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -14,7 +14,7 @@ namespace g{
 namespace Fuse{
 namespace Layouts{
 
-// public sealed class ColumnLayout :28
+// public sealed class ColumnLayout
 // {
 ::g::Fuse::Layouts::Layout_type* ColumnLayout_typeof();
 void ColumnLayout__Arrange_fn(ColumnLayout* __this, ::g::Fuse::Visual* container, ::g::Fuse::LayoutParams* lp, bool* doArrange, ::g::Uno::Float4* padding, ::g::Uno::Float2* __retval);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/PhotoOption.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.CameraView/1.12.0/PhotoOption.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public sealed class PhotoResolution :28
+// public sealed class PhotoResolution
 // {
 uType* PhotoResolution_typeof();
 void PhotoResolution__ctor_1_fn(PhotoResolution* __this, int32_t* width, int32_t* height);

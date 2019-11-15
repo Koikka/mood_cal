@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/FutureExtensions.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.CameraView/1.12.0/FutureExtensions.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// internal static class FutureExtensions :6
+// internal static class FutureExtensions
 // {
 uClassType* FutureExtensions_typeof();
 void FutureExtensions__Intercept_fn(uType* __type, ::g::Uno::Threading::Future1* future, uDelegate* callback, ::g::Uno::Threading::Future1** __retval);

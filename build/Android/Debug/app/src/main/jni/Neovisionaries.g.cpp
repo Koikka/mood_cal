@@ -2,24 +2,24 @@
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Android.Base.Wrappers.JWrapper.h>
-#include <Android.Base.Wrappers-88f7a41f.h>
+#include <Android.Base.Wrappers-4c0b8613.h>
 #include <Java.Object.h>
 #include <jni.h>
 #include <Neovisionaries.WebSocketClient.h>
 #include <Uno.Action.h>
 #include <Uno.Action1-1.h>
 #include <Uno.Byte.h>
-#include <Uno.Compiler.ExportTa-39be7c2b.h>
+#include <Uno.Compiler.ExportTa-2429dd1f.h>
 #include <Uno.String.h>
 #include <Uno/JNIHelper.h>
 
 namespace g{
 namespace Neovisionaries{
 
-// /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/Android/Neovisionaries/WebSocketClient.uno
-// ----------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.WebSockets/1.12.0/Android/Neovisionaries/WebSocketClient.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class WebSocketClient :13
+// internal sealed extern class WebSocketClient
 // {
 static void WebSocketClient_build(uType* type)
 {
@@ -52,66 +52,66 @@ WebSocketClient_type* WebSocketClient_typeof()
     return type;
 }
 
-// public generated WebSocketClient() :13
+// public generated WebSocketClient()
 void WebSocketClient__ctor__fn(WebSocketClient* __this)
 {
     __this->ctor_();
 }
 
-// public void Close() :76
+// public void Close()
 void WebSocketClient__Close_fn(WebSocketClient* __this)
 {
     __this->Close();
 }
 
-// public void Connect() :69
+// public void Connect()
 void WebSocketClient__Connect_fn(WebSocketClient* __this)
 {
     __this->Connect();
 }
 
-// public void Create(string url, string[] protocols, Uno.Action open, Uno.Action close, Uno.Action<string> error, Uno.Action<string> receiveMessageHandler, Uno.Action<byte[]> receiveDataHandler) :18
+// public void Create(string url, string[] protocols, Uno.Action open, Uno.Action close, Uno.Action<string> error, Uno.Action<string> receiveMessageHandler, Uno.Action<byte[]> receiveDataHandler)
 void WebSocketClient__Create_fn(WebSocketClient* __this, uString* url, uArray* protocols, uDelegate* open, uDelegate* close, uDelegate* error, uDelegate* receiveMessageHandler, uDelegate* receiveDataHandler)
 {
     __this->Create(url, protocols, open, close, error, receiveMessageHandler, receiveDataHandler);
 }
 
-// public void Dispose() :103
+// public void Dispose()
 void WebSocketClient__Dispose_fn(WebSocketClient* __this)
 {
     __this->Dispose();
 }
 
-// public generated WebSocketClient New() :13
+// public generated WebSocketClient New()
 void WebSocketClient__New1_fn(WebSocketClient** __retval)
 {
     *__retval = WebSocketClient::New1();
 }
 
-// public void Send(byte[] data) :90
+// public void Send(byte[] data)
 void WebSocketClient__Send_fn(WebSocketClient* __this, uArray* data)
 {
     __this->Send(data);
 }
 
-// public void Send(string data) :83
+// public void Send(string data)
 void WebSocketClient__Send1_fn(WebSocketClient* __this, uString* data)
 {
     __this->Send1(data);
 }
 
-// public generated WebSocketClient() [instance] :13
+// public generated WebSocketClient() [instance]
 void WebSocketClient::ctor_()
 {
 }
 
-// public void Close() [instance] :76
+// public void Close() [instance]
 void WebSocketClient::Close()
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Close427", "(Lcom/uno/UnoObject;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Close437", "(Lcom/uno/UnoObject;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_this_);
@@ -123,13 +123,13 @@ void WebSocketClient::Close()
     
 }
 
-// public void Connect() [instance] :69
+// public void Connect() [instance]
 void WebSocketClient::Connect()
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Connect429", "(Lcom/uno/UnoObject;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Connect439", "(Lcom/uno/UnoObject;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_this_);
@@ -141,13 +141,13 @@ void WebSocketClient::Connect()
     
 }
 
-// public void Create(string url, string[] protocols, Uno.Action open, Uno.Action close, Uno.Action<string> error, Uno.Action<string> receiveMessageHandler, Uno.Action<byte[]> receiveDataHandler) [instance] :18
+// public void Create(string url, string[] protocols, Uno.Action open, Uno.Action close, Uno.Action<string> error, Uno.Action<string> receiveMessageHandler, Uno.Action<byte[]> receiveDataHandler) [instance]
 void WebSocketClient::Create(uString* url, uArray* protocols, uDelegate* open, uDelegate* close, uDelegate* error, uDelegate* receiveMessageHandler, uDelegate* receiveDataHandler)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Create430", "(Lcom/uno/UnoObject;Ljava/lang/String;Lcom/uno/StringArray;Lcom/foreign/Uno/Action;Lcom/foreign/Uno/Action;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_ByteArray;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Create440", "(Lcom/uno/UnoObject;Ljava/lang/String;Lcom/uno/StringArray;Lcom/foreign/Uno/Action;Lcom/foreign/Uno/Action;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_ByteArray;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         uString* _uurl=url;
@@ -180,19 +180,19 @@ void WebSocketClient::Create(uString* url, uArray* protocols, uDelegate* open, u
     
 }
 
-// public void Dispose() [instance] :103
+// public void Dispose() [instance]
 void WebSocketClient::Dispose()
 {
     _webSocket = NULL;
 }
 
-// public void Send(byte[] data) [instance] :90
+// public void Send(byte[] data) [instance]
 void WebSocketClient::Send(uArray* data)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Send431", "(Lcom/uno/UnoObject;Lcom/uno/ByteArray;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Send441", "(Lcom/uno/UnoObject;Lcom/uno/ByteArray;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         uArray* _udata=data;
@@ -207,13 +207,13 @@ void WebSocketClient::Send(uArray* data)
     
 }
 
-// public void Send(string data) [instance] :83
+// public void Send(string data) [instance]
 void WebSocketClient::Send1(uString* data)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Send1432", "(Lcom/uno/UnoObject;Ljava/lang/String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Send1442", "(Lcom/uno/UnoObject;Ljava/lang/String;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         uString* _udata=data;
@@ -228,7 +228,7 @@ void WebSocketClient::Send1(uString* data)
     
 }
 
-// public generated WebSocketClient New() [static] :13
+// public generated WebSocketClient New() [static]
 WebSocketClient* WebSocketClient::New1()
 {
     WebSocketClient* obj1 = (WebSocketClient*)uNew(WebSocketClient_typeof());

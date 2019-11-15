@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.WebView/1.9.0/WebView.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.WebView/1.12.0/WebView.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,12 +13,12 @@
 #include <Fuse.IProperties.h>
 #include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
-#include <Fuse.Navigation.IBase-84e3f965.h>
+#include <Fuse.Navigation.IBase-516f1dcd.h>
 #include <Fuse.Node.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Triggers.IProgress.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
@@ -34,7 +34,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public partial sealed class WebView :125
+// public partial sealed class WebView
 // {
 struct WebView_type : ::g::Fuse::Controls::Panel_type
 {

@@ -40,7 +40,13 @@
                   android:windowSoftInputMode="adjustResize"
                   android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
 
-android:screenOrientation="portrait"
+                  android:screenOrientation="portrait"
+
+
+
+
+
+
 
 
 
@@ -59,6 +65,16 @@ android:screenOrientation="portrait"
 
                 
             </intent-filter>
+            
+
+
+
+
+
+
+
+
+
 
             <intent-filter>
     <action android:name="fuseFirebaseBackgroundNotify" />
@@ -67,6 +83,24 @@ android:screenOrientation="portrait"
         </activity>
 
 
+        <provider
+	android:name="com.fuse.fileprovider.CameraFileProvider"
+	android:authorities="fi.samk.mood_cal.camera_file_provider"
+	android:exported="false"
+	android:grantUriPermissions="true">
+	<meta-data
+		android:name="android.support.FILE_PROVIDER_PATHS"
+		android:resource="@xml/android_camera_paths" />
+</provider>
+        <provider
+	android:name="com.fuse.fileprovider.ShareFileProvider"
+	android:authorities="fi.samk.mood_cal.share_file_provider"
+	android:exported="false"
+	android:grantUriPermissions="true">
+	<meta-data
+		android:name="android.support.FILE_PROVIDER_PATHS"
+		android:resource="@xml/android_share_paths" />
+</provider>
         <meta-data android:name="com.google.firebase.messaging.default_notification_icon"
            android:resource="@mipmap/notif" />
 

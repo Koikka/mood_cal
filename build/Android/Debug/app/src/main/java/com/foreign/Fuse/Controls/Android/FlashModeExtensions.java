@@ -23,7 +23,7 @@ public class FlashModeExtensions
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static boolean IsSupported1308(final String flashMode,final Object cameraHandle)
+    public static boolean IsSupported1311(final String flashMode,final Object cameraHandle)
     {
         java.util.List<String> flashModes = ((android.hardware.Camera)cameraHandle).getParameters().getSupportedFlashModes();
         if (flashModes == null)

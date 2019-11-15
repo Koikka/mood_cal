@@ -23,17 +23,17 @@ public class NativeViewRenderer
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object AllocPixelBuffer243(final int w,final int h)
+    public static Object AllocPixelBuffer245(final int w,final int h)
     {
         return android.graphics.Bitmap.createBitmap(w, h, android.graphics.Bitmap.Config.ARGB_8888);
     }
     
-    public static void FreePixelBuffer244(final Object bitmap)
+    public static void FreePixelBuffer246(final Object bitmap)
     {
         ((android.graphics.Bitmap)bitmap).recycle();
     }
     
-    public static void Upload245(final Object viewHandle,final Object pixelBuffer,final boolean reuse,final int w,final int h)
+    public static void Upload247(final Object viewHandle,final Object pixelBuffer,final boolean reuse,final int w,final int h)
     {
         android.view.View view = (android.view.View)viewHandle;
         

@@ -11,11 +11,11 @@
 #include <Fuse.Scripting.NativeMember.h>
 #include <Fuse.Scripting.NativeModule.h>
 #include <Fuse.Scripting.Object.h>
-#include <Fuse.WebSocket.IWebSo-b6556b9.h>
-#include <Fuse.WebSocket.Native-505d0c55.h>
-#include <Fuse.WebSocket.Native-9d2202e4.h>
-#include <Fuse.WebSocket.WebSoc-2254f404.h>
-#include <Fuse.WebSocket.WebSoc-48199f2b.h>
+#include <Fuse.WebSocket.IWebSo-1f6b23d4.h>
+#include <Fuse.WebSocket.Native-12bd070b.h>
+#include <Fuse.WebSocket.Native-6bc93009.h>
+#include <Fuse.WebSocket.WebSoc-15230842.h>
+#include <Fuse.WebSocket.WebSoc-203b2252.h>
 #include <Fuse.WebSocket.WebSocketClient.h>
 #include <Neovisionaries.WebSocketClient.h>
 #include <Uno.Action.h>
@@ -39,10 +39,10 @@ namespace g{
 namespace Fuse{
 namespace WebSocket{
 
-// /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/WebSocketModule.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.WebSockets/1.12.0/WebSocketModule.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class NativeFunctionModule.FunctionClosure :30
+// private sealed class NativeFunctionModule.FunctionClosure
 // {
 static void NativeFunctionModule__FunctionClosure_build(uType* type)
 {
@@ -66,50 +66,50 @@ uType* NativeFunctionModule__FunctionClosure_typeof()
     return type;
 }
 
-// public FunctionClosure(Fuse.Scripting.Context context, Uno.Func<Fuse.Scripting.Context, object[], object> callback) :35
+// public FunctionClosure(Fuse.Scripting.Context context, Uno.Func<Fuse.Scripting.Context, object[], object> callback)
 void NativeFunctionModule__FunctionClosure__ctor__fn(NativeFunctionModule__FunctionClosure* __this, ::g::Fuse::Scripting::Context* context, uDelegate* callback)
 {
     __this->ctor_(context, callback);
 }
 
-// public Fuse.Scripting.Callback get_Callback() :48
+// public Fuse.Scripting.Callback get_Callback()
 void NativeFunctionModule__FunctionClosure__get_Callback_fn(NativeFunctionModule__FunctionClosure* __this, uDelegate** __retval)
 {
     *__retval = __this->Callback();
 }
 
-// private object function(Fuse.Scripting.Context context, object[] args) :41
+// private object function(Fuse.Scripting.Context context, object[] args)
 void NativeFunctionModule__FunctionClosure__function_fn(NativeFunctionModule__FunctionClosure* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->function(context, args);
 }
 
-// public FunctionClosure New(Fuse.Scripting.Context context, Uno.Func<Fuse.Scripting.Context, object[], object> callback) :35
+// public FunctionClosure New(Fuse.Scripting.Context context, Uno.Func<Fuse.Scripting.Context, object[], object> callback)
 void NativeFunctionModule__FunctionClosure__New1_fn(::g::Fuse::Scripting::Context* context, uDelegate* callback, NativeFunctionModule__FunctionClosure** __retval)
 {
     *__retval = NativeFunctionModule__FunctionClosure::New1(context, callback);
 }
 
-// public FunctionClosure(Fuse.Scripting.Context context, Uno.Func<Fuse.Scripting.Context, object[], object> callback) [instance] :35
+// public FunctionClosure(Fuse.Scripting.Context context, Uno.Func<Fuse.Scripting.Context, object[], object> callback) [instance]
 void NativeFunctionModule__FunctionClosure::ctor_(::g::Fuse::Scripting::Context* context, uDelegate* callback)
 {
     _context = context;
     _callback = callback;
 }
 
-// public Fuse.Scripting.Callback get_Callback() [instance] :48
+// public Fuse.Scripting.Callback get_Callback() [instance]
 uDelegate* NativeFunctionModule__FunctionClosure::Callback()
 {
     return uDelegate::New(::TYPES[0/*Fuse.Scripting.Callback*/], (void*)NativeFunctionModule__FunctionClosure__function_fn, this);
 }
 
-// private object function(Fuse.Scripting.Context context, object[] args) [instance] :41
+// private object function(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* NativeFunctionModule__FunctionClosure::function(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     return uPtr(_callback)->Invoke(2, (::g::Fuse::Scripting::Context*)_context, args);
 }
 
-// public FunctionClosure New(Fuse.Scripting.Context context, Uno.Func<Fuse.Scripting.Context, object[], object> callback) [static] :35
+// public FunctionClosure New(Fuse.Scripting.Context context, Uno.Func<Fuse.Scripting.Context, object[], object> callback) [static]
 NativeFunctionModule__FunctionClosure* NativeFunctionModule__FunctionClosure::New1(::g::Fuse::Scripting::Context* context, uDelegate* callback)
 {
     NativeFunctionModule__FunctionClosure* obj1 = (NativeFunctionModule__FunctionClosure*)uNew(NativeFunctionModule__FunctionClosure_typeof());
@@ -118,10 +118,10 @@ NativeFunctionModule__FunctionClosure* NativeFunctionModule__FunctionClosure::Ne
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/WebSocketClient.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.WebSockets/1.12.0/WebSocketClient.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract interface IWebSocketClient :81
+// internal abstract interface IWebSocketClient
 // {
 uInterfaceType* IWebSocketClient_typeof()
 {
@@ -133,10 +133,10 @@ uInterfaceType* IWebSocketClient_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/WebSocketModule.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.WebSockets/1.12.0/WebSocketModule.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class NativeFunctionModule :10
+// public abstract class NativeFunctionModule
 // {
 static void NativeFunctionModule_build(uType* type)
 {
@@ -169,13 +169,13 @@ NativeFunctionModule_type* NativeFunctionModule_typeof()
     return type;
 }
 
-// protected NativeFunctionModule(string name) :14
+// protected NativeFunctionModule(string name)
 void NativeFunctionModule__ctor_2_fn(NativeFunctionModule* __this, uString* name)
 {
     __this->ctor_2(name);
 }
 
-// public override sealed void Evaluate(Fuse.Scripting.Context c, Fuse.Scripting.ModuleResult result) :23
+// public override sealed void Evaluate(Fuse.Scripting.Context c, Fuse.Scripting.ModuleResult result)
 void NativeFunctionModule__Evaluate_fn(NativeFunctionModule* __this, ::g::Fuse::Scripting::Context* c, ::g::Fuse::Scripting::ModuleResult* result)
 {
     uPtr(uPtr(result)->GetObject(c))->Item(uString::Const("exports"), NativeFunctionModule__FunctionClosure::New1(c, uDelegate::New(::g::Uno::Func2_typeof()->MakeType(::g::Fuse::Scripting::Context_typeof(), ::TYPES[6/*object[]*/], uObject_typeof(), NULL), __this, offsetof(NativeFunctionModule_type, fp_Create)))->Callback());
@@ -183,7 +183,7 @@ void NativeFunctionModule__Evaluate_fn(NativeFunctionModule* __this, ::g::Fuse::
 
 uSStrong<NativeFunctionModule*> NativeFunctionModule::_instance_;
 
-// protected NativeFunctionModule(string name) [instance] :14
+// protected NativeFunctionModule(string name) [instance]
 void NativeFunctionModule::ctor_2(uString* name)
 {
     ctor_1();
@@ -198,10 +198,10 @@ void NativeFunctionModule::ctor_2(uString* name)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/WebSocketClient.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.WebSockets/1.12.0/WebSocketClient.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WebSocketClient :6
+// public sealed class WebSocketClient
 // {
 static void WebSocketClient_build(uType* type)
 {
@@ -232,139 +232,139 @@ uType* WebSocketClient_typeof()
     return type;
 }
 
-// public WebSocketClient(string uri, string[] protocols) :46
+// public WebSocketClient(string uri, string[] protocols)
 void WebSocketClient__ctor__fn(WebSocketClient* __this, uString* uri, uArray* protocols)
 {
     __this->ctor_(uri, protocols);
 }
 
-// public void Close() :75
+// public void Close()
 void WebSocketClient__Close_fn(WebSocketClient* __this)
 {
     __this->Close();
 }
 
-// public void Connect() :70
+// public void Connect()
 void WebSocketClient__Connect_fn(WebSocketClient* __this)
 {
     __this->Connect();
 }
 
-// public WebSocketClient New(string uri, string[] protocols) :46
+// public WebSocketClient New(string uri, string[] protocols)
 void WebSocketClient__New1_fn(uString* uri, uArray* protocols, WebSocketClient** __retval)
 {
     *__retval = WebSocketClient::New1(uri, protocols);
 }
 
-// private void OnClose() :22
+// private void OnClose()
 void WebSocketClient__OnClose_fn(WebSocketClient* __this)
 {
     __this->OnClose();
 }
 
-// private void OnError(string error) :40
+// private void OnError(string error)
 void WebSocketClient__OnError_fn(WebSocketClient* __this, uString* error)
 {
     __this->OnError(error);
 }
 
-// private void OnOpen() :16
+// private void OnOpen()
 void WebSocketClient__OnOpen_fn(WebSocketClient* __this)
 {
     __this->OnOpen();
 }
 
-// private void OnReceiveData(byte[] data) :34
+// private void OnReceiveData(byte[] data)
 void WebSocketClient__OnReceiveData_fn(WebSocketClient* __this, uArray* data)
 {
     __this->OnReceiveData(data);
 }
 
-// private void OnReceiveMessage(string message) :28
+// private void OnReceiveMessage(string message)
 void WebSocketClient__OnReceiveMessage_fn(WebSocketClient* __this, uString* message)
 {
     __this->OnReceiveMessage(message);
 }
 
-// public void Send(byte[] data) :65
+// public void Send(byte[] data)
 void WebSocketClient__Send_fn(WebSocketClient* __this, uArray* data)
 {
     __this->Send(data);
 }
 
-// public void Send(string data) :60
+// public void Send(string data)
 void WebSocketClient__Send1_fn(WebSocketClient* __this, uString* data)
 {
     __this->Send1(data);
 }
 
-// public WebSocketClient(string uri, string[] protocols) [instance] :46
+// public WebSocketClient(string uri, string[] protocols) [instance]
 void WebSocketClient::ctor_(uString* uri, uArray* protocols)
 {
     _client = (uObject*)::g::Neovisionaries::WebSocketClient::New1();
     ::g::Fuse::WebSocket::IWebSocketClient::Create(uInterface(uPtr(_client), ::TYPES[1/*Fuse.WebSocket.IWebSocketClient*/]), uri, protocols, uDelegate::New(::TYPES[2/*Uno.Action*/], (void*)WebSocketClient__OnOpen_fn, this), uDelegate::New(::TYPES[2/*Uno.Action*/], (void*)WebSocketClient__OnClose_fn, this), uDelegate::New(::TYPES[3/*Uno.Action<string>*/], (void*)WebSocketClient__OnError_fn, this), uDelegate::New(::TYPES[3/*Uno.Action<string>*/], (void*)WebSocketClient__OnReceiveMessage_fn, this), uDelegate::New(::TYPES[4/*Uno.Action<byte[]>*/], (void*)WebSocketClient__OnReceiveData_fn, this));
 }
 
-// public void Close() [instance] :75
+// public void Close() [instance]
 void WebSocketClient::Close()
 {
     ::g::Fuse::WebSocket::IWebSocketClient::Close(uInterface(uPtr(_client), ::TYPES[1/*Fuse.WebSocket.IWebSocketClient*/]));
 }
 
-// public void Connect() [instance] :70
+// public void Connect() [instance]
 void WebSocketClient::Connect()
 {
     ::g::Fuse::WebSocket::IWebSocketClient::Connect(uInterface(uPtr(_client), ::TYPES[1/*Fuse.WebSocket.IWebSocketClient*/]));
 }
 
-// private void OnClose() [instance] :22
+// private void OnClose() [instance]
 void WebSocketClient::OnClose()
 {
     if (::g::Uno::Delegate::op_Inequality(Closed, NULL))
         uPtr(Closed)->InvokeVoid();
 }
 
-// private void OnError(string error) [instance] :40
+// private void OnError(string error) [instance]
 void WebSocketClient::OnError(uString* error)
 {
     if (::g::Uno::Delegate::op_Inequality(ErrorReceived, NULL))
         uPtr(ErrorReceived)->InvokeVoid(error);
 }
 
-// private void OnOpen() [instance] :16
+// private void OnOpen() [instance]
 void WebSocketClient::OnOpen()
 {
     if (::g::Uno::Delegate::op_Inequality(Opened, NULL))
         uPtr(Opened)->InvokeVoid();
 }
 
-// private void OnReceiveData(byte[] data) [instance] :34
+// private void OnReceiveData(byte[] data) [instance]
 void WebSocketClient::OnReceiveData(uArray* data)
 {
     if (::g::Uno::Delegate::op_Inequality(DataReceived, NULL))
         uPtr(DataReceived)->InvokeVoid(data);
 }
 
-// private void OnReceiveMessage(string message) [instance] :28
+// private void OnReceiveMessage(string message) [instance]
 void WebSocketClient::OnReceiveMessage(uString* message)
 {
     if (::g::Uno::Delegate::op_Inequality(MessageReceived, NULL))
         uPtr(MessageReceived)->InvokeVoid(message);
 }
 
-// public void Send(byte[] data) [instance] :65
+// public void Send(byte[] data) [instance]
 void WebSocketClient::Send(uArray* data)
 {
     ::g::Fuse::WebSocket::IWebSocketClient::Send(uInterface(uPtr(_client), ::TYPES[1/*Fuse.WebSocket.IWebSocketClient*/]), data);
 }
 
-// public void Send(string data) [instance] :60
+// public void Send(string data) [instance]
 void WebSocketClient::Send1(uString* data)
 {
     ::g::Fuse::WebSocket::IWebSocketClient::Send1(uInterface(uPtr(_client), ::TYPES[1/*Fuse.WebSocket.IWebSocketClient*/]), data);
 }
 
-// public WebSocketClient New(string uri, string[] protocols) [static] :46
+// public WebSocketClient New(string uri, string[] protocols) [static]
 WebSocketClient* WebSocketClient::New1(uString* uri, uArray* protocols)
 {
     WebSocketClient* obj1 = (WebSocketClient*)uNew(WebSocketClient_typeof());
@@ -373,10 +373,10 @@ WebSocketClient* WebSocketClient::New1(uString* uri, uArray* protocols)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/WebSocketModule.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.WebSockets/1.12.0/WebSocketModule.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class WebSocketClientModule :54
+// public sealed class WebSocketClientModule
 // {
 static void WebSocketClientModule_build(uType* type)
 {
@@ -408,43 +408,43 @@ static void WebSocketClientModule_build(uType* type)
     return type;
 }
 
-// public WebSocketClientModule() :56
+// public WebSocketClientModule()
 void WebSocketClientModule__ctor_3_fn(WebSocketClientModule* __this)
 {
     __this->ctor_3();
 }
 
-// protected override sealed object Create(Fuse.Scripting.Context context, object[] args) :65
+// protected override sealed object Create(Fuse.Scripting.Context context, object[] args)
 void WebSocketClientModule__Create_fn(WebSocketClientModule* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     return *__retval = ::g::Fuse::WebSocket::WebSocketClientWrapper::New3(args)->EvaluateExports(context, NULL), void();
 }
 
-// public WebSocketClientModule New() :56
+// public WebSocketClientModule New()
 void WebSocketClientModule__New2_fn(WebSocketClientModule** __retval)
 {
     *__retval = WebSocketClientModule::New2();
 }
 
-// public void OnReset(object o, Uno.EventArgs e) :61
+// public void OnReset(object o, Uno.EventArgs e)
 void WebSocketClientModule__OnReset_fn(WebSocketClientModule* __this, uObject* o, ::g::Uno::EventArgs* e)
 {
     __this->OnReset(o, e);
 }
 
-// public WebSocketClientModule() [instance] :56
+// public WebSocketClientModule() [instance]
 void WebSocketClientModule::ctor_3()
 {
     ctor_2(::STRINGS[0/*"FuseJS/WebS...*/]);
     add_Reset(uDelegate::New(::TYPES[5/*Uno.EventHandler*/], (void*)WebSocketClientModule__OnReset_fn, this));
 }
 
-// public void OnReset(object o, Uno.EventArgs e) [instance] :61
+// public void OnReset(object o, Uno.EventArgs e) [instance]
 void WebSocketClientModule::OnReset(uObject* o, ::g::Uno::EventArgs* e)
 {
 }
 
-// public WebSocketClientModule New() [static] :56
+// public WebSocketClientModule New() [static]
 WebSocketClientModule* WebSocketClientModule::New2()
 {
     WebSocketClientModule* obj1 = (WebSocketClientModule*)uNew(WebSocketClientModule_typeof());
@@ -453,10 +453,10 @@ WebSocketClientModule* WebSocketClientModule::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/WebSocketModule.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.WebSockets/1.12.0/WebSocketModule.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class WebSocketClientWrapper :71
+// internal sealed class WebSocketClientWrapper
 // {
 static void WebSocketClientWrapper_build(uType* type)
 {
@@ -504,67 +504,67 @@ static void WebSocketClientWrapper_build(uType* type)
     return type;
 }
 
-// public WebSocketClientWrapper(object[] args) :75
+// public WebSocketClientWrapper(object[] args)
 void WebSocketClientWrapper__ctor_3_fn(WebSocketClientWrapper* __this, uArray* args)
 {
     __this->ctor_3(args);
 }
 
-// private object Close(Fuse.Scripting.Context c, object[] args) :144
+// private object Close(Fuse.Scripting.Context c, object[] args)
 void WebSocketClientWrapper__Close_fn(WebSocketClientWrapper* __this, ::g::Fuse::Scripting::Context* c, uArray* args, uObject** __retval)
 {
     *__retval = __this->Close(c, args);
 }
 
-// private void Closed() :160
+// private void Closed()
 void WebSocketClientWrapper__Closed_fn(WebSocketClientWrapper* __this)
 {
     __this->Closed();
 }
 
-// private object Connect(Fuse.Scripting.Context c, object[] args) :110
+// private object Connect(Fuse.Scripting.Context c, object[] args)
 void WebSocketClientWrapper__Connect_fn(WebSocketClientWrapper* __this, ::g::Fuse::Scripting::Context* c, uArray* args, uObject** __retval)
 {
     *__retval = __this->Connect(c, args);
 }
 
-// private void DataReceived(byte[] data) :170
+// private void DataReceived(byte[] data)
 void WebSocketClientWrapper__DataReceived_fn(WebSocketClientWrapper* __this, uArray* data)
 {
     __this->DataReceived(data);
 }
 
-// private void ErrorReceived(string message) :155
+// private void ErrorReceived(string message)
 void WebSocketClientWrapper__ErrorReceived_fn(WebSocketClientWrapper* __this, uString* message)
 {
     __this->ErrorReceived(message);
 }
 
-// private void MessageReceived(string message) :165
+// private void MessageReceived(string message)
 void WebSocketClientWrapper__MessageReceived_fn(WebSocketClientWrapper* __this, uString* message)
 {
     __this->MessageReceived(message);
 }
 
-// public WebSocketClientWrapper New(object[] args) :75
+// public WebSocketClientWrapper New(object[] args)
 void WebSocketClientWrapper__New3_fn(uArray* args, WebSocketClientWrapper** __retval)
 {
     *__retval = WebSocketClientWrapper::New3(args);
 }
 
-// private void Opened() :150
+// private void Opened()
 void WebSocketClientWrapper__Opened_fn(WebSocketClientWrapper* __this)
 {
     __this->Opened();
 }
 
-// private object Send(Fuse.Scripting.Context c, object[] args) :116
+// private object Send(Fuse.Scripting.Context c, object[] args)
 void WebSocketClientWrapper__Send_fn(WebSocketClientWrapper* __this, ::g::Fuse::Scripting::Context* c, uArray* args, uObject** __retval)
 {
     *__retval = __this->Send(c, args);
 }
 
-// public WebSocketClientWrapper(object[] args) [instance] :75
+// public WebSocketClientWrapper(object[] args) [instance]
 void WebSocketClientWrapper::ctor_3(uArray* args)
 {
     ctor_2(true, uArray::Init<uObject*>(::TYPES[6/*object[]*/], 4, ::STRINGS[1/*"open"*/], ::STRINGS[2/*"error"*/], ::STRINGS[3/*"close"*/], ::STRINGS[4/*"receive"*/]));
@@ -602,51 +602,51 @@ void WebSocketClientWrapper::ctor_3(uArray* args)
     AddMember(::g::Fuse::Scripting::NativeFunction::New1(::STRINGS[3/*"close"*/], uDelegate::New(::TYPES[10/*Fuse.Scripting.NativeCallback*/], (void*)WebSocketClientWrapper__Close_fn, this)));
 }
 
-// private object Close(Fuse.Scripting.Context c, object[] args) [instance] :144
+// private object Close(Fuse.Scripting.Context c, object[] args) [instance]
 uObject* WebSocketClientWrapper::Close(::g::Fuse::Scripting::Context* c, uArray* args)
 {
     uPtr(_client)->Close();
     return NULL;
 }
 
-// private void Closed() [instance] :160
+// private void Closed() [instance]
 void WebSocketClientWrapper::Closed()
 {
     Emit(uArray::Init<uObject*>(::TYPES[6/*object[]*/], 2, ::STRINGS[3/*"close"*/], ::STRINGS[8/*""*/]));
 }
 
-// private object Connect(Fuse.Scripting.Context c, object[] args) [instance] :110
+// private object Connect(Fuse.Scripting.Context c, object[] args) [instance]
 uObject* WebSocketClientWrapper::Connect(::g::Fuse::Scripting::Context* c, uArray* args)
 {
     uPtr(_client)->Connect();
     return NULL;
 }
 
-// private void DataReceived(byte[] data) [instance] :170
+// private void DataReceived(byte[] data) [instance]
 void WebSocketClientWrapper::DataReceived(uArray* data)
 {
     Emit(uArray::Init<uObject*>(::TYPES[6/*object[]*/], 2, ::STRINGS[4/*"receive"*/], data));
 }
 
-// private void ErrorReceived(string message) [instance] :155
+// private void ErrorReceived(string message) [instance]
 void WebSocketClientWrapper::ErrorReceived(uString* message)
 {
     Emit(uArray::Init<uObject*>(::TYPES[6/*object[]*/], 2, ::STRINGS[2/*"error"*/], message));
 }
 
-// private void MessageReceived(string message) [instance] :165
+// private void MessageReceived(string message) [instance]
 void WebSocketClientWrapper::MessageReceived(uString* message)
 {
     Emit(uArray::Init<uObject*>(::TYPES[6/*object[]*/], 2, ::STRINGS[4/*"receive"*/], message));
 }
 
-// private void Opened() [instance] :150
+// private void Opened() [instance]
 void WebSocketClientWrapper::Opened()
 {
     Emit(uArray::Init<uObject*>(::TYPES[6/*object[]*/], 2, ::STRINGS[1/*"open"*/], ::STRINGS[8/*""*/]));
 }
 
-// private object Send(Fuse.Scripting.Context c, object[] args) [instance] :116
+// private object Send(Fuse.Scripting.Context c, object[] args) [instance]
 uObject* WebSocketClientWrapper::Send(::g::Fuse::Scripting::Context* c, uArray* args)
 {
     if ((args != NULL) && (uPtr(args)->Length() > 0))
@@ -675,7 +675,7 @@ uObject* WebSocketClientWrapper::Send(::g::Fuse::Scripting::Context* c, uArray* 
     return NULL;
 }
 
-// public WebSocketClientWrapper New(object[] args) [static] :75
+// public WebSocketClientWrapper New(object[] args) [static]
 WebSocketClientWrapper* WebSocketClientWrapper::New3(uArray* args)
 {
     WebSocketClientWrapper* obj1 = (WebSocketClientWrapper*)uNew(WebSocketClientWrapper_typeof());

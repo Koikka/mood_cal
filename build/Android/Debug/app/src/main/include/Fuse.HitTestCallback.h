@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/HitTestContext.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/HitTestContext.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,7 +7,7 @@
 namespace g{
 namespace Fuse{
 
-// public delegate void HitTestCallback(Fuse.HitTestResult result) :6
+// public delegate void HitTestCallback(Fuse.HitTestResult result)
 uDelegateType* HitTestCallback_typeof();
 
 }} // ::g::Fuse

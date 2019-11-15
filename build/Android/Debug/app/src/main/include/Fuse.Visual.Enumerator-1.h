@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Visual.Children.Enumerable.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Visual.Children.Enumerable.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace g{namespace Fuse{struct Visual__Enumerator;}}
 namespace g{
 namespace Fuse{
 
-// private sealed class Visual.Enumerator<T> :24
+// private sealed class Visual.Enumerator<T>
 // {
 struct Visual__Enumerator_type : uType
 {

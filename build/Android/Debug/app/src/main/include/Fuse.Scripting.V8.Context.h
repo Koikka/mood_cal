@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Context.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/Context.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Scripting.JavaSc-7238a365.h>
-#include <Fuse.Scripting.JavaSc-f78ac33b.h>
+#include <Fuse.Scripting.JavaSc-b3a4b385.h>
+#include <Fuse.Scripting.JavaSc-ef65af4d.h>
 #include <include/V8Simple.h>
 #include <Uno.IDisposable.h>
 namespace g{namespace Fuse{namespace Scripting{namespace V8{struct Context;}}}}
@@ -16,7 +16,7 @@ namespace Fuse{
 namespace Scripting{
 namespace V8{
 
-// public sealed extern class Context :12
+// public sealed extern class Context
 // {
 ::g::Fuse::Scripting::JavaScript::JSContext_type* Context_typeof();
 void Context__ctor_2_fn(Context* __this);

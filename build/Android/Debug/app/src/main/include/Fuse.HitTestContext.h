@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/HitTestContext.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/HitTestContext.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{namespace Fuse{struct Visual;}}
 namespace g{
 namespace Fuse{
 
-// public sealed class HitTestContext :19
+// public sealed class HitTestContext
 // {
 uType* HitTestContext_typeof();
 void HitTestContext__ctor__fn(HitTestContext* __this, ::g::Uno::Float2* windowPoint, uDelegate* callback);

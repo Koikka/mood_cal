@@ -2,43 +2,44 @@
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Android.Base.Wrappers.JWrapper.h>
-#include <Android.Base.Wrappers-88f7a41f.h>
-#include <Fuse.ImageTools.Andro-2781a4e0.h>
+#include <Android.Base.Wrappers-4c0b8613.h>
+#include <Fuse.ImageTools.Andro-4619e2da.h>
+#include <Fuse.ImageTools.BoolP-c5c3e569.h>
 #include <Fuse.ImageTools.CropCommand.h>
 #include <Fuse.ImageTools.Image.h>
-#include <Fuse.ImageTools.Image-3344558a.h>
-#include <Fuse.ImageTools.Image-57a76110.h>
-#include <Fuse.ImageTools.Image-e09a55cd.h>
+#include <Fuse.ImageTools.Image-407f5e92.h>
+#include <Fuse.ImageTools.Image-49c1a868.h>
+#include <Fuse.ImageTools.Image-635927b3.h>
 #include <Fuse.ImageTools.ImageTools.h>
 #include <Fuse.ImageTools.PCommand.h>
-#include <Fuse.ImageTools.Promi-47f46f5b.h>
+#include <Fuse.ImageTools.Promi-ec787d8e.h>
 #include <Fuse.ImageTools.ResizeCommand.h>
 #include <Fuse.ImageTools.ResizeMode.h>
 #include <Fuse.Scripting.Context.h>
 #include <Fuse.Scripting.FutureFactory-1.h>
 #include <Fuse.Scripting.JSObjectUtils.h>
-#include <Fuse.Scripting.Native-c8feecef.h>
+#include <Fuse.Scripting.Native-aec1d155.h>
 #include <Fuse.Scripting.NativeMember.h>
 #include <Fuse.Scripting.NativePromise-2.h>
 #include <Fuse.Scripting.Object.h>
-#include <Fuse.Scripting.Result-92713bce.h>
+#include <Fuse.Scripting.Result-aef282d8.h>
 #include <jni.h>
 #include <Uno.Action1-1.h>
 #include <Uno.Bool.h>
 #include <Uno.Byte.h>
-#include <Uno.Collections.Dicti-87d2e37d.h>
-#include <Uno.Collections.Dicti-894ef3c3.h>
+#include <Uno.Collections.Dicti-35aa62f0.h>
+#include <Uno.Collections.Dicti-8cba3288.h>
 #include <Uno.Collections.Dictionary-2.h>
-#include <Uno.Compiler.ExportTa-39be7c2b.h>
+#include <Uno.Compiler.ExportTa-2429dd1f.h>
 #include <Uno.Exception.h>
 #include <Uno.Int.h>
 #include <Uno.Int2.h>
 #include <Uno.IO.File.h>
 #include <Uno.IO.Path.h>
 #include <Uno.Object.h>
-#include <Uno.Permissions.Permi-d35d5681.h>
+#include <Uno.Permissions.Permi-735ab533.h>
 #include <Uno.Permissions.Permissions.h>
-#include <Uno.Permissions.Platf-7d72d93e.h>
+#include <Uno.Permissions.Platf-c2400e03.h>
 #include <Uno.SByte.h>
 #include <Uno.String.h>
 #include <Uno.Threading.Future1-1.h>
@@ -52,10 +53,10 @@ namespace g{
 namespace Fuse{
 namespace ImageTools{
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/Android/AndroidImageUtils.uno
-// ---------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/Android/AndroidImageUtils.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static extern class AndroidImageUtils :8
+// internal static extern class AndroidImageUtils
 // {
 static void AndroidImageUtils_build(uType* type)
 {
@@ -74,55 +75,55 @@ uClassType* AndroidImageUtils_typeof()
     return type;
 }
 
-// public static void Crop(string path, int width, int height, int x, int y, Uno.Action<string> onSuccess, Uno.Action<string> onFail, [bool performInPlace]) :74
+// public static void Crop(string path, int width, int height, int x, int y, Uno.Action<string> onSuccess, Uno.Action<string> onFail, [bool performInPlace])
 void AndroidImageUtils__Crop_fn(uString* path, int32_t* width, int32_t* height, int32_t* x, int32_t* y, uDelegate* onSuccess, uDelegate* onFail, bool* performInPlace)
 {
     AndroidImageUtils::Crop(path, *width, *height, *x, *y, onSuccess, onFail, *performInPlace);
 }
 
-// public static void GetBase64FromImage(string path, Uno.Action<string> onSuccess, Uno.Action<string> onFail) :106
+// public static void GetBase64FromImage(string path, Uno.Action<string> onSuccess, Uno.Action<string> onFail)
 void AndroidImageUtils__GetBase64FromImage_fn(uString* path, uDelegate* onSuccess, uDelegate* onFail)
 {
     AndroidImageUtils::GetBase64FromImage(path, onSuccess, onFail);
 }
 
-// public static void GetImageFromBase64(string b64, Uno.Action<string> onSuccess, Uno.Action<string> onFail) :90
+// public static void GetImageFromBase64(string b64, Uno.Action<string> onSuccess, Uno.Action<string> onFail)
 void AndroidImageUtils__GetImageFromBase64_fn(uString* b64, uDelegate* onSuccess, uDelegate* onFail)
 {
     AndroidImageUtils::GetImageFromBase64(b64, onSuccess, onFail);
 }
 
-// public static void GetImageFromBuffer(sbyte[] bytes, Uno.Action<string> onSuccess, Uno.Action<string> onFail) :46
+// public static void GetImageFromBuffer(sbyte[] bytes, Uno.Action<string> onSuccess, Uno.Action<string> onFail)
 void AndroidImageUtils__GetImageFromBuffer_fn(uArray* bytes, uDelegate* onSuccess, uDelegate* onFail)
 {
     AndroidImageUtils::GetImageFromBuffer(bytes, onSuccess, onFail);
 }
 
-// public static int2 GetSize(Fuse.ImageTools.Image inImage) :11
+// public static int2 GetSize(Fuse.ImageTools.Image inImage)
 void AndroidImageUtils__GetSize_fn(::g::Fuse::ImageTools::Image* inImage, ::g::Uno::Int2* __retval)
 {
     *__retval = AndroidImageUtils::GetSize(inImage);
 }
 
-// private static void GetSizeInternal(string path, int[] values) :19
+// private static void GetSizeInternal(string path, int[] values)
 void AndroidImageUtils__GetSizeInternal_fn(uString* path, uArray* values)
 {
     AndroidImageUtils::GetSizeInternal(path, values);
 }
 
-// public static void Resize(string path, int width, int height, int mode, Uno.Action<string> onSuccess, Uno.Action<string> onFail, [bool performInPlace]) :30
+// public static void Resize(string path, int width, int height, int mode, Uno.Action<string> onSuccess, Uno.Action<string> onFail, [bool performInPlace])
 void AndroidImageUtils__Resize_fn(uString* path, int32_t* width, int32_t* height, int32_t* mode, uDelegate* onSuccess, uDelegate* onFail, bool* performInPlace)
 {
     AndroidImageUtils::Resize(path, *width, *height, *mode, onSuccess, onFail, *performInPlace);
 }
 
-// public static void Crop(string path, int width, int height, int x, int y, Uno.Action<string> onSuccess, Uno.Action<string> onFail, [bool performInPlace]) [static] :74
+// public static void Crop(string path, int width, int height, int x, int y, Uno.Action<string> onSuccess, Uno.Action<string> onFail, [bool performInPlace]) [static]
 void AndroidImageUtils::Crop(uString* path, int32_t width, int32_t height, int32_t x, int32_t y, uDelegate* onSuccess, uDelegate* onFail, bool performInPlace)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Crop414", "(Ljava/lang/String;IIIILcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;Z)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Crop417", "(Ljava/lang/String;IIIILcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;Z)V");
         uString* _upath=path;
         jstring _path = JniHelper::UnoToJavaString(_upath);
         int32_t _uwidth=width;
@@ -155,13 +156,13 @@ void AndroidImageUtils::Crop(uString* path, int32_t width, int32_t height, int32
     
 }
 
-// public static void GetBase64FromImage(string path, Uno.Action<string> onSuccess, Uno.Action<string> onFail) [static] :106
+// public static void GetBase64FromImage(string path, Uno.Action<string> onSuccess, Uno.Action<string> onFail) [static]
 void AndroidImageUtils::GetBase64FromImage(uString* path, uDelegate* onSuccess, uDelegate* onFail)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetBase64FromImage415", "(Ljava/lang/String;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetBase64FromImage418", "(Ljava/lang/String;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
         uString* _upath=path;
         jstring _path = JniHelper::UnoToJavaString(_upath);
         uDelegate* _uonSuccess=onSuccess;
@@ -179,13 +180,13 @@ void AndroidImageUtils::GetBase64FromImage(uString* path, uDelegate* onSuccess, 
     
 }
 
-// public static void GetImageFromBase64(string b64, Uno.Action<string> onSuccess, Uno.Action<string> onFail) [static] :90
+// public static void GetImageFromBase64(string b64, Uno.Action<string> onSuccess, Uno.Action<string> onFail) [static]
 void AndroidImageUtils::GetImageFromBase64(uString* b64, uDelegate* onSuccess, uDelegate* onFail)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetImageFromBase64416", "(Ljava/lang/String;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetImageFromBase64419", "(Ljava/lang/String;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
         uString* _ub64=b64;
         jstring _b64 = JniHelper::UnoToJavaString(_ub64);
         uDelegate* _uonSuccess=onSuccess;
@@ -203,13 +204,13 @@ void AndroidImageUtils::GetImageFromBase64(uString* b64, uDelegate* onSuccess, u
     
 }
 
-// public static void GetImageFromBuffer(sbyte[] bytes, Uno.Action<string> onSuccess, Uno.Action<string> onFail) [static] :46
+// public static void GetImageFromBuffer(sbyte[] bytes, Uno.Action<string> onSuccess, Uno.Action<string> onFail) [static]
 void AndroidImageUtils::GetImageFromBuffer(uArray* bytes, uDelegate* onSuccess, uDelegate* onFail)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetImageFromBuffer417", "(Lcom/uno/ByteArray;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetImageFromBuffer420", "(Lcom/uno/ByteArray;Lcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;)V");
         uArray* _ubytes=bytes;
         jobject _bytes = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box8(_ubytes);
         uDelegate* _uonSuccess=onSuccess;
@@ -227,7 +228,7 @@ void AndroidImageUtils::GetImageFromBuffer(uArray* bytes, uDelegate* onSuccess, 
     
 }
 
-// public static int2 GetSize(Fuse.ImageTools.Image inImage) [static] :11
+// public static int2 GetSize(Fuse.ImageTools.Image inImage) [static]
 ::g::Uno::Int2 AndroidImageUtils::GetSize(::g::Fuse::ImageTools::Image* inImage)
 {
     uArray* size = uArray::Init<int32_t>(::TYPES[0/*int[]*/], 2, 0, 0);
@@ -235,13 +236,13 @@ void AndroidImageUtils::GetImageFromBuffer(uArray* bytes, uDelegate* onSuccess, 
     return ::g::Uno::Int2__New2(size->Item<int32_t>(0), size->Item<int32_t>(1));
 }
 
-// private static void GetSizeInternal(string path, int[] values) [static] :19
+// private static void GetSizeInternal(string path, int[] values) [static]
 void AndroidImageUtils::GetSizeInternal(uString* path, uArray* values)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetSizeInternal419", "(Ljava/lang/String;Lcom/uno/IntArray;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetSizeInternal422", "(Ljava/lang/String;Lcom/uno/IntArray;)V");
         uString* _upath=path;
         jstring _path = JniHelper::UnoToJavaString(_upath);
         uArray* _uvalues=values;
@@ -256,13 +257,13 @@ void AndroidImageUtils::GetSizeInternal(uString* path, uArray* values)
     
 }
 
-// public static void Resize(string path, int width, int height, int mode, Uno.Action<string> onSuccess, Uno.Action<string> onFail, [bool performInPlace]) [static] :30
+// public static void Resize(string path, int width, int height, int mode, Uno.Action<string> onSuccess, Uno.Action<string> onFail, [bool performInPlace]) [static]
 void AndroidImageUtils::Resize(uString* path, int32_t width, int32_t height, int32_t mode, uDelegate* onSuccess, uDelegate* onFail, bool performInPlace)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Resize420", "(Ljava/lang/String;IIILcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;Z)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Resize423", "(Ljava/lang/String;IIILcom/foreign/Uno/Action_String;Lcom/foreign/Uno/Action_String;Z)V");
         uString* _upath=path;
         jstring _path = JniHelper::UnoToJavaString(_upath);
         int32_t _uwidth=width;
@@ -293,10 +294,86 @@ void AndroidImageUtils::Resize(uString* path, int32_t width, int32_t height, int
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/Android/Commands.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/PromiseCallbacks.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class CropCommand :73
+// internal sealed class BoolPromiseCallback
+// {
+static void BoolPromiseCallback_build(uType* type)
+{
+    type->SetFields(0,
+        ::g::Uno::Threading::Promise_typeof()->MakeType(::g::Uno::Bool_typeof(), NULL), offsetof(BoolPromiseCallback, _p), 0);
+}
+
+uType* BoolPromiseCallback_typeof()
+{
+    static uSStrong<uType*> type;
+    if (type != NULL) return type;
+
+    uTypeOptions options;
+    options.FieldCount = 1;
+    options.ObjectSize = sizeof(BoolPromiseCallback);
+    options.TypeSize = sizeof(uType);
+    type = uClassType::New("Fuse.ImageTools.BoolPromiseCallback", options);
+    type->fp_build_ = BoolPromiseCallback_build;
+    return type;
+}
+
+// public BoolPromiseCallback(Uno.Threading.Promise<bool> p)
+void BoolPromiseCallback__ctor__fn(BoolPromiseCallback* __this, ::g::Uno::Threading::Promise* p)
+{
+    __this->ctor_(p);
+}
+
+// public BoolPromiseCallback New(Uno.Threading.Promise<bool> p)
+void BoolPromiseCallback__New1_fn(::g::Uno::Threading::Promise* p, BoolPromiseCallback** __retval)
+{
+    *__retval = BoolPromiseCallback::New1(p);
+}
+
+// public void Reject(string reason)
+void BoolPromiseCallback__Reject_fn(BoolPromiseCallback* __this, uString* reason)
+{
+    __this->Reject(reason);
+}
+
+// public void Resolve()
+void BoolPromiseCallback__Resolve_fn(BoolPromiseCallback* __this)
+{
+    __this->Resolve();
+}
+
+// public BoolPromiseCallback(Uno.Threading.Promise<bool> p) [instance]
+void BoolPromiseCallback::ctor_(::g::Uno::Threading::Promise* p)
+{
+    _p = p;
+}
+
+// public void Reject(string reason) [instance]
+void BoolPromiseCallback::Reject(uString* reason)
+{
+    uPtr(_p)->Reject(::g::Uno::Exception::New2(reason));
+}
+
+// public void Resolve() [instance]
+void BoolPromiseCallback::Resolve()
+{
+    ::g::Uno::Threading::Promise__Resolve_fn(uPtr(_p), uCRef(true));
+}
+
+// public BoolPromiseCallback New(Uno.Threading.Promise<bool> p) [static]
+BoolPromiseCallback* BoolPromiseCallback::New1(::g::Uno::Threading::Promise* p)
+{
+    BoolPromiseCallback* obj1 = (BoolPromiseCallback*)uNew(BoolPromiseCallback_typeof());
+    obj1->ctor_(p);
+    return obj1;
+}
+// }
+
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/Android/Commands.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+// internal sealed extern class CropCommand
 // {
 static void CropCommand_build(uType* type)
 {
@@ -329,31 +406,31 @@ static void CropCommand_build(uType* type)
     return type;
 }
 
-// public CropCommand(string path, int x, int y, int desiredWidth, int desiredHeight, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace) :82
+// public CropCommand(string path, int x, int y, int desiredWidth, int desiredHeight, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace)
 void CropCommand__ctor_1_fn(CropCommand* __this, uString* path, int32_t* x, int32_t* y, int32_t* desiredWidth, int32_t* desiredHeight, uDelegate* Resolve, uDelegate* Reject, bool* inPlace)
 {
     __this->ctor_1(path, *x, *y, *desiredWidth, *desiredHeight, Resolve, Reject, *inPlace);
 }
 
-// public CropCommand New(string path, int x, int y, int desiredWidth, int desiredHeight, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace) :82
+// public CropCommand New(string path, int x, int y, int desiredWidth, int desiredHeight, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace)
 void CropCommand__New1_fn(uString* path, int32_t* x, int32_t* y, int32_t* desiredWidth, int32_t* desiredHeight, uDelegate* Resolve, uDelegate* Reject, bool* inPlace, CropCommand** __retval)
 {
     *__retval = CropCommand::New1(path, *x, *y, *desiredWidth, *desiredHeight, Resolve, Reject, *inPlace);
 }
 
-// private override sealed void OnGranted() :93
+// private override sealed void OnGranted()
 void CropCommand__OnGranted_fn(CropCommand* __this)
 {
     ::g::Fuse::ImageTools::AndroidImageUtils::Crop(__this->_path, __this->_x, __this->_y, __this->_width, __this->_height, __this->_resolve, __this->_reject, __this->_inPlace);
 }
 
-// private override sealed void OnRejected(Uno.Exception e) :98
+// private override sealed void OnRejected(Uno.Exception e)
 void CropCommand__OnRejected_fn(CropCommand* __this, ::g::Uno::Exception* e)
 {
     uPtr(__this->_reject)->InvokeVoid(uPtr(e)->Message());
 }
 
-// public CropCommand(string path, int x, int y, int desiredWidth, int desiredHeight, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace) [instance] :82
+// public CropCommand(string path, int x, int y, int desiredWidth, int desiredHeight, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace) [instance]
 void CropCommand::ctor_1(uString* path, int32_t x, int32_t y, int32_t desiredWidth, int32_t desiredHeight, uDelegate* Resolve, uDelegate* Reject, bool inPlace)
 {
     uArray* array2;
@@ -368,7 +445,7 @@ void CropCommand::ctor_1(uString* path, int32_t x, int32_t y, int32_t desiredWid
     _inPlace = inPlace;
 }
 
-// public CropCommand New(string path, int x, int y, int desiredWidth, int desiredHeight, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace) [static] :82
+// public CropCommand New(string path, int x, int y, int desiredWidth, int desiredHeight, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace) [static]
 CropCommand* CropCommand::New1(uString* path, int32_t x, int32_t y, int32_t desiredWidth, int32_t desiredHeight, uDelegate* Resolve, uDelegate* Reject, bool inPlace)
 {
     CropCommand* obj1 = (CropCommand*)uNew(CropCommand_typeof());
@@ -377,10 +454,10 @@ CropCommand* CropCommand::New1(uString* path, int32_t x, int32_t y, int32_t desi
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/ImageTools.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/ImageTools.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed extern class ImageTools.GetBase64Command :358
+// private sealed extern class ImageTools.GetBase64Command
 // {
 static void ImageTools__GetBase64Command_build(uType* type)
 {
@@ -408,31 +485,31 @@ static void ImageTools__GetBase64Command_build(uType* type)
     return type;
 }
 
-// public GetBase64Command(string path, Uno.Action<string> Resolve, Uno.Action<string> Reject) :362
+// public GetBase64Command(string path, Uno.Action<string> Resolve, Uno.Action<string> Reject)
 void ImageTools__GetBase64Command__ctor_1_fn(ImageTools__GetBase64Command* __this, uString* path, uDelegate* Resolve, uDelegate* Reject)
 {
     __this->ctor_1(path, Resolve, Reject);
 }
 
-// public GetBase64Command New(string path, Uno.Action<string> Resolve, Uno.Action<string> Reject) :362
+// public GetBase64Command New(string path, Uno.Action<string> Resolve, Uno.Action<string> Reject)
 void ImageTools__GetBase64Command__New1_fn(uString* path, uDelegate* Resolve, uDelegate* Reject, ImageTools__GetBase64Command** __retval)
 {
     *__retval = ImageTools__GetBase64Command::New1(path, Resolve, Reject);
 }
 
-// private override sealed void OnGranted() :368
+// private override sealed void OnGranted()
 void ImageTools__GetBase64Command__OnGranted_fn(ImageTools__GetBase64Command* __this)
 {
     ::g::Fuse::ImageTools::AndroidImageUtils::GetBase64FromImage(__this->_path, __this->_resolve, __this->_reject);
 }
 
-// private override sealed void OnRejected(Uno.Exception e) :373
+// private override sealed void OnRejected(Uno.Exception e)
 void ImageTools__GetBase64Command__OnRejected_fn(ImageTools__GetBase64Command* __this, ::g::Uno::Exception* e)
 {
     uPtr(__this->_reject)->InvokeVoid(uPtr(e)->Message());
 }
 
-// public GetBase64Command(string path, Uno.Action<string> Resolve, Uno.Action<string> Reject) [instance] :362
+// public GetBase64Command(string path, Uno.Action<string> Resolve, Uno.Action<string> Reject) [instance]
 void ImageTools__GetBase64Command::ctor_1(uString* path, uDelegate* Resolve, uDelegate* Reject)
 {
     uArray* array2;
@@ -442,7 +519,7 @@ void ImageTools__GetBase64Command::ctor_1(uString* path, uDelegate* Resolve, uDe
     _reject = Reject;
 }
 
-// public GetBase64Command New(string path, Uno.Action<string> Resolve, Uno.Action<string> Reject) [static] :362
+// public GetBase64Command New(string path, Uno.Action<string> Resolve, Uno.Action<string> Reject) [static]
 ImageTools__GetBase64Command* ImageTools__GetBase64Command::New1(uString* path, uDelegate* Resolve, uDelegate* Reject)
 {
     ImageTools__GetBase64Command* obj1 = (ImageTools__GetBase64Command*)uNew(ImageTools__GetBase64Command_typeof());
@@ -451,10 +528,10 @@ ImageTools__GetBase64Command* ImageTools__GetBase64Command::New1(uString* path, 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/Image.uno
-// -------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/Image.uno
+// -------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Image :8
+// public sealed class Image
 // {
 static void Image_build(uType* type)
 {
@@ -491,103 +568,103 @@ uType* Image_typeof()
     return type;
 }
 
-// public Image(string path) :57
+// public Image(string path)
 void Image__ctor_1_fn(Image* __this, uString* path)
 {
     __this->ctor_1(path);
 }
 
-// private extern void CheckDims() :28
+// private extern void CheckDims()
 void Image__CheckDims_fn(Image* __this)
 {
     __this->CheckDims();
 }
 
-// public static Fuse.Scripting.Object Converter(Fuse.Scripting.Context context, Fuse.ImageTools.Image result) :102
+// public static Fuse.Scripting.Object Converter(Fuse.Scripting.Context context, Fuse.ImageTools.Image result)
 void Image__Converter_fn(::g::Fuse::Scripting::Context* context, Image* result, ::g::Fuse::Scripting::Object** __retval)
 {
     *__retval = Image::Converter(context, result);
 }
 
-// public static Fuse.ImageTools.Image FromObject(Fuse.Scripting.Object o) :69
+// public static Fuse.ImageTools.Image FromObject(Fuse.Scripting.Object o)
 void Image__FromObject_fn(::g::Fuse::Scripting::Object* o, Image** __retval)
 {
     *__retval = Image::FromObject(o);
 }
 
-// public static Fuse.ImageTools.Image FromObject(object o) :64
+// public static Fuse.ImageTools.Image FromObject(object o)
 void Image__FromObject1_fn(uObject* o, Image** __retval)
 {
     *__retval = Image::FromObject1(o);
 }
 
-// public int get_Height() :22
+// public int get_Height()
 void Image__get_Height_fn(Image* __this, int32_t* __retval)
 {
     *__retval = __this->Height();
 }
 
-// public generated Uno.Collections.Dictionary<string, object> get_Info() :53
+// public generated Uno.Collections.Dictionary<string, object> get_Info()
 void Image__get_Info_fn(Image* __this, ::g::Uno::Collections::Dictionary** __retval)
 {
     *__retval = __this->Info();
 }
 
-// private generated void set_Info(Uno.Collections.Dictionary<string, object> value) :53
+// private generated void set_Info(Uno.Collections.Dictionary<string, object> value)
 void Image__set_Info_fn(Image* __this, ::g::Uno::Collections::Dictionary* value)
 {
     __this->Info(value);
 }
 
-// private Fuse.Scripting.Object InfoToObject(Fuse.Scripting.Context c) :76
+// private Fuse.Scripting.Object InfoToObject(Fuse.Scripting.Context c)
 void Image__InfoToObject_fn(Image* __this, ::g::Fuse::Scripting::Context* c, ::g::Fuse::Scripting::Object** __retval)
 {
     *__retval = __this->InfoToObject(c);
 }
 
-// public generated string get_Name() :11
+// public generated string get_Name()
 void Image__get_Name_fn(Image* __this, uString** __retval)
 {
     *__retval = __this->Name();
 }
 
-// private generated void set_Name(string value) :11
+// private generated void set_Name(string value)
 void Image__set_Name_fn(Image* __this, uString* value)
 {
     __this->Name(value);
 }
 
-// public Image New(string path) :57
+// public Image New(string path)
 void Image__New2_fn(uString* path, Image** __retval)
 {
     *__retval = Image::New2(path);
 }
 
-// public generated string get_Path() :10
+// public generated string get_Path()
 void Image__get_Path_fn(Image* __this, uString** __retval)
 {
     *__retval = __this->Path();
 }
 
-// private generated void set_Path(string value) :10
+// private generated void set_Path(string value)
 void Image__set_Path_fn(Image* __this, uString* value)
 {
     __this->Path(value);
 }
 
-// public Fuse.Scripting.Object ToObject(Fuse.Scripting.Context c) :86
+// public Fuse.Scripting.Object ToObject(Fuse.Scripting.Context c)
 void Image__ToObject_fn(Image* __this, ::g::Fuse::Scripting::Context* c, ::g::Fuse::Scripting::Object** __retval)
 {
     *__retval = __this->ToObject(c);
 }
 
-// public int get_Width() :15
+// public int get_Width()
 void Image__get_Width_fn(Image* __this, int32_t* __retval)
 {
     *__retval = __this->Width();
 }
 
-// public Image(string path) [instance] :57
+// public Image(string path) [instance]
 void Image::ctor_1(uString* path)
 {
     Path(path);
@@ -595,33 +672,33 @@ void Image::ctor_1(uString* path)
     Info((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[2/*Uno.Collections.Dictionary<string, object>*/]));
 }
 
-// private extern void CheckDims() [instance] :28
+// private extern void CheckDims() [instance]
 void Image::CheckDims()
 {
     if ((_dims.X == 0) && (_dims.Y == 0))
         _dims = ::g::Fuse::ImageTools::AndroidImageUtils::GetSize(this);
 }
 
-// public int get_Height() [instance] :22
+// public int get_Height() [instance]
 int32_t Image::Height()
 {
     CheckDims();
     return _dims.Y;
 }
 
-// public generated Uno.Collections.Dictionary<string, object> get_Info() [instance] :53
+// public generated Uno.Collections.Dictionary<string, object> get_Info() [instance]
 ::g::Uno::Collections::Dictionary* Image::Info()
 {
     return _Info;
 }
 
-// private generated void set_Info(Uno.Collections.Dictionary<string, object> value) [instance] :53
+// private generated void set_Info(Uno.Collections.Dictionary<string, object> value) [instance]
 void Image::Info(::g::Uno::Collections::Dictionary* value)
 {
     _Info = value;
 }
 
-// private Fuse.Scripting.Object InfoToObject(Fuse.Scripting.Context c) [instance] :76
+// private Fuse.Scripting.Object InfoToObject(Fuse.Scripting.Context c) [instance]
 ::g::Fuse::Scripting::Object* Image::InfoToObject(::g::Fuse::Scripting::Context* c)
 {
     ::g::Uno::Collections::Dictionary__KeyCollection__Enumerator<uStrong<uString*> > ret4;
@@ -659,31 +736,31 @@ void Image::Info(::g::Uno::Collections::Dictionary* value)
     return outValue;
 }
 
-// public generated string get_Name() [instance] :11
+// public generated string get_Name() [instance]
 uString* Image::Name()
 {
     return _Name;
 }
 
-// private generated void set_Name(string value) [instance] :11
+// private generated void set_Name(string value) [instance]
 void Image::Name(uString* value)
 {
     _Name = value;
 }
 
-// public generated string get_Path() [instance] :10
+// public generated string get_Path() [instance]
 uString* Image::Path()
 {
     return _Path;
 }
 
-// private generated void set_Path(string value) [instance] :10
+// private generated void set_Path(string value) [instance]
 void Image::Path(uString* value)
 {
     _Path = value;
 }
 
-// public Fuse.Scripting.Object ToObject(Fuse.Scripting.Context c) [instance] :86
+// public Fuse.Scripting.Object ToObject(Fuse.Scripting.Context c) [instance]
 ::g::Fuse::Scripting::Object* Image::ToObject(::g::Fuse::Scripting::Context* c)
 {
     ::g::Fuse::Scripting::Object* outValue = uPtr(c)->NewObject();
@@ -696,20 +773,20 @@ void Image::Path(uString* value)
     return outValue;
 }
 
-// public int get_Width() [instance] :15
+// public int get_Width() [instance]
 int32_t Image::Width()
 {
     CheckDims();
     return _dims.X;
 }
 
-// public static Fuse.Scripting.Object Converter(Fuse.Scripting.Context context, Fuse.ImageTools.Image result) [static] :102
+// public static Fuse.Scripting.Object Converter(Fuse.Scripting.Context context, Fuse.ImageTools.Image result) [static]
 ::g::Fuse::Scripting::Object* Image::Converter(::g::Fuse::Scripting::Context* context, Image* result)
 {
     return uPtr(result)->ToObject(context);
 }
 
-// public static Fuse.ImageTools.Image FromObject(Fuse.Scripting.Object o) [static] :69
+// public static Fuse.ImageTools.Image FromObject(Fuse.Scripting.Object o) [static]
 Image* Image::FromObject(::g::Fuse::Scripting::Object* o)
 {
     uString* path = uCast<uString*>(uPtr(o)->Item(::STRINGS[0/*"path"*/]), ::TYPES[3/*string*/]);
@@ -717,13 +794,13 @@ Image* Image::FromObject(::g::Fuse::Scripting::Object* o)
     return outValue;
 }
 
-// public static Fuse.ImageTools.Image FromObject(object o) [static] :64
+// public static Fuse.ImageTools.Image FromObject(object o) [static]
 Image* Image::FromObject1(uObject* o)
 {
     return Image::FromObject(uCast< ::g::Fuse::Scripting::Object*>(o, ::TYPES[4/*Fuse.Scripting.Object*/]));
 }
 
-// public Image New(string path) [static] :57
+// public Image New(string path) [static]
 Image* Image::New2(uString* path)
 {
     Image* obj3 = (Image*)uNew(Image_typeof());
@@ -732,10 +809,10 @@ Image* Image::New2(uString* path)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/ImageTools.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/ImageTools.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed extern class ImageTools.ImageFromBase64Command :394
+// private sealed extern class ImageTools.ImageFromBase64Command
 // {
 static void ImageTools__ImageFromBase64Command_build(uType* type)
 {
@@ -763,31 +840,31 @@ static void ImageTools__ImageFromBase64Command_build(uType* type)
     return type;
 }
 
-// public ImageFromBase64Command(string base64Image, Uno.Action<string> Resolve, Uno.Action<string> Reject) :398
+// public ImageFromBase64Command(string base64Image, Uno.Action<string> Resolve, Uno.Action<string> Reject)
 void ImageTools__ImageFromBase64Command__ctor_1_fn(ImageTools__ImageFromBase64Command* __this, uString* base64Image, uDelegate* Resolve, uDelegate* Reject)
 {
     __this->ctor_1(base64Image, Resolve, Reject);
 }
 
-// public ImageFromBase64Command New(string base64Image, Uno.Action<string> Resolve, Uno.Action<string> Reject) :398
+// public ImageFromBase64Command New(string base64Image, Uno.Action<string> Resolve, Uno.Action<string> Reject)
 void ImageTools__ImageFromBase64Command__New1_fn(uString* base64Image, uDelegate* Resolve, uDelegate* Reject, ImageTools__ImageFromBase64Command** __retval)
 {
     *__retval = ImageTools__ImageFromBase64Command::New1(base64Image, Resolve, Reject);
 }
 
-// private override sealed void OnGranted() :404
+// private override sealed void OnGranted()
 void ImageTools__ImageFromBase64Command__OnGranted_fn(ImageTools__ImageFromBase64Command* __this)
 {
     ::g::Fuse::ImageTools::AndroidImageUtils::GetImageFromBase64(__this->_base64Image, __this->_resolve, __this->_reject);
 }
 
-// private override sealed void OnRejected(Uno.Exception e) :409
+// private override sealed void OnRejected(Uno.Exception e)
 void ImageTools__ImageFromBase64Command__OnRejected_fn(ImageTools__ImageFromBase64Command* __this, ::g::Uno::Exception* e)
 {
     uPtr(__this->_reject)->InvokeVoid(uPtr(e)->Message());
 }
 
-// public ImageFromBase64Command(string base64Image, Uno.Action<string> Resolve, Uno.Action<string> Reject) [instance] :398
+// public ImageFromBase64Command(string base64Image, Uno.Action<string> Resolve, Uno.Action<string> Reject) [instance]
 void ImageTools__ImageFromBase64Command::ctor_1(uString* base64Image, uDelegate* Resolve, uDelegate* Reject)
 {
     uArray* array2;
@@ -797,7 +874,7 @@ void ImageTools__ImageFromBase64Command::ctor_1(uString* base64Image, uDelegate*
     _reject = Reject;
 }
 
-// public ImageFromBase64Command New(string base64Image, Uno.Action<string> Resolve, Uno.Action<string> Reject) [static] :398
+// public ImageFromBase64Command New(string base64Image, Uno.Action<string> Resolve, Uno.Action<string> Reject) [static]
 ImageTools__ImageFromBase64Command* ImageTools__ImageFromBase64Command::New1(uString* base64Image, uDelegate* Resolve, uDelegate* Reject)
 {
     ImageTools__ImageFromBase64Command* obj1 = (ImageTools__ImageFromBase64Command*)uNew(ImageTools__ImageFromBase64Command_typeof());
@@ -806,10 +883,10 @@ ImageTools__ImageFromBase64Command* ImageTools__ImageFromBase64Command::New1(uSt
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/PromiseCallbacks.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/PromiseCallbacks.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class ImagePromiseCallback :8
+// internal sealed class ImagePromiseCallback
 // {
 static void ImagePromiseCallback_build(uType* type)
 {
@@ -831,49 +908,49 @@ uType* ImagePromiseCallback_typeof()
     return type;
 }
 
-// public ImagePromiseCallback(Uno.Threading.Promise<Fuse.ImageTools.Image> p) :11
+// public ImagePromiseCallback(Uno.Threading.Promise<Fuse.ImageTools.Image> p)
 void ImagePromiseCallback__ctor__fn(ImagePromiseCallback* __this, ::g::Uno::Threading::Promise* p)
 {
     __this->ctor_(p);
 }
 
-// public ImagePromiseCallback New(Uno.Threading.Promise<Fuse.ImageTools.Image> p) :11
+// public ImagePromiseCallback New(Uno.Threading.Promise<Fuse.ImageTools.Image> p)
 void ImagePromiseCallback__New1_fn(::g::Uno::Threading::Promise* p, ImagePromiseCallback** __retval)
 {
     *__retval = ImagePromiseCallback::New1(p);
 }
 
-// public void Reject(string reason) :21
+// public void Reject(string reason)
 void ImagePromiseCallback__Reject_fn(ImagePromiseCallback* __this, uString* reason)
 {
     __this->Reject(reason);
 }
 
-// public void Resolve(string path) :16
+// public void Resolve(string path)
 void ImagePromiseCallback__Resolve_fn(ImagePromiseCallback* __this, uString* path)
 {
     __this->Resolve(path);
 }
 
-// public ImagePromiseCallback(Uno.Threading.Promise<Fuse.ImageTools.Image> p) [instance] :11
+// public ImagePromiseCallback(Uno.Threading.Promise<Fuse.ImageTools.Image> p) [instance]
 void ImagePromiseCallback::ctor_(::g::Uno::Threading::Promise* p)
 {
     _p = p;
 }
 
-// public void Reject(string reason) [instance] :21
+// public void Reject(string reason) [instance]
 void ImagePromiseCallback::Reject(uString* reason)
 {
     uPtr(_p)->Reject(::g::Uno::Exception::New2(reason));
 }
 
-// public void Resolve(string path) [instance] :16
+// public void Resolve(string path) [instance]
 void ImagePromiseCallback::Resolve(uString* path)
 {
     ::g::Uno::Threading::Promise__Resolve_fn(uPtr(_p), ::g::Fuse::ImageTools::Image::New2(path));
 }
 
-// public ImagePromiseCallback New(Uno.Threading.Promise<Fuse.ImageTools.Image> p) [static] :11
+// public ImagePromiseCallback New(Uno.Threading.Promise<Fuse.ImageTools.Image> p) [static]
 ImagePromiseCallback* ImagePromiseCallback::New1(::g::Uno::Threading::Promise* p)
 {
     ImagePromiseCallback* obj1 = (ImagePromiseCallback*)uNew(ImagePromiseCallback_typeof());
@@ -882,10 +959,10 @@ ImagePromiseCallback* ImagePromiseCallback::New1(::g::Uno::Threading::Promise* p
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/ImageTools.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/ImageTools.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class ImageTools :49
+// public sealed class ImageTools
 // {
 static void ImageTools_build(uType* type)
 {
@@ -918,73 +995,73 @@ static void ImageTools_build(uType* type)
     return type;
 }
 
-// public ImageTools() :54
+// public ImageTools()
 void ImageTools__ctor_2_fn(ImageTools* __this)
 {
     __this->ctor_2();
 }
 
-// private Uno.Threading.Future<string> Base64FromImageInterface(object[] args) :317
+// private Uno.Threading.Future<string> Base64FromImageInterface(object[] args)
 void ImageTools__Base64FromImageInterface_fn(ImageTools* __this, uArray* args, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = __this->Base64FromImageInterface(args);
 }
 
-// private Uno.Threading.Future<byte[]> BufferFromImageInterface(object[] args) :149
+// private Uno.Threading.Future<byte[]> BufferFromImageInterface(object[] args)
 void ImageTools__BufferFromImageInterface_fn(ImageTools* __this, uArray* args, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = __this->BufferFromImageInterface(args);
 }
 
-// public static Uno.Threading.Future<Fuse.ImageTools.Image> Crop(Fuse.ImageTools.Image img, int width, int height, int x, int y, [bool inPlace]) :345
+// public static Uno.Threading.Future<Fuse.ImageTools.Image> Crop(Fuse.ImageTools.Image img, int width, int height, int x, int y, [bool inPlace])
 void ImageTools__Crop_fn(::g::Fuse::ImageTools::Image* img, int32_t* width, int32_t* height, int32_t* x, int32_t* y, bool* inPlace, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = ImageTools::Crop(img, *width, *height, *x, *y, *inPlace);
 }
 
-// private Uno.Threading.Future<Fuse.ImageTools.Image> CropImageInterface(object[] args) :251
+// private Uno.Threading.Future<Fuse.ImageTools.Image> CropImageInterface(object[] args)
 void ImageTools__CropImageInterface_fn(ImageTools* __this, uArray* args, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = __this->CropImageInterface(args);
 }
 
-// public static Uno.Threading.Future<Fuse.ImageTools.Image> ImageFromBase64(string b64) :415
+// public static Uno.Threading.Future<Fuse.ImageTools.Image> ImageFromBase64(string b64)
 void ImageTools__ImageFromBase64_fn(uString* b64, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = ImageTools::ImageFromBase64(b64);
 }
 
-// private Uno.Threading.Future<Fuse.ImageTools.Image> ImageFromBase64Interface(object[] args) :295
+// private Uno.Threading.Future<Fuse.ImageTools.Image> ImageFromBase64Interface(object[] args)
 void ImageTools__ImageFromBase64Interface_fn(ImageTools* __this, uArray* args, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = __this->ImageFromBase64Interface(args);
 }
 
-// private Uno.Threading.Future<Fuse.ImageTools.Image> ImageFromBufferInterface(object[] args) :102
+// private Uno.Threading.Future<Fuse.ImageTools.Image> ImageFromBufferInterface(object[] args)
 void ImageTools__ImageFromBufferInterface_fn(ImageTools* __this, uArray* args, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = __this->ImageFromBufferInterface(args);
 }
 
-// public static Uno.Threading.Future<string> ImageToBase64(Fuse.ImageTools.Image img) :379
+// public static Uno.Threading.Future<string> ImageToBase64(Fuse.ImageTools.Image img)
 void ImageTools__ImageToBase64_fn(::g::Fuse::ImageTools::Image* img, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = ImageTools::ImageToBase64(img);
 }
 
-// public ImageTools New() :54
+// public ImageTools New()
 void ImageTools__New2_fn(ImageTools** __retval)
 {
     *__retval = ImageTools::New2();
 }
 
-// public static Uno.Threading.Future<Fuse.ImageTools.Image> Resize(Fuse.ImageTools.Image img, int desiredWidth, int desiredHeight, Fuse.ImageTools.ResizeMode mode, [bool inPlace]) :326
+// public static Uno.Threading.Future<Fuse.ImageTools.Image> Resize(Fuse.ImageTools.Image img, int desiredWidth, int desiredHeight, Fuse.ImageTools.ResizeMode mode, [bool inPlace])
 void ImageTools__Resize_fn(::g::Fuse::ImageTools::Image* img, int32_t* desiredWidth, int32_t* desiredHeight, int32_t* mode, bool* inPlace, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = ImageTools::Resize(img, *desiredWidth, *desiredHeight, *mode, *inPlace);
 }
 
-// private Uno.Threading.Future<Fuse.ImageTools.Image> ResizeImageInterface(object[] args) :205
+// private Uno.Threading.Future<Fuse.ImageTools.Image> ResizeImageInterface(object[] args)
 void ImageTools__ResizeImageInterface_fn(ImageTools* __this, uArray* args, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = __this->ResizeImageInterface(args);
@@ -992,7 +1069,7 @@ void ImageTools__ResizeImageInterface_fn(ImageTools* __this, uArray* args, ::g::
 
 uSStrong<ImageTools*> ImageTools::_instance_;
 
-// public ImageTools() [instance] :54
+// public ImageTools() [instance]
 void ImageTools::ctor_2()
 {
     ::g::Fuse::Scripting::NativeProperty* ret2;
@@ -1015,7 +1092,7 @@ void ImageTools::ctor_2()
     AddMember((::g::Fuse::Scripting::NativeProperty__New3_fn(::g::Fuse::Scripting::NativeProperty_typeof()->MakeType(uObject_typeof(), ::g::Uno::Int_typeof(), NULL), uString::Const("SCALE_AND_CROP"), uCRef<int32_t>(2), &ret4), ret4));
 }
 
-// private Uno.Threading.Future<string> Base64FromImageInterface(object[] args) [instance] :317
+// private Uno.Threading.Future<string> Base64FromImageInterface(object[] args) [instance]
 ::g::Uno::Threading::Future1* ImageTools::Base64FromImageInterface(uArray* args)
 {
     if (uPtr(args)->Length() != 1)
@@ -1025,7 +1102,7 @@ void ImageTools::ctor_2()
     return ImageTools::ImageToBase64(image);
 }
 
-// private Uno.Threading.Future<byte[]> BufferFromImageInterface(object[] args) [instance] :149
+// private Uno.Threading.Future<byte[]> BufferFromImageInterface(object[] args) [instance]
 ::g::Uno::Threading::Future1* ImageTools::BufferFromImageInterface(uArray* args)
 {
     ::g::Uno::Threading::Promise* p = (::g::Uno::Threading::Promise*)::g::Uno::Threading::Promise::New1(::g::Uno::Threading::Promise_typeof()->MakeType(::g::Uno::Byte_typeof()->Array(), NULL));
@@ -1059,7 +1136,7 @@ void ImageTools::ctor_2()
     return p;
 }
 
-// private Uno.Threading.Future<Fuse.ImageTools.Image> CropImageInterface(object[] args) [instance] :251
+// private Uno.Threading.Future<Fuse.ImageTools.Image> CropImageInterface(object[] args) [instance]
 ::g::Uno::Threading::Future1* ImageTools::CropImageInterface(uArray* args)
 {
     int32_t ret5;
@@ -1094,7 +1171,7 @@ void ImageTools::ctor_2()
     return ImageTools::Crop(image, width, height, x, y, inPlace);
 }
 
-// private Uno.Threading.Future<Fuse.ImageTools.Image> ImageFromBase64Interface(object[] args) [instance] :295
+// private Uno.Threading.Future<Fuse.ImageTools.Image> ImageFromBase64Interface(object[] args) [instance]
 ::g::Uno::Threading::Future1* ImageTools::ImageFromBase64Interface(uArray* args)
 {
     uString* ret10;
@@ -1106,7 +1183,7 @@ void ImageTools::ctor_2()
     return ImageTools::ImageFromBase64(str);
 }
 
-// private Uno.Threading.Future<Fuse.ImageTools.Image> ImageFromBufferInterface(object[] args) [instance] :102
+// private Uno.Threading.Future<Fuse.ImageTools.Image> ImageFromBufferInterface(object[] args) [instance]
 ::g::Uno::Threading::Future1* ImageTools::ImageFromBufferInterface(uArray* args)
 {
     ::g::Uno::Threading::Promise* p = (::g::Uno::Threading::Promise*)::g::Uno::Threading::Promise::New1(::g::Uno::Threading::Promise_typeof()->MakeType(::g::Fuse::ImageTools::Image_typeof(), NULL));
@@ -1134,7 +1211,7 @@ void ImageTools::ctor_2()
     return p;
 }
 
-// private Uno.Threading.Future<Fuse.ImageTools.Image> ResizeImageInterface(object[] args) [instance] :205
+// private Uno.Threading.Future<Fuse.ImageTools.Image> ResizeImageInterface(object[] args) [instance]
 ::g::Uno::Threading::Future1* ImageTools::ResizeImageInterface(uArray* args)
 {
     int32_t ret11;
@@ -1158,7 +1235,7 @@ void ImageTools::ctor_2()
     return ImageTools::Resize(image, w, h, m, inPlace);
 }
 
-// public static Uno.Threading.Future<Fuse.ImageTools.Image> Crop(Fuse.ImageTools.Image img, int width, int height, int x, int y, [bool inPlace]) [static] :345
+// public static Uno.Threading.Future<Fuse.ImageTools.Image> Crop(Fuse.ImageTools.Image img, int width, int height, int x, int y, [bool inPlace]) [static]
 ::g::Uno::Threading::Future1* ImageTools::Crop(::g::Fuse::ImageTools::Image* img, int32_t width, int32_t height, int32_t x, int32_t y, bool inPlace)
 {
     ::g::Uno::Threading::Promise* p = (::g::Uno::Threading::Promise*)::g::Uno::Threading::Promise::New1(::g::Uno::Threading::Promise_typeof()->MakeType(::g::Fuse::ImageTools::Image_typeof(), NULL));
@@ -1167,7 +1244,7 @@ void ImageTools::ctor_2()
     return p;
 }
 
-// public static Uno.Threading.Future<Fuse.ImageTools.Image> ImageFromBase64(string b64) [static] :415
+// public static Uno.Threading.Future<Fuse.ImageTools.Image> ImageFromBase64(string b64) [static]
 ::g::Uno::Threading::Future1* ImageTools::ImageFromBase64(uString* b64)
 {
     ::g::Uno::Threading::Promise* p = (::g::Uno::Threading::Promise*)::g::Uno::Threading::Promise::New1(::g::Uno::Threading::Promise_typeof()->MakeType(::g::Fuse::ImageTools::Image_typeof(), NULL));
@@ -1176,7 +1253,7 @@ void ImageTools::ctor_2()
     return p;
 }
 
-// public static Uno.Threading.Future<string> ImageToBase64(Fuse.ImageTools.Image img) [static] :379
+// public static Uno.Threading.Future<string> ImageToBase64(Fuse.ImageTools.Image img) [static]
 ::g::Uno::Threading::Future1* ImageTools::ImageToBase64(::g::Fuse::ImageTools::Image* img)
 {
     ::g::Uno::Threading::Promise* p = (::g::Uno::Threading::Promise*)::g::Uno::Threading::Promise::New1(::g::Uno::Threading::Promise_typeof()->MakeType(::TYPES[3/*string*/], NULL));
@@ -1185,7 +1262,7 @@ void ImageTools::ctor_2()
     return p;
 }
 
-// public ImageTools New() [static] :54
+// public ImageTools New() [static]
 ImageTools* ImageTools::New2()
 {
     ImageTools* obj1 = (ImageTools*)uNew(ImageTools_typeof());
@@ -1193,7 +1270,7 @@ ImageTools* ImageTools::New2()
     return obj1;
 }
 
-// public static Uno.Threading.Future<Fuse.ImageTools.Image> Resize(Fuse.ImageTools.Image img, int desiredWidth, int desiredHeight, Fuse.ImageTools.ResizeMode mode, [bool inPlace]) [static] :326
+// public static Uno.Threading.Future<Fuse.ImageTools.Image> Resize(Fuse.ImageTools.Image img, int desiredWidth, int desiredHeight, Fuse.ImageTools.ResizeMode mode, [bool inPlace]) [static]
 ::g::Uno::Threading::Future1* ImageTools::Resize(::g::Fuse::ImageTools::Image* img, int32_t desiredWidth, int32_t desiredHeight, int32_t mode, bool inPlace)
 {
     ::g::Uno::Threading::Promise* p = (::g::Uno::Threading::Promise*)::g::Uno::Threading::Promise::New1(::g::Uno::Threading::Promise_typeof()->MakeType(::g::Fuse::ImageTools::Image_typeof(), NULL));
@@ -1203,10 +1280,10 @@ ImageTools* ImageTools::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/Android/Commands.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/Android/Commands.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract extern class PCommand :7
+// internal abstract extern class PCommand
 // {
 static void PCommand_build(uType* type)
 {
@@ -1231,37 +1308,37 @@ PCommand_type* PCommand_typeof()
     return type;
 }
 
-// public PCommand(Uno.Permissions.PlatformPermission[] requiredPermissions) :11
+// public PCommand(Uno.Permissions.PlatformPermission[] requiredPermissions)
 void PCommand__ctor__fn(PCommand* __this, uArray* requiredPermissions)
 {
     __this->ctor_(requiredPermissions);
 }
 
-// public void Execute() :16
+// public void Execute()
 void PCommand__Execute_fn(PCommand* __this)
 {
     __this->Execute();
 }
 
-// private void OnPermissions(Uno.Permissions.PlatformPermission[] grantedPermissions) :28
+// private void OnPermissions(Uno.Permissions.PlatformPermission[] grantedPermissions)
 void PCommand__OnPermissions_fn(PCommand* __this, uArray* grantedPermissions)
 {
     __this->OnPermissions(grantedPermissions);
 }
 
-// public PCommand(Uno.Permissions.PlatformPermission[] requiredPermissions) [instance] :11
+// public PCommand(Uno.Permissions.PlatformPermission[] requiredPermissions) [instance]
 void PCommand::ctor_(uArray* requiredPermissions)
 {
     _requiredPermissions = requiredPermissions;
 }
 
-// public void Execute() [instance] :16
+// public void Execute() [instance]
 void PCommand::Execute()
 {
     uPtr(::g::Uno::Permissions::Permissions::Request1(_requiredPermissions))->Then1(uDelegate::New(::TYPES[6/*Uno.Action<Uno.Permissions.PlatformPermission[]>*/], (void*)PCommand__OnPermissions_fn, this), uDelegate::New(::TYPES[7/*Uno.Action<Uno.Exception>*/], this, offsetof(PCommand_type, fp_OnRejected)));
 }
 
-// private void OnPermissions(Uno.Permissions.PlatformPermission[] grantedPermissions) [instance] :28
+// private void OnPermissions(Uno.Permissions.PlatformPermission[] grantedPermissions) [instance]
 void PCommand::OnPermissions(uArray* grantedPermissions)
 {
     if (uPtr(grantedPermissions)->Length() != uPtr(_requiredPermissions)->Length())
@@ -1271,10 +1348,10 @@ void PCommand::OnPermissions(uArray* grantedPermissions)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/PromiseCallbacks.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/PromiseCallbacks.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class PromiseCallback<T> :46
+// internal sealed class PromiseCallback<T>
 // {
 static void PromiseCallback_build(uType* type)
 {
@@ -1297,43 +1374,43 @@ uType* PromiseCallback_typeof()
     return type;
 }
 
-// public PromiseCallback(Uno.Threading.Promise<T> p) :49
+// public PromiseCallback(Uno.Threading.Promise<T> p)
 void PromiseCallback__ctor__fn(PromiseCallback* __this, ::g::Uno::Threading::Promise* p)
 {
     __this->ctor_(p);
 }
 
-// public PromiseCallback New(Uno.Threading.Promise<T> p) :49
+// public PromiseCallback New(Uno.Threading.Promise<T> p)
 void PromiseCallback__New1_fn(uType* __type, ::g::Uno::Threading::Promise* p, PromiseCallback** __retval)
 {
     *__retval = PromiseCallback::New1(__type, p);
 }
 
-// public void Reject(string reason) :59
+// public void Reject(string reason)
 void PromiseCallback__Reject_fn(PromiseCallback* __this, uString* reason)
 {
     __this->Reject(reason);
 }
 
-// public void Resolve(T v) :54
+// public void Resolve(T v)
 void PromiseCallback__Resolve_fn(PromiseCallback* __this, void* v)
 {
     ::g::Uno::Threading::Promise__Resolve_fn(uPtr(__this->_p), v);
 }
 
-// public PromiseCallback(Uno.Threading.Promise<T> p) [instance] :49
+// public PromiseCallback(Uno.Threading.Promise<T> p) [instance]
 void PromiseCallback::ctor_(::g::Uno::Threading::Promise* p)
 {
     _p = p;
 }
 
-// public void Reject(string reason) [instance] :59
+// public void Reject(string reason) [instance]
 void PromiseCallback::Reject(uString* reason)
 {
     uPtr(_p)->Reject(::g::Uno::Exception::New2(reason));
 }
 
-// public PromiseCallback New(Uno.Threading.Promise<T> p) [static] :49
+// public PromiseCallback New(Uno.Threading.Promise<T> p) [static]
 PromiseCallback* PromiseCallback::New1(uType* __type, ::g::Uno::Threading::Promise* p)
 {
     PromiseCallback* obj1 = (PromiseCallback*)uNew(__type);
@@ -1342,10 +1419,10 @@ PromiseCallback* PromiseCallback::New1(uType* __type, ::g::Uno::Threading::Promi
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/Android/Commands.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/Android/Commands.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class ResizeCommand :44
+// internal sealed extern class ResizeCommand
 // {
 static void ResizeCommand_build(uType* type)
 {
@@ -1377,31 +1454,31 @@ static void ResizeCommand_build(uType* type)
     return type;
 }
 
-// public ResizeCommand(string path, int desiredWidth, int desiredHeight, int mode, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace) :52
+// public ResizeCommand(string path, int desiredWidth, int desiredHeight, int mode, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace)
 void ResizeCommand__ctor_1_fn(ResizeCommand* __this, uString* path, int32_t* desiredWidth, int32_t* desiredHeight, int32_t* mode, uDelegate* Resolve, uDelegate* Reject, bool* inPlace)
 {
     __this->ctor_1(path, *desiredWidth, *desiredHeight, *mode, Resolve, Reject, *inPlace);
 }
 
-// public ResizeCommand New(string path, int desiredWidth, int desiredHeight, int mode, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace) :52
+// public ResizeCommand New(string path, int desiredWidth, int desiredHeight, int mode, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace)
 void ResizeCommand__New1_fn(uString* path, int32_t* desiredWidth, int32_t* desiredHeight, int32_t* mode, uDelegate* Resolve, uDelegate* Reject, bool* inPlace, ResizeCommand** __retval)
 {
     *__retval = ResizeCommand::New1(path, *desiredWidth, *desiredHeight, *mode, Resolve, Reject, *inPlace);
 }
 
-// private override sealed void OnGranted() :62
+// private override sealed void OnGranted()
 void ResizeCommand__OnGranted_fn(ResizeCommand* __this)
 {
     ::g::Fuse::ImageTools::AndroidImageUtils::Resize(__this->_path, __this->_desiredWidth, __this->_desiredHeight, __this->_mode, __this->_resolve, __this->_reject, __this->_inPlace);
 }
 
-// private override sealed void OnRejected(Uno.Exception e) :67
+// private override sealed void OnRejected(Uno.Exception e)
 void ResizeCommand__OnRejected_fn(ResizeCommand* __this, ::g::Uno::Exception* e)
 {
     uPtr(__this->_reject)->InvokeVoid(uPtr(e)->Message());
 }
 
-// public ResizeCommand(string path, int desiredWidth, int desiredHeight, int mode, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace) [instance] :52
+// public ResizeCommand(string path, int desiredWidth, int desiredHeight, int mode, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace) [instance]
 void ResizeCommand::ctor_1(uString* path, int32_t desiredWidth, int32_t desiredHeight, int32_t mode, uDelegate* Resolve, uDelegate* Reject, bool inPlace)
 {
     uArray* array2;
@@ -1415,7 +1492,7 @@ void ResizeCommand::ctor_1(uString* path, int32_t desiredWidth, int32_t desiredH
     _reject = Reject;
 }
 
-// public ResizeCommand New(string path, int desiredWidth, int desiredHeight, int mode, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace) [static] :52
+// public ResizeCommand New(string path, int desiredWidth, int desiredHeight, int mode, Uno.Action<string> Resolve, Uno.Action<string> Reject, bool inPlace) [static]
 ResizeCommand* ResizeCommand::New1(uString* path, int32_t desiredWidth, int32_t desiredHeight, int32_t mode, uDelegate* Resolve, uDelegate* Reject, bool inPlace)
 {
     ResizeCommand* obj1 = (ResizeCommand*)uNew(ResizeCommand_typeof());
@@ -1424,10 +1501,10 @@ ResizeCommand* ResizeCommand::New1(uString* path, int32_t desiredWidth, int32_t 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/ImageTools.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/ImageTools.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum ResizeMode :10
+// public enum ResizeMode
 uEnumType* ResizeMode_typeof()
 {
     static uSStrong<uEnumType*> type;

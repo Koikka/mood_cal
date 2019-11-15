@@ -33,7 +33,7 @@ public class AndroidImageUtils
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void Crop414(final String path,final int width,final int height,final int x,final int y,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail,final boolean performInPlace)
+    public static void Crop417(final String path,final int width,final int height,final int x,final int y,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail,final boolean performInPlace)
     {
         final Image inImage = Image.fromPath(path);
         Thread t = new Thread(new Runnable() { public void run() {
@@ -48,7 +48,7 @@ public class AndroidImageUtils
         t.start();
     }
     
-    public static void GetBase64FromImage415(final String path,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail)
+    public static void GetBase64FromImage418(final String path,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail)
     {
         Thread t = new Thread(new Runnable() { public void run() {
         	try
@@ -63,7 +63,7 @@ public class AndroidImageUtils
         t.start();
     }
     
-    public static void GetImageFromBase64416(final String b64,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail)
+    public static void GetImageFromBase64419(final String b64,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail)
     {
         Thread t = new Thread(new Runnable() { public void run() {
         	try
@@ -78,7 +78,7 @@ public class AndroidImageUtils
         t.start();
     }
     
-    public static void GetImageFromBuffer417(final com.uno.ByteArray bytes,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail)
+    public static void GetImageFromBuffer420(final com.uno.ByteArray bytes,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail)
     {
         Thread t = new Thread(new Runnable() { public void run() {
         	try{
@@ -92,7 +92,7 @@ public class AndroidImageUtils
         t.start();
     }
     
-    public static String GetImageFromBufferSync418(final com.uno.ByteArray bytes)
+    public static String GetImageFromBufferSync421(final com.uno.ByteArray bytes)
     {
         try{
         	byte[] bitmapdata = bytes.copyArray();
@@ -104,7 +104,7 @@ public class AndroidImageUtils
         }
     }
     
-    public static void GetSizeInternal419(final String path,final com.uno.IntArray values)
+    public static void GetSizeInternal422(final String path,final com.uno.IntArray values)
     {
         try{
         	Image inImage = Image.fromPath(path);
@@ -114,7 +114,7 @@ public class AndroidImageUtils
         }
     }
     
-    public static void Resize420(final String path,final int width,final int height,final int mode,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail,final boolean performInPlace)
+    public static void Resize423(final String path,final int width,final int height,final int mode,final com.foreign.Uno.Action_String onSuccess,final com.foreign.Uno.Action_String onFail,final boolean performInPlace)
     {
         final Image inImage = Image.fromPath(path);
         Thread t = new Thread(new Runnable() { public void run() {

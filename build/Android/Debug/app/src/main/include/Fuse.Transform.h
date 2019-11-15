@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Transform.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Transform.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -17,7 +17,7 @@ namespace g{namespace Fuse{struct Transform;}}
 namespace g{
 namespace Fuse{
 
-// public abstract class Transform :25
+// public abstract class Transform
 // {
 struct Transform_type : ::g::Fuse::Node_type
 {

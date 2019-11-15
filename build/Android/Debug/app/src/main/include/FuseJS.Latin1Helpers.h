@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/FuseJS/1.9.0/Latin1Helpers.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Latin1Helpers.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace FuseJS{struct Latin1Helpers;}}
 namespace g{
 namespace FuseJS{
 
-// internal static class Latin1Helpers :7
+// internal static class Latin1Helpers
 // {
 uClassType* Latin1Helpers_typeof();
 void Latin1Helpers__DecodeLatin1_fn(uString* base64Str, uString** __retval);

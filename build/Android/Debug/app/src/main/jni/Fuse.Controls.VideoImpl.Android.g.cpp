@@ -2,13 +2,13 @@
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Android.Base.Wrappers.JWrapper.h>
-#include <Android.Base.Wrappers-88f7a41f.h>
-#include <Fuse.Controls.VideoIm-5927e786.h>
-#include <Fuse.Controls.VideoIm-6db665eb.h>
-#include <Fuse.Controls.VideoIm-78c612f4.h>
-#include <Fuse.Controls.VideoIm-7b2eaac1.h>
-#include <Fuse.Controls.VideoIm-c1aafe14.h>
-#include <Fuse.Controls.VideoIm-de88980f.h>
+#include <Android.Base.Wrappers-4c0b8613.h>
+#include <Fuse.Controls.VideoIm-119506e2.h>
+#include <Fuse.Controls.VideoIm-39815dff.h>
+#include <Fuse.Controls.VideoIm-4f6cacc9.h>
+#include <Fuse.Controls.VideoIm-55d144ab.h>
+#include <Fuse.Controls.VideoIm-5b214bbd.h>
+#include <Fuse.Controls.VideoIm-93dd870a.h>
 #include <Fuse.Platform.ApplicationState.h>
 #include <Fuse.Platform.Lifecycle.h>
 #include <Fuse.UpdateManager.h>
@@ -20,7 +20,7 @@
 #include <Uno.Action.h>
 #include <Uno.Action1-1.h>
 #include <Uno.Bool.h>
-#include <Uno.Compiler.ExportTa-39be7c2b.h>
+#include <Uno.Compiler.ExportTa-2429dd1f.h>
 #include <Uno.Delegate.h>
 #include <Uno.Double.h>
 #include <Uno.EventArgs.h>
@@ -49,10 +49,10 @@ namespace Controls{
 namespace VideoImpl{
 namespace Android{
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/Android/VideoPlayer.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/Android/VideoPlayer.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class MediaPlayer :149
+// internal sealed extern class MediaPlayer
 // {
 static void MediaPlayer_build(uType* type)
 {
@@ -121,325 +121,325 @@ MediaPlayer_type* MediaPlayer_typeof()
     return type;
 }
 
-// public MediaPlayer() :202
+// public MediaPlayer()
 void MediaPlayer__ctor__fn(MediaPlayer* __this)
 {
     __this->ctor_();
 }
 
-// public generated void add_Buffering(Uno.EventHandler<int> value) :160
+// public generated void add_Buffering(Uno.EventHandler<int> value)
 void MediaPlayer__add_Buffering_fn(MediaPlayer* __this, uDelegate* value)
 {
     __this->add_Buffering(value);
 }
 
-// public generated void remove_Buffering(Uno.EventHandler<int> value) :160
+// public generated void remove_Buffering(Uno.EventHandler<int> value)
 void MediaPlayer__remove_Buffering_fn(MediaPlayer* __this, uDelegate* value)
 {
     __this->remove_Buffering(value);
 }
 
-// public generated void add_Completion(Uno.EventHandler value) :158
+// public generated void add_Completion(Uno.EventHandler value)
 void MediaPlayer__add_Completion_fn(MediaPlayer* __this, uDelegate* value)
 {
     __this->add_Completion(value);
 }
 
-// public generated void remove_Completion(Uno.EventHandler value) :158
+// public generated void remove_Completion(Uno.EventHandler value)
 void MediaPlayer__remove_Completion_fn(MediaPlayer* __this, uDelegate* value)
 {
     __this->remove_Completion(value);
 }
 
-// private Java.Object CreateMediaPlayer(Java.Object surfaceHandle) :302
+// private Java.Object CreateMediaPlayer(Java.Object surfaceHandle)
 void MediaPlayer__CreateMediaPlayer_fn(MediaPlayer* __this, ::g::Java::Object* surfaceHandle, ::g::Java::Object** __retval)
 {
     *__retval = __this->CreateMediaPlayer(surfaceHandle);
 }
 
-// private Java.Object CreateSurface(Java.Object surfaceTexture) :344
+// private Java.Object CreateSurface(Java.Object surfaceTexture)
 void MediaPlayer__CreateSurface_fn(MediaPlayer* __this, ::g::Java::Object* surfaceTexture, ::g::Java::Object** __retval)
 {
     *__retval = __this->CreateSurface(surfaceTexture);
 }
 
-// private Java.Object CreateSurfaceTexture(int glHandle) :332
+// private Java.Object CreateSurfaceTexture(int glHandle)
 void MediaPlayer__CreateSurfaceTexture_fn(MediaPlayer* __this, int32_t* glHandle, ::g::Java::Object** __retval)
 {
     *__retval = __this->CreateSurfaceTexture(*glHandle);
 }
 
-// public void Dispose() :485
+// public void Dispose()
 void MediaPlayer__Dispose_fn(MediaPlayer* __this)
 {
     __this->Dispose();
 }
 
-// private static void Dispose(Java.Object mediaplayerHandle, Java.Object surfaceHandle, Java.Object surfaceTextureHandle) :497
+// private static void Dispose(Java.Object mediaplayerHandle, Java.Object surfaceHandle, Java.Object surfaceTextureHandle)
 void MediaPlayer__Dispose1_fn(::g::Java::Object* mediaplayerHandle, ::g::Java::Object* surfaceHandle, ::g::Java::Object* surfaceTextureHandle)
 {
     MediaPlayer::Dispose1(mediaplayerHandle, surfaceHandle, surfaceTextureHandle);
 }
 
-// public double get_Duration() :165
+// public double get_Duration()
 void MediaPlayer__get_Duration_fn(MediaPlayer* __this, double* __retval)
 {
     *__retval = __this->Duration();
 }
 
-// public generated void add_Error(Uno.EventHandler<string> value) :159
+// public generated void add_Error(Uno.EventHandler<string> value)
 void MediaPlayer__add_Error_fn(MediaPlayer* __this, uDelegate* value)
 {
     __this->add_Error(value);
 }
 
-// public generated void remove_Error(Uno.EventHandler<string> value) :159
+// public generated void remove_Error(Uno.EventHandler<string> value)
 void MediaPlayer__remove_Error_fn(MediaPlayer* __this, uDelegate* value)
 {
     __this->remove_Error(value);
 }
 
-// public generated void add_ErrorOccurred(Uno.EventHandler<Uno.Exception> value) :163
+// public generated void add_ErrorOccurred(Uno.EventHandler<Uno.Exception> value)
 void MediaPlayer__add_ErrorOccurred_fn(MediaPlayer* __this, uDelegate* value)
 {
     __this->add_ErrorOccurred(value);
 }
 
-// public generated void remove_ErrorOccurred(Uno.EventHandler<Uno.Exception> value) :163
+// public generated void remove_ErrorOccurred(Uno.EventHandler<Uno.Exception> value)
 void MediaPlayer__remove_ErrorOccurred_fn(MediaPlayer* __this, uDelegate* value)
 {
     __this->remove_ErrorOccurred(value);
 }
 
-// public generated void add_FrameAvailable(Uno.EventHandler value) :162
+// public generated void add_FrameAvailable(Uno.EventHandler value)
 void MediaPlayer__add_FrameAvailable_fn(MediaPlayer* __this, uDelegate* value)
 {
     __this->add_FrameAvailable(value);
 }
 
-// public generated void remove_FrameAvailable(Uno.EventHandler value) :162
+// public generated void remove_FrameAvailable(Uno.EventHandler value)
 void MediaPlayer__remove_FrameAvailable_fn(MediaPlayer* __this, uDelegate* value)
 {
     __this->remove_FrameAvailable(value);
 }
 
-// private static int GetCurrentPosition(Java.Object handle) :545
+// private static int GetCurrentPosition(Java.Object handle)
 void MediaPlayer__GetCurrentPosition_fn(::g::Java::Object* handle, int32_t* __retval)
 {
     *__retval = MediaPlayer::GetCurrentPosition(handle);
 }
 
-// private static int GetDuration(Java.Object handle) :575
+// private static int GetDuration(Java.Object handle)
 void MediaPlayer__GetDuration_fn(::g::Java::Object* handle, int32_t* __retval)
 {
     *__retval = MediaPlayer::GetDuration(handle);
 }
 
-// private static int GetHeight(Java.Object handle) :563
+// private static int GetHeight(Java.Object handle)
 void MediaPlayer__GetHeight_fn(::g::Java::Object* handle, int32_t* __retval)
 {
     *__retval = MediaPlayer::GetHeight(handle);
 }
 
-// private static int GetOrientation(Java.Object handle, string dataSorucePath) :215
+// private static int GetOrientation(Java.Object handle, string dataSorucePath)
 void MediaPlayer__GetOrientation_fn(::g::Java::Object* handle, uString* dataSorucePath, int32_t* __retval)
 {
     *__retval = MediaPlayer::GetOrientation(handle, dataSorucePath);
 }
 
-// private static int GetWidth(Java.Object handle) :557
+// private static int GetWidth(Java.Object handle)
 void MediaPlayer__GetWidth_fn(::g::Java::Object* handle, int32_t* __retval)
 {
     *__retval = MediaPlayer::GetWidth(handle);
 }
 
-// public static bool IsHardwareAccelerated() :276
+// public static bool IsHardwareAccelerated()
 void MediaPlayer__IsHardwareAccelerated_fn(bool* __retval)
 {
     *__retval = MediaPlayer::IsHardwareAccelerated();
 }
 
-// public void LoadAsync(string url) :386
+// public void LoadAsync(string url)
 void MediaPlayer__LoadAsync_fn(MediaPlayer* __this, uString* url)
 {
     __this->LoadAsync(url);
 }
 
-// public void LoadAsync(Uno.IO.BundleFile file) :380
+// public void LoadAsync(Uno.IO.BundleFile file)
 void MediaPlayer__LoadAsync1_fn(MediaPlayer* __this, ::g::Uno::IO::BundleFile* file)
 {
     __this->LoadAsync1(file);
 }
 
-// private void LoadAsyncAsset(Java.Object handle, string assetName) :411
+// private void LoadAsyncAsset(Java.Object handle, string assetName)
 void MediaPlayer__LoadAsyncAsset_fn(MediaPlayer* __this, ::g::Java::Object* handle, uString* assetName)
 {
     __this->LoadAsyncAsset(handle, assetName);
 }
 
-// private void LoadAsyncUrl(Java.Object handle, string url) :393
+// private void LoadAsyncUrl(Java.Object handle, string url)
 void MediaPlayer__LoadAsyncUrl_fn(MediaPlayer* __this, ::g::Java::Object* handle, uString* url)
 {
     __this->LoadAsyncUrl(handle, url);
 }
 
-// public MediaPlayer New() :202
+// public MediaPlayer New()
 void MediaPlayer__New1_fn(MediaPlayer** __retval)
 {
     *__retval = MediaPlayer::New1();
 }
 
-// private void OnBuffer(int percent) :538
+// private void OnBuffer(int percent)
 void MediaPlayer__OnBuffer_fn(MediaPlayer* __this, int32_t* percent)
 {
     __this->OnBuffer(*percent);
 }
 
-// private void OnCompletion() :517
+// private void OnCompletion()
 void MediaPlayer__OnCompletion_fn(MediaPlayer* __this)
 {
     __this->OnCompletion();
 }
 
-// private void OnEnteringBackground(Fuse.Platform.ApplicationState args) :375
+// private void OnEnteringBackground(Fuse.Platform.ApplicationState args)
 void MediaPlayer__OnEnteringBackground_fn(MediaPlayer* __this, int32_t* args)
 {
     __this->OnEnteringBackground(*args);
 }
 
-// private void OnError(int what, int extra) :523
+// private void OnError(int what, int extra)
 void MediaPlayer__OnError_fn(MediaPlayer* __this, int32_t* what, int32_t* extra)
 {
     __this->OnError(*what, *extra);
 }
 
-// private void OnErrorOccurred(string msg) :532
+// private void OnErrorOccurred(string msg)
 void MediaPlayer__OnErrorOccurred_fn(MediaPlayer* __this, uString* msg)
 {
     __this->OnErrorOccurred(msg);
 }
 
-// private void OnFrameAvailable() :357
+// private void OnFrameAvailable()
 void MediaPlayer__OnFrameAvailable_fn(MediaPlayer* __this)
 {
     __this->OnFrameAvailable();
 }
 
-// private void OnPrepared() :510
+// private void OnPrepared()
 void MediaPlayer__OnPrepared_fn(MediaPlayer* __this)
 {
     __this->OnPrepared();
 }
 
-// public void Pause() :454
+// public void Pause()
 void MediaPlayer__Pause_fn(MediaPlayer* __this)
 {
     __this->Pause();
 }
 
-// private static void Pause(Java.Object handle) :473
+// private static void Pause(Java.Object handle)
 void MediaPlayer__Pause1_fn(::g::Java::Object* handle)
 {
     MediaPlayer::Pause1(handle);
 }
 
-// public void Play() :453
+// public void Play()
 void MediaPlayer__Play_fn(MediaPlayer* __this)
 {
     __this->Play();
 }
 
-// private static void Play(Java.Object handle) :461
+// private static void Play(Java.Object handle)
 void MediaPlayer__Play1_fn(::g::Java::Object* handle)
 {
     MediaPlayer::Play1(handle);
 }
 
-// public double get_Position() :169
+// public double get_Position()
 void MediaPlayer__get_Position_fn(MediaPlayer* __this, double* __retval)
 {
     *__retval = __this->Position();
 }
 
-// public void set_Position(double value) :170
+// public void set_Position(double value)
 void MediaPlayer__set_Position_fn(MediaPlayer* __this, double* value)
 {
     __this->Position(*value);
 }
 
-// public generated void add_Prepared(Uno.EventHandler value) :157
+// public generated void add_Prepared(Uno.EventHandler value)
 void MediaPlayer__add_Prepared_fn(MediaPlayer* __this, uDelegate* value)
 {
     __this->add_Prepared(value);
 }
 
-// public generated void remove_Prepared(Uno.EventHandler value) :157
+// public generated void remove_Prepared(Uno.EventHandler value)
 void MediaPlayer__remove_Prepared_fn(MediaPlayer* __this, uDelegate* value)
 {
     __this->remove_Prepared(value);
 }
 
-// public int get_RotationDegrees() :180
+// public int get_RotationDegrees()
 void MediaPlayer__get_RotationDegrees_fn(MediaPlayer* __this, int32_t* __retval)
 {
     *__retval = __this->RotationDegrees();
 }
 
-// private static void SeekTo(Java.Object handle, int position) :551
+// private static void SeekTo(Java.Object handle, int position)
 void MediaPlayer__SeekTo_fn(::g::Java::Object* handle, int32_t* position)
 {
     MediaPlayer::SeekTo(handle, *position);
 }
 
-// private static void SetVolume(Java.Object handle, float left, float right) :569
+// private static void SetVolume(Java.Object handle, float left, float right)
 void MediaPlayer__SetVolume_fn(::g::Java::Object* handle, float* left, float* right)
 {
     MediaPlayer::SetVolume(handle, *left, *right);
 }
 
-// public int2 get_Size() :166
+// public int2 get_Size()
 void MediaPlayer__get_Size_fn(MediaPlayer* __this, ::g::Uno::Int2* __retval)
 {
     *__retval = __this->Size();
 }
 
-// public void Update() :362
+// public void Update()
 void MediaPlayer__Update_fn(MediaPlayer* __this)
 {
     __this->Update();
 }
 
-// private void UpdateTexture() :349
+// private void UpdateTexture()
 void MediaPlayer__UpdateTexture_fn(MediaPlayer* __this)
 {
     __this->UpdateTexture();
 }
 
-// private static void UpdateTexture(Java.Object surfaceTextureHandle) :351
+// private static void UpdateTexture(Java.Object surfaceTextureHandle)
 void MediaPlayer__UpdateTexture1_fn(::g::Java::Object* surfaceTextureHandle)
 {
     MediaPlayer::UpdateTexture1(surfaceTextureHandle);
 }
 
-// public Uno.Graphics.VideoTexture get_VideoTexture() :154
+// public Uno.Graphics.VideoTexture get_VideoTexture()
 void MediaPlayer__get_VideoTexture_fn(MediaPlayer* __this, ::g::Uno::Graphics::VideoTexture** __retval)
 {
     *__retval = __this->VideoTexture();
 }
 
-// public float get_Volume() :186
+// public float get_Volume()
 void MediaPlayer__get_Volume_fn(MediaPlayer* __this, float* __retval)
 {
     *__retval = __this->Volume();
 }
 
-// public void set_Volume(float value) :187
+// public void set_Volume(float value)
 void MediaPlayer__set_Volume_fn(MediaPlayer* __this, float* value)
 {
     __this->Volume(*value);
 }
 
-// public MediaPlayer() [instance] :202
+// public MediaPlayer() [instance]
 void MediaPlayer::ctor_()
 {
     _volume = 1.0f;
@@ -452,37 +452,37 @@ void MediaPlayer::ctor_()
     ::g::Fuse::Platform::Lifecycle::add_EnteringBackground(uDelegate::New(::TYPES[0/*Uno.Action<Fuse.Platform.ApplicationState>*/], (void*)MediaPlayer__OnEnteringBackground_fn, this));
 }
 
-// public generated void add_Buffering(Uno.EventHandler<int> value) [instance] :160
+// public generated void add_Buffering(Uno.EventHandler<int> value) [instance]
 void MediaPlayer::add_Buffering(uDelegate* value)
 {
     Buffering1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Buffering1, value), ::TYPES[1/*Uno.EventHandler<int>*/]);
 }
 
-// public generated void remove_Buffering(Uno.EventHandler<int> value) [instance] :160
+// public generated void remove_Buffering(Uno.EventHandler<int> value) [instance]
 void MediaPlayer::remove_Buffering(uDelegate* value)
 {
     Buffering1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Buffering1, value), ::TYPES[1/*Uno.EventHandler<int>*/]);
 }
 
-// public generated void add_Completion(Uno.EventHandler value) [instance] :158
+// public generated void add_Completion(Uno.EventHandler value) [instance]
 void MediaPlayer::add_Completion(uDelegate* value)
 {
     Completion1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Completion1, value), ::TYPES[2/*Uno.EventHandler*/]);
 }
 
-// public generated void remove_Completion(Uno.EventHandler value) [instance] :158
+// public generated void remove_Completion(Uno.EventHandler value) [instance]
 void MediaPlayer::remove_Completion(uDelegate* value)
 {
     Completion1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Completion1, value), ::TYPES[2/*Uno.EventHandler*/]);
 }
 
-// private Java.Object CreateMediaPlayer(Java.Object surfaceHandle) [instance] :302
+// private Java.Object CreateMediaPlayer(Java.Object surfaceHandle) [instance]
 ::g::Java::Object* MediaPlayer::CreateMediaPlayer(::g::Java::Object* surfaceHandle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateMediaPlayer269", "(Lcom/uno/UnoObject;Ljava/lang/Object;)Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateMediaPlayer271", "(Lcom/uno/UnoObject;Ljava/lang/Object;)Ljava/lang/Object;");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         ::g::Java::Object* _usurfaceHandle=surfaceHandle;
@@ -497,13 +497,13 @@ void MediaPlayer::remove_Completion(uDelegate* value)
     
 }
 
-// private Java.Object CreateSurface(Java.Object surfaceTexture) [instance] :344
+// private Java.Object CreateSurface(Java.Object surfaceTexture) [instance]
 ::g::Java::Object* MediaPlayer::CreateSurface(::g::Java::Object* surfaceTexture)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateSurface274", "(Lcom/uno/UnoObject;Ljava/lang/Object;)Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateSurface276", "(Lcom/uno/UnoObject;Ljava/lang/Object;)Ljava/lang/Object;");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         ::g::Java::Object* _usurfaceTexture=surfaceTexture;
@@ -518,13 +518,13 @@ void MediaPlayer::remove_Completion(uDelegate* value)
     
 }
 
-// private Java.Object CreateSurfaceTexture(int glHandle) [instance] :332
+// private Java.Object CreateSurfaceTexture(int glHandle) [instance]
 ::g::Java::Object* MediaPlayer::CreateSurfaceTexture(int32_t glHandle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateSurfaceTexture275", "(Lcom/uno/UnoObject;I)Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateSurfaceTexture277", "(Lcom/uno/UnoObject;I)Ljava/lang/Object;");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         int32_t _uglHandle=glHandle;
@@ -539,7 +539,7 @@ void MediaPlayer::remove_Completion(uDelegate* value)
     
 }
 
-// public void Dispose() [instance] :485
+// public void Dispose() [instance]
 void MediaPlayer::Dispose()
 {
     if (!_isDisposed)
@@ -551,69 +551,69 @@ void MediaPlayer::Dispose()
     }
 }
 
-// public double get_Duration() [instance] :165
+// public double get_Duration() [instance]
 double MediaPlayer::Duration()
 {
     return (double)MediaPlayer::GetDuration(_handle) / 1000.0;
 }
 
-// public generated void add_Error(Uno.EventHandler<string> value) [instance] :159
+// public generated void add_Error(Uno.EventHandler<string> value) [instance]
 void MediaPlayer::add_Error(uDelegate* value)
 {
     Error1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Error1, value), ::TYPES[3/*Uno.EventHandler<string>*/]);
 }
 
-// public generated void remove_Error(Uno.EventHandler<string> value) [instance] :159
+// public generated void remove_Error(Uno.EventHandler<string> value) [instance]
 void MediaPlayer::remove_Error(uDelegate* value)
 {
     Error1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Error1, value), ::TYPES[3/*Uno.EventHandler<string>*/]);
 }
 
-// public generated void add_ErrorOccurred(Uno.EventHandler<Uno.Exception> value) [instance] :163
+// public generated void add_ErrorOccurred(Uno.EventHandler<Uno.Exception> value) [instance]
 void MediaPlayer::add_ErrorOccurred(uDelegate* value)
 {
     ErrorOccurred1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(ErrorOccurred1, value), ::TYPES[4/*Uno.EventHandler<Uno.Exception>*/]);
 }
 
-// public generated void remove_ErrorOccurred(Uno.EventHandler<Uno.Exception> value) [instance] :163
+// public generated void remove_ErrorOccurred(Uno.EventHandler<Uno.Exception> value) [instance]
 void MediaPlayer::remove_ErrorOccurred(uDelegate* value)
 {
     ErrorOccurred1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(ErrorOccurred1, value), ::TYPES[4/*Uno.EventHandler<Uno.Exception>*/]);
 }
 
-// public generated void add_FrameAvailable(Uno.EventHandler value) [instance] :162
+// public generated void add_FrameAvailable(Uno.EventHandler value) [instance]
 void MediaPlayer::add_FrameAvailable(uDelegate* value)
 {
     FrameAvailable1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(FrameAvailable1, value), ::TYPES[2/*Uno.EventHandler*/]);
 }
 
-// public generated void remove_FrameAvailable(Uno.EventHandler value) [instance] :162
+// public generated void remove_FrameAvailable(Uno.EventHandler value) [instance]
 void MediaPlayer::remove_FrameAvailable(uDelegate* value)
 {
     FrameAvailable1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(FrameAvailable1, value), ::TYPES[2/*Uno.EventHandler*/]);
 }
 
-// public void LoadAsync(string url) [instance] :386
+// public void LoadAsync(string url) [instance]
 void MediaPlayer::LoadAsync(uString* url)
 {
     _dataSourcePath = url;
     LoadAsyncUrl(_handle, url);
 }
 
-// public void LoadAsync(Uno.IO.BundleFile file) [instance] :380
+// public void LoadAsync(Uno.IO.BundleFile file) [instance]
 void MediaPlayer::LoadAsync1(::g::Uno::IO::BundleFile* file)
 {
     _dataSourcePath = uPtr(file)->BundlePath();
     LoadAsyncAsset(_handle, file->BundlePath());
 }
 
-// private void LoadAsyncAsset(Java.Object handle, string assetName) [instance] :411
+// private void LoadAsyncAsset(Java.Object handle, string assetName) [instance]
 void MediaPlayer::LoadAsyncAsset(::g::Java::Object* handle, uString* assetName)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "LoadAsyncAsset284", "(Lcom/uno/UnoObject;Ljava/lang/Object;Ljava/lang/String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "LoadAsyncAsset286", "(Lcom/uno/UnoObject;Ljava/lang/Object;Ljava/lang/String;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         ::g::Java::Object* _uhandle=handle;
@@ -631,13 +631,13 @@ void MediaPlayer::LoadAsyncAsset(::g::Java::Object* handle, uString* assetName)
     
 }
 
-// private void LoadAsyncUrl(Java.Object handle, string url) [instance] :393
+// private void LoadAsyncUrl(Java.Object handle, string url) [instance]
 void MediaPlayer::LoadAsyncUrl(::g::Java::Object* handle, uString* url)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "LoadAsyncUrl286", "(Lcom/uno/UnoObject;Ljava/lang/Object;Ljava/lang/String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "LoadAsyncUrl288", "(Lcom/uno/UnoObject;Ljava/lang/Object;Ljava/lang/String;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         ::g::Java::Object* _uhandle=handle;
@@ -655,27 +655,27 @@ void MediaPlayer::LoadAsyncUrl(::g::Java::Object* handle, uString* url)
     
 }
 
-// private void OnBuffer(int percent) [instance] :538
+// private void OnBuffer(int percent) [instance]
 void MediaPlayer::OnBuffer(int32_t percent)
 {
     if (::g::Uno::Delegate::op_Inequality(Buffering1, NULL))
         uPtr(Buffering1)->Invoke(2, this, uCRef<int32_t>(percent));
 }
 
-// private void OnCompletion() [instance] :517
+// private void OnCompletion() [instance]
 void MediaPlayer::OnCompletion()
 {
     if (::g::Uno::Delegate::op_Inequality(Completion1, NULL))
         uPtr(Completion1)->Invoke(2, this, (::g::Uno::EventArgs*)::g::Uno::EventArgs::Empty());
 }
 
-// private void OnEnteringBackground(Fuse.Platform.ApplicationState args) [instance] :375
+// private void OnEnteringBackground(Fuse.Platform.ApplicationState args) [instance]
 void MediaPlayer::OnEnteringBackground(int32_t args)
 {
     Pause();
 }
 
-// private void OnError(int what, int extra) [instance] :523
+// private void OnError(int what, int extra) [instance]
 void MediaPlayer::OnError(int32_t what, int32_t extra)
 {
     uString* msg = ::g::Uno::String::op_Addition1(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition1(::STRINGS[0/*"what: "*/], uBox<int32_t>(::g::Uno::Int_typeof(), what)), ::STRINGS[1/*" extra: "*/]), uBox<int32_t>(::g::Uno::Int_typeof(), extra));
@@ -686,20 +686,20 @@ void MediaPlayer::OnError(int32_t what, int32_t extra)
     OnErrorOccurred(msg);
 }
 
-// private void OnErrorOccurred(string msg) [instance] :532
+// private void OnErrorOccurred(string msg) [instance]
 void MediaPlayer::OnErrorOccurred(uString* msg)
 {
     if (::g::Uno::Delegate::op_Inequality(ErrorOccurred1, NULL))
         uPtr(ErrorOccurred1)->Invoke(2, this, (::g::Uno::Exception*)::g::Uno::Exception::New2(msg));
 }
 
-// private void OnFrameAvailable() [instance] :357
+// private void OnFrameAvailable() [instance]
 void MediaPlayer::OnFrameAvailable()
 {
     _frameAvailable = true;
 }
 
-// private void OnPrepared() [instance] :510
+// private void OnPrepared() [instance]
 void MediaPlayer::OnPrepared()
 {
     _rotationDegrees = MediaPlayer::GetOrientation(_handle, _dataSourcePath);
@@ -708,57 +708,57 @@ void MediaPlayer::OnPrepared()
         uPtr(Prepared1)->Invoke(2, this, (::g::Uno::EventArgs*)::g::Uno::EventArgs::Empty());
 }
 
-// public void Pause() [instance] :454
+// public void Pause() [instance]
 void MediaPlayer::Pause()
 {
     if (MediaPlayer::GetDuration(_handle) >= 0)
         MediaPlayer::Pause1(_handle);
 }
 
-// public void Play() [instance] :453
+// public void Play() [instance]
 void MediaPlayer::Play()
 {
     MediaPlayer::Play1(_handle);
 }
 
-// public double get_Position() [instance] :169
+// public double get_Position() [instance]
 double MediaPlayer::Position()
 {
     return (double)MediaPlayer::GetCurrentPosition(_handle) / 1000.0;
 }
 
-// public void set_Position(double value) [instance] :170
+// public void set_Position(double value) [instance]
 void MediaPlayer::Position(double value)
 {
     if (MediaPlayer::GetDuration(_handle) >= 0)
         MediaPlayer::SeekTo(_handle, (int32_t)(value * 1000.0));
 }
 
-// public generated void add_Prepared(Uno.EventHandler value) [instance] :157
+// public generated void add_Prepared(Uno.EventHandler value) [instance]
 void MediaPlayer::add_Prepared(uDelegate* value)
 {
     Prepared1 = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Prepared1, value), ::TYPES[2/*Uno.EventHandler*/]);
 }
 
-// public generated void remove_Prepared(Uno.EventHandler value) [instance] :157
+// public generated void remove_Prepared(Uno.EventHandler value) [instance]
 void MediaPlayer::remove_Prepared(uDelegate* value)
 {
     Prepared1 = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Prepared1, value), ::TYPES[2/*Uno.EventHandler*/]);
 }
 
-// public int get_RotationDegrees() [instance] :180
+// public int get_RotationDegrees() [instance]
 int32_t MediaPlayer::RotationDegrees()
 {
     return _rotationDegrees;
 }
 
-// public int2 get_Size() [instance] :166
+// public int2 get_Size() [instance]
 ::g::Uno::Int2 MediaPlayer::Size()
 {
     return ::g::Uno::Int2__New2(MediaPlayer::GetWidth(_handle), MediaPlayer::GetHeight(_handle));
 }
 
-// public void Update() [instance] :362
+// public void Update() [instance]
 void MediaPlayer::Update()
 {
     if (_frameAvailable)
@@ -772,38 +772,38 @@ void MediaPlayer::Update()
     }
 }
 
-// private void UpdateTexture() [instance] :349
+// private void UpdateTexture() [instance]
 void MediaPlayer::UpdateTexture()
 {
     MediaPlayer::UpdateTexture1(_surfaceTexture);
 }
 
-// public Uno.Graphics.VideoTexture get_VideoTexture() [instance] :154
+// public Uno.Graphics.VideoTexture get_VideoTexture() [instance]
 ::g::Uno::Graphics::VideoTexture* MediaPlayer::VideoTexture()
 {
     return _videoTexture;
 }
 
-// public float get_Volume() [instance] :186
+// public float get_Volume() [instance]
 float MediaPlayer::Volume()
 {
     return _volume;
 }
 
-// public void set_Volume(float value) [instance] :187
+// public void set_Volume(float value) [instance]
 void MediaPlayer::Volume(float value)
 {
     _volume = ::g::Uno::Math::Clamp1(value, 0.0f, 1.0f);
     MediaPlayer::SetVolume(_handle, _volume, _volume);
 }
 
-// private static void Dispose(Java.Object mediaplayerHandle, Java.Object surfaceHandle, Java.Object surfaceTextureHandle) [static] :497
+// private static void Dispose(Java.Object mediaplayerHandle, Java.Object surfaceHandle, Java.Object surfaceTextureHandle) [static]
 void MediaPlayer::Dispose1(::g::Java::Object* mediaplayerHandle, ::g::Java::Object* surfaceHandle, ::g::Java::Object* surfaceTextureHandle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Dispose1277", "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Dispose1279", "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V");
         ::g::Java::Object* _umediaplayerHandle=mediaplayerHandle;
         jobject _mediaplayerHandle = (_umediaplayerHandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_umediaplayerHandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         ::g::Java::Object* _usurfaceHandle=surfaceHandle;
@@ -821,13 +821,13 @@ void MediaPlayer::Dispose1(::g::Java::Object* mediaplayerHandle, ::g::Java::Obje
     
 }
 
-// private static int GetCurrentPosition(Java.Object handle) [static] :545
+// private static int GetCurrentPosition(Java.Object handle) [static]
 int32_t MediaPlayer::GetCurrentPosition(::g::Java::Object* handle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetCurrentPosition278", "(Ljava/lang/Object;)I");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetCurrentPosition280", "(Ljava/lang/Object;)I");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         jint __jresult = U_JNIVAR->CallStaticIntMethod(__cls,__mtd,_handle);
@@ -839,13 +839,13 @@ int32_t MediaPlayer::GetCurrentPosition(::g::Java::Object* handle)
     
 }
 
-// private static int GetDuration(Java.Object handle) [static] :575
+// private static int GetDuration(Java.Object handle) [static]
 int32_t MediaPlayer::GetDuration(::g::Java::Object* handle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetDuration279", "(Ljava/lang/Object;)I");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetDuration281", "(Ljava/lang/Object;)I");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         jint __jresult = U_JNIVAR->CallStaticIntMethod(__cls,__mtd,_handle);
@@ -857,13 +857,13 @@ int32_t MediaPlayer::GetDuration(::g::Java::Object* handle)
     
 }
 
-// private static int GetHeight(Java.Object handle) [static] :563
+// private static int GetHeight(Java.Object handle) [static]
 int32_t MediaPlayer::GetHeight(::g::Java::Object* handle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetHeight280", "(Ljava/lang/Object;)I");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetHeight282", "(Ljava/lang/Object;)I");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         jint __jresult = U_JNIVAR->CallStaticIntMethod(__cls,__mtd,_handle);
@@ -875,13 +875,13 @@ int32_t MediaPlayer::GetHeight(::g::Java::Object* handle)
     
 }
 
-// private static int GetOrientation(Java.Object handle, string dataSorucePath) [static] :215
+// private static int GetOrientation(Java.Object handle, string dataSorucePath) [static]
 int32_t MediaPlayer::GetOrientation(::g::Java::Object* handle, uString* dataSorucePath)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetOrientation281", "(Ljava/lang/Object;Ljava/lang/String;)I");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetOrientation283", "(Ljava/lang/Object;Ljava/lang/String;)I");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         uString* _udataSorucePath=dataSorucePath;
@@ -896,13 +896,13 @@ int32_t MediaPlayer::GetOrientation(::g::Java::Object* handle, uString* dataSoru
     
 }
 
-// private static int GetWidth(Java.Object handle) [static] :557
+// private static int GetWidth(Java.Object handle) [static]
 int32_t MediaPlayer::GetWidth(::g::Java::Object* handle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetWidth282", "(Ljava/lang/Object;)I");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetWidth284", "(Ljava/lang/Object;)I");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         jint __jresult = U_JNIVAR->CallStaticIntMethod(__cls,__mtd,_handle);
@@ -914,13 +914,13 @@ int32_t MediaPlayer::GetWidth(::g::Java::Object* handle)
     
 }
 
-// public static bool IsHardwareAccelerated() [static] :276
+// public static bool IsHardwareAccelerated() [static]
 bool MediaPlayer::IsHardwareAccelerated()
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "IsHardwareAccelerated283", "()Z");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "IsHardwareAccelerated285", "()Z");
         jboolean __jresult = U_JNIVAR->CallStaticBooleanMethod(__cls,__mtd);
         bool __result = (bool)__jresult;
         ::g::Android::Base::JNI::CheckException();
@@ -929,7 +929,7 @@ bool MediaPlayer::IsHardwareAccelerated()
     
 }
 
-// public MediaPlayer New() [static] :202
+// public MediaPlayer New() [static]
 MediaPlayer* MediaPlayer::New1()
 {
     MediaPlayer* obj1 = (MediaPlayer*)uNew(MediaPlayer_typeof());
@@ -937,13 +937,13 @@ MediaPlayer* MediaPlayer::New1()
     return obj1;
 }
 
-// private static void Pause(Java.Object handle) [static] :473
+// private static void Pause(Java.Object handle) [static]
 void MediaPlayer::Pause1(::g::Java::Object* handle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Pause1287", "(Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Pause1289", "(Ljava/lang/Object;)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_handle);
@@ -955,13 +955,13 @@ void MediaPlayer::Pause1(::g::Java::Object* handle)
     
 }
 
-// private static void Play(Java.Object handle) [static] :461
+// private static void Play(Java.Object handle) [static]
 void MediaPlayer::Play1(::g::Java::Object* handle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Play1288", "(Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Play1290", "(Ljava/lang/Object;)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_handle);
@@ -973,13 +973,13 @@ void MediaPlayer::Play1(::g::Java::Object* handle)
     
 }
 
-// private static void SeekTo(Java.Object handle, int position) [static] :551
+// private static void SeekTo(Java.Object handle, int position) [static]
 void MediaPlayer::SeekTo(::g::Java::Object* handle, int32_t position)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SeekTo289", "(Ljava/lang/Object;I)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SeekTo291", "(Ljava/lang/Object;I)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         int32_t _uposition=position;
@@ -994,13 +994,13 @@ void MediaPlayer::SeekTo(::g::Java::Object* handle, int32_t position)
     
 }
 
-// private static void SetVolume(Java.Object handle, float left, float right) [static] :569
+// private static void SetVolume(Java.Object handle, float left, float right) [static]
 void MediaPlayer::SetVolume(::g::Java::Object* handle, float left, float right)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetVolume290", "(Ljava/lang/Object;FF)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetVolume292", "(Ljava/lang/Object;FF)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         float _uleft=left;
@@ -1018,13 +1018,13 @@ void MediaPlayer::SetVolume(::g::Java::Object* handle, float left, float right)
     
 }
 
-// private static void UpdateTexture(Java.Object surfaceTextureHandle) [static] :351
+// private static void UpdateTexture(Java.Object surfaceTextureHandle) [static]
 void MediaPlayer::UpdateTexture1(::g::Java::Object* surfaceTextureHandle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "UpdateTexture1291", "(Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "UpdateTexture1293", "(Ljava/lang/Object;)V");
         ::g::Java::Object* _usurfaceTextureHandle=surfaceTextureHandle;
         jobject _surfaceTextureHandle = (_usurfaceTextureHandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_usurfaceTextureHandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_surfaceTextureHandle);
@@ -1037,10 +1037,10 @@ void MediaPlayer::UpdateTexture1(::g::Java::Object* surfaceTextureHandle)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/Android/VideoPlayer.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/Android/VideoPlayer.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class VideoLoader.NoHardwareAcceleration :96
+// private sealed class VideoLoader.NoHardwareAcceleration
 // {
 static void VideoLoader__NoHardwareAcceleration_build(uType* type)
 {
@@ -1074,43 +1074,43 @@ static void VideoLoader__NoHardwareAcceleration_build(uType* type)
     return type;
 }
 
-// public NoHardwareAcceleration() :98
+// public NoHardwareAcceleration()
 void VideoLoader__NoHardwareAcceleration__ctor_7_fn(VideoLoader__NoHardwareAcceleration* __this)
 {
     __this->ctor_7();
 }
 
-// public override sealed void Cancel([bool shutdownGracefully]) :108
+// public override sealed void Cancel([bool shutdownGracefully])
 void VideoLoader__NoHardwareAcceleration__Cancel_fn(VideoLoader__NoHardwareAcceleration* __this, bool* shutdownGracefully)
 {
 }
 
-// private void DoReject() :103
+// private void DoReject()
 void VideoLoader__NoHardwareAcceleration__DoReject_fn(VideoLoader__NoHardwareAcceleration* __this)
 {
     __this->DoReject();
 }
 
-// public NoHardwareAcceleration New() :98
+// public NoHardwareAcceleration New()
 void VideoLoader__NoHardwareAcceleration__New5_fn(VideoLoader__NoHardwareAcceleration** __retval)
 {
     *__retval = VideoLoader__NoHardwareAcceleration::New5();
 }
 
-// public NoHardwareAcceleration() [instance] :98
+// public NoHardwareAcceleration() [instance]
 void VideoLoader__NoHardwareAcceleration::ctor_7()
 {
     ctor_3();
     ::g::Fuse::UpdateManager::AddOnceAction(uDelegate::New(::TYPES[5/*Uno.Action*/], (void*)VideoLoader__NoHardwareAcceleration__DoReject_fn, this), 0);
 }
 
-// private void DoReject() [instance] :103
+// private void DoReject() [instance]
 void VideoLoader__NoHardwareAcceleration::DoReject()
 {
     Reject(::g::Uno::Exception::New2(::STRINGS[2/*"Video not s...*/]));
 }
 
-// public NoHardwareAcceleration New() [static] :98
+// public NoHardwareAcceleration New() [static]
 VideoLoader__NoHardwareAcceleration* VideoLoader__NoHardwareAcceleration::New5()
 {
     VideoLoader__NoHardwareAcceleration* obj1 = (VideoLoader__NoHardwareAcceleration*)uNew(VideoLoader__NoHardwareAcceleration_typeof());
@@ -1119,10 +1119,10 @@ VideoLoader__NoHardwareAcceleration* VideoLoader__NoHardwareAcceleration::New5()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/Android/VideoPlayer.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/Android/VideoPlayer.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class VideoLoader :14
+// internal sealed extern class VideoLoader
 // {
 static void VideoLoader_build(uType* type)
 {
@@ -1144,25 +1144,25 @@ uType* VideoLoader_typeof()
     return type;
 }
 
-// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(string url) :123
+// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(string url)
 void VideoLoader__Load_fn(uString* url, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = VideoLoader::Load(url);
 }
 
-// private static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(Uno.IO.BundleFile file) :135
+// private static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(Uno.IO.BundleFile file)
 void VideoLoader__Load1_fn(::g::Uno::IO::BundleFile* file, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = VideoLoader::Load1(file);
 }
 
-// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(Uno.UX.FileSource fileSource) :111
+// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(Uno.UX.FileSource fileSource)
 void VideoLoader__Load2_fn(::g::Uno::UX::FileSource* fileSource, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = VideoLoader::Load2(fileSource);
 }
 
-// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(string url) [static] :123
+// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(string url) [static]
 ::g::Uno::Threading::Future1* VideoLoader::Load(uString* url)
 {
     if (::g::Fuse::Controls::VideoImpl::Android::MediaPlayer::IsHardwareAccelerated())
@@ -1171,7 +1171,7 @@ void VideoLoader__Load2_fn(::g::Uno::UX::FileSource* fileSource, ::g::Uno::Threa
         return VideoLoader__NoHardwareAcceleration::New5();
 }
 
-// private static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(Uno.IO.BundleFile file) [static] :135
+// private static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(Uno.IO.BundleFile file) [static]
 ::g::Uno::Threading::Future1* VideoLoader::Load1(::g::Uno::IO::BundleFile* file)
 {
     if (::g::Fuse::Controls::VideoImpl::Android::MediaPlayer::IsHardwareAccelerated())
@@ -1180,7 +1180,7 @@ void VideoLoader__Load2_fn(::g::Uno::UX::FileSource* fileSource, ::g::Uno::Threa
         return VideoLoader__NoHardwareAcceleration::New5();
 }
 
-// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(Uno.UX.FileSource fileSource) [static] :111
+// public static Uno.Threading.Future<Fuse.Controls.VideoImpl.IVideoPlayer> Load(Uno.UX.FileSource fileSource) [static]
 ::g::Uno::Threading::Future1* VideoLoader::Load2(::g::Uno::UX::FileSource* fileSource)
 {
     if (uIs(fileSource, ::g::Uno::UX::BundleFileSource_typeof()))
@@ -1190,10 +1190,10 @@ void VideoLoader__Load2_fn(::g::Uno::UX::FileSource* fileSource, ::g::Uno::Threa
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Video/1.9.0/Android/VideoPlayer.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Video/1.12.0/Android/VideoPlayer.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class VideoLoader.VideoPromise :16
+// private sealed class VideoLoader.VideoPromise
 // {
 static void VideoLoader__VideoPromise_build(uType* type)
 {
@@ -1231,86 +1231,86 @@ static void VideoLoader__VideoPromise_build(uType* type)
     return type;
 }
 
-// private VideoPromise() :20
+// private VideoPromise()
 void VideoLoader__VideoPromise__ctor_7_fn(VideoLoader__VideoPromise* __this)
 {
     __this->ctor_7();
 }
 
-// public VideoPromise(string url) :31
+// public VideoPromise(string url)
 void VideoLoader__VideoPromise__ctor_8_fn(VideoLoader__VideoPromise* __this, uString* url)
 {
     __this->ctor_8(url);
 }
 
-// public VideoPromise(Uno.IO.BundleFile file) :26
+// public VideoPromise(Uno.IO.BundleFile file)
 void VideoLoader__VideoPromise__ctor_9_fn(VideoLoader__VideoPromise* __this, ::g::Uno::IO::BundleFile* file)
 {
     __this->ctor_9(file);
 }
 
-// public override sealed void Cancel([bool shutdownGracefully]) :66
+// public override sealed void Cancel([bool shutdownGracefully])
 void VideoLoader__VideoPromise__Cancel_fn(VideoLoader__VideoPromise* __this, bool* shutdownGracefully)
 {
     __this->ScheduleDispose();
 }
 
-// public override sealed void Dispose() :89
+// public override sealed void Dispose()
 void VideoLoader__VideoPromise__Dispose_fn(VideoLoader__VideoPromise* __this)
 {
     ::g::Uno::Threading::Future1__Dispose_fn(__this);
     __this->ScheduleDispose();
 }
 
-// private void DoDispose() :80
+// private void DoDispose()
 void VideoLoader__VideoPromise__DoDispose_fn(VideoLoader__VideoPromise* __this)
 {
     __this->DoDispose();
 }
 
-// private void HookEvents() :36
+// private void HookEvents()
 void VideoLoader__VideoPromise__HookEvents_fn(VideoLoader__VideoPromise* __this)
 {
     __this->HookEvents();
 }
 
-// public VideoPromise New(string url) :31
+// public VideoPromise New(string url)
 void VideoLoader__VideoPromise__New6_fn(uString* url, VideoLoader__VideoPromise** __retval)
 {
     *__retval = VideoLoader__VideoPromise::New6(url);
 }
 
-// public VideoPromise New(Uno.IO.BundleFile file) :26
+// public VideoPromise New(Uno.IO.BundleFile file)
 void VideoLoader__VideoPromise__New7_fn(::g::Uno::IO::BundleFile* file, VideoLoader__VideoPromise** __retval)
 {
     *__retval = VideoLoader__VideoPromise::New7(file);
 }
 
-// private void OnError(object sender, string msg) :56
+// private void OnError(object sender, string msg)
 void VideoLoader__VideoPromise__OnError_fn(VideoLoader__VideoPromise* __this, uObject* sender, uString* msg)
 {
     __this->OnError(sender, msg);
 }
 
-// private void OnPrepared(object sender, Uno.EventArgs args) :48
+// private void OnPrepared(object sender, Uno.EventArgs args)
 void VideoLoader__VideoPromise__OnPrepared_fn(VideoLoader__VideoPromise* __this, uObject* sender, ::g::Uno::EventArgs* args)
 {
     __this->OnPrepared(sender, args);
 }
 
-// private void ScheduleDispose() :71
+// private void ScheduleDispose()
 void VideoLoader__VideoPromise__ScheduleDispose_fn(VideoLoader__VideoPromise* __this)
 {
     __this->ScheduleDispose();
 }
 
-// private void UnhookEvents() :42
+// private void UnhookEvents()
 void VideoLoader__VideoPromise__UnhookEvents_fn(VideoLoader__VideoPromise* __this)
 {
     __this->UnhookEvents();
 }
 
-// private VideoPromise() [instance] :20
+// private VideoPromise() [instance]
 void VideoLoader__VideoPromise::ctor_7()
 {
     ctor_3();
@@ -1318,21 +1318,21 @@ void VideoLoader__VideoPromise::ctor_7()
     HookEvents();
 }
 
-// public VideoPromise(string url) [instance] :31
+// public VideoPromise(string url) [instance]
 void VideoLoader__VideoPromise::ctor_8(uString* url)
 {
     ctor_7();
     uPtr(_videoPlayer)->LoadAsync(url);
 }
 
-// public VideoPromise(Uno.IO.BundleFile file) [instance] :26
+// public VideoPromise(Uno.IO.BundleFile file) [instance]
 void VideoLoader__VideoPromise::ctor_9(::g::Uno::IO::BundleFile* file)
 {
     ctor_7();
     uPtr(_videoPlayer)->LoadAsync1(file);
 }
 
-// private void DoDispose() [instance] :80
+// private void DoDispose() [instance]
 void VideoLoader__VideoPromise::DoDispose()
 {
     if (_readyToDispose)
@@ -1342,14 +1342,14 @@ void VideoLoader__VideoPromise::DoDispose()
     }
 }
 
-// private void HookEvents() [instance] :36
+// private void HookEvents() [instance]
 void VideoLoader__VideoPromise::HookEvents()
 {
     uPtr(_videoPlayer)->add_Prepared(uDelegate::New(::TYPES[2/*Uno.EventHandler*/], (void*)VideoLoader__VideoPromise__OnPrepared_fn, this));
     uPtr(_videoPlayer)->add_Error(uDelegate::New(::TYPES[3/*Uno.EventHandler<string>*/], (void*)VideoLoader__VideoPromise__OnError_fn, this));
 }
 
-// private void OnError(object sender, string msg) [instance] :56
+// private void OnError(object sender, string msg) [instance]
 void VideoLoader__VideoPromise::OnError(uObject* sender, uString* msg)
 {
     UnhookEvents();
@@ -1359,7 +1359,7 @@ void VideoLoader__VideoPromise::OnError(uObject* sender, uString* msg)
         Reject(::g::Uno::Exception::New2(msg));
 }
 
-// private void OnPrepared(object sender, Uno.EventArgs args) [instance] :48
+// private void OnPrepared(object sender, Uno.EventArgs args) [instance]
 void VideoLoader__VideoPromise::OnPrepared(uObject* sender, ::g::Uno::EventArgs* args)
 {
     UnhookEvents();
@@ -1369,7 +1369,7 @@ void VideoLoader__VideoPromise::OnPrepared(uObject* sender, ::g::Uno::EventArgs*
         ::g::Uno::Threading::Promise__Resolve_fn(this, (uObject*)_videoPlayer);
 }
 
-// private void ScheduleDispose() [instance] :71
+// private void ScheduleDispose() [instance]
 void VideoLoader__VideoPromise::ScheduleDispose()
 {
     if (!_isCancelled)
@@ -1379,14 +1379,14 @@ void VideoLoader__VideoPromise::ScheduleDispose()
     }
 }
 
-// private void UnhookEvents() [instance] :42
+// private void UnhookEvents() [instance]
 void VideoLoader__VideoPromise::UnhookEvents()
 {
     uPtr(_videoPlayer)->remove_Prepared(uDelegate::New(::TYPES[2/*Uno.EventHandler*/], (void*)VideoLoader__VideoPromise__OnPrepared_fn, this));
     uPtr(_videoPlayer)->remove_Error(uDelegate::New(::TYPES[3/*Uno.EventHandler<string>*/], (void*)VideoLoader__VideoPromise__OnError_fn, this));
 }
 
-// public VideoPromise New(string url) [static] :31
+// public VideoPromise New(string url) [static]
 VideoLoader__VideoPromise* VideoLoader__VideoPromise::New6(uString* url)
 {
     VideoLoader__VideoPromise* obj3 = (VideoLoader__VideoPromise*)uNew(VideoLoader__VideoPromise_typeof());
@@ -1394,7 +1394,7 @@ VideoLoader__VideoPromise* VideoLoader__VideoPromise::New6(uString* url)
     return obj3;
 }
 
-// public VideoPromise New(Uno.IO.BundleFile file) [static] :26
+// public VideoPromise New(Uno.IO.BundleFile file) [static]
 VideoLoader__VideoPromise* VideoLoader__VideoPromise::New7(::g::Uno::IO::BundleFile* file)
 {
     VideoLoader__VideoPromise* obj2 = (VideoLoader__VideoPromise*)uNew(VideoLoader__VideoPromise_typeof());

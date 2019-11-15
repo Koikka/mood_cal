@@ -1,11 +1,12 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/Android/Camera.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.CameraView/1.12.0/Android/Camera.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Controls.Native.-e502cdf1.h>
+#include <Fuse.Controls.Native.-dc7eb731.h>
 #include <Uno.IDisposable.h>
 #include <Uno.Int2.h>
 namespace g{namespace Fuse{namespace Controls{namespace Android{struct Camera;}}}}
+namespace g{namespace Fuse{namespace Controls{struct Nothing;}}}
 namespace g{namespace Fuse{namespace Controls{struct Photo;}}}
 namespace g{namespace Fuse{namespace Controls{struct PhotoOption;}}}
 namespace g{namespace Fuse{namespace Controls{struct RecordingSession;}}}
@@ -17,7 +18,7 @@ namespace Fuse{
 namespace Controls{
 namespace Android{
 
-// internal sealed extern class Camera :88
+// internal sealed extern class Camera
 // {
 ::g::Fuse::Controls::Native::ViewHandle_type* Camera_typeof();
 void Camera__ctor_4_fn(Camera* __this, ::g::Java::Object* cameraHandle, int32_t* cameraId, int32_t* facing);
@@ -39,6 +40,8 @@ void Camera__set_PreviewStretchMode_fn(Camera* __this, int32_t* value);
 void Camera__Release_fn(::g::Java::Object* handle);
 void Camera__RestoreParameters_fn(Camera* __this, uString* parameters);
 void Camera__SaveParameters_fn(Camera* __this, uString** __retval);
+void Camera__SetCameraFocusPoint_fn(Camera* __this, double* x, double* y, int32_t* cameraWidth, int32_t* cameraHeight, int32_t* isFocusLocked, ::g::Uno::Threading::Future1** __retval);
+void Camera__SetCameraFocusPointNow_fn(Camera* __this, double* x, double* y, int32_t* cameraWidth, int32_t* cameraHeight, int32_t* isFocusLocked);
 void Camera__SetFlashMode_fn(Camera* __this, ::g::Java::Object* handle, uString* flashMode);
 void Camera__SetPhotoOptions_fn(Camera* __this, uArray* options, ::g::Uno::Threading::Future1** __retval);
 void Camera__SetPictureSize_fn(Camera* __this, int32_t* width, int32_t* height);
@@ -72,6 +75,8 @@ struct Camera : ::g::Fuse::Controls::Native::ViewHandle
     void PreviewStretchMode(int32_t value);
     void RestoreParameters(uString* parameters);
     uString* SaveParameters();
+    ::g::Uno::Threading::Future1* SetCameraFocusPoint(double x, double y, int32_t cameraWidth, int32_t cameraHeight, int32_t isFocusLocked);
+    void SetCameraFocusPointNow(double x, double y, int32_t cameraWidth, int32_t cameraHeight, int32_t isFocusLocked);
     void SetFlashMode(::g::Java::Object* handle, uString* flashMode);
     ::g::Uno::Threading::Future1* SetPhotoOptions(uArray* options);
     void SetPictureSize(int32_t width, int32_t height);

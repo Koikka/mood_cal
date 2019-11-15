@@ -1,14 +1,14 @@
 // This file was generated based on '(multiple files)'.
 // WARNING: Changes might be lost if you edit this file directly.
 
-#include <Fuse.Controls.Fallbac-2048a2c7.h>
-#include <Fuse.Controls.Fallbac-3ba1f49e.h>
-#include <Fuse.Controls.Fallbac-88c65e06.h>
-#include <Fuse.Controls.Fallbac-8b30b373.h>
-#include <Fuse.Controls.Fallbac-8d2cb690.h>
-#include <Fuse.Controls.Fallbac-949442c6.h>
-#include <Fuse.Controls.Fallbac-b5651652.h>
-#include <Fuse.Controls.Fallbac-c67e82be.h>
+#include <Fuse.Controls.Fallbac-2a86dc28.h>
+#include <Fuse.Controls.Fallbac-4288623.h>
+#include <Fuse.Controls.Fallbac-60af5153.h>
+#include <Fuse.Controls.Fallbac-6a367d8d.h>
+#include <Fuse.Controls.Fallbac-6a565347.h>
+#include <Fuse.Controls.Fallbac-88c0db77.h>
+#include <Fuse.Controls.Fallbac-c638fcea.h>
+#include <Fuse.Controls.Fallbac-e4419b7.h>
 #include <Fuse.Controls.TextAlignment.h>
 #include <Fuse.Controls.TextControl.h>
 #include <Fuse.Controls.TextWrapping.h>
@@ -25,10 +25,10 @@
 #include <Uno.Collections.IEnumerable-1.h>
 #include <Uno.Collections.List-1.h>
 #include <Uno.Content.Fonts.BitmapFont.h>
-#include <Uno.Content.Fonts.Fon-7ac6afa6.h>
+#include <Uno.Content.Fonts.Fon-4dfa0dad.h>
 #include <Uno.Content.Fonts.FontFace.h>
-#include <Uno.Content.Fonts.Spr-ee6ea36c.h>
-#include <Uno.Content.Fonts.Tex-76761aaa.h>
+#include <Uno.Content.Fonts.Spr-ec9cf7ab.h>
+#include <Uno.Content.Fonts.Tex-82a1cb46.h>
 #include <Uno.Content.Fonts.TextRenderer.h>
 #include <Uno.Content.Fonts.TextShader.h>
 #include <Uno.Float.h>
@@ -40,7 +40,7 @@
 #include <Uno.IO.BundleFile.h>
 #include <Uno.Math.h>
 #include <Uno.Matrix.h>
-#include <Uno.Runtime.Implement-eca777ec.h>
+#include <Uno.Runtime.Implement-26b2c647.h>
 #include <Uno.String.h>
 #include <Uno.UX.BundleFileSource.h>
 #include <Uno.UX.FileSource.h>
@@ -52,10 +52,10 @@ namespace Fuse{
 namespace Controls{
 namespace FallbackTextRenderer{
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/DefaultTextRenderer.uno
-// ----------------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/TextControls/FallbackTextRenderer/DefaultTextRenderer.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class DefaultTextRenderer :9
+// internal sealed class DefaultTextRenderer
 // {
 static void DefaultTextRenderer_build(uType* type)
 {
@@ -87,79 +87,79 @@ uType* DefaultTextRenderer_typeof()
     return type;
 }
 
-// public DefaultTextRenderer(Uno.Content.Fonts.FontFace fontFace) :58
+// public DefaultTextRenderer(Uno.Content.Fonts.FontFace fontFace)
 void DefaultTextRenderer__ctor__fn(DefaultTextRenderer* __this, ::g::Uno::Content::Fonts::FontFace* fontFace)
 {
     __this->ctor_(fontFace);
 }
 
-// public void BeginRendering(float fontSize, float absoluteZoom, float4x4 transform, float2 bounds, float4 textColor, int maxTextLength) :113
+// public void BeginRendering(float fontSize, float absoluteZoom, float4x4 transform, float2 bounds, float4 textColor, int maxTextLength)
 void DefaultTextRenderer__BeginRendering_fn(DefaultTextRenderer* __this, float* fontSize, float* absoluteZoom, ::g::Uno::Float4x4* transform, ::g::Uno::Float2* bounds, ::g::Uno::Float4* textColor, int32_t* maxTextLength)
 {
     __this->BeginRendering(*fontSize, *absoluteZoom, *transform, *bounds, *textColor, *maxTextLength);
 }
 
-// public void DrawLine(Fuse.DrawContext dc, float x, float y, string line) :134
+// public void DrawLine(Fuse.DrawContext dc, float x, float y, string line)
 void DefaultTextRenderer__DrawLine_fn(DefaultTextRenderer* __this, ::g::Fuse::DrawContext* dc, float* x, float* y, uString* line)
 {
     __this->DrawLine(dc, *x, *y, line);
 }
 
-// public void EndRendering(Fuse.DrawContext dc) :128
+// public void EndRendering(Fuse.DrawContext dc)
 void DefaultTextRenderer__EndRendering_fn(DefaultTextRenderer* __this, ::g::Fuse::DrawContext* dc)
 {
     __this->EndRendering(dc);
 }
 
-// private static void EnsureRendererCapacity(int maxCharCount) :171
+// private static void EnsureRendererCapacity(int maxCharCount)
 void DefaultTextRenderer__EnsureRendererCapacity_fn(int32_t* maxCharCount)
 {
     DefaultTextRenderer::EnsureRendererCapacity(*maxCharCount);
 }
 
-// public generated Uno.Content.Fonts.FontFace get_FontFace() :70
+// public generated Uno.Content.Fonts.FontFace get_FontFace()
 void DefaultTextRenderer__get_FontFace_fn(DefaultTextRenderer* __this, ::g::Uno::Content::Fonts::FontFace** __retval)
 {
     *__retval = __this->FontFace();
 }
 
-// public generated void set_FontFace(Uno.Content.Fonts.FontFace value) :70
+// public generated void set_FontFace(Uno.Content.Fonts.FontFace value)
 void DefaultTextRenderer__set_FontFace_fn(DefaultTextRenderer* __this, ::g::Uno::Content::Fonts::FontFace* value)
 {
     __this->FontFace(value);
 }
 
-// private Uno.Content.Fonts.BitmapFont GetBitmapFont(float fontSize, float absoluteZoom, bool includeZoom) :156
+// private Uno.Content.Fonts.BitmapFont GetBitmapFont(float fontSize, float absoluteZoom, bool includeZoom)
 void DefaultTextRenderer__GetBitmapFont_fn(DefaultTextRenderer* __this, float* fontSize, float* absoluteZoom, bool* includeZoom, ::g::Uno::Content::Fonts::BitmapFont** __retval)
 {
     *__retval = __this->GetBitmapFont(*fontSize, *absoluteZoom, *includeZoom);
 }
 
-// public float GetLineHeight(float fontSize) :72
+// public float GetLineHeight(float fontSize)
 void DefaultTextRenderer__GetLineHeight_fn(DefaultTextRenderer* __this, float* fontSize, float* __retval)
 {
     *__retval = __this->GetLineHeight(*fontSize);
 }
 
-// public float2 MeasureString(float fontSize, float absoluteZoom, string s) :86
+// public float2 MeasureString(float fontSize, float absoluteZoom, string s)
 void DefaultTextRenderer__MeasureString_fn(DefaultTextRenderer* __this, float* fontSize, float* absoluteZoom, uString* s, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->MeasureString(*fontSize, *absoluteZoom, s);
 }
 
-// public float2 MeasureStringVirtual(float fontSize, float absoluteZoom, string s) :103
+// public float2 MeasureStringVirtual(float fontSize, float absoluteZoom, string s)
 void DefaultTextRenderer__MeasureStringVirtual_fn(DefaultTextRenderer* __this, float* fontSize, float* absoluteZoom, uString* s, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->MeasureStringVirtual(*fontSize, *absoluteZoom, s);
 }
 
-// public DefaultTextRenderer New(Uno.Content.Fonts.FontFace fontFace) :58
+// public DefaultTextRenderer New(Uno.Content.Fonts.FontFace fontFace)
 void DefaultTextRenderer__New1_fn(::g::Uno::Content::Fonts::FontFace* fontFace, DefaultTextRenderer** __retval)
 {
     *__retval = DefaultTextRenderer::New1(fontFace);
 }
 
-// private static Uno.Content.Fonts.TextRenderer get_renderer() :47
+// private static Uno.Content.Fonts.TextRenderer get_renderer()
 void DefaultTextRenderer__get_renderer_fn(::g::Uno::Content::Fonts::TextRenderer** __retval)
 {
     *__retval = DefaultTextRenderer::renderer();
@@ -169,7 +169,7 @@ uSStrong< ::g::Uno::Collections::Dictionary*> DefaultTextRenderer::_bitmapFonts_
 int32_t DefaultTextRenderer::_maxCharCount_;
 uSStrong< ::g::Uno::Content::Fonts::TextRenderer*> DefaultTextRenderer::_renderer_;
 
-// public DefaultTextRenderer(Uno.Content.Fonts.FontFace fontFace) [instance] :58
+// public DefaultTextRenderer(Uno.Content.Fonts.FontFace fontFace) [instance]
 void DefaultTextRenderer::ctor_(::g::Uno::Content::Fonts::FontFace* fontFace)
 {
     if (DefaultTextRenderer::_bitmapFonts_ == NULL)
@@ -181,7 +181,7 @@ void DefaultTextRenderer::ctor_(::g::Uno::Content::Fonts::FontFace* fontFace)
     FontFace(fontFace);
 }
 
-// public void BeginRendering(float fontSize, float absoluteZoom, float4x4 transform, float2 bounds, float4 textColor, int maxTextLength) [instance] :113
+// public void BeginRendering(float fontSize, float absoluteZoom, float4x4 transform, float2 bounds, float4 textColor, int maxTextLength) [instance]
 void DefaultTextRenderer::BeginRendering(float fontSize, float absoluteZoom, ::g::Uno::Float4x4 transform, ::g::Uno::Float2 bounds, ::g::Uno::Float4 textColor, int32_t maxTextLength)
 {
     _fontSize = fontSize;
@@ -193,7 +193,7 @@ void DefaultTextRenderer::BeginRendering(float fontSize, float absoluteZoom, ::g
     uPtr(DefaultTextRenderer::renderer())->Color(textColor);
 }
 
-// public void DrawLine(Fuse.DrawContext dc, float x, float y, string line) [instance] :134
+// public void DrawLine(Fuse.DrawContext dc, float x, float y, string line) [instance]
 void DefaultTextRenderer::DrawLine(::g::Fuse::DrawContext* dc, float x, float y, uString* line)
 {
     float lineHeight = uPtr(_bitmapFont)->LineHeight;
@@ -212,25 +212,25 @@ void DefaultTextRenderer::DrawLine(::g::Fuse::DrawContext* dc, float x, float y,
     uPtr(DefaultTextRenderer::renderer())->WriteString(p, line);
 }
 
-// public void EndRendering(Fuse.DrawContext dc) [instance] :128
+// public void EndRendering(Fuse.DrawContext dc) [instance]
 void DefaultTextRenderer::EndRendering(::g::Fuse::DrawContext* dc)
 {
     uPtr(DefaultTextRenderer::renderer())->End();
 }
 
-// public generated Uno.Content.Fonts.FontFace get_FontFace() [instance] :70
+// public generated Uno.Content.Fonts.FontFace get_FontFace() [instance]
 ::g::Uno::Content::Fonts::FontFace* DefaultTextRenderer::FontFace()
 {
     return _FontFace;
 }
 
-// public generated void set_FontFace(Uno.Content.Fonts.FontFace value) [instance] :70
+// public generated void set_FontFace(Uno.Content.Fonts.FontFace value) [instance]
 void DefaultTextRenderer::FontFace(::g::Uno::Content::Fonts::FontFace* value)
 {
     _FontFace = value;
 }
 
-// private Uno.Content.Fonts.BitmapFont GetBitmapFont(float fontSize, float absoluteZoom, bool includeZoom) [instance] :156
+// private Uno.Content.Fonts.BitmapFont GetBitmapFont(float fontSize, float absoluteZoom, bool includeZoom) [instance]
 ::g::Uno::Content::Fonts::BitmapFont* DefaultTextRenderer::GetBitmapFont(float fontSize, float absoluteZoom, bool includeZoom)
 {
     bool ret2;
@@ -247,7 +247,7 @@ void DefaultTextRenderer::FontFace(::g::Uno::Content::Fonts::FontFace* value)
     return bmpfont;
 }
 
-// public float GetLineHeight(float fontSize) [instance] :72
+// public float GetLineHeight(float fontSize) [instance]
 float DefaultTextRenderer::GetLineHeight(float fontSize)
 {
     if (FontFace() == NULL)
@@ -257,7 +257,7 @@ float DefaultTextRenderer::GetLineHeight(float fontSize)
     return uPtr(FontFace())->GetLineHeight(size);
 }
 
-// public float2 MeasureString(float fontSize, float absoluteZoom, string s) [instance] :86
+// public float2 MeasureString(float fontSize, float absoluteZoom, string s) [instance]
 ::g::Uno::Float2 DefaultTextRenderer::MeasureString(float fontSize, float absoluteZoom, uString* s)
 {
     if (::g::Uno::String::op_Equality(s, NULL))
@@ -277,13 +277,13 @@ float DefaultTextRenderer::GetLineHeight(float fontSize)
     return ret;
 }
 
-// public float2 MeasureStringVirtual(float fontSize, float absoluteZoom, string s) [instance] :103
+// public float2 MeasureStringVirtual(float fontSize, float absoluteZoom, string s) [instance]
 ::g::Uno::Float2 DefaultTextRenderer::MeasureStringVirtual(float fontSize, float absoluteZoom, uString* s)
 {
     return ::g::Uno::Math::Ceil2(::g::Uno::Float2__op_Division1(MeasureString(fontSize, absoluteZoom, s), absoluteZoom));
 }
 
-// private static void EnsureRendererCapacity(int maxCharCount) [static] :171
+// private static void EnsureRendererCapacity(int maxCharCount) [static]
 void DefaultTextRenderer::EnsureRendererCapacity(int32_t maxCharCount)
 {
     if (maxCharCount <= DefaultTextRenderer::_maxCharCount_)
@@ -294,7 +294,7 @@ void DefaultTextRenderer::EnsureRendererCapacity(int32_t maxCharCount)
     uPtr(DefaultTextRenderer::_renderer_)->Transform(::g::Fuse::Controls::FallbackTextRenderer::ProperTextTransform::New1());
 }
 
-// public DefaultTextRenderer New(Uno.Content.Fonts.FontFace fontFace) [static] :58
+// public DefaultTextRenderer New(Uno.Content.Fonts.FontFace fontFace) [static]
 DefaultTextRenderer* DefaultTextRenderer::New1(::g::Uno::Content::Fonts::FontFace* fontFace)
 {
     DefaultTextRenderer* obj1 = (DefaultTextRenderer*)uNew(DefaultTextRenderer_typeof());
@@ -302,7 +302,7 @@ DefaultTextRenderer* DefaultTextRenderer::New1(::g::Uno::Content::Fonts::FontFac
     return obj1;
 }
 
-// private static Uno.Content.Fonts.TextRenderer get_renderer() [static] :47
+// private static Uno.Content.Fonts.TextRenderer get_renderer() [static]
 ::g::Uno::Content::Fonts::TextRenderer* DefaultTextRenderer::renderer()
 {
     if (DefaultTextRenderer::_renderer_ == NULL)
@@ -315,10 +315,10 @@ DefaultTextRenderer* DefaultTextRenderer::New1(::g::Uno::Content::Fonts::FontFac
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/DefaultTextRenderer.uno
-// ----------------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/TextControls/FallbackTextRenderer/DefaultTextRenderer.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class DefaultTextRenderer.FontKey :11
+// private sealed class DefaultTextRenderer.FontKey
 // {
 static void DefaultTextRenderer__FontKey_build(uType* type)
 {
@@ -343,13 +343,13 @@ uType* DefaultTextRenderer__FontKey_typeof()
     return type;
 }
 
-// public FontKey(Uno.Content.Fonts.FontFace fontFace, int size) :31
+// public FontKey(Uno.Content.Fonts.FontFace fontFace, int size)
 void DefaultTextRenderer__FontKey__ctor__fn(DefaultTextRenderer__FontKey* __this, ::g::Uno::Content::Fonts::FontFace* fontFace, int32_t* size)
 {
     __this->ctor_(fontFace, *size);
 }
 
-// public override sealed bool Equals(object obj) :21
+// public override sealed bool Equals(object obj)
 void DefaultTextRenderer__FontKey__Equals_fn(DefaultTextRenderer__FontKey* __this, uObject* obj, bool* __retval)
 {
     if (uIs(obj, __this->__type))
@@ -361,26 +361,26 @@ void DefaultTextRenderer__FontKey__Equals_fn(DefaultTextRenderer__FontKey* __thi
     return *__retval = false, void();
 }
 
-// public override sealed int GetHashCode() :16
+// public override sealed int GetHashCode()
 void DefaultTextRenderer__FontKey__GetHashCode_fn(DefaultTextRenderer__FontKey* __this, int32_t* __retval)
 {
     return *__retval = ::g::Uno::Object::GetHashCode(uPtr(__this->FontFace)) + __this->Size, void();
 }
 
-// public FontKey New(Uno.Content.Fonts.FontFace fontFace, int size) :31
+// public FontKey New(Uno.Content.Fonts.FontFace fontFace, int size)
 void DefaultTextRenderer__FontKey__New1_fn(::g::Uno::Content::Fonts::FontFace* fontFace, int32_t* size, DefaultTextRenderer__FontKey** __retval)
 {
     *__retval = DefaultTextRenderer__FontKey::New1(fontFace, *size);
 }
 
-// public FontKey(Uno.Content.Fonts.FontFace fontFace, int size) [instance] :31
+// public FontKey(Uno.Content.Fonts.FontFace fontFace, int size) [instance]
 void DefaultTextRenderer__FontKey::ctor_(::g::Uno::Content::Fonts::FontFace* fontFace, int32_t size)
 {
     FontFace = fontFace;
     Size = size;
 }
 
-// public FontKey New(Uno.Content.Fonts.FontFace fontFace, int size) [static] :31
+// public FontKey New(Uno.Content.Fonts.FontFace fontFace, int size) [static]
 DefaultTextRenderer__FontKey* DefaultTextRenderer__FontKey::New1(::g::Uno::Content::Fonts::FontFace* fontFace, int32_t size)
 {
     DefaultTextRenderer__FontKey* obj1 = (DefaultTextRenderer__FontKey*)uNew(DefaultTextRenderer__FontKey_typeof());
@@ -389,10 +389,10 @@ DefaultTextRenderer__FontKey* DefaultTextRenderer__FontKey::New1(::g::Uno::Conte
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/DefaultTextRenderer.uno
-// ----------------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/TextControls/FallbackTextRenderer/DefaultTextRenderer.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class ProperTextTransform :182
+// internal sealed class ProperTextTransform
 // {
 static void ProperTextTransform_build(uType* type)
 {
@@ -422,51 +422,51 @@ static void ProperTextTransform_build(uType* type)
     return type;
 }
 
-// public generated ProperTextTransform() :182
+// public generated ProperTextTransform()
 void ProperTextTransform__ctor_1_fn(ProperTextTransform* __this)
 {
     __this->ctor_1();
 }
 
-// public override sealed Uno.Graphics.PolygonFace get_CullFace() :201
+// public override sealed Uno.Graphics.PolygonFace get_CullFace()
 void ProperTextTransform__get_CullFace_fn(ProperTextTransform* __this, int32_t* __retval)
 {
     return *__retval = uPtr(__this->DrawContext)->CullFace(), void();
 }
 
-// public override sealed float4x4 get_Matrix() :190
+// public override sealed float4x4 get_Matrix()
 void ProperTextTransform__get_Matrix_fn(ProperTextTransform* __this, ::g::Uno::Float4x4* __retval)
 {
     return *__retval = __this->_matrix, void();
 }
 
-// public override sealed void set_Matrix(float4x4 value) :191
+// public override sealed void set_Matrix(float4x4 value)
 void ProperTextTransform__set_Matrix_fn(ProperTextTransform* __this, ::g::Uno::Float4x4* value)
 {
     ::g::Uno::Float4x4 value_ = *value;
     __this->_matrix = value_;
 }
 
-// public generated ProperTextTransform New() :182
+// public generated ProperTextTransform New()
 void ProperTextTransform__New1_fn(ProperTextTransform** __retval)
 {
     *__retval = ProperTextTransform::New1();
 }
 
-// public override sealed float4x4 ResolveClipSpaceMatrix() :194
+// public override sealed float4x4 ResolveClipSpaceMatrix()
 void ProperTextTransform__ResolveClipSpaceMatrix_fn(ProperTextTransform* __this, ::g::Uno::Float4x4* __retval)
 {
     return *__retval = ::g::Uno::Matrix::Mul8(__this->Matrix(), ::g::Fuse::IRenderViewport::ViewProjectionTransform(uInterface(uPtr(uPtr(__this->DrawContext)->Viewport()), ::TYPES[0/*Fuse.IRenderViewport*/]))), void();
 }
 
-// public generated ProperTextTransform() [instance] :182
+// public generated ProperTextTransform() [instance]
 void ProperTextTransform::ctor_1()
 {
     _matrix = ::g::Uno::Float4x4__Identity();
     ctor_();
 }
 
-// public generated ProperTextTransform New() [static] :182
+// public generated ProperTextTransform New() [static]
 ProperTextTransform* ProperTextTransform::New1()
 {
     ProperTextTransform* obj1 = (ProperTextTransform*)uNew(ProperTextTransform_typeof());
@@ -475,12 +475,12 @@ ProperTextTransform* ProperTextTransform::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/TextRenderer.uno
-// ---------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/TextControls/FallbackTextRenderer/TextRenderer.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class TextRenderer :10
+// internal sealed class TextRenderer
 // {
-// static generated TextRenderer() :10
+// static generated TextRenderer()
 static void TextRenderer__cctor__fn(uType* __type)
 {
     TextRenderer::_textRenderers_ = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[1/*Uno.Collections.Dictionary<Fuse.Font, Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer>*/]));
@@ -535,73 +535,73 @@ TextRenderer_type* TextRenderer_typeof()
     return type;
 }
 
-// public TextRenderer(Fuse.Controls.TextControl text) :13
+// public TextRenderer(Fuse.Controls.TextControl text)
 void TextRenderer__ctor__fn(TextRenderer* __this, ::g::Fuse::Controls::TextControl* text)
 {
     __this->ctor_(text);
 }
 
-// public void Arrange(float2 position, float2 size) :167
+// public void Arrange(float2 position, float2 size)
 void TextRenderer__Arrange_fn(TextRenderer* __this, ::g::Uno::Float2* position, ::g::Uno::Float2* size)
 {
     __this->Arrange(*position, *size);
 }
 
-// public void Draw(Fuse.DrawContext dc, Fuse.Visual where) :147
+// public void Draw(Fuse.DrawContext dc, Fuse.Visual where)
 void TextRenderer__Draw_fn(TextRenderer* __this, ::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* where)
 {
     __this->Draw(dc, where);
 }
 
-// public float2 GetContentSize(Fuse.LayoutParams lp) :57
+// public float2 GetContentSize(Fuse.LayoutParams lp)
 void TextRenderer__GetContentSize_fn(TextRenderer* __this, ::g::Fuse::LayoutParams* lp, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->GetContentSize(*lp);
 }
 
-// public Uno.Rect GetRenderBounds() :189
+// public Uno.Rect GetRenderBounds()
 void TextRenderer__GetRenderBounds_fn(TextRenderer* __this, ::g::Uno::Rect* __retval)
 {
     *__retval = __this->GetRenderBounds();
 }
 
-// internal static Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer GetTextRenderer(Fuse.Font f) :20
+// internal static Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer GetTextRenderer(Fuse.Font f)
 void TextRenderer__GetTextRenderer_fn(::g::Fuse::Font* f, ::g::Fuse::Controls::FallbackTextRenderer::DefaultTextRenderer** __retval)
 {
     *__retval = TextRenderer::GetTextRenderer(f);
 }
 
-// private void InitWrap(float wrapWidth, string value, bool useMin) :74
+// private void InitWrap(float wrapWidth, string value, bool useMin)
 void TextRenderer__InitWrap_fn(TextRenderer* __this, float* wrapWidth, uString* value, bool* useMin)
 {
     __this->InitWrap(*wrapWidth, value, *useMin);
 }
 
-// public void Invalidate() :184
+// public void Invalidate()
 void TextRenderer__Invalidate_fn(TextRenderer* __this)
 {
     __this->Invalidate();
 }
 
-// private static Uno.Content.Fonts.FontFace LoadFont(Fuse.Font font) :34
+// private static Uno.Content.Fonts.FontFace LoadFont(Fuse.Font font)
 void TextRenderer__LoadFont_fn(::g::Fuse::Font* font, ::g::Uno::Content::Fonts::FontFace** __retval)
 {
     *__retval = TextRenderer::LoadFont(font);
 }
 
-// public TextRenderer New(Fuse.Controls.TextControl text) :13
+// public TextRenderer New(Fuse.Controls.TextControl text)
 void TextRenderer__New1_fn(::g::Fuse::Controls::TextControl* text, TextRenderer** __retval)
 {
     *__retval = TextRenderer::New1(text);
 }
 
-// public void SoftDispose() :194
+// public void SoftDispose()
 void TextRenderer__SoftDispose_fn(TextRenderer* __this)
 {
     __this->SoftDispose();
 }
 
-// private void UpdateArrange() :175
+// private void UpdateArrange()
 void TextRenderer__UpdateArrange_fn(TextRenderer* __this)
 {
     __this->UpdateArrange();
@@ -609,13 +609,13 @@ void TextRenderer__UpdateArrange_fn(TextRenderer* __this)
 
 uSStrong< ::g::Uno::Collections::Dictionary*> TextRenderer::_textRenderers_;
 
-// public TextRenderer(Fuse.Controls.TextControl text) [instance] :13
+// public TextRenderer(Fuse.Controls.TextControl text) [instance]
 void TextRenderer::ctor_(::g::Fuse::Controls::TextControl* text)
 {
     Control = text;
 }
 
-// public void Arrange(float2 position, float2 size) [instance] :167
+// public void Arrange(float2 position, float2 size) [instance]
 void TextRenderer::Arrange(::g::Uno::Float2 position, ::g::Uno::Float2 size)
 {
     _position = position;
@@ -624,7 +624,7 @@ void TextRenderer::Arrange(::g::Uno::Float2 position, ::g::Uno::Float2 size)
     UpdateArrange();
 }
 
-// public void Draw(Fuse.DrawContext dc, Fuse.Visual where) [instance] :147
+// public void Draw(Fuse.DrawContext dc, Fuse.Visual where) [instance]
 void TextRenderer::Draw(::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* where)
 {
     uArray* array10;
@@ -646,7 +646,7 @@ void TextRenderer::Draw(::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* where)
     uPtr(uPtr(_wrapInfo)->TextRenderer)->EndRendering(dc);
 }
 
-// public float2 GetContentSize(Fuse.LayoutParams lp) [instance] :57
+// public float2 GetContentSize(Fuse.LayoutParams lp) [instance]
 ::g::Uno::Float2 TextRenderer::GetContentSize(::g::Fuse::LayoutParams lp)
 {
     uString* ind13;
@@ -669,13 +669,13 @@ void TextRenderer::Draw(::g::Fuse::DrawContext* dc, ::g::Fuse::Visual* where)
     return _textBounds.Size();
 }
 
-// public Uno.Rect GetRenderBounds() [instance] :189
+// public Uno.Rect GetRenderBounds() [instance]
 ::g::Uno::Rect TextRenderer::GetRenderBounds()
 {
     return ::g::Uno::Rect__Translate(_textBounds, _position);
 }
 
-// private void InitWrap(float wrapWidth, string value, bool useMin) [instance] :74
+// private void InitWrap(float wrapWidth, string value, bool useMin) [instance]
 void TextRenderer::InitWrap(float wrapWidth, uString* value, bool useMin)
 {
     uArray* array7;
@@ -757,19 +757,19 @@ void TextRenderer::InitWrap(float wrapWidth, uString* value, bool useMin)
     _maxTextLength = maxTextLength;
 }
 
-// public void Invalidate() [instance] :184
+// public void Invalidate() [instance]
 void TextRenderer::Invalidate()
 {
     _wrapInfo = NULL;
 }
 
-// public void SoftDispose() [instance] :194
+// public void SoftDispose() [instance]
 void TextRenderer::SoftDispose()
 {
     _wrapInfo = NULL;
 }
 
-// private void UpdateArrange() [instance] :175
+// private void UpdateArrange() [instance]
 void TextRenderer::UpdateArrange()
 {
     uString* ind14;
@@ -782,7 +782,7 @@ void TextRenderer::UpdateArrange()
     InitWrap(_size.X, v, false);
 }
 
-// internal static Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer GetTextRenderer(Fuse.Font f) [static] :20
+// internal static Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer GetTextRenderer(Fuse.Font f) [static]
 ::g::Fuse::Controls::FallbackTextRenderer::DefaultTextRenderer* TextRenderer::GetTextRenderer(::g::Fuse::Font* f)
 {
     TextRenderer_typeof()->Init();
@@ -798,7 +798,7 @@ void TextRenderer::UpdateArrange()
     return tr;
 }
 
-// private static Uno.Content.Fonts.FontFace LoadFont(Fuse.Font font) [static] :34
+// private static Uno.Content.Fonts.FontFace LoadFont(Fuse.Font font) [static]
 ::g::Uno::Content::Fonts::FontFace* TextRenderer::LoadFont(::g::Fuse::Font* font)
 {
     TextRenderer_typeof()->Init();
@@ -813,7 +813,7 @@ void TextRenderer::UpdateArrange()
     }
 }
 
-// public TextRenderer New(Fuse.Controls.TextControl text) [static] :13
+// public TextRenderer New(Fuse.Controls.TextControl text) [static]
 TextRenderer* TextRenderer::New1(::g::Fuse::Controls::TextControl* text)
 {
     TextRenderer* obj15 = (TextRenderer*)uNew(TextRenderer_typeof());
@@ -822,10 +822,10 @@ TextRenderer* TextRenderer::New1(::g::Fuse::Controls::TextControl* text)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/WordWrapInfo.uno
-// ---------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/TextControls/FallbackTextRenderer/WordWrapInfo.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class WordWrapInfo :5
+// internal sealed class WordWrapInfo
 // {
 static void WordWrapInfo_build(uType* type)
 {
@@ -860,13 +860,13 @@ uType* WordWrapInfo_typeof()
     return type;
 }
 
-// public WordWrapInfo(Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer textRenderer, bool isEnabled, float wrapWidth, float fontSize, float lineHeight, float lineSpacing, float absoluteZoom) :15
+// public WordWrapInfo(Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer textRenderer, bool isEnabled, float wrapWidth, float fontSize, float lineHeight, float lineSpacing, float absoluteZoom)
 void WordWrapInfo__ctor__fn(WordWrapInfo* __this, ::g::Fuse::Controls::FallbackTextRenderer::DefaultTextRenderer* textRenderer, bool* isEnabled, float* wrapWidth, float* fontSize, float* lineHeight, float* lineSpacing, float* absoluteZoom)
 {
     __this->ctor_(textRenderer, *isEnabled, *wrapWidth, *fontSize, *lineHeight, *lineSpacing, *absoluteZoom);
 }
 
-// public override sealed bool Equals(object obj) :27
+// public override sealed bool Equals(object obj)
 void WordWrapInfo__Equals_fn(WordWrapInfo* __this, uObject* obj, bool* __retval)
 {
     if (!uIs(obj, __this->__type))
@@ -876,7 +876,7 @@ void WordWrapInfo__Equals_fn(WordWrapInfo* __this, uObject* obj, bool* __retval)
     return *__retval = ((((((__this->TextRenderer == uPtr(other)->TextRenderer) && (__this->IsEnabled == uPtr(other)->IsEnabled)) && (__this->WrapWidth == uPtr(other)->WrapWidth)) && (__this->FontSize == uPtr(other)->FontSize)) && (__this->LineHeight == uPtr(other)->LineHeight)) && (__this->LineSpacing == uPtr(other)->LineSpacing)) && (__this->AbsoluteZoom == uPtr(other)->AbsoluteZoom), void();
 }
 
-// public override sealed int GetHashCode() :43
+// public override sealed int GetHashCode()
 void WordWrapInfo__GetHashCode_fn(WordWrapInfo* __this, int32_t* __retval)
 {
     bool ind1;
@@ -888,13 +888,13 @@ void WordWrapInfo__GetHashCode_fn(WordWrapInfo* __this, int32_t* __retval)
     return *__retval = (((((::g::Uno::Object::GetHashCode(uPtr(__this->TextRenderer)) ^ ::g::Uno::Bool::GetHashCode((ind1 = __this->IsEnabled, ind1), ::TYPES[6/*bool*/])) ^ ::g::Uno::Float::GetHashCode((ind2 = __this->WrapWidth, ind2), ::TYPES[7/*float*/])) ^ ::g::Uno::Float::GetHashCode((ind3 = __this->FontSize, ind3), ::TYPES[7/*float*/])) ^ ::g::Uno::Float::GetHashCode((ind4 = __this->LineHeight, ind4), ::TYPES[7/*float*/])) ^ ::g::Uno::Float::GetHashCode((ind5 = __this->LineSpacing, ind5), ::TYPES[7/*float*/])) ^ ::g::Uno::Float::GetHashCode((ind6 = __this->AbsoluteZoom, ind6), ::TYPES[7/*float*/]), void();
 }
 
-// public WordWrapInfo New(Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer textRenderer, bool isEnabled, float wrapWidth, float fontSize, float lineHeight, float lineSpacing, float absoluteZoom) :15
+// public WordWrapInfo New(Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer textRenderer, bool isEnabled, float wrapWidth, float fontSize, float lineHeight, float lineSpacing, float absoluteZoom)
 void WordWrapInfo__New1_fn(::g::Fuse::Controls::FallbackTextRenderer::DefaultTextRenderer* textRenderer, bool* isEnabled, float* wrapWidth, float* fontSize, float* lineHeight, float* lineSpacing, float* absoluteZoom, WordWrapInfo** __retval)
 {
     *__retval = WordWrapInfo::New1(textRenderer, *isEnabled, *wrapWidth, *fontSize, *lineHeight, *lineSpacing, *absoluteZoom);
 }
 
-// public WordWrapInfo(Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer textRenderer, bool isEnabled, float wrapWidth, float fontSize, float lineHeight, float lineSpacing, float absoluteZoom) [instance] :15
+// public WordWrapInfo(Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer textRenderer, bool isEnabled, float wrapWidth, float fontSize, float lineHeight, float lineSpacing, float absoluteZoom) [instance]
 void WordWrapInfo::ctor_(::g::Fuse::Controls::FallbackTextRenderer::DefaultTextRenderer* textRenderer, bool isEnabled, float wrapWidth, float fontSize, float lineHeight, float lineSpacing, float absoluteZoom)
 {
     AbsoluteZoom = absoluteZoom;
@@ -907,7 +907,7 @@ void WordWrapInfo::ctor_(::g::Fuse::Controls::FallbackTextRenderer::DefaultTextR
     LineSpacing = (lineSpacing * absoluteZoom);
 }
 
-// public WordWrapInfo New(Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer textRenderer, bool isEnabled, float wrapWidth, float fontSize, float lineHeight, float lineSpacing, float absoluteZoom) [static] :15
+// public WordWrapInfo New(Fuse.Controls.FallbackTextRenderer.DefaultTextRenderer textRenderer, bool isEnabled, float wrapWidth, float fontSize, float lineHeight, float lineSpacing, float absoluteZoom) [static]
 WordWrapInfo* WordWrapInfo::New1(::g::Fuse::Controls::FallbackTextRenderer::DefaultTextRenderer* textRenderer, bool isEnabled, float wrapWidth, float fontSize, float lineHeight, float lineSpacing, float absoluteZoom)
 {
     WordWrapInfo* obj7 = (WordWrapInfo*)uNew(WordWrapInfo_typeof());
@@ -916,10 +916,10 @@ WordWrapInfo* WordWrapInfo::New1(::g::Fuse::Controls::FallbackTextRenderer::Defa
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/WordWrapper.uno
-// --------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/TextControls/FallbackTextRenderer/WordWrapper.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static class WordWrapper :28
+// internal static class WordWrapper
 // {
 static void WordWrapper_build(uType* type)
 {
@@ -939,25 +939,25 @@ uClassType* WordWrapper_typeof()
     return type;
 }
 
-// private static Uno.Collections.List<Fuse.Controls.FallbackTextRenderer.WordWrapperWord> GetWords(Fuse.Controls.FallbackTextRenderer.WordWrapInfo wrapInfo, string text) :69
+// private static Uno.Collections.List<Fuse.Controls.FallbackTextRenderer.WordWrapperWord> GetWords(Fuse.Controls.FallbackTextRenderer.WordWrapInfo wrapInfo, string text)
 void WordWrapper__GetWords_fn(::g::Fuse::Controls::FallbackTextRenderer::WordWrapInfo* wrapInfo, uString* text, ::g::Uno::Collections::List** __retval)
 {
     *__retval = WordWrapper::GetWords(wrapInfo, text);
 }
 
-// private static Fuse.Controls.FallbackTextRenderer.WordWrapperWord SplitWord(Fuse.Controls.FallbackTextRenderer.WordWrapInfo wrapInfo, Uno.Collections.List<Fuse.Controls.FallbackTextRenderer.WrappedLine> wrappedLines, Fuse.Controls.FallbackTextRenderer.WordWrapperWord word, int& lineStartIndex) :96
+// private static Fuse.Controls.FallbackTextRenderer.WordWrapperWord SplitWord(Fuse.Controls.FallbackTextRenderer.WordWrapInfo wrapInfo, Uno.Collections.List<Fuse.Controls.FallbackTextRenderer.WrappedLine> wrappedLines, Fuse.Controls.FallbackTextRenderer.WordWrapperWord word, int& lineStartIndex)
 void WordWrapper__SplitWord_fn(::g::Fuse::Controls::FallbackTextRenderer::WordWrapInfo* wrapInfo, ::g::Uno::Collections::List* wrappedLines, ::g::Fuse::Controls::FallbackTextRenderer::WordWrapperWord* word, int32_t* lineStartIndex, ::g::Fuse::Controls::FallbackTextRenderer::WordWrapperWord** __retval)
 {
     *__retval = WordWrapper::SplitWord(wrapInfo, wrappedLines, word, lineStartIndex);
 }
 
-// public static Fuse.Controls.FallbackTextRenderer.WrappedLine[] WrapLine(Fuse.Controls.FallbackTextRenderer.WordWrapInfo wrapInfo, string text) :30
+// public static Fuse.Controls.FallbackTextRenderer.WrappedLine[] WrapLine(Fuse.Controls.FallbackTextRenderer.WordWrapInfo wrapInfo, string text)
 void WordWrapper__WrapLine_fn(::g::Fuse::Controls::FallbackTextRenderer::WordWrapInfo* wrapInfo, uString* text, uArray** __retval)
 {
     *__retval = WordWrapper::WrapLine(wrapInfo, text);
 }
 
-// private static Uno.Collections.List<Fuse.Controls.FallbackTextRenderer.WordWrapperWord> GetWords(Fuse.Controls.FallbackTextRenderer.WordWrapInfo wrapInfo, string text) [static] :69
+// private static Uno.Collections.List<Fuse.Controls.FallbackTextRenderer.WordWrapperWord> GetWords(Fuse.Controls.FallbackTextRenderer.WordWrapInfo wrapInfo, string text) [static]
 ::g::Uno::Collections::List* WordWrapper::GetWords(::g::Fuse::Controls::FallbackTextRenderer::WordWrapInfo* wrapInfo, uString* text)
 {
     ::g::Uno::Collections::List* ret = (::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[8/*Uno.Collections.List<Fuse.Controls.FallbackTextRenderer.WordWrapperWord>*/]);
@@ -984,7 +984,7 @@ void WordWrapper__WrapLine_fn(::g::Fuse::Controls::FallbackTextRenderer::WordWra
     return ret;
 }
 
-// private static Fuse.Controls.FallbackTextRenderer.WordWrapperWord SplitWord(Fuse.Controls.FallbackTextRenderer.WordWrapInfo wrapInfo, Uno.Collections.List<Fuse.Controls.FallbackTextRenderer.WrappedLine> wrappedLines, Fuse.Controls.FallbackTextRenderer.WordWrapperWord word, int& lineStartIndex) [static] :96
+// private static Fuse.Controls.FallbackTextRenderer.WordWrapperWord SplitWord(Fuse.Controls.FallbackTextRenderer.WordWrapInfo wrapInfo, Uno.Collections.List<Fuse.Controls.FallbackTextRenderer.WrappedLine> wrappedLines, Fuse.Controls.FallbackTextRenderer.WordWrapperWord word, int& lineStartIndex) [static]
 ::g::Fuse::Controls::FallbackTextRenderer::WordWrapperWord* WordWrapper::SplitWord(::g::Fuse::Controls::FallbackTextRenderer::WordWrapInfo* wrapInfo, ::g::Uno::Collections::List* wrappedLines, ::g::Fuse::Controls::FallbackTextRenderer::WordWrapperWord* word, int32_t* lineStartIndex)
 {
     while ((uPtr(uPtr(word)->Contents)->Length() > 1) && (uPtr(word)->ContentsWidth > uPtr(wrapInfo)->WrapWidth))
@@ -1015,7 +1015,7 @@ void WordWrapper__WrapLine_fn(::g::Fuse::Controls::FallbackTextRenderer::WordWra
     return word;
 }
 
-// public static Fuse.Controls.FallbackTextRenderer.WrappedLine[] WrapLine(Fuse.Controls.FallbackTextRenderer.WordWrapInfo wrapInfo, string text) [static] :30
+// public static Fuse.Controls.FallbackTextRenderer.WrappedLine[] WrapLine(Fuse.Controls.FallbackTextRenderer.WordWrapInfo wrapInfo, string text) [static]
 uArray* WordWrapper::WrapLine(::g::Fuse::Controls::FallbackTextRenderer::WordWrapInfo* wrapInfo, uString* text)
 {
     ::g::Fuse::Controls::FallbackTextRenderer::WordWrapperWord* ret1;
@@ -1056,10 +1056,10 @@ uArray* WordWrapper::WrapLine(::g::Fuse::Controls::FallbackTextRenderer::WordWra
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/WordWrapper.uno
-// --------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/TextControls/FallbackTextRenderer/WordWrapper.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class WordWrapperWord :6
+// internal sealed class WordWrapperWord
 // {
 static void WordWrapperWord_build(uType* type)
 {
@@ -1086,19 +1086,19 @@ uType* WordWrapperWord_typeof()
     return type;
 }
 
-// public WordWrapperWord(string contents, string whitespace, int startIndex, float contentsWidth, float totalContentsWidth) :17
+// public WordWrapperWord(string contents, string whitespace, int startIndex, float contentsWidth, float totalContentsWidth)
 void WordWrapperWord__ctor__fn(WordWrapperWord* __this, uString* contents, uString* whitespace, int32_t* startIndex, float* contentsWidth, float* totalContentsWidth)
 {
     __this->ctor_(contents, whitespace, *startIndex, *contentsWidth, *totalContentsWidth);
 }
 
-// public WordWrapperWord New(string contents, string whitespace, int startIndex, float contentsWidth, float totalContentsWidth) :17
+// public WordWrapperWord New(string contents, string whitespace, int startIndex, float contentsWidth, float totalContentsWidth)
 void WordWrapperWord__New1_fn(uString* contents, uString* whitespace, int32_t* startIndex, float* contentsWidth, float* totalContentsWidth, WordWrapperWord** __retval)
 {
     *__retval = WordWrapperWord::New1(contents, whitespace, *startIndex, *contentsWidth, *totalContentsWidth);
 }
 
-// public WordWrapperWord(string contents, string whitespace, int startIndex, float contentsWidth, float totalContentsWidth) [instance] :17
+// public WordWrapperWord(string contents, string whitespace, int startIndex, float contentsWidth, float totalContentsWidth) [instance]
 void WordWrapperWord::ctor_(uString* contents, uString* whitespace, int32_t startIndex, float contentsWidth, float totalContentsWidth)
 {
     Contents = contents;
@@ -1109,7 +1109,7 @@ void WordWrapperWord::ctor_(uString* contents, uString* whitespace, int32_t star
     TotalContentsWidth = totalContentsWidth;
 }
 
-// public WordWrapperWord New(string contents, string whitespace, int startIndex, float contentsWidth, float totalContentsWidth) [static] :17
+// public WordWrapperWord New(string contents, string whitespace, int startIndex, float contentsWidth, float totalContentsWidth) [static]
 WordWrapperWord* WordWrapperWord::New1(uString* contents, uString* whitespace, int32_t startIndex, float contentsWidth, float totalContentsWidth)
 {
     WordWrapperWord* obj1 = (WordWrapperWord*)uNew(WordWrapperWord_typeof());
@@ -1118,10 +1118,10 @@ WordWrapperWord* WordWrapperWord::New1(uString* contents, uString* whitespace, i
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/TextControls/FallbackTextRenderer/WrappedLine.uno
-// --------------------------------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/TextControls/FallbackTextRenderer/WrappedLine.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class WrappedLine :6
+// internal sealed class WrappedLine
 // {
 static void WrappedLine_build(uType* type)
 {
@@ -1151,25 +1151,25 @@ uType* WrappedLine_typeof()
     return type;
 }
 
-// public WrappedLine(string text, int lineTextStartOffset, float yOffset, float lineWidth) :15
+// public WrappedLine(string text, int lineTextStartOffset, float yOffset, float lineWidth)
 void WrappedLine__ctor__fn(WrappedLine* __this, uString* text, int32_t* lineTextStartOffset, float* yOffset, float* lineWidth)
 {
     __this->ctor_(text, *lineTextStartOffset, *yOffset, *lineWidth);
 }
 
-// public float GetXOffset(Fuse.Controls.TextAlignment textAlignment, float boundsWidth, float absoluteZoom) :23
+// public float GetXOffset(Fuse.Controls.TextAlignment textAlignment, float boundsWidth, float absoluteZoom)
 void WrappedLine__GetXOffset_fn(WrappedLine* __this, int32_t* textAlignment, float* boundsWidth, float* absoluteZoom, float* __retval)
 {
     *__retval = __this->GetXOffset(*textAlignment, *boundsWidth, *absoluteZoom);
 }
 
-// public WrappedLine New(string text, int lineTextStartOffset, float yOffset, float lineWidth) :15
+// public WrappedLine New(string text, int lineTextStartOffset, float yOffset, float lineWidth)
 void WrappedLine__New1_fn(uString* text, int32_t* lineTextStartOffset, float* yOffset, float* lineWidth, WrappedLine** __retval)
 {
     *__retval = WrappedLine::New1(text, *lineTextStartOffset, *yOffset, *lineWidth);
 }
 
-// public WrappedLine(string text, int lineTextStartOffset, float yOffset, float lineWidth) [instance] :15
+// public WrappedLine(string text, int lineTextStartOffset, float yOffset, float lineWidth) [instance]
 void WrappedLine::ctor_(uString* text, int32_t lineTextStartOffset, float yOffset, float lineWidth)
 {
     Text = text;
@@ -1178,7 +1178,7 @@ void WrappedLine::ctor_(uString* text, int32_t lineTextStartOffset, float yOffse
     LineWidth = lineWidth;
 }
 
-// public float GetXOffset(Fuse.Controls.TextAlignment textAlignment, float boundsWidth, float absoluteZoom) [instance] :23
+// public float GetXOffset(Fuse.Controls.TextAlignment textAlignment, float boundsWidth, float absoluteZoom) [instance]
 float WrappedLine::GetXOffset(int32_t textAlignment, float boundsWidth, float absoluteZoom)
 {
     switch (textAlignment)
@@ -1194,7 +1194,7 @@ float WrappedLine::GetXOffset(int32_t textAlignment, float boundsWidth, float ab
     U_THROW(::g::Uno::ArgumentException::New5(::STRINGS[1/*"unsupported...*/], ::STRINGS[2/*"textAlignment"*/]));
 }
 
-// public WrappedLine New(string text, int lineTextStartOffset, float yOffset, float lineWidth) [static] :15
+// public WrappedLine New(string text, int lineTextStartOffset, float yOffset, float lineWidth) [static]
 WrappedLine* WrappedLine::New1(uString* text, int32_t lineTextStartOffset, float yOffset, float lineWidth)
 {
     WrappedLine* obj1 = (WrappedLine*)uNew(WrappedLine_typeof());

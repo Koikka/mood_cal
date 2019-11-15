@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/FuseJS/1.9.0/UserEvents.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/UserEvents.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{namespace Uno{namespace Collections{struct Dictionary;}}}
 namespace g{
 namespace FuseJS{
 
-// internal sealed class RaiseEvent :8
+// internal sealed class RaiseEvent
 // {
 uType* RaiseEvent_typeof();
 void RaiseEvent__ctor__fn(RaiseEvent* __this);

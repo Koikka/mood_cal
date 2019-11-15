@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting/1.9.0/ScriptClass.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting/1.12.0/ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Scripting{
 
-// public sealed class ScriptPromise<TSelf, TResult, TJSResult> :294
+// public sealed class ScriptPromise<TSelf, TResult, TJSResult>
 // {
 ::g::Fuse::Scripting::ScriptMethod_type* ScriptPromise_typeof();
 void ScriptPromise__ctor_2_fn(ScriptPromise* __this, uString* name, int32_t* thread, uDelegate* futureFactory, uDelegate* resultConverter);

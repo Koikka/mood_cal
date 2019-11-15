@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Diagnostics.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Diagnostics.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{namespace Uno{struct Exception;}}
 namespace g{
 namespace Fuse{
 
-// public static class Diagnostics :171
+// public static class Diagnostics
 // {
 uClassType* Diagnostics_typeof();
 void Diagnostics__Deprecated_fn(uString* msg, uObject* obj, uString* filePath, int32_t* lineNumber, uString* memberName);

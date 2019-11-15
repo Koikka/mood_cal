@@ -1,16 +1,16 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/LineSegment.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/LineSegment.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Uno.Float2.h>
-#include <Uno.Object.h>
+#include <Uno.ValueType.h>
 namespace g{namespace Fuse{namespace Drawing{struct LineSegment;}}}
 
 namespace g{
 namespace Fuse{
 namespace Drawing{
 
-// public struct LineSegment :37
+// public struct LineSegment
 // {
 uStructType* LineSegment_typeof();
 void LineSegment__deCasteljau_fn(uArray* pts, float* t, uArray** __retval);

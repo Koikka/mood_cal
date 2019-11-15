@@ -23,22 +23,22 @@ public class AndroidPaths
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static String GetCacheDirectory408()
+    public static String GetCacheDirectory411()
     {
         return com.fuse.Activity.getRootActivity().getCacheDir().getAbsolutePath();
     }
     
-    public static String GetExternalCacheDirectory409()
+    public static String GetExternalCacheDirectory412()
     {
         return com.fuse.Activity.getRootActivity().getExternalCacheDir().getAbsolutePath();
     }
     
-    public static String GetExternalFilesDirectory410()
+    public static String GetExternalFilesDirectory413()
     {
         return com.fuse.Activity.getRootActivity().getExternalFilesDir(null).getAbsolutePath();
     }
     
-    public static String GetFilesDirectory411()
+    public static String GetFilesDirectory414()
     {
         return com.fuse.Activity.getRootActivity().getFilesDir().getAbsolutePath();
     }

@@ -1,10 +1,10 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/Window.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/Window.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.IObject.h>
 #include <Fuse.Reactive.CapsObject.h>
-#include <Fuse.Reactive.IObserv-45c40f03.h>
+#include <Fuse.Reactive.IObserv-e1955a6b.h>
 #include <Uno.UX.IPropertyListener.h>
 namespace g{namespace Fuse{namespace Reactive{struct WindowCaps;}}}
 namespace g{namespace Fuse{struct Node;}}
@@ -16,7 +16,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// internal sealed class WindowCaps :83
+// internal sealed class WindowCaps
 // {
 ::g::Fuse::Reactive::CapsObject_type* WindowCaps_typeof();
 void WindowCaps__ctor_2_fn(WindowCaps* __this, ::g::Fuse::RootViewport* rv);

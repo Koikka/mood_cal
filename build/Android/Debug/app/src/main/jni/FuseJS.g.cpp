@@ -11,7 +11,7 @@
 #include <Fuse.Scripting.Error.h>
 #include <Fuse.Scripting.FutureFactory-1.h>
 #include <Fuse.Scripting.JSObjectUtils.h>
-#include <Fuse.Scripting.Native-c8feecef.h>
+#include <Fuse.Scripting.Native-aec1d155.h>
 #include <Fuse.Scripting.NativeCallback.h>
 #include <Fuse.Scripting.NativeEvent.h>
 #include <Fuse.Scripting.NativeFunction.h>
@@ -19,19 +19,19 @@
 #include <Fuse.Scripting.NativeModule.h>
 #include <Fuse.Scripting.NativePromise-2.h>
 #include <Fuse.Scripting.Object.h>
-#include <Fuse.Scripting.Result-92713bce.h>
+#include <Fuse.Scripting.Result-aef282d8.h>
 #include <Fuse.Scripting.ResultFactory-1.h>
-#include <Fuse.Scripting.ValueC-23d67df6.h>
+#include <Fuse.Scripting.ValueC-d6370e9c.h>
 #include <Fuse.UpdateManager.h>
 #include <Fuse.UserEventDispatch.h>
 #include <FuseJS.Base64.h>
 #include <FuseJS.Bundle.ExtractClosure.h>
 #include <FuseJS.Bundle.h>
-#include <FuseJS.Bundle.ReadBuf-7d8ec1c7.h>
+#include <FuseJS.Bundle.ReadBuf-7af83bf3.h>
 #include <FuseJS.Bundle.ReadClosure.h>
 #include <FuseJS.Environment.h>
 #include <FuseJS.FileReaderImpl.h>
-#include <FuseJS.FileReaderImpl-a8e50314.h>
+#include <FuseJS.FileReaderImpl-efe70a23.h>
 #include <FuseJS.Globals.h>
 #include <FuseJS.Latin1Helpers.h>
 #include <FuseJS.Lifecycle.h>
@@ -43,7 +43,7 @@
 #include <Uno.Byte.h>
 #include <Uno.Char.h>
 #include <Uno.Collections.Dictionary-2.h>
-#include <Uno.Collections.Enume-8ddd045.h>
+#include <Uno.Collections.Enume-9e7bc8e0.h>
 #include <Uno.Collections.IEnumerable-1.h>
 #include <Uno.Collections.IEnumerator.h>
 #include <Uno.Collections.IEnumerator1-1.h>
@@ -57,7 +57,7 @@
 #include <Uno.IO.Path.h>
 #include <Uno.Object.h>
 #include <Uno.Predicate-1.h>
-#include <Uno.Runtime.Implement-eca777ec.h>
+#include <Uno.Runtime.Implement-26b2c647.h>
 #include <Uno.String.h>
 #include <Uno.Text.Ascii.h>
 #include <Uno.Text.Base64.h>
@@ -73,10 +73,10 @@ static uType* TYPES[21];
 namespace g{
 namespace FuseJS{
 
-// /usr/local/share/uno/Packages/FuseJS/1.9.0/Base64.uno
-// -----------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Base64.uno
+// -----------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Base64 :25
+// public sealed class Base64
 // {
 static void Base64_build(uType* type)
 {
@@ -128,61 +128,61 @@ static void Base64_build(uType* type)
     return type;
 }
 
-// public Base64() :29
+// public Base64()
 void Base64__ctor_2_fn(Base64* __this)
 {
     __this->ctor_2();
 }
 
-// private object DecodeAscii(Fuse.Scripting.Context context, object[] args) :161
+// private object DecodeAscii(Fuse.Scripting.Context context, object[] args)
 void Base64__DecodeAscii_fn(Base64* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->DecodeAscii(context, args);
 }
 
-// private object DecodeBuffer(Fuse.Scripting.Context context, object[] args) :57
+// private object DecodeBuffer(Fuse.Scripting.Context context, object[] args)
 void Base64__DecodeBuffer_fn(Base64* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->DecodeBuffer(context, args);
 }
 
-// private object DecodeLatin1(Fuse.Scripting.Context context, object[] args) :99
+// private object DecodeLatin1(Fuse.Scripting.Context context, object[] args)
 void Base64__DecodeLatin1_fn(Base64* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->DecodeLatin1(context, args);
 }
 
-// private object DecodeUtf8(Fuse.Scripting.Context context, object[] args) :203
+// private object DecodeUtf8(Fuse.Scripting.Context context, object[] args)
 void Base64__DecodeUtf8_fn(Base64* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->DecodeUtf8(context, args);
 }
 
-// private object EncodeAscii(Fuse.Scripting.Context context, object[] args) :140
+// private object EncodeAscii(Fuse.Scripting.Context context, object[] args)
 void Base64__EncodeAscii_fn(Base64* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->EncodeAscii(context, args);
 }
 
-// private object EncodeBuffer(Fuse.Scripting.Context context, object[] args) :80
+// private object EncodeBuffer(Fuse.Scripting.Context context, object[] args)
 void Base64__EncodeBuffer_fn(Base64* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->EncodeBuffer(context, args);
 }
 
-// private object EncodeLatin1(Fuse.Scripting.Context context, object[] args) :118
+// private object EncodeLatin1(Fuse.Scripting.Context context, object[] args)
 void Base64__EncodeLatin1_fn(Base64* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->EncodeLatin1(context, args);
 }
 
-// private object EncodeUtf8(Fuse.Scripting.Context context, object[] args) :182
+// private object EncodeUtf8(Fuse.Scripting.Context context, object[] args)
 void Base64__EncodeUtf8_fn(Base64* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = __this->EncodeUtf8(context, args);
 }
 
-// public Base64 New() :29
+// public Base64 New()
 void Base64__New2_fn(Base64** __retval)
 {
     *__retval = Base64::New2();
@@ -190,7 +190,7 @@ void Base64__New2_fn(Base64** __retval)
 
 uSStrong<Base64*> Base64::_instance_;
 
-// public Base64() [instance] :29
+// public Base64() [instance]
 void Base64::ctor_2()
 {
     ctor_1();
@@ -209,7 +209,7 @@ void Base64::ctor_2()
     AddMember(::g::Fuse::Scripting::NativeFunction::New1(::STRINGS[8/*"decodeBuffer"*/], uDelegate::New(::TYPES[0/*Fuse.Scripting.NativeCallback*/], (void*)Base64__DecodeBuffer_fn, this)));
 }
 
-// private object DecodeAscii(Fuse.Scripting.Context context, object[] args) [instance] :161
+// private object DecodeAscii(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* Base64::DecodeAscii(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     if (uPtr(args)->Length() > 0)
@@ -223,7 +223,7 @@ uObject* Base64::DecodeAscii(::g::Fuse::Scripting::Context* context, uArray* arg
     return NULL;
 }
 
-// private object DecodeBuffer(Fuse.Scripting.Context context, object[] args) [instance] :57
+// private object DecodeBuffer(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* Base64::DecodeBuffer(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     uObject* ret2;
@@ -235,7 +235,7 @@ uObject* Base64::DecodeBuffer(::g::Fuse::Scripting::Context* context, uArray* ar
     return ::g::Uno::Text::Base64::GetBytes(base64Str);
 }
 
-// private object DecodeLatin1(Fuse.Scripting.Context context, object[] args) [instance] :99
+// private object DecodeLatin1(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* Base64::DecodeLatin1(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     uObject* ret3;
@@ -247,7 +247,7 @@ uObject* Base64::DecodeLatin1(::g::Fuse::Scripting::Context* context, uArray* ar
     return ::g::FuseJS::Latin1Helpers::DecodeLatin1(base64Str);
 }
 
-// private object DecodeUtf8(Fuse.Scripting.Context context, object[] args) [instance] :203
+// private object DecodeUtf8(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* Base64::DecodeUtf8(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     if (uPtr(args)->Length() > 0)
@@ -261,7 +261,7 @@ uObject* Base64::DecodeUtf8(::g::Fuse::Scripting::Context* context, uArray* args
     return NULL;
 }
 
-// private object EncodeAscii(Fuse.Scripting.Context context, object[] args) [instance] :140
+// private object EncodeAscii(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* Base64::EncodeAscii(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     if (uPtr(args)->Length() > 0)
@@ -275,7 +275,7 @@ uObject* Base64::EncodeAscii(::g::Fuse::Scripting::Context* context, uArray* arg
     return NULL;
 }
 
-// private object EncodeBuffer(Fuse.Scripting.Context context, object[] args) [instance] :80
+// private object EncodeBuffer(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* Base64::EncodeBuffer(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     uObject* ret4;
@@ -287,7 +287,7 @@ uObject* Base64::EncodeBuffer(::g::Fuse::Scripting::Context* context, uArray* ar
     return ::g::Uno::Text::Base64::GetString(buffer);
 }
 
-// private object EncodeLatin1(Fuse.Scripting.Context context, object[] args) [instance] :118
+// private object EncodeLatin1(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* Base64::EncodeLatin1(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     if (uPtr(args)->Length() < 1)
@@ -297,7 +297,7 @@ uObject* Base64::EncodeLatin1(::g::Fuse::Scripting::Context* context, uArray* ar
     return ::g::FuseJS::Latin1Helpers::EncodeLatin1(str);
 }
 
-// private object EncodeUtf8(Fuse.Scripting.Context context, object[] args) [instance] :182
+// private object EncodeUtf8(Fuse.Scripting.Context context, object[] args) [instance]
 uObject* Base64::EncodeUtf8(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     if (uPtr(args)->Length() > 0)
@@ -311,7 +311,7 @@ uObject* Base64::EncodeUtf8(::g::Fuse::Scripting::Context* context, uArray* args
     return NULL;
 }
 
-// public Base64 New() [static] :29
+// public Base64 New() [static]
 Base64* Base64::New2()
 {
     Base64* obj1 = (Base64*)uNew(Base64_typeof());
@@ -320,10 +320,10 @@ Base64* Base64::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/FuseJS/1.9.0/Bundle.uno
-// -----------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Bundle.uno
+// -----------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Bundle :22
+// public sealed class Bundle
 // {
 static void Bundle_build(uType* type)
 {
@@ -361,73 +361,73 @@ static void Bundle_build(uType* type)
     return type;
 }
 
-// public Bundle() :26
+// public Bundle()
 void Bundle__ctor_2_fn(Bundle* __this)
 {
     __this->ctor_2();
 }
 
-// public static Uno.Threading.Future<string> Extract(object[] args) :136
+// public static Uno.Threading.Future<string> Extract(object[] args)
 void Bundle__Extract_fn(uArray* args, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = Bundle::Extract(args);
 }
 
-// public static Uno.Threading.Future<Uno.Collections.IEnumerable<Uno.IO.BundleFile>> GetList([object[] args]) :87
+// public static Uno.Threading.Future<Uno.Collections.IEnumerable<Uno.IO.BundleFile>> GetList([object[] args])
 void Bundle__GetList_fn(uArray* args, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = Bundle::GetList(args);
 }
 
-// private static Fuse.Scripting.Array ListConverter(Fuse.Scripting.Context context, Uno.Collections.IEnumerable<Uno.IO.BundleFile> list) :63
+// private static Fuse.Scripting.Array ListConverter(Fuse.Scripting.Context context, Uno.Collections.IEnumerable<Uno.IO.BundleFile> list)
 void Bundle__ListConverter_fn(::g::Fuse::Scripting::Context* context, uObject* list, ::g::Fuse::Scripting::Array** __retval)
 {
     *__retval = Bundle::ListConverter(context, list);
 }
 
-// public Bundle New() :26
+// public Bundle New()
 void Bundle__New2_fn(Bundle** __retval)
 {
     *__retval = Bundle::New2();
 }
 
-// public static Uno.Threading.Future<string> ReadAsync(object[] args) :167
+// public static Uno.Threading.Future<string> ReadAsync(object[] args)
 void Bundle__ReadAsync_fn(uArray* args, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = Bundle::ReadAsync(args);
 }
 
-// private static Uno.Threading.Future<string> ReadAsync(string filename) :220
+// private static Uno.Threading.Future<string> ReadAsync(string filename)
 void Bundle__ReadAsync1_fn(uString* filename, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = Bundle::ReadAsync1(filename);
 }
 
-// public static Uno.Threading.Future<byte[]> ReadBuffer(object[] args) :54
+// public static Uno.Threading.Future<byte[]> ReadBuffer(object[] args)
 void Bundle__ReadBuffer_fn(uArray* args, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = Bundle::ReadBuffer(args);
 }
 
-// private static object ReadSync(Fuse.Scripting.Context c, object[] args) :193
+// private static object ReadSync(Fuse.Scripting.Context c, object[] args)
 void Bundle__ReadSync_fn(::g::Fuse::Scripting::Context* c, uArray* args, uObject** __retval)
 {
     *__retval = Bundle::ReadSync(c, args);
 }
 
-// public static string ReadSync(string filename) :203
+// public static string ReadSync(string filename)
 void Bundle__ReadSync1_fn(uString* filename, uString** __retval)
 {
     *__retval = Bundle::ReadSync1(filename);
 }
 
-// private static Uno.Threading.Future<T> Reject<T>(string reason) :108
+// private static Uno.Threading.Future<T> Reject<T>(string reason)
 void Bundle__Reject_fn(uType* __type, uString* reason, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = Bundle::Reject(__type, reason);
 }
 
-// private static bool TryGetBundleFile(string sourcePath, Uno.IO.BundleFile& bundleFile) :95
+// private static bool TryGetBundleFile(string sourcePath, Uno.IO.BundleFile& bundleFile)
 void Bundle__TryGetBundleFile_fn(uString* sourcePath, ::g::Uno::IO::BundleFile** bundleFile, bool* __retval)
 {
     *__retval = Bundle::TryGetBundleFile(sourcePath, bundleFile);
@@ -435,7 +435,7 @@ void Bundle__TryGetBundleFile_fn(uString* sourcePath, ::g::Uno::IO::BundleFile**
 
 uSStrong<Bundle*> Bundle::_instance_;
 
-// public Bundle() [instance] :26
+// public Bundle() [instance]
 void Bundle::ctor_2()
 {
     ctor_1();
@@ -451,7 +451,7 @@ void Bundle::ctor_2()
     AddMember((::g::Fuse::Scripting::NativePromise*)::g::Fuse::Scripting::NativePromise::New1(::g::Fuse::Scripting::NativePromise_typeof()->MakeType(::TYPES[4/*byte[]*/], ::TYPES[1/*string*/], NULL), uString::Const("readBuffer"), uDelegate::New(::g::Fuse::Scripting::FutureFactory_typeof()->MakeType(::TYPES[4/*byte[]*/], NULL), (void*)Bundle__ReadBuffer_fn), NULL));
 }
 
-// public static Uno.Threading.Future<string> Extract(object[] args) [static] :136
+// public static Uno.Threading.Future<string> Extract(object[] args) [static]
 ::g::Uno::Threading::Future1* Bundle::Extract(uArray* args)
 {
     uString* ret4;
@@ -470,7 +470,7 @@ void Bundle::ctor_2()
     return (::g::Uno::Threading::Future1*)::g::Uno::Threading::Promise::Run(::g::Uno::Threading::Promise_typeof()->MakeType(::TYPES[1/*string*/], NULL), uDelegate::New(::TYPES[7/*Uno.Func<string>*/], (void*)Bundle__ExtractClosure__Invoke_fn, Bundle__ExtractClosure::New1(searchPath, destinationPath, overwrite)));
 }
 
-// public static Uno.Threading.Future<Uno.Collections.IEnumerable<Uno.IO.BundleFile>> GetList([object[] args]) [static] :87
+// public static Uno.Threading.Future<Uno.Collections.IEnumerable<Uno.IO.BundleFile>> GetList([object[] args]) [static]
 ::g::Uno::Threading::Future1* Bundle::GetList(uArray* args)
 {
     ::g::Uno::Threading::Promise* p = (::g::Uno::Threading::Promise*)::g::Uno::Threading::Promise::New1(::g::Uno::Threading::Promise_typeof()->MakeType(::g::Uno::Collections::IEnumerable_typeof()->MakeType(::g::Uno::IO::BundleFile_typeof(), NULL), NULL));
@@ -479,7 +479,7 @@ void Bundle::ctor_2()
     return p;
 }
 
-// private static Fuse.Scripting.Array ListConverter(Fuse.Scripting.Context context, Uno.Collections.IEnumerable<Uno.IO.BundleFile> list) [static] :63
+// private static Fuse.Scripting.Array ListConverter(Fuse.Scripting.Context context, Uno.Collections.IEnumerable<Uno.IO.BundleFile> list) [static]
 ::g::Fuse::Scripting::Array* Bundle::ListConverter(::g::Fuse::Scripting::Context* context, uObject* list)
 {
     ::g::Uno::IO::BundleFile* ret7;
@@ -517,7 +517,7 @@ void Bundle::ctor_2()
     return output;
 }
 
-// public Bundle New() [static] :26
+// public Bundle New() [static]
 Bundle* Bundle::New2()
 {
     Bundle* obj3 = (Bundle*)uNew(Bundle_typeof());
@@ -525,7 +525,7 @@ Bundle* Bundle::New2()
     return obj3;
 }
 
-// public static Uno.Threading.Future<string> ReadAsync(object[] args) [static] :167
+// public static Uno.Threading.Future<string> ReadAsync(object[] args) [static]
 ::g::Uno::Threading::Future1* Bundle::ReadAsync(uArray* args)
 {
     if (uPtr(args)->Length() > 0)
@@ -537,13 +537,13 @@ Bundle* Bundle::New2()
     return Bundle::ReadAsync1(::STRINGS[23/*""*/]);
 }
 
-// private static Uno.Threading.Future<string> ReadAsync(string filename) [static] :220
+// private static Uno.Threading.Future<string> ReadAsync(string filename) [static]
 ::g::Uno::Threading::Future1* Bundle::ReadAsync1(uString* filename)
 {
     return (::g::Uno::Threading::Future1*)::g::Uno::Threading::Promise::Run(::g::Uno::Threading::Promise_typeof()->MakeType(::TYPES[1/*string*/], NULL), uDelegate::New(::TYPES[7/*Uno.Func<string>*/], (void*)Bundle__ReadClosure__Invoke_fn, Bundle__ReadClosure::New1(filename)));
 }
 
-// public static Uno.Threading.Future<byte[]> ReadBuffer(object[] args) [static] :54
+// public static Uno.Threading.Future<byte[]> ReadBuffer(object[] args) [static]
 ::g::Uno::Threading::Future1* Bundle::ReadBuffer(uArray* args)
 {
     uString* ret8;
@@ -555,7 +555,7 @@ Bundle* Bundle::New2()
     return (::g::Uno::Threading::Future1*)::g::Uno::Threading::Promise::Run(::g::Uno::Threading::Promise_typeof()->MakeType(::TYPES[4/*byte[]*/], NULL), uDelegate::New(::g::Uno::Func_typeof()->MakeType(::TYPES[4/*byte[]*/], NULL), (void*)Bundle__ReadBufferClosure__Invoke_fn, Bundle__ReadBufferClosure::New1(searchPath)));
 }
 
-// private static object ReadSync(Fuse.Scripting.Context c, object[] args) [static] :193
+// private static object ReadSync(Fuse.Scripting.Context c, object[] args) [static]
 uObject* Bundle::ReadSync(::g::Fuse::Scripting::Context* c, uArray* args)
 {
     if (uPtr(args)->Length() > 0)
@@ -567,7 +567,7 @@ uObject* Bundle::ReadSync(::g::Fuse::Scripting::Context* c, uArray* args)
     return ::STRINGS[23/*""*/];
 }
 
-// public static string ReadSync(string filename) [static] :203
+// public static string ReadSync(string filename) [static]
 uString* Bundle::ReadSync1(uString* filename)
 {
     try
@@ -589,7 +589,7 @@ uString* Bundle::ReadSync1(uString* filename)
     }
 }
 
-// private static Uno.Threading.Future<T> Reject<T>(string reason) [static] :108
+// private static Uno.Threading.Future<T> Reject<T>(string reason) [static]
 ::g::Uno::Threading::Future1* Bundle::Reject(uType* __type, uString* reason)
 {
     uType* __types[] = {
@@ -600,7 +600,7 @@ uString* Bundle::ReadSync1(uString* filename)
     return p;
 }
 
-// private static bool TryGetBundleFile(string sourcePath, Uno.IO.BundleFile& bundleFile) [static] :95
+// private static bool TryGetBundleFile(string sourcePath, Uno.IO.BundleFile& bundleFile) [static]
 bool Bundle::TryGetBundleFile(uString* sourcePath, ::g::Uno::IO::BundleFile** bundleFile)
 {
     ::g::Uno::IO::BundleFile* ret9;
@@ -645,10 +645,10 @@ bool Bundle::TryGetBundleFile(uString* sourcePath, ::g::Uno::IO::BundleFile** bu
 }
 // }
 
-// /usr/local/share/uno/Packages/FuseJS/1.9.0/Environment.uno
-// ----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Environment.uno
+// ----------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Environment :51
+// public sealed class Environment
 // {
 static void Environment_build(uType* type)
 {
@@ -694,19 +694,19 @@ static void Environment_build(uType* type)
     return type;
 }
 
-// public Environment() :55
+// public Environment()
 void Environment__ctor_2_fn(Environment* __this)
 {
     __this->ctor_2();
 }
 
-// private static string GetMobileOSVersion() :69
+// private static string GetMobileOSVersion()
 void Environment__GetMobileOSVersion_fn(uString** __retval)
 {
     *__retval = Environment::GetMobileOSVersion();
 }
 
-// public Environment New() :55
+// public Environment New()
 void Environment__New2_fn(Environment** __retval)
 {
     *__retval = Environment::New2();
@@ -714,7 +714,7 @@ void Environment__New2_fn(Environment** __retval)
 
 uSStrong<Environment*> Environment::_instance_;
 
-// public Environment() [instance] :55
+// public Environment() [instance]
 void Environment::ctor_2()
 {
     ::g::Fuse::Scripting::NativeProperty* ret2;
@@ -740,14 +740,14 @@ void Environment::ctor_2()
     AddMember((::g::Fuse::Scripting::NativeProperty*)::g::Fuse::Scripting::NativeProperty::New2(::TYPES[6/*Fuse.Scripting.NativeProperty<string, string>*/], ::STRINGS[22/*"mobileOSVer...*/], uDelegate::New(::TYPES[7/*Uno.Func<string>*/], (void*)Environment__GetMobileOSVersion_fn), NULL, NULL));
 }
 
-// private static string GetMobileOSVersion() [static] :69
+// private static string GetMobileOSVersion() [static]
 uString* Environment::GetMobileOSVersion()
 {
     return ::g::Fuse::AndroidProperties::ReleaseVersion();
     return ::STRINGS[23/*""*/];
 }
 
-// public Environment New() [static] :55
+// public Environment New() [static]
 Environment* Environment::New2()
 {
     Environment* obj1 = (Environment*)uNew(Environment_typeof());
@@ -756,10 +756,10 @@ Environment* Environment::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/FuseJS/1.9.0/Bundle.uno
-// -----------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Bundle.uno
+// -----------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Bundle.ExtractClosure :225
+// private sealed class Bundle.ExtractClosure
 // {
 static void Bundle__ExtractClosure_build(uType* type)
 {
@@ -786,25 +786,25 @@ uType* Bundle__ExtractClosure_typeof()
     return type;
 }
 
-// public ExtractClosure(string searchPath, string destinationPath, bool overwriteIfExists) :230
+// public ExtractClosure(string searchPath, string destinationPath, bool overwriteIfExists)
 void Bundle__ExtractClosure__ctor__fn(Bundle__ExtractClosure* __this, uString* searchPath, uString* destinationPath, bool* overwriteIfExists)
 {
     __this->ctor_(searchPath, destinationPath, *overwriteIfExists);
 }
 
-// public string Invoke() :236
+// public string Invoke()
 void Bundle__ExtractClosure__Invoke_fn(Bundle__ExtractClosure* __this, uString** __retval)
 {
     *__retval = __this->Invoke();
 }
 
-// public ExtractClosure New(string searchPath, string destinationPath, bool overwriteIfExists) :230
+// public ExtractClosure New(string searchPath, string destinationPath, bool overwriteIfExists)
 void Bundle__ExtractClosure__New1_fn(uString* searchPath, uString* destinationPath, bool* overwriteIfExists, Bundle__ExtractClosure** __retval)
 {
     *__retval = Bundle__ExtractClosure::New1(searchPath, destinationPath, *overwriteIfExists);
 }
 
-// public ExtractClosure(string searchPath, string destinationPath, bool overwriteIfExists) [instance] :230
+// public ExtractClosure(string searchPath, string destinationPath, bool overwriteIfExists) [instance]
 void Bundle__ExtractClosure::ctor_(uString* searchPath, uString* destinationPath, bool overwriteIfExists)
 {
     _searchPath = searchPath;
@@ -812,7 +812,7 @@ void Bundle__ExtractClosure::ctor_(uString* searchPath, uString* destinationPath
     _overwrite = overwriteIfExists;
 }
 
-// public string Invoke() [instance] :236
+// public string Invoke() [instance]
 uString* Bundle__ExtractClosure::Invoke()
 {
     ::g::Uno::IO::BundleFile* bfile;
@@ -829,7 +829,7 @@ uString* Bundle__ExtractClosure::Invoke()
     return _destPath;
 }
 
-// public ExtractClosure New(string searchPath, string destinationPath, bool overwriteIfExists) [static] :230
+// public ExtractClosure New(string searchPath, string destinationPath, bool overwriteIfExists) [static]
 Bundle__ExtractClosure* Bundle__ExtractClosure::New1(uString* searchPath, uString* destinationPath, bool overwriteIfExists)
 {
     Bundle__ExtractClosure* obj1 = (Bundle__ExtractClosure*)uNew(Bundle__ExtractClosure_typeof());
@@ -838,10 +838,10 @@ Bundle__ExtractClosure* Bundle__ExtractClosure::New1(uString* searchPath, uStrin
 }
 // }
 
-// /usr/local/share/uno/Packages/FuseJS/1.9.0/FileReader.uno
-// ---------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/FileReader.uno
+// ---------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class FileReaderImpl.FileReadCommand :14
+// private sealed class FileReaderImpl.FileReadCommand
 // {
 static void FileReaderImpl__FileReadCommand_build(uType* type)
 {
@@ -868,37 +868,37 @@ uType* FileReaderImpl__FileReadCommand_typeof()
     return type;
 }
 
-// public FileReadCommand(string path) :17
+// public FileReadCommand(string path)
 void FileReaderImpl__FileReadCommand__ctor__fn(FileReaderImpl__FileReadCommand* __this, uString* path)
 {
     __this->ctor_(path);
 }
 
-// public FileReadCommand New(string path) :17
+// public FileReadCommand New(string path)
 void FileReaderImpl__FileReadCommand__New1_fn(uString* path, FileReaderImpl__FileReadCommand** __retval)
 {
     *__retval = FileReaderImpl__FileReadCommand::New1(path);
 }
 
-// public string ReadAsDataURL() :25
+// public string ReadAsDataURL()
 void FileReaderImpl__FileReadCommand__ReadAsDataURL_fn(FileReaderImpl__FileReadCommand* __this, uString** __retval)
 {
     *__retval = __this->ReadAsDataURL();
 }
 
-// public string ReadAsText() :21
+// public string ReadAsText()
 void FileReaderImpl__FileReadCommand__ReadAsText_fn(FileReaderImpl__FileReadCommand* __this, uString** __retval)
 {
     *__retval = __this->ReadAsText();
 }
 
-// public FileReadCommand(string path) [instance] :17
+// public FileReadCommand(string path) [instance]
 void FileReaderImpl__FileReadCommand::ctor_(uString* path)
 {
     _path = path;
 }
 
-// public string ReadAsDataURL() [instance] :25
+// public string ReadAsDataURL() [instance]
 uString* FileReaderImpl__FileReadCommand::ReadAsDataURL()
 {
     uArray* file = ::g::Uno::IO::File::ReadAllBytes(_path);
@@ -907,13 +907,13 @@ uString* FileReaderImpl__FileReadCommand::ReadAsDataURL()
     return ::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::STRINGS[27/*"data:image/"*/], type), ::STRINGS[28/*";base64,"*/]), base64);
 }
 
-// public string ReadAsText() [instance] :21
+// public string ReadAsText() [instance]
 uString* FileReaderImpl__FileReadCommand::ReadAsText()
 {
     return ::g::Uno::IO::File::ReadAllText(_path);
 }
 
-// public FileReadCommand New(string path) [static] :17
+// public FileReadCommand New(string path) [static]
 FileReaderImpl__FileReadCommand* FileReaderImpl__FileReadCommand::New1(uString* path)
 {
     FileReaderImpl__FileReadCommand* obj1 = (FileReaderImpl__FileReadCommand*)uNew(FileReaderImpl__FileReadCommand_typeof());
@@ -922,10 +922,10 @@ FileReaderImpl__FileReadCommand* FileReaderImpl__FileReadCommand::New1(uString* 
 }
 // }
 
-// /usr/local/share/uno/Packages/FuseJS/1.9.0/FileReader.uno
-// ---------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/FileReader.uno
+// ---------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class FileReaderImpl :12
+// public sealed class FileReaderImpl
 // {
 static void FileReaderImpl_build(uType* type)
 {
@@ -958,25 +958,25 @@ static void FileReaderImpl_build(uType* type)
     return type;
 }
 
-// public FileReaderImpl() :35
+// public FileReaderImpl()
 void FileReaderImpl__ctor_2_fn(FileReaderImpl* __this)
 {
     __this->ctor_2();
 }
 
-// public FileReaderImpl New() :35
+// public FileReaderImpl New()
 void FileReaderImpl__New2_fn(FileReaderImpl** __retval)
 {
     *__retval = FileReaderImpl::New2();
 }
 
-// private static Uno.Threading.Future<string> readAsDataURL(object[] args) :43
+// private static Uno.Threading.Future<string> readAsDataURL(object[] args)
 void FileReaderImpl__readAsDataURL_fn(uArray* args, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = FileReaderImpl::readAsDataURL(args);
 }
 
-// private static Uno.Threading.Future<string> readAsText(object[] args) :49
+// private static Uno.Threading.Future<string> readAsText(object[] args)
 void FileReaderImpl__readAsText_fn(uArray* args, ::g::Uno::Threading::Future1** __retval)
 {
     *__retval = FileReaderImpl::readAsText(args);
@@ -984,7 +984,7 @@ void FileReaderImpl__readAsText_fn(uArray* args, ::g::Uno::Threading::Future1** 
 
 uSStrong<FileReaderImpl*> FileReaderImpl::_instance_;
 
-// public FileReaderImpl() [instance] :35
+// public FileReaderImpl() [instance]
 void FileReaderImpl::ctor_2()
 {
     ctor_1();
@@ -997,7 +997,7 @@ void FileReaderImpl::ctor_2()
     AddMember((::g::Fuse::Scripting::NativePromise*)::g::Fuse::Scripting::NativePromise::New1(::TYPES[8/*Fuse.Scripting.NativePromise<string, string>*/], ::STRINGS[30/*"readAsText"*/], uDelegate::New(::g::Fuse::Scripting::FutureFactory_typeof()->MakeType(::TYPES[1/*string*/], NULL), (void*)FileReaderImpl__readAsText_fn), NULL));
 }
 
-// public FileReaderImpl New() [static] :35
+// public FileReaderImpl New() [static]
 FileReaderImpl* FileReaderImpl::New2()
 {
     FileReaderImpl* obj1 = (FileReaderImpl*)uNew(FileReaderImpl_typeof());
@@ -1005,14 +1005,14 @@ FileReaderImpl* FileReaderImpl::New2()
     return obj1;
 }
 
-// private static Uno.Threading.Future<string> readAsDataURL(object[] args) [static] :43
+// private static Uno.Threading.Future<string> readAsDataURL(object[] args) [static]
 ::g::Uno::Threading::Future1* FileReaderImpl::readAsDataURL(uArray* args)
 {
     uString* path = uCast<uString*>(uPtr(args)->Strong<uObject*>(0), ::TYPES[1/*string*/]);
     return (::g::Uno::Threading::Future1*)::g::Uno::Threading::Promise::Run(::g::Uno::Threading::Promise_typeof()->MakeType(::TYPES[1/*string*/], NULL), uDelegate::New(::TYPES[7/*Uno.Func<string>*/], (void*)FileReaderImpl__FileReadCommand__ReadAsDataURL_fn, FileReaderImpl__FileReadCommand::New1(path)));
 }
 
-// private static Uno.Threading.Future<string> readAsText(object[] args) [static] :49
+// private static Uno.Threading.Future<string> readAsText(object[] args) [static]
 ::g::Uno::Threading::Future1* FileReaderImpl::readAsText(uArray* args)
 {
     uString* path = uCast<uString*>(uPtr(args)->Strong<uObject*>(0), ::TYPES[1/*string*/]);
@@ -1020,10 +1020,10 @@ FileReaderImpl* FileReaderImpl::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/FuseJS/1.9.0/Globals.uno
-// ------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Globals.uno
+// ------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Globals :8
+// public sealed class Globals
 // {
 static void Globals_build(uType* type)
 {
@@ -1067,25 +1067,25 @@ static void Globals_build(uType* type)
     return type;
 }
 
-// public Globals() :11
+// public Globals()
 void Globals__ctor_2_fn(Globals* __this)
 {
     __this->ctor_2();
 }
 
-// private static bool FileSourceAcceptor(object obj) :35
+// private static bool FileSourceAcceptor(object obj)
 void Globals__FileSourceAcceptor_fn(uObject* obj, bool* __retval)
 {
     *__retval = Globals::FileSourceAcceptor(obj);
 }
 
-// public Globals New() :11
+// public Globals New()
 void Globals__New2_fn(Globals** __retval)
 {
     *__retval = Globals::New2();
 }
 
-// private static string readAsText(object[] args) :18
+// private static string readAsText(object[] args)
 void Globals__readAsText_fn(uArray* args, uString** __retval)
 {
     *__retval = Globals::readAsText(args);
@@ -1093,7 +1093,7 @@ void Globals__readAsText_fn(uArray* args, uString** __retval)
 
 uSStrong<Globals*> Globals::_instance_;
 
-// public Globals() [instance] :11
+// public Globals() [instance]
 void Globals::ctor_2()
 {
     ctor_1();
@@ -1105,13 +1105,13 @@ void Globals::ctor_2()
     AddMember((::g::Fuse::Scripting::NativePromise*)::g::Fuse::Scripting::NativePromise::New2(::TYPES[8/*Fuse.Scripting.NativePromise<string, string>*/], ::STRINGS[30/*"readAsText"*/], uDelegate::New(::TYPES[9/*Fuse.Scripting.ResultFactory<string>*/], (void*)Globals__readAsText_fn), NULL));
 }
 
-// private static bool FileSourceAcceptor(object obj) [static] :35
+// private static bool FileSourceAcceptor(object obj) [static]
 bool Globals::FileSourceAcceptor(uObject* obj)
 {
     return uIs(obj, ::TYPES[10/*Uno.UX.BundleFileSource*/]);
 }
 
-// public Globals New() [static] :11
+// public Globals New() [static]
 Globals* Globals::New2()
 {
     Globals* obj1 = (Globals*)uNew(Globals_typeof());
@@ -1119,7 +1119,7 @@ Globals* Globals::New2()
     return obj1;
 }
 
-// private static string readAsText(object[] args) [static] :18
+// private static string readAsText(object[] args) [static]
 uString* Globals::readAsText(uArray* args)
 {
     if (uPtr(args)->Length() != 1)
@@ -1142,10 +1142,10 @@ uString* Globals::readAsText(uArray* args)
 }
 // }
 
-// /usr/local/share/uno/Packages/FuseJS/1.9.0/Latin1Helpers.uno
-// ------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Latin1Helpers.uno
+// ------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static class Latin1Helpers :7
+// internal static class Latin1Helpers
 // {
 static void Latin1Helpers_build(uType* type)
 {
@@ -1166,19 +1166,19 @@ uClassType* Latin1Helpers_typeof()
     return type;
 }
 
-// public static string DecodeLatin1(string base64Str) :9
+// public static string DecodeLatin1(string base64Str)
 void Latin1Helpers__DecodeLatin1_fn(uString* base64Str, uString** __retval)
 {
     *__retval = Latin1Helpers::DecodeLatin1(base64Str);
 }
 
-// public static string EncodeLatin1(string str) :22
+// public static string EncodeLatin1(string str)
 void Latin1Helpers__EncodeLatin1_fn(uString* str, uString** __retval)
 {
     *__retval = Latin1Helpers::EncodeLatin1(str);
 }
 
-// public static string DecodeLatin1(string base64Str) [static] :9
+// public static string DecodeLatin1(string base64Str) [static]
 uString* Latin1Helpers::DecodeLatin1(uString* base64Str)
 {
     uArray* bytes = ::g::Uno::Text::Base64::GetBytes(base64Str);
@@ -1191,7 +1191,7 @@ uString* Latin1Helpers::DecodeLatin1(uString* base64Str)
     return uString::CharArray(chars);
 }
 
-// public static string EncodeLatin1(string str) [static] :22
+// public static string EncodeLatin1(string str) [static]
 uString* Latin1Helpers::EncodeLatin1(uString* str)
 {
     uArray* bytes = uArray::New(::TYPES[4/*byte[]*/], uPtr(str)->Length());
@@ -1211,10 +1211,10 @@ uString* Latin1Helpers::EncodeLatin1(uString* str)
 }
 // }
 
-// /usr/local/share/uno/Packages/FuseJS/1.9.0/Lifecycle.uno
-// --------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Lifecycle.uno
+// --------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Lifecycle :97
+// public sealed class Lifecycle
 // {
 static void Lifecycle_build(uType* type)
 {
@@ -1271,73 +1271,73 @@ static void Lifecycle_build(uType* type)
     return type;
 }
 
-// public Lifecycle() :106
+// public Lifecycle()
 void Lifecycle__ctor_3_fn(Lifecycle* __this)
 {
     __this->ctor_3();
 }
 
-// private static int Converter(Fuse.Scripting.Context context, int state) :275
+// private static int Converter(Fuse.Scripting.Context context, int state)
 void Lifecycle__Converter_fn(::g::Fuse::Scripting::Context* context, int32_t* state, int32_t* __retval)
 {
     *__retval = Lifecycle::Converter(context, *state);
 }
 
-// private static int GetApplicationStateBackground() :156
+// private static int GetApplicationStateBackground()
 void Lifecycle__GetApplicationStateBackground_fn(int32_t* __retval)
 {
     *__retval = Lifecycle::GetApplicationStateBackground();
 }
 
-// private static int GetApplicationStateForeground() :164
+// private static int GetApplicationStateForeground()
 void Lifecycle__GetApplicationStateForeground_fn(int32_t* __retval)
 {
     *__retval = Lifecycle::GetApplicationStateForeground();
 }
 
-// private static int GetApplicationStateInteractive() :172
+// private static int GetApplicationStateInteractive()
 void Lifecycle__GetApplicationStateInteractive_fn(int32_t* __retval)
 {
     *__retval = Lifecycle::GetApplicationStateInteractive();
 }
 
-// private static int GetCurrentState() :188
+// private static int GetCurrentState()
 void Lifecycle__GetCurrentState_fn(int32_t* __retval)
 {
     *__retval = Lifecycle::GetCurrentState();
 }
 
-// public Lifecycle New() :106
+// public Lifecycle New()
 void Lifecycle__New3_fn(Lifecycle** __retval)
 {
     *__retval = Lifecycle::New3();
 }
 
-// private void OnEnteringBackground(Fuse.Platform.ApplicationState newState) :253
+// private void OnEnteringBackground(Fuse.Platform.ApplicationState newState)
 void Lifecycle__OnEnteringBackground_fn(Lifecycle* __this, int32_t* newState)
 {
     __this->OnEnteringBackground(*newState);
 }
 
-// private void OnEnteringForeground(Fuse.Platform.ApplicationState newState) :205
+// private void OnEnteringForeground(Fuse.Platform.ApplicationState newState)
 void Lifecycle__OnEnteringForeground_fn(Lifecycle* __this, int32_t* newState)
 {
     __this->OnEnteringForeground(*newState);
 }
 
-// private void OnEnteringInteractive(Fuse.Platform.ApplicationState newState) :221
+// private void OnEnteringInteractive(Fuse.Platform.ApplicationState newState)
 void Lifecycle__OnEnteringInteractive_fn(Lifecycle* __this, int32_t* newState)
 {
     __this->OnEnteringInteractive(*newState);
 }
 
-// private void OnExitedInteractive(Fuse.Platform.ApplicationState newState) :237
+// private void OnExitedInteractive(Fuse.Platform.ApplicationState newState)
 void Lifecycle__OnExitedInteractive_fn(Lifecycle* __this, int32_t* newState)
 {
     __this->OnExitedInteractive(*newState);
 }
 
-// private void OnStateChanged(Fuse.Platform.ApplicationState newState) :270
+// private void OnStateChanged(Fuse.Platform.ApplicationState newState)
 void Lifecycle__OnStateChanged_fn(Lifecycle* __this, int32_t* newState)
 {
     __this->OnStateChanged(*newState);
@@ -1345,7 +1345,7 @@ void Lifecycle__OnStateChanged_fn(Lifecycle* __this, int32_t* newState)
 
 uSStrong<Lifecycle*> Lifecycle::_instance_;
 
-// public Lifecycle() [instance] :106
+// public Lifecycle() [instance]
 void Lifecycle::ctor_3()
 {
     ctor_2(true, uArray::Init<uObject*>(::TYPES[13/*object[]*/], 5, ::STRINGS[36/*"enteringInt...*/], ::STRINGS[37/*"exitedInter...*/], ::STRINGS[38/*"enteringFor...*/], ::STRINGS[39/*"enteringBac...*/], ::STRINGS[40/*"stateChanged"*/]));
@@ -1384,67 +1384,67 @@ void Lifecycle::ctor_3()
     ::g::Fuse::Platform::Lifecycle::add_EnteringBackground(uDelegate::New(::TYPES[17/*Uno.Action<Fuse.Platform.ApplicationState>*/], (void*)Lifecycle__OnStateChanged_fn, this));
 }
 
-// private void OnEnteringBackground(Fuse.Platform.ApplicationState newState) [instance] :253
+// private void OnEnteringBackground(Fuse.Platform.ApplicationState newState) [instance]
 void Lifecycle::OnEnteringBackground(int32_t newState)
 {
     Emit(uArray::Init<uObject*>(::TYPES[13/*object[]*/], 1, ::STRINGS[39/*"enteringBac...*/]));
 }
 
-// private void OnEnteringForeground(Fuse.Platform.ApplicationState newState) [instance] :205
+// private void OnEnteringForeground(Fuse.Platform.ApplicationState newState) [instance]
 void Lifecycle::OnEnteringForeground(int32_t newState)
 {
     Emit(uArray::Init<uObject*>(::TYPES[13/*object[]*/], 1, ::STRINGS[38/*"enteringFor...*/]));
 }
 
-// private void OnEnteringInteractive(Fuse.Platform.ApplicationState newState) [instance] :221
+// private void OnEnteringInteractive(Fuse.Platform.ApplicationState newState) [instance]
 void Lifecycle::OnEnteringInteractive(int32_t newState)
 {
     Emit(uArray::Init<uObject*>(::TYPES[13/*object[]*/], 1, ::STRINGS[36/*"enteringInt...*/]));
 }
 
-// private void OnExitedInteractive(Fuse.Platform.ApplicationState newState) [instance] :237
+// private void OnExitedInteractive(Fuse.Platform.ApplicationState newState) [instance]
 void Lifecycle::OnExitedInteractive(int32_t newState)
 {
     Emit(uArray::Init<uObject*>(::TYPES[13/*object[]*/], 1, ::STRINGS[37/*"exitedInter...*/]));
 }
 
-// private void OnStateChanged(Fuse.Platform.ApplicationState newState) [instance] :270
+// private void OnStateChanged(Fuse.Platform.ApplicationState newState) [instance]
 void Lifecycle::OnStateChanged(int32_t newState)
 {
     Emit(uArray::Init<uObject*>(::TYPES[13/*object[]*/], 2, ::STRINGS[40/*"stateChanged"*/], uBox<int32_t>(::g::Uno::Int_typeof(), newState)));
 }
 
-// private static int Converter(Fuse.Scripting.Context context, int state) [static] :275
+// private static int Converter(Fuse.Scripting.Context context, int state) [static]
 int32_t Lifecycle::Converter(::g::Fuse::Scripting::Context* context, int32_t state)
 {
     return state;
 }
 
-// private static int GetApplicationStateBackground() [static] :156
+// private static int GetApplicationStateBackground() [static]
 int32_t Lifecycle::GetApplicationStateBackground()
 {
     return 1;
 }
 
-// private static int GetApplicationStateForeground() [static] :164
+// private static int GetApplicationStateForeground() [static]
 int32_t Lifecycle::GetApplicationStateForeground()
 {
     return 2;
 }
 
-// private static int GetApplicationStateInteractive() [static] :172
+// private static int GetApplicationStateInteractive() [static]
 int32_t Lifecycle::GetApplicationStateInteractive()
 {
     return 3;
 }
 
-// private static int GetCurrentState() [static] :188
+// private static int GetCurrentState() [static]
 int32_t Lifecycle::GetCurrentState()
 {
     return ::g::Fuse::Platform::Lifecycle::State();
 }
 
-// public Lifecycle New() [static] :106
+// public Lifecycle New() [static]
 Lifecycle* Lifecycle::New3()
 {
     Lifecycle* obj1 = (Lifecycle*)uNew(Lifecycle_typeof());
@@ -1453,15 +1453,15 @@ Lifecycle* Lifecycle::New3()
 }
 // }
 
-// /usr/local/share/uno/Packages/FuseJS/1.9.0/UserEvents.uno
-// ---------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/UserEvents.uno
+// ---------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class RaiseEvent :8
+// internal sealed class RaiseEvent
 // {
 static void RaiseEvent_build(uType* type)
 {
     ::STRINGS[50] = uString::Const("Cannot find message with name: ");
-    ::STRINGS[51] = uString::Const("/usr/local/share/uno/Packages/FuseJS/1.9.0/UserEvents.uno");
+    ::STRINGS[51] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/UserEvents.uno");
     ::STRINGS[52] = uString::Const("Raise");
     type->SetDependencies(
         ::g::Fuse::UserEventDispatch_typeof());
@@ -1487,44 +1487,44 @@ uType* RaiseEvent_typeof()
     return type;
 }
 
-// public generated RaiseEvent() :8
+// public generated RaiseEvent()
 void RaiseEvent__ctor__fn(RaiseEvent* __this)
 {
     __this->ctor_();
 }
 
-// public generated RaiseEvent New() :8
+// public generated RaiseEvent New()
 void RaiseEvent__New1_fn(RaiseEvent** __retval)
 {
     *__retval = RaiseEvent::New1();
 }
 
-// public void Raise() :15
+// public void Raise()
 void RaiseEvent__Raise_fn(RaiseEvent* __this)
 {
     __this->Raise();
 }
 
-// public generated RaiseEvent() [instance] :8
+// public generated RaiseEvent() [instance]
 void RaiseEvent::ctor_()
 {
 }
 
-// public void Raise() [instance] :15
+// public void Raise() [instance]
 void RaiseEvent::Raise()
 {
-    ::g::Fuse::UserEventDispatch* dispatch = ::g::Fuse::UserEventDispatch::GetByName(::g::Uno::UX::Selector__op_Implicit1(Name));
+    ::g::Fuse::UserEventDispatch* dispatch = ::g::Fuse::UserEventDispatch::GetByName(::g::Uno::UX::Selector__op_Implicit(Name));
 
     if (dispatch == NULL)
     {
-        ::g::Fuse::Diagnostics::UserError(::g::Uno::String::op_Addition2(::STRINGS[50/*"Cannot find...*/], Name), this, ::STRINGS[51/*"/usr/local/...*/], 20, ::STRINGS[52/*"Raise"*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::g::Uno::String::op_Addition2(::STRINGS[50/*"Cannot find...*/], Name), this, ::STRINGS[51/*"/Users/antt...*/], 20, ::STRINGS[52/*"Raise"*/], NULL);
         return;
     }
 
     uPtr(dispatch)->DirectRaise(Source, Args);
 }
 
-// public generated RaiseEvent New() [static] :8
+// public generated RaiseEvent New() [static]
 RaiseEvent* RaiseEvent::New1()
 {
     RaiseEvent* obj1 = (RaiseEvent*)uNew(RaiseEvent_typeof());
@@ -1533,10 +1533,10 @@ RaiseEvent* RaiseEvent::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/FuseJS/1.9.0/Bundle.uno
-// -----------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Bundle.uno
+// -----------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Bundle.ReadBufferClosure :266
+// private sealed class Bundle.ReadBufferClosure
 // {
 static void Bundle__ReadBufferClosure_build(uType* type)
 {
@@ -1559,31 +1559,31 @@ uType* Bundle__ReadBufferClosure_typeof()
     return type;
 }
 
-// public ReadBufferClosure(string filename) :270
+// public ReadBufferClosure(string filename)
 void Bundle__ReadBufferClosure__ctor__fn(Bundle__ReadBufferClosure* __this, uString* filename)
 {
     __this->ctor_(filename);
 }
 
-// public byte[] Invoke() :274
+// public byte[] Invoke()
 void Bundle__ReadBufferClosure__Invoke_fn(Bundle__ReadBufferClosure* __this, uArray** __retval)
 {
     *__retval = __this->Invoke();
 }
 
-// public ReadBufferClosure New(string filename) :270
+// public ReadBufferClosure New(string filename)
 void Bundle__ReadBufferClosure__New1_fn(uString* filename, Bundle__ReadBufferClosure** __retval)
 {
     *__retval = Bundle__ReadBufferClosure::New1(filename);
 }
 
-// public ReadBufferClosure(string filename) [instance] :270
+// public ReadBufferClosure(string filename) [instance]
 void Bundle__ReadBufferClosure::ctor_(uString* filename)
 {
     _filename = filename;
 }
 
-// public byte[] Invoke() [instance] :274
+// public byte[] Invoke() [instance]
 uArray* Bundle__ReadBufferClosure::Invoke()
 {
     ::g::Uno::IO::BundleFile* bfile;
@@ -1594,7 +1594,7 @@ uArray* Bundle__ReadBufferClosure::Invoke()
     return uArray::Init<int32_t>(::TYPES[4/*byte[]*/], 0);
 }
 
-// public ReadBufferClosure New(string filename) [static] :270
+// public ReadBufferClosure New(string filename) [static]
 Bundle__ReadBufferClosure* Bundle__ReadBufferClosure::New1(uString* filename)
 {
     Bundle__ReadBufferClosure* obj1 = (Bundle__ReadBufferClosure*)uNew(Bundle__ReadBufferClosure_typeof());
@@ -1603,10 +1603,10 @@ Bundle__ReadBufferClosure* Bundle__ReadBufferClosure::New1(uString* filename)
 }
 // }
 
-// /usr/local/share/uno/Packages/FuseJS/1.9.0/Bundle.uno
-// -----------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Bundle.uno
+// -----------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Bundle.ReadClosure :251
+// private sealed class Bundle.ReadClosure
 // {
 static void Bundle__ReadClosure_build(uType* type)
 {
@@ -1628,37 +1628,37 @@ uType* Bundle__ReadClosure_typeof()
     return type;
 }
 
-// public ReadClosure(string filename) :255
+// public ReadClosure(string filename)
 void Bundle__ReadClosure__ctor__fn(Bundle__ReadClosure* __this, uString* filename)
 {
     __this->ctor_(filename);
 }
 
-// public string Invoke() :260
+// public string Invoke()
 void Bundle__ReadClosure__Invoke_fn(Bundle__ReadClosure* __this, uString** __retval)
 {
     *__retval = __this->Invoke();
 }
 
-// public ReadClosure New(string filename) :255
+// public ReadClosure New(string filename)
 void Bundle__ReadClosure__New1_fn(uString* filename, Bundle__ReadClosure** __retval)
 {
     *__retval = Bundle__ReadClosure::New1(filename);
 }
 
-// public ReadClosure(string filename) [instance] :255
+// public ReadClosure(string filename) [instance]
 void Bundle__ReadClosure::ctor_(uString* filename)
 {
     _filename = filename;
 }
 
-// public string Invoke() [instance] :260
+// public string Invoke() [instance]
 uString* Bundle__ReadClosure::Invoke()
 {
     return ::g::FuseJS::Bundle::ReadSync1(_filename);
 }
 
-// public ReadClosure New(string filename) [static] :255
+// public ReadClosure New(string filename) [static]
 Bundle__ReadClosure* Bundle__ReadClosure::New1(uString* filename)
 {
     Bundle__ReadClosure* obj1 = (Bundle__ReadClosure*)uNew(Bundle__ReadClosure_typeof());
@@ -1667,17 +1667,17 @@ Bundle__ReadClosure* Bundle__ReadClosure::New1(uString* filename)
 }
 // }
 
-// /usr/local/share/uno/Packages/FuseJS/1.9.0/UserEvents.uno
-// ---------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/UserEvents.uno
+// ---------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class UserEvents :30
+// public sealed class UserEvents
 // {
 static void UserEvents_build(uType* type)
 {
     ::STRINGS[53] = uString::Const("FuseJS/UserEvents");
     ::STRINGS[54] = uString::Const("raise");
     ::STRINGS[55] = uString::Const("The FuseJS/UserEvents `Raise` function is deprecated. Use the `object.raise` on a named event instead.");
-    ::STRINGS[51] = uString::Const("/usr/local/share/uno/Packages/FuseJS/1.9.0/UserEvents.uno");
+    ::STRINGS[51] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/UserEvents.uno");
     ::STRINGS[52] = uString::Const("Raise");
     ::TYPES[0] = ::g::Fuse::Scripting::NativeCallback_typeof();
     ::TYPES[1] = ::g::Uno::String_typeof();
@@ -1715,19 +1715,19 @@ static void UserEvents_build(uType* type)
     return type;
 }
 
-// public UserEvents() :33
+// public UserEvents()
 void UserEvents__ctor_2_fn(UserEvents* __this)
 {
     __this->ctor_2();
 }
 
-// public UserEvents New() :33
+// public UserEvents New()
 void UserEvents__New2_fn(UserEvents** __retval)
 {
     *__retval = UserEvents::New2();
 }
 
-// public static object Raise(Fuse.Scripting.Context context, object[] args) :46
+// public static object Raise(Fuse.Scripting.Context context, object[] args)
 void UserEvents__Raise_fn(::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     *__retval = UserEvents::Raise(context, args);
@@ -1736,7 +1736,7 @@ void UserEvents__Raise_fn(::g::Fuse::Scripting::Context* context, uArray* args, 
 uSStrong<UserEvents*> UserEvents::_instance_;
 bool UserEvents::_warn_;
 
-// public UserEvents() [instance] :33
+// public UserEvents() [instance]
 void UserEvents::ctor_2()
 {
     ctor_1();
@@ -1748,7 +1748,7 @@ void UserEvents::ctor_2()
     AddMember(::g::Fuse::Scripting::NativeFunction::New1(::STRINGS[54/*"raise"*/], uDelegate::New(::TYPES[0/*Fuse.Scripting.NativeCallback*/], (void*)UserEvents__Raise_fn)));
 }
 
-// public UserEvents New() [static] :33
+// public UserEvents New() [static]
 UserEvents* UserEvents::New2()
 {
     UserEvents* obj4 = (UserEvents*)uNew(UserEvents_typeof());
@@ -1756,12 +1756,12 @@ UserEvents* UserEvents::New2()
     return obj4;
 }
 
-// public static object Raise(Fuse.Scripting.Context context, object[] args) [static] :46
+// public static object Raise(Fuse.Scripting.Context context, object[] args) [static]
 uObject* UserEvents::Raise(::g::Fuse::Scripting::Context* context, uArray* args)
 {
     if (!UserEvents::_warn_)
     {
-        ::g::Fuse::Diagnostics::Deprecated(::STRINGS[55/*"The FuseJS/...*/], context, ::STRINGS[51/*"/usr/local/...*/], 51, ::STRINGS[52/*"Raise"*/]);
+        ::g::Fuse::Diagnostics::Deprecated(::STRINGS[55/*"The FuseJS/...*/], context, ::STRINGS[51/*"/Users/antt...*/], 51, ::STRINGS[52/*"Raise"*/]);
         UserEvents::_warn_ = true;
     }
 

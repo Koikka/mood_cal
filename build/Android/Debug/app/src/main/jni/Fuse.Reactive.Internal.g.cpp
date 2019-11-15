@@ -1,11 +1,11 @@
 // This file was generated based on '(multiple files)'.
 // WARNING: Changes might be lost if you edit this file directly.
 
-#include <Fuse.Reactive.Interna-2d54a663.h>
-#include <Fuse.Reactive.Interna-396442e8.h>
-#include <Fuse.Reactive.Interna-4026c23d.h>
-#include <Fuse.Reactive.Interna-5501e448.h>
-#include <Fuse.Reactive.Interna-d7d4e77c.h>
+#include <Fuse.Reactive.Interna-618a9dd2.h>
+#include <Fuse.Reactive.Interna-93b77f5b.h>
+#include <Fuse.Reactive.Interna-c0c70ba3.h>
+#include <Fuse.Reactive.Interna-e51086ab.h>
+#include <Fuse.Reactive.Interna-e9145e62.h>
 #include <Fuse.Reactive.Internal.PatchOp.h>
 #include <Uno.Bool.h>
 #include <Uno.Collections.Dictionary-2.h>
@@ -13,6 +13,7 @@
 #include <Uno.Collections.IList-1.h>
 #include <Uno.Collections.List-1.h>
 #include <Uno.Int.h>
+#include <Uno.Object.h>
 #include <Uno.String.h>
 static uString* STRINGS[1];
 static uType* TYPES[3];
@@ -22,10 +23,10 @@ namespace Fuse{
 namespace Reactive{
 namespace Internal{
 
-// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Internal/PatchList.uno
-// ---------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Bindings/1.12.0/Internal/PatchList.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private struct SimpleAlgorithm<T>.Location :121
+// private struct SimpleAlgorithm<T>.Location
 // {
 static void SimpleAlgorithm__Location_build(uType* type)
 {
@@ -41,6 +42,7 @@ uStructType* SimpleAlgorithm__Location_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.FieldCount = 2;
     options.GenericCount = 1;
     options.Alignment = alignof(SimpleAlgorithm__Location);
@@ -52,17 +54,17 @@ uStructType* SimpleAlgorithm__Location_typeof()
     return type;
 }
 
-// public override sealed string ToString() :125
+// public override sealed string ToString()
 void SimpleAlgorithm__Location__ToString_fn(SimpleAlgorithm__Location* __this, uType* __type, uString** __retval)
 {
     return *__retval = ::g::Uno::String::op_Addition1(::g::Uno::String::op_Addition(uBox<int32_t>(::g::Uno::Int_typeof(), __this->From), ::STRINGS[0/*","*/]), uBox<int32_t>(::g::Uno::Int_typeof(), __this->To)), void();
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Internal/PatchList.uno
-// ---------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Bindings/1.12.0/Internal/PatchList.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal enum PatchAlgorithm :23
+// internal enum PatchAlgorithm
 uEnumType* PatchAlgorithm_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -75,10 +77,10 @@ uEnumType* PatchAlgorithm_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Internal/PatchList.uno
-// ---------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Bindings/1.12.0/Internal/PatchList.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal struct PatchItem :16
+// internal struct PatchItem
 // {
 static void PatchItem_build(uType* type)
 {
@@ -94,6 +96,7 @@ uStructType* PatchItem_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.FieldCount = 3;
     options.Alignment = alignof(PatchItem);
     options.ValueSize = sizeof(PatchItem);
@@ -104,10 +107,10 @@ uStructType* PatchItem_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Internal/PatchList.uno
-// ---------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Bindings/1.12.0/Internal/PatchList.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class PatchList :38
+// internal sealed class PatchList
 // {
 static void PatchList_build(uType* type)
 {
@@ -137,7 +140,7 @@ uType* PatchList_typeof()
     return type;
 }
 
-// public static Uno.Collections.List<Fuse.Reactive.Internal.PatchItem> Patch<T>(Uno.Collections.IList<T> from, Uno.Collections.IList<T> to, Fuse.Reactive.Internal.PatchAlgorithm algo, T emptyKey) :40
+// public static Uno.Collections.List<Fuse.Reactive.Internal.PatchItem> Patch<T>(Uno.Collections.IList<T> from, Uno.Collections.IList<T> to, Fuse.Reactive.Internal.PatchAlgorithm algo, T emptyKey)
 void PatchList__Patch_fn(uType* __type, uObject* from, uObject* to, int32_t* algo, void* emptyKey, ::g::Uno::Collections::List** __retval)
 {
     uType* __types[] = {
@@ -158,13 +161,13 @@ void PatchList__Patch_fn(uType* __type, uObject* from, uObject* to, int32_t* alg
     return *__retval = NULL, void();
 }
 
-// private static Uno.Collections.List<Fuse.Reactive.Internal.PatchItem> PatchRemoveAll<T>(Uno.Collections.IList<T> from, Uno.Collections.IList<T> to) :57
+// private static Uno.Collections.List<Fuse.Reactive.Internal.PatchItem> PatchRemoveAll<T>(Uno.Collections.IList<T> from, Uno.Collections.IList<T> to)
 void PatchList__PatchRemoveAll_fn(uType* __type, uObject* from, uObject* to, ::g::Uno::Collections::List** __retval)
 {
     *__retval = PatchList::PatchRemoveAll(__type, from, to);
 }
 
-// private static Uno.Collections.List<Fuse.Reactive.Internal.PatchItem> PatchRemoveAll<T>(Uno.Collections.IList<T> from, Uno.Collections.IList<T> to) [static] :57
+// private static Uno.Collections.List<Fuse.Reactive.Internal.PatchItem> PatchRemoveAll<T>(Uno.Collections.IList<T> from, Uno.Collections.IList<T> to) [static]
 ::g::Uno::Collections::List* PatchList::PatchRemoveAll(uType* __type, uObject* from, uObject* to)
 {
     uType* __types[] = {
@@ -184,10 +187,10 @@ void PatchList__PatchRemoveAll_fn(uType* __type, uObject* from, uObject* to, ::g
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Internal/PatchList.uno
-// ---------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Bindings/1.12.0/Internal/PatchList.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal enum PatchOp :6
+// internal enum PatchOp
 uEnumType* PatchOp_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -201,10 +204,10 @@ uEnumType* PatchOp_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Internal/PatchList.uno
-// ---------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Bindings/1.12.0/Internal/PatchList.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class SimpleAlgorithm<T> :98
+// internal sealed class SimpleAlgorithm<T>
 // {
 static void SimpleAlgorithm_build(uType* type)
 {
@@ -237,7 +240,7 @@ uType* SimpleAlgorithm_typeof()
     return type;
 }
 
-// public SimpleAlgorithm(Uno.Collections.IList<T> from, Uno.Collections.IList<T> to, T emptyKey) :106
+// public SimpleAlgorithm(Uno.Collections.IList<T> from, Uno.Collections.IList<T> to, T emptyKey)
 void SimpleAlgorithm__ctor__fn(SimpleAlgorithm* __this, uObject* from, uObject* to, void* emptyKey)
 {
     uType* __types[] = {
@@ -255,31 +258,31 @@ void SimpleAlgorithm__ctor__fn(SimpleAlgorithm* __this, uObject* from, uObject* 
     __this->_ops = ((::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[1/*Uno.Collections.List<Fuse.Reactive.Internal.PatchItem>*/]));
 }
 
-// private void AppendRemainingTo(int oPos) :185
+// private void AppendRemainingTo(int oPos)
 void SimpleAlgorithm__AppendRemainingTo_fn(SimpleAlgorithm* __this, int32_t* oPos)
 {
     __this->AppendRemainingTo(*oPos);
 }
 
-// public Uno.Collections.List<Fuse.Reactive.Internal.PatchItem> Calc() :141
+// public Uno.Collections.List<Fuse.Reactive.Internal.PatchItem> Calc()
 void SimpleAlgorithm__Calc_fn(SimpleAlgorithm* __this, ::g::Uno::Collections::List** __retval)
 {
     *__retval = __this->Calc();
 }
 
-// private Fuse.Reactive.Internal.SimpleAlgorithm<T>.Location FindNextAnchor(int fromAt) :199
+// private Fuse.Reactive.Internal.SimpleAlgorithm<T>.Location FindNextAnchor(int fromAt)
 void SimpleAlgorithm__FindNextAnchor_fn(SimpleAlgorithm* __this, int32_t* fromAt, SimpleAlgorithm__Location* __retval)
 {
     *__retval = __this->FindNextAnchor(*fromAt);
 }
 
-// private Uno.Collections.Dictionary<T, int> Index(Uno.Collections.IList<T> to) :130
+// private Uno.Collections.Dictionary<T, int> Index(Uno.Collections.IList<T> to)
 void SimpleAlgorithm__Index_fn(SimpleAlgorithm* __this, uObject* to, ::g::Uno::Collections::Dictionary** __retval)
 {
     *__retval = __this->Index(to);
 }
 
-// public SimpleAlgorithm New(Uno.Collections.IList<T> from, Uno.Collections.IList<T> to, T emptyKey) :106
+// public SimpleAlgorithm New(Uno.Collections.IList<T> from, Uno.Collections.IList<T> to, T emptyKey)
 void SimpleAlgorithm__New1_fn(uType* __type, uObject* from, uObject* to, void* emptyKey, SimpleAlgorithm** __retval)
 {
     SimpleAlgorithm* obj1 = (SimpleAlgorithm*)uNew(__type);
@@ -287,7 +290,7 @@ void SimpleAlgorithm__New1_fn(uType* __type, uObject* from, uObject* to, void* e
     return *__retval = obj1, void();
 }
 
-// private void AppendRemainingTo(int oPos) [instance] :185
+// private void AppendRemainingTo(int oPos) [instance]
 void SimpleAlgorithm::AppendRemainingTo(int32_t oPos)
 {
     uType* __types[] = {
@@ -307,7 +310,7 @@ void SimpleAlgorithm::AppendRemainingTo(int32_t oPos)
     }
 }
 
-// public Uno.Collections.List<Fuse.Reactive.Internal.PatchItem> Calc() [instance] :141
+// public Uno.Collections.List<Fuse.Reactive.Internal.PatchItem> Calc() [instance]
 ::g::Uno::Collections::List* SimpleAlgorithm::Calc()
 {
     uType* __types[] = {
@@ -365,7 +368,7 @@ void SimpleAlgorithm::AppendRemainingTo(int32_t oPos)
     return _ops;
 }
 
-// private Fuse.Reactive.Internal.SimpleAlgorithm<T>.Location FindNextAnchor(int fromAt) [instance] :199
+// private Fuse.Reactive.Internal.SimpleAlgorithm<T>.Location FindNextAnchor(int fromAt) [instance]
 SimpleAlgorithm__Location SimpleAlgorithm::FindNextAnchor(int32_t fromAt)
 {
     uType* __types[] = {
@@ -401,7 +404,7 @@ SimpleAlgorithm__Location SimpleAlgorithm::FindNextAnchor(int32_t fromAt)
     return collection7;
 }
 
-// private Uno.Collections.Dictionary<T, int> Index(Uno.Collections.IList<T> to) [instance] :130
+// private Uno.Collections.Dictionary<T, int> Index(Uno.Collections.IList<T> to) [instance]
 ::g::Uno::Collections::Dictionary* SimpleAlgorithm::Index(uObject* to)
 {
     uType* __types[] = {

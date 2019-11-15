@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/Gesture.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Input/Gesture.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -15,7 +15,7 @@ namespace g{
 namespace Fuse{
 namespace Input{
 
-// public static class Gestures :344
+// public static class Gestures
 // {
 uClassType* Gestures_typeof();
 void Gestures__Add_fn(uObject* handler, ::g::Fuse::Visual* target, int32_t* type, ::g::Fuse::Input::Gesture** __retval);

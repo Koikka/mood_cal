@@ -23,12 +23,12 @@ public class AndroidProperties
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static int GetBuildVersion425()
+    public static int GetBuildVersion435()
     {
         return android.os.Build.VERSION.SDK_INT;
     }
     
-    public static String GetReleaseVersion426()
+    public static String GetReleaseVersion436()
     {
         return android.os.Build.VERSION.RELEASE;
     }

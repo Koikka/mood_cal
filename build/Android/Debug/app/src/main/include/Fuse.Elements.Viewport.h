@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls/1.9.0/Viewport.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls/1.12.0/Viewport.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -17,7 +17,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -37,7 +37,7 @@ namespace g{
 namespace Fuse{
 namespace Elements{
 
-// public sealed class Viewport :47
+// public sealed class Viewport
 // {
 struct Viewport_type : ::g::Fuse::Elements::Element_type
 {

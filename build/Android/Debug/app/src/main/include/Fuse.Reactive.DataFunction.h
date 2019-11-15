@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/DataFunction.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Bindings/1.12.0/DataFunction.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public sealed class DataFunction :21
+// public sealed class DataFunction
 // {
 ::g::Fuse::Reactive::Expression_type* DataFunction_typeof();
 void DataFunction__Subscribe_fn(DataFunction* __this, uObject* context, uObject* listener, uObject** __retval);

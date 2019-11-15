@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/FuseJS/Http.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/FuseJS/Http.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -14,7 +14,7 @@ namespace Fuse{
 namespace Reactive{
 namespace FuseJS{
 
-// public sealed class Http :12
+// public sealed class Http
 // {
 ::g::Fuse::Scripting::NativeModule_type* Http_typeof();
 void Http__ctor_2_fn(Http* __this);

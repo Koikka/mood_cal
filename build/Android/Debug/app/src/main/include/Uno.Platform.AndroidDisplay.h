@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Platform/Android/AndroidDisplay.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Platform/Android/AndroidDisplay.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Uno{
 namespace Platform{
 
-// public sealed extern class AndroidDisplay :10
+// public sealed extern class AndroidDisplay
 // {
 ::g::Uno::Platform::Display_type* AndroidDisplay_typeof();
 void AndroidDisplay__ctor_1_fn(AndroidDisplay* __this);

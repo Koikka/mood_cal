@@ -4,9 +4,9 @@
 #include <_root.FuseDrawing_bundle.h>
 #include <_root.FuseElements_bundle.h>
 #include <Android.Base.Wrappers.JWrapper.h>
-#include <Android.Base.Wrappers-88f7a41f.h>
+#include <Android.Base.Wrappers-4c0b8613.h>
 #include <Fuse.Common.Blitter.h>
-#include <Fuse.Controls.Native.-e502cdf1.h>
+#include <Fuse.Controls.Native.-dc7eb731.h>
 #include <Fuse.Diagnostics.h>
 #include <Fuse.DrawContext.h>
 #include <Fuse.Drawing.AndroidCanvasPath.h>
@@ -15,22 +15,22 @@
 #include <Fuse.Drawing.BrushConverter.h>
 #include <Fuse.Drawing.Brushes.h>
 #include <Fuse.Drawing.Colors.h>
-#include <Fuse.Drawing.DrawObje-53c107e5.h>
+#include <Fuse.Drawing.DrawObje-aefdefb6.h>
 #include <Fuse.Drawing.DrawObjectWatcher.h>
 #include <Fuse.Drawing.DynamicBrush.h>
 #include <Fuse.Drawing.FillRule.h>
 #include <Fuse.Drawing.GradientStop.h>
 #include <Fuse.Drawing.GraphicsSurface.h>
-#include <Fuse.Drawing.IDrawObj-d34d045e.h>
-#include <Fuse.Drawing.ImageFil-1398d2ef.h>
+#include <Fuse.Drawing.IDrawObj-13f8940.h>
+#include <Fuse.Drawing.ImageFil-b905dd3.h>
 #include <Fuse.Drawing.ImageFill.h>
-#include <Fuse.Drawing.INativeS-e8aff21d.h>
+#include <Fuse.Drawing.INativeS-e3ce3c6f.h>
 #include <Fuse.Drawing.ISolidColor.h>
 #include <Fuse.Drawing.ISurfaceDrawable.h>
 #include <Fuse.Drawing.ISurfaceProvider.h>
-#include <Fuse.Drawing.LinearGr-4a6ec6a4.h>
+#include <Fuse.Drawing.LinearGr-38187bf9.h>
 #include <Fuse.Drawing.LinearGradient.h>
-#include <Fuse.Drawing.LinearGr-f3a25b50.h>
+#include <Fuse.Drawing.LinearGr-fa27ec04.h>
 #include <Fuse.Drawing.LineCap.h>
 #include <Fuse.Drawing.LineJoin.h>
 #include <Fuse.Drawing.LineMetrics.h>
@@ -39,8 +39,8 @@
 #include <Fuse.Drawing.LineSegmentFlags.h>
 #include <Fuse.Drawing.LineSegments.h>
 #include <Fuse.Drawing.LineSegmentType.h>
-#include <Fuse.Drawing.LineSpli-2a1a6011.h>
-#include <Fuse.Drawing.LineSpli-9c5a9520.h>
+#include <Fuse.Drawing.LineSpli-491045bd.h>
+#include <Fuse.Drawing.LineSpli-964aa99d.h>
 #include <Fuse.Drawing.LineSplitter.h>
 #include <Fuse.Drawing.NativeSurface.h>
 #include <Fuse.Drawing.RepeatBaker.h>
@@ -68,7 +68,7 @@
 #include <Fuse.Marshal.h>
 #include <Fuse.Node.h>
 #include <Fuse.Resources.DisposalManager.h>
-#include <Fuse.Resources.ImageS-d58bb329.h>
+#include <Fuse.Resources.ImageS-e0decf16.h>
 #include <Fuse.Resources.ImageSource.h>
 #include <Fuse.Resources.MemoryPolicy.h>
 #include <Fuse.Time.h>
@@ -80,11 +80,9 @@
 #include <OpenGL.GLTextureHandle.h>
 #include <Uno.Action1-1.h>
 #include <Uno.Bool.h>
-#include <Uno.Buffer.h>
-#include <Uno.Byte.h>
-#include <Uno.Collections.Dicti-d1699346.h>
+#include <Uno.Collections.Dicti-5d5b73f.h>
 #include <Uno.Collections.Dictionary-2.h>
-#include <Uno.Collections.Enume-8ddd045.h>
+#include <Uno.Collections.Enume-9e7bc8e0.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
 #include <Uno.Collections.IList-1.h>
@@ -92,7 +90,7 @@
 #include <Uno.Collections.List-1.h>
 #include <Uno.Collections.RootableList-1.h>
 #include <Uno.Color.h>
-#include <Uno.Compiler.ExportTa-39be7c2b.h>
+#include <Uno.Compiler.ExportTa-2429dd1f.h>
 #include <Uno.Double.h>
 #include <Uno.Exception.h>
 #include <Uno.Float.h>
@@ -106,7 +104,7 @@
 #include <Uno.Graphics.PolygonFace.h>
 #include <Uno.Graphics.SamplerState.h>
 #include <Uno.Graphics.Texture2D.h>
-#include <Uno.Graphics.VertexAt-4a875e1d.h>
+#include <Uno.Graphics.VertexAt-13489a6d.h>
 #include <Uno.Graphics.VertexBuffer.h>
 #include <Uno.Int.h>
 #include <Uno.Int2.h>
@@ -114,8 +112,7 @@
 #include <Uno.NotSupportedException.h>
 #include <Uno.Object.h>
 #include <Uno.Rect.h>
-#include <Uno.Runtime.Implement-6e9df330.h>
-#include <Uno.Runtime.Implement-81e7ab4c.h>
+#include <Uno.Runtime.Implement-e843a30a.h>
 #include <Uno.String.h>
 #include <Uno.Type.h>
 #include <Uno.UInt.h>
@@ -133,10 +130,10 @@ namespace g{
 namespace Fuse{
 namespace Drawing{
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/Android/Surface.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/Android/Surface.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class AndroidCanvasPath :14
+// internal sealed extern class AndroidCanvasPath
 // {
 static void AndroidCanvasPath_build(uType* type)
 {
@@ -161,25 +158,25 @@ uType* AndroidCanvasPath_typeof()
     return type;
 }
 
-// public generated AndroidCanvasPath() :14
+// public generated AndroidCanvasPath()
 void AndroidCanvasPath__ctor_1_fn(AndroidCanvasPath* __this)
 {
     __this->ctor_1();
 }
 
-// public generated AndroidCanvasPath New() :14
+// public generated AndroidCanvasPath New()
 void AndroidCanvasPath__New1_fn(AndroidCanvasPath** __retval)
 {
     *__retval = AndroidCanvasPath::New1();
 }
 
-// public generated AndroidCanvasPath() [instance] :14
+// public generated AndroidCanvasPath() [instance]
 void AndroidCanvasPath::ctor_1()
 {
     ctor_();
 }
 
-// public generated AndroidCanvasPath New() [static] :14
+// public generated AndroidCanvasPath New() [static]
 AndroidCanvasPath* AndroidCanvasPath::New1()
 {
     AndroidCanvasPath* obj1 = (AndroidCanvasPath*)uNew(AndroidCanvasPath_typeof());
@@ -188,15 +185,15 @@ AndroidCanvasPath* AndroidCanvasPath::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/Android/Surface.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/Android/Surface.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract extern class AndroidSurface :49
+// internal abstract extern class AndroidSurface
 // {
 static void AndroidSurface_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("Duplicate dispose of SurfacePath");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/Android/Surface.uno");
+    ::STRINGS[1] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/Android/Surface.uno");
     ::STRINGS[2] = uString::Const("DisposePath");
     ::STRINGS[3] = uString::Const("Unprepared LinearGradient");
     ::STRINGS[4] = uString::Const("DrawPath");
@@ -258,44 +255,44 @@ AndroidSurface_type* AndroidSurface_typeof()
     return type;
 }
 
-// public AndroidSurface() :53
+// public AndroidSurface()
 void AndroidSurface__ctor_1_fn(AndroidSurface* __this)
 {
     __this->ctor_1();
 }
 
-// private float2 AddSegments(Java.Object path, Uno.Collections.IList<Fuse.Drawing.LineSegment> segments, float2 prevPoint) :411
+// private float2 AddSegments(Java.Object path, Uno.Collections.IList<Fuse.Drawing.LineSegment> segments, float2 prevPoint)
 void AndroidSurface__AddSegments_fn(AndroidSurface* __this, ::g::Java::Object* path, uObject* segments, ::g::Uno::Float2* prevPoint, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->AddSegments(path, segments, *prevPoint);
 }
 
-// public override void Begin(Fuse.DrawContext dc, framebuffer fb, float pixelsPerPoint) :351
+// public override void Begin(Fuse.DrawContext dc, framebuffer fb, float pixelsPerPoint)
 void AndroidSurface__Begin_fn(AndroidSurface* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Graphics::Framebuffer* fb, float* pixelsPerPoint)
 {
     float pixelsPerPoint_ = *pixelsPerPoint;
     __this->_pixelsPerPoint = pixelsPerPoint_;
 }
 
-// private static void ConcatTransform(Java.Object cp, Java.Object m) :538
+// private static void ConcatTransform(Java.Object cp, Java.Object m)
 void AndroidSurface__ConcatTransform_fn(::g::Java::Object* cp, ::g::Java::Object* m)
 {
     AndroidSurface::ConcatTransform(cp, m);
 }
 
-// private static Java.Object CreateFillPaint() :587
+// private static Java.Object CreateFillPaint()
 void AndroidSurface__CreateFillPaint_fn(::g::Java::Object** __retval)
 {
     *__retval = AndroidSurface::CreateFillPaint();
 }
 
-// private static Java.Object CreateLinearGradient(int[] colors, float[] stops) :307
+// private static Java.Object CreateLinearGradient(int[] colors, float[] stops)
 void AndroidSurface__CreateLinearGradient_fn(uArray* colors, uArray* stops, ::g::Java::Object** __retval)
 {
     *__retval = AndroidSurface::CreateLinearGradient(colors, stops);
 }
 
-// public override sealed Fuse.Drawing.SurfacePath CreatePath(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments, [Fuse.Drawing.FillRule fillRule]) :97
+// public override sealed Fuse.Drawing.SurfacePath CreatePath(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments, [Fuse.Drawing.FillRule fillRule])
 void AndroidSurface__CreatePath_fn(AndroidSurface* __this, uObject* segments, int32_t* fillRule, ::g::Fuse::Drawing::SurfacePath** __retval)
 {
     ::g::Fuse::Drawing::AndroidCanvasPath* collection2;
@@ -305,13 +302,13 @@ void AndroidSurface__CreatePath_fn(AndroidSurface* __this, uObject* segments, in
     return *__retval = (collection2 = ::g::Fuse::Drawing::AndroidCanvasPath::New1(), uPtr(collection2)->Path = path, uPtr(collection2)->FillRule = fillRule_, collection2), void();
 }
 
-// private static Java.Object CreateStrokedPaint(float width, int fjoin, int fcap, float miterLimit) :330
+// private static Java.Object CreateStrokedPaint(float width, int fjoin, int fcap, float miterLimit)
 void AndroidSurface__CreateStrokedPaint_fn(float* width, int32_t* fjoin, int32_t* fcap, float* miterLimit, ::g::Java::Object** __retval)
 {
     *__retval = AndroidSurface::CreateStrokedPaint(*width, *fjoin, *fcap, *miterLimit);
 }
 
-// public override sealed void Dispose() :66
+// public override sealed void Dispose()
 void AndroidSurface__Dispose_fn(AndroidSurface* __this)
 {
     ::g::Uno::Collections::Dictionary__Enumerator<uStrong< ::g::Fuse::Drawing::Brush*>, uStrong< ::g::Java::Object*> > ret4;
@@ -349,27 +346,27 @@ void AndroidSurface__Dispose_fn(AndroidSurface* __this)
     uPtr(__this->_imageBrushes)->Clear();
 }
 
-// public override sealed void DisposePath(Fuse.Drawing.SurfacePath path) :483
+// public override sealed void DisposePath(Fuse.Drawing.SurfacePath path)
 void AndroidSurface__DisposePath_fn(AndroidSurface* __this, ::g::Fuse::Drawing::SurfacePath* path)
 {
     ::g::Fuse::Drawing::AndroidCanvasPath* cgPath = uCast< ::g::Fuse::Drawing::AndroidCanvasPath*>(path, ::TYPES[6/*Fuse.Drawing.AndroidCanvasPath*/]);
 
     if (uPtr(cgPath)->Path == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(::STRINGS[0/*"Duplicate d...*/], path, ::STRINGS[1/*"/usr/local/...*/], 489, ::STRINGS[2/*"DisposePath"*/]);
+        ::g::Fuse::Diagnostics::InternalError(::STRINGS[0/*"Duplicate d...*/], path, ::STRINGS[1/*"/Users/antt...*/], 489, ::STRINGS[2/*"DisposePath"*/]);
         return;
     }
 
     uPtr(cgPath)->Path = NULL;
 }
 
-// private void DrawPath(Java.Object path, Fuse.Drawing.Brush fill, Fuse.Drawing.FillRule fillRule, Java.Object paint) :143
+// private void DrawPath(Java.Object path, Fuse.Drawing.Brush fill, Fuse.Drawing.FillRule fillRule, Java.Object paint)
 void AndroidSurface__DrawPath_fn(AndroidSurface* __this, ::g::Java::Object* path, ::g::Fuse::Drawing::Brush* fill, int32_t* fillRule, ::g::Java::Object* paint)
 {
     __this->DrawPath(path, fill, *fillRule, paint);
 }
 
-// public override sealed void FillPath(Fuse.Drawing.SurfacePath path, Fuse.Drawing.Brush fill) :125
+// public override sealed void FillPath(Fuse.Drawing.SurfacePath path, Fuse.Drawing.Brush fill)
 void AndroidSurface__FillPath_fn(AndroidSurface* __this, ::g::Fuse::Drawing::SurfacePath* path, ::g::Fuse::Drawing::Brush* fill)
 {
     ::g::Fuse::Drawing::AndroidCanvasPath* cgPath = uCast< ::g::Fuse::Drawing::AndroidCanvasPath*>(path, ::TYPES[6/*Fuse.Drawing.AndroidCanvasPath*/]);
@@ -377,74 +374,74 @@ void AndroidSurface__FillPath_fn(AndroidSurface* __this, ::g::Fuse::Drawing::Sur
     __this->DrawPath(uPtr(cgPath)->Path, fill, uPtr(cgPath)->FillRule, paint);
 }
 
-// private static void FillPathImage(Java.Object cp, Java.Object pathAsObject, Java.Object imageAsObject, float originX, float originY, float tileSizeX, float tileSizeY, float width, float height, bool eoFill, Java.Object paintAsObject) :258
+// private static void FillPathImage(Java.Object cp, Java.Object pathAsObject, Java.Object imageAsObject, float originX, float originY, float tileSizeX, float tileSizeY, float width, float height, bool eoFill, Java.Object paintAsObject)
 void AndroidSurface__FillPathImage_fn(::g::Java::Object* cp, ::g::Java::Object* pathAsObject, ::g::Java::Object* imageAsObject, float* originX, float* originY, float* tileSizeX, float* tileSizeY, float* width, float* height, bool* eoFill, ::g::Java::Object* paintAsObject)
 {
     AndroidSurface::FillPathImage(cp, pathAsObject, imageAsObject, *originX, *originY, *tileSizeX, *tileSizeY, *width, *height, *eoFill, paintAsObject);
 }
 
-// private static void FillPathLinearGradient(Java.Object cp, Java.Object path, Java.Object gradientStore, float startX, float startY, float endX, float endY, bool eoFill, Java.Object pretendPaint) :221
+// private static void FillPathLinearGradient(Java.Object cp, Java.Object path, Java.Object gradientStore, float startX, float startY, float endX, float endY, bool eoFill, Java.Object pretendPaint)
 void AndroidSurface__FillPathLinearGradient_fn(::g::Java::Object* cp, ::g::Java::Object* path, ::g::Java::Object* gradientStore, float* startX, float* startY, float* endX, float* endY, bool* eoFill, ::g::Java::Object* pretendPaint)
 {
     AndroidSurface::FillPathLinearGradient(cp, path, gradientStore, *startX, *startY, *endX, *endY, *eoFill, pretendPaint);
 }
 
-// private static void FillPathSolidColor(Java.Object cp, Java.Object pathAsObject, int color, bool eoFill, Java.Object pretendPaint) :203
+// private static void FillPathSolidColor(Java.Object cp, Java.Object pathAsObject, int color, bool eoFill, Java.Object pretendPaint)
 void AndroidSurface__FillPathSolidColor_fn(::g::Java::Object* cp, ::g::Java::Object* pathAsObject, int32_t* color, bool* eoFill, ::g::Java::Object* pretendPaint)
 {
     AndroidSurface::FillPathSolidColor(cp, pathAsObject, *color, *eoFill, pretendPaint);
 }
 
-// private static Java.Object NewContext() :59
+// private static Java.Object NewContext()
 void AndroidSurface__NewContext_fn(::g::Java::Object** __retval)
 {
     *__retval = AndroidSurface::NewContext();
 }
 
-// private static void PathClose(Java.Object pathAsObject) :524
+// private static void PathClose(Java.Object pathAsObject)
 void AndroidSurface__PathClose_fn(::g::Java::Object* pathAsObject)
 {
     AndroidSurface::PathClose(pathAsObject);
 }
 
-// private static Java.Object PathCreateMutable() :497
+// private static Java.Object PathCreateMutable()
 void AndroidSurface__PathCreateMutable_fn(::g::Java::Object** __retval)
 {
     *__retval = AndroidSurface::PathCreateMutable();
 }
 
-// private static void PathCurveTo(Java.Object pathAsObject, float x, float y, float ax, float ay, float bx, float by) :510
+// private static void PathCurveTo(Java.Object pathAsObject, float x, float y, float ax, float ay, float bx, float by)
 void AndroidSurface__PathCurveTo_fn(::g::Java::Object* pathAsObject, float* x, float* y, float* ax, float* ay, float* bx, float* by)
 {
     AndroidSurface::PathCurveTo(pathAsObject, *x, *y, *ax, *ay, *bx, *by);
 }
 
-// private static void PathLineTo(Java.Object pathAsObject, float x, float y) :517
+// private static void PathLineTo(Java.Object pathAsObject, float x, float y)
 void AndroidSurface__PathLineTo_fn(::g::Java::Object* pathAsObject, float* x, float* y)
 {
     AndroidSurface::PathLineTo(pathAsObject, *x, *y);
 }
 
-// private static void PathMoveTo(Java.Object pathAsObject, float x, float y) :503
+// private static void PathMoveTo(Java.Object pathAsObject, float x, float y)
 void AndroidSurface__PathMoveTo_fn(::g::Java::Object* pathAsObject, float* x, float* y)
 {
     AndroidSurface::PathMoveTo(pathAsObject, *x, *y);
 }
 
-// private float2 PixelFromPoint(float2 point) :405
+// private float2 PixelFromPoint(float2 point)
 void AndroidSurface__PixelFromPoint_fn(AndroidSurface* __this, ::g::Uno::Float2* point, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->PixelFromPoint(*point);
 }
 
-// public override sealed void PopTransform() :91
+// public override sealed void PopTransform()
 void AndroidSurface__PopTransform_fn(AndroidSurface* __this)
 {
     __this->VerifyBegun();
     AndroidSurface::RestoreContextState(__this->SurfaceContext);
 }
 
-// public override sealed void Prepare(Fuse.Drawing.Brush brush) :359
+// public override sealed void Prepare(Fuse.Drawing.Brush brush)
 void AndroidSurface__Prepare_fn(AndroidSurface* __this, ::g::Fuse::Drawing::Brush* brush)
 {
     __this->VerifyCreated();
@@ -469,22 +466,22 @@ void AndroidSurface__Prepare_fn(AndroidSurface* __this, ::g::Fuse::Drawing::Brus
         return;
     }
 
-    ::g::Fuse::Diagnostics::UserError(::STRINGS[6/*"Unsupported...*/], brush, ::STRINGS[1/*"/usr/local/...*/], 383, ::STRINGS[7/*"Prepare"*/], NULL);
+    ::g::Fuse::Diagnostics::UserError(::STRINGS[6/*"Unsupported...*/], brush, ::STRINGS[1/*"/Users/antt...*/], 383, ::STRINGS[7/*"Prepare"*/], NULL);
 }
 
-// private void PrepareImageFill(Fuse.Drawing.ImageFill fill) :106
+// private void PrepareImageFill(Fuse.Drawing.ImageFill fill)
 void AndroidSurface__PrepareImageFill_fn(AndroidSurface* __this, ::g::Fuse::Drawing::ImageFill* fill)
 {
     __this->PrepareImageFill(fill);
 }
 
-// private void PrepareLinearGradient(Fuse.Drawing.LinearGradient lg) :462
+// private void PrepareLinearGradient(Fuse.Drawing.LinearGradient lg)
 void AndroidSurface__PrepareLinearGradient_fn(AndroidSurface* __this, ::g::Fuse::Drawing::LinearGradient* lg)
 {
     __this->PrepareLinearGradient(lg);
 }
 
-// public override sealed void PushTransform(float4x4 t) :84
+// public override sealed void PushTransform(float4x4 t)
 void AndroidSurface__PushTransform_fn(AndroidSurface* __this, ::g::Uno::Float4x4* t)
 {
     ::g::Uno::Float4x4 t_ = *t;
@@ -493,25 +490,25 @@ void AndroidSurface__PushTransform_fn(AndroidSurface* __this, ::g::Uno::Float4x4
     AndroidSurface::ConcatTransform(__this->SurfaceContext, __this->ToMatrix1(t_, __this->_pixelsPerPoint));
 }
 
-// private static void recycleBitmap(Java.Object bit) :555
+// private static void recycleBitmap(Java.Object bit)
 void AndroidSurface__recycleBitmap_fn(::g::Java::Object* bit)
 {
     AndroidSurface::recycleBitmap(bit);
 }
 
-// private static void RestoreContextState(Java.Object cp) :548
+// private static void RestoreContextState(Java.Object cp)
 void AndroidSurface__RestoreContextState_fn(::g::Java::Object* cp)
 {
     AndroidSurface::RestoreContextState(cp);
 }
 
-// private static int SaveContextState(Java.Object cp) :531
+// private static int SaveContextState(Java.Object cp)
 void AndroidSurface__SaveContextState_fn(::g::Java::Object* cp, int32_t* __retval)
 {
     *__retval = AndroidSurface::SaveContextState(cp);
 }
 
-// public override sealed void StrokePath(Fuse.Drawing.SurfacePath path, Fuse.Drawing.Stroke stroke) :318
+// public override sealed void StrokePath(Fuse.Drawing.SurfacePath path, Fuse.Drawing.Stroke stroke)
 void AndroidSurface__StrokePath_fn(AndroidSurface* __this, ::g::Fuse::Drawing::SurfacePath* path, ::g::Fuse::Drawing::Stroke* stroke)
 {
     __this->VerifyBegun();
@@ -520,19 +517,19 @@ void AndroidSurface__StrokePath_fn(AndroidSurface* __this, ::g::Fuse::Drawing::S
     __this->DrawPath(uPtr(cgPath)->Path, stroke->Brush(), 0, strokedPaint);
 }
 
-// private Java.Object ToMatrix(float[] matrix) :579
+// private Java.Object ToMatrix(float[] matrix)
 void AndroidSurface__ToMatrix_fn(AndroidSurface* __this, uArray* matrix, ::g::Java::Object** __retval)
 {
     *__retval = __this->ToMatrix(matrix);
 }
 
-// private Java.Object ToMatrix(float4x4 transform, float pixelsPerPoint) :567
+// private Java.Object ToMatrix(float4x4 transform, float pixelsPerPoint)
 void AndroidSurface__ToMatrix1_fn(AndroidSurface* __this, ::g::Uno::Float4x4* transform, float* pixelsPerPoint, ::g::Java::Object** __retval)
 {
     *__retval = __this->ToMatrix1(*transform, *pixelsPerPoint);
 }
 
-// public override sealed void Unprepare(Fuse.Drawing.Brush brush) :388
+// public override sealed void Unprepare(Fuse.Drawing.Brush brush)
 void AndroidSurface__Unprepare_fn(AndroidSurface* __this, ::g::Fuse::Drawing::Brush* brush)
 {
     bool ret7;
@@ -555,13 +552,13 @@ void AndroidSurface__Unprepare_fn(AndroidSurface* __this, ::g::Fuse::Drawing::Br
     }
 }
 
-// private void VerifyCreated() :76
+// private void VerifyCreated()
 void AndroidSurface__VerifyCreated_fn(AndroidSurface* __this)
 {
     __this->VerifyCreated();
 }
 
-// public AndroidSurface() [instance] :53
+// public AndroidSurface() [instance]
 void AndroidSurface::ctor_1()
 {
     _imageBrushes = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[0/*Uno.Collections.Dictionary<Fuse.Drawing.Brush, Java.Object>*/]));
@@ -571,7 +568,7 @@ void AndroidSurface::ctor_1()
     SurfaceContext = AndroidSurface::NewContext();
 }
 
-// private float2 AddSegments(Java.Object path, Uno.Collections.IList<Fuse.Drawing.LineSegment> segments, float2 prevPoint) [instance] :411
+// private float2 AddSegments(Java.Object path, Uno.Collections.IList<Fuse.Drawing.LineSegment> segments, float2 prevPoint) [instance]
 ::g::Uno::Float2 AndroidSurface::AddSegments(::g::Java::Object* path, uObject* segments, ::g::Uno::Float2 prevPoint)
 {
     ::g::Fuse::Drawing::LineSegment ret3;
@@ -620,7 +617,7 @@ void AndroidSurface::ctor_1()
     return prevPoint;
 }
 
-// private void DrawPath(Java.Object path, Fuse.Drawing.Brush fill, Fuse.Drawing.FillRule fillRule, Java.Object paint) [instance] :143
+// private void DrawPath(Java.Object path, Fuse.Drawing.Brush fill, Fuse.Drawing.FillRule fillRule, Java.Object paint) [instance]
 void AndroidSurface::DrawPath(::g::Java::Object* path, ::g::Fuse::Drawing::Brush* fill, int32_t fillRule, ::g::Java::Object* paint)
 {
     bool ret5;
@@ -642,7 +639,7 @@ void AndroidSurface::DrawPath(::g::Java::Object* path, ::g::Fuse::Drawing::Brush
 
         if (!(::g::Uno::Collections::Dictionary__TryGetValue_fn(uPtr(_gradientBrushes), fill, (void**)(&gradient), &ret5), ret5))
         {
-            ::g::Fuse::Diagnostics::InternalError(::STRINGS[3/*"Unprepared ...*/], fill, ::STRINGS[1/*"/usr/local/...*/], 161, ::STRINGS[4/*"DrawPath"*/]);
+            ::g::Fuse::Diagnostics::InternalError(::STRINGS[3/*"Unprepared ...*/], fill, ::STRINGS[1/*"/Users/antt...*/], 161, ::STRINGS[4/*"DrawPath"*/]);
             return;
         }
 
@@ -659,7 +656,7 @@ void AndroidSurface::DrawPath(::g::Java::Object* path, ::g::Fuse::Drawing::Brush
 
         if (!(::g::Uno::Collections::Dictionary__TryGetValue_fn(uPtr(_imageBrushes), fill, (void**)(&image), &ret6), ret6))
         {
-            ::g::Fuse::Diagnostics::InternalError(::STRINGS[5/*"Unprepared ...*/], fill, ::STRINGS[1/*"/usr/local/...*/], 177, ::STRINGS[4/*"DrawPath"*/]);
+            ::g::Fuse::Diagnostics::InternalError(::STRINGS[5/*"Unprepared ...*/], fill, ::STRINGS[1/*"/Users/antt...*/], 177, ::STRINGS[4/*"DrawPath"*/]);
             return;
         }
 
@@ -674,23 +671,23 @@ void AndroidSurface::DrawPath(::g::Java::Object* path, ::g::Fuse::Drawing::Brush
         return;
     }
 
-    ::g::Fuse::Diagnostics::UserError(::STRINGS[6/*"Unsupported...*/], fill, ::STRINGS[1/*"/usr/local/...*/], 198, ::STRINGS[4/*"DrawPath"*/], NULL);
+    ::g::Fuse::Diagnostics::UserError(::STRINGS[6/*"Unsupported...*/], fill, ::STRINGS[1/*"/Users/antt...*/], 198, ::STRINGS[4/*"DrawPath"*/], NULL);
 }
 
-// private float2 PixelFromPoint(float2 point) [instance] :405
+// private float2 PixelFromPoint(float2 point) [instance]
 ::g::Uno::Float2 AndroidSurface::PixelFromPoint(::g::Uno::Float2 point)
 {
     return ::g::Uno::Float2__op_Multiply1(point, _pixelsPerPoint);
 }
 
-// private void PrepareImageFill(Fuse.Drawing.ImageFill fill) [instance] :106
+// private void PrepareImageFill(Fuse.Drawing.ImageFill fill) [instance]
 void AndroidSurface::PrepareImageFill(::g::Fuse::Drawing::ImageFill* fill)
 {
     ::g::Fuse::Resources::ImageSource* src = uPtr(fill)->Source();
 
     if ((uPtr(src)->PixelSize().X == 0) || (uPtr(src)->PixelSize().Y == 0))
     {
-        ::g::Fuse::Diagnostics::UserError(::STRINGS[8/*"Recieved an...*/], uBox(::g::Uno::Int2_typeof(), uPtr(src)->PixelSize()), ::STRINGS[1/*"/usr/local/...*/], 111, ::STRINGS[9/*"PrepareImag...*/], NULL);
+        ::g::Fuse::Diagnostics::UserError(::STRINGS[8/*"Recieved an...*/], uBox(::g::Uno::Int2_typeof(), uPtr(src)->PixelSize()), ::STRINGS[1/*"/Users/antt...*/], 111, ::STRINGS[9/*"PrepareImag...*/], NULL);
         return;
     }
 
@@ -702,7 +699,7 @@ void AndroidSurface::PrepareImageFill(::g::Fuse::Drawing::ImageFill* fill)
     ::g::Uno::Collections::Dictionary__set_Item_fn(uPtr(_imageBrushes), fill, PrepareImageFillImpl(fill));
 }
 
-// private void PrepareLinearGradient(Fuse.Drawing.LinearGradient lg) [instance] :462
+// private void PrepareLinearGradient(Fuse.Drawing.LinearGradient lg) [instance]
 void AndroidSurface::PrepareLinearGradient(::g::Fuse::Drawing::LinearGradient* lg)
 {
     uArray* stops = uPtr(lg)->SortedStops();
@@ -719,13 +716,13 @@ void AndroidSurface::PrepareLinearGradient(::g::Fuse::Drawing::LinearGradient* l
     ::g::Uno::Collections::Dictionary__set_Item_fn(uPtr(_gradientBrushes), lg, AndroidSurface::CreateLinearGradient(colors, offsets));
 }
 
-// private Java.Object ToMatrix(float[] matrix) [instance] :579
+// private Java.Object ToMatrix(float[] matrix) [instance]
 ::g::Java::Object* AndroidSurface::ToMatrix(uArray* matrix)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "ToMatrix342", "(Lcom/uno/UnoObject;Lcom/uno/FloatArray;)Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "ToMatrix345", "(Lcom/uno/UnoObject;Lcom/uno/FloatArray;)Ljava/lang/Object;");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         uArray* _umatrix=matrix;
@@ -740,27 +737,27 @@ void AndroidSurface::PrepareLinearGradient(::g::Fuse::Drawing::LinearGradient* l
     
 }
 
-// private Java.Object ToMatrix(float4x4 transform, float pixelsPerPoint) [instance] :567
+// private Java.Object ToMatrix(float4x4 transform, float pixelsPerPoint) [instance]
 ::g::Java::Object* AndroidSurface::ToMatrix1(::g::Uno::Float4x4 transform, float pixelsPerPoint)
 {
     uArray* matrix = uArray::Init<double>(::TYPES[11/*float[]*/], 9, transform.M11, transform.M21, transform.M41 * pixelsPerPoint, transform.M12, transform.M22, transform.M42 * pixelsPerPoint, transform.M14, transform.M24, transform.M44);
     return ToMatrix(matrix);
 }
 
-// private void VerifyCreated() [instance] :76
+// private void VerifyCreated() [instance]
 void AndroidSurface::VerifyCreated()
 {
     if (SurfaceContext == NULL)
         U_THROW(::g::Uno::Exception::New2(::STRINGS[10/*"Object disp...*/]));
 }
 
-// private static void ConcatTransform(Java.Object cp, Java.Object m) [static] :538
+// private static void ConcatTransform(Java.Object cp, Java.Object m) [static]
 void AndroidSurface::ConcatTransform(::g::Java::Object* cp, ::g::Java::Object* m)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "ConcatTransform326", "(Ljava/lang/Object;Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "ConcatTransform329", "(Ljava/lang/Object;Ljava/lang/Object;)V");
         ::g::Java::Object* _ucp=cp;
         jobject _cp = (_ucp==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ucp, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         ::g::Java::Object* _um=m;
@@ -775,13 +772,13 @@ void AndroidSurface::ConcatTransform(::g::Java::Object* cp, ::g::Java::Object* m
     
 }
 
-// private static Java.Object CreateFillPaint() [static] :587
+// private static Java.Object CreateFillPaint() [static]
 ::g::Java::Object* AndroidSurface::CreateFillPaint()
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateFillPaint327", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateFillPaint330", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         ::g::Android::Base::JNI::CheckException();
@@ -790,13 +787,13 @@ void AndroidSurface::ConcatTransform(::g::Java::Object* cp, ::g::Java::Object* m
     
 }
 
-// private static Java.Object CreateLinearGradient(int[] colors, float[] stops) [static] :307
+// private static Java.Object CreateLinearGradient(int[] colors, float[] stops) [static]
 ::g::Java::Object* AndroidSurface::CreateLinearGradient(uArray* colors, uArray* stops)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateLinearGradient328", "(Lcom/uno/IntArray;Lcom/uno/FloatArray;)Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateLinearGradient331", "(Lcom/uno/IntArray;Lcom/uno/FloatArray;)Ljava/lang/Object;");
         uArray* _ucolors=colors;
         jobject _colors = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box4(_ucolors);
         uArray* _ustops=stops;
@@ -811,13 +808,13 @@ void AndroidSurface::ConcatTransform(::g::Java::Object* cp, ::g::Java::Object* m
     
 }
 
-// private static Java.Object CreateStrokedPaint(float width, int fjoin, int fcap, float miterLimit) [static] :330
+// private static Java.Object CreateStrokedPaint(float width, int fjoin, int fcap, float miterLimit) [static]
 ::g::Java::Object* AndroidSurface::CreateStrokedPaint(float width, int32_t fjoin, int32_t fcap, float miterLimit)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateStrokedPaint329", "(FIIF)Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateStrokedPaint332", "(FIIF)Ljava/lang/Object;");
         float _uwidth=width;
         jfloat _width = (jfloat)_uwidth;
         int32_t _ufjoin=fjoin;
@@ -838,13 +835,13 @@ void AndroidSurface::ConcatTransform(::g::Java::Object* cp, ::g::Java::Object* m
     
 }
 
-// private static void FillPathImage(Java.Object cp, Java.Object pathAsObject, Java.Object imageAsObject, float originX, float originY, float tileSizeX, float tileSizeY, float width, float height, bool eoFill, Java.Object paintAsObject) [static] :258
+// private static void FillPathImage(Java.Object cp, Java.Object pathAsObject, Java.Object imageAsObject, float originX, float originY, float tileSizeX, float tileSizeY, float width, float height, bool eoFill, Java.Object paintAsObject) [static]
 void AndroidSurface::FillPathImage(::g::Java::Object* cp, ::g::Java::Object* pathAsObject, ::g::Java::Object* imageAsObject, float originX, float originY, float tileSizeX, float tileSizeY, float width, float height, bool eoFill, ::g::Java::Object* paintAsObject)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "FillPathImage330", "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;FFFFFFZLjava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "FillPathImage333", "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;FFFFFFZLjava/lang/Object;)V");
         ::g::Java::Object* _ucp=cp;
         jobject _cp = (_ucp==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ucp, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         ::g::Java::Object* _upathAsObject=pathAsObject;
@@ -886,13 +883,13 @@ void AndroidSurface::FillPathImage(::g::Java::Object* cp, ::g::Java::Object* pat
     
 }
 
-// private static void FillPathLinearGradient(Java.Object cp, Java.Object path, Java.Object gradientStore, float startX, float startY, float endX, float endY, bool eoFill, Java.Object pretendPaint) [static] :221
+// private static void FillPathLinearGradient(Java.Object cp, Java.Object path, Java.Object gradientStore, float startX, float startY, float endX, float endY, bool eoFill, Java.Object pretendPaint) [static]
 void AndroidSurface::FillPathLinearGradient(::g::Java::Object* cp, ::g::Java::Object* path, ::g::Java::Object* gradientStore, float startX, float startY, float endX, float endY, bool eoFill, ::g::Java::Object* pretendPaint)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "FillPathLinearGradient331", "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;FFFFZLjava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "FillPathLinearGradient334", "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;FFFFZLjava/lang/Object;)V");
         ::g::Java::Object* _ucp=cp;
         jobject _cp = (_ucp==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ucp, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         ::g::Java::Object* _upath=path;
@@ -928,13 +925,13 @@ void AndroidSurface::FillPathLinearGradient(::g::Java::Object* cp, ::g::Java::Ob
     
 }
 
-// private static void FillPathSolidColor(Java.Object cp, Java.Object pathAsObject, int color, bool eoFill, Java.Object pretendPaint) [static] :203
+// private static void FillPathSolidColor(Java.Object cp, Java.Object pathAsObject, int color, bool eoFill, Java.Object pretendPaint) [static]
 void AndroidSurface::FillPathSolidColor(::g::Java::Object* cp, ::g::Java::Object* pathAsObject, int32_t color, bool eoFill, ::g::Java::Object* pretendPaint)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "FillPathSolidColor332", "(Ljava/lang/Object;Ljava/lang/Object;IZLjava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "FillPathSolidColor335", "(Ljava/lang/Object;Ljava/lang/Object;IZLjava/lang/Object;)V");
         ::g::Java::Object* _ucp=cp;
         jobject _cp = (_ucp==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ucp, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         ::g::Java::Object* _upathAsObject=pathAsObject;
@@ -958,13 +955,13 @@ void AndroidSurface::FillPathSolidColor(::g::Java::Object* cp, ::g::Java::Object
     
 }
 
-// private static Java.Object NewContext() [static] :59
+// private static Java.Object NewContext() [static]
 ::g::Java::Object* AndroidSurface::NewContext()
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "NewContext333", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "NewContext336", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         ::g::Android::Base::JNI::CheckException();
@@ -973,13 +970,13 @@ void AndroidSurface::FillPathSolidColor(::g::Java::Object* cp, ::g::Java::Object
     
 }
 
-// private static void PathClose(Java.Object pathAsObject) [static] :524
+// private static void PathClose(Java.Object pathAsObject) [static]
 void AndroidSurface::PathClose(::g::Java::Object* pathAsObject)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "PathClose334", "(Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "PathClose337", "(Ljava/lang/Object;)V");
         ::g::Java::Object* _upathAsObject=pathAsObject;
         jobject _pathAsObject = (_upathAsObject==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_upathAsObject, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_pathAsObject);
@@ -991,13 +988,13 @@ void AndroidSurface::PathClose(::g::Java::Object* pathAsObject)
     
 }
 
-// private static Java.Object PathCreateMutable() [static] :497
+// private static Java.Object PathCreateMutable() [static]
 ::g::Java::Object* AndroidSurface::PathCreateMutable()
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "PathCreateMutable335", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "PathCreateMutable338", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         ::g::Android::Base::JNI::CheckException();
@@ -1006,13 +1003,13 @@ void AndroidSurface::PathClose(::g::Java::Object* pathAsObject)
     
 }
 
-// private static void PathCurveTo(Java.Object pathAsObject, float x, float y, float ax, float ay, float bx, float by) [static] :510
+// private static void PathCurveTo(Java.Object pathAsObject, float x, float y, float ax, float ay, float bx, float by) [static]
 void AndroidSurface::PathCurveTo(::g::Java::Object* pathAsObject, float x, float y, float ax, float ay, float bx, float by)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "PathCurveTo336", "(Ljava/lang/Object;FFFFFF)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "PathCurveTo339", "(Ljava/lang/Object;FFFFFF)V");
         ::g::Java::Object* _upathAsObject=pathAsObject;
         jobject _pathAsObject = (_upathAsObject==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_upathAsObject, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         float _ux=x;
@@ -1042,13 +1039,13 @@ void AndroidSurface::PathCurveTo(::g::Java::Object* pathAsObject, float x, float
     
 }
 
-// private static void PathLineTo(Java.Object pathAsObject, float x, float y) [static] :517
+// private static void PathLineTo(Java.Object pathAsObject, float x, float y) [static]
 void AndroidSurface::PathLineTo(::g::Java::Object* pathAsObject, float x, float y)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "PathLineTo337", "(Ljava/lang/Object;FF)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "PathLineTo340", "(Ljava/lang/Object;FF)V");
         ::g::Java::Object* _upathAsObject=pathAsObject;
         jobject _pathAsObject = (_upathAsObject==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_upathAsObject, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         float _ux=x;
@@ -1066,13 +1063,13 @@ void AndroidSurface::PathLineTo(::g::Java::Object* pathAsObject, float x, float 
     
 }
 
-// private static void PathMoveTo(Java.Object pathAsObject, float x, float y) [static] :503
+// private static void PathMoveTo(Java.Object pathAsObject, float x, float y) [static]
 void AndroidSurface::PathMoveTo(::g::Java::Object* pathAsObject, float x, float y)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "PathMoveTo338", "(Ljava/lang/Object;FF)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "PathMoveTo341", "(Ljava/lang/Object;FF)V");
         ::g::Java::Object* _upathAsObject=pathAsObject;
         jobject _pathAsObject = (_upathAsObject==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_upathAsObject, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         float _ux=x;
@@ -1090,13 +1087,13 @@ void AndroidSurface::PathMoveTo(::g::Java::Object* pathAsObject, float x, float 
     
 }
 
-// private static void recycleBitmap(Java.Object bit) [static] :555
+// private static void recycleBitmap(Java.Object bit) [static]
 void AndroidSurface::recycleBitmap(::g::Java::Object* bit)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "recycleBitmap339", "(Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "recycleBitmap342", "(Ljava/lang/Object;)V");
         ::g::Java::Object* _ubit=bit;
         jobject _bit = (_ubit==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ubit, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_bit);
@@ -1108,13 +1105,13 @@ void AndroidSurface::recycleBitmap(::g::Java::Object* bit)
     
 }
 
-// private static void RestoreContextState(Java.Object cp) [static] :548
+// private static void RestoreContextState(Java.Object cp) [static]
 void AndroidSurface::RestoreContextState(::g::Java::Object* cp)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "RestoreContextState340", "(Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "RestoreContextState343", "(Ljava/lang/Object;)V");
         ::g::Java::Object* _ucp=cp;
         jobject _cp = (_ucp==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ucp, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_cp);
@@ -1126,13 +1123,13 @@ void AndroidSurface::RestoreContextState(::g::Java::Object* cp)
     
 }
 
-// private static int SaveContextState(Java.Object cp) [static] :531
+// private static int SaveContextState(Java.Object cp) [static]
 int32_t AndroidSurface::SaveContextState(::g::Java::Object* cp)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SaveContextState341", "(Ljava/lang/Object;)I");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SaveContextState344", "(Ljava/lang/Object;)I");
         ::g::Java::Object* _ucp=cp;
         jobject _cp = (_ucp==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ucp, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         jint __jresult = U_JNIVAR->CallStaticIntMethod(__cls,__mtd,_cp);
@@ -1145,15 +1142,15 @@ int32_t AndroidSurface::SaveContextState(::g::Java::Object* cp)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brush.uno
-// ----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brush.uno
+// ----------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class Brush :32
+// public abstract class Brush
 // {
 static void Brush_build(uType* type)
 {
     ::STRINGS[11] = uString::Const("Brush is not pinned, preparation invalid");
-    ::STRINGS[12] = uString::Const("/usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brush.uno");
+    ::STRINGS[12] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brush.uno");
     ::STRINGS[7] = uString::Const("Prepare");
     type->SetFields(1,
         ::g::Uno::Int_typeof(), offsetof(Brush, _pinCount), 0);
@@ -1178,70 +1175,70 @@ Brush_type* Brush_typeof()
     return type;
 }
 
-// internal Brush() :47
+// internal Brush()
 void Brush__ctor_1_fn(Brush* __this)
 {
     __this->ctor_1();
 }
 
-// public virtual bool get_IsCompletelyTransparent() :36
+// public virtual bool get_IsCompletelyTransparent()
 void Brush__get_IsCompletelyTransparent_fn(Brush* __this, bool* __retval)
 {
     return *__retval = false, void();
 }
 
-// public bool get_IsPinned() :64
+// public bool get_IsPinned()
 void Brush__get_IsPinned_fn(Brush* __this, bool* __retval)
 {
     *__retval = __this->IsPinned();
 }
 
-// protected virtual void OnPinned() :75
+// protected virtual void OnPinned()
 void Brush__OnPinned_fn(Brush* __this)
 {
 }
 
-// protected virtual void OnPrepare(Fuse.DrawContext dc, float2 canvasSize) :73
+// protected virtual void OnPrepare(Fuse.DrawContext dc, float2 canvasSize)
 void Brush__OnPrepare_fn(Brush* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Float2* canvasSize)
 {
 }
 
-// protected virtual void OnUnpinned() :76
+// protected virtual void OnUnpinned()
 void Brush__OnUnpinned_fn(Brush* __this)
 {
 }
 
-// public void Pin() :50
+// public void Pin()
 void Brush__Pin_fn(Brush* __this)
 {
     __this->Pin();
 }
 
-// public void Prepare(Fuse.DrawContext dc, float2 canvasSize) :66
+// public void Prepare(Fuse.DrawContext dc, float2 canvasSize)
 void Brush__Prepare_fn(Brush* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Float2* canvasSize)
 {
     __this->Prepare(dc, *canvasSize);
 }
 
-// public void Unpin() :57
+// public void Unpin()
 void Brush__Unpin_fn(Brush* __this)
 {
     __this->Unpin();
 }
 
-// internal Brush() [instance] :47
+// internal Brush() [instance]
 void Brush::ctor_1()
 {
     ctor_();
 }
 
-// public bool get_IsPinned() [instance] :64
+// public bool get_IsPinned() [instance]
 bool Brush::IsPinned()
 {
     return _pinCount > 0;
 }
 
-// public void Pin() [instance] :50
+// public void Pin() [instance]
 void Brush::Pin()
 {
     _pinCount++;
@@ -1250,16 +1247,16 @@ void Brush::Pin()
         OnPinned();
 }
 
-// public void Prepare(Fuse.DrawContext dc, float2 canvasSize) [instance] :66
+// public void Prepare(Fuse.DrawContext dc, float2 canvasSize) [instance]
 void Brush::Prepare(::g::Fuse::DrawContext* dc, ::g::Uno::Float2 canvasSize)
 {
     if (!IsPinned())
-        ::g::Fuse::Diagnostics::InternalError(::STRINGS[11/*"Brush is no...*/], this, ::STRINGS[12/*"/usr/local/...*/], 69, ::STRINGS[7/*"Prepare"*/]);
+        ::g::Fuse::Diagnostics::InternalError(::STRINGS[11/*"Brush is no...*/], this, ::STRINGS[12/*"/Users/antt...*/], 69, ::STRINGS[7/*"Prepare"*/]);
 
     OnPrepare(dc, canvasSize);
 }
 
-// public void Unpin() [instance] :57
+// public void Unpin() [instance]
 void Brush::Unpin()
 {
     _pinCount--;
@@ -1269,12 +1266,12 @@ void Brush::Unpin()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brush.uno
-// ----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brush.uno
+// ----------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class BrushConverter :9
+// public sealed class BrushConverter
 // {
-// static BrushConverter() :26
+// static BrushConverter()
 static void BrushConverter__cctor__fn(uType* __type)
 {
     ::g::Fuse::Marshal_typeof()->Init();
@@ -1310,42 +1307,42 @@ BrushConverter_type* BrushConverter_typeof()
     return type;
 }
 
-// public generated BrushConverter() :9
+// public generated BrushConverter()
 void BrushConverter__ctor__fn(BrushConverter* __this)
 {
     __this->ctor_();
 }
 
-// public bool CanConvert(Uno.Type t) :11
+// public bool CanConvert(Uno.Type t)
 void BrushConverter__CanConvert_fn(BrushConverter* __this, uType* t, bool* __retval)
 {
     *__retval = __this->CanConvert(t);
 }
 
-// public generated BrushConverter New() :9
+// public generated BrushConverter New()
 void BrushConverter__New1_fn(BrushConverter** __retval)
 {
     *__retval = BrushConverter::New1();
 }
 
-// public object TryConvert(Uno.Type t, object o) :15
+// public object TryConvert(Uno.Type t, object o)
 void BrushConverter__TryConvert_fn(BrushConverter* __this, uType* t, uObject* o, uObject** __retval)
 {
     *__retval = __this->TryConvert(t, o);
 }
 
-// public generated BrushConverter() [instance] :9
+// public generated BrushConverter() [instance]
 void BrushConverter::ctor_()
 {
 }
 
-// public bool CanConvert(Uno.Type t) [instance] :11
+// public bool CanConvert(Uno.Type t) [instance]
 bool BrushConverter::CanConvert(uType* t)
 {
     return ::g::Uno::Type::op_Equality(t, ::g::Fuse::Drawing::Brush_typeof()) || ::g::Uno::Type::IsSubclassOf(uPtr(t), ::g::Fuse::Drawing::Brush_typeof());
 }
 
-// public object TryConvert(Uno.Type t, object o) [instance] :15
+// public object TryConvert(Uno.Type t, object o) [instance]
 uObject* BrushConverter::TryConvert(uType* t, uObject* o)
 {
     if (CanConvert(t))
@@ -1358,7 +1355,7 @@ uObject* BrushConverter::TryConvert(uType* t, uObject* o)
     return NULL;
 }
 
-// public generated BrushConverter New() [static] :9
+// public generated BrushConverter New() [static]
 BrushConverter* BrushConverter::New1()
 {
     BrushConverter* obj1 = (BrushConverter*)uNew(BrushConverter_typeof());
@@ -1367,12 +1364,12 @@ BrushConverter* BrushConverter::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Colors.uno
-// -----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Colors.uno
+// -----------------------------------------------------------------------------------------------------------------------------------
 
-// public static class Brushes :26
+// public static class Brushes
 // {
-// static generated Brushes() :26
+// static generated Brushes()
 static void Brushes__cctor__fn(uType* __type)
 {
     ::g::Fuse::Drawing::Colors_typeof()->Init();
@@ -1450,12 +1447,12 @@ uSStrong< ::g::Fuse::Drawing::StaticSolidColor*> Brushes::Teal_;
 uSStrong< ::g::Fuse::Drawing::StaticSolidColor*> Brushes::Aqua_;
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Colors.uno
-// -----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Colors.uno
+// -----------------------------------------------------------------------------------------------------------------------------------
 
-// public static class Colors :5
+// public static class Colors
 // {
-// static generated Colors() :5
+// static generated Colors()
 static void Colors__cctor__fn(uType* __type)
 {
     ::g::Uno::Color_typeof()->Init();
@@ -1533,15 +1530,15 @@ uClassType* Colors_typeof()
 ::g::Uno::Float4 Colors::Aqua_;
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/DrawObjectWatcher.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/DrawObjectWatcher.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class DrawObjectWatcher :21
+// internal sealed class DrawObjectWatcher
 // {
-// static generated DrawObjectWatcher() :21
+// static generated DrawObjectWatcher()
 static void DrawObjectWatcher__cctor__fn(uType* __type)
 {
-    DrawObjectWatcher::ShadingName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[25/*"Shading"*/]);
+    DrawObjectWatcher::ShadingName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[25/*"Shading"*/]);
 }
 
 static void DrawObjectWatcher_build(uType* type)
@@ -1573,61 +1570,61 @@ DrawObjectWatcher_type* DrawObjectWatcher_typeof()
     return type;
 }
 
-// public generated DrawObjectWatcher() :21
+// public generated DrawObjectWatcher()
 void DrawObjectWatcher__ctor__fn(DrawObjectWatcher* __this)
 {
     __this->ctor_();
 }
 
-// public void Add(Fuse.Drawing.Brush brush) :113
+// public void Add(Fuse.Drawing.Brush brush)
 void DrawObjectWatcher__Add_fn(DrawObjectWatcher* __this, ::g::Fuse::Drawing::Brush* brush)
 {
     __this->Add(brush);
 }
 
-// public void Add(Fuse.Drawing.Stroke stroke) :107
+// public void Add(Fuse.Drawing.Stroke stroke)
 void DrawObjectWatcher__Add1_fn(DrawObjectWatcher* __this, ::g::Fuse::Drawing::Stroke* stroke)
 {
     __this->Add1(stroke);
 }
 
-// private void AddObject(Uno.UX.PropertyObject drawObject) :118
+// private void AddObject(Uno.UX.PropertyObject drawObject)
 void DrawObjectWatcher__AddObject_fn(DrawObjectWatcher* __this, ::g::Uno::UX::PropertyObject* drawObject)
 {
     __this->AddObject(drawObject);
 }
 
-// public generated DrawObjectWatcher New() :21
+// public generated DrawObjectWatcher New()
 void DrawObjectWatcher__New1_fn(DrawObjectWatcher** __retval)
 {
     *__retval = DrawObjectWatcher::New1();
 }
 
-// public void OnRooted(Fuse.Drawing.IDrawObjectWatcherFeedback feedback) :69
+// public void OnRooted(Fuse.Drawing.IDrawObjectWatcherFeedback feedback)
 void DrawObjectWatcher__OnRooted_fn(DrawObjectWatcher* __this, uObject* feedback)
 {
     __this->OnRooted(feedback);
 }
 
-// public void OnUnrooted() :82
+// public void OnUnrooted()
 void DrawObjectWatcher__OnUnrooted_fn(DrawObjectWatcher* __this)
 {
     __this->OnUnrooted();
 }
 
-// public void Reset() :98
+// public void Reset()
 void DrawObjectWatcher__Reset_fn(DrawObjectWatcher* __this)
 {
     __this->Reset();
 }
 
-// public void Sync() :35
+// public void Sync()
 void DrawObjectWatcher__Sync_fn(DrawObjectWatcher* __this)
 {
     __this->Sync();
 }
 
-// private void Uno.UX.IPropertyListener.OnPropertyChanged(Uno.UX.PropertyObject obj, Uno.UX.Selector prop) :144
+// private void Uno.UX.IPropertyListener.OnPropertyChanged(Uno.UX.PropertyObject obj, Uno.UX.Selector prop)
 void DrawObjectWatcher__UnoUXIPropertyListenerOnPropertyChanged_fn(DrawObjectWatcher* __this, ::g::Uno::UX::PropertyObject* obj, ::g::Uno::UX::Selector* prop)
 {
     ::g::Uno::UX::Selector prop_ = *prop;
@@ -1652,25 +1649,25 @@ void DrawObjectWatcher__UnoUXIPropertyListenerOnPropertyChanged_fn(DrawObjectWat
 
 ::g::Uno::UX::Selector DrawObjectWatcher::ShadingName_;
 
-// public generated DrawObjectWatcher() [instance] :21
+// public generated DrawObjectWatcher() [instance]
 void DrawObjectWatcher::ctor_()
 {
 }
 
-// public void Add(Fuse.Drawing.Brush brush) [instance] :113
+// public void Add(Fuse.Drawing.Brush brush) [instance]
 void DrawObjectWatcher::Add(::g::Fuse::Drawing::Brush* brush)
 {
     AddObject(brush);
 }
 
-// public void Add(Fuse.Drawing.Stroke stroke) [instance] :107
+// public void Add(Fuse.Drawing.Stroke stroke) [instance]
 void DrawObjectWatcher::Add1(::g::Fuse::Drawing::Stroke* stroke)
 {
     AddObject(stroke);
     AddObject(uPtr(stroke)->Brush());
 }
 
-// private void AddObject(Uno.UX.PropertyObject drawObject) [instance] :118
+// private void AddObject(Uno.UX.PropertyObject drawObject) [instance]
 void DrawObjectWatcher::AddObject(::g::Uno::UX::PropertyObject* drawObject)
 {
     DrawObjectWatcher__Item* collection1;
@@ -1692,7 +1689,7 @@ void DrawObjectWatcher::AddObject(::g::Uno::UX::PropertyObject* drawObject)
     _items.Add(::g::Fuse::Internal::MiniList_typeof()->MakeType(DrawObjectWatcher__Item_typeof(), NULL), (collection1 = DrawObjectWatcher__Item::New1(), uPtr(collection1)->Used = true, uPtr(collection1)->DrawObject = drawObject, uPtr(collection1)->Listening = _rooted, uPtr(collection1)->Dirty = true, collection1));
 }
 
-// public void OnRooted(Fuse.Drawing.IDrawObjectWatcherFeedback feedback) [instance] :69
+// public void OnRooted(Fuse.Drawing.IDrawObjectWatcherFeedback feedback) [instance]
 void DrawObjectWatcher::OnRooted(uObject* feedback)
 {
     _feedback = feedback;
@@ -1707,7 +1704,7 @@ void DrawObjectWatcher::OnRooted(uObject* feedback)
     }
 }
 
-// public void OnUnrooted() [instance] :82
+// public void OnUnrooted() [instance]
 void DrawObjectWatcher::OnUnrooted()
 {
     Reset();
@@ -1725,7 +1722,7 @@ void DrawObjectWatcher::OnUnrooted()
     _feedback = NULL;
 }
 
-// public void Reset() [instance] :98
+// public void Reset() [instance]
 void DrawObjectWatcher::Reset()
 {
     for (int32_t i = 0; i < _items.Count(::g::Fuse::Internal::MiniList_typeof()->MakeType(DrawObjectWatcher__Item_typeof(), NULL)); ++i)
@@ -1735,12 +1732,12 @@ void DrawObjectWatcher::Reset()
     }
 }
 
-// public void Sync() [instance] :35
+// public void Sync() [instance]
 void DrawObjectWatcher::Sync()
 {
     if (!_rooted)
     {
-        ::g::Fuse::Diagnostics::InternalError(uString::Const("Sync while not rooted"), this, uString::Const("/usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/DrawObjectWatcher.uno"), 39, uString::Const("Sync"));
+        ::g::Fuse::Diagnostics::InternalError(uString::Const("Sync while not rooted"), this, uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/DrawObjectWatcher.uno"), 39, uString::Const("Sync"));
         return;
     }
 
@@ -1770,7 +1767,7 @@ void DrawObjectWatcher::Sync()
     }
 }
 
-// public generated DrawObjectWatcher New() [static] :21
+// public generated DrawObjectWatcher New() [static]
 DrawObjectWatcher* DrawObjectWatcher::New1()
 {
     DrawObjectWatcher* obj2 = (DrawObjectWatcher*)uNew(DrawObjectWatcher_typeof());
@@ -1779,10 +1776,10 @@ DrawObjectWatcher* DrawObjectWatcher::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Drawing/ImageFill.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Drawing/ImageFill.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public struct ImageFill.DrawParams :108
+// public struct ImageFill.DrawParams
 // {
 static void ImageFill__DrawParams_build(uType* type)
 {
@@ -1805,6 +1802,7 @@ uStructType* ImageFill__DrawParams_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.FieldCount = 10;
     options.Alignment = alignof(ImageFill__DrawParams);
     options.ValueSize = sizeof(ImageFill__DrawParams);
@@ -1815,15 +1813,15 @@ uStructType* ImageFill__DrawParams_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brush.uno
-// ----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brush.uno
+// ----------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class DynamicBrush :81
+// public abstract class DynamicBrush
 // {
-// static generated DynamicBrush() :81
+// static generated DynamicBrush()
 static void DynamicBrush__cctor__fn(uType* __type)
 {
-    DynamicBrush::_opacityName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[13/*"Opacity"*/]);
+    DynamicBrush::_opacityName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[13/*"Opacity"*/]);
 }
 
 static void DynamicBrush_build(uType* type)
@@ -1851,25 +1849,25 @@ static void DynamicBrush_build(uType* type)
     return type;
 }
 
-// protected generated DynamicBrush() :81
+// protected generated DynamicBrush()
 void DynamicBrush__ctor_2_fn(DynamicBrush* __this)
 {
     __this->ctor_2();
 }
 
-// public override bool get_IsCompletelyTransparent() :83
+// public override bool get_IsCompletelyTransparent()
 void DynamicBrush__get_IsCompletelyTransparent_fn(DynamicBrush* __this, bool* __retval)
 {
     return *__retval = __this->Opacity() == 0.0f, void();
 }
 
-// public float get_Opacity() :89
+// public float get_Opacity()
 void DynamicBrush__get_Opacity_fn(DynamicBrush* __this, float* __retval)
 {
     *__retval = __this->Opacity();
 }
 
-// public void set_Opacity(float value) :90
+// public void set_Opacity(float value)
 void DynamicBrush__set_Opacity_fn(DynamicBrush* __this, float* value)
 {
     __this->Opacity(*value);
@@ -1877,20 +1875,20 @@ void DynamicBrush__set_Opacity_fn(DynamicBrush* __this, float* value)
 
 ::g::Uno::UX::Selector DynamicBrush::_opacityName_;
 
-// protected generated DynamicBrush() [instance] :81
+// protected generated DynamicBrush() [instance]
 void DynamicBrush::ctor_2()
 {
     _opacity = 1.0f;
     ctor_1();
 }
 
-// public float get_Opacity() [instance] :89
+// public float get_Opacity() [instance]
 float DynamicBrush::Opacity()
 {
     return _opacity;
 }
 
-// public void set_Opacity(float value) [instance] :90
+// public void set_Opacity(float value) [instance]
 void DynamicBrush::Opacity(float value)
 {
     if (value == _opacity)
@@ -1901,10 +1899,10 @@ void DynamicBrush::Opacity(float value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Enums.uno
-// ----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Enums.uno
+// ----------------------------------------------------------------------------------------------------------------------------------
 
-// public enum FillRule :18
+// public enum FillRule
 uEnumType* FillRule_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -1917,16 +1915,16 @@ uEnumType* FillRule_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brushes/LinearGradient.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brushes/LinearGradient.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class GradientStop :11
+// public sealed class GradientStop
 // {
-// static generated GradientStop() :11
+// static generated GradientStop()
 static void GradientStop__cctor__fn(uType* __type)
 {
-    GradientStop::_offsetName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[14/*"Offset"*/]);
-    GradientStop::_colorName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[15/*"Color"*/]);
+    GradientStop::_offsetName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[14/*"Offset"*/]);
+    GradientStop::_colorName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[15/*"Color"*/]);
 }
 
 static void GradientStop_build(uType* type)
@@ -1956,25 +1954,25 @@ uType* GradientStop_typeof()
     return type;
 }
 
-// public float4 get_Color() :37
+// public float4 get_Color()
 void GradientStop__get_Color_fn(GradientStop* __this, ::g::Uno::Float4* __retval)
 {
     *__retval = __this->Color();
 }
 
-// public void set_Color(float4 value) :38
+// public void set_Color(float4 value)
 void GradientStop__set_Color_fn(GradientStop* __this, ::g::Uno::Float4* value)
 {
     __this->Color(*value);
 }
 
-// public float get_Offset() :17
+// public float get_Offset()
 void GradientStop__get_Offset_fn(GradientStop* __this, float* __retval)
 {
     *__retval = __this->Offset();
 }
 
-// public void set_Offset(float value) :18
+// public void set_Offset(float value)
 void GradientStop__set_Offset_fn(GradientStop* __this, float* value)
 {
     __this->Offset(*value);
@@ -1983,13 +1981,13 @@ void GradientStop__set_Offset_fn(GradientStop* __this, float* value)
 ::g::Uno::UX::Selector GradientStop::_offsetName_;
 ::g::Uno::UX::Selector GradientStop::_colorName_;
 
-// public float4 get_Color() [instance] :37
+// public float4 get_Color() [instance]
 ::g::Uno::Float4 GradientStop::Color()
 {
     return _color;
 }
 
-// public void set_Color(float4 value) [instance] :38
+// public void set_Color(float4 value) [instance]
 void GradientStop::Color(::g::Uno::Float4 value)
 {
     if (::g::Uno::Float4__op_Inequality(_color, value))
@@ -1999,13 +1997,13 @@ void GradientStop::Color(::g::Uno::Float4 value)
     }
 }
 
-// public float get_Offset() [instance] :17
+// public float get_Offset() [instance]
 float GradientStop::Offset()
 {
     return _offset;
 }
 
-// public void set_Offset(float value) [instance] :18
+// public void set_Offset(float value) [instance]
 void GradientStop::Offset(float value)
 {
     if (_offset != value)
@@ -2016,10 +2014,10 @@ void GradientStop::Offset(float value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/Android/GraphicsSurface.uno
-// ------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/Android/GraphicsSurface.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class GraphicsSurface :41
+// internal sealed extern class GraphicsSurface
 // {
 static void GraphicsSurface_build(uType* type)
 {
@@ -2057,13 +2055,13 @@ static void GraphicsSurface_build(uType* type)
     return type;
 }
 
-// public generated GraphicsSurface() :41
+// public generated GraphicsSurface()
 void GraphicsSurface__ctor_2_fn(GraphicsSurface* __this)
 {
     __this->ctor_2();
 }
 
-// public override sealed void Begin(Fuse.DrawContext dc, framebuffer fb, float pixelsPerPoint) :47
+// public override sealed void Begin(Fuse.DrawContext dc, framebuffer fb, float pixelsPerPoint)
 void GraphicsSurface__Begin_fn(GraphicsSurface* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Graphics::Framebuffer* fb, float* pixelsPerPoint)
 {
     float pixelsPerPoint_ = *pixelsPerPoint;
@@ -2071,7 +2069,7 @@ void GraphicsSurface__Begin_fn(GraphicsSurface* __this, ::g::Fuse::DrawContext* 
     ::g::Java::Object* impl = __this->SurfaceContext;
     __this->_drawContext = dc;
     __this->_buffer = fb;
-    __this->_size = ::g::Uno::Float2__op_Division1(::g::Uno::Float2__op_Implicit2(uPtr(fb)->Size()), pixelsPerPoint_);
+    __this->_size = ::g::Uno::Float2__op_Division1(::g::Uno::Float2__op_Implicit1(uPtr(fb)->Size()), pixelsPerPoint_);
 
     if ((fb->Size().X == 0) || (fb->Size().Y == 0))
         return;
@@ -2080,13 +2078,13 @@ void GraphicsSurface__Begin_fn(GraphicsSurface* __this, ::g::Fuse::DrawContext* 
     GraphicsSurface::BeginImpl(impl, fb->Size().X, fb->Size().Y, ::g::OpenGL::GLTextureHandle::op_Explicit2(uPtr(fb->ColorBuffer())->GLTextureHandle()));
 }
 
-// private static void BeginImpl(Java.Object _context, int width, int height, int glTextureId) :86
+// private static void BeginImpl(Java.Object _context, int width, int height, int glTextureId)
 void GraphicsSurface__BeginImpl_fn(::g::Java::Object* _context, int32_t* width, int32_t* height, int32_t* glTextureId)
 {
     GraphicsSurface::BeginImpl(_context, *width, *height, *glTextureId);
 }
 
-// public override sealed void End() :97
+// public override sealed void End()
 void GraphicsSurface__End_fn(GraphicsSurface* __this)
 {
     ::g::Java::Object* impl = __this->SurfaceContext;
@@ -2097,31 +2095,31 @@ void GraphicsSurface__End_fn(GraphicsSurface* __this)
     GraphicsSurface::EndImpl(impl);
 }
 
-// private static void EndImpl(Java.Object context) :106
+// private static void EndImpl(Java.Object context)
 void GraphicsSurface__EndImpl_fn(::g::Java::Object* context)
 {
     GraphicsSurface::EndImpl(context);
 }
 
-// public static extern void LoadBitmap(Java.Object context, int width, int height) :69
+// public static extern void LoadBitmap(Java.Object context, int width, int height)
 void GraphicsSurface__LoadBitmap_fn(::g::Java::Object* context, int32_t* width, int32_t* height)
 {
     GraphicsSurface::LoadBitmap(context, *width, *height);
 }
 
-// private static Java.Object LoadImage(int glTextureId, int width, int height) :141
+// private static Java.Object LoadImage(int glTextureId, int width, int height)
 void GraphicsSurface__LoadImage_fn(int32_t* glTextureId, int32_t* width, int32_t* height, ::g::Java::Object** __retval)
 {
     *__retval = GraphicsSurface::LoadImage(*glTextureId, *width, *height);
 }
 
-// public generated GraphicsSurface New() :41
+// public generated GraphicsSurface New()
 void GraphicsSurface__New1_fn(GraphicsSurface** __retval)
 {
     *__retval = GraphicsSurface::New1();
 }
 
-// protected override sealed Java.Object PrepareImageFillImpl(Fuse.Drawing.ImageFill img) :125
+// protected override sealed Java.Object PrepareImageFillImpl(Fuse.Drawing.ImageFill img)
 void GraphicsSurface__PrepareImageFillImpl_fn(GraphicsSurface* __this, ::g::Fuse::Drawing::ImageFill* img, ::g::Java::Object** __retval)
 {
     ::g::Fuse::Resources::ImageSource* src = uPtr(img)->Source();
@@ -2135,26 +2133,26 @@ void GraphicsSurface__PrepareImageFillImpl_fn(GraphicsSurface* __this, ::g::Fuse
     return *__retval = imageRef, void();
 }
 
-// protected override sealed void VerifyBegun() :156
+// protected override sealed void VerifyBegun()
 void GraphicsSurface__VerifyBegun_fn(GraphicsSurface* __this)
 {
     if (__this->_buffer == NULL)
         U_THROW(::g::Uno::Exception::New2(::STRINGS[16/*"Canvas.Begi...*/]));
 }
 
-// public generated GraphicsSurface() [instance] :41
+// public generated GraphicsSurface() [instance]
 void GraphicsSurface::ctor_2()
 {
     ctor_1();
 }
 
-// private static void BeginImpl(Java.Object _context, int width, int height, int glTextureId) [static] :86
+// private static void BeginImpl(Java.Object _context, int width, int height, int glTextureId) [static]
 void GraphicsSurface::BeginImpl(::g::Java::Object* _context, int32_t width, int32_t height, int32_t glTextureId)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "BeginImpl343", "(Ljava/lang/Object;III)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "BeginImpl346", "(Ljava/lang/Object;III)V");
         ::g::Java::Object* __u_context=_context;
         jobject ___context = (__u_context==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)__u_context, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         int32_t __uwidth=width;
@@ -2175,13 +2173,13 @@ void GraphicsSurface::BeginImpl(::g::Java::Object* _context, int32_t width, int3
     
 }
 
-// private static void EndImpl(Java.Object context) [static] :106
+// private static void EndImpl(Java.Object context) [static]
 void GraphicsSurface::EndImpl(::g::Java::Object* context)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "EndImpl344", "(Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "EndImpl347", "(Ljava/lang/Object;)V");
         ::g::Java::Object* _ucontext=context;
         jobject _context = (_ucontext==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ucontext, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_context);
@@ -2193,13 +2191,13 @@ void GraphicsSurface::EndImpl(::g::Java::Object* context)
     
 }
 
-// public static extern void LoadBitmap(Java.Object context, int width, int height) [static] :69
+// public static extern void LoadBitmap(Java.Object context, int width, int height) [static]
 void GraphicsSurface::LoadBitmap(::g::Java::Object* context, int32_t width, int32_t height)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "LoadBitmap345", "(Ljava/lang/Object;II)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "LoadBitmap348", "(Ljava/lang/Object;II)V");
         ::g::Java::Object* _ucontext=context;
         jobject _context = (_ucontext==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ucontext, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         int32_t _uwidth=width;
@@ -2217,13 +2215,13 @@ void GraphicsSurface::LoadBitmap(::g::Java::Object* context, int32_t width, int3
     
 }
 
-// private static Java.Object LoadImage(int glTextureId, int width, int height) [static] :141
+// private static Java.Object LoadImage(int glTextureId, int width, int height) [static]
 ::g::Java::Object* GraphicsSurface::LoadImage(int32_t glTextureId, int32_t width, int32_t height)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "LoadImage346", "(III)Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "LoadImage349", "(III)Ljava/lang/Object;");
         int32_t _uglTextureId=glTextureId;
         jint _glTextureId = (jint)_uglTextureId;
         int32_t _uwidth=width;
@@ -2241,7 +2239,7 @@ void GraphicsSurface::LoadBitmap(::g::Java::Object* context, int32_t width, int3
     
 }
 
-// public generated GraphicsSurface New() [static] :41
+// public generated GraphicsSurface New() [static]
 GraphicsSurface* GraphicsSurface::New1()
 {
     GraphicsSurface* obj1 = (GraphicsSurface*)uNew(GraphicsSurface_typeof());
@@ -2250,10 +2248,10 @@ GraphicsSurface* GraphicsSurface::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/DrawObjectWatcher.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/DrawObjectWatcher.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract interface IDrawObjectWatcherFeedback :10
+// internal abstract interface IDrawObjectWatcherFeedback
 // {
 uInterfaceType* IDrawObjectWatcherFeedback_typeof()
 {
@@ -2265,19 +2263,19 @@ uInterfaceType* IDrawObjectWatcherFeedback_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Drawing/ImageFill.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Drawing/ImageFill.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class ImageFill :26
+// public sealed class ImageFill
 // {
-// static generated ImageFill() :26
+// static generated ImageFill()
 static void ImageFill__cctor_1_fn(uType* __type)
 {
-    ImageFill::_sourceName_ = ::g::Uno::UX::Selector__op_Implicit1(uString::Const("Source"));
-    ImageFill::_colorName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[15/*"Color"*/]);
-    ImageFill::_wrapModeName_ = ::g::Uno::UX::Selector__op_Implicit1(uString::Const("WrapMode"));
-    ImageFill::_paramName_ = ::g::Uno::UX::Selector__op_Implicit1(uString::Const("Param"));
-    ImageFill::_sizingName_ = ::g::Uno::UX::Selector__op_Implicit1(uString::Const("Sizing"));
+    ImageFill::_sourceName_ = ::g::Uno::UX::Selector__op_Implicit(uString::Const("Source"));
+    ImageFill::_colorName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[15/*"Color"*/]);
+    ImageFill::_wrapModeName_ = ::g::Uno::UX::Selector__op_Implicit(uString::Const("WrapMode"));
+    ImageFill::_paramName_ = ::g::Uno::UX::Selector__op_Implicit(uString::Const("Param"));
+    ImageFill::_sizingName_ = ::g::Uno::UX::Selector__op_Implicit(uString::Const("Sizing"));
 }
 
 static void ImageFill_build(uType* type)
@@ -2334,43 +2332,43 @@ ImageFill_type* ImageFill_typeof()
     return type;
 }
 
-// public ImageFill() :28
+// public ImageFill()
 void ImageFill__ctor_3_fn(ImageFill* __this)
 {
     __this->ctor_3();
 }
 
-// private void CleanTempTexture() :121
+// private void CleanTempTexture()
 void ImageFill__CleanTempTexture_fn(ImageFill* __this)
 {
     __this->CleanTempTexture();
 }
 
-// public float4 get_Color() :90
+// public float4 get_Color()
 void ImageFill__get_Color_fn(ImageFill* __this, ::g::Uno::Float4* __retval)
 {
     *__retval = __this->Color();
 }
 
-// public void set_Color(float4 value) :91
+// public void set_Color(float4 value)
 void ImageFill__set_Color_fn(ImageFill* __this, ::g::Uno::Float4* value)
 {
     __this->Color(*value);
 }
 
-// public Uno.UX.FileSource get_File() :217
+// public Uno.UX.FileSource get_File()
 void ImageFill__get_File_fn(ImageFill* __this, ::g::Uno::UX::FileSource** __retval)
 {
     *__retval = __this->File();
 }
 
-// public void set_File(Uno.UX.FileSource value) :218
+// public void set_File(Uno.UX.FileSource value)
 void ImageFill__set_File_fn(ImageFill* __this, ::g::Uno::UX::FileSource* value)
 {
     __this->File(value);
 }
 
-// private bool Fuse.ILoading.get_IsLoading() :72
+// private bool Fuse.ILoading.get_IsLoading()
 void ImageFill__FuseILoadingget_IsLoading_fn(ImageFill* __this, bool* __retval)
 {
     ::g::Fuse::Resources::ImageSource* src = uPtr(__this->_container)->Source();
@@ -2381,19 +2379,19 @@ void ImageFill__FuseILoadingget_IsLoading_fn(ImageFill* __this, bool* __retval)
     return *__retval = (uPtr(src)->State() == 2) || (uPtr(src)->State() == 0), void();
 }
 
-// private void Fuse.Internal.IImageContainerOwner.OnParamChanged() :273
+// private void Fuse.Internal.IImageContainerOwner.OnParamChanged()
 void ImageFill__FuseInternalIImageContainerOwnerOnParamChanged_fn(ImageFill* __this)
 {
     __this->OnPropertyChanged(ImageFill::_paramName_);
 }
 
-// private void Fuse.Internal.IImageContainerOwner.OnSizingChanged() :285
+// private void Fuse.Internal.IImageContainerOwner.OnSizingChanged()
 void ImageFill__FuseInternalIImageContainerOwnerOnSizingChanged_fn(ImageFill* __this)
 {
     __this->OnPropertyChanged(ImageFill::_sizingName_);
 }
 
-// private void Fuse.Internal.IImageContainerOwner.OnSourceChanged() :62
+// private void Fuse.Internal.IImageContainerOwner.OnSourceChanged()
 void ImageFill__FuseInternalIImageContainerOwnerOnSourceChanged_fn(ImageFill* __this)
 {
     __this->CleanTempTexture();
@@ -2402,55 +2400,55 @@ void ImageFill__FuseInternalIImageContainerOwnerOnSourceChanged_fn(ImageFill* __
     __this->LoadNow();
 }
 
-// private bool Fuse.Resources.IMemoryResource.get_IsPinned() :304
+// private bool Fuse.Resources.IMemoryResource.get_IsPinned()
 void ImageFill__FuseResourcesIMemoryResourceget_IsPinned_fn(ImageFill* __this, bool* __retval)
 {
     return *__retval = uPtr(__this->_container)->IsRooted(), void();
 }
 
-// private double Fuse.Resources.IMemoryResource.get_LastUsed() :305
+// private double Fuse.Resources.IMemoryResource.get_LastUsed()
 void ImageFill__FuseResourcesIMemoryResourceget_LastUsed_fn(ImageFill* __this, double* __retval)
 {
     return *__retval = __this->_lastUsed, void();
 }
 
-// private Fuse.Resources.MemoryPolicy Fuse.Resources.IMemoryResource.get_MemoryPolicy() :303
+// private Fuse.Resources.MemoryPolicy Fuse.Resources.IMemoryResource.get_MemoryPolicy()
 void ImageFill__FuseResourcesIMemoryResourceget_MemoryPolicy_fn(ImageFill* __this, ::g::Fuse::Resources::MemoryPolicy** __retval)
 {
     return *__retval = uPtr(__this->_container)->MemoryPolicy(), void();
 }
 
-// private void Fuse.Resources.IMemoryResource.SoftDispose() :306
+// private void Fuse.Resources.IMemoryResource.SoftDispose()
 void ImageFill__FuseResourcesIMemoryResourceSoftDispose_fn(ImageFill* __this)
 {
     __this->CleanTempTexture();
 }
 
-// public Fuse.Drawing.ImageFill.DrawParams GetDrawParams(Fuse.DrawContext dc, float2 size) :188
+// public Fuse.Drawing.ImageFill.DrawParams GetDrawParams(Fuse.DrawContext dc, float2 size)
 void ImageFill__GetDrawParams_fn(ImageFill* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Float2* size, ImageFill__DrawParams* __retval)
 {
     *__retval = __this->GetDrawParams(dc, *size);
 }
 
-// private float2 GetSize() :101
+// private float2 GetSize()
 void ImageFill__GetSize_fn(ImageFill* __this, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->GetSize();
 }
 
-// private void LoadNow() :40
+// private void LoadNow()
 void ImageFill__LoadNow_fn(ImageFill* __this)
 {
     __this->LoadNow();
 }
 
-// public ImageFill New() :28
+// public ImageFill New()
 void ImageFill__New2_fn(ImageFill** __retval)
 {
     *__retval = ImageFill::New2();
 }
 
-// protected override sealed void OnPinned() :33
+// protected override sealed void OnPinned()
 void ImageFill__OnPinned_fn(ImageFill* __this)
 {
     ::g::Fuse::Drawing::Brush__OnPinned_fn(__this);
@@ -2458,7 +2456,7 @@ void ImageFill__OnPinned_fn(ImageFill* __this)
     __this->LoadNow();
 }
 
-// protected override sealed void OnPrepare(Fuse.DrawContext dc, float2 canvasSize) :131
+// protected override sealed void OnPrepare(Fuse.DrawContext dc, float2 canvasSize)
 void ImageFill__OnPrepare_fn(ImageFill* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Float2* canvasSize)
 {
     ::g::Uno::Float2 canvasSize_ = *canvasSize;
@@ -2482,10 +2480,10 @@ void ImageFill__OnPrepare_fn(ImageFill* __this, ::g::Fuse::DrawContext* dc, ::g:
             uPtr(::g::Fuse::Drawing::RepeatBaker::Singleton())->FillBuffer(dc, dp.Texture, __this->_tempTexture);
         }
 
-        dp.TexCoordBias1 = ::g::Uno::Float2__op_Division2(::g::Uno::Float2__op_UnaryNegation(::g::Uno::Float2__New1(0.5f)), ::g::Uno::Float2__op_Implicit2(uPtr(dp.Texture)->Size()));
+        dp.TexCoordBias1 = ::g::Uno::Float2__op_Division2(::g::Uno::Float2__op_UnaryNegation(::g::Uno::Float2__New1(0.5f)), ::g::Uno::Float2__op_Implicit1(uPtr(dp.Texture)->Size()));
         dp.TexCoordScale1 = ::g::Uno::Float2__New1(1.0f);
-        dp.TexCoordBias2 = ::g::Uno::Float2__op_Division2(::g::Uno::Float2__New1(0.5f), ::g::Uno::Float2__op_Implicit2(uPtr(uPtr(__this->_tempTexture)->ColorBuffer())->Size()));
-        dp.TexCoordScale2 = ::g::Uno::Float2__op_Division2(::g::Uno::Float2__op_Implicit2(uPtr(dp.Texture)->Size()), ::g::Uno::Float2__op_Implicit2(uPtr(uPtr(__this->_tempTexture)->ColorBuffer())->Size()));
+        dp.TexCoordBias2 = ::g::Uno::Float2__op_Division2(::g::Uno::Float2__New1(0.5f), ::g::Uno::Float2__op_Implicit1(uPtr(uPtr(__this->_tempTexture)->ColorBuffer())->Size()));
+        dp.TexCoordScale2 = ::g::Uno::Float2__op_Division2(::g::Uno::Float2__op_Implicit1(uPtr(dp.Texture)->Size()), ::g::Uno::Float2__op_Implicit1(uPtr(uPtr(__this->_tempTexture)->ColorBuffer())->Size()));
         dp.Texture = uPtr(__this->_tempTexture)->ColorBuffer();
         dp.SamplerState = ::g::Uno::Graphics::SamplerState__LinearClamp();
         dp.NeedFract = true;
@@ -2505,7 +2503,7 @@ void ImageFill__OnPrepare_fn(ImageFill* __this, ::g::Fuse::DrawContext* dc, ::g:
     __this->_lastUsed = ::g::Fuse::Time::FrameTime();
 }
 
-// protected override sealed void OnUnpinned() :49
+// protected override sealed void OnUnpinned()
 void ImageFill__OnUnpinned_fn(ImageFill* __this)
 {
     __this->CleanTempTexture();
@@ -2513,43 +2511,43 @@ void ImageFill__OnUnpinned_fn(ImageFill* __this)
     ::g::Fuse::Drawing::Brush__OnUnpinned_fn(__this);
 }
 
-// internal Fuse.Internal.SizingContainer get_SizingContainer() :223
+// internal Fuse.Internal.SizingContainer get_SizingContainer()
 void ImageFill__get_SizingContainer_fn(ImageFill* __this, ::g::Fuse::Internal::SizingContainer** __retval)
 {
     *__retval = __this->SizingContainer();
 }
 
-// public Fuse.Resources.ImageSource get_Source() :247
+// public Fuse.Resources.ImageSource get_Source()
 void ImageFill__get_Source_fn(ImageFill* __this, ::g::Fuse::Resources::ImageSource** __retval)
 {
     *__retval = __this->Source();
 }
 
-// public void set_Source(Fuse.Resources.ImageSource value) :248
+// public void set_Source(Fuse.Resources.ImageSource value)
 void ImageFill__set_Source_fn(ImageFill* __this, ::g::Fuse::Resources::ImageSource* value)
 {
     __this->Source(value);
 }
 
-// public Fuse.Elements.StretchMode get_StretchMode() :280
+// public Fuse.Elements.StretchMode get_StretchMode()
 void ImageFill__get_StretchMode_fn(ImageFill* __this, int32_t* __retval)
 {
     *__retval = __this->StretchMode();
 }
 
-// public void set_StretchMode(Fuse.Elements.StretchMode value) :281
+// public void set_StretchMode(Fuse.Elements.StretchMode value)
 void ImageFill__set_StretchMode_fn(ImageFill* __this, int32_t* value)
 {
     __this->StretchMode(*value);
 }
 
-// public Fuse.Drawing.WrapMode get_WrapMode() :261
+// public Fuse.Drawing.WrapMode get_WrapMode()
 void ImageFill__get_WrapMode_fn(ImageFill* __this, int32_t* __retval)
 {
     *__retval = __this->WrapMode();
 }
 
-// public void set_WrapMode(Fuse.Drawing.WrapMode value) :262
+// public void set_WrapMode(Fuse.Drawing.WrapMode value)
 void ImageFill__set_WrapMode_fn(ImageFill* __this, int32_t* value)
 {
     __this->WrapMode(*value);
@@ -2561,7 +2559,7 @@ void ImageFill__set_WrapMode_fn(ImageFill* __this, int32_t* value)
 ::g::Uno::UX::Selector ImageFill::_paramName_;
 ::g::Uno::UX::Selector ImageFill::_sizingName_;
 
-// public ImageFill() [instance] :28
+// public ImageFill() [instance]
 void ImageFill::ctor_3()
 {
     _color = ::g::Uno::Float4__New1(1.0f);
@@ -2569,7 +2567,7 @@ void ImageFill::ctor_3()
     _container = ::g::Fuse::Internal::ImageContainer::New1((uObject*)this);
 }
 
-// private void CleanTempTexture() [instance] :121
+// private void CleanTempTexture() [instance]
 void ImageFill::CleanTempTexture()
 {
     if (_tempTexture != NULL)
@@ -2580,13 +2578,13 @@ void ImageFill::CleanTempTexture()
     }
 }
 
-// public float4 get_Color() [instance] :90
+// public float4 get_Color() [instance]
 ::g::Uno::Float4 ImageFill::Color()
 {
     return _color;
 }
 
-// public void set_Color(float4 value) [instance] :91
+// public void set_Color(float4 value) [instance]
 void ImageFill::Color(::g::Uno::Float4 value)
 {
     if (::g::Uno::Float4__op_Inequality(_color, value))
@@ -2596,25 +2594,25 @@ void ImageFill::Color(::g::Uno::Float4 value)
     }
 }
 
-// public Uno.UX.FileSource get_File() [instance] :217
+// public Uno.UX.FileSource get_File() [instance]
 ::g::Uno::UX::FileSource* ImageFill::File()
 {
     return uPtr(_container)->File();
 }
 
-// public void set_File(Uno.UX.FileSource value) [instance] :218
+// public void set_File(Uno.UX.FileSource value) [instance]
 void ImageFill::File(::g::Uno::UX::FileSource* value)
 {
     uPtr(_container)->File(value);
 }
 
-// public Fuse.Drawing.ImageFill.DrawParams GetDrawParams(Fuse.DrawContext dc, float2 size) [instance] :188
+// public Fuse.Drawing.ImageFill.DrawParams GetDrawParams(Fuse.DrawContext dc, float2 size) [instance]
 ImageFill__DrawParams ImageFill::GetDrawParams(::g::Fuse::DrawContext* dc, ::g::Uno::Float2 size)
 {
     return _drawParams;
 }
 
-// private float2 GetSize() [instance] :101
+// private float2 GetSize() [instance]
 ::g::Uno::Float2 ImageFill::GetSize()
 {
     if (Source() != NULL)
@@ -2623,50 +2621,50 @@ ImageFill__DrawParams ImageFill::GetDrawParams(::g::Fuse::DrawContext* dc, ::g::
     return ::g::Uno::Float2__New1(0.0f);
 }
 
-// private void LoadNow() [instance] :40
+// private void LoadNow() [instance]
 void ImageFill::LoadNow()
 {
     if (uPtr(_container)->IsRooted())
         uPtr(_container)->GetTexture();
 }
 
-// internal Fuse.Internal.SizingContainer get_SizingContainer() [instance] :223
+// internal Fuse.Internal.SizingContainer get_SizingContainer() [instance]
 ::g::Fuse::Internal::SizingContainer* ImageFill::SizingContainer()
 {
     return uPtr(_container)->Sizing;
 }
 
-// public Fuse.Resources.ImageSource get_Source() [instance] :247
+// public Fuse.Resources.ImageSource get_Source() [instance]
 ::g::Fuse::Resources::ImageSource* ImageFill::Source()
 {
     return uPtr(_container)->Source();
 }
 
-// public void set_Source(Fuse.Resources.ImageSource value) [instance] :248
+// public void set_Source(Fuse.Resources.ImageSource value) [instance]
 void ImageFill::Source(::g::Fuse::Resources::ImageSource* value)
 {
     uPtr(_container)->Source(value);
 }
 
-// public Fuse.Elements.StretchMode get_StretchMode() [instance] :280
+// public Fuse.Elements.StretchMode get_StretchMode() [instance]
 int32_t ImageFill::StretchMode()
 {
     return uPtr(_container)->StretchMode();
 }
 
-// public void set_StretchMode(Fuse.Elements.StretchMode value) [instance] :281
+// public void set_StretchMode(Fuse.Elements.StretchMode value) [instance]
 void ImageFill::StretchMode(int32_t value)
 {
     uPtr(_container)->StretchMode(value);
 }
 
-// public Fuse.Drawing.WrapMode get_WrapMode() [instance] :261
+// public Fuse.Drawing.WrapMode get_WrapMode() [instance]
 int32_t ImageFill::WrapMode()
 {
     return _wrapMode;
 }
 
-// public void set_WrapMode(Fuse.Drawing.WrapMode value) [instance] :262
+// public void set_WrapMode(Fuse.Drawing.WrapMode value) [instance]
 void ImageFill::WrapMode(int32_t value)
 {
     if (_wrapMode != value)
@@ -2676,7 +2674,7 @@ void ImageFill::WrapMode(int32_t value)
     }
 }
 
-// public ImageFill New() [static] :28
+// public ImageFill New() [static]
 ImageFill* ImageFill::New2()
 {
     ImageFill* obj1 = (ImageFill*)uNew(ImageFill_typeof());
@@ -2685,10 +2683,10 @@ ImageFill* ImageFill::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/SurfaceManager.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/SurfaceManager.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract interface INativeSurfaceOwner :6
+// internal abstract interface INativeSurfaceOwner
 // {
 uInterfaceType* INativeSurfaceOwner_typeof()
 {
@@ -2700,10 +2698,10 @@ uInterfaceType* INativeSurfaceOwner_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brushes/SolidColor.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brushes/SolidColor.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract interface ISolidColor :8
+// public abstract interface ISolidColor
 // {
 uInterfaceType* ISolidColor_typeof()
 {
@@ -2715,10 +2713,10 @@ uInterfaceType* ISolidColor_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/Surface.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/Surface.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract interface ISurfaceDrawable :158
+// public abstract interface ISurfaceDrawable
 // {
 uInterfaceType* ISurfaceDrawable_typeof()
 {
@@ -2730,10 +2728,10 @@ uInterfaceType* ISurfaceDrawable_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/SurfaceManager.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/SurfaceManager.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal abstract interface ISurfaceProvider :95
+// internal abstract interface ISurfaceProvider
 // {
 uInterfaceType* ISurfaceProvider_typeof()
 {
@@ -2745,10 +2743,10 @@ uInterfaceType* ISurfaceProvider_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/DrawObjectWatcher.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/DrawObjectWatcher.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class DrawObjectWatcher.Item :23
+// private sealed class DrawObjectWatcher.Item
 // {
 static void DrawObjectWatcher__Item_build(uType* type)
 {
@@ -2775,24 +2773,24 @@ uType* DrawObjectWatcher__Item_typeof()
     return type;
 }
 
-// public generated Item() :23
+// public generated Item()
 void DrawObjectWatcher__Item__ctor__fn(DrawObjectWatcher__Item* __this)
 {
     __this->ctor_();
 }
 
-// public generated Item New() :23
+// public generated Item New()
 void DrawObjectWatcher__Item__New1_fn(DrawObjectWatcher__Item** __retval)
 {
     *__retval = DrawObjectWatcher__Item::New1();
 }
 
-// public generated Item() [instance] :23
+// public generated Item() [instance]
 void DrawObjectWatcher__Item::ctor_()
 {
 }
 
-// public generated Item New() [static] :23
+// public generated Item New() [static]
 DrawObjectWatcher__Item* DrawObjectWatcher__Item::New1()
 {
     DrawObjectWatcher__Item* obj1 = (DrawObjectWatcher__Item*)uNew(DrawObjectWatcher__Item_typeof());
@@ -2801,23 +2799,23 @@ DrawObjectWatcher__Item* DrawObjectWatcher__Item::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brushes/LinearGradient.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brushes/LinearGradient.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class LinearGradient :104
+// public sealed class LinearGradient
 // {
-// static LinearGradient() :269
+// static LinearGradient()
 static void LinearGradient__cctor_1_fn(uType* __type)
 {
     ::g::Uno::Math_typeof()->Init();
-    LinearGradient::_stopsName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[17/*"Stops"*/]);
-    LinearGradient::_stopOffsetName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[14/*"Offset"*/]);
-    LinearGradient::_stopColorName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[15/*"Color"*/]);
-    LinearGradient::_interpolationName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[18/*"Interpolation"*/]);
+    LinearGradient::_stopsName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[17/*"Stops"*/]);
+    LinearGradient::_stopOffsetName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[14/*"Offset"*/]);
+    LinearGradient::_stopColorName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[15/*"Color"*/]);
+    LinearGradient::_interpolationName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[18/*"Interpolation"*/]);
     LinearGradient::_emptySortedStops_ = uArray::New(::TYPES[13/*Fuse.Drawing.GradientStop[]*/], 0);
-    LinearGradient::_startPointName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[19/*"StartPoint"*/]);
-    LinearGradient::_endPointName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[20/*"EndPoint"*/]);
-    LinearGradient::_angleName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[21/*"Angle"*/]);
+    LinearGradient::_startPointName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[19/*"StartPoint"*/]);
+    LinearGradient::_endPointName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[20/*"EndPoint"*/]);
+    LinearGradient::_angleName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[21/*"Angle"*/]);
     LinearGradient::_gradientSize_ = 256;
     LinearGradient::_gradientSize_ = ::g::Uno::Math::Min8(1028, ::g::Uno::Graphics::Texture2D::MaxSize());
 }
@@ -2886,68 +2884,68 @@ LinearGradient_type* LinearGradient_typeof()
     return type;
 }
 
-// public float get_Angle() :188
+// public float get_Angle()
 void LinearGradient__get_Angle_fn(LinearGradient* __this, float* __retval)
 {
     *__retval = __this->Angle();
 }
 
-// public void set_Angle(float value) :189
+// public void set_Angle(float value)
 void LinearGradient__set_Angle_fn(LinearGradient* __this, float* value)
 {
     __this->Angle(*value);
 }
 
-// public float2 get_EndPoint() :171
+// public float2 get_EndPoint()
 void LinearGradient__get_EndPoint_fn(LinearGradient* __this, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->EndPoint();
 }
 
-// public void set_EndPoint(float2 value) :172
+// public void set_EndPoint(float2 value)
 void LinearGradient__set_EndPoint_fn(LinearGradient* __this, ::g::Uno::Float2* value)
 {
     __this->EndPoint(*value);
 }
 
-// public float4 GetEffectiveEndPoints(float2 size) :309
+// public float4 GetEffectiveEndPoints(float2 size)
 void LinearGradient__GetEffectiveEndPoints_fn(LinearGradient* __this, ::g::Uno::Float2* size, ::g::Uno::Float4* __retval)
 {
     *__retval = __this->GetEffectiveEndPoints(*size);
 }
 
-// public bool get_HasAngle() :207
+// public bool get_HasAngle()
 void LinearGradient__get_HasAngle_fn(LinearGradient* __this, bool* __retval)
 {
     *__retval = __this->HasAngle();
 }
 
-// public Fuse.Drawing.LinearGradientInterpolation get_Interpolation() :217
+// public Fuse.Drawing.LinearGradientInterpolation get_Interpolation()
 void LinearGradient__get_Interpolation_fn(LinearGradient* __this, int32_t* __retval)
 {
     *__retval = __this->Interpolation();
 }
 
-// public void set_Interpolation(Fuse.Drawing.LinearGradientInterpolation value) :218
+// public void set_Interpolation(Fuse.Drawing.LinearGradientInterpolation value)
 void LinearGradient__set_Interpolation_fn(LinearGradient* __this, int32_t* value)
 {
     __this->Interpolation(*value);
 }
 
-// private void OnAdded(Fuse.Drawing.GradientStop gs) :233
+// private void OnAdded(Fuse.Drawing.GradientStop gs)
 void LinearGradient__OnAdded_fn(LinearGradient* __this, ::g::Fuse::Drawing::GradientStop* gs)
 {
     __this->OnAdded(gs);
 }
 
-// protected override sealed void OnPinned() :263
+// protected override sealed void OnPinned()
 void LinearGradient__OnPinned_fn(LinearGradient* __this)
 {
     ::g::Fuse::Drawing::Brush__OnPinned_fn(__this);
     uPtr(__this->_stops)->RootSubscribe(uDelegate::New(::TYPES[14/*Uno.Action<Fuse.Drawing.GradientStop>*/], (void*)LinearGradient__OnAdded_fn, __this), uDelegate::New(::TYPES[14/*Uno.Action<Fuse.Drawing.GradientStop>*/], (void*)LinearGradient__OnRemoved_fn, __this));
 }
 
-// protected override sealed void OnPrepare(Fuse.DrawContext dc, float2 canvasSize) :280
+// protected override sealed void OnPrepare(Fuse.DrawContext dc, float2 canvasSize)
 void LinearGradient__OnPrepare_fn(LinearGradient* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Float2* canvasSize)
 {
     if (__this->_gradientBuffer == NULL)
@@ -2963,13 +2961,13 @@ void LinearGradient__OnPrepare_fn(LinearGradient* __this, ::g::Fuse::DrawContext
     }
 }
 
-// private void OnRemoved(Fuse.Drawing.GradientStop gs) :245
+// private void OnRemoved(Fuse.Drawing.GradientStop gs)
 void LinearGradient__OnRemoved_fn(LinearGradient* __this, ::g::Fuse::Drawing::GradientStop* gs)
 {
     __this->OnRemoved(gs);
 }
 
-// protected override sealed void OnUnpinned() :295
+// protected override sealed void OnUnpinned()
 void LinearGradient__OnUnpinned_fn(LinearGradient* __this)
 {
     uPtr(__this->_stops)->RootUnsubscribe();
@@ -2984,25 +2982,25 @@ void LinearGradient__OnUnpinned_fn(LinearGradient* __this)
     ::g::Fuse::Drawing::Brush__OnUnpinned_fn(__this);
 }
 
-// public Fuse.Drawing.GradientStop[] get_SortedStops() :123
+// public Fuse.Drawing.GradientStop[] get_SortedStops()
 void LinearGradient__get_SortedStops_fn(LinearGradient* __this, uArray** __retval)
 {
     *__retval = __this->SortedStops();
 }
 
-// public float2 get_StartPoint() :150
+// public float2 get_StartPoint()
 void LinearGradient__get_StartPoint_fn(LinearGradient* __this, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->StartPoint();
 }
 
-// public void set_StartPoint(float2 value) :151
+// public void set_StartPoint(float2 value)
 void LinearGradient__set_StartPoint_fn(LinearGradient* __this, ::g::Uno::Float2* value)
 {
     __this->StartPoint(*value);
 }
 
-// private void Uno.UX.IPropertyListener.OnPropertyChanged(Uno.UX.PropertyObject sender, Uno.UX.Selector property) :111
+// private void Uno.UX.IPropertyListener.OnPropertyChanged(Uno.UX.PropertyObject sender, Uno.UX.Selector property)
 void LinearGradient__UnoUXIPropertyListenerOnPropertyChanged_fn(LinearGradient* __this, ::g::Uno::UX::PropertyObject* sender, ::g::Uno::UX::Selector* property)
 {
     ::g::Uno::UX::Selector property_ = *property;
@@ -3013,7 +3011,7 @@ void LinearGradient__UnoUXIPropertyListenerOnPropertyChanged_fn(LinearGradient* 
     __this->OnPropertyChanged(LinearGradient::_stopsName_);
 }
 
-// private static void ValidateStopsSorted(Uno.Collections.IList<Fuse.Drawing.GradientStop> stops) :134
+// private static void ValidateStopsSorted(Uno.Collections.IList<Fuse.Drawing.GradientStop> stops)
 void LinearGradient__ValidateStopsSorted_fn(uObject* stops)
 {
     LinearGradient::ValidateStopsSorted(stops);
@@ -3029,13 +3027,13 @@ uSStrong<uArray*> LinearGradient::_emptySortedStops_;
 ::g::Uno::UX::Selector LinearGradient::_angleName_;
 int32_t LinearGradient::_gradientSize_;
 
-// public float get_Angle() [instance] :188
+// public float get_Angle() [instance]
 float LinearGradient::Angle()
 {
     return _angle;
 }
 
-// public void set_Angle(float value) [instance] :189
+// public void set_Angle(float value) [instance]
 void LinearGradient::Angle(float value)
 {
     if ((_angle != value) || !_hasAngle)
@@ -3046,13 +3044,13 @@ void LinearGradient::Angle(float value)
     }
 }
 
-// public float2 get_EndPoint() [instance] :171
+// public float2 get_EndPoint() [instance]
 ::g::Uno::Float2 LinearGradient::EndPoint()
 {
     return _endPoint;
 }
 
-// public void set_EndPoint(float2 value) [instance] :172
+// public void set_EndPoint(float2 value) [instance]
 void LinearGradient::EndPoint(::g::Uno::Float2 value)
 {
     if (::g::Uno::Float2__op_Inequality(_endPoint, value))
@@ -3062,7 +3060,7 @@ void LinearGradient::EndPoint(::g::Uno::Float2 value)
     }
 }
 
-// public float4 GetEffectiveEndPoints(float2 size) [instance] :309
+// public float4 GetEffectiveEndPoints(float2 size) [instance]
 ::g::Uno::Float4 LinearGradient::GetEffectiveEndPoints(::g::Uno::Float2 size)
 {
     if (!HasAngle())
@@ -3075,19 +3073,19 @@ void LinearGradient::EndPoint(::g::Uno::Float2 value)
     return ::g::Uno::Float4__New7(angleStartPoint, angleEndPoint);
 }
 
-// public bool get_HasAngle() [instance] :207
+// public bool get_HasAngle() [instance]
 bool LinearGradient::HasAngle()
 {
     return _hasAngle;
 }
 
-// public Fuse.Drawing.LinearGradientInterpolation get_Interpolation() [instance] :217
+// public Fuse.Drawing.LinearGradientInterpolation get_Interpolation() [instance]
 int32_t LinearGradient::Interpolation()
 {
     return _interpolation;
 }
 
-// public void set_Interpolation(Fuse.Drawing.LinearGradientInterpolation value) [instance] :218
+// public void set_Interpolation(Fuse.Drawing.LinearGradientInterpolation value) [instance]
 void LinearGradient::Interpolation(int32_t value)
 {
     if (_interpolation == value)
@@ -3097,7 +3095,7 @@ void LinearGradient::Interpolation(int32_t value)
     OnPropertyChanged(LinearGradient::_interpolationName_);
 }
 
-// private void OnAdded(Fuse.Drawing.GradientStop gs) [instance] :233
+// private void OnAdded(Fuse.Drawing.GradientStop gs) [instance]
 void LinearGradient::OnAdded(::g::Fuse::Drawing::GradientStop* gs)
 {
     uPtr(gs)->AddPropertyListener((uObject*)this);
@@ -3110,7 +3108,7 @@ void LinearGradient::OnAdded(::g::Fuse::Drawing::GradientStop* gs)
     }
 }
 
-// private void OnRemoved(Fuse.Drawing.GradientStop gs) [instance] :245
+// private void OnRemoved(Fuse.Drawing.GradientStop gs) [instance]
 void LinearGradient::OnRemoved(::g::Fuse::Drawing::GradientStop* gs)
 {
     uPtr(gs)->RemovePropertyListener((uObject*)this);
@@ -3120,7 +3118,7 @@ void LinearGradient::OnRemoved(::g::Fuse::Drawing::GradientStop* gs)
         OnPropertyChanged(LinearGradient::_stopsName_);
 }
 
-// public Fuse.Drawing.GradientStop[] get_SortedStops() [instance] :123
+// public Fuse.Drawing.GradientStop[] get_SortedStops() [instance]
 uArray* LinearGradient::SortedStops()
 {
     uArray* ind4;
@@ -3128,13 +3126,13 @@ uArray* LinearGradient::SortedStops()
     return (ind4 != NULL) ? ind4 : (uArray*)LinearGradient::_emptySortedStops_;
 }
 
-// public float2 get_StartPoint() [instance] :150
+// public float2 get_StartPoint() [instance]
 ::g::Uno::Float2 LinearGradient::StartPoint()
 {
     return _startPoint;
 }
 
-// public void set_StartPoint(float2 value) [instance] :151
+// public void set_StartPoint(float2 value) [instance]
 void LinearGradient::StartPoint(::g::Uno::Float2 value)
 {
     if (::g::Uno::Float2__op_Inequality(_startPoint, value))
@@ -3144,7 +3142,7 @@ void LinearGradient::StartPoint(::g::Uno::Float2 value)
     }
 }
 
-// private static void ValidateStopsSorted(Uno.Collections.IList<Fuse.Drawing.GradientStop> stops) [static] :134
+// private static void ValidateStopsSorted(Uno.Collections.IList<Fuse.Drawing.GradientStop> stops) [static]
 void LinearGradient::ValidateStopsSorted(uObject* stops)
 {
     LinearGradient_typeof()->Init();
@@ -3159,12 +3157,12 @@ void LinearGradient::ValidateStopsSorted(uObject* stops)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brushes/LinearGradient.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brushes/LinearGradient.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class LinearGradientDrawable :340
+// internal sealed class LinearGradientDrawable
 // {
-// static generated LinearGradientDrawable() :340
+// static generated LinearGradientDrawable()
 static void LinearGradientDrawable__cctor__fn(uType* __type)
 {
     LinearGradientDrawable::Singleton_ = LinearGradientDrawable::New1();
@@ -3179,9 +3177,9 @@ static void LinearGradientDrawable_build(uType* type)
         ::g::FuseDrawing_bundle_typeof(),
         ::g::Uno::Math_typeof());
     type->SetFields(0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(LinearGradientDrawable, FillBuffer_TexCoord_ae3a1d65_1_1_1), 0,
-        ::TYPES[20/*float2[]*/], offsetof(LinearGradientDrawable, FillBuffer_Vertices_ae3a1d65_1_0_9), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(LinearGradientDrawable, _draw_ae3a1d65), 0,
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(LinearGradientDrawable, FillBuffer_TexCoord_631333bf_1_1_1), 0,
+        ::TYPES[20/*float2[]*/], offsetof(LinearGradientDrawable, FillBuffer_Vertices_631333bf_1_0_9), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(LinearGradientDrawable, _draw_631333bf), 0,
         type, (uintptr_t)&LinearGradientDrawable::Singleton_, uFieldFlagsStatic);
 }
 
@@ -3202,37 +3200,37 @@ uType* LinearGradientDrawable_typeof()
     return type;
 }
 
-// public generated LinearGradientDrawable() :340
+// public generated LinearGradientDrawable()
 void LinearGradientDrawable__ctor__fn(LinearGradientDrawable* __this)
 {
     __this->ctor_();
 }
 
-// public float2 FillBuffer(Fuse.DrawContext dc, Fuse.Drawing.LinearGradient lg, framebuffer fb) :344
+// public float2 FillBuffer(Fuse.DrawContext dc, Fuse.Drawing.LinearGradient lg, framebuffer fb)
 void LinearGradientDrawable__FillBuffer_fn(LinearGradientDrawable* __this, ::g::Fuse::DrawContext* dc, ::g::Fuse::Drawing::LinearGradient* lg, ::g::Uno::Graphics::Framebuffer* fb, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->FillBuffer(dc, lg, fb);
 }
 
-// private static generated float4[] FillBuffer_Colors_ae3a1d65_1_6_6(int Colors_1_6_4, Fuse.Drawing.GradientStop[] Colors_1_6_5) :374
-void LinearGradientDrawable__FillBuffer_Colors_ae3a1d65_1_6_6_fn(int32_t* Colors_1_6_4, uArray* Colors_1_6_5, uArray** __retval)
+// private static generated float4[] FillBuffer_Colors_631333bf_1_6_6(int Colors_1_6_4, Fuse.Drawing.GradientStop[] Colors_1_6_5)
+void LinearGradientDrawable__FillBuffer_Colors_631333bf_1_6_6_fn(int32_t* Colors_1_6_4, uArray* Colors_1_6_5, uArray** __retval)
 {
-    *__retval = LinearGradientDrawable::FillBuffer_Colors_ae3a1d65_1_6_6(*Colors_1_6_4, Colors_1_6_5);
+    *__retval = LinearGradientDrawable::FillBuffer_Colors_631333bf_1_6_6(*Colors_1_6_4, Colors_1_6_5);
 }
 
-// private static generated float[] FillBuffer_Offsets_ae3a1d65_1_5_4(int Offsets_1_5_1, Fuse.Drawing.GradientStop[] Offsets_1_5_2) :367
-void LinearGradientDrawable__FillBuffer_Offsets_ae3a1d65_1_5_4_fn(int32_t* Offsets_1_5_1, uArray* Offsets_1_5_2, uArray** __retval)
+// private static generated float[] FillBuffer_Offsets_631333bf_1_5_4(int Offsets_1_5_1, Fuse.Drawing.GradientStop[] Offsets_1_5_2)
+void LinearGradientDrawable__FillBuffer_Offsets_631333bf_1_5_4_fn(int32_t* Offsets_1_5_1, uArray* Offsets_1_5_2, uArray** __retval)
 {
-    *__retval = LinearGradientDrawable::FillBuffer_Offsets_ae3a1d65_1_5_4(*Offsets_1_5_1, Offsets_1_5_2);
+    *__retval = LinearGradientDrawable::FillBuffer_Offsets_631333bf_1_5_4(*Offsets_1_5_1, Offsets_1_5_2);
 }
 
-// private generated void init_DrawCalls() :340
+// private generated void init_DrawCalls()
 void LinearGradientDrawable__init_DrawCalls_fn(LinearGradientDrawable* __this)
 {
     __this->init_DrawCalls();
 }
 
-// public generated LinearGradientDrawable New() :340
+// public generated LinearGradientDrawable New()
 void LinearGradientDrawable__New1_fn(LinearGradientDrawable** __retval)
 {
     *__retval = LinearGradientDrawable::New1();
@@ -3240,13 +3238,13 @@ void LinearGradientDrawable__New1_fn(LinearGradientDrawable** __retval)
 
 uSStrong<LinearGradientDrawable*> LinearGradientDrawable::Singleton_;
 
-// public generated LinearGradientDrawable() [instance] :340
+// public generated LinearGradientDrawable() [instance]
 void LinearGradientDrawable::ctor_()
 {
     init_DrawCalls();
 }
 
-// public float2 FillBuffer(Fuse.DrawContext dc, Fuse.Drawing.LinearGradient lg, framebuffer fb) [instance] :344
+// public float2 FillBuffer(Fuse.DrawContext dc, Fuse.Drawing.LinearGradient lg, framebuffer fb) [instance]
 ::g::Uno::Float2 LinearGradientDrawable::FillBuffer(::g::Fuse::DrawContext* dc, ::g::Fuse::Drawing::LinearGradient* lg, ::g::Uno::Graphics::Framebuffer* fb)
 {
     uArray* stops = uPtr(lg)->SortedStops();
@@ -3257,33 +3255,33 @@ void LinearGradientDrawable::ctor_()
     float length = uPtr(uPtr(stops)->Strong< ::g::Fuse::Drawing::GradientStop*>(uPtr(stops)->Length() - 1))->Offset() - uPtr(uPtr(stops)->Strong< ::g::Fuse::Drawing::GradientStop*>(0))->Offset();
     uPtr(dc)->PushRenderTarget(fb);
     bool smooth = lg->Interpolation() == 1;
-    uArray* Offsets_ae3a1d65_1_5_5 = LinearGradientDrawable::FillBuffer_Offsets_ae3a1d65_1_5_4(stops->Length(), stops);
-    uArray* Colors_ae3a1d65_1_6_7 = LinearGradientDrawable::FillBuffer_Colors_ae3a1d65_1_6_6(stops->Length(), stops);
-    _draw_ae3a1d65.DepthTestEnabled(false);
-    _draw_ae3a1d65.Const1(0, uPtr(Offsets_ae3a1d65_1_5_5)->Length());
-    _draw_ae3a1d65.Const1(1, uPtr(Colors_ae3a1d65_1_6_7)->Length());
-    _draw_ae3a1d65.Const(2, smooth);
-    _draw_ae3a1d65.Use();
-    _draw_ae3a1d65.Attrib1(3, 2, FillBuffer_TexCoord_ae3a1d65_1_1_1, 8, 0);
-    _draw_ae3a1d65.Uniform1(4, Offsets_ae3a1d65_1_5_5);
-    _draw_ae3a1d65.Uniform(5, length);
-    _draw_ae3a1d65.Uniform11(6, Colors_ae3a1d65_1_6_7);
-    _draw_ae3a1d65.DrawArrays(uPtr(FillBuffer_Vertices_ae3a1d65_1_0_9)->Length());
+    uArray* Offsets_631333bf_1_5_5 = LinearGradientDrawable::FillBuffer_Offsets_631333bf_1_5_4(stops->Length(), stops);
+    uArray* Colors_631333bf_1_6_7 = LinearGradientDrawable::FillBuffer_Colors_631333bf_1_6_6(stops->Length(), stops);
+    _draw_631333bf.DepthTestEnabled(false);
+    _draw_631333bf.Const1(0, uPtr(Offsets_631333bf_1_5_5)->Length());
+    _draw_631333bf.Const1(1, uPtr(Colors_631333bf_1_6_7)->Length());
+    _draw_631333bf.Const(2, smooth);
+    _draw_631333bf.Use();
+    _draw_631333bf.Attrib1(3, 2, FillBuffer_TexCoord_631333bf_1_1_1, 8, 0);
+    _draw_631333bf.Uniform1(4, Offsets_631333bf_1_5_5);
+    _draw_631333bf.Uniform(5, length);
+    _draw_631333bf.Uniform11(6, Colors_631333bf_1_6_7);
+    _draw_631333bf.DrawArrays(uPtr(FillBuffer_Vertices_631333bf_1_0_9)->Length());
     dc->PopRenderTarget();
     return ::g::Uno::Float2__New2(uPtr(stops->Strong< ::g::Fuse::Drawing::GradientStop*>(0))->Offset(), length);
 }
 
-// private generated void init_DrawCalls() [instance] :340
+// private generated void init_DrawCalls() [instance]
 void LinearGradientDrawable::init_DrawCalls()
 {
-    uArray* Vertices_ae3a1d65_1_0_0 = uArray::Init< ::g::Uno::Float2>(::TYPES[20/*float2[]*/], 6, ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(0.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 0.0f));
-    FillBuffer_TexCoord_ae3a1d65_1_1_1 = ::g::Uno::Graphics::VertexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer3(Vertices_ae3a1d65_1_0_0))->GetBytes(), 0);
-    FillBuffer_Vertices_ae3a1d65_1_0_9 = Vertices_ae3a1d65_1_0_0;
-    _draw_ae3a1d65 = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseDrawing_bundle::LinearGradientDrawable479fd075());
+    uArray* Vertices_631333bf_1_0_0 = uArray::Init< ::g::Uno::Float2>(::TYPES[20/*float2[]*/], 6, ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(0.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 0.0f));
+    FillBuffer_TexCoord_631333bf_1_1_1 = ::g::Uno::Graphics::VertexBuffer::New3(Vertices_631333bf_1_0_0, 0);
+    FillBuffer_Vertices_631333bf_1_0_9 = Vertices_631333bf_1_0_0;
+    _draw_631333bf = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseDrawing_bundle::LinearGradientDrawablee64f68c7());
 }
 
-// private static generated float4[] FillBuffer_Colors_ae3a1d65_1_6_6(int Colors_1_6_4, Fuse.Drawing.GradientStop[] Colors_1_6_5) [static] :374
-uArray* LinearGradientDrawable::FillBuffer_Colors_ae3a1d65_1_6_6(int32_t Colors_1_6_4, uArray* Colors_1_6_5)
+// private static generated float4[] FillBuffer_Colors_631333bf_1_6_6(int Colors_1_6_4, Fuse.Drawing.GradientStop[] Colors_1_6_5) [static]
+uArray* LinearGradientDrawable::FillBuffer_Colors_631333bf_1_6_6(int32_t Colors_1_6_4, uArray* Colors_1_6_5)
 {
     LinearGradientDrawable_typeof()->Init();
     uArray* cols = uArray::New(::TYPES[19/*float4[]*/], ::g::Uno::Math::Max8(Colors_1_6_4, 1));
@@ -3294,8 +3292,8 @@ uArray* LinearGradientDrawable::FillBuffer_Colors_ae3a1d65_1_6_6(int32_t Colors_
     return cols;
 }
 
-// private static generated float[] FillBuffer_Offsets_ae3a1d65_1_5_4(int Offsets_1_5_1, Fuse.Drawing.GradientStop[] Offsets_1_5_2) [static] :367
-uArray* LinearGradientDrawable::FillBuffer_Offsets_ae3a1d65_1_5_4(int32_t Offsets_1_5_1, uArray* Offsets_1_5_2)
+// private static generated float[] FillBuffer_Offsets_631333bf_1_5_4(int Offsets_1_5_1, Fuse.Drawing.GradientStop[] Offsets_1_5_2) [static]
+uArray* LinearGradientDrawable::FillBuffer_Offsets_631333bf_1_5_4(int32_t Offsets_1_5_1, uArray* Offsets_1_5_2)
 {
     LinearGradientDrawable_typeof()->Init();
     uArray* ofs = uArray::New(::TYPES[11/*float[]*/], ::g::Uno::Math::Max8(Offsets_1_5_1, 1));
@@ -3306,7 +3304,7 @@ uArray* LinearGradientDrawable::FillBuffer_Offsets_ae3a1d65_1_5_4(int32_t Offset
     return ofs;
 }
 
-// public generated LinearGradientDrawable New() [static] :340
+// public generated LinearGradientDrawable New() [static]
 LinearGradientDrawable* LinearGradientDrawable::New1()
 {
     LinearGradientDrawable* obj1 = (LinearGradientDrawable*)uNew(LinearGradientDrawable_typeof());
@@ -3315,10 +3313,10 @@ LinearGradientDrawable* LinearGradientDrawable::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brushes/LinearGradient.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brushes/LinearGradient.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum LinearGradientInterpolation :57
+// public enum LinearGradientInterpolation
 uEnumType* LinearGradientInterpolation_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3331,10 +3329,10 @@ uEnumType* LinearGradientInterpolation_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Enums.uno
-// ----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Enums.uno
+// ----------------------------------------------------------------------------------------------------------------------------------
 
-// public enum LineCap :4
+// public enum LineCap
 uEnumType* LineCap_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3348,10 +3346,10 @@ uEnumType* LineCap_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Enums.uno
-// ----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Enums.uno
+// ----------------------------------------------------------------------------------------------------------------------------------
 
-// public enum LineJoin :11
+// public enum LineJoin
 uEnumType* LineJoin_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3365,10 +3363,10 @@ uEnumType* LineJoin_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/LineMetrics.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/LineMetrics.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class LineMetrics :8
+// public static class LineMetrics
 // {
 static void LineMetrics_build(uType* type)
 {
@@ -3386,23 +3384,23 @@ uClassType* LineMetrics_typeof()
     return type;
 }
 
-// public static Uno.Rect GetBounds(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments) :10
+// public static Uno.Rect GetBounds(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments)
 void LineMetrics__GetBounds_fn(uObject* segments, ::g::Uno::Rect* __retval)
 {
     *__retval = LineMetrics::GetBounds(segments);
 }
 
-// public static Uno.Rect GetBounds(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments) [static] :10
+// public static Uno.Rect GetBounds(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments) [static]
 ::g::Uno::Rect LineMetrics::GetBounds(uObject* segments)
 {
     return ::g::Fuse::Drawing::LineMetricsImpl::New1()->GetBounds(segments);
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/LineMetrics.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/LineMetrics.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class LineMetricsImpl :16
+// internal sealed class LineMetricsImpl
 // {
 static void LineMetricsImpl_build(uType* type)
 {
@@ -3432,55 +3430,55 @@ uType* LineMetricsImpl_typeof()
     return type;
 }
 
-// public generated LineMetricsImpl() :16
+// public generated LineMetricsImpl()
 void LineMetricsImpl__ctor__fn(LineMetricsImpl* __this)
 {
     __this->ctor_();
 }
 
-// private void AddPoint(float2 pt) :22
+// private void AddPoint(float2 pt)
 void LineMetricsImpl__AddPoint_fn(LineMetricsImpl* __this, ::g::Uno::Float2* pt)
 {
     __this->AddPoint(*pt);
 }
 
-// private void BezierBounds(float2 s, float2 e, float2 c1, float2 c2) :78
+// private void BezierBounds(float2 s, float2 e, float2 c1, float2 c2)
 void LineMetricsImpl__BezierBounds_fn(LineMetricsImpl* __this, ::g::Uno::Float2* s, ::g::Uno::Float2* e, ::g::Uno::Float2* c1, ::g::Uno::Float2* c2)
 {
     __this->BezierBounds(*s, *e, *c1, *c2);
 }
 
-// private static float2 BezierMinMax(float p0, float p1, float p2, float p3) :89
+// private static float2 BezierMinMax(float p0, float p1, float p2, float p3)
 void LineMetricsImpl__BezierMinMax_fn(float* p0, float* p1, float* p2, float* p3, ::g::Uno::Float2* __retval)
 {
     *__retval = LineMetricsImpl::BezierMinMax(*p0, *p1, *p2, *p3);
 }
 
-// private void EllipticBounds(float2 from, Fuse.Drawing.LineSegment seg) :136
+// private void EllipticBounds(float2 from, Fuse.Drawing.LineSegment seg)
 void LineMetricsImpl__EllipticBounds_fn(LineMetricsImpl* __this, ::g::Uno::Float2* from, ::g::Fuse::Drawing::LineSegment* seg)
 {
     __this->EllipticBounds(*from, *seg);
 }
 
-// public Uno.Rect GetBounds(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments) :42
+// public Uno.Rect GetBounds(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments)
 void LineMetricsImpl__GetBounds_fn(LineMetricsImpl* __this, uObject* segments, ::g::Uno::Rect* __retval)
 {
     *__retval = __this->GetBounds(segments);
 }
 
-// public generated LineMetricsImpl New() :16
+// public generated LineMetricsImpl New()
 void LineMetricsImpl__New1_fn(LineMetricsImpl** __retval)
 {
     *__retval = LineMetricsImpl::New1();
 }
 
-// public generated LineMetricsImpl() [instance] :16
+// public generated LineMetricsImpl() [instance]
 void LineMetricsImpl::ctor_()
 {
     _curPos = ::g::Uno::Float2__New1(0.0f);
 }
 
-// private void AddPoint(float2 pt) [instance] :22
+// private void AddPoint(float2 pt) [instance]
 void LineMetricsImpl::AddPoint(::g::Uno::Float2 pt)
 {
     if (!_hasInit)
@@ -3495,7 +3493,7 @@ void LineMetricsImpl::AddPoint(::g::Uno::Float2 pt)
     _bounds.Maximum(::g::Uno::Math::Max3(_bounds.Maximum(), pt));
 }
 
-// private void BezierBounds(float2 s, float2 e, float2 c1, float2 c2) [instance] :78
+// private void BezierBounds(float2 s, float2 e, float2 c1, float2 c2) [instance]
 void LineMetricsImpl::BezierBounds(::g::Uno::Float2 s, ::g::Uno::Float2 e, ::g::Uno::Float2 c1, ::g::Uno::Float2 c2)
 {
     ::g::Uno::Float2 x = LineMetricsImpl::BezierMinMax(s.X, c1.X, c2.X, e.X);
@@ -3506,7 +3504,7 @@ void LineMetricsImpl::BezierBounds(::g::Uno::Float2 s, ::g::Uno::Float2 e, ::g::
     AddPoint(::g::Fuse::Internal::Curves::CalcBezierAt(s, c1, c2, e, y.Item(1)));
 }
 
-// private void EllipticBounds(float2 from, Fuse.Drawing.LineSegment seg) [instance] :136
+// private void EllipticBounds(float2 from, Fuse.Drawing.LineSegment seg) [instance]
 void LineMetricsImpl::EllipticBounds(::g::Uno::Float2 from, ::g::Fuse::Drawing::LineSegment seg)
 {
     if (::g::Fuse::Drawing::SurfaceUtil::EllipticArcOutOfRange(from, seg))
@@ -3538,7 +3536,7 @@ void LineMetricsImpl::EllipticBounds(::g::Uno::Float2 from, ::g::Fuse::Drawing::
     AddPoint(::g::Fuse::Drawing::SurfaceUtil::EllipticArcPoint(c, radius, xAngle, angles.Item(0) + angles.Item(1)));
 }
 
-// public Uno.Rect GetBounds(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments) [instance] :42
+// public Uno.Rect GetBounds(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments) [instance]
 ::g::Uno::Rect LineMetricsImpl::GetBounds(uObject* segments)
 {
     ::g::Fuse::Drawing::LineSegment ret2;
@@ -3581,7 +3579,7 @@ void LineMetricsImpl::EllipticBounds(::g::Uno::Float2 from, ::g::Fuse::Drawing::
     return _bounds;
 }
 
-// private static float2 BezierMinMax(float p0, float p1, float p2, float p3) [static] :89
+// private static float2 BezierMinMax(float p0, float p1, float p2, float p3) [static]
 ::g::Uno::Float2 LineMetricsImpl::BezierMinMax(float p0, float p1, float p2, float p3)
 {
     float b = ((2.0f * p0) - (4.0f * p1)) + (2.0f * p2);
@@ -3613,7 +3611,7 @@ void LineMetricsImpl::EllipticBounds(::g::Uno::Float2 from, ::g::Fuse::Drawing::
     return ::g::Uno::Float2__New2(::g::Uno::Math::Clamp1(t1, 0.0f, 1.0f), ::g::Uno::Math::Clamp1(t2, 0.0f, 1.0f));
 }
 
-// public generated LineMetricsImpl New() [static] :16
+// public generated LineMetricsImpl New() [static]
 LineMetricsImpl* LineMetricsImpl::New1()
 {
     LineMetricsImpl* obj1 = (LineMetricsImpl*)uNew(LineMetricsImpl_typeof());
@@ -3622,10 +3620,10 @@ LineMetricsImpl* LineMetricsImpl::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/LineSegment.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/LineSegment.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public struct LineSegment :37
+// public struct LineSegment
 // {
 static void LineSegment_build(uType* type)
 {
@@ -3648,6 +3646,7 @@ uStructType* LineSegment_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.FieldCount = 5;
     options.DependencyCount = 1;
     options.Alignment = alignof(LineSegment);
@@ -3658,61 +3657,61 @@ uStructType* LineSegment_typeof()
     return type;
 }
 
-// private static float2[] deCasteljau(float2[] pts, float t) :120
+// private static float2[] deCasteljau(float2[] pts, float t)
 void LineSegment__deCasteljau_fn(uArray* pts, float* t, uArray** __retval)
 {
     *__retval = LineSegment::deCasteljau(pts, *t);
 }
 
-// internal float2 DirectionAtTime(float2 from, float t) :170
+// internal float2 DirectionAtTime(float2 from, float t)
 void LineSegment__DirectionAtTime_fn(LineSegment* __this, ::g::Uno::Float2* from, float* t, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->DirectionAtTime(*from, *t);
 }
 
-// internal float EstimateLength(float2 from) :129
+// internal float EstimateLength(float2 from)
 void LineSegment__EstimateLength_fn(LineSegment* __this, ::g::Uno::Float2* from, float* __retval)
 {
     *__retval = __this->EstimateLength(*from);
 }
 
-// public bool get_HasTo() :51
+// public bool get_HasTo()
 void LineSegment__get_HasTo_fn(LineSegment* __this, bool* __retval)
 {
     *__retval = __this->HasTo();
 }
 
-// internal bool get_IsDrawing() :84
+// internal bool get_IsDrawing()
 void LineSegment__get_IsDrawing_fn(LineSegment* __this, bool* __retval)
 {
     *__retval = __this->IsDrawing();
 }
 
-// internal float2 PointAtTime(float2 from, float t) :155
+// internal float2 PointAtTime(float2 from, float t)
 void LineSegment__PointAtTime_fn(LineSegment* __this, ::g::Uno::Float2* from, float* t, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->PointAtTime(*from, *t);
 }
 
-// public void Scale(float2 factor) :66
+// public void Scale(float2 factor)
 void LineSegment__Scale_fn(LineSegment* __this, ::g::Uno::Float2* factor)
 {
     __this->Scale(*factor);
 }
 
-// internal void SplitAtTime(float2 from, float t, Fuse.Drawing.LineSegment& left, Fuse.Drawing.LineSegment& right) :87
+// internal void SplitAtTime(float2 from, float t, Fuse.Drawing.LineSegment& left, Fuse.Drawing.LineSegment& right)
 void LineSegment__SplitAtTime_fn(LineSegment* __this, ::g::Uno::Float2* from, float* t, LineSegment* left, LineSegment* right)
 {
     __this->SplitAtTime(*from, *t, left, right);
 }
 
-// public void Translate(float2 offset) :54
+// public void Translate(float2 offset)
 void LineSegment__Translate_fn(LineSegment* __this, ::g::Uno::Float2* offset)
 {
     __this->Translate(*offset);
 }
 
-// internal float2 DirectionAtTime(float2 from, float t) [instance] :170
+// internal float2 DirectionAtTime(float2 from, float t) [instance]
 ::g::Uno::Float2 LineSegment::DirectionAtTime(::g::Uno::Float2 from, float t)
 {
     switch (Type)
@@ -3726,7 +3725,7 @@ void LineSegment__Translate_fn(LineSegment* __this, ::g::Uno::Float2* offset)
     }
 }
 
-// internal float EstimateLength(float2 from) [instance] :129
+// internal float EstimateLength(float2 from) [instance]
 float LineSegment::EstimateLength(::g::Uno::Float2 from)
 {
     switch (Type)
@@ -3749,19 +3748,19 @@ float LineSegment::EstimateLength(::g::Uno::Float2 from)
     return 0.0f;
 }
 
-// public bool get_HasTo() [instance] :51
+// public bool get_HasTo() [instance]
 bool LineSegment::HasTo()
 {
     return Type != 4;
 }
 
-// internal bool get_IsDrawing() [instance] :84
+// internal bool get_IsDrawing() [instance]
 bool LineSegment::IsDrawing()
 {
     return (Type != 0) && (Type != 4);
 }
 
-// internal float2 PointAtTime(float2 from, float t) [instance] :155
+// internal float2 PointAtTime(float2 from, float t) [instance]
 ::g::Uno::Float2 LineSegment::PointAtTime(::g::Uno::Float2 from, float t)
 {
     switch (Type)
@@ -3775,7 +3774,7 @@ bool LineSegment::IsDrawing()
     }
 }
 
-// public void Scale(float2 factor) [instance] :66
+// public void Scale(float2 factor) [instance]
 void LineSegment::Scale(::g::Uno::Float2 factor)
 {
     if (Type != 4)
@@ -3790,7 +3789,7 @@ void LineSegment::Scale(::g::Uno::Float2 factor)
         A = ::g::Uno::Float2__op_Multiply2(A, factor);
 }
 
-// internal void SplitAtTime(float2 from, float t, Fuse.Drawing.LineSegment& left, Fuse.Drawing.LineSegment& right) [instance] :87
+// internal void SplitAtTime(float2 from, float t, Fuse.Drawing.LineSegment& left, Fuse.Drawing.LineSegment& right) [instance]
 void LineSegment::SplitAtTime(::g::Uno::Float2 from, float t, LineSegment* left, LineSegment* right)
 {
     LineSegment collection1;
@@ -3822,7 +3821,7 @@ void LineSegment::SplitAtTime(::g::Uno::Float2 from, float t, LineSegment* left,
     }
 }
 
-// public void Translate(float2 offset) [instance] :54
+// public void Translate(float2 offset) [instance]
 void LineSegment::Translate(::g::Uno::Float2 offset)
 {
     if (Type != 4)
@@ -3835,7 +3834,7 @@ void LineSegment::Translate(::g::Uno::Float2 offset)
     }
 }
 
-// private static float2[] deCasteljau(float2[] pts, float t) [static] :120
+// private static float2[] deCasteljau(float2[] pts, float t) [static]
 uArray* LineSegment::deCasteljau(uArray* pts, float t)
 {
     uArray* next = uArray::New(::TYPES[20/*float2[]*/], uPtr(pts)->Length() - 1);
@@ -3847,10 +3846,10 @@ uArray* LineSegment::deCasteljau(uArray* pts, float t)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/LineSegment.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/LineSegment.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum LineSegmentFlags :27
+// public enum LineSegmentFlags
 uEnumType* LineSegmentFlags_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -3864,10 +3863,10 @@ uEnumType* LineSegmentFlags_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/LineSegments.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/LineSegments.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class LineSegments :9
+// public sealed class LineSegments
 // {
 static void LineSegments_build(uType* type)
 {
@@ -3893,86 +3892,86 @@ uType* LineSegments_typeof()
     return type;
 }
 
-// public LineSegments() :42
+// public LineSegments()
 void LineSegments__ctor__fn(LineSegments* __this)
 {
     __this->ctor_();
 }
 
-// private void Add(Fuse.Drawing.LineSegment seg) :55
+// private void Add(Fuse.Drawing.LineSegment seg)
 void LineSegments__Add_fn(LineSegments* __this, ::g::Fuse::Drawing::LineSegment* seg)
 {
     __this->Add(*seg);
 }
 
-// public void BezierCurveTo(float2 pt, float2 controlA, float2 controlB) :102
+// public void BezierCurveTo(float2 pt, float2 controlA, float2 controlB)
 void LineSegments__BezierCurveTo_fn(LineSegments* __this, ::g::Uno::Float2* pt, ::g::Uno::Float2* controlA, ::g::Uno::Float2* controlB)
 {
     __this->BezierCurveTo(*pt, *controlA, *controlB);
 }
 
-// public void Clear() :31
+// public void Clear()
 void LineSegments__Clear_fn(LineSegments* __this)
 {
     __this->Clear();
 }
 
-// public void ClosePath() :113
+// public void ClosePath()
 void LineSegments__ClosePath_fn(LineSegments* __this)
 {
     __this->ClosePath();
 }
 
-// public int get_Count() :39
+// public int get_Count()
 void LineSegments__get_Count_fn(LineSegments* __this, int32_t* __retval)
 {
     *__retval = __this->Count();
 }
 
-// public void EllipticArcTo(float2 pt, float2 radius, float xAngle, bool large, bool sweep) :118
+// public void EllipticArcTo(float2 pt, float2 radius, float xAngle, bool large, bool sweep)
 void LineSegments__EllipticArcTo_fn(LineSegments* __this, ::g::Uno::Float2* pt, ::g::Uno::Float2* radius, float* xAngle, bool* large, bool* sweep)
 {
     __this->EllipticArcTo(*pt, *radius, *xAngle, *large, *sweep);
 }
 
-// public void LineTo(float2 pt) :72
+// public void LineTo(float2 pt)
 void LineSegments__LineTo_fn(LineSegments* __this, ::g::Uno::Float2* pt)
 {
     __this->LineTo(*pt);
 }
 
-// public void MoveTo(float2 pt) :62
+// public void MoveTo(float2 pt)
 void LineSegments__MoveTo_fn(LineSegments* __this, ::g::Uno::Float2* pt)
 {
     __this->MoveTo(*pt);
 }
 
-// public LineSegments New() :42
+// public LineSegments New()
 void LineSegments__New1_fn(LineSegments** __retval)
 {
     *__retval = LineSegments::New1();
 }
 
-// public generated Uno.Collections.IList<Fuse.Drawing.LineSegment> get_Segments() :12
+// public generated Uno.Collections.IList<Fuse.Drawing.LineSegment> get_Segments()
 void LineSegments__get_Segments_fn(LineSegments* __this, uObject** __retval)
 {
     *__retval = __this->Segments();
 }
 
-// private generated void set_Segments(Uno.Collections.IList<Fuse.Drawing.LineSegment> value) :12
+// private generated void set_Segments(Uno.Collections.IList<Fuse.Drawing.LineSegment> value)
 void LineSegments__set_Segments_fn(LineSegments* __this, uObject* value)
 {
     __this->Segments(value);
 }
 
-// public LineSegments() [instance] :42
+// public LineSegments() [instance]
 void LineSegments::ctor_()
 {
     Segments((uObject*)((::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[1/*Uno.Collections.List<Fuse.Drawing.LineSegment>*/])));
     _curPos = ::g::Uno::Float2__New1(0.0f);
 }
 
-// private void Add(Fuse.Drawing.LineSegment seg) [instance] :55
+// private void Add(Fuse.Drawing.LineSegment seg) [instance]
 void LineSegments::Add(::g::Fuse::Drawing::LineSegment seg)
 {
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Segments()), ::TYPES[2/*Uno.Collections.ICollection<Fuse.Drawing.LineSegment>*/]), uCRef(seg));
@@ -3981,67 +3980,67 @@ void LineSegments::Add(::g::Fuse::Drawing::LineSegment seg)
         _curPos = seg.To;
 }
 
-// public void BezierCurveTo(float2 pt, float2 controlA, float2 controlB) [instance] :102
+// public void BezierCurveTo(float2 pt, float2 controlA, float2 controlB) [instance]
 void LineSegments::BezierCurveTo(::g::Uno::Float2 pt, ::g::Uno::Float2 controlA, ::g::Uno::Float2 controlB)
 {
     ::g::Fuse::Drawing::LineSegment collection3;
     Add((collection3 = uDefault< ::g::Fuse::Drawing::LineSegment>(), collection3.Type = 2, collection3.To = pt, collection3.A = controlA, collection3.B = controlB, collection3));
 }
 
-// public void Clear() [instance] :31
+// public void Clear() [instance]
 void LineSegments::Clear()
 {
     ::g::Uno::Collections::ICollection::Clear(uInterface(uPtr(Segments()), ::TYPES[2/*Uno.Collections.ICollection<Fuse.Drawing.LineSegment>*/]));
     _curPos = ::g::Uno::Float2__New1(0.0f);
 }
 
-// public void ClosePath() [instance] :113
+// public void ClosePath() [instance]
 void LineSegments::ClosePath()
 {
     ::g::Fuse::Drawing::LineSegment collection4;
     Add((collection4 = uDefault< ::g::Fuse::Drawing::LineSegment>(), collection4.Type = 4, collection4));
 }
 
-// public int get_Count() [instance] :39
+// public int get_Count() [instance]
 int32_t LineSegments::Count()
 {
     return ::g::Uno::Collections::ICollection::Count(uInterface(uPtr(Segments()), ::TYPES[2/*Uno.Collections.ICollection<Fuse.Drawing.LineSegment>*/]));
 }
 
-// public void EllipticArcTo(float2 pt, float2 radius, float xAngle, bool large, bool sweep) [instance] :118
+// public void EllipticArcTo(float2 pt, float2 radius, float xAngle, bool large, bool sweep) [instance]
 void LineSegments::EllipticArcTo(::g::Uno::Float2 pt, ::g::Uno::Float2 radius, float xAngle, bool large, bool sweep)
 {
     ::g::Fuse::Drawing::LineSegment collection5;
     Add((collection5 = uDefault< ::g::Fuse::Drawing::LineSegment>(), collection5.Type = 3, collection5.To = pt, collection5.A = radius, collection5.B = ::g::Uno::Float2__New2(xAngle, 0.0f), collection5.Flags = ((large ? 1 : 0) | (sweep ? 2 : 0)), collection5));
 }
 
-// public void LineTo(float2 pt) [instance] :72
+// public void LineTo(float2 pt) [instance]
 void LineSegments::LineTo(::g::Uno::Float2 pt)
 {
     ::g::Fuse::Drawing::LineSegment collection2;
     Add((collection2 = uDefault< ::g::Fuse::Drawing::LineSegment>(), collection2.Type = 1, collection2.To = pt, collection2));
 }
 
-// public void MoveTo(float2 pt) [instance] :62
+// public void MoveTo(float2 pt) [instance]
 void LineSegments::MoveTo(::g::Uno::Float2 pt)
 {
     ::g::Fuse::Drawing::LineSegment collection1;
     Add((collection1 = uDefault< ::g::Fuse::Drawing::LineSegment>(), collection1.Type = 0, collection1.To = pt, collection1));
 }
 
-// public generated Uno.Collections.IList<Fuse.Drawing.LineSegment> get_Segments() [instance] :12
+// public generated Uno.Collections.IList<Fuse.Drawing.LineSegment> get_Segments() [instance]
 uObject* LineSegments::Segments()
 {
     return _Segments;
 }
 
-// private generated void set_Segments(Uno.Collections.IList<Fuse.Drawing.LineSegment> value) [instance] :12
+// private generated void set_Segments(Uno.Collections.IList<Fuse.Drawing.LineSegment> value) [instance]
 void LineSegments::Segments(uObject* value)
 {
     _Segments = value;
 }
 
-// public LineSegments New() [static] :42
+// public LineSegments New() [static]
 LineSegments* LineSegments::New1()
 {
     LineSegments* obj6 = (LineSegments*)uNew(LineSegments_typeof());
@@ -4050,10 +4049,10 @@ LineSegments* LineSegments::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/LineSegment.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/LineSegment.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum LineSegmentType :9
+// public enum LineSegmentType
 uEnumType* LineSegmentType_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -4069,10 +4068,10 @@ uEnumType* LineSegmentType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/LineSplitter.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/LineSplitter.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class LineSplitter :8
+// internal sealed class LineSplitter
 // {
 static void LineSplitter_build(uType* type)
 {
@@ -4098,55 +4097,55 @@ uType* LineSplitter_typeof()
     return type;
 }
 
-// public LineSplitter(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments) :19
+// public LineSplitter(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments)
 void LineSplitter__ctor__fn(LineSplitter* __this, uObject* segments)
 {
     __this->ctor_(segments);
 }
 
-// private void CalcInfo() :43
+// private void CalcInfo()
 void LineSplitter__CalcInfo_fn(LineSplitter* __this)
 {
     __this->CalcInfo();
 }
 
-// public float2 DirectionAtTime(float time) :232
+// public float2 DirectionAtTime(float time)
 void LineSplitter__DirectionAtTime_fn(LineSplitter* __this, float* time, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->DirectionAtTime(*time);
 }
 
-// public float DistanceToTime(float distance) :162
+// public float DistanceToTime(float distance)
 void LineSplitter__DistanceToTime_fn(LineSplitter* __this, float* distance, float* __retval)
 {
     *__retval = __this->DistanceToTime(*distance);
 }
 
-// private Fuse.Drawing.LineSplitter.SegmentAt GetSegmentAtTime(float time) :203
+// private Fuse.Drawing.LineSplitter.SegmentAt GetSegmentAtTime(float time)
 void LineSplitter__GetSegmentAtTime_fn(LineSplitter* __this, float* time, LineSplitter__SegmentAt* __retval)
 {
     *__retval = __this->GetSegmentAtTime(*time);
 }
 
-// public LineSplitter New(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments) :19
+// public LineSplitter New(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments)
 void LineSplitter__New1_fn(uObject* segments, LineSplitter** __retval)
 {
     *__retval = LineSplitter::New1(segments);
 }
 
-// public float2 PointAtTime(float time) :226
+// public float2 PointAtTime(float time)
 void LineSplitter__PointAtTime_fn(LineSplitter* __this, float* time, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->PointAtTime(*time);
 }
 
-// public void SplitTime(float start, float end, Uno.Collections.IList<Fuse.Drawing.LineSegment> to) :83
+// public void SplitTime(float start, float end, Uno.Collections.IList<Fuse.Drawing.LineSegment> to)
 void LineSplitter__SplitTime_fn(LineSplitter* __this, float* start, float* end, uObject* to)
 {
     __this->SplitTime(*start, *end, to);
 }
 
-// public LineSplitter(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments) [instance] :19
+// public LineSplitter(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments) [instance]
 void LineSplitter::ctor_(uObject* segments)
 {
     ::g::Fuse::Drawing::LineSegment collection1;
@@ -4176,7 +4175,7 @@ void LineSplitter::ctor_(uObject* segments)
     CalcInfo();
 }
 
-// private void CalcInfo() [instance] :43
+// private void CalcInfo() [instance]
 void LineSplitter::CalcInfo()
 {
     ::g::Fuse::Drawing::LineSegment ret12;
@@ -4216,7 +4215,7 @@ void LineSplitter::CalcInfo()
     }
 }
 
-// public float2 DirectionAtTime(float time) [instance] :232
+// public float2 DirectionAtTime(float time) [instance]
 ::g::Uno::Float2 LineSplitter::DirectionAtTime(float time)
 {
     ::g::Fuse::Drawing::LineSegment ret16;
@@ -4224,7 +4223,7 @@ void LineSplitter::CalcInfo()
     return (::g::Uno::Collections::List__get_Item_fn(uPtr(_segments), uCRef<int32_t>(sa.Index), &ret16), ret16).DirectionAtTime(sa.From, sa.Relative);
 }
 
-// public float DistanceToTime(float distance) [instance] :162
+// public float DistanceToTime(float distance) [instance]
 float LineSplitter::DistanceToTime(float distance)
 {
     LineSplitter__LSInfo ret17;
@@ -4262,7 +4261,7 @@ float LineSplitter::DistanceToTime(float distance)
     return found + adjust;
 }
 
-// private Fuse.Drawing.LineSplitter.SegmentAt GetSegmentAtTime(float time) [instance] :203
+// private Fuse.Drawing.LineSplitter.SegmentAt GetSegmentAtTime(float time) [instance]
 LineSplitter__SegmentAt LineSplitter::GetSegmentAtTime(float time)
 {
     LineSplitter__SegmentAt collection4;
@@ -4298,7 +4297,7 @@ LineSplitter__SegmentAt LineSplitter::GetSegmentAtTime(float time)
     return collection5;
 }
 
-// public float2 PointAtTime(float time) [instance] :226
+// public float2 PointAtTime(float time) [instance]
 ::g::Uno::Float2 LineSplitter::PointAtTime(float time)
 {
     ::g::Fuse::Drawing::LineSegment ret20;
@@ -4306,7 +4305,7 @@ LineSplitter__SegmentAt LineSplitter::GetSegmentAtTime(float time)
     return (::g::Uno::Collections::List__get_Item_fn(uPtr(_segments), uCRef<int32_t>(sa.Index), &ret20), ret20).PointAtTime(sa.From, sa.Relative);
 }
 
-// public void SplitTime(float start, float end, Uno.Collections.IList<Fuse.Drawing.LineSegment> to) [instance] :83
+// public void SplitTime(float start, float end, Uno.Collections.IList<Fuse.Drawing.LineSegment> to) [instance]
 void LineSplitter::SplitTime(float start, float end, uObject* to)
 {
     ::g::Fuse::Drawing::LineSegment collection2;
@@ -4385,7 +4384,7 @@ void LineSplitter::SplitTime(float start, float end, uObject* to)
     }
 }
 
-// public LineSplitter New(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments) [static] :19
+// public LineSplitter New(Uno.Collections.IList<Fuse.Drawing.LineSegment> segments) [static]
 LineSplitter* LineSplitter::New1(uObject* segments)
 {
     LineSplitter* obj6 = (LineSplitter*)uNew(LineSplitter_typeof());
@@ -4394,10 +4393,10 @@ LineSplitter* LineSplitter::New1(uObject* segments)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/LineSplitter.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/LineSplitter.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private struct LineSplitter.LSInfo :12
+// private struct LineSplitter.LSInfo
 // {
 static void LineSplitter__LSInfo_build(uType* type)
 {
@@ -4414,6 +4413,7 @@ uStructType* LineSplitter__LSInfo_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.FieldCount = 4;
     options.Alignment = alignof(LineSplitter__LSInfo);
     options.ValueSize = sizeof(LineSplitter__LSInfo);
@@ -4424,10 +4424,10 @@ uStructType* LineSplitter__LSInfo_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/Android/NativeSurface.uno
-// ----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/Android/NativeSurface.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class NativeSurface :41
+// internal sealed extern class NativeSurface
 // {
 static void NativeSurface_build(uType* type)
 {
@@ -4460,69 +4460,69 @@ static void NativeSurface_build(uType* type)
     return type;
 }
 
-// public generated NativeSurface() :41
+// public generated NativeSurface()
 void NativeSurface__ctor_2_fn(NativeSurface* __this)
 {
     __this->ctor_2();
 }
 
-// public override sealed void Begin(Fuse.DrawContext dc, framebuffer fb, float pixelsPerPoint) :59
+// public override sealed void Begin(Fuse.DrawContext dc, framebuffer fb, float pixelsPerPoint)
 void NativeSurface__Begin_fn(NativeSurface* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Graphics::Framebuffer* fb, float* pixelsPerPoint)
 {
     U_THROW(::g::Uno::NotSupportedException::New4());
 }
 
-// public void Begin(Java.Object canvas, float pixelsPerPoint) :43
+// public void Begin(Java.Object canvas, float pixelsPerPoint)
 void NativeSurface__Begin1_fn(NativeSurface* __this, ::g::Java::Object* canvas, float* pixelsPerPoint)
 {
     __this->Begin1(canvas, *pixelsPerPoint);
 }
 
-// private static Java.Object DummyBitmap() :77
+// private static Java.Object DummyBitmap()
 void NativeSurface__DummyBitmap_fn(::g::Java::Object** __retval)
 {
     *__retval = NativeSurface::DummyBitmap();
 }
 
-// public override sealed void End() :64
+// public override sealed void End()
 void NativeSurface__End_fn(NativeSurface* __this)
 {
     NativeSurface::SetCanvas(__this->SurfaceContext, NULL);
     __this->_canvas = NULL;
 }
 
-// public generated NativeSurface New() :41
+// public generated NativeSurface New()
 void NativeSurface__New1_fn(NativeSurface** __retval)
 {
     *__retval = NativeSurface::New1();
 }
 
-// protected override sealed Java.Object PrepareImageFillImpl(Fuse.Drawing.ImageFill img) :70
+// protected override sealed Java.Object PrepareImageFillImpl(Fuse.Drawing.ImageFill img)
 void NativeSurface__PrepareImageFillImpl_fn(NativeSurface* __this, ::g::Fuse::Drawing::ImageFill* img, ::g::Java::Object** __retval)
 {
     return *__retval = NativeSurface::DummyBitmap(), void();
 }
 
-// private static void SetCanvas(Java.Object context, Java.Object canvas) :53
+// private static void SetCanvas(Java.Object context, Java.Object canvas)
 void NativeSurface__SetCanvas_fn(::g::Java::Object* context, ::g::Java::Object* canvas)
 {
     NativeSurface::SetCanvas(context, canvas);
 }
 
-// protected override sealed void VerifyBegun() :82
+// protected override sealed void VerifyBegun()
 void NativeSurface__VerifyBegun_fn(NativeSurface* __this)
 {
     if (__this->_canvas == NULL)
         U_THROW(::g::Uno::Exception::New2(::STRINGS[16/*"Canvas.Begi...*/]));
 }
 
-// public generated NativeSurface() [instance] :41
+// public generated NativeSurface() [instance]
 void NativeSurface::ctor_2()
 {
     ctor_1();
 }
 
-// public void Begin(Java.Object canvas, float pixelsPerPoint) [instance] :43
+// public void Begin(Java.Object canvas, float pixelsPerPoint) [instance]
 void NativeSurface::Begin1(::g::Java::Object* canvas, float pixelsPerPoint)
 {
     NativeSurface::SetCanvas(SurfaceContext, canvas);
@@ -4530,13 +4530,13 @@ void NativeSurface::Begin1(::g::Java::Object* canvas, float pixelsPerPoint)
     _canvas = canvas;
 }
 
-// private static Java.Object DummyBitmap() [static] :77
+// private static Java.Object DummyBitmap() [static]
 ::g::Java::Object* NativeSurface::DummyBitmap()
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "DummyBitmap347", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "DummyBitmap350", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         ::g::Android::Base::JNI::CheckException();
@@ -4545,7 +4545,7 @@ void NativeSurface::Begin1(::g::Java::Object* canvas, float pixelsPerPoint)
     
 }
 
-// public generated NativeSurface New() [static] :41
+// public generated NativeSurface New() [static]
 NativeSurface* NativeSurface::New1()
 {
     NativeSurface* obj1 = (NativeSurface*)uNew(NativeSurface_typeof());
@@ -4553,13 +4553,13 @@ NativeSurface* NativeSurface::New1()
     return obj1;
 }
 
-// private static void SetCanvas(Java.Object context, Java.Object canvas) [static] :53
+// private static void SetCanvas(Java.Object context, Java.Object canvas) [static]
 void NativeSurface::SetCanvas(::g::Java::Object* context, ::g::Java::Object* canvas)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetCanvas348", "(Ljava/lang/Object;Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetCanvas351", "(Ljava/lang/Object;Ljava/lang/Object;)V");
         ::g::Java::Object* _ucontext=context;
         jobject _context = (_ucontext==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_ucontext, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         ::g::Java::Object* _ucanvas=canvas;
@@ -4575,12 +4575,12 @@ void NativeSurface::SetCanvas(::g::Java::Object* context, ::g::Java::Object* can
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/Drawing/ImageFill.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/Drawing/ImageFill.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class RepeatBaker :309
+// internal sealed class RepeatBaker
 // {
-// static generated RepeatBaker() :309
+// static generated RepeatBaker()
 static void RepeatBaker__cctor__fn(uType* __type)
 {
     RepeatBaker::Singleton_ = RepeatBaker::New1();
@@ -4592,9 +4592,9 @@ static void RepeatBaker_build(uType* type)
     type->SetDependencies(
         ::g::FuseElements_bundle_typeof());
     type->SetFields(0,
-        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(RepeatBaker, FillBuffer_VertexPosition_2972f423_1_1_1), 0,
-        ::TYPES[20/*float2[]*/], offsetof(RepeatBaker, FillBuffer_Vertices_2972f423_1_0_6), 0,
-        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(RepeatBaker, _draw_2972f423), 0,
+        ::g::Uno::Graphics::VertexBuffer_typeof(), offsetof(RepeatBaker, FillBuffer_VertexPosition_56d66b39_1_1_1), 0,
+        ::TYPES[20/*float2[]*/], offsetof(RepeatBaker, FillBuffer_Vertices_56d66b39_1_0_6), 0,
+        ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall_typeof(), offsetof(RepeatBaker, _draw_56d66b39), 0,
         type, (uintptr_t)&RepeatBaker::Singleton_, uFieldFlagsStatic);
 }
 
@@ -4615,25 +4615,25 @@ uType* RepeatBaker_typeof()
     return type;
 }
 
-// public generated RepeatBaker() :309
+// public generated RepeatBaker()
 void RepeatBaker__ctor__fn(RepeatBaker* __this)
 {
     __this->ctor_();
 }
 
-// public void FillBuffer(Fuse.DrawContext dc, texture2D tex, framebuffer fb) :313
+// public void FillBuffer(Fuse.DrawContext dc, texture2D tex, framebuffer fb)
 void RepeatBaker__FillBuffer_fn(RepeatBaker* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Graphics::Texture2D* tex, ::g::Uno::Graphics::Framebuffer* fb)
 {
     __this->FillBuffer(dc, tex, fb);
 }
 
-// private generated void init_DrawCalls() :309
+// private generated void init_DrawCalls()
 void RepeatBaker__init_DrawCalls_fn(RepeatBaker* __this)
 {
     __this->init_DrawCalls();
 }
 
-// public generated RepeatBaker New() :309
+// public generated RepeatBaker New()
 void RepeatBaker__New1_fn(RepeatBaker** __retval)
 {
     *__retval = RepeatBaker::New1();
@@ -4641,37 +4641,37 @@ void RepeatBaker__New1_fn(RepeatBaker** __retval)
 
 uSStrong<RepeatBaker*> RepeatBaker::Singleton_;
 
-// public generated RepeatBaker() [instance] :309
+// public generated RepeatBaker() [instance]
 void RepeatBaker::ctor_()
 {
     init_DrawCalls();
 }
 
-// public void FillBuffer(Fuse.DrawContext dc, texture2D tex, framebuffer fb) [instance] :313
+// public void FillBuffer(Fuse.DrawContext dc, texture2D tex, framebuffer fb) [instance]
 void RepeatBaker::FillBuffer(::g::Fuse::DrawContext* dc, ::g::Uno::Graphics::Texture2D* tex, ::g::Uno::Graphics::Framebuffer* fb)
 {
     uPtr(dc)->PushRenderTarget(fb);
-    _draw_2972f423.DepthTestEnabled(false);
-    _draw_2972f423.CullFace(0);
-    _draw_2972f423.Use();
-    _draw_2972f423.Attrib1(0, 2, FillBuffer_VertexPosition_2972f423_1_1_1, 8, 0);
-    _draw_2972f423.Uniform2(1, ::g::Uno::Float2__op_Implicit2(uPtr(fb)->Size()));
-    _draw_2972f423.Uniform2(2, ::g::Uno::Float2__op_Implicit2(uPtr(tex)->Size()));
-    _draw_2972f423.Sampler3(3, tex, ::g::Uno::Graphics::SamplerState__NearestClamp());
-    _draw_2972f423.DrawArrays(uPtr(FillBuffer_Vertices_2972f423_1_0_6)->Length());
+    _draw_56d66b39.DepthTestEnabled(false);
+    _draw_56d66b39.CullFace(0);
+    _draw_56d66b39.Use();
+    _draw_56d66b39.Attrib1(0, 2, FillBuffer_VertexPosition_56d66b39_1_1_1, 8, 0);
+    _draw_56d66b39.Uniform2(1, ::g::Uno::Float2__op_Implicit1(uPtr(fb)->Size()));
+    _draw_56d66b39.Uniform2(2, ::g::Uno::Float2__op_Implicit1(uPtr(tex)->Size()));
+    _draw_56d66b39.Sampler3(3, tex, ::g::Uno::Graphics::SamplerState__NearestClamp());
+    _draw_56d66b39.DrawArrays(uPtr(FillBuffer_Vertices_56d66b39_1_0_6)->Length());
     dc->PopRenderTarget();
 }
 
-// private generated void init_DrawCalls() [instance] :309
+// private generated void init_DrawCalls() [instance]
 void RepeatBaker::init_DrawCalls()
 {
-    uArray* Vertices_2972f423_1_0_0 = uArray::Init< ::g::Uno::Float2>(::TYPES[20/*float2[]*/], 6, ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(0.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 0.0f));
-    FillBuffer_VertexPosition_2972f423_1_1_1 = ::g::Uno::Graphics::VertexBuffer::New1(uPtr(::g::Uno::Runtime::Implementation::Internal::BufferConverters::ToBuffer3(Vertices_2972f423_1_0_0))->GetBytes(), 0);
-    FillBuffer_Vertices_2972f423_1_0_6 = Vertices_2972f423_1_0_0;
-    _draw_2972f423 = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseElements_bundle::RepeatBaker447c61dc());
+    uArray* Vertices_56d66b39_1_0_0 = uArray::Init< ::g::Uno::Float2>(::TYPES[20/*float2[]*/], 6, ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(0.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(1.0f, 1.0f), ::g::Uno::Float2__New2(1.0f, 0.0f));
+    FillBuffer_VertexPosition_56d66b39_1_1_1 = ::g::Uno::Graphics::VertexBuffer::New3(Vertices_56d66b39_1_0_0, 0);
+    FillBuffer_Vertices_56d66b39_1_0_6 = Vertices_56d66b39_1_0_0;
+    _draw_56d66b39 = ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall__New1(::g::FuseElements_bundle::RepeatBaker794c9b5a());
 }
 
-// public generated RepeatBaker New() [static] :309
+// public generated RepeatBaker New() [static]
 RepeatBaker* RepeatBaker::New1()
 {
     RepeatBaker* obj1 = (RepeatBaker*)uNew(RepeatBaker_typeof());
@@ -4680,10 +4680,10 @@ RepeatBaker* RepeatBaker::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Enums.uno
-// ----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Enums.uno
+// ----------------------------------------------------------------------------------------------------------------------------------
 
-// public enum ResampleMode :28
+// public enum ResampleMode
 uEnumType* ResampleMode_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -4697,10 +4697,10 @@ uEnumType* ResampleMode_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/LineSplitter.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/LineSplitter.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private struct LineSplitter.SegmentAt :197
+// private struct LineSplitter.SegmentAt
 // {
 static void LineSplitter__SegmentAt_build(uType* type)
 {
@@ -4716,6 +4716,7 @@ uStructType* LineSplitter__SegmentAt_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.FieldCount = 3;
     options.Alignment = alignof(LineSplitter__SegmentAt);
     options.ValueSize = sizeof(LineSplitter__SegmentAt);
@@ -4726,15 +4727,15 @@ uStructType* LineSplitter__SegmentAt_typeof()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brushes/SolidColor.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brushes/SolidColor.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class SolidColor :13
+// public sealed class SolidColor
 // {
-// static generated SolidColor() :13
+// static generated SolidColor()
 static void SolidColor__cctor_1_fn(uType* __type)
 {
-    SolidColor::_colorName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[15/*"Color"*/]);
+    SolidColor::_colorName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[15/*"Color"*/]);
 }
 
 static void SolidColor_build(uType* type)
@@ -4767,56 +4768,56 @@ SolidColor_type* SolidColor_typeof()
     return type;
 }
 
-// public SolidColor() :56
+// public SolidColor()
 void SolidColor__ctor_3_fn(SolidColor* __this)
 {
     __this->ctor_3();
 }
 
-// public SolidColor(float4 color) :61
+// public SolidColor(float4 color)
 void SolidColor__ctor_4_fn(SolidColor* __this, ::g::Uno::Float4* color)
 {
     __this->ctor_4(*color);
 }
 
-// public float4 get_Color() :26
+// public float4 get_Color()
 void SolidColor__get_Color_fn(SolidColor* __this, ::g::Uno::Float4* __retval)
 {
     *__retval = __this->Color();
 }
 
-// public void set_Color(float4 value) :27
+// public void set_Color(float4 value)
 void SolidColor__set_Color_fn(SolidColor* __this, ::g::Uno::Float4* value)
 {
     __this->Color(*value);
 }
 
-// public override sealed bool get_IsCompletelyTransparent() :52
+// public override sealed bool get_IsCompletelyTransparent()
 void SolidColor__get_IsCompletelyTransparent_fn(SolidColor* __this, bool* __retval)
 {
     bool ret3;
     return *__retval = (::g::Fuse::Drawing::DynamicBrush__get_IsCompletelyTransparent_fn(__this, &ret3), ret3) || (__this->Color().W == 0.0f), void();
 }
 
-// public SolidColor New() :56
+// public SolidColor New()
 void SolidColor__New2_fn(SolidColor** __retval)
 {
     *__retval = SolidColor::New2();
 }
 
-// public SolidColor New(float4 color) :61
+// public SolidColor New(float4 color)
 void SolidColor__New3_fn(::g::Uno::Float4* color, SolidColor** __retval)
 {
     *__retval = SolidColor::New3(*color);
 }
 
-// internal void SetColor(float4 c) :47
+// internal void SetColor(float4 c)
 void SolidColor__SetColor_fn(SolidColor* __this, ::g::Uno::Float4* c)
 {
     __this->SetColor(*c);
 }
 
-// public void SetColor(float4 c, Uno.UX.IPropertyListener origin) :37
+// public void SetColor(float4 c, Uno.UX.IPropertyListener origin)
 void SolidColor__SetColor1_fn(SolidColor* __this, ::g::Uno::Float4* c, uObject* origin)
 {
     __this->SetColor1(*c, origin);
@@ -4824,27 +4825,27 @@ void SolidColor__SetColor1_fn(SolidColor* __this, ::g::Uno::Float4* c, uObject* 
 
 ::g::Uno::UX::Selector SolidColor::_colorName_;
 
-// public SolidColor() [instance] :56
+// public SolidColor() [instance]
 void SolidColor::ctor_3()
 {
     ctor_2();
     _color = ::g::Uno::Float4__New1(1.0f);
 }
 
-// public SolidColor(float4 color) [instance] :61
+// public SolidColor(float4 color) [instance]
 void SolidColor::ctor_4(::g::Uno::Float4 color)
 {
     ctor_2();
     _color = color;
 }
 
-// public float4 get_Color() [instance] :26
+// public float4 get_Color() [instance]
 ::g::Uno::Float4 SolidColor::Color()
 {
     return _color;
 }
 
-// public void set_Color(float4 value) [instance] :27
+// public void set_Color(float4 value) [instance]
 void SolidColor::Color(::g::Uno::Float4 value)
 {
     if (::g::Uno::Float4__op_Inequality(_color, value))
@@ -4854,13 +4855,13 @@ void SolidColor::Color(::g::Uno::Float4 value)
     }
 }
 
-// internal void SetColor(float4 c) [instance] :47
+// internal void SetColor(float4 c) [instance]
 void SolidColor::SetColor(::g::Uno::Float4 c)
 {
     Color(c);
 }
 
-// public void SetColor(float4 c, Uno.UX.IPropertyListener origin) [instance] :37
+// public void SetColor(float4 c, Uno.UX.IPropertyListener origin) [instance]
 void SolidColor::SetColor1(::g::Uno::Float4 c, uObject* origin)
 {
     if (::g::Uno::Float4__op_Inequality(_color, c))
@@ -4870,7 +4871,7 @@ void SolidColor::SetColor1(::g::Uno::Float4 c, uObject* origin)
     }
 }
 
-// public SolidColor New() [static] :56
+// public SolidColor New() [static]
 SolidColor* SolidColor::New2()
 {
     SolidColor* obj1 = (SolidColor*)uNew(SolidColor_typeof());
@@ -4878,7 +4879,7 @@ SolidColor* SolidColor::New2()
     return obj1;
 }
 
-// public SolidColor New(float4 color) [static] :61
+// public SolidColor New(float4 color) [static]
 SolidColor* SolidColor::New3(::g::Uno::Float4 color)
 {
     SolidColor* obj2 = (SolidColor*)uNew(SolidColor_typeof());
@@ -4887,10 +4888,10 @@ SolidColor* SolidColor::New3(::g::Uno::Float4 color)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brush.uno
-// ----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brush.uno
+// ----------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class StaticBrush :79
+// public abstract class StaticBrush
 // {
 static void StaticBrush_build(uType* type)
 {
@@ -4912,23 +4913,23 @@ static void StaticBrush_build(uType* type)
     return type;
 }
 
-// protected generated StaticBrush() :79
+// protected generated StaticBrush()
 void StaticBrush__ctor_2_fn(StaticBrush* __this)
 {
     __this->ctor_2();
 }
 
-// protected generated StaticBrush() [instance] :79
+// protected generated StaticBrush() [instance]
 void StaticBrush::ctor_2()
 {
     ctor_1();
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brushes/SolidColor.uno
-// -----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brushes/SolidColor.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class StaticSolidColor :67
+// public sealed class StaticSolidColor
 // {
 static void StaticSolidColor_build(uType* type)
 {
@@ -4956,45 +4957,45 @@ StaticSolidColor_type* StaticSolidColor_typeof()
     return type;
 }
 
-// public StaticSolidColor(float4 color) :80
+// public StaticSolidColor(float4 color)
 void StaticSolidColor__ctor_3_fn(StaticSolidColor* __this, ::g::Uno::Float4* color)
 {
     __this->ctor_3(*color);
 }
 
-// public float4 get_Color() :74
+// public float4 get_Color()
 void StaticSolidColor__get_Color_fn(StaticSolidColor* __this, ::g::Uno::Float4* __retval)
 {
     *__retval = __this->Color();
 }
 
-// public override sealed bool get_IsCompletelyTransparent() :69
+// public override sealed bool get_IsCompletelyTransparent()
 void StaticSolidColor__get_IsCompletelyTransparent_fn(StaticSolidColor* __this, bool* __retval)
 {
     bool ret2;
     return *__retval = (::g::Fuse::Drawing::Brush__get_IsCompletelyTransparent_fn(__this, &ret2), ret2) || (__this->Color().W == 0.0f), void();
 }
 
-// public StaticSolidColor New(float4 color) :80
+// public StaticSolidColor New(float4 color)
 void StaticSolidColor__New2_fn(::g::Uno::Float4* color, StaticSolidColor** __retval)
 {
     *__retval = StaticSolidColor::New2(*color);
 }
 
-// public StaticSolidColor(float4 color) [instance] :80
+// public StaticSolidColor(float4 color) [instance]
 void StaticSolidColor::ctor_3(::g::Uno::Float4 color)
 {
     ctor_2();
     _color = color;
 }
 
-// public float4 get_Color() [instance] :74
+// public float4 get_Color() [instance]
 ::g::Uno::Float4 StaticSolidColor::Color()
 {
     return _color;
 }
 
-// public StaticSolidColor New(float4 color) [static] :80
+// public StaticSolidColor New(float4 color) [static]
 StaticSolidColor* StaticSolidColor::New2(::g::Uno::Float4 color)
 {
     StaticSolidColor* obj1 = (StaticSolidColor*)uNew(StaticSolidColor_typeof());
@@ -5003,24 +5004,24 @@ StaticSolidColor* StaticSolidColor::New2(::g::Uno::Float4 color)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Stroke.uno
-// -----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Stroke.uno
+// -----------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Stroke :21
+// public sealed class Stroke
 // {
-// static generated Stroke() :21
+// static generated Stroke()
 static void Stroke__cctor__fn(uType* __type)
 {
-    Stroke::_shadingName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[25/*"Shading"*/]);
-    Stroke::_brushName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[26/*"Brush"*/]);
-    Stroke::_colorName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[15/*"Color"*/]);
-    Stroke::_widthName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[27/*"Width"*/]);
-    Stroke::_offsetName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[14/*"Offset"*/]);
-    Stroke::_adjustmentName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[28/*"Adjustment"*/]);
-    Stroke::_alignmentName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[29/*"Alignment"*/]);
-    Stroke::_lineCapName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[30/*"LineCap"*/]);
-    Stroke::_lineJoinName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[31/*"LineJoin"*/]);
-    Stroke::_lineJoinMiterLimitName_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[32/*"LineJoinMit...*/]);
+    Stroke::_shadingName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[25/*"Shading"*/]);
+    Stroke::_brushName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[26/*"Brush"*/]);
+    Stroke::_colorName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[15/*"Color"*/]);
+    Stroke::_widthName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[27/*"Width"*/]);
+    Stroke::_offsetName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[14/*"Offset"*/]);
+    Stroke::_adjustmentName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[28/*"Adjustment"*/]);
+    Stroke::_alignmentName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[29/*"Alignment"*/]);
+    Stroke::_lineCapName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[30/*"LineCap"*/]);
+    Stroke::_lineJoinName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[31/*"LineJoin"*/]);
+    Stroke::_lineJoinMiterLimitName_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[32/*"LineJoinMit...*/]);
 }
 
 static void Stroke_build(uType* type)
@@ -5084,176 +5085,176 @@ Stroke_type* Stroke_typeof()
     return type;
 }
 
-// public Stroke() :252
+// public Stroke()
 void Stroke__ctor_1_fn(Stroke* __this)
 {
     __this->ctor_1();
 }
 
-// private float Adjust(float w, float ppi) :200
+// private float Adjust(float w, float ppi)
 void Stroke__Adjust_fn(Stroke* __this, float* w, float* ppi, float* __retval)
 {
     *__retval = __this->Adjust(*w, *ppi);
 }
 
-// public Fuse.Drawing.StrokeAdjustment get_Adjustment() :119
+// public Fuse.Drawing.StrokeAdjustment get_Adjustment()
 void Stroke__get_Adjustment_fn(Stroke* __this, int32_t* __retval)
 {
     *__retval = __this->Adjustment();
 }
 
-// public void set_Adjustment(Fuse.Drawing.StrokeAdjustment value) :120
+// public void set_Adjustment(Fuse.Drawing.StrokeAdjustment value)
 void Stroke__set_Adjustment_fn(Stroke* __this, int32_t* value)
 {
     __this->Adjustment(*value);
 }
 
-// private float AdjustPosition(float w, float ppi) :177
+// private float AdjustPosition(float w, float ppi)
 void Stroke__AdjustPosition_fn(Stroke* __this, float* w, float* ppi, float* __retval)
 {
     *__retval = __this->AdjustPosition(*w, *ppi);
 }
 
-// public Fuse.Drawing.StrokeAlignment get_Alignment() :134
+// public Fuse.Drawing.StrokeAlignment get_Alignment()
 void Stroke__get_Alignment_fn(Stroke* __this, int32_t* __retval)
 {
     *__retval = __this->Alignment();
 }
 
-// public void set_Alignment(Fuse.Drawing.StrokeAlignment value) :135
+// public void set_Alignment(Fuse.Drawing.StrokeAlignment value)
 void Stroke__set_Alignment_fn(Stroke* __this, int32_t* value)
 {
     __this->Alignment(*value);
 }
 
-// public Fuse.Drawing.Brush get_Brush() :36
+// public Fuse.Drawing.Brush get_Brush()
 void Stroke__get_Brush_fn(Stroke* __this, ::g::Fuse::Drawing::Brush** __retval)
 {
     *__retval = __this->Brush();
 }
 
-// public void set_Brush(Fuse.Drawing.Brush value) :37
+// public void set_Brush(Fuse.Drawing.Brush value)
 void Stroke__set_Brush_fn(Stroke* __this, ::g::Fuse::Drawing::Brush* value)
 {
     __this->Brush(value);
 }
 
-// public float4 get_Color() :67
+// public float4 get_Color()
 void Stroke__get_Color_fn(Stroke* __this, ::g::Uno::Float4* __retval)
 {
     *__retval = __this->Color();
 }
 
-// public void set_Color(float4 value) :73
+// public void set_Color(float4 value)
 void Stroke__set_Color_fn(Stroke* __this, ::g::Uno::Float4* value)
 {
     __this->Color(*value);
 }
 
-// public float2 GetDeviceAdjusted(float pixelsPerPoint) :151
+// public float2 GetDeviceAdjusted(float pixelsPerPoint)
 void Stroke__GetDeviceAdjusted_fn(Stroke* __this, float* pixelsPerPoint, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->GetDeviceAdjusted(*pixelsPerPoint);
 }
 
-// public bool get_IsPinned() :277
+// public bool get_IsPinned()
 void Stroke__get_IsPinned_fn(Stroke* __this, bool* __retval)
 {
     *__retval = __this->IsPinned();
 }
 
-// public Fuse.Drawing.LineCap get_LineCap() :212
+// public Fuse.Drawing.LineCap get_LineCap()
 void Stroke__get_LineCap_fn(Stroke* __this, int32_t* __retval)
 {
     *__retval = __this->LineCap();
 }
 
-// public void set_LineCap(Fuse.Drawing.LineCap value) :213
+// public void set_LineCap(Fuse.Drawing.LineCap value)
 void Stroke__set_LineCap_fn(Stroke* __this, int32_t* value)
 {
     __this->LineCap(*value);
 }
 
-// public Fuse.Drawing.LineJoin get_LineJoin() :225
+// public Fuse.Drawing.LineJoin get_LineJoin()
 void Stroke__get_LineJoin_fn(Stroke* __this, int32_t* __retval)
 {
     *__retval = __this->LineJoin();
 }
 
-// public void set_LineJoin(Fuse.Drawing.LineJoin value) :226
+// public void set_LineJoin(Fuse.Drawing.LineJoin value)
 void Stroke__set_LineJoin_fn(Stroke* __this, int32_t* value)
 {
     __this->LineJoin(*value);
 }
 
-// public float get_LineJoinMiterLimit() :243
+// public float get_LineJoinMiterLimit()
 void Stroke__get_LineJoinMiterLimit_fn(Stroke* __this, float* __retval)
 {
     *__retval = __this->LineJoinMiterLimit();
 }
 
-// public void set_LineJoinMiterLimit(float value) :244
+// public void set_LineJoinMiterLimit(float value)
 void Stroke__set_LineJoinMiterLimit_fn(Stroke* __this, float* value)
 {
     __this->LineJoinMiterLimit(*value);
 }
 
-// public Stroke New() :252
+// public Stroke New()
 void Stroke__New2_fn(Stroke** __retval)
 {
     *__retval = Stroke::New2();
 }
 
-// protected void OnPinned() :279
+// protected void OnPinned()
 void Stroke__OnPinned_fn(Stroke* __this)
 {
     __this->OnPinned();
 }
 
-// protected void OnUnpinned() :290
+// protected void OnUnpinned()
 void Stroke__OnUnpinned_fn(Stroke* __this)
 {
     __this->OnUnpinned();
 }
 
-// public void Pin() :263
+// public void Pin()
 void Stroke__Pin_fn(Stroke* __this)
 {
     __this->Pin();
 }
 
-// public void Prepare(Fuse.DrawContext dc, float2 canvasSize) :301
+// public void Prepare(Fuse.DrawContext dc, float2 canvasSize)
 void Stroke__Prepare_fn(Stroke* __this, ::g::Fuse::DrawContext* dc, ::g::Uno::Float2* canvasSize)
 {
     __this->Prepare(dc, *canvasSize);
 }
 
-// public void SetColor(float4 color, Uno.UX.IPropertyListener origin) :78
+// public void SetColor(float4 color, Uno.UX.IPropertyListener origin)
 void Stroke__SetColor_fn(Stroke* __this, ::g::Uno::Float4* color, uObject* origin)
 {
     __this->SetColor(*color, origin);
 }
 
-// private void Uno.UX.IPropertyListener.OnPropertyChanged(Uno.UX.PropertyObject obj, Uno.UX.Selector prop) :25
+// private void Uno.UX.IPropertyListener.OnPropertyChanged(Uno.UX.PropertyObject obj, Uno.UX.Selector prop)
 void Stroke__UnoUXIPropertyListenerOnPropertyChanged_fn(Stroke* __this, ::g::Uno::UX::PropertyObject* obj, ::g::Uno::UX::Selector* prop)
 {
     if (obj == __this->Brush())
         __this->OnPropertyChanged(Stroke::_shadingName_);
 }
 
-// public void Unpin() :270
+// public void Unpin()
 void Stroke__Unpin_fn(Stroke* __this)
 {
     __this->Unpin();
 }
 
-// public float get_Width() :95
+// public float get_Width()
 void Stroke__get_Width_fn(Stroke* __this, float* __retval)
 {
     *__retval = __this->Width();
 }
 
-// public void set_Width(float value) :96
+// public void set_Width(float value)
 void Stroke__set_Width_fn(Stroke* __this, float* value)
 {
     __this->Width(*value);
@@ -5270,7 +5271,7 @@ void Stroke__set_Width_fn(Stroke* __this, float* value)
 ::g::Uno::UX::Selector Stroke::_lineJoinName_;
 ::g::Uno::UX::Selector Stroke::_lineJoinMiterLimitName_;
 
-// public Stroke() [instance] :252
+// public Stroke() [instance]
 void Stroke::ctor_1()
 {
     _width = 1.0f;
@@ -5280,7 +5281,7 @@ void Stroke::ctor_1()
     ctor_();
 }
 
-// private float Adjust(float w, float ppi) [instance] :200
+// private float Adjust(float w, float ppi) [instance]
 float Stroke::Adjust(float w, float ppi)
 {
     w = AdjustPosition(w, ppi);
@@ -5288,13 +5289,13 @@ float Stroke::Adjust(float w, float ppi)
     return w;
 }
 
-// public Fuse.Drawing.StrokeAdjustment get_Adjustment() [instance] :119
+// public Fuse.Drawing.StrokeAdjustment get_Adjustment() [instance]
 int32_t Stroke::Adjustment()
 {
     return _adjustment;
 }
 
-// public void set_Adjustment(Fuse.Drawing.StrokeAdjustment value) [instance] :120
+// public void set_Adjustment(Fuse.Drawing.StrokeAdjustment value) [instance]
 void Stroke::Adjustment(int32_t value)
 {
     if (_adjustment != value)
@@ -5304,7 +5305,7 @@ void Stroke::Adjustment(int32_t value)
     }
 }
 
-// private float AdjustPosition(float w, float ppi) [instance] :177
+// private float AdjustPosition(float w, float ppi) [instance]
 float Stroke::AdjustPosition(float w, float ppi)
 {
     switch (Adjustment())
@@ -5331,13 +5332,13 @@ float Stroke::AdjustPosition(float w, float ppi)
     return w;
 }
 
-// public Fuse.Drawing.StrokeAlignment get_Alignment() [instance] :134
+// public Fuse.Drawing.StrokeAlignment get_Alignment() [instance]
 int32_t Stroke::Alignment()
 {
     return _alignment;
 }
 
-// public void set_Alignment(Fuse.Drawing.StrokeAlignment value) [instance] :135
+// public void set_Alignment(Fuse.Drawing.StrokeAlignment value) [instance]
 void Stroke::Alignment(int32_t value)
 {
     if (_alignment != value)
@@ -5347,13 +5348,13 @@ void Stroke::Alignment(int32_t value)
     }
 }
 
-// public Fuse.Drawing.Brush get_Brush() [instance] :36
+// public Fuse.Drawing.Brush get_Brush() [instance]
 ::g::Fuse::Drawing::Brush* Stroke::Brush()
 {
     return _brush;
 }
 
-// public void set_Brush(Fuse.Drawing.Brush value) [instance] :37
+// public void set_Brush(Fuse.Drawing.Brush value) [instance]
 void Stroke::Brush(::g::Fuse::Drawing::Brush* value)
 {
     if (value == _brush)
@@ -5376,7 +5377,7 @@ void Stroke::Brush(::g::Fuse::Drawing::Brush* value)
     OnPropertyChanged(Stroke::_brushName_);
 }
 
-// public float4 get_Color() [instance] :67
+// public float4 get_Color() [instance]
 ::g::Uno::Float4 Stroke::Color()
 {
     if (uIs((::g::Fuse::Drawing::Brush*)Brush(), ::TYPES[7/*Fuse.Drawing.ISolidColor*/]))
@@ -5385,13 +5386,13 @@ void Stroke::Brush(::g::Fuse::Drawing::Brush* value)
     return ::g::Uno::Float4__New1(0.0f);
 }
 
-// public void set_Color(float4 value) [instance] :73
+// public void set_Color(float4 value) [instance]
 void Stroke::Color(::g::Uno::Float4 value)
 {
     SetColor(value, (uObject*)this);
 }
 
-// public float2 GetDeviceAdjusted(float pixelsPerPoint) [instance] :151
+// public float2 GetDeviceAdjusted(float pixelsPerPoint) [instance]
 ::g::Uno::Float2 Stroke::GetDeviceAdjusted(float pixelsPerPoint)
 {
     float ppi = pixelsPerPoint;
@@ -5423,19 +5424,19 @@ void Stroke::Color(::g::Uno::Float4 value)
     return r;
 }
 
-// public bool get_IsPinned() [instance] :277
+// public bool get_IsPinned() [instance]
 bool Stroke::IsPinned()
 {
     return _pinCount > 0;
 }
 
-// public Fuse.Drawing.LineCap get_LineCap() [instance] :212
+// public Fuse.Drawing.LineCap get_LineCap() [instance]
 int32_t Stroke::LineCap()
 {
     return _lineCap;
 }
 
-// public void set_LineCap(Fuse.Drawing.LineCap value) [instance] :213
+// public void set_LineCap(Fuse.Drawing.LineCap value) [instance]
 void Stroke::LineCap(int32_t value)
 {
     if (value == _lineCap)
@@ -5445,13 +5446,13 @@ void Stroke::LineCap(int32_t value)
     OnPropertyChanged(Stroke::_lineCapName_);
 }
 
-// public Fuse.Drawing.LineJoin get_LineJoin() [instance] :225
+// public Fuse.Drawing.LineJoin get_LineJoin() [instance]
 int32_t Stroke::LineJoin()
 {
     return _lineJoin;
 }
 
-// public void set_LineJoin(Fuse.Drawing.LineJoin value) [instance] :226
+// public void set_LineJoin(Fuse.Drawing.LineJoin value) [instance]
 void Stroke::LineJoin(int32_t value)
 {
     if (value == _lineJoin)
@@ -5461,13 +5462,13 @@ void Stroke::LineJoin(int32_t value)
     OnPropertyChanged(Stroke::_lineJoinName_);
 }
 
-// public float get_LineJoinMiterLimit() [instance] :243
+// public float get_LineJoinMiterLimit() [instance]
 float Stroke::LineJoinMiterLimit()
 {
     return _lineJoinMiterLimit;
 }
 
-// public void set_LineJoinMiterLimit(float value) [instance] :244
+// public void set_LineJoinMiterLimit(float value) [instance]
 void Stroke::LineJoinMiterLimit(float value)
 {
     if (value == _lineJoinMiterLimit)
@@ -5477,7 +5478,7 @@ void Stroke::LineJoinMiterLimit(float value)
     OnPropertyChanged(Stroke::_lineJoinMiterLimitName_);
 }
 
-// protected void OnPinned() [instance] :279
+// protected void OnPinned() [instance]
 void Stroke::OnPinned()
 {
     if (Brush() != NULL)
@@ -5490,7 +5491,7 @@ void Stroke::OnPinned()
     }
 }
 
-// protected void OnUnpinned() [instance] :290
+// protected void OnUnpinned() [instance]
 void Stroke::OnUnpinned()
 {
     if (Brush() != NULL)
@@ -5503,7 +5504,7 @@ void Stroke::OnUnpinned()
     }
 }
 
-// public void Pin() [instance] :263
+// public void Pin() [instance]
 void Stroke::Pin()
 {
     _pinCount++;
@@ -5512,14 +5513,14 @@ void Stroke::Pin()
         OnPinned();
 }
 
-// public void Prepare(Fuse.DrawContext dc, float2 canvasSize) [instance] :301
+// public void Prepare(Fuse.DrawContext dc, float2 canvasSize) [instance]
 void Stroke::Prepare(::g::Fuse::DrawContext* dc, ::g::Uno::Float2 canvasSize)
 {
     if (Brush() != NULL)
         uPtr(Brush())->Prepare(dc, canvasSize);
 }
 
-// public void SetColor(float4 color, Uno.UX.IPropertyListener origin) [instance] :78
+// public void SetColor(float4 color, Uno.UX.IPropertyListener origin) [instance]
 void Stroke::SetColor(::g::Uno::Float4 color, uObject* origin)
 {
     if (::g::Uno::Float4__op_Inequality(color, Color()))
@@ -5533,7 +5534,7 @@ void Stroke::SetColor(::g::Uno::Float4 color, uObject* origin)
     }
 }
 
-// public void Unpin() [instance] :270
+// public void Unpin() [instance]
 void Stroke::Unpin()
 {
     _pinCount--;
@@ -5542,20 +5543,20 @@ void Stroke::Unpin()
         OnUnpinned();
 }
 
-// public float get_Width() [instance] :95
+// public float get_Width() [instance]
 float Stroke::Width()
 {
     return _width;
 }
 
-// public void set_Width(float value) [instance] :96
+// public void set_Width(float value) [instance]
 void Stroke::Width(float value)
 {
     _width = value;
     OnPropertyChanged(Stroke::_widthName_);
 }
 
-// public Stroke New() [static] :252
+// public Stroke New() [static]
 Stroke* Stroke::New2()
 {
     Stroke* obj1 = (Stroke*)uNew(Stroke_typeof());
@@ -5564,10 +5565,10 @@ Stroke* Stroke::New2()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Stroke.uno
-// -----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Stroke.uno
+// -----------------------------------------------------------------------------------------------------------------------------------
 
-// public enum StrokeAdjustment :6
+// public enum StrokeAdjustment
 uEnumType* StrokeAdjustment_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -5582,10 +5583,10 @@ uEnumType* StrokeAdjustment_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Stroke.uno
-// -----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Stroke.uno
+// -----------------------------------------------------------------------------------------------------------------------------------
 
-// public enum StrokeAlignment :14
+// public enum StrokeAlignment
 uEnumType* StrokeAlignment_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -5599,15 +5600,15 @@ uEnumType* StrokeAlignment_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/Surface.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/Surface.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class Surface :28
+// public abstract class Surface
 // {
 static void Surface_build(uType* type)
 {
     ::STRINGS[33] = uString::Const("GLDraw called with mismatched elements");
-    ::STRINGS[34] = uString::Const("/usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/Surface.uno");
+    ::STRINGS[34] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/Surface.uno");
     ::STRINGS[35] = uString::Const("Draw");
     ::TYPES[23] = ::g::Fuse::ICommonViewport_typeof();
     ::TYPES[24] = ::g::Fuse::Drawing::ISurfaceDrawable_typeof();
@@ -5637,55 +5638,55 @@ Surface_type* Surface_typeof()
     return type;
 }
 
-// internal Surface() :31
+// internal Surface()
 void Surface__ctor__fn(Surface* __this)
 {
     __this->ctor_();
 }
 
-// public void Draw(Fuse.DrawContext dc, Fuse.Elements.Element elm, Fuse.Drawing.ISurfaceDrawable drawable) :116
+// public void Draw(Fuse.DrawContext dc, Fuse.Elements.Element elm, Fuse.Drawing.ISurfaceDrawable drawable)
 void Surface__Draw_fn(Surface* __this, ::g::Fuse::DrawContext* dc, ::g::Fuse::Elements::Element* elm, uObject* drawable)
 {
     __this->Draw(dc, elm, drawable);
 }
 
-// public void DrawLocal(Fuse.Drawing.ISurfaceDrawable drawable) :146
+// public void DrawLocal(Fuse.Drawing.ISurfaceDrawable drawable)
 void Surface__DrawLocal_fn(Surface* __this, uObject* drawable)
 {
     __this->DrawLocal(drawable);
 }
 
-// protected generated float2 get_ElementSize() :35
+// protected generated float2 get_ElementSize()
 void Surface__get_ElementSize_fn(Surface* __this, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->ElementSize();
 }
 
-// private generated void set_ElementSize(float2 value) :35
+// private generated void set_ElementSize(float2 value)
 void Surface__set_ElementSize_fn(Surface* __this, ::g::Uno::Float2* value)
 {
     __this->ElementSize(*value);
 }
 
-// public void SetElementSize(float2 size) :37
+// public void SetElementSize(float2 size)
 void Surface__SetElementSize_fn(Surface* __this, ::g::Uno::Float2* size)
 {
     __this->SetElementSize(*size);
 }
 
-// internal Surface() [instance] :31
+// internal Surface() [instance]
 void Surface::ctor_()
 {
 }
 
-// public void Draw(Fuse.DrawContext dc, Fuse.Elements.Element elm, Fuse.Drawing.ISurfaceDrawable drawable) [instance] :116
+// public void Draw(Fuse.DrawContext dc, Fuse.Elements.Element elm, Fuse.Drawing.ISurfaceDrawable drawable) [instance]
 void Surface::Draw(::g::Fuse::DrawContext* dc, ::g::Fuse::Elements::Element* elm, uObject* drawable)
 {
     ::g::Uno::Float3 ind1;
     ::g::Uno::Float3 ind2;
 
     if (elm != drawable)
-        ::g::Fuse::Diagnostics::InternalError(::STRINGS[33/*"GLDraw call...*/], this, ::STRINGS[34/*"/usr/local/...*/], 119, ::STRINGS[35/*"Draw"*/]);
+        ::g::Fuse::Diagnostics::InternalError(::STRINGS[33/*"GLDraw call...*/], this, ::STRINGS[34/*"/Users/antt...*/], 119, ::STRINGS[35/*"Draw"*/]);
 
     float pixelsPerPoint = ::g::Fuse::ICommonViewport::PixelsPerPoint(uInterface(uPtr(uPtr(elm)->Viewport()), ::TYPES[23/*Fuse.ICommonViewport*/]));
     ::g::Fuse::VisualBounds* bounds = elm->RenderBoundsWithoutEffects();
@@ -5699,42 +5700,42 @@ void Surface::Draw(::g::Fuse::DrawContext* dc, ::g::Fuse::Elements::Element* elm
     PushTransform(m);
     DrawLocal(drawable);
     End();
-    uPtr(::g::Fuse::Common::Blitter::Singleton())->Blit1(uPtr(fb)->ColorBuffer(), ::g::Uno::Rect__New2((ind2 = bounds->AxisMin(), ::g::Uno::Float2__New2(ind2.X, ind2.Y)), ::g::Uno::Float2__op_Division1(::g::Uno::Float2__op_Implicit2(pixelSize), pixelsPerPoint)), uPtr(dc)->GetLocalToClipTransform(elm), 1.0f, true, 0);
+    uPtr(::g::Fuse::Common::Blitter::Singleton())->Blit1(uPtr(fb)->ColorBuffer(), ::g::Uno::Rect__New2((ind2 = bounds->AxisMin(), ::g::Uno::Float2__New2(ind2.X, ind2.Y)), ::g::Uno::Float2__op_Division1(::g::Uno::Float2__op_Implicit1(pixelSize), pixelsPerPoint)), uPtr(dc)->GetLocalToClipTransform(elm), 1.0f, true, 0);
     ::g::Fuse::FramebufferPool::Release(fb);
 }
 
-// public void DrawLocal(Fuse.Drawing.ISurfaceDrawable drawable) [instance] :146
+// public void DrawLocal(Fuse.Drawing.ISurfaceDrawable drawable) [instance]
 void Surface::DrawLocal(uObject* drawable)
 {
     SetElementSize(::g::Fuse::Drawing::ISurfaceDrawable::ElementSize(uInterface(uPtr(drawable), ::TYPES[24/*Fuse.Drawing.ISurfaceDrawable*/])));
     ::g::Fuse::Drawing::ISurfaceDrawable::Draw(uInterface(drawable, ::TYPES[24/*Fuse.Drawing.ISurfaceDrawable*/]), this);
 }
 
-// protected generated float2 get_ElementSize() [instance] :35
+// protected generated float2 get_ElementSize() [instance]
 ::g::Uno::Float2 Surface::ElementSize()
 {
     return _ElementSize;
 }
 
-// private generated void set_ElementSize(float2 value) [instance] :35
+// private generated void set_ElementSize(float2 value) [instance]
 void Surface::ElementSize(::g::Uno::Float2 value)
 {
     _ElementSize = value;
 }
 
-// public void SetElementSize(float2 size) [instance] :37
+// public void SetElementSize(float2 size) [instance]
 void Surface::SetElementSize(::g::Uno::Float2 size)
 {
     ElementSize(size);
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/SurfaceManager.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/SurfaceManager.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class SurfaceManager :11
+// public static class SurfaceManager
 // {
-// static generated SurfaceManager() :11
+// static generated SurfaceManager()
 static void SurfaceManager__cctor__fn(uType* __type)
 {
     SurfaceManager::_owners_ = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[25/*Uno.Collections.Dictionary<object, Fuse.Drawing.Surface>*/]));
@@ -5765,31 +5766,31 @@ uClassType* SurfaceManager_typeof()
     return type;
 }
 
-// public static Fuse.Drawing.Surface Create(object owner) :13
+// public static Fuse.Drawing.Surface Create(object owner)
 void SurfaceManager__Create_fn(uObject* owner, ::g::Fuse::Drawing::Surface** __retval)
 {
     *__retval = SurfaceManager::Create(owner);
 }
 
-// public static Fuse.Drawing.Surface Find(Fuse.Node source) :46
+// public static Fuse.Drawing.Surface Find(Fuse.Node source)
 void SurfaceManager__Find_fn(::g::Fuse::Node* source, ::g::Fuse::Drawing::Surface** __retval)
 {
     *__retval = SurfaceManager::Find(source);
 }
 
-// private static Fuse.Drawing.Surface FindImpl(Fuse.Node source, bool create) :56
+// private static Fuse.Drawing.Surface FindImpl(Fuse.Node source, bool create)
 void SurfaceManager__FindImpl_fn(::g::Fuse::Node* source, bool* create, ::g::Fuse::Drawing::Surface** __retval)
 {
     *__retval = SurfaceManager::FindImpl(source, *create);
 }
 
-// public static Fuse.Drawing.Surface FindOrCreate(Fuse.Node source) :51
+// public static Fuse.Drawing.Surface FindOrCreate(Fuse.Node source)
 void SurfaceManager__FindOrCreate_fn(::g::Fuse::Node* source, ::g::Fuse::Drawing::Surface** __retval)
 {
     *__retval = SurfaceManager::FindOrCreate(source);
 }
 
-// public static void Release(object owner, Fuse.Drawing.Surface c) :85
+// public static void Release(object owner, Fuse.Drawing.Surface c)
 void SurfaceManager__Release_fn(uObject* owner, ::g::Fuse::Drawing::Surface* c)
 {
     SurfaceManager::Release(owner, c);
@@ -5797,7 +5798,7 @@ void SurfaceManager__Release_fn(uObject* owner, ::g::Fuse::Drawing::Surface* c)
 
 uSStrong< ::g::Uno::Collections::Dictionary*> SurfaceManager::_owners_;
 
-// public static Fuse.Drawing.Surface Create(object owner) [static] :13
+// public static Fuse.Drawing.Surface Create(object owner) [static]
 ::g::Fuse::Drawing::Surface* SurfaceManager::Create(uObject* owner)
 {
     SurfaceManager_typeof()->Init();
@@ -5819,14 +5820,14 @@ uSStrong< ::g::Uno::Collections::Dictionary*> SurfaceManager::_owners_;
     return c;
 }
 
-// public static Fuse.Drawing.Surface Find(Fuse.Node source) [static] :46
+// public static Fuse.Drawing.Surface Find(Fuse.Node source) [static]
 ::g::Fuse::Drawing::Surface* SurfaceManager::Find(::g::Fuse::Node* source)
 {
     SurfaceManager_typeof()->Init();
     return SurfaceManager::FindImpl(source, false);
 }
 
-// private static Fuse.Drawing.Surface FindImpl(Fuse.Node source, bool create) [static] :56
+// private static Fuse.Drawing.Surface FindImpl(Fuse.Node source, bool create) [static]
 ::g::Fuse::Drawing::Surface* SurfaceManager::FindImpl(::g::Fuse::Node* source, bool create)
 {
     SurfaceManager_typeof()->Init();
@@ -5861,14 +5862,14 @@ uSStrong< ::g::Uno::Collections::Dictionary*> SurfaceManager::_owners_;
     return cur;
 }
 
-// public static Fuse.Drawing.Surface FindOrCreate(Fuse.Node source) [static] :51
+// public static Fuse.Drawing.Surface FindOrCreate(Fuse.Node source) [static]
 ::g::Fuse::Drawing::Surface* SurfaceManager::FindOrCreate(::g::Fuse::Node* source)
 {
     SurfaceManager_typeof()->Init();
     return SurfaceManager::FindImpl(source, true);
 }
 
-// public static void Release(object owner, Fuse.Drawing.Surface c) [static] :85
+// public static void Release(object owner, Fuse.Drawing.Surface c) [static]
 void SurfaceManager::Release(uObject* owner, ::g::Fuse::Drawing::Surface* c)
 {
     SurfaceManager_typeof()->Init();
@@ -5882,10 +5883,10 @@ void SurfaceManager::Release(uObject* owner, ::g::Fuse::Drawing::Surface* c)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/Surface.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/Surface.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract class SurfacePath :14
+// public abstract class SurfacePath
 // {
 static void SurfacePath_build(uType* type)
 {
@@ -5904,22 +5905,22 @@ uType* SurfacePath_typeof()
     return type;
 }
 
-// protected generated SurfacePath() :14
+// protected generated SurfacePath()
 void SurfacePath__ctor__fn(SurfacePath* __this)
 {
     __this->ctor_();
 }
 
-// protected generated SurfacePath() [instance] :14
+// protected generated SurfacePath() [instance]
 void SurfacePath::ctor_()
 {
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/SurfaceUtil.uno
-// ------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/SurfaceUtil.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class SurfaceUtil :12
+// public static class SurfaceUtil
 // {
 static void SurfaceUtil_build(uType* type)
 {
@@ -5941,61 +5942,61 @@ uClassType* SurfaceUtil_typeof()
     return type;
 }
 
-// public static bool AngleInRange(float angle, float start, float end) :185
+// public static bool AngleInRange(float angle, float start, float end)
 void SurfaceUtil__AngleInRange_fn(float* angle, float* start, float* end, bool* __retval)
 {
     *__retval = SurfaceUtil::AngleInRange(*angle, *start, *end);
 }
 
-// public static float2 BezierCurveDerivative(float2 p0, float2 p1, float2 p2, float2 p3, float t) :209
+// public static float2 BezierCurveDerivative(float2 p0, float2 p1, float2 p2, float2 p3, float t)
 void SurfaceUtil__BezierCurveDerivative_fn(::g::Uno::Float2* p0, ::g::Uno::Float2* p1, ::g::Uno::Float2* p2, ::g::Uno::Float2* p3, float* t, ::g::Uno::Float2* __retval)
 {
     *__retval = SurfaceUtil::BezierCurveDerivative(*p0, *p1, *p2, *p3, *t);
 }
 
-// public static float2 EllipticArcDerivative(float2 c, float2 r, float xAngle, float t) :178
+// public static float2 EllipticArcDerivative(float2 c, float2 r, float xAngle, float t)
 void SurfaceUtil__EllipticArcDerivative_fn(::g::Uno::Float2* c, ::g::Uno::Float2* r, float* xAngle, float* t, ::g::Uno::Float2* __retval)
 {
     *__retval = SurfaceUtil::EllipticArcDerivative(*c, *r, *xAngle, *t);
 }
 
-// internal static bool EllipticArcOutOfRange(float2 from, Fuse.Drawing.LineSegment arc) :42
+// internal static bool EllipticArcOutOfRange(float2 from, Fuse.Drawing.LineSegment arc)
 void SurfaceUtil__EllipticArcOutOfRange_fn(::g::Uno::Float2* from, ::g::Fuse::Drawing::LineSegment* arc, bool* __retval)
 {
     *__retval = SurfaceUtil::EllipticArcOutOfRange(*from, *arc);
 }
 
-// public static float2 EllipticArcPoint(float2 c, float2 r, float xAngle, float t) :171
+// public static float2 EllipticArcPoint(float2 c, float2 r, float xAngle, float t)
 void SurfaceUtil__EllipticArcPoint_fn(::g::Uno::Float2* c, ::g::Uno::Float2* r, float* xAngle, float* t, ::g::Uno::Float2* __retval)
 {
     *__retval = SurfaceUtil::EllipticArcPoint(*c, *r, *xAngle, *t);
 }
 
-// public static void EllipticArcToBezierCurve(float2 center, float2 radius, float xAngle, float startAngle, float deltaAngle, bool moveToStart, Uno.Collections.IList<Fuse.Drawing.LineSegment> curves) :56
+// public static void EllipticArcToBezierCurve(float2 center, float2 radius, float xAngle, float startAngle, float deltaAngle, bool moveToStart, Uno.Collections.IList<Fuse.Drawing.LineSegment> curves)
 void SurfaceUtil__EllipticArcToBezierCurve_fn(::g::Uno::Float2* center, ::g::Uno::Float2* radius, float* xAngle, float* startAngle, float* deltaAngle, bool* moveToStart, uObject* curves)
 {
     SurfaceUtil::EllipticArcToBezierCurve(*center, *radius, *xAngle, *startAngle, *deltaAngle, *moveToStart, curves);
 }
 
-// public static void EllipticArcToBezierCurve(float2 from, Fuse.Drawing.LineSegment arc, Uno.Collections.IList<Fuse.Drawing.LineSegment> curves) :19
+// public static void EllipticArcToBezierCurve(float2 from, Fuse.Drawing.LineSegment arc, Uno.Collections.IList<Fuse.Drawing.LineSegment> curves)
 void SurfaceUtil__EllipticArcToBezierCurve1_fn(::g::Uno::Float2* from, ::g::Fuse::Drawing::LineSegment* arc, uObject* curves)
 {
     SurfaceUtil::EllipticArcToBezierCurve1(*from, *arc, curves);
 }
 
-// internal static void EndpointToCenterArcParams(float2 p1, float2 p2, float2& r_, float xAngle, bool flagA, bool flagS, float2& c, float2& angles) :96
+// internal static void EndpointToCenterArcParams(float2 p1, float2 p2, float2& r_, float xAngle, bool flagA, bool flagS, float2& c, float2& angles)
 void SurfaceUtil__EndpointToCenterArcParams_fn(::g::Uno::Float2* p1, ::g::Uno::Float2* p2, ::g::Uno::Float2* r_, float* xAngle, bool* flagA, bool* flagS, ::g::Uno::Float2* c, ::g::Uno::Float2* angles)
 {
     SurfaceUtil::EndpointToCenterArcParams(*p1, *p2, r_, *xAngle, *flagA, *flagS, c, angles);
 }
 
-// private static float svgAngle(double ux, double uy, double vx, double vy) :152
+// private static float svgAngle(double ux, double uy, double vx, double vy)
 void SurfaceUtil__svgAngle_fn(double* ux, double* uy, double* vx, double* vy, float* __retval)
 {
     *__retval = SurfaceUtil::svgAngle(*ux, *uy, *vx, *vy);
 }
 
-// public static bool AngleInRange(float angle, float start, float end) [static] :185
+// public static bool AngleInRange(float angle, float start, float end) [static]
 bool SurfaceUtil::AngleInRange(float angle, float start, float end)
 {
     if (end < start)
@@ -6023,20 +6024,20 @@ bool SurfaceUtil::AngleInRange(float angle, float start, float end)
     return false;
 }
 
-// public static float2 BezierCurveDerivative(float2 p0, float2 p1, float2 p2, float2 p3, float t) [static] :209
+// public static float2 BezierCurveDerivative(float2 p0, float2 p1, float2 p2, float2 p3, float t) [static]
 ::g::Uno::Float2 SurfaceUtil::BezierCurveDerivative(::g::Uno::Float2 p0, ::g::Uno::Float2 p1, ::g::Uno::Float2 p2, ::g::Uno::Float2 p3, float t)
 {
     float t2 = t * t;
     return ::g::Uno::Float2__op_Multiply(3.0f, ::g::Uno::Float2__op_Addition2(::g::Uno::Float2__op_Subtraction2(::g::Uno::Float2__op_Addition2(::g::Uno::Float2__op_Multiply1(::g::Uno::Float2__op_UnaryNegation(::g::Uno::Float2__op_Addition2(::g::Uno::Float2__op_Subtraction2(::g::Uno::Float2__op_Subtraction2(p0, ::g::Uno::Float2__op_Multiply(3.0f, p1)), p3), ::g::Uno::Float2__op_Multiply(3.0f, p2))), t2), ::g::Uno::Float2__op_Multiply1(::g::Uno::Float2__op_Multiply(2.0f, ::g::Uno::Float2__op_Addition2(::g::Uno::Float2__op_Subtraction2(p0, ::g::Uno::Float2__op_Multiply(2.0f, p1)), p2)), t)), p0), p1));
 }
 
-// public static float2 EllipticArcDerivative(float2 c, float2 r, float xAngle, float t) [static] :178
+// public static float2 EllipticArcDerivative(float2 c, float2 r, float xAngle, float t) [static]
 ::g::Uno::Float2 SurfaceUtil::EllipticArcDerivative(::g::Uno::Float2 c, ::g::Uno::Float2 r, float xAngle, float t)
 {
     return ::g::Uno::Float2__New2(((-r.X * ::g::Uno::Math::Cos1(xAngle)) * ::g::Uno::Math::Sin1(t)) - ((r.Y * ::g::Uno::Math::Sin1(xAngle)) * ::g::Uno::Math::Cos1(t)), ((-r.X * ::g::Uno::Math::Sin1(xAngle)) * ::g::Uno::Math::Sin1(t)) + ((r.Y * ::g::Uno::Math::Cos1(xAngle)) * ::g::Uno::Math::Cos1(t)));
 }
 
-// internal static bool EllipticArcOutOfRange(float2 from, Fuse.Drawing.LineSegment arc) [static] :42
+// internal static bool EllipticArcOutOfRange(float2 from, Fuse.Drawing.LineSegment arc) [static]
 bool SurfaceUtil::EllipticArcOutOfRange(::g::Uno::Float2 from, ::g::Fuse::Drawing::LineSegment arc)
 {
     float len = ::g::Uno::Vector::Length(::g::Uno::Float2__op_Subtraction2(arc.To, from));
@@ -6052,13 +6053,13 @@ bool SurfaceUtil::EllipticArcOutOfRange(::g::Uno::Float2 from, ::g::Fuse::Drawin
     return false;
 }
 
-// public static float2 EllipticArcPoint(float2 c, float2 r, float xAngle, float t) [static] :171
+// public static float2 EllipticArcPoint(float2 c, float2 r, float xAngle, float t) [static]
 ::g::Uno::Float2 SurfaceUtil::EllipticArcPoint(::g::Uno::Float2 c, ::g::Uno::Float2 r, float xAngle, float t)
 {
     return ::g::Uno::Float2__New2((c.X + ((r.X * ::g::Uno::Math::Cos1(xAngle)) * ::g::Uno::Math::Cos1(t))) - ((r.Y * ::g::Uno::Math::Sin1(xAngle)) * ::g::Uno::Math::Sin1(t)), (c.Y + ((r.X * ::g::Uno::Math::Sin1(xAngle)) * ::g::Uno::Math::Cos1(t))) + ((r.Y * ::g::Uno::Math::Cos1(xAngle)) * ::g::Uno::Math::Sin1(t)));
 }
 
-// public static void EllipticArcToBezierCurve(float2 center, float2 radius, float xAngle, float startAngle, float deltaAngle, bool moveToStart, Uno.Collections.IList<Fuse.Drawing.LineSegment> curves) [static] :56
+// public static void EllipticArcToBezierCurve(float2 center, float2 radius, float xAngle, float startAngle, float deltaAngle, bool moveToStart, Uno.Collections.IList<Fuse.Drawing.LineSegment> curves) [static]
 void SurfaceUtil::EllipticArcToBezierCurve(::g::Uno::Float2 center, ::g::Uno::Float2 radius, float xAngle, float startAngle, float deltaAngle, bool moveToStart, uObject* curves)
 {
     ::g::Fuse::Drawing::LineSegment collection2;
@@ -6090,7 +6091,7 @@ void SurfaceUtil::EllipticArcToBezierCurve(::g::Uno::Float2 center, ::g::Uno::Fl
     }
 }
 
-// public static void EllipticArcToBezierCurve(float2 from, Fuse.Drawing.LineSegment arc, Uno.Collections.IList<Fuse.Drawing.LineSegment> curves) [static] :19
+// public static void EllipticArcToBezierCurve(float2 from, Fuse.Drawing.LineSegment arc, Uno.Collections.IList<Fuse.Drawing.LineSegment> curves) [static]
 void SurfaceUtil::EllipticArcToBezierCurve1(::g::Uno::Float2 from, ::g::Fuse::Drawing::LineSegment arc, uObject* curves)
 {
     ::g::Fuse::Drawing::LineSegment collection1;
@@ -6109,7 +6110,7 @@ void SurfaceUtil::EllipticArcToBezierCurve1(::g::Uno::Float2 from, ::g::Fuse::Dr
     SurfaceUtil::EllipticArcToBezierCurve(center, radius, xAngle, angles.Item(0), angles.Item(1), false, curves);
 }
 
-// internal static void EndpointToCenterArcParams(float2 p1, float2 p2, float2& r_, float xAngle, bool flagA, bool flagS, float2& c, float2& angles) [static] :96
+// internal static void EndpointToCenterArcParams(float2 p1, float2 p2, float2& r_, float xAngle, bool flagA, bool flagS, float2& c, float2& angles) [static]
 void SurfaceUtil::EndpointToCenterArcParams(::g::Uno::Float2 p1, ::g::Uno::Float2 p2, ::g::Uno::Float2* r_, float xAngle, bool flagA, bool flagS, ::g::Uno::Float2* c, ::g::Uno::Float2* angles)
 {
     double rX = (double)::g::Uno::Math::Abs1((*r_).X);
@@ -6156,7 +6157,7 @@ void SurfaceUtil::EndpointToCenterArcParams(::g::Uno::Float2 p1, ::g::Uno::Float
     *angles = ::g::Uno::Float2__New2((float)theta, (float)delta);
 }
 
-// private static float svgAngle(double ux, double uy, double vx, double vy) [static] :152
+// private static float svgAngle(double ux, double uy, double vx, double vy) [static]
 float SurfaceUtil::svgAngle(double ux, double uy, double vx, double vy)
 {
     ::g::Uno::Float2 u = ::g::Uno::Float2__New2((float)ux, (float)uy);
@@ -6172,10 +6173,10 @@ float SurfaceUtil::svgAngle(double ux, double uy, double vx, double vy)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Enums.uno
-// ----------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Enums.uno
+// ----------------------------------------------------------------------------------------------------------------------------------
 
-// public enum WrapMode :35
+// public enum WrapMode
 uEnumType* WrapMode_typeof()
 {
     static uSStrong<uEnumType*> type;

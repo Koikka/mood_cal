@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Tapped.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Gestures/1.12.0/Tapped.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Gestures{
 
-// public delegate void TappedHandler(object sender, Fuse.Gestures.TappedArgs args) :17
+// public delegate void TappedHandler(object sender, Fuse.Gestures.TappedArgs args)
 uDelegateType* TappedHandler_typeof();
 
 }}} // ::g::Fuse::Gestures

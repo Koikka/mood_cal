@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Subscription/DataSubscription.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Bindings/1.12.0/Subscription/DataSubscription.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Node.IDataListener.h>
-#include <Fuse.Reactive.IProper-fa34e162.h>
+#include <Fuse.Reactive.IProper-4091f911.h>
 #include <Fuse.Reactive.IWriteable.h>
 #include <Uno.IDisposable.h>
 #include <Uno.Object.h>
@@ -15,7 +15,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// internal sealed class DataSubscription :6
+// internal sealed class DataSubscription
 // {
 struct DataSubscription_type : uType
 {

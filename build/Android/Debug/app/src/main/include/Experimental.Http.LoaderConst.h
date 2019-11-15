@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Experimental.Http/1.9.0/BinaryLoader.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Experimental.Http/1.12.0/BinaryLoader.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Experimental{
 namespace Http{
 
-// internal static class LoaderConst :9
+// internal static class LoaderConst
 // {
 uClassType* LoaderConst_typeof();
 

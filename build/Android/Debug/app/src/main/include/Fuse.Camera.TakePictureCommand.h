@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Camera/1.9.0/Android/AndroidCamera.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Camera/1.12.0/Android/AndroidCamera.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace g{
 namespace Fuse{
 namespace Camera{
 
-// internal sealed extern class TakePictureCommand :26
+// internal sealed extern class TakePictureCommand
 // {
 uType* TakePictureCommand_typeof();
 void TakePictureCommand__ctor__fn(TakePictureCommand* __this, ::g::Uno::Threading::Promise* promise);

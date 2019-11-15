@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/VideoTexture.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Graphics/VideoTexture.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Uno{
 namespace Graphics{
 
-// public intrinsic sealed class VideoTexture :9
+// public intrinsic sealed class VideoTexture
 // {
 struct VideoTexture_type : uType
 {

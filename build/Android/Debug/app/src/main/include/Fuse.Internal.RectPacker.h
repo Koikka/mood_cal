@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/RectPacker.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Internal/RectPacker.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -14,7 +14,7 @@ namespace g{
 namespace Fuse{
 namespace Internal{
 
-// internal sealed class RectPacker :26
+// internal sealed class RectPacker
 // {
 uType* RectPacker_typeof();
 void RectPacker__ctor__fn(RectPacker* __this, ::g::Uno::Int2* size);

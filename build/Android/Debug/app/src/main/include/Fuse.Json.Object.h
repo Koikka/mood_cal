@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Json.Parse.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Json.Parse.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{namespace Uno{namespace Collections{struct Dictionary;}}}
 namespace g{
 namespace Fuse{
 
-// internal sealed class Json.Object :55
+// internal sealed class Json.Object
 // {
 struct Json__Object_type : uType
 {

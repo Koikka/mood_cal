@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Cycle.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Animations/1.12.0/Cycle.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace g{
 namespace Fuse{
 namespace Animations{
 
-// public sealed class Cycle<T> :60
+// public sealed class Cycle<T>
 // {
 ::g::Fuse::Animations::Animator_type* Cycle_typeof();
 void Cycle__get_Base_fn(Cycle* __this, uTRef __retval);

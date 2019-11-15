@@ -23,9 +23,9 @@ public class ViewFactory
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object InstantiateViewGroupImpl246()
+    public static Object InstantiateViewGroupImpl248()
     {
-        android.widget.FrameLayout frameLayout = new com.fuse.android.views.ViewGroup(fi.samk.mood_cal.Kalenteri.GetRootActivity());
+        android.widget.FrameLayout frameLayout = new com.fuse.android.views.ViewGroup(com.fuse.Activity.getRootActivity());
         frameLayout.setFocusable(true);
         frameLayout.setFocusableInTouchMode(true);
         frameLayout.setClipChildren(false);

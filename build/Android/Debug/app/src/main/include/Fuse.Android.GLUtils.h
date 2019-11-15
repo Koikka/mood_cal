@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Android.TextRenderer/1.9.0/Internal/GLUtils.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Android.TextRenderer/1.12.0/Internal/GLUtils.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Android{
 
-// internal sealed extern class GLUtils :12
+// internal sealed extern class GLUtils
 // {
 uType* GLUtils_typeof();
 void GLUtils__TexImage2D_fn(int32_t* target, int32_t* level, ::g::Java::Object* bitmap, int32_t* border);

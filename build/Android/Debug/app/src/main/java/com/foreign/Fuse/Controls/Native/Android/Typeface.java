@@ -23,19 +23,19 @@ public class Typeface
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object CreateFromBundleFile232(final String bundlePath)
+    public static Object CreateFromBundleFile234(final String bundlePath)
     {
         android.content.res.AssetManager assetManager = (com.fuse.Activity.getRootActivity()).getAssets();
         android.graphics.Typeface typeface = android.graphics.Typeface.createFromAsset(assetManager, bundlePath);
         return typeface;
     }
     
-    public static Object CreateFromFileImpl233(final String path)
+    public static Object CreateFromFileImpl235(final String path)
     {
         return android.graphics.Typeface.createFromFile(path);
     }
     
-    public static Object GetDefault234()
+    public static Object GetDefault236()
     {
         return android.graphics.Typeface.DEFAULT;
     }

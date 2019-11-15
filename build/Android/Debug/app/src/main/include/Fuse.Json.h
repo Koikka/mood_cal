@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Json.Parse.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Json.Parse.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{namespace Uno{namespace Text{struct StringBuilder;}}}
 namespace g{
 namespace Fuse{
 
-// public partial static class Json :7
+// public partial static class Json
 // {
 uClassType* Json_typeof();
 void Json__Convert_fn(::g::Uno::Data::Json::JsonReader* r, uObject** __retval);

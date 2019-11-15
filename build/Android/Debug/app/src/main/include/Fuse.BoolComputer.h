@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Marshal/1.9.0/Computer.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Marshal/1.12.0/Computer.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,11 +9,12 @@ namespace g{namespace Fuse{struct BoolComputer;}}
 namespace g{
 namespace Fuse{
 
-// internal sealed class BoolComputer :136
+// internal sealed class BoolComputer
 // {
-uType* BoolComputer_typeof();
+::g::Fuse::Computer1_type* BoolComputer_typeof();
 void BoolComputer__ctor_2_fn(BoolComputer* __this);
 void BoolComputer__New1_fn(BoolComputer** __retval);
+void BoolComputer__TryOpImpl1_fn(BoolComputer* __this, int32_t* op, bool* a, bool* b, bool* result, bool* __retval);
 
 struct BoolComputer : ::g::Fuse::Computer1
 {

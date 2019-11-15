@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/Transition.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/Transition.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Triggers{
 
-// public enum TransitionMode :181
+// public enum TransitionMode
 uEnumType* TransitionMode_typeof();
 
 }}} // ::g::Fuse::Triggers

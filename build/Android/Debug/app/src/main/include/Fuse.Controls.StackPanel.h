@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/StackPanel.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/StackPanel.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -15,7 +15,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -28,7 +28,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public sealed class StackPanel :30
+// public sealed class StackPanel
 // {
 ::g::Fuse::Controls::Panel_type* StackPanel_typeof();
 void StackPanel__ctor_7_fn(StackPanel* __this);
@@ -37,8 +37,6 @@ void StackPanel__set_ContentAlignment_fn(StackPanel* __this, int32_t* value);
 void StackPanel__get_ItemSpacing_fn(StackPanel* __this, float* __retval);
 void StackPanel__set_ItemSpacing_fn(StackPanel* __this, float* value);
 void StackPanel__New4_fn(StackPanel** __retval);
-void StackPanel__get_Orientation_fn(StackPanel* __this, int32_t* __retval);
-void StackPanel__set_Orientation_fn(StackPanel* __this, int32_t* value);
 
 struct StackPanel : ::g::Fuse::Controls::Panel
 {
@@ -49,8 +47,6 @@ struct StackPanel : ::g::Fuse::Controls::Panel
     void ContentAlignment(int32_t value);
     float ItemSpacing();
     void ItemSpacing(float value);
-    int32_t Orientation();
-    void Orientation(int32_t value);
     static StackPanel* New4();
 };
 // }

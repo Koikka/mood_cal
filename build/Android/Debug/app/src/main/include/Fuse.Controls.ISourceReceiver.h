@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.WebView/1.9.0/WebView.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.WebView/1.12.0/WebView.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public abstract interface ISourceReceiver :15
+// public abstract interface ISourceReceiver
 // {
 uInterfaceType* ISourceReceiver_typeof();
 

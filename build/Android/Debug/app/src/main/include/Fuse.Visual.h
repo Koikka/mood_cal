@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Visual.BeginRemove.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Visual.BeginRemove.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -45,7 +45,7 @@ namespace g{namespace Uno{struct Float4x4;}}
 namespace g{
 namespace Fuse{
 
-// public interfacemodifiers class Visual :61
+// public interfacemodifiers class Visual
 // {
 struct Visual_type : ::g::Fuse::Node_type
 {

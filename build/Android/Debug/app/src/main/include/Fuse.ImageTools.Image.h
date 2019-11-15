@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.ImageTools/1.9.0/Image.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.ImageTools/1.12.0/Image.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace g{
 namespace Fuse{
 namespace ImageTools{
 
-// public sealed class Image :8
+// public sealed class Image
 // {
 uType* Image_typeof();
 void Image__ctor_1_fn(Image* __this, uString* path);

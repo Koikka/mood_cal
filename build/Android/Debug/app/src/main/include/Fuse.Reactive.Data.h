@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Expressions/1.9.0/Expression.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Expressions/1.12.0/Expression.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public sealed class Data :74
+// public sealed class Data
 // {
 ::g::Fuse::Reactive::Expression_type* Data_typeof();
 void Data__ctor_1_fn(Data* __this, uString* key);

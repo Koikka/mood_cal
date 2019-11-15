@@ -1,8 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/Instantiator.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Bindings/1.12.0/Instantiator.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Uno.Object.h>
+#include <Uno.ValueType.h>
 namespace g{namespace Fuse{namespace Reactive{struct TemplateMatch;}}}
 namespace g{namespace Uno{namespace UX{struct Template;}}}
 
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// internal struct TemplateMatch :82
+// internal struct TemplateMatch
 // {
 uStructType* TemplateMatch_typeof();
 void TemplateMatch__Matches_fn(TemplateMatch* __this, TemplateMatch* b, bool* __retval);

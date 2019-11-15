@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting/1.9.0/NativeFunction.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting/1.12.0/NativeFunction.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Scripting{
 
-// public delegate object NativeCallback(Fuse.Scripting.Context c, object[] args) :6
+// public delegate object NativeCallback(Fuse.Scripting.Context c, object[] args)
 uDelegateType* NativeCallback_typeof();
 
 }}} // ::g::Fuse::Scripting

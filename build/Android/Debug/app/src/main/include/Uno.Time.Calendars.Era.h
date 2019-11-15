@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Calendars/Era.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Time/Calendars/Era.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace Uno{
 namespace Time{
 namespace Calendars{
 
-// public sealed class Era :3
+// public sealed class Era
 // {
 uType* Era_typeof();
 void Era__ctor__fn(Era* __this, uString* name);

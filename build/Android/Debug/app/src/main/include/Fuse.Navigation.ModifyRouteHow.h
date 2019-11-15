@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Router.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Router.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// public enum ModifyRouteHow :23
+// public enum ModifyRouteHow
 uEnumType* ModifyRouteHow_typeof();
 
 }}} // ::g::Fuse::Navigation

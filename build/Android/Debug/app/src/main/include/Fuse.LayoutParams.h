@@ -1,16 +1,16 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/LayoutParams.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/LayoutParams.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Uno.Float2.h>
-#include <Uno.Object.h>
+#include <Uno.ValueType.h>
 namespace g{namespace Fuse{struct LayoutParams;}}
 namespace g{namespace Uno{struct Float4;}}
 
 namespace g{
 namespace Fuse{
 
-// public struct LayoutParams :12
+// public struct LayoutParams
 // {
 uStructType* LayoutParams_typeof();
 void LayoutParams__BoxConstrain_fn(LayoutParams* __this, LayoutParams* o);

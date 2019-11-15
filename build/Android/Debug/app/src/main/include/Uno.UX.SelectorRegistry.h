@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/UX/Selector.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/UX/Selector.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Uno{
 namespace UX{
 
-// internal static class SelectorRegistry :7
+// internal static class SelectorRegistry
 // {
 uClassType* SelectorRegistry_typeof();
 void SelectorRegistry__GetHandle_fn(uString* value, int32_t* __retval);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/.uno/package.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/.uno/package.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,34 +8,34 @@ namespace g{struct FuseEffects_bundle;}
 
 namespace g{
 
-// public static generated class FuseEffects_bundle :0
+// public static generated class FuseEffects_bundle
 // {
 uClassType* FuseEffects_bundle_typeof();
 
 struct FuseEffects_bundle : uObject
 {
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Blitter6e650d31_;
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Blitter6e650d31() { return FuseEffects_bundle_typeof()->Init(), Blitter6e650d31_; }
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Desaturate88bb7f94_;
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Desaturate88bb7f94() { return FuseEffects_bundle_typeof()->Init(), Desaturate88bb7f94_; }
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Duotone26eb7e3c_;
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Duotone26eb7e3c() { return FuseEffects_bundle_typeof()->Init(), Duotone26eb7e3c_; }
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> EffectHelpers52052d40_;
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& EffectHelpers52052d40() { return FuseEffects_bundle_typeof()->Init(), EffectHelpers52052d40_; }
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> EffectHelpers9b892494_;
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& EffectHelpers9b892494() { return FuseEffects_bundle_typeof()->Init(), EffectHelpers9b892494_; }
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> EffectHelpersd8c2e3e5_;
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& EffectHelpersd8c2e3e5() { return FuseEffects_bundle_typeof()->Init(), EffectHelpersd8c2e3e5_; }
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> EffectHelperse7e608d1_;
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& EffectHelperse7e608d1() { return FuseEffects_bundle_typeof()->Init(), EffectHelperse7e608d1_; }
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Halftone3c4c510c_;
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Halftone3c4c510c() { return FuseEffects_bundle_typeof()->Init(), Halftone3c4c510c_; }
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Mask0da73af7_;
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Mask0da73af7() { return FuseEffects_bundle_typeof()->Init(), Mask0da73af7_; }
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Mask6affc65c_;
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Mask6affc65c() { return FuseEffects_bundle_typeof()->Init(), Mask6affc65c_; }
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Maskb04eaf92_;
-    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Maskb04eaf92() { return FuseEffects_bundle_typeof()->Init(), Maskb04eaf92_; }
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Blitter1d578c84_;
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Blitter1d578c84() { return FuseEffects_bundle_typeof()->Init(), Blitter1d578c84_; }
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Desaturate52284f19_;
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Desaturate52284f19() { return FuseEffects_bundle_typeof()->Init(), Desaturate52284f19_; }
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Duotone6b7b565b_;
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Duotone6b7b565b() { return FuseEffects_bundle_typeof()->Init(), Duotone6b7b565b_; }
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> EffectHelpers074a19b5_;
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& EffectHelpers074a19b5() { return FuseEffects_bundle_typeof()->Init(), EffectHelpers074a19b5_; }
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> EffectHelpers153da7bd_;
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& EffectHelpers153da7bd() { return FuseEffects_bundle_typeof()->Init(), EffectHelpers153da7bd_; }
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> EffectHelpers1a4b9670_;
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& EffectHelpers1a4b9670() { return FuseEffects_bundle_typeof()->Init(), EffectHelpers1a4b9670_; }
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> EffectHelpers97b71f66_;
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& EffectHelpers97b71f66() { return FuseEffects_bundle_typeof()->Init(), EffectHelpers97b71f66_; }
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Halftoneaae31088_;
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Halftoneaae31088() { return FuseEffects_bundle_typeof()->Init(), Halftoneaae31088_; }
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Mask0d198862_;
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Mask0d198862() { return FuseEffects_bundle_typeof()->Init(), Mask0d198862_; }
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Mask5ca119d4_;
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Mask5ca119d4() { return FuseEffects_bundle_typeof()->Init(), Mask5ca119d4_; }
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*> Mask89aabfb4_;
+    static uSStrong< ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLProgram*>& Mask89aabfb4() { return FuseEffects_bundle_typeof()->Init(), Mask89aabfb4_; }
 };
 // }
 

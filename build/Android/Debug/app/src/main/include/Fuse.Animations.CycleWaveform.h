@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Cycle.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Animations/1.12.0/Cycle.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Animations{
 
-// public enum CycleWaveform :7
+// public enum CycleWaveform
 uEnumType* CycleWaveform_typeof();
 
 }}} // ::g::Fuse::Animations

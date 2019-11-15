@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brush.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brush.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Drawing{
 
-// public abstract class DynamicBrush :81
+// public abstract class DynamicBrush
 // {
 ::g::Fuse::Drawing::Brush_type* DynamicBrush_typeof();
 void DynamicBrush__ctor_2_fn(DynamicBrush* __this);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.UserEvents/1.9.0/UserEvent.ScriptClass.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.UserEvents/1.12.0/UserEvent.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -21,7 +21,7 @@ namespace g{namespace Uno{namespace UX{struct Selector;}}}
 namespace g{
 namespace Fuse{
 
-// public partial sealed class UserEvent :9
+// public partial sealed class UserEvent
 // {
 ::g::Fuse::Node_type* UserEvent_typeof();
 void UserEvent__ctor_3_fn(UserEvent* __this);

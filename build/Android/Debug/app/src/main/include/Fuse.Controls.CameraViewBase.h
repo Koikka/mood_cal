@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/CameraViewBase.ScriptClass.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.CameraView/1.12.0/CameraViewBase.ScriptClass.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -15,7 +15,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -24,6 +24,7 @@
 namespace g{namespace Fuse{namespace Controls{struct CameraInfo;}}}
 namespace g{namespace Fuse{namespace Controls{struct CameraViewBase;}}}
 namespace g{namespace Fuse{namespace Controls{struct CameraViewBase__GetCameraInfoPromise;}}}
+namespace g{namespace Fuse{namespace Controls{struct Nothing;}}}
 namespace g{namespace Fuse{namespace Controls{struct Photo;}}}
 namespace g{namespace Fuse{namespace Controls{struct PhotoOption;}}}
 namespace g{namespace Fuse{namespace Controls{struct RecordingSession;}}}
@@ -35,7 +36,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public interfacemodifiers class CameraViewBase :18
+// public interfacemodifiers class CameraViewBase
 // {
 struct CameraViewBase_type : ::g::Fuse::Controls::Control_type
 {
@@ -72,6 +73,8 @@ void CameraViewBase__PushPropertiesToNativeView_fn(CameraViewBase* __this);
 void CameraViewBase__RejectNotRooted_fn(CameraViewBase* __this, uType* __type, ::g::Uno::Threading::Future1** __retval);
 void CameraViewBase__setCameraFacing_fn(::g::Fuse::Scripting::Context* context, CameraViewBase* self, uArray* args, ::g::Uno::Threading::Future1** __retval);
 void CameraViewBase__SetCameraFacing_fn(CameraViewBase* __this, int32_t* facing, ::g::Uno::Threading::Future1** __retval);
+void CameraViewBase__setCameraFocusPoint_fn(::g::Fuse::Scripting::Context* context, CameraViewBase* self, uArray* args, ::g::Uno::Threading::Future1** __retval);
+void CameraViewBase__SetCameraFocusPoint_fn(CameraViewBase* __this, double* x, double* y, int32_t* cameraWidth, int32_t* cameraHeight, int32_t* isFocusLocked, ::g::Uno::Threading::Future1** __retval);
 void CameraViewBase__setCaptureMode_fn(::g::Fuse::Scripting::Context* context, CameraViewBase* self, uArray* args, ::g::Uno::Threading::Future1** __retval);
 void CameraViewBase__SetCaptureMode_fn(CameraViewBase* __this, int32_t* mode, ::g::Uno::Threading::Future1** __retval);
 void CameraViewBase__setFlashMode_fn(::g::Fuse::Scripting::Context* context, CameraViewBase* self, uArray* args, ::g::Uno::Threading::Future1** __retval);
@@ -104,6 +107,7 @@ struct CameraViewBase : ::g::Fuse::Controls::LayoutControl
     void PreviewStretchMode(int32_t value);
     ::g::Uno::Threading::Future1* RejectNotRooted(uType* __type);
     ::g::Uno::Threading::Future1* SetCameraFacing(int32_t facing);
+    ::g::Uno::Threading::Future1* SetCameraFocusPoint(double x, double y, int32_t cameraWidth, int32_t cameraHeight, int32_t isFocusLocked);
     ::g::Uno::Threading::Future1* SetCaptureMode(int32_t mode);
     ::g::Uno::Threading::Future1* SetFlashMode(int32_t mode);
     ::g::Uno::Threading::Future1* SetPhotoOptions(uArray* options);
@@ -118,6 +122,7 @@ struct CameraViewBase : ::g::Fuse::Controls::LayoutControl
     static uObject* ConvertRecordingSession(::g::Fuse::Scripting::Context* c, ::g::Fuse::Controls::RecordingSession* recordingSession);
     static ::g::Uno::Threading::Future1* getCameraInfo(::g::Fuse::Scripting::Context* context, CameraViewBase* self, uArray* args);
     static ::g::Uno::Threading::Future1* setCameraFacing(::g::Fuse::Scripting::Context* context, CameraViewBase* self, uArray* args);
+    static ::g::Uno::Threading::Future1* setCameraFocusPoint(::g::Fuse::Scripting::Context* context, CameraViewBase* self, uArray* args);
     static ::g::Uno::Threading::Future1* setCaptureMode(::g::Fuse::Scripting::Context* context, CameraViewBase* self, uArray* args);
     static ::g::Uno::Threading::Future1* setFlashMode(::g::Fuse::Scripting::Context* context, CameraViewBase* self, uArray* args);
     static ::g::Uno::Threading::Future1* setPhotoOptions(::g::Fuse::Scripting::Context* context, CameraViewBase* self, uArray* args);

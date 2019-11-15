@@ -1,13 +1,13 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Double.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Double.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Uno.Object.h>
+#include <Uno.ValueType.h>
 
 namespace g{
 namespace Uno{
 
-// public intrinsic struct Double :11
+// public intrinsic struct Double
 // {
 uStructType* Double_typeof();
 void Double__Equals_fn(double* __this, uType* __type, uObject* o, bool* __retval);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Object.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Object.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,7 +7,7 @@
 namespace g{
 namespace Uno{
 
-// public intrinsic class Object :11
+// public intrinsic class Object
 // {
 void Object__Equals_fn(uObject* __this, uObject* o, bool* __retval);
 void Object__Equals1_fn(uObject* left, uObject* right, bool* __retval);

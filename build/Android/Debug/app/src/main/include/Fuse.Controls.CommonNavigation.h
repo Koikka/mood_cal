@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/CommonNavigation.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/CommonNavigation.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// internal static class CommonNavigation :10
+// internal static class CommonNavigation
 // {
 uClassType* CommonNavigation_typeof();
 void CommonNavigation__CompareCurrent_fn(::g::Fuse::Visual* parent, ::g::Fuse::Visual* current, ::g::Fuse::Navigation::RouterPage* routerPage, ::g::Fuse::Visual** pageVisual, int32_t* __retval);

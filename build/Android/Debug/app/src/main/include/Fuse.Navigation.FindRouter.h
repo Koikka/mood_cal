@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/FindRouter.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/FindRouter.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// public sealed class FindRouter :25
+// public sealed class FindRouter
 // {
 ::g::Fuse::Reactive::Expression_type* FindRouter_typeof();
 void FindRouter__Subscribe_fn(FindRouter* __this, uObject* context, uObject* listener, uObject** __retval);

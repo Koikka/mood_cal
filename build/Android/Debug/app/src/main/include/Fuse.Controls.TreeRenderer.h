@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/TreeRenderer.Android.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/TreeRenderer.Android.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -17,7 +17,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// internal sealed extern class TreeRenderer :13
+// internal sealed extern class TreeRenderer
 // {
 struct TreeRenderer_type : uType
 {

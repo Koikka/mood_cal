@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/IO/StreamReader.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/IO/StreamReader.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Uno{
 namespace IO{
 
-// public sealed class StreamReader :7
+// public sealed class StreamReader
 // {
 ::g::Uno::IO::TextReader_type* StreamReader_typeof();
 void StreamReader__ctor_1_fn(StreamReader* __this, ::g::Uno::IO::Stream* stream);

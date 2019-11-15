@@ -23,7 +23,7 @@ public class CameraLoader
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static void Load1306(final int cameraId,final com.foreign.Uno.Action_Object resolve,final com.foreign.Uno.Action_String reject)
+    public static void Load1309(final int cameraId,final com.foreign.Uno.Action_Object resolve,final com.foreign.Uno.Action_String reject)
     {
         try {
         	resolve.run(android.hardware.Camera.open(cameraId));

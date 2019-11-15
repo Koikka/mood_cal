@@ -2,7 +2,7 @@
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Experimental.Http.BinaryLoader.h>
-#include <Experimental.Http.Htt-2465a87a.h>
+#include <Experimental.Http.Htt-c2183008.h>
 #include <Experimental.Http.HttpLoader.h>
 #include <Experimental.Http.LoaderConst.h>
 #include <Fuse.UpdateManager.h>
@@ -15,8 +15,8 @@
 #include <Uno.Delegate.h>
 #include <Uno.Exception.h>
 #include <Uno.Int.h>
-#include <Uno.Net.Http.HttpMess-1d2e0b2f.h>
-#include <Uno.Net.Http.HttpMess-8a5feb56.h>
+#include <Uno.Net.Http.HttpMess-398281f5.h>
+#include <Uno.Net.Http.HttpMess-a6066fba.h>
 #include <Uno.Net.Http.HttpResponseType.h>
 #include <Uno.String.h>
 #include <Uno.Threading.IDispatcher.h>
@@ -27,10 +27,10 @@ namespace g{
 namespace Experimental{
 namespace Http{
 
-// /usr/local/share/uno/Packages/Experimental.Http/1.9.0/BinaryLoader.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Experimental.Http/1.12.0/BinaryLoader.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed class BinaryLoader :14
+// internal sealed class BinaryLoader
 // {
 static void BinaryLoader_build(uType* type)
 {
@@ -65,60 +65,60 @@ uType* BinaryLoader_typeof()
     return type;
 }
 
-// public generated BinaryLoader() :14
+// public generated BinaryLoader()
 void BinaryLoader__ctor__fn(BinaryLoader* __this)
 {
     __this->ctor_();
 }
 
-// private Uno.Collections.Dictionary<string, string> ExtractHeaders(string headers) :54
+// private Uno.Collections.Dictionary<string, string> ExtractHeaders(string headers)
 void BinaryLoader__ExtractHeaders_fn(BinaryLoader* __this, uString* headers, ::g::Uno::Collections::Dictionary** __retval)
 {
     *__retval = __this->ExtractHeaders(headers);
 }
 
-// protected Experimental.Http.HttpResponseHeader get_Header() :41
+// protected Experimental.Http.HttpResponseHeader get_Header()
 void BinaryLoader__get_Header_fn(BinaryLoader* __this, ::g::Experimental::Http::HttpResponseHeader** __retval)
 {
     *__retval = __this->Header();
 }
 
-// public void Initiate() :21
+// public void Initiate()
 void BinaryLoader__Initiate_fn(BinaryLoader* __this)
 {
     __this->Initiate();
 }
 
-// public void MakeRequest() :26
+// public void MakeRequest()
 void BinaryLoader__MakeRequest_fn(BinaryLoader* __this)
 {
     __this->MakeRequest();
 }
 
-// public generated BinaryLoader New() :14
+// public generated BinaryLoader New()
 void BinaryLoader__New1_fn(BinaryLoader** __retval)
 {
     *__retval = BinaryLoader::New1();
 }
 
-// public void OnError(Uno.Net.Http.HttpMessageHandlerRequest msg, string reason) :69
+// public void OnError(Uno.Net.Http.HttpMessageHandlerRequest msg, string reason)
 void BinaryLoader__OnError_fn(BinaryLoader* __this, ::g::Uno::Net::Http::HttpMessageHandlerRequest* msg, uString* reason)
 {
     __this->OnError(msg, reason);
 }
 
-// public void OnLoaded(Uno.Net.Http.HttpMessageHandlerRequest resp) :44
+// public void OnLoaded(Uno.Net.Http.HttpMessageHandlerRequest resp)
 void BinaryLoader__OnLoaded_fn(BinaryLoader* __this, ::g::Uno::Net::Http::HttpMessageHandlerRequest* resp)
 {
     __this->OnLoaded(resp);
 }
 
-// public generated BinaryLoader() [instance] :14
+// public generated BinaryLoader() [instance]
 void BinaryLoader::ctor_()
 {
 }
 
-// private Uno.Collections.Dictionary<string, string> ExtractHeaders(string headers) [instance] :54
+// private Uno.Collections.Dictionary<string, string> ExtractHeaders(string headers) [instance]
 ::g::Uno::Collections::Dictionary* BinaryLoader::ExtractHeaders(uString* headers)
 {
     uArray* array1;
@@ -141,19 +141,19 @@ void BinaryLoader::ctor_()
     return res;
 }
 
-// protected Experimental.Http.HttpResponseHeader get_Header() [instance] :41
+// protected Experimental.Http.HttpResponseHeader get_Header() [instance]
 ::g::Experimental::Http::HttpResponseHeader* BinaryLoader::Header()
 {
     return _header;
 }
 
-// public void Initiate() [instance] :21
+// public void Initiate() [instance]
 void BinaryLoader::Initiate()
 {
     MakeRequest();
 }
 
-// public void MakeRequest() [instance] :26
+// public void MakeRequest() [instance]
 void BinaryLoader::MakeRequest()
 {
     if (::g::Experimental::Http::LoaderConst::Handler_ == NULL)
@@ -166,13 +166,13 @@ void BinaryLoader::MakeRequest()
     request->SendAsync();
 }
 
-// public void OnError(Uno.Net.Http.HttpMessageHandlerRequest msg, string reason) [instance] :69
+// public void OnError(Uno.Net.Http.HttpMessageHandlerRequest msg, string reason) [instance]
 void BinaryLoader::OnError(::g::Uno::Net::Http::HttpMessageHandlerRequest* msg, uString* reason)
 {
     uPtr(ErrorCallback)->InvokeVoid(reason);
 }
 
-// public void OnLoaded(Uno.Net.Http.HttpMessageHandlerRequest resp) [instance] :44
+// public void OnLoaded(Uno.Net.Http.HttpMessageHandlerRequest resp) [instance]
 void BinaryLoader::OnLoaded(::g::Uno::Net::Http::HttpMessageHandlerRequest* resp)
 {
     _header = ::g::Experimental::Http::HttpResponseHeader::New1();
@@ -181,7 +181,7 @@ void BinaryLoader::OnLoaded(::g::Uno::Net::Http::HttpMessageHandlerRequest* resp
     uPtr(Callback)->Invoke(2, (::g::Experimental::Http::HttpResponseHeader*)Header(), (uArray*)resp->GetResponseContentByteArray());
 }
 
-// public generated BinaryLoader New() [static] :14
+// public generated BinaryLoader New() [static]
 BinaryLoader* BinaryLoader::New1()
 {
     BinaryLoader* obj4 = (BinaryLoader*)uNew(BinaryLoader_typeof());
@@ -190,10 +190,10 @@ BinaryLoader* BinaryLoader::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Experimental.Http/1.9.0/HttpLoader.uno
-// --------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Experimental.Http/1.12.0/HttpLoader.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class HttpLoader :9
+// public static class HttpLoader
 // {
 static void HttpLoader_build(uType* type)
 {
@@ -214,13 +214,13 @@ uClassType* HttpLoader_typeof()
     return type;
 }
 
-// public static void LoadBinary(string requestUri, Uno.Action<Experimental.Http.HttpResponseHeader, byte[]> callback, Uno.Action<string> error) :11
+// public static void LoadBinary(string requestUri, Uno.Action<Experimental.Http.HttpResponseHeader, byte[]> callback, Uno.Action<string> error)
 void HttpLoader__LoadBinary_fn(uString* requestUri, uDelegate* callback, uDelegate* error)
 {
     HttpLoader::LoadBinary(requestUri, callback, error);
 }
 
-// public static void LoadBinary(string requestUri, Uno.Action<Experimental.Http.HttpResponseHeader, byte[]> callback, Uno.Action<string> error) [static] :11
+// public static void LoadBinary(string requestUri, Uno.Action<Experimental.Http.HttpResponseHeader, byte[]> callback, Uno.Action<string> error) [static]
 void HttpLoader::LoadBinary(uString* requestUri, uDelegate* callback, uDelegate* error)
 {
     if (::g::Uno::Delegate::op_Equality(callback, NULL))
@@ -238,10 +238,10 @@ void HttpLoader::LoadBinary(uString* requestUri, uDelegate* callback, uDelegate*
 }
 // }
 
-// /usr/local/share/uno/Packages/Experimental.Http/1.9.0/HttpResponseHeader.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Experimental.Http/1.12.0/HttpResponseHeader.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class HttpResponseHeader :7
+// public sealed class HttpResponseHeader
 // {
 static void HttpResponseHeader_build(uType* type)
 {
@@ -266,96 +266,96 @@ uType* HttpResponseHeader_typeof()
     return type;
 }
 
-// public generated HttpResponseHeader() :7
+// public generated HttpResponseHeader()
 void HttpResponseHeader__ctor__fn(HttpResponseHeader* __this)
 {
     __this->ctor_();
 }
 
-// public generated Uno.Collections.Dictionary<string, string> get_Headers() :12
+// public generated Uno.Collections.Dictionary<string, string> get_Headers()
 void HttpResponseHeader__get_Headers_fn(HttpResponseHeader* __this, ::g::Uno::Collections::Dictionary** __retval)
 {
     *__retval = __this->Headers();
 }
 
-// internal generated void set_Headers(Uno.Collections.Dictionary<string, string> value) :12
+// internal generated void set_Headers(Uno.Collections.Dictionary<string, string> value)
 void HttpResponseHeader__set_Headers_fn(HttpResponseHeader* __this, ::g::Uno::Collections::Dictionary* value)
 {
     __this->Headers(value);
 }
 
-// public generated HttpResponseHeader New() :7
+// public generated HttpResponseHeader New()
 void HttpResponseHeader__New1_fn(HttpResponseHeader** __retval)
 {
     *__retval = HttpResponseHeader::New1();
 }
 
-// public generated string get_ReasonPhrase() :10
+// public generated string get_ReasonPhrase()
 void HttpResponseHeader__get_ReasonPhrase_fn(HttpResponseHeader* __this, uString** __retval)
 {
     *__retval = __this->ReasonPhrase();
 }
 
-// internal generated void set_ReasonPhrase(string value) :10
+// internal generated void set_ReasonPhrase(string value)
 void HttpResponseHeader__set_ReasonPhrase_fn(HttpResponseHeader* __this, uString* value)
 {
     __this->ReasonPhrase(value);
 }
 
-// public generated int get_StatusCode() :9
+// public generated int get_StatusCode()
 void HttpResponseHeader__get_StatusCode_fn(HttpResponseHeader* __this, int32_t* __retval)
 {
     *__retval = __this->StatusCode();
 }
 
-// internal generated void set_StatusCode(int value) :9
+// internal generated void set_StatusCode(int value)
 void HttpResponseHeader__set_StatusCode_fn(HttpResponseHeader* __this, int32_t* value)
 {
     __this->StatusCode(*value);
 }
 
-// public generated HttpResponseHeader() [instance] :7
+// public generated HttpResponseHeader() [instance]
 void HttpResponseHeader::ctor_()
 {
 }
 
-// public generated Uno.Collections.Dictionary<string, string> get_Headers() [instance] :12
+// public generated Uno.Collections.Dictionary<string, string> get_Headers() [instance]
 ::g::Uno::Collections::Dictionary* HttpResponseHeader::Headers()
 {
     return _Headers;
 }
 
-// internal generated void set_Headers(Uno.Collections.Dictionary<string, string> value) [instance] :12
+// internal generated void set_Headers(Uno.Collections.Dictionary<string, string> value) [instance]
 void HttpResponseHeader::Headers(::g::Uno::Collections::Dictionary* value)
 {
     _Headers = value;
 }
 
-// public generated string get_ReasonPhrase() [instance] :10
+// public generated string get_ReasonPhrase() [instance]
 uString* HttpResponseHeader::ReasonPhrase()
 {
     return _ReasonPhrase;
 }
 
-// internal generated void set_ReasonPhrase(string value) [instance] :10
+// internal generated void set_ReasonPhrase(string value) [instance]
 void HttpResponseHeader::ReasonPhrase(uString* value)
 {
     _ReasonPhrase = value;
 }
 
-// public generated int get_StatusCode() [instance] :9
+// public generated int get_StatusCode() [instance]
 int32_t HttpResponseHeader::StatusCode()
 {
     return _StatusCode;
 }
 
-// internal generated void set_StatusCode(int value) [instance] :9
+// internal generated void set_StatusCode(int value) [instance]
 void HttpResponseHeader::StatusCode(int32_t value)
 {
     _StatusCode = value;
 }
 
-// public generated HttpResponseHeader New() [static] :7
+// public generated HttpResponseHeader New() [static]
 HttpResponseHeader* HttpResponseHeader::New1()
 {
     HttpResponseHeader* obj2 = (HttpResponseHeader*)uNew(HttpResponseHeader_typeof());
@@ -364,10 +364,10 @@ HttpResponseHeader* HttpResponseHeader::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Experimental.Http/1.9.0/BinaryLoader.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Experimental.Http/1.12.0/BinaryLoader.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static class LoaderConst :9
+// internal static class LoaderConst
 // {
 static void LoaderConst_build(uType* type)
 {

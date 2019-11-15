@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting/1.9.0/NativeEvent.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting/1.12.0/NativeEvent.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Scripting.Function.h>
-#include <Fuse.Scripting.Native-c8feecef.h>
+#include <Fuse.Scripting.Native-aec1d155.h>
 namespace g{namespace Fuse{namespace Scripting{struct Context;}}}
 namespace g{namespace Fuse{namespace Scripting{struct NativeEvent;}}}
 namespace g{namespace Uno{namespace Collections{struct Queue;}}}
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Scripting{
 
-// public sealed class NativeEvent :7
+// public sealed class NativeEvent
 // {
 ::g::Fuse::Scripting::NativeProperty_type* NativeEvent_typeof();
 void NativeEvent__ctor_4_fn(NativeEvent* __this, uString* name, bool* queueEventsBeforeHandlerIsSet);

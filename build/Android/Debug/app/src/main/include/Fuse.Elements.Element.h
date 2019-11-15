@@ -1,10 +1,10 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Elements/1.9.0/AspectBoxSizing.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Elements/1.12.0/AspectBoxSizing.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Animations.IResize.h>
 #include <Fuse.Binding.h>
-#include <Fuse.Elements.Element-e8906a44.h>
+#include <Fuse.Elements.Element-c6ffb81d.h>
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
@@ -14,7 +14,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -46,7 +46,7 @@ namespace g{
 namespace Fuse{
 namespace Elements{
 
-// public interfacemodifiers class Element :102
+// public interfacemodifiers class Element
 // {
 struct Element_type : ::g::Fuse::Visual_type
 {

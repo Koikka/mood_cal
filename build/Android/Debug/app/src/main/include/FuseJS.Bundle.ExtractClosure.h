@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/FuseJS/1.9.0/Bundle.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Bundle.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace FuseJS{struct Bundle__ExtractClosure;}}
 namespace g{
 namespace FuseJS{
 
-// private sealed class Bundle.ExtractClosure :225
+// private sealed class Bundle.ExtractClosure
 // {
 uType* Bundle__ExtractClosure_typeof();
 void Bundle__ExtractClosure__ctor__fn(Bundle__ExtractClosure* __this, uString* searchPath, uString* destinationPath, bool* overwriteIfExists);

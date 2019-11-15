@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Marshal/1.9.0/Marshal.Convert.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Marshal/1.12.0/Marshal.Convert.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{namespace Fuse{struct Marshal__SingleArray;}}
 namespace g{
 namespace Fuse{
 
-// private sealed class Marshal.SingleArray :15
+// private sealed class Marshal.SingleArray
 // {
 struct Marshal__SingleArray_type : uType
 {

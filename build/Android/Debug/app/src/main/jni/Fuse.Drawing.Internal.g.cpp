@@ -1,13 +1,13 @@
 // This file was generated based on '(multiple files)'.
 // WARNING: Changes might be lost if you edit this file directly.
 
-#include <Fuse.Drawing.Internal-3dcc41e8.h>
-#include <Fuse.Drawing.Internal-b9d8148e.h>
-#include <Fuse.Drawing.Internal-bacec382.h>
-#include <Fuse.Drawing.Internal-bcd6298f.h>
+#include <Fuse.Drawing.Internal-1b31e5ea.h>
+#include <Fuse.Drawing.Internal-2ca76543.h>
+#include <Fuse.Drawing.Internal-acfd08d8.h>
+#include <Fuse.Drawing.Internal-ec458cdf.h>
 #include <Uno.Bool.h>
-#include <Uno.Buffer.h>
 #include <Uno.Byte.h>
+#include <Uno.ByteArrayExtensions.h>
 #include <Uno.Double.h>
 #include <Uno.Float.h>
 #include <Uno.Float2.h>
@@ -16,16 +16,17 @@
 #include <Uno.Graphics.VertexBuffer.h>
 #include <Uno.Int.h>
 #include <Uno.UShort.h>
+static uType* TYPES[1];
 
 namespace g{
 namespace Fuse{
 namespace Drawing{
 namespace Internal{
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Internal/BufferCollections.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Internal/BufferCollections.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class Float2Buffer :149
+// public sealed class Float2Buffer
 // {
 static void Float2Buffer_build(uType* type)
 {
@@ -48,62 +49,62 @@ uType* Float2Buffer_typeof()
     return type;
 }
 
-// public Float2Buffer() :150
+// public Float2Buffer()
 void Float2Buffer__ctor_2_fn(Float2Buffer* __this)
 {
     __this->ctor_2();
 }
 
-// public void Append(double x, double y) :162
+// public void Append(double x, double y)
 void Float2Buffer__Append_fn(Float2Buffer* __this, double* x, double* y)
 {
     __this->Append(*x, *y);
 }
 
-// public void Append(float2 value) :157
+// public void Append(float2 value)
 void Float2Buffer__Append1_fn(Float2Buffer* __this, ::g::Uno::Float2* value)
 {
     __this->Append1(*value);
 }
 
-// public Float2Buffer New() :150
+// public Float2Buffer New()
 void Float2Buffer__New3_fn(Float2Buffer** __retval)
 {
     *__retval = Float2Buffer::New3();
 }
 
-// public void Set(int offset, float2 value) :153
+// public void Set(int offset, float2 value)
 void Float2Buffer__Set_fn(Float2Buffer* __this, int32_t* offset, ::g::Uno::Float2* value)
 {
     __this->Set(*offset, *value);
 }
 
-// public Float2Buffer() [instance] :150
+// public Float2Buffer() [instance]
 void Float2Buffer::ctor_2()
 {
     ctor_1(8, 32);
 }
 
-// public void Append(double x, double y) [instance] :162
+// public void Append(double x, double y) [instance]
 void Float2Buffer::Append(double x, double y)
 {
     Append1(::g::Uno::Float2__New2((float)x, (float)y));
 }
 
-// public void Append(float2 value) [instance] :157
+// public void Append(float2 value) [instance]
 void Float2Buffer::Append1(::g::Uno::Float2 value)
 {
     CheckGrow();
     Set(size++, value);
 }
 
-// public void Set(int offset, float2 value) [instance] :153
+// public void Set(int offset, float2 value) [instance]
 void Float2Buffer::Set(int32_t offset, ::g::Uno::Float2 value)
 {
-    uPtr(back)->Set5(offset * typeSize, value, true);
+    ::g::Uno::ByteArrayExtensions::Set5(back, offset * typeSize, value, true);
 }
 
-// public Float2Buffer New() [static] :150
+// public Float2Buffer New() [static]
 Float2Buffer* Float2Buffer::New3()
 {
     Float2Buffer* obj1 = (Float2Buffer*)uNew(Float2Buffer_typeof());
@@ -112,10 +113,10 @@ Float2Buffer* Float2Buffer::New3()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Internal/BufferCollections.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Internal/BufferCollections.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class FloatBuffer :131
+// public sealed class FloatBuffer
 // {
 static void FloatBuffer_build(uType* type)
 {
@@ -138,50 +139,50 @@ uType* FloatBuffer_typeof()
     return type;
 }
 
-// public FloatBuffer() :132
+// public FloatBuffer()
 void FloatBuffer__ctor_2_fn(FloatBuffer* __this)
 {
     __this->ctor_2();
 }
 
-// public void Append(float value) :139
+// public void Append(float value)
 void FloatBuffer__Append1_fn(FloatBuffer* __this, float* value)
 {
     __this->Append1(*value);
 }
 
-// public FloatBuffer New() :132
+// public FloatBuffer New()
 void FloatBuffer__New3_fn(FloatBuffer** __retval)
 {
     *__retval = FloatBuffer::New3();
 }
 
-// public void Set(int offset, float value) :135
+// public void Set(int offset, float value)
 void FloatBuffer__Set_fn(FloatBuffer* __this, int32_t* offset, float* value)
 {
     __this->Set(*offset, *value);
 }
 
-// public FloatBuffer() [instance] :132
+// public FloatBuffer() [instance]
 void FloatBuffer::ctor_2()
 {
     ctor_1(4, 32);
 }
 
-// public void Append(float value) [instance] :139
+// public void Append(float value) [instance]
 void FloatBuffer::Append1(float value)
 {
     CheckGrow();
     Set(size++, value);
 }
 
-// public void Set(int offset, float value) [instance] :135
+// public void Set(int offset, float value) [instance]
 void FloatBuffer::Set(int32_t offset, float value)
 {
-    uPtr(back)->Set4(offset * typeSize, value, true);
+    ::g::Uno::ByteArrayExtensions::Set4(back, offset * typeSize, value, true);
 }
 
-// public FloatBuffer New() [static] :132
+// public FloatBuffer New() [static]
 FloatBuffer* FloatBuffer::New3()
 {
     FloatBuffer* obj1 = (FloatBuffer*)uNew(FloatBuffer_typeof());
@@ -190,15 +191,16 @@ FloatBuffer* FloatBuffer::New3()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Internal/BufferCollections.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Internal/BufferCollections.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public class TypedBuffer :20
+// public class TypedBuffer
 // {
 static void TypedBuffer_build(uType* type)
 {
+    ::TYPES[0] = ::g::Uno::Byte_typeof()->Array();
     type->SetFields(0,
-        ::g::Uno::Buffer_typeof(), offsetof(TypedBuffer, back), 0,
+        ::TYPES[0/*byte[]*/], offsetof(TypedBuffer, back), 0,
         ::g::Uno::Int_typeof(), offsetof(TypedBuffer, typeSize), 0,
         ::g::Uno::Int_typeof(), offsetof(TypedBuffer, capacity), 0,
         ::g::Uno::Int_typeof(), offsetof(TypedBuffer, size), 0,
@@ -220,55 +222,55 @@ uType* TypedBuffer_typeof()
     return type;
 }
 
-// protected TypedBuffer(int typeSize, [int initSize]) :28
+// protected TypedBuffer(int typeSize, [int initSize])
 void TypedBuffer__ctor_1_fn(TypedBuffer* __this, int32_t* typeSize1, int32_t* initSize)
 {
     __this->ctor_1(*typeSize1, *initSize);
 }
 
-// protected void CheckGrow() :94
+// protected void CheckGrow()
 void TypedBuffer__CheckGrow_fn(TypedBuffer* __this)
 {
     __this->CheckGrow();
 }
 
-// public int Count() :74
+// public int Count()
 void TypedBuffer__Count_fn(TypedBuffer* __this, int32_t* __retval)
 {
     *__retval = __this->Count();
 }
 
-// public Uno.Graphics.IndexBuffer GetDeviceIndex() :53
+// public Uno.Graphics.IndexBuffer GetDeviceIndex()
 void TypedBuffer__GetDeviceIndex_fn(TypedBuffer* __this, ::g::Uno::Graphics::IndexBuffer** __retval)
 {
     *__retval = __this->GetDeviceIndex();
 }
 
-// public Uno.Graphics.VertexBuffer GetDeviceVertex() :61
+// public Uno.Graphics.VertexBuffer GetDeviceVertex()
 void TypedBuffer__GetDeviceVertex_fn(TypedBuffer* __this, ::g::Uno::Graphics::VertexBuffer** __retval)
 {
     *__retval = __this->GetDeviceVertex();
 }
 
-// protected void Init(int initSize) :34
+// protected void Init(int initSize)
 void TypedBuffer__Init_fn(TypedBuffer* __this, int32_t* initSize)
 {
     __this->Init(*initSize);
 }
 
-// public void InitDeviceIndex([Uno.Graphics.BufferUsage bu]) :50
+// public void InitDeviceIndex([Uno.Graphics.BufferUsage bu])
 void TypedBuffer__InitDeviceIndex_fn(TypedBuffer* __this, int32_t* bu)
 {
     __this->InitDeviceIndex(*bu);
 }
 
-// public void InitDeviceVertex([Uno.Graphics.BufferUsage bu]) :58
+// public void InitDeviceVertex([Uno.Graphics.BufferUsage bu])
 void TypedBuffer__InitDeviceVertex_fn(TypedBuffer* __this, int32_t* bu)
 {
     __this->InitDeviceVertex(*bu);
 }
 
-// protected TypedBuffer(int typeSize, [int initSize]) [instance] :28
+// protected TypedBuffer(int typeSize, [int initSize]) [instance]
 void TypedBuffer::ctor_1(int32_t typeSize1, int32_t initSize)
 {
     typeSize = typeSize1;
@@ -276,64 +278,64 @@ void TypedBuffer::ctor_1(int32_t typeSize1, int32_t initSize)
     Init(initSize);
 }
 
-// protected void CheckGrow() [instance] :94
+// protected void CheckGrow() [instance]
 void TypedBuffer::CheckGrow()
 {
     if (size < capacity)
         return;
 
     int32_t newCap = capacity * 2;
-    ::g::Uno::Buffer* newBuf = ::g::Uno::Buffer::New4(typeSize * newCap);
+    uArray* newBuf = uArray::New(::TYPES[0/*byte[]*/], typeSize * newCap);
 
-    for (int32_t i = 0; i < uPtr(back)->SizeInBytes(); ++i)
-        uPtr(newBuf)->Set(i, uPtr(back)->Item(i));
+    for (int32_t i = 0; i < uPtr(back)->Length(); ++i)
+        ::g::Uno::ByteArrayExtensions::Set(newBuf, i, uPtr(back)->Item<uint8_t>(i));
 
     back = newBuf;
     capacity = newCap;
 }
 
-// public int Count() [instance] :74
+// public int Count() [instance]
 int32_t TypedBuffer::Count()
 {
     return size;
 }
 
-// public Uno.Graphics.IndexBuffer GetDeviceIndex() [instance] :53
+// public Uno.Graphics.IndexBuffer GetDeviceIndex() [instance]
 ::g::Uno::Graphics::IndexBuffer* TypedBuffer::GetDeviceIndex()
 {
     return deviceIndex;
 }
 
-// public Uno.Graphics.VertexBuffer GetDeviceVertex() [instance] :61
+// public Uno.Graphics.VertexBuffer GetDeviceVertex() [instance]
 ::g::Uno::Graphics::VertexBuffer* TypedBuffer::GetDeviceVertex()
 {
     return deviceVertex;
 }
 
-// protected void Init(int initSize) [instance] :34
+// protected void Init(int initSize) [instance]
 void TypedBuffer::Init(int32_t initSize)
 {
     capacity = initSize;
-    back = ::g::Uno::Buffer::New4(typeSize * initSize);
+    back = uArray::New(::TYPES[0/*byte[]*/], typeSize * initSize);
 }
 
-// public void InitDeviceIndex([Uno.Graphics.BufferUsage bu]) [instance] :50
+// public void InitDeviceIndex([Uno.Graphics.BufferUsage bu]) [instance]
 void TypedBuffer::InitDeviceIndex(int32_t bu)
 {
-    deviceIndex = ::g::Uno::Graphics::IndexBuffer::New1(uPtr(back)->GetBytes(), bu);
+    deviceIndex = ::g::Uno::Graphics::IndexBuffer::New1(back, bu);
 }
 
-// public void InitDeviceVertex([Uno.Graphics.BufferUsage bu]) [instance] :58
+// public void InitDeviceVertex([Uno.Graphics.BufferUsage bu]) [instance]
 void TypedBuffer::InitDeviceVertex(int32_t bu)
 {
-    deviceVertex = ::g::Uno::Graphics::VertexBuffer::New1(uPtr(back)->GetBytes(), bu);
+    deviceVertex = ::g::Uno::Graphics::VertexBuffer::New1(back, bu);
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Internal/BufferCollections.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Internal/BufferCollections.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed class UShortBuffer :167
+// public sealed class UShortBuffer
 // {
 static void UShortBuffer_build(uType* type)
 {
@@ -356,50 +358,50 @@ uType* UShortBuffer_typeof()
     return type;
 }
 
-// public UShortBuffer() :168
+// public UShortBuffer()
 void UShortBuffer__ctor_2_fn(UShortBuffer* __this)
 {
     __this->ctor_2();
 }
 
-// public void Append(int value) :180
+// public void Append(int value)
 void UShortBuffer__Append_fn(UShortBuffer* __this, int32_t* value)
 {
     __this->Append(*value);
 }
 
-// public UShortBuffer New() :168
+// public UShortBuffer New()
 void UShortBuffer__New3_fn(UShortBuffer** __retval)
 {
     *__retval = UShortBuffer::New3();
 }
 
-// public void Set(int offset, ushort value) :171
+// public void Set(int offset, ushort value)
 void UShortBuffer__Set_fn(UShortBuffer* __this, int32_t* offset, uint16_t* value)
 {
     __this->Set(*offset, *value);
 }
 
-// public UShortBuffer() [instance] :168
+// public UShortBuffer() [instance]
 void UShortBuffer::ctor_2()
 {
     ctor_1(2, 32);
 }
 
-// public void Append(int value) [instance] :180
+// public void Append(int value) [instance]
 void UShortBuffer::Append(int32_t value)
 {
     CheckGrow();
     Set(size++, (uint16_t)value);
 }
 
-// public void Set(int offset, ushort value) [instance] :171
+// public void Set(int offset, ushort value) [instance]
 void UShortBuffer::Set(int32_t offset, uint16_t value)
 {
-    uPtr(back)->Set23(offset * typeSize, value, true);
+    ::g::Uno::ByteArrayExtensions::Set23(back, offset * typeSize, value, true);
 }
 
-// public UShortBuffer New() [static] :168
+// public UShortBuffer New() [static]
 UShortBuffer* UShortBuffer::New3()
 {
     UShortBuffer* obj1 = (UShortBuffer*)uNew(UShortBuffer_typeof());

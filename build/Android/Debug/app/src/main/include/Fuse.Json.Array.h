@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Json.Parse.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Json.Parse.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{namespace Fuse{struct Json__Array;}}
 namespace g{
 namespace Fuse{
 
-// private sealed class Json.Array :83
+// private sealed class Json.Array
 // {
 struct Json__Array_type : uType
 {

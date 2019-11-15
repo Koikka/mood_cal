@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Selection/1.9.0/Selection.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Selection/1.12.0/Selection.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Selection{
 
-// private enum Selection.How :333
+// private enum Selection.How
 uEnumType* Selection__How_typeof();
 
 }}} // ::g::Fuse::Selection

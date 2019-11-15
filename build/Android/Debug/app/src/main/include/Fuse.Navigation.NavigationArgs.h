@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/Navigation.Events.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/Navigation.Events.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// public sealed class NavigationArgs :13
+// public sealed class NavigationArgs
 // {
 uType* NavigationArgs_typeof();
 void NavigationArgs__ctor_1_fn(NavigationArgs* __this, double* progress, double* prevProgress, int32_t* mode);

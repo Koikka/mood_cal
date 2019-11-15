@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Texture2D.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Graphics/Texture2D.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Uno{
 namespace Graphics{
 
-// public intrinsic sealed class Texture2D :10
+// public intrinsic sealed class Texture2D
 // {
 struct Texture2D_type : uType
 {

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Uno.Data.Json/1.9.0/Source/JsonWriter.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Data.Json/1.12.3/Source/JsonWriter.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace Uno{
 namespace Data{
 namespace Json{
 
-// public static class JsonWriter :5
+// public static class JsonWriter
 // {
 uClassType* JsonWriter_typeof();
 void JsonWriter__EscapeString1_fn(uString* str, ::g::Uno::Text::StringBuilder* sb);

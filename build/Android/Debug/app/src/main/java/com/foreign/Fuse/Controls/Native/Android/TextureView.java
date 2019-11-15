@@ -23,21 +23,21 @@ public class TextureView
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object Create215()
+    public static Object Create217()
     {
         android.view.TextureView textureView = new android.view.TextureView(com.fuse.Activity.getRootActivity());
         textureView.setLayoutParams(new android.widget.FrameLayout.LayoutParams(android.view.ViewGroup.LayoutParams.FILL_PARENT, android.view.ViewGroup.LayoutParams.FILL_PARENT));
         return textureView;
     }
     
-    public static void InstallSurfaceListener216(final UnoObject _this, final Object handle)
+    public static void InstallSurfaceListener218(final UnoObject _this, final Object handle)
     {
         ((android.view.TextureView)handle).setSurfaceTextureListener(new android.view.TextureView.SurfaceTextureListener() {
         	public void onSurfaceTextureAvailable(android.graphics.SurfaceTexture surface, int width, int height) {
-        		ExternedBlockHost.callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable217((UnoObject)_this,(Object)new android.view.Surface(surface),UnoHelper.GetUnoObjectRef((Object)new android.view.Surface(surface)));
+        		ExternedBlockHost.callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureAvailable219((UnoObject)_this,(Object)new android.view.Surface(surface),UnoHelper.GetUnoObjectRef((Object)new android.view.Surface(surface)));
         	}
         	public boolean onSurfaceTextureDestroyed(android.graphics.SurfaceTexture surface) {
-        		ExternedBlockHost.callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed218((UnoObject)_this);
+        		ExternedBlockHost.callUno_Fuse_Controls_Native_Android_TextureView_OnSurfaceTextureDestroyed220((UnoObject)_this);
         		return true;
         	}
         	public void onSurfaceTextureSizeChanged(android.graphics.SurfaceTexture surface, int width, int height) {

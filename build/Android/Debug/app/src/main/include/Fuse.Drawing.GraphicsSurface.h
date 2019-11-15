@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Drawing.Surface/1.9.0/Android/GraphicsSurface.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing.Surface/1.12.0/Android/GraphicsSurface.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -15,7 +15,7 @@ namespace g{
 namespace Fuse{
 namespace Drawing{
 
-// internal sealed extern class GraphicsSurface :41
+// internal sealed extern class GraphicsSurface
 // {
 ::g::Fuse::Drawing::AndroidSurface_type* GraphicsSurface_typeof();
 void GraphicsSurface__ctor_2_fn(GraphicsSurface* __this);

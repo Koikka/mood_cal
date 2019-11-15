@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Marshal/1.9.0/Computer.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Marshal/1.12.0/Computer.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,11 +9,12 @@ namespace g{namespace Fuse{struct SizeComputer;}}
 namespace g{
 namespace Fuse{
 
-// internal sealed class SizeComputer :158
+// internal sealed class SizeComputer
 // {
-uType* SizeComputer_typeof();
+::g::Fuse::Computer1_type* SizeComputer_typeof();
 void SizeComputer__ctor_2_fn(SizeComputer* __this);
 void SizeComputer__New1_fn(SizeComputer** __retval);
+void SizeComputer__TryOpImpl1_fn(SizeComputer* __this, int32_t* op, ::g::Uno::UX::Size* a, ::g::Uno::UX::Size* b, ::g::Uno::UX::Size* result, bool* __retval);
 
 struct SizeComputer : ::g::Fuse::Computer1
 {

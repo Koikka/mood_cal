@@ -1,11 +1,11 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/Shapes/Curve.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/Shapes/Curve.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Animations.IResize.h>
 #include <Fuse.Binding.h>
 #include <Fuse.Controls.SegmentedShape.h>
-#include <Fuse.Drawing.IDrawObj-d34d045e.h>
+#include <Fuse.Drawing.IDrawObj-13f8940.h>
 #include <Fuse.Drawing.ISurfaceDrawable.h>
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
@@ -16,7 +16,7 @@
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -36,7 +36,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public sealed class Curve :242
+// public sealed class Curve
 // {
 ::g::Fuse::Controls::SegmentedShape_type* Curve_typeof();
 void Curve__CalcShapeExtents_fn(Curve* __this, ::g::Uno::Rect* __retval);

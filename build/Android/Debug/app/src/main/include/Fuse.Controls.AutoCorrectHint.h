@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/TextEnums.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/TextEnums.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public enum AutoCorrectHint :43
+// public enum AutoCorrectHint
 uEnumType* AutoCorrectHint_typeof();
 
 }}} // ::g::Fuse::Controls

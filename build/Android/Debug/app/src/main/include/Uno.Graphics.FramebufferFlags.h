@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Graphics/Framebuffer.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Graphics/Framebuffer.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{
 namespace Uno{
 namespace Graphics{
 
-// public enum FramebufferFlags :4
+// public enum FramebufferFlags
 uEnumType* FramebufferFlags_typeof();
 
 }}} // ::g::Uno::Graphics

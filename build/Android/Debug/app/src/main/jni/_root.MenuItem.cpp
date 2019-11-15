@@ -17,9 +17,9 @@ static uType* TYPES[1];
 
 namespace g{
 
-// public partial class MenuItem :2
+// public partial class MenuItem
 // {
-// static MenuItem() :4
+// static MenuItem()
 static void MenuItem__cctor_4_fn(uType* __type)
 {
 }
@@ -108,36 +108,36 @@ static void MenuItem_build(uType* type)
     return type;
 }
 
-// public MenuItem() :8
+// public MenuItem()
 void MenuItem__ctor_7_fn(MenuItem* __this)
 {
     __this->ctor_7();
 }
 
-// private void InitializeUX() :12
+// private void InitializeUX()
 void MenuItem__InitializeUX_fn(MenuItem* __this)
 {
     __this->InitializeUX();
 }
 
-// public MenuItem() [instance] :8
+// public MenuItem() [instance]
 void MenuItem::ctor_7()
 {
     ctor_6();
     InitializeUX();
 }
 
-// private void InitializeUX() [instance] :12
+// private void InitializeUX() [instance]
 void MenuItem::InitializeUX()
 {
     ::g::Fuse::Controls::Rectangle* temp = ::g::Fuse::Controls::Rectangle::New3();
     Height(::g::Uno::UX::Size__New1(40.0f, 1));
-    SourceLineNumber(166);
+    SourceLineNumber(212);
     SourceFileName(::STRINGS[0/*"MainView.ux"*/]);
     temp->Color(::g::Uno::Float4__New2(1.0f, 1.0f, 1.0f, 0.1333333f));
     temp->Height(::g::Uno::UX::Size__New1(2.0f, 1));
     temp->Alignment(12);
-    temp->SourceLineNumber(167);
+    temp->SourceLineNumber(213);
     temp->SourceFileName(::STRINGS[0/*"MainView.ux"*/]);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Children()), ::TYPES[0/*Uno.Collections.ICollection<Fuse.Node>*/]), temp);
 }

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/ArgumentNullException.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Exceptions/ArgumentNullException.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Uno{struct ArgumentNullException;}}
 namespace g{
 namespace Uno{
 
-// public sealed class ArgumentNullException :6
+// public sealed class ArgumentNullException
 // {
 ::g::Uno::Exception_type* ArgumentNullException_typeof();
 void ArgumentNullException__ctor_5_fn(ArgumentNullException* __this, uString* paramName);

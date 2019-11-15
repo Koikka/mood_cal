@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/PageData.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/PageData.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// internal sealed class PageData :12
+// internal sealed class PageData
 // {
 uType* PageData_typeof();
 void PageData__ctor__fn(PageData* __this, ::g::Fuse::Visual* visual);

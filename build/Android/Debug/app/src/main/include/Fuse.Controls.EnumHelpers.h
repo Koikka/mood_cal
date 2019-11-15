@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/EnumExtensions.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.CameraView/1.12.0/EnumExtensions.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// internal static class EnumHelpers :5
+// internal static class EnumHelpers
 // {
 uClassType* EnumHelpers_typeof();
 void EnumHelpers__As_fn(uType* __type, uString* str, uTRef __retval);

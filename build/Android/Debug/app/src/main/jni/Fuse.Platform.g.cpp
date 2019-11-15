@@ -2,12 +2,12 @@
 // WARNING: Changes might be lost if you edit this file directly.
 
 #include <Android.Base.Wrappers.JWrapper.h>
-#include <Android.Base.Wrappers-88f7a41f.h>
+#include <Android.Base.Wrappers-4c0b8613.h>
 #include <Fuse.Platform.AppEvents.h>
 #include <Fuse.Platform.ApplicationState.h>
 #include <Fuse.Platform.Lifecycle.h>
 #include <Fuse.Platform.StatusBarStyle.h>
-#include <Fuse.Platform.SystemU-a6dfc5d1.h>
+#include <Fuse.Platform.SystemU-4e040bc7.h>
 #include <Fuse.Platform.SystemUI.h>
 #include <Fuse.Platform.SysUIState.h>
 #include <Java.Object.h>
@@ -16,7 +16,7 @@
 #include <Uno.Action1-1.h>
 #include <Uno.Bool.h>
 #include <Uno.Char.h>
-#include <Uno.Compiler.ExportTa-39be7c2b.h>
+#include <Uno.Compiler.ExportTa-2429dd1f.h>
 #include <Uno.Delegate.h>
 #include <Uno.Double.h>
 #include <Uno.EventArgs.h>
@@ -28,7 +28,7 @@
 #include <Uno.Int.h>
 #include <Uno.Int3.h>
 #include <Uno.Object.h>
-#include <Uno.Platform.Applicat-bf686309.h>
+#include <Uno.Platform.Applicat-9e948ea1.h>
 #include <Uno.Platform.ApplicationState.h>
 #include <Uno.Platform.CoreApp.h>
 #include <Uno.Rect.h>
@@ -41,12 +41,12 @@ namespace g{
 namespace Fuse{
 namespace Platform{
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/AppAlerts.uno
-// ---------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Platform/1.12.0/AppAlerts.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static class AppEvents :13
+// internal static class AppEvents
 // {
-// static AppEvents() :17
+// static AppEvents()
 static void AppEvents__cctor__fn(uType* __type)
 {
     ::g::Uno::Platform::CoreApp_typeof()->Init();
@@ -75,19 +75,19 @@ uClassType* AppEvents_typeof()
     return type;
 }
 
-// internal static generated void add_LowMemoryWarning(Uno.Action value) :15
+// internal static generated void add_LowMemoryWarning(Uno.Action value)
 void AppEvents__add_LowMemoryWarning_fn(uDelegate* value)
 {
     AppEvents::add_LowMemoryWarning(value);
 }
 
-// internal static generated void remove_LowMemoryWarning(Uno.Action value) :15
+// internal static generated void remove_LowMemoryWarning(Uno.Action value)
 void AppEvents__remove_LowMemoryWarning_fn(uDelegate* value)
 {
     AppEvents::remove_LowMemoryWarning(value);
 }
 
-// private static void OnLowMemoryWarning(object s, object a) :22
+// private static void OnLowMemoryWarning(object s, object a)
 void AppEvents__OnLowMemoryWarning_fn(uObject* s, uObject* a)
 {
     AppEvents::OnLowMemoryWarning(s, a);
@@ -95,7 +95,7 @@ void AppEvents__OnLowMemoryWarning_fn(uObject* s, uObject* a)
 
 uSStrong<uDelegate*> AppEvents::LowMemoryWarning1_;
 
-// private static void OnLowMemoryWarning(object s, object a) [static] :22
+// private static void OnLowMemoryWarning(object s, object a) [static]
 void AppEvents::OnLowMemoryWarning(uObject* s, uObject* a)
 {
     AppEvents_typeof()->Init();
@@ -105,14 +105,14 @@ void AppEvents::OnLowMemoryWarning(uObject* s, uObject* a)
         uPtr(handler)->InvokeVoid();
 }
 
-// internal static generated void add_LowMemoryWarning(Uno.Action value) [static] :15
+// internal static generated void add_LowMemoryWarning(Uno.Action value) [static]
 void AppEvents::add_LowMemoryWarning(uDelegate* value)
 {
     AppEvents_typeof()->Init();
     AppEvents::LowMemoryWarning1_ = uCast<uDelegate*>(::g::Uno::Delegate::Combine(AppEvents::LowMemoryWarning1_, value), ::TYPES[1/*Uno.Action*/]);
 }
 
-// internal static generated void remove_LowMemoryWarning(Uno.Action value) [static] :15
+// internal static generated void remove_LowMemoryWarning(Uno.Action value) [static]
 void AppEvents::remove_LowMemoryWarning(uDelegate* value)
 {
     AppEvents_typeof()->Init();
@@ -120,10 +120,10 @@ void AppEvents::remove_LowMemoryWarning(uDelegate* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/Lifecycle.uno
-// ---------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Platform/1.12.0/Lifecycle.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum ApplicationState :5
+// public enum ApplicationState
 uEnumType* ApplicationState_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -139,12 +139,12 @@ uEnumType* ApplicationState_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/Lifecycle.uno
-// ---------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Platform/1.12.0/Lifecycle.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class Lifecycle :22
+// public static class Lifecycle
 // {
-// static Lifecycle() :34
+// static Lifecycle()
 static void Lifecycle__cctor__fn(uType* __type)
 {
     ::g::Uno::Platform::CoreApp_typeof()->Init();
@@ -186,115 +186,115 @@ uClassType* Lifecycle_typeof()
     return type;
 }
 
-// public static generated void add_EnteringBackground(Uno.Action<Fuse.Platform.ApplicationState> value) :31
+// public static generated void add_EnteringBackground(Uno.Action<Fuse.Platform.ApplicationState> value)
 void Lifecycle__add_EnteringBackground_fn(uDelegate* value)
 {
     Lifecycle::add_EnteringBackground(value);
 }
 
-// public static generated void remove_EnteringBackground(Uno.Action<Fuse.Platform.ApplicationState> value) :31
+// public static generated void remove_EnteringBackground(Uno.Action<Fuse.Platform.ApplicationState> value)
 void Lifecycle__remove_EnteringBackground_fn(uDelegate* value)
 {
     Lifecycle::remove_EnteringBackground(value);
 }
 
-// public static generated void add_EnteringForeground(Uno.Action<Fuse.Platform.ApplicationState> value) :28
+// public static generated void add_EnteringForeground(Uno.Action<Fuse.Platform.ApplicationState> value)
 void Lifecycle__add_EnteringForeground_fn(uDelegate* value)
 {
     Lifecycle::add_EnteringForeground(value);
 }
 
-// public static generated void remove_EnteringForeground(Uno.Action<Fuse.Platform.ApplicationState> value) :28
+// public static generated void remove_EnteringForeground(Uno.Action<Fuse.Platform.ApplicationState> value)
 void Lifecycle__remove_EnteringForeground_fn(uDelegate* value)
 {
     Lifecycle::remove_EnteringForeground(value);
 }
 
-// public static generated void add_EnteringInteractive(Uno.Action<Fuse.Platform.ApplicationState> value) :29
+// public static generated void add_EnteringInteractive(Uno.Action<Fuse.Platform.ApplicationState> value)
 void Lifecycle__add_EnteringInteractive_fn(uDelegate* value)
 {
     Lifecycle::add_EnteringInteractive(value);
 }
 
-// public static generated void remove_EnteringInteractive(Uno.Action<Fuse.Platform.ApplicationState> value) :29
+// public static generated void remove_EnteringInteractive(Uno.Action<Fuse.Platform.ApplicationState> value)
 void Lifecycle__remove_EnteringInteractive_fn(uDelegate* value)
 {
     Lifecycle::remove_EnteringInteractive(value);
 }
 
-// public static generated void add_ExitedInteractive(Uno.Action<Fuse.Platform.ApplicationState> value) :30
+// public static generated void add_ExitedInteractive(Uno.Action<Fuse.Platform.ApplicationState> value)
 void Lifecycle__add_ExitedInteractive_fn(uDelegate* value)
 {
     Lifecycle::add_ExitedInteractive(value);
 }
 
-// public static generated void remove_ExitedInteractive(Uno.Action<Fuse.Platform.ApplicationState> value) :30
+// public static generated void remove_ExitedInteractive(Uno.Action<Fuse.Platform.ApplicationState> value)
 void Lifecycle__remove_ExitedInteractive_fn(uDelegate* value)
 {
     Lifecycle::remove_ExitedInteractive(value);
 }
 
-// private static void OnEnteringBackground(Uno.Platform.ApplicationState newState) :72
+// private static void OnEnteringBackground(Uno.Platform.ApplicationState newState)
 void Lifecycle__OnEnteringBackground_fn(int32_t* newState)
 {
     Lifecycle::OnEnteringBackground(*newState);
 }
 
-// private static void OnEnteringForeground(Uno.Platform.ApplicationState newState) :51
+// private static void OnEnteringForeground(Uno.Platform.ApplicationState newState)
 void Lifecycle__OnEnteringForeground_fn(int32_t* newState)
 {
     Lifecycle::OnEnteringForeground(*newState);
 }
 
-// private static void OnEnteringInteractive(Uno.Platform.ApplicationState newState) :58
+// private static void OnEnteringInteractive(Uno.Platform.ApplicationState newState)
 void Lifecycle__OnEnteringInteractive_fn(int32_t* newState)
 {
     Lifecycle::OnEnteringInteractive(*newState);
 }
 
-// private static void OnExitedInteractive(Uno.Platform.ApplicationState newState) :65
+// private static void OnExitedInteractive(Uno.Platform.ApplicationState newState)
 void Lifecycle__OnExitedInteractive_fn(int32_t* newState)
 {
     Lifecycle::OnExitedInteractive(*newState);
 }
 
-// private static void OnStarted(Uno.Platform.ApplicationState newState) :44
+// private static void OnStarted(Uno.Platform.ApplicationState newState)
 void Lifecycle__OnStarted_fn(int32_t* newState)
 {
     Lifecycle::OnStarted(*newState);
 }
 
-// private static void OnTerminating(Uno.Platform.ApplicationState newState) :79
+// private static void OnTerminating(Uno.Platform.ApplicationState newState)
 void Lifecycle__OnTerminating_fn(int32_t* newState)
 {
     Lifecycle::OnTerminating(*newState);
 }
 
-// public static generated void add_Started(Uno.Action<Fuse.Platform.ApplicationState> value) :27
+// public static generated void add_Started(Uno.Action<Fuse.Platform.ApplicationState> value)
 void Lifecycle__add_Started_fn(uDelegate* value)
 {
     Lifecycle::add_Started(value);
 }
 
-// public static generated void remove_Started(Uno.Action<Fuse.Platform.ApplicationState> value) :27
+// public static generated void remove_Started(Uno.Action<Fuse.Platform.ApplicationState> value)
 void Lifecycle__remove_Started_fn(uDelegate* value)
 {
     Lifecycle::remove_Started(value);
 }
 
-// public static Fuse.Platform.ApplicationState get_State() :25
+// public static Fuse.Platform.ApplicationState get_State()
 void Lifecycle__get_State_fn(int32_t* __retval)
 {
     *__retval = Lifecycle::State();
 }
 
-// public static generated void add_Terminating(Uno.Action<Fuse.Platform.ApplicationState> value) :32
+// public static generated void add_Terminating(Uno.Action<Fuse.Platform.ApplicationState> value)
 void Lifecycle__add_Terminating_fn(uDelegate* value)
 {
     Lifecycle::add_Terminating(value);
 }
 
-// public static generated void remove_Terminating(Uno.Action<Fuse.Platform.ApplicationState> value) :32
+// public static generated void remove_Terminating(Uno.Action<Fuse.Platform.ApplicationState> value)
 void Lifecycle__remove_Terminating_fn(uDelegate* value)
 {
     Lifecycle::remove_Terminating(value);
@@ -307,7 +307,7 @@ uSStrong<uDelegate*> Lifecycle::ExitedInteractive1_;
 uSStrong<uDelegate*> Lifecycle::Started1_;
 uSStrong<uDelegate*> Lifecycle::Terminating1_;
 
-// private static void OnEnteringBackground(Uno.Platform.ApplicationState newState) [static] :72
+// private static void OnEnteringBackground(Uno.Platform.ApplicationState newState) [static]
 void Lifecycle::OnEnteringBackground(int32_t newState)
 {
     Lifecycle_typeof()->Init();
@@ -317,7 +317,7 @@ void Lifecycle::OnEnteringBackground(int32_t newState)
         uPtr(handler)->InvokeVoid(uCRef<int32_t>(newState));
 }
 
-// private static void OnEnteringForeground(Uno.Platform.ApplicationState newState) [static] :51
+// private static void OnEnteringForeground(Uno.Platform.ApplicationState newState) [static]
 void Lifecycle::OnEnteringForeground(int32_t newState)
 {
     Lifecycle_typeof()->Init();
@@ -327,7 +327,7 @@ void Lifecycle::OnEnteringForeground(int32_t newState)
         uPtr(handler)->InvokeVoid(uCRef<int32_t>(newState));
 }
 
-// private static void OnEnteringInteractive(Uno.Platform.ApplicationState newState) [static] :58
+// private static void OnEnteringInteractive(Uno.Platform.ApplicationState newState) [static]
 void Lifecycle::OnEnteringInteractive(int32_t newState)
 {
     Lifecycle_typeof()->Init();
@@ -337,7 +337,7 @@ void Lifecycle::OnEnteringInteractive(int32_t newState)
         uPtr(handler)->InvokeVoid(uCRef<int32_t>(newState));
 }
 
-// private static void OnExitedInteractive(Uno.Platform.ApplicationState newState) [static] :65
+// private static void OnExitedInteractive(Uno.Platform.ApplicationState newState) [static]
 void Lifecycle::OnExitedInteractive(int32_t newState)
 {
     Lifecycle_typeof()->Init();
@@ -347,7 +347,7 @@ void Lifecycle::OnExitedInteractive(int32_t newState)
         uPtr(handler)->InvokeVoid(uCRef<int32_t>(newState));
 }
 
-// private static void OnStarted(Uno.Platform.ApplicationState newState) [static] :44
+// private static void OnStarted(Uno.Platform.ApplicationState newState) [static]
 void Lifecycle::OnStarted(int32_t newState)
 {
     Lifecycle_typeof()->Init();
@@ -357,7 +357,7 @@ void Lifecycle::OnStarted(int32_t newState)
         uPtr(handler)->InvokeVoid(uCRef<int32_t>(newState));
 }
 
-// private static void OnTerminating(Uno.Platform.ApplicationState newState) [static] :79
+// private static void OnTerminating(Uno.Platform.ApplicationState newState) [static]
 void Lifecycle::OnTerminating(int32_t newState)
 {
     Lifecycle_typeof()->Init();
@@ -367,91 +367,91 @@ void Lifecycle::OnTerminating(int32_t newState)
         uPtr(handler)->InvokeVoid(uCRef<int32_t>(newState));
 }
 
-// public static Fuse.Platform.ApplicationState get_State() [static] :25
+// public static Fuse.Platform.ApplicationState get_State() [static]
 int32_t Lifecycle::State()
 {
     Lifecycle_typeof()->Init();
     return ::g::Uno::Platform::CoreApp::State();
 }
 
-// public static generated void add_EnteringBackground(Uno.Action<Fuse.Platform.ApplicationState> value) [static] :31
+// public static generated void add_EnteringBackground(Uno.Action<Fuse.Platform.ApplicationState> value) [static]
 void Lifecycle::add_EnteringBackground(uDelegate* value)
 {
     Lifecycle_typeof()->Init();
     Lifecycle::EnteringBackground1_ = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Lifecycle::EnteringBackground1_, value), ::TYPES[3/*Uno.Action<Fuse.Platform.ApplicationState>*/]);
 }
 
-// public static generated void remove_EnteringBackground(Uno.Action<Fuse.Platform.ApplicationState> value) [static] :31
+// public static generated void remove_EnteringBackground(Uno.Action<Fuse.Platform.ApplicationState> value) [static]
 void Lifecycle::remove_EnteringBackground(uDelegate* value)
 {
     Lifecycle_typeof()->Init();
     Lifecycle::EnteringBackground1_ = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Lifecycle::EnteringBackground1_, value), ::TYPES[3/*Uno.Action<Fuse.Platform.ApplicationState>*/]);
 }
 
-// public static generated void add_EnteringForeground(Uno.Action<Fuse.Platform.ApplicationState> value) [static] :28
+// public static generated void add_EnteringForeground(Uno.Action<Fuse.Platform.ApplicationState> value) [static]
 void Lifecycle::add_EnteringForeground(uDelegate* value)
 {
     Lifecycle_typeof()->Init();
     Lifecycle::EnteringForeground1_ = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Lifecycle::EnteringForeground1_, value), ::TYPES[3/*Uno.Action<Fuse.Platform.ApplicationState>*/]);
 }
 
-// public static generated void remove_EnteringForeground(Uno.Action<Fuse.Platform.ApplicationState> value) [static] :28
+// public static generated void remove_EnteringForeground(Uno.Action<Fuse.Platform.ApplicationState> value) [static]
 void Lifecycle::remove_EnteringForeground(uDelegate* value)
 {
     Lifecycle_typeof()->Init();
     Lifecycle::EnteringForeground1_ = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Lifecycle::EnteringForeground1_, value), ::TYPES[3/*Uno.Action<Fuse.Platform.ApplicationState>*/]);
 }
 
-// public static generated void add_EnteringInteractive(Uno.Action<Fuse.Platform.ApplicationState> value) [static] :29
+// public static generated void add_EnteringInteractive(Uno.Action<Fuse.Platform.ApplicationState> value) [static]
 void Lifecycle::add_EnteringInteractive(uDelegate* value)
 {
     Lifecycle_typeof()->Init();
     Lifecycle::EnteringInteractive1_ = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Lifecycle::EnteringInteractive1_, value), ::TYPES[3/*Uno.Action<Fuse.Platform.ApplicationState>*/]);
 }
 
-// public static generated void remove_EnteringInteractive(Uno.Action<Fuse.Platform.ApplicationState> value) [static] :29
+// public static generated void remove_EnteringInteractive(Uno.Action<Fuse.Platform.ApplicationState> value) [static]
 void Lifecycle::remove_EnteringInteractive(uDelegate* value)
 {
     Lifecycle_typeof()->Init();
     Lifecycle::EnteringInteractive1_ = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Lifecycle::EnteringInteractive1_, value), ::TYPES[3/*Uno.Action<Fuse.Platform.ApplicationState>*/]);
 }
 
-// public static generated void add_ExitedInteractive(Uno.Action<Fuse.Platform.ApplicationState> value) [static] :30
+// public static generated void add_ExitedInteractive(Uno.Action<Fuse.Platform.ApplicationState> value) [static]
 void Lifecycle::add_ExitedInteractive(uDelegate* value)
 {
     Lifecycle_typeof()->Init();
     Lifecycle::ExitedInteractive1_ = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Lifecycle::ExitedInteractive1_, value), ::TYPES[3/*Uno.Action<Fuse.Platform.ApplicationState>*/]);
 }
 
-// public static generated void remove_ExitedInteractive(Uno.Action<Fuse.Platform.ApplicationState> value) [static] :30
+// public static generated void remove_ExitedInteractive(Uno.Action<Fuse.Platform.ApplicationState> value) [static]
 void Lifecycle::remove_ExitedInteractive(uDelegate* value)
 {
     Lifecycle_typeof()->Init();
     Lifecycle::ExitedInteractive1_ = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Lifecycle::ExitedInteractive1_, value), ::TYPES[3/*Uno.Action<Fuse.Platform.ApplicationState>*/]);
 }
 
-// public static generated void add_Started(Uno.Action<Fuse.Platform.ApplicationState> value) [static] :27
+// public static generated void add_Started(Uno.Action<Fuse.Platform.ApplicationState> value) [static]
 void Lifecycle::add_Started(uDelegate* value)
 {
     Lifecycle_typeof()->Init();
     Lifecycle::Started1_ = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Lifecycle::Started1_, value), ::TYPES[3/*Uno.Action<Fuse.Platform.ApplicationState>*/]);
 }
 
-// public static generated void remove_Started(Uno.Action<Fuse.Platform.ApplicationState> value) [static] :27
+// public static generated void remove_Started(Uno.Action<Fuse.Platform.ApplicationState> value) [static]
 void Lifecycle::remove_Started(uDelegate* value)
 {
     Lifecycle_typeof()->Init();
     Lifecycle::Started1_ = uCast<uDelegate*>(::g::Uno::Delegate::Remove(Lifecycle::Started1_, value), ::TYPES[3/*Uno.Action<Fuse.Platform.ApplicationState>*/]);
 }
 
-// public static generated void add_Terminating(Uno.Action<Fuse.Platform.ApplicationState> value) [static] :32
+// public static generated void add_Terminating(Uno.Action<Fuse.Platform.ApplicationState> value) [static]
 void Lifecycle::add_Terminating(uDelegate* value)
 {
     Lifecycle_typeof()->Init();
     Lifecycle::Terminating1_ = uCast<uDelegate*>(::g::Uno::Delegate::Combine(Lifecycle::Terminating1_, value), ::TYPES[3/*Uno.Action<Fuse.Platform.ApplicationState>*/]);
 }
 
-// public static generated void remove_Terminating(Uno.Action<Fuse.Platform.ApplicationState> value) [static] :32
+// public static generated void remove_Terminating(Uno.Action<Fuse.Platform.ApplicationState> value) [static]
 void Lifecycle::remove_Terminating(uDelegate* value)
 {
     Lifecycle_typeof()->Init();
@@ -459,10 +459,10 @@ void Lifecycle::remove_Terminating(uDelegate* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/iOS/SystemUI.uno
-// ------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Platform/1.12.0/iOS/SystemUI.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum StatusBarStyle :8
+// public enum StatusBarStyle
 uEnumType* StatusBarStyle_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -475,12 +475,12 @@ uEnumType* StatusBarStyle_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/Android/SystemUI.uno
-// ----------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Platform/1.12.0/Android/SystemUI.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static extern class SystemUI :18
+// internal static extern class SystemUI
 // {
-// static generated SystemUI() :18
+// static generated SystemUI()
 static void SystemUI__cctor__fn(uType* __type)
 {
     SystemUI::firstSizing_ = true;
@@ -532,355 +532,355 @@ uClassType* SystemUI_typeof()
     return type;
 }
 
-// private static float2 _GetRootDisplaySize() :632
+// private static float2 _GetRootDisplaySize()
 void SystemUI___GetRootDisplaySize_fn(::g::Uno::Float2* __retval)
 {
     *__retval = SystemUI::_GetRootDisplaySize();
 }
 
-// public static int get_APILevel() :640
+// public static int get_APILevel()
 void SystemUI__get_APILevel_fn(int32_t* __retval)
 {
     *__retval = SystemUI::APILevel();
 }
 
-// public static void Attach(Java.Object _layout) :526
+// public static void Attach(Java.Object _layout)
 void SystemUI__Attach_fn(::g::Java::Object* _layout)
 {
     SystemUI::Attach(_layout);
 }
 
-// private static Uno.Rect get_BottomFrame() :21
+// private static Uno.Rect get_BottomFrame()
 void SystemUI__get_BottomFrame_fn(::g::Uno::Rect* __retval)
 {
     *__retval = SystemUI::BottomFrame();
 }
 
-// public static void CalcRealSizes() :354
+// public static void CalcRealSizes()
 void SystemUI__CalcRealSizes_fn()
 {
     SystemUI::CalcRealSizes();
 }
 
-// public static void CompensateRootLayoutForSystemUI() :498
+// public static void CompensateRootLayoutForSystemUI()
 void SystemUI__CompensateRootLayoutForSystemUI_fn()
 {
     SystemUI::CompensateRootLayoutForSystemUI();
 }
 
-// private static void cppOnBottomFrameChanged(int height) :599
+// private static void cppOnBottomFrameChanged(int height)
 void SystemUI__cppOnBottomFrameChanged_fn(int32_t* height)
 {
     SystemUI::cppOnBottomFrameChanged(*height);
 }
 
-// private static void cppOnConfigChanged() :449
+// private static void cppOnConfigChanged()
 void SystemUI__cppOnConfigChanged_fn()
 {
     SystemUI::cppOnConfigChanged();
 }
 
-// private static void cppOnTopFrameChanged(int height) :622
+// private static void cppOnTopFrameChanged(int height)
 void SystemUI__cppOnTopFrameChanged_fn(int32_t* height)
 {
     SystemUI::cppOnTopFrameChanged(*height);
 }
 
-// public static void CreateLayouts() :166
+// public static void CreateLayouts()
 void SystemUI__CreateLayouts_fn()
 {
     SystemUI::CreateLayouts();
 }
 
-// public static float get_Density() :77
+// public static float get_Density()
 void SystemUI__get_Density_fn(float* __retval)
 {
     *__retval = SystemUI::Density();
 }
 
-// private static void set_Density(float value) :78
+// private static void set_Density(float value)
 void SystemUI__set_Density_fn(float* value)
 {
     SystemUI::Density(*value);
 }
 
-// public static void Detach() :535
+// public static void Detach()
 void SystemUI__Detach_fn()
 {
     SystemUI::Detach();
 }
 
-// public static float4 get_DeviceMargins() :27
+// public static float4 get_DeviceMargins()
 void SystemUI__get_DeviceMargins_fn(::g::Uno::Float4* __retval)
 {
     *__retval = SystemUI::DeviceMargins();
 }
 
-// private static void EnterFullscreen() :304
+// private static void EnterFullscreen()
 void SystemUI__EnterFullscreen_fn()
 {
     SystemUI::EnterFullscreen();
 }
 
-// public static Uno.Rect get_Frame() :83
+// public static Uno.Rect get_Frame()
 void SystemUI__get_Frame_fn(::g::Uno::Rect* __retval)
 {
     *__retval = SystemUI::Frame();
 }
 
-// private static void set_Frame(Uno.Rect value) :84
+// private static void set_Frame(Uno.Rect value)
 void SystemUI__set_Frame_fn(::g::Uno::Rect* value)
 {
     SystemUI::Frame(*value);
 }
 
-// public static generated void add_FrameChanged(Uno.EventHandler value) :94
+// public static generated void add_FrameChanged(Uno.EventHandler value)
 void SystemUI__add_FrameChanged_fn(uDelegate* value)
 {
     SystemUI::add_FrameChanged(value);
 }
 
-// public static generated void remove_FrameChanged(Uno.EventHandler value) :94
+// public static generated void remove_FrameChanged(Uno.EventHandler value)
 void SystemUI__remove_FrameChanged_fn(uDelegate* value)
 {
     SystemUI::remove_FrameChanged(value);
 }
 
-// private static int GetAPILevel() :665
+// private static int GetAPILevel()
 void SystemUI__GetAPILevel_fn(int32_t* __retval)
 {
     *__retval = SystemUI::GetAPILevel();
 }
 
-// private static extern Uno.Rect GetBottomBarFrame() :336
+// private static extern Uno.Rect GetBottomBarFrame()
 void SystemUI__GetBottomBarFrame_fn(::g::Uno::Rect* __retval)
 {
     *__retval = SystemUI::GetBottomBarFrame();
 }
 
-// private static float GetDensity() :468
+// private static float GetDensity()
 void SystemUI__GetDensity_fn(float* __retval)
 {
     *__retval = SystemUI::GetDensity();
 }
 
-// public static Java.Object GetDisplayMetrics() :391
+// public static Java.Object GetDisplayMetrics()
 void SystemUI__GetDisplayMetrics_fn(::g::Java::Object** __retval)
 {
     *__retval = SystemUI::GetDisplayMetrics();
 }
 
-// private static string GetOSVersion() :671
+// private static string GetOSVersion()
 void SystemUI__GetOSVersion_fn(uString** __retval)
 {
     *__retval = SystemUI::GetOSVersion();
 }
 
-// public static int GetRealDisplayHeight() :409
+// public static int GetRealDisplayHeight()
 void SystemUI__GetRealDisplayHeight_fn(int32_t* __retval)
 {
     *__retval = SystemUI::GetRealDisplayHeight();
 }
 
-// public static int GetRealDisplayWidth() :403
+// public static int GetRealDisplayWidth()
 void SystemUI__GetRealDisplayWidth_fn(int32_t* __retval)
 {
     *__retval = SystemUI::GetRealDisplayWidth();
 }
 
-// private static extern Uno.Rect GetStatusBarFrame() :329
+// private static extern Uno.Rect GetStatusBarFrame()
 void SystemUI__GetStatusBarFrame_fn(::g::Uno::Rect* __retval)
 {
     *__retval = SystemUI::GetStatusBarFrame();
 }
 
-// private static float GetStatusBarHeight() :216
+// private static float GetStatusBarHeight()
 void SystemUI__GetStatusBarHeight_fn(float* __retval)
 {
     *__retval = SystemUI::GetStatusBarHeight();
 }
 
-// private static int GetSuperLayoutHeight() :585
+// private static int GetSuperLayoutHeight()
 void SystemUI__GetSuperLayoutHeight_fn(int32_t* __retval)
 {
     *__retval = SystemUI::GetSuperLayoutHeight();
 }
 
-// private static void HideActionBar() :204
+// private static void HideActionBar()
 void SystemUI__HideActionBar_fn()
 {
     SystemUI::HideActionBar();
 }
 
-// public static void HideStatusBar() :264
+// public static void HideStatusBar()
 void SystemUI__HideStatusBar_fn()
 {
     SystemUI::HideStatusBar();
 }
 
-// private static void HookOntoRawActivityEvents() :105
+// private static void HookOntoRawActivityEvents()
 void SystemUI__HookOntoRawActivityEvents_fn()
 {
     SystemUI::HookOntoRawActivityEvents();
 }
 
-// public static bool get_IsTopFrameVisible() :185
+// public static bool get_IsTopFrameVisible()
 void SystemUI__get_IsTopFrameVisible_fn(bool* __retval)
 {
     *__retval = SystemUI::IsTopFrameVisible();
 }
 
-// public static void set_IsTopFrameVisible(bool value) :188
+// public static void set_IsTopFrameVisible(bool value)
 void SystemUI__set_IsTopFrameVisible_fn(bool* value)
 {
     SystemUI::IsTopFrameVisible(*value);
 }
 
-// private static Java.Object MakePostV11LayoutChangeListener() :476
+// private static Java.Object MakePostV11LayoutChangeListener()
 void SystemUI__MakePostV11LayoutChangeListener_fn(::g::Java::Object** __retval)
 {
     *__retval = SystemUI::MakePostV11LayoutChangeListener();
 }
 
-// public static generated void add_MarginsChanged(Uno.Action value) :23
+// public static generated void add_MarginsChanged(Uno.Action value)
 void SystemUI__add_MarginsChanged_fn(uDelegate* value)
 {
     SystemUI::add_MarginsChanged(value);
 }
 
-// public static generated void remove_MarginsChanged(Uno.Action value) :23
+// public static generated void remove_MarginsChanged(Uno.Action value)
 void SystemUI__remove_MarginsChanged_fn(uDelegate* value)
 {
     SystemUI::remove_MarginsChanged(value);
 }
 
-// private static void OnConfigChanged() :140
+// private static void OnConfigChanged()
 void SystemUI__OnConfigChanged_fn()
 {
     SystemUI::OnConfigChanged();
 }
 
-// public static void OnCreate() :146
+// public static void OnCreate()
 void SystemUI__OnCreate_fn()
 {
     SystemUI::OnCreate();
 }
 
-// private static void OnDestroy() :134
+// private static void OnDestroy()
 void SystemUI__OnDestroy_fn()
 {
     SystemUI::OnDestroy();
 }
 
-// private static void OnFrameChanged() :95
+// private static void OnFrameChanged()
 void SystemUI__OnFrameChanged_fn()
 {
     SystemUI::OnFrameChanged();
 }
 
-// private static void onHideKeyboard(int keyboardHeight, bool force) :574
+// private static void onHideKeyboard(int keyboardHeight, bool force)
 void SystemUI__onHideKeyboard_fn(int32_t* keyboardHeight, bool* force)
 {
     SystemUI::onHideKeyboard(*keyboardHeight, *force);
 }
 
-// private static void OnPause() :122
+// private static void OnPause()
 void SystemUI__OnPause_fn()
 {
     SystemUI::OnPause();
 }
 
-// private static void OnResume() :128
+// private static void OnResume()
 void SystemUI__OnResume_fn()
 {
     SystemUI::OnResume();
 }
 
-// private static void onShowKeyboard(int keyboardHeight, bool force) :564
+// private static void onShowKeyboard(int keyboardHeight, bool force)
 void SystemUI__onShowKeyboard_fn(int32_t* keyboardHeight, bool* force)
 {
     SystemUI::onShowKeyboard(*keyboardHeight, *force);
 }
 
-// private static void OnWillResize() :343
+// private static void OnWillResize()
 void SystemUI__OnWillResize_fn()
 {
     SystemUI::OnWillResize();
 }
 
-// public static int3 get_OSVersion() :643
+// public static int3 get_OSVersion()
 void SystemUI__get_OSVersion_fn(::g::Uno::Int3* __retval)
 {
     *__retval = SystemUI::OSVersion();
 }
 
-// public static void ResendFrameSizes() :590
+// public static void ResendFrameSizes()
 void SystemUI__ResendFrameSizes_fn()
 {
     SystemUI::ResendFrameSizes();
 }
 
-// private static void ResetGeometry() :456
+// private static void ResetGeometry()
 void SystemUI__ResetGeometry_fn()
 {
     SystemUI::ResetGeometry();
 }
 
-// public static Java.Object get_RootView() :421
+// public static Java.Object get_RootView()
 void SystemUI__get_RootView_fn(::g::Java::Object** __retval)
 {
     *__retval = SystemUI::RootView();
 }
 
-// public static void set_RootView(Java.Object value) :422
+// public static void set_RootView(Java.Object value)
 void SystemUI__set_RootView_fn(::g::Java::Object* value)
 {
     SystemUI::RootView(value);
 }
 
-// public static float4 get_SafeMargins() :36
+// public static float4 get_SafeMargins()
 void SystemUI__get_SafeMargins_fn(::g::Uno::Float4* __retval)
 {
     *__retval = SystemUI::SafeMargins();
 }
 
-// private static void SetAsRootView(Java.Object view) :426
+// private static void SetAsRootView(Java.Object view)
 void SystemUI__SetAsRootView_fn(::g::Java::Object* view)
 {
     SystemUI::SetAsRootView(view);
 }
 
-// private static void SetFrame(Java.Object view, int originX, int originY, int height) :508
+// private static void SetFrame(Java.Object view, int originX, int originY, int height)
 void SystemUI__SetFrame_fn(::g::Java::Object* view, int32_t* originX, int32_t* originY, int32_t* height)
 {
     SystemUI::SetFrame(view, *originX, *originY, *height);
 }
 
-// public static void ShowStatusBar() :241
+// public static void ShowStatusBar()
 void SystemUI__ShowStatusBar_fn()
 {
     SystemUI::ShowStatusBar();
 }
 
-// public static float4 get_StaticMargins() :46
+// public static float4 get_StaticMargins()
 void SystemUI__get_StaticMargins_fn(::g::Uno::Float4* __retval)
 {
     *__retval = SystemUI::StaticMargins();
 }
 
-// private static Uno.Rect get_TopFrame() :20
+// private static Uno.Rect get_TopFrame()
 void SystemUI__get_TopFrame_fn(::g::Uno::Rect* __retval)
 {
     *__retval = SystemUI::TopFrame();
 }
 
-// private static void unoOnGlobalLayout() :548
+// private static void unoOnGlobalLayout()
 void SystemUI__unoOnGlobalLayout_fn()
 {
     SystemUI::unoOnGlobalLayout();
 }
 
-// public static void UpdateStatusBar() :284
+// public static void UpdateStatusBar()
 void SystemUI__UpdateStatusBar_fn()
 {
     SystemUI::UpdateStatusBar();
@@ -906,7 +906,7 @@ float SystemUI::_density_;
 uSStrong<uDelegate*> SystemUI::FrameChanged1_;
 uSStrong<uDelegate*> SystemUI::MarginsChanged1_;
 
-// private static float2 _GetRootDisplaySize() [static] :632
+// private static float2 _GetRootDisplaySize() [static]
 ::g::Uno::Float2 SystemUI::_GetRootDisplaySize()
 {
     SystemUI_typeof()->Init();
@@ -915,7 +915,7 @@ uSStrong<uDelegate*> SystemUI::MarginsChanged1_;
     return ::g::Uno::Float2__New2(w, h);
 }
 
-// public static void Attach(Java.Object _layout) [static] :526
+// public static void Attach(Java.Object _layout) [static]
 void SystemUI::Attach(::g::Java::Object* _layout)
 {
     SystemUI_typeof()->Init();
@@ -934,7 +934,7 @@ void SystemUI::Attach(::g::Java::Object* _layout)
     
 }
 
-// public static void CalcRealSizes() [static] :354
+// public static void CalcRealSizes() [static]
 void SystemUI::CalcRealSizes()
 {
     SystemUI_typeof()->Init();
@@ -950,7 +950,7 @@ void SystemUI::CalcRealSizes()
     
 }
 
-// public static void CompensateRootLayoutForSystemUI() [static] :498
+// public static void CompensateRootLayoutForSystemUI() [static]
 void SystemUI::CompensateRootLayoutForSystemUI()
 {
     SystemUI_typeof()->Init();
@@ -963,7 +963,7 @@ void SystemUI::CompensateRootLayoutForSystemUI()
     }
 }
 
-// private static void cppOnBottomFrameChanged(int height) [static] :599
+// private static void cppOnBottomFrameChanged(int height) [static]
 void SystemUI::cppOnBottomFrameChanged(int32_t height)
 {
     SystemUI_typeof()->Init();
@@ -983,7 +983,7 @@ void SystemUI::cppOnBottomFrameChanged(int32_t height)
     SystemUI::OnWillResize();
 }
 
-// private static void cppOnConfigChanged() [static] :449
+// private static void cppOnConfigChanged() [static]
 void SystemUI::cppOnConfigChanged()
 {
     SystemUI_typeof()->Init();
@@ -991,7 +991,7 @@ void SystemUI::cppOnConfigChanged()
     SystemUI::ResetGeometry();
 }
 
-// private static void cppOnTopFrameChanged(int height) [static] :622
+// private static void cppOnTopFrameChanged(int height) [static]
 void SystemUI::cppOnTopFrameChanged(int32_t height)
 {
     SystemUI_typeof()->Init();
@@ -1003,7 +1003,7 @@ void SystemUI::cppOnTopFrameChanged(int32_t height)
     }
 }
 
-// public static void CreateLayouts() [static] :166
+// public static void CreateLayouts() [static]
 void SystemUI::CreateLayouts()
 {
     SystemUI_typeof()->Init();
@@ -1019,7 +1019,7 @@ void SystemUI::CreateLayouts()
     
 }
 
-// public static void Detach() [static] :535
+// public static void Detach() [static]
 void SystemUI::Detach()
 {
     SystemUI_typeof()->Init();
@@ -1035,7 +1035,7 @@ void SystemUI::Detach()
     
 }
 
-// private static void EnterFullscreen() [static] :304
+// private static void EnterFullscreen() [static]
 void SystemUI::EnterFullscreen()
 {
     SystemUI_typeof()->Init();
@@ -1051,7 +1051,7 @@ void SystemUI::EnterFullscreen()
     
 }
 
-// private static int GetAPILevel() [static] :665
+// private static int GetAPILevel() [static]
 int32_t SystemUI::GetAPILevel()
 {
     SystemUI_typeof()->Init();
@@ -1067,7 +1067,7 @@ int32_t SystemUI::GetAPILevel()
     
 }
 
-// private static extern Uno.Rect GetBottomBarFrame() [static] :336
+// private static extern Uno.Rect GetBottomBarFrame() [static]
 ::g::Uno::Rect SystemUI::GetBottomBarFrame()
 {
     SystemUI_typeof()->Init();
@@ -1076,7 +1076,7 @@ int32_t SystemUI::GetAPILevel()
     return ::g::Uno::Rect__New2(::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(dispSize.X, (float)height));
 }
 
-// private static float GetDensity() [static] :468
+// private static float GetDensity() [static]
 float SystemUI::GetDensity()
 {
     SystemUI_typeof()->Init();
@@ -1092,7 +1092,7 @@ float SystemUI::GetDensity()
     
 }
 
-// public static Java.Object GetDisplayMetrics() [static] :391
+// public static Java.Object GetDisplayMetrics() [static]
 ::g::Java::Object* SystemUI::GetDisplayMetrics()
 {
     SystemUI_typeof()->Init();
@@ -1108,7 +1108,7 @@ float SystemUI::GetDensity()
     
 }
 
-// private static string GetOSVersion() [static] :671
+// private static string GetOSVersion() [static]
 uString* SystemUI::GetOSVersion()
 {
     SystemUI_typeof()->Init();
@@ -1125,7 +1125,7 @@ uString* SystemUI::GetOSVersion()
     
 }
 
-// public static int GetRealDisplayHeight() [static] :409
+// public static int GetRealDisplayHeight() [static]
 int32_t SystemUI::GetRealDisplayHeight()
 {
     SystemUI_typeof()->Init();
@@ -1133,7 +1133,7 @@ int32_t SystemUI::GetRealDisplayHeight()
     return SystemUI::realHeight_;
 }
 
-// public static int GetRealDisplayWidth() [static] :403
+// public static int GetRealDisplayWidth() [static]
 int32_t SystemUI::GetRealDisplayWidth()
 {
     SystemUI_typeof()->Init();
@@ -1141,7 +1141,7 @@ int32_t SystemUI::GetRealDisplayWidth()
     return SystemUI::realWidth_;
 }
 
-// private static extern Uno.Rect GetStatusBarFrame() [static] :329
+// private static extern Uno.Rect GetStatusBarFrame() [static]
 ::g::Uno::Rect SystemUI::GetStatusBarFrame()
 {
     SystemUI_typeof()->Init();
@@ -1150,7 +1150,7 @@ int32_t SystemUI::GetRealDisplayWidth()
     return ::g::Uno::Rect__New2(::g::Uno::Float2__New2(0.0f, 0.0f), ::g::Uno::Float2__New2(dispSize.X, height));
 }
 
-// private static float GetStatusBarHeight() [static] :216
+// private static float GetStatusBarHeight() [static]
 float SystemUI::GetStatusBarHeight()
 {
     SystemUI_typeof()->Init();
@@ -1166,7 +1166,7 @@ float SystemUI::GetStatusBarHeight()
     
 }
 
-// private static int GetSuperLayoutHeight() [static] :585
+// private static int GetSuperLayoutHeight() [static]
 int32_t SystemUI::GetSuperLayoutHeight()
 {
     SystemUI_typeof()->Init();
@@ -1182,7 +1182,7 @@ int32_t SystemUI::GetSuperLayoutHeight()
     
 }
 
-// private static void HideActionBar() [static] :204
+// private static void HideActionBar() [static]
 void SystemUI::HideActionBar()
 {
     SystemUI_typeof()->Init();
@@ -1198,7 +1198,7 @@ void SystemUI::HideActionBar()
     
 }
 
-// public static void HideStatusBar() [static] :264
+// public static void HideStatusBar() [static]
 void SystemUI::HideStatusBar()
 {
     SystemUI_typeof()->Init();
@@ -1214,7 +1214,7 @@ void SystemUI::HideStatusBar()
     
 }
 
-// private static void HookOntoRawActivityEvents() [static] :105
+// private static void HookOntoRawActivityEvents() [static]
 void SystemUI::HookOntoRawActivityEvents()
 {
     SystemUI_typeof()->Init();
@@ -1230,7 +1230,7 @@ void SystemUI::HookOntoRawActivityEvents()
     
 }
 
-// private static Java.Object MakePostV11LayoutChangeListener() [static] :476
+// private static Java.Object MakePostV11LayoutChangeListener() [static]
 ::g::Java::Object* SystemUI::MakePostV11LayoutChangeListener()
 {
     SystemUI_typeof()->Init();
@@ -1246,14 +1246,14 @@ void SystemUI::HookOntoRawActivityEvents()
     
 }
 
-// private static void OnConfigChanged() [static] :140
+// private static void OnConfigChanged() [static]
 void SystemUI::OnConfigChanged()
 {
     SystemUI_typeof()->Init();
     SystemUI::CompensateRootLayoutForSystemUI();
 }
 
-// public static void OnCreate() [static] :146
+// public static void OnCreate() [static]
 void SystemUI::OnCreate()
 {
     SystemUI_typeof()->Init();
@@ -1269,7 +1269,7 @@ void SystemUI::OnCreate()
     
 }
 
-// private static void OnDestroy() [static] :134
+// private static void OnDestroy() [static]
 void SystemUI::OnDestroy()
 {
     SystemUI_typeof()->Init();
@@ -1277,7 +1277,7 @@ void SystemUI::OnDestroy()
     SystemUI::_bottomFrameSize_ = 0;
 }
 
-// private static void OnFrameChanged() [static] :95
+// private static void OnFrameChanged() [static]
 void SystemUI::OnFrameChanged()
 {
     SystemUI_typeof()->Init();
@@ -1287,7 +1287,7 @@ void SystemUI::OnFrameChanged()
         uPtr(handler)->Invoke(2, NULL, (::g::Uno::EventArgs*)::g::Uno::EventArgs::Empty());
 }
 
-// private static void onHideKeyboard(int keyboardHeight, bool force) [static] :574
+// private static void onHideKeyboard(int keyboardHeight, bool force) [static]
 void SystemUI::onHideKeyboard(int32_t keyboardHeight, bool force)
 {
     SystemUI_typeof()->Init();
@@ -1300,7 +1300,7 @@ void SystemUI::onHideKeyboard(int32_t keyboardHeight, bool force)
     }
 }
 
-// private static void OnPause() [static] :122
+// private static void OnPause() [static]
 void SystemUI::OnPause()
 {
     SystemUI_typeof()->Init();
@@ -1316,7 +1316,7 @@ void SystemUI::OnPause()
     
 }
 
-// private static void OnResume() [static] :128
+// private static void OnResume() [static]
 void SystemUI::OnResume()
 {
     SystemUI_typeof()->Init();
@@ -1332,7 +1332,7 @@ void SystemUI::OnResume()
     
 }
 
-// private static void onShowKeyboard(int keyboardHeight, bool force) [static] :564
+// private static void onShowKeyboard(int keyboardHeight, bool force) [static]
 void SystemUI::onShowKeyboard(int32_t keyboardHeight, bool force)
 {
     SystemUI_typeof()->Init();
@@ -1345,7 +1345,7 @@ void SystemUI::onShowKeyboard(int32_t keyboardHeight, bool force)
     }
 }
 
-// private static void OnWillResize() [static] :343
+// private static void OnWillResize() [static]
 void SystemUI::OnWillResize()
 {
     SystemUI_typeof()->Init();
@@ -1354,7 +1354,7 @@ void SystemUI::OnWillResize()
         uPtr(SystemUI::MarginsChanged1_)->InvokeVoid();
 }
 
-// public static void ResendFrameSizes() [static] :590
+// public static void ResendFrameSizes() [static]
 void SystemUI::ResendFrameSizes()
 {
     SystemUI_typeof()->Init();
@@ -1364,7 +1364,7 @@ void SystemUI::ResendFrameSizes()
     SystemUI::cppOnBottomFrameChanged(heightDiff);
 }
 
-// private static void ResetGeometry() [static] :456
+// private static void ResetGeometry() [static]
 void SystemUI::ResetGeometry()
 {
     SystemUI_typeof()->Init();
@@ -1377,7 +1377,7 @@ void SystemUI::ResetGeometry()
     SystemUI::Density(density);
 }
 
-// private static void SetAsRootView(Java.Object view) [static] :426
+// private static void SetAsRootView(Java.Object view) [static]
 void SystemUI::SetAsRootView(::g::Java::Object* view)
 {
     SystemUI_typeof()->Init();
@@ -1396,7 +1396,7 @@ void SystemUI::SetAsRootView(::g::Java::Object* view)
     
 }
 
-// private static void SetFrame(Java.Object view, int originX, int originY, int height) [static] :508
+// private static void SetFrame(Java.Object view, int originX, int originY, int height) [static]
 void SystemUI::SetFrame(::g::Java::Object* view, int32_t originX, int32_t originY, int32_t height)
 {
     SystemUI_typeof()->Init();
@@ -1424,7 +1424,7 @@ void SystemUI::SetFrame(::g::Java::Object* view, int32_t originX, int32_t origin
     
 }
 
-// public static void ShowStatusBar() [static] :241
+// public static void ShowStatusBar() [static]
 void SystemUI::ShowStatusBar()
 {
     SystemUI_typeof()->Init();
@@ -1440,7 +1440,7 @@ void SystemUI::ShowStatusBar()
     
 }
 
-// private static void unoOnGlobalLayout() [static] :548
+// private static void unoOnGlobalLayout() [static]
 void SystemUI::unoOnGlobalLayout()
 {
     SystemUI_typeof()->Init();
@@ -1456,7 +1456,7 @@ void SystemUI::unoOnGlobalLayout()
     
 }
 
-// public static void UpdateStatusBar() [static] :284
+// public static void UpdateStatusBar() [static]
 void SystemUI::UpdateStatusBar()
 {
     SystemUI_typeof()->Init();
@@ -1481,49 +1481,49 @@ void SystemUI::UpdateStatusBar()
     }
 }
 
-// public static int get_APILevel() [static] :640
+// public static int get_APILevel() [static]
 int32_t SystemUI::APILevel()
 {
     SystemUI_typeof()->Init();
     return SystemUI::GetAPILevel();
 }
 
-// private static Uno.Rect get_BottomFrame() [static] :21
+// private static Uno.Rect get_BottomFrame() [static]
 ::g::Uno::Rect SystemUI::BottomFrame()
 {
     SystemUI_typeof()->Init();
     return SystemUI::GetBottomBarFrame();
 }
 
-// public static float get_Density() [static] :77
+// public static float get_Density() [static]
 float SystemUI::Density()
 {
     SystemUI_typeof()->Init();
     return SystemUI::_density_;
 }
 
-// private static void set_Density(float value) [static] :78
+// private static void set_Density(float value) [static]
 void SystemUI::Density(float value)
 {
     SystemUI_typeof()->Init();
     SystemUI::_density_ = value;
 }
 
-// public static float4 get_DeviceMargins() [static] :27
+// public static float4 get_DeviceMargins() [static]
 ::g::Uno::Float4 SystemUI::DeviceMargins()
 {
     SystemUI_typeof()->Init();
     return ::g::Uno::Float4__New1(0.0f);
 }
 
-// public static Uno.Rect get_Frame() [static] :83
+// public static Uno.Rect get_Frame() [static]
 ::g::Uno::Rect SystemUI::Frame()
 {
     SystemUI_typeof()->Init();
     return SystemUI::_frame_;
 }
 
-// private static void set_Frame(Uno.Rect value) [static] :84
+// private static void set_Frame(Uno.Rect value) [static]
 void SystemUI::Frame(::g::Uno::Rect value)
 {
     SystemUI_typeof()->Init();
@@ -1535,14 +1535,14 @@ void SystemUI::Frame(::g::Uno::Rect value)
     SystemUI::OnFrameChanged();
 }
 
-// public static bool get_IsTopFrameVisible() [static] :185
+// public static bool get_IsTopFrameVisible() [static]
 bool SystemUI::IsTopFrameVisible()
 {
     SystemUI_typeof()->Init();
     return (double)SystemUI::GetStatusBarHeight() > 0.0;
 }
 
-// public static void set_IsTopFrameVisible(bool value) [static] :188
+// public static void set_IsTopFrameVisible(bool value) [static]
 void SystemUI::IsTopFrameVisible(bool value)
 {
     SystemUI_typeof()->Init();
@@ -1553,7 +1553,7 @@ void SystemUI::IsTopFrameVisible(bool value)
         SystemUI::HideStatusBar();
 }
 
-// public static int3 get_OSVersion() [static] :643
+// public static int3 get_OSVersion() [static]
 ::g::Uno::Int3 SystemUI::OSVersion()
 {
     SystemUI_typeof()->Init();
@@ -1586,21 +1586,21 @@ void SystemUI::IsTopFrameVisible(bool value)
     return ::g::Uno::Int3__New2(major, minor, revision);
 }
 
-// public static Java.Object get_RootView() [static] :421
+// public static Java.Object get_RootView() [static]
 ::g::Java::Object* SystemUI::RootView()
 {
     SystemUI_typeof()->Init();
     return SystemUI::RootLayout_;
 }
 
-// public static void set_RootView(Java.Object value) [static] :422
+// public static void set_RootView(Java.Object value) [static]
 void SystemUI::RootView(::g::Java::Object* value)
 {
     SystemUI_typeof()->Init();
     SystemUI::SetAsRootView(value);
 }
 
-// public static float4 get_SafeMargins() [static] :36
+// public static float4 get_SafeMargins() [static]
 ::g::Uno::Float4 SystemUI::SafeMargins()
 {
     SystemUI_typeof()->Init();
@@ -1609,7 +1609,7 @@ void SystemUI::RootView(::g::Java::Object* value)
     return ::g::Uno::Float4__op_Division1(::g::Uno::Float4__New2(0.0f, top, 0.0f, bottom), SystemUI::Density());
 }
 
-// public static float4 get_StaticMargins() [static] :46
+// public static float4 get_StaticMargins() [static]
 ::g::Uno::Float4 SystemUI::StaticMargins()
 {
     SystemUI_typeof()->Init();
@@ -1618,35 +1618,35 @@ void SystemUI::RootView(::g::Java::Object* value)
     return ::g::Uno::Float4__op_Division1(::g::Uno::Float4__New2(0.0f, top, 0.0f, (float)bottom), SystemUI::Density());
 }
 
-// private static Uno.Rect get_TopFrame() [static] :20
+// private static Uno.Rect get_TopFrame() [static]
 ::g::Uno::Rect SystemUI::TopFrame()
 {
     SystemUI_typeof()->Init();
     return SystemUI::GetStatusBarFrame();
 }
 
-// public static generated void add_FrameChanged(Uno.EventHandler value) [static] :94
+// public static generated void add_FrameChanged(Uno.EventHandler value) [static]
 void SystemUI::add_FrameChanged(uDelegate* value)
 {
     SystemUI_typeof()->Init();
     SystemUI::FrameChanged1_ = uCast<uDelegate*>(::g::Uno::Delegate::Combine(SystemUI::FrameChanged1_, value), ::TYPES[0/*Uno.EventHandler*/]);
 }
 
-// public static generated void remove_FrameChanged(Uno.EventHandler value) [static] :94
+// public static generated void remove_FrameChanged(Uno.EventHandler value) [static]
 void SystemUI::remove_FrameChanged(uDelegate* value)
 {
     SystemUI_typeof()->Init();
     SystemUI::FrameChanged1_ = uCast<uDelegate*>(::g::Uno::Delegate::Remove(SystemUI::FrameChanged1_, value), ::TYPES[0/*Uno.EventHandler*/]);
 }
 
-// public static generated void add_MarginsChanged(Uno.Action value) [static] :23
+// public static generated void add_MarginsChanged(Uno.Action value) [static]
 void SystemUI::add_MarginsChanged(uDelegate* value)
 {
     SystemUI_typeof()->Init();
     SystemUI::MarginsChanged1_ = uCast<uDelegate*>(::g::Uno::Delegate::Combine(SystemUI::MarginsChanged1_, value), ::TYPES[1/*Uno.Action*/]);
 }
 
-// public static generated void remove_MarginsChanged(Uno.Action value) [static] :23
+// public static generated void remove_MarginsChanged(Uno.Action value) [static]
 void SystemUI::remove_MarginsChanged(uDelegate* value)
 {
     SystemUI_typeof()->Init();
@@ -1654,10 +1654,10 @@ void SystemUI::remove_MarginsChanged(uDelegate* value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/SystemUI.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Platform/1.12.0/SystemUI.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// internal enum SystemUIResizeReason :8
+// internal enum SystemUIResizeReason
 uEnumType* SystemUIResizeReason_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -1671,10 +1671,10 @@ uEnumType* SystemUIResizeReason_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/Fuse.Platform/1.9.0/SystemUI.uno
-// --------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Platform/1.12.0/SystemUI.uno
+// --------------------------------------------------------------------------------------------------------------------------------------
 
-// internal enum SysUIState :15
+// internal enum SysUIState
 uEnumType* SysUIState_typeof()
 {
     static uSStrong<uEnumType*> type;

@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/FuseJS/1.9.0/Lifecycle.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Lifecycle.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Scripting.IModuleProvider.h>
-#include <Fuse.Scripting.Native-fa549b97.h>
+#include <Fuse.Scripting.Native-d6551e97.h>
 #include <Uno.IDisposable.h>
 namespace g{namespace Fuse{namespace Scripting{struct Context;}}}
 namespace g{namespace Fuse{namespace Scripting{struct NativeProperty;}}}
@@ -12,7 +12,7 @@ namespace g{namespace FuseJS{struct Lifecycle;}}
 namespace g{
 namespace FuseJS{
 
-// public sealed class Lifecycle :97
+// public sealed class Lifecycle
 // {
 ::g::Fuse::Scripting::NativeModule_type* Lifecycle_typeof();
 void Lifecycle__ctor_3_fn(Lifecycle* __this);

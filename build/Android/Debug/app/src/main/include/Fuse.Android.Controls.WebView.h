@@ -1,12 +1,12 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.WebView/1.9.0/Android/WebView.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.WebView/1.12.0/Android/WebView.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Controls.ISourceReceiver.h>
 #include <Fuse.Controls.IWebView.h>
-#include <Fuse.Controls.Native.-98938546.h>
+#include <Fuse.Controls.Native.-c3ee8de8.h>
 #include <Fuse.Controls.Native.IView.h>
-#include <Fuse.Navigation.IBase-84e3f965.h>
+#include <Fuse.Navigation.IBase-516f1dcd.h>
 #include <Fuse.Triggers.IProgress.h>
 #include <Uno.IDisposable.h>
 namespace g{namespace Fuse{namespace Android{namespace Controls{namespace WebViewUtils{struct JSEvalRequestManager;}}}}}
@@ -20,7 +20,7 @@ namespace Fuse{
 namespace Android{
 namespace Controls{
 
-// public sealed extern class WebView :14
+// public sealed extern class WebView
 // {
 struct WebView_type : ::g::Fuse::Controls::Native::Android::View_type
 {

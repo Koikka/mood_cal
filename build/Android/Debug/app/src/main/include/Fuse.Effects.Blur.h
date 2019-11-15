@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/Blur.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/Blur.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -20,7 +20,7 @@ namespace g{
 namespace Fuse{
 namespace Effects{
 
-// public sealed class Blur :14
+// public sealed class Blur
 // {
 ::g::Fuse::Effects::BasicEffect_type* Blur_typeof();
 void Blur__get_Active_fn(Blur* __this, bool* __retval);

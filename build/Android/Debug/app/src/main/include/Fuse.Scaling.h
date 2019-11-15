@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Scaling.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Scaling.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -20,14 +20,12 @@ namespace g{namespace Fuse{struct Scaling;}}
 namespace g{
 namespace Fuse{
 
-// public sealed class Scaling :43
+// public sealed class Scaling
 // {
 ::g::Fuse::RelativeTransform_type* Scaling_typeof();
 void Scaling__ctor_4_fn(Scaling* __this);
 void Scaling__AppendTo_fn(Scaling* __this, ::g::Fuse::FastMatrix* m, float* weight);
 void Scaling__get_EffectiveVector_fn(Scaling* __this, ::g::Uno::Float3* __retval);
-void Scaling__get_Factor_fn(Scaling* __this, float* __retval);
-void Scaling__set_Factor_fn(Scaling* __this, float* value);
 void Scaling__get_IsFlat_fn(Scaling* __this, bool* __retval);
 void Scaling__IsIdentity_fn(Scaling* __this, ::g::Uno::Float3* v, bool* __retval);
 void Scaling__New2_fn(Scaling** __retval);
@@ -41,8 +39,6 @@ struct Scaling : ::g::Fuse::RelativeTransform
 
     void ctor_4();
     ::g::Uno::Float3 EffectiveVector();
-    float Factor();
-    void Factor(float value);
     bool IsIdentity(::g::Uno::Float3 v);
     ::g::Uno::Float3 Vector();
     void Vector(::g::Uno::Float3 value);

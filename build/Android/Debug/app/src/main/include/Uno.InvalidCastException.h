@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Exceptions/InvalidCastException.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Exceptions/InvalidCastException.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Uno{struct InvalidCastException;}}
 namespace g{
 namespace Uno{
 
-// public sealed class InvalidCastException :6
+// public sealed class InvalidCastException
 // {
 ::g::Uno::Exception_type* InvalidCastException_typeof();
 void InvalidCastException__ctor_3_fn(InvalidCastException* __this);

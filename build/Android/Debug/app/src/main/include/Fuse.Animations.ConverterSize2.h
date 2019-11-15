@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Animations/1.9.0/Change.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Animations/1.12.0/Change.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Animations{
 
-// internal sealed class ConverterSize2 :262
+// internal sealed class ConverterSize2
 // {
 ::g::Fuse::Animations::Converter_type* ConverterSize2_typeof();
 void ConverterSize2__ctor_1_fn(ConverterSize2* __this);

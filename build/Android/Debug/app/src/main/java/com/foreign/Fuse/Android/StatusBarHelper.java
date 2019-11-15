@@ -31,7 +31,7 @@ public class StatusBarHelper
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static int GetStatusBarColor398()
+    public static int GetStatusBarColor401()
     {
         Window window = com.fuse.Activity.getRootActivity().getWindow();
         if (Build.VERSION.SDK_INT >= 21)
@@ -40,7 +40,7 @@ public class StatusBarHelper
         	return Color.BLACK;
     }
     
-    public static void InstallGlobalListener399()
+    public static void InstallGlobalListener402()
     {
         Window window = com.fuse.Activity.getRootActivity().getWindow();
         window.getDecorView().getViewTreeObserver().addOnGlobalFocusChangeListener(
@@ -48,7 +48,7 @@ public class StatusBarHelper
         		boolean _focusWasEditText;
         		public void onGlobalFocusChanged(View oldFocus, View newFocus) {
         			if (_focusWasEditText)
-        				ExternedBlockHost.callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar400();
+        				ExternedBlockHost.callUno_Fuse_Android_StatusBarConfig_UpdateStatusBar403();
         
         			_focusWasEditText = newFocus instanceof android.widget.EditText;
         		}
@@ -56,7 +56,7 @@ public class StatusBarHelper
         );
     }
     
-    public static boolean SetStatusBarColor401(final int color)
+    public static boolean SetStatusBarColor404(final int color)
     {
         Window window = com.fuse.Activity.getRootActivity().getWindow();
         if (Build.VERSION.SDK_INT >= 21)

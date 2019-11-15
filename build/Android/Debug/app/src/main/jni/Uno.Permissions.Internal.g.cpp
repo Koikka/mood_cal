@@ -1,8 +1,8 @@
 // This file was generated based on '(multiple files)'.
 // WARNING: Changes might be lost if you edit this file directly.
 
-#include <Uno.Permissions.Inter-b7b0d7de.h>
-#include <Uno.Permissions.Platf-7d72d93e.h>
+#include <Uno.Permissions.Inter-dfc90df9.h>
+#include <Uno.Permissions.Platf-c2400e03.h>
 #include <Uno.String.h>
 static uString* STRINGS[4];
 
@@ -11,10 +11,10 @@ namespace Uno{
 namespace Permissions{
 namespace Internal{
 
-// /usr/local/share/uno/Packages/Uno.Permissions/1.9.0/AndroidPermissionsInternal.uno
-// ----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Permissions/1.12.3/AndroidPermissionsInternal.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class Android :10
+// internal sealed extern class Android
 // {
 static void Android_build(uType* type)
 {
@@ -37,49 +37,49 @@ uType* Android_typeof()
     return type;
 }
 
-// internal static extern Uno.Permissions.PlatformPermission _camera() :198
+// internal static extern Uno.Permissions.PlatformPermission _camera()
 void Android___camera_fn(::g::Uno::Permissions::PlatformPermission* __retval)
 {
     *__retval = Android::_camera();
 }
 
-// internal static extern Uno.Permissions.PlatformPermission _read_external_storage() :453
+// internal static extern Uno.Permissions.PlatformPermission _read_external_storage()
 void Android___read_external_storage_fn(::g::Uno::Permissions::PlatformPermission* __retval)
 {
     *__retval = Android::_read_external_storage();
 }
 
-// internal static extern Uno.Permissions.PlatformPermission _read_phone_state() :478
+// internal static extern Uno.Permissions.PlatformPermission _read_phone_state()
 void Android___read_phone_state_fn(::g::Uno::Permissions::PlatformPermission* __retval)
 {
     *__retval = Android::_read_phone_state();
 }
 
-// internal static extern Uno.Permissions.PlatformPermission _write_external_storage() :713
+// internal static extern Uno.Permissions.PlatformPermission _write_external_storage()
 void Android___write_external_storage_fn(::g::Uno::Permissions::PlatformPermission* __retval)
 {
     *__retval = Android::_write_external_storage();
 }
 
-// internal static extern Uno.Permissions.PlatformPermission _camera() [static] :198
+// internal static extern Uno.Permissions.PlatformPermission _camera() [static]
 ::g::Uno::Permissions::PlatformPermission Android::_camera()
 {
     return ::g::Uno::Permissions::PlatformPermission__New1(::STRINGS[0/*"android.per...*/]);
 }
 
-// internal static extern Uno.Permissions.PlatformPermission _read_external_storage() [static] :453
+// internal static extern Uno.Permissions.PlatformPermission _read_external_storage() [static]
 ::g::Uno::Permissions::PlatformPermission Android::_read_external_storage()
 {
     return ::g::Uno::Permissions::PlatformPermission__New1(::STRINGS[1/*"android.per...*/]);
 }
 
-// internal static extern Uno.Permissions.PlatformPermission _read_phone_state() [static] :478
+// internal static extern Uno.Permissions.PlatformPermission _read_phone_state() [static]
 ::g::Uno::Permissions::PlatformPermission Android::_read_phone_state()
 {
     return ::g::Uno::Permissions::PlatformPermission__New1(::STRINGS[2/*"android.per...*/]);
 }
 
-// internal static extern Uno.Permissions.PlatformPermission _write_external_storage() [static] :713
+// internal static extern Uno.Permissions.PlatformPermission _write_external_storage() [static]
 ::g::Uno::Permissions::PlatformPermission Android::_write_external_storage()
 {
     return ::g::Uno::Permissions::PlatformPermission__New1(::STRINGS[3/*"android.per...*/]);

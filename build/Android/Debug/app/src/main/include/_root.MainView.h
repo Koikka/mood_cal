@@ -4,14 +4,17 @@
 #pragma once
 #include <Fuse.App.h>
 #include <Fuse.IProperties.h>
+#include <Uno.DateTime.h>
 #include <Uno.Float4.h>
 namespace g{namespace Firebase{namespace Database{namespace JS{struct DatabaseModule;}}}}
 namespace g{namespace Firebase{namespace Notifications{struct NotificationModule;}}}
 namespace g{namespace Fuse{namespace Camera{struct Camera;}}}
+namespace g{namespace Fuse{namespace CameraRoll{struct CameraRoll;}}}
 namespace g{namespace Fuse{namespace Controls{struct DockPanel;}}}
 namespace g{namespace Fuse{namespace Controls{struct Panel;}}}
 namespace g{namespace Fuse{namespace Controls{struct Rectangle;}}}
 namespace g{namespace Fuse{namespace Controls{struct StackPanel;}}}
+namespace g{namespace Fuse{namespace Controls{struct TextInput;}}}
 namespace g{namespace Fuse{namespace Controls{struct WebView;}}}
 namespace g{namespace Fuse{namespace Drawing{struct Brush;}}}
 namespace g{namespace Fuse{namespace Drawing{struct BrushConverter;}}}
@@ -22,12 +25,14 @@ namespace g{namespace Fuse{namespace Reactive{namespace FuseJS{struct Diagnostic
 namespace g{namespace Fuse{namespace Reactive{namespace FuseJS{struct Http;}}}}
 namespace g{namespace Fuse{namespace Reactive{namespace FuseJS{struct TimerModule;}}}}
 namespace g{namespace Fuse{namespace Reactive{struct EventBinding;}}}
+namespace g{namespace Fuse{namespace Share{struct ShareModule;}}}
 namespace g{namespace Fuse{namespace Storage{struct StorageModule;}}}
 namespace g{namespace Fuse{namespace Testing{struct UnoTestingHelper;}}}
 namespace g{namespace Fuse{namespace Triggers{struct BusyTaskModule;}}}
 namespace g{namespace Fuse{namespace Triggers{struct WhileTrue;}}}
 namespace g{namespace Fuse{namespace VideoTools{struct VideoTools;}}}
 namespace g{namespace Fuse{namespace WebSocket{struct WebSocketClientModule;}}}
+namespace g{namespace Fuse{struct Font;}}
 namespace g{namespace Fuse{struct UserEvent;}}
 namespace g{namespace FuseJS{struct Base64;}}
 namespace g{namespace FuseJS{struct Bundle;}}
@@ -48,7 +53,7 @@ namespace g{struct MainView;}
 
 namespace g{
 
-// public partial sealed class MainView :2
+// public partial sealed class MainView
 // {
 ::g::Fuse::AppBase_type* MainView_typeof();
 void MainView__ctor_4_fn(MainView* __this);
@@ -57,32 +62,36 @@ void MainView__New1_fn(MainView** __retval);
 
 struct MainView : ::g::Fuse::App
 {
+    uStrong< ::g::Uno::UX::Property1*> username_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> password_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> home_page_Opacity_inst;
     uStrong< ::g::Uno::UX::Property1*> web_view_content_Opacity_inst;
     uStrong< ::g::Uno::UX::Property1*> extra_content_Opacity_inst;
     uStrong< ::g::Uno::UX::Property1*> mood_calendar_Opacity_inst;
     uStrong< ::g::Uno::UX::Property1*> sleep_calendar_Opacity_inst;
     uStrong< ::g::Uno::UX::Property1*> eating_calendar_Opacity_inst;
+    uStrong< ::g::Uno::UX::Property1*> set_notification_Opacity_inst;
     uStrong< ::g::Uno::UX::Property1*> menu_Opacity_inst;
     uStrong< ::g::Uno::UX::Property1*> hamburger_IsOpen_inst;
     uStrong< ::g::Uno::UX::Property1*> web_view_content_Visibility_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp1_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> menu_is_open_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> home_page_Visibility_inst;
     uStrong< ::g::Uno::UX::Property1*> extra_content_Visibility_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp1_Value_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp2_File_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp3_Url_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp4_File_inst;
+    uStrong< ::g::Uno::UX::Property1*> set_notification_Visibility_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp2_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp3_File_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp4_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp5_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp6_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp7_Url_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp8_File_inst;
     uStrong< ::g::Uno::UX::Property1*> wv_Url_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp5_File_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp9_File_inst;
     uStrong< ::g::Uno::UX::Property1*> mood_container_Background_inst;
     uStrong< ::g::Uno::UX::Property1*> sleep_container_Color_inst;
     uStrong< ::g::Uno::UX::Property1*> eat_container_Color_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp6_Value_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp7_Value_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp8_Value_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp9_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> temp10_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> temp11_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> temp12_Value_inst;
@@ -92,30 +101,53 @@ struct MainView : ::g::Fuse::App
     uStrong< ::g::Uno::UX::Property1*> temp16_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> temp17_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> temp18_Value_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp19_IsEnabled_inst;
-    uStrong< ::g::Uno::UX::Property1*> mood_calendar_Visibility_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp19_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> temp20_Value_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp21_Items_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp22_ActiveIndex_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp23_Items_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp24_ActiveIndex_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp25_Items_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp26_ActiveIndex_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp27_Items_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp28_ActiveIndex_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp21_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp22_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp23_IsEnabled_inst;
+    uStrong< ::g::Uno::UX::Property1*> mood_calendar_Visibility_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp24_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp25_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp26_Visibility_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp27_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp28_Visibility_inst;
     uStrong< ::g::Uno::UX::Property1*> temp29_Value_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp30_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp30_Visibility_inst;
     uStrong< ::g::Uno::UX::Property1*> temp31_Value_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp32_Items_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp33_ActiveIndex_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp34_Items_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp35_ActiveIndex_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp32_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp33_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp34_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp35_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> temp36_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> temp37_Value_inst;
-    uStrong< ::g::Uno::UX::Property1*> temp38_IsEnabled_inst;
-    uStrong< ::g::Uno::UX::Property1*> sleep_calendar_Visibility_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp38_Value_inst;
     uStrong< ::g::Uno::UX::Property1*> temp39_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp40_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp41_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp42_IsEnabled_inst;
+    uStrong< ::g::Uno::UX::Property1*> sleep_calendar_Visibility_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp43_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp44_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp45_Visibility_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp46_FontSize_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp47_FontSize_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp48_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp49_Items_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp50_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp51_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp52_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp53_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp54_File_inst;
     uStrong< ::g::Uno::UX::Property1*> eating_calendar_Visibility_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp55_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp56_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp57_Value_inst;
+    uStrong< ::g::Uno::UX::Property1*> temp58_Value_inst;
+    static uSStrong< ::g::Fuse::Font*> FontAwesome_;
+    static uSStrong< ::g::Fuse::Font*>& FontAwesome() { return MainView_typeof()->Init(), FontAwesome_; }
+    static uSStrong< ::g::Fuse::Font*> FontAwesomeSolid_;
+    static uSStrong< ::g::Fuse::Font*>& FontAwesomeSolid() { return MainView_typeof()->Init(), FontAwesomeSolid_; }
     static ::g::Uno::Float4 BackgroundColor_;
     static ::g::Uno::Float4& BackgroundColor() { return MainView_typeof()->Init(), BackgroundColor_; }
     static ::g::Uno::Float4 ForegroundColor_;
@@ -133,28 +165,37 @@ struct MainView : ::g::Fuse::App
     uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb3;
     uStrong< ::g::Fuse::UserEvent*> ToggleEvent;
     uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb4;
-    uStrong< ::g::Fuse::Triggers::WhileTrue*> menu_is_open;
+    uStrong< ::g::Fuse::UserEvent*> MoodEvent_3;
     uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb5;
+    uStrong< ::g::Fuse::UserEvent*> eat_compensation;
     uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb6;
-    uStrong< ::g::Fuse::Controls::Panel*> popup;
+    uStrong< ::g::Fuse::Controls::TextInput*> username;
+    uStrong< ::g::Fuse::Controls::TextInput*> password;
     uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb7;
-    uStrong< ::g::Hamburger*> hamburger;
+    uStrong< ::g::Fuse::Triggers::WhileTrue*> menu_is_open;
     uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb8;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb9;
+    uStrong< ::g::Fuse::Controls::Panel*> popup;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb10;
+    uStrong< ::g::Hamburger*> hamburger;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb11;
     uStrong< ::g::Fuse::Controls::Panel*> box;
     uStrong< ::g::Fuse::Controls::Panel*> sidePage;
     uStrong< ::g::Fuse::Controls::StackPanel*> menu;
     static ::g::Uno::UX::Size MenuItemHeight_;
     static ::g::Uno::UX::Size& MenuItemHeight() { return MainView_typeof()->Init(), MenuItemHeight_; }
     uStrong< ::g::Fuse::Controls::StackPanel*> normalMenuItems;
-    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb9;
-    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb10;
-    uStrong< ::g::Fuse::Controls::DockPanel*> home_page;
-    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb11;
-    uStrong< ::g::Fuse::Controls::DockPanel*> web_view_content;
     uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb12;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb13;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb14;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb15;
+    uStrong< ::g::Fuse::Controls::DockPanel*> home_page;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb16;
+    uStrong< ::g::Fuse::Controls::DockPanel*> web_view_content;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb17;
     uStrong< ::g::Fuse::Controls::WebView*> wv;
     uStrong< ::g::Fuse::Controls::DockPanel*> extra_content;
-    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb13;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb18;
     uStrong< ::g::Fuse::Controls::Panel*> mood_container;
     uStrong< ::g::Fuse::Controls::Panel*> sleep_container;
     uStrong< ::g::Fuse::Controls::Panel*> eat_container;
@@ -168,13 +209,36 @@ struct MainView : ::g::Fuse::App
     uStrong< ::g::Fuse::Controls::Rectangle*> s_3;
     uStrong< ::g::Fuse::Controls::Rectangle*> s_2;
     uStrong< ::g::Fuse::Controls::Rectangle*> s_1;
-    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb14;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb19;
     uStrong< ::g::Fuse::Controls::DockPanel*> sleep_calendar;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb20;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb21;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb22;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb23;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb24;
     uStrong< ::g::Fuse::Controls::Rectangle*> sleep_9;
     uStrong< ::g::Fuse::Controls::Rectangle*> sleep_6;
     uStrong< ::g::Fuse::Controls::Rectangle*> sleep_3;
-    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb21;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb25;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb26;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb27;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb28;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb29;
     uStrong< ::g::Fuse::Controls::DockPanel*> eating_calendar;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb30;
+    uStrong< ::g::Fuse::Controls::Panel*> camera_parent;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb31;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb32;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb33;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb35;
+    uStrong< ::g::Fuse::Controls::Rectangle*> eat_9;
+    uStrong< ::g::Fuse::Controls::Rectangle*> eat_6;
+    uStrong< ::g::Fuse::Controls::Rectangle*> eat_3;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb36;
+    uStrong< ::g::Fuse::Controls::DockPanel*> set_notification;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb37;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb38;
+    uStrong< ::g::Fuse::Reactive::EventBinding*> temp_eb39;
     uStrong< ::g::Uno::UX::NameTable*> __g_nametable1;
     static uSStrong<uArray*> __g_static_nametable1_;
     static uSStrong<uArray*>& __g_static_nametable1() { return MainView_typeof()->Init(), __g_static_nametable1_; }
@@ -190,6 +254,8 @@ struct MainView : ::g::Fuse::App
     uStrong< ::g::Fuse::ImageTools::ImageTools*> FuseImageToolsImageTools;
     uStrong< ::g::Fuse::VideoTools::VideoTools*> FuseVideoToolsVideoTools;
     uStrong< ::g::Fuse::Camera::Camera*> FuseCameraCamera;
+    uStrong< ::g::Fuse::CameraRoll::CameraRoll*> FuseCameraRollCameraRoll;
+    uStrong< ::g::Fuse::Share::ShareModule*> FuseShareShareModule;
     uStrong< ::g::Polyfills::Window::WindowModule*> PolyfillsWindowWindowModule;
     uStrong< ::g::FuseJS::Globals*> FuseJSGlobals;
     uStrong< ::g::FuseJS::Lifecycle*> FuseJSLifecycle;
@@ -293,6 +359,24 @@ struct MainView : ::g::Fuse::App
     static ::g::Uno::UX::Selector& __selector44() { return MainView_typeof()->Init(), __selector44_; }
     static ::g::Uno::UX::Selector __selector45_;
     static ::g::Uno::UX::Selector& __selector45() { return MainView_typeof()->Init(), __selector45_; }
+    static ::g::Uno::UX::Selector __selector46_;
+    static ::g::Uno::UX::Selector& __selector46() { return MainView_typeof()->Init(), __selector46_; }
+    static ::g::Uno::UX::Selector __selector47_;
+    static ::g::Uno::UX::Selector& __selector47() { return MainView_typeof()->Init(), __selector47_; }
+    static ::g::Uno::UX::Selector __selector48_;
+    static ::g::Uno::UX::Selector& __selector48() { return MainView_typeof()->Init(), __selector48_; }
+    static ::g::Uno::UX::Selector __selector49_;
+    static ::g::Uno::UX::Selector& __selector49() { return MainView_typeof()->Init(), __selector49_; }
+    static ::g::Uno::UX::Selector __selector50_;
+    static ::g::Uno::UX::Selector& __selector50() { return MainView_typeof()->Init(), __selector50_; }
+    static ::g::Uno::UX::Selector __selector51_;
+    static ::g::Uno::UX::Selector& __selector51() { return MainView_typeof()->Init(), __selector51_; }
+    static ::g::Uno::UX::Selector __selector52_;
+    static ::g::Uno::UX::Selector& __selector52() { return MainView_typeof()->Init(), __selector52_; }
+    static ::g::Uno::UX::Selector __selector53_;
+    static ::g::Uno::UX::Selector& __selector53() { return MainView_typeof()->Init(), __selector53_; }
+    static ::g::Uno::UX::Selector __selector54_;
+    static ::g::Uno::UX::Selector& __selector54() { return MainView_typeof()->Init(), __selector54_; }
 
     void ctor_4();
     void InitializeUX();

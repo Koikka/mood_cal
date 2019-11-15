@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Panels/1.9.0/TreeRendererPanel.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Panels/1.12.0/TreeRendererPanel.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// internal abstract interface INativeViewRoot :9
+// internal abstract interface INativeViewRoot
 // {
 uInterfaceType* INativeViewRoot_typeof();
 

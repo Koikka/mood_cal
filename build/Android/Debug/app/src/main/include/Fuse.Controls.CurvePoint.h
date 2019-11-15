@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/Shapes/Curve.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/Shapes/Curve.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -19,7 +19,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public sealed class CurvePoint :40
+// public sealed class CurvePoint
 // {
 ::g::Fuse::Node_type* CurvePoint_typeof();
 void CurvePoint__get_At_fn(CurvePoint* __this, ::g::Uno::Float2* __retval);

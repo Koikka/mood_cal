@@ -10,38 +10,38 @@
 #include <Fuse.Scripting.ScriptException.h>
 #include <Fuse.Scripting.V8.Array.h>
 #include <Fuse.Scripting.V8.ArrayHandle.h>
-#include <Fuse.Scripting.V8.Aut-dcd881e8.h>
-#include <Fuse.Scripting.V8.Con-de81fe14.h>
+#include <Fuse.Scripting.V8.Aut-eb08138c.h>
+#include <Fuse.Scripting.V8.Con-73b4fe78.h>
 #include <Fuse.Scripting.V8.Context.h>
 #include <Fuse.Scripting.V8.Error.h>
 #include <Fuse.Scripting.V8.Function.h>
 #include <Fuse.Scripting.V8.Handle.h>
-#include <Fuse.Scripting.V8.Mar-7db1c341.h>
+#include <Fuse.Scripting.V8.Mar-e14e3adb.h>
 #include <Fuse.Scripting.V8.Marshaller.h>
 #include <Fuse.Scripting.V8.Object.h>
-#include <Fuse.Scripting.V8.Sim-16bddfa6.h>
-#include <Fuse.Scripting.V8.Sim-2c5af4ca.h>
-#include <Fuse.Scripting.V8.Sim-2cabf98b.h>
-#include <Fuse.Scripting.V8.Sim-74518142.h>
-#include <Fuse.Scripting.V8.Sim-7fe2f38b.h>
-#include <Fuse.Scripting.V8.Sim-8e6db8ec.h>
-#include <Fuse.Scripting.V8.Sim-957688e3.h>
-#include <Fuse.Scripting.V8.Sim-9a8dd579.h>
-#include <Fuse.Scripting.V8.Sim-a28c05c4.h>
-#include <Fuse.Scripting.V8.Sim-bff391a1.h>
-#include <Fuse.Scripting.V8.Sim-d54ebc8a.h>
-#include <Fuse.Scripting.V8.Sim-e23d0cc2.h>
-#include <Fuse.Scripting.V8.Sim-f359fae.h>
+#include <Fuse.Scripting.V8.Sim-130b432b.h>
+#include <Fuse.Scripting.V8.Sim-2e31f57f.h>
+#include <Fuse.Scripting.V8.Sim-2f1d122d.h>
+#include <Fuse.Scripting.V8.Sim-468d9e54.h>
+#include <Fuse.Scripting.V8.Sim-8f7a590.h>
+#include <Fuse.Scripting.V8.Sim-9a7d2f6a.h>
+#include <Fuse.Scripting.V8.Sim-9e7ac08.h>
+#include <Fuse.Scripting.V8.Sim-b3c74f3f.h>
+#include <Fuse.Scripting.V8.Sim-c25f0574.h>
+#include <Fuse.Scripting.V8.Sim-ccbad846.h>
+#include <Fuse.Scripting.V8.Sim-d516fd10.h>
+#include <Fuse.Scripting.V8.Sim-dd4d12d9.h>
+#include <Fuse.Scripting.V8.Sim-e2cfd08.h>
 #include <Fuse.Scripting.V8.Simple.Value.h>
-#include <Fuse.Scripting.V8.V8S-275253a8.h>
-#include <Fuse.Scripting.V8.V8S-919be618.h>
+#include <Fuse.Scripting.V8.V8S-b0583ade.h>
+#include <Fuse.Scripting.V8.V8S-b9ec6ae5.h>
 #include <Uno.Action1-1.h>
 #include <Uno.ArgumentException.h>
 #include <Uno.ArgumentNullException.h>
 #include <Uno.Bool.h>
 #include <Uno.Byte.h>
 #include <Uno.Collections.List-1.h>
-#include <Uno.Collections.List--251bdc7d.h>
+#include <Uno.Collections.List--132bd82f.h>
 #include <Uno.Double.h>
 #include <Uno.Exception.h>
 #include <Uno.Float.h>
@@ -49,10 +49,11 @@
 #include <Uno.Int.h>
 #include <Uno.IntPtr.h>
 #include <Uno.Object.h>
-#include <Uno.Runtime.InteropSe-e0f0cdcd.h>
+#include <Uno.Runtime.InteropSe-72e166a7.h>
 #include <Uno.String.h>
 #include <Uno.Type.h>
 #include <Uno.UX.Selector.h>
+#include <Uno.ValueType.h>
 #undef GetMessage
 static uString* STRINGS[3];
 static uType* TYPES[10];
@@ -62,12 +63,12 @@ namespace Fuse{
 namespace Scripting{
 namespace V8{
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Array.uno
-// --------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/Array.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class Array :7
+// internal sealed extern class Array
 // {
-// ~Array() :26
+// ~Array()
 static void Array__Finalize_fn(Array* __this)
 {
     if ((__this->_context != NULL) && !uPtr(__this->_context)->IsDisposed())
@@ -111,34 +112,34 @@ static void Array_build(uType* type)
     return type;
 }
 
-// public Array(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSArray array) :19
+// public Array(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSArray array)
 void Array__ctor_1_fn(Array* __this, ::g::Fuse::Scripting::V8::Context* context, ::JSArray** array)
 {
     __this->ctor_1(context, *array);
 }
 
-// public override sealed bool Equals(Fuse.Scripting.Array a) :66
+// public override sealed bool Equals(Fuse.Scripting.Array a)
 void Array__Equals2_fn(Array* __this, ::g::Fuse::Scripting::Array* a, bool* __retval)
 {
     ::JSArray* ind1;
     Array* that = uAs<Array*>(a, __this->__type);
-    return *__retval = (that != NULL) && ::g::Uno::Object::Equals(uBox(::g::Fuse::Scripting::V8::Simple::JSArray_typeof(), (ind1 = __this->_array, ind1), U_ALLOCA(::g::Fuse::Scripting::V8::Simple::JSArray_typeof()->ObjectSize)), uBox(::g::Fuse::Scripting::V8::Simple::JSArray_typeof(), uPtr(that)->_array)), void();
+    return *__retval = (that != NULL) && uBox(::g::Fuse::Scripting::V8::Simple::JSArray_typeof(), (ind1 = __this->_array, ind1), U_ALLOCA(::g::Fuse::Scripting::V8::Simple::JSArray_typeof()->ObjectSize))->Equals(uBox(::g::Fuse::Scripting::V8::Simple::JSArray_typeof(), uPtr(that)->_array)), void();
 }
 
-// public override sealed int GetHashCode() :72
+// public override sealed int GetHashCode()
 void Array__GetHashCode_fn(Array* __this, int32_t* __retval)
 {
     ::JSArray* ind2;
-    return *__retval = ::g::Uno::Object::GetHashCode(uBox(::g::Fuse::Scripting::V8::Simple::JSArray_typeof(), (ind2 = __this->_array, ind2), U_ALLOCA(::g::Fuse::Scripting::V8::Simple::JSArray_typeof()->ObjectSize))), void();
+    return *__retval = uBox(::g::Fuse::Scripting::V8::Simple::JSArray_typeof(), (ind2 = __this->_array, ind2), U_ALLOCA(::g::Fuse::Scripting::V8::Simple::JSArray_typeof()->ObjectSize))->GetHashCode(), void();
 }
 
-// internal Fuse.Scripting.V8.Simple.JSArray GetJSArray(Fuse.Scripting.V8.AutoReleasePool pool) :13
+// internal Fuse.Scripting.V8.Simple.JSArray GetJSArray(Fuse.Scripting.V8.AutoReleasePool pool)
 void Array__GetJSArray_fn(Array* __this, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, ::JSArray** __retval)
 {
     *__retval = __this->GetJSArray(*pool);
 }
 
-// public override sealed object get_Item(int index) :34
+// public override sealed object get_Item(int index)
 void Array__get_Item_fn(Array* __this, int32_t* index, uObject** __retval)
 {
     int32_t index_ = *index;
@@ -196,7 +197,7 @@ void Array__get_Item_fn(Array* __this, int32_t* index, uObject** __retval)
     return *__retval = result, void();
 }
 
-// public override sealed void set_Item(int index, object value) :44
+// public override sealed void set_Item(int index, object value)
 void Array__set_Item_fn(Array* __this, int32_t* index, uObject* value)
 {
     int32_t index_ = *index;
@@ -252,7 +253,7 @@ void Array__set_Item_fn(Array* __this, int32_t* index, uObject* value)
     uPtr(__this->_context)->ThrowPendingExceptions();
 }
 
-// public override sealed int get_Length() :56
+// public override sealed int get_Length()
 void Array__get_Length_fn(Array* __this, int32_t* __retval)
 {
     int32_t result = 0;
@@ -285,13 +286,13 @@ void Array__get_Length_fn(Array* __this, int32_t* __retval)
     return *__retval = result, void();
 }
 
-// public Array New(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSArray array) :19
+// public Array New(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSArray array)
 void Array__New1_fn(::g::Fuse::Scripting::V8::Context* context, ::JSArray** array, Array** __retval)
 {
     *__retval = Array::New1(context, *array);
 }
 
-// public Array(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSArray array) [instance] :19
+// public Array(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSArray array) [instance]
 void Array::ctor_1(::g::Fuse::Scripting::V8::Context* context, ::JSArray* array)
 {
     ctor_();
@@ -300,14 +301,14 @@ void Array::ctor_1(::g::Fuse::Scripting::V8::Context* context, ::JSArray* array)
     ::g::Fuse::Scripting::V8::V8SimpleExtensions::Retain2(::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue(_array), uPtr(_context)->_context);
 }
 
-// internal Fuse.Scripting.V8.Simple.JSArray GetJSArray(Fuse.Scripting.V8.AutoReleasePool pool) [instance] :13
+// internal Fuse.Scripting.V8.Simple.JSArray GetJSArray(Fuse.Scripting.V8.AutoReleasePool pool) [instance]
 ::JSArray* Array::GetJSArray(::g::Fuse::Scripting::V8::AutoReleasePool pool)
 {
     ::g::Fuse::Scripting::V8::V8SimpleExtensions::Retain2(::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue(_array), uPtr(_context)->_context);
     return pool.AutoRelease(_array);
 }
 
-// public Array New(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSArray array) [static] :19
+// public Array New(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSArray array) [static]
 Array* Array::New1(::g::Fuse::Scripting::V8::Context* context, ::JSArray* array)
 {
     Array* obj3 = (Array*)uNew(Array_typeof());
@@ -316,10 +317,10 @@ Array* Array::New1(::g::Fuse::Scripting::V8::Context* context, ::JSArray* array)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Handle.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/Handle.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class ArrayHandle :14
+// internal sealed extern class ArrayHandle
 // {
 static void ArrayHandle_build(uType* type)
 {
@@ -341,49 +342,49 @@ uType* ArrayHandle_typeof()
     return type;
 }
 
-// public ArrayHandle(byte[] array) :19
+// public ArrayHandle(byte[] array)
 void ArrayHandle__ctor__fn(ArrayHandle* __this, uArray* array)
 {
     __this->ctor_(array);
 }
 
-// public static byte[] CopyToArray(Uno.IntPtr ptr, int length) :46
+// public static byte[] CopyToArray(Uno.IntPtr ptr, int length)
 void ArrayHandle__CopyToArray_fn(void** ptr, int32_t* length, uArray** __retval)
 {
     *__retval = ArrayHandle::CopyToArray(*ptr, *length);
 }
 
-// public Uno.IntPtr GetIntPtr() :34
+// public Uno.IntPtr GetIntPtr()
 void ArrayHandle__GetIntPtr_fn(ArrayHandle* __this, void** __retval)
 {
     *__retval = __this->GetIntPtr();
 }
 
-// public ArrayHandle New(byte[] array) :19
+// public ArrayHandle New(byte[] array)
 void ArrayHandle__New1_fn(uArray* array, ArrayHandle** __retval)
 {
     *__retval = ArrayHandle::New1(array);
 }
 
-// public ArrayHandle(byte[] array) [instance] :19
+// public ArrayHandle(byte[] array) [instance]
 void ArrayHandle::ctor_(uArray* array)
 {
     Array = array;
 }
 
-// public Uno.IntPtr GetIntPtr() [instance] :34
+// public Uno.IntPtr GetIntPtr() [instance]
 void* ArrayHandle::GetIntPtr()
 {
     return Array->Ptr();
 }
 
-// public static byte[] CopyToArray(Uno.IntPtr ptr, int length) [static] :46
+// public static byte[] CopyToArray(Uno.IntPtr ptr, int length) [static]
 uArray* ArrayHandle::CopyToArray(void* ptr, int32_t length)
 {
     return uArray::New(::g::Uno::Byte_typeof()->Array(), length, ptr);
 }
 
-// public ArrayHandle New(byte[] array) [static] :19
+// public ArrayHandle New(byte[] array) [static]
 ArrayHandle* ArrayHandle::New1(uArray* array)
 {
     ArrayHandle* obj1 = (ArrayHandle*)uNew(ArrayHandle_typeof());
@@ -392,12 +393,12 @@ ArrayHandle* ArrayHandle::New1(uArray* array)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/V8SimpleExtensions.uno
-// ---------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/V8SimpleExtensions.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal extern struct AutoReleasePool :281
+// internal extern struct AutoReleasePool
 // {
-// public void Dispose() [adapter] :327
+// public void Dispose() [adapter]
 static void AutoReleasePool__Dispose_ex(uObject* __this)
 {
     AutoReleasePool__Dispose_fn((AutoReleasePool*)((uint8_t*)__this + sizeof(uObject)));
@@ -422,6 +423,7 @@ AutoReleasePool_type* AutoReleasePool_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.FieldCount = 2;
     options.InterfaceCount = 1;
     options.DependencyCount = 1;
@@ -434,110 +436,110 @@ AutoReleasePool_type* AutoReleasePool_typeof()
     return type;
 }
 
-// public AutoReleasePool(Fuse.Scripting.V8.Simple.JSContext context) :285
-void AutoReleasePool__ctor__fn(AutoReleasePool* __this, ::JSContext** context)
+// public AutoReleasePool(Fuse.Scripting.V8.Simple.JSContext context)
+void AutoReleasePool__ctor_1_fn(AutoReleasePool* __this, ::JSContext** context)
 {
-    __this->ctor_(*context);
+    __this->ctor_1(*context);
 }
 
-// public Fuse.Scripting.V8.Simple.JSArray AutoRelease(Fuse.Scripting.V8.Simple.JSArray value) :309
+// public Fuse.Scripting.V8.Simple.JSArray AutoRelease(Fuse.Scripting.V8.Simple.JSArray value)
 void AutoReleasePool__AutoRelease_fn(AutoReleasePool* __this, ::JSArray** value, ::JSArray** __retval)
 {
     *__retval = __this->AutoRelease(*value);
 }
 
-// public Fuse.Scripting.V8.Simple.JSExternal AutoRelease(Fuse.Scripting.V8.Simple.JSExternal value) :321
+// public Fuse.Scripting.V8.Simple.JSExternal AutoRelease(Fuse.Scripting.V8.Simple.JSExternal value)
 void AutoReleasePool__AutoRelease1_fn(AutoReleasePool* __this, ::JSExternal** value, ::JSExternal** __retval)
 {
     *__retval = __this->AutoRelease1(*value);
 }
 
-// public Fuse.Scripting.V8.Simple.JSFunction AutoRelease(Fuse.Scripting.V8.Simple.JSFunction value) :315
+// public Fuse.Scripting.V8.Simple.JSFunction AutoRelease(Fuse.Scripting.V8.Simple.JSFunction value)
 void AutoReleasePool__AutoRelease2_fn(AutoReleasePool* __this, ::JSFunction** value, ::JSFunction** __retval)
 {
     *__retval = __this->AutoRelease2(*value);
 }
 
-// public Fuse.Scripting.V8.Simple.JSObject AutoRelease(Fuse.Scripting.V8.Simple.JSObject value) :297
+// public Fuse.Scripting.V8.Simple.JSObject AutoRelease(Fuse.Scripting.V8.Simple.JSObject value)
 void AutoReleasePool__AutoRelease3_fn(AutoReleasePool* __this, ::JSObject** value, ::JSObject** __retval)
 {
     *__retval = __this->AutoRelease3(*value);
 }
 
-// public Fuse.Scripting.V8.Simple.JSString AutoRelease(Fuse.Scripting.V8.Simple.JSString value) :303
+// public Fuse.Scripting.V8.Simple.JSString AutoRelease(Fuse.Scripting.V8.Simple.JSString value)
 void AutoReleasePool__AutoRelease4_fn(AutoReleasePool* __this, ::JSString** value, ::JSString** __retval)
 {
     *__retval = __this->AutoRelease4(*value);
 }
 
-// public Fuse.Scripting.V8.Simple.JSValue AutoRelease(Fuse.Scripting.V8.Simple.JSValue value) :291
+// public Fuse.Scripting.V8.Simple.JSValue AutoRelease(Fuse.Scripting.V8.Simple.JSValue value)
 void AutoReleasePool__AutoRelease5_fn(AutoReleasePool* __this, ::JSValue** value, ::JSValue** __retval)
 {
     *__retval = __this->AutoRelease5(*value);
 }
 
-// public void Dispose() :327
+// public void Dispose()
 void AutoReleasePool__Dispose_fn(AutoReleasePool* __this)
 {
     __this->Dispose();
 }
 
-// public AutoReleasePool New(Fuse.Scripting.V8.Simple.JSContext context) :285
+// public AutoReleasePool New(Fuse.Scripting.V8.Simple.JSContext context)
 void AutoReleasePool__New1_fn(::JSContext** context, AutoReleasePool* __retval)
 {
     *__retval = AutoReleasePool__New1(*context);
 }
 
-// public AutoReleasePool(Fuse.Scripting.V8.Simple.JSContext context) [instance] :285
-void AutoReleasePool::ctor_(::JSContext* context)
+// public AutoReleasePool(Fuse.Scripting.V8.Simple.JSContext context) [instance]
+void AutoReleasePool::ctor_1(::JSContext* context)
 {
     _context = context;
     _pool = ((::g::Uno::Collections::List*)::g::Uno::Collections::List::New1(::TYPES[1/*Uno.Collections.List<Fuse.Scripting.V8.Simple.JSValue>*/]));
 }
 
-// public Fuse.Scripting.V8.Simple.JSArray AutoRelease(Fuse.Scripting.V8.Simple.JSArray value) [instance] :309
+// public Fuse.Scripting.V8.Simple.JSArray AutoRelease(Fuse.Scripting.V8.Simple.JSArray value) [instance]
 ::JSArray* AutoReleasePool::AutoRelease(::JSArray* value)
 {
     ::g::Uno::Collections::List__Add_fn(uPtr(_pool), uCRef(::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue(value)));
     return value;
 }
 
-// public Fuse.Scripting.V8.Simple.JSExternal AutoRelease(Fuse.Scripting.V8.Simple.JSExternal value) [instance] :321
+// public Fuse.Scripting.V8.Simple.JSExternal AutoRelease(Fuse.Scripting.V8.Simple.JSExternal value) [instance]
 ::JSExternal* AutoReleasePool::AutoRelease1(::JSExternal* value)
 {
     ::g::Uno::Collections::List__Add_fn(uPtr(_pool), uCRef(::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue1(value)));
     return value;
 }
 
-// public Fuse.Scripting.V8.Simple.JSFunction AutoRelease(Fuse.Scripting.V8.Simple.JSFunction value) [instance] :315
+// public Fuse.Scripting.V8.Simple.JSFunction AutoRelease(Fuse.Scripting.V8.Simple.JSFunction value) [instance]
 ::JSFunction* AutoReleasePool::AutoRelease2(::JSFunction* value)
 {
     ::g::Uno::Collections::List__Add_fn(uPtr(_pool), uCRef(::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue2(value)));
     return value;
 }
 
-// public Fuse.Scripting.V8.Simple.JSObject AutoRelease(Fuse.Scripting.V8.Simple.JSObject value) [instance] :297
+// public Fuse.Scripting.V8.Simple.JSObject AutoRelease(Fuse.Scripting.V8.Simple.JSObject value) [instance]
 ::JSObject* AutoReleasePool::AutoRelease3(::JSObject* value)
 {
     ::g::Uno::Collections::List__Add_fn(uPtr(_pool), uCRef(::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue3(value)));
     return value;
 }
 
-// public Fuse.Scripting.V8.Simple.JSString AutoRelease(Fuse.Scripting.V8.Simple.JSString value) [instance] :303
+// public Fuse.Scripting.V8.Simple.JSString AutoRelease(Fuse.Scripting.V8.Simple.JSString value) [instance]
 ::JSString* AutoReleasePool::AutoRelease4(::JSString* value)
 {
     ::g::Uno::Collections::List__Add_fn(uPtr(_pool), uCRef(::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue4(value)));
     return value;
 }
 
-// public Fuse.Scripting.V8.Simple.JSValue AutoRelease(Fuse.Scripting.V8.Simple.JSValue value) [instance] :291
+// public Fuse.Scripting.V8.Simple.JSValue AutoRelease(Fuse.Scripting.V8.Simple.JSValue value) [instance]
 ::JSValue* AutoReleasePool::AutoRelease5(::JSValue* value)
 {
     ::g::Uno::Collections::List__Add_fn(uPtr(_pool), uCRef(value));
     return value;
 }
 
-// public void Dispose() [instance] :327
+// public void Dispose() [instance]
 void AutoReleasePool::Dispose()
 {
     ::g::Uno::Collections::List__Enumerator< ::JSValue*> ret3;
@@ -573,19 +575,19 @@ void AutoReleasePool::Dispose()
     uPtr(_pool)->Clear();
 }
 
-// public AutoReleasePool New(Fuse.Scripting.V8.Simple.JSContext context) [static] :285
+// public AutoReleasePool New(Fuse.Scripting.V8.Simple.JSContext context) [static]
 AutoReleasePool AutoReleasePool__New1(::JSContext* context)
 {
     AutoReleasePool obj2;
-    obj2.ctor_(context);
+    obj2.ctor_1(context);
     return obj2;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Context.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/Context.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// private sealed class Marshaller.CallbackWrapper :225
+// private sealed class Marshaller.CallbackWrapper
 // {
 static void Marshaller__CallbackWrapper_build(uType* type)
 {
@@ -614,32 +616,32 @@ uType* Marshaller__CallbackWrapper_typeof()
     return type;
 }
 
-// public CallbackWrapper(Fuse.Scripting.V8.Context context, Fuse.Scripting.Callback callback) :230
+// public CallbackWrapper(Fuse.Scripting.V8.Context context, Fuse.Scripting.Callback callback)
 void Marshaller__CallbackWrapper__ctor__fn(Marshaller__CallbackWrapper* __this, ::g::Fuse::Scripting::V8::Context* context, uDelegate* callback)
 {
     __this->ctor_(context, callback);
 }
 
-// public Fuse.Scripting.V8.Simple.JSValue Call(Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.Simple.JSValue& error) :236
+// public Fuse.Scripting.V8.Simple.JSValue Call(Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.Simple.JSValue& error)
 void Marshaller__CallbackWrapper__Call_fn(Marshaller__CallbackWrapper* __this, uArray* args, ::JSValue** error, ::JSValue** __retval)
 {
     *__retval = __this->Call(args, error);
 }
 
-// public CallbackWrapper New(Fuse.Scripting.V8.Context context, Fuse.Scripting.Callback callback) :230
+// public CallbackWrapper New(Fuse.Scripting.V8.Context context, Fuse.Scripting.Callback callback)
 void Marshaller__CallbackWrapper__New1_fn(::g::Fuse::Scripting::V8::Context* context, uDelegate* callback, Marshaller__CallbackWrapper** __retval)
 {
     *__retval = Marshaller__CallbackWrapper::New1(context, callback);
 }
 
-// public CallbackWrapper(Fuse.Scripting.V8.Context context, Fuse.Scripting.Callback callback) [instance] :230
+// public CallbackWrapper(Fuse.Scripting.V8.Context context, Fuse.Scripting.Callback callback) [instance]
 void Marshaller__CallbackWrapper::ctor_(::g::Fuse::Scripting::V8::Context* context, uDelegate* callback)
 {
     _context = context;
     _callback = callback;
 }
 
-// public Fuse.Scripting.V8.Simple.JSValue Call(Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.Simple.JSValue& error) [instance] :236
+// public Fuse.Scripting.V8.Simple.JSValue Call(Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.Simple.JSValue& error) [instance]
 ::JSValue* Marshaller__CallbackWrapper::Call(uArray* args, ::JSValue** error)
 {
     ::JSContext* cxt = uPtr(_context)->_context;
@@ -698,7 +700,7 @@ void Marshaller__CallbackWrapper::ctor_(::g::Fuse::Scripting::V8::Context* conte
     return uDefault< ::JSValue*>();
 }
 
-// public CallbackWrapper New(Fuse.Scripting.V8.Context context, Fuse.Scripting.Callback callback) [static] :230
+// public CallbackWrapper New(Fuse.Scripting.V8.Context context, Fuse.Scripting.Callback callback) [static]
 Marshaller__CallbackWrapper* Marshaller__CallbackWrapper::New1(::g::Fuse::Scripting::V8::Context* context, uDelegate* callback)
 {
     Marshaller__CallbackWrapper* obj1 = (Marshaller__CallbackWrapper*)uNew(Marshaller__CallbackWrapper_typeof());
@@ -707,10 +709,10 @@ Marshaller__CallbackWrapper* Marshaller__CallbackWrapper::New1(::g::Fuse::Script
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Context.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/Context.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed extern class Context :12
+// public sealed extern class Context
 // {
 static void Context_build(uType* type)
 {
@@ -751,13 +753,13 @@ static void Context_build(uType* type)
     return type;
 }
 
-// public Context() :26
+// public Context()
 void Context__ctor_2_fn(Context* __this)
 {
     __this->ctor_2();
 }
 
-// public override sealed void Dispose() :134
+// public override sealed void Dispose()
 void Context__Dispose_fn(Context* __this)
 {
     __this->_errorHandler = NULL;
@@ -766,7 +768,7 @@ void Context__Dispose_fn(Context* __this)
     __this->_context = uDefault< ::JSContext*>();
 }
 
-// public override sealed object Evaluate(string fileName, string code) :111
+// public override sealed object Evaluate(string fileName, string code)
 void Context__Evaluate_fn(Context* __this, uString* fileName, uString* code, uObject** __retval)
 {
     if (::g::Uno::String::op_Equality(fileName, NULL))
@@ -828,7 +830,7 @@ void Context__Evaluate_fn(Context* __this, uString* fileName, uString* code, uOb
     return *__retval = result, void();
 }
 
-// public override sealed Fuse.Scripting.Object get_GlobalObject() :127
+// public override sealed Fuse.Scripting.Object get_GlobalObject()
 void Context__get_GlobalObject_fn(Context* __this, ::g::Fuse::Scripting::Object** __retval)
 {
     ::g::Fuse::Scripting::V8::AutoReleasePool pool = ::g::Fuse::Scripting::V8::AutoReleasePool__New1(__this->_context);
@@ -859,37 +861,37 @@ void Context__get_GlobalObject_fn(Context* __this, ::g::Fuse::Scripting::Object*
     }
 }
 
-// internal generated bool get_IsDisposed() :21
+// internal generated bool get_IsDisposed()
 void Context__get_IsDisposed_fn(Context* __this, bool* __retval)
 {
     *__retval = __this->IsDisposed();
 }
 
-// private generated void set_IsDisposed(bool value) :21
+// private generated void set_IsDisposed(bool value)
 void Context__set_IsDisposed_fn(Context* __this, bool* value)
 {
     __this->IsDisposed(*value);
 }
 
-// public Context New() :26
+// public Context New()
 void Context__New1_fn(Context** __retval)
 {
     *__retval = Context::New1();
 }
 
-// private void OnScriptException(Fuse.Scripting.V8.Simple.JSScriptException e) :86
+// private void OnScriptException(Fuse.Scripting.V8.Simple.JSScriptException e)
 void Context__OnScriptException_fn(Context* __this, ::JSScriptException** e)
 {
     __this->OnScriptException(*e);
 }
 
-// internal void ThrowPendingExceptions() :69
+// internal void ThrowPendingExceptions()
 void Context__ThrowPendingExceptions_fn(Context* __this)
 {
     __this->ThrowPendingExceptions();
 }
 
-// public Context() [instance] :26
+// public Context() [instance]
 void Context::ctor_2()
 {
     ctor_1();
@@ -898,19 +900,19 @@ void Context::ctor_2()
     _instanceOf = uAs< ::g::Fuse::Scripting::V8::Function*>(Evaluate(uString::Const("(instanceof)"), uString::Const("(function(x, y) { return x instanceof y; })")), ::TYPES[6/*Fuse.Scripting.V8.Function*/]);
 }
 
-// internal generated bool get_IsDisposed() [instance] :21
+// internal generated bool get_IsDisposed() [instance]
 bool Context::IsDisposed()
 {
     return _IsDisposed;
 }
 
-// private generated void set_IsDisposed(bool value) [instance] :21
+// private generated void set_IsDisposed(bool value) [instance]
 void Context::IsDisposed(bool value)
 {
     _IsDisposed = value;
 }
 
-// private void OnScriptException(Fuse.Scripting.V8.Simple.JSScriptException e) [instance] :86
+// private void OnScriptException(Fuse.Scripting.V8.Simple.JSScriptException e) [instance]
 void Context::OnScriptException(::JSScriptException* e)
 {
     ::JSValue* jsException = ::g::Fuse::Scripting::V8::V8SimpleExtensions::GetException(e);
@@ -928,7 +930,7 @@ void Context::OnScriptException(::JSScriptException* e)
         _cachedException = se;
 }
 
-// internal void ThrowPendingExceptions() [instance] :69
+// internal void ThrowPendingExceptions() [instance]
 void Context::ThrowPendingExceptions()
 {
     if (_vmDepth == 0)
@@ -946,7 +948,7 @@ void Context::ThrowPendingExceptions()
     }
 }
 
-// public Context New() [static] :26
+// public Context New() [static]
 Context* Context::New1()
 {
     Context* obj1 = (Context*)uNew(Context_typeof());
@@ -955,12 +957,12 @@ Context* Context::New1()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Context.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/Context.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal struct Context.EnterVM :53
+// internal struct Context.EnterVM
 // {
-// public void Dispose() [adapter] :62
+// public void Dispose() [adapter]
 static void Context__EnterVM__Dispose_ex(uObject* __this)
 {
     Context__EnterVM__Dispose_fn((Context__EnterVM*)((uint8_t*)__this + sizeof(uObject)));
@@ -980,6 +982,7 @@ Context__EnterVM_type* Context__EnterVM_typeof()
     if (type != NULL) return type;
 
     uTypeOptions options;
+    options.BaseDefinition = ::g::Uno::ValueType_typeof();
     options.FieldCount = 1;
     options.InterfaceCount = 1;
     options.Alignment = alignof(Context__EnterVM);
@@ -991,51 +994,51 @@ Context__EnterVM_type* Context__EnterVM_typeof()
     return type;
 }
 
-// public EnterVM(Fuse.Scripting.V8.Context context) :56
-void Context__EnterVM__ctor__fn(Context__EnterVM* __this, ::g::Fuse::Scripting::V8::Context* context)
+// public EnterVM(Fuse.Scripting.V8.Context context)
+void Context__EnterVM__ctor_1_fn(Context__EnterVM* __this, ::g::Fuse::Scripting::V8::Context* context)
 {
-    __this->ctor_(context);
+    __this->ctor_1(context);
 }
 
-// public void Dispose() :62
+// public void Dispose()
 void Context__EnterVM__Dispose_fn(Context__EnterVM* __this)
 {
     __this->Dispose();
 }
 
-// public EnterVM New(Fuse.Scripting.V8.Context context) :56
+// public EnterVM New(Fuse.Scripting.V8.Context context)
 void Context__EnterVM__New1_fn(::g::Fuse::Scripting::V8::Context* context, Context__EnterVM* __retval)
 {
     *__retval = Context__EnterVM__New1(context);
 }
 
-// public EnterVM(Fuse.Scripting.V8.Context context) [instance] :56
-void Context__EnterVM::ctor_(::g::Fuse::Scripting::V8::Context* context)
+// public EnterVM(Fuse.Scripting.V8.Context context) [instance]
+void Context__EnterVM::ctor_1(::g::Fuse::Scripting::V8::Context* context)
 {
     _context = context;
     ++uPtr(_context)->_vmDepth;
 }
 
-// public void Dispose() [instance] :62
+// public void Dispose() [instance]
 void Context__EnterVM::Dispose()
 {
     --uPtr(_context)->_vmDepth;
     _context = NULL;
 }
 
-// public EnterVM New(Fuse.Scripting.V8.Context context) [static] :56
+// public EnterVM New(Fuse.Scripting.V8.Context context) [static]
 Context__EnterVM Context__EnterVM__New1(::g::Fuse::Scripting::V8::Context* context)
 {
     Context__EnterVM obj1;
-    obj1.ctor_(context);
+    obj1.ctor_1(context);
     return obj1;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/V8SimpleExtensions.uno
-// ---------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/V8SimpleExtensions.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static extern class Error :336
+// internal static extern class Error
 // {
 static void Error_build(uType* type)
 {
@@ -1057,19 +1060,19 @@ uClassType* Error_typeof()
     return type;
 }
 
-// public static void Check(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.Simple.JSScriptException err, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> handler) :344
+// public static void Check(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.Simple.JSScriptException err, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> handler)
 void Error__Check_fn(::JSContext** context, ::JSScriptException** err, uDelegate* handler)
 {
     Error::Check(*context, *err, handler);
 }
 
-// public static void Check(Fuse.Scripting.V8.Simple.JSRuntimeError err) :338
+// public static void Check(Fuse.Scripting.V8.Simple.JSRuntimeError err)
 void Error__Check1_fn(int32_t* err)
 {
     Error::Check1(*err);
 }
 
-// public static void Check(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.Simple.JSScriptException err, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> handler) [static] :344
+// public static void Check(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.Simple.JSScriptException err, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> handler) [static]
 void Error::Check(::JSContext* context, ::JSScriptException* err, uDelegate* handler)
 {
     if (::g::Fuse::Scripting::V8::Simple::JSScriptException::op_Inequality(err, uDefault< ::JSScriptException*>()))
@@ -1099,7 +1102,7 @@ void Error::Check(::JSContext* context, ::JSScriptException* err, uDelegate* han
     }
 }
 
-// public static void Check(Fuse.Scripting.V8.Simple.JSRuntimeError err) [static] :338
+// public static void Check(Fuse.Scripting.V8.Simple.JSRuntimeError err) [static]
 void Error::Check1(int32_t err)
 {
     if (err != 0)
@@ -1107,12 +1110,12 @@ void Error::Check1(int32_t err)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Function.uno
-// -----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/Function.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class Function :7
+// internal sealed extern class Function
 // {
-// ~Function() :26
+// ~Function()
 static void Function__Finalize_fn(Function* __this)
 {
     if ((__this->_context != NULL) && !uPtr(__this->_context)->IsDisposed())
@@ -1152,13 +1155,13 @@ static void Function_build(uType* type)
     return type;
 }
 
-// internal Function(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSFunction function) :19
+// internal Function(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSFunction function)
 void Function__ctor_1_fn(Function* __this, ::g::Fuse::Scripting::V8::Context* context, ::JSFunction** function)
 {
     __this->ctor_1(context, *function);
 }
 
-// public override sealed object Call(Fuse.Scripting.Context context, object[] args) :32
+// public override sealed object Call(Fuse.Scripting.Context context, object[] args)
 void Function__Call_fn(Function* __this, ::g::Fuse::Scripting::Context* context, uArray* args, uObject** __retval)
 {
     if (context != __this->_context)
@@ -1220,7 +1223,7 @@ void Function__Call_fn(Function* __this, ::g::Fuse::Scripting::Context* context,
     return *__retval = result, void();
 }
 
-// public override sealed Fuse.Scripting.Object Construct(Fuse.Scripting.Context context, object[] args) :62
+// public override sealed Fuse.Scripting.Object Construct(Fuse.Scripting.Context context, object[] args)
 void Function__Construct_fn(Function* __this, ::g::Fuse::Scripting::Context* context, uArray* args, ::g::Fuse::Scripting::Object** __retval)
 {
     if (context != __this->_context)
@@ -1281,34 +1284,34 @@ void Function__Construct_fn(Function* __this, ::g::Fuse::Scripting::Context* con
     return *__retval = result, void();
 }
 
-// public override sealed bool Equals(Fuse.Scripting.Function f) :89
+// public override sealed bool Equals(Fuse.Scripting.Function f)
 void Function__Equals2_fn(Function* __this, ::g::Fuse::Scripting::Function* f, bool* __retval)
 {
     ::JSFunction* ind1;
     Function* that = uAs<Function*>(f, __this->__type);
-    return *__retval = (that != NULL) && ::g::Uno::Object::Equals(uBox(::g::Fuse::Scripting::V8::Simple::JSFunction_typeof(), (ind1 = __this->_function, ind1), U_ALLOCA(::g::Fuse::Scripting::V8::Simple::JSFunction_typeof()->ObjectSize)), uBox(::g::Fuse::Scripting::V8::Simple::JSFunction_typeof(), uPtr(that)->_function)), void();
+    return *__retval = (that != NULL) && uBox(::g::Fuse::Scripting::V8::Simple::JSFunction_typeof(), (ind1 = __this->_function, ind1), U_ALLOCA(::g::Fuse::Scripting::V8::Simple::JSFunction_typeof()->ObjectSize))->Equals(uBox(::g::Fuse::Scripting::V8::Simple::JSFunction_typeof(), uPtr(that)->_function)), void();
 }
 
-// public override sealed int GetHashCode() :95
+// public override sealed int GetHashCode()
 void Function__GetHashCode_fn(Function* __this, int32_t* __retval)
 {
     ::JSFunction* ind2;
-    return *__retval = ::g::Uno::Object::GetHashCode(uBox(::g::Fuse::Scripting::V8::Simple::JSFunction_typeof(), (ind2 = __this->_function, ind2), U_ALLOCA(::g::Fuse::Scripting::V8::Simple::JSFunction_typeof()->ObjectSize))), void();
+    return *__retval = uBox(::g::Fuse::Scripting::V8::Simple::JSFunction_typeof(), (ind2 = __this->_function, ind2), U_ALLOCA(::g::Fuse::Scripting::V8::Simple::JSFunction_typeof()->ObjectSize))->GetHashCode(), void();
 }
 
-// internal Fuse.Scripting.V8.Simple.JSFunction GetJSFunction(Fuse.Scripting.V8.AutoReleasePool pool) :13
+// internal Fuse.Scripting.V8.Simple.JSFunction GetJSFunction(Fuse.Scripting.V8.AutoReleasePool pool)
 void Function__GetJSFunction_fn(Function* __this, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, ::JSFunction** __retval)
 {
     *__retval = __this->GetJSFunction(*pool);
 }
 
-// internal Function New(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSFunction function) :19
+// internal Function New(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSFunction function)
 void Function__New1_fn(::g::Fuse::Scripting::V8::Context* context, ::JSFunction** function, Function** __retval)
 {
     *__retval = Function::New1(context, *function);
 }
 
-// internal Function(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSFunction function) [instance] :19
+// internal Function(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSFunction function) [instance]
 void Function::ctor_1(::g::Fuse::Scripting::V8::Context* context, ::JSFunction* function)
 {
     ctor_();
@@ -1317,14 +1320,14 @@ void Function::ctor_1(::g::Fuse::Scripting::V8::Context* context, ::JSFunction* 
     ::g::Fuse::Scripting::V8::V8SimpleExtensions::Retain2(::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue2(_function), uPtr(_context)->_context);
 }
 
-// internal Fuse.Scripting.V8.Simple.JSFunction GetJSFunction(Fuse.Scripting.V8.AutoReleasePool pool) [instance] :13
+// internal Fuse.Scripting.V8.Simple.JSFunction GetJSFunction(Fuse.Scripting.V8.AutoReleasePool pool) [instance]
 ::JSFunction* Function::GetJSFunction(::g::Fuse::Scripting::V8::AutoReleasePool pool)
 {
     ::g::Fuse::Scripting::V8::V8SimpleExtensions::Retain2(::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue2(_function), uPtr(_context)->_context);
     return pool.AutoRelease2(_function);
 }
 
-// internal Function New(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSFunction function) [static] :19
+// internal Function New(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSFunction function) [static]
 Function* Function::New1(::g::Fuse::Scripting::V8::Context* context, ::JSFunction* function)
 {
     Function* obj3 = (Function*)uNew(Function_typeof());
@@ -1333,10 +1336,10 @@ Function* Function::New1(::g::Fuse::Scripting::V8::Context* context, ::JSFunctio
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Handle.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/Handle.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static extern class Handle :7
+// internal static extern class Handle
 // {
 static void Handle_build(uType* type)
 {
@@ -1354,47 +1357,47 @@ uClassType* Handle_typeof()
     return type;
 }
 
-// public static Uno.IntPtr Create(object o) :9
+// public static Uno.IntPtr Create(object o)
 void Handle__Create_fn(uObject* o, void** __retval)
 {
     *__retval = Handle::Create(o);
 }
 
-// public static void Free(Uno.IntPtr handle) :10
+// public static void Free(Uno.IntPtr handle)
 void Handle__Free_fn(void** handle)
 {
     Handle::Free(*handle);
 }
 
-// public static object Target(Uno.IntPtr handle) :11
+// public static object Target(Uno.IntPtr handle)
 void Handle__Target_fn(void** handle, uObject** __retval)
 {
     *__retval = Handle::Target(*handle);
 }
 
-// public static Uno.IntPtr Create(object o) [static] :9
+// public static Uno.IntPtr Create(object o) [static]
 void* Handle::Create(uObject* o)
 {
     return ::g::Uno::Runtime::InteropServices::GCHandle__op_Explicit2(::g::Uno::Runtime::InteropServices::GCHandle__Alloc(o));
 }
 
-// public static void Free(Uno.IntPtr handle) [static] :10
+// public static void Free(Uno.IntPtr handle) [static]
 void Handle::Free(void* handle)
 {
     ::g::Uno::Runtime::InteropServices::GCHandle__op_Explicit1(handle).Free();
 }
 
-// public static object Target(Uno.IntPtr handle) [static] :11
+// public static object Target(Uno.IntPtr handle) [static]
 uObject* Handle::Target(void* handle)
 {
     return ::g::Uno::Runtime::InteropServices::GCHandle__op_Explicit1(handle).Target();
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Context.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/Context.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static extern class Marshaller :148
+// internal static extern class Marshaller
 // {
 static void Marshaller_build(uType* type)
 {
@@ -1415,49 +1418,49 @@ uClassType* Marshaller_typeof()
     return type;
 }
 
-// private static Fuse.Scripting.V8.Simple.JSValue NewArrayBuffer(Fuse.Scripting.V8.Context context, byte[] data, Fuse.Scripting.V8.AutoReleasePool pool) :270
+// private static Fuse.Scripting.V8.Simple.JSValue NewArrayBuffer(Fuse.Scripting.V8.Context context, byte[] data, Fuse.Scripting.V8.AutoReleasePool pool)
 void Marshaller__NewArrayBuffer_fn(::g::Fuse::Scripting::V8::Context* context, uArray* data, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, ::JSValue** __retval)
 {
     *__retval = Marshaller::NewArrayBuffer(context, data, *pool);
 }
 
-// private static int ToInt(object o) :218
+// private static int ToInt(object o)
 void Marshaller__ToInt_fn(uObject* o, int32_t* __retval)
 {
     *__retval = Marshaller::ToInt(o);
 }
 
-// internal static byte[] TryGetArrayBufferData(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Object o) :193
+// internal static byte[] TryGetArrayBufferData(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Object o)
 void Marshaller__TryGetArrayBufferData_fn(::g::Fuse::Scripting::V8::Context* context, ::g::Fuse::Scripting::V8::Object* o, uArray** __retval)
 {
     *__retval = Marshaller::TryGetArrayBufferData(context, o);
 }
 
-// internal static Fuse.Scripting.V8.Simple.JSValue Unwrap(Fuse.Scripting.V8.Context context, object obj, Fuse.Scripting.V8.AutoReleasePool pool) :174
+// internal static Fuse.Scripting.V8.Simple.JSValue Unwrap(Fuse.Scripting.V8.Context context, object obj, Fuse.Scripting.V8.AutoReleasePool pool)
 void Marshaller__Unwrap_fn(::g::Fuse::Scripting::V8::Context* context, uObject* obj, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, ::JSValue** __retval)
 {
     *__retval = Marshaller::Unwrap(context, obj, *pool);
 }
 
-// internal static Fuse.Scripting.V8.Simple.JSValue[] UnwrapArray(Fuse.Scripting.V8.Context context, object[] values, Fuse.Scripting.V8.AutoReleasePool pool) :284
+// internal static Fuse.Scripting.V8.Simple.JSValue[] UnwrapArray(Fuse.Scripting.V8.Context context, object[] values, Fuse.Scripting.V8.AutoReleasePool pool)
 void Marshaller__UnwrapArray_fn(::g::Fuse::Scripting::V8::Context* context, uArray* values, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, uArray** __retval)
 {
     *__retval = Marshaller::UnwrapArray(context, values, *pool);
 }
 
-// internal static object Wrap(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSValue val) :152
+// internal static object Wrap(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSValue val)
 void Marshaller__Wrap_fn(::g::Fuse::Scripting::V8::Context* context, ::JSValue** val, uObject** __retval)
 {
     *__retval = Marshaller::Wrap(context, *val);
 }
 
-// private static object[] WrapArray(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSValue[] values) :293
+// private static object[] WrapArray(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSValue[] values)
 void Marshaller__WrapArray_fn(::g::Fuse::Scripting::V8::Context* context, uArray* values, uArray** __retval)
 {
     *__retval = Marshaller::WrapArray(context, values);
 }
 
-// private static Fuse.Scripting.V8.Simple.JSValue NewArrayBuffer(Fuse.Scripting.V8.Context context, byte[] data, Fuse.Scripting.V8.AutoReleasePool pool) [static] :270
+// private static Fuse.Scripting.V8.Simple.JSValue NewArrayBuffer(Fuse.Scripting.V8.Context context, byte[] data, Fuse.Scripting.V8.AutoReleasePool pool) [static]
 ::JSValue* Marshaller::NewArrayBuffer(::g::Fuse::Scripting::V8::Context* context, uArray* data, ::g::Fuse::Scripting::V8::AutoReleasePool pool)
 {
     ::g::Fuse::Scripting::V8::ArrayHandle* handle = ::g::Fuse::Scripting::V8::ArrayHandle::New1(data);
@@ -1466,7 +1469,7 @@ void Marshaller__WrapArray_fn(::g::Fuse::Scripting::V8::Context* context, uArray
     return ::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue3(obj->GetJSObject(pool));
 }
 
-// private static int ToInt(object o) [static] :218
+// private static int ToInt(object o) [static]
 int32_t Marshaller::ToInt(uObject* o)
 {
     if (uIs(o, ::TYPES[5/*int*/]))
@@ -1478,7 +1481,7 @@ int32_t Marshaller::ToInt(uObject* o)
     return 0;
 }
 
-// internal static byte[] TryGetArrayBufferData(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Object o) [static] :193
+// internal static byte[] TryGetArrayBufferData(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Object o) [static]
 uArray* Marshaller::TryGetArrayBufferData(::g::Fuse::Scripting::V8::Context* context, ::g::Fuse::Scripting::V8::Object* o)
 {
     ::JSContext* cxt = uPtr(context)->_context;
@@ -1505,7 +1508,7 @@ uArray* Marshaller::TryGetArrayBufferData(::g::Fuse::Scripting::V8::Context* con
     U_THROW(::g::Uno::Exception::New2(uString::Const("V8: Unable to get data from ArrayBuffer")));
 }
 
-// internal static Fuse.Scripting.V8.Simple.JSValue Unwrap(Fuse.Scripting.V8.Context context, object obj, Fuse.Scripting.V8.AutoReleasePool pool) [static] :174
+// internal static Fuse.Scripting.V8.Simple.JSValue Unwrap(Fuse.Scripting.V8.Context context, object obj, Fuse.Scripting.V8.AutoReleasePool pool) [static]
 ::JSValue* Marshaller::Unwrap(::g::Fuse::Scripting::V8::Context* context, uObject* obj, ::g::Fuse::Scripting::V8::AutoReleasePool pool)
 {
     ::JSContext* cxt = uPtr(context)->_context;
@@ -1526,7 +1529,7 @@ uArray* Marshaller::TryGetArrayBufferData(::g::Fuse::Scripting::V8::Context* con
         return ::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue4(::g::Fuse::Scripting::V8::V8SimpleExtensions::NewString(cxt, uCast<uString*>(obj, ::TYPES[9/*string*/]), pool));
 
     if (uIs(obj, ::g::Uno::UX::Selector_typeof()))
-        return ::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue4(::g::Fuse::Scripting::V8::V8SimpleExtensions::NewString(cxt, ::g::Uno::UX::Selector__op_Implicit2(uUnbox< ::g::Uno::UX::Selector>(::g::Uno::UX::Selector_typeof(), obj)), pool));
+        return ::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue4(::g::Fuse::Scripting::V8::V8SimpleExtensions::NewString(cxt, ::g::Uno::UX::Selector__op_Implicit1(uUnbox< ::g::Uno::UX::Selector>(::g::Uno::UX::Selector_typeof(), obj)), pool));
 
     if (uIs(obj, ::g::Uno::Bool_typeof()))
         return ::g::Fuse::Scripting::V8::V8SimpleExtensions::NewBool(uUnbox<bool>(::g::Uno::Bool_typeof(), obj), pool);
@@ -1552,7 +1555,7 @@ uArray* Marshaller::TryGetArrayBufferData(::g::Fuse::Scripting::V8::Context* con
     U_THROW(::g::Uno::Exception::New2(::g::Uno::String::op_Addition1(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition1(uString::Const("Unhandled type in V8 marshaller: "), ::g::Uno::Object::GetType(uPtr(obj))), uString::Const(":")), obj)));
 }
 
-// internal static Fuse.Scripting.V8.Simple.JSValue[] UnwrapArray(Fuse.Scripting.V8.Context context, object[] values, Fuse.Scripting.V8.AutoReleasePool pool) [static] :284
+// internal static Fuse.Scripting.V8.Simple.JSValue[] UnwrapArray(Fuse.Scripting.V8.Context context, object[] values, Fuse.Scripting.V8.AutoReleasePool pool) [static]
 uArray* Marshaller::UnwrapArray(::g::Fuse::Scripting::V8::Context* context, uArray* values, ::g::Fuse::Scripting::V8::AutoReleasePool pool)
 {
     int32_t len = uPtr(values)->Length();
@@ -1564,7 +1567,7 @@ uArray* Marshaller::UnwrapArray(::g::Fuse::Scripting::V8::Context* context, uArr
     return unwrappedValues;
 }
 
-// internal static object Wrap(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSValue val) [static] :152
+// internal static object Wrap(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSValue val) [static]
 uObject* Marshaller::Wrap(::g::Fuse::Scripting::V8::Context* context, ::JSValue* val)
 {
     ::JSContext* cxt = uPtr(context)->_context;
@@ -1602,7 +1605,7 @@ uObject* Marshaller::Wrap(::g::Fuse::Scripting::V8::Context* context, ::JSValue*
     }
 }
 
-// private static object[] WrapArray(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSValue[] values) [static] :293
+// private static object[] WrapArray(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSValue[] values) [static]
 uArray* Marshaller::WrapArray(::g::Fuse::Scripting::V8::Context* context, uArray* values)
 {
     int32_t len = (values == NULL) ? 0 : uPtr(values)->Length();
@@ -1615,12 +1618,12 @@ uArray* Marshaller::WrapArray(::g::Fuse::Scripting::V8::Context* context, uArray
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/Object.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/Object.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class Object :8
+// internal sealed extern class Object
 // {
-// ~Object() :27
+// ~Object()
 static void Object__Finalize_fn(Object* __this)
 {
     if ((__this->_context != NULL) && !uPtr(__this->_context)->IsDisposed())
@@ -1675,13 +1678,13 @@ static void Object_build(uType* type)
     return type;
 }
 
-// public Object(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSObject obj) :20
+// public Object(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSObject obj)
 void Object__ctor_1_fn(Object* __this, ::g::Fuse::Scripting::V8::Context* context, ::JSObject** obj)
 {
     __this->ctor_1(context, *obj);
 }
 
-// public override sealed object CallMethod(Fuse.Scripting.Context context, string name, object[] args) :96
+// public override sealed object CallMethod(Fuse.Scripting.Context context, string name, object[] args)
 void Object__CallMethod_fn(Object* __this, ::g::Fuse::Scripting::Context* context, uString* name, uArray* args, uObject** __retval)
 {
     if (context != __this->_context)
@@ -1747,7 +1750,7 @@ void Object__CallMethod_fn(Object* __this, ::g::Fuse::Scripting::Context* contex
     return *__retval = result, void();
 }
 
-// public override sealed bool ContainsKey(string key) :122
+// public override sealed bool ContainsKey(string key)
 void Object__ContainsKey_fn(Object* __this, uString* key, bool* __retval)
 {
     ::JSContext* cxt = uPtr(__this->_context)->_context;
@@ -1804,28 +1807,28 @@ void Object__ContainsKey_fn(Object* __this, uString* key, bool* __retval)
     return *__retval = result, void();
 }
 
-// public override sealed bool Equals(Fuse.Scripting.Object o) :133
+// public override sealed bool Equals(Fuse.Scripting.Object o)
 void Object__Equals2_fn(Object* __this, ::g::Fuse::Scripting::Object* o, bool* __retval)
 {
     ::JSObject* ind1;
     Object* that = uAs<Object*>(o, __this->__type);
-    return *__retval = (that != NULL) && ::g::Uno::Object::Equals(uBox(::g::Fuse::Scripting::V8::Simple::JSObject_typeof(), (ind1 = __this->_object, ind1), U_ALLOCA(::g::Fuse::Scripting::V8::Simple::JSObject_typeof()->ObjectSize)), uBox(::g::Fuse::Scripting::V8::Simple::JSObject_typeof(), uPtr(that)->_object)), void();
+    return *__retval = (that != NULL) && uBox(::g::Fuse::Scripting::V8::Simple::JSObject_typeof(), (ind1 = __this->_object, ind1), U_ALLOCA(::g::Fuse::Scripting::V8::Simple::JSObject_typeof()->ObjectSize))->Equals(uBox(::g::Fuse::Scripting::V8::Simple::JSObject_typeof(), uPtr(that)->_object)), void();
 }
 
-// public override sealed int GetHashCode() :139
+// public override sealed int GetHashCode()
 void Object__GetHashCode_fn(Object* __this, int32_t* __retval)
 {
     ::JSObject* ind2;
-    return *__retval = ::g::Uno::Object::GetHashCode(uBox(::g::Fuse::Scripting::V8::Simple::JSObject_typeof(), (ind2 = __this->_object, ind2), U_ALLOCA(::g::Fuse::Scripting::V8::Simple::JSObject_typeof()->ObjectSize))), void();
+    return *__retval = uBox(::g::Fuse::Scripting::V8::Simple::JSObject_typeof(), (ind2 = __this->_object, ind2), U_ALLOCA(::g::Fuse::Scripting::V8::Simple::JSObject_typeof()->ObjectSize))->GetHashCode(), void();
 }
 
-// internal Fuse.Scripting.V8.Simple.JSObject GetJSObject(Fuse.Scripting.V8.AutoReleasePool pool) :14
+// internal Fuse.Scripting.V8.Simple.JSObject GetJSObject(Fuse.Scripting.V8.AutoReleasePool pool)
 void Object__GetJSObject_fn(Object* __this, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, ::JSObject** __retval)
 {
     *__retval = __this->GetJSObject(*pool);
 }
 
-// public override sealed bool InstanceOf(Fuse.Scripting.Context context, Fuse.Scripting.Function type) :82
+// public override sealed bool InstanceOf(Fuse.Scripting.Context context, Fuse.Scripting.Function type)
 void Object__InstanceOf_fn(Object* __this, ::g::Fuse::Scripting::Context* context, ::g::Fuse::Scripting::Function* type, bool* __retval)
 {
     if (context != __this->_context)
@@ -1835,7 +1838,7 @@ void Object__InstanceOf_fn(Object* __this, ::g::Fuse::Scripting::Context* contex
     return *__retval = uUnbox<bool>(::g::Uno::Bool_typeof(), uPtr(uPtr(__this->_context)->_instanceOf)->Call(__this->_context, uArray::Init<uObject*>(::TYPES[7/*object[]*/], 2, __this, type))), void();
 }
 
-// public override sealed object get_Item(string key) :35
+// public override sealed object get_Item(string key)
 void Object__get_Item_fn(Object* __this, uString* key, uObject** __retval)
 {
     ::JSContext* cxt = uPtr(__this->_context)->_context;
@@ -1892,7 +1895,7 @@ void Object__get_Item_fn(Object* __this, uString* key, uObject** __retval)
     return *__retval = result, void();
 }
 
-// public override sealed void set_Item(string key, object value) :45
+// public override sealed void set_Item(string key, object value)
 void Object__set_Item_fn(Object* __this, uString* key, uObject* value)
 {
     ::JSContext* cxt = uPtr(__this->_context)->_context;
@@ -1947,7 +1950,7 @@ void Object__set_Item_fn(Object* __this, uString* key, uObject* value)
     uPtr(__this->_context)->ThrowPendingExceptions();
 }
 
-// public override sealed string[] get_Keys() :57
+// public override sealed string[] get_Keys()
 void Object__get_Keys_fn(Object* __this, uArray** __retval)
 {
     ::JSContext* cxt = uPtr(__this->_context)->_context;
@@ -2018,13 +2021,13 @@ void Object__get_Keys_fn(Object* __this, uArray** __retval)
     return *__retval = result, void();
 }
 
-// public Object New(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSObject obj) :20
+// public Object New(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSObject obj)
 void Object__New1_fn(::g::Fuse::Scripting::V8::Context* context, ::JSObject** obj, Object** __retval)
 {
     *__retval = Object::New1(context, *obj);
 }
 
-// public Object(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSObject obj) [instance] :20
+// public Object(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSObject obj) [instance]
 void Object::ctor_1(::g::Fuse::Scripting::V8::Context* context, ::JSObject* obj)
 {
     ctor_();
@@ -2033,14 +2036,14 @@ void Object::ctor_1(::g::Fuse::Scripting::V8::Context* context, ::JSObject* obj)
     ::g::Fuse::Scripting::V8::V8SimpleExtensions::Retain2(::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue3(_object), uPtr(_context)->_context);
 }
 
-// internal Fuse.Scripting.V8.Simple.JSObject GetJSObject(Fuse.Scripting.V8.AutoReleasePool pool) [instance] :14
+// internal Fuse.Scripting.V8.Simple.JSObject GetJSObject(Fuse.Scripting.V8.AutoReleasePool pool) [instance]
 ::JSObject* Object::GetJSObject(::g::Fuse::Scripting::V8::AutoReleasePool pool)
 {
     ::g::Fuse::Scripting::V8::V8SimpleExtensions::Retain2(::g::Fuse::Scripting::V8::V8SimpleExtensions::AsValue3(_object), uPtr(_context)->_context);
     return pool.AutoRelease3(_object);
 }
 
-// public Object New(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSObject obj) [static] :20
+// public Object New(Fuse.Scripting.V8.Context context, Fuse.Scripting.V8.Simple.JSObject obj) [static]
 Object* Object::New1(::g::Fuse::Scripting::V8::Context* context, ::JSObject* obj)
 {
     Object* obj3 = (Object*)uNew(Object_typeof());
@@ -2049,12 +2052,12 @@ Object* Object::New1(::g::Fuse::Scripting::V8::Context* context, ::JSObject* obj
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/V8SimpleExtensions.uno
-// ---------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/V8SimpleExtensions.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static extern class V8SimpleExtensions :13
+// internal static extern class V8SimpleExtensions
 // {
-// static generated V8SimpleExtensions() :13
+// static generated V8SimpleExtensions()
 static void V8SimpleExtensions__cctor__fn(uType* __type)
 {
     V8SimpleExtensions::CilCallback_ = uDelegate::New(::g::Fuse::Scripting::V8::Simple::JSCallback_typeof(), (void*)V8SimpleExtensions__CilCallbackImpl_fn);
@@ -2080,283 +2083,283 @@ uClassType* V8SimpleExtensions_typeof()
     return type;
 }
 
-// public static Fuse.Scripting.V8.Simple.JSArray AsArray(Fuse.Scripting.V8.Simple.JSValue value) :86
+// public static Fuse.Scripting.V8.Simple.JSArray AsArray(Fuse.Scripting.V8.Simple.JSValue value)
 void V8SimpleExtensions__AsArray_fn(::JSValue** value, ::JSArray** __retval)
 {
     *__retval = V8SimpleExtensions::AsArray(*value);
 }
 
-// public static bool AsBool(Fuse.Scripting.V8.Simple.JSValue value) :72
+// public static bool AsBool(Fuse.Scripting.V8.Simple.JSValue value)
 void V8SimpleExtensions__AsBool_fn(::JSValue** value, bool* __retval)
 {
     *__retval = V8SimpleExtensions::AsBool(*value);
 }
 
-// public static double AsDouble(Fuse.Scripting.V8.Simple.JSValue value) :58
+// public static double AsDouble(Fuse.Scripting.V8.Simple.JSValue value)
 void V8SimpleExtensions__AsDouble_fn(::JSValue** value, double* __retval)
 {
     *__retval = V8SimpleExtensions::AsDouble(*value);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSExternal AsExternal(Fuse.Scripting.V8.Simple.JSValue value) :100
+// public static Fuse.Scripting.V8.Simple.JSExternal AsExternal(Fuse.Scripting.V8.Simple.JSValue value)
 void V8SimpleExtensions__AsExternal_fn(::JSValue** value, ::JSExternal** __retval)
 {
     *__retval = V8SimpleExtensions::AsExternal(*value);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSFunction AsFunction(Fuse.Scripting.V8.Simple.JSValue value) :93
+// public static Fuse.Scripting.V8.Simple.JSFunction AsFunction(Fuse.Scripting.V8.Simple.JSValue value)
 void V8SimpleExtensions__AsFunction_fn(::JSValue** value, ::JSFunction** __retval)
 {
     *__retval = V8SimpleExtensions::AsFunction(*value);
 }
 
-// public static int AsInt(Fuse.Scripting.V8.Simple.JSValue value) :51
+// public static int AsInt(Fuse.Scripting.V8.Simple.JSValue value)
 void V8SimpleExtensions__AsInt_fn(::JSValue** value, int32_t* __retval)
 {
     *__retval = V8SimpleExtensions::AsInt(*value);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSObject AsObject(Fuse.Scripting.V8.Simple.JSValue value) :79
+// public static Fuse.Scripting.V8.Simple.JSObject AsObject(Fuse.Scripting.V8.Simple.JSValue value)
 void V8SimpleExtensions__AsObject_fn(::JSValue** value, ::JSObject** __retval)
 {
     *__retval = V8SimpleExtensions::AsObject(*value);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSString AsString(Fuse.Scripting.V8.Simple.JSValue value) :65
+// public static Fuse.Scripting.V8.Simple.JSString AsString(Fuse.Scripting.V8.Simple.JSValue value)
 void V8SimpleExtensions__AsString_fn(::JSValue** value, ::JSString** __retval)
 {
     *__retval = V8SimpleExtensions::AsString(*value);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSArray arr) :182
+// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSArray arr)
 void V8SimpleExtensions__AsValue_fn(::JSArray** arr, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::AsValue(*arr);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSExternal ext) :244
+// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSExternal ext)
 void V8SimpleExtensions__AsValue1_fn(::JSExternal** ext, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::AsValue1(*ext);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSFunction fun) :207
+// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSFunction fun)
 void V8SimpleExtensions__AsValue2_fn(::JSFunction** fun, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::AsValue2(*fun);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSObject obj) :165
+// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSObject obj)
 void V8SimpleExtensions__AsValue3_fn(::JSObject** obj, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::AsValue3(*obj);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSString str) :122
+// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSString str)
 void V8SimpleExtensions__AsValue4_fn(::JSString** str, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::AsValue4(*str);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue Call(Fuse.Scripting.V8.Simple.JSFunction fun, Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.Simple.JSObject thisObject, Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) :185
+// public static Fuse.Scripting.V8.Simple.JSValue Call(Fuse.Scripting.V8.Simple.JSFunction fun, Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.Simple.JSObject thisObject, Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler)
 void V8SimpleExtensions__Call_fn(::JSFunction** fun, ::JSContext** context, ::JSObject** thisObject, uArray* args, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, uDelegate* errorHandler, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::Call(*fun, *context, *thisObject, args, *pool, errorHandler);
 }
 
-// private static Fuse.Scripting.V8.Simple.JSValue CilCallbackImpl(Fuse.Scripting.V8.Simple.JSContext context, Uno.IntPtr data, Fuse.Scripting.V8.Simple.JSValue[] args, int numArgs, Fuse.Scripting.V8.Simple.JSValue& error) :212
+// private static Fuse.Scripting.V8.Simple.JSValue CilCallbackImpl(Fuse.Scripting.V8.Simple.JSContext context, Uno.IntPtr data, Fuse.Scripting.V8.Simple.JSValue[] args, int numArgs, Fuse.Scripting.V8.Simple.JSValue& error)
 void V8SimpleExtensions__CilCallbackImpl_fn(::JSContext** context, void** data, uArray* args, int32_t* numArgs, ::JSValue** error, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::CilCallbackImpl(*context, *data, args, *numArgs, error);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSObject Construct(Fuse.Scripting.V8.Simple.JSFunction fun, Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) :192
+// public static Fuse.Scripting.V8.Simple.JSObject Construct(Fuse.Scripting.V8.Simple.JSFunction fun, Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler)
 void V8SimpleExtensions__Construct_fn(::JSFunction** fun, ::JSContext** context, uArray* args, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, uDelegate* errorHandler, ::JSObject** __retval)
 {
     *__retval = V8SimpleExtensions::Construct(*fun, *context, args, *pool, errorHandler);
 }
 
-// private static extern Fuse.Scripting.V8.Simple.JSFunction CreateCallback(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.V8SimpleExtensions.WrappedCallback callback, Fuse.Scripting.V8.Simple.JSScriptException& error) :221
+// private static extern Fuse.Scripting.V8.Simple.JSFunction CreateCallback(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.V8SimpleExtensions.WrappedCallback callback, Fuse.Scripting.V8.Simple.JSScriptException& error)
 void V8SimpleExtensions__CreateCallback_fn(::JSContext** context, uDelegate* callback, ::JSScriptException** error, ::JSFunction** __retval)
 {
     *__retval = V8SimpleExtensions::CreateCallback(*context, callback, error);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue Evaluate(Fuse.Scripting.V8.Simple.JSContext context, string fileName, string code, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) :26
+// public static Fuse.Scripting.V8.Simple.JSValue Evaluate(Fuse.Scripting.V8.Simple.JSContext context, string fileName, string code, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler)
 void V8SimpleExtensions__Evaluate_fn(::JSContext** context, uString* fileName, uString* code, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, uDelegate* errorHandler, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::Evaluate(*context, fileName, code, *pool, errorHandler);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue GetException(Fuse.Scripting.V8.Simple.JSScriptException jse) :249
+// public static Fuse.Scripting.V8.Simple.JSValue GetException(Fuse.Scripting.V8.Simple.JSScriptException jse)
 void V8SimpleExtensions__GetException_fn(::JSScriptException** jse, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::GetException(*jse);
 }
 
-// public static string GetFileName(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context) :251
+// public static string GetFileName(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context)
 void V8SimpleExtensions__GetFileName_fn(::JSScriptException** jse, ::JSContext** context, uString** __retval)
 {
     *__retval = V8SimpleExtensions::GetFileName(*jse, *context);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSObject GetGlobalObject(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.AutoReleasePool pool) :37
+// public static Fuse.Scripting.V8.Simple.JSObject GetGlobalObject(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.AutoReleasePool pool)
 void V8SimpleExtensions__GetGlobalObject_fn(::JSContext** context, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, ::JSObject** __retval)
 {
     *__retval = V8SimpleExtensions::GetGlobalObject(*context, *pool);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSType GetJSType(Fuse.Scripting.V8.Simple.JSValue value) :44
+// public static Fuse.Scripting.V8.Simple.JSType GetJSType(Fuse.Scripting.V8.Simple.JSValue value)
 void V8SimpleExtensions__GetJSType_fn(::JSValue** value, int32_t* __retval)
 {
     *__retval = V8SimpleExtensions::GetJSType(*value);
 }
 
-// public static int GetLineNumber(Fuse.Scripting.V8.Simple.JSScriptException jse) :252
+// public static int GetLineNumber(Fuse.Scripting.V8.Simple.JSScriptException jse)
 void V8SimpleExtensions__GetLineNumber_fn(::JSScriptException** jse, int32_t* __retval)
 {
     *__retval = V8SimpleExtensions::GetLineNumber(*jse);
 }
 
-// public static string GetMessage(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context) :250
+// public static string GetMessage(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context)
 void V8SimpleExtensions__GetMessage_fn(::JSScriptException** jse, ::JSContext** context, uString** __retval)
 {
     *__retval = V8SimpleExtensions::GetMessage(*jse, *context);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSArray GetOwnPropertyNames(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) :138
+// public static Fuse.Scripting.V8.Simple.JSArray GetOwnPropertyNames(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler)
 void V8SimpleExtensions__GetOwnPropertyNames_fn(::JSObject** obj, ::JSContext** context, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, uDelegate* errorHandler, ::JSArray** __retval)
 {
     *__retval = V8SimpleExtensions::GetOwnPropertyNames(*obj, *context, *pool, errorHandler);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue GetProperty(Fuse.Scripting.V8.Simple.JSArray arr, Fuse.Scripting.V8.Simple.JSContext context, int index, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) :168
+// public static Fuse.Scripting.V8.Simple.JSValue GetProperty(Fuse.Scripting.V8.Simple.JSArray arr, Fuse.Scripting.V8.Simple.JSContext context, int index, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler)
 void V8SimpleExtensions__GetProperty_fn(::JSArray** arr, ::JSContext** context, int32_t* index, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, uDelegate* errorHandler, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::GetProperty(*arr, *context, *index, *pool, errorHandler);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue GetProperty(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, string key, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) :125
+// public static Fuse.Scripting.V8.Simple.JSValue GetProperty(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, string key, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler)
 void V8SimpleExtensions__GetProperty1_fn(::JSObject** obj, ::JSContext** context, uString* key, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, uDelegate* errorHandler, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::GetProperty1(*obj, *context, key, *pool, errorHandler);
 }
 
-// public static string GetStackTrace(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context) :253
+// public static string GetStackTrace(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context)
 void V8SimpleExtensions__GetStackTrace_fn(::JSScriptException** jse, ::JSContext** context, uString** __retval)
 {
     *__retval = V8SimpleExtensions::GetStackTrace(*jse, *context);
 }
 
-// public static Uno.IntPtr GetValue(Fuse.Scripting.V8.Simple.JSExternal ext, Fuse.Scripting.V8.Simple.JSContext context) :243
+// public static Uno.IntPtr GetValue(Fuse.Scripting.V8.Simple.JSExternal ext, Fuse.Scripting.V8.Simple.JSContext context)
 void V8SimpleExtensions__GetValue_fn(::JSExternal** ext, ::JSContext** context, void** __retval)
 {
     *__retval = V8SimpleExtensions::GetValue(*ext, *context);
 }
 
-// public static bool HasProperty(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, string key, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) :145
+// public static bool HasProperty(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, string key, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler)
 void V8SimpleExtensions__HasProperty_fn(::JSObject** obj, ::JSContext** context, uString* key, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, uDelegate* errorHandler, bool* __retval)
 {
     *__retval = V8SimpleExtensions::HasProperty(*obj, *context, key, *pool, errorHandler);
 }
 
-// public static int Length(Fuse.Scripting.V8.Simple.JSArray arr, Fuse.Scripting.V8.Simple.JSContext context) :181
+// public static int Length(Fuse.Scripting.V8.Simple.JSArray arr, Fuse.Scripting.V8.Simple.JSContext context)
 void V8SimpleExtensions__Length_fn(::JSArray** arr, ::JSContext** context, int32_t* __retval)
 {
     *__retval = V8SimpleExtensions::Length(*arr, *context);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue NewBool(bool value, Fuse.Scripting.V8.AutoReleasePool pool) :50
+// public static Fuse.Scripting.V8.Simple.JSValue NewBool(bool value, Fuse.Scripting.V8.AutoReleasePool pool)
 void V8SimpleExtensions__NewBool_fn(bool* value, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::NewBool(*value, *pool);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSFunction NewCallback(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.V8SimpleExtensions.WrappedCallback callback, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) :200
+// public static Fuse.Scripting.V8.Simple.JSFunction NewCallback(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.V8SimpleExtensions.WrappedCallback callback, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler)
 void V8SimpleExtensions__NewCallback_fn(::JSContext** context, uDelegate* callback, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, uDelegate* errorHandler, ::JSFunction** __retval)
 {
     *__retval = V8SimpleExtensions::NewCallback(*context, callback, *pool, errorHandler);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue NewDouble(double value, Fuse.Scripting.V8.AutoReleasePool pool) :49
+// public static Fuse.Scripting.V8.Simple.JSValue NewDouble(double value, Fuse.Scripting.V8.AutoReleasePool pool)
 void V8SimpleExtensions__NewDouble_fn(double* value, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::NewDouble(*value, *pool);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSExternal NewExternal(Fuse.Scripting.V8.Simple.JSContext context, Uno.IntPtr value, Fuse.Scripting.V8.AutoReleasePool pool) :239
+// public static Fuse.Scripting.V8.Simple.JSExternal NewExternal(Fuse.Scripting.V8.Simple.JSContext context, Uno.IntPtr value, Fuse.Scripting.V8.AutoReleasePool pool)
 void V8SimpleExtensions__NewExternal_fn(::JSContext** context, void** value, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, ::JSExternal** __retval)
 {
     *__retval = V8SimpleExtensions::NewExternal(*context, *value, *pool);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSObject NewExternalArrayBuffer(Fuse.Scripting.V8.Simple.JSContext context, Uno.IntPtr data, int byteLength, Fuse.Scripting.V8.AutoReleasePool pool) :152
+// public static Fuse.Scripting.V8.Simple.JSObject NewExternalArrayBuffer(Fuse.Scripting.V8.Simple.JSContext context, Uno.IntPtr data, int byteLength, Fuse.Scripting.V8.AutoReleasePool pool)
 void V8SimpleExtensions__NewExternalArrayBuffer_fn(::JSContext** context, void** data, int32_t* byteLength, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, ::JSObject** __retval)
 {
     *__retval = V8SimpleExtensions::NewExternalArrayBuffer(*context, *data, *byteLength, *pool);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue NewInt(int value, Fuse.Scripting.V8.AutoReleasePool pool) :48
+// public static Fuse.Scripting.V8.Simple.JSValue NewInt(int value, Fuse.Scripting.V8.AutoReleasePool pool)
 void V8SimpleExtensions__NewInt_fn(int32_t* value, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::NewInt(*value, *pool);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSString NewString(Fuse.Scripting.V8.Simple.JSContext context, string str, Fuse.Scripting.V8.AutoReleasePool pool) :113
+// public static Fuse.Scripting.V8.Simple.JSString NewString(Fuse.Scripting.V8.Simple.JSContext context, string str, Fuse.Scripting.V8.AutoReleasePool pool)
 void V8SimpleExtensions__NewString_fn(::JSContext** context, uString* str, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, ::JSString** __retval)
 {
     *__retval = V8SimpleExtensions::NewString(*context, str, *pool);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue Null() :47
+// public static Fuse.Scripting.V8.Simple.JSValue Null()
 void V8SimpleExtensions__Null_fn(::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::Null();
 }
 
-// public static void Release(Fuse.Scripting.V8.Simple.JSContext context) :17
+// public static void Release(Fuse.Scripting.V8.Simple.JSContext context)
 void V8SimpleExtensions__Release_fn(::JSContext** context)
 {
     V8SimpleExtensions::Release(*context);
 }
 
-// public static void Release(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context) :248
+// public static void Release(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context)
 void V8SimpleExtensions__Release1_fn(::JSScriptException** jse, ::JSContext** context)
 {
     V8SimpleExtensions::Release1(*jse, *context);
 }
 
-// public static void Release(Fuse.Scripting.V8.Simple.JSValue value, Fuse.Scripting.V8.Simple.JSContext context) :46
+// public static void Release(Fuse.Scripting.V8.Simple.JSValue value, Fuse.Scripting.V8.Simple.JSContext context)
 void V8SimpleExtensions__Release2_fn(::JSValue** value, ::JSContext** context)
 {
     V8SimpleExtensions::Release2(*value, *context);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue Retain(Fuse.Scripting.V8.Simple.JSValue value, Fuse.Scripting.V8.Simple.JSContext context) :45
+// public static Fuse.Scripting.V8.Simple.JSValue Retain(Fuse.Scripting.V8.Simple.JSValue value, Fuse.Scripting.V8.Simple.JSContext context)
 void V8SimpleExtensions__Retain2_fn(::JSValue** value, ::JSContext** context, ::JSValue** __retval)
 {
     *__retval = V8SimpleExtensions::Retain2(*value, *context);
 }
 
-// public static void SetProperty(Fuse.Scripting.V8.Simple.JSArray arr, Fuse.Scripting.V8.Simple.JSContext context, int index, Fuse.Scripting.V8.Simple.JSValue value, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) :175
+// public static void SetProperty(Fuse.Scripting.V8.Simple.JSArray arr, Fuse.Scripting.V8.Simple.JSContext context, int index, Fuse.Scripting.V8.Simple.JSValue value, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler)
 void V8SimpleExtensions__SetProperty_fn(::JSArray** arr, ::JSContext** context, int32_t* index, ::JSValue** value, uDelegate* errorHandler)
 {
     V8SimpleExtensions::SetProperty(*arr, *context, *index, *value, errorHandler);
 }
 
-// public static void SetProperty(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, string key, Fuse.Scripting.V8.Simple.JSValue value, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) :132
+// public static void SetProperty(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, string key, Fuse.Scripting.V8.Simple.JSValue value, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler)
 void V8SimpleExtensions__SetProperty1_fn(::JSObject** obj, ::JSContext** context, uString* key, ::JSValue** value, ::g::Fuse::Scripting::V8::AutoReleasePool* pool, uDelegate* errorHandler)
 {
     V8SimpleExtensions::SetProperty1(*obj, *context, key, *value, *pool, errorHandler);
 }
 
-// public static string ToStr(Fuse.Scripting.V8.Simple.JSString str, Fuse.Scripting.V8.Simple.JSContext context) :121
+// public static string ToStr(Fuse.Scripting.V8.Simple.JSString str, Fuse.Scripting.V8.Simple.JSContext context)
 void V8SimpleExtensions__ToStr_fn(::JSString** str, ::JSContext** context, uString** __retval)
 {
     *__retval = V8SimpleExtensions::ToStr(*str, *context);
 }
 
-// public static Uno.IntPtr TryGetArrayBufferData(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context) :156
+// public static Uno.IntPtr TryGetArrayBufferData(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context)
 void V8SimpleExtensions__TryGetArrayBufferData_fn(::JSObject** obj, ::JSContext** context, void** __retval)
 {
     *__retval = V8SimpleExtensions::TryGetArrayBufferData(*obj, *context);
@@ -2364,7 +2367,7 @@ void V8SimpleExtensions__TryGetArrayBufferData_fn(::JSObject** obj, ::JSContext*
 
 uSStrong<uDelegate*> V8SimpleExtensions::CilCallback_;
 
-// public static Fuse.Scripting.V8.Simple.JSArray AsArray(Fuse.Scripting.V8.Simple.JSValue value) [static] :86
+// public static Fuse.Scripting.V8.Simple.JSArray AsArray(Fuse.Scripting.V8.Simple.JSValue value) [static]
 ::JSArray* V8SimpleExtensions::AsArray(::JSValue* value)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2374,7 +2377,7 @@ uSStrong<uDelegate*> V8SimpleExtensions::CilCallback_;
     return result;
 }
 
-// public static bool AsBool(Fuse.Scripting.V8.Simple.JSValue value) [static] :72
+// public static bool AsBool(Fuse.Scripting.V8.Simple.JSValue value) [static]
 bool V8SimpleExtensions::AsBool(::JSValue* value)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2384,7 +2387,7 @@ bool V8SimpleExtensions::AsBool(::JSValue* value)
     return result;
 }
 
-// public static double AsDouble(Fuse.Scripting.V8.Simple.JSValue value) [static] :58
+// public static double AsDouble(Fuse.Scripting.V8.Simple.JSValue value) [static]
 double V8SimpleExtensions::AsDouble(::JSValue* value)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2394,7 +2397,7 @@ double V8SimpleExtensions::AsDouble(::JSValue* value)
     return result;
 }
 
-// public static Fuse.Scripting.V8.Simple.JSExternal AsExternal(Fuse.Scripting.V8.Simple.JSValue value) [static] :100
+// public static Fuse.Scripting.V8.Simple.JSExternal AsExternal(Fuse.Scripting.V8.Simple.JSValue value) [static]
 ::JSExternal* V8SimpleExtensions::AsExternal(::JSValue* value)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2404,7 +2407,7 @@ double V8SimpleExtensions::AsDouble(::JSValue* value)
     return result;
 }
 
-// public static Fuse.Scripting.V8.Simple.JSFunction AsFunction(Fuse.Scripting.V8.Simple.JSValue value) [static] :93
+// public static Fuse.Scripting.V8.Simple.JSFunction AsFunction(Fuse.Scripting.V8.Simple.JSValue value) [static]
 ::JSFunction* V8SimpleExtensions::AsFunction(::JSValue* value)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2414,7 +2417,7 @@ double V8SimpleExtensions::AsDouble(::JSValue* value)
     return result;
 }
 
-// public static int AsInt(Fuse.Scripting.V8.Simple.JSValue value) [static] :51
+// public static int AsInt(Fuse.Scripting.V8.Simple.JSValue value) [static]
 int32_t V8SimpleExtensions::AsInt(::JSValue* value)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2424,7 +2427,7 @@ int32_t V8SimpleExtensions::AsInt(::JSValue* value)
     return result;
 }
 
-// public static Fuse.Scripting.V8.Simple.JSObject AsObject(Fuse.Scripting.V8.Simple.JSValue value) [static] :79
+// public static Fuse.Scripting.V8.Simple.JSObject AsObject(Fuse.Scripting.V8.Simple.JSValue value) [static]
 ::JSObject* V8SimpleExtensions::AsObject(::JSValue* value)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2434,7 +2437,7 @@ int32_t V8SimpleExtensions::AsInt(::JSValue* value)
     return result;
 }
 
-// public static Fuse.Scripting.V8.Simple.JSString AsString(Fuse.Scripting.V8.Simple.JSValue value) [static] :65
+// public static Fuse.Scripting.V8.Simple.JSString AsString(Fuse.Scripting.V8.Simple.JSValue value) [static]
 ::JSString* V8SimpleExtensions::AsString(::JSValue* value)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2444,42 +2447,42 @@ int32_t V8SimpleExtensions::AsInt(::JSValue* value)
     return result;
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSArray arr) [static] :182
+// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSArray arr) [static]
 ::JSValue* V8SimpleExtensions::AsValue(::JSArray* arr)
 {
     V8SimpleExtensions_typeof()->Init();
     return ::g::Fuse::Scripting::V8::Simple::Value::AsValue(arr);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSExternal ext) [static] :244
+// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSExternal ext) [static]
 ::JSValue* V8SimpleExtensions::AsValue1(::JSExternal* ext)
 {
     V8SimpleExtensions_typeof()->Init();
     return ::g::Fuse::Scripting::V8::Simple::Value::AsValue1(ext);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSFunction fun) [static] :207
+// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSFunction fun) [static]
 ::JSValue* V8SimpleExtensions::AsValue2(::JSFunction* fun)
 {
     V8SimpleExtensions_typeof()->Init();
     return ::g::Fuse::Scripting::V8::Simple::Value::AsValue2(fun);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSObject obj) [static] :165
+// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSObject obj) [static]
 ::JSValue* V8SimpleExtensions::AsValue3(::JSObject* obj)
 {
     V8SimpleExtensions_typeof()->Init();
     return ::g::Fuse::Scripting::V8::Simple::Value::AsValue3(obj);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSString str) [static] :122
+// public static Fuse.Scripting.V8.Simple.JSValue AsValue(Fuse.Scripting.V8.Simple.JSString str) [static]
 ::JSValue* V8SimpleExtensions::AsValue4(::JSString* str)
 {
     V8SimpleExtensions_typeof()->Init();
     return ::g::Fuse::Scripting::V8::Simple::Value::AsValue4(str);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue Call(Fuse.Scripting.V8.Simple.JSFunction fun, Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.Simple.JSObject thisObject, Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static] :185
+// public static Fuse.Scripting.V8.Simple.JSValue Call(Fuse.Scripting.V8.Simple.JSFunction fun, Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.Simple.JSObject thisObject, Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static]
 ::JSValue* V8SimpleExtensions::Call(::JSFunction* fun, ::JSContext* context, ::JSObject* thisObject, uArray* args, ::g::Fuse::Scripting::V8::AutoReleasePool pool, uDelegate* errorHandler)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2489,7 +2492,7 @@ int32_t V8SimpleExtensions::AsInt(::JSValue* value)
     return pool.AutoRelease5(result);
 }
 
-// private static Fuse.Scripting.V8.Simple.JSValue CilCallbackImpl(Fuse.Scripting.V8.Simple.JSContext context, Uno.IntPtr data, Fuse.Scripting.V8.Simple.JSValue[] args, int numArgs, Fuse.Scripting.V8.Simple.JSValue& error) [static] :212
+// private static Fuse.Scripting.V8.Simple.JSValue CilCallbackImpl(Fuse.Scripting.V8.Simple.JSContext context, Uno.IntPtr data, Fuse.Scripting.V8.Simple.JSValue[] args, int numArgs, Fuse.Scripting.V8.Simple.JSValue& error) [static]
 ::JSValue* V8SimpleExtensions::CilCallbackImpl(::JSContext* context, void* data, uArray* args, int32_t numArgs, ::JSValue** error)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2498,7 +2501,7 @@ int32_t V8SimpleExtensions::AsInt(::JSValue* value)
     return (uPtr(wrappedCallback)->Invoke(&ret1, 2, args, error), ret1);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSObject Construct(Fuse.Scripting.V8.Simple.JSFunction fun, Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static] :192
+// public static Fuse.Scripting.V8.Simple.JSObject Construct(Fuse.Scripting.V8.Simple.JSFunction fun, Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static]
 ::JSObject* V8SimpleExtensions::Construct(::JSFunction* fun, ::JSContext* context, uArray* args, ::g::Fuse::Scripting::V8::AutoReleasePool pool, uDelegate* errorHandler)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2508,7 +2511,7 @@ int32_t V8SimpleExtensions::AsInt(::JSValue* value)
     return pool.AutoRelease3(result);
 }
 
-// private static extern Fuse.Scripting.V8.Simple.JSFunction CreateCallback(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.V8SimpleExtensions.WrappedCallback callback, Fuse.Scripting.V8.Simple.JSScriptException& error) [static] :221
+// private static extern Fuse.Scripting.V8.Simple.JSFunction CreateCallback(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.V8SimpleExtensions.WrappedCallback callback, Fuse.Scripting.V8.Simple.JSScriptException& error) [static]
 ::JSFunction* V8SimpleExtensions::CreateCallback(::JSContext* context, uDelegate* callback, ::JSScriptException** error)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2526,7 +2529,7 @@ int32_t V8SimpleExtensions::AsInt(::JSValue* value)
     	);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue Evaluate(Fuse.Scripting.V8.Simple.JSContext context, string fileName, string code, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static] :26
+// public static Fuse.Scripting.V8.Simple.JSValue Evaluate(Fuse.Scripting.V8.Simple.JSContext context, string fileName, string code, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static]
 ::JSValue* V8SimpleExtensions::Evaluate(::JSContext* context, uString* fileName, uString* code, ::g::Fuse::Scripting::V8::AutoReleasePool pool, uDelegate* errorHandler)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2536,21 +2539,21 @@ int32_t V8SimpleExtensions::AsInt(::JSValue* value)
     return pool.AutoRelease5(result);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue GetException(Fuse.Scripting.V8.Simple.JSScriptException jse) [static] :249
+// public static Fuse.Scripting.V8.Simple.JSValue GetException(Fuse.Scripting.V8.Simple.JSScriptException jse) [static]
 ::JSValue* V8SimpleExtensions::GetException(::JSScriptException* jse)
 {
     V8SimpleExtensions_typeof()->Init();
     return ::g::Fuse::Scripting::V8::Simple::ScriptException::GetException(jse);
 }
 
-// public static string GetFileName(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context) [static] :251
+// public static string GetFileName(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context) [static]
 uString* V8SimpleExtensions::GetFileName(::JSScriptException* jse, ::JSContext* context)
 {
     V8SimpleExtensions_typeof()->Init();
     return V8SimpleExtensions::ToStr(::g::Fuse::Scripting::V8::Simple::ScriptException::GetFileName(jse), context);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSObject GetGlobalObject(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.AutoReleasePool pool) [static] :37
+// public static Fuse.Scripting.V8.Simple.JSObject GetGlobalObject(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.AutoReleasePool pool) [static]
 ::JSObject* V8SimpleExtensions::GetGlobalObject(::JSContext* context, ::g::Fuse::Scripting::V8::AutoReleasePool pool)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2558,28 +2561,28 @@ uString* V8SimpleExtensions::GetFileName(::JSScriptException* jse, ::JSContext* 
     return pool.AutoRelease3(result);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSType GetJSType(Fuse.Scripting.V8.Simple.JSValue value) [static] :44
+// public static Fuse.Scripting.V8.Simple.JSType GetJSType(Fuse.Scripting.V8.Simple.JSValue value) [static]
 int32_t V8SimpleExtensions::GetJSType(::JSValue* value)
 {
     V8SimpleExtensions_typeof()->Init();
     return ::g::Fuse::Scripting::V8::Simple::Value::GetType(value);
 }
 
-// public static int GetLineNumber(Fuse.Scripting.V8.Simple.JSScriptException jse) [static] :252
+// public static int GetLineNumber(Fuse.Scripting.V8.Simple.JSScriptException jse) [static]
 int32_t V8SimpleExtensions::GetLineNumber(::JSScriptException* jse)
 {
     V8SimpleExtensions_typeof()->Init();
     return ::g::Fuse::Scripting::V8::Simple::ScriptException::GetLineNumber(jse);
 }
 
-// public static string GetMessage(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context) [static] :250
+// public static string GetMessage(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context) [static]
 uString* V8SimpleExtensions::GetMessage(::JSScriptException* jse, ::JSContext* context)
 {
     V8SimpleExtensions_typeof()->Init();
     return V8SimpleExtensions::ToStr(::g::Fuse::Scripting::V8::Simple::ScriptException::GetMessage(jse), context);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSArray GetOwnPropertyNames(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static] :138
+// public static Fuse.Scripting.V8.Simple.JSArray GetOwnPropertyNames(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static]
 ::JSArray* V8SimpleExtensions::GetOwnPropertyNames(::JSObject* obj, ::JSContext* context, ::g::Fuse::Scripting::V8::AutoReleasePool pool, uDelegate* errorHandler)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2589,7 +2592,7 @@ uString* V8SimpleExtensions::GetMessage(::JSScriptException* jse, ::JSContext* c
     return pool.AutoRelease(result);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue GetProperty(Fuse.Scripting.V8.Simple.JSArray arr, Fuse.Scripting.V8.Simple.JSContext context, int index, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static] :168
+// public static Fuse.Scripting.V8.Simple.JSValue GetProperty(Fuse.Scripting.V8.Simple.JSArray arr, Fuse.Scripting.V8.Simple.JSContext context, int index, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static]
 ::JSValue* V8SimpleExtensions::GetProperty(::JSArray* arr, ::JSContext* context, int32_t index, ::g::Fuse::Scripting::V8::AutoReleasePool pool, uDelegate* errorHandler)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2599,7 +2602,7 @@ uString* V8SimpleExtensions::GetMessage(::JSScriptException* jse, ::JSContext* c
     return pool.AutoRelease5(result);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue GetProperty(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, string key, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static] :125
+// public static Fuse.Scripting.V8.Simple.JSValue GetProperty(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, string key, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static]
 ::JSValue* V8SimpleExtensions::GetProperty1(::JSObject* obj, ::JSContext* context, uString* key, ::g::Fuse::Scripting::V8::AutoReleasePool pool, uDelegate* errorHandler)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2609,21 +2612,21 @@ uString* V8SimpleExtensions::GetMessage(::JSScriptException* jse, ::JSContext* c
     return pool.AutoRelease5(result);
 }
 
-// public static string GetStackTrace(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context) [static] :253
+// public static string GetStackTrace(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context) [static]
 uString* V8SimpleExtensions::GetStackTrace(::JSScriptException* jse, ::JSContext* context)
 {
     V8SimpleExtensions_typeof()->Init();
     return V8SimpleExtensions::ToStr(::g::Fuse::Scripting::V8::Simple::ScriptException::GetStackTrace(jse), context);
 }
 
-// public static Uno.IntPtr GetValue(Fuse.Scripting.V8.Simple.JSExternal ext, Fuse.Scripting.V8.Simple.JSContext context) [static] :243
+// public static Uno.IntPtr GetValue(Fuse.Scripting.V8.Simple.JSExternal ext, Fuse.Scripting.V8.Simple.JSContext context) [static]
 void* V8SimpleExtensions::GetValue(::JSExternal* ext, ::JSContext* context)
 {
     V8SimpleExtensions_typeof()->Init();
     return ::g::Fuse::Scripting::V8::Simple::Value::GetExternalValue(context, ext);
 }
 
-// public static bool HasProperty(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, string key, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static] :145
+// public static bool HasProperty(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, string key, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static]
 bool V8SimpleExtensions::HasProperty(::JSObject* obj, ::JSContext* context, uString* key, ::g::Fuse::Scripting::V8::AutoReleasePool pool, uDelegate* errorHandler)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2633,21 +2636,21 @@ bool V8SimpleExtensions::HasProperty(::JSObject* obj, ::JSContext* context, uStr
     return result;
 }
 
-// public static int Length(Fuse.Scripting.V8.Simple.JSArray arr, Fuse.Scripting.V8.Simple.JSContext context) [static] :181
+// public static int Length(Fuse.Scripting.V8.Simple.JSArray arr, Fuse.Scripting.V8.Simple.JSContext context) [static]
 int32_t V8SimpleExtensions::Length(::JSArray* arr, ::JSContext* context)
 {
     V8SimpleExtensions_typeof()->Init();
     return ::g::Fuse::Scripting::V8::Simple::Value::Length(context, arr);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue NewBool(bool value, Fuse.Scripting.V8.AutoReleasePool pool) [static] :50
+// public static Fuse.Scripting.V8.Simple.JSValue NewBool(bool value, Fuse.Scripting.V8.AutoReleasePool pool) [static]
 ::JSValue* V8SimpleExtensions::NewBool(bool value, ::g::Fuse::Scripting::V8::AutoReleasePool pool)
 {
     V8SimpleExtensions_typeof()->Init();
     return pool.AutoRelease5(::g::Fuse::Scripting::V8::Simple::Value::CreateBool(value));
 }
 
-// public static Fuse.Scripting.V8.Simple.JSFunction NewCallback(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.V8SimpleExtensions.WrappedCallback callback, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static] :200
+// public static Fuse.Scripting.V8.Simple.JSFunction NewCallback(Fuse.Scripting.V8.Simple.JSContext context, Fuse.Scripting.V8.V8SimpleExtensions.WrappedCallback callback, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static]
 ::JSFunction* V8SimpleExtensions::NewCallback(::JSContext* context, uDelegate* callback, ::g::Fuse::Scripting::V8::AutoReleasePool pool, uDelegate* errorHandler)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2657,35 +2660,35 @@ int32_t V8SimpleExtensions::Length(::JSArray* arr, ::JSContext* context)
     return pool.AutoRelease2(result);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue NewDouble(double value, Fuse.Scripting.V8.AutoReleasePool pool) [static] :49
+// public static Fuse.Scripting.V8.Simple.JSValue NewDouble(double value, Fuse.Scripting.V8.AutoReleasePool pool) [static]
 ::JSValue* V8SimpleExtensions::NewDouble(double value, ::g::Fuse::Scripting::V8::AutoReleasePool pool)
 {
     V8SimpleExtensions_typeof()->Init();
     return pool.AutoRelease5(::g::Fuse::Scripting::V8::Simple::Value::CreateDouble(value));
 }
 
-// public static Fuse.Scripting.V8.Simple.JSExternal NewExternal(Fuse.Scripting.V8.Simple.JSContext context, Uno.IntPtr value, Fuse.Scripting.V8.AutoReleasePool pool) [static] :239
+// public static Fuse.Scripting.V8.Simple.JSExternal NewExternal(Fuse.Scripting.V8.Simple.JSContext context, Uno.IntPtr value, Fuse.Scripting.V8.AutoReleasePool pool) [static]
 ::JSExternal* V8SimpleExtensions::NewExternal(::JSContext* context, void* value, ::g::Fuse::Scripting::V8::AutoReleasePool pool)
 {
     V8SimpleExtensions_typeof()->Init();
     return pool.AutoRelease1(::g::Fuse::Scripting::V8::Simple::Value::CreateExternal(context, value));
 }
 
-// public static Fuse.Scripting.V8.Simple.JSObject NewExternalArrayBuffer(Fuse.Scripting.V8.Simple.JSContext context, Uno.IntPtr data, int byteLength, Fuse.Scripting.V8.AutoReleasePool pool) [static] :152
+// public static Fuse.Scripting.V8.Simple.JSObject NewExternalArrayBuffer(Fuse.Scripting.V8.Simple.JSContext context, Uno.IntPtr data, int byteLength, Fuse.Scripting.V8.AutoReleasePool pool) [static]
 ::JSObject* V8SimpleExtensions::NewExternalArrayBuffer(::JSContext* context, void* data, int32_t byteLength, ::g::Fuse::Scripting::V8::AutoReleasePool pool)
 {
     V8SimpleExtensions_typeof()->Init();
     return pool.AutoRelease3(::g::Fuse::Scripting::V8::Simple::Value::CreateExternalArrayBuffer(context, data, byteLength));
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue NewInt(int value, Fuse.Scripting.V8.AutoReleasePool pool) [static] :48
+// public static Fuse.Scripting.V8.Simple.JSValue NewInt(int value, Fuse.Scripting.V8.AutoReleasePool pool) [static]
 ::JSValue* V8SimpleExtensions::NewInt(int32_t value, ::g::Fuse::Scripting::V8::AutoReleasePool pool)
 {
     V8SimpleExtensions_typeof()->Init();
     return pool.AutoRelease5(::g::Fuse::Scripting::V8::Simple::Value::CreateInt(value));
 }
 
-// public static Fuse.Scripting.V8.Simple.JSString NewString(Fuse.Scripting.V8.Simple.JSContext context, string str, Fuse.Scripting.V8.AutoReleasePool pool) [static] :113
+// public static Fuse.Scripting.V8.Simple.JSString NewString(Fuse.Scripting.V8.Simple.JSContext context, string str, Fuse.Scripting.V8.AutoReleasePool pool) [static]
 ::JSString* V8SimpleExtensions::NewString(::JSContext* context, uString* str, ::g::Fuse::Scripting::V8::AutoReleasePool pool)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2695,35 +2698,35 @@ int32_t V8SimpleExtensions::Length(::JSArray* arr, ::JSContext* context)
     return pool.AutoRelease4(result);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue Null() [static] :47
+// public static Fuse.Scripting.V8.Simple.JSValue Null() [static]
 ::JSValue* V8SimpleExtensions::Null()
 {
     V8SimpleExtensions_typeof()->Init();
     return ::g::Fuse::Scripting::V8::Simple::Value::JSNull();
 }
 
-// public static void Release(Fuse.Scripting.V8.Simple.JSContext context) [static] :17
+// public static void Release(Fuse.Scripting.V8.Simple.JSContext context) [static]
 void V8SimpleExtensions::Release(::JSContext* context)
 {
     V8SimpleExtensions_typeof()->Init();
     ::g::Fuse::Scripting::V8::Simple::Context::Release(context);
 }
 
-// public static void Release(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context) [static] :248
+// public static void Release(Fuse.Scripting.V8.Simple.JSScriptException jse, Fuse.Scripting.V8.Simple.JSContext context) [static]
 void V8SimpleExtensions::Release1(::JSScriptException* jse, ::JSContext* context)
 {
     V8SimpleExtensions_typeof()->Init();
     ::g::Fuse::Scripting::V8::Simple::ScriptException::Release(context, jse);
 }
 
-// public static void Release(Fuse.Scripting.V8.Simple.JSValue value, Fuse.Scripting.V8.Simple.JSContext context) [static] :46
+// public static void Release(Fuse.Scripting.V8.Simple.JSValue value, Fuse.Scripting.V8.Simple.JSContext context) [static]
 void V8SimpleExtensions::Release2(::JSValue* value, ::JSContext* context)
 {
     V8SimpleExtensions_typeof()->Init();
     ::g::Fuse::Scripting::V8::Simple::Value::Release(context, value);
 }
 
-// public static Fuse.Scripting.V8.Simple.JSValue Retain(Fuse.Scripting.V8.Simple.JSValue value, Fuse.Scripting.V8.Simple.JSContext context) [static] :45
+// public static Fuse.Scripting.V8.Simple.JSValue Retain(Fuse.Scripting.V8.Simple.JSValue value, Fuse.Scripting.V8.Simple.JSContext context) [static]
 ::JSValue* V8SimpleExtensions::Retain2(::JSValue* value, ::JSContext* context)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2731,7 +2734,7 @@ void V8SimpleExtensions::Release2(::JSValue* value, ::JSContext* context)
     return value;
 }
 
-// public static void SetProperty(Fuse.Scripting.V8.Simple.JSArray arr, Fuse.Scripting.V8.Simple.JSContext context, int index, Fuse.Scripting.V8.Simple.JSValue value, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static] :175
+// public static void SetProperty(Fuse.Scripting.V8.Simple.JSArray arr, Fuse.Scripting.V8.Simple.JSContext context, int index, Fuse.Scripting.V8.Simple.JSValue value, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static]
 void V8SimpleExtensions::SetProperty(::JSArray* arr, ::JSContext* context, int32_t index, ::JSValue* value, uDelegate* errorHandler)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2740,7 +2743,7 @@ void V8SimpleExtensions::SetProperty(::JSArray* arr, ::JSContext* context, int32
     ::g::Fuse::Scripting::V8::Error::Check(context, error, errorHandler);
 }
 
-// public static void SetProperty(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, string key, Fuse.Scripting.V8.Simple.JSValue value, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static] :132
+// public static void SetProperty(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context, string key, Fuse.Scripting.V8.Simple.JSValue value, Fuse.Scripting.V8.AutoReleasePool pool, Uno.Action<Fuse.Scripting.V8.Simple.JSScriptException> errorHandler) [static]
 void V8SimpleExtensions::SetProperty1(::JSObject* obj, ::JSContext* context, uString* key, ::JSValue* value, ::g::Fuse::Scripting::V8::AutoReleasePool pool, uDelegate* errorHandler)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2749,14 +2752,14 @@ void V8SimpleExtensions::SetProperty1(::JSObject* obj, ::JSContext* context, uSt
     ::g::Fuse::Scripting::V8::Error::Check(context, error, errorHandler);
 }
 
-// public static string ToStr(Fuse.Scripting.V8.Simple.JSString str, Fuse.Scripting.V8.Simple.JSContext context) [static] :121
+// public static string ToStr(Fuse.Scripting.V8.Simple.JSString str, Fuse.Scripting.V8.Simple.JSContext context) [static]
 uString* V8SimpleExtensions::ToStr(::JSString* str, ::JSContext* context)
 {
     V8SimpleExtensions_typeof()->Init();
     return ::g::Fuse::Scripting::V8::Simple::Value::ToString(context, str);
 }
 
-// public static Uno.IntPtr TryGetArrayBufferData(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context) [static] :156
+// public static Uno.IntPtr TryGetArrayBufferData(Fuse.Scripting.V8.Simple.JSObject obj, Fuse.Scripting.V8.Simple.JSContext context) [static]
 void* V8SimpleExtensions::TryGetArrayBufferData(::JSObject* obj, ::JSContext* context)
 {
     V8SimpleExtensions_typeof()->Init();
@@ -2771,10 +2774,10 @@ void* V8SimpleExtensions::TryGetArrayBufferData(::JSObject* obj, ::JSContext* co
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/V8/V8SimpleExtensions.uno
-// ---------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/V8/V8SimpleExtensions.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public delegate Fuse.Scripting.V8.Simple.JSValue V8SimpleExtensions.WrappedCallback(Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.Simple.JSValue& error) :199
+// public delegate Fuse.Scripting.V8.Simple.JSValue V8SimpleExtensions.WrappedCallback(Fuse.Scripting.V8.Simple.JSValue[] args, Fuse.Scripting.V8.Simple.JSValue& error)
 uDelegateType* V8SimpleExtensions__WrappedCallback_typeof()
 {
     static uSStrong<uDelegateType*> type;

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/OpenGL/GLEnums.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/OpenGL/GLEnums.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,7 +7,7 @@
 namespace g{
 namespace OpenGL{
 
-// public extern enum GLBufferTarget :38
+// public extern enum GLBufferTarget
 uEnumType* GLBufferTarget_typeof();
 
 }} // ::g::OpenGL

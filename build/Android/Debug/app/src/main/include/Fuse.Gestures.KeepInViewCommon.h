@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/KeepInView.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Gestures/1.12.0/KeepInView.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -19,7 +19,7 @@ namespace g{
 namespace Fuse{
 namespace Gestures{
 
-// public class KeepInViewCommon :8
+// public class KeepInViewCommon
 // {
 ::g::Fuse::Node_type* KeepInViewCommon_typeof();
 void KeepInViewCommon__ctor_3_fn(KeepInViewCommon* __this);

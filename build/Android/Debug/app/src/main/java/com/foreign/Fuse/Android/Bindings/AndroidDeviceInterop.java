@@ -30,7 +30,7 @@ public class AndroidDeviceInterop
         android.util.Log.d("Kalenteri", (message==null ? "null" : message.toString()));
     }
 
-    public static Object LaunchIntent356(final String action,final String uri,final String packageName,final String className)
+    public static Object LaunchIntent359(final String action,final String uri,final String packageName,final String className)
     {
         Intent pendingIntent = new Intent(action);
         pendingIntent.setData(Uri.parse(uri));
@@ -43,21 +43,21 @@ public class AndroidDeviceInterop
         return pendingIntent;
     }
     
-    public static Object MakeBufferInputStream1357(final Object buf)
+    public static Object MakeBufferInputStream1360(final Object buf)
     {
         return new com.fuse.android.ByteBufferInputStream((com.uno.UnoBackedByteBuffer)buf);
     }
     
-    public static Object MakeMediaDataSource1358(final Object buf)
+    public static Object MakeMediaDataSource1361(final Object buf)
     {
         return new com.fuse.android.ByteBufferMediaDataSource((com.uno.UnoBackedByteBuffer)buf);
     }
     
-    public static Object OpenAssetFileDescriptor359(final UnoObject bundle)
+    public static Object OpenAssetFileDescriptor362(final UnoObject bundle)
     {
         try
         {
-        	String uri = ExternedBlockHost.callUno_Uno_IO_BundleFile_BundlePathGet360(bundle);
+        	String uri = ExternedBlockHost.callUno_Uno_IO_BundleFile_BundlePathGet363(bundle);
         	AssetManager am = com.fuse.Activity.getRootActivity().getAssets();
         	AssetFileDescriptor afd = am.openFd(uri);
         	return afd;

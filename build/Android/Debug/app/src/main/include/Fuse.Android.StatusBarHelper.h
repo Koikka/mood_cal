@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Android/1.9.0/StatusBarConfig.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Android/1.12.0/StatusBarConfig.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace Android{
 
-// internal static extern class StatusBarHelper :15
+// internal static extern class StatusBarHelper
 // {
 uClassType* StatusBarHelper_typeof();
 void StatusBarHelper__InstallGlobalListener_fn();

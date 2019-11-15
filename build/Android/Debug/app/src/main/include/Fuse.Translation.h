@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Translation.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Translation.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -21,7 +21,7 @@ namespace g{namespace Uno{struct Float3;}}
 namespace g{
 namespace Fuse{
 
-// public sealed class Translation :149
+// public sealed class Translation
 // {
 ::g::Fuse::RelativeTransform_type* Translation_typeof();
 void Translation__ctor_4_fn(Translation* __this);

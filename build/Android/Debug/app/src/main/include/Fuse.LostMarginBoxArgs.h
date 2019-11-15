@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Visual.Layout.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Visual.Layout.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{namespace Fuse{struct Visual;}}
 namespace g{
 namespace Fuse{
 
-// internal sealed class LostMarginBoxArgs :85
+// internal sealed class LostMarginBoxArgs
 // {
 uType* LostMarginBoxArgs_typeof();
 void LostMarginBoxArgs__ctor_1_fn(LostMarginBoxArgs* __this, ::g::Fuse::Visual* elm);

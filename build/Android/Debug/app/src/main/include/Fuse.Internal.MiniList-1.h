@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Internal/MiniList.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Internal/MiniList.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -6,6 +6,7 @@
 #include <Uno.Collections.IEnumerable-1.h>
 #include <Uno.Collections.IList-1.h>
 #include <Uno.Object.h>
+#include <Uno.ValueType.h>
 namespace g{namespace Fuse{namespace Internal{struct MiniList;}}}
 namespace g{namespace Fuse{namespace Internal{struct ObjectList;}}}
 
@@ -13,7 +14,7 @@ namespace g{
 namespace Fuse{
 namespace Internal{
 
-// internal struct MiniList<T> :25
+// internal struct MiniList<T>
 // {
 struct MiniList_type : uStructType
 {

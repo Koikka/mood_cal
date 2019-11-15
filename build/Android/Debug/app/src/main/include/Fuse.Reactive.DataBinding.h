@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive.Bindings/1.9.0/DataBinding.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive.Bindings/1.12.0/DataBinding.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.INameListener.h>
-#include <Fuse.Reactive.Express-ee33104d.h>
+#include <Fuse.Reactive.Express-5528930a.h>
 #include <Fuse.Reactive.IContext.h>
 #include <Fuse.Reactive.IListener.h>
 #include <Fuse.Reactive.IObserver.h>
@@ -19,7 +19,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// public sealed class DataBinding :45
+// public sealed class DataBinding
 // {
 struct DataBinding_type : ::g::Fuse::Reactive::ExpressionBinding_type
 {

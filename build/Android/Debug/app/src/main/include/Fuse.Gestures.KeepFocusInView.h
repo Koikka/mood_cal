@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/KeepInView.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Gestures/1.12.0/KeepInView.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -18,7 +18,7 @@ namespace g{
 namespace Fuse{
 namespace Gestures{
 
-// public sealed class KeepFocusInView :106
+// public sealed class KeepFocusInView
 // {
 ::g::Fuse::Node_type* KeepFocusInView_typeof();
 void KeepFocusInView__ctor_4_fn(KeepFocusInView* __this);

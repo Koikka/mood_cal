@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/MobileBootstrapping.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/MobileBootstrapping.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Fuse{struct MobileBootstrapping;}}
 namespace g{
 namespace Fuse{
 
-// internal sealed extern class MobileBootstrapping :6
+// internal sealed extern class MobileBootstrapping
 // {
 uType* MobileBootstrapping_typeof();
 void MobileBootstrapping__Init_fn();

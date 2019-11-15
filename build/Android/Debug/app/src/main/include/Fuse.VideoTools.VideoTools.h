@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.CameraView/1.9.0/VideoTools.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.CameraView/1.12.0/VideoTools.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace VideoTools{
 
-// public sealed class VideoTools :27
+// public sealed class VideoTools
 // {
 ::g::Fuse::Scripting::NativeModule_type* VideoTools_typeof();
 void VideoTools__ctor_2_fn(VideoTools* __this);

@@ -1,8 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.WebSockets/1.9.0/Android/Neovisionaries/WebSocketClient.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.WebSockets/1.12.0/Android/Neovisionaries/WebSocketClient.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.WebSocket.IWebSo-b6556b9.h>
+#include <Fuse.WebSocket.IWebSo-1f6b23d4.h>
 #include <Uno.IDisposable.h>
 #include <Uno.Object.h>
 namespace g{namespace Java{struct Object;}}
@@ -11,7 +11,7 @@ namespace g{namespace Neovisionaries{struct WebSocketClient;}}
 namespace g{
 namespace Neovisionaries{
 
-// internal sealed extern class WebSocketClient :13
+// internal sealed extern class WebSocketClient
 // {
 struct WebSocketClient_type : uType
 {

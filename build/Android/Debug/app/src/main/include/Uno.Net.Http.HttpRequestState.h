@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Uno.Net.Http/1.9.0/HttpRequestState.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/Uno.Net.Http/1.12.3/HttpRequestState.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace Uno{
 namespace Net{
 namespace Http{
 
-// public enum HttpRequestState :3
+// public enum HttpRequestState
 uEnumType* HttpRequestState_typeof();
 
 }}}} // ::g::Uno::Net::Http

@@ -1,27 +1,27 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/PageControl.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/PageControl.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.Animations.IResize.h>
 #include <Fuse.Binding.h>
-#include <Fuse.Controls.Navigat-70e90308.h>
+#include <Fuse.Controls.Navigat-11aed9ab.h>
 #include <Fuse.Drawing.ISurfaceDrawable.h>
 #include <Fuse.IActualPlacement.h>
 #include <Fuse.INotifyUnrooted.h>
 #include <Fuse.IProperties.h>
 #include <Fuse.ISourceLocation.h>
 #include <Fuse.ITemplateSource.h>
-#include <Fuse.Navigation.IBase-84e3f965.h>
+#include <Fuse.Navigation.IBase-516f1dcd.h>
 #include <Fuse.Navigation.INavigation.h>
 #include <Fuse.Navigation.IRouterOutlet.h>
-#include <Fuse.Navigation.ISeek-75d60b5e.h>
+#include <Fuse.Navigation.ISeek-6ddd9a40.h>
 #include <Fuse.Node.h>
 #include <Fuse.Node.ISubtreeDataProvider.h>
 #include <Fuse.Reactive.IObserver.h>
 #include <Fuse.Scripting.IScriptObject.h>
 #include <Fuse.Triggers.Actions.IHide.h>
 #include <Fuse.Triggers.Actions.IShow.h>
-#include <Fuse.Triggers.Actions-ea70af1f.h>
+#include <Fuse.Triggers.Actions-dceb929e.h>
 #include <Fuse.Visual.h>
 #include <Uno.Collections.ICollection-1.h>
 #include <Uno.Collections.IEnumerable-1.h>
@@ -44,7 +44,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public partial sealed class PageControl :80
+// public partial sealed class PageControl
 // {
 struct PageControl_type : ::g::Fuse::Controls::NavigationControl_type
 {
@@ -53,9 +53,6 @@ struct PageControl_type : ::g::Fuse::Controls::NavigationControl_type
 };
 
 PageControl_type* PageControl_typeof();
-void PageControl__ctor_8_fn(PageControl* __this);
-void PageControl__get_ActiveIndex_fn(PageControl* __this, int32_t* __retval);
-void PageControl__set_ActiveIndex_fn(PageControl* __this, int32_t* value);
 void PageControl__get_CollapseInactive_fn(PageControl* __this, bool* __retval);
 void PageControl__CreateTriggers_fn(PageControl* __this, ::g::Fuse::Elements::Element* c, ::g::Fuse::Controls::NavigationControl__ControlPageData* pd);
 void PageControl__get_DisableInactive_fn(PageControl* __this, bool* __retval);
@@ -69,16 +66,10 @@ void PageControl__FuseNavigationISeekableNavigationBeginSeek_fn(PageControl* __t
 void PageControl__FuseNavigationISeekableNavigationEndSeek_fn(PageControl* __this, ::g::Fuse::Navigation::EndSeekArgs* args);
 void PageControl__FuseNavigationISeekableNavigationSeek_fn(PageControl* __this, ::g::Fuse::Navigation::UpdateSeekArgs* args);
 void PageControl__gotoPage_fn(PageControl* pc, uArray* args);
-void PageControl__get_InactiveState_fn(PageControl* __this, int32_t* __retval);
-void PageControl__set_InactiveState_fn(PageControl* __this, int32_t* value);
 void PageControl__get_IsHorizontal_fn(PageControl* __this, bool* __retval);
 void PageControl__get_Navigation1_fn(PageControl* __this, ::g::Fuse::Navigation::DynamicLinearNavigation** __retval);
-void PageControl__New4_fn(PageControl** __retval);
 void PageControl__OnRooted_fn(PageControl* __this);
 void PageControl__OnUnrooted_fn(PageControl* __this);
-void PageControl__get_Orientation_fn(PageControl* __this, int32_t* __retval);
-void PageControl__set_Orientation_fn(PageControl* __this, int32_t* value);
-void PageControl__SetActiveIndex_fn(PageControl* __this, int32_t* value, uObject* origin);
 void PageControl__UnoUXIPropertyListenerOnPropertyChanged_fn(PageControl* __this, ::g::Uno::UX::PropertyObject* obj, ::g::Uno::UX::Selector* property);
 void PageControl__UpdateInteraction_fn(PageControl* __this);
 void PageControl__UpdateProgress_fn(PageControl* __this, ::g::Fuse::Elements::Element* page, ::g::Fuse::Navigation::NavigationPageState* state, ::g::Fuse::Controls::NavigationControl__ControlPageData* pd);
@@ -94,20 +85,11 @@ struct PageControl : ::g::Fuse::Controls::NavigationControl
     static ::g::Uno::UX::Selector& ActiveIndexName() { return PageControl_typeof()->Init(), ActiveIndexName_; }
     uStrong< ::g::Fuse::Controls::CommonNavigationPages*> _pages;
 
-    void ctor_8();
-    int32_t ActiveIndex();
-    void ActiveIndex(int32_t value);
     bool CollapseInactive();
     bool DisableInactive();
-    int32_t InactiveState();
-    void InactiveState(int32_t value);
     bool IsHorizontal();
     ::g::Fuse::Navigation::DynamicLinearNavigation* Navigation1();
-    int32_t Orientation();
-    void Orientation(int32_t value);
-    void SetActiveIndex(int32_t value, uObject* origin);
     static void gotoPage(PageControl* pc, uArray* args);
-    static PageControl* New4();
 };
 // }
 

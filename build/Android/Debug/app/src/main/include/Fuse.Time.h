@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Common/1.9.0/Time.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Common/1.12.0/Time.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Fuse{struct Time;}}
 namespace g{
 namespace Fuse{
 
-// public static class Time :6
+// public static class Time
 // {
 uClassType* Time_typeof();
 void Time__get_FrameInterval_fn(double* __retval);

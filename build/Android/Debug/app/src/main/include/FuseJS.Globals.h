@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/FuseJS/1.9.0/Globals.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/FuseJS/1.12.0/Globals.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{namespace FuseJS{struct Globals;}}
 namespace g{
 namespace FuseJS{
 
-// public sealed class Globals :8
+// public sealed class Globals
 // {
 ::g::Fuse::Scripting::NativeModule_type* Globals_typeof();
 void Globals__ctor_2_fn(Globals* __this);

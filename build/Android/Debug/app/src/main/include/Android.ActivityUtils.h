@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Android.ActivityUtils/1.9.0/ActivityUtils.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Android.ActivityUtils/1.12.0/ActivityUtils.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,13 +10,14 @@ namespace g{namespace Uno{namespace Collections{struct Dictionary;}}}
 namespace g{
 namespace Android{
 
-// public static extern class ActivityUtils :13
+// public static extern class ActivityUtils
 // {
 uClassType* ActivityUtils_typeof();
 void ActivityUtils__Init_fn(::g::Java::Object** __retval);
 void ActivityUtils__OnReceived_fn(int32_t* requestCode, int32_t* resultCode, ::g::Java::Object* data, bool* __retval);
 void ActivityUtils__add_Results_fn(uDelegate* value);
 void ActivityUtils__remove_Results_fn(uDelegate* value);
+void ActivityUtils__StartActivity1_fn(::g::Java::Object* intent, uDelegate* callback);
 void ActivityUtils__StartActivity2_fn(::g::Java::Object* intent, uDelegate* callback, uObject* info);
 void ActivityUtils__StartForResultJava_fn(int32_t* id, ::g::Java::Object* _intent);
 
@@ -35,6 +36,7 @@ struct ActivityUtils : uObject
 
     static ::g::Java::Object* Init();
     static bool OnReceived(int32_t requestCode, int32_t resultCode, ::g::Java::Object* data);
+    static void StartActivity1(::g::Java::Object* intent, uDelegate* callback);
     static void StartActivity2(::g::Java::Object* intent, uDelegate* callback, uObject* info);
     static void StartForResultJava(int32_t id, ::g::Java::Object* _intent);
     static void add_Results(uDelegate* value);

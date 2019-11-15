@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Scripting.JavaScript/1.9.0/FuseJS/Builtins.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Scripting.JavaScript/1.12.0/FuseJS/Builtins.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace Fuse{
 namespace Reactive{
 namespace FuseJS{
 
-// internal sealed class Builtins :7
+// internal sealed class Builtins
 // {
 uType* Builtins_typeof();
 void Builtins__ctor__fn(Builtins* __this, ::g::Fuse::Scripting::Context* context);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Time/Text/PatternPart.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Time/Text/PatternPart.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -13,7 +13,7 @@ namespace Uno{
 namespace Time{
 namespace Text{
 
-// internal sealed class SeparatorPart<T> :184
+// internal sealed class SeparatorPart<T>
 // {
 ::g::Uno::Time::Text::PatternPart_type* SeparatorPart_typeof();
 void SeparatorPart__ctor_1_fn(SeparatorPart* __this, bool* obligatory, bool* show, char16_t* separator, int32_t* skipNextPartsCountIfThisNotSpecified);

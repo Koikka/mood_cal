@@ -1,10 +1,10 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RouterModify.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RouterModify.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
 #include <Fuse.ISourceLocation.h>
 #include <Fuse.Reactive.IListener.h>
-#include <Fuse.Triggers.Actions-fcab7e57.h>
+#include <Fuse.Triggers.Actions-16700ed8.h>
 namespace g{namespace Fuse{namespace Navigation{struct Router;}}}
 namespace g{namespace Fuse{namespace Navigation{struct RouterModify;}}}
 namespace g{namespace Fuse{namespace Navigation{struct RouterPageRoute;}}}
@@ -16,7 +16,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// public sealed class RouterModify :84
+// public sealed class RouterModify
 // {
 struct RouterModify_type : ::g::Fuse::Triggers::Actions::TriggerAction_type
 {

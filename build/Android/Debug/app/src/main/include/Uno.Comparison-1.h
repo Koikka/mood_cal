@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Comparison.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Comparison.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -7,7 +7,7 @@
 namespace g{
 namespace Uno{
 
-// public delegate int Comparison<T>(T a, T b) :6
+// public delegate int Comparison<T>(T a, T b)
 uDelegateType* Comparison_typeof();
 
 }} // ::g::Uno

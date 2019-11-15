@@ -1,13 +1,13 @@
 // This file was generated based on '.uno/ux15/MenuButton.g.uno'.
 // WARNING: Changes might be lost if you edit this file directly.
 
-#include <_root.Kalenteri_acces-f53035ce.h>
-#include <_root.Kalenteri_FuseC-798d4e40.h>
+#include <_root.Kalenteri_acces-2b261e7b.h>
+#include <_root.Kalenteri_FuseC-f99de916.h>
 #include <_root.MenuButton.h>
 #include <Fuse.Animations.Animator.h>
 #include <Fuse.Animations.Scale.h>
 #include <Fuse.Animations.TrackAnimator.h>
-#include <Fuse.Animations.Trans-997c8373.h>
+#include <Fuse.Animations.Trans-d75ee66a.h>
 #include <Fuse.Controls.Text.h>
 #include <Fuse.Controls.TextControl.h>
 #include <Fuse.Elements.Alignment.h>
@@ -15,7 +15,7 @@
 #include <Fuse.Elements.HitTestMode.h>
 #include <Fuse.Gestures.WhilePressed.h>
 #include <Fuse.Reactive.BindingMode.h>
-#include <Fuse.Reactive.Constan-264ec80.h>
+#include <Fuse.Reactive.Constan-50d3d885.h>
 #include <Fuse.Reactive.Constant.h>
 #include <Fuse.Reactive.DataBinding.h>
 #include <Fuse.Reactive.Expression.h>
@@ -42,13 +42,13 @@ static uType* TYPES[3];
 
 namespace g{
 
-// public partial sealed class MenuButton :2
+// public partial sealed class MenuButton
 // {
-// static MenuButton() :21
+// static MenuButton()
 static void MenuButton__cctor_5_fn(uType* __type)
 {
-    MenuButton::__selector0_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[0/*"Value"*/]);
-    MenuButton::__selector1_ = ::g::Uno::UX::Selector__op_Implicit1(::STRINGS[1/*"label"*/]);
+    MenuButton::__selector0_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[0/*"Value"*/]);
+    MenuButton::__selector1_ = ::g::Uno::UX::Selector__op_Implicit(::STRINGS[1/*"label"*/]);
 }
 
 static void MenuButton_build(uType* type)
@@ -149,37 +149,37 @@ static void MenuButton_build(uType* type)
     return type;
 }
 
-// public MenuButton() :25
+// public MenuButton()
 void MenuButton__ctor_8_fn(MenuButton* __this)
 {
     __this->ctor_8();
 }
 
-// private void InitializeUX() :29
+// private void InitializeUX()
 void MenuButton__InitializeUX1_fn(MenuButton* __this)
 {
     __this->InitializeUX1();
 }
 
-// public MenuButton New() :25
+// public MenuButton New()
 void MenuButton__New5_fn(MenuButton** __retval)
 {
     *__retval = MenuButton::New5();
 }
 
-// public void SetText(string value, Uno.UX.IPropertyListener origin) :11
+// public void SetText(string value, Uno.UX.IPropertyListener origin)
 void MenuButton__SetText_fn(MenuButton* __this, uString* value, uObject* origin)
 {
     __this->SetText(value, origin);
 }
 
-// public string get_Text() :8
+// public string get_Text()
 void MenuButton__get_Text_fn(MenuButton* __this, uString** __retval)
 {
     *__retval = __this->Text();
 }
 
-// public void set_Text(string value) :9
+// public void set_Text(string value)
 void MenuButton__set_Text_fn(MenuButton* __this, uString* value)
 {
     __this->Text(value);
@@ -188,14 +188,14 @@ void MenuButton__set_Text_fn(MenuButton* __this, uString* value)
 ::g::Uno::UX::Selector MenuButton::__selector0_;
 ::g::Uno::UX::Selector MenuButton::__selector1_;
 
-// public MenuButton() [instance] :25
+// public MenuButton() [instance]
 void MenuButton::ctor_8()
 {
     ctor_7();
     InitializeUX1();
 }
 
-// private void InitializeUX() [instance] :29
+// private void InitializeUX() [instance]
 void MenuButton::InitializeUX1()
 {
     ::g::Fuse::Reactive::Constant* temp = ::g::Fuse::Reactive::Constant::New1(this);
@@ -207,20 +207,20 @@ void MenuButton::InitializeUX1()
     ::g::Fuse::Animations::Scale* temp4 = ::g::Fuse::Animations::Scale::New2();
     HitTestMode(2);
     Height(::g::Uno::UX::Size__New1(40.0f, 1));
-    SourceLineNumber(170);
+    SourceLineNumber(216);
     SourceFileName(::STRINGS[2/*"MainView.ux"*/]);
     uPtr(label)->FontSize(28.0f);
     uPtr(label)->Color(::g::Uno::Float4__New2(0.9254902f, 0.9372549f, 0.945098f, 1.0f));
     uPtr(label)->Alignment(4);
     uPtr(label)->Name(MenuButton::__selector1_);
-    uPtr(label)->SourceLineNumber(172);
+    uPtr(label)->SourceLineNumber(218);
     uPtr(label)->SourceFileName(::STRINGS[2/*"MainView.ux"*/]);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(uPtr(label)->Bindings()), ::TYPES[0/*Uno.Collections.ICollection<Fuse.Binding>*/]), temp2);
-    temp1->SourceLineNumber(172);
+    temp1->SourceLineNumber(218);
     temp1->SourceFileName(::STRINGS[2/*"MainView.ux"*/]);
-    temp->SourceLineNumber(172);
+    temp->SourceLineNumber(218);
     temp->SourceFileName(::STRINGS[2/*"MainView.ux"*/]);
-    temp3->SourceLineNumber(173);
+    temp3->SourceLineNumber(219);
     temp3->SourceFileName(::STRINGS[2/*"MainView.ux"*/]);
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(temp3->Animators()), ::TYPES[1/*Uno.Collections.ICollection<Fuse.Animations.Animator>*/]), temp4);
     temp4->Factor(0.85f);
@@ -230,29 +230,29 @@ void MenuButton::InitializeUX1()
     ::g::Uno::Collections::ICollection::Add_ex(uInterface(uPtr(Children()), ::TYPES[2/*Uno.Collections.ICollection<Fuse.Node>*/]), temp3);
 }
 
-// public void SetText(string value, Uno.UX.IPropertyListener origin) [instance] :11
+// public void SetText(string value, Uno.UX.IPropertyListener origin) [instance]
 void MenuButton::SetText(uString* value, uObject* origin)
 {
     if (::g::Uno::String::op_Inequality(value, _field_Text))
     {
         _field_Text = value;
-        OnPropertyChanged1(::g::Uno::UX::Selector__op_Implicit1(::STRINGS[3/*"Text"*/]), origin);
+        OnPropertyChanged1(::g::Uno::UX::Selector__op_Implicit(::STRINGS[3/*"Text"*/]), origin);
     }
 }
 
-// public string get_Text() [instance] :8
+// public string get_Text() [instance]
 uString* MenuButton::Text()
 {
     return _field_Text;
 }
 
-// public void set_Text(string value) [instance] :9
+// public void set_Text(string value) [instance]
 void MenuButton::Text(uString* value)
 {
     SetText(value, NULL);
 }
 
-// public MenuButton New() [static] :25
+// public MenuButton New() [static]
 MenuButton* MenuButton::New5()
 {
     MenuButton* obj1 = (MenuButton*)uNew(MenuButton_typeof());

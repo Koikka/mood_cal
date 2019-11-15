@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brush.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brush.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace Drawing{
 
-// public abstract class StaticBrush :79
+// public abstract class StaticBrush
 // {
 ::g::Fuse::Drawing::Brush_type* StaticBrush_typeof();
 void StaticBrush__ctor_2_fn(StaticBrush* __this);

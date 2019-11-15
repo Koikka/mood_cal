@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Navigation/1.9.0/Transition.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Navigation/1.12.0/Transition.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -16,7 +16,7 @@ namespace g{
 namespace Fuse{
 namespace Triggers{
 
-// internal sealed class TransitionGroup :11
+// internal sealed class TransitionGroup
 // {
 uType* TransitionGroup_typeof();
 void TransitionGroup__ctor__fn(TransitionGroup* __this, ::g::Fuse::Controls::Navigator* navigator, ::g::Fuse::Visual* parent);

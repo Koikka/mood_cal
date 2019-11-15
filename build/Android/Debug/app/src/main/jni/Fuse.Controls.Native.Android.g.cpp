@@ -1,51 +1,55 @@
 // This file was generated based on '(multiple files)'.
 // WARNING: Changes might be lost if you edit this file directly.
 
-#include <Android.Base.Primitiv-2b9696be.h>
+#include <Android.Base.Primitiv-a9a90c2a.h>
 #include <Android.Base.Wrappers.JWrapper.h>
-#include <Android.Base.Wrappers-88f7a41f.h>
+#include <Android.Base.Wrappers-4c0b8613.h>
 #include <Fuse.AppBase.h>
-#include <Fuse.Controls.AutoCap-526a856d.h>
+#include <Fuse.Controls.AutoCap-7276bbf0.h>
 #include <Fuse.Controls.AutoCorrectHint.h>
-#include <Fuse.Controls.Native.-118b98c3.h>
-#include <Fuse.Controls.Native.-3a814c3c.h>
-#include <Fuse.Controls.Native.-3d61e8e3.h>
-#include <Fuse.Controls.Native.-43e7fbf.h>
-#include <Fuse.Controls.Native.-454aa827.h>
-#include <Fuse.Controls.Native.-4da376b6.h>
-#include <Fuse.Controls.Native.-51b6e8e5.h>
-#include <Fuse.Controls.Native.-56f4c151.h>
-#include <Fuse.Controls.Native.-5999be91.h>
-#include <Fuse.Controls.Native.-6009f819.h>
-#include <Fuse.Controls.Native.-6178e8bc.h>
-#include <Fuse.Controls.Native.-6c93d881.h>
-#include <Fuse.Controls.Native.-737f180b.h>
-#include <Fuse.Controls.Native.-7babb833.h>
-#include <Fuse.Controls.Native.-88fc1c1d.h>
-#include <Fuse.Controls.Native.-890b856e.h>
-#include <Fuse.Controls.Native.-98938546.h>
-#include <Fuse.Controls.Native.-9abb3393.h>
-#include <Fuse.Controls.Native.-ae84b26e.h>
-#include <Fuse.Controls.Native.-ba5282a0.h>
-#include <Fuse.Controls.Native.-c578532e.h>
-#include <Fuse.Controls.Native.-c67cabe.h>
-#include <Fuse.Controls.Native.-ca2427b3.h>
-#include <Fuse.Controls.Native.-cb7bb609.h>
-#include <Fuse.Controls.Native.-dd7dd49d.h>
-#include <Fuse.Controls.Native.-e502cdf1.h>
-#include <Fuse.Controls.Native.-e81f3684.h>
-#include <Fuse.Controls.Native.-eb2a3c99.h>
-#include <Fuse.Controls.Native.-f43d469d.h>
-#include <Fuse.Controls.Native.-f67615b8.h>
-#include <Fuse.Controls.Native.-f715ad8a.h>
-#include <Fuse.Controls.Native.-fb992a16.h>
+#include <Fuse.Controls.Native.-15292773.h>
+#include <Fuse.Controls.Native.-3448df41.h>
+#include <Fuse.Controls.Native.-3a2aa95c.h>
+#include <Fuse.Controls.Native.-3f798d5e.h>
+#include <Fuse.Controls.Native.-4e0f0ff0.h>
+#include <Fuse.Controls.Native.-4edf1015.h>
+#include <Fuse.Controls.Native.-4ff8810.h>
+#include <Fuse.Controls.Native.-5a94fe05.h>
+#include <Fuse.Controls.Native.-5b245eeb.h>
+#include <Fuse.Controls.Native.-6917e33c.h>
+#include <Fuse.Controls.Native.-69a047a5.h>
+#include <Fuse.Controls.Native.-6be3f771.h>
+#include <Fuse.Controls.Native.-7091a8c.h>
+#include <Fuse.Controls.Native.-7fb8f262.h>
+#include <Fuse.Controls.Native.-8c1368d4.h>
+#include <Fuse.Controls.Native.-8e4d141f.h>
+#include <Fuse.Controls.Native.-92521383.h>
+#include <Fuse.Controls.Native.-9a615ecd.h>
+#include <Fuse.Controls.Native.-9b460fed.h>
+#include <Fuse.Controls.Native.-a11ae466.h>
+#include <Fuse.Controls.Native.-b07ddabd.h>
+#include <Fuse.Controls.Native.-b2b0030e.h>
+#include <Fuse.Controls.Native.-b87a6cd.h>
+#include <Fuse.Controls.Native.-b90f4623.h>
+#include <Fuse.Controls.Native.-c3ee8de8.h>
+#include <Fuse.Controls.Native.-c75d08c0.h>
+#include <Fuse.Controls.Native.-c95850ba.h>
+#include <Fuse.Controls.Native.-c9e7fa73.h>
+#include <Fuse.Controls.Native.-d2a4f22c.h>
+#include <Fuse.Controls.Native.-d6795632.h>
+#include <Fuse.Controls.Native.-dbc19b4a.h>
+#include <Fuse.Controls.Native.-dc7eb731.h>
+#include <Fuse.Controls.Native.-f900417c.h>
+#include <Fuse.Controls.Native.-fe1c0248.h>
 #include <Fuse.Controls.ScrollDirections.h>
 #include <Fuse.Controls.TextAlignment.h>
-#include <Fuse.Controls.TextInp-90db19ac.h>
-#include <Fuse.Controls.TextInp-cfb86f57.h>
+#include <Fuse.Controls.TextInp-3deab502.h>
+#include <Fuse.Controls.TextInp-4572852b.h>
 #include <Fuse.Controls.TextInputHint.h>
 #include <Fuse.Controls.TextTruncation.h>
 #include <Fuse.Controls.TextWrapping.h>
+#include <Fuse.Controls.TimePicker.h>
+#include <Fuse.Controls.TimePickerBase.h>
 #include <Fuse.Diagnostics.h>
 #include <Fuse.Drawing.ISurfaceDrawable.h>
 #include <Fuse.Drawing.NativeSurface.h>
@@ -61,8 +65,8 @@
 #include <Fuse.Resources.FileImageSource.h>
 #include <Fuse.Resources.HttpImageSource.h>
 #include <Fuse.Resources.ImageSource.h>
-#include <Fuse.Resources.MultiD-7688643f.h>
-#include <Fuse.Resources.System-1e583f40.h>
+#include <Fuse.Resources.MultiD-98770b5f.h>
+#include <Fuse.Resources.System-eb6e4d06.h>
 #include <Fuse.Time.h>
 #include <Fuse.UpdateManager.h>
 #include <Fuse.UpdateStage.h>
@@ -79,7 +83,9 @@
 #include <Uno.Collections.Dictionary-2.h>
 #include <Uno.Collections.HashSet-1.h>
 #include <Uno.Color.h>
-#include <Uno.Compiler.ExportTa-39be7c2b.h>
+#include <Uno.Compiler.ExportTa-2429dd1f.h>
+#include <Uno.DateTime.h>
+#include <Uno.DateTimeKind.h>
 #include <Uno.Double.h>
 #include <Uno.Exception.h>
 #include <Uno.Float.h>
@@ -112,10 +118,10 @@ namespace Controls{
 namespace Native{
 namespace Android{
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/Button.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/Button.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed extern class Button :7
+// public sealed extern class Button
 // {
 static void Button_build(uType* type)
 {
@@ -145,49 +151,49 @@ Button_type* Button_typeof()
     return type;
 }
 
-// public Button() :9
+// public Button()
 void Button__ctor_9_fn(Button* __this)
 {
     __this->ctor_9();
 }
 
-// private static Java.Object Create() :17
+// private static Java.Object Create()
 void Button__Create_fn(::g::Java::Object** __retval)
 {
     *__retval = Button::Create();
 }
 
-// public Button New() :9
+// public Button New()
 void Button__New5_fn(Button** __retval)
 {
     *__retval = Button::New5();
 }
 
-// private static void SetText(Java.Object handle, string text) :23
+// private static void SetText(Java.Object handle, string text)
 void Button__SetText_fn(::g::Java::Object* handle, uString* text)
 {
     Button::SetText(handle, text);
 }
 
-// public void set_Text(string value) :13
+// public void set_Text(string value)
 void Button__set_Text_fn(Button* __this, uString* value)
 {
     __this->Text(value);
 }
 
-// public Button() [instance] :9
+// public Button() [instance]
 void Button::ctor_9()
 {
     ctor_7(Button::Create());
 }
 
-// public void set_Text(string value) [instance] :13
+// public void set_Text(string value) [instance]
 void Button::Text(uString* value)
 {
     Button::SetText(Handle(), value);
 }
 
-// private static Java.Object Create() [static] :17
+// private static Java.Object Create() [static]
 ::g::Java::Object* Button::Create()
 {
     {
@@ -202,7 +208,7 @@ void Button::Text(uString* value)
     
 }
 
-// public Button New() [static] :9
+// public Button New() [static]
 Button* Button::New5()
 {
     Button* obj1 = (Button*)uNew(Button_typeof());
@@ -210,7 +216,7 @@ Button* Button::New5()
     return obj1;
 }
 
-// private static void SetText(Java.Object handle, string text) [static] :23
+// private static void SetText(Java.Object handle, string text) [static]
 void Button::SetText(::g::Java::Object* handle, uString* text)
 {
     {
@@ -232,15 +238,15 @@ void Button::SetText(::g::Java::Object* handle, uString* text)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/CanvasViewGroup.uno
-// ------------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/CanvasViewGroup.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed extern class CanvasViewGroup :9
+// public sealed extern class CanvasViewGroup
 // {
 static void CanvasViewGroup_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("Attempt to draw native canvas without surface");
-    ::STRINGS[1] = uString::Const("/usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/CanvasViewGroup.uno");
+    ::STRINGS[1] = uString::Const("/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/CanvasViewGroup.uno");
     ::STRINGS[2] = uString::Const("OnDraw");
     ::TYPES[0] = ::g::Uno::Action1_typeof()->MakeType(::g::Java::Object_typeof(), NULL);
     type->SetInterfaces(
@@ -271,13 +277,13 @@ CanvasViewGroup_type* CanvasViewGroup_typeof()
     return type;
 }
 
-// public CanvasViewGroup(Fuse.Drawing.ISurfaceDrawable surfaceDrawable, float pixelsPerPoint) :15
+// public CanvasViewGroup(Fuse.Drawing.ISurfaceDrawable surfaceDrawable, float pixelsPerPoint)
 void CanvasViewGroup__ctor_4_fn(CanvasViewGroup* __this, uObject* surfaceDrawable, float* pixelsPerPoint)
 {
     __this->ctor_4(surfaceDrawable, *pixelsPerPoint);
 }
 
-// public override sealed void Dispose() :72
+// public override sealed void Dispose()
 void CanvasViewGroup__Dispose_fn(CanvasViewGroup* __this)
 {
     ::g::Fuse::Controls::Native::ViewHandle__Dispose_fn(__this);
@@ -285,7 +291,7 @@ void CanvasViewGroup__Dispose_fn(CanvasViewGroup* __this)
     __this->_nativeSurface = NULL;
 }
 
-// internal Fuse.Drawing.Surface Fuse.Drawing.INativeSurfaceOwner.GetSurface() :24
+// internal Fuse.Drawing.Surface Fuse.Drawing.INativeSurfaceOwner.GetSurface()
 void CanvasViewGroup__FuseDrawingINativeSurfaceOwnerGetSurface_fn(CanvasViewGroup* __this, ::g::Fuse::Drawing::Surface** __retval)
 {
     if (__this->_nativeSurface == NULL)
@@ -297,31 +303,31 @@ void CanvasViewGroup__FuseDrawingINativeSurfaceOwnerGetSurface_fn(CanvasViewGrou
     return *__retval = __this->_nativeSurface, void();
 }
 
-// private void InstallDrawlistener(Java.Object handle, Uno.Action<Java.Object> callback) :48
+// private void InstallDrawlistener(Java.Object handle, Uno.Action<Java.Object> callback)
 void CanvasViewGroup__InstallDrawlistener_fn(CanvasViewGroup* __this, ::g::Java::Object* handle, uDelegate* callback)
 {
     __this->InstallDrawlistener(handle, callback);
 }
 
-// private static Java.Object Instantiate() :61
+// private static Java.Object Instantiate()
 void CanvasViewGroup__Instantiate_fn(::g::Java::Object** __retval)
 {
     *__retval = CanvasViewGroup::Instantiate();
 }
 
-// public CanvasViewGroup New(Fuse.Drawing.ISurfaceDrawable surfaceDrawable, float pixelsPerPoint) :15
+// public CanvasViewGroup New(Fuse.Drawing.ISurfaceDrawable surfaceDrawable, float pixelsPerPoint)
 void CanvasViewGroup__New5_fn(uObject* surfaceDrawable, float* pixelsPerPoint, CanvasViewGroup** __retval)
 {
     *__retval = CanvasViewGroup::New5(surfaceDrawable, *pixelsPerPoint);
 }
 
-// private void OnDraw(Java.Object canvas) :34
+// private void OnDraw(Java.Object canvas)
 void CanvasViewGroup__OnDraw_fn(CanvasViewGroup* __this, ::g::Java::Object* canvas)
 {
     __this->OnDraw(canvas);
 }
 
-// public CanvasViewGroup(Fuse.Drawing.ISurfaceDrawable surfaceDrawable, float pixelsPerPoint) [instance] :15
+// public CanvasViewGroup(Fuse.Drawing.ISurfaceDrawable surfaceDrawable, float pixelsPerPoint) [instance]
 void CanvasViewGroup::ctor_4(uObject* surfaceDrawable, float pixelsPerPoint)
 {
     ctor_3(CanvasViewGroup::Instantiate(), false, false, 1);
@@ -329,7 +335,7 @@ void CanvasViewGroup::ctor_4(uObject* surfaceDrawable, float pixelsPerPoint)
     _pixelsPerPoint = pixelsPerPoint;
 }
 
-// private void InstallDrawlistener(Java.Object handle, Uno.Action<Java.Object> callback) [instance] :48
+// private void InstallDrawlistener(Java.Object handle, Uno.Action<Java.Object> callback) [instance]
 void CanvasViewGroup::InstallDrawlistener(::g::Java::Object* handle, uDelegate* callback)
 {
     {
@@ -353,12 +359,12 @@ void CanvasViewGroup::InstallDrawlistener(::g::Java::Object* handle, uDelegate* 
     
 }
 
-// private void OnDraw(Java.Object canvas) [instance] :34
+// private void OnDraw(Java.Object canvas) [instance]
 void CanvasViewGroup::OnDraw(::g::Java::Object* canvas)
 {
     if (_nativeSurface == NULL)
     {
-        ::g::Fuse::Diagnostics::InternalError(::STRINGS[0/*"Attempt to ...*/], this, ::STRINGS[1/*"/usr/local/...*/], 38, ::STRINGS[2/*"OnDraw"*/]);
+        ::g::Fuse::Diagnostics::InternalError(::STRINGS[0/*"Attempt to ...*/], this, ::STRINGS[1/*"/Users/antt...*/], 38, ::STRINGS[2/*"OnDraw"*/]);
         return;
     }
 
@@ -367,7 +373,7 @@ void CanvasViewGroup::OnDraw(::g::Java::Object* canvas)
     uPtr(_nativeSurface)->End();
 }
 
-// private static Java.Object Instantiate() [static] :61
+// private static Java.Object Instantiate() [static]
 ::g::Java::Object* CanvasViewGroup::Instantiate()
 {
     {
@@ -382,7 +388,7 @@ void CanvasViewGroup::OnDraw(::g::Java::Object* canvas)
     
 }
 
-// public CanvasViewGroup New(Fuse.Drawing.ISurfaceDrawable surfaceDrawable, float pixelsPerPoint) [static] :15
+// public CanvasViewGroup New(Fuse.Drawing.ISurfaceDrawable surfaceDrawable, float pixelsPerPoint) [static]
 CanvasViewGroup* CanvasViewGroup::New5(uObject* surfaceDrawable, float pixelsPerPoint)
 {
     CanvasViewGroup* obj1 = (CanvasViewGroup*)uNew(CanvasViewGroup_typeof());
@@ -391,10 +397,62 @@ CanvasViewGroup* CanvasViewGroup::New5(uObject* surfaceDrawable, float pixelsPer
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/TextEdit.uno
-// -----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/DateTimeConverterHelpers.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class FocusChangedListener :552
+// internal static extern class DateTimeConverterHelpers
+// {
+static void DateTimeConverterHelpers_build(uType* type)
+{
+}
+
+uClassType* DateTimeConverterHelpers_typeof()
+{
+    static uSStrong<uClassType*> type;
+    if (type != NULL) return type;
+
+    uTypeOptions options;
+    options.TypeSize = sizeof(uClassType);
+    type = uClassType::New("Fuse.Controls.Native.Android.DateTimeConverterHelpers", options);
+    type->fp_build_ = DateTimeConverterHelpers_build;
+    return type;
+}
+
+// public static long ConvertDateTimeToMsSince1970InUtc(Uno.DateTime dt)
+void DateTimeConverterHelpers__ConvertDateTimeToMsSince1970InUtc_fn(::g::Uno::DateTime* dt, int64_t* __retval)
+{
+    *__retval = DateTimeConverterHelpers::ConvertDateTimeToMsSince1970InUtc(*dt);
+}
+
+// public static Uno.DateTime ConvertMsSince1970InUtcToDateTime(long msSince1970InUtc)
+void DateTimeConverterHelpers__ConvertMsSince1970InUtcToDateTime_fn(int64_t* msSince1970InUtc, ::g::Uno::DateTime* __retval)
+{
+    *__retval = DateTimeConverterHelpers::ConvertMsSince1970InUtcToDateTime(*msSince1970InUtc);
+}
+
+// public static long ConvertDateTimeToMsSince1970InUtc(Uno.DateTime dt) [static]
+int64_t DateTimeConverterHelpers::ConvertDateTimeToMsSince1970InUtc(::g::Uno::DateTime dt)
+{
+    dt = dt.ToUniversalTime();
+    int64_t dotNetTicks = dt.Ticks();
+    int64_t dotNetTicksRelativeToUnixEpoch = dotNetTicks - 621355968000000000LL;
+    int64_t msSince1970InUtc = dotNetTicksRelativeToUnixEpoch / 10000LL;
+    return msSince1970InUtc;
+}
+
+// public static Uno.DateTime ConvertMsSince1970InUtcToDateTime(long msSince1970InUtc) [static]
+::g::Uno::DateTime DateTimeConverterHelpers::ConvertMsSince1970InUtcToDateTime(int64_t msSince1970InUtc)
+{
+    int64_t dotNetTicksRelativeToUnixEpoch = msSince1970InUtc * 10000LL;
+    int64_t dotNetTicks = dotNetTicksRelativeToUnixEpoch + 621355968000000000LL;
+    return ::g::Uno::DateTime__New1(dotNetTicks, 1);
+}
+// }
+
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/TextEdit.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
+
+// internal sealed extern class FocusChangedListener
 // {
 static void FocusChangedListener_build(uType* type)
 {
@@ -422,55 +480,55 @@ FocusChangedListener_type* FocusChangedListener_typeof()
     return type;
 }
 
-// private FocusChangedListener(Java.Object view, Uno.Action<Java.Object, bool> callback) :559
+// private FocusChangedListener(Java.Object view, Uno.Action<Java.Object, bool> callback)
 void FocusChangedListener__ctor__fn(FocusChangedListener* __this, ::g::Java::Object* view, uDelegate* callback)
 {
     __this->ctor_(view, callback);
 }
 
-// public static Uno.IDisposable AddHandler(Java.Object view, Uno.Action<Java.Object, bool> callback) :574
+// public static Uno.IDisposable AddHandler(Java.Object view, Uno.Action<Java.Object, bool> callback)
 void FocusChangedListener__AddHandler_fn(::g::Java::Object* view, uDelegate* callback, uObject** __retval)
 {
     *__retval = FocusChangedListener::AddHandler(view, callback);
 }
 
-// private static void ClearListener(Java.Object viewHandle) :604
+// private static void ClearListener(Java.Object viewHandle)
 void FocusChangedListener__ClearListener_fn(::g::Java::Object* viewHandle)
 {
     FocusChangedListener::ClearListener(viewHandle);
 }
 
-// private Java.Object Create() :587
+// private Java.Object Create()
 void FocusChangedListener__Create_fn(FocusChangedListener* __this, ::g::Java::Object** __retval)
 {
     *__retval = __this->Create();
 }
 
-// public void Dispose() :581
+// public void Dispose()
 void FocusChangedListener__Dispose_fn(FocusChangedListener* __this)
 {
     __this->Dispose();
 }
 
-// private FocusChangedListener New(Java.Object view, Uno.Action<Java.Object, bool> callback) :559
+// private FocusChangedListener New(Java.Object view, Uno.Action<Java.Object, bool> callback)
 void FocusChangedListener__New1_fn(::g::Java::Object* view, uDelegate* callback, FocusChangedListener** __retval)
 {
     *__retval = FocusChangedListener::New1(view, callback);
 }
 
-// private void OnFocusChange(bool hasFocus) :569
+// private void OnFocusChange(bool hasFocus)
 void FocusChangedListener__OnFocusChange_fn(FocusChangedListener* __this, bool* hasFocus)
 {
     __this->OnFocusChange(*hasFocus);
 }
 
-// private static void SetListener(Java.Object viewHandle, Java.Object listenerHandle) :598
+// private static void SetListener(Java.Object viewHandle, Java.Object listenerHandle)
 void FocusChangedListener__SetListener_fn(::g::Java::Object* viewHandle, ::g::Java::Object* listenerHandle)
 {
     FocusChangedListener::SetListener(viewHandle, listenerHandle);
 }
 
-// private FocusChangedListener(Java.Object view, Uno.Action<Java.Object, bool> callback) [instance] :559
+// private FocusChangedListener(Java.Object view, Uno.Action<Java.Object, bool> callback) [instance]
 void FocusChangedListener::ctor_(::g::Java::Object* view, uDelegate* callback)
 {
     _view = view;
@@ -479,7 +537,7 @@ void FocusChangedListener::ctor_(::g::Java::Object* view, uDelegate* callback)
     FocusChangedListener::SetListener(_view, _listener);
 }
 
-// private Java.Object Create() [instance] :587
+// private Java.Object Create() [instance]
 ::g::Java::Object* FocusChangedListener::Create()
 {
     {
@@ -497,25 +555,25 @@ void FocusChangedListener::ctor_(::g::Java::Object* view, uDelegate* callback)
     
 }
 
-// public void Dispose() [instance] :581
+// public void Dispose() [instance]
 void FocusChangedListener::Dispose()
 {
     FocusChangedListener::ClearListener(_view);
 }
 
-// private void OnFocusChange(bool hasFocus) [instance] :569
+// private void OnFocusChange(bool hasFocus) [instance]
 void FocusChangedListener::OnFocusChange(bool hasFocus)
 {
     uPtr(_callback)->Invoke(2, (::g::Java::Object*)_view, uCRef(hasFocus));
 }
 
-// public static Uno.IDisposable AddHandler(Java.Object view, Uno.Action<Java.Object, bool> callback) [static] :574
+// public static Uno.IDisposable AddHandler(Java.Object view, Uno.Action<Java.Object, bool> callback) [static]
 uObject* FocusChangedListener::AddHandler(::g::Java::Object* view, uDelegate* callback)
 {
     return (uObject*)FocusChangedListener::New1(view, callback);
 }
 
-// private static void ClearListener(Java.Object viewHandle) [static] :604
+// private static void ClearListener(Java.Object viewHandle) [static]
 void FocusChangedListener::ClearListener(::g::Java::Object* viewHandle)
 {
     {
@@ -533,7 +591,7 @@ void FocusChangedListener::ClearListener(::g::Java::Object* viewHandle)
     
 }
 
-// private FocusChangedListener New(Java.Object view, Uno.Action<Java.Object, bool> callback) [static] :559
+// private FocusChangedListener New(Java.Object view, Uno.Action<Java.Object, bool> callback) [static]
 FocusChangedListener* FocusChangedListener::New1(::g::Java::Object* view, uDelegate* callback)
 {
     FocusChangedListener* obj1 = (FocusChangedListener*)uNew(FocusChangedListener_typeof());
@@ -541,7 +599,7 @@ FocusChangedListener* FocusChangedListener::New1(::g::Java::Object* view, uDeleg
     return obj1;
 }
 
-// private static void SetListener(Java.Object viewHandle, Java.Object listenerHandle) [static] :598
+// private static void SetListener(Java.Object viewHandle, Java.Object listenerHandle) [static]
 void FocusChangedListener::SetListener(::g::Java::Object* viewHandle, ::g::Java::Object* listenerHandle)
 {
     {
@@ -563,12 +621,12 @@ void FocusChangedListener::SetListener(::g::Java::Object* viewHandle, ::g::Java:
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/TextEdit.uno
-// -----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/TextEdit.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class FocusManager :480
+// internal sealed extern class FocusManager
 // {
-// static generated FocusManager() :480
+// static generated FocusManager()
 static void FocusManager__cctor__fn(uType* __type)
 {
     FocusManager::Singleton_ = FocusManager::New1();
@@ -599,43 +657,43 @@ uType* FocusManager_typeof()
     return type;
 }
 
-// public generated FocusManager() :480
+// public generated FocusManager()
 void FocusManager__ctor__fn(FocusManager* __this)
 {
     __this->ctor_();
 }
 
-// public void CompleteFocusLoss() :488
+// public void CompleteFocusLoss()
 void FocusManager__CompleteFocusLoss_fn(FocusManager* __this)
 {
     __this->CompleteFocusLoss();
 }
 
-// public static Java.Object GetContext(Java.Object viewHandle) :517
+// public static Java.Object GetContext(Java.Object viewHandle)
 void FocusManager__GetContext_fn(::g::Java::Object* viewHandle, ::g::Java::Object** __retval)
 {
     *__retval = FocusManager::GetContext(viewHandle);
 }
 
-// public static Java.Object GetWindowToken(Java.Object viewHandle) :523
+// public static Java.Object GetWindowToken(Java.Object viewHandle)
 void FocusManager__GetWindowToken_fn(::g::Java::Object* viewHandle, ::g::Java::Object** __retval)
 {
     *__retval = FocusManager::GetWindowToken(viewHandle);
 }
 
-// private static bool HasFocus(Java.Object viewHandle) :505
+// private static bool HasFocus(Java.Object viewHandle)
 void FocusManager__HasFocus_fn(::g::Java::Object* viewHandle, bool* __retval)
 {
     *__retval = FocusManager::HasFocus(viewHandle);
 }
 
-// public generated FocusManager New() :480
+// public generated FocusManager New()
 void FocusManager__New1_fn(FocusManager** __retval)
 {
     *__retval = FocusManager::New1();
 }
 
-// private static void RequestRootViewFocus(Java.Object viewHandle) :511
+// private static void RequestRootViewFocus(Java.Object viewHandle)
 void FocusManager__RequestRootViewFocus_fn(::g::Java::Object* viewHandle)
 {
     FocusManager::RequestRootViewFocus(viewHandle);
@@ -643,12 +701,12 @@ void FocusManager__RequestRootViewFocus_fn(::g::Java::Object* viewHandle)
 
 uSStrong<FocusManager*> FocusManager::Singleton_;
 
-// public generated FocusManager() [instance] :480
+// public generated FocusManager() [instance]
 void FocusManager::ctor_()
 {
 }
 
-// public void CompleteFocusLoss() [instance] :488
+// public void CompleteFocusLoss() [instance]
 void FocusManager::CompleteFocusLoss()
 {
     if (LoseFocus != NULL)
@@ -666,7 +724,7 @@ void FocusManager::CompleteFocusLoss()
     }
 }
 
-// public static Java.Object GetContext(Java.Object viewHandle) [static] :517
+// public static Java.Object GetContext(Java.Object viewHandle) [static]
 ::g::Java::Object* FocusManager::GetContext(::g::Java::Object* viewHandle)
 {
     FocusManager_typeof()->Init();
@@ -685,7 +743,7 @@ void FocusManager::CompleteFocusLoss()
     
 }
 
-// public static Java.Object GetWindowToken(Java.Object viewHandle) [static] :523
+// public static Java.Object GetWindowToken(Java.Object viewHandle) [static]
 ::g::Java::Object* FocusManager::GetWindowToken(::g::Java::Object* viewHandle)
 {
     FocusManager_typeof()->Init();
@@ -704,7 +762,7 @@ void FocusManager::CompleteFocusLoss()
     
 }
 
-// private static bool HasFocus(Java.Object viewHandle) [static] :505
+// private static bool HasFocus(Java.Object viewHandle) [static]
 bool FocusManager::HasFocus(::g::Java::Object* viewHandle)
 {
     FocusManager_typeof()->Init();
@@ -723,7 +781,7 @@ bool FocusManager::HasFocus(::g::Java::Object* viewHandle)
     
 }
 
-// public generated FocusManager New() [static] :480
+// public generated FocusManager New() [static]
 FocusManager* FocusManager::New1()
 {
     FocusManager* obj1 = (FocusManager*)uNew(FocusManager_typeof());
@@ -731,7 +789,7 @@ FocusManager* FocusManager::New1()
     return obj1;
 }
 
-// private static void RequestRootViewFocus(Java.Object viewHandle) [static] :511
+// private static void RequestRootViewFocus(Java.Object viewHandle) [static]
 void FocusManager::RequestRootViewFocus(::g::Java::Object* viewHandle)
 {
     FocusManager_typeof()->Init();
@@ -751,10 +809,10 @@ void FocusManager::RequestRootViewFocus(::g::Java::Object* viewHandle)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/GraphicsView.uno
-// ---------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/GraphicsView.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract extern class GraphicsViewBase :10
+// public abstract extern class GraphicsViewBase
 // {
 static void GraphicsViewBase_build(uType* type)
 {
@@ -792,55 +850,55 @@ GraphicsViewBase_type* GraphicsViewBase_typeof()
     return type;
 }
 
-// protected GraphicsViewBase(Java.Object handle) :28
+// protected GraphicsViewBase(Java.Object handle)
 void GraphicsViewBase__ctor_7_fn(GraphicsViewBase* __this, ::g::Java::Object* handle)
 {
     __this->ctor_7(handle);
 }
 
-// public bool BeginDraw(int2 size) :67
+// public bool BeginDraw(int2 size)
 void GraphicsViewBase__BeginDraw_fn(GraphicsViewBase* __this, ::g::Uno::Int2* size, bool* __retval)
 {
     *__retval = __this->BeginDraw(*size);
 }
 
-// protected void DestroySurface() :55
+// protected void DestroySurface()
 void GraphicsViewBase__DestroySurface_fn(GraphicsViewBase* __this)
 {
     __this->DestroySurface();
 }
 
-// public void EndDraw() :90
+// public void EndDraw()
 void GraphicsViewBase__EndDraw_fn(GraphicsViewBase* __this)
 {
     __this->EndDraw();
 }
 
-// private void Fuse.Controls.Native.IViewHost.Insert(Fuse.Controls.Native.ViewHandle child) :12
+// private void Fuse.Controls.Native.IViewHost.Insert(Fuse.Controls.Native.ViewHandle child)
 void GraphicsViewBase__FuseControlsNativeIViewHostInsert_fn(GraphicsViewBase* __this, ::g::Fuse::Controls::Native::ViewHandle* child)
 {
     ::g::Fuse::Controls::Native::Android::ViewGroup::AddView(__this->Handle(), uPtr(child)->NativeHandle);
 }
 
-// private void Fuse.Controls.Native.IViewHost.Remove(Fuse.Controls.Native.ViewHandle child) :17
+// private void Fuse.Controls.Native.IViewHost.Remove(Fuse.Controls.Native.ViewHandle child)
 void GraphicsViewBase__FuseControlsNativeIViewHostRemove_fn(GraphicsViewBase* __this, ::g::Fuse::Controls::Native::ViewHandle* child)
 {
     ::g::Fuse::Controls::Native::Android::ViewGroup::RemoveView(__this->Handle(), uPtr(child)->NativeHandle);
 }
 
-// protected Java.Object get_GraphicsViewHandle() :25
+// protected Java.Object get_GraphicsViewHandle()
 void GraphicsViewBase__get_GraphicsViewHandle_fn(GraphicsViewBase* __this, ::g::Java::Object** __retval)
 {
     *__retval = __this->GraphicsViewHandle();
 }
 
-// protected void SetSurface(Java.Object surfaceHandle) :40
+// protected void SetSurface(Java.Object surfaceHandle)
 void GraphicsViewBase__SetSurface_fn(GraphicsViewBase* __this, ::g::Java::Object* surfaceHandle)
 {
     __this->SetSurface(surfaceHandle);
 }
 
-// protected GraphicsViewBase(Java.Object handle) [instance] :28
+// protected GraphicsViewBase(Java.Object handle) [instance]
 void GraphicsViewBase::ctor_7(::g::Java::Object* handle)
 {
     _eglSurface = ::g::Uno::IntPtr::Zero_;
@@ -850,7 +908,7 @@ void GraphicsViewBase::ctor_7(::g::Java::Object* handle)
     ::g::Fuse::Controls::Native::Android::ViewGroup::AddView1(Handle(), _graphicsViewHandle, 0);
 }
 
-// public bool BeginDraw(int2 size) [instance] :67
+// public bool BeginDraw(int2 size) [instance]
 bool GraphicsViewBase::BeginDraw(::g::Uno::Int2 size)
 {
     if (::g::Uno::IntPtr::op_Equality(_eglSurface, ::g::Uno::IntPtr::Zero_))
@@ -862,7 +920,7 @@ bool GraphicsViewBase::BeginDraw(::g::Uno::Int2 size)
     return true;
 }
 
-// protected void DestroySurface() [instance] :55
+// protected void DestroySurface() [instance]
 void GraphicsViewBase::DestroySurface()
 {
     GLHelper::SwapBackToBackgroundSurface( (EGLSurface)_eglSurface );
@@ -872,20 +930,20 @@ void GraphicsViewBase::DestroySurface()
     _surfaceHandle = NULL;
 }
 
-// public void EndDraw() [instance] :90
+// public void EndDraw() [instance]
 void GraphicsViewBase::EndDraw()
 {
     double t;
     GLHelper::SwapBuffers( _eglSurface );
 }
 
-// protected Java.Object get_GraphicsViewHandle() [instance] :25
+// protected Java.Object get_GraphicsViewHandle() [instance]
 ::g::Java::Object* GraphicsViewBase::GraphicsViewHandle()
 {
     return _graphicsViewHandle;
 }
 
-// protected void SetSurface(Java.Object surfaceHandle) [instance] :40
+// protected void SetSurface(Java.Object surfaceHandle) [instance]
 void GraphicsViewBase::SetSurface(::g::Java::Object* surfaceHandle)
 {
     if (_surfaceHandle != NULL)
@@ -899,10 +957,10 @@ void GraphicsViewBase::SetSurface(::g::Java::Object* surfaceHandle)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/ImageView.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/ImageView.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class ImageView :72
+// internal sealed extern class ImageView
 // {
 static void ImageView_build(uType* type)
 {
@@ -953,31 +1011,31 @@ ImageView_type* ImageView_typeof()
     return type;
 }
 
-// public ImageView() :127
+// public ImageView()
 void ImageView__ctor_7_fn(ImageView* __this)
 {
     __this->ctor_7();
 }
 
-// private static void ClearBitmap(Java.Object handle) :260
+// private static void ClearBitmap(Java.Object handle)
 void ImageView__ClearBitmap_fn(::g::Java::Object* handle)
 {
     ImageView::ClearBitmap(handle);
 }
 
-// private static Java.Object Create(Java.Object container) :267
+// private static Java.Object Create(Java.Object container)
 void ImageView__Create_fn(::g::Java::Object* container, ::g::Java::Object** __retval)
 {
     *__retval = ImageView::Create(container);
 }
 
-// private static Java.Object CreateContainer() :278
+// private static Java.Object CreateContainer()
 void ImageView__CreateContainer_fn(::g::Java::Object** __retval)
 {
     *__retval = ImageView::CreateContainer();
 }
 
-// public override sealed void Dispose() :132
+// public override sealed void Dispose()
 void ImageView__Dispose_fn(ImageView* __this)
 {
     __this->ImageHandle(NULL);
@@ -988,97 +1046,97 @@ void ImageView__Dispose_fn(ImageView* __this)
     ::g::Fuse::Controls::Native::ViewHandle__Dispose_fn(__this);
 }
 
-// private void set_ImageHandle(Fuse.Controls.Native.ImageHandle value) :157
+// private void set_ImageHandle(Fuse.Controls.Native.ImageHandle value)
 void ImageView__set_ImageHandle_fn(ImageView* __this, ::g::Fuse::Controls::Native::ImageHandle* value)
 {
     __this->ImageHandle(value);
 }
 
-// private Fuse.Resources.ImageSource get_ImageSource() :101
+// private Fuse.Resources.ImageSource get_ImageSource()
 void ImageView__get_ImageSource_fn(ImageView* __this, ::g::Fuse::Resources::ImageSource** __retval)
 {
     *__retval = __this->ImageSource();
 }
 
-// public void set_ImageSource(Fuse.Resources.ImageSource value) :78
+// public void set_ImageSource(Fuse.Resources.ImageSource value)
 void ImageView__set_ImageSource_fn(ImageView* __this, ::g::Fuse::Resources::ImageSource* value)
 {
     __this->ImageSource(value);
 }
 
-// public ImageView New() :127
+// public ImageView New()
 void ImageView__New5_fn(ImageView** __retval)
 {
     *__retval = ImageView::New5();
 }
 
-// private void OnImageLoaded(Fuse.Controls.Native.ImageHandle handle) :200
+// private void OnImageLoaded(Fuse.Controls.Native.ImageHandle handle)
 void ImageView__OnImageLoaded_fn(ImageView* __this, ::g::Fuse::Controls::Native::ImageHandle* handle)
 {
     __this->OnImageLoaded(handle);
 }
 
-// private void OnImageLoadFailed(Uno.Exception e) :205
+// private void OnImageLoadFailed(Uno.Exception e)
 void ImageView__OnImageLoadFailed_fn(ImageView* __this, ::g::Uno::Exception* e)
 {
     __this->OnImageLoadFailed(e);
 }
 
-// private void OnMultiDensityImageSourceActiveChanged() :107
+// private void OnMultiDensityImageSourceActiveChanged()
 void ImageView__OnMultiDensityImageSourceActiveChanged_fn(ImageView* __this)
 {
     __this->OnMultiDensityImageSourceActiveChanged();
 }
 
-// private static void SetBitmap(Java.Object handle, Java.Object bitmapHandle) :244
+// private static void SetBitmap(Java.Object handle, Java.Object bitmapHandle)
 void ImageView__SetBitmap_fn(::g::Java::Object* handle, ::g::Java::Object* bitmapHandle)
 {
     ImageView::SetBitmap(handle, bitmapHandle);
 }
 
-// private static void SetTint(Java.Object handle, int rgba) :251
+// private static void SetTint(Java.Object handle, int rgba)
 void ImageView__SetTint_fn(::g::Java::Object* handle, int32_t* rgba)
 {
     ImageView::SetTint(handle, *rgba);
 }
 
-// public void set_TintColor(float4 value) :118
+// public void set_TintColor(float4 value)
 void ImageView__set_TintColor_fn(ImageView* __this, ::g::Uno::Float4* value)
 {
     __this->TintColor(*value);
 }
 
-// private void UpdateImage(Fuse.Resources.FileImageSource fileImageSource) :176
+// private void UpdateImage(Fuse.Resources.FileImageSource fileImageSource)
 void ImageView__UpdateImage_fn(ImageView* __this, ::g::Fuse::Resources::FileImageSource* fileImageSource)
 {
     __this->UpdateImage(fileImageSource);
 }
 
-// private void UpdateImage(Fuse.Resources.HttpImageSource http) :181
+// private void UpdateImage(Fuse.Resources.HttpImageSource http)
 void ImageView__UpdateImage1_fn(ImageView* __this, ::g::Fuse::Resources::HttpImageSource* http)
 {
     __this->UpdateImage1(http);
 }
 
-// private void UpdateImage(Fuse.Resources.MultiDensityImageSource multi) :186
+// private void UpdateImage(Fuse.Resources.MultiDensityImageSource multi)
 void ImageView__UpdateImage2_fn(ImageView* __this, ::g::Fuse::Resources::MultiDensityImageSource* multi)
 {
     __this->UpdateImage2(multi);
 }
 
-// public void UpdateImageTransform(float density, float2 origin, float2 scale, float2 drawSize) :142
+// public void UpdateImageTransform(float density, float2 origin, float2 scale, float2 drawSize)
 void ImageView__UpdateImageTransform_fn(ImageView* __this, float* density, ::g::Uno::Float2* origin, ::g::Uno::Float2* scale, ::g::Uno::Float2* drawSize)
 {
     __this->UpdateImageTransform(*density, *origin, *scale, *drawSize);
 }
 
-// private static void UpdateImageTransform(Java.Object handle, float x, float y, float scaleX, float scaleY) :229
+// private static void UpdateImageTransform(Java.Object handle, float x, float y, float scaleX, float scaleY)
 void ImageView__UpdateImageTransform1_fn(::g::Java::Object* handle, float* x, float* y, float* scaleX, float* scaleY)
 {
     ImageView::UpdateImageTransform1(handle, *x, *y, *scaleX, *scaleY);
 }
 
-// public ImageView() [instance] :127
+// public ImageView() [instance]
 void ImageView::ctor_7()
 {
     _tintColor = ::g::Uno::Float4__New1(1.0f);
@@ -1086,7 +1144,7 @@ void ImageView::ctor_7()
     _imageView = ImageView::Create(Handle());
 }
 
-// private void set_ImageHandle(Fuse.Controls.Native.ImageHandle value) [instance] :157
+// private void set_ImageHandle(Fuse.Controls.Native.ImageHandle value) [instance]
 void ImageView::ImageHandle(::g::Fuse::Controls::Native::ImageHandle* value)
 {
     if (_imageHandle != NULL)
@@ -1105,13 +1163,13 @@ void ImageView::ImageHandle(::g::Fuse::Controls::Native::ImageHandle* value)
     }
 }
 
-// private Fuse.Resources.ImageSource get_ImageSource() [instance] :101
+// private Fuse.Resources.ImageSource get_ImageSource() [instance]
 ::g::Fuse::Resources::ImageSource* ImageView::ImageSource()
 {
     return _imageSource;
 }
 
-// public void set_ImageSource(Fuse.Resources.ImageSource value) [instance] :78
+// public void set_ImageSource(Fuse.Resources.ImageSource value) [instance]
 void ImageView::ImageSource(::g::Fuse::Resources::ImageSource* value)
 {
     if (uIs((::g::Fuse::Resources::ImageSource*)ImageSource(), ::TYPES[2/*Fuse.Resources.MultiDensityImageSource*/]))
@@ -1135,45 +1193,45 @@ void ImageView::ImageSource(::g::Fuse::Resources::ImageSource* value)
         U_THROW(::g::Uno::Exception::New2(::g::Uno::String::op_Addition(value, ::STRINGS[3/*" not suppor...*/])));
 }
 
-// private void OnImageLoaded(Fuse.Controls.Native.ImageHandle handle) [instance] :200
+// private void OnImageLoaded(Fuse.Controls.Native.ImageHandle handle) [instance]
 void ImageView::OnImageLoaded(::g::Fuse::Controls::Native::ImageHandle* handle)
 {
     ImageHandle(handle);
 }
 
-// private void OnImageLoadFailed(Uno.Exception e) [instance] :205
+// private void OnImageLoadFailed(Uno.Exception e) [instance]
 void ImageView::OnImageLoadFailed(::g::Uno::Exception* e)
 {
     ImageHandle(NULL);
 }
 
-// private void OnMultiDensityImageSourceActiveChanged() [instance] :107
+// private void OnMultiDensityImageSourceActiveChanged() [instance]
 void ImageView::OnMultiDensityImageSourceActiveChanged()
 {
     if (uIs((::g::Fuse::Resources::ImageSource*)ImageSource(), ::TYPES[2/*Fuse.Resources.MultiDensityImageSource*/]))
         UpdateImage2(uCast< ::g::Fuse::Resources::MultiDensityImageSource*>(ImageSource(), ::TYPES[2/*Fuse.Resources.MultiDensityImageSource*/]));
 }
 
-// public void set_TintColor(float4 value) [instance] :118
+// public void set_TintColor(float4 value) [instance]
 void ImageView::TintColor(::g::Uno::Float4 value)
 {
     _tintColor = value;
     ImageView::SetTint(_imageView, (int32_t)::g::Uno::Color::ToArgb(_tintColor));
 }
 
-// private void UpdateImage(Fuse.Resources.FileImageSource fileImageSource) [instance] :176
+// private void UpdateImage(Fuse.Resources.FileImageSource fileImageSource) [instance]
 void ImageView::UpdateImage(::g::Fuse::Resources::FileImageSource* fileImageSource)
 {
     ImageHandle(::g::Fuse::Controls::Native::ImageLoader::Load3(uPtr(fileImageSource)->File()));
 }
 
-// private void UpdateImage(Fuse.Resources.HttpImageSource http) [instance] :181
+// private void UpdateImage(Fuse.Resources.HttpImageSource http) [instance]
 void ImageView::UpdateImage1(::g::Fuse::Resources::HttpImageSource* http)
 {
     uPtr(::g::Fuse::Controls::Native::ImageLoader::Load(http))->Then1(uDelegate::New(::TYPES[4/*Uno.Action<Fuse.Controls.Native.ImageHandle>*/], (void*)ImageView__OnImageLoaded_fn, this), uDelegate::New(::TYPES[5/*Uno.Action<Uno.Exception>*/], (void*)ImageView__OnImageLoadFailed_fn, this));
 }
 
-// private void UpdateImage(Fuse.Resources.MultiDensityImageSource multi) [instance] :186
+// private void UpdateImage(Fuse.Resources.MultiDensityImageSource multi) [instance]
 void ImageView::UpdateImage2(::g::Fuse::Resources::MultiDensityImageSource* multi)
 {
     ::g::Fuse::Resources::ImageSource* active = uPtr(multi)->Active();
@@ -1189,7 +1247,7 @@ void ImageView::UpdateImage2(::g::Fuse::Resources::MultiDensityImageSource* mult
     }
 }
 
-// public void UpdateImageTransform(float density, float2 origin, float2 scale, float2 drawSize) [instance] :142
+// public void UpdateImageTransform(float density, float2 origin, float2 scale, float2 drawSize) [instance]
 void ImageView::UpdateImageTransform(float density, ::g::Uno::Float2 origin, ::g::Uno::Float2 scale, ::g::Uno::Float2 drawSize)
 {
     ::g::Uno::Int2 imagePos = ::g::Uno::Int2__op_Explicit1(::g::Uno::Math::Ceil2(::g::Uno::Float2__op_Multiply1(origin, density)));
@@ -1197,7 +1255,7 @@ void ImageView::UpdateImageTransform(float density, ::g::Uno::Float2 origin, ::g
     ImageView::UpdateImageTransform1(_imageView, (float)imagePos.X, (float)imagePos.Y, imageScale.X, imageScale.Y);
 }
 
-// private static void ClearBitmap(Java.Object handle) [static] :260
+// private static void ClearBitmap(Java.Object handle) [static]
 void ImageView::ClearBitmap(::g::Java::Object* handle)
 {
     {
@@ -1215,7 +1273,7 @@ void ImageView::ClearBitmap(::g::Java::Object* handle)
     
 }
 
-// private static Java.Object Create(Java.Object container) [static] :267
+// private static Java.Object Create(Java.Object container) [static]
 ::g::Java::Object* ImageView::Create(::g::Java::Object* container)
 {
     {
@@ -1233,7 +1291,7 @@ void ImageView::ClearBitmap(::g::Java::Object* handle)
     
 }
 
-// private static Java.Object CreateContainer() [static] :278
+// private static Java.Object CreateContainer() [static]
 ::g::Java::Object* ImageView::CreateContainer()
 {
     {
@@ -1248,7 +1306,7 @@ void ImageView::ClearBitmap(::g::Java::Object* handle)
     
 }
 
-// public ImageView New() [static] :127
+// public ImageView New() [static]
 ImageView* ImageView::New5()
 {
     ImageView* obj1 = (ImageView*)uNew(ImageView_typeof());
@@ -1256,7 +1314,7 @@ ImageView* ImageView::New5()
     return obj1;
 }
 
-// private static void SetBitmap(Java.Object handle, Java.Object bitmapHandle) [static] :244
+// private static void SetBitmap(Java.Object handle, Java.Object bitmapHandle) [static]
 void ImageView::SetBitmap(::g::Java::Object* handle, ::g::Java::Object* bitmapHandle)
 {
     {
@@ -1277,7 +1335,7 @@ void ImageView::SetBitmap(::g::Java::Object* handle, ::g::Java::Object* bitmapHa
     
 }
 
-// private static void SetTint(Java.Object handle, int rgba) [static] :251
+// private static void SetTint(Java.Object handle, int rgba) [static]
 void ImageView::SetTint(::g::Java::Object* handle, int32_t rgba)
 {
     {
@@ -1298,7 +1356,7 @@ void ImageView::SetTint(::g::Java::Object* handle, int32_t rgba)
     
 }
 
-// private static void UpdateImageTransform(Java.Object handle, float x, float y, float scaleX, float scaleY) [static] :229
+// private static void UpdateImageTransform(Java.Object handle, float x, float y, float scaleX, float scaleY) [static]
 void ImageView::UpdateImageTransform1(::g::Java::Object* handle, float x, float y, float scaleX, float scaleY)
 {
     {
@@ -1329,12 +1387,12 @@ void ImageView::UpdateImageTransform1(::g::Java::Object* handle, float x, float 
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/InputDispatch.uno
-// ----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/InputDispatch.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static extern class InputDispatch :10
+// internal static extern class InputDispatch
 // {
-// static generated InputDispatch() :10
+// static generated InputDispatch()
 static void InputDispatch__cctor__fn(uType* __type)
 {
     InputDispatch::_listeners_ = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[10/*Uno.Collections.Dictionary<Java.Object, Fuse.Visual>*/]));
@@ -1374,103 +1432,103 @@ uClassType* InputDispatch_typeof()
     return type;
 }
 
-// public static void AddListener(Fuse.Controls.Native.ViewHandle viewHandle, Fuse.Visual owner) :167
+// public static void AddListener(Fuse.Controls.Native.ViewHandle viewHandle, Fuse.Visual owner)
 void InputDispatch__AddListener_fn(::g::Fuse::Controls::Native::ViewHandle* viewHandle, ::g::Fuse::Visual* owner)
 {
     InputDispatch::AddListener(viewHandle, owner);
 }
 
-// public static void AddListener(Java.Object nativeHandle, Fuse.Visual owner) :161
+// public static void AddListener(Java.Object nativeHandle, Fuse.Visual owner)
 void InputDispatch__AddListener1_fn(::g::Java::Object* nativeHandle, ::g::Fuse::Visual* owner)
 {
     InputDispatch::AddListener1(nativeHandle, owner);
 }
 
-// private static void ClearOnTouchListener(Java.Object viewHandle) :205
+// private static void ClearOnTouchListener(Java.Object viewHandle)
 void InputDispatch__ClearOnTouchListener_fn(::g::Java::Object* viewHandle)
 {
     InputDispatch::ClearOnTouchListener(viewHandle);
 }
 
-// private static Java.Object CreateTouchListener() :189
+// private static Java.Object CreateTouchListener()
 void InputDispatch__CreateTouchListener_fn(::g::Java::Object** __retval)
 {
     *__retval = InputDispatch::CreateTouchListener();
 }
 
-// private static void DeactivatePointer(int pointerId) :92
+// private static void DeactivatePointer(int pointerId)
 void InputDispatch__DeactivatePointer_fn(int32_t* pointerId)
 {
     InputDispatch::DeactivatePointer(*pointerId);
 }
 
-// private static Fuse.Visual FindRoot(Fuse.Visual visual) :183
+// private static Fuse.Visual FindRoot(Fuse.Visual visual)
 void InputDispatch__FindRoot_fn(::g::Fuse::Visual* visual, ::g::Fuse::Visual** __retval)
 {
     *__retval = InputDispatch::FindRoot(visual);
 }
 
-// private static bool IsPointerActive(int pointerId) :82
+// private static bool IsPointerActive(int pointerId)
 void InputDispatch__IsPointerActive_fn(int32_t* pointerId, bool* __retval)
 {
     *__retval = InputDispatch::IsPointerActive(*pointerId);
 }
 
-// private static bool OnTouch(Java.Object view, Java.Object motionEvent) :24
+// private static bool OnTouch(Java.Object view, Java.Object motionEvent)
 void InputDispatch__OnTouch_fn(::g::Java::Object* view, ::g::Java::Object* motionEvent, bool* __retval)
 {
     *__retval = InputDispatch::OnTouch(view, motionEvent);
 }
 
-// public static void RaiseEvent(Fuse.Visual visual, Java.Object viewHandle, Fuse.Controls.Native.Android.MotionEvent motionEvent) :39
+// public static void RaiseEvent(Fuse.Visual visual, Java.Object viewHandle, Fuse.Controls.Native.Android.MotionEvent motionEvent)
 void InputDispatch__RaiseEvent_fn(::g::Fuse::Visual* visual, ::g::Java::Object* viewHandle, ::g::Fuse::Controls::Native::Android::MotionEvent* motionEvent)
 {
     InputDispatch::RaiseEvent(visual, viewHandle, motionEvent);
 }
 
-// private static void RaiseMoved(Fuse.Visual rootVisual, Fuse.Visual visual, Fuse.Input.PointerEventData data) :113
+// private static void RaiseMoved(Fuse.Visual rootVisual, Fuse.Visual visual, Fuse.Input.PointerEventData data)
 void InputDispatch__RaiseMoved_fn(::g::Fuse::Visual* rootVisual, ::g::Fuse::Visual* visual, ::g::Fuse::Input::PointerEventData* data)
 {
     InputDispatch::RaiseMoved(rootVisual, visual, data);
 }
 
-// private static void RaisePressed(Fuse.Visual rootVisual, Fuse.Visual visual, Fuse.Input.PointerEventData data) :98
+// private static void RaisePressed(Fuse.Visual rootVisual, Fuse.Visual visual, Fuse.Input.PointerEventData data)
 void InputDispatch__RaisePressed_fn(::g::Fuse::Visual* rootVisual, ::g::Fuse::Visual* visual, ::g::Fuse::Input::PointerEventData* data)
 {
     InputDispatch::RaisePressed(rootVisual, visual, data);
 }
 
-// private static void RaiseReleased(Fuse.Visual rootVisual, Fuse.Visual visual, Fuse.Input.PointerEventData data) :125
+// private static void RaiseReleased(Fuse.Visual rootVisual, Fuse.Visual visual, Fuse.Input.PointerEventData data)
 void InputDispatch__RaiseReleased_fn(::g::Fuse::Visual* rootVisual, ::g::Fuse::Visual* visual, ::g::Fuse::Input::PointerEventData* data)
 {
     InputDispatch::RaiseReleased(rootVisual, visual, data);
 }
 
-// public static void RemoveListener(Fuse.Controls.Native.ViewHandle viewHandle) :178
+// public static void RemoveListener(Fuse.Controls.Native.ViewHandle viewHandle)
 void InputDispatch__RemoveListener_fn(::g::Fuse::Controls::Native::ViewHandle* viewHandle)
 {
     InputDispatch::RemoveListener(viewHandle);
 }
 
-// public static void RemoveListener(Java.Object nativeHandle) :172
+// public static void RemoveListener(Java.Object nativeHandle)
 void InputDispatch__RemoveListener1_fn(::g::Java::Object* nativeHandle)
 {
     InputDispatch::RemoveListener1(nativeHandle);
 }
 
-// private static void SetOnTouchListener(Java.Object viewHandle, Java.Object listenerHandle) :199
+// private static void SetOnTouchListener(Java.Object viewHandle, Java.Object listenerHandle)
 void InputDispatch__SetOnTouchListener_fn(::g::Java::Object* viewHandle, ::g::Java::Object* listenerHandle)
 {
     InputDispatch::SetOnTouchListener(viewHandle, listenerHandle);
 }
 
-// private static Java.Object get_TouchListener() :21
+// private static Java.Object get_TouchListener()
 void InputDispatch__get_TouchListener_fn(::g::Java::Object** __retval)
 {
     *__retval = InputDispatch::TouchListener();
 }
 
-// private static Fuse.Controls.Native.Android.JavaMap get_ViewVisualMap() :158
+// private static Fuse.Controls.Native.Android.JavaMap get_ViewVisualMap()
 void InputDispatch__get_ViewVisualMap_fn(::g::Fuse::Controls::Native::Android::JavaMap** __retval)
 {
     *__retval = InputDispatch::ViewVisualMap();
@@ -1481,14 +1539,14 @@ uSStrong< ::g::Uno::Collections::HashSet*> InputDispatch::_activePointers_;
 uSStrong< ::g::Java::Object*> InputDispatch::_touchListenerHandle_;
 uSStrong< ::g::Fuse::Controls::Native::Android::JavaMap*> InputDispatch::_viewVisualMap_;
 
-// public static void AddListener(Fuse.Controls.Native.ViewHandle viewHandle, Fuse.Visual owner) [static] :167
+// public static void AddListener(Fuse.Controls.Native.ViewHandle viewHandle, Fuse.Visual owner) [static]
 void InputDispatch::AddListener(::g::Fuse::Controls::Native::ViewHandle* viewHandle, ::g::Fuse::Visual* owner)
 {
     InputDispatch_typeof()->Init();
     InputDispatch::AddListener1(uPtr(viewHandle)->NativeHandle, owner);
 }
 
-// public static void AddListener(Java.Object nativeHandle, Fuse.Visual owner) [static] :161
+// public static void AddListener(Java.Object nativeHandle, Fuse.Visual owner) [static]
 void InputDispatch::AddListener1(::g::Java::Object* nativeHandle, ::g::Fuse::Visual* owner)
 {
     InputDispatch_typeof()->Init();
@@ -1496,7 +1554,7 @@ void InputDispatch::AddListener1(::g::Java::Object* nativeHandle, ::g::Fuse::Vis
     InputDispatch::SetOnTouchListener(nativeHandle, InputDispatch::TouchListener());
 }
 
-// private static void ClearOnTouchListener(Java.Object viewHandle) [static] :205
+// private static void ClearOnTouchListener(Java.Object viewHandle) [static]
 void InputDispatch::ClearOnTouchListener(::g::Java::Object* viewHandle)
 {
     InputDispatch_typeof()->Init();
@@ -1515,7 +1573,7 @@ void InputDispatch::ClearOnTouchListener(::g::Java::Object* viewHandle)
     
 }
 
-// private static Java.Object CreateTouchListener() [static] :189
+// private static Java.Object CreateTouchListener() [static]
 ::g::Java::Object* InputDispatch::CreateTouchListener()
 {
     InputDispatch_typeof()->Init();
@@ -1531,7 +1589,7 @@ void InputDispatch::ClearOnTouchListener(::g::Java::Object* viewHandle)
     
 }
 
-// private static void DeactivatePointer(int pointerId) [static] :92
+// private static void DeactivatePointer(int pointerId) [static]
 void InputDispatch::DeactivatePointer(int32_t pointerId)
 {
     InputDispatch_typeof()->Init();
@@ -1542,14 +1600,14 @@ void InputDispatch::DeactivatePointer(int32_t pointerId)
         ::g::Uno::Collections::HashSet__Remove_fn(uPtr(InputDispatch::_activePointers_), uCRef<int32_t>(pointerId), &ret4);
 }
 
-// private static Fuse.Visual FindRoot(Fuse.Visual visual) [static] :183
+// private static Fuse.Visual FindRoot(Fuse.Visual visual) [static]
 ::g::Fuse::Visual* InputDispatch::FindRoot(::g::Fuse::Visual* visual)
 {
     InputDispatch_typeof()->Init();
     return (uPtr(visual)->Parent() != NULL) ? (::g::Fuse::Visual*)InputDispatch::FindRoot(uPtr(visual)->Parent()) : visual;
 }
 
-// private static bool IsPointerActive(int pointerId) [static] :82
+// private static bool IsPointerActive(int pointerId) [static]
 bool InputDispatch::IsPointerActive(int32_t pointerId)
 {
     InputDispatch_typeof()->Init();
@@ -1565,7 +1623,7 @@ bool InputDispatch::IsPointerActive(int32_t pointerId)
     return true;
 }
 
-// private static bool OnTouch(Java.Object view, Java.Object motionEvent) [static] :24
+// private static bool OnTouch(Java.Object view, Java.Object motionEvent) [static]
 bool InputDispatch::OnTouch(::g::Java::Object* view, ::g::Java::Object* motionEvent)
 {
     InputDispatch_typeof()->Init();
@@ -1584,7 +1642,7 @@ bool InputDispatch::OnTouch(::g::Java::Object* view, ::g::Java::Object* motionEv
     return false;
 }
 
-// public static void RaiseEvent(Fuse.Visual visual, Java.Object viewHandle, Fuse.Controls.Native.Android.MotionEvent motionEvent) [static] :39
+// public static void RaiseEvent(Fuse.Visual visual, Java.Object viewHandle, Fuse.Controls.Native.Android.MotionEvent motionEvent) [static]
 void InputDispatch::RaiseEvent(::g::Fuse::Visual* visual, ::g::Java::Object* viewHandle, ::g::Fuse::Controls::Native::Android::MotionEvent* motionEvent)
 {
     InputDispatch_typeof()->Init();
@@ -1634,7 +1692,7 @@ void InputDispatch::RaiseEvent(::g::Fuse::Visual* visual, ::g::Java::Object* vie
     }
 }
 
-// private static void RaiseMoved(Fuse.Visual rootVisual, Fuse.Visual visual, Fuse.Input.PointerEventData data) [static] :113
+// private static void RaiseMoved(Fuse.Visual rootVisual, Fuse.Visual visual, Fuse.Input.PointerEventData data) [static]
 void InputDispatch::RaiseMoved(::g::Fuse::Visual* rootVisual, ::g::Fuse::Visual* visual, ::g::Fuse::Input::PointerEventData* data)
 {
     InputDispatch_typeof()->Init();
@@ -1653,7 +1711,7 @@ void InputDispatch::RaiseMoved(::g::Fuse::Visual* rootVisual, ::g::Fuse::Visual*
     }
 }
 
-// private static void RaisePressed(Fuse.Visual rootVisual, Fuse.Visual visual, Fuse.Input.PointerEventData data) [static] :98
+// private static void RaisePressed(Fuse.Visual rootVisual, Fuse.Visual visual, Fuse.Input.PointerEventData data) [static]
 void InputDispatch::RaisePressed(::g::Fuse::Visual* rootVisual, ::g::Fuse::Visual* visual, ::g::Fuse::Input::PointerEventData* data)
 {
     InputDispatch_typeof()->Init();
@@ -1675,7 +1733,7 @@ void InputDispatch::RaisePressed(::g::Fuse::Visual* rootVisual, ::g::Fuse::Visua
     }
 }
 
-// private static void RaiseReleased(Fuse.Visual rootVisual, Fuse.Visual visual, Fuse.Input.PointerEventData data) [static] :125
+// private static void RaiseReleased(Fuse.Visual rootVisual, Fuse.Visual visual, Fuse.Input.PointerEventData data) [static]
 void InputDispatch::RaiseReleased(::g::Fuse::Visual* rootVisual, ::g::Fuse::Visual* visual, ::g::Fuse::Input::PointerEventData* data)
 {
     InputDispatch_typeof()->Init();
@@ -1695,14 +1753,14 @@ void InputDispatch::RaiseReleased(::g::Fuse::Visual* rootVisual, ::g::Fuse::Visu
     }
 }
 
-// public static void RemoveListener(Fuse.Controls.Native.ViewHandle viewHandle) [static] :178
+// public static void RemoveListener(Fuse.Controls.Native.ViewHandle viewHandle) [static]
 void InputDispatch::RemoveListener(::g::Fuse::Controls::Native::ViewHandle* viewHandle)
 {
     InputDispatch_typeof()->Init();
     InputDispatch::RemoveListener1(uPtr(viewHandle)->NativeHandle);
 }
 
-// public static void RemoveListener(Java.Object nativeHandle) [static] :172
+// public static void RemoveListener(Java.Object nativeHandle) [static]
 void InputDispatch::RemoveListener1(::g::Java::Object* nativeHandle)
 {
     InputDispatch_typeof()->Init();
@@ -1710,7 +1768,7 @@ void InputDispatch::RemoveListener1(::g::Java::Object* nativeHandle)
     InputDispatch::ClearOnTouchListener(nativeHandle);
 }
 
-// private static void SetOnTouchListener(Java.Object viewHandle, Java.Object listenerHandle) [static] :199
+// private static void SetOnTouchListener(Java.Object viewHandle, Java.Object listenerHandle) [static]
 void InputDispatch::SetOnTouchListener(::g::Java::Object* viewHandle, ::g::Java::Object* listenerHandle)
 {
     InputDispatch_typeof()->Init();
@@ -1732,7 +1790,7 @@ void InputDispatch::SetOnTouchListener(::g::Java::Object* viewHandle, ::g::Java:
     
 }
 
-// private static Java.Object get_TouchListener() [static] :21
+// private static Java.Object get_TouchListener() [static]
 ::g::Java::Object* InputDispatch::TouchListener()
 {
     InputDispatch_typeof()->Init();
@@ -1741,7 +1799,7 @@ void InputDispatch::SetOnTouchListener(::g::Java::Object* viewHandle, ::g::Java:
     return (ind1 != NULL) ? ind1 : (::g::Java::Object*)(InputDispatch::_touchListenerHandle_ = InputDispatch::CreateTouchListener());
 }
 
-// private static Fuse.Controls.Native.Android.JavaMap get_ViewVisualMap() [static] :158
+// private static Fuse.Controls.Native.Android.JavaMap get_ViewVisualMap() [static]
 ::g::Fuse::Controls::Native::Android::JavaMap* InputDispatch::ViewVisualMap()
 {
     InputDispatch_typeof()->Init();
@@ -1751,10 +1809,10 @@ void InputDispatch::SetOnTouchListener(::g::Java::Object* viewHandle, ::g::Java:
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/InputDispatch.uno
-// ----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/InputDispatch.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class JavaMap :214
+// internal sealed extern class JavaMap
 // {
 static void JavaMap_build(uType* type)
 {
@@ -1777,103 +1835,103 @@ uType* JavaMap_typeof()
     return type;
 }
 
-// public JavaMap() :218
+// public JavaMap()
 void JavaMap__ctor__fn(JavaMap* __this)
 {
     __this->ctor_();
 }
 
-// public bool ContainsKey(Java.Object key) :233
+// public bool ContainsKey(Java.Object key)
 void JavaMap__ContainsKey_fn(JavaMap* __this, ::g::Java::Object* key, bool* __retval)
 {
     *__retval = __this->ContainsKey(key);
 }
 
-// private static bool ContainsKey(Java.Object handle, Java.Object key) :266
+// private static bool ContainsKey(Java.Object handle, Java.Object key)
 void JavaMap__ContainsKey1_fn(::g::Java::Object* handle, ::g::Java::Object* key, bool* __retval)
 {
     *__retval = JavaMap::ContainsKey1(handle, key);
 }
 
-// private static Java.Object Create() :244
+// private static Java.Object Create()
 void JavaMap__Create_fn(::g::Java::Object** __retval)
 {
     *__retval = JavaMap::Create();
 }
 
-// public object Get(Java.Object key) :238
+// public object Get(Java.Object key)
 void JavaMap__Get_fn(JavaMap* __this, ::g::Java::Object* key, uObject** __retval)
 {
     *__retval = __this->Get(key);
 }
 
-// private static object Get(Java.Object handle, Java.Object key) :274
+// private static object Get(Java.Object handle, Java.Object key)
 void JavaMap__Get1_fn(::g::Java::Object* handle, ::g::Java::Object* key, uObject** __retval)
 {
     *__retval = JavaMap::Get1(handle, key);
 }
 
-// public JavaMap New() :218
+// public JavaMap New()
 void JavaMap__New1_fn(JavaMap** __retval)
 {
     *__retval = JavaMap::New1();
 }
 
-// private static void Put(Java.Object handle, Java.Object key, object value) :250
+// private static void Put(Java.Object handle, Java.Object key, object value)
 void JavaMap__Put_fn(::g::Java::Object* handle, ::g::Java::Object* key, uObject* value)
 {
     JavaMap::Put(handle, key, value);
 }
 
-// public void Put(Java.Object key, object value) :223
+// public void Put(Java.Object key, object value)
 void JavaMap__Put1_fn(JavaMap* __this, ::g::Java::Object* key, uObject* value)
 {
     __this->Put1(key, value);
 }
 
-// public void Remove(Java.Object key) :228
+// public void Remove(Java.Object key)
 void JavaMap__Remove_fn(JavaMap* __this, ::g::Java::Object* key)
 {
     __this->Remove(key);
 }
 
-// private static void Remove(Java.Object handle, Java.Object key) :258
+// private static void Remove(Java.Object handle, Java.Object key)
 void JavaMap__Remove1_fn(::g::Java::Object* handle, ::g::Java::Object* key)
 {
     JavaMap::Remove1(handle, key);
 }
 
-// public JavaMap() [instance] :218
+// public JavaMap() [instance]
 void JavaMap::ctor_()
 {
     _handle = JavaMap::Create();
 }
 
-// public bool ContainsKey(Java.Object key) [instance] :233
+// public bool ContainsKey(Java.Object key) [instance]
 bool JavaMap::ContainsKey(::g::Java::Object* key)
 {
     return JavaMap::ContainsKey1(_handle, key);
 }
 
-// public object Get(Java.Object key) [instance] :238
+// public object Get(Java.Object key) [instance]
 uObject* JavaMap::Get(::g::Java::Object* key)
 {
     return JavaMap::Get1(_handle, key);
 }
 
-// public void Put(Java.Object key, object value) [instance] :223
+// public void Put(Java.Object key, object value) [instance]
 void JavaMap::Put1(::g::Java::Object* key, uObject* value)
 {
     JavaMap::Put(_handle, key, value);
 }
 
-// public void Remove(Java.Object key) [instance] :228
+// public void Remove(Java.Object key) [instance]
 void JavaMap::Remove(::g::Java::Object* key)
 {
     JavaMap::Remove1(_handle, key);
 }
 
-// private static bool ContainsKey(Java.Object handle, Java.Object key) [static] :266
+// private static bool ContainsKey(Java.Object handle, Java.Object key) [static]
 bool JavaMap::ContainsKey1(::g::Java::Object* handle, ::g::Java::Object* key)
 {
     {
@@ -1894,7 +1952,7 @@ bool JavaMap::ContainsKey1(::g::Java::Object* handle, ::g::Java::Object* key)
     
 }
 
-// private static Java.Object Create() [static] :244
+// private static Java.Object Create() [static]
 ::g::Java::Object* JavaMap::Create()
 {
     {
@@ -1909,7 +1967,7 @@ bool JavaMap::ContainsKey1(::g::Java::Object* handle, ::g::Java::Object* key)
     
 }
 
-// private static object Get(Java.Object handle, Java.Object key) [static] :274
+// private static object Get(Java.Object handle, Java.Object key) [static]
 uObject* JavaMap::Get1(::g::Java::Object* handle, ::g::Java::Object* key)
 {
     {
@@ -1930,7 +1988,7 @@ uObject* JavaMap::Get1(::g::Java::Object* handle, ::g::Java::Object* key)
     
 }
 
-// public JavaMap New() [static] :218
+// public JavaMap New() [static]
 JavaMap* JavaMap::New1()
 {
     JavaMap* obj1 = (JavaMap*)uNew(JavaMap_typeof());
@@ -1938,7 +1996,7 @@ JavaMap* JavaMap::New1()
     return obj1;
 }
 
-// private static void Put(Java.Object handle, Java.Object key, object value) [static] :250
+// private static void Put(Java.Object handle, Java.Object key, object value) [static]
 void JavaMap::Put(::g::Java::Object* handle, ::g::Java::Object* key, uObject* value)
 {
     {
@@ -1962,7 +2020,7 @@ void JavaMap::Put(::g::Java::Object* handle, ::g::Java::Object* key, uObject* va
     
 }
 
-// private static void Remove(Java.Object handle, Java.Object key) [static] :258
+// private static void Remove(Java.Object handle, Java.Object key) [static]
 void JavaMap::Remove1(::g::Java::Object* handle, ::g::Java::Object* key)
 {
     {
@@ -1984,10 +2042,10 @@ void JavaMap::Remove1(::g::Java::Object* handle, ::g::Java::Object* key)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/LeafView.uno
-// -----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/LeafView.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract extern class LeafView :7
+// public abstract extern class LeafView
 // {
 static void LeafView_build(uType* type)
 {
@@ -2014,25 +2072,25 @@ static void LeafView_build(uType* type)
     return type;
 }
 
-// protected LeafView(Java.Object handle) :9
+// protected LeafView(Java.Object handle)
 void LeafView__ctor_7_fn(LeafView* __this, ::g::Java::Object* handle)
 {
     __this->ctor_7(handle);
 }
 
-// protected LeafView(Java.Object handle) [instance] :9
+// protected LeafView(Java.Object handle) [instance]
 void LeafView::ctor_7(::g::Java::Object* handle)
 {
     ctor_5(handle, true);
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/InputDispatch.uno
-// ----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/InputDispatch.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed extern class MotionEvent :283
+// public sealed extern class MotionEvent
 // {
-// static generated MotionEvent() :283
+// static generated MotionEvent()
 static void MotionEvent__cctor__fn(uType* __type)
 {
     MotionEvent::_locationOnScreen_ = uArray::New(::TYPES[16/*int[]*/], 2);
@@ -2063,31 +2121,31 @@ uType* MotionEvent_typeof()
     return type;
 }
 
-// public MotionEvent(Java.Object handle) :288
+// public MotionEvent(Java.Object handle)
 void MotionEvent__ctor__fn(MotionEvent* __this, ::g::Java::Object* handle)
 {
     __this->ctor_(handle);
 }
 
-// public int get_Action() :305
+// public int get_Action()
 void MotionEvent__get_Action_fn(MotionEvent* __this, int32_t* __retval)
 {
     *__retval = __this->Action();
 }
 
-// public int get_ActionMasked() :300
+// public int get_ActionMasked()
 void MotionEvent__get_ActionMasked_fn(MotionEvent* __this, int32_t* __retval)
 {
     *__retval = __this->ActionMasked();
 }
 
-// private static bool Compare(Java.Object handle1, Java.Object handle2) :451
+// private static bool Compare(Java.Object handle1, Java.Object handle2)
 void MotionEvent__Compare_fn(::g::Java::Object* handle1, ::g::Java::Object* handle2, bool* __retval)
 {
     *__retval = MotionEvent::Compare(handle1, handle2);
 }
 
-// public override sealed bool Equals(object obj) :346
+// public override sealed bool Equals(object obj)
 void MotionEvent__Equals_fn(MotionEvent* __this, uObject* obj, bool* __retval)
 {
     if (uIs(obj, __this->__type))
@@ -2096,115 +2154,115 @@ void MotionEvent__Equals_fn(MotionEvent* __this, uObject* obj, bool* __retval)
         return *__retval = false, void();
 }
 
-// public long get_EventTime() :310
+// public long get_EventTime()
 void MotionEvent__get_EventTime_fn(MotionEvent* __this, int64_t* __retval)
 {
     *__retval = __this->EventTime();
 }
 
-// private int GetAction(Java.Object handle) :375
+// private int GetAction(Java.Object handle)
 void MotionEvent__GetAction_fn(MotionEvent* __this, ::g::Java::Object* handle, int32_t* __retval)
 {
     *__retval = __this->GetAction(handle);
 }
 
-// private int GetActionMasked(Java.Object handle) :387
+// private int GetActionMasked(Java.Object handle)
 void MotionEvent__GetActionMasked_fn(MotionEvent* __this, ::g::Java::Object* handle, int32_t* __retval)
 {
     *__retval = __this->GetActionMasked(handle);
 }
 
-// private long GetEventTime(Java.Object handle) :393
+// private long GetEventTime(Java.Object handle)
 void MotionEvent__GetEventTime_fn(MotionEvent* __this, ::g::Java::Object* handle, int64_t* __retval)
 {
     *__retval = __this->GetEventTime(handle);
 }
 
-// private float2 GetLocationOnScreen(Java.Object viewHandle) :359
+// private float2 GetLocationOnScreen(Java.Object viewHandle)
 void MotionEvent__GetLocationOnScreen_fn(MotionEvent* __this, ::g::Java::Object* viewHandle, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->GetLocationOnScreen(viewHandle);
 }
 
-// private void GetLocationOnScreen(Java.Object viewHandle, int[] result) :366
+// private void GetLocationOnScreen(Java.Object viewHandle, int[] result)
 void MotionEvent__GetLocationOnScreen1_fn(MotionEvent* __this, ::g::Java::Object* viewHandle, uArray* result)
 {
     __this->GetLocationOnScreen1(viewHandle, result);
 }
 
-// private int GetPointerCount(Java.Object handle) :399
+// private int GetPointerCount(Java.Object handle)
 void MotionEvent__GetPointerCount_fn(MotionEvent* __this, ::g::Java::Object* handle, int32_t* __retval)
 {
     *__retval = __this->GetPointerCount(handle);
 }
 
-// public int GetPointerId(int pointerIndex) :293
+// public int GetPointerId(int pointerIndex)
 void MotionEvent__GetPointerId_fn(MotionEvent* __this, int32_t* pointerIndex, int32_t* __retval)
 {
     *__retval = __this->GetPointerId(*pointerIndex);
 }
 
-// private int GetPointerId(Java.Object handle, int pointerIndex) :381
+// private int GetPointerId(Java.Object handle, int pointerIndex)
 void MotionEvent__GetPointerId1_fn(MotionEvent* __this, ::g::Java::Object* handle, int32_t* pointerIndex, int32_t* __retval)
 {
     *__retval = __this->GetPointerId1(handle, *pointerIndex);
 }
 
-// private static int GetPointerIndexMask() :439
+// private static int GetPointerIndexMask()
 void MotionEvent__GetPointerIndexMask_fn(int32_t* __retval)
 {
     *__retval = MotionEvent::GetPointerIndexMask();
 }
 
-// private static int GetPointerIndexShift() :445
+// private static int GetPointerIndexShift()
 void MotionEvent__GetPointerIndexShift_fn(int32_t* __retval)
 {
     *__retval = MotionEvent::GetPointerIndexShift();
 }
 
-// public float2 GetPosition(int pointerIndex) :318
+// public float2 GetPosition(int pointerIndex)
 void MotionEvent__GetPosition_fn(MotionEvent* __this, int32_t* pointerIndex, ::g::Uno::Float2* __retval)
 {
     *__retval = __this->GetPosition(*pointerIndex);
 }
 
-// private float GetX(Java.Object handle, int pointerIndex) :405
+// private float GetX(Java.Object handle, int pointerIndex)
 void MotionEvent__GetX_fn(MotionEvent* __this, ::g::Java::Object* handle, int32_t* pointerIndex, float* __retval)
 {
     *__retval = __this->GetX(handle, *pointerIndex);
 }
 
-// private float GetY(Java.Object handle, int pointerIndex) :411
+// private float GetY(Java.Object handle, int pointerIndex)
 void MotionEvent__GetY_fn(MotionEvent* __this, ::g::Java::Object* handle, int32_t* pointerIndex, float* __retval)
 {
     *__retval = __this->GetY(handle, *pointerIndex);
 }
 
-// public MotionEvent New(Java.Object handle) :288
+// public MotionEvent New(Java.Object handle)
 void MotionEvent__New1_fn(::g::Java::Object* handle, MotionEvent** __retval)
 {
     *__retval = MotionEvent::New1(handle);
 }
 
-// public int get_PointerCount() :315
+// public int get_PointerCount()
 void MotionEvent__get_PointerCount_fn(MotionEvent* __this, int32_t* __retval)
 {
     *__retval = __this->PointerCount();
 }
 
-// public Fuse.Input.PointerEventData[] PointerEventDataForView(Java.Object rootView, Java.Object view, float pointDensity) :323
+// public Fuse.Input.PointerEventData[] PointerEventDataForView(Java.Object rootView, Java.Object view, float pointDensity)
 void MotionEvent__PointerEventDataForView_fn(MotionEvent* __this, ::g::Java::Object* rootView, ::g::Java::Object* view, float* pointDensity, uArray** __retval)
 {
     *__retval = __this->PointerEventDataForView(rootView, view, *pointDensity);
 }
 
-// public static int get_PointerIndexMask() :430
+// public static int get_PointerIndexMask()
 void MotionEvent__get_PointerIndexMask_fn(int32_t* __retval)
 {
     *__retval = MotionEvent::PointerIndexMask();
 }
 
-// public static int get_PointerIndexShift() :435
+// public static int get_PointerIndexShift()
 void MotionEvent__get_PointerIndexShift_fn(int32_t* __retval)
 {
     *__retval = MotionEvent::PointerIndexShift();
@@ -2212,31 +2270,31 @@ void MotionEvent__get_PointerIndexShift_fn(int32_t* __retval)
 
 uSStrong<uArray*> MotionEvent::_locationOnScreen_;
 
-// public MotionEvent(Java.Object handle) [instance] :288
+// public MotionEvent(Java.Object handle) [instance]
 void MotionEvent::ctor_(::g::Java::Object* handle)
 {
     _handle = handle;
 }
 
-// public int get_Action() [instance] :305
+// public int get_Action() [instance]
 int32_t MotionEvent::Action()
 {
     return GetAction(_handle);
 }
 
-// public int get_ActionMasked() [instance] :300
+// public int get_ActionMasked() [instance]
 int32_t MotionEvent::ActionMasked()
 {
     return GetActionMasked(_handle);
 }
 
-// public long get_EventTime() [instance] :310
+// public long get_EventTime() [instance]
 int64_t MotionEvent::EventTime()
 {
     return GetEventTime(_handle);
 }
 
-// private int GetAction(Java.Object handle) [instance] :375
+// private int GetAction(Java.Object handle) [instance]
 int32_t MotionEvent::GetAction(::g::Java::Object* handle)
 {
     {
@@ -2257,7 +2315,7 @@ int32_t MotionEvent::GetAction(::g::Java::Object* handle)
     
 }
 
-// private int GetActionMasked(Java.Object handle) [instance] :387
+// private int GetActionMasked(Java.Object handle) [instance]
 int32_t MotionEvent::GetActionMasked(::g::Java::Object* handle)
 {
     {
@@ -2278,7 +2336,7 @@ int32_t MotionEvent::GetActionMasked(::g::Java::Object* handle)
     
 }
 
-// private long GetEventTime(Java.Object handle) [instance] :393
+// private long GetEventTime(Java.Object handle) [instance]
 int64_t MotionEvent::GetEventTime(::g::Java::Object* handle)
 {
     {
@@ -2299,14 +2357,14 @@ int64_t MotionEvent::GetEventTime(::g::Java::Object* handle)
     
 }
 
-// private float2 GetLocationOnScreen(Java.Object viewHandle) [instance] :359
+// private float2 GetLocationOnScreen(Java.Object viewHandle) [instance]
 ::g::Uno::Float2 MotionEvent::GetLocationOnScreen(::g::Java::Object* viewHandle)
 {
     GetLocationOnScreen1(viewHandle, MotionEvent::_locationOnScreen_);
     return ::g::Uno::Float2__New2((float)uPtr(MotionEvent::_locationOnScreen_)->Item<int32_t>(0), (float)uPtr(MotionEvent::_locationOnScreen_)->Item<int32_t>(1));
 }
 
-// private void GetLocationOnScreen(Java.Object viewHandle, int[] result) [instance] :366
+// private void GetLocationOnScreen(Java.Object viewHandle, int[] result) [instance]
 void MotionEvent::GetLocationOnScreen1(::g::Java::Object* viewHandle, uArray* result)
 {
     {
@@ -2330,7 +2388,7 @@ void MotionEvent::GetLocationOnScreen1(::g::Java::Object* viewHandle, uArray* re
     
 }
 
-// private int GetPointerCount(Java.Object handle) [instance] :399
+// private int GetPointerCount(Java.Object handle) [instance]
 int32_t MotionEvent::GetPointerCount(::g::Java::Object* handle)
 {
     {
@@ -2351,13 +2409,13 @@ int32_t MotionEvent::GetPointerCount(::g::Java::Object* handle)
     
 }
 
-// public int GetPointerId(int pointerIndex) [instance] :293
+// public int GetPointerId(int pointerIndex) [instance]
 int32_t MotionEvent::GetPointerId(int32_t pointerIndex)
 {
     return GetPointerId1(_handle, pointerIndex);
 }
 
-// private int GetPointerId(Java.Object handle, int pointerIndex) [instance] :381
+// private int GetPointerId(Java.Object handle, int pointerIndex) [instance]
 int32_t MotionEvent::GetPointerId1(::g::Java::Object* handle, int32_t pointerIndex)
 {
     {
@@ -2381,13 +2439,13 @@ int32_t MotionEvent::GetPointerId1(::g::Java::Object* handle, int32_t pointerInd
     
 }
 
-// public float2 GetPosition(int pointerIndex) [instance] :318
+// public float2 GetPosition(int pointerIndex) [instance]
 ::g::Uno::Float2 MotionEvent::GetPosition(int32_t pointerIndex)
 {
     return ::g::Uno::Float2__New2(GetX(_handle, pointerIndex), GetY(_handle, pointerIndex));
 }
 
-// private float GetX(Java.Object handle, int pointerIndex) [instance] :405
+// private float GetX(Java.Object handle, int pointerIndex) [instance]
 float MotionEvent::GetX(::g::Java::Object* handle, int32_t pointerIndex)
 {
     {
@@ -2411,7 +2469,7 @@ float MotionEvent::GetX(::g::Java::Object* handle, int32_t pointerIndex)
     
 }
 
-// private float GetY(Java.Object handle, int pointerIndex) [instance] :411
+// private float GetY(Java.Object handle, int pointerIndex) [instance]
 float MotionEvent::GetY(::g::Java::Object* handle, int32_t pointerIndex)
 {
     {
@@ -2435,13 +2493,13 @@ float MotionEvent::GetY(::g::Java::Object* handle, int32_t pointerIndex)
     
 }
 
-// public int get_PointerCount() [instance] :315
+// public int get_PointerCount() [instance]
 int32_t MotionEvent::PointerCount()
 {
     return GetPointerCount(_handle);
 }
 
-// public Fuse.Input.PointerEventData[] PointerEventDataForView(Java.Object rootView, Java.Object view, float pointDensity) [instance] :323
+// public Fuse.Input.PointerEventData[] PointerEventDataForView(Java.Object rootView, Java.Object view, float pointDensity) [instance]
 uArray* MotionEvent::PointerEventDataForView(::g::Java::Object* rootView, ::g::Java::Object* view, float pointDensity)
 {
     ::g::Fuse::Input::PointerEventData* collection1;
@@ -2458,7 +2516,7 @@ uArray* MotionEvent::PointerEventDataForView(::g::Java::Object* rootView, ::g::J
     return pointerEventData;
 }
 
-// private static bool Compare(Java.Object handle1, Java.Object handle2) [static] :451
+// private static bool Compare(Java.Object handle1, Java.Object handle2) [static]
 bool MotionEvent::Compare(::g::Java::Object* handle1, ::g::Java::Object* handle2)
 {
     MotionEvent_typeof()->Init();
@@ -2480,7 +2538,7 @@ bool MotionEvent::Compare(::g::Java::Object* handle1, ::g::Java::Object* handle2
     
 }
 
-// private static int GetPointerIndexMask() [static] :439
+// private static int GetPointerIndexMask() [static]
 int32_t MotionEvent::GetPointerIndexMask()
 {
     MotionEvent_typeof()->Init();
@@ -2496,7 +2554,7 @@ int32_t MotionEvent::GetPointerIndexMask()
     
 }
 
-// private static int GetPointerIndexShift() [static] :445
+// private static int GetPointerIndexShift() [static]
 int32_t MotionEvent::GetPointerIndexShift()
 {
     MotionEvent_typeof()->Init();
@@ -2512,7 +2570,7 @@ int32_t MotionEvent::GetPointerIndexShift()
     
 }
 
-// public MotionEvent New(Java.Object handle) [static] :288
+// public MotionEvent New(Java.Object handle) [static]
 MotionEvent* MotionEvent::New1(::g::Java::Object* handle)
 {
     MotionEvent* obj2 = (MotionEvent*)uNew(MotionEvent_typeof());
@@ -2520,14 +2578,14 @@ MotionEvent* MotionEvent::New1(::g::Java::Object* handle)
     return obj2;
 }
 
-// public static int get_PointerIndexMask() [static] :430
+// public static int get_PointerIndexMask() [static]
 int32_t MotionEvent::PointerIndexMask()
 {
     MotionEvent_typeof()->Init();
     return MotionEvent::GetPointerIndexMask();
 }
 
-// public static int get_PointerIndexShift() [static] :435
+// public static int get_PointerIndexShift() [static]
 int32_t MotionEvent::PointerIndexShift()
 {
     MotionEvent_typeof()->Init();
@@ -2535,10 +2593,10 @@ int32_t MotionEvent::PointerIndexShift()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/ScrollView.uno
-// -------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/ScrollView.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed extern class ScrollView :13
+// public sealed extern class ScrollView
 // {
 static void ScrollView_build(uType* type)
 {
@@ -2572,68 +2630,68 @@ ScrollView_type* ScrollView_typeof()
     return type;
 }
 
-// public ScrollView(Fuse.Controls.Native.IScrollViewHost host) :18
+// public ScrollView(Fuse.Controls.Native.IScrollViewHost host)
 void ScrollView__ctor_7_fn(ScrollView* __this, uObject* host)
 {
     __this->ctor_7(host);
 }
 
-// public void set_AllowedScrollDirections(Fuse.Controls.ScrollDirections value) :55
+// public void set_AllowedScrollDirections(Fuse.Controls.ScrollDirections value)
 void ScrollView__set_AllowedScrollDirections_fn(ScrollView* __this, int32_t* value)
 {
     __this->AllowedScrollDirections(*value);
 }
 
-// private static Java.Object Create() :31
+// private static Java.Object Create()
 void ScrollView__Create_fn(::g::Java::Object** __retval)
 {
     *__retval = ScrollView::Create();
 }
 
-// public override sealed void Dispose() :24
+// public override sealed void Dispose()
 void ScrollView__Dispose_fn(ScrollView* __this)
 {
     __this->_host = NULL;
     ::g::Fuse::Controls::Native::ViewHandle__Dispose_fn(__this);
 }
 
-// private void InstallCallback(Java.Object handle, Uno.Action<int, int, int, int> callback) :37
+// private void InstallCallback(Java.Object handle, Uno.Action<int, int, int, int> callback)
 void ScrollView__InstallCallback_fn(ScrollView* __this, ::g::Java::Object* handle, uDelegate* callback)
 {
     __this->InstallCallback(handle, callback);
 }
 
-// public ScrollView New(Fuse.Controls.Native.IScrollViewHost host) :18
+// public ScrollView New(Fuse.Controls.Native.IScrollViewHost host)
 void ScrollView__New5_fn(uObject* host, ScrollView** __retval)
 {
     *__retval = ScrollView::New5(host);
 }
 
-// private void OnScrollChanged(int x, int y, int oldx, int oldy) :70
+// private void OnScrollChanged(int x, int y, int oldx, int oldy)
 void ScrollView__OnScrollChanged_fn(ScrollView* __this, int32_t* x, int32_t* y, int32_t* oldx, int32_t* oldy)
 {
     __this->OnScrollChanged(*x, *y, *oldx, *oldy);
 }
 
-// public void set_ScrollPosition(float2 value) :63
+// public void set_ScrollPosition(float2 value)
 void ScrollView__set_ScrollPosition_fn(ScrollView* __this, ::g::Uno::Float2* value)
 {
     __this->ScrollPosition(*value);
 }
 
-// private void SetIsHorizontal(Java.Object handle, bool isHorizontal) :48
+// private void SetIsHorizontal(Java.Object handle, bool isHorizontal)
 void ScrollView__SetIsHorizontal_fn(ScrollView* __this, ::g::Java::Object* handle, bool* isHorizontal)
 {
     __this->SetIsHorizontal(handle, *isHorizontal);
 }
 
-// private static void SetScrollPosition(Java.Object handle, int x, int y) :85
+// private static void SetScrollPosition(Java.Object handle, int x, int y)
 void ScrollView__SetScrollPosition_fn(::g::Java::Object* handle, int32_t* x, int32_t* y)
 {
     ScrollView::SetScrollPosition(handle, *x, *y);
 }
 
-// public ScrollView(Fuse.Controls.Native.IScrollViewHost host) [instance] :18
+// public ScrollView(Fuse.Controls.Native.IScrollViewHost host) [instance]
 void ScrollView::ctor_7(uObject* host)
 {
     ctor_4(ScrollView::Create());
@@ -2641,13 +2699,13 @@ void ScrollView::ctor_7(uObject* host)
     InstallCallback(NativeHandle, uDelegate::New(::TYPES[18/*Uno.Action<int, int, int, int>*/], (void*)ScrollView__OnScrollChanged_fn, this));
 }
 
-// public void set_AllowedScrollDirections(Fuse.Controls.ScrollDirections value) [instance] :55
+// public void set_AllowedScrollDirections(Fuse.Controls.ScrollDirections value) [instance]
 void ScrollView::AllowedScrollDirections(int32_t value)
 {
     SetIsHorizontal(NativeHandle, (value & 3) == 3);
 }
 
-// private void InstallCallback(Java.Object handle, Uno.Action<int, int, int, int> callback) [instance] :37
+// private void InstallCallback(Java.Object handle, Uno.Action<int, int, int, int> callback) [instance]
 void ScrollView::InstallCallback(::g::Java::Object* handle, uDelegate* callback)
 {
     {
@@ -2671,21 +2729,21 @@ void ScrollView::InstallCallback(::g::Java::Object* handle, uDelegate* callback)
     
 }
 
-// private void OnScrollChanged(int x, int y, int oldx, int oldy) [instance] :70
+// private void OnScrollChanged(int x, int y, int oldx, int oldy) [instance]
 void ScrollView::OnScrollChanged(int32_t x, int32_t y, int32_t oldx, int32_t oldy)
 {
     float p = ::g::Fuse::Controls::Native::IScrollViewHost::PixelsPerPoint(uInterface(uPtr(_host), ::TYPES[19/*Fuse.Controls.Native.IScrollViewHost*/]));
     ::g::Fuse::Controls::Native::IScrollViewHost::OnScrollPositionChanged(uInterface(uPtr(_host), ::TYPES[19/*Fuse.Controls.Native.IScrollViewHost*/]), ::g::Uno::Float2__New2((float)x / p, (float)y / p));
 }
 
-// public void set_ScrollPosition(float2 value) [instance] :63
+// public void set_ScrollPosition(float2 value) [instance]
 void ScrollView::ScrollPosition(::g::Uno::Float2 value)
 {
     ::g::Uno::Int2 x = ::g::Uno::Int2__op_Explicit1(::g::Uno::Float2__op_Multiply1(value, ::g::Fuse::Controls::Native::IScrollViewHost::PixelsPerPoint(uInterface(uPtr(_host), ::TYPES[19/*Fuse.Controls.Native.IScrollViewHost*/]))));
     ScrollView::SetScrollPosition(Handle(), x.X, x.Y);
 }
 
-// private void SetIsHorizontal(Java.Object handle, bool isHorizontal) [instance] :48
+// private void SetIsHorizontal(Java.Object handle, bool isHorizontal) [instance]
 void ScrollView::SetIsHorizontal(::g::Java::Object* handle, bool isHorizontal)
 {
     {
@@ -2709,7 +2767,7 @@ void ScrollView::SetIsHorizontal(::g::Java::Object* handle, bool isHorizontal)
     
 }
 
-// private static Java.Object Create() [static] :31
+// private static Java.Object Create() [static]
 ::g::Java::Object* ScrollView::Create()
 {
     {
@@ -2724,7 +2782,7 @@ void ScrollView::SetIsHorizontal(::g::Java::Object* handle, bool isHorizontal)
     
 }
 
-// public ScrollView New(Fuse.Controls.Native.IScrollViewHost host) [static] :18
+// public ScrollView New(Fuse.Controls.Native.IScrollViewHost host) [static]
 ScrollView* ScrollView::New5(uObject* host)
 {
     ScrollView* obj1 = (ScrollView*)uNew(ScrollView_typeof());
@@ -2732,7 +2790,7 @@ ScrollView* ScrollView::New5(uObject* host)
     return obj1;
 }
 
-// private static void SetScrollPosition(Java.Object handle, int x, int y) [static] :85
+// private static void SetScrollPosition(Java.Object handle, int x, int y) [static]
 void ScrollView::SetScrollPosition(::g::Java::Object* handle, int32_t x, int32_t y)
 {
     {
@@ -2757,10 +2815,10 @@ void ScrollView::SetScrollPosition(::g::Java::Object* handle, int32_t x, int32_t
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/Slider.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/Slider.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed extern class Slider :15
+// public sealed extern class Slider
 // {
 static void Slider_build(uType* type)
 {
@@ -2793,26 +2851,26 @@ static void Slider_build(uType* type)
     return type;
 }
 
-// public override sealed void Dispose() :72
+// public override sealed void Dispose()
 void Slider__Dispose_fn(Slider* __this)
 {
     __this->_host = NULL;
     ::g::Fuse::Controls::Native::ViewHandle__Dispose_fn(__this);
 }
 
-// private void OnSeekBarChanged(double rel, bool fromUser) :58
+// private void OnSeekBarChanged(double rel, bool fromUser)
 void Slider__OnSeekBarChanged_fn(Slider* __this, double* rel, bool* fromUser)
 {
     __this->OnSeekBarChanged(*rel, *fromUser);
 }
 
-// private static void SetProgress(Java.Object handle, double progress) :41
+// private static void SetProgress(Java.Object handle, double progress)
 void Slider__SetProgress_fn(::g::Java::Object* handle, double* progress)
 {
     Slider::SetProgress(handle, *progress);
 }
 
-// private void OnSeekBarChanged(double rel, bool fromUser) [instance] :58
+// private void OnSeekBarChanged(double rel, bool fromUser) [instance]
 void Slider::OnSeekBarChanged(double rel, bool fromUser)
 {
     if (fromUser)
@@ -2829,7 +2887,7 @@ void Slider::OnSeekBarChanged(double rel, bool fromUser)
     ::g::Fuse::Controls::Native::IRangeViewHost::OnProgressChanged(uInterface(uPtr(_host), ::TYPES[20/*Fuse.Controls.Native.IRangeViewHost*/]), rel);
 }
 
-// private static void SetProgress(Java.Object handle, double progress) [static] :41
+// private static void SetProgress(Java.Object handle, double progress) [static]
 void Slider::SetProgress(::g::Java::Object* handle, double progress)
 {
     {
@@ -2851,10 +2909,10 @@ void Slider::SetProgress(::g::Java::Object* handle, double progress)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/TextEdit.uno
-// -----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/TextEdit.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static extern class SoftKeyboard :530
+// internal static extern class SoftKeyboard
 // {
 static void SoftKeyboard_build(uType* type)
 {
@@ -2872,19 +2930,19 @@ uClassType* SoftKeyboard_typeof()
     return type;
 }
 
-// public static void HideKeyboard(Java.Object hideKeyboardContext, Java.Object hideKeyboardWindowToken) :534
+// public static void HideKeyboard(Java.Object hideKeyboardContext, Java.Object hideKeyboardWindowToken)
 void SoftKeyboard__HideKeyboard_fn(::g::Java::Object* hideKeyboardContext, ::g::Java::Object* hideKeyboardWindowToken)
 {
     SoftKeyboard::HideKeyboard(hideKeyboardContext, hideKeyboardWindowToken);
 }
 
-// public static void ShowKeyboard(Java.Object viewHandle) :543
+// public static void ShowKeyboard(Java.Object viewHandle)
 void SoftKeyboard__ShowKeyboard_fn(::g::Java::Object* viewHandle)
 {
     SoftKeyboard::ShowKeyboard(viewHandle);
 }
 
-// public static void HideKeyboard(Java.Object hideKeyboardContext, Java.Object hideKeyboardWindowToken) [static] :534
+// public static void HideKeyboard(Java.Object hideKeyboardContext, Java.Object hideKeyboardWindowToken) [static]
 void SoftKeyboard::HideKeyboard(::g::Java::Object* hideKeyboardContext, ::g::Java::Object* hideKeyboardWindowToken)
 {
     {
@@ -2905,7 +2963,7 @@ void SoftKeyboard::HideKeyboard(::g::Java::Object* hideKeyboardContext, ::g::Jav
     
 }
 
-// public static void ShowKeyboard(Java.Object viewHandle) [static] :543
+// public static void ShowKeyboard(Java.Object viewHandle) [static]
 void SoftKeyboard::ShowKeyboard(::g::Java::Object* viewHandle)
 {
     {
@@ -2924,10 +2982,10 @@ void SoftKeyboard::ShowKeyboard(::g::Java::Object* viewHandle)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/SurfaceView.uno
-// --------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/SurfaceView.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed extern class SurfaceView :8
+// public sealed extern class SurfaceView
 // {
 static void SurfaceView_build(uType* type)
 {
@@ -2961,68 +3019,68 @@ static void SurfaceView_build(uType* type)
     return type;
 }
 
-// public SurfaceView() :10
+// public SurfaceView()
 void SurfaceView__ctor_8_fn(SurfaceView* __this)
 {
     __this->ctor_8();
 }
 
-// private void AddCallback(Java.Object handle) :33
+// private void AddCallback(Java.Object handle)
 void SurfaceView__AddCallback_fn(SurfaceView* __this, ::g::Java::Object* handle)
 {
     __this->AddCallback(handle);
 }
 
-// private static Java.Object Create() :52
+// private static Java.Object Create()
 void SurfaceView__Create_fn(::g::Java::Object** __retval)
 {
     *__retval = SurfaceView::Create();
 }
 
-// private static Java.Object GetSurface(Java.Object holder) :27
+// private static Java.Object GetSurface(Java.Object holder)
 void SurfaceView__GetSurface_fn(::g::Java::Object* holder, ::g::Java::Object** __retval)
 {
     *__retval = SurfaceView::GetSurface(holder);
 }
 
-// public SurfaceView New() :10
+// public SurfaceView New()
 void SurfaceView__New5_fn(SurfaceView** __retval)
 {
     *__retval = SurfaceView::New5();
 }
 
-// private void OnSurfaceChanged(Java.Object holder, int f, int w, int h) :16
+// private void OnSurfaceChanged(Java.Object holder, int f, int w, int h)
 void SurfaceView__OnSurfaceChanged_fn(SurfaceView* __this, ::g::Java::Object* holder, int32_t* f, int32_t* w, int32_t* h)
 {
     __this->OnSurfaceChanged(holder, *f, *w, *h);
 }
 
-// private void OnSurfaceCreated(Java.Object holder) :17
+// private void OnSurfaceCreated(Java.Object holder)
 void SurfaceView__OnSurfaceCreated_fn(SurfaceView* __this, ::g::Java::Object* holder)
 {
     __this->OnSurfaceCreated(holder);
 }
 
-// private void OnSurfaceDestroyed(Java.Object holder) :21
+// private void OnSurfaceDestroyed(Java.Object holder)
 void SurfaceView__OnSurfaceDestroyed_fn(SurfaceView* __this, ::g::Java::Object* holder)
 {
     __this->OnSurfaceDestroyed(holder);
 }
 
-// private void OnSurfaceRedrawNeeded(Java.Object holder) :15
+// private void OnSurfaceRedrawNeeded(Java.Object holder)
 void SurfaceView__OnSurfaceRedrawNeeded_fn(SurfaceView* __this, ::g::Java::Object* holder)
 {
     __this->OnSurfaceRedrawNeeded(holder);
 }
 
-// public SurfaceView() [instance] :10
+// public SurfaceView() [instance]
 void SurfaceView::ctor_8()
 {
     ctor_7(SurfaceView::Create());
     AddCallback(GraphicsViewHandle());
 }
 
-// private void AddCallback(Java.Object handle) [instance] :33
+// private void AddCallback(Java.Object handle) [instance]
 void SurfaceView::AddCallback(::g::Java::Object* handle)
 {
     {
@@ -3043,29 +3101,29 @@ void SurfaceView::AddCallback(::g::Java::Object* handle)
     
 }
 
-// private void OnSurfaceChanged(Java.Object holder, int f, int w, int h) [instance] :16
+// private void OnSurfaceChanged(Java.Object holder, int f, int w, int h) [instance]
 void SurfaceView::OnSurfaceChanged(::g::Java::Object* holder, int32_t f, int32_t w, int32_t h)
 {
 }
 
-// private void OnSurfaceCreated(Java.Object holder) [instance] :17
+// private void OnSurfaceCreated(Java.Object holder) [instance]
 void SurfaceView::OnSurfaceCreated(::g::Java::Object* holder)
 {
     SetSurface(SurfaceView::GetSurface(holder));
 }
 
-// private void OnSurfaceDestroyed(Java.Object holder) [instance] :21
+// private void OnSurfaceDestroyed(Java.Object holder) [instance]
 void SurfaceView::OnSurfaceDestroyed(::g::Java::Object* holder)
 {
     DestroySurface();
 }
 
-// private void OnSurfaceRedrawNeeded(Java.Object holder) [instance] :15
+// private void OnSurfaceRedrawNeeded(Java.Object holder) [instance]
 void SurfaceView::OnSurfaceRedrawNeeded(::g::Java::Object* holder)
 {
 }
 
-// private static Java.Object Create() [static] :52
+// private static Java.Object Create() [static]
 ::g::Java::Object* SurfaceView::Create()
 {
     {
@@ -3080,7 +3138,7 @@ void SurfaceView::OnSurfaceRedrawNeeded(::g::Java::Object* holder)
     
 }
 
-// private static Java.Object GetSurface(Java.Object holder) [static] :27
+// private static Java.Object GetSurface(Java.Object holder) [static]
 ::g::Java::Object* SurfaceView::GetSurface(::g::Java::Object* holder)
 {
     {
@@ -3098,7 +3156,7 @@ void SurfaceView::OnSurfaceRedrawNeeded(::g::Java::Object* holder)
     
 }
 
-// public SurfaceView New() [static] :10
+// public SurfaceView New() [static]
 SurfaceView* SurfaceView::New5()
 {
     SurfaceView* obj1 = (SurfaceView*)uNew(SurfaceView_typeof());
@@ -3107,10 +3165,10 @@ SurfaceView* SurfaceView::New5()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/Switch.uno
-// ---------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/Switch.uno
+// ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed extern class Switch :17
+// public sealed extern class Switch
 // {
 static void Switch_build(uType* type)
 {
@@ -3142,44 +3200,44 @@ Switch_type* Switch_typeof()
     return type;
 }
 
-// public override sealed void Dispose() :60
+// public override sealed void Dispose()
 void Switch__Dispose_fn(Switch* __this)
 {
     __this->_host = NULL;
     ::g::Fuse::Controls::Native::ViewHandle__Dispose_fn(__this);
 }
 
-// private void OnToggleChanged(bool value) :55
+// private void OnToggleChanged(bool value)
 void Switch__OnToggleChanged_fn(Switch* __this, bool* value)
 {
     __this->OnToggleChanged(*value);
 }
 
-// private static void SetValue(Java.Object handle, bool value) :50
+// private static void SetValue(Java.Object handle, bool value)
 void Switch__SetValue_fn(::g::Java::Object* handle, bool* value)
 {
     Switch::SetValue(handle, *value);
 }
 
-// public void set_Value(bool value) :21
+// public void set_Value(bool value)
 void Switch__set_Value_fn(Switch* __this, bool* value)
 {
     __this->Value(*value);
 }
 
-// private void OnToggleChanged(bool value) [instance] :55
+// private void OnToggleChanged(bool value) [instance]
 void Switch::OnToggleChanged(bool value)
 {
     ::g::Fuse::Controls::Native::IToggleViewHost::OnValueChanged(uInterface(uPtr(_host), ::TYPES[21/*Fuse.Controls.Native.IToggleViewHost*/]), value);
 }
 
-// public void set_Value(bool value) [instance] :21
+// public void set_Value(bool value) [instance]
 void Switch::Value(bool value)
 {
     Switch::SetValue(Handle(), value);
 }
 
-// private static void SetValue(Java.Object handle, bool value) [static] :50
+// private static void SetValue(Java.Object handle, bool value) [static]
 void Switch::SetValue(::g::Java::Object* handle, bool value)
 {
     {
@@ -3201,10 +3259,10 @@ void Switch::SetValue(::g::Java::Object* handle, bool value)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/TextEdit.uno
-// -----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/TextEdit.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed extern class TextEdit :7
+// public sealed extern class TextEdit
 // {
 static void TextEdit_build(uType* type)
 {
@@ -3254,32 +3312,32 @@ static void TextEdit_build(uType* type)
     return type;
 }
 
-// public TextEdit(Fuse.Controls.Native.ITextEditHost host, bool isMultiline) :9
+// public TextEdit(Fuse.Controls.Native.ITextEditHost host, bool isMultiline)
 void TextEdit__ctor_12_fn(TextEdit* __this, uObject* host, bool* isMultiline)
 {
     __this->ctor_12(host, *isMultiline);
 }
 
-// private static void MakeItPlain(Java.Object handle) :15
+// private static void MakeItPlain(Java.Object handle)
 void TextEdit__MakeItPlain_fn(::g::Java::Object* handle)
 {
     TextEdit::MakeItPlain(handle);
 }
 
-// public TextEdit New(Fuse.Controls.Native.ITextEditHost host, bool isMultiline) :9
+// public TextEdit New(Fuse.Controls.Native.ITextEditHost host, bool isMultiline)
 void TextEdit__New8_fn(uObject* host, bool* isMultiline, TextEdit** __retval)
 {
     *__retval = TextEdit::New8(host, *isMultiline);
 }
 
-// public TextEdit(Fuse.Controls.Native.ITextEditHost host, bool isMultiline) [instance] :9
+// public TextEdit(Fuse.Controls.Native.ITextEditHost host, bool isMultiline) [instance]
 void TextEdit::ctor_12(uObject* host, bool isMultiline)
 {
     ctor_11(host, isMultiline);
     TextEdit::MakeItPlain(Handle());
 }
 
-// private static void MakeItPlain(Java.Object handle) [static] :15
+// private static void MakeItPlain(Java.Object handle) [static]
 void TextEdit::MakeItPlain(::g::Java::Object* handle)
 {
     {
@@ -3297,7 +3355,7 @@ void TextEdit::MakeItPlain(::g::Java::Object* handle)
     
 }
 
-// public TextEdit New(Fuse.Controls.Native.ITextEditHost host, bool isMultiline) [static] :9
+// public TextEdit New(Fuse.Controls.Native.ITextEditHost host, bool isMultiline) [static]
 TextEdit* TextEdit::New8(uObject* host, bool isMultiline)
 {
     TextEdit* obj1 = (TextEdit*)uNew(TextEdit_typeof());
@@ -3306,10 +3364,10 @@ TextEdit* TextEdit::New8(uObject* host, bool isMultiline)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/TextEdit.uno
-// -----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/TextEdit.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern class TextInput :27
+// public extern class TextInput
 // {
 static void TextInput_build(uType* type)
 {
@@ -3380,55 +3438,55 @@ TextInput_type* TextInput_typeof()
     return type;
 }
 
-// public TextInput(Fuse.Controls.Native.ITextEditHost host, bool isMultiline) :31
+// public TextInput(Fuse.Controls.Native.ITextEditHost host, bool isMultiline)
 void TextInput__ctor_11_fn(TextInput* __this, uObject* host, bool* isMultiline)
 {
     __this->ctor_11(host, *isMultiline);
 }
 
-// public void set_ActionStyle(Fuse.Controls.TextInputActionStyle value) :166
+// public void set_ActionStyle(Fuse.Controls.TextInputActionStyle value)
 void TextInput__set_ActionStyle_fn(TextInput* __this, int32_t* value)
 {
     __this->ActionStyle(*value);
 }
 
-// private void AddEditorActionListener(Java.Object handle) :448
+// private void AddEditorActionListener(Java.Object handle)
 void TextInput__AddEditorActionListener_fn(TextInput* __this, ::g::Java::Object* handle)
 {
     __this->AddEditorActionListener(handle);
 }
 
-// private void AddTextChangedListener(Java.Object handle) :377
+// private void AddTextChangedListener(Java.Object handle)
 void TextInput__AddTextChangedListener_fn(TextInput* __this, ::g::Java::Object* handle)
 {
     __this->AddTextChangedListener(handle);
 }
 
-// public void set_AutoCapitalizationHint(Fuse.Controls.AutoCapitalizationHint value) :146
+// public void set_AutoCapitalizationHint(Fuse.Controls.AutoCapitalizationHint value)
 void TextInput__set_AutoCapitalizationHint_fn(TextInput* __this, int32_t* value)
 {
     __this->AutoCapitalizationHint(*value);
 }
 
-// public void set_AutoCorrectHint(Fuse.Controls.AutoCorrectHint value) :136
+// public void set_AutoCorrectHint(Fuse.Controls.AutoCorrectHint value)
 void TextInput__set_AutoCorrectHint_fn(TextInput* __this, int32_t* value)
 {
     __this->AutoCorrectHint(*value);
 }
 
-// public void set_CaretColor(float4 value) :261
+// public void set_CaretColor(float4 value)
 void TextInput__set_CaretColor_fn(TextInput* __this, ::g::Uno::Float4* value)
 {
     __this->CaretColor(*value);
 }
 
-// private static Java.Object Create() :343
+// private static Java.Object Create()
 void TextInput__Create1_fn(::g::Java::Object** __retval)
 {
     *__retval = TextInput::Create1();
 }
 
-// public override sealed void Dispose() :65
+// public override sealed void Dispose()
 void TextInput__Dispose_fn(TextInput* __this)
 {
     __this->_host = NULL;
@@ -3437,50 +3495,50 @@ void TextInput__Dispose_fn(TextInput* __this)
     ::g::Fuse::Controls::Native::ViewHandle__Dispose_fn(__this);
 }
 
-// private void Fuse.Controls.Native.ITextEdit.FocusGained() :73
+// private void Fuse.Controls.Native.ITextEdit.FocusGained()
 void TextInput__FuseControlsNativeITextEditFocusGained_fn(TextInput* __this)
 {
     TextInput::RequestFocus(__this->Handle());
 }
 
-// private void Fuse.Controls.Native.ITextEdit.FocusLost() :78
+// private void Fuse.Controls.Native.ITextEdit.FocusLost()
 void TextInput__FuseControlsNativeITextEditFocusLost_fn(TextInput* __this)
 {
     if (TextInput::HasFocus(__this->Handle()))
         __this->ScheduleFocusLoss();
 }
 
-// private static bool HasFocus(Java.Object viewHandle) :85
+// private static bool HasFocus(Java.Object viewHandle)
 void TextInput__HasFocus_fn(::g::Java::Object* viewHandle, bool* __retval)
 {
     *__retval = TextInput::HasFocus(viewHandle);
 }
 
-// public void set_InputHint(Fuse.Controls.TextInputHint value) :156
+// public void set_InputHint(Fuse.Controls.TextInputHint value)
 void TextInput__set_InputHint_fn(TextInput* __this, int32_t* value)
 {
     __this->InputHint(*value);
 }
 
-// public void set_IsMultiline(bool value) :106
+// public void set_IsMultiline(bool value)
 void TextInput__set_IsMultiline_fn(TextInput* __this, bool* value)
 {
     __this->IsMultiline(*value);
 }
 
-// public void set_IsPassword(bool value) :116
+// public void set_IsPassword(bool value)
 void TextInput__set_IsPassword_fn(TextInput* __this, bool* value)
 {
     __this->IsPassword(*value);
 }
 
-// public void set_IsReadOnly(bool value) :126
+// public void set_IsReadOnly(bool value)
 void TextInput__set_IsReadOnly_fn(TextInput* __this, bool* value)
 {
     __this->IsReadOnly(*value);
 }
 
-// public override sealed float2 Measure(Fuse.LayoutParams lp, float density) :394
+// public override sealed float2 Measure(Fuse.LayoutParams lp, float density)
 void TextInput__Measure_fn(TextInput* __this, ::g::Fuse::LayoutParams* lp, float* density, ::g::Uno::Float2* __retval)
 {
     ::g::Fuse::LayoutParams lp_ = *lp;
@@ -3498,109 +3556,121 @@ void TextInput__Measure_fn(TextInput* __this, ::g::Fuse::LayoutParams* lp, float
         return *__retval = (::g::Fuse::Controls::Native::ViewHandle__Measure_fn(__this, uCRef(lp_), uCRef(density_), &ret2), ret2), void();
 }
 
-// private static void Measure(Java.Object handle, int w, int h, bool hasX, bool hasY, int[] measuredSize) :410
+// private static void Measure(Java.Object handle, int w, int h, bool hasX, bool hasY, int[] measuredSize)
 void TextInput__Measure2_fn(::g::Java::Object* handle, int32_t* w, int32_t* h, bool* hasX, bool* hasY, uArray* measuredSize)
 {
     TextInput::Measure2(handle, *w, *h, *hasX, *hasY, measuredSize);
 }
 
-// private bool OnEditorAction(int actionCode) :462
+// private bool OnEditorAction(int actionCode)
 void TextInput__OnEditorAction_fn(TextInput* __this, int32_t* actionCode, bool* __retval)
 {
     *__retval = __this->OnEditorAction(*actionCode);
 }
 
-// private void OnNativeFocusChanged(Java.Object view, bool hasFocus) :40
+// private void OnNativeFocusChanged(Java.Object view, bool hasFocus)
 void TextInput__OnNativeFocusChanged_fn(TextInput* __this, ::g::Java::Object* view, bool* hasFocus)
 {
     __this->OnNativeFocusChanged(view, *hasFocus);
 }
 
-// private void OnTextChanged(string value) :457
+// private void OnTextChanged(string value)
 void TextInput__OnTextChanged_fn(TextInput* __this, uString* value)
 {
     __this->OnTextChanged(value);
 }
 
-// public void set_PlaceholderColor(float4 value) :276
+// public void set_PlaceholderColor(float4 value)
 void TextInput__set_PlaceholderColor_fn(TextInput* __this, ::g::Uno::Float4* value)
 {
     __this->PlaceholderColor(*value);
 }
 
-// public void set_PlaceholderText(string value) :271
+// public void set_PlaceholderText(string value)
 void TextInput__set_PlaceholderText_fn(TextInput* __this, uString* value)
 {
     __this->PlaceholderText(value);
 }
 
-// private static void RequestFocus(Java.Object viewHandle) :91
+// private static void RequestFocus(Java.Object viewHandle)
 void TextInput__RequestFocus_fn(::g::Java::Object* viewHandle)
 {
     TextInput::RequestFocus(viewHandle);
 }
 
-// private int get_ReturnKeyType() :293
+// private int get_ReturnKeyType()
 void TextInput__get_ReturnKeyType_fn(TextInput* __this, int32_t* __retval)
 {
     *__retval = __this->ReturnKeyType();
 }
 
-// private void ScheduleFocusLoss() :55
+// private void ScheduleFocusLoss()
 void TextInput__ScheduleFocusLoss_fn(TextInput* __this)
 {
     __this->ScheduleFocusLoss();
 }
 
-// public void set_SelectionColor(float4 value) :266
+// public void set_SelectionColor(float4 value)
 void TextInput__set_SelectionColor_fn(TextInput* __this, ::g::Uno::Float4* value)
 {
     __this->SelectionColor(*value);
 }
 
-// private void SetCursorDrawableColor(Java.Object handle, int color) :349
+// private void SetCursorDrawableColor(Java.Object handle, int color)
 void TextInput__SetCursorDrawableColor_fn(TextInput* __this, ::g::Java::Object* handle, int32_t* color)
 {
     __this->SetCursorDrawableColor(handle, *color);
 }
 
-// private static void SetImeOptions(Java.Object handle, int value) :337
+// private static void SetFocusable(Java.Object handle, bool value)
+void TextInput__SetFocusable_fn(::g::Java::Object* handle, bool* value)
+{
+    TextInput::SetFocusable(handle, *value);
+}
+
+// private static void SetFocusableInTouchMode(Java.Object handle, bool value)
+void TextInput__SetFocusableInTouchMode_fn(::g::Java::Object* handle, bool* value)
+{
+    TextInput::SetFocusableInTouchMode(handle, *value);
+}
+
+// private static void SetImeOptions(Java.Object handle, int value)
 void TextInput__SetImeOptions_fn(::g::Java::Object* handle, int32_t* value)
 {
     TextInput::SetImeOptions(handle, *value);
 }
 
-// private static void SetInputType(Java.Object handle, int value) :314
+// private static void SetInputType(Java.Object handle, int value)
 void TextInput__SetInputType_fn(::g::Java::Object* handle, int32_t* value)
 {
     TextInput::SetInputType(handle, *value);
 }
 
-// private static void SetPlaceholderColor(Java.Object handle, int value) :280
+// private static void SetPlaceholderColor(Java.Object handle, int value)
 void TextInput__SetPlaceholderColor_fn(::g::Java::Object* handle, int32_t* value)
 {
     TextInput::SetPlaceholderColor(handle, *value);
 }
 
-// private static void SetPlaceholderText(Java.Object handle, string value) :286
+// private static void SetPlaceholderText(Java.Object handle, string value)
 void TextInput__SetPlaceholderText_fn(::g::Java::Object* handle, uString* value)
 {
     TextInput::SetPlaceholderText(handle, value);
 }
 
-// private static void SetSelectionColor(Java.Object handle, int color) :308
+// private static void SetSelectionColor(Java.Object handle, int color)
 void TextInput__SetSelectionColor_fn(::g::Java::Object* handle, int32_t* color)
 {
     TextInput::SetSelectionColor(handle, *color);
 }
 
-// private void UpdateFlags() :173
+// private void UpdateFlags()
 void TextInput__UpdateFlags_fn(TextInput* __this)
 {
     __this->UpdateFlags();
 }
 
-// public TextInput(Fuse.Controls.Native.ITextEditHost host, bool isMultiline) [instance] :31
+// public TextInput(Fuse.Controls.Native.ITextEditHost host, bool isMultiline) [instance]
 void TextInput::ctor_11(uObject* host, bool isMultiline)
 {
     ctor_10(TextInput::Create1());
@@ -3611,14 +3681,14 @@ void TextInput::ctor_11(uObject* host, bool isMultiline)
     AddTextChangedListener(Handle());
 }
 
-// public void set_ActionStyle(Fuse.Controls.TextInputActionStyle value) [instance] :166
+// public void set_ActionStyle(Fuse.Controls.TextInputActionStyle value) [instance]
 void TextInput::ActionStyle(int32_t value)
 {
     _actionStyle = value;
     UpdateFlags();
 }
 
-// private void AddEditorActionListener(Java.Object handle) [instance] :448
+// private void AddEditorActionListener(Java.Object handle) [instance]
 void TextInput::AddEditorActionListener(::g::Java::Object* handle)
 {
     {
@@ -3639,7 +3709,7 @@ void TextInput::AddEditorActionListener(::g::Java::Object* handle)
     
 }
 
-// private void AddTextChangedListener(Java.Object handle) [instance] :377
+// private void AddTextChangedListener(Java.Object handle) [instance]
 void TextInput::AddTextChangedListener(::g::Java::Object* handle)
 {
     {
@@ -3660,55 +3730,55 @@ void TextInput::AddTextChangedListener(::g::Java::Object* handle)
     
 }
 
-// public void set_AutoCapitalizationHint(Fuse.Controls.AutoCapitalizationHint value) [instance] :146
+// public void set_AutoCapitalizationHint(Fuse.Controls.AutoCapitalizationHint value) [instance]
 void TextInput::AutoCapitalizationHint(int32_t value)
 {
     _autoCapitalizationHint = value;
     UpdateFlags();
 }
 
-// public void set_AutoCorrectHint(Fuse.Controls.AutoCorrectHint value) [instance] :136
+// public void set_AutoCorrectHint(Fuse.Controls.AutoCorrectHint value) [instance]
 void TextInput::AutoCorrectHint(int32_t value)
 {
     _autoCorrentHint = value;
     UpdateFlags();
 }
 
-// public void set_CaretColor(float4 value) [instance] :261
+// public void set_CaretColor(float4 value) [instance]
 void TextInput::CaretColor(::g::Uno::Float4 value)
 {
     SetCursorDrawableColor(Handle(), (int32_t)::g::Uno::Color::ToArgb(value));
 }
 
-// public void set_InputHint(Fuse.Controls.TextInputHint value) [instance] :156
+// public void set_InputHint(Fuse.Controls.TextInputHint value) [instance]
 void TextInput::InputHint(int32_t value)
 {
     _inputHint = value;
     UpdateFlags();
 }
 
-// public void set_IsMultiline(bool value) [instance] :106
+// public void set_IsMultiline(bool value) [instance]
 void TextInput::IsMultiline(bool value)
 {
     _isMultiline = value;
     UpdateFlags();
 }
 
-// public void set_IsPassword(bool value) [instance] :116
+// public void set_IsPassword(bool value) [instance]
 void TextInput::IsPassword(bool value)
 {
     _isPassword = value;
     UpdateFlags();
 }
 
-// public void set_IsReadOnly(bool value) [instance] :126
+// public void set_IsReadOnly(bool value) [instance]
 void TextInput::IsReadOnly(bool value)
 {
     _isReadOnly = value;
     UpdateFlags();
 }
 
-// private bool OnEditorAction(int actionCode) [instance] :462
+// private bool OnEditorAction(int actionCode) [instance]
 bool TextInput::OnEditorAction(int32_t actionCode)
 {
     switch (actionCode)
@@ -3724,7 +3794,7 @@ bool TextInput::OnEditorAction(int32_t actionCode)
     return false;
 }
 
-// private void OnNativeFocusChanged(Java.Object view, bool hasFocus) [instance] :40
+// private void OnNativeFocusChanged(Java.Object view, bool hasFocus) [instance]
 void TextInput::OnNativeFocusChanged(::g::Java::Object* view, bool hasFocus)
 {
     if (!hasFocus)
@@ -3740,25 +3810,25 @@ void TextInput::OnNativeFocusChanged(::g::Java::Object* view, bool hasFocus)
     }
 }
 
-// private void OnTextChanged(string value) [instance] :457
+// private void OnTextChanged(string value) [instance]
 void TextInput::OnTextChanged(uString* value)
 {
     ::g::Fuse::Controls::Native::ITextEditHost::OnValueChanged(uInterface(uPtr(_host), ::TYPES[23/*Fuse.Controls.Native.ITextEditHost*/]), value);
 }
 
-// public void set_PlaceholderColor(float4 value) [instance] :276
+// public void set_PlaceholderColor(float4 value) [instance]
 void TextInput::PlaceholderColor(::g::Uno::Float4 value)
 {
     TextInput::SetPlaceholderColor(Handle(), (int32_t)::g::Uno::Color::ToArgb(value));
 }
 
-// public void set_PlaceholderText(string value) [instance] :271
+// public void set_PlaceholderText(string value) [instance]
 void TextInput::PlaceholderText(uString* value)
 {
     TextInput::SetPlaceholderText(Handle(), value);
 }
 
-// private int get_ReturnKeyType() [instance] :293
+// private int get_ReturnKeyType() [instance]
 int32_t TextInput::ReturnKeyType()
 {
     switch (_actionStyle)
@@ -3778,7 +3848,7 @@ int32_t TextInput::ReturnKeyType()
     return 0;
 }
 
-// private void ScheduleFocusLoss() [instance] :55
+// private void ScheduleFocusLoss() [instance]
 void TextInput::ScheduleFocusLoss()
 {
     uPtr(::g::Fuse::Controls::Native::Android::FocusManager::Singleton())->LoseFocus = Handle();
@@ -3787,13 +3857,13 @@ void TextInput::ScheduleFocusLoss()
     ::g::Fuse::UpdateManager::AddDeferredAction2(uDelegate::New(::TYPES[3/*Uno.Action*/], (void*)::g::Fuse::Controls::Native::Android::FocusManager__CompleteFocusLoss_fn, uPtr(::g::Fuse::Controls::Native::Android::FocusManager::Singleton())), -1, 2);
 }
 
-// public void set_SelectionColor(float4 value) [instance] :266
+// public void set_SelectionColor(float4 value) [instance]
 void TextInput::SelectionColor(::g::Uno::Float4 value)
 {
     TextInput::SetSelectionColor(Handle(), (int32_t)::g::Uno::Color::ToArgb(value));
 }
 
-// private void SetCursorDrawableColor(Java.Object handle, int color) [instance] :349
+// private void SetCursorDrawableColor(Java.Object handle, int color) [instance]
 void TextInput::SetCursorDrawableColor(::g::Java::Object* handle, int32_t color)
 {
     {
@@ -3817,7 +3887,7 @@ void TextInput::SetCursorDrawableColor(::g::Java::Object* handle, int32_t color)
     
 }
 
-// private void UpdateFlags() [instance] :173
+// private void UpdateFlags() [instance]
 void TextInput::UpdateFlags()
 {
     int32_t flags = 0;
@@ -3901,15 +3971,21 @@ void TextInput::UpdateFlags()
         flags = flags | 128;
 
     if (_isReadOnly)
+    {
         TextInput::SetInputType(Handle(), 0);
+        TextInput::SetFocusable(Handle(), false);
+        TextInput::SetFocusableInTouchMode(Handle(), false);
+    }
     else
     {
         TextInput::SetInputType(Handle(), flags);
         TextInput::SetImeOptions(Handle(), ReturnKeyType());
+        TextInput::SetFocusable(Handle(), true);
+        TextInput::SetFocusableInTouchMode(Handle(), true);
     }
 }
 
-// private static Java.Object Create() [static] :343
+// private static Java.Object Create() [static]
 ::g::Java::Object* TextInput::Create1()
 {
     {
@@ -3924,7 +4000,7 @@ void TextInput::UpdateFlags()
     
 }
 
-// private static bool HasFocus(Java.Object viewHandle) [static] :85
+// private static bool HasFocus(Java.Object viewHandle) [static]
 bool TextInput::HasFocus(::g::Java::Object* viewHandle)
 {
     {
@@ -3942,7 +4018,7 @@ bool TextInput::HasFocus(::g::Java::Object* viewHandle)
     
 }
 
-// private static void Measure(Java.Object handle, int w, int h, bool hasX, bool hasY, int[] measuredSize) [static] :410
+// private static void Measure(Java.Object handle, int w, int h, bool hasX, bool hasY, int[] measuredSize) [static]
 void TextInput::Measure2(::g::Java::Object* handle, int32_t w, int32_t h, bool hasX, bool hasY, uArray* measuredSize)
 {
     {
@@ -3975,7 +4051,7 @@ void TextInput::Measure2(::g::Java::Object* handle, int32_t w, int32_t h, bool h
     
 }
 
-// private static void RequestFocus(Java.Object viewHandle) [static] :91
+// private static void RequestFocus(Java.Object viewHandle) [static]
 void TextInput::RequestFocus(::g::Java::Object* viewHandle)
 {
     {
@@ -3993,13 +4069,55 @@ void TextInput::RequestFocus(::g::Java::Object* viewHandle)
     
 }
 
-// private static void SetImeOptions(Java.Object handle, int value) [static] :337
+// private static void SetFocusable(Java.Object handle, bool value) [static]
+void TextInput::SetFocusable(::g::Java::Object* handle, bool value)
+{
+    {
+        INIT_JNI;
+        jclass __cls = JniHelper::GetNativeExternClass();
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetFocusable210", "(Ljava/lang/Object;Z)V");
+        ::g::Java::Object* _uhandle=handle;
+        jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
+        bool _uvalue=value;
+        jboolean _value = (jboolean)_uvalue;
+        U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_handle,_value);
+        
+        if (_handle!=NULL) { U_JNIVAR->DeleteLocalRef(_handle); }
+        
+        ::g::Android::Base::JNI::CheckException();
+        
+    }
+    
+}
+
+// private static void SetFocusableInTouchMode(Java.Object handle, bool value) [static]
+void TextInput::SetFocusableInTouchMode(::g::Java::Object* handle, bool value)
+{
+    {
+        INIT_JNI;
+        jclass __cls = JniHelper::GetNativeExternClass();
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetFocusableInTouchMode211", "(Ljava/lang/Object;Z)V");
+        ::g::Java::Object* _uhandle=handle;
+        jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
+        bool _uvalue=value;
+        jboolean _value = (jboolean)_uvalue;
+        U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_handle,_value);
+        
+        if (_handle!=NULL) { U_JNIVAR->DeleteLocalRef(_handle); }
+        
+        ::g::Android::Base::JNI::CheckException();
+        
+    }
+    
+}
+
+// private static void SetImeOptions(Java.Object handle, int value) [static]
 void TextInput::SetImeOptions(::g::Java::Object* handle, int32_t value)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetImeOptions210", "(Ljava/lang/Object;I)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetImeOptions212", "(Ljava/lang/Object;I)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         int32_t _uvalue=value;
@@ -4014,13 +4132,13 @@ void TextInput::SetImeOptions(::g::Java::Object* handle, int32_t value)
     
 }
 
-// private static void SetInputType(Java.Object handle, int value) [static] :314
+// private static void SetInputType(Java.Object handle, int value) [static]
 void TextInput::SetInputType(::g::Java::Object* handle, int32_t value)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetInputType211", "(Ljava/lang/Object;I)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetInputType213", "(Ljava/lang/Object;I)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         int32_t _uvalue=value;
@@ -4035,13 +4153,13 @@ void TextInput::SetInputType(::g::Java::Object* handle, int32_t value)
     
 }
 
-// private static void SetPlaceholderColor(Java.Object handle, int value) [static] :280
+// private static void SetPlaceholderColor(Java.Object handle, int value) [static]
 void TextInput::SetPlaceholderColor(::g::Java::Object* handle, int32_t value)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetPlaceholderColor212", "(Ljava/lang/Object;I)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetPlaceholderColor214", "(Ljava/lang/Object;I)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         int32_t _uvalue=value;
@@ -4056,13 +4174,13 @@ void TextInput::SetPlaceholderColor(::g::Java::Object* handle, int32_t value)
     
 }
 
-// private static void SetPlaceholderText(Java.Object handle, string value) [static] :286
+// private static void SetPlaceholderText(Java.Object handle, string value) [static]
 void TextInput::SetPlaceholderText(::g::Java::Object* handle, uString* value)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetPlaceholderText213", "(Ljava/lang/Object;Ljava/lang/String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetPlaceholderText215", "(Ljava/lang/Object;Ljava/lang/String;)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         uString* _uvalue=value;
@@ -4077,13 +4195,13 @@ void TextInput::SetPlaceholderText(::g::Java::Object* handle, uString* value)
     
 }
 
-// private static void SetSelectionColor(Java.Object handle, int color) [static] :308
+// private static void SetSelectionColor(Java.Object handle, int color) [static]
 void TextInput::SetSelectionColor(::g::Java::Object* handle, int32_t color)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetSelectionColor214", "(Ljava/lang/Object;I)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetSelectionColor216", "(Ljava/lang/Object;I)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         int32_t _ucolor=color;
@@ -4099,10 +4217,10 @@ void TextInput::SetSelectionColor(::g::Java::Object* handle, int32_t color)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/TextureView.uno
-// --------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/TextureView.uno
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed extern class TextureView :7
+// public sealed extern class TextureView
 // {
 static void TextureView_build(uType* type)
 {
@@ -4136,56 +4254,56 @@ static void TextureView_build(uType* type)
     return type;
 }
 
-// public TextureView() :9
+// public TextureView()
 void TextureView__ctor_8_fn(TextureView* __this)
 {
     __this->ctor_8();
 }
 
-// private static Java.Object Create() :45
+// private static Java.Object Create()
 void TextureView__Create_fn(::g::Java::Object** __retval)
 {
     *__retval = TextureView::Create();
 }
 
-// private void InstallSurfaceListener(Java.Object handle) :25
+// private void InstallSurfaceListener(Java.Object handle)
 void TextureView__InstallSurfaceListener_fn(TextureView* __this, ::g::Java::Object* handle)
 {
     __this->InstallSurfaceListener(handle);
 }
 
-// public TextureView New() :9
+// public TextureView New()
 void TextureView__New5_fn(TextureView** __retval)
 {
     *__retval = TextureView::New5();
 }
 
-// private void OnSurfaceTextureAvailable(Java.Object surface) :14
+// private void OnSurfaceTextureAvailable(Java.Object surface)
 void TextureView__OnSurfaceTextureAvailable_fn(TextureView* __this, ::g::Java::Object* surface)
 {
     __this->OnSurfaceTextureAvailable(surface);
 }
 
-// private void OnSurfaceTextureDestroyed() :19
+// private void OnSurfaceTextureDestroyed()
 void TextureView__OnSurfaceTextureDestroyed_fn(TextureView* __this)
 {
     __this->OnSurfaceTextureDestroyed();
 }
 
-// public TextureView() [instance] :9
+// public TextureView() [instance]
 void TextureView::ctor_8()
 {
     ctor_7(TextureView::Create());
     InstallSurfaceListener(GraphicsViewHandle());
 }
 
-// private void InstallSurfaceListener(Java.Object handle) [instance] :25
+// private void InstallSurfaceListener(Java.Object handle) [instance]
 void TextureView::InstallSurfaceListener(::g::Java::Object* handle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "InstallSurfaceListener216", "(Lcom/uno/UnoObject;Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "InstallSurfaceListener218", "(Lcom/uno/UnoObject;Ljava/lang/Object;)V");
         uObject* _uthis=this;
         jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
         ::g::Java::Object* _uhandle=handle;
@@ -4200,25 +4318,25 @@ void TextureView::InstallSurfaceListener(::g::Java::Object* handle)
     
 }
 
-// private void OnSurfaceTextureAvailable(Java.Object surface) [instance] :14
+// private void OnSurfaceTextureAvailable(Java.Object surface) [instance]
 void TextureView::OnSurfaceTextureAvailable(::g::Java::Object* surface)
 {
     SetSurface(surface);
 }
 
-// private void OnSurfaceTextureDestroyed() [instance] :19
+// private void OnSurfaceTextureDestroyed() [instance]
 void TextureView::OnSurfaceTextureDestroyed()
 {
     DestroySurface();
 }
 
-// private static Java.Object Create() [static] :45
+// private static Java.Object Create() [static]
 ::g::Java::Object* TextureView::Create()
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Create215", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Create217", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         ::g::Android::Base::JNI::CheckException();
@@ -4227,7 +4345,7 @@ void TextureView::OnSurfaceTextureDestroyed()
     
 }
 
-// public TextureView New() [static] :9
+// public TextureView New() [static]
 TextureView* TextureView::New5()
 {
     TextureView* obj1 = (TextureView*)uNew(TextureView_typeof());
@@ -4236,10 +4354,10 @@ TextureView* TextureView::New5()
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/TextView.uno
-// -----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/TextView.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public extern class TextView :8
+// public extern class TextView
 // {
 static void TextView_build(uType* type)
 {
@@ -4282,170 +4400,170 @@ TextView_type* TextView_typeof()
     return type;
 }
 
-// public TextView() :12
+// public TextView()
 void TextView__ctor_9_fn(TextView* __this)
 {
     __this->ctor_9();
 }
 
-// public TextView(Java.Object handle) :10
+// public TextView(Java.Object handle)
 void TextView__ctor_10_fn(TextView* __this, ::g::Java::Object* handle)
 {
     __this->ctor_10(handle);
 }
 
-// private static Java.Object Create() :78
+// private static Java.Object Create()
 void TextView__Create_fn(::g::Java::Object** __retval)
 {
     *__retval = TextView::Create();
 }
 
-// public void set_Font(Fuse.Font value) :45
+// public void set_Font(Fuse.Font value)
 void TextView__set_Font_fn(TextView* __this, ::g::Fuse::Font* value)
 {
     __this->Font(value);
 }
 
-// public void set_FontSize(float value) :40
+// public void set_FontSize(float value)
 void TextView__set_FontSize_fn(TextView* __this, float* value)
 {
     __this->FontSize(*value);
 }
 
-// public void set_LineSpacing(float value) :35
+// public void set_LineSpacing(float value)
 void TextView__set_LineSpacing_fn(TextView* __this, float* value)
 {
     __this->LineSpacing(*value);
 }
 
-// public void set_MaxLength(int value) :21
+// public void set_MaxLength(int value)
 void TextView__set_MaxLength_fn(TextView* __this, int32_t* value)
 {
     __this->MaxLength(*value);
 }
 
-// public TextView New() :12
+// public TextView New()
 void TextView__New5_fn(TextView** __retval)
 {
     *__retval = TextView::New5();
 }
 
-// private static void SetFont(Java.Object handle, Java.Object fontHandle) :111
+// private static void SetFont(Java.Object handle, Java.Object fontHandle)
 void TextView__SetFont_fn(::g::Java::Object* handle, ::g::Java::Object* fontHandle)
 {
     TextView::SetFont(handle, fontHandle);
 }
 
-// private static void SetFontSize(Java.Object handle, float size) :105
+// private static void SetFontSize(Java.Object handle, float size)
 void TextView__SetFontSize_fn(::g::Java::Object* handle, float* size)
 {
     TextView::SetFontSize(handle, *size);
 }
 
-// private static void SetLineSpacing(Java.Object handle, float spacing) :99
+// private static void SetLineSpacing(Java.Object handle, float spacing)
 void TextView__SetLineSpacing_fn(::g::Java::Object* handle, float* spacing)
 {
     TextView::SetLineSpacing(handle, *spacing);
 }
 
-// private static void SetMaxLength(Java.Object handle, int maxLength) :132
+// private static void SetMaxLength(Java.Object handle, int maxLength)
 void TextView__SetMaxLength_fn(::g::Java::Object* handle, int32_t* maxLength)
 {
     TextView::SetMaxLength(handle, *maxLength);
 }
 
-// private static void SetText(Java.Object handle, string text) :84
+// private static void SetText(Java.Object handle, string text)
 void TextView__SetText_fn(::g::Java::Object* handle, uString* text)
 {
     TextView::SetText(handle, text);
 }
 
-// private static void SetTextAlignment(Java.Object handle, int alignment) :117
+// private static void SetTextAlignment(Java.Object handle, int alignment)
 void TextView__SetTextAlignment_fn(::g::Java::Object* handle, int32_t* alignment)
 {
     TextView::SetTextAlignment(handle, *alignment);
 }
 
-// private static void SetTextColor(Java.Object handle, int color) :126
+// private static void SetTextColor(Java.Object handle, int color)
 void TextView__SetTextColor_fn(::g::Java::Object* handle, int32_t* color)
 {
     TextView::SetTextColor(handle, *color);
 }
 
-// private static void SetTextWrapping(Java.Object handle, bool wrap) :93
+// private static void SetTextWrapping(Java.Object handle, bool wrap)
 void TextView__SetTextWrapping_fn(::g::Java::Object* handle, bool* wrap)
 {
     TextView::SetTextWrapping(handle, *wrap);
 }
 
-// public void set_TextAlignment(Fuse.Controls.TextAlignment value) :56
+// public void set_TextAlignment(Fuse.Controls.TextAlignment value)
 void TextView__set_TextAlignment_fn(TextView* __this, int32_t* value)
 {
     __this->TextAlignment(*value);
 }
 
-// public void set_TextColor(float4 value) :69
+// public void set_TextColor(float4 value)
 void TextView__set_TextColor_fn(TextView* __this, ::g::Uno::Float4* value)
 {
     __this->TextColor(*value);
 }
 
-// public void set_TextTruncation(Fuse.Controls.TextTruncation value) :74
+// public void set_TextTruncation(Fuse.Controls.TextTruncation value)
 void TextView__set_TextTruncation_fn(TextView* __this, int32_t* value)
 {
     __this->TextTruncation(*value);
 }
 
-// public void set_TextWrapping(Fuse.Controls.TextWrapping value) :30
+// public void set_TextWrapping(Fuse.Controls.TextWrapping value)
 void TextView__set_TextWrapping_fn(TextView* __this, int32_t* value)
 {
     __this->TextWrapping(*value);
 }
 
-// public void set_Value(string value) :16
+// public void set_Value(string value)
 void TextView__set_Value_fn(TextView* __this, uString* value)
 {
     __this->Value(value);
 }
 
-// public TextView() [instance] :12
+// public TextView() [instance]
 void TextView::ctor_9()
 {
     ctor_10(TextView::Create());
 }
 
-// public TextView(Java.Object handle) [instance] :10
+// public TextView(Java.Object handle) [instance]
 void TextView::ctor_10(::g::Java::Object* handle)
 {
     ctor_7(handle);
 }
 
-// public void set_Font(Fuse.Font value) [instance] :45
+// public void set_Font(Fuse.Font value) [instance]
 void TextView::Font(::g::Fuse::Font* value)
 {
     ::g::Fuse::Controls::Native::Android::Typeface* typeface = (value != ::g::Fuse::Font::PlatformDefault()) ? (::g::Fuse::Controls::Native::Android::Typeface*)::g::Fuse::Controls::Native::Android::TypefaceCache::GetTypeface(value) : (::g::Fuse::Controls::Native::Android::Typeface*)::g::Fuse::Controls::Native::Android::Typeface::Default();
     TextView::SetFont(Handle(), uPtr(typeface)->Handle());
 }
 
-// public void set_FontSize(float value) [instance] :40
+// public void set_FontSize(float value) [instance]
 void TextView::FontSize(float value)
 {
     TextView::SetFontSize(Handle(), value);
 }
 
-// public void set_LineSpacing(float value) [instance] :35
+// public void set_LineSpacing(float value) [instance]
 void TextView::LineSpacing(float value)
 {
     TextView::SetLineSpacing(Handle(), value);
 }
 
-// public void set_MaxLength(int value) [instance] :21
+// public void set_MaxLength(int value) [instance]
 void TextView::MaxLength(int32_t value)
 {
     TextView::SetMaxLength(Handle(), (value == 0) ? 2147483647 : value);
 }
 
-// public void set_TextAlignment(Fuse.Controls.TextAlignment value) [instance] :56
+// public void set_TextAlignment(Fuse.Controls.TextAlignment value) [instance]
 void TextView::TextAlignment(int32_t value)
 {
     switch (value)
@@ -4468,36 +4586,36 @@ void TextView::TextAlignment(int32_t value)
     }
 }
 
-// public void set_TextColor(float4 value) [instance] :69
+// public void set_TextColor(float4 value) [instance]
 void TextView::TextColor(::g::Uno::Float4 value)
 {
     TextView::SetTextColor(Handle(), (int32_t)::g::Uno::Color::ToArgb(value));
 }
 
-// public void set_TextTruncation(Fuse.Controls.TextTruncation value) [instance] :74
+// public void set_TextTruncation(Fuse.Controls.TextTruncation value) [instance]
 void TextView::TextTruncation(int32_t value)
 {
 }
 
-// public void set_TextWrapping(Fuse.Controls.TextWrapping value) [instance] :30
+// public void set_TextWrapping(Fuse.Controls.TextWrapping value) [instance]
 void TextView::TextWrapping(int32_t value)
 {
     TextView::SetTextWrapping(Handle(), value == 1);
 }
 
-// public void set_Value(string value) [instance] :16
+// public void set_Value(string value) [instance]
 void TextView::Value(uString* value)
 {
     TextView::SetText(Handle(), value);
 }
 
-// private static Java.Object Create() [static] :78
+// private static Java.Object Create() [static]
 ::g::Java::Object* TextView::Create()
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Create219", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Create221", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         ::g::Android::Base::JNI::CheckException();
@@ -4506,7 +4624,7 @@ void TextView::Value(uString* value)
     
 }
 
-// public TextView New() [static] :12
+// public TextView New() [static]
 TextView* TextView::New5()
 {
     TextView* obj2 = (TextView*)uNew(TextView_typeof());
@@ -4514,13 +4632,13 @@ TextView* TextView::New5()
     return obj2;
 }
 
-// private static void SetFont(Java.Object handle, Java.Object fontHandle) [static] :111
+// private static void SetFont(Java.Object handle, Java.Object fontHandle) [static]
 void TextView::SetFont(::g::Java::Object* handle, ::g::Java::Object* fontHandle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetFont220", "(Ljava/lang/Object;Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetFont222", "(Ljava/lang/Object;Ljava/lang/Object;)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         ::g::Java::Object* _ufontHandle=fontHandle;
@@ -4535,13 +4653,13 @@ void TextView::SetFont(::g::Java::Object* handle, ::g::Java::Object* fontHandle)
     
 }
 
-// private static void SetFontSize(Java.Object handle, float size) [static] :105
+// private static void SetFontSize(Java.Object handle, float size) [static]
 void TextView::SetFontSize(::g::Java::Object* handle, float size)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetFontSize221", "(Ljava/lang/Object;F)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetFontSize223", "(Ljava/lang/Object;F)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         float _usize=size;
@@ -4556,13 +4674,13 @@ void TextView::SetFontSize(::g::Java::Object* handle, float size)
     
 }
 
-// private static void SetLineSpacing(Java.Object handle, float spacing) [static] :99
+// private static void SetLineSpacing(Java.Object handle, float spacing) [static]
 void TextView::SetLineSpacing(::g::Java::Object* handle, float spacing)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetLineSpacing222", "(Ljava/lang/Object;F)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetLineSpacing224", "(Ljava/lang/Object;F)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         float _uspacing=spacing;
@@ -4577,13 +4695,13 @@ void TextView::SetLineSpacing(::g::Java::Object* handle, float spacing)
     
 }
 
-// private static void SetMaxLength(Java.Object handle, int maxLength) [static] :132
+// private static void SetMaxLength(Java.Object handle, int maxLength) [static]
 void TextView::SetMaxLength(::g::Java::Object* handle, int32_t maxLength)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetMaxLength223", "(Ljava/lang/Object;I)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetMaxLength225", "(Ljava/lang/Object;I)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         int32_t _umaxLength=maxLength;
@@ -4598,13 +4716,13 @@ void TextView::SetMaxLength(::g::Java::Object* handle, int32_t maxLength)
     
 }
 
-// private static void SetText(Java.Object handle, string text) [static] :84
+// private static void SetText(Java.Object handle, string text) [static]
 void TextView::SetText(::g::Java::Object* handle, uString* text)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetText224", "(Ljava/lang/Object;Ljava/lang/String;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetText226", "(Ljava/lang/Object;Ljava/lang/String;)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         uString* _utext=text;
@@ -4619,13 +4737,13 @@ void TextView::SetText(::g::Java::Object* handle, uString* text)
     
 }
 
-// private static void SetTextAlignment(Java.Object handle, int alignment) [static] :117
+// private static void SetTextAlignment(Java.Object handle, int alignment) [static]
 void TextView::SetTextAlignment(::g::Java::Object* handle, int32_t alignment)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetTextAlignment225", "(Ljava/lang/Object;I)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetTextAlignment227", "(Ljava/lang/Object;I)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         int32_t _ualignment=alignment;
@@ -4640,13 +4758,13 @@ void TextView::SetTextAlignment(::g::Java::Object* handle, int32_t alignment)
     
 }
 
-// private static void SetTextColor(Java.Object handle, int color) [static] :126
+// private static void SetTextColor(Java.Object handle, int color) [static]
 void TextView::SetTextColor(::g::Java::Object* handle, int32_t color)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetTextColor226", "(Ljava/lang/Object;I)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetTextColor228", "(Ljava/lang/Object;I)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         int32_t _ucolor=color;
@@ -4661,13 +4779,13 @@ void TextView::SetTextColor(::g::Java::Object* handle, int32_t color)
     
 }
 
-// private static void SetTextWrapping(Java.Object handle, bool wrap) [static] :93
+// private static void SetTextWrapping(Java.Object handle, bool wrap) [static]
 void TextView::SetTextWrapping(::g::Java::Object* handle, bool wrap)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetTextWrapping227", "(Ljava/lang/Object;Z)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetTextWrapping229", "(Ljava/lang/Object;Z)V");
         ::g::Java::Object* _uhandle=handle;
         jobject _handle = (_uhandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uhandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         bool _uwrap=wrap;
@@ -4683,10 +4801,300 @@ void TextView::SetTextWrapping(::g::Java::Object* handle, bool wrap)
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/TypefaceCache.uno
-// ----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.TimePicker/1.12.0/Android/TimePicker.uno
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal sealed extern class Typeface :10
+// internal sealed extern class TimePickerView
+// {
+static void TimePickerView_build(uType* type)
+{
+    ::TYPES[3] = ::g::Uno::Action_typeof();
+    type->SetDependencies(
+        ::g::Fuse::UpdateManager_typeof());
+    type->SetInterfaces(
+        ::g::Uno::IDisposable_typeof(), offsetof(TimePickerView_type, interface0),
+        ::g::Fuse::Controls::Native::IView_typeof(), offsetof(TimePickerView_type, interface1),
+        ::g::Fuse::Controls::ITimePickerView_typeof(), offsetof(TimePickerView_type, interface2));
+    type->SetFields(6,
+        ::g::Fuse::Controls::TimePicker_typeof(), offsetof(TimePickerView, _host), 0,
+        ::g::Uno::DateTime_typeof(), offsetof(TimePickerView, _pollValueCache), 0);
+}
+
+TimePickerView_type* TimePickerView_typeof()
+{
+    static uSStrong<TimePickerView_type*> type;
+    if (type != NULL) return type;
+
+    uTypeOptions options;
+    options.BaseDefinition = ::g::Fuse::Controls::Native::Android::LeafView_typeof();
+    options.FieldCount = 8;
+    options.InterfaceCount = 3;
+    options.DependencyCount = 1;
+    options.ObjectSize = sizeof(TimePickerView);
+    options.TypeSize = sizeof(TimePickerView_type);
+    type = (TimePickerView_type*)uClassType::New("Fuse.Controls.Native.Android.TimePickerView", options);
+    type->fp_build_ = TimePickerView_build;
+    type->fp_Dispose = (void(*)(::g::Fuse::Controls::Native::ViewHandle*))TimePickerView__Dispose_fn;
+    type->interface2.fp_OnRooted = (void(*)(uObject*))TimePickerView__OnRooted_fn;
+    type->interface2.fp_OnUnrooted = (void(*)(uObject*))TimePickerView__OnUnrooted_fn;
+    type->interface2.fp_set_Value = (void(*)(uObject*, ::g::Uno::DateTime*))TimePickerView__set_Value_fn;
+    type->interface2.fp_set_Is24HourView = (void(*)(uObject*, bool*))TimePickerView__set_Is24HourView_fn;
+    type->interface0.fp_Dispose = (void(*)(uObject*))TimePickerView__Dispose_fn;
+    return type;
+}
+
+// public TimePickerView(Fuse.Controls.TimePicker host)
+void TimePickerView__ctor_9_fn(TimePickerView* __this, ::g::Fuse::Controls::TimePicker* host)
+{
+    __this->ctor_9(host);
+}
+
+// private static Java.Object Create()
+void TimePickerView__Create_fn(::g::Java::Object** __retval)
+{
+    *__retval = TimePickerView::Create();
+}
+
+// public override sealed void Dispose()
+void TimePickerView__Dispose_fn(TimePickerView* __this)
+{
+    ::g::Fuse::Controls::Native::ViewHandle__Dispose_fn(__this);
+    __this->_host = NULL;
+}
+
+// private long GetTimeInMsSince1970InUtc(Java.Object timePickerHandle)
+void TimePickerView__GetTimeInMsSince1970InUtc_fn(TimePickerView* __this, ::g::Java::Object* timePickerHandle, int64_t* __retval)
+{
+    *__retval = __this->GetTimeInMsSince1970InUtc(timePickerHandle);
+}
+
+// public void set_Is24HourView(bool value)
+void TimePickerView__set_Is24HourView_fn(TimePickerView* __this, bool* value)
+{
+    __this->Is24HourView(*value);
+}
+
+// public TimePickerView New(Fuse.Controls.TimePicker host)
+void TimePickerView__New5_fn(::g::Fuse::Controls::TimePicker* host, TimePickerView** __retval)
+{
+    *__retval = TimePickerView::New5(host);
+}
+
+// public void OnRooted()
+void TimePickerView__OnRooted_fn(TimePickerView* __this)
+{
+    __this->OnRooted();
+}
+
+// public void OnUnrooted()
+void TimePickerView__OnUnrooted_fn(TimePickerView* __this)
+{
+    __this->OnUnrooted();
+}
+
+// private void OnValueChanged(Uno.DateTime value)
+void TimePickerView__OnValueChanged_fn(TimePickerView* __this, ::g::Uno::DateTime* value)
+{
+    __this->OnValueChanged(*value);
+}
+
+// public void PollViewValue()
+void TimePickerView__PollViewValue_fn(TimePickerView* __this)
+{
+    __this->PollViewValue();
+}
+
+// private void SetIs24HourView(Java.Object timePickerHandle, bool value)
+void TimePickerView__SetIs24HourView_fn(TimePickerView* __this, ::g::Java::Object* timePickerHandle, bool* value)
+{
+    __this->SetIs24HourView(timePickerHandle, *value);
+}
+
+// private void SetTime(Java.Object timePickerHandle, long msSince1970InUtc)
+void TimePickerView__SetTime_fn(TimePickerView* __this, ::g::Java::Object* timePickerHandle, int64_t* msSince1970InUtc)
+{
+    __this->SetTime(timePickerHandle, *msSince1970InUtc);
+}
+
+// private void UpdatePollValueCache()
+void TimePickerView__UpdatePollValueCache_fn(TimePickerView* __this)
+{
+    __this->UpdatePollValueCache();
+}
+
+// public Uno.DateTime get_Value()
+void TimePickerView__get_Value_fn(TimePickerView* __this, ::g::Uno::DateTime* __retval)
+{
+    *__retval = __this->Value();
+}
+
+// public void set_Value(Uno.DateTime value)
+void TimePickerView__set_Value_fn(TimePickerView* __this, ::g::Uno::DateTime* value)
+{
+    __this->Value(*value);
+}
+
+// public TimePickerView(Fuse.Controls.TimePicker host) [instance]
+void TimePickerView::ctor_9(::g::Fuse::Controls::TimePicker* host)
+{
+    ctor_7(TimePickerView::Create());
+    _host = host;
+    Value(uPtr(_host)->Value());
+    Is24HourView(uPtr(_host)->Is24HourView());
+    UpdatePollValueCache();
+}
+
+// private long GetTimeInMsSince1970InUtc(Java.Object timePickerHandle) [instance]
+int64_t TimePickerView::GetTimeInMsSince1970InUtc(::g::Java::Object* timePickerHandle)
+{
+    {
+        INIT_JNI;
+        jclass __cls = JniHelper::GetNativeExternClass();
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetTimeInMsSince1970InUtc231", "(Lcom/uno/UnoObject;Ljava/lang/Object;)J");
+        uObject* _uthis=this;
+        jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
+        ::g::Java::Object* _utimePickerHandle=timePickerHandle;
+        jobject _timePickerHandle = (_utimePickerHandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_utimePickerHandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
+        jlong __jresult = U_JNIVAR->CallStaticLongMethod(__cls,__mtd,_this_,_timePickerHandle);
+        int64_t __result = (int64_t)__jresult;
+        if (_this_!=NULL) { U_JNIVAR->DeleteLocalRef(_this_); }
+        if (_timePickerHandle!=NULL) { U_JNIVAR->DeleteLocalRef(_timePickerHandle); }
+        ::g::Android::Base::JNI::CheckException();
+        return __result;
+    }
+    
+}
+
+// public void set_Is24HourView(bool value) [instance]
+void TimePickerView::Is24HourView(bool value)
+{
+    SetIs24HourView(Handle(), value);
+}
+
+// public void OnRooted() [instance]
+void TimePickerView::OnRooted()
+{
+    ::g::Fuse::UpdateManager::AddAction1(uDelegate::New(::TYPES[3/*Uno.Action*/], (void*)TimePickerView__PollViewValue_fn, this), 0);
+}
+
+// public void OnUnrooted() [instance]
+void TimePickerView::OnUnrooted()
+{
+    ::g::Fuse::UpdateManager::RemoveAction1(uDelegate::New(::TYPES[3/*Uno.Action*/], (void*)TimePickerView__PollViewValue_fn, this), 0);
+}
+
+// private void OnValueChanged(Uno.DateTime value) [instance]
+void TimePickerView::OnValueChanged(::g::Uno::DateTime value)
+{
+    uPtr(_host)->OnNativeViewValueChanged(value);
+}
+
+// public void PollViewValue() [instance]
+void TimePickerView::PollViewValue()
+{
+    if (::g::Uno::DateTime__op_Inequality(Value(), _pollValueCache))
+    {
+        OnValueChanged(Value());
+        UpdatePollValueCache();
+    }
+}
+
+// private void SetIs24HourView(Java.Object timePickerHandle, bool value) [instance]
+void TimePickerView::SetIs24HourView(::g::Java::Object* timePickerHandle, bool value)
+{
+    {
+        INIT_JNI;
+        jclass __cls = JniHelper::GetNativeExternClass();
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetIs24HourView232", "(Lcom/uno/UnoObject;Ljava/lang/Object;Z)V");
+        uObject* _uthis=this;
+        jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
+        ::g::Java::Object* _utimePickerHandle=timePickerHandle;
+        jobject _timePickerHandle = (_utimePickerHandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_utimePickerHandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
+        bool _uvalue=value;
+        jboolean _value = (jboolean)_uvalue;
+        U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_this_,_timePickerHandle,_value);
+        
+        if (_this_!=NULL) { U_JNIVAR->DeleteLocalRef(_this_); }
+        if (_timePickerHandle!=NULL) { U_JNIVAR->DeleteLocalRef(_timePickerHandle); }
+        
+        ::g::Android::Base::JNI::CheckException();
+        
+    }
+    
+}
+
+// private void SetTime(Java.Object timePickerHandle, long msSince1970InUtc) [instance]
+void TimePickerView::SetTime(::g::Java::Object* timePickerHandle, int64_t msSince1970InUtc)
+{
+    {
+        INIT_JNI;
+        jclass __cls = JniHelper::GetNativeExternClass();
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "SetTime233", "(Lcom/uno/UnoObject;Ljava/lang/Object;J)V");
+        uObject* _uthis=this;
+        jobject _this_ = ::g::Uno::Compiler::ExportTargetInterop::Foreign::Android::JavaUnoObject::Box6(_uthis);
+        ::g::Java::Object* _utimePickerHandle=timePickerHandle;
+        jobject _timePickerHandle = (_utimePickerHandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_utimePickerHandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
+        int64_t _umsSince1970InUtc=msSince1970InUtc;
+        jlong _msSince1970InUtc = (jlong)_umsSince1970InUtc;
+        U_JNIVAR->CallStaticVoidMethod(__cls,__mtd,_this_,_timePickerHandle,_msSince1970InUtc);
+        
+        if (_this_!=NULL) { U_JNIVAR->DeleteLocalRef(_this_); }
+        if (_timePickerHandle!=NULL) { U_JNIVAR->DeleteLocalRef(_timePickerHandle); }
+        
+        ::g::Android::Base::JNI::CheckException();
+        
+    }
+    
+}
+
+// private void UpdatePollValueCache() [instance]
+void TimePickerView::UpdatePollValueCache()
+{
+    _pollValueCache = Value();
+}
+
+// public Uno.DateTime get_Value() [instance]
+::g::Uno::DateTime TimePickerView::Value()
+{
+    int64_t msSince1970InUtc = GetTimeInMsSince1970InUtc(Handle());
+    return ::g::Fuse::Controls::Native::Android::DateTimeConverterHelpers::ConvertMsSince1970InUtcToDateTime(msSince1970InUtc);
+}
+
+// public void set_Value(Uno.DateTime value) [instance]
+void TimePickerView::Value(::g::Uno::DateTime value)
+{
+    SetTime(Handle(), ::g::Fuse::Controls::Native::Android::DateTimeConverterHelpers::ConvertDateTimeToMsSince1970InUtc(value));
+    UpdatePollValueCache();
+}
+
+// private static Java.Object Create() [static]
+::g::Java::Object* TimePickerView::Create()
+{
+    {
+        INIT_JNI;
+        jclass __cls = JniHelper::GetNativeExternClass();
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Create230", "()Ljava/lang/Object;");
+        jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
+        ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
+        ::g::Android::Base::JNI::CheckException();
+        return __result;
+    }
+    
+}
+
+// public TimePickerView New(Fuse.Controls.TimePicker host) [static]
+TimePickerView* TimePickerView::New5(::g::Fuse::Controls::TimePicker* host)
+{
+    TimePickerView* obj1 = (TimePickerView*)uNew(TimePickerView_typeof());
+    obj1->ctor_9(host);
+    return obj1;
+}
+// }
+
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/TypefaceCache.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// internal sealed extern class Typeface
 // {
 static void Typeface_build(uType* type)
 {
@@ -4711,91 +5119,91 @@ uType* Typeface_typeof()
     return type;
 }
 
-// public Typeface(Java.Object handle) :20
+// public Typeface(Java.Object handle)
 void Typeface__ctor__fn(Typeface* __this, ::g::Java::Object* handle)
 {
     __this->ctor_(handle);
 }
 
-// private static Java.Object CreateFromBundleFile(string bundlePath) :53
+// private static Java.Object CreateFromBundleFile(string bundlePath)
 void Typeface__CreateFromBundleFile_fn(uString* bundlePath, ::g::Java::Object** __retval)
 {
     *__retval = Typeface::CreateFromBundleFile(bundlePath);
 }
 
-// public static Fuse.Controls.Native.Android.Typeface CreateFromBundleFile(Uno.IO.BundleFile file) :42
+// public static Fuse.Controls.Native.Android.Typeface CreateFromBundleFile(Uno.IO.BundleFile file)
 void Typeface__CreateFromBundleFile1_fn(::g::Uno::IO::BundleFile* file, Typeface** __retval)
 {
     *__retval = Typeface::CreateFromBundleFile1(file);
 }
 
-// public static Fuse.Controls.Native.Android.Typeface CreateFromFile(string path) :47
+// public static Fuse.Controls.Native.Android.Typeface CreateFromFile(string path)
 void Typeface__CreateFromFile_fn(uString* path, Typeface** __retval)
 {
     *__retval = Typeface::CreateFromFile(path);
 }
 
-// private static Java.Object CreateFromFileImpl(string path) :61
+// private static Java.Object CreateFromFileImpl(string path)
 void Typeface__CreateFromFileImpl_fn(uString* path, ::g::Java::Object** __retval)
 {
     *__retval = Typeface::CreateFromFileImpl(path);
 }
 
-// public static Fuse.Controls.Native.Android.Typeface get_Default() :27
+// public static Fuse.Controls.Native.Android.Typeface get_Default()
 void Typeface__get_Default_fn(Typeface** __retval)
 {
     *__retval = Typeface::Default();
 }
 
-// public override sealed bool Equals(object obj) :30
+// public override sealed bool Equals(object obj)
 void Typeface__Equals_fn(Typeface* __this, uObject* obj, bool* __retval)
 {
     return *__retval = uIs(obj, ::TYPES[9/*Java.Object*/]) ? ::g::Uno::Object::Equals(uPtr(__this->_handle), uCast< ::g::Java::Object*>(obj, ::TYPES[9/*Java.Object*/])) : false, void();
 }
 
-// private static Java.Object GetDefault() :67
+// private static Java.Object GetDefault()
 void Typeface__GetDefault_fn(::g::Java::Object** __retval)
 {
     *__retval = Typeface::GetDefault();
 }
 
-// public override sealed int GetHashCode() :37
+// public override sealed int GetHashCode()
 void Typeface__GetHashCode_fn(Typeface* __this, int32_t* __retval)
 {
     return *__retval = ::g::Uno::Object::GetHashCode(uPtr(__this->_handle)), void();
 }
 
-// public Java.Object get_Handle() :14
+// public Java.Object get_Handle()
 void Typeface__get_Handle_fn(Typeface* __this, ::g::Java::Object** __retval)
 {
     *__retval = __this->Handle();
 }
 
-// public Typeface New(Java.Object handle) :20
+// public Typeface New(Java.Object handle)
 void Typeface__New1_fn(::g::Java::Object* handle, Typeface** __retval)
 {
     *__retval = Typeface::New1(handle);
 }
 
-// public Typeface(Java.Object handle) [instance] :20
+// public Typeface(Java.Object handle) [instance]
 void Typeface::ctor_(::g::Java::Object* handle)
 {
     _handle = handle;
 }
 
-// public Java.Object get_Handle() [instance] :14
+// public Java.Object get_Handle() [instance]
 ::g::Java::Object* Typeface::Handle()
 {
     return _handle;
 }
 
-// private static Java.Object CreateFromBundleFile(string bundlePath) [static] :53
+// private static Java.Object CreateFromBundleFile(string bundlePath) [static]
 ::g::Java::Object* Typeface::CreateFromBundleFile(uString* bundlePath)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateFromBundleFile232", "(Ljava/lang/String;)Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateFromBundleFile234", "(Ljava/lang/String;)Ljava/lang/Object;");
         uString* _ubundlePath=bundlePath;
         jstring _bundlePath = JniHelper::UnoToJavaString(_ubundlePath);
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd,_bundlePath);
@@ -4807,25 +5215,25 @@ void Typeface::ctor_(::g::Java::Object* handle)
     
 }
 
-// public static Fuse.Controls.Native.Android.Typeface CreateFromBundleFile(Uno.IO.BundleFile file) [static] :42
+// public static Fuse.Controls.Native.Android.Typeface CreateFromBundleFile(Uno.IO.BundleFile file) [static]
 Typeface* Typeface::CreateFromBundleFile1(::g::Uno::IO::BundleFile* file)
 {
     return Typeface::New1(Typeface::CreateFromBundleFile(uPtr(file)->BundlePath()));
 }
 
-// public static Fuse.Controls.Native.Android.Typeface CreateFromFile(string path) [static] :47
+// public static Fuse.Controls.Native.Android.Typeface CreateFromFile(string path) [static]
 Typeface* Typeface::CreateFromFile(uString* path)
 {
     return Typeface::New1(Typeface::CreateFromFileImpl(path));
 }
 
-// private static Java.Object CreateFromFileImpl(string path) [static] :61
+// private static Java.Object CreateFromFileImpl(string path) [static]
 ::g::Java::Object* Typeface::CreateFromFileImpl(uString* path)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateFromFileImpl233", "(Ljava/lang/String;)Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "CreateFromFileImpl235", "(Ljava/lang/String;)Ljava/lang/Object;");
         uString* _upath=path;
         jstring _path = JniHelper::UnoToJavaString(_upath);
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd,_path);
@@ -4837,13 +5245,13 @@ Typeface* Typeface::CreateFromFile(uString* path)
     
 }
 
-// private static Java.Object GetDefault() [static] :67
+// private static Java.Object GetDefault() [static]
 ::g::Java::Object* Typeface::GetDefault()
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetDefault234", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "GetDefault236", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         ::g::Android::Base::JNI::CheckException();
@@ -4852,7 +5260,7 @@ Typeface* Typeface::CreateFromFile(uString* path)
     
 }
 
-// public Typeface New(Java.Object handle) [static] :20
+// public Typeface New(Java.Object handle) [static]
 Typeface* Typeface::New1(::g::Java::Object* handle)
 {
     Typeface* obj1 = (Typeface*)uNew(Typeface_typeof());
@@ -4860,19 +5268,19 @@ Typeface* Typeface::New1(::g::Java::Object* handle)
     return obj1;
 }
 
-// public static Fuse.Controls.Native.Android.Typeface get_Default() [static] :27
+// public static Fuse.Controls.Native.Android.Typeface get_Default() [static]
 Typeface* Typeface::Default()
 {
     return Typeface::New1(Typeface::GetDefault());
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/TypefaceCache.uno
-// ----------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/TypefaceCache.uno
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// internal static extern class TypefaceCache :73
+// internal static extern class TypefaceCache
 // {
-// static generated TypefaceCache() :73
+// static generated TypefaceCache()
 static void TypefaceCache__cctor__fn(uType* __type)
 {
     TypefaceCache::_typefaces_ = ((::g::Uno::Collections::Dictionary*)::g::Uno::Collections::Dictionary::New1(::TYPES[24/*Uno.Collections.Dictionary<string, Fuse.Controls.Native.Android.Typeface>*/]));
@@ -4902,19 +5310,19 @@ uClassType* TypefaceCache_typeof()
     return type;
 }
 
-// public static Fuse.Controls.Native.Android.Typeface GetTypeface(Fuse.Font font) :78
+// public static Fuse.Controls.Native.Android.Typeface GetTypeface(Fuse.Font font)
 void TypefaceCache__GetTypeface_fn(::g::Fuse::Font* font, ::g::Fuse::Controls::Native::Android::Typeface** __retval)
 {
     *__retval = TypefaceCache::GetTypeface(font);
 }
 
-// private static Fuse.Controls.Native.Android.Typeface GetTypefaceFromBundleFile(Uno.IO.BundleFile file) :85
+// private static Fuse.Controls.Native.Android.Typeface GetTypefaceFromBundleFile(Uno.IO.BundleFile file)
 void TypefaceCache__GetTypefaceFromBundleFile_fn(::g::Uno::IO::BundleFile* file, ::g::Fuse::Controls::Native::Android::Typeface** __retval)
 {
     *__retval = TypefaceCache::GetTypefaceFromBundleFile(file);
 }
 
-// private static Fuse.Controls.Native.Android.Typeface GetTypefaceFromFileSource(Uno.UX.FileSource fileSource) :95
+// private static Fuse.Controls.Native.Android.Typeface GetTypefaceFromFileSource(Uno.UX.FileSource fileSource)
 void TypefaceCache__GetTypefaceFromFileSource_fn(::g::Uno::UX::FileSource* fileSource, ::g::Fuse::Controls::Native::Android::Typeface** __retval)
 {
     *__retval = TypefaceCache::GetTypefaceFromFileSource(fileSource);
@@ -4922,14 +5330,14 @@ void TypefaceCache__GetTypefaceFromFileSource_fn(::g::Uno::UX::FileSource* fileS
 
 uSStrong< ::g::Uno::Collections::Dictionary*> TypefaceCache::_typefaces_;
 
-// public static Fuse.Controls.Native.Android.Typeface GetTypeface(Fuse.Font font) [static] :78
+// public static Fuse.Controls.Native.Android.Typeface GetTypeface(Fuse.Font font) [static]
 ::g::Fuse::Controls::Native::Android::Typeface* TypefaceCache::GetTypeface(::g::Fuse::Font* font)
 {
     TypefaceCache_typeof()->Init();
     return uIs((::g::Uno::UX::FileSource*)uPtr(font)->FileSource(), ::TYPES[25/*Uno.UX.BundleFileSource*/]) ? (::g::Fuse::Controls::Native::Android::Typeface*)TypefaceCache::GetTypefaceFromBundleFile(uPtr(uCast< ::g::Uno::UX::BundleFileSource*>(uPtr(font)->FileSource(), ::TYPES[25/*Uno.UX.BundleFileSource*/]))->BundleFile) : (::g::Fuse::Controls::Native::Android::Typeface*)TypefaceCache::GetTypefaceFromFileSource(uPtr(font)->FileSource());
 }
 
-// private static Fuse.Controls.Native.Android.Typeface GetTypefaceFromBundleFile(Uno.IO.BundleFile file) [static] :85
+// private static Fuse.Controls.Native.Android.Typeface GetTypefaceFromBundleFile(Uno.IO.BundleFile file) [static]
 ::g::Fuse::Controls::Native::Android::Typeface* TypefaceCache::GetTypefaceFromBundleFile(::g::Uno::IO::BundleFile* file)
 {
     TypefaceCache_typeof()->Init();
@@ -4944,7 +5352,7 @@ uSStrong< ::g::Uno::Collections::Dictionary*> TypefaceCache::_typefaces_;
     return typeface;
 }
 
-// private static Fuse.Controls.Native.Android.Typeface GetTypefaceFromFileSource(Uno.UX.FileSource fileSource) [static] :95
+// private static Fuse.Controls.Native.Android.Typeface GetTypefaceFromFileSource(Uno.UX.FileSource fileSource) [static]
 ::g::Fuse::Controls::Native::Android::Typeface* TypefaceCache::GetTypefaceFromFileSource(::g::Uno::UX::FileSource* fileSource)
 {
     TypefaceCache_typeof()->Init();
@@ -4972,10 +5380,10 @@ uSStrong< ::g::Uno::Collections::Dictionary*> TypefaceCache::_typefaces_;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/View.uno
-// -------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/View.uno
+// -------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public abstract extern class View :8
+// public abstract extern class View
 // {
 static void View_build(uType* type)
 {
@@ -5003,60 +5411,60 @@ View_type* View_typeof()
     return type;
 }
 
-// protected View(Java.Object handle) :14
+// protected View(Java.Object handle)
 void View__ctor_4_fn(View* __this, ::g::Java::Object* handle)
 {
     __this->ctor_4(handle);
 }
 
-// protected View(Java.Object handle, bool isLeafView) :16
+// protected View(Java.Object handle, bool isLeafView)
 void View__ctor_5_fn(View* __this, ::g::Java::Object* handle, bool* isLeafView)
 {
     __this->ctor_5(handle, *isLeafView);
 }
 
-// protected View(Java.Object handle, bool isLeafView, bool handlesInput) :18
+// protected View(Java.Object handle, bool isLeafView, bool handlesInput)
 void View__ctor_6_fn(View* __this, ::g::Java::Object* handle, bool* isLeafView, bool* handlesInput)
 {
     __this->ctor_6(handle, *isLeafView, *handlesInput);
 }
 
-// public Java.Object get_Handle() :10
+// public Java.Object get_Handle()
 void View__get_Handle_fn(View* __this, ::g::Java::Object** __retval)
 {
     *__retval = __this->Handle();
 }
 
-// protected View(Java.Object handle) [instance] :14
+// protected View(Java.Object handle) [instance]
 void View::ctor_4(::g::Java::Object* handle)
 {
     ctor_5(handle, false);
 }
 
-// protected View(Java.Object handle, bool isLeafView) [instance] :16
+// protected View(Java.Object handle, bool isLeafView) [instance]
 void View::ctor_5(::g::Java::Object* handle, bool isLeafView)
 {
     ctor_6(handle, isLeafView, false);
 }
 
-// protected View(Java.Object handle, bool isLeafView, bool handlesInput) [instance] :18
+// protected View(Java.Object handle, bool isLeafView, bool handlesInput) [instance]
 void View::ctor_6(::g::Java::Object* handle, bool isLeafView, bool handlesInput)
 {
     ctor_2(handle, isLeafView, handlesInput);
     _handle = handle;
 }
 
-// public Java.Object get_Handle() [instance] :10
+// public Java.Object get_Handle() [instance]
 ::g::Java::Object* View::Handle()
 {
     return _handle;
 }
 // }
 
-// /usr/local/share/uno/Packages/Fuse.Controls.Native/1.9.0/Android/ViewGroup.uno
-// ------------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Native/1.12.0/Android/ViewGroup.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public sealed extern class ViewGroup :7
+// public sealed extern class ViewGroup
 // {
 static void ViewGroup_build(uType* type)
 {
@@ -5075,37 +5483,37 @@ uType* ViewGroup_typeof()
     return type;
 }
 
-// internal static void AddView(Java.Object parentHandle, Java.Object childHandle) :20
+// internal static void AddView(Java.Object parentHandle, Java.Object childHandle)
 void ViewGroup__AddView_fn(::g::Java::Object* parentHandle, ::g::Java::Object* childHandle)
 {
     ViewGroup::AddView(parentHandle, childHandle);
 }
 
-// internal static void AddView(Java.Object parentHandle, Java.Object childHandle, int index) :28
+// internal static void AddView(Java.Object parentHandle, Java.Object childHandle, int index)
 void ViewGroup__AddView1_fn(::g::Java::Object* parentHandle, ::g::Java::Object* childHandle, int32_t* index)
 {
     ViewGroup::AddView1(parentHandle, childHandle, *index);
 }
 
-// internal static Java.Object Create() :10
+// internal static Java.Object Create()
 void ViewGroup__Create_fn(::g::Java::Object** __retval)
 {
     *__retval = ViewGroup::Create();
 }
 
-// internal static void RemoveView(Java.Object parentHandle, Java.Object childHandle) :36
+// internal static void RemoveView(Java.Object parentHandle, Java.Object childHandle)
 void ViewGroup__RemoveView_fn(::g::Java::Object* parentHandle, ::g::Java::Object* childHandle)
 {
     ViewGroup::RemoveView(parentHandle, childHandle);
 }
 
-// internal static void AddView(Java.Object parentHandle, Java.Object childHandle) [static] :20
+// internal static void AddView(Java.Object parentHandle, Java.Object childHandle) [static]
 void ViewGroup::AddView(::g::Java::Object* parentHandle, ::g::Java::Object* childHandle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "AddView235", "(Ljava/lang/Object;Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "AddView237", "(Ljava/lang/Object;Ljava/lang/Object;)V");
         ::g::Java::Object* _uparentHandle=parentHandle;
         jobject _parentHandle = (_uparentHandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uparentHandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         ::g::Java::Object* _uchildHandle=childHandle;
@@ -5120,13 +5528,13 @@ void ViewGroup::AddView(::g::Java::Object* parentHandle, ::g::Java::Object* chil
     
 }
 
-// internal static void AddView(Java.Object parentHandle, Java.Object childHandle, int index) [static] :28
+// internal static void AddView(Java.Object parentHandle, Java.Object childHandle, int index) [static]
 void ViewGroup::AddView1(::g::Java::Object* parentHandle, ::g::Java::Object* childHandle, int32_t index)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "AddView1236", "(Ljava/lang/Object;Ljava/lang/Object;I)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "AddView1238", "(Ljava/lang/Object;Ljava/lang/Object;I)V");
         ::g::Java::Object* _uparentHandle=parentHandle;
         jobject _parentHandle = (_uparentHandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uparentHandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         ::g::Java::Object* _uchildHandle=childHandle;
@@ -5144,13 +5552,13 @@ void ViewGroup::AddView1(::g::Java::Object* parentHandle, ::g::Java::Object* chi
     
 }
 
-// internal static Java.Object Create() [static] :10
+// internal static Java.Object Create() [static]
 ::g::Java::Object* ViewGroup::Create()
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Create237", "()Ljava/lang/Object;");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "Create239", "()Ljava/lang/Object;");
         jobject __jresult = U_JNIVAR->CallStaticObjectMethod(__cls,__mtd);
         ::g::Java::Object* __result = (::g::Java::Object*)::g::Android::Base::Wrappers::JavaObjectHelper::JObjectToJWrapper(__jresult, false);
         ::g::Android::Base::JNI::CheckException();
@@ -5159,13 +5567,13 @@ void ViewGroup::AddView1(::g::Java::Object* parentHandle, ::g::Java::Object* chi
     
 }
 
-// internal static void RemoveView(Java.Object parentHandle, Java.Object childHandle) [static] :36
+// internal static void RemoveView(Java.Object parentHandle, Java.Object childHandle) [static]
 void ViewGroup::RemoveView(::g::Java::Object* parentHandle, ::g::Java::Object* childHandle)
 {
     {
         INIT_JNI;
         jclass __cls = JniHelper::GetNativeExternClass();
-        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "RemoveView238", "(Ljava/lang/Object;Ljava/lang/Object;)V");
+        WITH_STATIC_JAVA_METHOD(__mtd, __cls, "RemoveView240", "(Ljava/lang/Object;Ljava/lang/Object;)V");
         ::g::Java::Object* _uparentHandle=parentHandle;
         jobject _parentHandle = (_uparentHandle==NULL ? NULL : U_JNIVAR->NewLocalRef(::g::Android::Base::Wrappers::IJWrapper::_GetJavaObject(uInterface((uObject*)_uparentHandle, ::g::Android::Base::Wrappers::IJWrapper_typeof()))));
         ::g::Java::Object* _uchildHandle=childHandle;

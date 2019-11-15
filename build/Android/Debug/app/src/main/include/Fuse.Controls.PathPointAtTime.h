@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Controls.Primitives/1.9.0/Shapes/PathExpression.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Controls.Primitives/1.12.0/Shapes/PathExpression.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Controls{
 
-// public sealed class PathPointAtTime :157
+// public sealed class PathPointAtTime
 // {
 ::g::Fuse::Controls::PathExpression_type* PathPointAtTime_typeof();
 void PathPointAtTime__Calculate_fn(PathPointAtTime* __this, ::g::Fuse::Controls::SegmentedShape* path, uObject* param, uObject** __retval);

@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.iOS/1.9.0/StatusBarConfig.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.iOS/1.12.0/StatusBarConfig.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -18,7 +18,7 @@ namespace g{
 namespace Fuse{
 namespace iOS{
 
-// public sealed class StatusBarConfig :28
+// public sealed class StatusBarConfig
 // {
 ::g::Fuse::Node_type* StatusBarConfig_typeof();
 void StatusBarConfig__ctor_3_fn(StatusBarConfig* __this);

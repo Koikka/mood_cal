@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Effects/1.9.0/Halftone.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Effects/1.12.0/Halftone.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@
 #include <Uno.Collections.IEnumerable-1.h>
 #include <Uno.Collections.IList-1.h>
 #include <Uno.Float4x4.h>
-#include <Uno.Runtime.Implement-476e2792.h>
+#include <Uno.Runtime.Implement-3bc148a8.h>
 namespace g{namespace Fuse{namespace Effects{struct Halftone;}}}
 namespace g{namespace Fuse{struct DrawContext;}}
 namespace g{namespace Uno{namespace Graphics{struct VertexBuffer;}}}
@@ -22,7 +22,7 @@ namespace g{
 namespace Fuse{
 namespace Effects{
 
-// public sealed class Halftone :12
+// public sealed class Halftone
 // {
 ::g::Fuse::Effects::BasicEffect_type* Halftone_typeof();
 void Halftone__get_DotTint_fn(Halftone* __this, float* __retval);
@@ -44,10 +44,10 @@ struct Halftone : ::g::Fuse::Effects::BasicEffect
     float _smoothness;
     float _dotTint;
     float _paperTint;
-    uStrong< ::g::Uno::Graphics::VertexBuffer*> OnRender_VertexData_4b464452_7_2_1;
-    ::g::Uno::Float4x4 OnRender_LocalTransform_4b464452_4_9_2;
-    ::g::Uno::Float4x4 OnRender_LocalTransform_4b464452_4_9_3;
-    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_4b464452;
+    uStrong< ::g::Uno::Graphics::VertexBuffer*> OnRender_VertexData_5200158f_7_2_1;
+    ::g::Uno::Float4x4 OnRender_LocalTransform_5200158f_4_9_2;
+    ::g::Uno::Float4x4 OnRender_LocalTransform_5200158f_4_9_3;
+    ::g::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLDrawCall _draw_5200158f;
 
     float DotTint();
     void DotTint(float value);

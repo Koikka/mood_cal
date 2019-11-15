@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Android.TextRenderer/1.9.0/Internal/TextUtils.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Android.TextRenderer/1.12.0/Internal/TextUtils.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{
 namespace Fuse{
 namespace Android{
 
-// internal sealed extern class TextUtils :12
+// internal sealed extern class TextUtils
 // {
 uType* TextUtils_typeof();
 

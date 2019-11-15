@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Reactive/1.9.0/ObserverMap.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Reactive/1.12.0/ObserverMap.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Fuse{
 namespace Reactive{
 
-// internal abstract class ObserverMap<T> :23
+// internal abstract class ObserverMap<T>
 // {
 struct ObserverMap_type : uType
 {

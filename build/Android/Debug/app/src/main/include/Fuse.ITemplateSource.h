@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Visual.Templates.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Visual.Templates.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -8,7 +8,7 @@ namespace g{namespace Uno{namespace UX{struct Template;}}}
 namespace g{
 namespace Fuse{
 
-// public abstract interface ITemplateSource :9
+// public abstract interface ITemplateSource
 // {
 uInterfaceType* ITemplateSource_typeof();
 

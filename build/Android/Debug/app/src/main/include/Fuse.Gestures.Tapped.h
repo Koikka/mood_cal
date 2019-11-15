@@ -1,9 +1,9 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Gestures/1.9.0/Tapped.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Gestures/1.12.0/Tapped.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Animations.IBase-d3bd6f2e.h>
-#include <Fuse.Animations.IUnwr-594abe9.h>
+#include <Fuse.Animations.IBase-3168404.h>
+#include <Fuse.Animations.IUnwr-29908c99.h>
 #include <Fuse.Binding.h>
 #include <Fuse.Gestures.ClickerTrigger.h>
 #include <Fuse.INotifyUnrooted.h>
@@ -20,7 +20,7 @@ namespace g{
 namespace Fuse{
 namespace Gestures{
 
-// public sealed class Tapped :35
+// public sealed class Tapped
 // {
 ::g::Fuse::Triggers::Trigger_type* Tapped_typeof();
 void Tapped__ctor_6_fn(Tapped* __this);

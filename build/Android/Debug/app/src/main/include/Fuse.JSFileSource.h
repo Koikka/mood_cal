@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Marshal/1.9.0/FileSourceConverter.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Marshal/1.12.0/FileSourceConverter.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -9,7 +9,7 @@ namespace g{namespace Uno{namespace IO{struct Stream;}}}
 namespace g{
 namespace Fuse{
 
-// internal sealed class JSFileSource :31
+// internal sealed class JSFileSource
 // {
 ::g::Uno::UX::FileSource_type* JSFileSource_typeof();
 void JSFileSource__ctor_1_fn(JSFileSource* __this, uString* path);

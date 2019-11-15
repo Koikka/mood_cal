@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Scaling.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Scaling.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{namespace Uno{struct Float3;}}
 namespace g{
 namespace Fuse{
 
-// public abstract interface IScalingMode :6
+// public abstract interface IScalingMode
 // {
 uInterfaceType* IScalingMode_typeof();
 

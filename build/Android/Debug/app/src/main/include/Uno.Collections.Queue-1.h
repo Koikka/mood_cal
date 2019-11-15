@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Collections/Queue.uno.
+// This file was generated based on node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Collections/Queue.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -11,7 +11,7 @@ namespace g{
 namespace Uno{
 namespace Collections{
 
-// public sealed class Queue<T> :6
+// public sealed class Queue<T>
 // {
 struct Queue_type : uType
 {
@@ -56,7 +56,7 @@ struct Queue : uObject
 
 }}} // ::g::Uno::Collections
 
-#include <Uno.Collections.Queue-a4ffa9de.h>
+#include <Uno.Collections.Queue-b27c9fc7.h>
 
 namespace g{
 namespace Uno{

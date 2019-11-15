@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Drawing/1.9.0/Brushes/SolidColor.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Drawing/1.12.0/Brushes/SolidColor.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -12,7 +12,7 @@ namespace g{
 namespace Fuse{
 namespace Drawing{
 
-// public sealed class SolidColor :13
+// public sealed class SolidColor
 // {
 struct SolidColor_type : ::g::Fuse::Drawing::Brush_type
 {

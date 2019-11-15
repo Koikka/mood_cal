@@ -1,4 +1,4 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Nodes/1.9.0/Input/PointerEventArgs.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Nodes/1.12.0/Input/PointerEventArgs.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
@@ -10,7 +10,7 @@ namespace g{
 namespace Fuse{
 namespace Input{
 
-// public sealed class PointerEventData :6
+// public sealed class PointerEventData
 // {
 uType* PointerEventData_typeof();
 void PointerEventData__ctor__fn(PointerEventData* __this);

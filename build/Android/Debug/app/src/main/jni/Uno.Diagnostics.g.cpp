@@ -6,10 +6,10 @@
 #include <time.h>
 #include <Uno.Bool.h>
 #include <Uno.Delegate.h>
-#include <Uno.Diagnostics.Asser-ca8bbf62.h>
+#include <Uno.Diagnostics.Asser-721aea07.h>
 #include <Uno.Diagnostics.Clock.h>
 #include <Uno.Diagnostics.Debug.h>
-#include <Uno.Diagnostics.Debug-5d778620.h>
+#include <Uno.Diagnostics.Debug-20ee58c0.h>
 #include <Uno.Diagnostics.LogHandler.h>
 #include <Uno.Double.h>
 #include <Uno.Int.h>
@@ -22,10 +22,10 @@ namespace g{
 namespace Uno{
 namespace Diagnostics{
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Diagnostics/Debug.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Diagnostics/Debug.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public delegate void AssertionHandler(bool value, string expression, string filename, int line, object[] operands) :21
+// public delegate void AssertionHandler(bool value, string expression, string filename, int line, object[] operands)
 uDelegateType* AssertionHandler_typeof()
 {
     static uSStrong<uDelegateType*> type;
@@ -41,10 +41,10 @@ uDelegateType* AssertionHandler_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Diagnostics/Clock.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Diagnostics/Clock.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class Clock :9
+// public static class Clock
 // {
 static void Clock_build(uType* type)
 {
@@ -62,25 +62,25 @@ uClassType* Clock_typeof()
     return type;
 }
 
-// public static double GetSeconds() :17
+// public static double GetSeconds()
 void Clock__GetSeconds_fn(double* __retval)
 {
     *__retval = Clock::GetSeconds();
 }
 
-// public static long GetTicks() :60
+// public static long GetTicks()
 void Clock__GetTicks_fn(int64_t* __retval)
 {
     *__retval = Clock::GetTicks();
 }
 
-// public static int GetTimezoneOffset(int year, int month, int day) :77
+// public static int GetTimezoneOffset(int year, int month, int day)
 void Clock__GetTimezoneOffset_fn(int32_t* year, int32_t* month, int32_t* day, int32_t* __retval)
 {
     *__retval = Clock::GetTimezoneOffset(*year, *month, *day);
 }
 
-// public static double GetSeconds() [static] :17
+// public static double GetSeconds() [static]
 double Clock::GetSeconds()
 {
     // this method is more accurate for android
@@ -89,14 +89,14 @@ double Clock::GetSeconds()
     return ((double)now.tv_sec) + (((double)now.tv_nsec) / 1000000000.0);
 }
 
-// public static long GetTicks() [static] :60
+// public static long GetTicks() [static]
 int64_t Clock::GetTicks()
 {
     auto start = std::chrono::system_clock::now();
     return std::chrono::duration_cast<std::chrono::duration<int64_t, std::ratio<1, 10000000>>>(start.time_since_epoch()).count();
 }
 
-// public static int GetTimezoneOffset(int year, int month, int day) [static] :77
+// public static int GetTimezoneOffset(int year, int month, int day) [static]
 int32_t Clock::GetTimezoneOffset(int32_t year, int32_t month, int32_t day)
 {
     struct tm stm;
@@ -128,12 +128,12 @@ int32_t Clock::GetTimezoneOffset(int32_t year, int32_t month, int32_t day)
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Diagnostics/Debug.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Diagnostics/Debug.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public static class Debug :27
+// public static class Debug
 // {
-// static generated Debug() :27
+// static generated Debug()
 static void Debug__cctor__fn(uType* __type)
 {
     Debug::_indentStr_ = ::STRINGS[0/*""*/];
@@ -166,25 +166,25 @@ uClassType* Debug_typeof()
     return type;
 }
 
-// public static void Assert(bool value, string expression, string filename, int line, object[] operands) :39
+// public static void Assert(bool value, string expression, string filename, int line, object[] operands)
 void Debug__Assert_fn(bool* value, uString* expression, uString* filename, int32_t* line, uArray* operands)
 {
     Debug::Assert(*value, expression, filename, *line, operands);
 }
 
-// private static void EmitLog(string message, Uno.Diagnostics.DebugMessageType type) :89
+// private static void EmitLog(string message, Uno.Diagnostics.DebugMessageType type)
 void Debug__EmitLog_fn(uString* message, int32_t* type)
 {
     Debug::EmitLog(message, *type);
 }
 
-// public static void Log(string message, [Uno.Diagnostics.DebugMessageType type]) :68
+// public static void Log(string message, [Uno.Diagnostics.DebugMessageType type])
 void Debug__Log2_fn(uString* message, int32_t* type)
 {
     Debug::Log2(message, *type);
 }
 
-// public static void Log(string message, Uno.Diagnostics.DebugMessageType type, string filename, int line) :58
+// public static void Log(string message, Uno.Diagnostics.DebugMessageType type, string filename, int line)
 void Debug__Log3_fn(uString* message, int32_t* type, uString* filename, int32_t* line)
 {
     Debug::Log3(message, *type, filename, *line);
@@ -194,7 +194,7 @@ uSStrong<uDelegate*> Debug::_assertionHandler_;
 uSStrong<uDelegate*> Debug::_logHandler_;
 uSStrong<uString*> Debug::_indentStr_;
 
-// public static void Assert(bool value, string expression, string filename, int line, object[] operands) [static] :39
+// public static void Assert(bool value, string expression, string filename, int line, object[] operands) [static]
 void Debug::Assert(bool value, uString* expression, uString* filename, int32_t line, uArray* operands)
 {
     Debug_typeof()->Init();
@@ -206,7 +206,7 @@ void Debug::Assert(bool value, uString* expression, uString* filename, int32_t l
         Debug::EmitLog(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition1(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::g::Uno::String::op_Addition2(::STRINGS[1/*"Assertion F...*/], expression), ::STRINGS[2/*"' in "*/]), filename), ::STRINGS[3/*"("*/]), uBox<int32_t>(::g::Uno::Int_typeof(), line)), ::STRINGS[4/*")"*/]), 3);
 }
 
-// private static void EmitLog(string message, Uno.Diagnostics.DebugMessageType type) [static] :89
+// private static void EmitLog(string message, Uno.Diagnostics.DebugMessageType type) [static]
 void Debug::EmitLog(uString* message, int32_t type)
 {
     Debug_typeof()->Init();
@@ -218,14 +218,14 @@ void Debug::EmitLog(uString* message, int32_t type)
     uLog(type, "%s", cstr.Ptr);
 }
 
-// public static void Log(string message, [Uno.Diagnostics.DebugMessageType type]) [static] :68
+// public static void Log(string message, [Uno.Diagnostics.DebugMessageType type]) [static]
 void Debug::Log2(uString* message, int32_t type)
 {
     Debug_typeof()->Init();
     Debug::EmitLog(message, type);
 }
 
-// public static void Log(string message, Uno.Diagnostics.DebugMessageType type, string filename, int line) [static] :58
+// public static void Log(string message, Uno.Diagnostics.DebugMessageType type, string filename, int line) [static]
 void Debug::Log3(uString* message, int32_t type, uString* filename, int32_t line)
 {
     Debug_typeof()->Init();
@@ -233,10 +233,10 @@ void Debug::Log3(uString* message, int32_t type, uString* filename, int32_t line
 }
 // }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Diagnostics/Debug.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Diagnostics/Debug.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public enum DebugMessageType :8
+// public enum DebugMessageType
 uEnumType* DebugMessageType_typeof()
 {
     static uSStrong<uEnumType*> type;
@@ -253,10 +253,10 @@ uEnumType* DebugMessageType_typeof()
     return type;
 }
 
-// /usr/local/share/uno/Packages/UnoCore/1.9.0/Source/Uno/Diagnostics/Debug.uno
-// ----------------------------------------------------------------------------
+// /Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/node_modules/fuse-sdk/node_modules/@fuse-open/uno/lib/build/UnoCore/1.12.3/Source/Uno/Diagnostics/Debug.uno
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// public delegate void LogHandler(string message, Uno.Diagnostics.DebugMessageType type) :24
+// public delegate void LogHandler(string message, Uno.Diagnostics.DebugMessageType type)
 uDelegateType* LogHandler_typeof()
 {
     static uSStrong<uDelegateType*> type;

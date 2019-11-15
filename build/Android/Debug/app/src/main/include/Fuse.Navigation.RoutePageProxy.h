@@ -1,8 +1,8 @@
-// This file was generated based on /usr/local/share/uno/Packages/Fuse.Navigation/1.9.0/RoutePageProxy.uno.
+// This file was generated based on node_modules/@fuse-open/fuselibs/Source/build/Fuse.Navigation/1.12.0/RoutePageProxy.uno.
 // WARNING: Changes might be lost if you edit this file directly.
 
 #pragma once
-#include <Fuse.Navigation.Route-ea6aa4c1.h>
+#include <Fuse.Navigation.Route-ac37ae71.h>
 #include <Uno.Object.h>
 namespace g{namespace Fuse{namespace Navigation{struct NavigationArgs;}}}
 namespace g{namespace Fuse{namespace Navigation{struct RoutePageProxy;}}}
@@ -14,7 +14,7 @@ namespace g{
 namespace Fuse{
 namespace Navigation{
 
-// internal sealed class RoutePageProxy :32
+// internal sealed class RoutePageProxy
 // {
 uType* RoutePageProxy_typeof();
 void RoutePageProxy__ctor__fn(RoutePageProxy* __this, ::g::Fuse::Visual* source, uDelegate* activeChanged);
