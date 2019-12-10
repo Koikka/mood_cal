@@ -1,3 +1,0 @@
-/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
-/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
-/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Preview/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/mood_calendar.dir

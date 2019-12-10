@@ -1,4 +1,0 @@
-#Fri Jun 08 13:16:09 EEST 2018
-base.0=/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Preview/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/anttikoivisto/Documents/SAMK/FUSE/mood_calendar/build/Android/Preview/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
