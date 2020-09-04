@@ -901,7 +901,7 @@ function save_eat() {
     console.log("Meal picture: "+meal_picture);
     console.log("Base_64_image: "+base_64_image);
 
-    // SAMPLE
+    // SAMPLE 
     // https://koikka.work/fuse/fuse.php?action=save_meal&id=83E95ADC-3780-35C6-A7E4-90069C5A3BE8&meal_quality=9&meal_time=(observable) 11:(observable) 25&compensation=oksensin,liikunta&free_text=blah&meal_img=/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAHgAOIDASIAAhEBAxEB/8QAHwAAAgMAAwEBAQEAAAAAAAAABgcFCAkAAwQKAgsB/8QAORAAAgMAAgIBBAICAQMDAgQHAgMBBAUGEhETBwAUISIIFSMxMgkWJDNBURdCJTRDUmFxCpEYodL/xAAdAQACAgMBAQEAAAAAAAAAAAACAwEEAAUGBwgJ/8QAPhEAAQIEAwYEBQMEAAYCAwAAAQIRAAMhMRJBUQRhcYGR8AUTobEGIsHR4Qcy8RRCUmIVIzNyksIIJFOCov/aAAwDAQACEQMRAD8A+hr494tw3AMWcap/eWBT0/t7hfe3mRNZww9pygVUXXEvcM/1yqEvqMKu1HaGEZ/r6CrqDQlwVoBbjlsWqVaISpcg5hNsExS1hDJY5pLH1qE3sIFwfaudHk21lMCcGy5lywipUZZsQeh3cDClMVFX4tKrOE2EqSSmDYqAGPWsFD9FeNk75ptXZ1izbDUMt2bb7UoI0slvud9wLUNIokRKSGQAWm2PemfzNTzgoMkUDUAZh68/WNqqWXdSnJvmfePbc4xo0mhQXbya2XNFFfTi5ZZ97ZimbCt6Dr1OsKUGVdry+4L/AAJuSuH+R9Mr6
     var url = "https://koikka.work/fuse/fuse.php";
     // var body = "action=save_meal&id="+Device.UUID+"&meal_quality="+mood+"&meal_time="+meal_h.value+":"+meal_m.value+"&compensation="+compensation+"&free_text="+eat_free_text.value+"&meal_img="+base_64_image+"&image_from_library="+image_from_library;
